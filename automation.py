@@ -4,6 +4,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import feedparser
+import requests
+
+from bs4 import BeautifulSoup
 from groq import Groq
 
 
@@ -50,7 +53,6 @@ def get_latest_story():
         raise RuntimeError("No RSS entries found.")
 
     for entry in feed.entries[:20]:
-
         story = {
             "title": entry.get("title", "").strip(),
             "link": entry.get("link", "").strip(),
@@ -74,11 +76,83 @@ def get_latest_story():
 
 
 # =========================
-# GENERATE ARTICLE
+# FETCH FULL SOURCE ARTICLE
+# =========================
+
+def fetch_full_article(url):
+    print("Fetching full source article...")
+
+    response = requests.get(
+        url,
+        timeout=30,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 "
+                "(compatible; GamerQuestFR/1.0; editorial research)"
+            )
+        }
+    )
+
+    response.raise_for_status()
+
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser"
+    )
+
+    # Remove non-editorial elements
+    for element in soup([
+        "script",
+        "style",
+        "nav",
+        "footer",
+        "header",
+        "aside",
+        "form",
+        "noscript",
+    ]):
+        element.decompose()
+
+    article = soup.find("article")
+
+    if article:
+        text = article.get_text(
+            separator="\n",
+            strip=True
+        )
+    else:
+        text = soup.get_text(
+            separator="\n",
+            strip=True
+        )
+
+    # Keep payload manageable
+    text = text[:20000]
+
+    if len(text) < 300:
+        raise RuntimeError(
+            "Could not extract enough article content."
+        )
+
+    print(
+        f"Extracted {len(text)} characters."
+    )
+
+    return text
+
+
+# =========================
+# GENERATE ARTICLE WITH GROQ
 # =========================
 
 def generate_article(story):
-    client = Groq(api_key=GROQ_API_KEY)
+    client = Groq(
+        api_key=GROQ_API_KEY
+    )
+
+    full_source = fetch_full_article(
+        story["link"]
+    )
 
     prompt = f"""
 You are the editor of GamerQuest FR, an independent French gaming publication.
@@ -88,7 +162,7 @@ Your job is to transform ONE source into a useful, accurate French gaming-news d
 SOURCE TITLE:
 {story['title']}
 
-SOURCE SUMMARY:
+SOURCE RSS SUMMARY:
 {story['summary']}
 
 SOURCE DATE:
@@ -97,9 +171,12 @@ SOURCE DATE:
 SOURCE URL:
 {story['link']}
 
+FULL SOURCE ARTICLE:
+{full_source}
+
 STRICT EDITORIAL RULES:
 
-1. Use ONLY facts that are clearly present in the supplied source information.
+1. Use ONLY facts clearly supported by the supplied source.
 2. Never invent:
    - reviews
    - hands-on impressions
@@ -111,13 +188,13 @@ STRICT EDITORIAL RULES:
    - pricing
    - quotes
    - developer intentions
-   unless they are explicitly supported by the source.
+   unless explicitly present in the source.
 3. Do not write filler such as:
    - "les premiers tests montrent..."
    - "les joueurs apprécieront..."
    - "cela promet une expérience mémorable..."
    unless the source explicitly supports it.
-4. Preserve concrete useful facts whenever they are available:
+4. Preserve concrete useful facts whenever available:
    - dates
    - platforms
    - regions
@@ -127,16 +204,20 @@ STRICT EDITORIAL RULES:
    - editions
    - pre-order dates
    - developer/publisher names
+   - car names
+   - game modes
+   - maps
+   - tracks
+   - update numbers
 5. Be precise about geography.
-   If an announcement is for Southeast Asia, do not frame it as a French release.
-6. Distinguish clearly between:
+   If an announcement is for a specific region, do not present it as a French release.
+6. Clearly distinguish between:
    - official announcement
    - trailer
    - release information
    - developer explanation
    - hands-on preview
-   Never present one as another.
-7. If the source is thin, write a SHORTER article.
+7. If the source is thin, write a shorter article.
    Never pad the article with speculation.
 8. Rewrite everything originally.
    Do not reproduce source paragraphs.
@@ -146,6 +227,8 @@ STRICT EDITORIAL RULES:
 12. Avoid exaggerated clickbait.
 13. Mention the original source at the end.
 14. Do not add facts from your own memory.
+15. Do not claim a feature, price, platform or release detail unless present in the source.
+16. Prioritize named facts over vague summaries.
 
 ARTICLE QUALITY:
 
@@ -154,6 +237,8 @@ ARTICLE QUALITY:
 - The introduction should immediately explain what happened and why it matters.
 - Prioritize concrete information over atmosphere or generic commentary.
 - Avoid repeating the same fact in multiple sections.
+- Name specific vehicles, maps, modes, features, prices or regions when the source provides them.
+- If a source mentions several items, list them clearly instead of replacing them with vague phrases like "plusieurs nouveautés".
 
 Return EXACTLY this format:
 
@@ -188,7 +273,7 @@ CONTENT:
 
 
 # =========================
-# PARSE RESPONSE
+# PARSE GROQ RESPONSE
 # =========================
 
 def parse_article(text):
@@ -211,10 +296,15 @@ def parse_article(text):
         )
 
     if "CONTENT:" in text:
-        content = text.split("CONTENT:", 1)[1].strip()
+        content = (
+            text.split("CONTENT:", 1)[1]
+            .strip()
+        )
 
     if not title or not excerpt or not content:
-        raise RuntimeError("Groq response could not be parsed.")
+        raise RuntimeError(
+            "Groq response could not be parsed."
+        )
 
     return title, excerpt, content
 
@@ -229,19 +319,19 @@ def slugify(text):
     text = re.sub(
         r"[^\w\s-]",
         "",
-        text,
+        text
     )
 
     text = re.sub(
         r"[\s_-]+",
         "-",
-        text,
+        text
     )
 
     text = re.sub(
         r"^-+|-+$",
         "",
-        text,
+        text
     )
 
     return text[:80]
@@ -251,14 +341,25 @@ def slugify(text):
 # SAVE DRAFT
 # =========================
 
-def save_draft(title, excerpt, content, story):
-    DRAFTS_FOLDER.mkdir(exist_ok=True)
+def save_draft(
+    title,
+    excerpt,
+    content,
+    story
+):
+    DRAFTS_FOLDER.mkdir(
+        exist_ok=True
+    )
 
     date_str = datetime.now(
         timezone.utc
-    ).strftime("%Y-%m-%d-%H%M")
+    ).strftime(
+        "%Y-%m-%d-%H%M"
+    )
 
-    slug = slugify(title)
+    slug = slugify(
+        title
+    )
 
     filename = (
         DRAFTS_FOLDER
@@ -294,44 +395,68 @@ DRAFT - HUMAN REVIEW REQUIRED BEFORE PUBLISHING
 
     filename.write_text(
         markdown,
-        encoding="utf-8",
+        encoding="utf-8"
     )
 
-    print("Draft saved successfully.")
-    print("File:", filename)
+    print(
+        "Draft saved successfully."
+    )
+
+    print(
+        "File:",
+        filename
+    )
 
 
 # =========================
-# RUN
+# RUN AUTOMATION
 # =========================
 
 def main():
-    print("Looking for a new gaming story...")
+    print(
+        "Looking for a new gaming story..."
+    )
 
     story = get_latest_story()
 
-    print("Selected:")
-    print(story["title"])
-    print(story["link"])
+    print(
+        "Selected:"
+    )
 
-    print("Generating editorial draft with Groq...")
+    print(
+        story["title"]
+    )
 
-    generated_article = generate_article(story)
+    print(
+        story["link"]
+    )
+
+    print(
+        "Generating editorial draft with Groq..."
+    )
+
+    generated_article = generate_article(
+        story
+    )
 
     title, excerpt, content = parse_article(
         generated_article
     )
 
-    print("Draft generated.")
+    print(
+        "Draft generated."
+    )
 
     save_draft(
         title,
         excerpt,
         content,
-        story,
+        story
     )
 
-    print("Done.")
+    print(
+        "Done."
+    )
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-name: GamerQuest Automation V5
+name: GamerQuest Automation V6
 
 on:
   workflow_dispatch:
@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -29,7 +28,7 @@ jobs:
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: python automation.py
 
-      - name: Save automation state and drafts
+      - name: Save drafts and Tavily state
         if: always()
         run: |
           git config user.name "GamerQuest Bot"

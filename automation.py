@@ -25,14 +25,15 @@ STATE_FOLDER = Path("state")
 TAVILY_STATE_FILE = STATE_FOLDER / "tavily_usage.json"
 TAVILY_SEARCH_URL = "https://api.tavily.com/search"
 
+# Safety limits
 TAVILY_MONTHLY_SAFETY_LIMIT = 900
 MAX_TAVILY_SEARCHES_PER_RUN = 1
 
+# One broad search only
 SEARCH_QUERY = (
-    "latest important video game news today "
-    "game announcements releases major updates DLC hardware "
-    "PlayStation Xbox Nintendo PC Steam gaming industry "
-    "developers publishers"
+    "latest video game news release date gameplay platforms price "
+    "PlayStation Xbox Nintendo Switch 2 PC Steam Game Pass "
+    "major game announcement update DLC hardware gaming"
 )
 
 MAX_RESULTS = 15
@@ -102,10 +103,50 @@ def looks_official(url):
 
 def slugify(text):
     text = text.lower()
-    text = re.sub(r"[^\w\s-]", "", text)
-    text = re.sub(r"[\s_-]+", "-", text)
-    text = re.sub(r"^-+|-+$", "", text)
-    return text[:80]
+
+    # French accents -> SEO-safe approximations
+    replacements = {
+        "à": "a",
+        "â": "a",
+        "ä": "a",
+        "á": "a",
+        "ç": "c",
+        "é": "e",
+        "è": "e",
+        "ê": "e",
+        "ë": "e",
+        "î": "i",
+        "ï": "i",
+        "ô": "o",
+        "ö": "o",
+        "ù": "u",
+        "û": "u",
+        "ü": "u",
+        "ÿ": "y",
+        "œ": "oe",
+    }
+
+    for original, replacement in replacements.items():
+        text = text.replace(
+            original,
+            replacement
+        )
+
+    text = re.sub(
+        r"[^a-z0-9\s-]",
+        "",
+        text
+    )
+
+    text = re.sub(
+        r"[\s_-]+",
+        "-",
+        text
+    )
+
+    text = text.strip("-")
+
+    return text[:90]
 
 
 def strip_code_fences(text):
@@ -134,11 +175,25 @@ def normalize_words(text):
     )
 
     stopwords = {
-        "the", "and", "for", "from", "with",
-        "this", "that", "into", "new", "news",
-        "game", "games", "gaming", "video",
-        "update", "reveals", "revealed",
-        "announces", "announced",
+        "the",
+        "and",
+        "for",
+        "from",
+        "with",
+        "this",
+        "that",
+        "into",
+        "new",
+        "news",
+        "game",
+        "games",
+        "gaming",
+        "video",
+        "update",
+        "reveals",
+        "revealed",
+        "announces",
+        "announced",
     }
 
     return [
@@ -160,7 +215,9 @@ def current_month():
 
 
 def load_tavily_state():
-    STATE_FOLDER.mkdir(exist_ok=True)
+    STATE_FOLDER.mkdir(
+        exist_ok=True
+    )
 
     month = current_month()
 
@@ -186,7 +243,10 @@ def load_tavily_state():
 
     try:
         searches_used = int(
-            state.get("searches_used", 0)
+            state.get(
+                "searches_used",
+                0
+            )
         )
     except Exception:
         searches_used = 0
@@ -198,7 +258,9 @@ def load_tavily_state():
 
 
 def save_tavily_state(state):
-    STATE_FOLDER.mkdir(exist_ok=True)
+    STATE_FOLDER.mkdir(
+        exist_ok=True
+    )
 
     TAVILY_STATE_FILE.write_text(
         json.dumps(
@@ -217,15 +279,21 @@ def check_monthly_credit_safety():
     print("")
     print(
         f"Tavily tracked searches: "
-        f"{used} / {TAVILY_MONTHLY_SAFETY_LIMIT}"
+        f"{used} / "
+        f"{TAVILY_MONTHLY_SAFETY_LIMIT}"
     )
 
     if used >= TAVILY_MONTHLY_SAFETY_LIMIT:
         print("")
-        print("TAVILY MONTHLY SAFETY STOP")
         print(
-            "No Tavily search will be performed this month."
+            "TAVILY MONTHLY SAFETY STOP"
         )
+
+        print(
+            "No Tavily search will be performed "
+            "this month."
+        )
+
         sys.exit(0)
 
     return state
@@ -233,7 +301,10 @@ def check_monthly_credit_safety():
 
 def record_tavily_search(state):
     state["searches_used"] += 1
-    save_tavily_state(state)
+
+    save_tavily_state(
+        state
+    )
 
     print(
         f"Tracked Tavily searches this month: "
@@ -249,7 +320,9 @@ def source_already_used(source_url):
     if not DRAFTS_FOLDER.exists():
         return False
 
-    for draft_file in DRAFTS_FOLDER.glob("*.md"):
+    for draft_file in DRAFTS_FOLDER.glob(
+        "*.md"
+    ):
         try:
             text = draft_file.read_text(
                 encoding="utf-8"
@@ -287,10 +360,17 @@ def get_recent_source_domains():
             )
 
             for url in urls:
-                domain = get_domain(url)
+                domain = get_domain(
+                    url
+                )
 
-                if domain and domain not in domains:
-                    domains.append(domain)
+                if (
+                    domain
+                    and domain not in domains
+                ):
+                    domains.append(
+                        domain
+                    )
 
         except Exception:
             continue
@@ -306,8 +386,13 @@ def search_gaming_news():
     state = check_monthly_credit_safety()
 
     print("")
-    print("Searching gaming news...")
-    print("Maximum Tavily searches this run: 1")
+    print(
+        "Searching gaming news..."
+    )
+
+    print(
+        "Maximum Tavily searches this run: 1"
+    )
 
     response = requests.post(
         TAVILY_SEARCH_URL,
@@ -332,52 +417,79 @@ def search_gaming_news():
 
     response.raise_for_status()
 
-    record_tavily_search(state)
+    # Exactly one Tavily search was consumed.
+    record_tavily_search(
+        state
+    )
 
     data = response.json()
 
-    results = data.get("results", [])
+    results = data.get(
+        "results",
+        []
+    )
 
     if not results:
-        print("No gaming-news results found.")
+        print(
+            "No gaming-news results found."
+        )
         sys.exit(0)
 
     print(
-        f"Tavily returned {len(results)} candidates."
+        f"Tavily returned "
+        f"{len(results)} candidates."
     )
 
     clean_results = []
 
     for result in results:
-        title = result.get("title", "").strip()
-        url = result.get("url", "").strip()
+        title = (
+            result
+            .get("title", "")
+            .strip()
+        )
+
+        url = (
+            result
+            .get("url", "")
+            .strip()
+        )
 
         if not title or not url:
             continue
 
         if source_already_used(url):
             print(
-                f"Duplicate skipped: {title}"
+                f"Duplicate skipped: "
+                f"{title}"
             )
             continue
 
-        clean_results.append(result)
+        clean_results.append(
+            result
+        )
 
     if not clean_results:
-        print("Every result was already used.")
+        print(
+            "Every result was already used."
+        )
         sys.exit(0)
 
     return clean_results
 
 
 # =========================================================
-# STORY SELECTION
+# SEO-FIRST STORY SELECTION
 # =========================================================
 
 def select_best_story(results):
-    client = Groq(api_key=GROQ_API_KEY)
+    client = Groq(
+        api_key=GROQ_API_KEY
+    )
 
-    recent_domains = get_recent_source_domains()
+    recent_domains = (
+        get_recent_source_domains()
+    )
 
     candidates = ""
 
@@ -386,8 +498,14 @@ def select_best_story(results):
         start=1,
     ):
         content = (
-            result.get("content", "")
-            or result.get("raw_content", "")
+            result.get(
+                "content",
+                ""
+            )
+            or result.get(
+                "raw_content",
+                ""
+            )
             or ""
         )
 
@@ -407,7 +525,7 @@ URL:
 DATE:
 {result.get('published_date', '')}
 
-OFFICIAL DOMAIN:
+OFFICIAL:
 {"YES" if looks_official(result.get('url', '')) else "NO"}
 
 CONTENT:
@@ -417,10 +535,10 @@ CONTENT:
 """
 
     prompt = f"""
-You are editor-in-chief of GamerQuest FR.
+You are the SEO editor of GamerQuest FR.
 
-Choose ONE story that is genuinely worth covering
-for a French gaming audience.
+Choose ONE gaming story with the strongest
+organic-search opportunity for a French gaming website.
 
 RECENTLY USED DOMAINS:
 
@@ -430,27 +548,77 @@ CANDIDATES:
 
 {candidates}
 
+
+================================================
+SEO OPPORTUNITY PRIORITIES
+================================================
+
+Evaluate candidates conceptually using:
+
+35% search-intent opportunity
+20% freshness
+15% relevance to gamers
+10% ability to answer specific questions
+10% reliability/source quality
+5% source diversity
+5% evergreen/search value
+
+
+Prefer stories where people are likely to search:
+
+- "[game] date de sortie"
+- "[game] plateformes"
+- "[game] prix"
+- "[game] gameplay"
+- "[game] PS5"
+- "[game] Xbox"
+- "[game] Switch 2"
+- "[game] PC"
+- "[game] Game Pass"
+- "[game] PlayStation Plus"
+- "[game] multijoueur"
+- "[game] configuration PC"
+- "[game] nouveautés"
+- "[game] DLC"
+- "[game] mise à jour"
+
+
 Prefer:
-- major announcements
-- releases
-- important updates
-- DLC
+
+- release-date announcements
+- platform announcements
+- price/edition information
 - gameplay reveals
+- major DLC
 - hardware
-- acquisitions
-- industry developments
-- meaningful platform news
+- substantial updates
+- large franchises
+- highly searchable new games
+
 
 Avoid:
-- homepages
-- category pages
-- spam
-- affiliate content
-- weak opinion pieces
+
+- tiny patches
+- weak opinion stories
+- vague interviews
+- celebrity gossip
 - rumors
 - leaks
-- clickbait
-- thin stories
+- homepages
+- category pages
+- SEO spam
+- affiliate spam
+- stories with almost no factual information
+
+
+IMPORTANT:
+
+You do NOT have real keyword-volume data.
+
+Never pretend that you know monthly search volume,
+keyword difficulty or CPC.
+
+Choose based on likely search intent only.
 
 Prefer source diversity.
 
@@ -463,7 +631,8 @@ Return ONLY the candidate number.
             {
                 "role": "system",
                 "content": (
-                    "You are a strict gaming-news editor."
+                    "You are an SEO strategist "
+                    "specialized in gaming search intent."
                 ),
             },
             {
@@ -482,26 +651,49 @@ Return ONLY the candidate number.
         .strip()
     )
 
-    match = re.search(r"\d+", answer)
+    match = re.search(
+        r"\d+",
+        answer
+    )
 
     if not match:
         raise RuntimeError(
-            f"Could not parse selection: {answer}"
+            f"Could not parse selection: "
+            f"{answer}"
         )
 
-    number = int(match.group())
+    number = int(
+        match.group()
+    )
 
-    if number < 1 or number > len(results):
+    if (
+        number < 1
+        or number > len(results)
+    ):
         raise RuntimeError(
             "Groq selected an invalid candidate."
         )
 
-    story = results[number - 1]
+    story = results[
+        number - 1
+    ]
 
     print("")
-    print("Selected story:")
-    print(story.get("title", ""))
-    print(story.get("url", ""))
+    print(
+        "SEO story selected:"
+    )
+    print(
+        story.get(
+            "title",
+            ""
+        )
+    )
+    print(
+        story.get(
+            "url",
+            ""
+        )
+    )
 
     return story
 
@@ -512,20 +704,29 @@ Return ONLY the candidate number.
 
 def extract_page(story):
     raw_content = (
-        story.get("raw_content", "")
+        story.get(
+            "raw_content",
+            ""
+        )
         or ""
     )
 
-    if len(raw_content) >= MIN_SOURCE_TEXT_LENGTH:
+    if (
+        len(raw_content)
+        >= MIN_SOURCE_TEXT_LENGTH
+    ):
         print(
-            "Using raw article content returned by Tavily."
+            "Using article content "
+            "returned by Tavily."
         )
 
         return raw_content[
             :MAX_SOURCE_TEXT_LENGTH
         ]
 
-    print("Fetching selected page directly...")
+    print(
+        "Fetching selected page directly..."
+    )
 
     response = requests.get(
         story["url"],
@@ -533,7 +734,8 @@ def extract_page(story):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 "
-                "(compatible; GamerQuestFR/1.0)"
+                "(compatible; "
+                "GamerQuestFR/1.0)"
             )
         },
     )
@@ -557,7 +759,9 @@ def extract_page(story):
     ]):
         element.decompose()
 
-    article = soup.find("article")
+    article = soup.find(
+        "article"
+    )
 
     if article:
         text = article.get_text(
@@ -570,22 +774,42 @@ def extract_page(story):
             strip=True,
         )
 
-    return text[:MAX_SOURCE_TEXT_LENGTH]
+    return text[
+        :MAX_SOURCE_TEXT_LENGTH
+    ]
 
 
 # =========================================================
 # SOURCE VALIDATION
 # =========================================================
 
-def validate_source(story, source_text):
-    url = story.get("url", "").strip()
-    title = story.get("title", "").strip()
+def validate_source(
+    story,
+    source_text,
+):
+    url = story.get(
+        "url",
+        ""
+    ).strip()
 
-    parsed = urlparse(url)
-    path = parsed.path.strip("/")
+    title = story.get(
+        "title",
+        ""
+    ).strip()
+
+    parsed = urlparse(
+        url
+    )
+
+    path = parsed.path.strip(
+        "/"
+    )
 
     if not path:
-        return False, "Homepage URL detected."
+        return (
+            False,
+            "Homepage URL detected."
+        )
 
     generic_paths = {
         "news",
@@ -603,17 +827,28 @@ def validate_source(story, source_text):
             "Generic landing/category page detected."
         )
 
-    if len(source_text) < MIN_SOURCE_TEXT_LENGTH:
+    if (
+        len(source_text)
+        < MIN_SOURCE_TEXT_LENGTH
+    ):
         return (
             False,
             "Extracted article content is too short."
         )
 
-    title_words = normalize_words(title)
-    unique_words = set(title_words)
+    title_words = normalize_words(
+        title
+    )
+
+    unique_words = set(
+        title_words
+    )
 
     if not unique_words:
-        return False, "Could not analyse source title."
+        return (
+            False,
+            "Could not analyse source title."
+        )
 
     body_lower = source_text.lower()
 
@@ -625,26 +860,32 @@ def validate_source(story, source_text):
 
     ratio = (
         matched
-        / max(len(unique_words), 1)
+        / max(
+            len(unique_words),
+            1,
+        )
     )
 
     print(
-        f"Title/body match ratio: {ratio:.2f}"
+        f"Title/body match ratio: "
+        f"{ratio:.2f}"
     )
 
     if ratio < 0.35:
         return (
             False,
-            "Source title and extracted page "
+            "Source title and article "
             "do not match strongly enough."
         )
 
-    client = Groq(api_key=GROQ_API_KEY)
+    client = Groq(
+        api_key=GROQ_API_KEY
+    )
 
     prompt = f"""
-Validate this source.
+Validate this gaming-news source.
 
-SEARCH TITLE:
+TITLE:
 {title}
 
 URL:
@@ -653,13 +894,13 @@ URL:
 CONTENT:
 {source_text[:9000]}
 
-Return VALID only if this is clearly
-the specific article represented by the title.
+Return VALID only if this page clearly represents
+the specific article described by the title.
 
 Return INVALID for:
+
 - homepage
-- category page
-- index page
+- category/index page
 - unrelated content
 - contaminated extraction
 - title/body mismatch
@@ -679,7 +920,8 @@ INVALID
             {
                 "role": "system",
                 "content": (
-                    "Validate sources conservatively."
+                    "Validate gaming-news "
+                    "sources conservatively."
                 ),
             },
             {
@@ -705,7 +947,10 @@ INVALID
             f"AI validator returned: {verdict}"
         )
 
-    return True, "Source validation passed."
+    return (
+        True,
+        "Source validation passed."
+    )
 
 
 # =========================================================
@@ -720,14 +965,19 @@ def find_matching_official_source(
         result
         for result in all_results
         if looks_official(
-            result.get("url", "")
+            result.get(
+                "url",
+                ""
+            )
         )
     ]
 
     if not official_candidates:
         return None
 
-    client = Groq(api_key=GROQ_API_KEY)
+    client = Groq(
+        api_key=GROQ_API_KEY
+    )
 
     candidates = ""
 
@@ -736,8 +986,14 @@ def find_matching_official_source(
         start=1,
     ):
         content = (
-            result.get("content", "")
-            or result.get("raw_content", "")
+            result.get(
+                "content",
+                ""
+            )
+            or result.get(
+                "raw_content",
+                ""
+            )
             or ""
         )
 
@@ -766,7 +1022,7 @@ Possible official sources:
 
 {candidates}
 
-Return the number only if one clearly
+Return the candidate number ONLY if one clearly
 covers the same announcement.
 
 Otherwise return:
@@ -780,7 +1036,8 @@ NONE
             {
                 "role": "system",
                 "content": (
-                    "Match official sources conservatively."
+                    "Match official gaming "
+                    "sources conservatively."
                 ),
             },
             {
@@ -802,16 +1059,23 @@ NONE
     if "NONE" in answer.upper():
         return None
 
-    match = re.search(r"\d+", answer)
+    match = re.search(
+        r"\d+",
+        answer
+    )
 
     if not match:
         return None
 
-    number = int(match.group())
+    number = int(
+        match.group()
+    )
 
     if (
         number < 1
-        or number > len(official_candidates)
+        or number > len(
+            official_candidates
+        )
     ):
         return None
 
@@ -821,7 +1085,7 @@ NONE
 
 
 # =========================================================
-# GENERATE ARTICLE
+# SEO ARTICLE GENERATION
 # =========================================================
 
 def generate_article(
@@ -830,11 +1094,16 @@ def generate_article(
     official_story=None,
     official_text="",
 ):
-    client = Groq(api_key=GROQ_API_KEY)
+    client = Groq(
+        api_key=GROQ_API_KEY
+    )
 
     official_section = ""
 
-    if official_story and official_text:
+    if (
+        official_story
+        and official_text
+    ):
         official_section = f"""
 
 OFFICIAL VERIFICATION SOURCE:
@@ -851,9 +1120,12 @@ CONTENT:
 """
 
     prompt = f"""
-You are a rigorous journalist for GamerQuest FR.
+You are the SEO editor and gaming journalist
+for GamerQuest FR.
 
-Write an ORIGINAL French gaming-news article.
+Create an ORIGINAL French gaming article
+designed primarily to capture organic-search demand
+while remaining factually accurate.
 
 DISCOVERY SOURCE:
 
@@ -868,38 +1140,190 @@ CONTENT:
 
 {official_section}
 
-RULES:
 
-- Use only supported facts.
-- Never add facts from memory.
-- Never invent dates, platforms, prices,
-  modes, features or availability.
-- If a source gives a date without a year,
-  do not add a year.
-- If co-op is confirmed but local/online is not,
-  say only that cooperative play is supported.
-- Never infer online or local multiplayer.
-- Never reinterpret branded terminology.
-- If no official source exists, high-risk claims
-  from secondary sources must be attributed.
-- Accuracy is more important than length.
-- Write natural professional French.
-- No filler.
-- No clickbait.
-- No generic conclusion.
+================================================
+SEO OBJECTIVE
+================================================
 
-Return exactly:
+Identify the strongest realistic search intent.
 
-TITLE: [headline]
+Examples:
 
-EXCERPT: [20–35 word factual summary]
+- "[game] date de sortie"
+- "[game] plateformes"
+- "[game] prix"
+- "[game] gameplay"
+- "[game] PS5"
+- "[game] Xbox"
+- "[game] Switch 2"
+- "[game] PC"
+- "[game] Game Pass"
+- "[game] multijoueur"
+- "[game] nouveautés"
+
+You do NOT have real keyword-volume data.
+
+Never invent:
+
+- search volume
+- keyword difficulty
+- CPC
+- traffic estimates
+
+
+================================================
+SEO TITLE
+================================================
+
+Create a natural SEO title.
+
+Prefer structures such as:
+
+"[GAME] : date de sortie, plateformes, prix et gameplay"
+
+when those facts are actually available.
+
+Target approximately 45-65 characters when practical.
+
+Do NOT keyword-stuff.
+
+
+================================================
+META DESCRIPTION
+================================================
+
+Write approximately 130-160 characters.
+
+Include the main keyword naturally.
+
+Summarize the concrete value of the page.
+
+
+================================================
+ARTICLE STRUCTURE
+================================================
+
+The first paragraph should directly answer
+the main search intent.
+
+Use descriptive H2 headings aligned with
+likely Google searches.
+
+Examples:
+
+<h2>Quelle est la date de sortie de [GAME] ?</h2>
+
+<h2>Sur quelles plateformes sortira [GAME] ?</h2>
+
+<h2>Quel sera le prix de [GAME] ?</h2>
+
+<h2>Que sait-on du gameplay ?</h2>
+
+<h2>[GAME] proposera-t-il du multijoueur ?</h2>
+
+Only include questions that the source can actually answer.
+
+Do not mechanically add every possible H2.
+
+
+================================================
+SEO CONTENT QUALITY
+================================================
+
+Use the primary keyword naturally in:
+
+- SEO title
+- introductory paragraph
+- at least one relevant H2 when natural
+
+Use secondary keywords naturally.
+
+Do NOT repeat keywords unnaturally.
+
+Do NOT create filler just to increase article length.
+
+Do NOT produce generic conclusions.
+
+Aim for roughly 400-800 words when the source
+provides enough useful information.
+
+A shorter accurate article is better than
+a padded article.
+
+
+================================================
+FACTUAL SAFETY
+================================================
+
+Never add facts from memory.
+
+Never invent:
+
+- dates
+- platforms
+- pricing
+- multiplayer
+- local/online functionality
+- availability
+- editions
+- Game Pass
+- PlayStation Plus
+- technical specs
+- reviews
+- quotes
+
+If an official source exists, it wins when
+sources conflict.
+
+If no official source exists, sensitive claims
+from a secondary source must be attributed
+when necessary.
+
+
+================================================
+MEDIA SAFETY
+================================================
+
+Never create:
+
+- placeholder YouTube URLs
+- fake iframe embeds
+- invented trailer links
+- fake screenshots
+- fake official links
+
+Only include a media URL if it explicitly exists
+in the supplied source material.
+
+Otherwise include no embed.
+
+
+================================================
+OUTPUT EXACTLY
+================================================
+
+SEO_TITLE: [optimized SEO title]
+
+META_DESCRIPTION: [SEO meta description]
+
+PRIMARY_KEYWORD: [one primary search keyword]
+
+SECONDARY_KEYWORDS: [4-8 comma-separated keywords]
+
+SEARCH_INTENT: [Informational / News / Commercial investigation]
+
+SUGGESTED_SLUG: [short lowercase SEO slug]
+
+TITLE: [reader-facing article title]
+
+EXCERPT: [20-35 word factual excerpt]
 
 CATEGORY: [Actualités, Guides, Sélections, Tests & Avis]
 
-TAGS: [3–6 comma-separated tags]
+TAGS: [3-6 comma-separated tags]
 
 CONTENT:
-[HTML only]
+[HTML article only]
 """
 
     response = client.chat.completions.create(
@@ -908,8 +1332,8 @@ CONTENT:
             {
                 "role": "system",
                 "content": (
-                    "You are a conservative French "
-                    "gaming journalist."
+                    "You are an SEO strategist "
+                    "and conservative French gaming journalist."
                 ),
             },
             {
@@ -929,13 +1353,57 @@ CONTENT:
 
 
 # =========================================================
-# PARSE ARTICLE
+# PARSE SEO ARTICLE
 # =========================================================
 
 def parse_article(text):
-    text = strip_code_fences(text)
+    text = strip_code_fences(
+        text
+    )
 
     try:
+        seo_title = (
+            text
+            .split("SEO_TITLE:", 1)[1]
+            .split("META_DESCRIPTION:", 1)[0]
+            .strip()
+        )
+
+        meta_description = (
+            text
+            .split("META_DESCRIPTION:", 1)[1]
+            .split("PRIMARY_KEYWORD:", 1)[0]
+            .strip()
+        )
+
+        primary_keyword = (
+            text
+            .split("PRIMARY_KEYWORD:", 1)[1]
+            .split("SECONDARY_KEYWORDS:", 1)[0]
+            .strip()
+        )
+
+        secondary_keywords = (
+            text
+            .split("SECONDARY_KEYWORDS:", 1)[1]
+            .split("SEARCH_INTENT:", 1)[0]
+            .strip()
+        )
+
+        search_intent = (
+            text
+            .split("SEARCH_INTENT:", 1)[1]
+            .split("SUGGESTED_SLUG:", 1)[0]
+            .strip()
+        )
+
+        suggested_slug = (
+            text
+            .split("SUGGESTED_SLUG:", 1)[1]
+            .split("TITLE:", 1)[0]
+            .strip()
+        )
+
         title = (
             text
             .split("TITLE:", 1)[1]
@@ -972,10 +1440,18 @@ def parse_article(text):
 
     except Exception:
         raise RuntimeError(
-            "Generated article could not be parsed."
+            "Generated SEO article could not be parsed."
         )
 
-    content = strip_code_fences(content)
+    content = strip_code_fences(
+        content
+    )
+
+    # Never trust generated slug blindly.
+    suggested_slug = slugify(
+        suggested_slug
+        or seo_title
+    )
 
     allowed_categories = {
         "Actualités",
@@ -988,6 +1464,12 @@ def parse_article(text):
         category = "Actualités"
 
     return (
+        seo_title,
+        meta_description,
+        primary_keyword,
+        secondary_keywords,
+        search_intent,
+        suggested_slug,
         title,
         excerpt,
         category,
@@ -997,167 +1479,170 @@ def parse_article(text):
 
 
 # =========================================================
-# VERIFY AND CORRECT
+# FINAL SEO + FACTUAL CORRECTION
 # =========================================================
 
 def verify_and_correct_article(
-    title,
-    excerpt,
-    category,
-    tags,
-    content,
+    article_data,
     source_text,
-    story,
     official_text="",
 ):
+    (
+        seo_title,
+        meta_description,
+        primary_keyword,
+        secondary_keywords,
+        search_intent,
+        suggested_slug,
+        title,
+        excerpt,
+        category,
+        tags,
+        content,
+    ) = article_data
+
     print("")
     print(
-        "Verifying and correcting article..."
+        "Running SEO + factual correction..."
     )
 
-    client = Groq(api_key=GROQ_API_KEY)
+    client = Groq(
+        api_key=GROQ_API_KEY
+    )
 
     official_section = ""
 
     if official_text:
         official_section = f"""
 
-OFFICIAL VERIFICATION SOURCE:
+OFFICIAL SOURCE:
 
 {official_text}
 
 """
 
     prompt = f"""
-You are GamerQuest's final editorial fact-checker
-and correction editor.
+You are the final SEO and factual editor
+for GamerQuest FR.
 
-Your task is NOT to reject the article.
+Your job is to CORRECT this article,
+not reject it.
 
-Your task is to CORRECT it so that every material
-factual claim is supported by the provided sources.
-
-DISCOVERY SOURCE:
+SOURCE:
 
 {source_text}
 
 {official_section}
 
-CURRENT TITLE:
+CURRENT SEO TITLE:
+{seo_title}
 
+CURRENT META DESCRIPTION:
+{meta_description}
+
+PRIMARY KEYWORD:
+{primary_keyword}
+
+SECONDARY KEYWORDS:
+{secondary_keywords}
+
+SEARCH INTENT:
+{search_intent}
+
+SUGGESTED SLUG:
+{suggested_slug}
+
+CURRENT TITLE:
 {title}
 
 CURRENT EXCERPT:
-
 {excerpt}
 
-CURRENT CATEGORY:
-
+CATEGORY:
 {category}
 
-CURRENT TAGS:
-
+TAGS:
 {tags}
 
-CURRENT ARTICLE:
-
+ARTICLE:
 {content}
 
 
 ================================================
-CORRECTION RULES
+FACTUAL CORRECTION
 ================================================
 
-Check every factual claim.
+Remove, soften or attribute unsupported claims.
 
-If a claim is unsupported, do ONE of these:
+Never invent replacement facts.
 
-1. Remove it.
-2. Rewrite it more conservatively.
-3. Explicitly attribute it to the secondary source.
-4. Keep only the portion actually supported.
+If a source gives December 10 without a year,
+do not add a year.
 
-Examples:
+If a source says four-player co-op without
+stating online/local, do not invent online/local.
 
-Unsupported:
-"Le jeu sortira le 10 décembre 2026."
-
-Source says only December 10.
-
-Correct:
-"Le jeu sortira le 10 décembre."
-
-
-Unsupported:
-"Le mode coop fonctionne en local et en ligne."
-
-Source confirms only four-player co-op.
-
-Correct:
-"Le jeu proposera un mode coopératif jusqu'à quatre joueurs."
-
-
-Unsupported:
-"Le jeu sera disponible day one sur Game Pass."
-
-Only IGN reports it and no official verification source exists.
-
-Correct:
-"Selon IGN, le titre devrait rejoindre Xbox Game Pass dès son lancement."
+If Game Pass information exists only in a
+secondary source and no official source verifies it,
+attribute it appropriately.
 
 
 ================================================
-HIGH-RISK CLAIMS
+SEO CORRECTION
 ================================================
 
-Be particularly strict about:
+Optimize for search intent.
 
-- release dates
-- years
-- platforms
-- prices
-- editions
-- Game Pass
-- PlayStation Plus
-- subscription services
-- multiplayer
-- local/online functionality
-- physical versions
-- exclusivity
-- pre-order bonuses
-- regions
-- technical specifications
+Ensure:
 
+- primary keyword is clear
+- SEO title naturally reflects likely search intent
+- meta description clearly summarizes value
+- slug is short and relevant
+- introduction directly answers the main query
+- H2 headings answer useful related searches
+- keywords are used naturally
+- no keyword stuffing
+- no unnecessary filler
 
-If an official source is supplied,
-it overrides the discovery source if they conflict.
+Never invent keyword volume, CPC or difficulty.
 
 
 ================================================
-DO NOT
+MEDIA SAFETY
 ================================================
 
-- Do not reject the whole article.
-- Do not invent replacement facts.
-- Do not use your memory.
-- Do not add information just because it seems obvious.
-- Do not make the article more sensational.
-- Do not add unsupported conclusions.
+Remove any:
+
+- placeholder iframe
+- placeholder YouTube URL
+- invented media URL
+- fake link
 
 
 ================================================
-OUTPUT
+RETURN EXACTLY
 ================================================
 
-Return a fully corrected article in EXACTLY this format:
+SEO_TITLE: [corrected SEO title]
 
-TITLE: [corrected headline]
+META_DESCRIPTION: [corrected meta description]
 
-EXCERPT: [corrected factual excerpt]
+PRIMARY_KEYWORD: [primary keyword]
 
-CATEGORY: [Actualités, Guides, Sélections, Tests & Avis]
+SECONDARY_KEYWORDS: [comma-separated keywords]
 
-TAGS: [3–6 comma-separated tags]
+SEARCH_INTENT: [search intent]
+
+SUGGESTED_SLUG: [SEO slug]
+
+TITLE: [article title]
+
+EXCERPT: [excerpt]
+
+CATEGORY: [category]
+
+TAGS: [tags]
 
 CONTENT:
 [corrected HTML article only]
@@ -1169,10 +1654,9 @@ CONTENT:
             {
                 "role": "system",
                 "content": (
-                    "You are a conservative gaming "
-                    "fact-checker and correction editor. "
-                    "Correct unsupported claims instead "
-                    "of rejecting the article."
+                    "You are an SEO editor and conservative "
+                    "gaming fact-checker. Correct problems "
+                    "instead of rejecting usable articles."
                 ),
             },
             {
@@ -1196,27 +1680,41 @@ CONTENT:
 
 
 # =========================================================
-# SAVE DRAFT
+# SAVE SEO DRAFT
 # =========================================================
 
 def save_draft(
-    title,
-    excerpt,
-    category,
-    tags,
-    content,
+    article_data,
     story,
     official_story=None,
 ):
-    DRAFTS_FOLDER.mkdir(exist_ok=True)
+    (
+        seo_title,
+        meta_description,
+        primary_keyword,
+        secondary_keywords,
+        search_intent,
+        suggested_slug,
+        title,
+        excerpt,
+        category,
+        tags,
+        content,
+    ) = article_data
+
+    DRAFTS_FOLDER.mkdir(
+        exist_ok=True
+    )
 
     timestamp = datetime.now(
         timezone.utc
-    ).strftime("%Y-%m-%d-%H%M")
+    ).strftime(
+        "%Y-%m-%d-%H%M"
+    )
 
     filename = (
         DRAFTS_FOLDER
-        / f"{timestamp}-{slugify(title)}.md"
+        / f"{timestamp}-{suggested_slug}.md"
     )
 
     verification = (
@@ -1230,6 +1728,32 @@ def save_draft(
         )
 
     markdown = f"""# {title}
+
+## SEO
+
+### SEO Title
+
+{seo_title}
+
+### Meta Description
+
+{meta_description}
+
+### Primary Keyword
+
+{primary_keyword}
+
+### Secondary Keywords
+
+{secondary_keywords}
+
+### Search Intent
+
+{search_intent}
+
+### Suggested Slug
+
+{suggested_slug}
 
 ## Excerpt
 
@@ -1247,11 +1771,11 @@ def save_draft(
 
 {content}
 
-## Discovery source
+## Discovery Source
 
 {get_domain(story.get('url', ''))}
 
-## Source title
+## Source Title
 
 {story.get('title', '')}
 
@@ -1259,11 +1783,11 @@ def save_draft(
 
 {story.get('url', '')}
 
-## Source date
+## Source Date
 
 {story.get('published_date', '')}
 
-## Verification source
+## Verification Source
 
 {verification}
 
@@ -1271,11 +1795,13 @@ def save_draft(
 
 Source validation: PASSED
 
-Editorial verification: CORRECTED AND PASSED
+SEO optimization: PASSED
+
+Editorial correction: PASSED
 
 ## Status
 
-DRAFT - HUMAN REVIEW REQUIRED BEFORE PUBLISHING
+SEO DRAFT - HUMAN REVIEW REQUIRED BEFORE PUBLISHING
 """
 
     filename.write_text(
@@ -1284,12 +1810,16 @@ DRAFT - HUMAN REVIEW REQUIRED BEFORE PUBLISHING
     )
 
     print("")
-    print("DRAFT CREATED:")
-    print(filename)
+    print(
+        "SEO DRAFT CREATED:"
+    )
+    print(
+        filename
+    )
 
 
 # =========================================================
-# SAVE SOURCE-REJECTION REPORT
+# REJECTION REPORT
 # =========================================================
 
 def save_rejection_report(
@@ -1297,11 +1827,15 @@ def save_rejection_report(
     reason,
     story=None,
 ):
-    REJECTED_FOLDER.mkdir(exist_ok=True)
+    REJECTED_FOLDER.mkdir(
+        exist_ok=True
+    )
 
     timestamp = datetime.now(
         timezone.utc
-    ).strftime("%Y-%m-%d-%H%M%S")
+    ).strftime(
+        "%Y-%m-%d-%H%M%S"
+    )
 
     filename = (
         REJECTED_FOLDER
@@ -1316,6 +1850,7 @@ def save_rejection_report(
             "title",
             ""
         )
+
         story_url = story.get(
             "url",
             ""
@@ -1341,19 +1876,13 @@ def save_rejection_report(
 
 ## Result
 
-NO DRAFT WAS SAVED.
+SOURCE REJECTED - NO ARTICLE CREATED.
 """
 
     filename.write_text(
         report,
         encoding="utf-8",
     )
-
-    print("")
-    print(
-        "Source rejected. Report saved:"
-    )
-    print(filename)
 
 
 # =========================================================
@@ -1362,26 +1891,35 @@ NO DRAFT WAS SAVED.
 
 def main():
     print("")
-    print("==============================")
-    print("GamerQuest Automation")
-    print("==============================")
+    print(
+        "================================="
+    )
+    print(
+        "GamerQuest SEO Automation"
+    )
+    print(
+        "================================="
+    )
 
+    # 1. Find internet stories
     results = search_gaming_news()
 
+    # 2. Choose based primarily on SEO opportunity
     story = select_best_story(
         results
     )
 
+    # 3. Extract source
     source_text = extract_page(
         story
     )
 
+    # 4. Reject only unusable source pages
     valid, reason = validate_source(
         story,
         source_text,
     )
 
-    # Only unusable SOURCES are rejected now.
     if not valid:
         save_rejection_report(
             "SOURCE VALIDATION",
@@ -1390,6 +1928,8 @@ def main():
         )
         return
 
+    # 5. Look for official verification
+    # without another Tavily search
     official_story = (
         find_matching_official_source(
             story,
@@ -1405,19 +1945,17 @@ def main():
             "Official verification source found:"
         )
         print(
-            official_story.get("url", "")
+            official_story.get(
+                "url",
+                ""
+            )
         )
 
         official_text = extract_page(
             official_story
         )
-    else:
-        print("")
-        print(
-            "No matching official source found."
-        )
 
-    # First draft
+    # 6. Generate SEO-first article
     generated = generate_article(
         story,
         source_text,
@@ -1425,48 +1963,28 @@ def main():
         official_text,
     )
 
-    (
-        title,
-        excerpt,
-        category,
-        tags,
-        content,
-    ) = parse_article(
+    article_data = parse_article(
         generated
     )
 
-    # Final verifier automatically CORRECTS the article.
-    (
-        title,
-        excerpt,
-        category,
-        tags,
-        content,
-    ) = verify_and_correct_article(
-        title,
-        excerpt,
-        category,
-        tags,
-        content,
+    # 7. Correct factual + SEO issues
+    article_data = verify_and_correct_article(
+        article_data,
         source_text,
-        story,
         official_text,
     )
 
-    # Corrected article is saved to drafts.
+    # 8. Save corrected SEO draft
     save_draft(
-        title,
-        excerpt,
-        category,
-        tags,
-        content,
+        article_data,
         story,
         official_story,
     )
 
     print("")
     print(
-        "Automation completed successfully."
+        "GamerQuest SEO automation "
+        "completed successfully."
     )
 
 

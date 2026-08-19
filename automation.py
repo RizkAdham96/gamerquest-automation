@@ -1,6 +1,7 @@
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timezone
+from pathlib import Path
 
 import feedparser
 from groq import Groq
@@ -14,9 +15,32 @@ GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 
 RSS_URL = "https://blog.playstation.com/feed/"
 
+DRAFTS_FOLDER = Path("drafts")
+
 
 # =========================
-# GET LATEST GAMING NEWS
+# CHECK FOR DUPLICATES
+# =========================
+
+def source_already_used(source_url):
+    if not DRAFTS_FOLDER.exists():
+        return False
+
+    for draft_file in DRAFTS_FOLDER.glob("*.md"):
+        try:
+            content = draft_file.read_text(encoding="utf-8")
+
+            if source_url in content:
+                return True
+
+        except Exception as error:
+            print(f"Could not read {draft_file}: {error}")
+
+    return False
+
+
+# =========================
+# GET LATEST NEW GAMING STORY
 # =========================
 
 def get_latest_story():
@@ -25,13 +49,29 @@ def get_latest_story():
     if not feed.entries:
         raise RuntimeError("No RSS entries found.")
 
-    entry = feed.entries[0]
+    # Look through recent stories until we find one
+    # that has not already been processed.
+    for entry in feed.entries[:20]:
 
-    return {
-        "title": entry.get("title", ""),
-        "link": entry.get("link", ""),
-        "summary": entry.get("summary", ""),
-    }
+        story = {
+            "title": entry.get("title", ""),
+            "link": entry.get("link", ""),
+            "summary": entry.get("summary", ""),
+        }
+
+        if not story["link"]:
+            continue
+
+        if source_already_used(story["link"]):
+            print("Skipping duplicate:")
+            print(story["title"])
+            continue
+
+        return story
+
+    raise RuntimeError(
+        "No new stories found. The latest RSS stories have already been processed."
+    )
 
 
 # =========================
@@ -69,6 +109,7 @@ Requirements:
 - No fake quotes.
 - No exaggerated clickbait.
 - Mention the original source naturally at the end.
+- If the source provides limited information, write a shorter article rather than inventing details.
 
 Return exactly this format:
 
@@ -108,16 +149,28 @@ def parse_article(text):
     content = ""
 
     if "TITLE:" in text:
-        title = text.split("TITLE:", 1)[1].split("EXCERPT:", 1)[0].strip()
+        title = text.split(
+            "TITLE:", 1
+        )[1].split(
+            "EXCERPT:", 1
+        )[0].strip()
 
     if "EXCERPT:" in text:
-        excerpt = text.split("EXCERPT:", 1)[1].split("CONTENT:", 1)[0].strip()
+        excerpt = text.split(
+            "EXCERPT:", 1
+        )[1].split(
+            "CONTENT:", 1
+        )[0].strip()
 
     if "CONTENT:" in text:
-        content = text.split("CONTENT:", 1)[1].strip()
+        content = text.split(
+            "CONTENT:", 1
+        )[1].strip()
 
     if not title or not content:
-        raise RuntimeError("Groq response could not be parsed.")
+        raise RuntimeError(
+            "Groq response could not be parsed."
+        )
 
     return title, excerpt, content
 
@@ -128,24 +181,54 @@ def parse_article(text):
 
 def slugify(text):
     text = text.lower()
-    text = re.sub(r"[^\w\s-]", "", text)
-    text = re.sub(r"[\s_-]+", "-", text)
-    text = re.sub(r"^-+|-+$", "", text)
+
+    text = re.sub(
+        r"[^\w\s-]",
+        "",
+        text
+    )
+
+    text = re.sub(
+        r"[\s_-]+",
+        "-",
+        text
+    )
+
+    text = re.sub(
+        r"^-+|-+$",
+        "",
+        text
+    )
 
     return text[:80]
 
 
 # =========================
-# SAVE ARTICLE TO GITHUB FILE
+# SAVE ARTICLE TO GITHUB
 # =========================
 
-def save_draft(title, excerpt, content, source_url):
-    os.makedirs("drafts", exist_ok=True)
+def save_draft(
+    title,
+    excerpt,
+    content,
+    source_url
+):
+    DRAFTS_FOLDER.mkdir(
+        exist_ok=True
+    )
 
-    date_str = datetime.utcnow().strftime("%Y-%m-%d-%H%M")
+    date_str = datetime.now(
+        timezone.utc
+    ).strftime(
+        "%Y-%m-%d-%H%M"
+    )
+
     slug = slugify(title)
 
-    filename = f"drafts/{date_str}-{slug}.md"
+    filename = (
+        DRAFTS_FOLDER
+        / f"{date_str}-{slug}.md"
+    )
 
     markdown = f"""# {title}
 
@@ -166,8 +249,10 @@ def save_draft(title, excerpt, content, source_url):
 DRAFT - REVIEW BEFORE PUBLISHING
 """
 
-    with open(filename, "w", encoding="utf-8") as file:
-        file.write(markdown)
+    filename.write_text(
+        markdown,
+        encoding="utf-8"
+    )
 
     print("Draft saved successfully.")
     print("File:", filename)
@@ -178,22 +263,33 @@ DRAFT - REVIEW BEFORE PUBLISHING
 # =========================
 
 def main():
-    print("Getting latest gaming news...")
+    print(
+        "Getting latest unprocessed gaming news..."
+    )
 
     story = get_latest_story()
 
-    print("Found:")
+    print("New story found:")
     print(story["title"])
+    print(story["link"])
 
-    print("Generating French article with Groq...")
+    print(
+        "Generating French article with Groq..."
+    )
 
-    generated_article = generate_article(story)
+    generated_article = generate_article(
+        story
+    )
 
     print("Article generated.")
 
-    title, excerpt, content = parse_article(generated_article)
+    title, excerpt, content = parse_article(
+        generated_article
+    )
 
-    print("Saving draft to GitHub repository...")
+    print(
+        "Saving draft to GitHub repository..."
+    )
 
     save_draft(
         title,

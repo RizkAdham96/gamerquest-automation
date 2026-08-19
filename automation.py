@@ -419,7 +419,7 @@ CONTENT:
     prompt = f"""
 You are editor-in-chief of GamerQuest FR.
 
-Choose ONE story that is worth covering
+Choose ONE story that is genuinely worth covering
 for a French gaming audience.
 
 RECENTLY USED DOMAINS:
@@ -433,7 +433,7 @@ CANDIDATES:
 Prefer:
 - major announcements
 - releases
-- substantial updates
+- important updates
 - DLC
 - gameplay reveals
 - hardware
@@ -821,7 +821,7 @@ NONE
 
 
 # =========================================================
-# ARTICLE GENERATION
+# GENERATE ARTICLE
 # =========================================================
 
 def generate_article(
@@ -874,11 +874,11 @@ RULES:
 - Never add facts from memory.
 - Never invent dates, platforms, prices,
   modes, features or availability.
-- If a date contains no year, do NOT add a year.
+- If a source gives a date without a year,
+  do not add a year.
 - If co-op is confirmed but local/online is not,
-  say only "coopératif jusqu'à X joueurs".
+  say only that cooperative play is supported.
 - Never infer online or local multiplayer.
-- Never infer platform availability.
 - Never reinterpret branded terminology.
 - If no official source exists, high-risk claims
   from secondary sources must be attributed.
@@ -929,7 +929,7 @@ CONTENT:
 
 
 # =========================================================
-# PARSING
+# PARSE ARTICLE
 # =========================================================
 
 def parse_article(text):
@@ -997,129 +997,22 @@ def parse_article(text):
 
 
 # =========================================================
-# FACT CHECK
+# VERIFY AND CORRECT
 # =========================================================
 
-def fact_check_draft(
-    title,
-    excerpt,
-    content,
-    source_text,
-    official_text="",
-):
-    client = Groq(api_key=GROQ_API_KEY)
-
-    official_section = ""
-
-    if official_text:
-        official_section = f"""
-
-OFFICIAL SOURCE:
-
-{official_text}
-
-"""
-
-    prompt = f"""
-You are GamerQuest's final fact-checker.
-
-SOURCE:
-
-{source_text}
-
-{official_section}
-
-TITLE:
-{title}
-
-EXCERPT:
-{excerpt}
-
-ARTICLE:
-{content}
-
-Check every material claim.
-
-Pay special attention to:
-- dates
-- years
-- platforms
-- co-op
-- local/online multiplayer
-- Game Pass
-- PlayStation Plus
-- prices
-- editions
-- features
-- availability
-- quotes
-- branded terminology
-
-If everything is supported, return exactly:
-
-APPROVED
-
-If anything is unsupported, return:
-
-REJECTED
-
-Then explain each unsupported claim clearly.
-"""
-
-    response = client.chat.completions.create(
-        model="openai/gpt-oss-120b",
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "You are an extremely conservative "
-                    "gaming fact-checker."
-                ),
-            },
-            {
-                "role": "user",
-                "content": prompt,
-            },
-        ],
-        temperature=0,
-    )
-
-    verdict = (
-        response
-        .choices[0]
-        .message
-        .content
-        .strip()
-    )
-
-    print("")
-    print("FACT CHECK RESULT:")
-    print(verdict)
-
-    return (
-        verdict.upper().startswith("APPROVED"),
-        verdict,
-    )
-
-
-# =========================================================
-# AUTOMATIC REPAIR
-# =========================================================
-
-def repair_article(
+def verify_and_correct_article(
     title,
     excerpt,
     category,
     tags,
     content,
-    rejection_reason,
-    story,
     source_text,
+    story,
     official_text="",
 ):
     print("")
     print(
-        "Attempting one automatic repair..."
+        "Verifying and correcting article..."
     )
 
     client = Groq(api_key=GROQ_API_KEY)
@@ -1129,63 +1022,138 @@ def repair_article(
     if official_text:
         official_section = f"""
 
-OFFICIAL SOURCE:
+OFFICIAL VERIFICATION SOURCE:
 
 {official_text}
 
 """
 
     prompt = f"""
-You are repairing a GamerQuest article
-that failed fact-checking.
+You are GamerQuest's final editorial fact-checker
+and correction editor.
 
-SOURCE:
+Your task is NOT to reject the article.
+
+Your task is to CORRECT it so that every material
+factual claim is supported by the provided sources.
+
+DISCOVERY SOURCE:
 
 {source_text}
 
 {official_section}
 
 CURRENT TITLE:
+
 {title}
 
 CURRENT EXCERPT:
+
 {excerpt}
 
 CURRENT CATEGORY:
+
 {category}
 
 CURRENT TAGS:
+
 {tags}
 
 CURRENT ARTICLE:
+
 {content}
 
-FACT-CHECK REJECTION:
 
-{rejection_reason}
+================================================
+CORRECTION RULES
+================================================
+
+Check every factual claim.
+
+If a claim is unsupported, do ONE of these:
+
+1. Remove it.
+2. Rewrite it more conservatively.
+3. Explicitly attribute it to the secondary source.
+4. Keep only the portion actually supported.
+
+Examples:
+
+Unsupported:
+"Le jeu sortira le 10 décembre 2026."
+
+Source says only December 10.
+
+Correct:
+"Le jeu sortira le 10 décembre."
 
 
-TASK:
+Unsupported:
+"Le mode coop fonctionne en local et en ligne."
 
-Correct ONLY the unsupported or overstated claims.
+Source confirms only four-player co-op.
 
-Do not add new facts.
+Correct:
+"Le jeu proposera un mode coopératif jusqu'à quatre joueurs."
 
-If the problem is:
-- unsupported year -> remove the year
-- local/online co-op unsupported -> say only co-op
-- unsupported platform -> remove it
-- unsupported subscription claim -> attribute or remove
-- unsupported price -> remove it
-- unsupported interpretation -> use neutral wording
 
-Keep the article useful and natural.
+Unsupported:
+"Le jeu sera disponible day one sur Game Pass."
 
-Return exactly:
+Only IGN reports it and no official verification source exists.
+
+Correct:
+"Selon IGN, le titre devrait rejoindre Xbox Game Pass dès son lancement."
+
+
+================================================
+HIGH-RISK CLAIMS
+================================================
+
+Be particularly strict about:
+
+- release dates
+- years
+- platforms
+- prices
+- editions
+- Game Pass
+- PlayStation Plus
+- subscription services
+- multiplayer
+- local/online functionality
+- physical versions
+- exclusivity
+- pre-order bonuses
+- regions
+- technical specifications
+
+
+If an official source is supplied,
+it overrides the discovery source if they conflict.
+
+
+================================================
+DO NOT
+================================================
+
+- Do not reject the whole article.
+- Do not invent replacement facts.
+- Do not use your memory.
+- Do not add information just because it seems obvious.
+- Do not make the article more sensational.
+- Do not add unsupported conclusions.
+
+
+================================================
+OUTPUT
+================================================
+
+Return a fully corrected article in EXACTLY this format:
 
 TITLE: [corrected headline]
 
-EXCERPT: [corrected excerpt]
+EXCERPT: [corrected factual excerpt]
 
 CATEGORY: [Actualités, Guides, Sélections, Tests & Avis]
 
@@ -1201,8 +1169,10 @@ CONTENT:
             {
                 "role": "system",
                 "content": (
-                    "Repair only unsupported claims. "
-                    "Never invent replacement facts."
+                    "You are a conservative gaming "
+                    "fact-checker and correction editor. "
+                    "Correct unsupported claims instead "
+                    "of rejecting the article."
                 ),
             },
             {
@@ -1213,7 +1183,7 @@ CONTENT:
         temperature=0.05,
     )
 
-    repaired_text = (
+    corrected = (
         response
         .choices[0]
         .message
@@ -1221,7 +1191,7 @@ CONTENT:
     )
 
     return parse_article(
-        repaired_text
+        corrected
     )
 
 
@@ -1301,7 +1271,7 @@ def save_draft(
 
 Source validation: PASSED
 
-Fact-check: PASSED
+Editorial verification: CORRECTED AND PASSED
 
 ## Status
 
@@ -1314,12 +1284,12 @@ DRAFT - HUMAN REVIEW REQUIRED BEFORE PUBLISHING
     )
 
     print("")
-    print("APPROVED DRAFT CREATED:")
+    print("DRAFT CREATED:")
     print(filename)
 
 
 # =========================================================
-# SAVE REJECTION REPORT
+# SAVE SOURCE-REJECTION REPORT
 # =========================================================
 
 def save_rejection_report(
@@ -1346,7 +1316,6 @@ def save_rejection_report(
             "title",
             ""
         )
-
         story_url = story.get(
             "url",
             ""
@@ -1381,7 +1350,9 @@ NO DRAFT WAS SAVED.
     )
 
     print("")
-    print("Rejection report saved:")
+    print(
+        "Source rejected. Report saved:"
+    )
     print(filename)
 
 
@@ -1410,13 +1381,13 @@ def main():
         source_text,
     )
 
+    # Only unusable SOURCES are rejected now.
     if not valid:
         save_rejection_report(
             "SOURCE VALIDATION",
             reason,
             story,
         )
-
         return
 
     official_story = (
@@ -1429,10 +1400,24 @@ def main():
     official_text = ""
 
     if official_story:
+        print("")
+        print(
+            "Official verification source found:"
+        )
+        print(
+            official_story.get("url", "")
+        )
+
         official_text = extract_page(
             official_story
         )
+    else:
+        print("")
+        print(
+            "No matching official source found."
+        )
 
+    # First draft
     generated = generate_article(
         story,
         source_text,
@@ -1450,73 +1435,25 @@ def main():
         generated
     )
 
-    approved, verdict = fact_check_draft(
+    # Final verifier automatically CORRECTS the article.
+    (
         title,
         excerpt,
+        category,
+        tags,
+        content,
+    ) = verify_and_correct_article(
+        title,
+        excerpt,
+        category,
+        tags,
         content,
         source_text,
+        story,
         official_text,
     )
 
-    # =====================================================
-    # ONE REPAIR ATTEMPT
-    # =====================================================
-
-    if not approved:
-        print("")
-        print(
-            "First draft rejected. "
-            "Starting automatic repair."
-        )
-
-        (
-            title,
-            excerpt,
-            category,
-            tags,
-            content,
-        ) = repair_article(
-            title,
-            excerpt,
-            category,
-            tags,
-            content,
-            verdict,
-            story,
-            source_text,
-            official_text,
-        )
-
-        approved, second_verdict = (
-            fact_check_draft(
-                title,
-                excerpt,
-                content,
-                source_text,
-                official_text,
-            )
-        )
-
-        if not approved:
-            save_rejection_report(
-                "FACT CHECK AFTER REPAIR",
-                second_verdict,
-                story,
-            )
-
-            print("")
-            print(
-                "Repair failed. "
-                "Nothing saved to drafts."
-            )
-
-            return
-
-        print("")
-        print(
-            "Repair passed fact-check."
-        )
-
+    # Corrected article is saved to drafts.
     save_draft(
         title,
         excerpt,

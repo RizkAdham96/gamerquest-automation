@@ -229,7 +229,21 @@ STRICT EDITORIAL RULES:
 14. Do not add facts from your own memory.
 15. Do not claim a feature, price, platform or release detail unless present in the source.
 16. Prioritize named facts over vague summaries.
+17. Avoid exaggerated wording.
+    Do not use words such as "illimité", "révolutionnaire",
+    "incroyable", "énorme" or similar language unless the
+    source clearly supports that exact characterization.
 
+18. Write natural French rather than translating English
+    terminology literally.
+    Keep official game feature names in English when they
+    are proper names, but explain them naturally in French.
+
+19. When platform information is explicitly provided by
+    the source, mention the relevant platform clearly in
+    the introduction or appropriate section.
+    Never infer platform availability from the website
+    hosting the article alone.
 ARTICLE QUALITY:
 
 - Aim for roughly 400–700 words only when the source contains enough detail.

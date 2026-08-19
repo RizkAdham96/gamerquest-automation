@@ -1,9 +1,9 @@
 import os
-import requests
-import feedparser
+import re
+from datetime import datetime
 
+import feedparser
 from groq import Groq
-from requests.auth import HTTPBasicAuth
 
 
 # =========================
@@ -11,15 +11,12 @@ from requests.auth import HTTPBasicAuth
 # =========================
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
-WP_URL = os.environ["WP_URL"].rstrip("/")
-WP_USERNAME = os.environ["WP_USERNAME"]
-WP_APP_PASSWORD = os.environ["WP_APP_PASSWORD"]
 
 RSS_URL = "https://blog.playstation.com/feed/"
 
 
 # =========================
-# GET GAMING NEWS
+# GET LATEST GAMING NEWS
 # =========================
 
 def get_latest_story():
@@ -42,7 +39,6 @@ def get_latest_story():
 # =========================
 
 def generate_article(story):
-
     client = Groq(api_key=GROQ_API_KEY)
 
     prompt = f"""
@@ -78,10 +74,10 @@ Return exactly this format:
 
 TITLE: [article title]
 
-EXCERPT: [short description]
+EXCERPT: [short SEO-friendly description]
 
 CONTENT:
-[article in HTML]
+[full article in HTML using <h2>, <p>, <strong>, <ul>, <li> where useful]
 """
 
     response = client.chat.completions.create(
@@ -103,11 +99,10 @@ CONTENT:
 
 
 # =========================
-# SEPARATE TITLE / EXCERPT / ARTICLE
+# PARSE GROQ RESPONSE
 # =========================
 
 def parse_article(text):
-
     title = ""
     excerpt = ""
     content = ""
@@ -128,42 +123,54 @@ def parse_article(text):
 
 
 # =========================
-# SEND ARTICLE TO WORDPRESS
+# CREATE SAFE FILE NAME
 # =========================
 
-def create_wordpress_draft(title, excerpt, content):
+def slugify(text):
+    text = text.lower()
+    text = re.sub(r"[^\w\s-]", "", text)
+    text = re.sub(r"[\s_-]+", "-", text)
+    text = re.sub(r"^-+|-+$", "", text)
 
-    endpoint = f"{WP_URL}/wp-json/wp/v2/posts"
+    return text[:80]
 
-    response = requests.post(
-        endpoint,
-        auth=HTTPBasicAuth(
-            WP_USERNAME,
-            WP_APP_PASSWORD
-        ),
-        json={
-            "title": title,
-            "content": content,
-            "excerpt": excerpt,
-            "status": "draft",
-        },
-        timeout=120,
-    )
 
-    if not response.ok:
-        print("WordPress response:", response.status_code)
-        print(response.text[:1000])
+# =========================
+# SAVE ARTICLE TO GITHUB FILE
+# =========================
 
-    response.raise_for_status()
+def save_draft(title, excerpt, content, source_url):
+    os.makedirs("drafts", exist_ok=True)
 
-    post = response.json()
+    date_str = datetime.utcnow().strftime("%Y-%m-%d-%H%M")
+    slug = slugify(title)
 
-    print("SUCCESS - WordPress draft created!")
-    print("Post ID:", post["id"])
-    print(
-        "Edit URL:",
-        f"{WP_URL}/wp-admin/post.php?post={post['id']}&action=edit"
-    )
+    filename = f"drafts/{date_str}-{slug}.md"
+
+    markdown = f"""# {title}
+
+## Excerpt
+
+{excerpt}
+
+## Article
+
+{content}
+
+## Source
+
+{source_url}
+
+## Status
+
+DRAFT - REVIEW BEFORE PUBLISHING
+"""
+
+    with open(filename, "w", encoding="utf-8") as file:
+        file.write(markdown)
+
+    print("Draft saved successfully.")
+    print("File:", filename)
 
 
 # =========================
@@ -171,7 +178,6 @@ def create_wordpress_draft(title, excerpt, content):
 # =========================
 
 def main():
-
     print("Getting latest gaming news...")
 
     story = get_latest_story()
@@ -187,13 +193,16 @@ def main():
 
     title, excerpt, content = parse_article(generated_article)
 
-    print("Sending article to WordPress...")
+    print("Saving draft to GitHub repository...")
 
-    create_wordpress_draft(
+    save_draft(
         title,
         excerpt,
-        content
+        content,
+        story["link"]
     )
+
+    print("Done.")
 
 
 if __name__ == "__main__":

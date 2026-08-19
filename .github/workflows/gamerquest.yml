@@ -3,6 +3,9 @@ name: GamerQuest Article Automation
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   create-draft:
     runs-on: ubuntu-latest
@@ -22,7 +25,12 @@ jobs:
       - name: Generate GamerQuest draft
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          WP_URL: ${{ secrets.WP_URL }}
-          WP_USERNAME: ${{ secrets.WP_USERNAME }}
-          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
         run: python automation.py
+
+      - name: Commit generated draft
+        run: |
+          git config user.name "GamerQuest Bot"
+          git config user.email "actions@github.com"
+          git add drafts/
+          git commit -m "Add automated GamerQuest draft" || echo "No changes to commit"
+          git push

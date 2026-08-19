@@ -1,15 +1,26 @@
 import os
 import requests
 import feedparser
+
+from groq import Groq
 from requests.auth import HTTPBasicAuth
+
+
+# =========================
+# CONFIGURATION
+# =========================
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 WP_URL = os.environ["WP_URL"].rstrip("/")
 WP_USERNAME = os.environ["WP_USERNAME"]
 WP_APP_PASSWORD = os.environ["WP_APP_PASSWORD"]
 
-# First test source
 RSS_URL = "https://blog.playstation.com/feed/"
+
+
+# =========================
+# GET GAMING NEWS
+# =========================
 
 def get_latest_story():
     feed = feedparser.parse(RSS_URL)
@@ -26,7 +37,14 @@ def get_latest_story():
     }
 
 
+# =========================
+# GENERATE ARTICLE WITH GROQ
+# =========================
+
 def generate_article(story):
+
+    client = Groq(api_key=GROQ_API_KEY)
+
     prompt = f"""
 You are an editor for GamerQuest FR, an independent French gaming website.
 
@@ -46,10 +64,10 @@ Requirements:
 - Write in French.
 - Do not invent facts.
 - Do not claim information not present in the source.
-- Rewrite everything originally. Do not copy source paragraphs.
+- Rewrite everything originally.
+- Do not copy source paragraphs.
 - Write for French gamers.
 - Use a clear journalistic tone.
-- 500 to 800 words maximum.
 - Use short paragraphs.
 - Include useful H2 headings.
 - No fake quotes.
@@ -60,41 +78,36 @@ Return exactly this format:
 
 TITLE: [article title]
 
-EXCERPT: [one short SEO-friendly summary]
+EXCERPT: [short description]
 
 CONTENT:
-[full article in HTML using <h2>, <p>, <strong>, <ul>, <li> where useful]
+[article in HTML]
 """
 
-    response = requests.post(
-        "https://api.groq.com/openai/v1/chat/completions",
-        headers={
-            "Authorization": f"Bearer {GROQ_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "model": "qwen/qwen3-32b",
-            "messages": [
-                {
-                    "role": "system",
-                    "content": "You are a careful gaming journalist who never invents facts.",
-                },
-                {
-                    "role": "user",
-                    "content": prompt,
-                },
-            ],
-            "temperature": 0.4,
-        },
-        timeout=120,
+    response = client.chat.completions.create(
+        model="qwen/qwen3-32b",
+        messages=[
+            {
+                "role": "system",
+                "content": "You are a careful gaming journalist. Never invent facts."
+            },
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ],
+        temperature=0.4,
     )
 
-    response.raise_for_status()
+    return response.choices[0].message.content
 
-    return response.json()["choices"][0]["message"]["content"]
 
+# =========================
+# SEPARATE TITLE / EXCERPT / ARTICLE
+# =========================
 
 def parse_article(text):
+
     title = ""
     excerpt = ""
     content = ""
@@ -114,12 +127,20 @@ def parse_article(text):
     return title, excerpt, content
 
 
+# =========================
+# SEND ARTICLE TO WORDPRESS
+# =========================
+
 def create_wordpress_draft(title, excerpt, content):
+
     endpoint = f"{WP_URL}/wp-json/wp/v2/posts"
 
     response = requests.post(
         endpoint,
-        auth=HTTPBasicAuth(WP_USERNAME, WP_APP_PASSWORD),
+        auth=HTTPBasicAuth(
+            WP_USERNAME,
+            WP_APP_PASSWORD
+        ),
         json={
             "title": title,
             "content": content,
@@ -129,25 +150,50 @@ def create_wordpress_draft(title, excerpt, content):
         timeout=120,
     )
 
+    if not response.ok:
+        print("WordPress response:", response.status_code)
+        print(response.text[:1000])
+
     response.raise_for_status()
 
     post = response.json()
 
-    print("Draft created successfully.")
+    print("SUCCESS - WordPress draft created!")
     print("Post ID:", post["id"])
-    print("Edit URL:", f"{WP_URL}/wp-admin/post.php?post={post['id']}&action=edit")
+    print(
+        "Edit URL:",
+        f"{WP_URL}/wp-admin/post.php?post={post['id']}&action=edit"
+    )
 
+
+# =========================
+# RUN AUTOMATION
+# =========================
 
 def main():
+
+    print("Getting latest gaming news...")
+
     story = get_latest_story()
 
-    print("Source:", story["title"])
+    print("Found:")
+    print(story["title"])
 
-    generated = generate_article(story)
+    print("Generating French article with Groq...")
 
-    title, excerpt, content = parse_article(generated)
+    generated_article = generate_article(story)
 
-    create_wordpress_draft(title, excerpt, content)
+    print("Article generated.")
+
+    title, excerpt, content = parse_article(generated_article)
+
+    print("Sending article to WordPress...")
+
+    create_wordpress_draft(
+        title,
+        excerpt,
+        content
+    )
 
 
 if __name__ == "__main__":

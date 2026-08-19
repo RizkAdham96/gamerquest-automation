@@ -1,6 +1,7 @@
 name: GamerQuest Automation V6
 
 on:
+  # Allows you to run the automation manually from GitHub Actions
   workflow_dispatch:
 
 permissions:
@@ -11,23 +12,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      # 1. Download your repository into the GitHub runner
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2. Install Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      # 3. Install the Python packages used by automation.py
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
+      # 4. Run GamerQuest
       - name: Run GamerQuest automation
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-        run: python automation.py
+        run: |
+          python automation.py
 
+      # 5. Save generated drafts AND Tavily usage counter
       - name: Save drafts and Tavily state
         if: always()
         run: |
@@ -36,6 +46,9 @@ jobs:
 
           git add drafts/ state/ 2>/dev/null || true
 
-          git commit -m "Update GamerQuest automation" || echo "No changes to commit"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No new draft or state changes to save."
+          else
+            git commit -m "GamerQuest: update drafts and automation state"
+            git push
+          fi

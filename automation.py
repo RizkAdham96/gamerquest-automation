@@ -19,7 +19,7 @@ DRAFTS_FOLDER = Path("drafts")
 
 
 # =========================
-# CHECK FOR DUPLICATES
+# DUPLICATE CHECK
 # =========================
 
 def source_already_used(source_url):
@@ -40,7 +40,7 @@ def source_already_used(source_url):
 
 
 # =========================
-# GET LATEST NEW GAMING STORY
+# GET LATEST UNUSED STORY
 # =========================
 
 def get_latest_story():
@@ -49,14 +49,13 @@ def get_latest_story():
     if not feed.entries:
         raise RuntimeError("No RSS entries found.")
 
-    # Look through recent stories until we find one
-    # that has not already been processed.
     for entry in feed.entries[:20]:
 
         story = {
-            "title": entry.get("title", ""),
-            "link": entry.get("link", ""),
-            "summary": entry.get("summary", ""),
+            "title": entry.get("title", "").strip(),
+            "link": entry.get("link", "").strip(),
+            "summary": entry.get("summary", "").strip(),
+            "published": entry.get("published", "").strip(),
         }
 
         if not story["link"]:
@@ -70,21 +69,21 @@ def get_latest_story():
         return story
 
     raise RuntimeError(
-        "No new stories found. The latest RSS stories have already been processed."
+        "No new stories found. Recent RSS stories were already processed."
     )
 
 
 # =========================
-# GENERATE ARTICLE WITH GROQ
+# GENERATE ARTICLE
 # =========================
 
 def generate_article(story):
     client = Groq(api_key=GROQ_API_KEY)
 
     prompt = f"""
-You are an editor for GamerQuest FR, an independent French gaming website.
+You are the editor of GamerQuest FR, an independent French gaming publication.
 
-Using ONLY the source information below, write an original French gaming news article.
+Your job is to transform ONE source into a useful, accurate French gaming-news draft.
 
 SOURCE TITLE:
 {story['title']}
@@ -92,33 +91,78 @@ SOURCE TITLE:
 SOURCE SUMMARY:
 {story['summary']}
 
+SOURCE DATE:
+{story['published']}
+
 SOURCE URL:
 {story['link']}
 
-Requirements:
+STRICT EDITORIAL RULES:
 
-- Write in French.
-- Do not invent facts.
-- Do not claim information not present in the source.
-- Rewrite everything originally.
-- Do not copy source paragraphs.
-- Write for French gamers.
-- Use a clear journalistic tone.
-- Use short paragraphs.
-- Include useful H2 headings.
-- No fake quotes.
-- No exaggerated clickbait.
-- Mention the original source naturally at the end.
-- If the source provides limited information, write a shorter article rather than inventing details.
+1. Use ONLY facts that are clearly present in the supplied source information.
+2. Never invent:
+   - reviews
+   - hands-on impressions
+   - player reactions
+   - sales figures
+   - release dates
+   - technical specifications
+   - availability
+   - pricing
+   - quotes
+   - developer intentions
+   unless they are explicitly supported by the source.
+3. Do not write filler such as:
+   - "les premiers tests montrent..."
+   - "les joueurs apprécieront..."
+   - "cela promet une expérience mémorable..."
+   unless the source explicitly supports it.
+4. Preserve concrete useful facts whenever they are available:
+   - dates
+   - platforms
+   - regions
+   - prices
+   - product features
+   - gameplay mechanics
+   - editions
+   - pre-order dates
+   - developer/publisher names
+5. Be precise about geography.
+   If an announcement is for Southeast Asia, do not frame it as a French release.
+6. Distinguish clearly between:
+   - official announcement
+   - trailer
+   - release information
+   - developer explanation
+   - hands-on preview
+   Never present one as another.
+7. If the source is thin, write a SHORTER article.
+   Never pad the article with speculation.
+8. Rewrite everything originally.
+   Do not reproduce source paragraphs.
+9. Use natural French for a French gaming audience.
+10. Keep the tone informative, neutral and useful.
+11. Use short paragraphs and meaningful H2 headings.
+12. Avoid exaggerated clickbait.
+13. Mention the original source at the end.
+14. Do not add facts from your own memory.
 
-Return exactly this format:
+ARTICLE QUALITY:
 
-TITLE: [article title]
+- Aim for roughly 400–700 words only when the source contains enough detail.
+- If not, 200–400 words is preferable to invented content.
+- The introduction should immediately explain what happened and why it matters.
+- Prioritize concrete information over atmosphere or generic commentary.
+- Avoid repeating the same fact in multiple sections.
 
-EXCERPT: [short SEO-friendly description]
+Return EXACTLY this format:
+
+TITLE: [clear French headline]
+
+EXCERPT: [one factual summary of about 20–35 words]
 
 CONTENT:
-[full article in HTML using <h2>, <p>, <strong>, <ul>, <li> where useful]
+[HTML article using <p>, <h2>, <strong>, <ul>, <li> where appropriate]
 """
 
     response = client.chat.completions.create(
@@ -126,21 +170,25 @@ CONTENT:
         messages=[
             {
                 "role": "system",
-                "content": "You are a careful gaming journalist. Never invent facts."
+                "content": (
+                    "You are a rigorous gaming-news editor. "
+                    "Accuracy is more important than article length. "
+                    "Never invent missing information."
+                ),
             },
             {
                 "role": "user",
-                "content": prompt
-            }
+                "content": prompt,
+            },
         ],
-        temperature=0.4,
+        temperature=0.2,
     )
 
     return response.choices[0].message.content
 
 
 # =========================
-# PARSE GROQ RESPONSE
+# PARSE RESPONSE
 # =========================
 
 def parse_article(text):
@@ -149,28 +197,24 @@ def parse_article(text):
     content = ""
 
     if "TITLE:" in text:
-        title = text.split(
-            "TITLE:", 1
-        )[1].split(
-            "EXCERPT:", 1
-        )[0].strip()
+        title = (
+            text.split("TITLE:", 1)[1]
+            .split("EXCERPT:", 1)[0]
+            .strip()
+        )
 
     if "EXCERPT:" in text:
-        excerpt = text.split(
-            "EXCERPT:", 1
-        )[1].split(
-            "CONTENT:", 1
-        )[0].strip()
+        excerpt = (
+            text.split("EXCERPT:", 1)[1]
+            .split("CONTENT:", 1)[0]
+            .strip()
+        )
 
     if "CONTENT:" in text:
-        content = text.split(
-            "CONTENT:", 1
-        )[1].strip()
+        content = text.split("CONTENT:", 1)[1].strip()
 
-    if not title or not content:
-        raise RuntimeError(
-            "Groq response could not be parsed."
-        )
+    if not title or not excerpt or not content:
+        raise RuntimeError("Groq response could not be parsed.")
 
     return title, excerpt, content
 
@@ -185,43 +229,34 @@ def slugify(text):
     text = re.sub(
         r"[^\w\s-]",
         "",
-        text
+        text,
     )
 
     text = re.sub(
         r"[\s_-]+",
         "-",
-        text
+        text,
     )
 
     text = re.sub(
         r"^-+|-+$",
         "",
-        text
+        text,
     )
 
     return text[:80]
 
 
 # =========================
-# SAVE ARTICLE TO GITHUB
+# SAVE DRAFT
 # =========================
 
-def save_draft(
-    title,
-    excerpt,
-    content,
-    source_url
-):
-    DRAFTS_FOLDER.mkdir(
-        exist_ok=True
-    )
+def save_draft(title, excerpt, content, story):
+    DRAFTS_FOLDER.mkdir(exist_ok=True)
 
     date_str = datetime.now(
         timezone.utc
-    ).strftime(
-        "%Y-%m-%d-%H%M"
-    )
+    ).strftime("%Y-%m-%d-%H%M")
 
     slug = slugify(title)
 
@@ -240,18 +275,26 @@ def save_draft(
 
 {content}
 
+## Source title
+
+{story['title']}
+
 ## Source
 
-{source_url}
+{story['link']}
+
+## Source date
+
+{story['published']}
 
 ## Status
 
-DRAFT - REVIEW BEFORE PUBLISHING
+DRAFT - HUMAN REVIEW REQUIRED BEFORE PUBLISHING
 """
 
     filename.write_text(
         markdown,
-        encoding="utf-8"
+        encoding="utf-8",
     )
 
     print("Draft saved successfully.")
@@ -259,43 +302,33 @@ DRAFT - REVIEW BEFORE PUBLISHING
 
 
 # =========================
-# RUN AUTOMATION
+# RUN
 # =========================
 
 def main():
-    print(
-        "Getting latest unprocessed gaming news..."
-    )
+    print("Looking for a new gaming story...")
 
     story = get_latest_story()
 
-    print("New story found:")
+    print("Selected:")
     print(story["title"])
     print(story["link"])
 
-    print(
-        "Generating French article with Groq..."
-    )
+    print("Generating editorial draft with Groq...")
 
-    generated_article = generate_article(
-        story
-    )
-
-    print("Article generated.")
+    generated_article = generate_article(story)
 
     title, excerpt, content = parse_article(
         generated_article
     )
 
-    print(
-        "Saving draft to GitHub repository..."
-    )
+    print("Draft generated.")
 
     save_draft(
         title,
         excerpt,
         content,
-        story["link"]
+        story,
     )
 
     print("Done.")

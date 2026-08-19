@@ -2,6 +2,7 @@ import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+from email.utils import parsedate_to_datetime
 
 import feedparser
 import requests
@@ -10,77 +11,203 @@ from bs4 import BeautifulSoup
 from groq import Groq
 
 
-# =========================
+# =========================================================
 # CONFIGURATION
-# =========================
+# =========================================================
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 
-RSS_URL = "https://blog.playstation.com/feed/"
-
 DRAFTS_FOLDER = Path("drafts")
 
+SOURCES = [
+    {
+        "name": "PlayStation Blog",
+        "feed": "https://blog.playstation.com/feed/",
+    },
+    {
+        "name": "Nintendo",
+        "feed": "https://www.nintendo.co.jp/news/whatsnew.xml",
+    },
+]
 
-# =========================
+
+# =========================================================
 # DUPLICATE CHECK
-# =========================
+# =========================================================
 
 def source_already_used(source_url):
+
     if not DRAFTS_FOLDER.exists():
         return False
 
     for draft_file in DRAFTS_FOLDER.glob("*.md"):
+
         try:
-            content = draft_file.read_text(encoding="utf-8")
+            content = draft_file.read_text(
+                encoding="utf-8"
+            )
 
             if source_url in content:
                 return True
 
         except Exception as error:
-            print(f"Could not read {draft_file}: {error}")
+            print(
+                f"Could not read {draft_file}: {error}"
+            )
 
     return False
 
 
-# =========================
-# GET LATEST UNUSED STORY
-# =========================
+# =========================================================
+# DATE PARSING
+# =========================================================
 
-def get_latest_story():
-    feed = feedparser.parse(RSS_URL)
+def parse_date(entry):
 
-    if not feed.entries:
-        raise RuntimeError("No RSS entries found.")
+    date_string = entry.get(
+        "published",
+        entry.get("updated", "")
+    )
 
-    for entry in feed.entries[:20]:
-        story = {
-            "title": entry.get("title", "").strip(),
-            "link": entry.get("link", "").strip(),
-            "summary": entry.get("summary", "").strip(),
-            "published": entry.get("published", "").strip(),
-        }
+    if not date_string:
+        return datetime.min.replace(
+            tzinfo=timezone.utc
+        )
 
-        if not story["link"]:
+    try:
+
+        parsed = parsedate_to_datetime(
+            date_string
+        )
+
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(
+                tzinfo=timezone.utc
+            )
+
+        return parsed
+
+    except Exception:
+
+        return datetime.min.replace(
+            tzinfo=timezone.utc
+        )
+
+
+# =========================================================
+# COLLECT STORIES FROM ALL SOURCES
+# =========================================================
+
+def collect_stories():
+
+    stories = []
+
+    for source in SOURCES:
+
+        print(
+            f"Checking {source['name']}..."
+        )
+
+        feed = feedparser.parse(
+            source["feed"]
+        )
+
+        if not feed.entries:
+
+            print(
+                f"No entries from {source['name']}."
+            )
+
             continue
 
-        if source_already_used(story["link"]):
-            print("Skipping duplicate:")
-            print(story["title"])
+        for entry in feed.entries[:15]:
+
+            link = entry.get(
+                "link",
+                ""
+            ).strip()
+
+            title = entry.get(
+                "title",
+                ""
+            ).strip()
+
+            if not link or not title:
+                continue
+
+            story = {
+                "source": source["name"],
+                "title": title,
+                "link": link,
+                "summary": entry.get(
+                    "summary",
+                    ""
+                ).strip(),
+                "published": entry.get(
+                    "published",
+                    entry.get(
+                        "updated",
+                        ""
+                    )
+                ).strip(),
+                "date": parse_date(entry),
+            }
+
+            stories.append(story)
+
+    return stories
+
+
+# =========================================================
+# SELECT NEWEST UNUSED STORY
+# =========================================================
+
+def get_latest_story():
+
+    stories = collect_stories()
+
+    if not stories:
+        raise RuntimeError(
+            "No stories found from any source."
+        )
+
+    stories.sort(
+        key=lambda item: item["date"],
+        reverse=True
+    )
+
+    for story in stories:
+
+        if source_already_used(
+            story["link"]
+        ):
+
+            print(
+                "Skipping duplicate:"
+            )
+
+            print(
+                story["title"]
+            )
+
             continue
 
         return story
 
     raise RuntimeError(
-        "No new stories found. Recent RSS stories were already processed."
+        "No new unused stories were found."
     )
 
 
-# =========================
-# FETCH FULL SOURCE ARTICLE
-# =========================
+# =========================================================
+# FETCH FULL ARTICLE
+# =========================================================
 
 def fetch_full_article(url):
-    print("Fetching full source article...")
+
+    print(
+        "Fetching full source article..."
+    )
 
     response = requests.get(
         url,
@@ -88,7 +215,7 @@ def fetch_full_article(url):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 "
-                "(compatible; GamerQuestFR/1.0; editorial research)"
+                "(compatible; GamerQuestFR/1.0)"
             )
         }
     )
@@ -100,7 +227,6 @@ def fetch_full_article(url):
         "html.parser"
     )
 
-    # Remove non-editorial elements
     for element in soup([
         "script",
         "style",
@@ -111,25 +237,29 @@ def fetch_full_article(url):
         "form",
         "noscript",
     ]):
+
         element.decompose()
 
     article = soup.find("article")
 
     if article:
+
         text = article.get_text(
             separator="\n",
             strip=True
         )
+
     else:
+
         text = soup.get_text(
             separator="\n",
             strip=True
         )
 
-    # Keep payload manageable
-    text = text[:20000]
+    text = text[:25000]
 
     if len(text) < 300:
+
         raise RuntimeError(
             "Could not extract enough article content."
         )
@@ -141,11 +271,12 @@ def fetch_full_article(url):
     return text
 
 
-# =========================
-# GENERATE ARTICLE WITH GROQ
-# =========================
+# =========================================================
+# GENERATE GAMERQUEST ARTICLE
+# =========================================================
 
 def generate_article(story):
+
     client = Groq(
         api_key=GROQ_API_KEY
     )
@@ -155,15 +286,17 @@ def generate_article(story):
     )
 
     prompt = f"""
-You are the editor of GamerQuest FR, an independent French gaming publication.
+You are the editor of GamerQuest FR,
+an independent French gaming publication.
 
-Your job is to transform ONE source into a useful, accurate French gaming-news draft.
+Create an ORIGINAL French gaming-news article
+based exclusively on the source supplied below.
+
+SOURCE:
+{story['source']}
 
 SOURCE TITLE:
 {story['title']}
-
-SOURCE RSS SUMMARY:
-{story['summary']}
 
 SOURCE DATE:
 {story['published']}
@@ -171,97 +304,97 @@ SOURCE DATE:
 SOURCE URL:
 {story['link']}
 
-FULL SOURCE ARTICLE:
+RSS SUMMARY:
+{story['summary']}
+
+FULL SOURCE:
 {full_source}
+
 
 STRICT EDITORIAL RULES:
 
-1. Use ONLY facts clearly supported by the supplied source.
-2. Never invent:
-   - reviews
-   - hands-on impressions
-   - player reactions
-   - sales figures
-   - release dates
-   - technical specifications
-   - availability
-   - pricing
-   - quotes
-   - developer intentions
-   unless explicitly present in the source.
-3. Do not write filler such as:
-   - "les premiers tests montrent..."
-   - "les joueurs apprécieront..."
-   - "cela promet une expérience mémorable..."
-   unless the source explicitly supports it.
-4. Preserve concrete useful facts whenever available:
-   - dates
-   - platforms
-   - regions
-   - prices
-   - product features
-   - gameplay mechanics
-   - editions
-   - pre-order dates
-   - developer/publisher names
-   - car names
-   - game modes
-   - maps
-   - tracks
-   - update numbers
-5. Be precise about geography.
-   If an announcement is for a specific region, do not present it as a French release.
-6. Clearly distinguish between:
-   - official announcement
-   - trailer
-   - release information
-   - developer explanation
-   - hands-on preview
-7. If the source is thin, write a shorter article.
-   Never pad the article with speculation.
-8. Rewrite everything originally.
-   Do not reproduce source paragraphs.
-9. Use natural French for a French gaming audience.
-10. Keep the tone informative, neutral and useful.
-11. Use short paragraphs and meaningful H2 headings.
-12. Avoid exaggerated clickbait.
-13. Mention the original source at the end.
-14. Do not add facts from your own memory.
-15. Do not claim a feature, price, platform or release detail unless present in the source.
-16. Prioritize named facts over vague summaries.
-17. Avoid exaggerated wording.
-    Do not use words such as "illimité", "révolutionnaire",
-    "incroyable", "énorme" or similar language unless the
-    source clearly supports that exact characterization.
+1. Use ONLY facts supported by the source.
 
-18. Write natural French rather than translating English
-    terminology literally.
-    Keep official game feature names in English when they
-    are proper names, but explain them naturally in French.
+2. Never invent facts, reactions, reviews,
+sales numbers, dates, prices, quotes,
+technical specifications or opinions.
 
-19. When platform information is explicitly provided by
-    the source, mention the relevant platform clearly in
-    the introduction or appropriate section.
-    Never infer platform availability from the website
-    hosting the article alone.
+3. Never use your own memory to add information.
+
+4. Preserve useful concrete details:
+dates, platforms, prices, game modes,
+characters, developers, publishers,
+vehicles, maps, features and regions.
+
+5. If the source contains little information,
+write a shorter article rather than adding filler.
+
+6. Rewrite the information originally.
+Do not copy paragraphs from the source.
+
+7. Write natural professional French.
+
+8. Keep official names of games, modes,
+characters and branded features when necessary.
+
+9. Avoid exaggerated wording such as
+"révolutionnaire", "incroyable", "énorme",
+"illimité" or similar terms unless clearly
+supported by the source.
+
+10. Clearly distinguish an announcement,
+release, trailer, interview, update,
+preview or developer explanation.
+
+11. Never infer platform availability
+simply because the story appears on
+PlayStation, Xbox or Nintendo's website.
+
+12. Be geographically precise.
+
+13. Do not invent French availability
+when an announcement concerns another region.
+
+14. Prioritize named facts over vague summaries.
+
+15. Do not write generic conclusions such as
+"cela promet une expérience mémorable."
+
+16. Use meaningful H2 sections.
+
+17. Use bullet lists only when they genuinely
+make information easier to understand.
+
+18. Mention the original source naturally
+at the end.
+
+19. Accuracy is more important than length.
+
+
 ARTICLE QUALITY:
 
-- Aim for roughly 400–700 words only when the source contains enough detail.
-- If not, 200–400 words is preferable to invented content.
-- The introduction should immediately explain what happened and why it matters.
-- Prioritize concrete information over atmosphere or generic commentary.
-- Avoid repeating the same fact in multiple sections.
-- Name specific vehicles, maps, modes, features, prices or regions when the source provides them.
-- If a source mentions several items, list them clearly instead of replacing them with vague phrases like "plusieurs nouveautés".
+Aim for approximately 400–700 words when
+the source contains enough information.
 
-Return EXACTLY this format:
+Otherwise write 200–400 words.
 
-TITLE: [clear French headline]
+The introduction should immediately explain
+the news and its importance.
 
-EXCERPT: [one factual summary of about 20–35 words]
+Avoid repetition.
+
+Write for readers of GamerQuest FR.
+
+
+RETURN EXACTLY:
+
+TITLE: [French headline]
+
+EXCERPT: [20–35 word factual summary]
 
 CONTENT:
-[HTML article using <p>, <h2>, <strong>, <ul>, <li> where appropriate]
+[HTML article using <p>, <h2>, <strong>,
+<ul> and <li> where appropriate]
 """
 
     response = client.chat.completions.create(
@@ -270,15 +403,16 @@ CONTENT:
             {
                 "role": "system",
                 "content": (
-                    "You are a rigorous gaming-news editor. "
-                    "Accuracy is more important than article length. "
-                    "Never invent missing information."
-                ),
+                    "You are a rigorous French gaming "
+                    "news editor. Accuracy is more "
+                    "important than length. Never "
+                    "invent missing information."
+                )
             },
             {
                 "role": "user",
-                "content": prompt,
-            },
+                "content": prompt
+            }
         ],
         temperature=0.2,
     )
@@ -286,36 +420,56 @@ CONTENT:
     return response.choices[0].message.content
 
 
-# =========================
-# PARSE GROQ RESPONSE
-# =========================
+# =========================================================
+# PARSE AI RESPONSE
+# =========================================================
 
 def parse_article(text):
+
     title = ""
     excerpt = ""
     content = ""
 
     if "TITLE:" in text:
+
         title = (
-            text.split("TITLE:", 1)[1]
-            .split("EXCERPT:", 1)[0]
+            text.split(
+                "TITLE:",
+                1
+            )[1]
+            .split(
+                "EXCERPT:",
+                1
+            )[0]
             .strip()
         )
 
     if "EXCERPT:" in text:
+
         excerpt = (
-            text.split("EXCERPT:", 1)[1]
-            .split("CONTENT:", 1)[0]
+            text.split(
+                "EXCERPT:",
+                1
+            )[1]
+            .split(
+                "CONTENT:",
+                1
+            )[0]
             .strip()
         )
 
     if "CONTENT:" in text:
+
         content = (
-            text.split("CONTENT:", 1)[1]
+            text.split(
+                "CONTENT:",
+                1
+            )[1]
             .strip()
         )
 
     if not title or not excerpt or not content:
+
         raise RuntimeError(
             "Groq response could not be parsed."
         )
@@ -323,11 +477,12 @@ def parse_article(text):
     return title, excerpt, content
 
 
-# =========================
-# CREATE SAFE FILE NAME
-# =========================
+# =========================================================
+# SLUG
+# =========================================================
 
 def slugify(text):
+
     text = text.lower()
 
     text = re.sub(
@@ -351,9 +506,9 @@ def slugify(text):
     return text[:80]
 
 
-# =========================
+# =========================================================
 # SAVE DRAFT
-# =========================
+# =========================================================
 
 def save_draft(
     title,
@@ -361,6 +516,7 @@ def save_draft(
     content,
     story
 ):
+
     DRAFTS_FOLDER.mkdir(
         exist_ok=True
     )
@@ -371,13 +527,9 @@ def save_draft(
         "%Y-%m-%d-%H%M"
     )
 
-    slug = slugify(
-        title
-    )
-
     filename = (
         DRAFTS_FOLDER
-        / f"{date_str}-{slug}.md"
+        / f"{date_str}-{slugify(title)}.md"
     )
 
     markdown = f"""# {title}
@@ -390,11 +542,15 @@ def save_draft(
 
 {content}
 
+## Original source
+
+{story['source']}
+
 ## Source title
 
 {story['title']}
 
-## Source
+## Source URL
 
 {story['link']}
 
@@ -413,28 +569,32 @@ DRAFT - HUMAN REVIEW REQUIRED BEFORE PUBLISHING
     )
 
     print(
-        "Draft saved successfully."
+        "Draft saved:"
     )
 
     print(
-        "File:",
         filename
     )
 
 
-# =========================
-# RUN AUTOMATION
-# =========================
+# =========================================================
+# MAIN
+# =========================================================
 
 def main():
+
     print(
-        "Looking for a new gaming story..."
+        "GamerQuest Automation V2"
     )
 
     story = get_latest_story()
 
     print(
-        "Selected:"
+        "\nSelected story:"
+    )
+
+    print(
+        story["source"]
     )
 
     print(
@@ -445,20 +605,14 @@ def main():
         story["link"]
     )
 
-    print(
-        "Generating editorial draft with Groq..."
-    )
-
-    generated_article = generate_article(
+    generated = generate_article(
         story
     )
 
-    title, excerpt, content = parse_article(
-        generated_article
-    )
-
-    print(
-        "Draft generated."
+    title, excerpt, content = (
+        parse_article(
+            generated
+        )
     )
 
     save_draft(
@@ -469,7 +623,7 @@ def main():
     )
 
     print(
-        "Done."
+        "\nDone."
     )
 
 

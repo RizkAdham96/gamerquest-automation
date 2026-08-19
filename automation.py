@@ -20,94 +20,16 @@ TAVILY_API_KEY = os.environ["TAVILY_API_KEY"]
 
 DRAFTS_FOLDER = Path("drafts")
 
-TAVILY_USAGE_URL = "https://api.tavily.com/usage"
 TAVILY_SEARCH_URL = "https://api.tavily.com/search"
 
-# HARD SAFETY LIMIT
-# Free allowance = 1000 credits/month.
-# We deliberately stop at 900.
-TAVILY_SAFETY_LIMIT = 900
-
-# EXACTLY ONE Tavily search request per automation run.
+# IMPORTANT:
+# Exactly ONE Tavily search per GitHub Action run.
 MAX_TAVILY_SEARCHES_PER_RUN = 1
 
 SEARCH_QUERY = (
     "latest video game news announcements releases updates "
     "PlayStation Xbox Nintendo PC Steam gaming"
 )
-
-
-# =========================================================
-# TAVILY USAGE SAFETY CHECK
-# =========================================================
-
-def check_tavily_usage():
-    print("Checking Tavily credit usage...")
-
-    response = requests.get(
-        TAVILY_USAGE_URL,
-        headers={
-            "Authorization": f"Bearer {TAVILY_API_KEY}"
-        },
-        timeout=30,
-    )
-
-    response.raise_for_status()
-
-    data = response.json()
-
-    key_data = data.get("key", {})
-
-    usage = int(
-        key_data.get("usage", 0)
-    )
-
-    account_limit = int(
-        key_data.get("limit", 1000)
-    )
-
-    print(
-        f"Tavily usage: {usage} / "
-        f"{account_limit} credits"
-    )
-
-    print(
-        f"GamerQuest safety ceiling: "
-        f"{TAVILY_SAFETY_LIMIT}"
-    )
-
-    # Stop BEFORE the free allowance is exhausted.
-    if usage >= TAVILY_SAFETY_LIMIT:
-        print("")
-        print("===================================")
-        print("TAVILY SAFETY STOP")
-        print("===================================")
-        print(
-            f"{usage} credits have already been used."
-        )
-        print(
-            "No search will be performed."
-        )
-        print(
-            "Automation will remain stopped until "
-            "usage resets or the safety threshold "
-            "is manually changed."
-        )
-
-        # Exit successfully so GitHub does not show
-        # a scary red failure every scheduled run.
-        sys.exit(0)
-
-    remaining_before_safety_stop = (
-        TAVILY_SAFETY_LIMIT - usage
-    )
-
-    print(
-        "Credits remaining before GamerQuest "
-        f"safety stop: {remaining_before_safety_stop}"
-    )
-
-    return usage
 
 
 # =========================================================
@@ -129,8 +51,7 @@ def source_already_used(source_url):
 
         except Exception as error:
             print(
-                f"Could not read {draft_file}: "
-                f"{error}"
+                f"Could not read {draft_file}: {error}"
             )
 
     return False
@@ -158,7 +79,7 @@ def get_recent_source_domains():
             )
 
             urls = re.findall(
-                r"https?://[^\s<>\"]+",
+                r'https?://[^\s<>"\']+',
                 text
             )
 
@@ -184,9 +105,6 @@ def get_recent_source_domains():
 # =========================================================
 
 def search_gaming_news():
-    # Credit check happens BEFORE search.
-    usage_before = check_tavily_usage()
-
     searches_used_this_run = 0
 
     if searches_used_this_run >= MAX_TAVILY_SEARCHES_PER_RUN:
@@ -196,7 +114,7 @@ def search_gaming_news():
 
     print("")
     print("Searching the web for gaming news...")
-    print("This run will make EXACTLY ONE Tavily search.")
+    print("Maximum Tavily searches this run: 1")
 
     response = requests.post(
         TAVILY_SEARCH_URL,
@@ -207,29 +125,25 @@ def search_gaming_news():
         json={
             "query": SEARCH_QUERY,
 
-            # IMPORTANT:
-            # basic = 1 Tavily credit
+            # Basic search = lower credit usage.
             "search_depth": "basic",
 
-            # News-focused search.
+            # News-focused results.
             "topic": "news",
 
-            # Focus on recent stories.
+            # Only recent stories.
             "time_range": "day",
 
-            # One search can return multiple candidates.
+            # Multiple candidates from one single search.
             "max_results": 10,
 
-            # No extra Tavily-generated answer needed.
+            # We do not need Tavily to write an answer.
             "include_answer": False,
 
-            # Give us source text from the SAME search call.
+            # Try to get page text from the same search.
             "include_raw_content": "text",
 
-            # Let us verify actual request credit use.
-            "include_usage": True,
-
-            # Do not let Tavily silently switch to advanced.
+            # Prevent automatic upgrade to advanced search.
             "auto_parameters": False,
         },
         timeout=60,
@@ -241,23 +155,6 @@ def search_gaming_news():
 
     data = response.json()
 
-    request_usage = (
-        data
-        .get("usage", {})
-        .get("credits", 1)
-    )
-
-    print(
-        f"Tavily credits used by this search: "
-        f"{request_usage}"
-    )
-
-    if request_usage > 1:
-        raise RuntimeError(
-            "Safety violation: Tavily search "
-            f"used {request_usage} credits instead of 1."
-        )
-
     results = data.get(
         "results",
         []
@@ -265,7 +162,7 @@ def search_gaming_news():
 
     if not results:
         print(
-            "No gaming news results found today."
+            "No gaming news results found."
         )
         sys.exit(0)
 
@@ -273,7 +170,6 @@ def search_gaming_news():
         f"Tavily returned {len(results)} candidates."
     )
 
-    # Remove stories already processed.
     new_results = []
 
     for result in results:
@@ -296,7 +192,9 @@ def search_gaming_news():
             )
             continue
 
-        new_results.append(result)
+        new_results.append(
+            result
+        )
 
     if not new_results:
         print(
@@ -315,7 +213,7 @@ def select_best_story(results):
     print("")
     print(
         "Asking Groq to select the strongest "
-        "GamerQuest story..."
+        "story for GamerQuest..."
     )
 
     client = Groq(
@@ -379,36 +277,35 @@ SELECTION RULES:
   consoles, PC gaming, gaming hardware,
   major updates, releases or the gaming industry.
 
-- Prefer concrete announcements, releases,
-  important updates, major new features,
-  hardware announcements and significant
+- Prefer important announcements, releases,
+  major updates, significant new features,
+  hardware announcements and meaningful
   gaming-industry news.
 
-- Prefer original/official sources when available.
+- Prefer original or official sources when available.
 
 - Otherwise prefer established reputable
   gaming or technology publications.
 
-- Reject obvious SEO spam, affiliate spam,
+- Reject SEO spam, affiliate spam,
   low-quality blogs and scraped content.
+
+- Reject obvious clickbait.
 
 - Avoid unverified rumors and leaks.
 
-- Avoid clickbait.
-
 - Prefer recent stories.
 
-- Prefer variety of publishers/sources.
+- Prefer source diversity.
 
-- If several stories are similarly strong,
-  prefer a domain that GamerQuest has not
-  used recently.
+- If several stories are equally strong,
+  prefer a domain GamerQuest has not used recently.
 
-- Do NOT choose a story solely because
+- Do NOT choose a story simply because
   PlayStation, Xbox or Nintendo published it.
 
-- The purpose is to make GamerQuest feel
-  like an independent gaming publication.
+- The goal is to make GamerQuest feel like
+  an independent gaming publication.
 
 Return ONLY the candidate number.
 
@@ -423,8 +320,8 @@ Example:
             {
                 "role": "system",
                 "content": (
-                    "You are a careful gaming news "
-                    "editor selecting one story."
+                    "You are a careful gaming news editor "
+                    "selecting one story."
                 )
             },
             {
@@ -489,8 +386,6 @@ Example:
 # =========================================================
 
 def get_source_content(story):
-    # Tavily may have already returned cleaned
-    # full page content in our ONE search.
     raw_content = (
         story.get("raw_content", "")
         or ""
@@ -499,13 +394,11 @@ def get_source_content(story):
     if len(raw_content) >= 800:
         print(
             "Using article content returned "
-            "by the Tavily search."
+            "by Tavily."
         )
 
         return raw_content[:25000]
 
-    # Fallback does NOT call Tavily.
-    # It simply opens the public webpage.
     print(
         "Tavily content is limited. "
         "Fetching selected webpage directly..."
@@ -657,7 +550,7 @@ STRICT EDITORIAL RULES:
    NEVER use filler.
 
 6. Rewrite the story originally.
-   Do not copy paragraphs.
+   Do not copy source paragraphs.
 
 7. Write natural professional French.
 

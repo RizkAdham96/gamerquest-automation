@@ -19,12 +19,16 @@ GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 TAVILY_API_KEY = os.environ["TAVILY_API_KEY"]
 
 DRAFTS_FOLDER = Path("drafts")
+REJECTED_FOLDER = Path("rejected")
 STATE_FOLDER = Path("state")
-TAVILY_STATE_FILE = STATE_FOLDER / "tavily_usage.json"
 
+TAVILY_STATE_FILE = STATE_FOLDER / "tavily_usage.json"
 TAVILY_SEARCH_URL = "https://api.tavily.com/search"
 
+# Safety ceiling. We stop before 900 tracked searches/month.
 TAVILY_MONTHLY_SAFETY_LIMIT = 900
+
+# Exactly ONE Tavily Search API request per workflow run.
 MAX_TAVILY_SEARCHES_PER_RUN = 1
 
 SEARCH_QUERY = (
@@ -35,13 +39,12 @@ SEARCH_QUERY = (
 )
 
 MAX_RESULTS = 15
-
 MIN_SOURCE_TEXT_LENGTH = 800
 MAX_SOURCE_TEXT_LENGTH = 30000
 
 
 # =========================================================
-# OFFICIAL SOURCE DOMAINS
+# OFFICIAL-SOURCE DOMAIN HELPERS
 # =========================================================
 
 OFFICIAL_DOMAIN_KEYWORDS = [
@@ -75,10 +78,6 @@ OFFICIAL_DOMAIN_KEYWORDS = [
 ]
 
 
-# =========================================================
-# BASIC HELPERS
-# =========================================================
-
 def get_domain(url):
     try:
         return (
@@ -105,6 +104,7 @@ def slugify(text):
     text = re.sub(r"[^\w\s-]", "", text)
     text = re.sub(r"[\s_-]+", "-", text)
     text = re.sub(r"^-+|-+$", "", text)
+
     return text[:80]
 
 
@@ -115,13 +115,13 @@ def strip_code_fences(text):
         r"^```(?:html|markdown|md)?\s*",
         "",
         text,
-        flags=re.IGNORECASE
+        flags=re.IGNORECASE,
     )
 
     text = re.sub(
         r"\s*```$",
         "",
-        text
+        text,
     )
 
     return text.strip()
@@ -130,15 +130,29 @@ def strip_code_fences(text):
 def normalize_words(text):
     words = re.findall(
         r"[a-zA-Z0-9À-ÿ]+",
-        text.lower()
+        text.lower(),
     )
 
     stopwords = {
-        "the", "and", "for", "from", "with",
-        "this", "that", "into", "new", "news",
-        "game", "games", "gaming", "video",
-        "update", "reveals", "revealed",
-        "announces", "announced",
+        "the",
+        "and",
+        "for",
+        "from",
+        "with",
+        "this",
+        "that",
+        "into",
+        "new",
+        "news",
+        "game",
+        "games",
+        "gaming",
+        "video",
+        "update",
+        "reveals",
+        "revealed",
+        "announces",
+        "announced",
     }
 
     return [
@@ -150,7 +164,7 @@ def normalize_words(text):
 
 
 # =========================================================
-# PERSISTENT TAVILY CREDIT COUNTER
+# MONTHLY TAVILY COUNTER
 # =========================================================
 
 def current_month():
@@ -168,7 +182,7 @@ def load_tavily_state():
 
     default_state = {
         "month": month,
-        "searches_used": 0
+        "searches_used": 0,
     }
 
     if not TAVILY_STATE_FILE.exists():
@@ -186,14 +200,19 @@ def load_tavily_state():
     if state.get("month") != month:
         return default_state
 
-    return {
-        "month": month,
-        "searches_used": int(
+    try:
+        searches_used = int(
             state.get(
                 "searches_used",
                 0
             )
         )
+    except Exception:
+        searches_used = 0
+
+    return {
+        "month": month,
+        "searches_used": searches_used,
     }
 
 
@@ -205,9 +224,9 @@ def save_tavily_state(state):
     TAVILY_STATE_FILE.write_text(
         json.dumps(
             state,
-            indent=2
+            indent=2,
         ),
-        encoding="utf-8"
+        encoding="utf-8",
     )
 
 
@@ -218,20 +237,19 @@ def check_monthly_credit_safety():
 
     print("")
     print(
-        f"GamerQuest Tavily counter: "
+        f"Tavily tracked searches: "
         f"{used} / "
         f"{TAVILY_MONTHLY_SAFETY_LIMIT}"
     )
 
     if used >= TAVILY_MONTHLY_SAFETY_LIMIT:
         print("")
-        print("===================================")
         print("TAVILY MONTHLY SAFETY STOP")
-        print("===================================")
         print(
-            "No more Tavily searches will be "
+            "No Tavily search will be "
             "performed this month."
         )
+
         sys.exit(0)
 
     return state
@@ -245,22 +263,22 @@ def record_tavily_search(state):
     )
 
     print(
-        f"Recorded Tavily search. "
-        f"Monthly count: "
-        f"{state['searches_used']} / "
-        f"{TAVILY_MONTHLY_SAFETY_LIMIT}"
+        f"Tracked Tavily searches this month: "
+        f"{state['searches_used']}"
     )
 
 
 # =========================================================
-# DUPLICATE CHECK
+# DUPLICATE CHECKING
 # =========================================================
 
 def source_already_used(source_url):
     if not DRAFTS_FOLDER.exists():
         return False
 
-    for draft_file in DRAFTS_FOLDER.glob("*.md"):
+    for draft_file in DRAFTS_FOLDER.glob(
+        "*.md"
+    ):
         try:
             text = draft_file.read_text(
                 encoding="utf-8"
@@ -269,11 +287,8 @@ def source_already_used(source_url):
             if source_url in text:
                 return True
 
-        except Exception as error:
-            print(
-                f"Could not read "
-                f"{draft_file}: {error}"
-            )
+        except Exception:
+            continue
 
     return False
 
@@ -286,7 +301,7 @@ def get_recent_source_domains():
 
     files = sorted(
         DRAFTS_FOLDER.glob("*.md"),
-        reverse=True
+        reverse=True,
     )
 
     for draft_file in files[:12]:
@@ -297,7 +312,7 @@ def get_recent_source_domains():
 
             urls = re.findall(
                 r'https?://[^\s<>"\']+',
-                text
+                text,
             )
 
             for url in urls:
@@ -316,7 +331,7 @@ def get_recent_source_domains():
 
 
 # =========================================================
-# ONE TAVILY SEARCH ONLY
+# ONE TAVILY SEARCH
 # =========================================================
 
 def search_gaming_news():
@@ -333,11 +348,9 @@ def search_gaming_news():
         )
 
     print("")
-    print("===================================")
-    print("SEARCHING GAMING NEWS")
-    print("===================================")
+    print("Searching gaming news...")
     print(
-        "Tavily searches allowed this run: 1"
+        "Maximum Tavily searches this run: 1"
     )
 
     response = requests.post(
@@ -365,6 +378,7 @@ def search_gaming_news():
 
     response.raise_for_status()
 
+    # A Tavily search happened, so record it.
     record_tavily_search(
         state
     )
@@ -373,12 +387,12 @@ def search_gaming_news():
 
     results = data.get(
         "results",
-        []
+        [],
     )
 
     if not results:
         print(
-            "No gaming news results found."
+            "No gaming-news results found."
         )
         sys.exit(0)
 
@@ -390,7 +404,6 @@ def search_gaming_news():
     clean_results = []
 
     for result in results:
-
         title = (
             result
             .get("title", "")
@@ -408,8 +421,7 @@ def search_gaming_news():
 
         if source_already_used(url):
             print(
-                f"Duplicate skipped: "
-                f"{title}"
+                f"Duplicate skipped: {title}"
             )
             continue
 
@@ -419,8 +431,7 @@ def search_gaming_news():
 
     if not clean_results:
         print(
-            "All returned stories "
-            "were already processed."
+            "Every result was already used."
         )
         sys.exit(0)
 
@@ -428,7 +439,7 @@ def search_gaming_news():
 
 
 # =========================================================
-# SELECT BEST STORY
+# EDITORIAL STORY SELECTION
 # =========================================================
 
 def select_best_story(results):
@@ -444,9 +455,8 @@ def select_best_story(results):
 
     for index, result in enumerate(
         results,
-        start=1
+        start=1,
     ):
-
         content = (
             result.get(
                 "content",
@@ -475,25 +485,22 @@ URL:
 DATE:
 {result.get('published_date', '')}
 
-SEARCH SCORE:
-{result.get('score', '')}
-
 OFFICIAL DOMAIN:
 {"YES" if looks_official(result.get('url', '')) else "NO"}
 
 CONTENT:
 {content[:1800]}
 
--------------------------------------
+---------------------------------
 """
 
     prompt = f"""
 You are editor-in-chief of GamerQuest FR.
 
-Choose ONE story worth covering today
+Choose ONE story that is genuinely worth covering
 for a French gaming audience.
 
-RECENTLY USED SOURCE DOMAINS:
+RECENTLY USED DOMAINS:
 
 {recent_domains}
 
@@ -501,72 +508,61 @@ CANDIDATES:
 
 {candidates}
 
-SELECTION PRIORITIES:
-
-1. Importance to gamers.
-2. Recency.
-3. Reliability.
-4. Concrete information available.
-5. Source diversity.
-6. Potential usefulness to French readers.
 
 PREFER:
 
 - major game announcements
-- releases
-- important updates
+- major updates
+- release information
 - substantial DLC
 - gameplay reveals
-- hardware news
-- official release dates
+- gaming hardware
 - acquisitions
 - major industry developments
-- meaningful platform announcements
+- meaningful platform news
 
-AVOID:
 
-- obvious rumors
-- leaks
-- affiliate content
-- SEO spam
+REJECT OR DEPRIORITIZE:
+
+- homepages
+- category/index pages
 - low-quality blogs
-- generic homepages
-- category pages
+- affiliate spam
+- SEO spam
+- rumors
+- leaks
+- weak opinion articles
 - tiny patches
-- weak opinion pieces
-- clickbait
-- stories with almost no factual detail
+- unrelated entertainment news
+- stories with little factual substance
 
-IMPORTANT:
 
-Do NOT automatically pick PlayStation.
+SOURCE DIVERSITY:
 
-Do NOT automatically pick an official source
-if a reputable publication has the stronger story.
+Do not automatically choose PlayStation.
 
-If two candidates are equally strong,
-prefer the domain GamerQuest has used less recently.
+If several stories are similarly strong,
+prefer a source GamerQuest has used less recently.
+
 
 Return ONLY the candidate number.
 """
 
     response = client.chat.completions.create(
         model="openai/gpt-oss-120b",
-
         messages=[
             {
                 "role": "system",
                 "content": (
                     "You are a strict "
                     "gaming-news editor."
-                )
+                ),
             },
             {
                 "role": "user",
-                "content": prompt
-            }
+                "content": prompt,
+            },
         ],
-
         temperature=0.1,
     )
 
@@ -580,13 +576,13 @@ Return ONLY the candidate number.
 
     match = re.search(
         r"\d+",
-        answer
+        answer,
     )
 
     if not match:
         raise RuntimeError(
-            f"Could not parse "
-            f"story selection: {answer}"
+            f"Could not parse selection: "
+            f"{answer}"
         )
 
     number = int(
@@ -606,17 +602,13 @@ Return ONLY the candidate number.
     ]
 
     print("")
-    print(
-        "SELECTED STORY:"
-    )
-
+    print("Selected story:")
     print(
         story.get(
             "title",
             ""
         )
     )
-
     print(
         story.get(
             "url",
@@ -628,7 +620,7 @@ Return ONLY the candidate number.
 
 
 # =========================================================
-# EXTRACT SOURCE PAGE
+# PAGE EXTRACTION
 # =========================================================
 
 def extract_page(story):
@@ -644,9 +636,8 @@ def extract_page(story):
         len(raw_content)
         >= MIN_SOURCE_TEXT_LENGTH
     ):
-
         print(
-            "Using article content "
+            "Using raw article content "
             "returned by Tavily."
         )
 
@@ -660,9 +651,7 @@ def extract_page(story):
 
     response = requests.get(
         story["url"],
-
         timeout=30,
-
         headers={
             "User-Agent": (
                 "Mozilla/5.0 "
@@ -677,7 +666,7 @@ def extract_page(story):
 
     soup = BeautifulSoup(
         response.text,
-        "html.parser"
+        "html.parser",
     )
 
     for element in soup([
@@ -699,12 +688,12 @@ def extract_page(story):
     if article:
         text = article.get_text(
             separator="\n",
-            strip=True
+            strip=True,
         )
     else:
         text = soup.get_text(
             separator="\n",
-            strip=True
+            strip=True,
         )
 
     return text[
@@ -718,11 +707,11 @@ def extract_page(story):
 
 def validate_source(
     story,
-    source_text
+    source_text,
 ):
     print("")
     print(
-        "VALIDATING SOURCE..."
+        "Validating source..."
     )
 
     url = (
@@ -751,11 +740,12 @@ def validate_source(
         .strip("/")
     )
 
+    # Reject homepage.
     if not path:
-        print(
-            "SOURCE REJECTED: homepage."
+        return (
+            False,
+            "Homepage URL detected."
         )
-        return False
 
     generic_paths = {
         "news",
@@ -768,21 +758,19 @@ def validate_source(
     }
 
     if path.lower() in generic_paths:
-        print(
-            "SOURCE REJECTED: "
-            "generic landing page."
+        return (
+            False,
+            "Generic landing/category page detected."
         )
-        return False
 
     if (
         len(source_text)
         < MIN_SOURCE_TEXT_LENGTH
     ):
-        print(
-            "SOURCE REJECTED: "
-            "not enough article text."
+        return (
+            False,
+            "Extracted article content is too short."
         )
-        return False
 
     title_words = normalize_words(
         title
@@ -793,11 +781,10 @@ def validate_source(
     )
 
     if not unique_words:
-        print(
-            "SOURCE REJECTED: "
-            "title could not be analyzed."
+        return (
+            False,
+            "Could not analyse source title."
         )
-        return False
 
     body_lower = (
         source_text
@@ -814,29 +801,29 @@ def validate_source(
         matched
         / max(
             len(unique_words),
-            1
+            1,
         )
     )
 
     print(
-        "Title/body keyword match: "
+        f"Title/body match ratio: "
         f"{ratio:.2f}"
     )
 
     if ratio < 0.35:
-        print(
-            "SOURCE REJECTED: "
-            "title and article do not match."
+        return (
+            False,
+            "Source title and extracted page "
+            "do not match strongly enough."
         )
-        return False
 
     client = Groq(
         api_key=GROQ_API_KEY
     )
 
     prompt = f"""
-Validate this web source before GamerQuest
-is allowed to write a news article.
+Validate this source before GamerQuest
+is allowed to create an article.
 
 SEARCH TITLE:
 
@@ -846,27 +833,23 @@ URL:
 
 {url}
 
-EXTRACTED PAGE:
+EXTRACTED CONTENT:
 
 {source_text[:9000]}
 
-The page is VALID only if:
 
-- it clearly represents the same specific
-  story as the search title;
-- it is an article or specific announcement;
-- it contains coherent information
-  about that story.
+Return VALID only when this is clearly
+the specific article represented by the title.
 
-INVALID if:
+Return INVALID if it appears to be:
 
-- homepage
+- a homepage
 - category page
 - general news index
-- unrelated content
-- multiple unrelated stories mixed together
-- title and page discuss different subjects
-- page extraction is unreliable
+- unrelated page
+- contaminated extraction
+- multiple unrelated stories
+- a title/body mismatch
 
 Return exactly:
 
@@ -879,21 +862,19 @@ INVALID
 
     response = client.chat.completions.create(
         model="openai/gpt-oss-120b",
-
         messages=[
             {
                 "role": "system",
                 "content": (
-                    "Validate sources "
+                    "Validate web sources "
                     "conservatively."
-                )
+                ),
             },
             {
                 "role": "user",
-                "content": prompt
-            }
+                "content": prompt,
+            },
         ],
-
         temperature=0,
     )
 
@@ -906,31 +887,25 @@ INVALID
         .upper()
     )
 
-    print(
-        f"Semantic source verdict: "
-        f"{verdict}"
-    )
-
     if verdict != "VALID":
-        print(
-            "SOURCE REJECTED."
+        return (
+            False,
+            f"AI validator returned: {verdict}"
         )
-        return False
 
-    print(
-        "SOURCE VALIDATION PASSED."
+    return (
+        True,
+        "Source validation passed."
     )
-
-    return True
 
 
 # =========================================================
-# FIND MATCHING OFFICIAL SOURCE
+# FIND OFFICIAL MATCH FROM SAME SEARCH
 # =========================================================
 
 def find_matching_official_source(
     selected_story,
-    all_results
+    all_results,
 ):
     official_candidates = [
         result
@@ -954,9 +929,8 @@ def find_matching_official_source(
 
     for index, result in enumerate(
         official_candidates,
-        start=1
+        start=1,
     ):
-
         content = (
             result.get(
                 "content",
@@ -982,11 +956,11 @@ URL:
 CONTENT:
 {content[:1400]}
 
------------------------------------
+---------------------------------
 """
 
     prompt = f"""
-The selected GamerQuest discovery story is:
+Selected story:
 
 TITLE:
 {selected_story.get('title', '')}
@@ -994,40 +968,35 @@ TITLE:
 URL:
 {selected_story.get('url', '')}
 
-Possible official sources found inside
-THE SAME Tavily search:
+
+Possible official sources from the SAME search:
 
 {candidates}
 
-Determine whether one candidate clearly
-covers the SAME announcement/event.
 
-Do NOT guess.
+Return the number only if one clearly
+covers the same announcement or event.
 
-If one clearly matches, return its number.
-
-Otherwise return:
+If none clearly matches, return:
 
 NONE
 """
 
     response = client.chat.completions.create(
         model="openai/gpt-oss-120b",
-
         messages=[
             {
                 "role": "system",
                 "content": (
-                    "Match primary sources "
-                    "very conservatively."
-                )
+                    "Match official sources "
+                    "conservatively."
+                ),
             },
             {
                 "role": "user",
-                "content": prompt
-            }
+                "content": prompt,
+            },
         ],
-
         temperature=0,
     )
 
@@ -1044,7 +1013,7 @@ NONE
 
     match = re.search(
         r"\d+",
-        answer
+        answer,
     )
 
     if not match:
@@ -1068,18 +1037,18 @@ NONE
 
 
 # =========================================================
-# GENERATE ARTICLE
+# ARTICLE GENERATION
 # =========================================================
 
 def generate_article(
     story,
     source_text,
     official_story=None,
-    official_text=""
+    official_text="",
 ):
     print("")
     print(
-        "GENERATING GAMERQUEST ARTICLE..."
+        "Generating GamerQuest article..."
     )
 
     client = Groq(
@@ -1110,7 +1079,8 @@ CONTENT:
     prompt = f"""
 You are a rigorous journalist for GamerQuest FR.
 
-Create an ORIGINAL French gaming-news article.
+Write an ORIGINAL French gaming-news article.
+
 
 ================================================
 DISCOVERY SOURCE
@@ -1136,46 +1106,38 @@ CONTENT:
 
 
 ================================================
-FACTUAL PRIORITY
+PRIMARY-SOURCE PRIORITY
 ================================================
 
-If an official source is provided,
-it is authoritative for:
+If an official source is supplied,
+it overrides the secondary discovery source
+for factual conflicts involving:
 
-- dates
+- release dates
+- early access
 - platforms
+- subscription services
+- prices
 - editions
-- pricing
+- physical releases
 - availability
-- game features
+- gameplay features
 - technical specifications
-- names
-- developers
-- publishers
-
-If the secondary source conflicts with
-the official source:
-
-USE THE OFFICIAL SOURCE.
-
-If NO official source exists:
-
-Use ONLY claims directly supported by
-the discovery source.
+- developers/publishers
 
 
 ================================================
-HIGH-RISK CLAIM VERIFICATION
+HIGH-RISK CLAIMS
 ================================================
 
-The following claims require EXTRA CAUTION:
+The following require extra caution:
 
 - release dates
 - early-access dates
-- Xbox Game Pass availability
-- PlayStation Plus availability
-- Nintendo Switch Online availability
-- subscription-service availability
+- Xbox Game Pass
+- PlayStation Plus
+- Nintendo Switch Online
+- subscription availability
 - prices
 - editions
 - pre-order bonuses
@@ -1186,64 +1148,49 @@ The following claims require EXTRA CAUTION:
 - free-to-play status
 
 
-IF AN OFFICIAL VERIFICATION SOURCE IS PROVIDED:
+IF AN OFFICIAL SOURCE EXISTS:
 
-You may state these claims as facts ONLY when
-the official source supports them.
-
-If the discovery source and official source conflict,
-the OFFICIAL SOURCE always wins.
+State these as facts only when the official
+source supports them.
 
 
-IF NO OFFICIAL VERIFICATION SOURCE IS PROVIDED:
+IF NO OFFICIAL SOURCE EXISTS:
 
-A high-risk claim coming only from a secondary source
-must NOT be presented as an independently confirmed fact.
+A high-risk claim from a secondary source
+must be clearly attributed.
 
-Instead, explicitly attribute it to the source.
+Example:
 
-Examples:
+GOOD:
+"Selon IGN, le jeu devrait rejoindre
+Xbox Game Pass dès son lancement."
 
-WRONG:
-"The game will launch day one on Xbox Game Pass."
-
-CORRECT:
-"Selon IGN, le jeu devrait rejoindre Xbox Game Pass
+BAD:
+"Le jeu arrivera sur Xbox Game Pass
 dès son lancement."
 
-WRONG HEADLINE:
-"RuneScape Dragonwilds arrives on Game Pass day one"
 
-SAFER HEADLINE:
-"RuneScape Dragonwilds sortira le 15 septembre"
-
-Do NOT build the headline primarily around an
-unverified high-risk claim.
-
-Do NOT put an unverified high-risk claim in the excerpt
-without explicit attribution.
-
-If reliable attribution would make the article confusing,
-simply omit the claim.
+Do NOT make an unverified high-risk
+secondary-source claim the main headline
+unless attribution appears directly
+in the headline.
 
 
-OFFICIAL CONFIRMATION LANGUAGE:
+================================================
+NO FALSE CONFIRMATION LANGUAGE
+================================================
 
-Never use phrases such as:
+Never write:
 
-- "Jagex confirme"
-- "Sony confirme"
-- "Microsoft confirme"
-- "Nintendo confirme"
-- "le studio confirme"
-- "l'éditeur confirme"
+- Jagex confirme
+- Sony confirme
+- Microsoft confirme
+- Nintendo confirme
+- le studio confirme
+- l'éditeur confirme
 
-unless the supplied official source actually confirms
-that specific claim.
-
-A secondary publication reporting something does NOT
-count as confirmation from the developer, publisher,
-platform holder or manufacturer.
+unless an official supplied source confirms
+that specific fact.
 
 
 ================================================
@@ -1252,77 +1199,44 @@ NEVER INVENT
 
 Never invent:
 
-- release dates
-- prices
+- dates
 - platforms
+- prices
 - multiplayer
 - single-player
-- technical specifications
-- gameplay mechanics
+- features
+- technical specs
 - quotes
-- sales numbers
+- sales
 - reviews
-- player reactions
+- reactions
 - availability
 - developer intentions
-- geographic availability
-
-Do NOT use your memory.
 
 
-================================================
-INTERPRETATION SAFETY
-================================================
-
-Never reinterpret branded terminology.
-
-If the source names something like:
-
-Cap Breakers
-
-retain the official term unless
-the source itself explains its meaning.
-
-Never guess.
+Never add facts from your own memory.
 
 
 ================================================
-EDITORIAL RULES
+WRITING RULES
 ================================================
 
-- Write natural professional French.
+- Professional natural French.
 - Do not copy source paragraphs.
-- Do not imitate the publication's style.
+- Do not imitate the source style.
 - No clickbait.
 - No filler.
-- No invented conclusion.
-- Use meaningful H2 headings.
-- Use bullet lists only when useful.
+- No generic conclusion.
 - Preserve official names.
+- Use useful H2 headings.
+- Use lists only when helpful.
 - Be geographically precise.
-- Accuracy beats length.
-- If information is limited,
-  write a shorter article.
-
-Normally target 400–700 words.
-
-Use 250–400 words when the source
-does not justify more.
+- Accuracy is more important than length.
+- 250–700 words depending on source depth.
 
 
 ================================================
-SOURCE TRANSPARENCY
-================================================
-
-At the end, naturally cite/link
-the discovery source.
-
-If an official verification source
-was used, also identify it.
-
-
-================================================
-RETURN EXACTLY
+OUTPUT EXACTLY
 ================================================
 
 TITLE: [French headline]
@@ -1331,30 +1245,28 @@ EXCERPT: [20–35 word factual summary]
 
 CATEGORY: [one of: Actualités, Guides, Sélections, Tests & Avis]
 
-TAGS: [3–6 comma-separated useful tags]
+TAGS: [3–6 comma-separated tags]
 
 CONTENT:
-[HTML only. No markdown code fences.]
+[HTML only, no markdown code fences]
 """
 
     response = client.chat.completions.create(
         model="openai/gpt-oss-120b",
-
         messages=[
             {
                 "role": "system",
                 "content": (
                     "You are a conservative French "
                     "gaming journalist. "
-                    "Accuracy always beats completeness."
-                )
+                    "Never invent missing facts."
+                ),
             },
             {
                 "role": "user",
-                "content": prompt
-            }
+                "content": prompt,
+            },
         ],
-
         temperature=0.15,
     )
 
@@ -1367,7 +1279,7 @@ CONTENT:
 
 
 # =========================================================
-# PARSE ARTICLE
+# PARSE GENERATED ARTICLE
 # =========================================================
 
 def parse_article(text):
@@ -1376,7 +1288,6 @@ def parse_article(text):
     )
 
     try:
-
         title = (
             text
             .split("TITLE:", 1)[1]
@@ -1412,10 +1323,8 @@ def parse_article(text):
         )
 
     except Exception:
-
         raise RuntimeError(
-            "Generated article "
-            "could not be parsed."
+            "Generated article could not be parsed."
         )
 
     content = strip_code_fences(
@@ -1438,8 +1347,7 @@ def parse_article(text):
         or not content
     ):
         raise RuntimeError(
-            "Generated article is missing "
-            "required fields."
+            "Generated article is missing fields."
         )
 
     return (
@@ -1447,12 +1355,12 @@ def parse_article(text):
         excerpt,
         category,
         tags,
-        content
+        content,
     )
 
 
 # =========================================================
-# FACT CHECK — GATE 2
+# FINAL FACT CHECK — GATE 2
 # =========================================================
 
 def fact_check_draft(
@@ -1460,23 +1368,21 @@ def fact_check_draft(
     excerpt,
     content,
     source_text,
-    story,
-    official_text=""
+    official_text="",
 ):
     print("")
     print(
-        "RUNNING FINAL FACT CHECK..."
+        "Running final fact-check..."
     )
 
     client = Groq(
         api_key=GROQ_API_KEY
     )
 
-    verification_source = ""
+    official_section = ""
 
     if official_text:
-
-        verification_source = f"""
+        official_section = f"""
 
 OFFICIAL VERIFICATION SOURCE:
 
@@ -1487,15 +1393,12 @@ OFFICIAL VERIFICATION SOURCE:
     prompt = f"""
 You are GamerQuest's final fact-checker.
 
-Compare the GENERATED ARTICLE
-against the supplied source material.
-
 DISCOVERY SOURCE:
 
 {source_text}
 
 
-{verification_source}
+{official_section}
 
 
 GENERATED TITLE:
@@ -1513,126 +1416,77 @@ GENERATED ARTICLE:
 {content}
 
 
-================================================
-CHECK EVERY MATERIAL CLAIM
-================================================
+Audit every material claim.
 
-Look specifically for:
+Check especially:
 
-- wrong dates
-- invented dates
-- wrong platforms
-- invented platforms
-- wrong prices
-- invented multiplayer
-- invented single-player
-- wrong game features
-- invented features
-- incorrect branded terminology
-- invented technical specifications
-- unsupported availability
-- invented quotes
-- wrong names
-- stronger claims than the source supports
-
-
-================================================
-HIGH-RISK CLAIM AUDIT
-================================================
-
-High-risk claims include:
-
-- release dates
-- early-access dates
+- dates
+- platforms
 - subscription availability
-- Xbox Game Pass
+- Game Pass
 - PlayStation Plus
 - prices
 - editions
-- platforms
-- physical releases
 - pre-order bonuses
+- physical releases
 - exclusivity
-- regional availability
-
-If an official verification source exists:
-
-Verify every high-risk claim against that official source.
-
-If the official source contradicts the discovery source,
-REJECT the draft unless the article follows the official
-source.
+- multiplayer/single-player
+- features
+- technical specs
+- names
+- quotes
+- geographic availability
 
 
-If NO official verification source exists:
-
-High-risk claims from the secondary discovery source
-must be clearly attributed to that source.
-
-Example:
-
-"Selon IGN..."
-
-is acceptable.
-
-Presenting the same secondary-source claim as independently
-confirmed fact is NOT acceptable.
-
-The TITLE and EXCERPT must also follow this rule.
-
-REJECT the article if its headline presents an unverified
-high-risk secondary-source claim as confirmed fact.
-
-Also REJECT statements such as:
-
-"Jagex confirme..."
-"Sony confirme..."
-"Microsoft confirme..."
-"Nintendo confirme..."
-
-when no supplied official source supports that attribution.
+If an official source exists,
+it overrides conflicting secondary information.
 
 
-================================================
-VERDICT
-================================================
+If NO official source exists:
 
-If EVERY material factual claim is
-supported by the supplied evidence,
+High-risk claims from a secondary source
+must be explicitly attributed.
+
+The TITLE and EXCERPT must also respect this.
+
+Reject false confirmation wording such as:
+
+"Jagex confirme"
+"Sony confirme"
+"Microsoft confirme"
+"Nintendo confirme"
+
+when there is no supplied official source.
+
+
+If everything material is supported,
 return exactly:
 
 APPROVED
 
 
-If ANY material claim is unsupported,
-return:
+Otherwise return:
 
 REJECTED
 
-Then briefly list the problematic claims.
-
-
-Do not approve something merely because
-it sounds plausible.
+Then briefly explain why.
 """
 
     response = client.chat.completions.create(
         model="openai/gpt-oss-120b",
-
         messages=[
             {
                 "role": "system",
                 "content": (
                     "You are an extremely conservative "
                     "gaming fact-checker."
-                )
+                ),
             },
             {
                 "role": "user",
-                "content": prompt
-            }
+                "content": prompt,
+            },
         ],
-
         temperature=0,
     )
 
@@ -1648,17 +1502,15 @@ it sounds plausible.
     print(
         "FACT CHECK RESULT:"
     )
-
     print(
         verdict
     )
 
     return (
-        verdict
-        .upper()
-        .startswith(
+        verdict.upper().startswith(
             "APPROVED"
-        )
+        ),
+        verdict,
     )
 
 
@@ -1673,9 +1525,8 @@ def save_draft(
     tags,
     content,
     story,
-    official_story=None
+    official_story=None,
 ):
-
     DRAFTS_FOLDER.mkdir(
         exist_ok=True
     )
@@ -1692,12 +1543,11 @@ def save_draft(
     )
 
     verification = (
-        "No matching official source "
-        "was found in the same search."
+        "No matching official source was found "
+        "in the same Tavily search."
     )
 
     if official_story:
-
         verification = (
             f"{official_story.get('title', '')}\n\n"
             f"{official_story.get('url', '')}"
@@ -1754,14 +1604,91 @@ DRAFT - HUMAN REVIEW REQUIRED BEFORE PUBLISHING
 
     filename.write_text(
         markdown,
-        encoding="utf-8"
+        encoding="utf-8",
     )
 
     print("")
-    print("===================================")
-    print("APPROVED DRAFT CREATED")
-    print("===================================")
-    print(filename)
+    print(
+        "APPROVED DRAFT CREATED:"
+    )
+    print(
+        filename
+    )
+
+
+# =========================================================
+# SAVE REJECTION REPORT
+# =========================================================
+
+def save_rejection_report(
+    stage,
+    reason,
+    story=None,
+):
+    REJECTED_FOLDER.mkdir(
+        exist_ok=True
+    )
+
+    timestamp = datetime.now(
+        timezone.utc
+    ).strftime(
+        "%Y-%m-%d-%H%M%S"
+    )
+
+    filename = (
+        REJECTED_FOLDER
+        / f"{timestamp}-rejected.md"
+    )
+
+    story_title = ""
+    story_url = ""
+
+    if story:
+        story_title = story.get(
+            "title",
+            ""
+        )
+
+        story_url = story.get(
+            "url",
+            ""
+        )
+
+    report = f"""# GamerQuest Rejection Report
+
+## Stage
+
+{stage}
+
+## Reason
+
+{reason}
+
+## Story
+
+{story_title}
+
+## URL
+
+{story_url}
+
+## Result
+
+NO DRAFT WAS SAVED.
+"""
+
+    filename.write_text(
+        report,
+        encoding="utf-8",
+    )
+
+    print("")
+    print(
+        "Rejection report saved:"
+    )
+    print(
+        filename
+    )
 
 
 # =========================================================
@@ -1769,16 +1696,13 @@ DRAFT - HUMAN REVIEW REQUIRED BEFORE PUBLISHING
 # =========================================================
 
 def main():
-
     print("")
     print(
         "==================================="
     )
-
     print(
-        "GamerQuest Automation V6"
+        "GamerQuest Automation"
     )
-
     print(
         "==================================="
     )
@@ -1793,38 +1717,38 @@ def main():
         story
     )
 
-    if not validate_source(
+    valid, reason = validate_source(
         story,
-        source_text
-    ):
+        source_text,
+    )
 
-        print("")
-        print(
-            "Automation stopped safely."
+    if not valid:
+        save_rejection_report(
+            "SOURCE VALIDATION",
+            reason,
+            story,
         )
 
         print(
             "No article created."
         )
 
-        sys.exit(0)
+        return
 
     official_story = (
         find_matching_official_source(
             story,
-            results
+            results,
         )
     )
 
     official_text = ""
 
     if official_story:
-
         print("")
         print(
-            "OFFICIAL MATCH FOUND:"
+            "Official matching source found:"
         )
-
         print(
             official_story.get(
                 "url",
@@ -1837,18 +1761,17 @@ def main():
         )
 
     else:
-
         print("")
         print(
             "No matching official source "
-            "found in the same Tavily search."
+            "found in this search."
         )
 
     generated = generate_article(
         story,
         source_text,
         official_story,
-        official_text
+        official_text,
     )
 
     (
@@ -1856,32 +1779,32 @@ def main():
         excerpt,
         category,
         tags,
-        content
+        content,
     ) = parse_article(
         generated
     )
 
-    approved = fact_check_draft(
+    approved, verdict = fact_check_draft(
         title,
         excerpt,
         content,
         source_text,
-        story,
-        official_text
+        official_text,
     )
 
     if not approved:
-
-        print("")
-        print(
-            "Draft rejected by fact-check."
+        save_rejection_report(
+            "FACT CHECK",
+            verdict,
+            story,
         )
 
         print(
-            "Nothing was saved."
+            "Draft rejected. "
+            "Nothing saved to drafts/."
         )
 
-        sys.exit(0)
+        return
 
     save_draft(
         title,
@@ -1890,7 +1813,7 @@ def main():
         tags,
         content,
         story,
-        official_story
+        official_story,
     )
 
     print("")

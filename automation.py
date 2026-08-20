@@ -1882,10 +1882,13 @@ def send_to_wordpress_draft(
     article_data,
 ):
     """
-    Send the final corrected article to WordPress as a DRAFT.
+    Try to send the final corrected article to WordPress as a DRAFT.
 
-    The Markdown file in GitHub remains the backup copy.
-    This function never publishes the post publicly.
+    IMPORTANT:
+    - WordPress failure NEVER crashes the automation.
+    - The GitHub Markdown draft is already saved before this function runs.
+    - This function prints detailed diagnostics without exposing secrets.
+    - It never publishes publicly.
     """
     (
         seo_title,
@@ -1903,29 +1906,82 @@ def send_to_wordpress_draft(
 
     print("")
     print("===================================")
-    print("SENDING DRAFT TO WORDPRESS")
+    print("WORDPRESS DRAFT DELIVERY")
     print("===================================")
 
+    # Never fail the whole workflow because a WordPress secret is missing.
     if not WP_URL:
-        raise RuntimeError(
-            "WP_URL is missing from GitHub Actions secrets."
-        )
+        print("WORDPRESS SKIPPED: WP_URL is missing.")
+        print("GitHub draft remains safely saved.")
+        return None
 
     if not WP_USERNAME:
-        raise RuntimeError(
-            "WP_USERNAME is missing from GitHub Actions secrets."
-        )
+        print("WORDPRESS SKIPPED: WP_USERNAME is missing.")
+        print("GitHub draft remains safely saved.")
+        return None
 
     if not WP_APP_PASSWORD:
-        raise RuntimeError(
-            "WP_APP_PASSWORD is missing from GitHub Actions secrets."
-        )
+        print("WORDPRESS SKIPPED: WP_APP_PASSWORD is missing.")
+        print("GitHub draft remains safely saved.")
+        return None
 
     endpoint = f"{WP_URL}/wp-json/wp/v2/posts"
 
-    # WordPress post body. We deliberately keep SEO metadata in the
-    # GitHub Markdown backup for now because SEO plugins use different
-    # custom fields. The visible WordPress post contains only the article.
+    print(f"WordPress base URL: {WP_URL}")
+    print(f"WordPress REST endpoint: {endpoint}")
+    print(f"WordPress username configured: {'YES' if WP_USERNAME else 'NO'}")
+    print(f"Application password configured: {'YES' if WP_APP_PASSWORD else 'NO'}")
+
+    # First perform a lightweight REST API reachability check.
+    # This is unauthenticated on purpose: we just want to know whether
+    # the WordPress REST API responds at all.
+    try:
+        test_url = f"{WP_URL}/wp-json/"
+        print(f"Testing WordPress REST API: {test_url}")
+
+        test_response = requests.get(
+            test_url,
+            timeout=20,
+            headers={
+                "User-Agent": "GamerQuestAutomation/1.0"
+            },
+        )
+
+        print(
+            f"WordPress REST API test HTTP status: "
+            f"{test_response.status_code}"
+        )
+
+        if test_response.status_code >= 500:
+            print(
+                "WARNING: WordPress server returned a 5xx error "
+                "during REST API test."
+            )
+
+    except requests.exceptions.Timeout:
+        print(
+            "WARNING: WordPress REST API test timed out. "
+            "Will still attempt draft creation."
+        )
+
+    except requests.exceptions.ConnectionError as error:
+        print(
+            "WARNING: Could not reach the WordPress REST API "
+            "during the connection test."
+        )
+        print(f"Connection error: {error}")
+        print("GitHub draft remains safely saved.")
+        return None
+
+    except requests.exceptions.RequestException as error:
+        print(
+            "WARNING: WordPress REST API test failed."
+        )
+        print(f"Request error: {error}")
+        print("Will still attempt draft creation.")
+
+    # WordPress post payload.
+    # SEO metadata stays in the GitHub Markdown backup for now.
     payload = {
         "title": title,
         "content": content,
@@ -1934,49 +1990,145 @@ def send_to_wordpress_draft(
         "slug": suggested_slug,
     }
 
-    response = requests.post(
-        endpoint,
-        auth=(
-            WP_USERNAME,
-            WP_APP_PASSWORD,
-        ),
-        json=payload,
-        timeout=45,
-    )
+    try:
+        print("")
+        print("Attempting authenticated WordPress draft creation...")
 
-    if response.status_code not in (200, 201):
+        response = requests.post(
+            endpoint,
+            auth=(
+                WP_USERNAME,
+                WP_APP_PASSWORD,
+            ),
+            json=payload,
+            timeout=45,
+            headers={
+                "User-Agent": "GamerQuestAutomation/1.0",
+                "Accept": "application/json",
+            },
+        )
+
+        print(
+            f"WordPress POST HTTP status: "
+            f"{response.status_code}"
+        )
+
+        if response.status_code in (200, 201):
+            try:
+                post = response.json()
+            except Exception:
+                print(
+                    "WordPress returned success but the response "
+                    "could not be parsed as JSON."
+                )
+                print("GitHub draft remains safely saved.")
+                return None
+
+            post_id = post.get("id")
+            post_status = post.get("status")
+            post_link = post.get("link")
+
+            print(
+                f"WordPress draft created successfully. "
+                f"ID: {post_id}"
+            )
+            print(
+                f"WordPress status: {post_status}"
+            )
+
+            if post_link:
+                print(
+                    f"WordPress URL: {post_link}"
+                )
+
+            return post
+
+        # Helpful diagnostics for common WordPress failures.
         try:
             error_body = response.json()
         except Exception:
-            error_body = response.text[:1000]
+            error_body = response.text[:1200]
 
-        raise RuntimeError(
-            "WordPress draft creation failed. "
-            f"HTTP {response.status_code}: {error_body}"
-        )
+        print("")
+        print("WORDPRESS DRAFT CREATION FAILED")
+        print(f"HTTP status: {response.status_code}")
+        print(f"Response: {error_body}")
 
-    post = response.json()
+        if response.status_code == 400:
+            print(
+                "Possible cause: WordPress rejected part of the post payload."
+            )
 
-    post_id = post.get("id")
-    post_status = post.get("status")
-    post_link = post.get("link")
+        elif response.status_code == 401:
+            print(
+                "Possible cause: incorrect WP_USERNAME or WP_APP_PASSWORD, "
+                "or Application Password authentication is blocked."
+            )
 
-    print(
-        f"WordPress draft created successfully. "
-        f"ID: {post_id}"
-    )
-    print(
-        f"WordPress status: {post_status}"
-    )
+        elif response.status_code == 403:
+            print(
+                "Possible cause: security plugin, firewall, hosting rule, "
+                "or this WordPress user does not have permission to create posts."
+            )
 
-    if post_link:
+        elif response.status_code == 404:
+            print(
+                "Possible cause: WP_URL is wrong or /wp-json/wp/v2/posts "
+                "is unavailable."
+            )
+
+        elif response.status_code == 429:
+            print(
+                "Possible cause: WordPress, Cloudflare, or the host "
+                "is rate-limiting the automation."
+            )
+
+        elif response.status_code >= 500:
+            print(
+                "Possible cause: WordPress/hosting server error."
+            )
+
+        print("GitHub draft remains safely saved.")
+        return None
+
+    except requests.exceptions.Timeout:
+        print("")
+        print("WORDPRESS CONNECTION TIMED OUT.")
         print(
-            f"WordPress URL: {post_link}"
+            "The article is still preserved in GitHub drafts/."
         )
+        return None
 
-    return post
+    except requests.exceptions.ConnectionError as error:
+        print("")
+        print("WORDPRESS CONNECTION FAILED.")
+        print(f"Connection error: {error}")
+        print(
+            "The WordPress server closed or refused the connection."
+        )
+        print(
+            "The article is still preserved in GitHub drafts/."
+        )
+        return None
 
+    except requests.exceptions.RequestException as error:
+        print("")
+        print("WORDPRESS REQUEST FAILED.")
+        print(f"Request error: {error}")
+        print(
+            "The article is still preserved in GitHub drafts/."
+        )
+        return None
 
+    except Exception as error:
+        # Final guardrail: WordPress must never kill the workflow.
+        print("")
+        print("UNEXPECTED WORDPRESS ERROR.")
+        print(f"Error: {error}")
+        print(
+            "The article is still preserved in GitHub drafts/."
+        )
+        return None
 # =========================================================
 # REJECTION REPORT
 # =========================================================
@@ -2177,10 +2329,15 @@ def main():
         official_story,
     )
 
-    # 9. Send the corrected article to WordPress as DRAFT only
-    send_to_wordpress_draft(
+    # 9. Try to send the corrected article to WordPress as DRAFT only.
+    # WordPress failure is NON-FATAL; the GitHub draft is already safe.
+    wordpress_result = send_to_wordpress_draft(
         article_data,
     )
+
+    if wordpress_result is None:
+        print("")
+        print("WordPress delivery did not complete, but the GitHub draft is safe.")
 
     print("")
     print(

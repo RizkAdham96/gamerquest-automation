@@ -43,7 +43,7 @@ SEARCH_QUERY = (
 
 MAX_RESULTS = 15
 
-MIN_SOURCE_TEXT_LENGTH = 800
+MIN_SOURCE_TEXT_LENGTH = 250
 
 # We deliberately avoid sending huge pages repeatedly to Groq.
 MAX_SOURCE_TEXT_LENGTH = 22000
@@ -207,6 +207,28 @@ OFFICIAL_DOMAIN_KEYWORDS = [
     "thewitcher.com",
 ]
 
+# Established gaming publications. These are acceptable secondary
+# sources when an official source for the same story is not available.
+TRUSTED_MEDIA_DOMAINS = [
+    "ign.com",
+    "gamespot.com",
+    "eurogamer.net",
+    "polygon.com",
+    "pcgamer.com",
+    "gamesradar.com",
+    "videogameschronicle.com",
+    "vgc.com",
+    "gematsu.com",
+    "rockpapershotgun.com",
+    "gameinformer.com",
+    "pushsquare.com",
+    "nintendolife.com",
+    "purexbox.com",
+    "destructoid.com",
+    "theverge.com",
+    "arstechnica.com",
+]
+
 
 # =========================================================
 # HELPERS
@@ -231,6 +253,37 @@ def looks_official(url):
         keyword in domain
         for keyword in OFFICIAL_DOMAIN_KEYWORDS
     )
+
+
+def looks_trusted_media(url):
+    domain = get_domain(url)
+
+    return any(
+        trusted in domain
+        for trusted in TRUSTED_MEDIA_DOMAINS
+    )
+
+
+def source_tier(url):
+    """
+    1 = official / primary source
+    2 = established gaming or technology publication
+    3 = other web source
+    """
+    if looks_official(url):
+        return 1
+    if looks_trusted_media(url):
+        return 2
+    return 3
+
+
+def result_content_length(result):
+    content = (
+        result.get("raw_content", "")
+        or result.get("content", "")
+        or ""
+    )
+    return len(content.strip())
 
 
 def slugify(text):
@@ -594,16 +647,45 @@ def search_gaming_news():
             )
             continue
 
-        clean_results.append(
-            result
-        )
+        tier = source_tier(url)
+        content_len = result_content_length(result)
+
+        # Unknown sources must provide substantial article text before
+        # we even allow them into editorial selection. This prevents thin
+        # SEO/aggregation sites from beating official or established media.
+        if tier == 3 and content_len < 1200:
+            print(
+                f"Weak source skipped before selection: "
+                f"{get_domain(url)} | {title}"
+            )
+            continue
+
+        clean_results.append(result)
 
     if not clean_results:
         print(
-            "Every result was already used."
+            "No usable non-duplicate sources were returned."
         )
         sys.exit(0)
 
+    preferred_results = [
+        result
+        for result in clean_results
+        if source_tier(result.get("url", "")) <= 2
+    ]
+
+    # If the single search returned official/trusted sources, only let
+    # those compete. Unknown sites are a last-resort fallback.
+    if preferred_results:
+        print(
+            f"Using {len(preferred_results)} official/trusted "
+            "candidates for editorial selection."
+        )
+        return preferred_results
+
+    print(
+        "No official/trusted candidate found; using vetted fallback sources."
+    )
     return clean_results
 
 
@@ -650,8 +732,8 @@ URL:
 DATE:
 {result.get('published_date', '')}
 
-OFFICIAL:
-{"YES" if looks_official(result.get('url', '')) else "NO"}
+SOURCE_TIER:
+{source_tier(result.get('url', ''))} (1=official, 2=trusted media, 3=other)
 
 CONTENT:
 {content[:1100]}
@@ -698,6 +780,15 @@ Prefer:
 - price information
 - hardware
 - significant updates
+
+Source-quality rules:
+
+- Prefer tier 1 official/primary sources when they cover the same story.
+- Tier 2 established gaming publications are acceptable when no official
+  source for that exact story is available.
+- Tier 3 sources are last-resort only.
+- Never choose a thin, generic, scraped or aggregation page merely because
+  its headline looks SEO-friendly.
 
 Avoid:
 
@@ -911,13 +1002,22 @@ def validate_source(
             "Generic landing page."
         )
 
-    if (
-        len(source_text)
-        < MIN_SOURCE_TEXT_LENGTH
-    ):
+    tier = source_tier(url)
+
+    # Short official announcements can be legitimate. Unknown sites need
+    # considerably more substance before we trust them.
+    if tier == 1:
+        required_length = 250
+    elif tier == 2:
+        required_length = 500
+    else:
+        required_length = 1200
+
+    if len(source_text) < required_length:
         return (
             False,
-            "Source content too short."
+            f"Source content too short for source tier {tier}: "
+            f"{len(source_text)} chars, requires {required_length}."
         )
 
     title_words = normalize_words(
@@ -1966,16 +2066,38 @@ def main():
     results = search_gaming_news()
 
     # 2. Select SEO opportunity
-    story = select_best_story(
+    selected_story = select_best_story(
         results
     )
 
-    # 3. Extract source
+    # 3. BEFORE validation, look for a matching official source returned
+    # by the SAME Tavily search. If one exists, make it the primary writing
+    # source instead of merely using it as a verification footnote.
+    official_story = (
+        find_matching_official_source(
+            selected_story,
+            results,
+        )
+    )
+
+    if (
+        official_story
+        and official_story.get("url") != selected_story.get("url")
+    ):
+        print("")
+        print("Switching primary source to matching official source:")
+        print(official_story.get("url", ""))
+        discovery_story = selected_story
+        story = official_story
+    else:
+        discovery_story = selected_story
+        story = selected_story
+
+    # 4. Extract and validate the BEST available primary source.
     source_text = extract_page(
         story
     )
 
-    # 4. Validate source
     valid, reason = validate_source(
         story,
         source_text,
@@ -1995,23 +2117,14 @@ def main():
 
         return
 
-    # 5. Find official source
-    official_story = (
-        find_matching_official_source(
-            story,
-            results,
-        )
-    )
-
+    # 5. Keep official verification text when the primary source is official.
     official_text = ""
 
     if official_story:
         print("")
         print(
-            "Official verification "
-            "source found:"
+            "Official source available:"
         )
-
         print(
             official_story.get(
                 "url",
@@ -2019,15 +2132,18 @@ def main():
             )
         )
 
-        official_text = extract_page(
-            official_story
-        )
+        if official_story.get("url") == story.get("url"):
+            official_text = source_text
+        else:
+            official_text = extract_page(
+                official_story
+            )
 
     else:
         print("")
         print(
-            "No matching official "
-            "source found."
+            "No matching official source found. "
+            "Using established secondary source only."
         )
 
     # Small pause between Groq calls.

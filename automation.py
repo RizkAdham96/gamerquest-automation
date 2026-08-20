@@ -19,6 +19,11 @@ from groq import Groq, RateLimitError
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 TAVILY_API_KEY = os.environ["TAVILY_API_KEY"]
 
+# WordPress connection (stored as GitHub Actions secrets)
+WP_URL = os.environ.get("WP_URL", "").rstrip("/")
+WP_USERNAME = os.environ.get("WP_USERNAME", "")
+WP_APP_PASSWORD = os.environ.get("WP_APP_PASSWORD", "")
+
 DRAFTS_FOLDER = Path("drafts")
 REJECTED_FOLDER = Path("rejected")
 STATE_FOLDER = Path("state")
@@ -1770,6 +1775,109 @@ SEO DRAFT - HUMAN REVIEW REQUIRED BEFORE PUBLISHING
 
 
 # =========================================================
+# WORDPRESS DRAFT PUBLISHING
+# =========================================================
+
+def send_to_wordpress_draft(
+    article_data,
+):
+    """
+    Send the final corrected article to WordPress as a DRAFT.
+
+    The Markdown file in GitHub remains the backup copy.
+    This function never publishes the post publicly.
+    """
+    (
+        seo_title,
+        meta_description,
+        primary_keyword,
+        secondary_keywords,
+        search_intent,
+        suggested_slug,
+        title,
+        excerpt,
+        category,
+        tags,
+        content,
+    ) = article_data
+
+    print("")
+    print("===================================")
+    print("SENDING DRAFT TO WORDPRESS")
+    print("===================================")
+
+    if not WP_URL:
+        raise RuntimeError(
+            "WP_URL is missing from GitHub Actions secrets."
+        )
+
+    if not WP_USERNAME:
+        raise RuntimeError(
+            "WP_USERNAME is missing from GitHub Actions secrets."
+        )
+
+    if not WP_APP_PASSWORD:
+        raise RuntimeError(
+            "WP_APP_PASSWORD is missing from GitHub Actions secrets."
+        )
+
+    endpoint = f"{WP_URL}/wp-json/wp/v2/posts"
+
+    # WordPress post body. We deliberately keep SEO metadata in the
+    # GitHub Markdown backup for now because SEO plugins use different
+    # custom fields. The visible WordPress post contains only the article.
+    payload = {
+        "title": title,
+        "content": content,
+        "excerpt": excerpt,
+        "status": "draft",
+        "slug": suggested_slug,
+    }
+
+    response = requests.post(
+        endpoint,
+        auth=(
+            WP_USERNAME,
+            WP_APP_PASSWORD,
+        ),
+        json=payload,
+        timeout=45,
+    )
+
+    if response.status_code not in (200, 201):
+        try:
+            error_body = response.json()
+        except Exception:
+            error_body = response.text[:1000]
+
+        raise RuntimeError(
+            "WordPress draft creation failed. "
+            f"HTTP {response.status_code}: {error_body}"
+        )
+
+    post = response.json()
+
+    post_id = post.get("id")
+    post_status = post.get("status")
+    post_link = post.get("link")
+
+    print(
+        f"WordPress draft created successfully. "
+        f"ID: {post_id}"
+    )
+    print(
+        f"WordPress status: {post_status}"
+    )
+
+    if post_link:
+        print(
+            f"WordPress URL: {post_link}"
+        )
+
+    return post
+
+
+# =========================================================
 # REJECTION REPORT
 # =========================================================
 
@@ -1946,11 +2054,16 @@ def main():
         )
     )
 
-    # 8. Save
+    # 8. Save GitHub Markdown backup
     save_draft(
         article_data,
         story,
         official_story,
+    )
+
+    # 9. Send the corrected article to WordPress as DRAFT only
+    send_to_wordpress_draft(
+        article_data,
     )
 
     print("")

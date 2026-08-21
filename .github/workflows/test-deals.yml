@@ -23,7 +23,12 @@ jobs:
 
       - name: Run deals tests
         run: |
-          python -m pytest deals/test_deals.py deals/test_steam.py deals/test_epic.py -v
+          python -m pytest \
+            deals/test_deals.py \
+            deals/test_steam.py \
+            deals/test_epic.py \
+            deals/test_aggregator.py \
+            -v
 
       - name: Scan real Steam deals
         run: |
@@ -36,3 +41,7 @@ jobs:
       - name: Scan Epic free games
         run: |
           python -m deals.run_epic
+
+      - name: Test combined GamerQuest pipeline
+        run: |
+          python -m deals.run_all

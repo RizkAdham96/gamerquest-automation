@@ -7,6 +7,13 @@ EPIC_FREE_GAMES_URL = (
 )
 
 
+def is_valid_epic_free_game(game):
+    original_price = game.get("original_price", 0)
+    current_price = game.get("current_price", 0)
+
+    return original_price > 0 and current_price == 0
+
+
 def fetch_epic_free_games():
     params = {
         "locale": "fr-FR",
@@ -67,7 +74,6 @@ def fetch_epic_free_games():
             "discountPercentage"
         )
 
-        # Epic represents free promotions as 0% of the original price.
         if discount_percentage != 0:
             continue
 
@@ -81,6 +87,8 @@ def fetch_epic_free_games():
             "originalPrice", 0
         )
 
+        original_price = original_price_cents / 100
+
         title = item.get(
             "title",
             "Unknown Epic Game",
@@ -89,7 +97,9 @@ def fetch_epic_free_games():
         slug = item.get("productSlug")
 
         if not slug:
-            mappings = item.get("catalogNs", {}).get(
+            mappings = item.get(
+                "catalogNs", {}
+            ).get(
                 "mappings", []
             )
 
@@ -104,25 +114,29 @@ def fetch_epic_free_games():
                 f"{slug}"
             )
         else:
-            url = "https://store.epicgames.com/fr/free-games"
+            url = (
+                "https://store.epicgames.com/"
+                "fr/free-games"
+            )
 
-        free_games.append(
-            {
-                "title": title,
-                "store": "Epic Games Store",
-                "original_price": (
-                    original_price_cents / 100
-                ),
-                "current_price": 0,
-                "discount_percent": 100,
-                "url": url,
-                "starts_at": offer.get(
-                    "startDate"
-                ),
-                "expires_at": offer.get(
-                    "endDate"
-                ),
-            }
-        )
+        game = {
+            "title": title,
+            "store": "Epic Games Store",
+            "original_price": original_price,
+            "current_price": 0,
+            "discount_percent": 100,
+            "url": url,
+            "starts_at": offer.get(
+                "startDate"
+            ),
+            "expires_at": offer.get(
+                "endDate"
+            ),
+        }
+
+        if not is_valid_epic_free_game(game):
+            continue
+
+        free_games.append(game)
 
     return free_games

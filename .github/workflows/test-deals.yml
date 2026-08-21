@@ -32,3 +32,7 @@ jobs:
       - name: Scan CheapShark deals
         run: |
           python -m deals.run_cheapshark
+
+      - name: Scan Epic free games
+        run: |
+          python -m deals.run_epic

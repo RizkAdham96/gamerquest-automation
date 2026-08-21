@@ -28,3 +28,7 @@ jobs:
       - name: Scan real Steam deals
         run: |
           python -m deals.run_steam
+
+      - name: Scan CheapShark deals
+        run: |
+          python -m deals.run_cheapshark

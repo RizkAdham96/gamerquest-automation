@@ -1,13 +1,21 @@
-name: Test Deals Logic
+name: GamerQuest Deals Automation
 
 on:
   workflow_dispatch:
 
+  # Run automatically every 2 hours
+  schedule:
+    - cron: "17 */2 * * *"
+
 permissions:
   contents: write
 
+concurrency:
+  group: gamerquest-deals
+  cancel-in-progress: false
+
 jobs:
-  test-deals:
+  deals:
     runs-on: ubuntu-latest
 
     steps:
@@ -67,3 +75,47 @@ jobs:
             git commit -m "Update GamerQuest deals feed"
             git push
           fi
+
+      - name: Trigger WordPress deal import
+        env:
+          WORDPRESS_DEALS_TRIGGER_URL: ${{ secrets.WORDPRESS_DEALS_TRIGGER_URL }}
+        run: |
+          echo "Triggering GamerQuest WordPress importer..."
+
+          RESPONSE=$(curl \
+            --fail \
+            --silent \
+            --show-error \
+            --location \
+            --max-time 30 \
+            --retry 2 \
+            --header "User-Agent: GamerQuest-GitHub-Actions/1.0" \
+            "$WORDPRESS_DEALS_TRIGGER_URL")
+
+          echo "WordPress response:"
+          echo "$RESPONSE"
+
+          RESPONSE="$RESPONSE" python - <<'PY'
+          import json
+          import os
+          import sys
+
+          raw = os.environ.get("RESPONSE", "")
+
+          try:
+              data = json.loads(raw)
+          except json.JSONDecodeError:
+              print("ERROR: WordPress did not return valid JSON.")
+              sys.exit(1)
+
+          if data.get("ok") is not True:
+              print("ERROR: WordPress importer returned a failure.")
+              print(data)
+              sys.exit(1)
+
+          print("WordPress trigger succeeded.")
+          print(f"Feed: {data.get('feed', 0)}")
+          print(f"Imported: {data.get('imported', 0)}")
+          print(f"Skipped: {data.get('skipped', 0)}")
+          print(f"Errors: {data.get('errors', 0)}")
+          PY

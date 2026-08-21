@@ -23,7 +23,7 @@ jobs:
 
       - name: Run deals tests
         run: |
-          python -m pytest deals/test_deals.py deals/test_steam.py -v
+          python -m pytest deals/test_deals.py deals/test_steam.py deals/test_epic.py -v
 
       - name: Scan real Steam deals
         run: |

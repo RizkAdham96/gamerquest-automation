@@ -3,6 +3,9 @@ name: Test Deals Logic
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   test-deals:
     runs-on: ubuntu-latest
@@ -28,6 +31,7 @@ jobs:
             deals/test_steam.py \
             deals/test_epic.py \
             deals/test_aggregator.py \
+            deals/test_article_generator.py \
             -v
 
       - name: Scan real Steam deals
@@ -45,3 +49,21 @@ jobs:
       - name: Test combined GamerQuest pipeline
         run: |
           python -m deals.run_all
+
+      - name: Build WordPress deals feed
+        run: |
+          python -m deals.build_feed
+
+      - name: Save deals feed
+        run: |
+          git config user.name "GamerQuest Deals Bot"
+          git config user.email "actions@github.com"
+
+          git add gamerquest-deals-feed.json
+
+          if git diff --cached --quiet; then
+            echo "No feed changes to save."
+          else
+            git commit -m "Update GamerQuest deals feed"
+            git push
+          fi

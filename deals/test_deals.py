@@ -1,4 +1,4 @@
-from deals import should_accept_deal
+from deals.filter import should_accept_deal
 
 
 def test_accepts_free_game():

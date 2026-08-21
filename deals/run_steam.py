@@ -1,4 +1,4 @@
-from deals.deals import should_accept_deal
+from deals.filter import should_accept_deal
 from deals.steam import fetch_steam_specials
 
 

@@ -39,6 +39,7 @@ jobs:
             deals/test_epic.py \
             deals/test_aggregator.py \
             deals/test_article_generator.py \
+            deals/test_image_generator.py \
             -v
 
       - name: Scan real Steam deals
@@ -68,9 +69,13 @@ jobs:
 
           git add gamerquest-deals-feed.json
 
+          if [ -d "generated_images" ]; then
+            git add generated_images/
+          fi
+
           if git diff --cached --quiet; then
-            echo "No feed changes to save."
+            echo "No feed or image changes to save."
           else
-            git commit -m "Update GamerQuest deals feed"
+            git commit -m "Update GamerQuest deals feed and images"
             git push
           fi

@@ -10,6 +10,7 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 from groq import Groq, RateLimitError
+from news_feed import save_news_to_feed
 
 
 # =========================================================

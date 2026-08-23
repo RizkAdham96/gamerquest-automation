@@ -1,3 +1,4 @@
+import hashlib
 import json
 import os
 import re
@@ -10,7 +11,6 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 from groq import Groq, RateLimitError
-from news_feed import save_news_to_feed
 
 
 # =========================================================
@@ -30,6 +30,9 @@ REJECTED_FOLDER = Path("rejected")
 STATE_FOLDER = Path("state")
 
 TAVILY_STATE_FILE = STATE_FOLDER / "tavily_usage.json"
+
+NEWS_FEED_FILE = Path("gamerquest-news-feed.json")
+MAX_NEWS_FEED_ARTICLES = 50
 
 TAVILY_SEARCH_URL = "https://api.tavily.com/search"
 
@@ -385,6 +388,248 @@ def normalize_words(text):
         if len(word) >= 3
         and word not in stopwords
     ]
+
+
+
+# =========================================================
+# NEWS FEED
+# =========================================================
+
+def get_news_source_id(source_url):
+    normalized = str(source_url).strip().lower()
+    return hashlib.sha256(
+        normalized.encode("utf-8")
+    ).hexdigest()
+
+
+def parse_feed_tags(tags):
+    if isinstance(tags, list):
+        return [
+            str(tag).strip()
+            for tag in tags
+            if str(tag).strip()
+        ]
+
+    return [
+        tag.strip()
+        for tag in str(tags).split(",")
+        if tag.strip()
+    ]
+
+
+def load_existing_news_feed():
+    if not NEWS_FEED_FILE.exists():
+        return {
+            "generated_at": None,
+            "count": 0,
+            "articles": [],
+        }
+
+    try:
+        data = json.loads(
+            NEWS_FEED_FILE.read_text(
+                encoding="utf-8"
+            )
+        )
+
+        if not isinstance(data, dict):
+            raise ValueError(
+                "News feed is not a JSON object."
+            )
+
+        if not isinstance(
+            data.get("articles"),
+            list,
+        ):
+            raise ValueError(
+                "News feed articles is not a list."
+            )
+
+        return data
+
+    except Exception as error:
+        print("")
+        print(
+            "WARNING: Existing news feed "
+            "could not be loaded."
+        )
+        print(
+            f"Reason: {error}"
+        )
+
+        return {
+            "generated_at": None,
+            "count": 0,
+            "articles": [],
+        }
+
+
+def build_news_feed_article(
+    article_data,
+    story,
+    official_story=None,
+):
+    (
+        seo_title,
+        meta_description,
+        primary_keyword,
+        secondary_keywords,
+        search_intent,
+        suggested_slug,
+        title,
+        excerpt,
+        category,
+        tags,
+        content,
+    ) = article_data
+
+    source_url = (
+        story.get("url", "")
+        .strip()
+    )
+
+    official_source = None
+
+    if official_story:
+        official_source = {
+            "title": official_story.get(
+                "title",
+                "",
+            ),
+            "url": official_story.get(
+                "url",
+                "",
+            ),
+        }
+
+    return {
+        "source_id": get_news_source_id(
+            source_url
+        ),
+        "title": title,
+        "excerpt": excerpt,
+        "content": content,
+        "slug": suggested_slug,
+        "category": category,
+        "tags": parse_feed_tags(
+            tags
+        ),
+        "seo": {
+            "seo_title": seo_title,
+            "meta_description":
+                meta_description,
+            "primary_keyword":
+                primary_keyword,
+            "secondary_keywords":
+                parse_feed_tags(
+                    secondary_keywords
+                ),
+            "search_intent":
+                search_intent,
+        },
+        "source": {
+            "url": source_url,
+            "title": story.get(
+                "title",
+                "",
+            ),
+            "published_date":
+                story.get(
+                    "published_date",
+                    "",
+                ),
+            "domain": get_domain(
+                source_url
+            ),
+        },
+        "official_source":
+            official_source,
+        "created_at": datetime.now(
+            timezone.utc
+        ).isoformat(),
+        "featured_image": None,
+    }
+
+
+def save_news_to_feed(
+    article_data,
+    story,
+    official_story=None,
+):
+    new_article = build_news_feed_article(
+        article_data,
+        story,
+        official_story,
+    )
+
+    feed = load_existing_news_feed()
+
+    existing_articles = (
+        feed.get(
+            "articles",
+            [],
+        )
+    )
+
+    existing_articles = [
+        article
+        for article in existing_articles
+        if article.get(
+            "source_id"
+        )
+        != new_article[
+            "source_id"
+        ]
+    ]
+
+    articles = [
+        new_article,
+        *existing_articles,
+    ][:MAX_NEWS_FEED_ARTICLES]
+
+    updated_feed = {
+        "generated_at": datetime.now(
+            timezone.utc
+        ).isoformat(),
+        "count": len(
+            articles
+        ),
+        "articles": articles,
+    }
+
+    NEWS_FEED_FILE.write_text(
+        json.dumps(
+            updated_feed,
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+    print("")
+    print(
+        "==================================="
+    )
+    print(
+        "NEWS FEED UPDATED"
+    )
+    print(
+        "==================================="
+    )
+    print(
+        f"Feed articles: "
+        f"{len(articles)}"
+    )
+    print(
+        f"Added: "
+        f"{new_article['title']}"
+    )
+    print(
+        f"Feed file: "
+        f"{NEWS_FEED_FILE}"
+    )
+
+    return new_article
 
 
 # =========================================================
@@ -2460,15 +2705,16 @@ def main():
         official_story,
     )
 
-    # 9. Try WordPress delivery. Failure is NON-FATAL because the GitHub draft
-    # has already been saved above.
-    wordpress_result = send_to_wordpress_draft(
+    # 9. Save the corrected article into the GitHub news feed.
+    #
+    # WordPress will pull this feed internally.
+    # We do not POST directly from GitHub Actions because
+    # the free hosting layer blocks automated external requests.
+    save_news_to_feed(
         article_data,
+        story,
+        official_story,
     )
-
-    if wordpress_result is None:
-        print("")
-        print("WordPress delivery did not complete, but the GitHub draft is safe.")
 
     print("")
     print(

@@ -11,6 +11,7 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 from groq import Groq, RateLimitError
+from news_image_generator import generate_news_image
 
 
 # =========================================================
@@ -33,6 +34,7 @@ TAVILY_STATE_FILE = STATE_FOLDER / "tavily_usage.json"
 
 NEWS_FEED_FILE = Path("gamerquest-news-feed.json")
 MAX_NEWS_FEED_ARTICLES = 50
+NEWS_IMAGES_FOLDER = Path("generated_news_images")
 
 TAVILY_SEARCH_URL = "https://api.tavily.com/search"
 
@@ -391,6 +393,343 @@ def normalize_words(text):
 
 
 
+
+# =========================================================
+# NEWS FEATURED IMAGES
+# =========================================================
+
+def get_absolute_image_url(base_url, image_url):
+    """
+    Convert relative image URLs found in page metadata to absolute URLs.
+    """
+
+    if not image_url:
+        return ""
+
+    image_url = str(image_url).strip()
+
+    if image_url.startswith("http://") or image_url.startswith("https://"):
+        return image_url
+
+    try:
+        from urllib.parse import urljoin
+        return urljoin(base_url, image_url)
+    except Exception:
+        return ""
+
+
+def extract_source_image_url(story):
+    """
+    Find the best contextual image for the selected news story.
+
+    Priority:
+    1. Image fields already returned by Tavily/result metadata.
+    2. og:image on the source page.
+    3. twitter:image on the source page.
+    4. First reasonably large page image.
+    5. None -> the image generator creates a branded fallback.
+    """
+
+    source_url = (
+        story.get("url", "")
+        .strip()
+    )
+
+    direct_candidates = [
+        story.get("image"),
+        story.get("image_url"),
+        story.get("thumbnail"),
+        story.get("og_image"),
+    ]
+
+    images_field = story.get("images")
+
+    if isinstance(images_field, list):
+        direct_candidates.extend(
+            images_field
+        )
+
+    for candidate in direct_candidates:
+        if isinstance(candidate, dict):
+            candidate = (
+                candidate.get("url")
+                or candidate.get("src")
+                or ""
+            )
+
+        candidate = get_absolute_image_url(
+            source_url,
+            candidate,
+        )
+
+        if candidate:
+            print(
+                f"Contextual image found in story metadata: "
+                f"{candidate}"
+            )
+            return candidate
+
+    if not source_url:
+        return None
+
+    try:
+        print("")
+        print(
+            "Looking for contextual article artwork..."
+        )
+
+        response = requests.get(
+            source_url,
+            timeout=25,
+            headers={
+                "User-Agent": (
+                    "Mozilla/5.0 "
+                    "(compatible; GamerQuestFR/1.0)"
+                ),
+                "Accept": "text/html,application/xhtml+xml",
+            },
+            allow_redirects=True,
+        )
+
+        response.raise_for_status()
+
+        soup = BeautifulSoup(
+            response.text,
+            "html.parser",
+        )
+
+        meta_candidates = [
+            (
+                "property",
+                "og:image",
+            ),
+            (
+                "property",
+                "og:image:secure_url",
+            ),
+            (
+                "name",
+                "twitter:image",
+            ),
+            (
+                "name",
+                "twitter:image:src",
+            ),
+        ]
+
+        for attribute, value in meta_candidates:
+            tag = soup.find(
+                "meta",
+                attrs={
+                    attribute: value
+                },
+            )
+
+            if tag:
+                candidate = (
+                    tag.get("content", "")
+                    .strip()
+                )
+
+                candidate = get_absolute_image_url(
+                    source_url,
+                    candidate,
+                )
+
+                if candidate:
+                    print(
+                        f"Contextual image found from "
+                        f"{value}: {candidate}"
+                    )
+                    return candidate
+
+        # Fallback to a page image.
+        for image in soup.find_all(
+            "img",
+            limit=40,
+        ):
+            candidate = (
+                image.get("src")
+                or image.get("data-src")
+                or image.get("data-lazy-src")
+                or ""
+            )
+
+            candidate = get_absolute_image_url(
+                source_url,
+                candidate,
+            )
+
+            if not candidate:
+                continue
+
+            width_raw = (
+                image.get("width")
+                or "0"
+            )
+
+            height_raw = (
+                image.get("height")
+                or "0"
+            )
+
+            try:
+                width = int(
+                    re.sub(
+                        r"[^0-9]",
+                        "",
+                        str(width_raw),
+                    )
+                    or 0
+                )
+            except Exception:
+                width = 0
+
+            try:
+                height = int(
+                    re.sub(
+                        r"[^0-9]",
+                        "",
+                        str(height_raw),
+                    )
+                    or 0
+                )
+            except Exception:
+                height = 0
+
+            # If dimensions are supplied, reject tiny icons/logos.
+            if (
+                width
+                and height
+                and (
+                    width < 500
+                    or height < 250
+                )
+            ):
+                continue
+
+            print(
+                f"Contextual image found from page: "
+                f"{candidate}"
+            )
+            return candidate
+
+    except Exception as error:
+        print(
+            f"Could not extract source artwork: "
+            f"{error}"
+        )
+
+    print(
+        "No usable contextual source artwork found. "
+        "Using GamerQuest fallback."
+    )
+
+    return None
+
+
+def build_news_featured_image(
+    article_title,
+    suggested_slug,
+    story,
+):
+    """
+    Generate and save one 1200x630 GamerQuest featured image.
+
+    Returns the metadata that WordPress will use later.
+    """
+
+    NEWS_IMAGES_FOLDER.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    source_image_url = (
+        extract_source_image_url(
+            story
+        )
+    )
+
+    safe_slug = (
+        slugify(
+            suggested_slug
+            or article_title
+        )
+        or "gamerquest-news"
+    )
+
+    filename = (
+        f"{safe_slug}.jpg"
+    )
+
+    output_path = (
+        NEWS_IMAGES_FOLDER
+        / filename
+    )
+
+    generate_news_image(
+        title=article_title,
+        source_image_url=source_image_url,
+        output_path=output_path,
+    )
+
+    repository = os.environ.get(
+        "GITHUB_REPOSITORY",
+        "RizkAdham96/gamerquest-automation",
+    )
+
+    branch = os.environ.get(
+        "GITHUB_REF_NAME",
+        "main",
+    )
+
+    public_url = (
+        "https://raw.githubusercontent.com/"
+        f"{repository}/"
+        f"{branch}/"
+        f"generated_news_images/"
+        f"{filename}"
+    )
+
+    image_metadata = {
+        "url": public_url,
+        "filename": filename,
+        "alt": (
+            f"{article_title} - GamerQuest"
+        ),
+        "caption": (
+            f"Illustration de l'article "
+            f"« {article_title} »."
+        ),
+        "description": (
+            "Image GamerQuest générée automatiquement "
+            "à partir d'un visuel contextuel de la source "
+            "lorsqu'il est disponible."
+        ),
+        "source_image_url":
+            source_image_url,
+    }
+
+    print("")
+    print(
+        "==================================="
+    )
+    print(
+        "NEWS IMAGE GENERATED"
+    )
+    print(
+        "==================================="
+    )
+    print(
+        f"Image file: {output_path}"
+    )
+    print(
+        f"Public URL: {public_url}"
+    )
+
+    return image_metadata
+
+
 # =========================================================
 # NEWS FEED
 # =========================================================
@@ -547,7 +886,11 @@ def build_news_feed_article(
         "created_at": datetime.now(
             timezone.utc
         ).isoformat(),
-        "featured_image": None,
+        "featured_image": build_news_featured_image(
+            article_title=title,
+            suggested_slug=suggested_slug,
+            story=story,
+        ),
     }
 
 

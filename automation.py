@@ -42,12 +42,13 @@ TAVILY_MONTHLY_SAFETY_LIMIT = 900
 MAX_TAVILY_SEARCHES_PER_RUN = 1
 
 SEARCH_QUERY = (
-    "latest video game news release date gameplay platforms price "
-    "PlayStation Xbox Nintendo Switch 2 PC Steam Game Pass "
-    "major game announcement update DLC hardware gaming"
+    "latest gaming news official announcement release date gameplay "
+    "platforms price update DLC expansion hardware trailer showcase "
+    "PlayStation PS5 Xbox Nintendo Switch 2 PC Steam Game Pass "
+    "major video game announcement"
 )
 
-MAX_RESULTS = 15
+MAX_RESULTS = 20
 
 MIN_SOURCE_TEXT_LENGTH = 250
 
@@ -1355,7 +1356,16 @@ def search_gaming_news():
 
     print(
         "Maximum Tavily searches "
-        "this run: 1"
+        f"this run: {MAX_TAVILY_SEARCHES_PER_RUN}"
+    )
+
+    print(
+        f"Tavily candidate target "
+        f"from this single search: {MAX_RESULTS}"
+    )
+
+    print(
+        "Tavily freshness window: 7 days"
     )
 
     response = requests.post(
@@ -1370,7 +1380,7 @@ def search_gaming_news():
             "query": SEARCH_QUERY,
             "search_depth": "basic",
             "topic": "news",
-            "time_range": "day",
+            "time_range": "week",
             "max_results": MAX_RESULTS,
             "include_answer": False,
             "include_raw_content": "text",
@@ -1444,8 +1454,14 @@ def search_gaming_news():
         clean_results.append(result)
 
     if not clean_results:
+        print("")
         print(
-            "No usable non-duplicate sources were returned."
+            "No usable non-duplicate sources were returned "
+            "from this single Tavily search."
+        )
+        print(
+            "Safety rule preserved: no second Tavily search "
+            "will be made during this workflow run."
         )
         sys.exit(0)
 

@@ -418,16 +418,121 @@ def get_absolute_image_url(base_url, image_url):
         return ""
 
 
+def image_url_looks_bad(image_url):
+    """
+    Reject common logos/icons/avatars/sprites before using
+    an image as the article artwork.
+    """
+
+    if not image_url:
+        return True
+
+    lowered = str(
+        image_url
+    ).lower()
+
+    bad_terms = [
+        "logo",
+        "favicon",
+        "icon",
+        "avatar",
+        "sprite",
+        "badge",
+        "emoji",
+        "author",
+        "profile",
+        "placeholder",
+        "default-image",
+        "default_image",
+        "site-logo",
+        "site_logo",
+        "brandmark",
+        "branding",
+    ]
+
+    return any(
+        term in lowered
+        for term in bad_terms
+    )
+
+
+def validate_remote_image_candidate(
+    image_url,
+):
+    """
+    Reject obvious non-images and extremely tiny assets.
+    """
+
+    if (
+        not image_url
+        or image_url_looks_bad(
+            image_url
+        )
+    ):
+        return False
+
+    try:
+        response = requests.get(
+            image_url,
+            timeout=15,
+            stream=True,
+            headers={
+                "User-Agent": (
+                    "Mozilla/5.0 "
+                    "(compatible; GamerQuestFR/1.0)"
+                ),
+                "Accept": "image/*",
+            },
+            allow_redirects=True,
+        )
+
+        response.raise_for_status()
+
+        content_type = (
+            response.headers.get(
+                "Content-Type",
+                "",
+            )
+            .lower()
+        )
+
+        if (
+            content_type
+            and "image" not in content_type
+        ):
+            return False
+
+        content_length = (
+            response.headers.get(
+                "Content-Length"
+            )
+        )
+
+        if content_length:
+            try:
+                if int(
+                    content_length
+                ) < 15000:
+                    return False
+            except Exception:
+                pass
+
+        return True
+
+    except Exception:
+        return False
+
+
 def extract_source_image_url(story):
     """
-    Find the best contextual image for the selected news story.
+    Find the best contextual image for the selected story.
 
     Priority:
-    1. Image fields already returned by Tavily/result metadata.
-    2. og:image on the source page.
-    3. twitter:image on the source page.
-    4. First reasonably large page image.
-    5. None -> the image generator creates a branded fallback.
+    1. OpenGraph image
+    2. Twitter image
+    3. Tavily/story image metadata
+    4. Large page image
+    5. None -> branded fallback
     """
 
     source_url = (
@@ -435,6 +540,100 @@ def extract_source_image_url(story):
         .strip()
     )
 
+    # First inspect page metadata because it normally describes
+    # the article's actual social/featured image.
+    if source_url:
+        try:
+            print("")
+            print(
+                "Looking for contextual article artwork..."
+            )
+
+            response = requests.get(
+                source_url,
+                timeout=25,
+                headers={
+                    "User-Agent": (
+                        "Mozilla/5.0 "
+                        "(compatible; GamerQuestFR/1.0)"
+                    ),
+                    "Accept": (
+                        "text/html,"
+                        "application/xhtml+xml"
+                    ),
+                },
+                allow_redirects=True,
+            )
+
+            response.raise_for_status()
+
+            soup = BeautifulSoup(
+                response.text,
+                "html.parser",
+            )
+
+            meta_candidates = [
+                (
+                    "property",
+                    "og:image",
+                ),
+                (
+                    "property",
+                    "og:image:secure_url",
+                ),
+                (
+                    "name",
+                    "twitter:image",
+                ),
+                (
+                    "name",
+                    "twitter:image:src",
+                ),
+            ]
+
+            for attribute, value in meta_candidates:
+                tag = soup.find(
+                    "meta",
+                    attrs={
+                        attribute: value
+                    },
+                )
+
+                if not tag:
+                    continue
+
+                candidate = (
+                    tag.get(
+                        "content",
+                        "",
+                    )
+                    .strip()
+                )
+
+                candidate = get_absolute_image_url(
+                    source_url,
+                    candidate,
+                )
+
+                if (
+                    candidate
+                    and validate_remote_image_candidate(
+                        candidate
+                    )
+                ):
+                    print(
+                        f"Contextual image found from "
+                        f"{value}: {candidate}"
+                    )
+                    return candidate
+
+        except Exception as error:
+            print(
+                f"Could not inspect page metadata: "
+                f"{error}"
+            )
+
+    # Then try image metadata already present on the story object.
     direct_candidates = [
         story.get("image"),
         story.get("image_url"),
@@ -442,15 +641,23 @@ def extract_source_image_url(story):
         story.get("og_image"),
     ]
 
-    images_field = story.get("images")
+    images_field = story.get(
+        "images"
+    )
 
-    if isinstance(images_field, list):
+    if isinstance(
+        images_field,
+        list,
+    ):
         direct_candidates.extend(
             images_field
         )
 
     for candidate in direct_candidates:
-        if isinstance(candidate, dict):
+        if isinstance(
+            candidate,
+            dict,
+        ):
             candidate = (
                 candidate.get("url")
                 or candidate.get("src")
@@ -462,73 +669,54 @@ def extract_source_image_url(story):
             candidate,
         )
 
-        if candidate:
+        if (
+            candidate
+            and validate_remote_image_candidate(
+                candidate
+            )
+        ):
             print(
-                f"Contextual image found in story metadata: "
-                f"{candidate}"
+                "Contextual image found in "
+                f"story metadata: {candidate}"
             )
             return candidate
 
-    if not source_url:
-        return None
-
-    try:
-        print("")
-        print(
-            "Looking for contextual article artwork..."
-        )
-
-        response = requests.get(
-            source_url,
-            timeout=25,
-            headers={
-                "User-Agent": (
-                    "Mozilla/5.0 "
-                    "(compatible; GamerQuestFR/1.0)"
-                ),
-                "Accept": "text/html,application/xhtml+xml",
-            },
-            allow_redirects=True,
-        )
-
-        response.raise_for_status()
-
-        soup = BeautifulSoup(
-            response.text,
-            "html.parser",
-        )
-
-        meta_candidates = [
-            (
-                "property",
-                "og:image",
-            ),
-            (
-                "property",
-                "og:image:secure_url",
-            ),
-            (
-                "name",
-                "twitter:image",
-            ),
-            (
-                "name",
-                "twitter:image:src",
-            ),
-        ]
-
-        for attribute, value in meta_candidates:
-            tag = soup.find(
-                "meta",
-                attrs={
-                    attribute: value
+    # Last-resort scan through page images.
+    if source_url:
+        try:
+            response = requests.get(
+                source_url,
+                timeout=25,
+                headers={
+                    "User-Agent": (
+                        "Mozilla/5.0 "
+                        "(compatible; GamerQuestFR/1.0)"
+                    ),
+                    "Accept": (
+                        "text/html,"
+                        "application/xhtml+xml"
+                    ),
                 },
+                allow_redirects=True,
             )
 
-            if tag:
+            response.raise_for_status()
+
+            soup = BeautifulSoup(
+                response.text,
+                "html.parser",
+            )
+
+            for image in soup.find_all(
+                "img",
+                limit=60,
+            ):
                 candidate = (
-                    tag.get("content", "")
-                    .strip()
+                    image.get("src")
+                    or image.get("data-src")
+                    or image.get("data-lazy-src")
+                    or image.get("data-original")
+                    or ""
                 )
 
                 candidate = get_absolute_image_url(
@@ -536,89 +724,93 @@ def extract_source_image_url(story):
                     candidate,
                 )
 
-                if candidate:
-                    print(
-                        f"Contextual image found from "
-                        f"{value}: {candidate}"
+                if (
+                    not candidate
+                    or image_url_looks_bad(
+                        candidate
                     )
-                    return candidate
+                ):
+                    continue
 
-        # Fallback to a page image.
-        for image in soup.find_all(
-            "img",
-            limit=40,
-        ):
-            candidate = (
-                image.get("src")
-                or image.get("data-src")
-                or image.get("data-lazy-src")
-                or ""
-            )
-
-            candidate = get_absolute_image_url(
-                source_url,
-                candidate,
-            )
-
-            if not candidate:
-                continue
-
-            width_raw = (
-                image.get("width")
-                or "0"
-            )
-
-            height_raw = (
-                image.get("height")
-                or "0"
-            )
-
-            try:
-                width = int(
-                    re.sub(
-                        r"[^0-9]",
+                alt_text = (
+                    image.get(
+                        "alt",
                         "",
-                        str(width_raw),
                     )
-                    or 0
+                    .lower()
                 )
-            except Exception:
-                width = 0
 
-            try:
-                height = int(
-                    re.sub(
-                        r"[^0-9]",
-                        "",
-                        str(height_raw),
+                if any(
+                    bad in alt_text
+                    for bad in [
+                        "logo",
+                        "icon",
+                        "avatar",
+                        "author",
+                    ]
+                ):
+                    continue
+
+                width_raw = (
+                    image.get("width")
+                    or "0"
+                )
+
+                height_raw = (
+                    image.get("height")
+                    or "0"
+                )
+
+                try:
+                    width = int(
+                        re.sub(
+                            r"[^0-9]",
+                            "",
+                            str(width_raw),
+                        )
+                        or 0
                     )
-                    or 0
-                )
-            except Exception:
-                height = 0
+                except Exception:
+                    width = 0
 
-            # If dimensions are supplied, reject tiny icons/logos.
-            if (
-                width
-                and height
-                and (
-                    width < 500
-                    or height < 250
-                )
-            ):
-                continue
+                try:
+                    height = int(
+                        re.sub(
+                            r"[^0-9]",
+                            "",
+                            str(height_raw),
+                        )
+                        or 0
+                    )
+                except Exception:
+                    height = 0
 
+                if (
+                    width
+                    and height
+                    and (
+                        width < 600
+                        or height < 300
+                    )
+                ):
+                    continue
+
+                if not validate_remote_image_candidate(
+                    candidate
+                ):
+                    continue
+
+                print(
+                    f"Contextual image found from page: "
+                    f"{candidate}"
+                )
+                return candidate
+
+        except Exception as error:
             print(
-                f"Contextual image found from page: "
-                f"{candidate}"
+                f"Could not scan page images: "
+                f"{error}"
             )
-            return candidate
-
-    except Exception as error:
-        print(
-            f"Could not extract source artwork: "
-            f"{error}"
-        )
 
     print(
         "No usable contextual source artwork found. "
@@ -2016,92 +2208,141 @@ CONTENT:
 # PARSE ARTICLE
 # =========================================================
 
+def extract_labeled_field(
+    text,
+    label,
+    next_label=None,
+):
+    """
+    Extract a top-level AI field using labels anchored to the
+    beginning of a line.
+
+    This prevents TITLE: from matching the TITLE: substring
+    inside SEO_TITLE:.
+    """
+
+    start_pattern = (
+        rf"(?mi)^[ \t]*{re.escape(label)}[ \t]*:[ \t]*"
+    )
+
+    start_match = re.search(
+        start_pattern,
+        text,
+    )
+
+    if not start_match:
+        raise RuntimeError(
+            f"Missing required field: {label}"
+        )
+
+    value_start = start_match.end()
+
+    if next_label is None:
+        return text[
+            value_start:
+        ].strip()
+
+    end_pattern = (
+        rf"(?mi)^[ \t]*{re.escape(next_label)}[ \t]*:"
+    )
+
+    end_match = re.search(
+        end_pattern,
+        text[value_start:],
+    )
+
+    if not end_match:
+        raise RuntimeError(
+            f"Missing required field after "
+            f"{label}: {next_label}"
+        )
+
+    value_end = (
+        value_start
+        + end_match.start()
+    )
+
+    return text[
+        value_start:value_end
+    ].strip()
+
+
 def parse_article(text):
     text = strip_code_fences(
         text
     )
 
     try:
-        seo_title = (
-            text
-            .split("SEO_TITLE:", 1)[1]
-            .split("META_DESCRIPTION:", 1)[0]
-            .strip()
+        seo_title = extract_labeled_field(
+            text,
+            "SEO_TITLE",
+            "META_DESCRIPTION",
         )
 
-        meta_description = (
-            text
-            .split("META_DESCRIPTION:", 1)[1]
-            .split("PRIMARY_KEYWORD:", 1)[0]
-            .strip()
+        meta_description = extract_labeled_field(
+            text,
+            "META_DESCRIPTION",
+            "PRIMARY_KEYWORD",
         )
 
-        primary_keyword = (
-            text
-            .split("PRIMARY_KEYWORD:", 1)[1]
-            .split("SECONDARY_KEYWORDS:", 1)[0]
-            .strip()
+        primary_keyword = extract_labeled_field(
+            text,
+            "PRIMARY_KEYWORD",
+            "SECONDARY_KEYWORDS",
         )
 
-        secondary_keywords = (
-            text
-            .split("SECONDARY_KEYWORDS:", 1)[1]
-            .split("SEARCH_INTENT:", 1)[0]
-            .strip()
+        secondary_keywords = extract_labeled_field(
+            text,
+            "SECONDARY_KEYWORDS",
+            "SEARCH_INTENT",
         )
 
-        search_intent = (
-            text
-            .split("SEARCH_INTENT:", 1)[1]
-            .split("SUGGESTED_SLUG:", 1)[0]
-            .strip()
+        search_intent = extract_labeled_field(
+            text,
+            "SEARCH_INTENT",
+            "SUGGESTED_SLUG",
         )
 
-        suggested_slug = (
-            text
-            .split("SUGGESTED_SLUG:", 1)[1]
-            .split("TITLE:", 1)[0]
-            .strip()
+        suggested_slug = extract_labeled_field(
+            text,
+            "SUGGESTED_SLUG",
+            "TITLE",
         )
 
-        title = (
-            text
-            .split("TITLE:", 1)[1]
-            .split("EXCERPT:", 1)[0]
-            .strip()
+        title = extract_labeled_field(
+            text,
+            "TITLE",
+            "EXCERPT",
         )
 
-        excerpt = (
-            text
-            .split("EXCERPT:", 1)[1]
-            .split("CATEGORY:", 1)[0]
-            .strip()
+        excerpt = extract_labeled_field(
+            text,
+            "EXCERPT",
+            "CATEGORY",
         )
 
-        category = (
-            text
-            .split("CATEGORY:", 1)[1]
-            .split("TAGS:", 1)[0]
-            .strip()
+        category = extract_labeled_field(
+            text,
+            "CATEGORY",
+            "TAGS",
         )
 
-        tags = (
-            text
-            .split("TAGS:", 1)[1]
-            .split("CONTENT:", 1)[0]
-            .strip()
+        tags = extract_labeled_field(
+            text,
+            "TAGS",
+            "CONTENT",
         )
 
-        content = (
-            text
-            .split("CONTENT:", 1)[1]
-            .strip()
+        content = extract_labeled_field(
+            text,
+            "CONTENT",
+            None,
         )
 
-    except Exception:
+    except Exception as error:
         raise RuntimeError(
             "Generated SEO article "
-            "could not be parsed."
+            f"could not be parsed: {error}"
         )
 
     content = strip_code_fences(

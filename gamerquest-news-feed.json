@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-08-25T10:38:28.328268+00:00",
-  "count": 11,
+  "generated_at": "2026-08-25T12:57:01.127190+00:00",
+  "count": 12,
   "articles": [
+    {
+      "source_id": "f6fe52078e0a1cda3f9cc25654d6e17de72d512c43c36c1f53757fae4e0eeb85",
+      "title": "Xbox Game Pass août – Wave 2 : tout le lineup, dates et plateformes",
+      "excerpt": "Le deuxième wave d’août du Xbox Game Pass arrive avec neuf titres, dont Vapor World : Over the Mind et Resonance : A Plague Tale Legacy, disponibles sur cloud, console et PC.",
+      "content": "<h2>Quelles sont les dates de sortie des jeux du Wave 2 d’août ?</h2>\n<ul>\n  <li>19 août – <strong>Vapor World: Over the Mind</strong> (Game Pass Ultimate & PC Game Pass)</li>\n  <li>19 août – <strong>BlazBlue Entropy Effect X</strong> (Game Pass Premium, Ultimate & PC)</li>\n  <li>19 août – <strong>Relooted</strong> (Game Pass Premium, Ultimate & PC)</li>\n  <li>20 août – <strong>Starsand Island</strong> (Game Pass Premium, Ultimate & PC)</li>\n  <li>25 août – <strong>Aerial_Knight’s DropShot</strong> (Game Pass Premium, Ultimate & PC)</li>\n  <li>25 août – <strong>Blood Dungeon</strong> (Game Pass Ultimate & PC Game Pass)</li>\n  <li>27 août – <strong>Resonance: A Plague Tale Legacy</strong> (Game Pass Ultimate & PC Game Pass)</li>\n  <li>31 août – <strong>Young Suns</strong> (Game Pass Premium, Ultimate & PC)</li>\n  <li>1 septembre – <strong>Shelldiver</strong> (Game Pass Ultimate, Premium & PC)</li>\n</ul>\n\n<h2>Sur quelles plateformes seront disponibles ces titres ?</h2>\n<p>Selon le communiqué d’Xbox Wire, tous les jeux du Wave 2 sont accessibles via le service cloud, sur les consoles Xbox Series X|S et sur PC. Certains titres (Aerial_Knight’s DropShot, Resonance : A Plague Tale Legacy, Shelldiver) sont également disponibles sur les appareils handheld compatibles.</p>\n\n<h2>Quel type de gameplay propose chaque jeu ?</h2>\n<ul>\n  <li><strong>Vapor World: Over the Mind</strong> – Plateforme narratif mêlant éléments <em>souls‑like</em> et combat de déviation.</li>\n  <li><strong>Blood Dungeon</strong> – Plateforme 2D de survie conçue par les créateurs de <em>Nidhogg</em>.</li>\n  <li><strong>Resonance: A Plague Tale Legacy</strong> – Aventure où Sophia affronte énigmes, combats et une créature mythique sur l’Île du Minotaure.</li>\n  <li>Les autres titres (BlazBlue Entropy Effect X, Relooted, Starsand Island, Aerial_Knight’s DropShot, Young Suns, Shelldiver) n’ont pas de description de gameplay fournie dans l’annonce officielle.</li>\n</ul>\n\n<h2>Quels jeux quittent le Xbox Game Pass en août ?</h2>\n<ul>\n  <li>Another Crab’s Treasure</li>\n  <li>I Am Your Beast</li>\n  <li>Neon Abyss</li>\n  <li>One Lonely Outpost</li>\n  <li>The Witcher 3: The Wild Hunt – Remastered Edition</li>\n</ul>\n\n<p>Source : Xbox Wire, communiqué de presse (date du communiqué non précisée).</p>",
+      "slug": "xbox-game-pass-august-wave-2",
+      "category": "Actualités",
+      "tags": [
+        "Xbox Game Pass",
+        "Wave 2",
+        "août",
+        "jeux vidéo",
+        "sorties"
+      ],
+      "seo": {
+        "seo_title": "Xbox Game Pass août – Wave 2 : dates, plateformes et jeux",
+        "meta_description": "Découvrez le lineup Wave 2 du Xbox Game Pass d’août : dates de sortie, plateformes (cloud, console, PC) et titres disponibles dès le 19 août.",
+        "primary_keyword": "Xbox Game Pass août",
+        "secondary_keywords": [
+          "Wave 2 Xbox Game Pass",
+          "dates sortie Xbox Game Pass",
+          "plateformes Xbox Game Pass",
+          "jeux Xbox Game Pass août",
+          "jeux quittant Xbox Game Pass"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.ign.com/articles/xbox-game-pass-august-2026-wave-2-lineup-announced",
+        "title": "Xbox Game Pass August 2026 Wave 2 Lineup Announced - IGN",
+        "published_date": "Tue, 18 Aug 2026 13:19:14 GMT",
+        "domain": "ign.com"
+      },
+      "official_source": null,
+      "created_at": "2026-08-25T12:57:00.255548+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/xbox-game-pass-august-wave-2.jpg",
+        "filename": "xbox-game-pass-august-wave-2.jpg",
+        "alt": "Xbox Game Pass août – Wave 2 : tout le lineup, dates et plateformes - GamerQuest",
+        "caption": "Illustration de l'article « Xbox Game Pass août – Wave 2 : tout le lineup, dates et plateformes ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://assets-prd.ignimgs.com/2023/10/11/game-pass-deal-ign-prime-day-2-2023-new-october-1697037530962.png?width=1280&format=jpg&auto=webp&quality=80"
+      }
+    },
     {
       "source_id": "2ab2bc5411238c3c6c9ec9a2e06aea5c97fe84ad1a16deb7180b0bd3ba4fe12a",
       "title": "Trine 6 : Together in Time – tout ce que l’on sait sur la sortie prévue en septembre 2026",

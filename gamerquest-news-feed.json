@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-08-25T04:44:19.680322+00:00",
-  "count": 9,
+  "generated_at": "2026-08-25T06:56:54.420065+00:00",
+  "count": 10,
   "articles": [
+    {
+      "source_id": "d27caa6151df06290386abbdf8982ed82c2fb29f5e39861d3c602b82d40e4219",
+      "title": "Tomb Raider : Legacy of Atlantis – date de sortie, plateformes et nouveautés gameplay",
+      "excerpt": "Tomb Raider : Legacy of Atlantis n’a pas encore de date officielle, mais la bande‑annonce révèle un arbre de compétences RPG, un système de crafting et un « focus meter ».",
+      "content": "<article>\n  <p><strong>Tomb Raider : Legacy of Atlantis</strong> est un remake annoncé de la première aventure de Lara Croft. À ce jour, aucune date de sortie officielle n’a été communiquée.</p>\n\n  <h2>Quelle est la date de sortie prévue ?</h2>\n  <p>Les développeurs n’ont pas encore confirmé de date de lancement. La sortie dépendra du calendrier de production et des éventuels retards.</p>\n\n  <h2>Sur quelles plateformes le jeu sera‑t‑il disponible ?</h2>\n  <p>Selon les informations publiées par Amazon Game Studios et Crystal Dynamics, le titre sera destiné aux consoles de nouvelle génération et au PC, mais les plateformes exactes (PlayStation 5, Xbox Series X/S, Nintendo Switch 2, etc.) restent à préciser.</p>\n\n  <h2>Quelles nouveautés de gameplay sont annoncées ?</h2>\n  <p>La bande‑annonce officielle présentée par les studios révèle plusieurs ajouts :</p>\n  <ul>\n    <li><strong>Arbre de compétences RPG :</strong> les joueurs pourront débloquer des améliorations en collectant des artefacts disséminés dans les niveaux.</li>\n    <li><strong>Système de crafting :</strong> des herbes récupérables pourront être combinées pour créer des buffs temporaires (réduction de dégâts, restauration de santé).</li>\n    <li><strong>Focus meter :</strong> une jauge qui se remplit en infligeant ou subissant des dégâts et en esquivant, permettant de ralentir le temps pour exécuter des manœuvres acrobatiques.</li>\n    <li><strong>Arsenal élargi :</strong> en plus des pistolets doubles emblématiques, le jeu proposera un fusil à pompe, un SMG et un fusil d’assaut, chaque arme étant adaptée à un style de combat spécifique.</li>\n  </ul>\n\n  <p>Ces ajouts suscitent des réactions variées au sein de la communauté, certains fans exprimant des réserves quant à l’introduction d’éléments RPG dans un titre historiquement axé sur l’action‑aventure.</p>\n</article>",
+      "slug": "tomb-raider-legacy-of-atlantis-date-sortie",
+      "category": "Actualités",
+      "tags": [
+        "Tomb Raider",
+        "Legacy of Atlantis",
+        "date de sortie",
+        "plateformes",
+        "gameplay"
+      ],
+      "seo": {
+        "seo_title": "Tomb Raider : Legacy of Atlantis – date de sortie, plateformes et nouveautés gameplay",
+        "meta_description": "Découvrez ce que l’on sait de la date de sortie, des plateformes prévues et des nouvelles mécaniques de gameplay de Tomb Raider : Legacy of Atlantis, d’après les dernières informations officielles.",
+        "primary_keyword": "date de sortie Tomb Raider Legacy of Atlantis",
+        "secondary_keywords": [
+          "Tomb Raider Legacy of Atlantis plateformes",
+          "Tomb Raider Legacy of Atlantis gameplay",
+          "skill tree Tomb Raider",
+          "focus meter",
+          "crafting mechanics"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.eurogamer.net/tomb-raider-legacy-of-atlantis-remake-rpg-focus-crafting",
+        "title": "Tomb Raider: Legacy of Atlantis, a remake of the first game, is getting RPG skill trees, crafting mechanics and a 'focus meter', and fans aren't happy - Eurogamer",
+        "published_date": "Tue, 18 Aug 2026 09:25:57 GMT",
+        "domain": "eurogamer.net"
+      },
+      "official_source": null,
+      "created_at": "2026-08-25T06:56:53.688101+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/tomb-raider-legacy-of-atlantis-date-sortie.jpg",
+        "filename": "tomb-raider-legacy-of-atlantis-date-sortie.jpg",
+        "alt": "Tomb Raider : Legacy of Atlantis – date de sortie, plateformes et nouveautés gameplay - GamerQuest",
+        "caption": "Illustration de l'article « Tomb Raider : Legacy of Atlantis – date de sortie, plateformes et nouveautés gameplay ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://assetsio.gnwcdn.com/legacy-of-atlantis-lara.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
+      }
+    },
     {
       "source_id": "74aa1e6afa30929626af79405224ec0c1425fb79b8e083458c00e1f4dfb5f82e",
       "title": "Into the Dead: Our Darkest Days – date de sortie, plateformes et gameplay pour 2027",

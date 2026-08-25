@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-08-25T06:56:54.420065+00:00",
-  "count": 10,
+  "generated_at": "2026-08-25T10:38:28.328268+00:00",
+  "count": 11,
   "articles": [
+    {
+      "source_id": "2ab2bc5411238c3c6c9ec9a2e06aea5c97fe84ad1a16deb7180b0bd3ba4fe12a",
+      "title": "Trine 6 : Together in Time – tout ce que l’on sait sur la sortie prévue en septembre 2026",
+      "excerpt": "Trine 6 : Together in Time a été annoncée le 22 août 2026 et devrait sortir en septembre 2026. Les plateformes, le prix et le mode de jeu restent à confirmer.",
+      "content": "<article>\n  <p>Le nouveau volet de la série Trine, <strong>Trine 6 : Together in Time</strong>, a été officiellement annoncé le 22 août 2026 et figure parmi les titres majeurs prévus pour <strong>septembre 2026</strong>. Voici les informations confirmées à ce jour.</p>\n\n  <h2>Quelle est la date de sortie de Trine 6 : Together in Time ?</h2>\n  <p>Trine 6 : Together in Time est programmé pour une sortie en <strong>septembre 2026</strong>. L’annonce a été faite le 22 août 2026 dans le cadre du récapitulatif « The Biggest Game Releases of September 2026 » publié par IGN.</p>\n\n  <h2>Sur quelles plateformes le jeu sera‑t‑il disponible ?</h2>\n  <p>À ce jour, les plateformes exactes n’ont pas encore été communiquées par les développeurs. Aucun détail officiel n’est disponible concernant la disponibilité sur consoles ou PC.</p>\n\n  <h2>Quel sera le prix de Trine 6 ?</h2>\n  <p>Le tarif du jeu n’a pas été annoncé. Le prix sera précisé lors d’une communication officielle du développeur ou du distributeur.</p>\n\n  <h2>Que sait‑on du gameplay de Trine 6 ?</h2>\n  <p>Les informations sur le gameplay restent confidentielles. Aucun détail sur les mécaniques, le style de jeu ou les nouveautés n’a été publié.</p>\n\n  <h2>Trine 6 proposera‑t‑il du multijoueur ?</h2>\n  <p>Le mode multijoueur n’a pas encore été confirmé. Les développeurs n’ont pas indiqué si le titre inclura une composante coopérative ou compétitive.</p>\n</article>",
+      "slug": "trine-6-date-sortie",
+      "category": "Actualités",
+      "tags": [
+        "Trine 6",
+        "sortie 2026",
+        "jeux indie",
+        "annonces gaming",
+        "nouveautés"
+      ],
+      "seo": {
+        "seo_title": "Trine 6 : Together in Time – date de sortie prévue en septembre 2026",
+        "meta_description": "Découvrez la date de sortie officielle de Trine 6 : Together in Time, annoncée en août 2026 et prévue pour septembre 2026. Aucune information confirmée sur les plateformes, le prix ou le gameplay pour le moment.",
+        "primary_keyword": "date de sortie Trine 6",
+        "secondary_keywords": [
+          "Trine 6 plateforme",
+          "Trine 6 prix",
+          "Trine 6 gameplay",
+          "Trine 6 multijoueur",
+          "sortie septembre 2026",
+          "Trine 6 annonce"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://in.ign.com/trine-6-together-in-time/269745/the-biggest-game-releases-of-september-2026",
+        "title": "The Biggest Game Releases of September 2026 - IGN India",
+        "published_date": "Sat, 22 Aug 2026 13:15:00 GMT",
+        "domain": "in.ign.com"
+      },
+      "official_source": null,
+      "created_at": "2026-08-25T10:38:26.984284+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/trine-6-date-sortie.jpg",
+        "filename": "trine-6-date-sortie.jpg",
+        "alt": "Trine 6 : Together in Time – tout ce que l’on sait sur la sortie prévue en septembre 2026 - GamerQuest",
+        "caption": "Illustration de l'article « Trine 6 : Together in Time – tout ce que l’on sait sur la sortie prévue en septembre 2026 ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://sm.ign.com/t/ign_in/video/t/the-bigges/the-biggest-game-releases-of-september-2026_rjhh.1200.jpg"
+      }
+    },
     {
       "source_id": "d27caa6151df06290386abbdf8982ed82c2fb29f5e39861d3c602b82d40e4219",
       "title": "Tomb Raider : Legacy of Atlantis – date de sortie, plateformes et nouveautés gameplay",

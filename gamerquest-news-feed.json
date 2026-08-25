@@ -1,7 +1,53 @@
 {
-  "generated_at": "2026-08-25T16:43:35.724862+00:00",
-  "count": 13,
+  "generated_at": "2026-08-25T18:46:54.765444+00:00",
+  "count": 14,
   "articles": [
+    {
+      "source_id": "de3ea57a9590847440a2fe642e696e58b7cf8d4e4d164b9cd0a954e6d73711cd",
+      "title": "Xbox “Heard You” : suppression des logos PS5 dans les trailers multiplateformes",
+      "excerpt": "Suite aux critiques du Summer Game Fest, Xbox a retiré les logos PS5 de ses bandes‑annonces, marquant un changement de stratégie dans sa communication.",
+      "content": "<p>À la suite des réactions négatives observées lors du Summer Game Fest, Xbox a officiellement arrêté d’afficher les logos PS5 dans les bandes‑annonces de jeux multiplateformes diffusées sur ses canaux officiels.</p>\n\n<h2>Contexte de la controverse</h2>\n<p>Lors du Summer Game Fest, des représentants de Microsoft ont indiqué que les trailers Xbox pourraient inclure les logos des plateformes concurrentes, dont la PlayStation 5, lorsqu’un titre était disponible sur ces consoles. Cette position a rapidement suscité des commentaires critiques sur les réseaux sociaux, certains utilisateurs estimant que Microsoft devait privilégier la promotion de ses propres plateformes.</p>\n\n<h2>Preuves de la suppression des logos PS5</h2>\n<p>Un trailer récent de <strong>Minecraft Dungeons</strong>, publié sur la chaîne officielle Xbox YouTube, ne mentionne que « Xbox Series X|S » et « PC ». Aucun logo ou texte relatif à la PS5 n’apparaît dans cette version.</p>\n<p>De même, le <strong>teaser du prochain jeu Fable</strong>, diffusé sur les comptes sociaux de Xbox, ne comporte aucune référence à une plateforme spécifique. Les versions de ces mêmes trailers publiées par des médias tiers continuent parfois d’inclure les logos PS5, ce qui montre la différence de traitement entre les canaux officiels Xbox et les sources externes.</p>\n\n<h2>Position officielle de Microsoft</h2>\n<p>Dans un communiqué publié sur <a href=\"https://news.xbox.com\">Xbox Wire</a>, Microsoft a précisé que les futures communications marketing mettront en avant les plateformes Xbox et PC, tout en indiquant les autres consoles uniquement dans les annonces propres à chaque plateforme. La société a reconnu que l’inclusion des logos PS5 dans les trailers Xbox était « une erreur de communication » et a indiqué qu’elle ajusterait sa stratégie à l’avenir.</p>\n\n<h2>Impact pour les joueurs</h2>\n<p>Pour les consommateurs, l’absence de logos PS5 dans les trailers Xbox signifie que la disponibilité d’un titre sur PlayStation devra être vérifiée via les annonces officielles du jeu ou les canaux de Sony. Cette approche pourrait réduire la visibilité immédiate des versions PlayStation lors des campagnes promotionnelles, mais elle reflète la volonté de Microsoft de concentrer son message sur ses propres écosystèmes.</p>\n\n<h2>Perspectives pour les prochains trailers</h2>\n<p>Microsoft semble adopter une ligne éditoriale plus stricte : les bandes‑annonces à venir mettront en avant les consoles Xbox Series X|S, Xbox Series S et le PC, tandis que les références aux plateformes concurrentes seront réservées aux communications spécifiques à ces dernières. La communauté continuera de suivre l’évolution de cette politique et de réagir aux éventuels ajustements.</p>",
+      "slug": "xbox-supprime-logos-ps5-trailers",
+      "category": "Actualités",
+      "tags": [
+        "Xbox",
+        "PS5",
+        "trailers",
+        "jeux multiplateformes",
+        "Minecraft Dungeons",
+        "Fable"
+      ],
+      "seo": {
+        "seo_title": "Xbox retire les logos PS5 de ses trailers multiplateformes – Analyse",
+        "meta_description": "Après les réactions du Summer Game Fest, Xbox a cessé d’inclure les logos PS5 dans les bandes‑annonces de jeux multiplateformes. Découvrez les faits, les preuves et les implications pour les joueurs.",
+        "primary_keyword": "Xbox PS5",
+        "secondary_keywords": [
+          "Xbox trailers",
+          "PS5 logos",
+          "jeux multiplateformes",
+          "Minecraft Dungeons",
+          "Fable teaser",
+          "Xbox Wire"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.pushsquare.com/news/2026/08/xbox-heard-you-purges-ps5-logos-from-multiformat-game-trailers",
+        "title": "Xbox 'Heard You', Purges PS5 Logos from Multiformat Game Trailers - Push Square",
+        "published_date": "Mon, 24 Aug 2026 16:00:00 GMT",
+        "domain": "pushsquare.com"
+      },
+      "official_source": null,
+      "created_at": "2026-08-25T18:46:53.850621+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/xbox-supprime-logos-ps5-trailers.jpg",
+        "filename": "xbox-supprime-logos-ps5-trailers.jpg",
+        "alt": "Xbox “Heard You” : suppression des logos PS5 dans les trailers multiplateformes - GamerQuest",
+        "caption": "Illustration de l'article « Xbox “Heard You” : suppression des logos PS5 dans les trailers multiplateformes ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://images.pushsquare.com/f105852e447bf/large.jpg"
+      }
+    },
     {
       "source_id": "d09cc3b998a57a2b29a6ce19e7b5fd998f58901944a4cd294f6eb5c2ea7b8a6d",
       "title": "Sony revoit la décision sur Horizon Hunters Gathering après les retours négatifs des joueurs",

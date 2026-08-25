@@ -1,7 +1,53 @@
 {
-  "generated_at": "2026-08-25T12:57:01.127190+00:00",
-  "count": 12,
+  "generated_at": "2026-08-25T16:43:35.724862+00:00",
+  "count": 13,
   "articles": [
+    {
+      "source_id": "d09cc3b998a57a2b29a6ce19e7b5fd998f58901944a4cd294f6eb5c2ea7b8a6d",
+      "title": "Sony revoit la décision sur Horizon Hunters Gathering après les retours négatifs des joueurs",
+      "excerpt": "Sony a demandé à Guerilla Games de transformer Horizon Hunters Gathering, initialement prévu comme service en ligne, en un jeu coopératif narratif suite aux critiques défavorables recueillies lors de plusieurs playtests, d’après Bloomberg.",
+      "content": "<p>Sony a demandé à Guerilla Games de revoir complètement <strong>Horizon Hunters Gathering</strong>. Le projet, initialement prévu comme un <em>live‑service</em> coopératif dans l’univers Horizon, sera désormais un jeu coopératif à scénario plus restreint, avec un nouveau jalon prévu pour décembre. Cette décision fait suite à des retours négatifs recueillis lors de trois sessions de playtests, selon un rapport de Bloomberg.</p>\n\n<h2>Quel était le concept initial de Horizon Hunters Gathering ?</h2>\n<p>Le jeu devait permettre à des équipes de joueurs d’incarner des héros animés et d’affronter des créatures mécaniques dans des missions d’action en ligne, avec un modèle de service continu destiné à recevoir du contenu additionnel au fil du temps.</p>\n\n<h2>Comment le projet a-t‑il été modifié ?</h2>\n<p>Après les playtests, Sony a demandé à l’équipe de recentrer le titre sur une expérience coopérative « classique », avec une histoire définie et une portée plus modeste, abandonnant le modèle de live‑service. Le nouveau plan prévoit un jalon de démonstration prévu pour décembre afin d’évaluer les progrès.</p>\n\n<h2>Le mode multijoueur sera‑t‑il conservé ?</h2>\n<p>Oui. Le titre conservera le mode coopératif, permettant à plusieurs joueurs de jouer ensemble. Les détails précis (nombre de joueurs, options en ligne ou locales) n’ont pas encore été communiqués.</p>\n\n<h2>Quelles sont les implications pour l’équipe de développement ?</h2>\n<p>Bloomberg indique que la plupart des développeurs initialement affectés à Horizon Hunters Gathering ont été réaffectés à d’autres projets, tandis qu’une petite équipe continue de travailler sur la version coopérative du jeu.</p>\n\n<h2>Prochaines étapes</h2>\n<p>Guerilla Games doit présenter un nouveau prototype à Sony d’ici décembre. Selon les retours de cette étape, le projet pourra être validé pour une production plus poussée.</p>",
+      "slug": "sony-horizon-hunters-gathering-feedback",
+      "category": "Actualités",
+      "tags": [
+        "Sony",
+        "Horizon",
+        "Guerilla Games",
+        "Live Service",
+        "Coopération"
+      ],
+      "seo": {
+        "seo_title": "Sony revoit Horizon Hunters Gathering : du live‑service à un jeu coopératif narratif",
+        "meta_description": "Sony a demandé à Guerilla Games de transformer Horizon Hunters Gathering, prévu comme live‑service, en un jeu coopératif à scénario limité après des retours négatifs lors de playtests, selon Bloomberg.",
+        "primary_keyword": "Horizon Hunters Gathering",
+        "secondary_keywords": [
+          "Sony",
+          "live service",
+          "jeu coopératif",
+          "feedback négatif",
+          "Guerilla Games",
+          "Horizon franchise",
+          "multijoueur"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.pcgamer.com/games/action/sony-reportedly-reverses-course-on-live-service-co-op-horizon-game-after-negative-player-feedback/",
+        "title": "Sony reportedly reverses course on live service co-op Horizon game after 'negative player feedback' - PC Gamer",
+        "published_date": "Wed, 19 Aug 2026 19:54:21 GMT",
+        "domain": "pcgamer.com"
+      },
+      "official_source": null,
+      "created_at": "2026-08-25T16:43:35.185328+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/sony-horizon-hunters-gathering-feedback.jpg",
+        "filename": "sony-horizon-hunters-gathering-feedback.jpg",
+        "alt": "Sony revoit la décision sur Horizon Hunters Gathering après les retours négatifs des joueurs - GamerQuest",
+        "caption": "Illustration de l'article « Sony revoit la décision sur Horizon Hunters Gathering après les retours négatifs des joueurs ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://cdn.mos.cms.futurecdn.net/RkCyjZrKmQaRqet4teYsYi-2560-80.jpg"
+      }
+    },
     {
       "source_id": "f6fe52078e0a1cda3f9cc25654d6e17de72d512c43c36c1f53757fae4e0eeb85",
       "title": "Xbox Game Pass août – Wave 2 : tout le lineup, dates et plateformes",

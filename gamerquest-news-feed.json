@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-08-25T18:46:54.765444+00:00",
-  "count": 14,
+  "generated_at": "2026-08-25T20:35:24.344921+00:00",
+  "count": 15,
   "articles": [
+    {
+      "source_id": "633b00450dac11f119af6467bc491f94d372096f543f7bd79521cef4a0957860",
+      "title": "Final Fantasy 7 Revelation : tout ce qu’on sait de la sortie après Gamescom 2026",
+      "excerpt": "La dernière annonce de Gamescom 2026 révèle que Final Fantasy 7 Revelation sortira au printemps 2027 sur Switch 2, PS5, PC et Xbox Series X, mais le prix et le gameplay restent inconnus.",
+      "content": "<article>\n  <p>Lors de la soirée d’ouverture de Gamescom 2026, Square Enix a présenté <strong>Final Fantasy 7 Revelation</strong>. Voici les informations essentielles qui répondent aux questions les plus fréquentes des joueurs.</p>\n\n  <h2>Quelle est la date de sortie de Final Fantasy 7 Revelation ?</h2>\n  <p>Le développeur a indiqué que le jeu sortira au <strong>printemps 2027</strong>. Aucun jour précis n’a été communiqué.</p>\n\n  <h2>Sur quelles plateformes sortira Final Fantasy 7 Revelation ?</h2>\n  <p>Le titre sera disponible simultanément sur les quatre consoles de nouvelle génération et PC, selon l’annonce officielle :</p>\n  <ul>\n    <li>Nintendo Switch 2</li>\n    <li>PlayStation 5</li>\n    <li>Windows PC</li>\n    <li>Xbox Series X</li>\n  </ul>\n\n  <h2>Quel sera le prix de Final Fantasy 7 Revelation ?</h2>\n  <p>Le prix du jeu n’a pas encore été annoncé par Square Enix.</p>\n\n  <h2>Que sait‑on du gameplay de Final Fantasy 7 Revelation ?</h2>\n  <p>Aucun détail concret sur le gameplay n’a été révélé lors de la diffusion du trailer. L’annonce s’est concentrée sur la date et les plateformes.</p>\n\n  <h2>Final Fantasy 7 Revelation proposera‑t‑il du multijoueur ?</h2>\n  <p>Jusqu’à présent, aucun mode multijoueur n’a été mentionné dans la présentation officielle.</p>\n</article>",
+      "slug": "final-fantasy-7-revelation-dates-sortie",
+      "category": "Actualités",
+      "tags": [
+        "Final Fantasy 7",
+        "Gamescom 2026",
+        "annonces jeux",
+        "sortie 2027",
+        "RPG"
+      ],
+      "seo": {
+        "seo_title": "Final Fantasy 7 Revelation : date de sortie, plateformes et infos clés après Gamescom 2026",
+        "meta_description": "Découvrez la date de sortie prévue au printemps 2027, les plateformes annoncées et les dernières informations officielles sur Final Fantasy 7 Revelation présentées à Gamescom 2026.",
+        "primary_keyword": "Final Fantasy 7 Revelation date de sortie",
+        "secondary_keywords": [
+          "Final Fantasy 7 Revelation plateformes",
+          "Final Fantasy 7 Revelation prix",
+          "Final Fantasy 7 Revelation gameplay",
+          "Final Fantasy 7 Revelation multijoueur",
+          "Gamescom 2026",
+          "annonce jeux vidéo"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.polygon.com/gamescom-2026-opening-night-live-all-news-announcements-trailers/",
+        "title": "Every Big Announcement from Gamescom Opening Night Live - Polygon.com",
+        "published_date": "Tue, 25 Aug 2026 20:07:28 GMT",
+        "domain": "polygon.com"
+      },
+      "official_source": null,
+      "created_at": "2026-08-25T20:35:23.426609+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/final-fantasy-7-revelation-dates-sortie.jpg",
+        "filename": "final-fantasy-7-revelation-dates-sortie.jpg",
+        "alt": "Final Fantasy 7 Revelation : tout ce qu’on sait de la sortie après Gamescom 2026 - GamerQuest",
+        "caption": "Illustration de l'article « Final Fantasy 7 Revelation : tout ce qu’on sait de la sortie après Gamescom 2026 ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/ss_271acc7cebd1faeaa848997e60eb8f5a92ff94fd-1920x1080.jpg?w=1600&h=900&fit=crop"
+      }
+    },
     {
       "source_id": "de3ea57a9590847440a2fe642e696e58b7cf8d4e4d164b9cd0a954e6d73711cd",
       "title": "Xbox “Heard You” : suppression des logos PS5 dans les trailers multiplateformes",

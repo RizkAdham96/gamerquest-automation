@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-08-26T06:58:40.777318+00:00",
-  "count": 20,
+  "generated_at": "2026-08-26T08:52:02.001940+00:00",
+  "count": 21,
   "articles": [
+    {
+      "source_id": "8af4c5307ca7f1a7d9417169b7299b4fc745fa80c3714a146096a9bcd6b5b15b",
+      "title": "Harvey Smith (co‑créateur de Dishonored) lance Black Pony Immersive, un studio dédié aux immersive sims",
+      "excerpt": "Harvey Smith, connu pour Dishonored et Deus Ex, annonce la création de Black Pony Immersive, un studio qui promet des RPG d’action à la première personne aux systèmes émergents.",
+      "content": "<article>\n  <p>Harvey Smith, ancien directeur d’Arkane Austin et co‑créateur de titres cultes comme <em>Dishonored</em>, a annoncé la création de <strong>Black Pony Immersive</strong>, son nouveau studio de développement. Le studio réunit des talents issus d’<em>Arkane</em>, <em>Insomniac</em>, <em>Epic</em>, <em>Avalanche</em> et <em>Volition</em>, avec pour mission de créer des RPG d’action à la première personne profondément immersifs.</p>\n\n  <h2>Qui est Harvey Smith et quel est son nouveau studio ?</h2>\n  <p>Harvey Smith a dirigé Arkane Austin et a travaillé sur <em>Deus Ex</em>, <em>Thief: Deadly Shadows</em> et la trilogie <em>Dishonored</em>. En partenariat avec le producteur exécutif Ben Horne, il lance <strong>Black Pony Immersive</strong>. Le nom du studio reflète son ambition de développer des expériences « immersives » au sens le plus complet du terme.</p>\n\n  <h2>Quel type de jeux vise Black Pony Immersive ?</h2>\n  <p>Le studio se concentre sur des <strong>RPG d’action à la première personne</strong> dotés de mondes bien construits et de systèmes de jeu émergents. L’objectif affiché est de laisser les joueurs résoudre les défis de façon créative, en récompensant la curiosité et l’exploration, ce qui correspond à la définition classique des <em>immersive sims</em> (source : communiqué de presse Black Pony Immersive).</p>\n\n  <h2>Quelle est la composition de l’équipe de Black Pony Immersive ?</h2>\n  <p>Outre Harvey Smith et Ben Horne, l’équipe comprend le collaborateur de longue date de Smith, Ricardo Bare, ainsi que des développeurs provenant d’<em>Arkane</em>, <em>Insomniac</em>, <em>Epic</em>, <em>Avalanche</em> et <em>Volition</em>. Cette diversité promet une expertise variée dans la création de systèmes de jeu complexes et de mondes narratifs.</p>\n\n  <h2>Quelles références culturelles le studio invoque‑t‑il ?</h2>\n  <p>Le site officiel de Black Pony Immersive cite la phrase « Through the looking glass », une allusion directe à <em>Looking Glass Studios</em>, le pionnier des immersive sims qui a donné naissance à <em>Ultima Underworld</em>, <em>System Shock</em> et <em>Thief</em>. Cette référence indique clairement l’inspiration du nouveau studio.</p>\n\n  <h2>Quand peut‑on s’attendre aux premiers projets de Black Pony Immersive ?</h2>\n  <p>À ce jour, aucun titre n’a été officiellement annoncé et aucune date de sortie n’a été communiquée. Le studio vient tout juste d’être présenté, et les premiers détails sur les projets à venir restent à venir.</p>\n</article>",
+      "slug": "harvey-smith-black-pony-immersive",
+      "category": "Actualités",
+      "tags": [
+        "Harvey Smith",
+        "Black Pony Immersive",
+        "immersive sims",
+        "Arkane",
+        "Dishonored"
+      ],
+      "seo": {
+        "seo_title": "Harvey Smith lance Black Pony Immersive, le nouveau studio d’immersive sims",
+        "meta_description": "Harvey Smith, co‑créateur de Dishonored, annonce Black Pony Immersive, un studio dédié aux RPG d’action à la première personne et aux immersive sims. Découvrez son équipe et sa vision.",
+        "primary_keyword": "Black Pony Immersive",
+        "secondary_keywords": [
+          "Harvey Smith",
+          "nouveau studio de jeux",
+          "immersive sims",
+          "Arkane Austin",
+          "Dishonored",
+          "Deus Ex"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.pcgamer.com/gaming-industry/dishonored-co-creator-harvey-smith-launches-a-new-studio-and-it-literally-has-the-word-immersive-in-the-name/",
+        "title": "Dishonored co-creator Harvey Smith launches a new studio and it literally has the word 'Immersive' in the name - PC Gamer",
+        "published_date": "Wed, 19 Aug 2026 15:18:32 GMT",
+        "domain": "pcgamer.com"
+      },
+      "official_source": null,
+      "created_at": "2026-08-26T08:52:00.875602+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/harvey-smith-black-pony-immersive.jpg",
+        "filename": "harvey-smith-black-pony-immersive.jpg",
+        "alt": "Harvey Smith (co‑créateur de Dishonored) lance Black Pony Immersive, un studio dédié aux immersive sims - GamerQuest",
+        "caption": "Illustration de l'article « Harvey Smith (co‑créateur de Dishonored) lance Black Pony Immersive, un studio dédié aux immersive sims ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://cdn.mos.cms.futurecdn.net/NmxHVsZUHJXf4j7Vvmod63-1920-80.jpg"
+      }
+    },
     {
       "source_id": "955e8e5f4cec67930630c7008c582df8934b2a248a54f81324c30bf09b81ee58",
       "title": "Toutes les dates de sortie des jeux annoncés à Gamescom Opening Night Live 2026",

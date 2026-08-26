@@ -1,7 +1,55 @@
 {
-  "generated_at": "2026-08-26T01:41:40.176597+00:00",
-  "count": 17,
+  "generated_at": "2026-08-26T03:11:10.704327+00:00",
+  "count": 18,
   "articles": [
+    {
+      "source_id": "963b63906de3d97ae548832f8db367ef5f93ccaf1c93bfb69f632d502f6d7868",
+      "title": "Warlock (2027) : date de sortie, plateformes et aperçu du gameplay",
+      "excerpt": "Le trailer de Warlock dévoilé à Gamescom montre un jeu d’action à la troisième personne en solo, prévu pour 2027 sur PC, PS5 et Xbox Series X/S, développé par Invoke.",
+      "content": "<p>Le premier trailer officiel de <strong>Warlock</strong>, le nouveau jeu Dungeons &amp; Dragons présenté lors de l’ouverture de Gamescom, confirme une sortie prévue en <strong>2027</strong>. Le titre sera disponible sur <strong>PC, PlayStation 5 et Xbox Series X/S</strong> et propose un gameplay d’action à la troisième personne centré sur le mode solo.</p>\n\n<h2>Quelle est la date de sortie de Warlock ?</h2>\n<p>Warlock est annoncé pour l'année <strong>2027</strong>. Aucun jour ou mois précis n’a encore été communiqué.</p>\n\n<h2>Sur quelles plateformes sortira Warlock ?</h2>\n<p>Le jeu sera publié sur les trois plateformes majeures de la génération actuelle :</p>\n<ul>\n  <li>PC</li>\n  <li>PlayStation 5</li>\n  <li>Xbox Series X/S</li>\n</ul>\n\n<h2>Que sait-on du gameplay de Warlock ?</h2>\n<p>Le trailer montre un <strong>jeu d’action à la troisième personne</strong> entièrement en <strong>solo</strong>. Le personnage principal, une Warlock, utilise des capacités typiques de la classe D&D : téléportation, création de leurres, invocation de sorts météorologiques (pluie) et attaques de foudre amplifiées par les conditions climatiques. Le gameplay apparaît fluide et spectaculaire, avec des combats rapides, des déplacements verticaux et des références visuelles aux sorts de Dungeons &amp; Dragons.</p>\n\n<h2>Warlock proposera-t-il du multijoueur ?</h2>\n<p>À ce stade, aucune information ne mentionne de mode multijoueur. Le trailer et les déclarations officielles indiquent que le jeu se concentrera sur une expérience <strong>single‑player</strong>.</p>",
+      "slug": "warlock-date-de-sortie",
+      "category": "Actualités",
+      "tags": [
+        "Warlock",
+        "Dungeons & Dragons",
+        "Trailer",
+        "Action",
+        "PC",
+        "PS5",
+        "Xbox Series X/S"
+      ],
+      "seo": {
+        "seo_title": "Warlock (2027) : date de sortie, plateformes et gameplay",
+        "meta_description": "Découvrez la date de sortie 2027 de Warlock, les plateformes PC, PS5 et Xbox Series X/S, ainsi qu’un aperçu du gameplay présenté dans le trailer de Gamescom.",
+        "primary_keyword": "Warlock date de sortie",
+        "secondary_keywords": [
+          "Warlock plateformes",
+          "Warlock gameplay",
+          "Warlock Dungeons & Dragons",
+          "Warlock trailer",
+          "Warlock 2027",
+          "Warlock single-player",
+          "Warlock Invoke"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.eurogamer.net/dungeons-dragons-game-warlock-gets-a-first-proper-trailer-showing-single-player-action-gameplay",
+        "title": "Dungeons & Dragons game Warlock gets a first proper trailer, showing single-player action gameplay - Eurogamer.net",
+        "published_date": "Tue, 25 Aug 2026 19:00:54 GMT",
+        "domain": "eurogamer.net"
+      },
+      "official_source": null,
+      "created_at": "2026-08-26T03:11:10.379577+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/warlock-date-de-sortie.jpg",
+        "filename": "warlock-date-de-sortie.jpg",
+        "alt": "Warlock (2027) : date de sortie, plateformes et aperçu du gameplay - GamerQuest",
+        "caption": "Illustration de l'article « Warlock (2027) : date de sortie, plateformes et aperçu du gameplay ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://assetsio.gnwcdn.com/warlock-onl-trailer.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
+      }
+    },
     {
       "source_id": "66a76618fca7b0da668ca1ba9fa7f78a788e189415fa7bb923710363ad8e4553",
       "title": "Exodus : date de sortie, plateformes et aperçu du gameplay",

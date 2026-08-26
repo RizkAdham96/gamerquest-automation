@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-08-26T16:51:43.460906+00:00",
-  "count": 25,
+  "generated_at": "2026-08-26T19:53:42.937556+00:00",
+  "count": 26,
   "articles": [
+    {
+      "source_id": "d28de6512bcb183ce1a30d20ddf1db2e4262a66f3d094856948cc4537784d574",
+      "title": "Exodus : la date de sortie officielle, les plateformes et le gameplay dévoilés à la Gamescom 2026",
+      "excerpt": "Exodus, le futur RPG d’action spatial présenté comme le successeur de Mass Effect, sortira le 7 avril 2027 sur PS5, Xbox Series X et PC. Découvrez les premières informations sur son univers et son gameplay.",
+      "content": "<article>\n  <p>Exodus, le nouveau RPG d’action spatial présenté comme le successeur de <em>Mass Effect</em>, a reçu une date de sortie officielle : le <strong>7 avril 2027</strong>. Le jeu sera disponible sur <strong>PlayStation 5, Xbox Series X et PC Windows</strong>, comme l’a annoncé Archetype Entertainment lors de la soirée d’ouverture de la Gamescom 2026.</p>\n\n  <h2>Quelle est la date de sortie d’Exodus ?</h2>\n  <p>Le développeur Archetype Entertainment a confirmé que <strong>Exodus sortira le 7 avril 2027</strong>. L’annonce a été faite dans un trailer émotionnel diffusé pendant l’Opening Night Live de la Gamescom 2026.</p>\n\n  <h2>Sur quelles plateformes sortira Exodus ?</h2>\n  <p>Exodus sera lancé simultanément sur les trois plateformes suivantes :</p>\n  <ul>\n    <li>PlayStation 5</li>\n    <li>Xbox Series X</li>\n    <li>PC (Windows)</li>\n  </ul>\n\n  <h2>Que sait‑on du gameplay d’Exodus ?</h2>\n  <p>Exodus se veut un <strong>RPG d’action à la troisième personne</strong> ancré dans un univers de science‑fiction. L’histoire se déroule 40 000 ans dans le futur, après que l’humanité a quitté une Terre mourante pour coloniser un groupe de systèmes stellaires habitables. Le jeu met en avant :</p>\n  <ul>\n    <li>Un système de narration à embranchements, influencé par les choix du joueur.</li>\n    <li>Un groupe de cinq membres de combat confirmés, dont <em>Salt</em>, une pieuvre augmentée capable de sniper et de créer des écrans de fumée.</li>\n    <li>Des mécaniques liées à la dilatation temporelle, qui affectent le déroulement de l’histoire et les environnements.</li>\n    <li>Des combats mêlant tir de précision, capacités technologiques et coopération entre les membres du groupe.</li>\n  </ul>\n  <p>Le trailer présenté à la Gamescom a notamment mis en avant le personnage de Salt, équipé d’une combinaison mécanique autour d’un aquarium portable, illustrant le mélange d’action et de narration que le jeu promet.</p>\n</article>",
+      "slug": "exodus-date-de-sortie-2027",
+      "category": "Actualités",
+      "tags": [
+        "Exodus",
+        "Archetype Entertainment",
+        "Gamescom 2026",
+        "RPG",
+        "PS5",
+        "Xbox Series X"
+      ],
+      "seo": {
+        "seo_title": "Exodus : date de sortie, plateformes et gameplay dévoilés à la Gamescom 2026",
+        "meta_description": "Découvrez la date officielle d’Exodus (7 avril 2027), les plateformes (PS5, Xbox Series X, PC) et les premiers éléments de gameplay révélés à la Gamescom 2026.",
+        "primary_keyword": "Exodus date de sortie",
+        "secondary_keywords": [
+          "Exodus plateforme",
+          "Exodus gameplay",
+          "Exodus PS5",
+          "Exodus Xbox Series X",
+          "Exodus PC",
+          "Exodus Gamescom 2026",
+          "RPG spatial"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.polygon.com/exodus-release-date-reveal-gamescom-2026/",
+        "title": "'Mass Effect' Replacement 'Exodus' Finally Gets A Release Date - Polygon.com",
+        "published_date": "Tue, 25 Aug 2026 18:53:27 GMT",
+        "domain": "polygon.com"
+      },
+      "official_source": null,
+      "created_at": "2026-08-26T19:53:41.701655+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/exodus-date-de-sortie-2027.jpg",
+        "filename": "exodus-date-de-sortie-2027.jpg",
+        "alt": "Exodus : la date de sortie officielle, les plateformes et le gameplay dévoilés à la Gamescom 2026 - GamerQuest",
+        "caption": "Illustration de l'article « Exodus : la date de sortie officielle, les plateformes et le gameplay dévoilés à la Gamescom 2026 ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/exodus-jun-salt.jpg?w=1600&h=900&fit=crop"
+      }
+    },
     {
       "source_id": "633731342f2e382de1b84e13fcf8fa9767d81675fe5b35e81618a497d4dd205c",
       "title": "Gamescom 2026 : quatre nouvelles annonces Xbox Game Pass",

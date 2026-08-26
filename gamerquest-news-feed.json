@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-08-26T19:53:42.937556+00:00",
-  "count": 26,
+  "generated_at": "2026-08-26T23:10:33.131688+00:00",
+  "count": 27,
   "articles": [
+    {
+      "source_id": "26fb5d686f1e0be2c504f4db8d8e8b25427a96ab60c3e4f659ba4305ba5ce1a2",
+      "title": "Warlock (D&D) : tout ce que l’on sait sur la date de sortie, les plateformes et le gameplay",
+      "excerpt": "Le trailer de Warlock, le prochain jeu D&D d’Invoke Studios, a été dévoilé à la Gamescom 2026. Sortie prévue en 2027 sur PS5, Xbox Series X et PC, il promet un gameplay d’action‑aventure sombre en solo.",
+      "content": "<p>Le trailer de <strong>Warlock</strong>, le nouveau titre Dungeons & Dragons développé par Invoke Studios, a été présenté lors de l'<em>Opening Night Live</em> de la Gamescom 2026. Voici les informations essentielles concernant sa date de sortie, ses plateformes et son gameplay.</p>\n\n<h2>Quelle est la date de sortie de Warlock ?</h2>\n<p>Les créateurs ont confirmé que <strong>Warlock sortira en 2027</strong>. Aucun jour ou mois précis n’a encore été annoncé.</p>\n\n<h2>Sur quelles plateformes Warlock sera‑t‑il disponible ?</h2>\n<p>Le jeu sera publié sur les consoles de nouvelle génération ainsi que sur PC :</p>\n<ul>\n  <li>PlayStation 5</li>\n  <li>Xbox Series X</li>\n  <li>Windows PC</li>\n</ul>\n\n<h2>À quoi ressemble le gameplay de Warlock ?</h2>\n<p>Warlock est présenté comme un <strong>action‑aventure à la troisième personne en solo</strong>, se déroulant dans un monde ouvert sombre inspiré de l’univers D&D. Le protagoniste, Kaatri, est une guerrière vétéran qui conclut un pacte pour manier une magie surnaturelle contre des forces obscures. Le personnage est doublé par Tricia Helfer (connue pour <em>Battlestar Galactica</em>).</p>\n<p>Le trailer de huit minutes montre des combats dynamiques, des environnements variés et une ambiance que Polygon a comparée à <em>God of War</em> et <em>Dark Souls</em>. Invoke Studios a indiqué que le jeu se concentrera sur une classe unique et une histoire originale, sans mode multijoueur prévu pour le moment.</p>\n\n<h2>Warlock proposera‑t‑il du multijoueur ?</h2>\n<p>À ce jour, aucune information officielle n’a été communiquée concernant un mode multijoueur ou coopératif. Le projet semble se concentrer exclusivement sur une expérience solo.</p>",
+      "slug": "warlock-date-de-sortie",
+      "category": "Actualités",
+      "tags": [
+        "Dungeons & Dragons",
+        "Warlock",
+        "Jeux vidéo",
+        "Jeux AAA",
+        "Action‑aventure"
+      ],
+      "seo": {
+        "seo_title": "Warlock date de sortie 2027 – plateformes PS5, Xbox Series X et PC, gameplay dévoilé",
+        "meta_description": "Découvrez la date de sortie 2027 de Warlock, le nouveau jeu D&D d’Invoke Studios, ses plateformes (PS5, Xbox Series X, PC) et le gameplay présenté à la Gamescom 2026.",
+        "primary_keyword": "Warlock date de sortie",
+        "secondary_keywords": [
+          "Warlock plateformes",
+          "Warlock gameplay",
+          "Dungeons & Dragons Warlock",
+          "Warlock PS5",
+          "Warlock Xbox Series X",
+          "Warlock multijoueur"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.polygon.com/warlock-dungeons-dragons-dnd-gameplay-reveal-trailer-gamescom/",
+        "title": "Dungeons & Dragons' Big Gamble Warlock Re-emerges in First Gameplay Trailer - Polygon.com",
+        "published_date": "Tue, 25 Aug 2026 18:59:48 GMT",
+        "domain": "polygon.com"
+      },
+      "official_source": null,
+      "created_at": "2026-08-26T23:10:32.432954+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/warlock-date-de-sortie.jpg",
+        "filename": "warlock-date-de-sortie.jpg",
+        "alt": "Warlock (D&D) : tout ce que l’on sait sur la date de sortie, les plateformes et le gameplay - GamerQuest",
+        "caption": "Illustration de l'article « Warlock (D&D) : tout ce que l’on sait sur la date de sortie, les plateformes et le gameplay ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/warlock-teaser-trailer-1-10-screenshot-1.jpg?w=1600&h=900&fit=crop"
+      }
+    },
     {
       "source_id": "d28de6512bcb183ce1a30d20ddf1db2e4262a66f3d094856948cc4537784d574",
       "title": "Exodus : la date de sortie officielle, les plateformes et le gameplay dévoilés à la Gamescom 2026",

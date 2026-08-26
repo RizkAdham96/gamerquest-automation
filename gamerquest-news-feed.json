@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-08-25T22:33:13.706450+00:00",
-  "count": 16,
+  "generated_at": "2026-08-26T01:41:40.176597+00:00",
+  "count": 17,
   "articles": [
+    {
+      "source_id": "66a76618fca7b0da668ca1ba9fa7f78a788e189415fa7bb923710363ad8e4553",
+      "title": "Exodus : date de sortie, plateformes et aperçu du gameplay",
+      "excerpt": "Exodus, le RPG sci‑fi signé Archetype Entertainment, sortira le 7 avril 2027 sur PC, PS5 et Xbox Series X/S. Le jeu propose un compagnon octopus en armure et un système de dilatation temporelle inédit.",
+      "content": "<article>\n  <p>Le RPG de science‑fiction <strong>Exodus</strong> a reçu une date de sortie officielle : le <strong>7 avril 2027</strong>. L’annonce a été faite lors du <em>Gamescom Opening Night Live</em>, où le trailer a présenté le compagnon secondaire <strong>Salt</strong>, un octopus « éveillé » pilotant une armure de mécha.</p>\n\n  <h2>Quelle est la date de sortie d’Exodus ?</h2>\n  <p>Exodus sortira le <strong>7 avril 2027</strong>, selon l’annonce officielle présentée à Gamescom.</p>\n\n  <h2>Sur quelles plateformes le jeu sera‑t‑il disponible ?</h2>\n  <p>Le jeu sera commercialisé sur les plateformes suivantes :</p>\n  <ul>\n    <li>PC – via <strong>Steam</strong> et <strong>Epic Games Store</strong></li>\n    <li>PlayStation 5</li>\n    <li>Xbox Series X/S</li>\n  </ul>\n\n  <h2>Quelles sont les principales caractéristiques du gameplay ?</h2>\n  <p>Exodus se positionne comme un RPG d’action inspiré de <em>Mass Effect</em>, développé par <strong>Archetype Entertainment</strong>, le studio de Wizards of the Coast composé d’anciens de BioWare, dont le scénariste <em>Mass Effect</em> Drew Karpyshyn. Les éléments de gameplay annoncés sont :</p>\n  <ul>\n    <li>Un système de <strong>dilatation temporelle</strong> permettant de « fast‑forward » les décisions majeures et d’observer leurs conséquences à long terme.</li>\n    <li>Les <strong>missions “Exodus”</strong>, des quêtes longue distance où le joueur voyage à proximité de la vitesse de la lumière, modifiant la perception du temps entre le protagoniste et les personnages restés sur place.</li>\n    <li>Un compagnon unique, <strong>Salt</strong>, un octopus « éveillé » pilotant une armure de mécha, offrant des possibilités d’attaque originales.</li>\n    <li>Des éléments classiques du sous‑genre : romances, choix moraux (avec un système distinct de Paragon/Renegade) et pouvoirs spéciaux.</li>\n  </ul>\n\n  <p>Les développeurs ont indiqué qu’ils présenteront davantage de détails lors des prochains jours de Gamescom. Restez à l’affût des nouveaux trailers et interviews.</p>\n</article>",
+      "slug": "exodus-date-de-sortie-plateformes-gameplay",
+      "category": "Actualités",
+      "tags": [
+        "Exodus",
+        "Archetype Entertainment",
+        "Mass Effect",
+        "RPG sci‑fi",
+        "Gamescom 2027"
+      ],
+      "seo": {
+        "seo_title": "Exodus : date de sortie, plateformes et gameplay – tout ce qu’on sait",
+        "meta_description": "Découvrez la date de sortie officielle d’Exodus (7 avril 2027), les plateformes prévues (PC, PS5, Xbox Series X/S) et les premières informations sur son gameplay, dont le compagnon octopus et le système de dilatation temporelle.",
+        "primary_keyword": "date de sortie Exodus",
+        "secondary_keywords": [
+          "Exodus plateforme",
+          "Exodus gameplay",
+          "Exodus 2027",
+          "Exodus Mass Effect",
+          "Exodus octopus",
+          "Archetype Entertainment"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.eurogamer.net/exodus-release-date-mass-effect",
+        "title": "Mass Effect-like Exodus gets a release date, while showcasing an octopus companion in a mech suit - Eurogamer.net",
+        "published_date": "Tue, 25 Aug 2026 18:45:40 GMT",
+        "domain": "eurogamer.net"
+      },
+      "official_source": null,
+      "created_at": "2026-08-26T01:41:39.546684+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/exodus-date-de-sortie-plateformes-gameplay.jpg",
+        "filename": "exodus-date-de-sortie-plateformes-gameplay.jpg",
+        "alt": "Exodus : date de sortie, plateformes et aperçu du gameplay - GamerQuest",
+        "caption": "Illustration de l'article « Exodus : date de sortie, plateformes et aperçu du gameplay ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://assetsio.gnwcdn.com/image-(17)_jzdiF8s.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
+      }
+    },
     {
       "source_id": "02b34b6b42ffc3b14087e49e7d28bf6f190fe9e7f9b79c424b446c675603d858",
       "title": "Witcher 3 Remaster : date, plateformes, prix et premières infos sur l’extension Songs of the Past",

@@ -1,7 +1,55 @@
 {
-  "generated_at": "2026-08-26T14:50:18.694195+00:00",
-  "count": 24,
+  "generated_at": "2026-08-26T16:51:43.460906+00:00",
+  "count": 25,
   "articles": [
+    {
+      "source_id": "633731342f2e382de1b84e13fcf8fa9767d81675fe5b35e81618a497d4dd205c",
+      "title": "Gamescom 2026 : quatre nouvelles annonces Xbox Game Pass",
+      "excerpt": "Gamescom Opening Night Live 2026 a présenté quatre titres Xbox Game Pass – Gears of War E‑Day, Valor Mortis, There Are No Ghosts At The Grand et le coopératif Gravhounds – voici ce qu’on sait.",
+      "content": "<p>Le Opening Night Live de Gamescom 2026 a présenté quatre nouvelles annonces pour le service <strong>Xbox Game Pass</strong> : le trailer de <strong>Gears of War E‑Day</strong>, un aperçu de <strong>Valor Mortis</strong>, les informations de sortie de <strong>There Are No Ghosts At The Grand</strong> et la confirmation de <strong>Gravhounds</strong> en accès anticipé.</p>\n\n<h2>Quelles sont les annonces Xbox Game Pass présentées ?</h2>\n<ul>\n  <li><strong>Gears of War E‑Day</strong> : trailer officiel du 6 octobre 2026. Le film montre le premier regard sur le leader Locust, Kalona, et introduit une campagne se déroulant quatorze ans avant le premier <em>Gears of War</em>, avec Marcus Fenix et Dominic Santiago.</li>\n  <li><strong>Valor Mortis</strong> : aperçu étendu présenté lors de l’événement, sans détails supplémentaires sur le gameplay.</li>\n  <li><strong>There Are No Ghosts At The Grand</strong> : annonce de la date de sortie, aucune information de gameplay fournie.</li>\n  <li><strong>Gravhounds</strong> : jeu d’action coopératif 1‑4 joueurs en accès anticipé prévu pour 2026. Les joueurs explorent des planètes hostiles, construisent et défendent une base grâce à une physique dynamique, puis extraient le butin avant d’être menacés par des extraterrestres.</li>\n</ul>\n\n<h2>Disponibilité via Xbox Game Pass</h2>\n<p>Tous les titres annoncés seront disponibles via le service <strong>Xbox Game Pass</strong>. Les détails précis concernant les plateformes (consoles ou PC) seront communiqués par Microsoft au moment du lancement.</p>\n\n<h2>Multijoueur et coopération</h2>\n<p>Seul <strong>Gravhounds</strong> mentionne explicitement un mode coopératif pour 1 à 4 joueurs. Les autres titres n’ont pas encore révélé d’informations sur le multijoueur et sont présentés principalement comme des expériences solo (Gears of War E‑Day) ou restent à confirmer (Valor Mortis, There Are No Ghosts At The Grand).</p>",
+      "slug": "annonces-xbox-game-pass-gamescom-2026",
+      "category": "Actualités",
+      "tags": [
+        "Gamescom 2026",
+        "Xbox Game Pass",
+        "Gears of War",
+        "Gravhounds",
+        "Valor Mortis"
+      ],
+      "seo": {
+        "seo_title": "Gamescom 2026 : annonces Xbox Game Pass – Gears of War E‑Day, Valor Mortis, There Are No Ghosts & Gravhounds",
+        "meta_description": "Découvrez les quatre annonces Xbox Game Pass présentées à Gamescom Opening Night Live 2026 : le trailer de Gears of War E‑Day, un aperçu de Valor Mortis, les détails de There Are No Ghosts At The Grand et le co‑op Gravhounds.",
+        "primary_keyword": "annonces Xbox Game Pass Gamescom 2026",
+        "secondary_keywords": [
+          "Gears of War E-Day",
+          "Valor Mortis",
+          "There Are No Ghosts At The Grand",
+          "Gravhounds",
+          "trailer Gamescom 2026",
+          "Xbox Game Pass nouveautés"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.purexbox.com/news/2026/08/four-xbox-game-pass-titles-get-new-reveals-at-gamescom-opening-night-live-2026",
+        "title": "Four Xbox Game Pass Titles Get New Reveals At Gamescom Opening Night Live 2026 - Pure Xbox",
+        "published_date": "Tue, 25 Aug 2026 20:34:00 GMT",
+        "domain": "purexbox.com"
+      },
+      "official_source": {
+        "title": "Four Xbox Game Pass Titles Get New Reveals At Gamescom Opening Night Live 2026 - Pure Xbox",
+        "url": "https://www.purexbox.com/news/2026/08/four-xbox-game-pass-titles-get-new-reveals-at-gamescom-opening-night-live-2026"
+      },
+      "created_at": "2026-08-26T16:51:42.662020+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/annonces-xbox-game-pass-gamescom-2026.jpg",
+        "filename": "annonces-xbox-game-pass-gamescom-2026.jpg",
+        "alt": "Gamescom 2026 : quatre nouvelles annonces Xbox Game Pass - GamerQuest",
+        "caption": "Illustration de l'article « Gamescom 2026 : quatre nouvelles annonces Xbox Game Pass ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://images.purexbox.com/e4dd0415064db/large.jpg"
+      }
+    },
     {
       "source_id": "7e8b15a42bef56902aae010f1665f2caac5b901505ecbf5466cf9eecc39ad506",
       "title": "FromSoftware rassure les fans : de nouveaux jeux solo en préparation",

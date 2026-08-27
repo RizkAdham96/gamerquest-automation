@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-08-27T08:36:04.725008+00:00",
-  "count": 30,
+  "generated_at": "2026-08-27T16:30:26.272438+00:00",
+  "count": 31,
   "articles": [
+    {
+      "source_id": "85daf586fb8d8e44e7812e2240f48427cb420b250ef76a78ebe6942cf8e90c50",
+      "title": "Fable 2026 : date de sortie, plateformes et aperçu du gameplay",
+      "excerpt": "À la gamescom 2026, Fable a été présenté avec un gameplay riche et décalé, mais aucune date officielle n’a été annoncée ; les rumeurs évoquent même un report en 2027.",
+      "content": "<article>\n<p>Lors de la <a href=\"https://gamerquestfr.com/final-fantasy-7-revelation-dates-sortie/\">gamescom 2026</a>, les développeurs ont présenté le nouveau <strong><a href=\"https://gamerquestfr.com/gamescom-2026-7-jeux-attendus/\">Fable</a></strong>. Le jeu a suscité l’enthousiasme grâce à son univers loufoque, mais aucune date officielle de sortie n’a été confirmée. Certaines vidéos publiées après l’événement évoquent même un possible report à 2027, sans confirmation de la part de Microsoft ou des studios.</p>\n<h2>Quelle est la date de sortie de Fable ?</h2>\n<p>À ce jour, aucune date précise n’a été annoncée par Microsoft ou les studios impliqués. Un clip diffusé après la gamescom mentionne la possibilité d’un lancement en 2027, mais il s’agit pour l’instant d’une rumeur non confirmée.</p>\n<h2>Sur quelles plateformes sortira Fable ?</h2>\n<p>Le jeu a été présenté lors de plusieurs événements Xbox (Gamescom, Xbox Summer Showcase, Xbox Developer Direct). Il est donc prévu pour les consoles Xbox de nouvelle génération (Xbox Series X|S). Aucun autre support n’a été mentionné dans les sources disponibles.</p>\n<h2>Que sait‑on du gameplay de Fable ?</h2>\n<p>Les premières images, diffusées dans les vidéos officielles d’IGN et d’Xbox, montrent un univers riche et humoristique :</p>\n<ul>\n<li>Des poulets zombies à rôtir et des héros usés à affronter (vidéo « New Fable Combat And Bounty System Gameplay »).</li>\n<li>Un système de combat et de primes renouvelé (vidéo officielle).</li>\n<li>Plus de 1 000 PNJ soigneusement conçus, offrant une variété d’inter<a href=\"https://gamerquestfr.com/warlock-date-de-sortie/\">action</a>s (vidéo « Fable has 1,000 Handcrafted NPC's »).</li>\n<li>Des choix narratifs, comme décider du sort d’un cochon parlant (« Let Me Choose Whether a Talking Pig Should Live or Become Lunch »).</li>\n<li>Des séquences de type « office‑style cutaways » intégrées dans le jeu complet (vidéo « Fable Will Have The Office-Style Cutaways In The Full Game »).</li>\n<li>Des mécaniques de morphing plus complexes, expliquées par le créateur Peter Molyneux (« Fable Creator Peter Molyneux Explains Why It's Harder To Do The Morphing In Today's World »).</li>\n</ul>\n<p>Ces éléments laissent entrevoir un RPG d’action mêlant humour, liberté de décision et un monde vivant, fidèle à l’esprit de la série.</p>\n</article>",
+      "slug": "fable-date-de-sortie-plateformes-gameplay",
+      "category": "Actualités",
+      "tags": [
+        "Fable",
+        "Xbox",
+        "gamescom 2026",
+        "RPG",
+        "sortie"
+      ],
+      "seo": {
+        "seo_title": "Fable 2026 : date de sortie, plateformes et aperçu du gameplay",
+        "meta_description": "Tout ce que l’on sait sur Fable présenté à la gamescom 2026 : date de sortie incertaine, exclusivité Xbox et premières impressions du gameplay.",
+        "primary_keyword": "date de sortie Fable",
+        "secondary_keywords": [
+          "Fable gameplay",
+          "Fable plateformes",
+          "Fable gamescom 2026",
+          "Fable Xbox",
+          "Fable date de sortie 2027",
+          "Fable actualité"
+        ],
+        "search_intent": "Informational"
+      },
+      "source": {
+        "url": "https://www.ign.com/videos/weve-finally-played-fable-its-fantastic-gamescom-2026",
+        "title": "We've Finally Played Fable - It's Fantastic! | gamescom 2026 - IGN",
+        "published_date": "Thu, 27 Aug 2026 11:44:54 GMT",
+        "domain": "ign.com"
+      },
+      "official_source": null,
+      "created_at": "2026-08-27T16:30:25.806753+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/fable-date-de-sortie-plateformes-gameplay.jpg",
+        "filename": "fable-date-de-sortie-plateformes-gameplay.jpg",
+        "alt": "Fable 2026 : date de sortie, plateformes et aperçu du gameplay - GamerQuest",
+        "caption": "Illustration de l'article « Fable 2026 : date de sortie, plateformes et aperçu du gameplay ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://assets-prd.ignimgs.com/2026/08/27/fable-oo-1787831062646.jpg?width=1280&format=jpg&auto=webp&quality=80"
+      }
+    },
     {
       "source_id": "7233a6c424b3fa9e3fc4b22e9fd927563130061c2880f6effa368bf0a7f4330f",
       "title": "Svetik – date de sortie, plateformes, gameplay et démo",

@@ -1,25 +1,18 @@
-name: GamerQuest Automation
+name: GamerQuest Deals Automation
 
 on:
   workflow_dispatch:
-
-  # Automatic news run every 2 hours.
-  # One Tavily search per run => about 360 scheduled searches/month.
-  # automation.py still enforces the hard 900/month safety cap.
-  schedule:
-    - cron: "7 */2 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: gamerquest-news
+  group: gamerquest-deals
   cancel-in-progress: false
 
 jobs:
-  create-draft:
+  deals:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
@@ -35,35 +28,51 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Test news image generator
+      - name: Run deals tests
         run: |
-          python -m pytest test_news_image_generator.py -v
+          python -m pytest \
+            deals/test_deals.py \
+            deals/test_steam.py \
+            deals/test_epic.py \
+            deals/test_aggregator.py \
+            deals/test_article_generator.py \
+            deals/test_image_generator.py \
+            -v
 
-      - name: Run GamerQuest automation
-        env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-          WP_URL: ${{ secrets.WP_URL }}
-          WP_USERNAME: ${{ secrets.WP_USERNAME }}
-          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+      - name: Scan real Steam deals
         run: |
-          python automation.py
+          python -m deals.run_steam
 
-      - name: Save drafts, rejections, state, feed and images
-        if: always()
+      - name: Scan CheapShark deals
         run: |
-          git config user.name "GamerQuest Bot"
+          python -m deals.run_cheapshark
+
+      - name: Scan Epic free games
+        run: |
+          python -m deals.run_epic
+
+      - name: Test combined GamerQuest pipeline
+        run: |
+          python -m deals.run_all
+
+      - name: Build WordPress deals feed
+        run: |
+          python -m deals.build_feed
+
+      - name: Save deals feed
+        run: |
+          git config user.name "GamerQuest Deals Bot"
           git config user.email "actions@github.com"
 
-          git add drafts/ rejected/ state/ gamerquest-news-feed.json 2>/dev/null || true
+          git add gamerquest-deals-feed.json
 
-          if [ -d "generated_news_images" ]; then
-            git add generated_news_images/
+          if [ -d "generated_images" ]; then
+            git add generated_images/
           fi
 
           if git diff --cached --quiet; then
-            echo "No new files or state changes to save."
+            echo "No feed or image changes to save."
           else
-            git commit -m "GamerQuest automatic news update"
+            git commit -m "Update GamerQuest deals feed and images"
             git push
           fi

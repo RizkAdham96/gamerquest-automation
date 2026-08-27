@@ -1,7 +1,53 @@
 {
-  "generated_at": "2026-08-27T07:39:21.925260+00:00",
-  "count": 29,
+  "generated_at": "2026-08-27T08:36:04.725008+00:00",
+  "count": 30,
   "articles": [
+    {
+      "source_id": "7233a6c424b3fa9e3fc4b22e9fd927563130061c2880f6effa368bf0a7f4330f",
+      "title": "Svetik – date de sortie, plateformes, gameplay et démo",
+      "excerpt": "Svetik, le RPG d’aventure 2D d’AEVI Studio, sort le 25 août sur PC (Steam). Découvrez son gameplay centré sur la lumière, la démo disponible et l’absence de multijoueur.",
+      "content": "<p>Le trailer officiel de <strong>Svetik</strong> annonce une sortie le <strong>25 août</strong> sur PC via Steam, avec une démo téléchargeable dès maintenant.</p>\n\n<h2>Quelle est la date de sortie de Svetik ?</h2>\n<p>Le trailer officiel indique que la sortie prévue de <em>Svetik</em> est le <strong>25 août</strong>. Aucun autre jour n’a été communiqué.</p>\n\n<h2>Sur quelles plateformes le jeu sera‑t‑il disponible ?</h2>\n<p>AEVI Studio a confirmé que le titre sera disponible uniquement sur <strong>PC (Steam)</strong> à la date annoncée. Aucune version console n’a été mentionnée.</p>\n\n<h2>Quel sera le prix de Svetik ?</h2>\n<p>À ce jour, le studio n’a pas communiqué de prix officiel. Les informations tarifaires seront probablement révélées plus près de la sortie.</p>\n\n<h2>À quoi ressemble le gameplay ?</h2>\n<p><em>Svetik</em> est un <strong>aventure‑RPG 2D top‑down</strong> à l’atmosphère sombre. Le joueur incarne une jeune fille amnésique accompagnée d’une étincelle de lumière vivante, qui sert d’arme. Le jeu mise sur la gestion de la confiance avec ce compagnon lumineux ; perdre cette confiance plonge le joueur dans une obscurité totale pendant les combats.</p>\n\n<h2>Le jeu proposera‑t‑il du multijoueur ?</h2>\n<p>Le trailer et les informations officielles ne font aucune mention d’un mode multijoueur. Le titre semble donc être une expérience <strong>solo</strong> uniquement.</p>",
+      "slug": "svetik-date-de-sortie",
+      "category": "Actualités",
+      "tags": [
+        "Svetik",
+        "AEVI Studio",
+        "RPG",
+        "aventure",
+        "indie"
+      ],
+      "seo": {
+        "seo_title": "Svetik – date de sortie, plateformes, gameplay et démo (25 août PC)",
+        "meta_description": "Découvrez la date de sortie de Svetik, le RPG d’aventure 2D d’AEVI Studio, prévu le 25 août sur PC (Steam) ainsi que les détails du gameplay et la démo disponible dès maintenant.",
+        "primary_keyword": "Svetik date de sortie",
+        "secondary_keywords": [
+          "Svetik PC",
+          "Svetik Steam",
+          "Svetik gameplay",
+          "Svetik démo",
+          "AEVI Studio",
+          "RPG aventure 2D",
+          "Svetik lumière"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.ign.com/videos/svetik-official-release-date-trailer",
+        "title": "Svetik - Official Release Date Trailer - IGN",
+        "published_date": "Sat, 22 Aug 2026 18:50:16 GMT",
+        "domain": "ign.com"
+      },
+      "official_source": null,
+      "created_at": "2026-08-27T08:36:03.678791+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/svetik-date-de-sortie.jpg",
+        "filename": "svetik-date-de-sortie.jpg",
+        "alt": "Svetik – date de sortie, plateformes, gameplay et démo - GamerQuest",
+        "caption": "Illustration de l'article « Svetik – date de sortie, plateformes, gameplay et démo ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://assets-prd.ignimgs.com/2026/08/22/svetick-vcms-1787424604604.jpg?width=1280&format=jpg&auto=webp&quality=80"
+      }
+    },
     {
       "source_id": "5a4fbfbfa0461d80bc7560da794e39e2efd180c1a5288296549bb38e79b840e8",
       "title": "Mythmon : Mythic Monsters – tout savoir sur la date de sortie, les plateformes et le gameplay",

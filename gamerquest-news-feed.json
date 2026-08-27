@@ -1,7 +1,53 @@
 {
-  "generated_at": "2026-08-27T07:32:10.584156+00:00",
-  "count": 28,
+  "generated_at": "2026-08-27T07:39:21.925260+00:00",
+  "count": 29,
   "articles": [
+    {
+      "source_id": "5a4fbfbfa0461d80bc7560da794e39e2efd180c1a5288296549bb38e79b840e8",
+      "title": "Mythmon : Mythic Monsters – tout savoir sur la date de sortie, les plateformes et le gameplay",
+      "excerpt": "Le nouveau hack‑and‑slash auto‑battler Mythmon : Mythic Monsters arrive le 7 septembre sur PC (Steam). Découvrez les bases du gameplay et les plateformes confirmées.",
+      "content": "<article>\n  <p>Mythmon : Mythic Monsters, le prochain titre de MachHabaneroGames, sortira officiellement le <strong>7 septembre</strong> sur PC via Steam. Voici les informations essentielles concernant la date de sortie, les plateformes et le gameplay.</p>\n\n  <h2>Quelle est la date de sortie de Mythmon : Mythic Monsters ?</h2>\n  <p>Le trailer officiel indique que le jeu sera disponible le <strong>7 septembre</strong>. Aucun autre jour ou fenêtre de lancement n’a été annoncé à ce jour.</p>\n\n  <h2>Sur quelles plateformes le jeu sera‑t‑il disponible ?</h2>\n  <p>La sortie est prévue exclusivement pour <strong>PC</strong>, distribuée via la plateforme <strong>Steam</strong>. Aucun autre support (console ou mobile) n’a été mentionné dans les annonces officielles.</p>\n\n  <h2>Quel type de gameplay propose Mythmon : Mythic Monsters ?</h2>\n  <p>Mythmon : Mythic Monsters se présente comme un <em>hack‑and‑slash auto‑battler</em> centré sur la capture et la maîtrise de créatures mythiques appelées « Mythmon ». Le joueur forme des escouades de ces monstres pour affronter les armées du Roi Démon. Chaque Mythmon possède des capacités élémentaires spécifiques, et le joueur doit les combiner stratégiquement pour prendre l’avantage. Les ennemis vaincus laissent du butin (équipement) qui peut être récupéré pour renforcer les Mythmon avant les combats suivants.</p>\n</article>",
+      "slug": "mythmon-mythic-monsters-date-sortie",
+      "category": "Actualités",
+      "tags": [
+        "Mythmon",
+        "Mythic Monsters",
+        "PC",
+        "Steam",
+        "hack‑and‑slash",
+        "auto‑battler"
+      ],
+      "seo": {
+        "seo_title": "Mythmon : Mythic Monsters – date de sortie, plateformes PC et aperçu du gameplay",
+        "meta_description": "Découvrez la date de sortie officielle de Mythmon : Mythic Monsters, les plateformes PC (Steam) et les bases du gameplay hack‑and‑slash auto‑battler.",
+        "primary_keyword": "Mythmon date de sortie",
+        "secondary_keywords": [
+          "Mythmon plateformes",
+          "Mythmon gameplay",
+          "Mythmon PC",
+          "Mythmon Steam",
+          "hack‑and‑slash",
+          "auto‑battler"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.ign.com/videos/mythmon-mythic-monsters-official-release-date-trailer",
+        "title": "Mythmon: Mythic Monsters - Official Release Date Trailer - IGN",
+        "published_date": "Sat, 22 Aug 2026 17:48:27 GMT",
+        "domain": "ign.com"
+      },
+      "official_source": null,
+      "created_at": "2026-08-27T07:39:21.253692+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/mythmon-mythic-monsters-date-sortie.jpg",
+        "filename": "mythmon-mythic-monsters-date-sortie.jpg",
+        "alt": "Mythmon : Mythic Monsters – tout savoir sur la date de sortie, les plateformes et le gameplay - GamerQuest",
+        "caption": "Illustration de l'article « Mythmon : Mythic Monsters – tout savoir sur la date de sortie, les plateformes et le gameplay ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://assets-prd.ignimgs.com/2026/08/22/mm-vcms-1787420752804.jpg?width=1280&format=jpg&auto=webp&quality=80"
+      }
+    },
     {
       "source_id": "f3ef2dbe3f90c227d96a04d22423796e8325f213e7caed715e44795fe7007eab",
       "title": "Point of No Return – date de sortie, plateformes PC et aperçu du gameplay",

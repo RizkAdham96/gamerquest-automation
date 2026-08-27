@@ -9,7 +9,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 from groq import Groq, RateLimitError
 from news_image_generator import generate_news_image
 
@@ -2570,6 +2570,307 @@ CONTENT:
     )
 
 
+
+# =========================================================
+# CONTEXTUAL INTERNAL LINKING
+# =========================================================
+
+MAX_CONTEXTUAL_INTERNAL_LINKS = 3
+
+
+def normalize_internal_link_phrase(text):
+    return re.sub(
+        r"\s+",
+        " ",
+        str(text or "").strip(),
+    )
+
+
+def existing_internal_link_candidates(article_data):
+    (
+        seo_title,
+        meta_description,
+        primary_keyword,
+        secondary_keywords,
+        search_intent,
+        suggested_slug,
+        title,
+        excerpt,
+        category,
+        tags,
+        content,
+    ) = article_data
+
+    feed = load_existing_news_feed()
+    existing_articles = feed.get("articles", [])
+
+    current_terms = set(
+        normalize_words(
+            " ".join([
+                title,
+                primary_keyword,
+                secondary_keywords,
+                tags,
+            ])
+        )
+    )
+
+    candidates = []
+
+    for article in existing_articles:
+        candidate_slug = str(article.get("slug", "")).strip()
+        candidate_title = str(article.get("title", "")).strip()
+
+        if (
+            not candidate_slug
+            or not candidate_title
+            or candidate_slug == suggested_slug
+        ):
+            continue
+
+        candidate_tags = article.get("tags", [])
+
+        if not isinstance(candidate_tags, list):
+            candidate_tags = []
+
+        candidate_seo = article.get("seo", {})
+        candidate_keyword = str(
+            candidate_seo.get("primary_keyword", "")
+        )
+
+        candidate_terms = set(
+            normalize_words(
+                " ".join([
+                    candidate_title,
+                    candidate_keyword,
+                    " ".join(candidate_tags),
+                ])
+            )
+        )
+
+        score = len(current_terms & candidate_terms)
+
+        if score <= 0:
+            continue
+
+        candidates.append({
+            "score": score,
+            "title": candidate_title,
+            "slug": candidate_slug,
+            "tags": candidate_tags,
+            "primary_keyword": candidate_keyword,
+        })
+
+    candidates.sort(
+        key=lambda item: item["score"],
+        reverse=True,
+    )
+
+    return candidates
+
+
+def candidate_anchor_phrases(candidate):
+    phrases = []
+
+    for tag in candidate.get("tags", []):
+        phrase = normalize_internal_link_phrase(tag)
+
+        if len(phrase) >= 5:
+            phrases.append(phrase)
+
+    keyword = normalize_internal_link_phrase(
+        candidate.get("primary_keyword", "")
+    )
+
+    if len(keyword) >= 5:
+        phrases.append(keyword)
+
+    title = normalize_internal_link_phrase(
+        candidate.get("title", "")
+    )
+
+    if len(title) >= 8:
+        phrases.append(title)
+
+    return sorted(
+        set(phrases),
+        key=len,
+        reverse=True,
+    )
+
+
+def insert_link_into_soup(
+    soup,
+    phrase,
+    url,
+):
+    pattern = re.compile(
+        re.escape(phrase),
+        flags=re.IGNORECASE,
+    )
+
+    forbidden_parents = {
+        "a",
+        "script",
+        "style",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+    }
+
+    for text_node in soup.find_all(string=True):
+        parent = text_node.parent
+
+        if (
+            not parent
+            or parent.name in forbidden_parents
+        ):
+            continue
+
+        text = str(text_node)
+        match = pattern.search(text)
+
+        if not match:
+            continue
+
+        before = text[:match.start()]
+        matched = text[match.start():match.end()]
+        after = text[match.end():]
+
+        replacement = []
+
+        if before:
+            replacement.append(
+                NavigableString(before)
+            )
+
+        link = soup.new_tag(
+            "a",
+            href=url,
+        )
+        link.string = matched
+        replacement.append(link)
+
+        if after:
+            replacement.append(
+                NavigableString(after)
+            )
+
+        text_node.replace_with(
+            *replacement
+        )
+
+        return True
+
+    return False
+
+
+def add_contextual_internal_links(
+    article_data,
+):
+    if not WP_URL:
+        print(
+            "Internal links skipped: "
+            "WP_URL is missing."
+        )
+        return article_data
+
+    (
+        seo_title,
+        meta_description,
+        primary_keyword,
+        secondary_keywords,
+        search_intent,
+        suggested_slug,
+        title,
+        excerpt,
+        category,
+        tags,
+        content,
+    ) = article_data
+
+    candidates = existing_internal_link_candidates(
+        article_data
+    )
+
+    if not candidates:
+        print(
+            "No relevant internal-link "
+            "candidates found."
+        )
+        return article_data
+
+    soup = BeautifulSoup(
+        content,
+        "html.parser",
+    )
+
+    links_added = 0
+    used_urls = set()
+
+    for candidate in candidates:
+        if links_added >= MAX_CONTEXTUAL_INTERNAL_LINKS:
+            break
+
+        target_url = (
+            f"{WP_URL}/"
+            f"{candidate['slug'].strip('/')}/"
+        )
+
+        if target_url in used_urls:
+            continue
+
+        for phrase in candidate_anchor_phrases(
+            candidate
+        ):
+            added = insert_link_into_soup(
+                soup,
+                phrase,
+                target_url,
+            )
+
+            if not added:
+                continue
+
+            used_urls.add(target_url)
+            links_added += 1
+
+            print(
+                "Internal link added: "
+                f"{phrase} -> {target_url}"
+            )
+            break
+
+    if links_added == 0:
+        print(
+            "No natural contextual "
+            "internal-link opportunities found."
+        )
+        return article_data
+
+    new_content = str(soup)
+
+    print(
+        f"Contextual internal links added: "
+        f"{links_added}"
+    )
+
+    return (
+        seo_title,
+        meta_description,
+        primary_keyword,
+        secondary_keywords,
+        search_intent,
+        suggested_slug,
+        title,
+        excerpt,
+        category,
+        tags,
+        new_content,
+    )
+
+
 # =========================================================
 # SAVE DRAFT
 # =========================================================
@@ -3298,14 +3599,22 @@ def main():
         )
     )
 
-    # 8. Save GitHub Markdown backup
+    # 8. Add safe contextual internal links.
+    #
+    # Uses existing GamerQuest feed entries only.
+    # No extra Tavily search and no extra Groq request.
+    article_data = add_contextual_internal_links(
+        article_data
+    )
+
+    # 9. Save GitHub Markdown backup
     save_draft(
         article_data,
         story,
         official_story,
     )
 
-    # 9. Save the corrected article into the GitHub news feed.
+    # 10. Save the corrected article into the GitHub news feed.
     #
     # WordPress will pull this feed internally.
     # We do not POST directly from GitHub Actions because

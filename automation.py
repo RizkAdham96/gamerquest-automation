@@ -2577,6 +2577,88 @@ CONTENT:
 
 MAX_CONTEXTUAL_INTERNAL_LINKS = 3
 
+# Generic gaming/search terms must never be enough by themselves
+# to justify a contextual internal link.
+INTERNAL_LINK_GENERIC_TERMS = {
+    "date",
+    "sortie",
+    "release",
+    "trailer",
+    "gameplay",
+    "steam",
+    "pc",
+    "ps5",
+    "ps4",
+    "xbox",
+    "switch",
+    "nintendo",
+    "playstation",
+    "plateforme",
+    "plateformes",
+    "console",
+    "consoles",
+    "jeu",
+    "jeux",
+    "gaming",
+    "video",
+    "vidéo",
+    "annonce",
+    "annonces",
+    "nouveau",
+    "nouveaux",
+    "nouvelle",
+    "nouvelles",
+    "mise",
+    "jour",
+    "update",
+    "dlc",
+}
+
+
+def specific_internal_link_terms(text):
+    return {
+        word
+        for word in normalize_words(text)
+        if word not in INTERNAL_LINK_GENERIC_TERMS
+    }
+
+
+def is_generic_anchor_phrase(phrase):
+    normalized = normalize_internal_link_phrase(
+        phrase
+    ).lower()
+
+    generic_phrases = {
+        "date de sortie",
+        "trailer",
+        "gameplay",
+        "steam",
+        "pc",
+        "ps5",
+        "ps4",
+        "xbox",
+        "switch",
+        "nintendo switch",
+        "nintendo switch 2",
+        "playstation",
+        "plateformes",
+        "plateforme",
+        "dlc",
+        "mise à jour",
+        "mise a jour",
+    }
+
+    if normalized in generic_phrases:
+        return True
+
+    words = set(
+        normalize_words(normalized)
+    )
+
+    return bool(words) and words.issubset(
+        INTERNAL_LINK_GENERIC_TERMS
+    )
+
 
 def normalize_internal_link_phrase(text):
     return re.sub(
@@ -2648,10 +2730,38 @@ def existing_internal_link_candidates(article_data):
             )
         )
 
-        score = len(current_terms & candidate_terms)
+        specific_current_terms = specific_internal_link_terms(
+            " ".join([
+                title,
+                primary_keyword,
+                secondary_keywords,
+                tags,
+            ])
+        )
 
-        if score <= 0:
+        specific_candidate_terms = specific_internal_link_terms(
+            " ".join([
+                candidate_title,
+                candidate_keyword,
+                " ".join(candidate_tags),
+            ])
+        )
+
+        specific_overlap = (
+            specific_current_terms
+            & specific_candidate_terms
+        )
+
+        # Generic words like "Steam", "trailer", "PS5",
+        # or "date de sortie" cannot create a match alone.
+        if not specific_overlap:
             continue
+
+        # Specific overlap is heavily weighted.
+        score = (
+            len(specific_overlap) * 10
+            + len(current_terms & candidate_terms)
+        )
 
         candidates.append({
             "score": score,
@@ -2824,6 +2934,9 @@ def add_contextual_internal_links(
         for phrase in candidate_anchor_phrases(
             candidate
         ):
+            if is_generic_anchor_phrase(phrase):
+                continue
+
             added = insert_link_into_soup(
                 soup,
                 phrase,

@@ -3,3 +3,33 @@
   "updated_at": null,
   "topics": []
 }
+{
+  "version": "1.0",
+  "updated_at": null,
+  "topics": [
+    {
+      "id": "example-topic-001",
+      "topic": "Example trending gaming topic",
+      "detected_at": "2026-08-28T12:00:00+02:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "reddit",
+          "url": "https://example.com/discussion",
+          "title": "Example discussion title",
+          "engagement": {
+            "upvotes": 0,
+            "comments": 0,
+            "views": 0
+          }
+        }
+      ],
+      "keywords": [
+        "example keyword",
+        "example gaming search"
+      ],
+      "notes": "Optional context about why this topic matters.",
+      "status": "new"
+    }
+  ]
+}

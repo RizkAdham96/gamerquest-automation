@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": null,
+  "updated_at": "2026-08-29T22:52:56.742934+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -44,5 +44,36 @@
       }
     }
   },
-  "topics": []
+  "topics": [
+    {
+      "id": "witcher3-remastered-gamescom-2026",
+      "topic": "The Witcher 3: Wild Hunt Remastered",
+      "detected_at": "2026-08-30T00:00:00+02:00",
+      "analysed_at": "2026-08-29T22:52:56.742907+00:00",
+      "scores": {
+        "trend_strength": 22,
+        "search_intent": 20,
+        "freshness": 18,
+        "french_relevance": 13,
+        "competition": 3,
+        "gamerquest_relevance": 5
+      },
+      "total_score": 81,
+      "decision": "WRITE",
+      "seo": {
+        "primary_keyword": "The Witcher 3 Remastered",
+        "secondary_keywords": [
+          "The Witcher 3 Remastered date de sortie",
+          "The Witcher 3 Remastered nouveautés",
+          "The Witcher 3 Remastered PS5",
+          "The Witcher 3 Remastered Xbox",
+          "The Witcher 3 Remastered PC"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Couvrir l'annonce officielle du remaster de The Witcher 3 à Gamescom 2026, le prix du Best Trailer / Announcement, et synthétiser les premières attentes : plateformes prévues, améliorations graphiques, éventuelles nouvelles fonctionnalités, ainsi que les rumeurs de date de sortie, le tout avec un focus sur ce qui intéresse le public français.",
+        "suggested_title": "The Witcher 3 Remastered : tout ce qu’on sait après l’annonce à Gamescom 2026 (date, nouveautés, plateformes)"
+      },
+      "reasoning": "L’annonce du remaster à Gamescom crée un pic d’intérêt (trend_strength élevé) et génère de nombreuses recherches d’information (date de sortie, nouveautés, plateformes). L’événement vient de se produire, ce qui rend le sujet très frais (freshness). Le public français est fortement concerné par un titre aussi emblématique, d’où un fort score de pertinence locale. La concurrence sera déjà élevée, car de nombreux sites couvriront l’annonce, ce qui justifie un score bas en competition. Enfin, le sujet correspond parfaitement à la ligne éditoriale de GamerQuest FR, d’où le score maximal en gamerquest_relevance."
+    }
+  ]
 }

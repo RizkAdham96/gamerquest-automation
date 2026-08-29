@@ -1,0 +1,42 @@
+name: Run Trending SEO Scorer
+
+on:
+  workflow_dispatch:
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install groq
+
+      - name: Run Trending SEO scorer
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          python trending_seo/scorer.py
+
+      - name: Commit scoring results
+        run: |
+          git config user.name "GamerQuest Automation"
+          git config user.email "actions@github.com"
+
+          git add trending_seo/scored_topics.json
+
+          if git diff --cached --quiet; then
+            echo "No new scoring results to commit."
+          else
+            git commit -m "Update Trending SEO scores"
+            git push
+          fi

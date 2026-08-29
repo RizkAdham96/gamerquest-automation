@@ -1,5 +1,48 @@
 {
   "version": "1.0",
   "updated_at": null,
+  "scoring_model": {
+    "max_score": 100,
+    "criteria": {
+      "trend_strength": {
+        "max_points": 25,
+        "description": "Measures how strongly the topic is currently being discussed across available sources."
+      },
+      "search_intent": {
+        "max_points": 25,
+        "description": "Measures whether users are likely to actively search for information about the topic."
+      },
+      "freshness": {
+        "max_points": 20,
+        "description": "Measures how recent and time-sensitive the topic is."
+      },
+      "french_relevance": {
+        "max_points": 15,
+        "description": "Measures how relevant the topic is to French-speaking gamers and search audiences."
+      },
+      "competition": {
+        "max_points": 10,
+        "description": "Measures GamerQuest's realistic ability to compete for the opportunity. Lower SEO competition receives more points."
+      },
+      "gamerquest_relevance": {
+        "max_points": 5,
+        "description": "Measures how closely the topic fits GamerQuest's gaming editorial focus."
+      }
+    },
+    "decision_thresholds": {
+      "write": {
+        "min_score": 80,
+        "max_score": 100
+      },
+      "review": {
+        "min_score": 65,
+        "max_score": 79
+      },
+      "reject": {
+        "min_score": 0,
+        "max_score": 64
+      }
+    }
+  },
   "topics": []
 }

@@ -1,29 +1,35 @@
 {
   "version": "1.0",
-  "updated_at": null,
+  "updated_at": "2026-08-30T00:00:00+02:00",
   "topics": [
     {
-      "id": "example-topic-001",
-      "topic": "Example trending gaming topic",
-      "detected_at": "2026-08-29T22:49:00+02:00",
+      "id": "witcher3-remastered-gamescom-2026",
+      "topic": "The Witcher 3: Wild Hunt Remastered",
+      "detected_at": "2026-08-30T00:00:00+02:00",
       "region": "FR",
       "sources": [
         {
-          "type": "reddit",
-          "url": "https://example.com/discussion",
-          "title": "Example discussion title",
-          "engagement": {
-            "upvotes": 0,
-            "comments": 0,
-            "views": 0
-          }
+          "type": "official",
+          "url": "https://www.gamescom.global/en",
+          "title": "The Witcher 3: Wild Hunt — Remastered | Official Announcement Trailer",
+          "evidence": "Gamescom lists the CD PROJEKT RED remaster announcement trailer among its Opening Night Live 2026 trailers."
+        },
+        {
+          "type": "official",
+          "url": "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are",
+          "title": "gamescom award 2026: the winners are!",
+          "evidence": "The Witcher 3 Remastered and Songs of the Past won the consumer-voted Best Trailer / Announcement award."
         }
       ],
       "keywords": [
-        "example keyword",
-        "example gaming search"
+        "The Witcher 3 Remastered",
+        "The Witcher 3 Remastered date de sortie",
+        "The Witcher 3 Remastered nouveautés",
+        "The Witcher 3 Remastered PS5",
+        "The Witcher 3 Remastered Xbox",
+        "The Witcher 3 Remastered PC"
       ],
-      "notes": "Optional context about why this topic matters.",
+      "notes": "Official Gamescom evidence confirms the remaster announcement and a consumer-voted award. No release date should be assumed unless separately verified.",
       "status": "new"
     }
   ]

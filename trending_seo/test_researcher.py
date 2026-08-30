@@ -7,6 +7,9 @@ from researcher import (
     clean_html_text,
     is_safe_public_url,
     evaluate_fetch_result,
+    extract_json_ld_text,
+    extract_embedded_json_text,
+    extract_best_page_text,
 )
 
 
@@ -97,7 +100,7 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     # =====================================================
-    # SOURCE FETCHING TESTS
+    # HTML TESTS
     # =====================================================
 
     def test_clean_html_removes_scripts_and_tags(self):
@@ -107,6 +110,7 @@ class TestTrendingSeoResearcher(unittest.TestCase):
                 <script>
                     alert("bad");
                 </script>
+
                 <style>
                     body { color: red; }
                 </style>
@@ -140,6 +144,10 @@ class TestTrendingSeoResearcher(unittest.TestCase):
             "color: red",
             text,
         )
+
+    # =====================================================
+    # URL SAFETY TESTS
+    # =====================================================
 
     def test_only_http_and_https_urls_are_allowed(self):
         self.assertTrue(
@@ -179,6 +187,10 @@ class TestTrendingSeoResearcher(unittest.TestCase):
             )
         )
 
+    # =====================================================
+    # FETCH RESULT TESTS
+    # =====================================================
+
     def test_successful_fetch_is_usable(self):
         result = evaluate_fetch_result(
             status_code=200,
@@ -210,6 +222,194 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         self.assertEqual(
             result,
             "UNUSABLE",
+        )
+
+    # =====================================================
+    # JSON-LD EXTRACTION TESTS
+    # =====================================================
+
+    def test_extract_json_ld_article_text(self):
+        html = """
+        <html>
+            <head>
+                <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@type": "NewsArticle",
+                    "headline": "The Witcher 3 Remastered announced",
+                    "description": "CD PROJEKT RED revealed the remaster.",
+                    "articleBody": "The remaster was announced during Gamescom 2026."
+                }
+                </script>
+            </head>
+
+            <body></body>
+        </html>
+        """
+
+        text = extract_json_ld_text(html)
+
+        self.assertIn(
+            "The Witcher 3 Remastered announced",
+            text,
+        )
+
+        self.assertIn(
+            "CD PROJEKT RED revealed the remaster.",
+            text,
+        )
+
+        self.assertIn(
+            "The remaster was announced during Gamescom 2026.",
+            text,
+        )
+
+    def test_extract_json_ld_from_graph(self):
+        html = """
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "name": "gamescom"
+                },
+                {
+                    "@type": "NewsArticle",
+                    "headline": "gamescom award 2026 winners",
+                    "articleBody": "The Witcher 3 Remastered won Best Trailer."
+                }
+            ]
+        }
+        </script>
+        """
+
+        text = extract_json_ld_text(html)
+
+        self.assertIn(
+            "gamescom award 2026 winners",
+            text,
+        )
+
+        self.assertIn(
+            "The Witcher 3 Remastered won Best Trailer.",
+            text,
+        )
+
+    def test_invalid_json_ld_does_not_crash(self):
+        html = """
+        <script type="application/ld+json">
+            { this is invalid json
+        </script>
+        """
+
+        text = extract_json_ld_text(html)
+
+        self.assertEqual(
+            text,
+            "",
+        )
+
+    # =====================================================
+    # EMBEDDED JSON TESTS
+    # =====================================================
+
+    def test_extract_next_data_text(self):
+        html = """
+        <html>
+            <body>
+                <script id="__NEXT_DATA__" type="application/json">
+                {
+                    "props": {
+                        "pageProps": {
+                            "title": "The Witcher 3 Remastered",
+                            "description": "Official Gamescom announcement",
+                            "content": "The remaster appeared during Opening Night Live."
+                        }
+                    }
+                }
+                </script>
+            </body>
+        </html>
+        """
+
+        text = extract_embedded_json_text(html)
+
+        self.assertIn(
+            "The Witcher 3 Remastered",
+            text,
+        )
+
+        self.assertIn(
+            "Official Gamescom announcement",
+            text,
+        )
+
+        self.assertIn(
+            "The remaster appeared during Opening Night Live.",
+            text,
+        )
+
+    # =====================================================
+    # BEST CONTENT SELECTION
+    # =====================================================
+
+    def test_structured_data_is_preferred_over_tiny_html_shell(self):
+        html = """
+        <html>
+            <head>
+                <title>gamescom</title>
+
+                <script type="application/ld+json">
+                {
+                    "@type": "NewsArticle",
+                    "headline": "The Witcher 3 Remastered",
+                    "articleBody": "CD PROJEKT RED officially revealed the remaster during Gamescom."
+                }
+                </script>
+            </head>
+
+            <body>
+                <div id="app"></div>
+            </body>
+        </html>
+        """
+
+        text = extract_best_page_text(html)
+
+        self.assertIn(
+            "The Witcher 3 Remastered",
+            text,
+        )
+
+        self.assertIn(
+            "officially revealed the remaster",
+            text,
+        )
+
+    def test_plain_html_remains_fallback(self):
+        html = """
+        <html>
+            <body>
+                <h1>Regular gaming article</h1>
+                <p>
+                    This page does not use structured data,
+                    but the content is available directly.
+                </p>
+            </body>
+        </html>
+        """
+
+        text = extract_best_page_text(html)
+
+        self.assertIn(
+            "Regular gaming article",
+            text,
+        )
+
+        self.assertIn(
+            "content is available directly",
+            text,
         )
 
 

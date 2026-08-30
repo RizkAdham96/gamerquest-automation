@@ -1,0 +1,77 @@
+name: Run Trending SEO Researcher
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Trending SEO researcher
+        run: |
+          python trending_seo/researcher.py
+
+      - name: Show research summary
+        run: |
+          if [ -f trending_seo/research_results.json ]; then
+            python - <<'PY'
+          import json
+
+          path = "trending_seo/research_results.json"
+
+          with open(path, "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          for topic in data.get("topics", []):
+              print("=" * 50)
+              print("TOPIC:", topic.get("topic"))
+              print("SEO SCORE:", topic.get("seo_score"))
+              print("STATUS:", topic.get("research_status"))
+
+              summary = topic.get("source_summary", {})
+
+              print(
+                  "SOURCES:",
+                  summary.get("usable_sources", 0),
+                  "usable /",
+                  summary.get("total_sources", 0),
+                  "total"
+              )
+
+              for source in topic.get("fetched_sources", []):
+                  print(
+                      "-",
+                      source.get("fetch_status"),
+                      source.get("http_status"),
+                      source.get("url")
+                  )
+          PY
+          else
+            echo "No research file generated."
+          fi
+
+      - name: Commit research results
+        run: |
+          git config user.name "GamerQuest Automation"
+          git config user.email "actions@github.com"
+
+          git add trending_seo/research_results.json
+
+          if git diff --cached --quiet; then
+            echo "No new research results to commit."
+          else
+            git commit -m "Update Trending SEO research"
+            git push
+          fi

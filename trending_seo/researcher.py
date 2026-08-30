@@ -60,10 +60,7 @@ def normalize_claim_status(status):
 
 def should_allow_claim(status):
 
-    return (
-        normalize_claim_status(status)
-        == "CONFIRMED"
-    )
+    return normalize_claim_status(status) == "CONFIRMED"
 
 
 def build_verified_fact_pack(claims):
@@ -97,13 +94,12 @@ def build_verified_fact_pack(claims):
 
         normalized_claim["sources"] = sources
 
-        # CONFIRMED without evidence is impossible.
         if (
             status == "CONFIRMED"
             and not sources
         ):
-            normalized_claim["status"] = "UNKNOWN"
             status = "UNKNOWN"
+            normalized_claim["status"] = status
 
         if should_allow_claim(status):
 
@@ -124,18 +120,10 @@ def build_verified_fact_pack(claims):
 
 
 # =========================================================
-# HTML CLEANING
+# BASIC HTML CLEANING
 # =========================================================
 
 def clean_html_text(raw_html):
-    """
-    Convert a basic HTML page into readable text.
-
-    Scripts/styles are removed completely.
-    HTML tags are stripped.
-
-    This is intentionally simple and dependency-free.
-    """
 
     if not raw_html:
         return ""
@@ -184,13 +172,310 @@ def clean_html_text(raw_html):
 
 
 # =========================================================
+# STRUCTURED DATA HELPERS
+# =========================================================
+
+USEFUL_JSON_KEYS = {
+    "headline",
+    "name",
+    "title",
+    "description",
+    "articleBody",
+    "text",
+    "content",
+    "body",
+    "summary",
+}
+
+
+def _collect_json_text(
+    value,
+    collected,
+    parent_key=None,
+):
+    """
+    Recursively inspect JSON structures and collect
+    useful human-readable fields.
+
+    We deliberately do not dump every JSON value because
+    modern websites contain huge amounts of technical data.
+    """
+
+    if isinstance(value, dict):
+
+        for key, child in value.items():
+
+            if key in USEFUL_JSON_KEYS:
+
+                if isinstance(child, str):
+
+                    cleaned = re.sub(
+                        r"\s+",
+                        " ",
+                        html.unescape(child),
+                    ).strip()
+
+                    if cleaned:
+                        collected.append(cleaned)
+
+                elif isinstance(
+                    child,
+                    (dict, list),
+                ):
+
+                    _collect_json_text(
+                        child,
+                        collected,
+                        key,
+                    )
+
+            else:
+
+                _collect_json_text(
+                    child,
+                    collected,
+                    key,
+                )
+
+    elif isinstance(value, list):
+
+        for item in value:
+
+            _collect_json_text(
+                item,
+                collected,
+                parent_key,
+            )
+
+
+def _deduplicate_text_parts(parts):
+
+    seen = set()
+    result = []
+
+    for part in parts:
+
+        if not isinstance(part, str):
+            continue
+
+        cleaned = re.sub(
+            r"\s+",
+            " ",
+            part,
+        ).strip()
+
+        if not cleaned:
+            continue
+
+        normalized = cleaned.lower()
+
+        if normalized in seen:
+            continue
+
+        seen.add(normalized)
+        result.append(cleaned)
+
+    return " ".join(result)
+
+
+# =========================================================
+# JSON-LD EXTRACTION
+# =========================================================
+
+def extract_json_ld_text(raw_html):
+    """
+    Extract useful article content from:
+
+    <script type="application/ld+json">
+
+    Supports individual objects, arrays and @graph.
+    Invalid JSON-LD is ignored safely.
+    """
+
+    if not raw_html:
+        return ""
+
+    blocks = re.findall(
+        r"""(?is)
+        <script
+        [^>]*type\s*=\s*
+        ["']application/ld\+json["']
+        [^>]*>
+        (.*?)
+        </script>
+        """,
+        str(raw_html),
+        flags=re.VERBOSE,
+    )
+
+    collected = []
+
+    for block in blocks:
+
+        block = html.unescape(
+            block.strip()
+        )
+
+        if not block:
+            continue
+
+        try:
+            data = json.loads(block)
+
+        except (
+            json.JSONDecodeError,
+            TypeError,
+        ):
+            continue
+
+        _collect_json_text(
+            data,
+            collected,
+        )
+
+    return _deduplicate_text_parts(
+        collected
+    )
+
+
+# =========================================================
+# EMBEDDED JSON EXTRACTION
+# =========================================================
+
+def extract_embedded_json_text(raw_html):
+    """
+    Extract useful content from common application JSON
+    containers such as Next.js __NEXT_DATA__.
+
+    This is useful when visible page content is rendered
+    client-side with JavaScript.
+    """
+
+    if not raw_html:
+        return ""
+
+    text = str(raw_html)
+
+    patterns = [
+        r"""(?is)
+        <script
+        [^>]*id\s*=\s*["']__NEXT_DATA__["']
+        [^>]*>
+        (.*?)
+        </script>
+        """,
+
+        r"""(?is)
+        <script
+        [^>]*type\s*=\s*["']application/json["']
+        [^>]*>
+        (.*?)
+        </script>
+        """,
+    ]
+
+    collected = []
+
+    for pattern in patterns:
+
+        blocks = re.findall(
+            pattern,
+            text,
+            flags=re.VERBOSE,
+        )
+
+        for block in blocks:
+
+            block = html.unescape(
+                block.strip()
+            )
+
+            if not block:
+                continue
+
+            try:
+                data = json.loads(block)
+
+            except (
+                json.JSONDecodeError,
+                TypeError,
+            ):
+                continue
+
+            _collect_json_text(
+                data,
+                collected,
+            )
+
+    return _deduplicate_text_parts(
+        collected
+    )
+
+
+# =========================================================
+# BEST CONTENT EXTRACTION
+# =========================================================
+
+def extract_best_page_text(raw_html):
+    """
+    Combine the useful extraction strategies.
+
+    Priority:
+    1. JSON-LD
+    2. Embedded application JSON
+    3. Plain HTML
+
+    We combine available sources rather than trusting
+    a single extraction method.
+    """
+
+    if not raw_html:
+        return ""
+
+    json_ld_text = extract_json_ld_text(
+        raw_html
+    )
+
+    embedded_text = (
+        extract_embedded_json_text(
+            raw_html
+        )
+    )
+
+    plain_text = clean_html_text(
+        raw_html
+    )
+
+    parts = []
+
+    if json_ld_text:
+        parts.append(json_ld_text)
+
+    if embedded_text:
+        parts.append(embedded_text)
+
+    if plain_text:
+        parts.append(plain_text)
+
+    combined = _deduplicate_text_parts(
+        parts
+    )
+
+    return combined[
+        :MAX_EXTRACTED_CHARS
+    ]
+
+
+# =========================================================
 # URL SAFETY
 # =========================================================
 
 def _is_public_ip(ip_text):
 
     try:
-        ip = ipaddress.ip_address(ip_text)
+        ip = ipaddress.ip_address(
+            ip_text
+        )
 
     except ValueError:
         return False
@@ -206,20 +491,6 @@ def _is_public_ip(ip_text):
 
 
 def is_safe_public_url(url):
-    """
-    Only public HTTP/HTTPS URLs are accepted.
-
-    Blocks:
-    - localhost
-    - loopback
-    - private networks
-    - file://
-    - ftp://
-    - malformed URLs
-
-    This prevents the research system from being
-    used to access internal services.
-    """
 
     if not isinstance(url, str):
         return False
@@ -252,18 +523,18 @@ def is_safe_public_url(url):
     if hostname.endswith(".local"):
         return False
 
-    # Direct IP address.
     try:
         ipaddress.ip_address(hostname)
 
-        return _is_public_ip(hostname)
+        return _is_public_ip(
+            hostname
+        )
 
     except ValueError:
         pass
 
-    # Resolve hostname and make sure it doesn't
-    # point to a private/internal network.
     try:
+
         addresses = socket.getaddrinfo(
             hostname,
             parsed.port or (
@@ -273,10 +544,6 @@ def is_safe_public_url(url):
             ),
             type=socket.SOCK_STREAM,
         )
-
-    except socket.gaierror:
-        # DNS failure means we don't fetch it.
-        return False
 
     except Exception:
         return False
@@ -288,7 +555,9 @@ def is_safe_public_url(url):
 
         ip_text = address[4][0]
 
-        if not _is_public_ip(ip_text):
+        if not _is_public_ip(
+            ip_text
+        ):
             return False
 
     return True
@@ -308,7 +577,10 @@ def evaluate_fetch_result(
             status_code
         )
 
-    except (TypeError, ValueError):
+    except (
+        TypeError,
+        ValueError,
+    ):
         return "UNUSABLE"
 
     if not (
@@ -316,7 +588,10 @@ def evaluate_fetch_result(
     ):
         return "UNUSABLE"
 
-    if not isinstance(text, str):
+    if not isinstance(
+        text,
+        str,
+    ):
         return "UNUSABLE"
 
     if not text.strip():
@@ -326,18 +601,10 @@ def evaluate_fetch_result(
 
 
 # =========================================================
-# PAGE FETCHER
+# PUBLIC PAGE FETCHER
 # =========================================================
 
 def fetch_public_page(url):
-    """
-    Fetch one public webpage.
-
-    Cost: €0.
-
-    Failure does NOT confirm or deny a claim.
-    It simply makes the source unavailable.
-    """
 
     result = {
         "url": url,
@@ -345,6 +612,7 @@ def fetch_public_page(url):
         "http_status": None,
         "content_type": "",
         "final_url": "",
+        "extraction_method": "",
         "text": "",
         "error": "",
     }
@@ -381,8 +649,6 @@ def fetch_public_page(url):
 
             final_url = response.geturl()
 
-            # Redirect protection:
-            # validate destination too.
             if not is_safe_public_url(
                 final_url
             ):
@@ -393,7 +659,9 @@ def fetch_public_page(url):
 
                 return result
 
-            status_code = response.getcode()
+            status_code = (
+                response.getcode()
+            )
 
             content_type = (
                 response.headers.get(
@@ -452,28 +720,79 @@ def fetch_public_page(url):
                 errors="replace",
             )
 
-            cleaned_text = (
+            json_ld_text = (
+                extract_json_ld_text(
+                    raw_html
+                )
+            )
+
+            embedded_text = (
+                extract_embedded_json_text(
+                    raw_html
+                )
+            )
+
+            plain_text = (
                 clean_html_text(
                     raw_html
                 )
             )
 
-            cleaned_text = (
-                cleaned_text[
-                    :MAX_EXTRACTED_CHARS
-                ]
+            extracted_text = (
+                extract_best_page_text(
+                    raw_html
+                )
+            )
+
+            if json_ld_text:
+
+                extraction_method = (
+                    "JSON_LD"
+                )
+
+                if embedded_text:
+                    extraction_method += (
+                        "+EMBEDDED_JSON"
+                    )
+
+            elif embedded_text:
+
+                extraction_method = (
+                    "EMBEDDED_JSON"
+                )
+
+            else:
+
+                extraction_method = (
+                    "HTML"
+                )
+
+            result["extraction_method"] = (
+                extraction_method
             )
 
             result["text"] = (
-                cleaned_text
+                extracted_text
             )
 
             result["fetch_status"] = (
                 evaluate_fetch_result(
                     status_code,
-                    cleaned_text,
+                    extracted_text,
                 )
             )
+
+            # A page containing only a tiny shell/title
+            # should not be considered strong evidence.
+            if (
+                result["fetch_status"]
+                == "USABLE"
+                and len(extracted_text) < 80
+            ):
+
+                result["fetch_status"] = (
+                    "WEAK"
+                )
 
             return result
 
@@ -484,8 +803,7 @@ def fetch_public_page(url):
         )
 
         result["error"] = (
-            f"HTTP error: "
-            f"{error.code}"
+            f"HTTP error: {error.code}"
         )
 
         return result
@@ -531,7 +849,10 @@ def load_json(path):
         return json.load(file)
 
 
-def save_json(path, data):
+def save_json(
+    path,
+    data,
+):
 
     path.parent.mkdir(
         parents=True,
@@ -564,45 +885,29 @@ def save_json(path, data):
 
 
 # =========================================================
-# WRITE CANDIDATES
+# PIPELINE HELPERS
 # =========================================================
 
 def get_write_candidates(
     scored_data,
 ):
 
-    candidates = []
-
-    for topic in scored_data.get(
-        "topics",
-        [],
-    ):
-
-        if not isinstance(
-            topic,
-            dict,
-        ):
-            continue
-
-        decision = str(
+    return [
+        topic
+        for topic
+        in scored_data.get(
+            "topics",
+            [],
+        )
+        if isinstance(topic, dict)
+        and str(
             topic.get(
                 "decision",
                 "",
             )
-        ).upper()
+        ).upper() == "WRITE"
+    ]
 
-        if decision == "WRITE":
-
-            candidates.append(
-                topic
-            )
-
-    return candidates
-
-
-# =========================================================
-# INTEL LOOKUP
-# =========================================================
 
 def find_intel_topic(
     intel_data,
@@ -614,19 +919,11 @@ def find_intel_topic(
         [],
     ):
 
-        if (
-            topic.get("id")
-            == topic_id
-        ):
-
+        if topic.get("id") == topic_id:
             return topic
 
     return None
 
-
-# =========================================================
-# SOURCE EVIDENCE
-# =========================================================
 
 def extract_source_evidence(
     intel_topic,
@@ -674,19 +971,9 @@ def extract_source_evidence(
     return evidence
 
 
-# =========================================================
-# FETCH ALL SOURCES
-# =========================================================
-
 def fetch_topic_sources(
     intel_topic,
 ):
-    """
-    Fetch every Intel source.
-
-    One inaccessible website does not stop
-    the entire research process.
-    """
 
     fetched_sources = []
 
@@ -694,16 +981,13 @@ def fetch_topic_sources(
         intel_topic
     ):
 
-        url = source["url"]
-
         print(
-            f"Fetching source: {url}"
+            f"Fetching source: "
+            f"{source['url']}"
         )
 
-        fetch_result = (
-            fetch_public_page(
-                url
-            )
+        result = fetch_public_page(
+            source["url"]
         )
 
         fetched_sources.append(
@@ -722,21 +1006,23 @@ def fetch_topic_sources(
                         "",
                     )
                 ),
-                **fetch_result,
+                **result,
             }
         )
 
         print(
             "Fetch result: "
-            f"{fetch_result['fetch_status']}"
+            f"{result['fetch_status']} "
+            f"[{result.get('extraction_method', '')}]"
+        )
+
+        print(
+            "Extracted characters: "
+            f"{len(result.get('text', ''))}"
         )
 
     return fetched_sources
 
-
-# =========================================================
-# INITIAL CLAIMS
-# =========================================================
 
 def build_initial_claims(
     intel_topic,
@@ -748,13 +1034,12 @@ def build_initial_claims(
         intel_topic
     ):
 
-        evidence = (
+        evidence = str(
             source.get(
                 "evidence",
                 "",
             )
-            .strip()
-        )
+        ).strip()
 
         if not evidence:
             continue
@@ -801,11 +1086,18 @@ def build_research_record(
 
     usable_sources = sum(
         1
-        for source
-        in fetched_sources
+        for source in fetched_sources
         if source.get(
             "fetch_status"
         ) == "USABLE"
+    )
+
+    weak_sources = sum(
+        1
+        for source in fetched_sources
+        if source.get(
+            "fetch_status"
+        ) == "WEAK"
     )
 
     return {
@@ -842,9 +1134,13 @@ def build_research_record(
             "usable_sources": (
                 usable_sources
             ),
+            "weak_sources": (
+                weak_sources
+            ),
             "unusable_sources": (
                 len(fetched_sources)
                 - usable_sources
+                - weak_sources
             ),
         },
         "claims": initial_claims,
@@ -853,34 +1149,6 @@ def build_research_record(
             "PENDING_VERIFICATION"
         ),
     }
-
-
-# =========================================================
-# DUPLICATE PROTECTION
-# =========================================================
-
-def get_existing_research_ids(
-    research_data,
-):
-
-    existing = set()
-
-    for topic in research_data.get(
-        "topics",
-        [],
-    ):
-
-        topic_id = topic.get(
-            "id"
-        )
-
-        if topic_id:
-
-            existing.add(
-                topic_id
-            )
-
-    return existing
 
 
 # =========================================================
@@ -894,7 +1162,7 @@ def main():
         "==================================="
     )
     print(
-        "GAMERQUEST RESEARCHER V2"
+        "GAMERQUEST RESEARCHER V3"
     )
     print(
         "==================================="
@@ -933,7 +1201,7 @@ def main():
     else:
 
         research_data = {
-            "version": "2.0",
+            "version": "3.0",
             "updated_at": None,
             "topics": [],
         }
@@ -944,11 +1212,24 @@ def main():
         )
     )
 
-    existing_ids = (
-        get_existing_research_ids(
-            research_data
+    # For testing v3 we refresh existing records.
+    # This lets us re-fetch the same Witcher topic
+    # with the improved extraction engine.
+    candidate_ids = {
+        topic.get("id")
+        for topic in candidates
+        if topic.get("id")
+    }
+
+    research_data["topics"] = [
+        topic
+        for topic in research_data.get(
+            "topics",
+            [],
         )
-    )
+        if topic.get("id")
+        not in candidate_ids
+    ]
 
     created = 0
 
@@ -959,15 +1240,6 @@ def main():
         )
 
         if not topic_id:
-            continue
-
-        if topic_id in existing_ids:
-
-            print(
-                f"Already researched: "
-                f"{topic_id}"
-            )
-
             continue
 
         intel_topic = (
@@ -1005,28 +1277,11 @@ def main():
             record
         )
 
-        existing_ids.add(
-            topic_id
-        )
-
         created += 1
 
-    if created == 0:
+    research_data["version"] = "3.0"
 
-        print(
-            "No new WRITE topics "
-            "require research."
-        )
-
-        return
-
-    research_data[
-        "version"
-    ] = "2.0"
-
-    research_data[
-        "updated_at"
-    ] = (
+    research_data["updated_at"] = (
         datetime.now(
             timezone.utc
         )
@@ -1040,17 +1295,17 @@ def main():
 
     print("")
     print(
-        f"Created {created} "
-        f"research record(s)."
+        f"Created/refreshed "
+        f"{created} research record(s)."
     )
 
     print(
-        "Source fetching complete."
+        "Structured-data extraction complete."
     )
 
     print(
         "Claims remain UNKNOWN until "
-        "verification is performed."
+        "verification."
     )
 
 

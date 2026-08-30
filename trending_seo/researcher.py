@@ -1,6 +1,13 @@
 import json
+import html
+import ipaddress
+import re
+import socket
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 
 # =========================================================
@@ -24,25 +31,21 @@ ALLOWED_STATUSES = {
     "UNKNOWN",
 }
 
+FETCH_TIMEOUT_SECONDS = 12
+MAX_PAGE_BYTES = 2_000_000
+MAX_EXTRACTED_CHARS = 25_000
+
+USER_AGENT = (
+    "Mozilla/5.0 (compatible; GamerQuestFR-Research/1.0; "
+    "+https://gamerquestfr.com/)"
+)
+
 
 # =========================================================
-# CLAIM STATUS SAFETY
+# CLAIM SAFETY
 # =========================================================
 
 def normalize_claim_status(status):
-    """
-    Normalize claim status.
-
-    Any unexpected value automatically becomes UNKNOWN.
-
-    This prevents values such as:
-    - probably
-    - likely
-    - maybe
-    - assumed
-
-    from being treated as verified facts.
-    """
 
     if not isinstance(status, str):
         return "UNKNOWN"
@@ -56,12 +59,6 @@ def normalize_claim_status(status):
 
 
 def should_allow_claim(status):
-    """
-    Only CONFIRMED claims are allowed into the
-    article fact pack.
-
-    UNCONFIRMED and UNKNOWN claims are blocked.
-    """
 
     return (
         normalize_claim_status(status)
@@ -69,21 +66,7 @@ def should_allow_claim(status):
     )
 
 
-# =========================================================
-# VERIFIED FACT PACK
-# =========================================================
-
 def build_verified_fact_pack(claims):
-    """
-    Separate verified facts from blocked claims.
-
-    The future article writer will receive
-    confirmed_facts as its factual source.
-
-    Unsupported claims remain visible in
-    blocked_claims for auditing, but they are
-    NOT authorized for article generation.
-    """
 
     confirmed_facts = []
     blocked_claims = []
@@ -114,16 +97,12 @@ def build_verified_fact_pack(claims):
 
         normalized_claim["sources"] = sources
 
-        # A claim cannot be CONFIRMED without
-        # at least one supporting source.
+        # CONFIRMED without evidence is impossible.
         if (
             status == "CONFIRMED"
             and not sources
         ):
-            normalized_claim[
-                "status"
-            ] = "UNKNOWN"
-
+            normalized_claim["status"] = "UNKNOWN"
             status = "UNKNOWN"
 
         if should_allow_claim(status):
@@ -145,13 +124,404 @@ def build_verified_fact_pack(claims):
 
 
 # =========================================================
+# HTML CLEANING
+# =========================================================
+
+def clean_html_text(raw_html):
+    """
+    Convert a basic HTML page into readable text.
+
+    Scripts/styles are removed completely.
+    HTML tags are stripped.
+
+    This is intentionally simple and dependency-free.
+    """
+
+    if not raw_html:
+        return ""
+
+    text = str(raw_html)
+
+    text = re.sub(
+        r"(?is)<script[^>]*>.*?</script>",
+        " ",
+        text,
+    )
+
+    text = re.sub(
+        r"(?is)<style[^>]*>.*?</style>",
+        " ",
+        text,
+    )
+
+    text = re.sub(
+        r"(?is)<noscript[^>]*>.*?</noscript>",
+        " ",
+        text,
+    )
+
+    text = re.sub(
+        r"(?is)<!--.*?-->",
+        " ",
+        text,
+    )
+
+    text = re.sub(
+        r"(?s)<[^>]+>",
+        " ",
+        text,
+    )
+
+    text = html.unescape(text)
+
+    text = re.sub(
+        r"\s+",
+        " ",
+        text,
+    )
+
+    return text.strip()
+
+
+# =========================================================
+# URL SAFETY
+# =========================================================
+
+def _is_public_ip(ip_text):
+
+    try:
+        ip = ipaddress.ip_address(ip_text)
+
+    except ValueError:
+        return False
+
+    return not (
+        ip.is_private
+        or ip.is_loopback
+        or ip.is_link_local
+        or ip.is_multicast
+        or ip.is_reserved
+        or ip.is_unspecified
+    )
+
+
+def is_safe_public_url(url):
+    """
+    Only public HTTP/HTTPS URLs are accepted.
+
+    Blocks:
+    - localhost
+    - loopback
+    - private networks
+    - file://
+    - ftp://
+    - malformed URLs
+
+    This prevents the research system from being
+    used to access internal services.
+    """
+
+    if not isinstance(url, str):
+        return False
+
+    try:
+        parsed = urlparse(url)
+
+    except Exception:
+        return False
+
+    if parsed.scheme not in {
+        "http",
+        "https",
+    }:
+        return False
+
+    hostname = parsed.hostname
+
+    if not hostname:
+        return False
+
+    hostname = hostname.lower().strip(".")
+
+    if hostname in {
+        "localhost",
+        "localhost.localdomain",
+    }:
+        return False
+
+    if hostname.endswith(".local"):
+        return False
+
+    # Direct IP address.
+    try:
+        ipaddress.ip_address(hostname)
+
+        return _is_public_ip(hostname)
+
+    except ValueError:
+        pass
+
+    # Resolve hostname and make sure it doesn't
+    # point to a private/internal network.
+    try:
+        addresses = socket.getaddrinfo(
+            hostname,
+            parsed.port or (
+                443
+                if parsed.scheme == "https"
+                else 80
+            ),
+            type=socket.SOCK_STREAM,
+        )
+
+    except socket.gaierror:
+        # DNS failure means we don't fetch it.
+        return False
+
+    except Exception:
+        return False
+
+    if not addresses:
+        return False
+
+    for address in addresses:
+
+        ip_text = address[4][0]
+
+        if not _is_public_ip(ip_text):
+            return False
+
+    return True
+
+
+# =========================================================
+# FETCH RESULT
+# =========================================================
+
+def evaluate_fetch_result(
+    status_code,
+    text,
+):
+
+    try:
+        status_code = int(
+            status_code
+        )
+
+    except (TypeError, ValueError):
+        return "UNUSABLE"
+
+    if not (
+        200 <= status_code < 300
+    ):
+        return "UNUSABLE"
+
+    if not isinstance(text, str):
+        return "UNUSABLE"
+
+    if not text.strip():
+        return "UNUSABLE"
+
+    return "USABLE"
+
+
+# =========================================================
+# PAGE FETCHER
+# =========================================================
+
+def fetch_public_page(url):
+    """
+    Fetch one public webpage.
+
+    Cost: €0.
+
+    Failure does NOT confirm or deny a claim.
+    It simply makes the source unavailable.
+    """
+
+    result = {
+        "url": url,
+        "fetch_status": "UNUSABLE",
+        "http_status": None,
+        "content_type": "",
+        "final_url": "",
+        "text": "",
+        "error": "",
+    }
+
+    if not is_safe_public_url(url):
+
+        result["error"] = (
+            "Unsafe or non-public URL."
+        )
+
+        return result
+
+    request = Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": (
+                "text/html,"
+                "application/xhtml+xml"
+            ),
+            "Accept-Language": (
+                "fr-FR,fr;q=0.9,"
+                "en;q=0.8"
+            ),
+        },
+    )
+
+    try:
+
+        with urlopen(
+            request,
+            timeout=FETCH_TIMEOUT_SECONDS,
+        ) as response:
+
+            final_url = response.geturl()
+
+            # Redirect protection:
+            # validate destination too.
+            if not is_safe_public_url(
+                final_url
+            ):
+
+                result["error"] = (
+                    "Redirected to unsafe URL."
+                )
+
+                return result
+
+            status_code = response.getcode()
+
+            content_type = (
+                response.headers.get(
+                    "Content-Type",
+                    "",
+                )
+            )
+
+            result["http_status"] = (
+                status_code
+            )
+
+            result["content_type"] = (
+                content_type
+            )
+
+            result["final_url"] = (
+                final_url
+            )
+
+            if (
+                "text/html"
+                not in content_type.lower()
+                and
+                "application/xhtml+xml"
+                not in content_type.lower()
+            ):
+
+                result["error"] = (
+                    "Unsupported content type."
+                )
+
+                return result
+
+            raw_bytes = response.read(
+                MAX_PAGE_BYTES + 1
+            )
+
+            if (
+                len(raw_bytes)
+                > MAX_PAGE_BYTES
+            ):
+
+                raw_bytes = raw_bytes[
+                    :MAX_PAGE_BYTES
+                ]
+
+            charset = (
+                response.headers
+                .get_content_charset()
+                or "utf-8"
+            )
+
+            raw_html = raw_bytes.decode(
+                charset,
+                errors="replace",
+            )
+
+            cleaned_text = (
+                clean_html_text(
+                    raw_html
+                )
+            )
+
+            cleaned_text = (
+                cleaned_text[
+                    :MAX_EXTRACTED_CHARS
+                ]
+            )
+
+            result["text"] = (
+                cleaned_text
+            )
+
+            result["fetch_status"] = (
+                evaluate_fetch_result(
+                    status_code,
+                    cleaned_text,
+                )
+            )
+
+            return result
+
+    except HTTPError as error:
+
+        result["http_status"] = (
+            error.code
+        )
+
+        result["error"] = (
+            f"HTTP error: "
+            f"{error.code}"
+        )
+
+        return result
+
+    except URLError as error:
+
+        result["error"] = (
+            f"URL error: "
+            f"{error.reason}"
+        )
+
+        return result
+
+    except TimeoutError:
+
+        result["error"] = (
+            "Request timed out."
+        )
+
+        return result
+
+    except Exception as error:
+
+        result["error"] = (
+            f"Fetch error: "
+            f"{type(error).__name__}"
+        )
+
+        return result
+
+
+# =========================================================
 # JSON HELPERS
 # =========================================================
 
 def load_json(path):
-    """
-    Load JSON safely from disk.
-    """
 
     with path.open(
         "r",
@@ -162,17 +532,16 @@ def load_json(path):
 
 
 def save_json(path, data):
-    """
-    Save formatted UTF-8 JSON.
-    """
 
     path.parent.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-    temporary_file = path.with_suffix(
-        path.suffix + ".tmp"
+    temporary_file = (
+        path.with_suffix(
+            path.suffix + ".tmp"
+        )
     )
 
     with temporary_file.open(
@@ -195,16 +564,12 @@ def save_json(path, data):
 
 
 # =========================================================
-# GET WRITE CANDIDATES
+# WRITE CANDIDATES
 # =========================================================
 
-def get_write_candidates(scored_data):
-    """
-    Only topics approved as WRITE are allowed
-    to enter the research stage.
-
-    REVIEW and REJECT topics stop here.
-    """
+def get_write_candidates(
+    scored_data,
+):
 
     candidates = []
 
@@ -213,7 +578,10 @@ def get_write_candidates(scored_data):
         [],
     ):
 
-        if not isinstance(topic, dict):
+        if not isinstance(
+            topic,
+            dict,
+        ):
             continue
 
         decision = str(
@@ -223,12 +591,11 @@ def get_write_candidates(scored_data):
             )
         ).upper()
 
-        if decision != "WRITE":
-            continue
+        if decision == "WRITE":
 
-        candidates.append(
-            topic
-        )
+            candidates.append(
+                topic
+            )
 
     return candidates
 
@@ -241,12 +608,6 @@ def find_intel_topic(
     intel_data,
     topic_id,
 ):
-    """
-    Find the original raw Intel entry.
-
-    Research must always be connected back to
-    the original evidence.
-    """
 
     for topic in intel_data.get(
         "topics",
@@ -257,33 +618,19 @@ def find_intel_topic(
             topic.get("id")
             == topic_id
         ):
+
             return topic
 
     return None
 
 
 # =========================================================
-# SOURCE EXTRACTION
+# SOURCE EVIDENCE
 # =========================================================
 
 def extract_source_evidence(
     intel_topic,
 ):
-    """
-    Convert Intel sources into structured
-    research evidence.
-
-    IMPORTANT:
-
-    This does NOT claim that every sentence in
-    the source is verified.
-
-    It simply preserves the evidence already
-    collected in Intel.
-
-    A later research stage can fetch and inspect
-    the actual pages.
-    """
 
     evidence = []
 
@@ -292,7 +639,10 @@ def extract_source_evidence(
         [],
     ):
 
-        if not isinstance(source, dict):
+        if not isinstance(
+            source,
+            dict,
+        ):
             continue
 
         url = source.get(
@@ -325,22 +675,72 @@ def extract_source_evidence(
 
 
 # =========================================================
-# INITIAL CLAIM CREATION
+# FETCH ALL SOURCES
+# =========================================================
+
+def fetch_topic_sources(
+    intel_topic,
+):
+    """
+    Fetch every Intel source.
+
+    One inaccessible website does not stop
+    the entire research process.
+    """
+
+    fetched_sources = []
+
+    for source in extract_source_evidence(
+        intel_topic
+    ):
+
+        url = source["url"]
+
+        print(
+            f"Fetching source: {url}"
+        )
+
+        fetch_result = (
+            fetch_public_page(
+                url
+            )
+        )
+
+        fetched_sources.append(
+            {
+                "type": source.get(
+                    "type",
+                    "unknown",
+                ),
+                "title": source.get(
+                    "title",
+                    "",
+                ),
+                "expected_evidence": (
+                    source.get(
+                        "evidence",
+                        "",
+                    )
+                ),
+                **fetch_result,
+            }
+        )
+
+        print(
+            "Fetch result: "
+            f"{fetch_result['fetch_status']}"
+        )
+
+    return fetched_sources
+
+
+# =========================================================
+# INITIAL CLAIMS
 # =========================================================
 
 def build_initial_claims(
     intel_topic,
 ):
-    """
-    Build conservative claims from explicit
-    Intel evidence.
-
-    These claims are NOT automatically confirmed.
-
-    They remain UNKNOWN until the research stage
-    actually validates them against source
-    content.
-    """
 
     claims = []
 
@@ -348,10 +748,13 @@ def build_initial_claims(
         intel_topic
     ):
 
-        evidence = source.get(
-            "evidence",
-            "",
-        ).strip()
+        evidence = (
+            source.get(
+                "evidence",
+                "",
+            )
+            .strip()
+        )
 
         if not evidence:
             continue
@@ -370,22 +773,22 @@ def build_initial_claims(
 
 
 # =========================================================
-# BUILD RESEARCH RECORD
+# RESEARCH RECORD
 # =========================================================
 
 def build_research_record(
     scored_topic,
     intel_topic,
 ):
-    """
-    Build the initial research record.
-
-    No claim is automatically considered true
-    merely because AI or Intel mentioned it.
-    """
 
     initial_claims = (
         build_initial_claims(
+            intel_topic
+        )
+    )
+
+    fetched_sources = (
+        fetch_topic_sources(
             intel_topic
         )
     )
@@ -394,6 +797,15 @@ def build_research_record(
         build_verified_fact_pack(
             initial_claims
         )
+    )
+
+    usable_sources = sum(
+        1
+        for source
+        in fetched_sources
+        if source.get(
+            "fetch_status"
+        ) == "USABLE"
     )
 
     return {
@@ -420,6 +832,21 @@ def build_research_record(
                 intel_topic
             )
         ),
+        "fetched_sources": (
+            fetched_sources
+        ),
+        "source_summary": {
+            "total_sources": (
+                len(fetched_sources)
+            ),
+            "usable_sources": (
+                usable_sources
+            ),
+            "unusable_sources": (
+                len(fetched_sources)
+                - usable_sources
+            ),
+        },
         "claims": initial_claims,
         "fact_pack": fact_pack,
         "research_status": (
@@ -435,9 +862,6 @@ def build_research_record(
 def get_existing_research_ids(
     research_data,
 ):
-    """
-    Prevent repeated research records.
-    """
 
     existing = set()
 
@@ -451,6 +875,7 @@ def get_existing_research_ids(
         )
 
         if topic_id:
+
             existing.add(
                 topic_id
             )
@@ -463,31 +888,13 @@ def get_existing_research_ids(
 # =========================================================
 
 def main():
-    """
-    Research Gate v1.
-
-    Current responsibility:
-
-    Scored WRITE topic
-        ↓
-    Original Intel evidence
-        ↓
-    Structured claims
-        ↓
-    Everything begins UNKNOWN
-        ↓
-    Future verifier confirms evidence
-
-    This version intentionally does NOT publish
-    articles and does NOT invent facts.
-    """
 
     print("")
     print(
         "==================================="
     )
     print(
-        "GAMERQUEST RESEARCH GATE"
+        "GAMERQUEST RESEARCHER V2"
     )
     print(
         "==================================="
@@ -496,11 +903,7 @@ def main():
     if not INTEL_FILE.exists():
 
         print(
-            "Intel file not found:"
-        )
-
-        print(
-            INTEL_FILE
+            "Intel file not found."
         )
 
         return
@@ -508,11 +911,7 @@ def main():
     if not SCORED_FILE.exists():
 
         print(
-            "Scored topics file not found:"
-        )
-
-        print(
-            SCORED_FILE
+            "Scored topics file not found."
         )
 
         return
@@ -534,24 +933,16 @@ def main():
     else:
 
         research_data = {
-            "version": "1.0",
+            "version": "2.0",
             "updated_at": None,
             "topics": [],
         }
 
-    write_candidates = (
+    candidates = (
         get_write_candidates(
             scored_data
         )
     )
-
-    if not write_candidates:
-
-        print(
-            "No WRITE topics waiting for research."
-        )
-
-        return
 
     existing_ids = (
         get_existing_research_ids(
@@ -561,7 +952,7 @@ def main():
 
     created = 0
 
-    for scored_topic in write_candidates:
+    for scored_topic in candidates:
 
         topic_id = scored_topic.get(
             "id"
@@ -573,29 +964,39 @@ def main():
         if topic_id in existing_ids:
 
             print(
-                f"Skipping existing research: "
+                f"Already researched: "
                 f"{topic_id}"
             )
 
             continue
 
-        intel_topic = find_intel_topic(
-            intel_data,
-            topic_id,
+        intel_topic = (
+            find_intel_topic(
+                intel_data,
+                topic_id,
+            )
         )
 
         if intel_topic is None:
 
             print(
-                f"Original Intel missing: "
+                f"Intel missing: "
                 f"{topic_id}"
             )
 
             continue
 
-        record = build_research_record(
-            scored_topic,
-            intel_topic,
+        print("")
+        print(
+            f"Researching: "
+            f"{scored_topic.get('topic')}"
+        )
+
+        record = (
+            build_research_record(
+                scored_topic,
+                intel_topic,
+            )
         )
 
         research_data[
@@ -610,18 +1011,18 @@ def main():
 
         created += 1
 
-        print(
-            f"Research record created: "
-            f"{topic_id}"
-        )
-
     if created == 0:
 
         print(
-            "No new research records created."
+            "No new WRITE topics "
+            "require research."
         )
 
         return
+
+    research_data[
+        "version"
+    ] = "2.0"
 
     research_data[
         "updated_at"
@@ -644,8 +1045,12 @@ def main():
     )
 
     print(
-        "All claims remain blocked "
-        "until verified."
+        "Source fetching complete."
+    )
+
+    print(
+        "Claims remain UNKNOWN until "
+        "verification is performed."
     )
 
 

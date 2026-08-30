@@ -415,3 +415,6 @@ class TestTrendingSeoResearcher(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+    build_discovery_query,
+    parse_discovery_feed,
+    rank_discovered_sources,

@@ -1,13 +1,13 @@
 {
-  "version": "2.0",
-  "updated_at": "2026-08-30T21:05:28.946885+00:00",
+  "version": "3.0",
+  "updated_at": "2026-08-30T21:18:09.381937+00:00",
   "topics": [
     {
       "id": "witcher3-remastered-gamescom-2026",
       "topic": "The Witcher 3: Wild Hunt Remastered",
       "seo_score": 81,
       "seo_decision": "WRITE",
-      "created_at": "2026-08-30T21:05:28.946864+00:00",
+      "created_at": "2026-08-30T21:18:09.381912+00:00",
       "sources": [
         {
           "type": "official",
@@ -28,10 +28,11 @@
           "title": "The Witcher 3: Wild Hunt — Remastered | Official Announcement Trailer",
           "expected_evidence": "Gamescom lists the CD PROJEKT RED remaster announcement trailer among its Opening Night Live 2026 trailers.",
           "url": "https://www.gamescom.global/en",
-          "fetch_status": "USABLE",
+          "fetch_status": "WEAK",
           "http_status": 200,
           "content_type": "text/html; charset=utf-8",
           "final_url": "https://www.gamescom.global/en",
+          "extraction_method": "HTML",
           "text": "gamescom 2027 | gamescom",
           "error": ""
         },
@@ -40,17 +41,19 @@
           "title": "gamescom award 2026: the winners are!",
           "expected_evidence": "The Witcher 3 Remastered and Songs of the Past won the consumer-voted Best Trailer / Announcement award.",
           "url": "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are",
-          "fetch_status": "USABLE",
+          "fetch_status": "WEAK",
           "http_status": 200,
           "content_type": "text/html; charset=utf-8",
           "final_url": "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are",
+          "extraction_method": "HTML",
           "text": "gamescom award 2026: the winners are! | gamescom",
           "error": ""
         }
       ],
       "source_summary": {
         "total_sources": 2,
-        "usable_sources": 2,
+        "usable_sources": 0,
+        "weak_sources": 2,
         "unusable_sources": 0
       },
       "claims": [

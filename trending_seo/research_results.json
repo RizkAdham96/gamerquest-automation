@@ -1,13 +1,13 @@
 {
-  "version": "3.0",
-  "updated_at": "2026-08-30T21:18:09.381937+00:00",
+  "version": "4.0",
+  "updated_at": "2026-08-30T22:05:13.111130+00:00",
   "topics": [
     {
       "id": "witcher3-remastered-gamescom-2026",
       "topic": "The Witcher 3: Wild Hunt Remastered",
       "seo_score": 81,
       "seo_decision": "WRITE",
-      "created_at": "2026-08-30T21:18:09.381912+00:00",
+      "created_at": "2026-08-30T22:05:13.111101+00:00",
       "sources": [
         {
           "type": "official",
@@ -50,11 +50,173 @@
           "error": ""
         }
       ],
+      "discovery": {
+        "query": "The Witcher 3 Remastered",
+        "feed_url": "https://news.google.com/rss/search?q=The+Witcher+3+Remastered&hl=fr&gl=FR&ceid=FR:fr",
+        "status": "USABLE",
+        "error": "",
+        "candidate_count": 8,
+        "candidates": [
+          {
+            "title": "The Witcher 3 Remastered peut remercier ce fan : il améliore le jeu depuis des années - Numerama",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPODN6OXpud1kwYmxNUWtHXzJXOHBsUWhIdm5PQ1h4SlZOUExFRERqaHpPT2NUWWNEbWoySDFyamxfb1JlWjk3MGgwVWY3OVZmMWpUaHVhQ2JQTS1FMWlCR1pQcUVhUUN3RzZCVjBpYXlId1h0S25KcUU5Qm9PaFdEM2hUR3g3VGNKSWc1VENFZW9JZG52Z3MyZlBzSUpEQWE3Nm5qZ0VlSjNkbF9PVUd1N3hpVWJmc3otN2tyY21DYTFYb1J1WFd3?oc=5",
+            "published_at": "Thu, 27 Aug 2026 14:09:51 GMT",
+            "publisher": "Numerama",
+            "publisher_url": "https://www.numerama.com",
+            "relevance_score": 70
+          },
+          {
+            "title": "The Witcher 3 Remastered sur Switch 2 : on en sait un peu plus - Switch-Actu",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb1lKU0V2My1HTlB4ejFjdEJxUlBKZVh3YmpiRUc2cl9nb2RkbHktbzlKV0MzdTY4QWtlMHk2aHFTZW9qRlVVU0JnOWpqRDkzMlNnN1JwTmhQZE5Dd0NIaFhKN0h0V3pUdGJGMDVYNlM4T3FnM2VYTFNEY0drMHNzUFZSR3lHOTc2T21rVUdndEpfTGFoNWpXR2swX0lXY01UX2w4Y0VCUFFPLV9rOXdGUTFkU2l4Y0ho?oc=5",
+            "published_at": "Sun, 30 Aug 2026 09:03:00 GMT",
+            "publisher": "Switch-Actu",
+            "publisher_url": "https://www.switch-actu.fr",
+            "relevance_score": 70
+          },
+          {
+            "title": "The Witcher 3 Remastered sortira en septembre gratuitement pour tous les possesseurs du jeu - IGN France",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSm8wYmdDWVUyMU5ETHFFZDhINGVmeTNVbnBOSkdCQVhIc194cE5VYWxBenFudUJmcFBadkg4Z3hFYVNQYjlWTUR5RlFYWm1NQThjaVZZZjBwdHVwalN4VGhIc0R3bDl0MVhvOWd3aXpMZzJwRW1KaDBtWnFveXRyNERPeGN2TXBQTTlWTWJvZzh2cnJZR2FoRTd0YVVheHE0VWZDX2dvZ21IN00xci11OFVBbWFabXlWT3AySEhjN1R0LWp0ZjU1MzJqUHpzWDU5djcxalVCWQ?oc=5",
+            "published_at": "Tue, 25 Aug 2026 20:19:00 GMT",
+            "publisher": "IGN France",
+            "publisher_url": "https://fr.ign.com",
+            "relevance_score": 70
+          },
+          {
+            "title": "The Witcher 3 Remastered sort le 29 septembre et sera gratuit - Univers-Simu.com",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzVHRHg5ZEJkTzhtXzFYMFlicjZhWHZvWk10Smc5eWtOZERYQllpakRyS3EwaDBtTHg4T3hON1pQamVLNkNpQnVhVFY0ODdyakRoMXVkaG1ybVZNMUVFRFl2Z1RWOW1fSzJHdWRjUVg2MndxM1lVYTBITGZHc3JYTnJobDctNGF2NEZYbGRQY1AxeWtmSXZnNERuQjBhemlZ?oc=5",
+            "published_at": "Wed, 26 Aug 2026 17:01:20 GMT",
+            "publisher": "Univers-Simu.com",
+            "publisher_url": "https://www.univers-simu.com",
+            "relevance_score": 70
+          },
+          {
+            "title": "The Witcher 3 Remastered arrive gratuitement : path tracing, DLSS 4.5 et gameplay modernisé - GinjFo",
+            "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTDRJaDA4TVZkY0Z1TUJVRWxWOGxtbWtZV2MtLWowN2txMWtPUGtZamJNYThPVDk0dVAxdFR2NzVPQlctVjBSSFBqZWtiQk1DU3lGcG5LeDktTnpkWkdLQ3hoWXRvVmxnY3h2Q09mSjRfVW5qanNKNGtNVENyWC1ETk9NMVRsTkNHTmRuNFYwU3JEbG1tR004a0F3ZE85YXdiaHdOV1FfaTR1bTFIZG5raERhRGJNRk1NNW5QczZGaWljOTJqbGJ2NjhqTndrUnF2RWR2STFCbWlzV1BqbGpra1JMd3hCU2dYZ1FudE9YU01BMUxz?oc=5",
+            "published_at": "Wed, 26 Aug 2026 08:50:59 GMT",
+            "publisher": "GinjFo",
+            "publisher_url": "https://www.ginjfo.com",
+            "relevance_score": 70
+          },
+          {
+            "title": "The Witcher 3: Wild Hunt : Le remaster du RPG en monde ouvert de CD Projekt devrait tourner en 30 à 40 fps sur Switch 2 - ActuGaming",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQak9lclZyQTlaQjBNWVdtdmFtOEZ3VGhPRFQ2UG5lNVF5ZTVjTGozN0UzOHVyWWxhei1IckR5TWlDSXBudjNLd1hLeTBnQ1RjbXVJeFZja3BoNWhHM256SFdJd1dmWHI3VGZ3cGdJcVgxa1JyX2F0QkZPdXlIZHJETVB0Wks0MUo3eHFSR1BRc2hsX3N5eGR4MThqWllDZ1RkQkxPWWpENDJocUN6VDN0eGl1cVRiUGZDRmZ1WWV0ODhJMGd3Rkg0?oc=5",
+            "published_at": "Fri, 28 Aug 2026 15:52:41 GMT",
+            "publisher": "ActuGaming",
+            "publisher_url": "https://www.actugaming.net",
+            "relevance_score": 30
+          },
+          {
+            "title": "The Witcher III : le remastered (gratuit) arrive le mois prochain avec plein d'améliorations et de contenus - Journal du Geek",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZ2RIamY2NzJWU0xlSFRIR1p0VkJ1WHJiY3hOdUxENWtQVTZoR3lrZWFSN0tYOXJwMG1TZzhrbnZlUzlyNi1lRXhYWlpCa1RsM3ItcEQyX0NkdDg1WW5rdUtqdi12MVVvRm1LWXhKdXVKMm15ZEcxSk8xcHkxTDlIRmxYazdvSFNMby1EUGRuanA0SGtGclRTWjVQY3B1Qk5ubzViQndUSVZxMEkwQXdXUkV3MVhjcW9BWHRhYVd1QlhLZ2J5OWRoZWxEd2ZEV3M0WEpCWlJHN1RjRXc?oc=5",
+            "published_at": "Wed, 26 Aug 2026 07:30:04 GMT",
+            "publisher": "Journal du Geek",
+            "publisher_url": "https://www.journaldugeek.com",
+            "relevance_score": 20
+          },
+          {
+            "title": "J'ai joué plus de 1000 heures à The Witcher 3 et la version remasterisée m'inquiète - jeuxvideo.com",
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2VRVUprbnVKUGJhTkdqQnNXRHJOQWRCZG1aM3hsWFpVcHdHOVp2eU95SHpKWU9uNWFIdFlPbmNwV0hnUl84RFFWRDhCOHZ0YTZ1UGR5QjlzNFRmT212b2ZCWGZuR3VxU2lYbWVnWHhZRmViVHdzcW1RNE5SQWtqYlhTNi1Wc28tSW1aZW02Y0U4a1hXY2NTajk5bHRXeDN1emN5UDVvNEVKUFVIQl9oZnVhN1FyQi03bk1rYmN3amJkWXJF?oc=5",
+            "published_at": "Sun, 30 Aug 2026 15:15:08 GMT",
+            "publisher": "jeuxvideo.com",
+            "publisher_url": "https://www.jeuxvideo.com",
+            "relevance_score": 10
+          }
+        ]
+      },
+      "discovered_sources": [
+        {
+          "discovery_title": "The Witcher 3 Remastered peut remercier ce fan : il améliore le jeu depuis des années - Numerama",
+          "publisher": "Numerama",
+          "publisher_url": "https://www.numerama.com",
+          "published_at": "Thu, 27 Aug 2026 14:09:51 GMT",
+          "relevance_score": 70,
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPODN6OXpud1kwYmxNUWtHXzJXOHBsUWhIdm5PQ1h4SlZOUExFRERqaHpPT2NUWWNEbWoySDFyamxfb1JlWjk3MGgwVWY3OVZmMWpUaHVhQ2JQTS1FMWlCR1pQcUVhUUN3RzZCVjBpYXlId1h0S25KcUU5Qm9PaFdEM2hUR3g3VGNKSWc1VENFZW9JZG52Z3MyZlBzSUpEQWE3Nm5qZ0VlSjNkbF9PVUd1N3hpVWJmc3otN2tyY21DYTFYb1J1WFd3?oc=5",
+          "fetch_status": "WEAK",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPODN6OXpud1kwYmxNUWtHXzJXOHBsUWhIdm5PQ1h4SlZOUExFRERqaHpPT2NUWWNEbWoySDFyamxfb1JlWjk3MGgwVWY3OVZmMWpUaHVhQ2JQTS1FMWlCR1pQcUVhUUN3RzZCVjBpYXlId1h0S25KcUU5Qm9PaFdEM2hUR3g3VGNKSWc1VENFZW9JZG52Z3MyZlBzSUpEQWE3Nm5qZ0VlSjNkbF9PVUd1N3hpVWJmc3otN2tyY21DYTFYb1J1WFd3?oc=5&hl=fr&gl=FR&ceid=FR:fr",
+          "extraction_method": "HTML",
+          "text": "Google Actualités",
+          "error": ""
+        },
+        {
+          "discovery_title": "The Witcher 3 Remastered sur Switch 2 : on en sait un peu plus - Switch-Actu",
+          "publisher": "Switch-Actu",
+          "publisher_url": "https://www.switch-actu.fr",
+          "published_at": "Sun, 30 Aug 2026 09:03:00 GMT",
+          "relevance_score": 70,
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb1lKU0V2My1HTlB4ejFjdEJxUlBKZVh3YmpiRUc2cl9nb2RkbHktbzlKV0MzdTY4QWtlMHk2aHFTZW9qRlVVU0JnOWpqRDkzMlNnN1JwTmhQZE5Dd0NIaFhKN0h0V3pUdGJGMDVYNlM4T3FnM2VYTFNEY0drMHNzUFZSR3lHOTc2T21rVUdndEpfTGFoNWpXR2swX0lXY01UX2w4Y0VCUFFPLV9rOXdGUTFkU2l4Y0ho?oc=5",
+          "fetch_status": "WEAK",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb1lKU0V2My1HTlB4ejFjdEJxUlBKZVh3YmpiRUc2cl9nb2RkbHktbzlKV0MzdTY4QWtlMHk2aHFTZW9qRlVVU0JnOWpqRDkzMlNnN1JwTmhQZE5Dd0NIaFhKN0h0V3pUdGJGMDVYNlM4T3FnM2VYTFNEY0drMHNzUFZSR3lHOTc2T21rVUdndEpfTGFoNWpXR2swX0lXY01UX2w4Y0VCUFFPLV9rOXdGUTFkU2l4Y0ho?oc=5&hl=fr&gl=FR&ceid=FR:fr",
+          "extraction_method": "HTML",
+          "text": "Google Actualités",
+          "error": ""
+        },
+        {
+          "discovery_title": "The Witcher 3 Remastered sortira en septembre gratuitement pour tous les possesseurs du jeu - IGN France",
+          "publisher": "IGN France",
+          "publisher_url": "https://fr.ign.com",
+          "published_at": "Tue, 25 Aug 2026 20:19:00 GMT",
+          "relevance_score": 70,
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSm8wYmdDWVUyMU5ETHFFZDhINGVmeTNVbnBOSkdCQVhIc194cE5VYWxBenFudUJmcFBadkg4Z3hFYVNQYjlWTUR5RlFYWm1NQThjaVZZZjBwdHVwalN4VGhIc0R3bDl0MVhvOWd3aXpMZzJwRW1KaDBtWnFveXRyNERPeGN2TXBQTTlWTWJvZzh2cnJZR2FoRTd0YVVheHE0VWZDX2dvZ21IN00xci11OFVBbWFabXlWT3AySEhjN1R0LWp0ZjU1MzJqUHpzWDU5djcxalVCWQ?oc=5",
+          "fetch_status": "WEAK",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSm8wYmdDWVUyMU5ETHFFZDhINGVmeTNVbnBOSkdCQVhIc194cE5VYWxBenFudUJmcFBadkg4Z3hFYVNQYjlWTUR5RlFYWm1NQThjaVZZZjBwdHVwalN4VGhIc0R3bDl0MVhvOWd3aXpMZzJwRW1KaDBtWnFveXRyNERPeGN2TXBQTTlWTWJvZzh2cnJZR2FoRTd0YVVheHE0VWZDX2dvZ21IN00xci11OFVBbWFabXlWT3AySEhjN1R0LWp0ZjU1MzJqUHpzWDU5djcxalVCWQ?oc=5&hl=fr&gl=FR&ceid=FR:fr",
+          "extraction_method": "HTML",
+          "text": "Google Actualités",
+          "error": ""
+        },
+        {
+          "discovery_title": "The Witcher 3 Remastered sort le 29 septembre et sera gratuit - Univers-Simu.com",
+          "publisher": "Univers-Simu.com",
+          "publisher_url": "https://www.univers-simu.com",
+          "published_at": "Wed, 26 Aug 2026 17:01:20 GMT",
+          "relevance_score": 70,
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzVHRHg5ZEJkTzhtXzFYMFlicjZhWHZvWk10Smc5eWtOZERYQllpakRyS3EwaDBtTHg4T3hON1pQamVLNkNpQnVhVFY0ODdyakRoMXVkaG1ybVZNMUVFRFl2Z1RWOW1fSzJHdWRjUVg2MndxM1lVYTBITGZHc3JYTnJobDctNGF2NEZYbGRQY1AxeWtmSXZnNERuQjBhemlZ?oc=5",
+          "fetch_status": "WEAK",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzVHRHg5ZEJkTzhtXzFYMFlicjZhWHZvWk10Smc5eWtOZERYQllpakRyS3EwaDBtTHg4T3hON1pQamVLNkNpQnVhVFY0ODdyakRoMXVkaG1ybVZNMUVFRFl2Z1RWOW1fSzJHdWRjUVg2MndxM1lVYTBITGZHc3JYTnJobDctNGF2NEZYbGRQY1AxeWtmSXZnNERuQjBhemlZ?oc=5&hl=fr&gl=FR&ceid=FR:fr",
+          "extraction_method": "HTML",
+          "text": "Google Actualités",
+          "error": ""
+        },
+        {
+          "discovery_title": "The Witcher 3 Remastered arrive gratuitement : path tracing, DLSS 4.5 et gameplay modernisé - GinjFo",
+          "publisher": "GinjFo",
+          "publisher_url": "https://www.ginjfo.com",
+          "published_at": "Wed, 26 Aug 2026 08:50:59 GMT",
+          "relevance_score": 70,
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTDRJaDA4TVZkY0Z1TUJVRWxWOGxtbWtZV2MtLWowN2txMWtPUGtZamJNYThPVDk0dVAxdFR2NzVPQlctVjBSSFBqZWtiQk1DU3lGcG5LeDktTnpkWkdLQ3hoWXRvVmxnY3h2Q09mSjRfVW5qanNKNGtNVENyWC1ETk9NMVRsTkNHTmRuNFYwU3JEbG1tR004a0F3ZE85YXdiaHdOV1FfaTR1bTFIZG5raERhRGJNRk1NNW5QczZGaWljOTJqbGJ2NjhqTndrUnF2RWR2STFCbWlzV1BqbGpra1JMd3hCU2dYZ1FudE9YU01BMUxz?oc=5",
+          "fetch_status": "WEAK",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTDRJaDA4TVZkY0Z1TUJVRWxWOGxtbWtZV2MtLWowN2txMWtPUGtZamJNYThPVDk0dVAxdFR2NzVPQlctVjBSSFBqZWtiQk1DU3lGcG5LeDktTnpkWkdLQ3hoWXRvVmxnY3h2Q09mSjRfVW5qanNKNGtNVENyWC1ETk9NMVRsTkNHTmRuNFYwU3JEbG1tR004a0F3ZE85YXdiaHdOV1FfaTR1bTFIZG5raERhRGJNRk1NNW5QczZGaWljOTJqbGJ2NjhqTndrUnF2RWR2STFCbWlzV1BqbGpra1JMd3hCU2dYZ1FudE9YU01BMUxz?oc=5&hl=fr&gl=FR&ceid=FR:fr",
+          "extraction_method": "HTML",
+          "text": "Google Actualités",
+          "error": ""
+        }
+      ],
       "source_summary": {
-        "total_sources": 2,
+        "total_sources": 7,
         "usable_sources": 0,
-        "weak_sources": 2,
-        "unusable_sources": 0
+        "weak_sources": 7,
+        "unusable_sources": 0,
+        "original": {
+          "total": 2,
+          "usable": 0,
+          "weak": 2,
+          "unusable": 0
+        },
+        "discovered": {
+          "total": 5,
+          "usable": 0,
+          "weak": 5,
+          "unusable": 0
+        }
       },
       "claims": [
         {

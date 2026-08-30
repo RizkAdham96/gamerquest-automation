@@ -10,10 +10,17 @@ from researcher import (
     extract_json_ld_text,
     extract_embedded_json_text,
     extract_best_page_text,
+    build_discovery_query,
+    parse_discovery_feed,
+    rank_discovered_sources,
 )
 
 
 class TestTrendingSeoResearcher(unittest.TestCase):
+
+    # =====================================================
+    # CLAIM SAFETY TESTS
+    # =====================================================
 
     def test_normalize_confirmed(self):
         self.assertEqual(
@@ -351,7 +358,7 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     # =====================================================
-    # BEST CONTENT SELECTION
+    # BEST CONTENT SELECTION TESTS
     # =====================================================
 
     def test_structured_data_is_preferred_over_tiny_html_shell(self):
@@ -412,9 +419,176 @@ class TestTrendingSeoResearcher(unittest.TestCase):
             text,
         )
 
+    # =====================================================
+    # V4 SOURCE DISCOVERY TESTS
+    # =====================================================
+
+    def test_build_discovery_query_uses_topic_and_keyword(self):
+        scored_topic = {
+            "topic": "The Witcher 3: Wild Hunt Remastered",
+            "seo": {
+                "primary_keyword": "The Witcher 3 Remastered"
+            },
+        }
+
+        query = build_discovery_query(
+            scored_topic
+        )
+
+        self.assertIn(
+            "The Witcher 3 Remastered",
+            query,
+        )
+
+    def test_parse_discovery_feed_extracts_articles(self):
+        xml = """
+        <rss version="2.0">
+          <channel>
+
+            <item>
+              <title>
+                The Witcher 3 Remastered officially announced
+              </title>
+
+              <link>
+                https://example.com/witcher-remastered
+              </link>
+
+              <pubDate>
+                Sat, 29 Aug 2026 20:00:00 GMT
+              </pubDate>
+
+              <source url="https://example.com">
+                Example Gaming
+              </source>
+            </item>
+
+            <item>
+              <title>
+                Witcher remaster platforms revealed
+              </title>
+
+              <link>
+                https://publisher.example.com/news
+              </link>
+
+              <pubDate>
+                Sat, 29 Aug 2026 21:00:00 GMT
+              </pubDate>
+
+              <source url="https://publisher.example.com">
+                Publisher
+              </source>
+            </item>
+
+          </channel>
+        </rss>
+        """
+
+        articles = parse_discovery_feed(
+            xml
+        )
+
+        self.assertEqual(
+            len(articles),
+            2,
+        )
+
+        self.assertEqual(
+            articles[0]["title"],
+            "The Witcher 3 Remastered officially announced",
+        )
+
+        self.assertEqual(
+            articles[0]["url"],
+            "https://example.com/witcher-remastered",
+        )
+
+    def test_discovery_feed_rejects_non_http_urls(self):
+        xml = """
+        <rss version="2.0">
+          <channel>
+
+            <item>
+              <title>Unsafe result</title>
+              <link>file:///etc/passwd</link>
+            </item>
+
+          </channel>
+        </rss>
+        """
+
+        articles = parse_discovery_feed(
+            xml
+        )
+
+        self.assertEqual(
+            articles,
+            [],
+        )
+
+    def test_rank_discovered_sources_prefers_relevant_result(self):
+        topic = {
+            "topic": "The Witcher 3: Wild Hunt Remastered",
+            "seo": {
+                "primary_keyword": "The Witcher 3 Remastered"
+            },
+        }
+
+        sources = [
+            {
+                "title": "Random gaming news today",
+                "url": "https://example.com/random",
+                "publisher": "Example",
+            },
+            {
+                "title": "The Witcher 3 Remastered officially announced",
+                "url": "https://example.com/witcher-remastered",
+                "publisher": "Example Gaming",
+            },
+        ]
+
+        ranked = rank_discovered_sources(
+            topic,
+            sources,
+        )
+
+        self.assertEqual(
+            ranked[0]["url"],
+            "https://example.com/witcher-remastered",
+        )
+
+    def test_duplicate_discovery_urls_are_removed(self):
+        topic = {
+            "topic": "The Witcher 3 Remastered",
+            "seo": {
+                "primary_keyword": "The Witcher 3 Remastered"
+            },
+        }
+
+        sources = [
+            {
+                "title": "Witcher announcement",
+                "url": "https://example.com/article",
+                "publisher": "Example",
+            },
+            {
+                "title": "Same Witcher announcement",
+                "url": "https://example.com/article",
+                "publisher": "Example",
+            },
+        ]
+
+        ranked = rank_discovered_sources(
+            topic,
+            sources,
+        )
+
+        self.assertEqual(
+            len(ranked),
+            1,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
-    build_discovery_query,
-    parse_discovery_feed,
-    rank_discovered_sources,

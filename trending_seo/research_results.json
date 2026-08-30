@@ -1,0 +1,94 @@
+{
+  "version": "2.0",
+  "updated_at": "2026-08-30T21:05:28.946885+00:00",
+  "topics": [
+    {
+      "id": "witcher3-remastered-gamescom-2026",
+      "topic": "The Witcher 3: Wild Hunt Remastered",
+      "seo_score": 81,
+      "seo_decision": "WRITE",
+      "created_at": "2026-08-30T21:05:28.946864+00:00",
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.gamescom.global/en",
+          "title": "The Witcher 3: Wild Hunt — Remastered | Official Announcement Trailer",
+          "evidence": "Gamescom lists the CD PROJEKT RED remaster announcement trailer among its Opening Night Live 2026 trailers."
+        },
+        {
+          "type": "official",
+          "url": "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are",
+          "title": "gamescom award 2026: the winners are!",
+          "evidence": "The Witcher 3 Remastered and Songs of the Past won the consumer-voted Best Trailer / Announcement award."
+        }
+      ],
+      "fetched_sources": [
+        {
+          "type": "official",
+          "title": "The Witcher 3: Wild Hunt — Remastered | Official Announcement Trailer",
+          "expected_evidence": "Gamescom lists the CD PROJEKT RED remaster announcement trailer among its Opening Night Live 2026 trailers.",
+          "url": "https://www.gamescom.global/en",
+          "fetch_status": "USABLE",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://www.gamescom.global/en",
+          "text": "gamescom 2027 | gamescom",
+          "error": ""
+        },
+        {
+          "type": "official",
+          "title": "gamescom award 2026: the winners are!",
+          "expected_evidence": "The Witcher 3 Remastered and Songs of the Past won the consumer-voted Best Trailer / Announcement award.",
+          "url": "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are",
+          "fetch_status": "USABLE",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are",
+          "text": "gamescom award 2026: the winners are! | gamescom",
+          "error": ""
+        }
+      ],
+      "source_summary": {
+        "total_sources": 2,
+        "usable_sources": 2,
+        "unusable_sources": 0
+      },
+      "claims": [
+        {
+          "claim": "Gamescom lists the CD PROJEKT RED remaster announcement trailer among its Opening Night Live 2026 trailers.",
+          "status": "UNKNOWN",
+          "sources": [
+            "https://www.gamescom.global/en"
+          ]
+        },
+        {
+          "claim": "The Witcher 3 Remastered and Songs of the Past won the consumer-voted Best Trailer / Announcement award.",
+          "status": "UNKNOWN",
+          "sources": [
+            "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are"
+          ]
+        }
+      ],
+      "fact_pack": {
+        "confirmed_facts": [],
+        "blocked_claims": [
+          {
+            "claim": "Gamescom lists the CD PROJEKT RED remaster announcement trailer among its Opening Night Live 2026 trailers.",
+            "status": "UNKNOWN",
+            "sources": [
+              "https://www.gamescom.global/en"
+            ]
+          },
+          {
+            "claim": "The Witcher 3 Remastered and Songs of the Past won the consumer-voted Best Trailer / Announcement award.",
+            "status": "UNKNOWN",
+            "sources": [
+              "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are"
+            ]
+          }
+        ]
+      },
+      "research_status": "PENDING_VERIFICATION"
+    }
+  ]
+}

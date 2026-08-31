@@ -1,8 +1,20 @@
 # =========================================================
-# GAMERQUEST TRENDING SEO WRITER V2
+# GAMERQUEST TRENDING SEO WRITER V3
 # =========================================================
 
+import json
+import os
+import re
+
+try:
+    from groq import Groq
+except Exception:
+    Groq = None
+
+
 ALLOWED_STATUS = "CONFIRMED"
+GROQ_MODEL = "openai/gpt-oss-120b"
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
 
 def _normalize_status(status):
@@ -103,6 +115,7 @@ def build_writer_input(research_record):
         }
 
     confirmed_facts = get_confirmed_facts(research_record)
+
     base = {
         "topic_id": _safe_string(research_record.get("id", "")),
         "topic": _safe_string(research_record.get("topic", "")),
@@ -172,9 +185,13 @@ def build_writer_prompt(writer_input):
 
     lines.extend([
         "",
-        "Return a useful French draft based strictly on those confirmed facts.",
-        "Do not make the draft publishable. A separate validator decides that.",
+        "Write a useful French draft based strictly on those confirmed facts.",
+        "If there is not enough confirmed information for a useful article, return valid JSON with status SKIPPED_INSUFFICIENT_CONFIRMED_FACTS.",
+        "",
+        "Return ONLY valid JSON. Do not use Markdown fences.",
+        'Required JSON shape: {"title":"","content":"","meta_description":""}',
     ])
+
     return "\n".join(lines)
 
 
@@ -196,7 +213,10 @@ def build_generation_request(writer_input):
             "confirmed_facts": [],
         }
 
-    confirmed_facts = filter_confirmed_facts(writer_input.get("confirmed_facts", []))
+    confirmed_facts = filter_confirmed_facts(
+        writer_input.get("confirmed_facts", [])
+    )
+
     if not confirmed_facts:
         return {
             "status": "SKIPPED_NO_CONFIRMED_FACTS",
@@ -206,14 +226,25 @@ def build_generation_request(writer_input):
             "confirmed_facts": [],
         }
 
+    seo = writer_input.get("seo", {})
+    if not isinstance(seo, dict):
+        seo = {}
+
     safe_writer_input = {
         "status": "READY_FOR_WRITING",
         "topic_id": _safe_string(writer_input.get("topic_id", "")),
         "topic": _safe_string(writer_input.get("topic", "")),
         "confirmed_facts": confirmed_facts,
-        "seo": writer_input.get("seo", {}) if isinstance(writer_input.get("seo", {}), dict) else {},
+        "seo": {
+            "primary_keyword": _safe_string(seo.get("primary_keyword", "")),
+            "secondary_keywords": _safe_list(seo.get("secondary_keywords", [])),
+            "search_intent": _safe_string(seo.get("search_intent", "")),
+            "suggested_title": _safe_string(seo.get("suggested_title", "")),
+        },
     }
+
     prompt = build_writer_prompt(safe_writer_input)
+
     if not prompt:
         return {
             "status": "SKIPPED_NO_CONFIRMED_FACTS",
@@ -232,6 +263,7 @@ def build_generation_request(writer_input):
         "seo": safe_writer_input["seo"],
         "prompt": prompt,
         "publishable": False,
+        "published": False,
     }
 
 
@@ -278,8 +310,13 @@ def _normalize_unsupported_claims(unsupported_claims):
     return output
 
 
-def validate_draft_against_fact_pack(draft, confirmed_facts, unsupported_claims=None):
+def validate_draft_against_fact_pack(
+    draft,
+    confirmed_facts,
+    unsupported_claims=None,
+):
     normalized_draft = normalize_generated_draft(draft)
+
     if normalized_draft.get("status") == "BLOCKED_EMPTY_DRAFT":
         return {
             "status": "BLOCKED_EMPTY_DRAFT",
@@ -288,6 +325,7 @@ def validate_draft_against_fact_pack(draft, confirmed_facts, unsupported_claims=
         }
 
     safe_facts = filter_confirmed_facts(confirmed_facts)
+
     if not safe_facts:
         return {
             "status": "BLOCKED_NO_CONFIRMED_FACTS",
@@ -296,6 +334,7 @@ def validate_draft_against_fact_pack(draft, confirmed_facts, unsupported_claims=
         }
 
     unsupported = _normalize_unsupported_claims(unsupported_claims)
+
     if unsupported:
         return {
             "status": "BLOCKED_UNSUPPORTED_CLAIMS",
@@ -321,6 +360,7 @@ def apply_validation_result(draft, validation):
         }
 
     validation_status = _safe_string(validation.get("status", ""))
+
     if validation_status != "VALIDATION_PASSED":
         result = dict(normalized_draft)
         result["status"] = validation_status or "BLOCKED_VALIDATION_ERROR"
@@ -342,10 +382,189 @@ def apply_validation_result(draft, validation):
     return result
 
 
+def parse_ai_draft_response(raw):
+    if not isinstance(raw, str):
+        return {}
+
+    cleaned = raw.strip()
+    if not cleaned:
+        return {}
+
+    cleaned = re.sub(
+        r"^```(?:json)?\s*",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(r"\s*```$", "", cleaned)
+
+    try:
+        parsed = json.loads(cleaned)
+    except json.JSONDecodeError:
+        start = cleaned.find("{")
+        end = cleaned.rfind("}")
+        if start == -1 or end == -1 or end <= start:
+            return {}
+        try:
+            parsed = json.loads(cleaned[start:end + 1])
+        except json.JSONDecodeError:
+            return {}
+
+    if not isinstance(parsed, dict):
+        return {}
+
+    status = _safe_string(parsed.get("status", ""))
+    if status == "SKIPPED_INSUFFICIENT_CONFIRMED_FACTS":
+        return {
+            "status": "SKIPPED_INSUFFICIENT_CONFIRMED_FACTS"
+        }
+
+    return {
+        "title": _safe_string(parsed.get("title", "")),
+        "content": _safe_string(parsed.get("content", "")),
+        "meta_description": _safe_string(parsed.get("meta_description", "")),
+    }
+
+
+def _build_default_groq_client():
+    if not GROQ_API_KEY or Groq is None:
+        return None
+
+    try:
+        return Groq(
+            api_key=GROQ_API_KEY,
+            max_retries=0,
+        )
+    except Exception:
+        return None
+
+
+def generate_draft_with_ai(
+    generation_request,
+    client=None,
+    model=GROQ_MODEL,
+):
+    if not isinstance(generation_request, dict):
+        return {
+            "status": "SKIPPED_NO_CONFIRMED_FACTS",
+            "publishable": False,
+            "published": False,
+        }
+
+    request_status = _safe_string(
+        generation_request.get("status", "")
+    )
+
+    should_call_ai = bool(
+        generation_request.get("should_call_ai", False)
+    )
+
+    if request_status != "READY_FOR_AI" or not should_call_ai:
+        return {
+            "status": request_status or "SKIPPED_NO_CONFIRMED_FACTS",
+            "publishable": False,
+            "published": False,
+        }
+
+    prompt = _safe_string(
+        generation_request.get("prompt", "")
+    )
+
+    if not prompt:
+        return {
+            "status": "BLOCKED_INVALID_GENERATION_REQUEST",
+            "publishable": False,
+            "published": False,
+        }
+
+    if client is None:
+        client = _build_default_groq_client()
+
+    if client is None:
+        return {
+            "status": "BLOCKED_AI_UNAVAILABLE",
+            "publishable": False,
+            "published": False,
+            "error": (
+                "Groq Free client unavailable. "
+                "No paid fallback."
+            ),
+        }
+
+    try:
+        response = (
+            client
+            .chat
+            .completions
+            .create(
+                model=model,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": (
+                            "You are the GamerQuest FR SEO draft writer. "
+                            "Use only supplied confirmed facts. "
+                            "Return JSON only."
+                        ),
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt,
+                    },
+                ],
+                temperature=0,
+            )
+        )
+
+        raw_content = response.choices[0].message.content
+
+    except Exception as error:
+        return {
+            "status": "BLOCKED_AI_UNAVAILABLE",
+            "publishable": False,
+            "published": False,
+            "error": f"{type(error).__name__}: {error}",
+        }
+
+    parsed = parse_ai_draft_response(raw_content)
+
+    if not parsed:
+        return {
+            "status": "BLOCKED_INVALID_AI_RESPONSE",
+            "publishable": False,
+            "published": False,
+        }
+
+    if parsed.get("status") == "SKIPPED_INSUFFICIENT_CONFIRMED_FACTS":
+        return {
+            "status": "SKIPPED_INSUFFICIENT_CONFIRMED_FACTS",
+            "publishable": False,
+            "published": False,
+        }
+
+    normalized = normalize_generated_draft(parsed)
+
+    if normalized.get("status") == "BLOCKED_EMPTY_DRAFT":
+        return {
+            "status": "BLOCKED_INVALID_AI_RESPONSE",
+            "title": normalized.get("title", ""),
+            "content": normalized.get("content", ""),
+            "meta_description": normalized.get("meta_description", ""),
+            "publishable": False,
+            "published": False,
+        }
+
+    normalized["publishable"] = False
+    normalized["published"] = False
+    return normalized
+
+
 def build_skipped_result(research_record):
     writer_input = build_writer_input(research_record)
+
     if writer_input.get("status") == "READY_FOR_WRITING":
         return None
+
     return {
         "topic_id": writer_input.get("topic_id", ""),
         "topic": writer_input.get("topic", ""),
@@ -366,7 +585,10 @@ def prepare_article(research_record):
     return {
         "topic_id": writer_input.get("topic_id", ""),
         "topic": writer_input.get("topic", ""),
-        "writer_status": generation_request.get("status", "SKIPPED_NO_CONFIRMED_FACTS"),
+        "writer_status": generation_request.get(
+            "status",
+            "SKIPPED_NO_CONFIRMED_FACTS",
+        ),
         "writer_input": writer_input,
         "generation_request": generation_request,
         "article": None,

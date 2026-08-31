@@ -1,8 +1,10 @@
 import json
 import html
 import ipaddress
+import os
 import re
 import socket
+import time
 import xml.etree.ElementTree as ET
 
 from datetime import datetime, timezone
@@ -10,6 +12,8 @@ from pathlib import Path
 from urllib.parse import urlparse, quote_plus, urljoin
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
+
+from groq import Groq, RateLimitError
 
 
 # =========================================================
@@ -40,10 +44,42 @@ MAX_EXTRACTED_CHARS = 25_000
 MAX_DISCOVERY_RESULTS = 8
 MAX_DISCOVERED_SOURCES_TO_FETCH = 5
 
+# Cost / quota protection
+MAX_CLAIMS_PER_RUN = 3
+MAX_EVIDENCE_SOURCES_FOR_AI = 5
+MAX_EVIDENCE_CHARS_PER_SOURCE = 6_000
+
+GROQ_API_KEY = os.environ.get(
+    "GROQ_API_KEY",
+    "",
+)
+
+GROQ_MODEL = "openai/gpt-oss-120b"
+
+GROQ_MAX_RETRIES = 3
+GROQ_DEFAULT_WAIT_SECONDS = 10
+
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; GamerQuestFR-Research/5.0; "
+    "Mozilla/5.0 "
+    "(compatible; GamerQuestFR-Research/6.0; "
     "+https://gamerquestfr.com/)"
 )
+
+
+# =========================================================
+# GROQ CLIENT
+# =========================================================
+
+if GROQ_API_KEY:
+
+    GROQ_CLIENT = Groq(
+        api_key=GROQ_API_KEY,
+        max_retries=0,
+    )
+
+else:
+
+    GROQ_CLIENT = None
 
 
 # =========================================================
@@ -52,10 +88,17 @@ USER_AGENT = (
 
 def normalize_claim_status(status):
 
-    if not isinstance(status, str):
+    if not isinstance(
+        status,
+        str,
+    ):
         return "UNKNOWN"
 
-    normalized = status.strip().upper()
+    normalized = (
+        status
+        .strip()
+        .upper()
+    )
 
     if normalized not in ALLOWED_STATUSES:
         return "UNKNOWN"
@@ -65,7 +108,12 @@ def normalize_claim_status(status):
 
 def should_allow_claim(status):
 
-    return normalize_claim_status(status) == "CONFIRMED"
+    return (
+        normalize_claim_status(
+            status
+        )
+        == "CONFIRMED"
+    )
 
 
 def build_verified_fact_pack(claims):
@@ -75,40 +123,62 @@ def build_verified_fact_pack(claims):
 
     for claim in claims:
 
-        if not isinstance(claim, dict):
+        if not isinstance(
+            claim,
+            dict,
+        ):
             continue
 
-        normalized_claim = dict(claim)
+        normalized_claim = dict(
+            claim
+        )
 
-        status = normalize_claim_status(
-            normalized_claim.get(
-                "status",
-                "UNKNOWN",
+        status = (
+            normalize_claim_status(
+                normalized_claim.get(
+                    "status",
+                    "UNKNOWN",
+                )
             )
         )
 
-        normalized_claim["status"] = status
+        normalized_claim[
+            "status"
+        ] = status
 
-        sources = normalized_claim.get(
-            "sources",
-            [],
+        sources = (
+            normalized_claim.get(
+                "sources",
+                [],
+            )
         )
 
-        if not isinstance(sources, list):
+        if not isinstance(
+            sources,
+            list,
+        ):
             sources = []
 
-        normalized_claim["sources"] = sources
+        normalized_claim[
+            "sources"
+        ] = sources
 
-        # Never allow a claim to be CONFIRMED
-        # without at least one source.
+        # CONFIRMED without evidence
+        # must never pass.
         if (
             status == "CONFIRMED"
             and not sources
         ):
-            status = "UNKNOWN"
-            normalized_claim["status"] = status
 
-        if should_allow_claim(status):
+            normalized_claim[
+                "status"
+            ] = "UNKNOWN"
+
+            status = "UNKNOWN"
+
+        if should_allow_claim(
+            status
+        ):
 
             confirmed_facts.append(
                 normalized_claim
@@ -135,7 +205,9 @@ def clean_html_text(raw_html):
     if not raw_html:
         return ""
 
-    text = str(raw_html)
+    text = str(
+        raw_html
+    )
 
     text = re.sub(
         r"(?is)<script[^>]*>.*?</script>",
@@ -167,7 +239,9 @@ def clean_html_text(raw_html):
         text,
     )
 
-    text = html.unescape(text)
+    text = html.unescape(
+        text
+    )
 
     text = re.sub(
         r"\s+",
@@ -202,21 +276,32 @@ def _collect_json_text(
     parent_key=None,
 ):
 
-    if isinstance(value, dict):
+    if isinstance(
+        value,
+        dict,
+    ):
 
-        for key, child in value.items():
+        for key, child in (
+            value.items()
+        ):
 
             if key in USEFUL_JSON_KEYS:
 
-                if isinstance(child, str):
+                if isinstance(
+                    child,
+                    str,
+                ):
 
                     cleaned = re.sub(
                         r"\s+",
                         " ",
-                        html.unescape(child),
+                        html.unescape(
+                            child
+                        ),
                     ).strip()
 
                     if cleaned:
+
                         collected.append(
                             cleaned
                         )
@@ -240,7 +325,10 @@ def _collect_json_text(
                     key,
                 )
 
-    elif isinstance(value, list):
+    elif isinstance(
+        value,
+        list,
+    ):
 
         for item in value:
 
@@ -251,14 +339,19 @@ def _collect_json_text(
             )
 
 
-def _deduplicate_text_parts(parts):
+def _deduplicate_text_parts(
+    parts,
+):
 
     seen = set()
     result = []
 
     for part in parts:
 
-        if not isinstance(part, str):
+        if not isinstance(
+            part,
+            str,
+        ):
             continue
 
         cleaned = re.sub(
@@ -270,12 +363,16 @@ def _deduplicate_text_parts(parts):
         if not cleaned:
             continue
 
-        normalized = cleaned.lower()
+        normalized = (
+            cleaned.lower()
+        )
 
         if normalized in seen:
             continue
 
-        seen.add(normalized)
+        seen.add(
+            normalized
+        )
 
         result.append(
             cleaned
@@ -290,7 +387,9 @@ def _deduplicate_text_parts(parts):
 # JSON-LD EXTRACTION
 # =========================================================
 
-def extract_json_ld_text(raw_html):
+def extract_json_ld_text(
+    raw_html,
+):
 
     if not raw_html:
         return ""
@@ -352,8 +451,10 @@ def extract_json_ld_text(raw_html):
             collected,
         )
 
-    return _deduplicate_text_parts(
-        collected
+    return (
+        _deduplicate_text_parts(
+            collected
+        )
     )
 
 
@@ -368,7 +469,9 @@ def extract_embedded_json_text(
     if not raw_html:
         return ""
 
-    text = str(raw_html)
+    text = str(
+        raw_html
+    )
 
     patterns = [
         r"""(?is)
@@ -408,9 +511,7 @@ def extract_embedded_json_text(
 
         for block in blocks:
 
-            block = (
-                block.strip()
-            )
+            block = block.strip()
 
             if not block:
                 continue
@@ -419,10 +520,8 @@ def extract_embedded_json_text(
 
             try:
 
-                parsed = (
-                    json.loads(
-                        block
-                    )
+                parsed = json.loads(
+                    block
                 )
 
             except (
@@ -452,8 +551,10 @@ def extract_embedded_json_text(
                 collected,
             )
 
-    return _deduplicate_text_parts(
-        collected
+    return (
+        _deduplicate_text_parts(
+            collected
+        )
     )
 
 
@@ -489,16 +590,19 @@ def extract_best_page_text(
     parts = []
 
     if json_ld_text:
+
         parts.append(
             json_ld_text
         )
 
     if embedded_text:
+
         parts.append(
             embedded_text
         )
 
     if plain_text:
+
         parts.append(
             plain_text
         )
@@ -515,7 +619,7 @@ def extract_best_page_text(
 
 
 # =========================================================
-# BASIC URL HELPERS
+# URL HELPERS
 # =========================================================
 
 def _is_http_url(url):
@@ -553,8 +657,10 @@ def _is_public_ip(
 
     try:
 
-        ip = ipaddress.ip_address(
-            ip_text
+        ip = (
+            ipaddress.ip_address(
+                ip_text
+            )
         )
 
     except ValueError:
@@ -600,8 +706,10 @@ def _hostname_is_obviously_unsafe(
             hostname
         )
 
-        return not _is_public_ip(
-            hostname
+        return not (
+            _is_public_ip(
+                hostname
+            )
         )
 
     except ValueError:
@@ -638,8 +746,6 @@ def is_safe_public_url(url):
 
     try:
 
-        # If hostname itself is an IP,
-        # it has already been validated above.
         ipaddress.ip_address(
             hostname
         )
@@ -686,7 +792,7 @@ def is_safe_public_url(url):
 
 
 # =========================================================
-# V5 — GOOGLE NEWS URL DETECTION
+# GOOGLE NEWS URL DETECTION
 # =========================================================
 
 def is_google_news_url(url):
@@ -720,7 +826,7 @@ def is_google_news_url(url):
 
 
 # =========================================================
-# V5 — PUBLISHER URL EXTRACTION
+# GOOGLE NEWS PUBLISHER EXTRACTION
 # =========================================================
 
 def extract_publisher_url_from_google_news_html(
@@ -774,16 +880,14 @@ def extract_publisher_url_from_google_news_html(
 
         try:
 
-            parsed = urlparse(
-                candidate
+            hostname = (
+                urlparse(
+                    candidate
+                ).hostname
             )
 
         except Exception:
             continue
-
-        hostname = (
-            parsed.hostname
-        )
 
         if _hostname_is_obviously_unsafe(
             hostname
@@ -794,10 +898,6 @@ def extract_publisher_url_from_google_news_html(
 
     return ""
 
-
-# =========================================================
-# V5 — DISCOVERY URL RESOLUTION
-# =========================================================
 
 def resolve_discovery_url(
     url,
@@ -815,14 +915,12 @@ def resolve_discovery_url(
         url
     ):
 
-        result["status"] = (
-            "INVALID"
-        )
+        result[
+            "status"
+        ] = "INVALID"
 
         return result
 
-    # Normal publisher URL:
-    # no wrapper resolution required.
     if not is_google_news_url(
         url
     ):
@@ -837,9 +935,9 @@ def resolve_discovery_url(
 
         except Exception:
 
-            result["status"] = (
-                "INVALID"
-            )
+            result[
+                "status"
+            ] = "INVALID"
 
             return result
 
@@ -847,9 +945,9 @@ def resolve_discovery_url(
             hostname
         ):
 
-            result["status"] = (
-                "UNSAFE"
-            )
+            result[
+                "status"
+            ] = "UNSAFE"
 
             return result
 
@@ -857,9 +955,9 @@ def resolve_discovery_url(
             "resolved_url"
         ] = url
 
-        result["status"] = (
-            "DIRECT"
-        )
+        result[
+            "status"
+        ] = "DIRECT"
 
         result[
             "can_fetch_as_evidence"
@@ -875,7 +973,6 @@ def resolve_discovery_url(
     )
 
     if not publisher_url:
-
         return result
 
     result[
@@ -934,12 +1031,10 @@ def evaluate_fetch_result(
 
 
 # =========================================================
-# RAW HTML FETCH
+# RAW PAGE FETCHER
 # =========================================================
 
-def fetch_raw_html_page(
-    url,
-):
+def fetch_raw_html_page(url):
 
     result = {
         "url": url,
@@ -964,7 +1059,9 @@ def fetch_raw_html_page(
     request = Request(
         url,
         headers={
-            "User-Agent": USER_AGENT,
+            "User-Agent": (
+                USER_AGENT
+            ),
             "Accept": (
                 "text/html,"
                 "application/xhtml+xml"
@@ -997,9 +1094,13 @@ def fetch_raw_html_page(
 
                 return result
 
-            status_code = (
-                response.getcode()
-            )
+            result[
+                "http_status"
+            ] = response.getcode()
+
+            result[
+                "final_url"
+            ] = final_url
 
             content_type = (
                 response.headers.get(
@@ -1007,14 +1108,6 @@ def fetch_raw_html_page(
                     "",
                 )
             )
-
-            result[
-                "http_status"
-            ] = status_code
-
-            result[
-                "final_url"
-            ] = final_url
 
             result[
                 "content_type"
@@ -1059,16 +1152,12 @@ def fetch_raw_html_page(
                 or "utf-8"
             )
 
-            raw_html = (
-                raw_bytes.decode(
-                    charset,
-                    errors="replace",
-                )
-            )
-
             result[
                 "html"
-            ] = raw_html
+            ] = raw_bytes.decode(
+                charset,
+                errors="replace",
+            )
 
             result[
                 "status"
@@ -1083,8 +1172,7 @@ def fetch_raw_html_page(
         ] = error.code
 
         result["error"] = (
-            "HTTP error: "
-            f"{error.code}"
+            f"HTTP error: {error.code}"
         )
 
         return result
@@ -1117,7 +1205,7 @@ def fetch_raw_html_page(
 
 
 # =========================================================
-# PUBLIC ARTICLE FETCHER
+# PUBLIC PAGE FETCHER
 # =========================================================
 
 def fetch_public_page(url):
@@ -1241,7 +1329,6 @@ def fetch_public_page(url):
         extracted_text,
     )
 
-    # Tiny pages cannot be factual evidence.
     if (
         result[
             "fetch_status"
@@ -1260,7 +1347,7 @@ def fetch_public_page(url):
 
 
 # =========================================================
-# V4/V5 — DISCOVERY QUERY
+# DISCOVERY QUERY
 # =========================================================
 
 def build_discovery_query(
@@ -1315,7 +1402,7 @@ def build_discovery_query(
 
 
 # =========================================================
-# RSS DISCOVERY PARSER
+# RSS DISCOVERY
 # =========================================================
 
 def _element_text(
@@ -1432,7 +1519,7 @@ def parse_discovery_feed(
 
 
 # =========================================================
-# DISCOVERY SOURCE RANKING
+# DISCOVERY RANKING
 # =========================================================
 
 def _normalize_words(text):
@@ -1473,8 +1560,7 @@ def _normalize_words(text):
 
     return {
         word
-        for word
-        in words
+        for word in words
         if (
             len(word) >= 3
             and word not in ignored
@@ -1550,10 +1636,7 @@ def rank_discovered_sources(
             url.rstrip("/")
         )
 
-        if (
-            normalized_url
-            in seen_urls
-        ):
+        if normalized_url in seen_urls:
             continue
 
         seen_urls.add(
@@ -1586,7 +1669,9 @@ def rank_discovered_sources(
         )
 
         query_lower = (
-            query.lower().strip()
+            query
+            .lower()
+            .strip()
         )
 
         title_lower = (
@@ -1627,7 +1712,7 @@ def rank_discovered_sources(
 
 
 # =========================================================
-# GOOGLE NEWS RSS DISCOVERY
+# GOOGLE NEWS RSS
 # =========================================================
 
 def build_discovery_feed_url(
@@ -1638,6 +1723,7 @@ def build_discovery_feed_url(
         query,
         str,
     ):
+
         query = ""
 
     query = query.strip()
@@ -1810,10 +1896,6 @@ def fetch_discovery_feed(
         return result
 
 
-# =========================================================
-# DISCOVER TOPIC SOURCES
-# =========================================================
-
 def discover_topic_sources(
     scored_topic,
 ):
@@ -1875,7 +1957,7 @@ def discover_topic_sources(
 
 
 # =========================================================
-# V5 — FETCH + RESOLVE DISCOVERED SOURCES
+# FETCH DISCOVERED SOURCES
 # =========================================================
 
 def fetch_discovered_sources(
@@ -1906,17 +1988,11 @@ def fetch_discovered_sources(
         print(
             "Discovery candidate:"
         )
-
         print(
-            f"  {discovery_url}"
+            discovery_url
         )
 
-        wrapper_fetch = None
         wrapper_html = ""
-
-        # -------------------------------------------------
-        # GOOGLE NEWS WRAPPER
-        # -------------------------------------------------
 
         if is_google_news_url(
             discovery_url
@@ -1965,17 +2041,6 @@ def fetch_discovered_sources(
             )
         )
 
-        if resolved_url:
-
-            print(
-                "Resolved publisher URL: "
-                f"{resolved_url}"
-            )
-
-        # -------------------------------------------------
-        # WRAPPER IS NEVER EVIDENCE
-        # -------------------------------------------------
-
         if not resolution.get(
             "can_fetch_as_evidence"
         ):
@@ -1994,46 +2059,28 @@ def fetch_discovered_sources(
                             "",
                         )
                     ),
-                    "publisher_url": (
-                        source.get(
-                            "publisher_url",
-                            "",
-                        )
-                    ),
                     "published_at": (
                         source.get(
                             "published_at",
                             "",
                         )
                     ),
-                    "relevance_score": (
-                        source.get(
-                            "relevance_score",
-                            0,
-                        )
-                    ),
                     "original_url": (
                         discovery_url
                     ),
+                    "resolved_url": "",
                     "resolution_status": (
                         resolution.get(
-                            "status",
-                            "UNRESOLVED",
+                            "status"
                         )
                     ),
-                    "resolved_url": "",
                     "fetch_status": (
                         "UNRESOLVED"
                     ),
-                    "http_status": None,
-                    "content_type": "",
-                    "final_url": "",
-                    "extraction_method": "",
                     "text": "",
                     "error": (
-                        "Discovery wrapper "
-                        "could not be resolved "
-                        "to a publisher URL."
+                        "Discovery URL "
+                        "could not be resolved."
                     ),
                 }
             )
@@ -2044,12 +2091,9 @@ def fetch_discovered_sources(
 
             continue
 
-        # -------------------------------------------------
-        # FETCH REAL PUBLISHER ARTICLE
-        # -------------------------------------------------
-
         print(
-            "Fetching publisher article..."
+            "Resolved publisher URL: "
+            f"{resolved_url}"
         )
 
         fetch_result = (
@@ -2058,53 +2102,39 @@ def fetch_discovered_sources(
             )
         )
 
-        combined = {
-            "discovery_title": (
-                source.get(
-                    "title",
-                    "",
-                )
-            ),
-            "publisher": (
-                source.get(
-                    "publisher",
-                    "",
-                )
-            ),
-            "publisher_url": (
-                source.get(
-                    "publisher_url",
-                    "",
-                )
-            ),
-            "published_at": (
-                source.get(
-                    "published_at",
-                    "",
-                )
-            ),
-            "relevance_score": (
-                source.get(
-                    "relevance_score",
-                    0,
-                )
-            ),
-            "original_url": (
-                discovery_url
-            ),
-            "resolution_status": (
-                resolution.get(
-                    "status"
-                )
-            ),
-            "resolved_url": (
-                resolved_url
-            ),
-            **fetch_result,
-        }
-
         fetched.append(
-            combined
+            {
+                "discovery_title": (
+                    source.get(
+                        "title",
+                        "",
+                    )
+                ),
+                "publisher": (
+                    source.get(
+                        "publisher",
+                        "",
+                    )
+                ),
+                "published_at": (
+                    source.get(
+                        "published_at",
+                        "",
+                    )
+                ),
+                "original_url": (
+                    discovery_url
+                ),
+                "resolved_url": (
+                    resolved_url
+                ),
+                "resolution_status": (
+                    resolution.get(
+                        "status"
+                    )
+                ),
+                **fetch_result,
+            }
         )
 
         print(
@@ -2119,6 +2149,792 @@ def fetch_discovered_sources(
         )
 
     return fetched
+
+
+# =========================================================
+# V6 — EVIDENCE COLLECTION
+# =========================================================
+
+def collect_usable_evidence(
+    original_sources,
+    discovered_sources,
+):
+
+    evidence = []
+    seen_urls = set()
+
+    all_sources = []
+
+    if isinstance(
+        original_sources,
+        list,
+    ):
+        all_sources.extend(
+            original_sources
+        )
+
+    if isinstance(
+        discovered_sources,
+        list,
+    ):
+        all_sources.extend(
+            discovered_sources
+        )
+
+    for source in all_sources:
+
+        if not isinstance(
+            source,
+            dict,
+        ):
+            continue
+
+        if (
+            source.get(
+                "fetch_status"
+            )
+            != "USABLE"
+        ):
+            continue
+
+        text = str(
+            source.get(
+                "text",
+                "",
+            )
+        ).strip()
+
+        if not text:
+            continue
+
+        url = str(
+            source.get(
+                "resolved_url"
+            )
+            or source.get(
+                "final_url"
+            )
+            or source.get(
+                "url"
+            )
+            or ""
+        ).strip()
+
+        if not url:
+            continue
+
+        if url in seen_urls:
+            continue
+
+        seen_urls.add(
+            url
+        )
+
+        evidence.append(
+            {
+                "url": url,
+                "text": text,
+                "publisher": (
+                    source.get(
+                        "publisher",
+                        ""
+                    )
+                ),
+                "title": (
+                    source.get(
+                        "discovery_title"
+                    )
+                    or source.get(
+                        "title",
+                        ""
+                    )
+                ),
+            }
+        )
+
+    return evidence
+
+
+# =========================================================
+# V6 — CLAIM SELECTION
+# =========================================================
+
+def select_claims_for_verification(
+    claims,
+    max_claims=MAX_CLAIMS_PER_RUN,
+):
+
+    selected = []
+
+    if not isinstance(
+        claims,
+        list,
+    ):
+        return selected
+
+    try:
+
+        max_claims = int(
+            max_claims
+        )
+
+    except (
+        TypeError,
+        ValueError,
+    ):
+
+        max_claims = (
+            MAX_CLAIMS_PER_RUN
+        )
+
+    max_claims = max(
+        0,
+        max_claims,
+    )
+
+    for claim in claims:
+
+        if not isinstance(
+            claim,
+            dict,
+        ):
+            continue
+
+        if (
+            normalize_claim_status(
+                claim.get(
+                    "status",
+                    "UNKNOWN",
+                )
+            )
+            != "UNKNOWN"
+        ):
+            continue
+
+        text = str(
+            claim.get(
+                "claim",
+                "",
+            )
+        ).strip()
+
+        if not text:
+            continue
+
+        selected.append(
+            claim
+        )
+
+        if (
+            len(selected)
+            >= max_claims
+        ):
+            break
+
+    return selected
+
+
+# =========================================================
+# V6 — VERIFICATION RESULT SAFETY
+# =========================================================
+
+def normalize_verification_result(
+    result,
+    allowed_source_urls,
+):
+
+    if not isinstance(
+        result,
+        dict,
+    ):
+        result = {}
+
+    if not isinstance(
+        allowed_source_urls,
+        set,
+    ):
+
+        try:
+
+            allowed_source_urls = set(
+                allowed_source_urls
+            )
+
+        except Exception:
+
+            allowed_source_urls = set()
+
+    claim = str(
+        result.get(
+            "claim",
+            "",
+        )
+    ).strip()
+
+    status = (
+        normalize_claim_status(
+            result.get(
+                "status",
+                "UNKNOWN",
+            )
+        )
+    )
+
+    reason = str(
+        result.get(
+            "reason",
+            "",
+        )
+    ).strip()
+
+    source_urls = (
+        result.get(
+            "supporting_source_urls",
+            [],
+        )
+    )
+
+    if not isinstance(
+        source_urls,
+        list,
+    ):
+        source_urls = []
+
+    approved_urls = []
+
+    for url in source_urls:
+
+        if not isinstance(
+            url,
+            str,
+        ):
+            continue
+
+        url = url.strip()
+
+        if not url:
+            continue
+
+        if (
+            url
+            not in allowed_source_urls
+        ):
+            continue
+
+        if url in approved_urls:
+            continue
+
+        approved_urls.append(
+            url
+        )
+
+    # Critical safety gate:
+    # AI cannot confirm a fact unless it cites
+    # one of the exact evidence URLs we supplied.
+    if (
+        status == "CONFIRMED"
+        and not approved_urls
+    ):
+
+        status = "UNKNOWN"
+        approved_urls = []
+
+    return {
+        "claim": claim,
+        "status": status,
+        "supporting_source_urls": (
+            approved_urls
+        ),
+        "reason": reason,
+    }
+
+
+# =========================================================
+# V6 — JSON RESPONSE EXTRACTION
+# =========================================================
+
+def extract_ai_json(
+    text,
+):
+
+    if not text:
+
+        raise ValueError(
+            "Empty AI response."
+        )
+
+    cleaned = (
+        text.strip()
+    )
+
+    cleaned = re.sub(
+        r"^```(?:json)?\s*",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+
+    cleaned = re.sub(
+        r"\s*```$",
+        "",
+        cleaned,
+    )
+
+    try:
+
+        return json.loads(
+            cleaned
+        )
+
+    except json.JSONDecodeError:
+
+        start = (
+            cleaned.find(
+                "{"
+            )
+        )
+
+        end = (
+            cleaned.rfind(
+                "}"
+            )
+        )
+
+        if (
+            start == -1
+            or end == -1
+            or end <= start
+        ):
+
+            raise ValueError(
+                "No JSON object found."
+            )
+
+        return json.loads(
+            cleaned[
+                start:end + 1
+            ]
+        )
+
+
+# =========================================================
+# V6 — GROQ FREE-TIER SAFE CALL
+# =========================================================
+
+def groq_chat(
+    messages,
+):
+
+    if GROQ_CLIENT is None:
+
+        raise RuntimeError(
+            "GROQ_API_KEY is missing."
+        )
+
+    for attempt in range(
+        1,
+        GROQ_MAX_RETRIES + 1,
+    ):
+
+        try:
+
+            response = (
+                GROQ_CLIENT
+                .chat
+                .completions
+                .create(
+                    model=GROQ_MODEL,
+                    messages=messages,
+                    temperature=0,
+                )
+            )
+
+            return (
+                response
+                .choices[0]
+                .message
+                .content
+            )
+
+        except RateLimitError as error:
+
+            retry_after = None
+
+            try:
+
+                retry_after = (
+                    error
+                    .response
+                    .headers
+                    .get(
+                        "retry-after"
+                    )
+                )
+
+            except Exception:
+
+                retry_after = None
+
+            try:
+
+                wait_seconds = float(
+                    retry_after
+                )
+
+            except Exception:
+
+                wait_seconds = (
+                    GROQ_DEFAULT_WAIT_SECONDS
+                    * attempt
+                )
+
+            wait_seconds += 2
+
+            print("")
+            print(
+                "GROQ FREE LIMIT REACHED"
+            )
+
+            print(
+                "Verification attempt "
+                f"{attempt}/"
+                f"{GROQ_MAX_RETRIES}"
+            )
+
+            if (
+                attempt
+                >= GROQ_MAX_RETRIES
+            ):
+                raise
+
+            print(
+                "Waiting "
+                f"{wait_seconds:.1f}s..."
+            )
+
+            time.sleep(
+                wait_seconds
+            )
+
+    raise RuntimeError(
+        "Groq verification failed."
+    )
+
+
+# =========================================================
+# V6 — VERIFICATION PROMPT
+# =========================================================
+
+def build_verification_messages(
+    claim,
+    evidence,
+):
+
+    evidence_for_ai = []
+
+    for item in evidence[
+        :MAX_EVIDENCE_SOURCES_FOR_AI
+    ]:
+
+        text = str(
+            item.get(
+                "text",
+                "",
+            )
+        )
+
+        evidence_for_ai.append(
+            {
+                "url": (
+                    item.get(
+                        "url",
+                        ""
+                    )
+                ),
+                "title": (
+                    item.get(
+                        "title",
+                        ""
+                    )
+                ),
+                "publisher": (
+                    item.get(
+                        "publisher",
+                        ""
+                    )
+                ),
+                "text": (
+                    text[
+                        :MAX_EVIDENCE_CHARS_PER_SOURCE
+                    ]
+                ),
+            }
+        )
+
+    system_prompt = """
+You are the fact-verification engine for GamerQuest FR.
+
+You are NOT allowed to use memory, general knowledge,
+assumptions, rumours, or information outside the evidence
+provided in this prompt.
+
+Evaluate exactly one claim.
+
+Allowed statuses:
+
+CONFIRMED:
+The supplied source text directly supports the claim.
+
+UNCONFIRMED:
+The supplied source text directly contradicts the claim
+or clearly shows that the claim is not established.
+
+UNKNOWN:
+The available evidence is insufficient, vague, unrelated,
+or does not explicitly establish the claim.
+
+IMPORTANT RULES:
+
+1. Do not infer a release date.
+2. Do not invent facts.
+3. Do not treat search-result titles as proof.
+4. Only cite URLs supplied in EVIDENCE.
+5. CONFIRMED requires at least one supporting source URL.
+6. If uncertain, return UNKNOWN.
+7. Never upgrade a claim merely because it sounds plausible.
+
+Return ONLY valid JSON in this exact structure:
+
+{
+  "claim": "",
+  "status": "CONFIRMED|UNCONFIRMED|UNKNOWN",
+  "supporting_source_urls": [],
+  "reason": ""
+}
+""".strip()
+
+    user_prompt = (
+        "CLAIM:\n"
+        + str(
+            claim.get(
+                "claim",
+                ""
+            )
+        )
+        + "\n\nEVIDENCE:\n"
+        + json.dumps(
+            evidence_for_ai,
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+
+    return [
+        {
+            "role": "system",
+            "content": (
+                system_prompt
+            ),
+        },
+        {
+            "role": "user",
+            "content": (
+                user_prompt
+            ),
+        },
+    ]
+
+
+# =========================================================
+# V6 — VERIFY ONE CLAIM
+# =========================================================
+
+def verify_claim_with_groq(
+    claim,
+    evidence,
+):
+
+    allowed_source_urls = {
+        item.get(
+            "url"
+        )
+        for item in evidence
+        if item.get(
+            "url"
+        )
+    }
+
+    response_text = groq_chat(
+        build_verification_messages(
+            claim,
+            evidence,
+        )
+    )
+
+    raw_result = (
+        extract_ai_json(
+            response_text
+        )
+    )
+
+    raw_result[
+        "claim"
+    ] = claim.get(
+        "claim",
+        "",
+    )
+
+    return (
+        normalize_verification_result(
+            raw_result,
+            allowed_source_urls,
+        )
+    )
+
+
+# =========================================================
+# V6 — VERIFY CLAIM SET
+# =========================================================
+
+def verify_claims(
+    claims,
+    evidence,
+):
+
+    selected = (
+        select_claims_for_verification(
+            claims,
+            max_claims=MAX_CLAIMS_PER_RUN,
+        )
+    )
+
+    if not selected:
+        return claims
+
+    if not evidence:
+
+        print(
+            "No USABLE evidence. "
+            "Claims remain UNKNOWN."
+        )
+
+        return claims
+
+    if GROQ_CLIENT is None:
+
+        print(
+            "GROQ_API_KEY missing. "
+            "Verification skipped safely."
+        )
+
+        return claims
+
+    updated_claims = [
+        dict(claim)
+        for claim in claims
+    ]
+
+    for selected_claim in selected:
+
+        claim_text = (
+            selected_claim.get(
+                "claim",
+                "",
+            )
+        )
+
+        print("")
+        print(
+            "Verifying claim:"
+        )
+        print(
+            claim_text
+        )
+
+        try:
+
+            verification = (
+                verify_claim_with_groq(
+                    selected_claim,
+                    evidence,
+                )
+            )
+
+        except RateLimitError:
+
+            print(
+                "Groq free limit unavailable."
+            )
+
+            print(
+                "Stopping verification safely."
+            )
+
+            print(
+                "No paid fallback."
+            )
+
+            break
+
+        except Exception as error:
+
+            print(
+                "Verification failed:"
+            )
+
+            print(
+                str(error)
+            )
+
+            continue
+
+        print(
+            "Verification result: "
+            f"{verification.get('status')}"
+        )
+
+        for claim in updated_claims:
+
+            if (
+                claim.get(
+                    "claim"
+                )
+                != claim_text
+            ):
+                continue
+
+            claim[
+                "status"
+            ] = verification.get(
+                "status",
+                "UNKNOWN",
+            )
+
+            claim[
+                "sources"
+            ] = verification.get(
+                "supporting_source_urls",
+                [],
+            )
+
+            claim[
+                "verification_reason"
+            ] = verification.get(
+                "reason",
+                "",
+            )
+
+            claim[
+                "verified_at"
+            ] = (
+                datetime.now(
+                    timezone.utc
+                ).isoformat()
+            )
+
+            break
+
+    return updated_claims
 
 
 # =========================================================
@@ -2211,11 +3027,9 @@ def find_intel_topic(
     topic_id,
 ):
 
-    for topic in (
-        intel_data.get(
-            "topics",
-            [],
-        )
+    for topic in intel_data.get(
+        "topics",
+        [],
     ):
 
         if (
@@ -2236,11 +3050,9 @@ def extract_source_evidence(
 
     evidence = []
 
-    for source in (
-        intel_topic.get(
-            "sources",
-            [],
-        )
+    for source in intel_topic.get(
+        "sources",
+        [],
     ):
 
         if not isinstance(
@@ -2265,9 +3077,7 @@ def extract_source_evidence(
                         "unknown",
                     )
                 ),
-                "url": (
-                    url
-                ),
+                "url": url,
                 "title": (
                     source.get(
                         "title",
@@ -2335,7 +3145,7 @@ def fetch_topic_sources(
 
         print(
             "Fetch result: "
-            f"{result['fetch_status']} "
+            f"{result.get('fetch_status')} "
             f"[{result.get('extraction_method', '')}]"
         )
 
@@ -2373,9 +3183,7 @@ def build_initial_claims(
             {
                 "claim": evidence,
                 "status": "UNKNOWN",
-                "sources": [
-                    source["url"]
-                ],
+                "sources": [],
             }
         )
 
@@ -2392,8 +3200,7 @@ def count_source_statuses(
 
     usable = sum(
         1
-        for source
-        in sources
+        for source in sources
         if (
             source.get(
                 "fetch_status"
@@ -2404,8 +3211,7 @@ def count_source_statuses(
 
     weak = sum(
         1
-        for source
-        in sources
+        for source in sources
         if (
             source.get(
                 "fetch_status"
@@ -2416,8 +3222,7 @@ def count_source_statuses(
 
     unresolved = sum(
         1
-        for source
-        in sources
+        for source in sources
         if (
             source.get(
                 "fetch_status"
@@ -2437,12 +3242,8 @@ def count_source_statuses(
         "total": (
             len(sources)
         ),
-        "usable": (
-            usable
-        ),
-        "weak": (
-            weak
-        ),
+        "usable": usable,
+        "weak": weak,
         "unresolved": (
             unresolved
         ),
@@ -2453,7 +3254,7 @@ def count_source_statuses(
 
 
 # =========================================================
-# RESEARCH RECORD V5
+# RESEARCH RECORD V6
 # =========================================================
 
 def build_research_record(
@@ -2467,26 +3268,14 @@ def build_research_record(
         )
     )
 
-    # -----------------------------------------------------
-    # 1. ORIGINAL INTEL SOURCES
-    # -----------------------------------------------------
-
+    # Original source fetch
     original_sources = (
         fetch_topic_sources(
             intel_topic
         )
     )
 
-    original_counts = (
-        count_source_statuses(
-            original_sources
-        )
-    )
-
-    # -----------------------------------------------------
-    # 2. DISCOVER ALTERNATIVE SOURCES
-    # -----------------------------------------------------
-
+    # Alternative discovery
     discovery = (
         discover_topic_sources(
             scored_topic
@@ -2498,13 +3287,61 @@ def build_research_record(
         f"{len(discovery.get('sources', []))}"
     )
 
-    # -----------------------------------------------------
-    # 3. RESOLVE + FETCH PUBLISHER ARTICLES
-    # -----------------------------------------------------
-
     discovered_sources = (
         fetch_discovered_sources(
             discovery
+        )
+    )
+
+    # -----------------------------------------------------
+    # V6: COLLECT ONLY USABLE EVIDENCE
+    # -----------------------------------------------------
+
+    usable_evidence = (
+        collect_usable_evidence(
+            original_sources,
+            discovered_sources,
+        )
+    )
+
+    print("")
+    print(
+        "USABLE EVIDENCE SOURCES: "
+        f"{len(usable_evidence)}"
+    )
+
+    # -----------------------------------------------------
+    # V6: AUTOMATIC CLAIM VERIFICATION
+    # -----------------------------------------------------
+
+    verified_claims = (
+        verify_claims(
+            initial_claims,
+            usable_evidence,
+        )
+    )
+
+    fact_pack = (
+        build_verified_fact_pack(
+            verified_claims
+        )
+    )
+
+    confirmed_count = len(
+        fact_pack[
+            "confirmed_facts"
+        ]
+    )
+
+    blocked_count = len(
+        fact_pack[
+            "blocked_claims"
+        ]
+    )
+
+    original_counts = (
+        count_source_statuses(
+            original_sources
         )
     )
 
@@ -2514,74 +3351,41 @@ def build_research_record(
         )
     )
 
-    # -----------------------------------------------------
-    # 4. TOTAL SOURCE STATS
-    # -----------------------------------------------------
-
     total_sources = (
-        original_counts[
-            "total"
-        ]
-        +
-        discovered_counts[
-            "total"
-        ]
+        original_counts["total"]
+        + discovered_counts["total"]
     )
 
     usable_sources = (
-        original_counts[
-            "usable"
-        ]
-        +
-        discovered_counts[
-            "usable"
-        ]
+        original_counts["usable"]
+        + discovered_counts["usable"]
     )
 
     weak_sources = (
-        original_counts[
-            "weak"
-        ]
-        +
-        discovered_counts[
-            "weak"
-        ]
+        original_counts["weak"]
+        + discovered_counts["weak"]
     )
 
     unresolved_sources = (
-        original_counts[
-            "unresolved"
-        ]
-        +
-        discovered_counts[
-            "unresolved"
-        ]
+        original_counts["unresolved"]
+        + discovered_counts["unresolved"]
     )
 
     unusable_sources = (
-        original_counts[
-            "unusable"
-        ]
-        +
-        discovered_counts[
-            "unusable"
-        ]
+        original_counts["unusable"]
+        + discovered_counts["unusable"]
     )
 
-    # -----------------------------------------------------
-    # 5. CLAIM SAFETY GATE
-    # -----------------------------------------------------
-
-    fact_pack = (
-        build_verified_fact_pack(
-            initial_claims
-        )
-    )
-
-    if usable_sources > 0:
+    if confirmed_count > 0:
 
         research_status = (
-            "SOURCES_FOUND_PENDING_VERIFICATION"
+            "VERIFIED_FACTS_READY"
+        )
+
+    elif usable_evidence:
+
+        research_status = (
+            "VERIFICATION_COMPLETE_NO_CONFIRMED_FACTS"
         )
 
     else:
@@ -2672,6 +3476,10 @@ def build_research_record(
             discovered_sources
         ),
 
+        "usable_evidence": (
+            usable_evidence
+        ),
+
         "source_summary": {
             "total_sources": (
                 total_sources
@@ -2696,8 +3504,30 @@ def build_research_record(
             ),
         },
 
+        "verification_summary": {
+            "max_claims_per_run": (
+                MAX_CLAIMS_PER_RUN
+            ),
+            "claims_total": (
+                len(
+                    verified_claims
+                )
+            ),
+            "confirmed": (
+                confirmed_count
+            ),
+            "blocked": (
+                blocked_count
+            ),
+            "usable_evidence_sources": (
+                len(
+                    usable_evidence
+                )
+            ),
+        },
+
         "claims": (
-            initial_claims
+            verified_claims
         ),
 
         "fact_pack": (
@@ -2721,7 +3551,7 @@ def main():
         "==================================="
     )
     print(
-        "GAMERQUEST RESEARCHER V5"
+        "GAMERQUEST RESEARCHER V6"
     )
     print(
         "==================================="
@@ -2768,7 +3598,7 @@ def main():
         except Exception:
 
             research_data = {
-                "version": "5.0",
+                "version": "6.0",
                 "updated_at": None,
                 "topics": [],
             }
@@ -2776,7 +3606,7 @@ def main():
     else:
 
         research_data = {
-            "version": "5.0",
+            "version": "6.0",
             "updated_at": None,
             "topics": [],
         }
@@ -2793,14 +3623,17 @@ def main():
     )
 
     candidate_ids = {
-        topic.get("id")
-        for topic
-        in candidates
-        if topic.get("id")
+        topic.get(
+            "id"
+        )
+        for topic in candidates
+        if topic.get(
+            "id"
+        )
     }
 
     # Refresh current WRITE records
-    # while Researcher is being developed.
+    # during Researcher development.
     research_data[
         "topics"
     ] = [
@@ -2811,16 +3644,16 @@ def main():
             [],
         )
         if (
-            topic.get("id")
+            topic.get(
+                "id"
+            )
             not in candidate_ids
         )
     ]
 
     created = 0
 
-    for scored_topic in (
-        candidates
-    ):
+    for scored_topic in candidates:
 
         topic_id = (
             scored_topic.get(
@@ -2874,11 +3707,14 @@ def main():
             record
         )
 
-        summary = (
-            record.get(
-                "source_summary",
-                {},
-            )
+        summary = record.get(
+            "source_summary",
+            {},
+        )
+
+        verification = record.get(
+            "verification_summary",
+            {},
         )
 
         print("")
@@ -2912,6 +3748,16 @@ def main():
         )
 
         print(
+            "CONFIRMED CLAIMS: "
+            f"{verification.get('confirmed', 0)}"
+        )
+
+        print(
+            "BLOCKED CLAIMS: "
+            f"{verification.get('blocked', 0)}"
+        )
+
+        print(
             "STATUS: "
             f"{record.get('research_status')}"
         )
@@ -2920,7 +3766,7 @@ def main():
 
     research_data[
         "version"
-    ] = "5.0"
+    ] = "6.0"
 
     research_data[
         "updated_at"
@@ -2941,7 +3787,7 @@ def main():
     )
 
     print(
-        "RESEARCHER V5 COMPLETE"
+        "RESEARCHER V6 COMPLETE"
     )
 
     print(
@@ -2954,18 +3800,22 @@ def main():
     )
 
     print(
-        "Google News wrappers "
-        "are never accepted as evidence."
+        "Maximum AI verifications: "
+        f"{MAX_CLAIMS_PER_RUN} claims per topic."
     )
 
     print(
-        "Only resolved publisher pages "
-        "may become evidence."
+        "No paid fallback."
     )
 
     print(
-        "Claims remain UNKNOWN "
-        "until verification."
+        "Only CONFIRMED claims enter "
+        "the verified fact pack."
+    )
+
+    print(
+        "No article publishing occurs "
+        "in Researcher v6."
     )
 
 

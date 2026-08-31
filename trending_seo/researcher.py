@@ -1,6 +1,6 @@
-import json
 import html
 import ipaddress
+import json
 import os
 import re
 import socket
@@ -9,9 +9,16 @@ import xml.etree.ElementTree as ET
 
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse, quote_plus, urljoin
-from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
+from urllib.parse import (
+    parse_qsl,
+    parse_qs,
+    quote_plus,
+    urlencode,
+    urlparse,
+    urlunparse,
+)
+from urllib.request import Request, urlopen
 
 from groq import Groq, RateLimitError
 
@@ -60,25 +67,53 @@ GROQ_DEFAULT_WAIT_SECONDS = 10
 
 USER_AGENT = (
     "Mozilla/5.0 "
-    "(compatible; GamerQuestFR-Research/7.0; "
+    "(compatible; GamerQuestFR-Research/8.0; "
     "+https://gamerquestfr.com/)"
 )
 
 
-# =========================================================
-# DOMAINS WE NEVER WANT AS EVIDENCE
-# =========================================================
+# Free/public feeds only.
+# Any feed that becomes unavailable simply fails safely.
+PUBLIC_GAMING_FEEDS = [
+    {
+        "url": "https://www.pcgamer.com/rss/",
+        "publisher": "PC Gamer",
+        "source_type": "publisher",
+    },
+    {
+        "url": "https://www.gamesradar.com/rss/",
+        "publisher": "GamesRadar+",
+        "source_type": "publisher",
+    },
+    {
+        "url": "https://www.gamespot.com/feeds/mashup/",
+        "publisher": "GameSpot",
+        "source_type": "publisher",
+    },
+]
 
-GOOGLE_INFRASTRUCTURE_DOMAINS = {
+
+TRACKING_QUERY_KEYS = {
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_term",
+    "utm_content",
+    "utm_id",
+    "gclid",
+    "fbclid",
+    "msclkid",
+    "mc_cid",
+    "mc_eid",
+}
+
+
+SEARCH_HOSTS = {
     "google.com",
     "www.google.com",
     "news.google.com",
-    "gstatic.com",
-    "www.gstatic.com",
-    "googleusercontent.com",
-    "www.googleusercontent.com",
-    "googleapis.com",
-    "www.googleapis.com",
+    "bing.com",
+    "www.bing.com",
 }
 
 
@@ -87,11 +122,14 @@ GOOGLE_INFRASTRUCTURE_DOMAINS = {
 # =========================================================
 
 if GROQ_API_KEY:
+
     GROQ_CLIENT = Groq(
         api_key=GROQ_API_KEY,
         max_retries=0,
     )
+
 else:
+
     GROQ_CLIENT = None
 
 
@@ -166,6 +204,36 @@ def should_allow_claim(status):
     )
 
 
+def _claim_sources(claim):
+
+    sources = claim.get(
+        "sources",
+        [],
+    )
+
+    if not isinstance(sources, list):
+        sources = []
+
+    source_url = str(
+        claim.get(
+            "source_url",
+            "",
+        )
+        or ""
+    ).strip()
+
+    if (
+        source_url
+        and source_url not in sources
+    ):
+
+        sources.append(
+            source_url
+        )
+
+    return sources
+
+
 def build_verified_fact_pack(claims):
 
     confirmed_facts = []
@@ -173,7 +241,10 @@ def build_verified_fact_pack(claims):
 
     for claim in claims:
 
-        if not isinstance(claim, dict):
+        if not isinstance(
+            claim,
+            dict,
+        ):
             continue
 
         item = dict(claim)
@@ -185,32 +256,34 @@ def build_verified_fact_pack(claims):
             )
         )
 
-        sources = item.get(
-            "sources",
-            [],
+        sources = _claim_sources(
+            item
         )
-
-        if not isinstance(sources, list):
-            sources = []
 
         item["status"] = status
         item["sources"] = sources
 
-        # CONFIRMED is forbidden without evidence.
         if (
             status == "CONFIRMED"
             and not sources
         ):
-            item["status"] = "UNKNOWN"
+
             status = "UNKNOWN"
+            item["status"] = status
 
-        if should_allow_claim(status):
+        if should_allow_claim(
+            status
+        ):
 
-            confirmed_facts.append(item)
+            confirmed_facts.append(
+                item
+            )
 
         else:
 
-            blocked_claims.append(item)
+            blocked_claims.append(
+                item
+            )
 
     return {
         "confirmed_facts": confirmed_facts,
@@ -227,7 +300,9 @@ def clean_html_text(raw_html):
     if not raw_html:
         return ""
 
-    text = str(raw_html)
+    text = str(
+        raw_html
+    )
 
     text = re.sub(
         r"(?is)<script[^>]*>.*?</script>",
@@ -259,7 +334,9 @@ def clean_html_text(raw_html):
         text,
     )
 
-    text = html.unescape(text)
+    text = html.unescape(
+        text
+    )
 
     text = re.sub(
         r"\s+",
@@ -289,23 +366,34 @@ def _collect_json_text(
     collected,
 ):
 
-    if isinstance(value, dict):
+    if isinstance(
+        value,
+        dict,
+    ):
 
         for key, child in value.items():
 
             if (
                 key in USEFUL_JSON_KEYS
-                and isinstance(child, str)
+                and isinstance(
+                    child,
+                    str,
+                )
             ):
 
                 cleaned = re.sub(
                     r"\s+",
                     " ",
-                    html.unescape(child),
+                    html.unescape(
+                        child
+                    ),
                 ).strip()
 
                 if cleaned:
-                    collected.append(cleaned)
+
+                    collected.append(
+                        cleaned
+                    )
 
             if isinstance(
                 child,
@@ -317,7 +405,10 @@ def _collect_json_text(
                     collected,
                 )
 
-    elif isinstance(value, list):
+    elif isinstance(
+        value,
+        list,
+    ):
 
         for child in value:
 
@@ -334,7 +425,10 @@ def _deduplicate_text_parts(parts):
 
     for part in parts:
 
-        if not isinstance(part, str):
+        if not isinstance(
+            part,
+            str,
+        ):
             continue
 
         cleaned = re.sub(
@@ -352,9 +446,14 @@ def _deduplicate_text_parts(parts):
             continue
 
         seen.add(key)
-        output.append(cleaned)
 
-    return " ".join(output)
+        output.append(
+            cleaned
+        )
+
+    return " ".join(
+        output
+    )
 
 
 def extract_json_ld_text(raw_html):
@@ -388,7 +487,9 @@ def extract_json_ld_text(raw_html):
 
         try:
 
-            parsed = json.loads(block)
+            parsed = json.loads(
+                block
+            )
 
         except (
             json.JSONDecodeError,
@@ -401,13 +502,16 @@ def extract_json_ld_text(raw_html):
             try:
 
                 parsed = json.loads(
-                    html.unescape(block)
+                    html.unescape(
+                        block
+                    )
                 )
 
             except (
                 json.JSONDecodeError,
                 TypeError,
             ):
+
                 continue
 
         _collect_json_text(
@@ -420,7 +524,9 @@ def extract_json_ld_text(raw_html):
     )
 
 
-def extract_embedded_json_text(raw_html):
+def extract_embedded_json_text(
+    raw_html,
+):
 
     if not raw_html:
         return ""
@@ -472,7 +578,9 @@ def extract_embedded_json_text(raw_html):
 
             try:
 
-                parsed = json.loads(block)
+                parsed = json.loads(
+                    block
+                )
 
             except (
                 json.JSONDecodeError,
@@ -485,13 +593,16 @@ def extract_embedded_json_text(raw_html):
                 try:
 
                     parsed = json.loads(
-                        html.unescape(block)
+                        html.unescape(
+                            block
+                        )
                     )
 
                 except (
                     json.JSONDecodeError,
                     TypeError,
                 ):
+
                     continue
 
             _collect_json_text(
@@ -504,17 +615,23 @@ def extract_embedded_json_text(raw_html):
     )
 
 
-def extract_best_page_text(raw_html):
+def extract_best_page_text(
+    raw_html,
+):
 
     if not raw_html:
         return ""
 
-    structured = extract_json_ld_text(
-        raw_html
+    structured = (
+        extract_json_ld_text(
+            raw_html
+        )
     )
 
-    embedded = extract_embedded_json_text(
-        raw_html
+    embedded = (
+        extract_embedded_json_text(
+            raw_html
+        )
     )
 
     plain = clean_html_text(
@@ -524,17 +641,26 @@ def extract_best_page_text(raw_html):
     parts = []
 
     if structured:
-        parts.append(structured)
+        parts.append(
+            structured
+        )
 
     if embedded:
-        parts.append(embedded)
+        parts.append(
+            embedded
+        )
 
     if plain:
-        parts.append(plain)
+        parts.append(
+            plain
+        )
 
-    return _deduplicate_text_parts(
-        parts
-    )[:MAX_EXTRACTED_CHARS]
+    return (
+        _deduplicate_text_parts(
+            parts
+        )
+        [:MAX_EXTRACTED_CHARS]
+    )
 
 
 # =========================================================
@@ -543,7 +669,10 @@ def extract_best_page_text(raw_html):
 
 def _is_http_url(url):
 
-    if not isinstance(url, str):
+    if not isinstance(
+        url,
+        str,
+    ):
         return False
 
     try:
@@ -557,8 +686,13 @@ def _is_http_url(url):
 
     return (
         parsed.scheme
-        in {"http", "https"}
-        and bool(parsed.netloc)
+        in {
+            "http",
+            "https",
+        }
+        and bool(
+            parsed.netloc
+        )
     )
 
 
@@ -571,6 +705,7 @@ def _is_public_ip(ip_text):
         )
 
     except ValueError:
+
         return False
 
     return not (
@@ -583,7 +718,7 @@ def _is_public_ip(ip_text):
     )
 
 
-def _hostname_is_obviously_unsafe(
+def _hostname_is_unsafe(
     hostname,
 ):
 
@@ -600,9 +735,13 @@ def _hostname_is_obviously_unsafe(
         "localhost",
         "localhost.localdomain",
     }:
+
         return True
 
-    if hostname.endswith(".local"):
+    if hostname.endswith(
+        ".local"
+    ):
+
         return True
 
     try:
@@ -616,29 +755,30 @@ def _hostname_is_obviously_unsafe(
         )
 
     except ValueError:
+
         return False
 
 
 def is_safe_public_url(url):
 
-    if not _is_http_url(url):
+    if not _is_http_url(
+        url
+    ):
+
         return False
 
-    try:
+    parsed = urlparse(
+        url
+    )
 
-        parsed = urlparse(url)
+    hostname = (
+        parsed.hostname
+    )
 
-    except Exception:
-        return False
-
-    hostname = parsed.hostname
-
-    if not hostname:
-        return False
-
-    if _hostname_is_obviously_unsafe(
+    if _hostname_is_unsafe(
         hostname
     ):
+
         return False
 
     try:
@@ -666,246 +806,534 @@ def is_safe_public_url(url):
         )
 
     except Exception:
+
         return False
 
     if not addresses:
+
         return False
 
     for address in addresses:
 
-        ip_text = address[4][0]
+        ip_text = (
+            address[4][0]
+        )
 
         if not _is_public_ip(
             ip_text
         ):
+
             return False
 
     return True
 
 
 # =========================================================
-# GOOGLE URL HELPERS
+# V8 URL NORMALIZATION
 # =========================================================
 
-def _hostname(url):
+def normalize_discovery_url(url):
 
-    try:
+    if not isinstance(
+        url,
+        str,
+    ):
 
-        return (
-            urlparse(url).hostname
-            or ""
-        ).lower()
-
-    except Exception:
         return ""
 
+    url = url.strip()
 
-def is_google_news_url(url):
+    if not _is_http_url(
+        url
+    ):
 
-    hostname = _hostname(url)
+        return ""
 
-    return (
-        hostname == "news.google.com"
-        or hostname.endswith(
-            ".news.google.com"
+    parsed = urlparse(
+        url
+    )
+
+    filtered_query = []
+
+    for key, value in parse_qsl(
+        parsed.query,
+        keep_blank_values=True,
+    ):
+
+        if (
+            key.lower()
+            in TRACKING_QUERY_KEYS
+        ):
+
+            continue
+
+        filtered_query.append(
+            (key, value)
         )
+
+    normalized = parsed._replace(
+        query=urlencode(
+            filtered_query,
+            doseq=True,
+        ),
+        fragment="",
+    )
+
+    return urlunparse(
+        normalized
     )
 
 
-def is_google_infrastructure_url(url):
+# =========================================================
+# V8 SEARCH RESULT PROTECTION
+# =========================================================
 
-    hostname = _hostname(url)
+def is_search_result_url(url):
 
-    if not hostname:
+    normalized = (
+        normalize_discovery_url(
+            url
+        )
+    )
+
+    if not normalized:
+
         return False
 
-    if hostname in GOOGLE_INFRASTRUCTURE_DOMAINS:
+    parsed = urlparse(
+        normalized
+    )
+
+    hostname = (
+        parsed.hostname
+        or ""
+    ).lower()
+
+    path = (
+        parsed.path
+        or ""
+    ).lower()
+
+    if hostname in {
+        "google.com",
+        "www.google.com",
+    }:
+
+        if (
+            path.startswith(
+                "/search"
+            )
+            or path.startswith(
+                "/url"
+            )
+        ):
+
+            return True
+
+    if hostname == "news.google.com":
+
         return True
 
-    for domain in GOOGLE_INFRASTRUCTURE_DOMAINS:
+    if hostname in {
+        "bing.com",
+        "www.bing.com",
+    }:
 
-        if hostname.endswith(
-            "." + domain
+        if path.startswith(
+            "/search"
         ):
+
             return True
 
     return False
 
 
-# =========================================================
-# V7 — NORMALIZE DISCOVERY URL
-# =========================================================
+def resolve_discovery_url(url):
 
-def normalize_discovery_url(url):
-
-    if not _is_http_url(url):
-        return ""
-
-    url = url.strip()
-
-    # Google News wrapper is NOT evidence.
-    if is_google_news_url(url):
-        return ""
-
-    if is_google_infrastructure_url(url):
-        return ""
-
-    return url
-
-
-# =========================================================
-# V7 — EVIDENCE CANDIDATE SCORING
-# =========================================================
-
-def score_evidence_candidate(candidate):
-
-    if not isinstance(candidate, dict):
-        return -1000
-
-    url = str(
-        candidate.get(
-            "url",
-            "",
+    normalized = (
+        normalize_discovery_url(
+            url
         )
-    ).strip()
-
-    source_type = str(
-        candidate.get(
-            "source_type",
-            "",
-        )
-    ).strip().lower()
-
-    publisher = str(
-        candidate.get(
-            "publisher",
-            "",
-        )
-    ).lower()
-
-    title = str(
-        candidate.get(
-            "title",
-            "",
-        )
-    ).lower()
-
-    score = 0
-
-    if source_type == "official":
-        score += 100
-
-    elif source_type == "publisher":
-        score += 50
-
-    elif source_type == "aggregator":
-        score -= 20
-
-    else:
-        score += 5
-
-    if is_google_news_url(url):
-        score -= 150
-
-    if is_google_infrastructure_url(url):
-        score -= 150
-
-    if not _is_http_url(url):
-        score -= 100
-
-    authority_words = {
-        "official",
-        "announcement",
-        "announced",
-        "publisher",
-        "developer",
-        "studio",
-        "press release",
-    }
-
-    combined = (
-        publisher
-        + " "
-        + title
     )
 
-    for word in authority_words:
+    if not normalized:
 
-        if word in combined:
-            score += 5
+        return ""
 
-    return score
+    parsed = urlparse(
+        normalized
+    )
+
+    hostname = (
+        parsed.hostname
+        or ""
+    ).lower()
+
+    path = (
+        parsed.path
+        or ""
+    )
+
+    # Google redirect:
+    # /url?q=https://publisher/article
+    if (
+        hostname
+        in {
+            "google.com",
+            "www.google.com",
+        }
+        and path == "/url"
+    ):
+
+        params = parse_qs(
+            parsed.query
+        )
+
+        targets = (
+            params.get("q")
+            or params.get("url")
+            or []
+        )
+
+        if not targets:
+
+            return ""
+
+        target = (
+            normalize_discovery_url(
+                targets[0]
+            )
+        )
+
+        if (
+            target
+            and not is_search_result_url(
+                target
+            )
+        ):
+
+            return target
+
+        return ""
+
+    # Search-result pages themselves
+    # are never evidence.
+    if is_search_result_url(
+        normalized
+    ):
+
+        return ""
+
+    return normalized
 
 
-def rank_evidence_candidates(
-    candidates,
+# =========================================================
+# V8 DISCOVERY QUERY
+# =========================================================
+
+def build_discovery_query(
+    topic,
+    claim="",
 ):
 
-    if not isinstance(
-        candidates,
-        list,
+    if isinstance(
+        topic,
+        dict,
     ):
-        return []
 
-    seen_urls = set()
-    ranked = []
-
-    for candidate in candidates:
-
-        if not isinstance(
-            candidate,
-            dict,
-        ):
-            continue
-
-        url = str(
-            candidate.get(
-                "url",
+        topic_name = str(
+            topic.get(
+                "topic",
                 "",
             )
         ).strip()
 
-        if not url:
-            continue
-
-        normalized_key = (
-            url.rstrip("/")
-            .lower()
+        seo = topic.get(
+            "seo",
+            {},
         )
 
-        if normalized_key in seen_urls:
-            continue
+        if isinstance(
+            seo,
+            dict,
+        ):
 
-        seen_urls.add(
-            normalized_key
-        )
+            keyword = str(
+                seo.get(
+                    "primary_keyword",
+                    "",
+                )
+            ).strip()
 
-        item = dict(candidate)
+            if keyword:
+                topic_name = keyword
 
-        item[
-            "evidence_score"
-        ] = score_evidence_candidate(
-            item
-        )
+    else:
 
-        ranked.append(item)
+        topic_name = str(
+            topic
+            or ""
+        ).strip()
 
-    ranked.sort(
-        key=lambda item: item.get(
-            "evidence_score",
-            -1000,
-        ),
-        reverse=True,
+    claim = str(
+        claim
+        or ""
+    ).strip()
+
+    if claim:
+
+        return (
+            f"{topic_name} {claim}"
+        ).strip()
+
+    return (
+        f"{topic_name} official announcement news"
+    ).strip()
+
+
+# =========================================================
+# V8 FEED PARSING
+# =========================================================
+
+def _local_name(tag):
+
+    if not isinstance(
+        tag,
+        str,
+    ):
+
+        return ""
+
+    if "}" in tag:
+
+        return tag.split(
+            "}",
+            1,
+        )[1]
+
+    return tag
+
+
+def _element_clean_text(
+    element,
+):
+
+    if element is None:
+
+        return ""
+
+    text = " ".join(
+        element.itertext()
     )
 
-    return ranked
+    return re.sub(
+        r"\s+",
+        " ",
+        html.unescape(
+            text
+        ),
+    ).strip()
+
+
+def extract_feed_entries(
+    feed_text,
+):
+
+    if not isinstance(
+        feed_text,
+        str,
+    ):
+
+        return []
+
+    if not feed_text.strip():
+
+        return []
+
+    try:
+
+        root = ET.fromstring(
+            feed_text
+        )
+
+    except ET.ParseError:
+
+        return []
+
+    entries = []
+
+    # RSS
+    for item in root.iter():
+
+        if (
+            _local_name(
+                item.tag
+            )
+            != "item"
+        ):
+
+            continue
+
+        title = ""
+        url = ""
+        description = ""
+
+        for child in list(
+            item
+        ):
+
+            name = _local_name(
+                child.tag
+            )
+
+            if name == "title":
+
+                title = (
+                    _element_clean_text(
+                        child
+                    )
+                )
+
+            elif name == "link":
+
+                url = (
+                    _element_clean_text(
+                        child
+                    )
+                )
+
+            elif name in {
+                "description",
+                "summary",
+                "content",
+                "encoded",
+            }:
+
+                description = (
+                    _element_clean_text(
+                        child
+                    )
+                )
+
+        url = normalize_discovery_url(
+            url
+        )
+
+        if (
+            title
+            and url
+        ):
+
+            entries.append(
+                {
+                    "title": title,
+                    "url": url,
+                    "description": (
+                        description
+                    ),
+                }
+            )
+
+    # Atom
+    for entry in root.iter():
+
+        if (
+            _local_name(
+                entry.tag
+            )
+            != "entry"
+        ):
+
+            continue
+
+        title = ""
+        url = ""
+        description = ""
+
+        for child in list(
+            entry
+        ):
+
+            name = _local_name(
+                child.tag
+            )
+
+            if name == "title":
+
+                title = (
+                    _element_clean_text(
+                        child
+                    )
+                )
+
+            elif name == "link":
+
+                rel = (
+                    child.attrib.get(
+                        "rel",
+                        "alternate",
+                    )
+                )
+
+                href = (
+                    child.attrib.get(
+                        "href",
+                        "",
+                    )
+                )
+
+                if (
+                    href
+                    and rel
+                    in {
+                        "",
+                        "alternate",
+                    }
+                ):
+
+                    url = href
+
+            elif name in {
+                "summary",
+                "content",
+                "description",
+            }:
+
+                description = (
+                    _element_clean_text(
+                        child
+                    )
+                )
+
+        url = normalize_discovery_url(
+            url
+        )
+
+        if (
+            title
+            and url
+        ):
+
+            entries.append(
+                {
+                    "title": title,
+                    "url": url,
+                    "description": (
+                        description
+                    ),
+                }
+            )
+
+    return deduplicate_candidates(
+        entries
+    )
 
 
 # =========================================================
-# V7 — TOPIC / PAGE RELEVANCE
+# V8 FEED TOPIC MATCHING
 # =========================================================
 
-STOPWORDS = {
+DISCOVERY_STOPWORDS = {
     "the",
     "and",
     "for",
@@ -913,29 +1341,30 @@ STOPWORDS = {
     "from",
     "this",
     "that",
-    "wild",
-    "hunt",
     "game",
     "games",
-    "remaster",
-    "remastered",
+    "news",
+    "official",
     "le",
     "la",
     "les",
+    "de",
     "des",
-    "pour",
-    "avec",
-    "dans",
+    "du",
     "une",
     "un",
+    "et",
 }
 
 
-def _topic_keywords(topic):
+def _topic_words(text):
 
     words = re.findall(
         r"[a-zA-ZÀ-ÿ0-9]+",
-        str(topic).lower(),
+        str(
+            text
+            or ""
+        ).lower(),
     )
 
     return {
@@ -943,83 +1372,313 @@ def _topic_keywords(topic):
         for word in words
         if (
             len(word) >= 3
-            and word not in STOPWORDS
+            and word
+            not in DISCOVERY_STOPWORDS
         )
     }
 
 
-def classify_evidence_quality(
-    text,
+def discover_feed_candidates(
+    feed_text,
     topic,
-    status_code,
 ):
 
-    try:
-
-        status_code = int(
-            status_code
+    entries = (
+        extract_feed_entries(
+            feed_text
         )
+    )
 
-    except (
-        TypeError,
-        ValueError,
-    ):
-        return "UNUSABLE"
-
-    if not (
-        200 <= status_code < 300
-    ):
-        return "UNUSABLE"
-
-    if not isinstance(text, str):
-        return "UNUSABLE"
-
-    cleaned = re.sub(
-        r"\s+",
-        " ",
-        text,
-    ).strip()
-
-    if not cleaned:
-        return "UNUSABLE"
-
-    # Tiny page / JS shell.
-    if len(cleaned) < 200:
-        return "WEAK"
-
-    topic_words = _topic_keywords(
-        topic
+    topic_words = (
+        _topic_words(
+            topic
+        )
     )
 
     if not topic_words:
-        return "WEAK"
 
-    page_words = set(
-        re.findall(
-            r"[a-zA-ZÀ-ÿ0-9]+",
-            cleaned.lower(),
+        return []
+
+    candidates = []
+
+    for entry in entries:
+
+        searchable = (
+            str(
+                entry.get(
+                    "title",
+                    "",
+                )
+            )
+            + " "
+            + str(
+                entry.get(
+                    "description",
+                    "",
+                )
+            )
         )
-    )
 
-    matches = (
-        topic_words
-        & page_words
-    )
+        entry_words = (
+            _topic_words(
+                searchable
+            )
+        )
 
-    # Require meaningful topic overlap.
-    minimum_matches = min(
-        2,
-        len(topic_words),
-    )
+        matches = (
+            topic_words
+            & entry_words
+        )
 
-    if len(matches) < minimum_matches:
-        return "WEAK"
+        required_matches = min(
+            2,
+            len(topic_words),
+        )
 
-    return "USABLE"
+        if (
+            len(matches)
+            < required_matches
+        ):
+
+            continue
+
+        candidate = dict(
+            entry
+        )
+
+        candidate[
+            "source_type"
+        ] = "rss"
+
+        candidate[
+            "publisher_match"
+        ] = True
+
+        candidate[
+            "usable"
+        ] = True
+
+        candidates.append(
+            candidate
+        )
+
+    return candidates
 
 
 # =========================================================
-# BASIC FETCH RESULT
+# V8 CANDIDATE DEDUPLICATION
+# =========================================================
+
+def deduplicate_candidates(
+    candidates,
+):
+
+    if not isinstance(
+        candidates,
+        list,
+    ):
+
+        return []
+
+    seen = set()
+    output = []
+
+    for candidate in candidates:
+
+        if not isinstance(
+            candidate,
+            dict,
+        ):
+
+            continue
+
+        url = (
+            normalize_discovery_url(
+                candidate.get(
+                    "url",
+                    "",
+                )
+            )
+        )
+
+        if not url:
+
+            continue
+
+        key = (
+            url.rstrip("/")
+            .lower()
+        )
+
+        if key in seen:
+
+            continue
+
+        seen.add(
+            key
+        )
+
+        item = dict(
+            candidate
+        )
+
+        item["url"] = url
+
+        output.append(
+            item
+        )
+
+    return output
+
+
+# =========================================================
+# V8 EVIDENCE RANKING
+# =========================================================
+
+def rank_evidence_candidate(
+    candidate,
+):
+
+    if not isinstance(
+        candidate,
+        dict,
+    ):
+
+        return 0
+
+    url = (
+        normalize_discovery_url(
+            candidate.get(
+                "url",
+                "",
+            )
+        )
+    )
+
+    if not url:
+
+        return 0
+
+    if is_search_result_url(
+        url
+    ):
+
+        return 0
+
+    source_type = str(
+        candidate.get(
+            "source_type",
+            "",
+        )
+    ).lower()
+
+    publisher_match = bool(
+        candidate.get(
+            "publisher_match",
+            False,
+        )
+    )
+
+    usable = bool(
+        candidate.get(
+            "usable",
+            False,
+        )
+    )
+
+    score = 10
+
+    source_scores = {
+        "official": 100,
+        "publisher": 70,
+        "rss": 60,
+        "search": 20,
+        "aggregator": 10,
+    }
+
+    score += source_scores.get(
+        source_type,
+        0,
+    )
+
+    if publisher_match:
+
+        score += 25
+
+    if usable:
+
+        score += 30
+
+    else:
+
+        score -= 40
+
+    return max(
+        score,
+        0,
+    )
+
+
+def build_evidence_candidate_pool(
+    candidates,
+):
+
+    candidates = (
+        deduplicate_candidates(
+            candidates
+        )
+    )
+
+    output = []
+
+    for candidate in candidates:
+
+        if is_search_result_url(
+            candidate.get(
+                "url",
+                "",
+            )
+        ):
+
+            continue
+
+        score = (
+            rank_evidence_candidate(
+                candidate
+            )
+        )
+
+        if score <= 0:
+
+            continue
+
+        item = dict(
+            candidate
+        )
+
+        item[
+            "evidence_rank"
+        ] = score
+
+        output.append(
+            item
+        )
+
+    output.sort(
+        key=lambda item: (
+            item.get(
+                "evidence_rank",
+                0,
+            )
+        ),
+        reverse=True,
+    )
+
+    return output
+
+
+# =========================================================
+# FETCH RESULT
 # =========================================================
 
 def evaluate_fetch_result(
@@ -1037,35 +1696,46 @@ def evaluate_fetch_result(
         TypeError,
         ValueError,
     ):
+
         return "UNUSABLE"
 
     if not (
-        200 <= status_code < 300
+        200
+        <= status_code
+        < 300
     ):
+
         return "UNUSABLE"
 
-    if not isinstance(text, str):
+    if not isinstance(
+        text,
+        str,
+    ):
+
         return "UNUSABLE"
 
     if not text.strip():
+
         return "UNUSABLE"
 
     return "USABLE"
 
 
 # =========================================================
-# RAW HTML FETCH
+# HTTP FETCH
 # =========================================================
 
-def fetch_raw_html_page(url):
+def fetch_url_bytes(
+    url,
+    accept,
+):
 
     result = {
-        "url": url,
         "status": "UNUSABLE",
         "http_status": None,
         "final_url": "",
         "content_type": "",
-        "html": "",
+        "body": b"",
         "error": "",
     }
 
@@ -1074,7 +1744,7 @@ def fetch_raw_html_page(url):
     ):
 
         result["error"] = (
-            "Unsafe or non-public URL."
+            "Unsafe URL."
         )
 
         return result
@@ -1083,10 +1753,7 @@ def fetch_raw_html_page(url):
         url,
         headers={
             "User-Agent": USER_AGENT,
-            "Accept": (
-                "text/html,"
-                "application/xhtml+xml"
-            ),
+            "Accept": accept,
             "Accept-Language": (
                 "fr-FR,fr;q=0.9,"
                 "en;q=0.8"
@@ -1110,25 +1777,31 @@ def fetch_raw_html_page(url):
             ):
 
                 result["error"] = (
-                    "Redirected to unsafe URL."
+                    "Unsafe redirect."
                 )
 
                 return result
 
-            status_code = (
-                response.getcode()
+            body = response.read(
+                MAX_PAGE_BYTES + 1
             )
 
-            content_type = (
-                response.headers.get(
-                    "Content-Type",
-                    "",
-                )
-            )
+            if (
+                len(body)
+                > MAX_PAGE_BYTES
+            ):
+
+                body = body[
+                    :MAX_PAGE_BYTES
+                ]
+
+            result[
+                "status"
+            ] = "USABLE"
 
             result[
                 "http_status"
-            ] = status_code
+            ] = response.getcode()
 
             result[
                 "final_url"
@@ -1136,53 +1809,22 @@ def fetch_raw_html_page(url):
 
             result[
                 "content_type"
-            ] = content_type
-
-            if (
-                "text/html"
-                not in content_type.lower()
-                and
-                "application/xhtml+xml"
-                not in content_type.lower()
-            ):
-
-                result["error"] = (
-                    "Unsupported content type."
+            ] = (
+                response.headers.get(
+                    "Content-Type",
+                    "",
                 )
-
-                return result
-
-            raw_bytes = response.read(
-                MAX_PAGE_BYTES + 1
             )
 
-            if (
-                len(raw_bytes)
-                > MAX_PAGE_BYTES
-            ):
+            result["body"] = body
 
-                raw_bytes = raw_bytes[
-                    :MAX_PAGE_BYTES
-                ]
-
-            charset = (
+            result[
+                "charset"
+            ] = (
                 response.headers
                 .get_content_charset()
                 or "utf-8"
             )
-
-            result["html"] = (
-                raw_bytes.decode(
-                    charset,
-                    errors="replace",
-                )
-            )
-
-            result["status"] = (
-                "USABLE"
-            )
-
-            return result
 
     except HTTPError as error:
 
@@ -1197,14 +1839,7 @@ def fetch_raw_html_page(url):
     except URLError as error:
 
         result["error"] = (
-            "URL error: "
-            f"{error.reason}"
-        )
-
-    except TimeoutError:
-
-        result["error"] = (
-            "Request timed out."
+            f"URL error: {error.reason}"
         )
 
     except Exception as error:
@@ -1217,54 +1852,58 @@ def fetch_raw_html_page(url):
     return result
 
 
-# =========================================================
-# FETCH ARTICLE
-# =========================================================
-
 def fetch_public_page(
     url,
-    topic="",
 ):
 
     result = {
         "url": url,
         "fetch_status": "UNUSABLE",
         "http_status": None,
-        "content_type": "",
         "final_url": "",
-        "extraction_method": "",
+        "content_type": "",
         "text": "",
+        "extraction_method": "",
         "error": "",
     }
 
-    raw = fetch_raw_html_page(
-        url
+    fetched = fetch_url_bytes(
+        url,
+        (
+            "text/html,"
+            "application/xhtml+xml"
+        ),
     )
 
     result[
         "http_status"
-    ] = raw.get(
+    ] = fetched.get(
         "http_status"
-    )
-
-    result[
-        "content_type"
-    ] = raw.get(
-        "content_type",
-        "",
     )
 
     result[
         "final_url"
-    ] = raw.get(
+    ] = fetched.get(
         "final_url",
         "",
     )
 
-    if raw.get("status") != "USABLE":
+    result[
+        "content_type"
+    ] = fetched.get(
+        "content_type",
+        "",
+    )
+
+    if (
+        fetched.get(
+            "status"
+        )
+        != "USABLE"
+    ):
 
         result["error"] = (
-            raw.get(
+            fetched.get(
                 "error",
                 "",
             )
@@ -1272,13 +1911,44 @@ def fetch_public_page(
 
         return result
 
-    raw_html = raw.get(
-        "html",
-        "",
+    content_type = (
+        fetched.get(
+            "content_type",
+            ""
+        ).lower()
     )
 
-    json_ld = extract_json_ld_text(
-        raw_html
+    if (
+        "html"
+        not in content_type
+        and "xhtml"
+        not in content_type
+    ):
+
+        result["error"] = (
+            "Not HTML."
+        )
+
+        return result
+
+    raw_html = (
+        fetched.get(
+            "body",
+            b"",
+        )
+        .decode(
+            fetched.get(
+                "charset",
+                "utf-8",
+            ),
+            errors="replace",
+        )
+    )
+
+    json_ld = (
+        extract_json_ld_text(
+            raw_html
+        )
     )
 
     embedded = (
@@ -1293,743 +1963,164 @@ def fetch_public_page(
 
     if json_ld:
 
-        extraction_method = (
-            "JSON_LD"
-        )
+        method = "JSON_LD"
 
         if embedded:
-            extraction_method += (
+
+            method += (
                 "+EMBEDDED_JSON"
             )
 
     elif embedded:
 
-        extraction_method = (
+        method = (
             "EMBEDDED_JSON"
         )
 
     else:
 
-        extraction_method = (
-            "HTML"
-        )
+        method = "HTML"
 
     result[
         "extraction_method"
-    ] = extraction_method
+    ] = method
 
     result["text"] = text
 
-    if topic:
+    result[
+        "fetch_status"
+    ] = evaluate_fetch_result(
+        result.get(
+            "http_status"
+        ),
+        text,
+    )
+
+    if (
+        result[
+            "fetch_status"
+        ]
+        == "USABLE"
+        and len(text) < 200
+    ):
 
         result[
             "fetch_status"
-        ] = classify_evidence_quality(
-            text=text,
-            topic=topic,
-            status_code=result.get(
-                "http_status"
-            ),
-        )
-
-    else:
-
-        result[
-            "fetch_status"
-        ] = evaluate_fetch_result(
-            result.get(
-                "http_status"
-            ),
-            text,
-        )
-
-        if (
-            result[
-                "fetch_status"
-            ] == "USABLE"
-            and len(text) < 80
-        ):
-
-            result[
-                "fetch_status"
-            ] = "WEAK"
+        ] = "WEAK"
 
     return result
 
 
 # =========================================================
-# V7 DISCOVERY QUERY
+# FETCH PUBLIC FEED
 # =========================================================
 
-def build_discovery_query(topic):
-
-    # Tests can pass a string directly.
-    if isinstance(topic, str):
-
-        keyword = topic.strip()
-
-    elif isinstance(topic, dict):
-
-        seo = topic.get(
-            "seo",
-            {},
-        )
-
-        keyword = ""
-
-        if isinstance(seo, dict):
-
-            keyword = str(
-                seo.get(
-                    "primary_keyword",
-                    "",
-                )
-            ).strip()
-
-        if not keyword:
-
-            keyword = str(
-                topic.get(
-                    "primary_keyword",
-                    "",
-                )
-            ).strip()
-
-        if not keyword:
-
-            keyword = str(
-                topic.get(
-                    "topic",
-                    "",
-                )
-            ).strip()
-
-    else:
-
-        keyword = ""
-
-    if not keyword:
-        return ""
-
-    # v7 explicitly searches for authority signals.
-    return (
-        f'{keyword} official announcement news'
-    )
-
-
-# =========================================================
-# GOOGLE NEWS RSS DISCOVERY
-# =========================================================
-
-def build_discovery_feed_url(query):
-
-    if not query:
-        return ""
-
-    return (
-        "https://news.google.com/"
-        "rss/search"
-        f"?q={quote_plus(query)}"
-        "&hl=fr"
-        "&gl=FR"
-        "&ceid=FR:fr"
-    )
-
-
-def _element_text(
-    element,
-    tag,
+def fetch_feed(
+    url,
 ):
 
-    child = element.find(tag)
+    fetched = fetch_url_bytes(
+        url,
+        (
+            "application/rss+xml,"
+            "application/atom+xml,"
+            "application/xml,"
+            "text/xml"
+        ),
+    )
 
-    if child is None:
+    if (
+        fetched.get(
+            "status"
+        )
+        != "USABLE"
+    ):
+
         return ""
 
     return (
-        child.text
-        or ""
-    ).strip()
-
-
-def parse_discovery_feed(xml_text):
-
-    if not isinstance(
-        xml_text,
-        str,
-    ):
-        return []
-
-    if not xml_text.strip():
-        return []
-
-    try:
-
-        root = ET.fromstring(
-            xml_text
+        fetched.get(
+            "body",
+            b"",
         )
-
-    except ET.ParseError:
-        return []
-
-    articles = []
-
-    for item in root.findall(
-        ".//item"
-    ):
-
-        title = _element_text(
-            item,
-            "title",
-        )
-
-        url = _element_text(
-            item,
-            "link",
-        )
-
-        published_at = (
-            _element_text(
-                item,
-                "pubDate",
-            )
-        )
-
-        source_element = (
-            item.find("source")
-        )
-
-        publisher = ""
-        publisher_url = ""
-
-        if source_element is not None:
-
-            publisher = (
-                source_element.text
-                or ""
-            ).strip()
-
-            publisher_url = (
-                source_element.attrib.get(
-                    "url",
-                    "",
-                )
-                or ""
-            ).strip()
-
-        if not _is_http_url(url):
-            continue
-
-        articles.append(
-            {
-                "title": title,
-                "url": url,
-                "published_at": (
-                    published_at
-                ),
-                "publisher": (
-                    publisher
-                ),
-                "publisher_url": (
-                    publisher_url
-                ),
-                "source_type": (
-                    "aggregator"
-                    if is_google_news_url(url)
-                    else "publisher"
-                ),
-            }
-        )
-
-    return articles
-
-
-def fetch_discovery_feed(query):
-
-    result = {
-        "query": query,
-        "feed_url": "",
-        "status": "UNUSABLE",
-        "articles": [],
-        "error": "",
-    }
-
-    feed_url = (
-        build_discovery_feed_url(
-            query
-        )
-    )
-
-    result[
-        "feed_url"
-    ] = feed_url
-
-    if not feed_url:
-        return result
-
-    request = Request(
-        feed_url,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept": (
-                "application/rss+xml,"
-                "application/xml,"
-                "text/xml"
+        .decode(
+            fetched.get(
+                "charset",
+                "utf-8",
             ),
-        },
-    )
-
-    try:
-
-        with urlopen(
-            request,
-            timeout=FETCH_TIMEOUT_SECONDS,
-        ) as response:
-
-            raw_bytes = response.read(
-                MAX_PAGE_BYTES
-            )
-
-            charset = (
-                response.headers
-                .get_content_charset()
-                or "utf-8"
-            )
-
-            xml_text = raw_bytes.decode(
-                charset,
-                errors="replace",
-            )
-
-            articles = (
-                parse_discovery_feed(
-                    xml_text
-                )
-            )
-
-            result[
-                "articles"
-            ] = articles[
-                :MAX_DISCOVERY_RESULTS
-            ]
-
-            if result["articles"]:
-
-                result["status"] = (
-                    "USABLE"
-                )
-
-    except Exception as error:
-
-        result["error"] = (
-            "Discovery error: "
-            f"{type(error).__name__}"
+            errors="replace",
         )
-
-    return result
+    )
 
 
 # =========================================================
-# V7 — GOOGLE NEWS PUBLISHER RESOLUTION
+# V8 MULTI-FEED DISCOVERY
 # =========================================================
 
-def _extract_absolute_urls(raw_html):
-
-    if not isinstance(
-        raw_html,
-        str,
-    ):
-        return []
-
-    urls = re.findall(
-        r'https?://[^"\'<>\\\s]+',
-        raw_html,
-        flags=re.IGNORECASE,
-    )
-
-    cleaned = []
-
-    for url in urls:
-
-        url = html.unescape(url)
-
-        url = url.replace(
-            "\\u0026",
-            "&",
-        )
-
-        url = url.replace(
-            "\\/",
-            "/",
-        )
-
-        if url not in cleaned:
-            cleaned.append(url)
-
-    return cleaned
-
-
-def extract_publisher_url_from_google_news_html(
-    raw_html,
-    google_url="",
-    preferred_publisher_url="",
+def discover_public_feed_sources(
+    topic,
 ):
 
     candidates = []
 
-    # Normal href links.
-    hrefs = re.findall(
-        r"""(?is)
-        href\s*=\s*
-        ["']
-        (.*?)
-        ["']
-        """,
-        str(raw_html),
-        flags=re.VERBOSE,
-    )
+    for feed in PUBLIC_GAMING_FEEDS:
 
-    for href in hrefs:
-
-        candidate = urljoin(
-            google_url,
-            html.unescape(
-                href.strip()
-            ),
-        )
-
-        candidates.append(
-            candidate
-        )
-
-    # Also inspect URLs hidden inside JS/data.
-    candidates.extend(
-        _extract_absolute_urls(
-            raw_html
-        )
-    )
-
-    preferred_host = _hostname(
-        preferred_publisher_url
-    )
-
-    valid = []
-
-    for candidate in candidates:
-
-        candidate = normalize_discovery_url(
-            candidate
-        )
-
-        if not candidate:
-            continue
-
-        if not _is_http_url(
-            candidate
-        ):
-            continue
-
-        if not is_safe_public_url(
-            candidate
-        ):
-            continue
-
-        valid.append(candidate)
-
-    # Prefer publisher domain supplied in RSS.
-    if preferred_host:
-
-        for candidate in valid:
-
-            candidate_host = (
-                _hostname(
-                    candidate
-                )
-            )
-
-            if (
-                candidate_host
-                == preferred_host
-                or candidate_host.endswith(
-                    "." + preferred_host
-                )
-                or preferred_host.endswith(
-                    "." + candidate_host
-                )
-            ):
-                return candidate
-
-    if valid:
-        return valid[0]
-
-    return ""
-
-
-def resolve_discovery_url(
-    url,
-    wrapper_html="",
-    preferred_publisher_url="",
-):
-
-    if not _is_http_url(url):
-
-        return {
-            "original_url": url,
-            "resolved_url": "",
-            "status": "INVALID",
-            "can_fetch_as_evidence": False,
-        }
-
-    direct = normalize_discovery_url(
-        url
-    )
-
-    if direct:
-
-        return {
-            "original_url": url,
-            "resolved_url": direct,
-            "status": "DIRECT",
-            "can_fetch_as_evidence": True,
-        }
-
-    if not is_google_news_url(url):
-
-        return {
-            "original_url": url,
-            "resolved_url": "",
-            "status": "UNRESOLVED",
-            "can_fetch_as_evidence": False,
-        }
-
-    publisher_url = (
-        extract_publisher_url_from_google_news_html(
-            wrapper_html,
-            google_url=url,
-            preferred_publisher_url=(
-                preferred_publisher_url
-            ),
-        )
-    )
-
-    if not publisher_url:
-
-        return {
-            "original_url": url,
-            "resolved_url": "",
-            "status": "UNRESOLVED",
-            "can_fetch_as_evidence": False,
-        }
-
-    return {
-        "original_url": url,
-        "resolved_url": publisher_url,
-        "status": "RESOLVED",
-        "can_fetch_as_evidence": True,
-    }
-
-
-# =========================================================
-# DISCOVER TOPIC SOURCES
-# =========================================================
-
-def discover_topic_sources(
-    scored_topic,
-):
-
-    query = build_discovery_query(
-        scored_topic
-    )
-
-    print(
-        f"Discovery query: {query}"
-    )
-
-    feed = fetch_discovery_feed(
-        query
-    )
-
-    candidates = feed.get(
-        "articles",
-        [],
-    )
-
-    ranked = rank_evidence_candidates(
-        candidates
-    )
-
-    return {
-        "query": query,
-        "feed_url": feed.get(
-            "feed_url",
-            "",
-        ),
-        "status": feed.get(
-            "status",
-            "UNUSABLE",
-        ),
-        "error": feed.get(
-            "error",
-            "",
-        ),
-        "sources": ranked[
-            :MAX_DISCOVERY_RESULTS
-        ],
-    }
-
-
-# =========================================================
-# FETCH DISCOVERED SOURCES
-# =========================================================
-
-def fetch_discovered_sources(
-    discovery_result,
-    topic,
-):
-
-    fetched = []
-
-    sources = discovery_result.get(
-        "sources",
-        [],
-    )
-
-    for source in sources[
-        :MAX_DISCOVERED_SOURCES_TO_FETCH
-    ]:
-
-        original_url = source.get(
-            "url",
-            "",
-        )
-
-        print("")
-        print(
-            "Discovery candidate:"
-        )
-        print(original_url)
-
-        wrapper_html = ""
-
-        if is_google_news_url(
-            original_url
-        ):
-
-            print(
-                "Google News wrapper detected."
-            )
-
-            wrapper = fetch_raw_html_page(
-                original_url
-            )
-
-            if (
-                wrapper.get("status")
-                == "USABLE"
-            ):
-
-                wrapper_html = (
-                    wrapper.get(
-                        "html",
-                        "",
-                    )
-                )
-
-        resolution = resolve_discovery_url(
-            original_url,
-            wrapper_html=wrapper_html,
-            preferred_publisher_url=(
-                source.get(
-                    "publisher_url",
-                    "",
-                )
-            ),
-        )
-
-        print(
-            "Resolution status: "
-            f"{resolution.get('status')}"
-        )
-
-        resolved_url = (
-            resolution.get(
-                "resolved_url",
+        feed_url = (
+            feed.get(
+                "url",
                 "",
             )
         )
 
-        if not resolution.get(
-            "can_fetch_as_evidence"
-        ):
+        print(
+            "Checking feed: "
+            f"{feed_url}"
+        )
 
-            fetched.append(
-                {
-                    **source,
-                    "original_url": (
-                        original_url
-                    ),
-                    "resolved_url": "",
-                    "resolution_status": (
-                        resolution.get(
-                            "status"
-                        )
-                    ),
-                    "fetch_status": (
-                        "UNRESOLVED"
-                    ),
-                    "text": "",
-                    "error": (
-                        "Could not resolve "
-                        "publisher article."
-                    ),
-                }
-            )
+        feed_text = fetch_feed(
+            feed_url
+        )
+
+        if not feed_text:
 
             continue
 
-        print(
-            "Resolved publisher URL: "
-            f"{resolved_url}"
+        matches = (
+            discover_feed_candidates(
+                feed_text=feed_text,
+                topic=topic,
+            )
         )
 
-        page = fetch_public_page(
-            resolved_url,
-            topic=topic,
-        )
+        for match in matches:
 
-        fetched.append(
-            {
-                **source,
-                "original_url": (
-                    original_url
-                ),
-                "resolved_url": (
-                    resolved_url
-                ),
-                "resolution_status": (
-                    resolution.get(
-                        "status"
-                    )
-                ),
-                **page,
-            }
-        )
+            match[
+                "publisher"
+            ] = feed.get(
+                "publisher",
+                "",
+            )
 
-        print(
-            "Publisher fetch result: "
-            f"{page.get('fetch_status')}"
-        )
+            match[
+                "source_type"
+            ] = feed.get(
+                "source_type",
+                "rss",
+            )
 
-        print(
-            "Publisher extracted characters: "
-            f"{len(page.get('text', ''))}"
-        )
+            candidates.append(
+                match
+            )
 
-    return fetched
+    return (
+        deduplicate_candidates(
+            candidates
+        )
+    )
 
 
 # =========================================================
-# ORIGINAL INTEL SOURCES
+# ORIGINAL INTEL
 # =========================================================
 
 def extract_source_evidence(
@@ -2038,23 +2129,31 @@ def extract_source_evidence(
 
     output = []
 
-    for source in intel_topic.get(
-        "sources",
-        [],
+    for source in (
+        intel_topic.get(
+            "sources",
+            [],
+        )
     ):
 
         if not isinstance(
             source,
             dict,
         ):
+
             continue
 
-        url = source.get(
-            "url",
-            "",
+        url = (
+            normalize_discovery_url(
+                source.get(
+                    "url",
+                    "",
+                )
+            )
         )
 
         if not url:
+
             continue
 
         output.append(
@@ -2084,11 +2183,6 @@ def fetch_topic_sources(
 
     fetched = []
 
-    topic_name = intel_topic.get(
-        "topic",
-        "",
-    )
-
     for source in (
         extract_source_evidence(
             intel_topic
@@ -2101,8 +2195,7 @@ def fetch_topic_sources(
         )
 
         page = fetch_public_page(
-            source["url"],
-            topic=topic_name,
+            source["url"]
         )
 
         fetched.append(
@@ -2110,16 +2203,6 @@ def fetch_topic_sources(
                 **source,
                 **page,
             }
-        )
-
-        print(
-            "Fetch result: "
-            f"{page.get('fetch_status')}"
-        )
-
-        print(
-            "Extracted characters: "
-            f"{len(page.get('text', ''))}"
         )
 
     return fetched
@@ -2137,19 +2220,20 @@ def build_initial_claims(
         )
     ):
 
-        claim = str(
+        evidence = str(
             source.get(
                 "evidence",
                 "",
             )
         ).strip()
 
-        if not claim:
+        if not evidence:
+
             continue
 
         claims.append(
             {
-                "claim": claim,
+                "claim": evidence,
                 "status": "UNKNOWN",
                 "sources": [],
             }
@@ -2159,7 +2243,66 @@ def build_initial_claims(
 
 
 # =========================================================
-# V6/V7 — USABLE EVIDENCE
+# FETCH V8 DISCOVERED ARTICLES
+# =========================================================
+
+def fetch_v8_candidates(
+    candidates,
+):
+
+    fetched = []
+
+    pool = (
+        build_evidence_candidate_pool(
+            candidates
+        )
+    )
+
+    for candidate in pool[
+        :MAX_DISCOVERED_SOURCES_TO_FETCH
+    ]:
+
+        url = (
+            resolve_discovery_url(
+                candidate.get(
+                    "url",
+                    "",
+                )
+            )
+        )
+
+        if not url:
+
+            continue
+
+        if is_search_result_url(
+            url
+        ):
+
+            continue
+
+        print(
+            "Fetching direct candidate: "
+            f"{url}"
+        )
+
+        page = fetch_public_page(
+            url
+        )
+
+        fetched.append(
+            {
+                **candidate,
+                **page,
+                "resolved_url": url,
+            }
+        )
+
+    return fetched
+
+
+# =========================================================
+# COLLECT USABLE EVIDENCE
 # =========================================================
 
 def collect_usable_evidence(
@@ -2167,28 +2310,28 @@ def collect_usable_evidence(
     discovered_sources,
 ):
 
-    evidence = []
-    seen_urls = set()
-
     all_sources = []
 
-    if isinstance(
-        original_sources,
-        list,
-    ):
-
-        all_sources.extend(
-            original_sources
+    all_sources.extend(
+        original_sources
+        if isinstance(
+            original_sources,
+            list,
         )
+        else []
+    )
 
-    if isinstance(
-        discovered_sources,
-        list,
-    ):
-
-        all_sources.extend(
-            discovered_sources
+    all_sources.extend(
+        discovered_sources
+        if isinstance(
+            discovered_sources,
+            list,
         )
+        else []
+    )
+
+    evidence = []
+    seen = set()
 
     for source in all_sources:
 
@@ -2196,6 +2339,7 @@ def collect_usable_evidence(
             source,
             dict,
         ):
+
             continue
 
         if (
@@ -2204,6 +2348,7 @@ def collect_usable_evidence(
             )
             != "USABLE"
         ):
+
             continue
 
         text = str(
@@ -2214,9 +2359,10 @@ def collect_usable_evidence(
         ).strip()
 
         if not text:
+
             continue
 
-        url = str(
+        url = (
             source.get(
                 "resolved_url"
             )
@@ -2227,35 +2373,41 @@ def collect_usable_evidence(
                 "url"
             )
             or ""
-        ).strip()
+        )
 
-        url = normalize_discovery_url(
+        url = resolve_discovery_url(
             url
         )
 
         if not url:
+
             continue
 
-        if url in seen_urls:
+        if is_search_result_url(
+            url
+        ):
+
             continue
 
-        seen_urls.add(url)
+        if url in seen:
+
+            continue
+
+        seen.add(
+            url
+        )
 
         evidence.append(
             {
                 "url": url,
                 "text": text,
-                "publisher": (
-                    source.get(
-                        "publisher",
-                        "",
-                    )
+                "title": source.get(
+                    "title",
+                    "",
                 ),
-                "title": (
-                    source.get(
-                        "title",
-                        "",
-                    )
+                "publisher": source.get(
+                    "publisher",
+                    "",
                 ),
             }
         )
@@ -2264,7 +2416,7 @@ def collect_usable_evidence(
 
 
 # =========================================================
-# CLAIM VERIFICATION SELECTION
+# CLAIM SELECTION
 # =========================================================
 
 def select_claims_for_verification(
@@ -2280,6 +2432,7 @@ def select_claims_for_verification(
             claim,
             dict,
         ):
+
             continue
 
         if (
@@ -2291,28 +2444,35 @@ def select_claims_for_verification(
             )
             != "UNKNOWN"
         ):
+
             continue
 
-        claim_text = str(
+        if not str(
             claim.get(
                 "claim",
                 "",
             )
-        ).strip()
+        ).strip():
 
-        if not claim_text:
             continue
 
-        selected.append(claim)
+        selected.append(
+            claim
+        )
 
         if (
             len(selected)
             >= max_claims
         ):
+
             break
 
     return selected
 
+
+# =========================================================
+# VERIFICATION RESULT SAFETY
+# =========================================================
 
 def normalize_verification_result(
     result,
@@ -2323,39 +2483,53 @@ def normalize_verification_result(
         result,
         dict,
     ):
+
         result = {}
 
-    allowed_source_urls = set(
+    allowed = set(
         allowed_source_urls
         or []
     )
 
-    status = normalize_claim_status(
-        result.get(
-            "status",
-            "UNKNOWN",
+    status = (
+        normalize_claim_status(
+            result.get(
+                "status",
+                "UNKNOWN",
+            )
         )
     )
 
-    urls = result.get(
-        "supporting_source_urls",
-        [],
+    supplied_urls = (
+        result.get(
+            "supporting_source_urls",
+            [],
+        )
     )
 
-    if not isinstance(urls, list):
-        urls = []
+    if not isinstance(
+        supplied_urls,
+        list,
+    ):
+
+        supplied_urls = []
 
     approved = []
 
-    for url in urls:
+    for url in supplied_urls:
 
         if (
-            isinstance(url, str)
-            and url in allowed_source_urls
+            isinstance(
+                url,
+                str,
+            )
+            and url in allowed
             and url not in approved
         ):
 
-            approved.append(url)
+            approved.append(
+                url
+            )
 
     if (
         status == "CONFIRMED"
@@ -2372,9 +2546,7 @@ def normalize_verification_result(
             )
         ).strip(),
         "status": status,
-        "supporting_source_urls": (
-            approved
-        ),
+        "supporting_source_urls": approved,
         "reason": str(
             result.get(
                 "reason",
@@ -2385,7 +2557,7 @@ def normalize_verification_result(
 
 
 # =========================================================
-# GROQ HELPERS
+# GROQ SAFE CALL
 # =========================================================
 
 def extract_ai_json(text):
@@ -2419,8 +2591,13 @@ def extract_ai_json(text):
 
     except json.JSONDecodeError:
 
-        start = cleaned.find("{")
-        end = cleaned.rfind("}")
+        start = cleaned.find(
+            "{"
+        )
+
+        end = cleaned.rfind(
+            "}"
+        )
 
         if (
             start == -1
@@ -2428,7 +2605,7 @@ def extract_ai_json(text):
         ):
 
             raise ValueError(
-                "No JSON object found."
+                "No JSON found."
             )
 
         return json.loads(
@@ -2508,6 +2685,7 @@ def groq_chat(messages):
                 attempt
                 >= GROQ_MAX_RETRIES
             ):
+
                 raise
 
             print(
@@ -2520,7 +2698,7 @@ def groq_chat(messages):
             )
 
     raise RuntimeError(
-        "Groq verification failed."
+        "Groq request failed."
     )
 
 
@@ -2561,30 +2739,24 @@ def build_verification_messages(
         )
 
     system_prompt = """
-You are GamerQuest FR's strict fact-verification engine.
+You are the strict fact-verification engine for GamerQuest FR.
 
-You may use ONLY the supplied evidence.
+Use ONLY the supplied evidence.
 
-Do not use memory.
-Do not use general knowledge.
-Do not infer dates.
-Do not invent facts.
-Do not treat search titles alone as proof.
+Never use memory or outside knowledge.
+Never infer a release date.
+Never invent a fact.
+Never treat a search result as evidence.
 
-Statuses:
+Return CONFIRMED only when the supplied text explicitly
+supports the claim.
 
-CONFIRMED:
-The evidence explicitly establishes the claim.
+Return UNCONFIRMED when supplied evidence explicitly
+contradicts the claim.
 
-UNCONFIRMED:
-The evidence directly contradicts the claim or clearly
-shows the claim is not established.
+Otherwise return UNKNOWN.
 
-UNKNOWN:
-Evidence is insufficient, indirect, vague or unrelated.
-
-CONFIRMED requires at least one exact URL supplied in
-the evidence.
+A CONFIRMED result must cite at least one exact evidence URL.
 
 Return ONLY valid JSON:
 
@@ -2630,9 +2802,13 @@ def verify_claim_with_groq(
 ):
 
     allowed_urls = {
-        item.get("url")
+        item.get(
+            "url"
+        )
         for item in evidence
-        if item.get("url")
+        if item.get(
+            "url"
+        )
     }
 
     response = groq_chat(
@@ -2646,9 +2822,11 @@ def verify_claim_with_groq(
         response
     )
 
-    raw["claim"] = claim.get(
-        "claim",
-        "",
+    raw["claim"] = (
+        claim.get(
+            "claim",
+            "",
+        )
     )
 
     return (
@@ -2667,7 +2845,6 @@ def verify_claims(
     selected = (
         select_claims_for_verification(
             claims,
-            MAX_CLAIMS_PER_RUN,
         )
     )
 
@@ -2688,7 +2865,7 @@ def verify_claims(
 
         print(
             "GROQ_API_KEY missing. "
-            "Verification skipped."
+            "Verification skipped safely."
         )
 
         return claims
@@ -2711,7 +2888,10 @@ def verify_claims(
         print(
             "Verifying claim:"
         )
-        print(claim_text)
+
+        print(
+            claim_text
+        )
 
         try:
 
@@ -2725,8 +2905,12 @@ def verify_claims(
         except RateLimitError:
 
             print(
-                "Groq free quota unavailable. "
-                "Stopping safely."
+                "Groq free quota unavailable."
+            )
+
+            print(
+                "Stopping safely. "
+                "No paid fallback."
             )
 
             break
@@ -2748,9 +2932,12 @@ def verify_claims(
         for item in updated:
 
             if (
-                item.get("claim")
+                item.get(
+                    "claim"
+                )
                 != claim_text
             ):
+
                 continue
 
             item["status"] = (
@@ -2786,7 +2973,7 @@ def verify_claims(
 
 
 # =========================================================
-# SCORER / INTEL HELPERS
+# PIPELINE HELPERS
 # =========================================================
 
 def get_write_candidates(
@@ -2821,13 +3008,17 @@ def find_intel_topic(
     topic_id,
 ):
 
-    for topic in intel_data.get(
-        "topics",
-        [],
+    for topic in (
+        intel_data.get(
+            "topics",
+            [],
+        )
     ):
 
         if (
-            topic.get("id")
+            topic.get(
+                "id"
+            )
             == topic_id
         ):
 
@@ -2841,7 +3032,9 @@ def count_source_statuses(
 ):
 
     counts = {
-        "total": len(sources),
+        "total": len(
+            sources
+        ),
         "usable": 0,
         "weak": 0,
         "unresolved": 0,
@@ -2857,11 +3050,15 @@ def count_source_statuses(
 
         if status == "USABLE":
 
-            counts["usable"] += 1
+            counts[
+                "usable"
+            ] += 1
 
         elif status == "WEAK":
 
-            counts["weak"] += 1
+            counts[
+                "weak"
+            ] += 1
 
         elif status == "UNRESOLVED":
 
@@ -2879,7 +3076,7 @@ def count_source_statuses(
 
 
 # =========================================================
-# BUILD V7 RESEARCH RECORD
+# V8 RESEARCH RECORD
 # =========================================================
 
 def build_research_record(
@@ -2887,7 +3084,7 @@ def build_research_record(
     intel_topic,
 ):
 
-    topic_name = (
+    topic_name = str(
         scored_topic.get(
             "topic",
             "",
@@ -2896,11 +3093,17 @@ def build_research_record(
             "topic",
             "",
         )
+    ).strip()
+
+    claims = (
+        build_initial_claims(
+            intel_topic
+        )
     )
 
-    claims = build_initial_claims(
-        intel_topic
-    )
+    # -----------------------------------------------------
+    # 1. ORIGINAL SOURCES
+    # -----------------------------------------------------
 
     original_sources = (
         fetch_topic_sources(
@@ -2908,23 +3111,34 @@ def build_research_record(
         )
     )
 
-    discovery = (
-        discover_topic_sources(
-            scored_topic
+    # -----------------------------------------------------
+    # 2. FREE DIRECT RSS / ATOM DISCOVERY
+    # -----------------------------------------------------
+
+    feed_candidates = (
+        discover_public_feed_sources(
+            topic_name
         )
     )
 
     print(
-        "Discovered source candidates: "
-        f"{len(discovery.get('sources', []))}"
+        "DIRECT FEED CANDIDATES: "
+        f"{len(feed_candidates)}"
     )
 
+    # -----------------------------------------------------
+    # 3. DIRECT ARTICLE FETCH
+    # -----------------------------------------------------
+
     discovered_sources = (
-        fetch_discovered_sources(
-            discovery,
-            topic_name,
+        fetch_v8_candidates(
+            feed_candidates
         )
     )
+
+    # -----------------------------------------------------
+    # 4. USABLE EVIDENCE ONLY
+    # -----------------------------------------------------
 
     usable_evidence = (
         collect_usable_evidence(
@@ -2939,15 +3153,33 @@ def build_research_record(
         f"{len(usable_evidence)}"
     )
 
-    verified_claims = verify_claims(
-        claims,
-        usable_evidence,
+    # -----------------------------------------------------
+    # 5. CLAIM VERIFICATION
+    # -----------------------------------------------------
+
+    verified_claims = (
+        verify_claims(
+            claims,
+            usable_evidence,
+        )
     )
 
     fact_pack = (
         build_verified_fact_pack(
             verified_claims
         )
+    )
+
+    confirmed_count = len(
+        fact_pack[
+            "confirmed_facts"
+        ]
+    )
+
+    blocked_count = len(
+        fact_pack[
+            "blocked_claims"
+        ]
     )
 
     original_counts = (
@@ -2978,25 +3210,17 @@ def build_research_record(
     )
 
     unresolved_sources = (
-        original_counts["unresolved"]
-        + discovered_counts["unresolved"]
+        original_counts[
+            "unresolved"
+        ]
+        + discovered_counts[
+            "unresolved"
+        ]
     )
 
     unusable_sources = (
         original_counts["unusable"]
         + discovered_counts["unusable"]
-    )
-
-    confirmed_count = len(
-        fact_pack[
-            "confirmed_facts"
-        ]
-    )
-
-    blocked_count = len(
-        fact_pack[
-            "blocked_claims"
-        ]
     )
 
     if confirmed_count > 0:
@@ -3022,11 +3246,15 @@ def build_research_record(
             "id"
         ),
         "topic": topic_name,
-        "seo_score": scored_topic.get(
-            "total_score"
+        "seo_score": (
+            scored_topic.get(
+                "total_score"
+            )
         ),
-        "seo_decision": scored_topic.get(
-            "decision"
+        "seo_decision": (
+            scored_topic.get(
+                "decision"
+            )
         ),
         "created_at": (
             datetime.now(
@@ -3045,31 +3273,17 @@ def build_research_record(
         ),
 
         "discovery": {
-            "query": discovery.get(
-                "query",
-                "",
+            "version": "8.0",
+            "strategy": (
+                "original + public RSS/Atom"
             ),
-            "feed_url": discovery.get(
-                "feed_url",
-                "",
-            ),
-            "status": discovery.get(
-                "status",
-                "UNUSABLE",
-            ),
-            "error": discovery.get(
-                "error",
-                "",
-            ),
-            "candidate_count": len(
-                discovery.get(
-                    "sources",
-                    [],
+            "feed_candidate_count": (
+                len(
+                    feed_candidates
                 )
             ),
-            "candidates": discovery.get(
-                "sources",
-                [],
+            "candidates": (
+                feed_candidates
             ),
         },
 
@@ -3109,8 +3323,10 @@ def build_research_record(
             "max_claims_per_run": (
                 MAX_CLAIMS_PER_RUN
             ),
-            "claims_total": len(
-                verified_claims
+            "claims_total": (
+                len(
+                    verified_claims
+                )
             ),
             "confirmed": (
                 confirmed_count
@@ -3150,7 +3366,7 @@ def main():
         "==================================="
     )
     print(
-        "GAMERQUEST RESEARCHER V7"
+        "GAMERQUEST RESEARCHER V8"
     )
     print(
         "==================================="
@@ -3193,7 +3409,7 @@ def main():
         except Exception:
 
             research_data = {
-                "version": "7.0",
+                "version": "8.0",
                 "updated_at": None,
                 "topics": [],
             }
@@ -3201,7 +3417,7 @@ def main():
     else:
 
         research_data = {
-            "version": "7.0",
+            "version": "8.0",
             "updated_at": None,
             "topics": [],
         }
@@ -3218,13 +3434,17 @@ def main():
     )
 
     candidate_ids = {
-        topic.get("id")
+        topic.get(
+            "id"
+        )
         for topic in candidates
-        if topic.get("id")
+        if topic.get(
+            "id"
+        )
     }
 
     # Refresh current WRITE records
-    # while researcher is under development.
+    # while Researcher is being developed.
     research_data[
         "topics"
     ] = [
@@ -3235,7 +3455,9 @@ def main():
             [],
         )
         if (
-            topic.get("id")
+            topic.get(
+                "id"
+            )
             not in candidate_ids
         )
     ]
@@ -3244,11 +3466,14 @@ def main():
 
     for scored_topic in candidates:
 
-        topic_id = scored_topic.get(
-            "id"
+        topic_id = (
+            scored_topic.get(
+                "id"
+            )
         )
 
         if not topic_id:
+
             continue
 
         intel_topic = (
@@ -3351,7 +3576,7 @@ def main():
 
     research_data[
         "version"
-    ] = "7.0"
+    ] = "8.0"
 
     research_data[
         "updated_at"
@@ -3369,7 +3594,7 @@ def main():
         "==================================="
     )
     print(
-        "RESEARCHER V7 COMPLETE"
+        "RESEARCHER V8 COMPLETE"
     )
     print(
         "==================================="
@@ -3381,13 +3606,16 @@ def main():
     )
 
     print(
-        "Google wrappers and Google "
-        "infrastructure are not evidence."
+        "Search-result pages are never evidence."
     )
 
     print(
-        "Only relevant USABLE publisher "
-        "content reaches verification."
+        "Direct RSS/Atom publisher URLs "
+        "are preferred."
+    )
+
+    print(
+        "Only USABLE evidence reaches Groq."
     )
 
     print(

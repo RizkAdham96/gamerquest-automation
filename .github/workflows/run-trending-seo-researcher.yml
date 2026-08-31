@@ -19,14 +19,20 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install groq
+
       - name: Run Trending SEO researcher
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python trending_seo/researcher.py
 
       - name: Show research summary
         run: |
-          if [ -f trending_seo/research_results.json ]; then
-            python - <<'PY'
+          python - <<'PY'
           import json
 
           path = "trending_seo/research_results.json"
@@ -34,33 +40,64 @@ jobs:
           with open(path, "r", encoding="utf-8") as f:
               data = json.load(f)
 
+          print("=" * 60)
+          print("GAMERQUEST TRENDING SEO — RESEARCH SUMMARY")
+          print("=" * 60)
+
           for topic in data.get("topics", []):
-              print("=" * 50)
+              print()
               print("TOPIC:", topic.get("topic"))
               print("SEO SCORE:", topic.get("seo_score"))
               print("STATUS:", topic.get("research_status"))
 
-              summary = topic.get("source_summary", {})
+              source_summary = topic.get("source_summary", {})
+              verification = topic.get("verification_summary", {})
 
               print(
                   "SOURCES:",
-                  summary.get("usable_sources", 0),
+                  source_summary.get("usable_sources", 0),
                   "usable /",
-                  summary.get("total_sources", 0),
+                  source_summary.get("total_sources", 0),
                   "total"
               )
 
-              for source in topic.get("fetched_sources", []):
+              print(
+                  "CONFIRMED CLAIMS:",
+                  verification.get("confirmed", 0)
+              )
+
+              print(
+                  "BLOCKED CLAIMS:",
+                  verification.get("blocked", 0)
+              )
+
+              print(
+                  "USABLE EVIDENCE:",
+                  verification.get("usable_evidence_sources", 0)
+              )
+
+              print("-" * 60)
+
+              for claim in topic.get("claims", []):
                   print(
+                      claim.get("status"),
                       "-",
-                      source.get("fetch_status"),
-                      source.get("http_status"),
-                      source.get("url")
+                      claim.get("claim")
                   )
+
+                  sources = claim.get("sources", [])
+
+                  for source in sources:
+                      print("   SOURCE:", source)
+
+                  reason = claim.get("verification_reason")
+
+                  if reason:
+                      print("   REASON:", reason)
+
+          print()
+          print("=" * 60)
           PY
-          else
-            echo "No research file generated."
-          fi
 
       - name: Commit research results
         run: |
@@ -70,8 +107,8 @@ jobs:
           git add trending_seo/research_results.json
 
           if git diff --cached --quiet; then
-            echo "No new research results to commit."
+            echo "No research changes to commit."
           else
-            git commit -m "Update Trending SEO research"
+            git commit -m "Update Trending SEO verified research"
             git push
           fi

@@ -16,6 +16,11 @@ from researcher import (
     is_google_news_url,
     extract_publisher_url_from_google_news_html,
     resolve_discovery_url,
+
+    # V6
+    collect_usable_evidence,
+    select_claims_for_verification,
+    normalize_verification_result,
 )
 
 
@@ -790,6 +795,306 @@ class TestTrendingSeoResearcher(unittest.TestCase):
 
         self.assertTrue(
             result["can_fetch_as_evidence"]
+        )
+
+    # =====================================================
+    # V6 AUTOMATIC CLAIM VERIFICATION
+    # =====================================================
+
+    def test_collect_evidence_only_uses_usable_sources(self):
+
+        original_sources = [
+            {
+                "url": "https://official.example.com/article",
+                "fetch_status": "USABLE",
+                "text": (
+                    "CD PROJEKT RED officially announced "
+                    "The Witcher 3 Remastered."
+                ),
+            },
+            {
+                "url": "https://weak.example.com/article",
+                "fetch_status": "WEAK",
+                "text": "Tiny shell.",
+            },
+        ]
+
+        discovered_sources = [
+            {
+                "resolved_url": "https://gaming.example.com/article",
+                "fetch_status": "USABLE",
+                "text": (
+                    "The announcement was shown during "
+                    "Gamescom Opening Night Live."
+                ),
+            },
+            {
+                "resolved_url": "",
+                "fetch_status": "UNRESOLVED",
+                "text": "",
+            },
+        ]
+
+        evidence = collect_usable_evidence(
+            original_sources,
+            discovered_sources,
+        )
+
+        self.assertEqual(
+            len(evidence),
+            2,
+        )
+
+        urls = {
+            item["url"]
+            for item in evidence
+        }
+
+        self.assertIn(
+            "https://official.example.com/article",
+            urls,
+        )
+
+        self.assertIn(
+            "https://gaming.example.com/article",
+            urls,
+        )
+
+        self.assertNotIn(
+            "https://weak.example.com/article",
+            urls,
+        )
+
+    def test_empty_source_text_is_not_evidence(self):
+
+        evidence = collect_usable_evidence(
+            [
+                {
+                    "url": "https://example.com/empty",
+                    "fetch_status": "USABLE",
+                    "text": "",
+                }
+            ],
+            [],
+        )
+
+        self.assertEqual(
+            evidence,
+            [],
+        )
+
+    def test_only_unknown_claims_are_selected_for_verification(self):
+
+        claims = [
+            {
+                "claim": "Claim one",
+                "status": "UNKNOWN",
+                "sources": [],
+            },
+            {
+                "claim": "Already confirmed",
+                "status": "CONFIRMED",
+                "sources": ["https://example.com"],
+            },
+            {
+                "claim": "Claim two",
+                "status": "UNKNOWN",
+                "sources": [],
+            },
+        ]
+
+        selected = select_claims_for_verification(
+            claims,
+            max_claims=3,
+        )
+
+        self.assertEqual(
+            len(selected),
+            2,
+        )
+
+        self.assertEqual(
+            selected[0]["claim"],
+            "Claim one",
+        )
+
+        self.assertEqual(
+            selected[1]["claim"],
+            "Claim two",
+        )
+
+    def test_verification_is_capped_at_three_claims(self):
+
+        claims = [
+            {
+                "claim": f"Claim {number}",
+                "status": "UNKNOWN",
+                "sources": [],
+            }
+            for number in range(1, 7)
+        ]
+
+        selected = select_claims_for_verification(
+            claims,
+            max_claims=3,
+        )
+
+        self.assertEqual(
+            len(selected),
+            3,
+        )
+
+        self.assertEqual(
+            selected[0]["claim"],
+            "Claim 1",
+        )
+
+        self.assertEqual(
+            selected[2]["claim"],
+            "Claim 3",
+        )
+
+    def test_valid_confirmed_verification_is_preserved(self):
+
+        result = normalize_verification_result(
+            {
+                "claim": "The remaster was officially announced.",
+                "status": "CONFIRMED",
+                "supporting_source_urls": [
+                    "https://official.example.com/article"
+                ],
+                "reason": (
+                    "The official page explicitly states "
+                    "that the remaster was announced."
+                ),
+            },
+            allowed_source_urls={
+                "https://official.example.com/article",
+            },
+        )
+
+        self.assertEqual(
+            result["status"],
+            "CONFIRMED",
+        )
+
+        self.assertEqual(
+            result["supporting_source_urls"],
+            [
+                "https://official.example.com/article"
+            ],
+        )
+
+    def test_confirmed_without_source_becomes_unknown(self):
+
+        result = normalize_verification_result(
+            {
+                "claim": "The release date is September 29.",
+                "status": "CONFIRMED",
+                "supporting_source_urls": [],
+                "reason": "No citation supplied.",
+            },
+            allowed_source_urls={
+                "https://example.com/article",
+            },
+        )
+
+        self.assertEqual(
+            result["status"],
+            "UNKNOWN",
+        )
+
+        self.assertEqual(
+            result["supporting_source_urls"],
+            [],
+        )
+
+    def test_confirmed_with_unapproved_source_becomes_unknown(self):
+
+        result = normalize_verification_result(
+            {
+                "claim": "The release date is September 29.",
+                "status": "CONFIRMED",
+                "supporting_source_urls": [
+                    "https://made-up-source.example.com/article"
+                ],
+                "reason": "Claimed support.",
+            },
+            allowed_source_urls={
+                "https://official.example.com/article",
+            },
+        )
+
+        self.assertEqual(
+            result["status"],
+            "UNKNOWN",
+        )
+
+        self.assertEqual(
+            result["supporting_source_urls"],
+            [],
+        )
+
+    def test_invalid_ai_status_becomes_unknown(self):
+
+        result = normalize_verification_result(
+            {
+                "claim": "A claim",
+                "status": "PROBABLY_TRUE",
+                "supporting_source_urls": [
+                    "https://official.example.com/article"
+                ],
+                "reason": "Maybe.",
+            },
+            allowed_source_urls={
+                "https://official.example.com/article",
+            },
+        )
+
+        self.assertEqual(
+            result["status"],
+            "UNKNOWN",
+        )
+
+    def test_unconfirmed_result_is_allowed_but_blocked_from_fact_pack(self):
+
+        verification = normalize_verification_result(
+            {
+                "claim": "The release date is September 29.",
+                "status": "UNCONFIRMED",
+                "supporting_source_urls": [
+                    "https://official.example.com/article"
+                ],
+                "reason": (
+                    "The available source does not confirm "
+                    "this release date."
+                ),
+            },
+            allowed_source_urls={
+                "https://official.example.com/article",
+            },
+        )
+
+        claim = {
+            "claim": verification["claim"],
+            "status": verification["status"],
+            "sources": verification[
+                "supporting_source_urls"
+            ],
+        }
+
+        fact_pack = build_verified_fact_pack(
+            [claim]
+        )
+
+        self.assertEqual(
+            fact_pack["confirmed_facts"],
+            [],
+        )
+
+        self.assertEqual(
+            len(fact_pack["blocked_claims"]),
+            1,
         )
 
 

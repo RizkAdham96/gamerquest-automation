@@ -13,13 +13,16 @@ from researcher import (
     build_discovery_query,
     parse_discovery_feed,
     rank_discovered_sources,
+    is_google_news_url,
+    extract_publisher_url_from_google_news_html,
+    resolve_discovery_url,
 )
 
 
 class TestTrendingSeoResearcher(unittest.TestCase):
 
     # =====================================================
-    # CLAIM SAFETY TESTS
+    # CLAIM SAFETY
     # =====================================================
 
     def test_normalize_confirmed(self):
@@ -68,7 +71,9 @@ class TestTrendingSeoResearcher(unittest.TestCase):
             },
         ]
 
-        result = build_verified_fact_pack(claims)
+        result = build_verified_fact_pack(
+            claims
+        )
 
         self.assertEqual(
             len(result["confirmed_facts"]),
@@ -94,7 +99,9 @@ class TestTrendingSeoResearcher(unittest.TestCase):
             }
         ]
 
-        result = build_verified_fact_pack(claims)
+        result = build_verified_fact_pack(
+            claims
+        )
 
         self.assertEqual(
             result["confirmed_facts"],
@@ -107,11 +114,11 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     # =====================================================
-    # HTML TESTS
+    # HTML
     # =====================================================
 
     def test_clean_html_removes_scripts_and_tags(self):
-        html = """
+        raw_html = """
         <html>
             <head>
                 <script>
@@ -130,7 +137,9 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         </html>
         """
 
-        text = clean_html_text(html)
+        text = clean_html_text(
+            raw_html
+        )
 
         self.assertIn(
             "The Witcher 3 Remastered",
@@ -153,7 +162,7 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     # =====================================================
-    # URL SAFETY TESTS
+    # URL SAFETY
     # =====================================================
 
     def test_only_http_and_https_urls_are_allowed(self):
@@ -195,7 +204,7 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     # =====================================================
-    # FETCH RESULT TESTS
+    # FETCH RESULT
     # =====================================================
 
     def test_successful_fetch_is_usable(self):
@@ -232,11 +241,11 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     # =====================================================
-    # JSON-LD EXTRACTION TESTS
+    # JSON-LD
     # =====================================================
 
     def test_extract_json_ld_article_text(self):
-        html = """
+        raw_html = """
         <html>
             <head>
                 <script type="application/ld+json">
@@ -254,7 +263,9 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         </html>
         """
 
-        text = extract_json_ld_text(html)
+        text = extract_json_ld_text(
+            raw_html
+        )
 
         self.assertIn(
             "The Witcher 3 Remastered announced",
@@ -272,7 +283,7 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     def test_extract_json_ld_from_graph(self):
-        html = """
+        raw_html = """
         <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -291,7 +302,9 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         </script>
         """
 
-        text = extract_json_ld_text(html)
+        text = extract_json_ld_text(
+            raw_html
+        )
 
         self.assertIn(
             "gamescom award 2026 winners",
@@ -304,13 +317,15 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     def test_invalid_json_ld_does_not_crash(self):
-        html = """
+        raw_html = """
         <script type="application/ld+json">
             { this is invalid json
         </script>
         """
 
-        text = extract_json_ld_text(html)
+        text = extract_json_ld_text(
+            raw_html
+        )
 
         self.assertEqual(
             text,
@@ -318,11 +333,11 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     # =====================================================
-    # EMBEDDED JSON TESTS
+    # EMBEDDED JSON
     # =====================================================
 
     def test_extract_next_data_text(self):
-        html = """
+        raw_html = """
         <html>
             <body>
                 <script id="__NEXT_DATA__" type="application/json">
@@ -340,7 +355,9 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         </html>
         """
 
-        text = extract_embedded_json_text(html)
+        text = extract_embedded_json_text(
+            raw_html
+        )
 
         self.assertIn(
             "The Witcher 3 Remastered",
@@ -358,11 +375,11 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     # =====================================================
-    # BEST CONTENT SELECTION TESTS
+    # BEST CONTENT
     # =====================================================
 
     def test_structured_data_is_preferred_over_tiny_html_shell(self):
-        html = """
+        raw_html = """
         <html>
             <head>
                 <title>gamescom</title>
@@ -382,7 +399,9 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         </html>
         """
 
-        text = extract_best_page_text(html)
+        text = extract_best_page_text(
+            raw_html
+        )
 
         self.assertIn(
             "The Witcher 3 Remastered",
@@ -395,10 +414,11 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     def test_plain_html_remains_fallback(self):
-        html = """
+        raw_html = """
         <html>
             <body>
                 <h1>Regular gaming article</h1>
+
                 <p>
                     This page does not use structured data,
                     but the content is available directly.
@@ -407,7 +427,9 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         </html>
         """
 
-        text = extract_best_page_text(html)
+        text = extract_best_page_text(
+            raw_html
+        )
 
         self.assertIn(
             "Regular gaming article",
@@ -420,7 +442,7 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         )
 
     # =====================================================
-    # V4 SOURCE DISCOVERY TESTS
+    # V4 SOURCE DISCOVERY
     # =====================================================
 
     def test_build_discovery_query_uses_topic_and_keyword(self):
@@ -587,6 +609,187 @@ class TestTrendingSeoResearcher(unittest.TestCase):
         self.assertEqual(
             len(ranked),
             1,
+        )
+
+    # =====================================================
+    # V5 GOOGLE NEWS URL RESOLUTION
+    # =====================================================
+
+    def test_google_news_url_is_detected(self):
+        self.assertTrue(
+            is_google_news_url(
+                "https://news.google.com/rss/articles/ABC123"
+            )
+        )
+
+        self.assertTrue(
+            is_google_news_url(
+                "https://news.google.com/articles/ABC123"
+            )
+        )
+
+        self.assertFalse(
+            is_google_news_url(
+                "https://www.ign.com/articles/example"
+            )
+        )
+
+    def test_extract_publisher_url_from_google_news_html(self):
+        raw_html = """
+        <html>
+            <body>
+
+                <a
+                    href="https://www.ign.com/articles/witcher-remastered"
+                >
+                    Read full article
+                </a>
+
+            </body>
+        </html>
+        """
+
+        result = (
+            extract_publisher_url_from_google_news_html(
+                raw_html,
+                google_url=(
+                    "https://news.google.com/"
+                    "rss/articles/ABC123"
+                ),
+            )
+        )
+
+        self.assertEqual(
+            result,
+            "https://www.ign.com/articles/witcher-remastered",
+        )
+
+    def test_google_news_links_are_not_returned_as_publishers(self):
+        raw_html = """
+        <html>
+            <body>
+
+                <a href="https://news.google.com/articles/OTHER">
+                    Another Google News page
+                </a>
+
+            </body>
+        </html>
+        """
+
+        result = (
+            extract_publisher_url_from_google_news_html(
+                raw_html,
+                google_url=(
+                    "https://news.google.com/"
+                    "rss/articles/ABC123"
+                ),
+            )
+        )
+
+        self.assertEqual(
+            result,
+            "",
+        )
+
+    def test_unsafe_publisher_urls_are_rejected(self):
+        raw_html = """
+        <html>
+            <body>
+
+                <a href="http://127.0.0.1/private">
+                    Internal
+                </a>
+
+            </body>
+        </html>
+        """
+
+        result = (
+            extract_publisher_url_from_google_news_html(
+                raw_html,
+                google_url=(
+                    "https://news.google.com/"
+                    "rss/articles/ABC123"
+                ),
+            )
+        )
+
+        self.assertEqual(
+            result,
+            "",
+        )
+
+    def test_regular_discovery_url_does_not_need_resolution(self):
+        result = resolve_discovery_url(
+            "https://www.ign.com/articles/example",
+            wrapper_html="",
+        )
+
+        self.assertEqual(
+            result["status"],
+            "DIRECT",
+        )
+
+        self.assertEqual(
+            result["resolved_url"],
+            "https://www.ign.com/articles/example",
+        )
+
+    def test_google_wrapper_is_not_evidence_if_unresolved(self):
+        result = resolve_discovery_url(
+            "https://news.google.com/rss/articles/ABC123",
+            wrapper_html=(
+                "<html>"
+                "<body>Google News</body>"
+                "</html>"
+            ),
+        )
+
+        self.assertEqual(
+            result["status"],
+            "UNRESOLVED",
+        )
+
+        self.assertEqual(
+            result["resolved_url"],
+            "",
+        )
+
+        self.assertFalse(
+            result["can_fetch_as_evidence"]
+        )
+
+    def test_google_wrapper_resolves_to_publisher(self):
+        wrapper_html = """
+        <html>
+            <body>
+
+                <a href="https://www.ign.com/articles/witcher-remastered">
+                    IGN article
+                </a>
+
+            </body>
+        </html>
+        """
+
+        result = resolve_discovery_url(
+            "https://news.google.com/rss/articles/ABC123",
+            wrapper_html=wrapper_html,
+        )
+
+        self.assertEqual(
+            result["status"],
+            "RESOLVED",
+        )
+
+        self.assertEqual(
+            result["resolved_url"],
+            "https://www.ign.com/articles/witcher-remastered",
+        )
+
+        self.assertTrue(
+            result["can_fetch_as_evidence"]
         )
 
 

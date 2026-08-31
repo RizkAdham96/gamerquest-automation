@@ -11,42 +11,66 @@ from researcher import (
     extract_embedded_json_text,
     extract_best_page_text,
     build_discovery_query,
+    resolve_discovery_url,
     normalize_discovery_url,
-    score_evidence_candidate,
-    rank_evidence_candidates,
-    classify_evidence_quality,
+    is_search_result_url,
+    extract_feed_entries,
+    discover_feed_candidates,
+    deduplicate_candidates,
+    rank_evidence_candidate,
+    build_evidence_candidate_pool,
 )
 
 
-class TestResearcher(unittest.TestCase):
+class TestResearcherV8(unittest.TestCase):
 
-    # =========================================================
-    # Existing verification safety tests
-    # =========================================================
+    # ==========================================================
+    # CLAIM SAFETY
+    # ==========================================================
 
     def test_normalize_confirmed(self):
         self.assertEqual(
-            normalize_claim_status("CONFIRMED"),
-            "CONFIRMED",
+            normalize_claim_status("confirmed"),
+            "CONFIRMED"
         )
 
-    def test_normalize_unknown_status(self):
+    def test_normalize_unconfirmed(self):
         self.assertEqual(
-            normalize_claim_status("something-invalid"),
-            "UNKNOWN",
+            normalize_claim_status("unconfirmed"),
+            "UNCONFIRMED"
+        )
+
+    def test_normalize_unknown(self):
+        self.assertEqual(
+            normalize_claim_status("something-weird"),
+            "UNKNOWN"
         )
 
     def test_only_confirmed_claim_is_allowed(self):
         self.assertTrue(should_allow_claim("CONFIRMED"))
-        self.assertFalse(should_allow_claim("UNKNOWN"))
         self.assertFalse(should_allow_claim("UNCONFIRMED"))
+        self.assertFalse(should_allow_claim("UNKNOWN"))
 
     def test_confirmed_claim_without_source_is_blocked(self):
         claims = [
             {
-                "claim": "The game exists.",
+                "claim": "A remaster exists.",
                 "status": "CONFIRMED",
-                "sources": [],
+                "source_url": ""
+            }
+        ]
+
+        pack = build_verified_fact_pack(claims)
+
+        self.assertEqual(len(pack["confirmed_facts"]), 0)
+        self.assertEqual(len(pack["blocked_claims"]), 1)
+
+    def test_unknown_release_date_is_blocked(self):
+        claims = [
+            {
+                "claim": "The game releases September 29.",
+                "status": "UNKNOWN",
+                "source_url": "https://example.com/article"
             }
         ]
 
@@ -58,11 +82,9 @@ class TestResearcher(unittest.TestCase):
     def test_confirmed_claim_with_source_is_allowed(self):
         claims = [
             {
-                "claim": "The game exists.",
+                "claim": "The remaster was announced.",
                 "status": "CONFIRMED",
-                "sources": [
-                    "https://example.com/official-announcement"
-                ],
+                "source_url": "https://example.com/article"
             }
         ]
 
@@ -71,93 +93,82 @@ class TestResearcher(unittest.TestCase):
         self.assertEqual(len(pack["confirmed_facts"]), 1)
         self.assertEqual(len(pack["blocked_claims"]), 0)
 
-    def test_unknown_release_date_is_blocked(self):
-        claims = [
-            {
-                "claim": "The game releases September 29.",
-                "status": "UNKNOWN",
-                "sources": [],
-            }
-        ]
+    # ==========================================================
+    # HTML EXTRACTION
+    # ==========================================================
 
-        pack = build_verified_fact_pack(claims)
-
-        self.assertEqual(len(pack["confirmed_facts"]), 0)
-        self.assertEqual(len(pack["blocked_claims"]), 1)
-
-    # =========================================================
-    # Existing HTML / fetch tests
-    # =========================================================
-
-    def test_clean_html_text_removes_scripts(self):
+    def test_clean_html_text(self):
         raw_html = """
         <html>
             <head>
-                <script>bad javascript</script>
-                <style>.bad { color:red; }</style>
+                <style>.hidden { display:none; }</style>
+                <script>console.log("bad")</script>
             </head>
             <body>
-                <h1>Official announcement</h1>
-                <p>The game has been announced.</p>
+                <h1>The Witcher 3 Remastered</h1>
+                <p>Official announcement content.</p>
             </body>
         </html>
         """
 
         text = clean_html_text(raw_html)
 
-        self.assertIn("Official announcement", text)
-        self.assertIn("The game has been announced.", text)
-        self.assertNotIn("bad javascript", text)
-        self.assertNotIn("color:red", text)
+        self.assertIn("The Witcher 3 Remastered", text)
+        self.assertIn("Official announcement content.", text)
+        self.assertNotIn("console.log", text)
+        self.assertNotIn("display:none", text)
 
-    def test_safe_public_https_url(self):
-        self.assertTrue(
-            is_safe_public_url(
-                "https://www.example.com/article"
-            )
-        )
-
-    def test_localhost_is_blocked(self):
-        self.assertFalse(
-            is_safe_public_url(
-                "http://127.0.0.1/private"
-            )
-        )
-
-    def test_non_http_url_is_blocked(self):
-        self.assertFalse(
-            is_safe_public_url(
-                "file:///etc/passwd"
-            )
-        )
-
-    def test_usable_fetch_result(self):
+    def test_fetch_result_usable(self):
         result = evaluate_fetch_result(
             status_code=200,
-            text="Official announcement content.",
+            text="Official announcement content."
         )
 
         self.assertEqual(result, "USABLE")
 
-    def test_empty_fetch_result_is_unusable(self):
+    def test_fetch_result_empty_is_unusable(self):
         result = evaluate_fetch_result(
             status_code=200,
-            text="",
+            text=""
         )
 
         self.assertEqual(result, "UNUSABLE")
 
-    def test_403_fetch_result_is_unusable(self):
+    def test_fetch_result_403_is_unusable(self):
         result = evaluate_fetch_result(
             status_code=403,
-            text="Forbidden",
+            text="Forbidden"
         )
 
         self.assertEqual(result, "UNUSABLE")
 
-    # =========================================================
-    # Existing structured-data tests
-    # =========================================================
+    # ==========================================================
+    # SAFE URLS
+    # ==========================================================
+
+    def test_http_url_is_safe(self):
+        self.assertTrue(
+            is_safe_public_url("https://example.com/article")
+        )
+
+    def test_localhost_is_blocked(self):
+        self.assertFalse(
+            is_safe_public_url("http://localhost/test")
+        )
+
+    def test_loopback_is_blocked(self):
+        self.assertFalse(
+            is_safe_public_url("http://127.0.0.1/test")
+        )
+
+    def test_non_http_scheme_is_blocked(self):
+        self.assertFalse(
+            is_safe_public_url("file:///etc/passwd")
+        )
+
+    # ==========================================================
+    # STRUCTURED DATA
+    # ==========================================================
 
     def test_extract_json_ld_article(self):
         raw_html = """
@@ -165,36 +176,31 @@ class TestResearcher(unittest.TestCase):
         <head>
         <script type="application/ld+json">
         {
+            "@context": "https://schema.org",
             "@type": "NewsArticle",
-            "headline": "The Witcher 3 Remastered announced",
-            "description": "CD Projekt announced the remaster.",
-            "articleBody": "The remaster was shown during the event."
+            "headline": "The Witcher 3 Remastered",
+            "description": "A remastered version was announced.",
+            "articleBody": "CD PROJEKT RED announced the remaster."
         }
         </script>
         </head>
-        <body>Small shell</body>
         </html>
         """
 
         text = extract_json_ld_text(raw_html)
 
+        self.assertIn("The Witcher 3 Remastered", text)
+        self.assertIn("A remastered version was announced.", text)
         self.assertIn(
-            "The Witcher 3 Remastered announced",
-            text,
-        )
-        self.assertIn(
-            "CD Projekt announced the remaster.",
-            text,
-        )
-        self.assertIn(
-            "The remaster was shown during the event.",
-            text,
+            "CD PROJEKT RED announced the remaster.",
+            text
         )
 
     def test_extract_json_ld_graph(self):
         raw_html = """
         <script type="application/ld+json">
         {
+            "@context": "https://schema.org",
             "@graph": [
                 {
                     "@type": "WebSite",
@@ -202,8 +208,8 @@ class TestResearcher(unittest.TestCase):
                 },
                 {
                     "@type": "NewsArticle",
-                    "headline": "Major game announcement",
-                    "articleBody": "This is the article content."
+                    "headline": "Witcher Remaster Announcement",
+                    "articleBody": "Official article body."
                 }
             ]
         }
@@ -212,13 +218,13 @@ class TestResearcher(unittest.TestCase):
 
         text = extract_json_ld_text(raw_html)
 
-        self.assertIn("Major game announcement", text)
-        self.assertIn("This is the article content.", text)
+        self.assertIn("Witcher Remaster Announcement", text)
+        self.assertIn("Official article body.", text)
 
     def test_invalid_json_ld_does_not_crash(self):
         raw_html = """
         <script type="application/ld+json">
-        { this is invalid json }
+        { invalid json }
         </script>
         """
 
@@ -234,8 +240,8 @@ class TestResearcher(unittest.TestCase):
                 "pageProps": {
                     "article": {
                         "title": "The Witcher 3 Remastered",
-                        "description": "Official information",
-                        "content": "The game was presented at the event."
+                        "description": "Announcement details",
+                        "content": "Full article content here."
                     }
                 }
             }
@@ -246,241 +252,347 @@ class TestResearcher(unittest.TestCase):
         text = extract_embedded_json_text(raw_html)
 
         self.assertIn("The Witcher 3 Remastered", text)
-        self.assertIn("Official information", text)
-        self.assertIn(
-            "The game was presented at the event.",
-            text,
-        )
+        self.assertIn("Announcement details", text)
+        self.assertIn("Full article content here.", text)
 
-    def test_best_page_text_prefers_structured_data(self):
+    def test_best_page_text_prefers_structured_content(self):
         raw_html = """
         <html>
-        <head>
-        <script type="application/ld+json">
-        {
-            "@type": "NewsArticle",
-            "headline": "Important announcement",
-            "articleBody": "Detailed verified article information."
-        }
-        </script>
-        </head>
-        <body>Site</body>
+            <body>Small shell</body>
+            <script type="application/ld+json">
+            {
+                "@type": "NewsArticle",
+                "headline": "Important Headline",
+                "articleBody":
+                    "This is the actual useful article content."
+            }
+            </script>
         </html>
         """
 
         text = extract_best_page_text(raw_html)
 
-        self.assertIn("Important announcement", text)
+        self.assertIn("Important Headline", text)
         self.assertIn(
-            "Detailed verified article information.",
-            text,
+            "This is the actual useful article content.",
+            text
         )
 
-    def test_best_page_text_falls_back_to_html(self):
+    def test_best_page_text_has_html_fallback(self):
         raw_html = """
         <html>
-        <body>
-            <h1>Normal article</h1>
-            <p>This article has useful information.</p>
-        </body>
+            <body>
+                <h1>Normal Article</h1>
+                <p>Normal article content.</p>
+            </body>
         </html>
         """
 
         text = extract_best_page_text(raw_html)
 
-        self.assertIn("Normal article", text)
-        self.assertIn(
-            "This article has useful information.",
-            text,
-        )
+        self.assertIn("Normal Article", text)
+        self.assertIn("Normal article content.", text)
 
-    # =========================================================
-    # Researcher v7 — evidence discovery tests
-    # =========================================================
+    # ==========================================================
+    # DISCOVERY QUERY
+    # ==========================================================
 
-    def test_discovery_query_contains_topic(self):
+    def test_build_discovery_query(self):
         query = build_discovery_query(
-            "The Witcher 3: Wild Hunt Remastered"
+            topic="The Witcher 3 Remastered",
+            claim="The remaster was officially announced."
         )
 
-        self.assertIn(
-            "The Witcher 3",
-            query,
+        self.assertIn("The Witcher 3 Remastered", query)
+        self.assertIn("officially announced", query)
+
+    # ==========================================================
+    # URL NORMALIZATION
+    # ==========================================================
+
+    def test_normalize_discovery_url(self):
+        url = normalize_discovery_url(
+            "  https://example.com/news/article#comments  "
         )
-
-    def test_discovery_query_asks_for_authoritative_sources(self):
-        query = build_discovery_query(
-            "The Witcher 3 Remastered"
-        ).lower()
-
-        self.assertTrue(
-            "official" in query
-            or "announcement" in query
-            or "news" in query
-        )
-
-    def test_google_news_redirect_url_is_not_final_evidence_url(self):
-        google_url = (
-            "https://news.google.com/rss/articles/"
-            "CBMiExample"
-        )
-
-        normalized = normalize_discovery_url(google_url)
-
-        self.assertNotEqual(normalized, google_url)
-
-    def test_normalize_discovery_url_keeps_direct_publisher_url(self):
-        url = (
-            "https://www.gamespot.com/articles/"
-            "witcher-remastered-announcement/"
-        )
-
-        normalized = normalize_discovery_url(url)
-
-        self.assertEqual(normalized, url)
-
-    def test_official_source_scores_higher_than_aggregator(self):
-        official = {
-            "url": "https://www.cdprojektred.com/news/witcher",
-            "title": "Official Witcher announcement",
-            "publisher": "CD PROJEKT RED",
-            "source_type": "official",
-        }
-
-        aggregator = {
-            "url": "https://example-aggregator.com/witcher",
-            "title": "Witcher rumors",
-            "publisher": "Example Aggregator",
-            "source_type": "aggregator",
-        }
-
-        self.assertGreater(
-            score_evidence_candidate(official),
-            score_evidence_candidate(aggregator),
-        )
-
-    def test_direct_publisher_source_gets_positive_score(self):
-        candidate = {
-            "url": "https://www.ign.com/articles/witcher-remastered",
-            "title": "The Witcher 3 Remastered announced",
-            "publisher": "IGN",
-            "source_type": "publisher",
-        }
-
-        self.assertGreater(
-            score_evidence_candidate(candidate),
-            0,
-        )
-
-    def test_unresolved_google_news_url_is_penalized(self):
-        candidate = {
-            "url": (
-                "https://news.google.com/rss/articles/"
-                "CBMiExample"
-            ),
-            "title": "Witcher story",
-            "publisher": "Unknown",
-            "source_type": "aggregator",
-        }
-
-        score = score_evidence_candidate(candidate)
-
-        self.assertLess(score, 0)
-
-    def test_rank_candidates_puts_official_first(self):
-        candidates = [
-            {
-                "url": "https://example.com/story",
-                "title": "Story",
-                "publisher": "Example",
-                "source_type": "aggregator",
-            },
-            {
-                "url": "https://www.cdprojektred.com/news/witcher",
-                "title": "Official announcement",
-                "publisher": "CD PROJEKT RED",
-                "source_type": "official",
-            },
-            {
-                "url": "https://www.ign.com/articles/witcher",
-                "title": "Witcher news",
-                "publisher": "IGN",
-                "source_type": "publisher",
-            },
-        ]
-
-        ranked = rank_evidence_candidates(candidates)
 
         self.assertEqual(
-            ranked[0]["source_type"],
-            "official",
+            url,
+            "https://example.com/news/article"
         )
 
-    def test_rank_candidates_removes_duplicate_urls(self):
+    def test_normalize_discovery_url_removes_tracking(self):
+        url = normalize_discovery_url(
+            "https://example.com/article"
+            "?utm_source=google&utm_medium=search&id=123"
+        )
+
+        self.assertEqual(
+            url,
+            "https://example.com/article?id=123"
+        )
+
+    # ==========================================================
+    # SEARCH RESULT URL PROTECTION
+    # ==========================================================
+
+    def test_google_search_url_is_not_evidence(self):
+        self.assertTrue(
+            is_search_result_url(
+                "https://www.google.com/search?q=witcher"
+            )
+        )
+
+    def test_google_redirect_url_is_not_evidence(self):
+        self.assertTrue(
+            is_search_result_url(
+                "https://www.google.com/url?q="
+                "https://example.com/article"
+            )
+        )
+
+    def test_direct_publisher_url_is_not_search_result(self):
+        self.assertFalse(
+            is_search_result_url(
+                "https://www.gamespot.com/articles/example/"
+            )
+        )
+
+    def test_resolve_discovery_url_extracts_google_target(self):
+        url = (
+            "https://www.google.com/url?"
+            "q=https%3A%2F%2Fexample.com%2Farticle"
+        )
+
+        resolved = resolve_discovery_url(url)
+
+        self.assertEqual(
+            resolved,
+            "https://example.com/article"
+        )
+
+    # ==========================================================
+    # RSS / ATOM EXTRACTION
+    # ==========================================================
+
+    def test_extract_rss_entries(self):
+        feed = """
+        <rss version="2.0">
+          <channel>
+            <title>Gaming News</title>
+            <item>
+              <title>The Witcher 3 Remastered announced</title>
+              <link>https://example.com/witcher-remastered</link>
+              <description>
+                CD PROJEKT RED announces a remaster.
+              </description>
+            </item>
+          </channel>
+        </rss>
+        """
+
+        entries = extract_feed_entries(feed)
+
+        self.assertEqual(len(entries), 1)
+        self.assertEqual(
+            entries[0]["url"],
+            "https://example.com/witcher-remastered"
+        )
+        self.assertIn(
+            "Witcher",
+            entries[0]["title"]
+        )
+
+    def test_extract_atom_entries(self):
+        feed = """
+        <feed xmlns="http://www.w3.org/2005/Atom">
+          <title>Gaming Feed</title>
+          <entry>
+            <title>Witcher Remaster News</title>
+            <link
+              href="https://example.com/witcher-news"
+              rel="alternate"
+            />
+            <summary>Official remaster information.</summary>
+          </entry>
+        </feed>
+        """
+
+        entries = extract_feed_entries(feed)
+
+        self.assertEqual(len(entries), 1)
+        self.assertEqual(
+            entries[0]["url"],
+            "https://example.com/witcher-news"
+        )
+
+    def test_discover_feed_candidates_matches_topic(self):
+        feed = """
+        <rss version="2.0">
+          <channel>
+            <item>
+              <title>The Witcher 3 Remastered announced</title>
+              <link>https://example.com/witcher</link>
+              <description>
+                Information about The Witcher 3 Remastered.
+              </description>
+            </item>
+            <item>
+              <title>Completely unrelated game</title>
+              <link>https://example.com/other</link>
+              <description>Other news.</description>
+            </item>
+          </channel>
+        </rss>
+        """
+
+        candidates = discover_feed_candidates(
+            feed_text=feed,
+            topic="The Witcher 3 Remastered"
+        )
+
+        self.assertEqual(len(candidates), 1)
+        self.assertEqual(
+            candidates[0]["url"],
+            "https://example.com/witcher"
+        )
+
+    # ==========================================================
+    # DEDUPLICATION
+    # ==========================================================
+
+    def test_deduplicate_candidates(self):
         candidates = [
             {
-                "url": "https://www.ign.com/articles/witcher",
-                "title": "Witcher",
-                "publisher": "IGN",
-                "source_type": "publisher",
+                "url": "https://example.com/article",
+                "source_type": "rss"
             },
             {
-                "url": "https://www.ign.com/articles/witcher",
-                "title": "Duplicate Witcher",
-                "publisher": "IGN",
-                "source_type": "publisher",
+                "url": "https://example.com/article#comments",
+                "source_type": "search"
             },
+            {
+                "url": "https://example.com/other",
+                "source_type": "official"
+            }
         ]
 
-        ranked = rank_evidence_candidates(candidates)
+        result = deduplicate_candidates(candidates)
 
-        self.assertEqual(len(ranked), 1)
+        self.assertEqual(len(result), 2)
 
-    def test_long_relevant_article_is_strong_evidence(self):
-        text = (
-            "The Witcher 3 Remastered was officially announced. "
-            * 40
+    # ==========================================================
+    # EVIDENCE RANKING
+    # ==========================================================
+
+    def test_official_source_ranks_above_search(self):
+        official = {
+            "url": "https://thewitcher.com/news/example",
+            "source_type": "official",
+            "publisher_match": True,
+            "usable": True
+        }
+
+        search = {
+            "url": "https://example.com/article",
+            "source_type": "search",
+            "publisher_match": False,
+            "usable": True
+        }
+
+        self.assertGreater(
+            rank_evidence_candidate(official),
+            rank_evidence_candidate(search)
         )
 
-        quality = classify_evidence_quality(
-            text=text,
-            topic="The Witcher 3 Remastered",
-            status_code=200,
+    def test_usable_candidate_ranks_above_unusable(self):
+        usable = {
+            "url": "https://example.com/a",
+            "source_type": "publisher",
+            "publisher_match": True,
+            "usable": True
+        }
+
+        unusable = {
+            "url": "https://example.com/b",
+            "source_type": "publisher",
+            "publisher_match": True,
+            "usable": False
+        }
+
+        self.assertGreater(
+            rank_evidence_candidate(usable),
+            rank_evidence_candidate(unusable)
         )
 
-        self.assertEqual(quality, "USABLE")
+    def test_search_result_page_gets_zero_rank(self):
+        candidate = {
+            "url": "https://www.google.com/search?q=witcher",
+            "source_type": "search",
+            "publisher_match": False,
+            "usable": True
+        }
 
-    def test_tiny_page_is_weak_evidence(self):
-        quality = classify_evidence_quality(
-            text="The Witcher 3 Remastered",
-            topic="The Witcher 3 Remastered",
-            status_code=200,
+        self.assertEqual(
+            rank_evidence_candidate(candidate),
+            0
         )
 
-        self.assertEqual(quality, "WEAK")
+    # ==========================================================
+    # EVIDENCE POOL
+    # ==========================================================
 
-    def test_irrelevant_page_is_weak_evidence(self):
-        text = (
-            "This page discusses unrelated technology news. "
-            * 30
+    def test_build_evidence_pool_rejects_search_pages(self):
+        candidates = [
+            {
+                "url": "https://www.google.com/search?q=witcher",
+                "source_type": "search",
+                "publisher_match": False,
+                "usable": True
+            },
+            {
+                "url": "https://example.com/witcher",
+                "source_type": "rss",
+                "publisher_match": True,
+                "usable": True
+            }
+        ]
+
+        pool = build_evidence_candidate_pool(candidates)
+
+        urls = [item["url"] for item in pool]
+
+        self.assertNotIn(
+            "https://www.google.com/search?q=witcher",
+            urls
         )
 
-        quality = classify_evidence_quality(
-            text=text,
-            topic="The Witcher 3 Remastered",
-            status_code=200,
+        self.assertIn(
+            "https://example.com/witcher",
+            urls
         )
 
-        self.assertEqual(quality, "WEAK")
+    def test_evidence_pool_is_sorted_best_first(self):
+        candidates = [
+            {
+                "url": "https://example.com/search-result",
+                "source_type": "search",
+                "publisher_match": False,
+                "usable": True
+            },
+            {
+                "url": "https://thewitcher.com/news/official",
+                "source_type": "official",
+                "publisher_match": True,
+                "usable": True
+            }
+        ]
 
-    def test_failed_http_is_unusable_evidence(self):
-        quality = classify_evidence_quality(
-            text="Some content",
-            topic="The Witcher 3 Remastered",
-            status_code=403,
+        pool = build_evidence_candidate_pool(candidates)
+
+        self.assertEqual(
+            pool[0]["url"],
+            "https://thewitcher.com/news/official"
         )
-
-        self.assertEqual(quality, "UNUSABLE")
 
 
 if __name__ == "__main__":

@@ -1,13 +1,13 @@
 {
-  "version": "5.0",
-  "updated_at": "2026-08-31T07:35:57.903249+00:00",
+  "version": "6.0",
+  "updated_at": "2026-08-31T09:18:34.707474+00:00",
   "topics": [
     {
       "id": "witcher3-remastered-gamescom-2026",
       "topic": "The Witcher 3: Wild Hunt Remastered",
       "seo_score": 81,
       "seo_decision": "WRITE",
-      "created_at": "2026-08-31T07:35:57.903214+00:00",
+      "created_at": "2026-08-31T09:18:34.707433+00:00",
       "sources": [
         {
           "type": "official",
@@ -74,14 +74,6 @@
             "relevance_score": 70
           },
           {
-            "title": "The Witcher 3 Remastered sur Switch 2 : on en sait un peu plus - Switch-Actu",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb1lKU0V2My1HTlB4ejFjdEJxUlBKZVh3YmpiRUc2cl9nb2RkbHktbzlKV0MzdTY4QWtlMHk2aHFTZW9qRlVVU0JnOWpqRDkzMlNnN1JwTmhQZE5Dd0NIaFhKN0h0V3pUdGJGMDVYNlM4T3FnM2VYTFNEY0drMHNzUFZSR3lHOTc2T21rVUdndEpfTGFoNWpXR2swX0lXY01UX2w4Y0VCUFFPLV9rOXdGUTFkU2l4Y0ho?oc=5",
-            "published_at": "Sun, 30 Aug 2026 09:03:00 GMT",
-            "publisher": "Switch-Actu",
-            "publisher_url": "https://www.switch-actu.fr",
-            "relevance_score": 70
-          },
-          {
             "title": "The Witcher 3: Wild Hunt Remastered détaille ses configurations PC - Instant Gaming News",
             "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcEhsVHFDQVZTZW9mM3E3WkZkaWRzaFFHNnRQV0dsSEdfQVRIaFFxT21WeHZHT0dtR19pQWs3RWN2MXdmOHdINEFJSWJWSjNrRC1zeF9ta3U3SXFibEkwY1llSGJsUjlrekprMVQtTU41N09KMzdVTE5iN013bGYzclo3RkJZbk9BU0VaY1BucGRQX2dBangwZVQ5SkFJZTkzOVgzLW9XWC1DZFFIZHc3bmlCNVlRZw?oc=5",
             "published_at": "Thu, 27 Aug 2026 14:36:00 GMT",
@@ -106,11 +98,19 @@
             "relevance_score": 20
           },
           {
-            "title": "J'ai joué plus de 1000 heures à The Witcher 3 et la version remasterisée m'inquiète - JeuxVideo.com",
+            "title": "J'ai joué plus de 1000 heures à The Witcher 3 et la version remasterisée m'inquiète - jeuxvideo.com",
             "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2VRVUprbnVKUGJhTkdqQnNXRHJOQWRCZG1aM3hsWFpVcHdHOVp2eU95SHpKWU9uNWFIdFlPbmNwV0hnUl84RFFWRDhCOHZ0YTZ1UGR5QjlzNFRmT212b2ZCWGZuR3VxU2lYbWVnWHhZRmViVHdzcW1RNE5SQWtqYlhTNi1Wc28tSW1aZW02Y0U4a1hXY2NTajk5bHRXeDN1emN5UDVvNEVKUFVIQl9oZnVhN1FyQi03bk1rYmN3amJkWXJF?oc=5",
             "published_at": "Sun, 30 Aug 2026 15:15:08 GMT",
-            "publisher": "JeuxVideo.com",
+            "publisher": "jeuxvideo.com",
             "publisher_url": "https://www.jeuxvideo.com",
+            "relevance_score": 10
+          },
+          {
+            "title": "The Witcher 3 Song of the Past dévoile son gameplay dans un trailer de 12 minutes et c'est sublime - PhonAndroid",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQT0t3RFlkN2xERjBKTnNYa2pFdG50M3c1MUcta1ZKTFpFOW5BT1lPbWNOa2ozb0pmLXdWZC1hcWhYZDlHQzdzaXJDQWdiNWEwTGpaM085cUNZcWhGYmwxOXczWk11X3dlMDRvSlNwNWJ2Q0dwaDhzR0p6d1M2Wlc0Tnh4S3daYmU1M2JzNDg0NVM5cVRfYV9KSGpRU09SdEJXMTYxdXVQN2daSVdTLVViSmV0aVN3T2VEb0J6QmxlUUZrOEJkMDhXcDJn?oc=5",
+            "published_at": "Mon, 31 Aug 2026 08:36:33 GMT",
+            "publisher": "PhonAndroid",
+            "publisher_url": "https://www.phonandroid.com",
             "relevance_score": 10
           },
           {
@@ -127,12 +127,10 @@
         {
           "discovery_title": "The Witcher 3 Remastered sortira en septembre gratuitement pour tous les possesseurs du jeu - IGN France",
           "publisher": "IGN France",
-          "publisher_url": "https://fr.ign.com",
           "published_at": "Tue, 25 Aug 2026 20:19:00 GMT",
-          "relevance_score": 70,
           "original_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSm8wYmdDWVUyMU5ETHFFZDhINGVmeTNVbnBOSkdCQVhIc194cE5VYWxBenFudUJmcFBadkg4Z3hFYVNQYjlWTUR5RlFYWm1NQThjaVZZZjBwdHVwalN4VGhIc0R3bDl0MVhvOWd3aXpMZzJwRW1KaDBtWnFveXRyNERPeGN2TXBQTTlWTWJvZzh2cnJZR2FoRTd0YVVheHE0VWZDX2dvZ21IN00xci11OFVBbWFabXlWT3AySEhjN1R0LWp0ZjU1MzJqUHpzWDU5djcxalVCWQ?oc=5",
-          "resolution_status": "RESOLVED",
           "resolved_url": "https://www.gstatic.com",
+          "resolution_status": "RESOLVED",
           "url": "https://www.gstatic.com",
           "fetch_status": "UNUSABLE",
           "http_status": 404,
@@ -145,30 +143,10 @@
         {
           "discovery_title": "The Witcher 3 Remastered sort le 29 septembre et sera gratuit - Univers-Simu.com",
           "publisher": "Univers-Simu.com",
-          "publisher_url": "https://www.univers-simu.com",
           "published_at": "Wed, 26 Aug 2026 17:01:20 GMT",
-          "relevance_score": 70,
           "original_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzVHRHg5ZEJkTzhtXzFYMFlicjZhWHZvWk10Smc5eWtOZERYQllpakRyS3EwaDBtTHg4T3hON1pQamVLNkNpQnVhVFY0ODdyakRoMXVkaG1ybVZNMUVFRFl2Z1RWOW1fSzJHdWRjUVg2MndxM1lVYTBITGZHc3JYTnJobDctNGF2NEZYbGRQY1AxeWtmSXZnNERuQjBhemlZ?oc=5",
-          "resolution_status": "RESOLVED",
           "resolved_url": "https://www.gstatic.com",
-          "url": "https://www.gstatic.com",
-          "fetch_status": "UNUSABLE",
-          "http_status": 404,
-          "content_type": "",
-          "final_url": "",
-          "extraction_method": "",
-          "text": "",
-          "error": "HTTP error: 404"
-        },
-        {
-          "discovery_title": "The Witcher 3 Remastered sur Switch 2 : on en sait un peu plus - Switch-Actu",
-          "publisher": "Switch-Actu",
-          "publisher_url": "https://www.switch-actu.fr",
-          "published_at": "Sun, 30 Aug 2026 09:03:00 GMT",
-          "relevance_score": 70,
-          "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb1lKU0V2My1HTlB4ejFjdEJxUlBKZVh3YmpiRUc2cl9nb2RkbHktbzlKV0MzdTY4QWtlMHk2aHFTZW9qRlVVU0JnOWpqRDkzMlNnN1JwTmhQZE5Dd0NIaFhKN0h0V3pUdGJGMDVYNlM4T3FnM2VYTFNEY0drMHNzUFZSR3lHOTc2T21rVUdndEpfTGFoNWpXR2swX0lXY01UX2w4Y0VCUFFPLV9rOXdGUTFkU2l4Y0ho?oc=5",
           "resolution_status": "RESOLVED",
-          "resolved_url": "https://www.gstatic.com",
           "url": "https://www.gstatic.com",
           "fetch_status": "UNUSABLE",
           "http_status": 404,
@@ -181,12 +159,10 @@
         {
           "discovery_title": "The Witcher 3: Wild Hunt Remastered détaille ses configurations PC - Instant Gaming News",
           "publisher": "Instant Gaming News",
-          "publisher_url": "https://news.instant-gaming.com",
           "published_at": "Thu, 27 Aug 2026 14:36:00 GMT",
-          "relevance_score": 40,
           "original_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcEhsVHFDQVZTZW9mM3E3WkZkaWRzaFFHNnRQV0dsSEdfQVRIaFFxT21WeHZHT0dtR19pQWs3RWN2MXdmOHdINEFJSWJWSjNrRC1zeF9ta3U3SXFibEkwY1llSGJsUjlrekprMVQtTU41N09KMzdVTE5iN013bGYzclo3RkJZbk9BU0VaY1BucGRQX2dBangwZVQ5SkFJZTkzOVgzLW9XWC1DZFFIZHc3bmlCNVlRZw?oc=5",
-          "resolution_status": "RESOLVED",
           "resolved_url": "https://www.gstatic.com",
+          "resolution_status": "RESOLVED",
           "url": "https://www.gstatic.com",
           "fetch_status": "UNUSABLE",
           "http_status": 404,
@@ -199,12 +175,26 @@
         {
           "discovery_title": "The Witcher 3: Wild Hunt : Le remaster du RPG en monde ouvert de CD Projekt devrait tourner en 30 à 40 fps sur Switch 2 - ActuGaming",
           "publisher": "ActuGaming",
-          "publisher_url": "https://www.actugaming.net",
           "published_at": "Fri, 28 Aug 2026 15:52:41 GMT",
-          "relevance_score": 30,
           "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQak9lclZyQTlaQjBNWVdtdmFtOEZ3VGhPRFQ2UG5lNVF5ZTVjTGozN0UzOHVyWWxhei1IckR5TWlDSXBudjNLd1hLeTBnQ1RjbXVJeFZja3BoNWhHM256SFdJd1dmWHI3VGZ3cGdJcVgxa1JyX2F0QkZPdXlIZHJETVB0Wks0MUo3eHFSR1BRc2hsX3N5eGR4MThqWllDZ1RkQkxPWWpENDJocUN6VDN0eGl1cVRiUGZDRmZ1WWV0ODhJMGd3Rkg0?oc=5",
-          "resolution_status": "RESOLVED",
           "resolved_url": "https://www.gstatic.com",
+          "resolution_status": "RESOLVED",
+          "url": "https://www.gstatic.com",
+          "fetch_status": "UNUSABLE",
+          "http_status": 404,
+          "content_type": "",
+          "final_url": "",
+          "extraction_method": "",
+          "text": "",
+          "error": "HTTP error: 404"
+        },
+        {
+          "discovery_title": "The Witcher III : le remastered (gratuit) arrive le mois prochain avec plein d'améliorations et de contenus - Journal du Geek",
+          "publisher": "Journal du Geek",
+          "published_at": "Wed, 26 Aug 2026 07:30:04 GMT",
+          "original_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZ2RIamY2NzJWU0xlSFRIR1p0VkJ1WHJiY3hOdUxENWtQVTZoR3lrZWFSN0tYOXJwMG1TZzhrbnZlUzlyNi1lRXhYWlpCa1RsM3ItcEQyX0NkdDg1WW5rdUtqdi12MVVvRm1LWXhKdXVKMm15ZEcxSk8xcHkxTDlIRmxYazdvSFNMby1EUGRuanA0SGtGclRTWjVQY3B1Qk5ubzViQndUSVZxMEkwQXdXUkV3MVhjcW9BWHRhYVd1QlhLZ2J5OWRoZWxEd2ZEV3M0WEpCWlJHN1RjRXc?oc=5",
+          "resolved_url": "https://www.gstatic.com",
+          "resolution_status": "RESOLVED",
           "url": "https://www.gstatic.com",
           "fetch_status": "UNUSABLE",
           "http_status": 404,
@@ -215,6 +205,7 @@
           "error": "HTTP error: 404"
         }
       ],
+      "usable_evidence": [],
       "source_summary": {
         "total_sources": 7,
         "usable_sources": 0,
@@ -236,20 +227,23 @@
           "unusable": 5
         }
       },
+      "verification_summary": {
+        "max_claims_per_run": 3,
+        "claims_total": 2,
+        "confirmed": 0,
+        "blocked": 2,
+        "usable_evidence_sources": 0
+      },
       "claims": [
         {
           "claim": "Gamescom lists the CD PROJEKT RED remaster announcement trailer among its Opening Night Live 2026 trailers.",
           "status": "UNKNOWN",
-          "sources": [
-            "https://www.gamescom.global/en"
-          ]
+          "sources": []
         },
         {
           "claim": "The Witcher 3 Remastered and Songs of the Past won the consumer-voted Best Trailer / Announcement award.",
           "status": "UNKNOWN",
-          "sources": [
-            "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are"
-          ]
+          "sources": []
         }
       ],
       "fact_pack": {
@@ -258,16 +252,12 @@
           {
             "claim": "Gamescom lists the CD PROJEKT RED remaster announcement trailer among its Opening Night Live 2026 trailers.",
             "status": "UNKNOWN",
-            "sources": [
-              "https://www.gamescom.global/en"
-            ]
+            "sources": []
           },
           {
             "claim": "The Witcher 3 Remastered and Songs of the Past won the consumer-voted Best Trailer / Announcement award.",
             "status": "UNKNOWN",
-            "sources": [
-              "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are"
-            ]
+            "sources": []
           }
         ]
       },

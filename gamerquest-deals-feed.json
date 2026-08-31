@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-08-31T13:54:37.203728+00:00",
-  "count": 3,
+  "generated_at": "2026-08-31T20:07:24.754968+00:00",
+  "count": 2,
   "articles": [
-    {
-      "source_id": "c99fd2f73243209a33d8a2200bb288dd8efe7666dd8d29fbbe61bd7291ce2adf",
-      "title": "CONTROL Ultimate Edition à -90% sur Steam",
-      "excerpt": "CONTROL Ultimate Edition bénéficie actuellement d'une réduction de 90% sur Steam, passant de 39,99 € à 3,99 €.",
-      "content": "<p><strong>CONTROL Ultimate Edition</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>3,99 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/870780/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/870780/",
-      "deal": {
-        "game": "CONTROL Ultimate Edition",
-        "store": "Steam",
-        "original_price": 39.99,
-        "current_price": 3.99,
-        "discount_percent": 90,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/c99fd2f73243209a33d8a2200bb288dd8efe7666dd8d29fbbe61bd7291ce2adf.jpg",
-        "filename": "c99fd2f73243209a33d8a2200bb288dd8efe7666dd8d29fbbe61bd7291ce2adf.jpg",
-        "alt": "CONTROL Ultimate Edition -90% sur Steam - GamerQuest",
-        "caption": "CONTROL Ultimate Edition : offre -90% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre CONTROL Ultimate Edition sur Steam."
-      }
-    },
     {
       "source_id": "2b707bb3d1f6a716082facc4573ce8dbe6590319cdfcff584a0a383cc8d65587",
       "title": "Breathedge est gratuit sur Epic Games Store pendant une durée limitée",

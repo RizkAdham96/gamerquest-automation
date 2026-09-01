@@ -1,48 +1,12 @@
 from io import BytesIO
 from pathlib import Path
-import textwrap
 
 import requests
-from PIL import (
-    Image,
-    ImageDraw,
-    ImageEnhance,
-    ImageFilter,
-    ImageFont,
-)
+from PIL import Image, ImageDraw
+
 
 WIDTH = 1200
 HEIGHT = 630
-
-
-def get_font(size, bold=False):
-    candidates = []
-
-    if bold:
-        candidates.extend(
-            [
-                "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
-                "/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf",
-            ]
-        )
-    else:
-        candidates.extend(
-            [
-                "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
-                "/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf",
-            ]
-        )
-
-    for path in candidates:
-        try:
-            return ImageFont.truetype(
-                path,
-                size=size,
-            )
-        except OSError:
-            continue
-
-    return ImageFont.load_default()
 
 
 def download_source_image(url):
@@ -76,6 +40,11 @@ def download_source_image(url):
 
 
 def cover_image(image):
+    """
+    Resize and crop the source image to 1200x630
+    without stretching or distorting it.
+    """
+
     source_width, source_height = image.size
 
     source_ratio = (
@@ -92,6 +61,7 @@ def cover_image(image):
         new_width = int(
             HEIGHT * source_ratio
         )
+
     else:
         new_width = WIDTH
 
@@ -123,15 +93,21 @@ def cover_image(image):
 
 
 def create_fallback_background():
+    """
+    Create a simple GamerQuest-style fallback image
+    when the original article image cannot be downloaded.
+
+    IMPORTANT:
+    No text is added to the image.
+    """
+
     image = Image.new(
         "RGB",
         (WIDTH, HEIGHT),
         (18, 20, 28),
     )
 
-    draw = ImageDraw.Draw(
-        image
-    )
+    draw = ImageDraw.Draw(image)
 
     for x in range(
         -300,
@@ -155,18 +131,27 @@ def create_fallback_background():
     return image
 
 
-def wrap_title(title):
-    return textwrap.wrap(
-        str(title),
-        width=28,
-    )[:3]
-
-
 def generate_news_image(
     title,
     source_image_url,
     output_path,
 ):
+    """
+    Generate the featured image for a GamerQuest article.
+
+    The image contains:
+    - Original article artwork
+    - 1200x630 crop
+
+    The image DOES NOT contain:
+    - Article title
+    - GamerQuest text
+    - Category text
+    - Black overlay
+    - Darkening
+    - Blur
+    """
+
     output_path = Path(
         output_path
     )
@@ -181,108 +166,19 @@ def generate_news_image(
     )
 
     if source_image:
-        background = cover_image(
+        image = cover_image(
             source_image
         )
 
-        background = (
-            ImageEnhance
-            .Brightness(background)
-            .enhance(0.58)
-        )
-
-        background = background.filter(
-            ImageFilter.GaussianBlur(
-                radius=0.6
-            )
-        )
     else:
-        background = (
+        image = (
             create_fallback_background()
         )
 
-    image = background.convert(
-        "RGBA"
-    )
-
-    overlay = Image.new(
-        "RGBA",
-        (WIDTH, HEIGHT),
-        (0, 0, 0, 0),
-    )
-
-    overlay_draw = ImageDraw.Draw(
-        overlay
-    )
-
-    overlay_draw.rectangle(
-        (0, 0, 780, HEIGHT),
-        fill=(5, 6, 12, 190),
-    )
-
-    overlay_draw.rectangle(
-        (0, 495, WIDTH, HEIGHT),
-        fill=(5, 6, 12, 170),
-    )
-
-    image = Image.alpha_composite(
-        image,
-        overlay,
-    )
-
-    draw = ImageDraw.Draw(
-        image
-    )
-
-    brand_font = get_font(
-        27,
-        bold=True,
-    )
-
-    title_font = get_font(
-        56,
-        bold=True,
-    )
-
-    news_font = get_font(
-        27,
-        bold=False,
-    )
-
-    draw.text(
-        (55, 48),
-        "GAMERQUEST",
-        font=brand_font,
-        fill=(255, 255, 255),
-    )
-
-    y = 145
-
-    for line in wrap_title(title):
-        draw.text(
-            (55, y),
-            line,
-            font=title_font,
-            fill=(255, 255, 255),
-        )
-
-        y += 70
-
-    draw.text(
-        (55, 545),
-        "ACTUALITÉ GAMING",
-        font=news_font,
-        fill=(230, 230, 235),
-    )
-
-    final_image = image.convert(
-        "RGB"
-    )
-
-    final_image.save(
+    image.save(
         output_path,
         format="JPEG",
-        quality=90,
+        quality=92,
         optimize=True,
     )
 

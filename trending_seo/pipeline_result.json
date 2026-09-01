@@ -1,10 +1,25 @@
 {
-  "status": "SAFE_STOP_NO_CONFIRMED_FACTS",
-  "reason": "No research topic currently has source-backed confirmed facts. No article was created.",
-  "topic": null,
-  "wordpress_status": null,
-  "wordpress_post_id": null,
-  "wordpress_url": null,
+  "pipeline_version": "2.0",
+  "status": "SEO_PIPELINE_DRAFT_SUCCESS",
+  "topic": "The Witcher 3: Wild Hunt Remastered",
+  "topic_id": "witcher3-remastered-gamescom-2026",
+  "score": 81,
+  "primary_keyword": "The Witcher 3 Remastered",
+  "secondary_keywords": [
+    "The Witcher 3 Remastered date de sortie",
+    "The Witcher 3 Remastered nouveautés",
+    "The Witcher 3 Remastered PS5",
+    "The Witcher 3 Remastered Xbox",
+    "The Witcher 3 Remastered PC"
+  ],
+  "search_intent": "information",
+  "title": "The Witcher 3 Remastered : tout ce qu’on sait après l’annonce à Gamescom 2026 (date, nouveautés, plateformes)",
+  "meta_description": "Découvrez les détails de l’annonce du The Witcher 3 Remastered à Gamescom 2026, son prix du Best Trailer, les plateformes prévues, les améliorations graphiques et les rumeurs de date de sortie.",
+  "seo_quality_status": "SEO_QUALITY_PASSED",
+  "sanity_status": "SANITY_CHECK_PASSED",
+  "wordpress_status": "draft",
+  "wordpress_post_id": 207,
+  "wordpress_url": "https://gamerquestfr.com/?p=207",
   "published": false,
-  "created_at": "2026-09-01T12:42:04.105308+00:00"
+  "created_at": "2026-09-01T13:42:09.040411+00:00"
 }

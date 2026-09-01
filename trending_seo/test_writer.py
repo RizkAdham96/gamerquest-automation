@@ -1,20 +1,10 @@
 import unittest
 
 from writer import (
-    # V1
-    build_writer_input,
-    can_generate_article,
-    filter_confirmed_facts,
-
-    # V2
-    build_generation_request,
-    normalize_generated_draft,
-    validate_draft_against_fact_pack,
-    apply_validation_result,
-
-    # V3
-    parse_ai_draft_response,
-    generate_draft_with_ai,
+    build_final_validation_request,
+    parse_final_validator_response,
+    run_final_validator,
+    finalize_validated_draft,
 )
 
 
@@ -42,340 +32,441 @@ class FakeCompletions:
 
     def create(self, **kwargs):
         self.calls += 1
-        return FakeResponse(self.content)
+        return FakeResponse(
+            self.content
+        )
 
 
 class FakeChat:
     def __init__(self, content):
-        self.completions = FakeCompletions(
-            content
+        self.completions = (
+            FakeCompletions(
+                content
+            )
         )
 
 
 class FakeGroqClient:
     def __init__(self, content):
-        self.chat = FakeChat(content)
-
-
-class ExplodingCompletions:
-    def __init__(self):
-        self.calls = 0
-
-    def create(self, **kwargs):
-        self.calls += 1
-        raise RuntimeError(
-            "AI should not have been called"
+        self.chat = FakeChat(
+            content
         )
 
 
-class ExplodingChat:
+class FailingCompletions:
+    def create(self, **kwargs):
+        raise RuntimeError(
+            "validator unavailable"
+        )
+
+
+class FailingChat:
     def __init__(self):
         self.completions = (
-            ExplodingCompletions()
+            FailingCompletions()
         )
 
 
-class ExplodingGroqClient:
+class FailingClient:
     def __init__(self):
-        self.chat = ExplodingChat()
+        self.chat = FailingChat()
 
 
-class TestTrendingSEOWriter(unittest.TestCase):
+class TestWriterV4FinalSafetyGate(
+    unittest.TestCase
+):
 
     # ======================================================
-    # V1 — FACT GATE
+    # FINAL VALIDATION REQUEST
     # ======================================================
 
-    def test_zero_confirmed_facts_blocks_writer(self):
-        research_record = {
-            "fact_pack": {
-                "confirmed_facts": [],
-                "blocked_claims": [
-                    {
-                        "claim": "Unverified release date",
-                        "status": "UNKNOWN",
-                    }
-                ],
-            }
+    def test_no_confirmed_facts_blocks_validation(self):
+        draft = {
+            "status": (
+                "DRAFT_PENDING_VALIDATION"
+            ),
+            "title": "Test Game",
+            "content": (
+                "Le jeu a été annoncé."
+            ),
+            "publishable": False,
         }
 
-        self.assertFalse(
-            can_generate_article(
-                research_record
+        result = (
+            build_final_validation_request(
+                draft=draft,
+                confirmed_facts=[],
             )
-        )
-
-    def test_writer_allowed_with_confirmed_fact(self):
-        research_record = {
-            "fact_pack": {
-                "confirmed_facts": [
-                    {
-                        "claim": (
-                            "The game was officially "
-                            "announced."
-                        ),
-                        "status": "CONFIRMED",
-                        "sources": [
-                            "https://example.com/official"
-                        ],
-                    }
-                ],
-                "blocked_claims": [],
-            }
-        }
-
-        self.assertTrue(
-            can_generate_article(
-                research_record
-            )
-        )
-
-    def test_filter_removes_unknown_claims(self):
-        claims = [
-            {
-                "claim": "Confirmed announcement.",
-                "status": "CONFIRMED",
-                "sources": [
-                    "https://example.com/official"
-                ],
-            },
-            {
-                "claim": "Possible release date.",
-                "status": "UNKNOWN",
-                "sources": [],
-            },
-            {
-                "claim": "Rumored platform.",
-                "status": "UNCONFIRMED",
-                "sources": [],
-            },
-        ]
-
-        result = filter_confirmed_facts(
-            claims
         )
 
         self.assertEqual(
-            len(result),
+            result["status"],
+            "BLOCKED_NO_CONFIRMED_FACTS",
+        )
+
+        self.assertFalse(
+            result["should_call_ai"]
+        )
+
+        self.assertFalse(
+            result["publishable"]
+        )
+
+
+    def test_pending_draft_with_facts_can_be_validated(self):
+        confirmed_facts = [
+            {
+                "claim": (
+                    "The game was officially "
+                    "announced."
+                ),
+                "status": "CONFIRMED",
+                "sources": [
+                    (
+                        "https://example.com/"
+                        "official"
+                    )
+                ],
+            }
+        ]
+
+        draft = {
+            "status": (
+                "DRAFT_PENDING_VALIDATION"
+            ),
+            "title": (
+                "Test Game : annonce officielle"
+            ),
+            "content": (
+                "Le jeu a été officiellement "
+                "annoncé."
+            ),
+            "meta_description": (
+                "Informations confirmées."
+            ),
+            "publishable": False,
+        }
+
+        result = (
+            build_final_validation_request(
+                draft=draft,
+                confirmed_facts=confirmed_facts,
+            )
+        )
+
+        self.assertEqual(
+            result["status"],
+            "READY_FOR_FINAL_VALIDATION",
+        )
+
+        self.assertTrue(
+            result["should_call_ai"]
+        )
+
+        self.assertFalse(
+            result["publishable"]
+        )
+
+
+    def test_validation_request_contains_confirmed_facts(self):
+        confirmed_facts = [
+            {
+                "claim": (
+                    "The game was officially "
+                    "announced."
+                ),
+                "status": "CONFIRMED",
+                "sources": [
+                    (
+                        "https://example.com/"
+                        "official"
+                    )
+                ],
+            }
+        ]
+
+        draft = {
+            "status": (
+                "DRAFT_PENDING_VALIDATION"
+            ),
+            "title": "Test Game",
+            "content": (
+                "Le jeu a été officiellement "
+                "annoncé."
+            ),
+            "publishable": False,
+        }
+
+        result = (
+            build_final_validation_request(
+                draft=draft,
+                confirmed_facts=confirmed_facts,
+            )
+        )
+
+        serialized = str(
+            result
+        )
+
+        self.assertIn(
+            (
+                "The game was officially "
+                "announced."
+            ),
+            serialized,
+        )
+
+
+    # ======================================================
+    # VALIDATOR RESPONSE PARSING
+    # ======================================================
+
+    def test_parse_validator_pass_response(self):
+        raw = """
+        {
+            "status": "VALIDATION_PASSED",
+            "unsupported_claims": [],
+            "reason": "All factual claims are supported."
+        }
+        """
+
+        result = (
+            parse_final_validator_response(
+                raw
+            )
+        )
+
+        self.assertEqual(
+            result["status"],
+            "VALIDATION_PASSED",
+        )
+
+        self.assertEqual(
+            result["unsupported_claims"],
+            [],
+        )
+
+
+    def test_parse_validator_block_response(self):
+        raw = """
+        {
+            "status": "BLOCKED_UNSUPPORTED_CLAIMS",
+            "unsupported_claims": [
+                "The game releases September 29, 2026."
+            ],
+            "reason": "The release date is not supported."
+        }
+        """
+
+        result = (
+            parse_final_validator_response(
+                raw
+            )
+        )
+
+        self.assertEqual(
+            result["status"],
+            (
+                "BLOCKED_UNSUPPORTED_CLAIMS"
+            ),
+        )
+
+        self.assertEqual(
+            len(
+                result[
+                    "unsupported_claims"
+                ]
+            ),
+            1,
+        )
+
+
+    def test_invalid_validator_response_fails_closed(self):
+        result = (
+            parse_final_validator_response(
+                "not valid json"
+            )
+        )
+
+        self.assertEqual(
+            result["status"],
+            (
+                "BLOCKED_INVALID_VALIDATOR_RESPONSE"
+            ),
+        )
+
+
+    # ======================================================
+    # REAL FINAL VALIDATOR FUNCTION
+    # ======================================================
+
+    def test_validator_passes_supported_article(self):
+        client = FakeGroqClient(
+            """
+            {
+                "status": "VALIDATION_PASSED",
+                "unsupported_claims": [],
+                "reason": "Article is grounded."
+            }
+            """
+        )
+
+        request = {
+            "status": (
+                "READY_FOR_FINAL_VALIDATION"
+            ),
+            "should_call_ai": True,
+            "prompt": (
+                "Validate this draft."
+            ),
+            "publishable": False,
+        }
+
+        result = run_final_validator(
+            validation_request=request,
+            client=client,
+        )
+
+        self.assertEqual(
+            client.chat.completions.calls,
             1,
         )
 
         self.assertEqual(
-            result[0]["claim"],
-            "Confirmed announcement.",
+            result["status"],
+            "VALIDATION_PASSED",
         )
 
-    def test_confirmed_fact_requires_source(self):
-        claims = [
+
+    def test_validator_blocks_invented_release_date(self):
+        client = FakeGroqClient(
+            """
             {
-                "claim": "Claim without evidence.",
-                "status": "CONFIRMED",
-                "sources": [],
+                "status": "BLOCKED_UNSUPPORTED_CLAIMS",
+                "unsupported_claims": [
+                    "The game releases September 29, 2026."
+                ],
+                "reason": "No confirmed fact supports the date."
             }
-        ]
-
-        self.assertEqual(
-            filter_confirmed_facts(claims),
-            [],
+            """
         )
 
-    def test_writer_input_excludes_blocked_claims(self):
-        research_record = {
-            "id": "test-topic",
-            "topic": "Test Game",
-            "fact_pack": {
-                "confirmed_facts": [
-                    {
-                        "claim": (
-                            "Official confirmed fact."
-                        ),
-                        "status": "CONFIRMED",
-                        "sources": [
-                            "https://example.com/official"
-                        ],
-                    }
-                ],
-                "blocked_claims": [
-                    {
-                        "claim": (
-                            "Secret unverified "
-                            "release date."
-                        ),
-                        "status": "UNKNOWN",
-                    }
-                ],
-            },
-        }
-
-        result = str(
-            build_writer_input(
-                research_record
-            )
-        )
-
-        self.assertIn(
-            "Official confirmed fact.",
-            result,
-        )
-
-        self.assertNotIn(
-            "Secret unverified release date.",
-            result,
-        )
-
-    # ======================================================
-    # V2 — GENERATION REQUEST
-    # ======================================================
-
-    def test_generation_request_blocked_without_facts(self):
-        writer_input = {
-            "status": (
-                "SKIPPED_NO_CONFIRMED_FACTS"
-            ),
-            "topic": "Test Game",
-            "confirmed_facts": [],
-        }
-
-        result = build_generation_request(
-            writer_input
-        )
-
-        self.assertEqual(
-            result["status"],
-            "SKIPPED_NO_CONFIRMED_FACTS",
-        )
-
-        self.assertFalse(
-            result["should_call_ai"]
-        )
-
-    def test_generation_request_allowed_with_facts(self):
-        writer_input = {
-            "status": "READY_FOR_WRITING",
-            "topic": "Test Game",
-            "confirmed_facts": [
-                {
-                    "claim": (
-                        "The game was officially "
-                        "announced."
-                    ),
-                    "status": "CONFIRMED",
-                    "sources": [
-                        "https://example.com/official"
-                    ],
-                }
-            ],
-            "seo": {
-                "primary_keyword": "Test Game",
-            },
-        }
-
-        result = build_generation_request(
-            writer_input
-        )
-
-        self.assertEqual(
-            result["status"],
-            "READY_FOR_AI",
-        )
-
-        self.assertTrue(
-            result["should_call_ai"]
-        )
-
-    # ======================================================
-    # V2 — DRAFT SAFETY
-    # ======================================================
-
-    def test_generated_draft_never_publishable_before_validation(self):
-        result = normalize_generated_draft(
-            {
-                "title": "Test Game",
-                "content": (
-                    "Le jeu a été officiellement "
-                    "annoncé."
-                ),
-                "meta_description": (
-                    "Informations confirmées."
-                ),
-            }
-        )
-
-        self.assertEqual(
-            result["status"],
-            "DRAFT_PENDING_VALIDATION",
-        )
-
-        self.assertFalse(
-            result["publishable"]
-        )
-
-    def test_empty_generated_draft_is_blocked(self):
-        result = normalize_generated_draft(
-            {}
-        )
-
-        self.assertEqual(
-            result["status"],
-            "BLOCKED_EMPTY_DRAFT",
-        )
-
-        self.assertFalse(
-            result["publishable"]
-        )
-
-    def test_validator_blocks_unsupported_claim(self):
-        validation = (
-            validate_draft_against_fact_pack(
-                draft={
-                    "title": "Test Game",
-                    "content": (
-                        "Le jeu sortira le "
-                        "29 septembre 2026."
-                    ),
-                },
-                confirmed_facts=[
-                    {
-                        "claim": (
-                            "The game was officially "
-                            "announced."
-                        ),
-                        "status": "CONFIRMED",
-                        "sources": [
-                            "https://example.com/official"
-                        ],
-                    }
-                ],
-                unsupported_claims=[
-                    (
-                        "The game releases "
-                        "September 29, 2026."
-                    )
-                ],
-            )
-        )
-
-        self.assertEqual(
-            validation["status"],
-            "BLOCKED_UNSUPPORTED_CLAIMS",
-        )
-
-    def test_validated_draft_can_be_safe_not_published(self):
-        result = apply_validation_result(
-            {
+        result = run_final_validator(
+            validation_request={
                 "status": (
-                    "DRAFT_PENDING_VALIDATION"
+                    "READY_FOR_FINAL_VALIDATION"
                 ),
-                "title": "Test Game",
-                "content": (
-                    "Confirmed information."
+                "should_call_ai": True,
+                "prompt": (
+                    "Validate draft with "
+                    "release date."
                 ),
                 "publishable": False,
             },
+            client=client,
+        )
+
+        self.assertEqual(
+            result["status"],
+            (
+                "BLOCKED_UNSUPPORTED_CLAIMS"
+            ),
+        )
+
+        self.assertFalse(
+            result["publishable"]
+        )
+
+
+    def test_validator_blocks_invented_platform(self):
+        client = FakeGroqClient(
+            """
             {
-                "status": "VALIDATION_PASSED",
-                "unsupported_claims": [],
+                "status": "BLOCKED_UNSUPPORTED_CLAIMS",
+                "unsupported_claims": [
+                    "The game will launch on PS5."
+                ],
+                "reason": "PS5 is not supported by the fact pack."
+            }
+            """
+        )
+
+        result = run_final_validator(
+            validation_request={
+                "status": (
+                    "READY_FOR_FINAL_VALIDATION"
+                ),
+                "should_call_ai": True,
+                "prompt": (
+                    "Validate draft."
+                ),
+                "publishable": False,
             },
+            client=client,
+        )
+
+        self.assertEqual(
+            result["status"],
+            (
+                "BLOCKED_UNSUPPORTED_CLAIMS"
+            ),
+        )
+
+
+    def test_validator_failure_fails_closed(self):
+        result = run_final_validator(
+            validation_request={
+                "status": (
+                    "READY_FOR_FINAL_VALIDATION"
+                ),
+                "should_call_ai": True,
+                "prompt": (
+                    "Validate draft."
+                ),
+                "publishable": False,
+            },
+            client=FailingClient(),
+        )
+
+        self.assertEqual(
+            result["status"],
+            (
+                "BLOCKED_VALIDATOR_UNAVAILABLE"
+            ),
+        )
+
+        self.assertFalse(
+            result["publishable"]
+        )
+
+
+    # ======================================================
+    # FINAL ARTICLE STATE
+    # ======================================================
+
+    def test_passed_validation_creates_validated_draft(self):
+        draft = {
+            "status": (
+                "DRAFT_PENDING_VALIDATION"
+            ),
+            "title": "Test Game",
+            "content": (
+                "Confirmed information only."
+            ),
+            "publishable": False,
+            "published": False,
+        }
+
+        validation = {
+            "status": (
+                "VALIDATION_PASSED"
+            ),
+            "unsupported_claims": [],
+        }
+
+        result = finalize_validated_draft(
+            draft=draft,
+            validation=validation,
         )
 
         self.assertEqual(
@@ -388,190 +479,84 @@ class TestTrendingSEOWriter(unittest.TestCase):
         )
 
         self.assertFalse(
-            result.get("published", False)
+            result["published"]
         )
 
-    # ======================================================
-    # V3 — AI RESPONSE PARSING
-    # ======================================================
 
-    def test_parse_valid_ai_json(self):
-        raw = """
-        {
-          "title": "Test Game : annonce officielle",
-          "content": "Le jeu a été officiellement annoncé.",
-          "meta_description": "Les informations confirmées."
-        }
-        """
-
-        result = parse_ai_draft_response(
-            raw
-        )
-
-        self.assertEqual(
-            result["title"],
-            "Test Game : annonce officielle",
-        )
-
-        self.assertIn(
-            "officiellement annoncé",
-            result["content"],
-        )
-
-    def test_parse_markdown_fenced_json(self):
-        raw = """```json
-        {
-          "title": "Test Game",
-          "content": "Information confirmée.",
-          "meta_description": "Résumé."
-        }
-        ```"""
-
-        result = parse_ai_draft_response(
-            raw
-        )
-
-        self.assertEqual(
-            result["title"],
-            "Test Game",
-        )
-
-    def test_invalid_ai_response_is_blocked(self):
-        result = parse_ai_draft_response(
-            "This is not JSON."
-        )
-
-        self.assertEqual(
-            result,
-            {}
-        )
-
-    # ======================================================
-    # V3 — REAL GENERATION FUNCTION
-    # ======================================================
-
-    def test_ai_not_called_without_confirmed_facts(self):
-        client = ExplodingGroqClient()
-
-        request = {
+    def test_failed_validation_never_becomes_publishable(self):
+        draft = {
             "status": (
-                "SKIPPED_NO_CONFIRMED_FACTS"
+                "DRAFT_PENDING_VALIDATION"
             ),
-            "should_call_ai": False,
-            "prompt": "",
-        }
-
-        result = generate_draft_with_ai(
-            generation_request=request,
-            client=client,
-        )
-
-        self.assertEqual(
-            result["status"],
-            "SKIPPED_NO_CONFIRMED_FACTS",
-        )
-
-        self.assertEqual(
-            client.chat.completions.calls,
-            0,
-        )
-
-    def test_ai_generates_non_publishable_draft(self):
-        client = FakeGroqClient(
-            """
-            {
-              "title": "Test Game : annonce officielle",
-              "content": "Le jeu a été officiellement annoncé.",
-              "meta_description": "Informations confirmées."
-            }
-            """
-        )
-
-        request = {
-            "status": "READY_FOR_AI",
-            "should_call_ai": True,
-            "prompt": (
-                "Write only from confirmed facts."
+            "title": "Test Game",
+            "content": (
+                "Unsupported release date."
             ),
+            "publishable": False,
+            "published": False,
         }
 
-        result = generate_draft_with_ai(
-            generation_request=request,
-            client=client,
-        )
-
-        self.assertEqual(
-            client.chat.completions.calls,
-            1,
-        )
-
-        self.assertEqual(
-            result["status"],
-            "DRAFT_PENDING_VALIDATION",
-        )
-
-        self.assertFalse(
-            result["publishable"]
-        )
-
-    def test_malformed_ai_output_is_blocked(self):
-        client = FakeGroqClient(
-            "I ignored the JSON instruction."
-        )
-
-        request = {
-            "status": "READY_FOR_AI",
-            "should_call_ai": True,
-            "prompt": "Generate draft.",
+        validation = {
+            "status": (
+                "BLOCKED_UNSUPPORTED_CLAIMS"
+            ),
+            "unsupported_claims": [
+                (
+                    "Unsupported "
+                    "release date."
+                )
+            ],
         }
 
-        result = generate_draft_with_ai(
-            generation_request=request,
-            client=client,
+        result = finalize_validated_draft(
+            draft=draft,
+            validation=validation,
         )
 
         self.assertEqual(
             result["status"],
-            "BLOCKED_INVALID_AI_RESPONSE",
+            (
+                "BLOCKED_UNSUPPORTED_CLAIMS"
+            ),
         )
 
         self.assertFalse(
             result["publishable"]
         )
 
-    def test_ai_exception_fails_closed(self):
-        class FailingCompletions:
-            def create(self, **kwargs):
-                raise RuntimeError(
-                    "quota unavailable"
-                )
-
-        class FailingChat:
-            def __init__(self):
-                self.completions = (
-                    FailingCompletions()
-                )
-
-        class FailingClient:
-            def __init__(self):
-                self.chat = FailingChat()
-
-        result = generate_draft_with_ai(
-            generation_request={
-                "status": "READY_FOR_AI",
-                "should_call_ai": True,
-                "prompt": "Generate draft.",
-            },
-            client=FailingClient(),
+        self.assertFalse(
+            result["published"]
         )
 
-        self.assertEqual(
-            result["status"],
-            "BLOCKED_AI_UNAVAILABLE",
+
+    def test_validator_can_never_mark_article_published(self):
+        draft = {
+            "status": (
+                "DRAFT_PENDING_VALIDATION"
+            ),
+            "title": "Test Game",
+            "content": (
+                "Confirmed information."
+            ),
+            "publishable": False,
+            "published": False,
+        }
+
+        validation = {
+            "status": (
+                "VALIDATION_PASSED"
+            ),
+            "unsupported_claims": [],
+            "published": True,
+        }
+
+        result = finalize_validated_draft(
+            draft=draft,
+            validation=validation,
         )
 
         self.assertFalse(
-            result["publishable"]
+            result["published"]
         )
 
 

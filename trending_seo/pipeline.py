@@ -1,26 +1,26 @@
 # =========================================================
-# GAMERQUEST TRENDING SEO — END-TO-END PIPELINE V1
-# SAFE MANUAL MODE: WORDPRESS DRAFT ONLY
+# GAMERQUEST TRENDING SEO — SEO-FIRST PIPELINE V2
+# INDEPENDENT SEO AUTOMATION
+# WORDPRESS DRAFT ONLY
 # =========================================================
+
+from __future__ import annotations
 
 import json
 import os
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any, Dict
 
 import requests
+from groq import Groq
 
 import scorer
-import researcher
 
-from writer import (
-    build_writer_input,
-    build_generation_request,
-    generate_draft_with_ai,
-    build_final_validation_request,
-    run_final_validator,
-    finalize_validated_draft,
+from seo_engine import (
+    select_seo_candidates,
+    build_seo_brief,
+    validate_seo_article,
 )
 
 
@@ -30,9 +30,9 @@ from writer import (
 
 BASE_DIR = Path(__file__).resolve().parent
 
-RESEARCH_FILE = (
+SCORED_TOPICS_FILE = (
     BASE_DIR
-    / "research_results.json"
+    / "scored_topics.json"
 )
 
 PIPELINE_RESULT_FILE = (
@@ -45,27 +45,75 @@ PIPELINE_RESULT_FILE = (
 # CONFIG
 # =========================================================
 
-# Critical safety setting.
-# This first end-to-end version NEVER publishes publicly.
-WORDPRESS_STATUS = "draft"
+PIPELINE_VERSION = "2.0"
 
-# Only one article per manual test run.
+MODEL = "openai/gpt-oss-120b"
+
+# =========================================================
+# IMPORTANT:
+# This SEO automation is intentionally limited to
+# ONE article per run.
+# =========================================================
+
 MAX_ARTICLES_PER_RUN = 1
+
+# =========================================================
+# SAFE FIRST PRODUCTION TEST:
+# WordPress remains DRAFT ONLY.
+#
+# We will only enable public publishing after this
+# independent SEO pipeline passes its real smoke test.
+# =========================================================
+
+WORDPRESS_STATUS = "draft"
 
 
 # =========================================================
 # BASIC HELPERS
 # =========================================================
 
-def load_json(path):
+def safe_string(value: Any) -> str:
+    return str(
+        value or ""
+    ).strip()
+
+
+def utc_now() -> str:
+    return (
+        datetime.now(
+            timezone.utc
+        )
+        .isoformat()
+    )
+
+
+def load_json(
+    path: Path,
+) -> Dict[str, Any]:
+
     with path.open(
         "r",
         encoding="utf-8",
     ) as file:
-        return json.load(file)
+
+        data = json.load(file)
+
+    if not isinstance(
+        data,
+        dict,
+    ):
+        raise ValueError(
+            "JSON root must be an object."
+        )
+
+    return data
 
 
-def save_json(path, data):
+def save_json(
+    path: Path,
+    data: Dict[str, Any],
+) -> None:
+
     path.parent.mkdir(
         parents=True,
         exist_ok=True,
@@ -75,6 +123,7 @@ def save_json(path, data):
         "w",
         encoding="utf-8",
     ) as file:
+
         json.dump(
             data,
             file,
@@ -85,27 +134,16 @@ def save_json(path, data):
         file.write("\n")
 
 
-def safe_string(value):
-    return str(
-        value or ""
-    ).strip()
-
-
-def utc_now():
-    return (
-        datetime.now(
-            timezone.utc
-        )
-        .isoformat()
-    )
-
-
 def stop_result(
-    status,
-    reason,
-    topic=None,
-):
+    status: str,
+    reason: str,
+    topic: str | None = None,
+) -> Dict[str, Any]:
+
     result = {
+        "pipeline_version": (
+            PIPELINE_VERSION
+        ),
         "status": status,
         "reason": reason,
         "topic": topic,
@@ -123,10 +161,14 @@ def stop_result(
 
     print("")
     print("=" * 60)
-    print("PIPELINE STOPPED SAFELY")
+    print("SEO PIPELINE STOPPED")
     print("=" * 60)
     print("STATUS:", status)
     print("REASON:", reason)
+
+    if topic:
+        print("TOPIC:", topic)
+
     print("=" * 60)
 
     return result
@@ -136,7 +178,8 @@ def stop_result(
 # WORDPRESS CONFIG
 # =========================================================
 
-def get_wordpress_config():
+def get_wordpress_config() -> Dict[str, str]:
+
     wp_url = safe_string(
         os.environ.get(
             "WP_URL",
@@ -185,126 +228,488 @@ def get_wordpress_config():
 
 
 # =========================================================
-# RESEARCH SELECTION
+# GROQ RESPONSE HELPERS
 # =========================================================
 
-def get_safe_research_candidates(
-    research_data,
-):
-    if not isinstance(
-        research_data,
-        dict,
-    ):
-        return []
+def extract_json_object(
+    text: str,
+) -> Dict[str, Any]:
 
-    safe = []
+    cleaned = safe_string(
+        text
+    )
 
-    for topic in research_data.get(
-        "topics",
-        [],
+    if cleaned.startswith(
+        "```"
     ):
-        if not isinstance(
-            topic,
+        cleaned = cleaned.replace(
+            "```json",
+            "",
+            1,
+        )
+
+        cleaned = cleaned.replace(
+            "```",
+            "",
+        )
+
+        cleaned = cleaned.strip()
+
+    try:
+        data = json.loads(
+            cleaned
+        )
+
+        if isinstance(
+            data,
             dict,
         ):
-            continue
+            return data
 
-        fact_pack = topic.get(
-            "fact_pack",
-            {},
+    except Exception:
+        pass
+
+    start = cleaned.find(
+        "{"
+    )
+
+    end = cleaned.rfind(
+        "}"
+    )
+
+    if (
+        start == -1
+        or end == -1
+        or end <= start
+    ):
+        raise ValueError(
+            "Groq response does not "
+            "contain a JSON object."
         )
 
-        if not isinstance(
-            fact_pack,
-            dict,
-        ):
-            continue
-
-        confirmed_facts = (
-            fact_pack.get(
-                "confirmed_facts",
-                [],
-            )
-        )
-
-        if not isinstance(
-            confirmed_facts,
-            list,
-        ):
-            continue
-
-        # Writer must never run with zero
-        # confirmed facts.
-        if not confirmed_facts:
-            continue
-
-        if (
-            safe_string(
-                topic.get(
-                    "research_status",
-                    "",
-                )
-            )
-            != "VERIFIED_FACTS_READY"
-        ):
-            continue
-
-        safe.append(
-            topic
-        )
-
-    return safe[
-        :MAX_ARTICLES_PER_RUN
+    candidate = cleaned[
+        start:end + 1
     ]
 
+    data = json.loads(
+        candidate
+    )
+
+    if not isinstance(
+        data,
+        dict,
+    ):
+        raise ValueError(
+            "Groq JSON response must "
+            "be an object."
+        )
+
+    return data
+
 
 # =========================================================
-# DRAFT-ONLY WORDPRESS BRIDGE
+# SEO WRITING PROMPT
+# =========================================================
+
+def build_article_prompt(
+    brief: Dict[str, Any],
+) -> str:
+
+    topic = safe_string(
+        brief.get(
+            "topic"
+        )
+    )
+
+    primary_keyword = safe_string(
+        brief.get(
+            "primary_keyword"
+        )
+    )
+
+    secondary_keywords = (
+        brief.get(
+            "secondary_keywords",
+            [],
+        )
+    )
+
+    search_intent = safe_string(
+        brief.get(
+            "search_intent"
+        )
+    )
+
+    recommended_angle = safe_string(
+        brief.get(
+            "recommended_angle"
+        )
+    )
+
+    suggested_title = safe_string(
+        brief.get(
+            "suggested_title"
+        )
+    )
+
+    secondary_text = ", ".join(
+        safe_string(keyword)
+        for keyword
+        in secondary_keywords
+        if safe_string(keyword)
+    )
+
+    return f"""
+Tu es le rédacteur SEO senior de GamerQuest FR,
+un média gaming français.
+
+Ta mission est de créer un article SEO réellement utile
+pour les joueurs francophones.
+
+SUJET :
+{topic}
+
+MOT-CLÉ PRINCIPAL :
+{primary_keyword}
+
+MOTS-CLÉS SECONDAIRES :
+{secondary_text}
+
+INTENTION DE RECHERCHE :
+{search_intent}
+
+ANGLE RECOMMANDÉ :
+{recommended_angle}
+
+TITRE SEO SUGGÉRÉ :
+{suggested_title}
+
+OBJECTIF PRINCIPAL :
+
+Répondre mieux que possible à l'intention de recherche
+du joueur.
+
+L'article ne doit PAS être une simple actualité courte.
+
+Il doit être construit comme une ressource SEO durable,
+claire, structurée et utile.
+
+RÈGLES SEO :
+
+1. Écris en français naturel.
+
+2. Utilise le mot-clé principal naturellement dans :
+   - le titre ;
+   - l'introduction ;
+   - le corps de l'article.
+
+3. Utilise les mots-clés secondaires seulement
+   lorsqu'ils sont pertinents.
+
+4. Ne fais jamais de keyword stuffing.
+
+5. Commence l'article par une réponse claire au sujet.
+
+6. Structure le contenu avec plusieurs sections H2.
+
+7. Utilise des H3 lorsque cela améliore la compréhension.
+
+8. Ajoute une section FAQ lorsque le sujet s'y prête.
+
+9. Fais des paragraphes relativement courts.
+
+10. L'article doit répondre concrètement aux questions
+    qu'un joueur taperait sur Google.
+
+11. Crée une meta description utile et naturelle.
+
+12. La meta description doit idéalement rester
+    autour de 140 à 160 caractères.
+
+13. Ne mets PAS de H1 dans le contenu HTML.
+    WordPress utilisera le titre comme H1.
+
+14. Utilise uniquement du HTML simple dans "content" :
+    <p>, <h2>, <h3>, <ul>, <ol>, <li>, <strong>.
+
+15. Ne mets aucun Markdown dans le contenu.
+
+RÈGLES DE FIABILITÉ :
+
+Tu peux créer :
+- des explications ;
+- des guides ;
+- des conseils ;
+- des comparaisons ;
+- des réponses à des questions ;
+- du contexte gaming général.
+
+Mais tu ne dois PAS inventer des informations précises.
+
+En particulier :
+
+- aucune fausse date de sortie ;
+- aucun faux prix ;
+- aucune plateforme présentée comme confirmée
+  sans certitude ;
+- aucune citation inventée ;
+- aucun chiffre précis inventé ;
+- aucune annonce officielle inventée ;
+- aucune fonctionnalité présentée comme confirmée
+  si elle ne l'est pas.
+
+Si une information précise n'est pas certaine,
+formule la section sans présenter cette information
+comme un fait confirmé.
+
+IMPORTANT :
+
+Le brief peut contenir des hypothèses, angles,
+mots-clés ou formulations automatiques.
+
+Ils servent à comprendre l'intention SEO.
+
+Ils ne constituent PAS automatiquement des faits.
+
+FORMAT DE SORTIE OBLIGATOIRE :
+
+Retourne uniquement un objet JSON valide.
+
+Aucun texte avant.
+Aucun texte après.
+Aucun bloc Markdown.
+
+Structure exacte :
+
+{{
+  "title": "Titre SEO",
+  "meta_description": "Meta description",
+  "content": "<p>Introduction...</p><h2>...</h2>...",
+  "primary_keyword": "{primary_keyword}",
+  "search_intent": "{search_intent}"
+}}
+""".strip()
+
+
+# =========================================================
+# GROQ ARTICLE GENERATION
+# =========================================================
+
+def generate_seo_article(
+    brief: Dict[str, Any],
+) -> Dict[str, Any]:
+
+    api_key = safe_string(
+        os.environ.get(
+            "GROQ_API_KEY",
+            "",
+        )
+    )
+
+    if not api_key:
+        return {
+            "status": (
+                "BLOCKED_MISSING_GROQ_KEY"
+            ),
+        }
+
+    prompt = build_article_prompt(
+        brief
+    )
+
+    try:
+        client = Groq(
+            api_key=api_key
+        )
+
+        response = (
+            client.chat.completions.create(
+                model=MODEL,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": (
+                            "Tu es un rédacteur SEO "
+                            "gaming français. "
+                            "Retourne uniquement "
+                            "du JSON valide."
+                        ),
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt,
+                    },
+                ],
+                temperature=0.4,
+                max_tokens=5000,
+            )
+        )
+
+        text = (
+            response
+            .choices[0]
+            .message
+            .content
+        )
+
+        article = (
+            extract_json_object(
+                text
+            )
+        )
+
+    except Exception as error:
+
+        return {
+            "status": (
+                "BLOCKED_AI_UNAVAILABLE"
+            ),
+            "error": (
+                f"{type(error).__name__}: "
+                f"{error}"
+            ),
+        }
+
+    title = safe_string(
+        article.get(
+            "title"
+        )
+    )
+
+    meta_description = safe_string(
+        article.get(
+            "meta_description"
+        )
+    )
+
+    content = safe_string(
+        article.get(
+            "content"
+        )
+    )
+
+    if (
+        not title
+        or not meta_description
+        or not content
+    ):
+        return {
+            "status": (
+                "BLOCKED_INVALID_AI_RESPONSE"
+            ),
+        }
+
+    return {
+        "status": (
+            "SEO_ARTICLE_GENERATED"
+        ),
+        "title": title,
+        "meta_description": (
+            meta_description
+        ),
+        "content": content,
+        "primary_keyword": (
+            safe_string(
+                brief.get(
+                    "primary_keyword"
+                )
+            )
+        ),
+        "search_intent": (
+            safe_string(
+                brief.get(
+                    "search_intent"
+                )
+            )
+        ),
+        "publishable": False,
+    }
+
+
+# =========================================================
+# LIGHTWEIGHT HIGH-RISK SANITY CHECK
+# =========================================================
+
+def high_risk_sanity_check(
+    article: Dict[str, Any],
+) -> Dict[str, Any]:
+    """
+    Lightweight guard against obvious unsupported
+    high-risk specifics.
+
+    IMPORTANT:
+    This is NOT the old Researcher confirmed-facts gate.
+
+    It does not require confirmed_facts.
+
+    It simply prevents obviously dangerous automation
+    patterns from passing silently.
+    """
+
+    content = safe_string(
+        article.get(
+            "content"
+        )
+    )
+
+    lowered = content.lower()
+
+    suspicious_phrases = [
+        "date de sortie confirmée",
+        "date officielle confirmée",
+        "prix officiel confirmé",
+        "cd projekt red a confirmé que",
+        "le développeur a confirmé que",
+        "l'éditeur a confirmé que",
+    ]
+
+    found = [
+        phrase
+        for phrase
+        in suspicious_phrases
+        if phrase in lowered
+    ]
+
+    if found:
+        return {
+            "status": (
+                "SANITY_CHECK_FAILED"
+            ),
+            "passed": False,
+            "issues": found,
+        }
+
+    return {
+        "status": (
+            "SANITY_CHECK_PASSED"
+        ),
+        "passed": True,
+        "issues": [],
+    }
+
+
+# =========================================================
+# WORDPRESS DRAFT BRIDGE
 # =========================================================
 
 def create_wordpress_draft(
-    validated_draft,
-    wp_config,
-):
-    """
-    Real WordPress call, but hard-locked to status=draft.
-
-    This function intentionally does NOT accept
-    a status argument.
-
-    That prevents an accidental caller from changing
-    this manual test into public publishing.
-    """
+    article: Dict[str, Any],
+    wp_config: Dict[str, str],
+) -> Dict[str, Any]:
 
     if not isinstance(
-        validated_draft,
+        article,
         dict,
     ):
         return {
             "status": (
-                "BLOCKED_INVALID_DRAFT"
+                "BLOCKED_INVALID_ARTICLE"
             ),
             "published": False,
         }
 
     if (
-        safe_string(
-            validated_draft.get(
-                "status",
-                "",
-            )
-        )
-        != "VALIDATED_DRAFT"
-    ):
-        return {
-            "status": (
-                "BLOCKED_NOT_VALIDATED_DRAFT"
-            ),
-            "published": False,
-        }
-
-    if (
-        validated_draft.get(
+        article.get(
             "publishable"
         )
         is not True
@@ -316,35 +721,21 @@ def create_wordpress_draft(
             "published": False,
         }
 
-    if not isinstance(
-        wp_config,
-        dict,
-    ):
-        return {
-            "status": (
-                "BLOCKED_WORDPRESS_CONFIG"
-            ),
-            "published": False,
-        }
-
     base_url = safe_string(
         wp_config.get(
-            "base_url",
-            "",
+            "base_url"
         )
     ).rstrip("/")
 
     username = safe_string(
         wp_config.get(
-            "username",
-            "",
+            "username"
         )
     )
 
     password = safe_string(
         wp_config.get(
-            "application_password",
-            "",
+            "application_password"
         )
     )
 
@@ -361,30 +752,30 @@ def create_wordpress_draft(
         }
 
     title = safe_string(
-        validated_draft.get(
-            "title",
-            "",
+        article.get(
+            "title"
         )
     )
 
     content = safe_string(
-        validated_draft.get(
-            "content",
-            "",
+        article.get(
+            "content"
         )
     )
 
     meta_description = safe_string(
-        validated_draft.get(
-            "meta_description",
-            "",
+        article.get(
+            "meta_description"
         )
     )
 
-    if not title or not content:
+    if (
+        not title
+        or not content
+    ):
         return {
             "status": (
-                "BLOCKED_EMPTY_DRAFT"
+                "BLOCKED_EMPTY_ARTICLE"
             ),
             "published": False,
         }
@@ -395,15 +786,14 @@ def create_wordpress_draft(
     )
 
     # =====================================================
-    # CRITICAL:
-    # hard-coded DRAFT.
-    # No parameter can override this.
+    # HARD LOCK:
+    # This V2 smoke-test pipeline creates DRAFTS ONLY.
     # =====================================================
 
     payload = {
         "title": title,
         "content": content,
-        "status": "draft",
+        "status": WORDPRESS_STATUS,
     }
 
     if meta_description:
@@ -425,13 +815,14 @@ def create_wordpress_draft(
                     "application/json"
                 ),
                 "User-Agent": (
-                    "GamerQuest-Trending-SEO-"
-                    "Pipeline-Draft/1.0"
+                    "GamerQuest-Trending-SEO/"
+                    + PIPELINE_VERSION
                 ),
             },
         )
 
     except Exception as error:
+
         return {
             "status": (
                 "BLOCKED_WORDPRESS_UNAVAILABLE"
@@ -443,9 +834,10 @@ def create_wordpress_draft(
             ),
         }
 
-    if (
-        response.status_code < 200
-        or response.status_code >= 300
+    if not (
+        200
+        <= response.status_code
+        < 300
     ):
         return {
             "status": (
@@ -461,6 +853,7 @@ def create_wordpress_draft(
         data = response.json()
 
     except Exception:
+
         return {
             "status": (
                 "BLOCKED_INVALID_WORDPRESS_RESPONSE"
@@ -486,16 +879,11 @@ def create_wordpress_draft(
     wordpress_status = (
         safe_string(
             data.get(
-                "status",
-                "",
+                "status"
             )
         )
         .lower()
     )
-
-    # =====================================================
-    # FINAL DRAFT SAFETY ASSERTION
-    # =====================================================
 
     if not post_id:
         return {
@@ -505,7 +893,10 @@ def create_wordpress_draft(
             "published": False,
         }
 
-    if wordpress_status != "draft":
+    if (
+        wordpress_status
+        != WORDPRESS_STATUS
+    ):
         return {
             "status": (
                 "BLOCKED_WORDPRESS_STATUS_MISMATCH"
@@ -524,299 +915,230 @@ def create_wordpress_draft(
             "WORDPRESS_DRAFT_CREATED"
         ),
         "published": False,
-        "wordpress_status": "draft",
-        "wordpress_post_id": post_id,
-        "wordpress_url": safe_string(
-            data.get(
-                "link",
-                "",
+        "wordpress_status": (
+            wordpress_status
+        ),
+        "wordpress_post_id": (
+            post_id
+        ),
+        "wordpress_url": (
+            safe_string(
+                data.get(
+                    "link"
+                )
             )
         ),
     }
 
 
 # =========================================================
-# ONE TOPIC
+# PROCESS ONE SEO TOPIC
 # =========================================================
 
-def process_research_topic(
-    research_record,
-    wp_config,
-):
+def process_seo_topic(
+    topic: Dict[str, Any],
+    wp_config: Dict[str, str],
+) -> Dict[str, Any]:
+
     topic_name = safe_string(
-        research_record.get(
-            "topic",
-            "",
+        topic.get(
+            "topic"
         )
     )
 
     print("")
     print("=" * 60)
-    print("PROCESSING TRENDING SEO TOPIC")
+    print("PROCESSING SEO OPPORTUNITY")
     print("=" * 60)
-    print(topic_name)
-
-    # =====================================================
-    # WRITER V1
-    # =====================================================
-
-    writer_input = (
-        build_writer_input(
-            research_record
-        )
-    )
-
-    if (
-        writer_input.get(
-            "status"
-        )
-        != "READY_FOR_WRITING"
-    ):
-        return stop_result(
-            status=(
-                "SKIPPED_WRITER_GATE"
-            ),
-            reason=(
-                "Writer did not receive "
-                "source-backed confirmed facts."
-            ),
-            topic=topic_name,
-        )
-
-    confirmed_facts = (
-        writer_input.get(
-            "confirmed_facts",
-            [],
-        )
-    )
-
+    print("Topic:", topic_name)
     print(
-        "Confirmed facts:",
-        len(
-            confirmed_facts
+        "Score:",
+        topic.get(
+            "total_score"
         ),
     )
 
     # =====================================================
-    # WRITER V2
+    # STAGE 2 — SEO BRIEF
     # =====================================================
 
-    generation_request = (
-        build_generation_request(
-            writer_input
-        )
+    brief = build_seo_brief(
+        topic
     )
 
     if (
-        generation_request.get(
+        brief.get(
             "status"
         )
-        != "READY_FOR_AI"
+        != "SEO_BRIEF_READY"
     ):
         return stop_result(
             status=(
-                "SKIPPED_GENERATION_GATE"
+                "BLOCKED_SEO_BRIEF"
             ),
             reason=(
-                "Article generation request "
-                "was not approved."
+                "SEO engine could not "
+                "create a writing brief."
             ),
             topic=topic_name,
         )
 
-    # =====================================================
-    # WRITER V3
-    # =====================================================
-
+    print("")
     print(
-        "Generating article with Groq..."
-    )
-
-    generated_draft = (
-        generate_draft_with_ai(
-            generation_request
-        )
-    )
-
-    if (
-        generated_draft.get(
-            "status"
-        )
-        != "DRAFT_PENDING_VALIDATION"
-    ):
-        return stop_result(
-            status=(
-                generated_draft.get(
-                    "status",
-                    "BLOCKED_GENERATION",
-                )
-            ),
-            reason=(
-                "Groq did not return a "
-                "valid safe draft."
-            ),
-            topic=topic_name,
-        )
-
-    print(
-        "Article generated."
+        "Primary keyword:",
+        brief.get(
+            "primary_keyword"
+        ),
     )
 
     print(
-        "Publishable before validation:",
-        generated_draft.get(
-            "publishable",
+        "Search intent:",
+        brief.get(
+            "search_intent"
         ),
     )
 
     # =====================================================
-    # WRITER V4 REQUEST
+    # STAGE 3 — AI SEO ARTICLE
     # =====================================================
 
-    validation_request = (
-        build_final_validation_request(
-            draft=generated_draft,
-            confirmed_facts=(
-                confirmed_facts
-            ),
-        )
+    print("")
+    print(
+        "Generating SEO article "
+        "with Groq..."
+    )
+
+    article = generate_seo_article(
+        brief
     )
 
     if (
-        validation_request.get(
+        article.get(
             "status"
         )
-        != (
-            "READY_FOR_FINAL_VALIDATION"
-        )
+        != "SEO_ARTICLE_GENERATED"
     ):
         return stop_result(
             status=(
-                validation_request.get(
+                article.get(
                     "status",
-                    (
-                        "BLOCKED_FINAL_"
-                        "VALIDATION_REQUEST"
-                    ),
+                    "BLOCKED_AI_GENERATION",
                 )
             ),
             reason=(
-                "Final factual validator "
-                "was not allowed to run."
+                article.get(
+                    "error",
+                    "Groq did not return "
+                    "a valid SEO article.",
+                )
             ),
             topic=topic_name,
         )
 
-    # =====================================================
-    # WRITER V4 AI VALIDATOR
-    # =====================================================
-
     print(
-        "Running final factual validator..."
+        "SEO article generated."
     )
 
-    validation = (
-        run_final_validator(
-            validation_request
-        )
+    # =====================================================
+    # STAGE 4 — SEO QUALITY CHECK
+    # =====================================================
+
+    quality = validate_seo_article(
+        article=article,
+        brief=brief,
     )
 
+    print("")
     print(
-        "Validator status:",
-        validation.get(
-            "status",
+        "SEO quality:",
+        quality.get(
+            "status"
         ),
     )
 
     if (
-        validation.get(
-            "status"
-        )
-        != "VALIDATION_PASSED"
-    ):
-        return stop_result(
-            status=(
-                validation.get(
-                    "status",
-                    "BLOCKED_VALIDATION",
-                )
-            ),
-            reason=(
-                "Article failed final "
-                "factual validation."
-            ),
-            topic=topic_name,
-        )
-
-    # =====================================================
-    # FINALIZE VALIDATED DRAFT
-    # =====================================================
-
-    validated_draft = (
-        finalize_validated_draft(
-            draft=generated_draft,
-            validation=validation,
-        )
-    )
-
-    if (
-        validated_draft.get(
-            "status"
-        )
-        != "VALIDATED_DRAFT"
-    ):
-        return stop_result(
-            status=(
-                validated_draft.get(
-                    "status",
-                    "BLOCKED_FINAL_GATE",
-                )
-            ),
-            reason=(
-                "Final deterministic safety "
-                "gate rejected the article."
-            ),
-            topic=topic_name,
-        )
-
-    if (
-        validated_draft.get(
+        quality.get(
             "publishable"
         )
         is not True
     ):
         return stop_result(
             status=(
-                "BLOCKED_NOT_PUBLISHABLE"
+                "SEO_QUALITY_FAILED"
             ),
             reason=(
-                "Validated article did not "
-                "receive publishable=True."
+                "SEO quality issues: "
+                + ", ".join(
+                    quality.get(
+                        "issues",
+                        [],
+                    )
+                )
             ),
             topic=topic_name,
         )
 
+    # =====================================================
+    # STAGE 5 — LIGHTWEIGHT SANITY CHECK
+    # =====================================================
+
+    sanity = (
+        high_risk_sanity_check(
+            article
+        )
+    )
+
+    print(
+        "Sanity check:",
+        sanity.get(
+            "status"
+        ),
+    )
+
+    if (
+        sanity.get(
+            "passed"
+        )
+        is not True
+    ):
+        return stop_result(
+            status=(
+                "SANITY_CHECK_FAILED"
+            ),
+            reason=(
+                "Potential unsupported "
+                "high-risk factual wording: "
+                + ", ".join(
+                    sanity.get(
+                        "issues",
+                        [],
+                    )
+                )
+            ),
+            topic=topic_name,
+        )
+
+    # =====================================================
+    # ARTICLE APPROVED FOR WP DRAFT
+    # =====================================================
+
+    article[
+        "publishable"
+    ] = True
+
+    # =====================================================
+    # STAGE 6 — WORDPRESS
+    # =====================================================
+
     print("")
     print(
-        "FINAL VALIDATION: PASSED"
+        "Creating WordPress SEO draft..."
     )
-
-    print(
-        "Public publishing: DISABLED"
-    )
-
-    print(
-        "WordPress mode: DRAFT ONLY"
-    )
-
-    # =====================================================
-    # SAFE REAL WORDPRESS DRAFT
-    # =====================================================
 
     wordpress_result = (
         create_wordpress_draft(
-            validated_draft,
-            wp_config,
+            article=article,
+            wp_config=wp_config,
         )
     )
 
@@ -834,54 +1156,77 @@ def process_research_topic(
                 )
             ),
             reason=(
-                "WordPress draft creation "
-                "did not complete safely."
+                wordpress_result.get(
+                    "error",
+                    "WordPress draft "
+                    "creation failed.",
+                )
             ),
             topic=topic_name,
         )
 
+    # =====================================================
+    # SUCCESS
+    # =====================================================
+
     result = {
+        "pipeline_version": (
+            PIPELINE_VERSION
+        ),
         "status": (
-            "PIPELINE_DRAFT_SUCCESS"
+            "SEO_PIPELINE_DRAFT_SUCCESS"
         ),
         "topic": topic_name,
-        "research_id": (
-            research_record.get(
+        "topic_id": (
+            topic.get(
                 "id"
             )
         ),
-        "confirmed_fact_count": (
-            len(
-                confirmed_facts
+        "score": (
+            topic.get(
+                "total_score"
             )
         ),
-        "writer_status": (
-            generated_draft.get(
-                "status"
+        "primary_keyword": (
+            brief.get(
+                "primary_keyword"
             )
         ),
-        "validator_status": (
-            validation.get(
-                "status"
+        "secondary_keywords": (
+            brief.get(
+                "secondary_keywords",
+                [],
             )
         ),
-        "final_draft_status": (
-            validated_draft.get(
-                "status"
+        "search_intent": (
+            brief.get(
+                "search_intent"
             )
         ),
         "title": (
-            validated_draft.get(
+            article.get(
                 "title"
             )
         ),
         "meta_description": (
-            validated_draft.get(
+            article.get(
                 "meta_description"
             )
         ),
+        "seo_quality_status": (
+            quality.get(
+                "status"
+            )
+        ),
+        "sanity_status": (
+            sanity.get(
+                "status"
+            )
+        ),
         "wordpress_status": (
-            "draft"
+            wordpress_result.get(
+                "wordpress_status"
+            )
         ),
         "wordpress_post_id": (
             wordpress_result.get(
@@ -893,11 +1238,7 @@ def process_research_topic(
                 "wordpress_url"
             )
         ),
-
-        # Important:
-        # this end-to-end test is NEVER public.
         "published": False,
-
         "created_at": utc_now(),
     }
 
@@ -908,7 +1249,7 @@ def process_research_topic(
 
     print("")
     print("=" * 60)
-    print("END-TO-END PIPELINE SUCCESS")
+    print("SEO PIPELINE SUCCESS")
     print("=" * 60)
 
     print(
@@ -917,24 +1258,45 @@ def process_research_topic(
     )
 
     print(
+        "Title:",
+        result.get(
+            "title"
+        ),
+    )
+
+    print(
+        "Primary keyword:",
+        result.get(
+            "primary_keyword"
+        ),
+    )
+
+    print(
+        "SEO quality:",
+        result.get(
+            "seo_quality_status"
+        ),
+    )
+
+    print(
         "WordPress Post ID:",
-        result[
+        result.get(
             "wordpress_post_id"
-        ],
+        ),
     )
 
     print(
         "WordPress status:",
-        result[
+        result.get(
             "wordpress_status"
-        ],
+        ),
     )
 
     print(
         "Publicly published:",
-        result[
+        result.get(
             "published"
-        ],
+        ),
     )
 
     print("=" * 60)
@@ -943,36 +1305,53 @@ def process_research_topic(
 
 
 # =========================================================
-# FULL PIPELINE
+# FULL INDEPENDENT SEO PIPELINE
 # =========================================================
 
-def main():
+def main() -> None:
+
     print("")
     print("=" * 60)
     print(
         "GAMERQUEST TRENDING SEO"
     )
     print(
-        "END-TO-END PIPELINE"
+        "SEO-FIRST PIPELINE V2"
     )
     print("=" * 60)
 
     print(
-        "MODE: MANUAL SAFE TEST"
+        "AUTOMATION: SEO ONLY"
     )
 
     print(
-        "WORDPRESS: DRAFT ONLY"
+        "MAX ARTICLES PER RUN:",
+        MAX_ARTICLES_PER_RUN,
     )
 
     print(
-        "PUBLIC AUTO-PUBLISH: OFF"
+        "WORDPRESS:",
+        WORDPRESS_STATUS.upper(),
+        "ONLY",
+    )
+
+    print(
+        "RESEARCHER CONFIRMED-FACT "
+        "GATE: DISABLED"
+    )
+
+    print(
+        "NEWS AUTOMATION: NOT USED"
+    )
+
+    print(
+        "DEALS AUTOMATION: NOT USED"
     )
 
     print("=" * 60)
 
     # =====================================================
-    # ENVIRONMENT CHECK
+    # ENVIRONMENT
     # =====================================================
 
     if not safe_string(
@@ -1010,18 +1389,21 @@ def main():
         return
 
     # =====================================================
-    # STAGE 1 — SCORER
+    # STAGE 1 — SEO SCORER
     # =====================================================
 
     print("")
     print("=" * 60)
-    print("STAGE 1 — SCORER")
+    print(
+        "STAGE 1 — SEO OPPORTUNITY SCORER"
+    )
     print("=" * 60)
 
     try:
         scorer.main()
 
     except Exception as error:
+
         stop_result(
             status=(
                 "BLOCKED_SCORER_ERROR"
@@ -1035,41 +1417,17 @@ def main():
         return
 
     # =====================================================
-    # STAGE 2 — RESEARCHER
+    # LOAD SCORED SEO TOPICS
     # =====================================================
 
-    print("")
-    print("=" * 60)
-    print("STAGE 2 — RESEARCHER")
-    print("=" * 60)
+    if not SCORED_TOPICS_FILE.exists():
 
-    try:
-        researcher.main()
-
-    except Exception as error:
         stop_result(
             status=(
-                "BLOCKED_RESEARCHER_ERROR"
+                "BLOCKED_NO_SCORED_TOPICS"
             ),
             reason=(
-                f"{type(error).__name__}: "
-                f"{error}"
-            ),
-        )
-
-        return
-
-    # =====================================================
-    # STAGE 3 — LOAD VERIFIED RESEARCH
-    # =====================================================
-
-    if not RESEARCH_FILE.exists():
-        stop_result(
-            status=(
-                "BLOCKED_NO_RESEARCH_FILE"
-            ),
-            reason=(
-                "Research results file "
+                "scored_topics.json "
                 "was not created."
             ),
         )
@@ -1077,14 +1435,15 @@ def main():
         return
 
     try:
-        research_data = load_json(
-            RESEARCH_FILE
+        scored_data = load_json(
+            SCORED_TOPICS_FILE
         )
 
     except Exception as error:
+
         stop_result(
             status=(
-                "BLOCKED_INVALID_RESEARCH_FILE"
+                "BLOCKED_INVALID_SCORED_TOPICS"
             ),
             reason=(
                 f"{type(error).__name__}: "
@@ -1094,40 +1453,41 @@ def main():
 
         return
 
+    # =====================================================
+    # SELECT WRITE OPPORTUNITY
+    # =====================================================
+
     candidates = (
-        get_safe_research_candidates(
-            research_data
+        select_seo_candidates(
+            scored_data,
+            max_articles=(
+                MAX_ARTICLES_PER_RUN
+            ),
         )
     )
 
     if not candidates:
+
         stop_result(
             status=(
-                "SAFE_STOP_NO_CONFIRMED_FACTS"
+                "SEO_STOP_NO_WRITE_OPPORTUNITY"
             ),
             reason=(
-                "No research topic currently "
-                "has source-backed confirmed "
-                "facts. No article was created."
+                "No SEO topic currently "
+                "has decision=WRITE."
             ),
         )
 
         return
 
-    # Only one article in this manual test.
-    research_record = (
-        candidates[0]
-    )
-
     # =====================================================
-    # STAGES 4–7
-    # WRITER + VALIDATOR + SAFE WP DRAFT
+    # ONE ARTICLE MAXIMUM
     # =====================================================
 
-    process_research_topic(
-        research_record=(
-            research_record
-        ),
+    topic = candidates[0]
+
+    process_seo_topic(
+        topic=topic,
         wp_config=wp_config,
     )
 

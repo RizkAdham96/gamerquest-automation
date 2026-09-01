@@ -24,4 +24,4 @@ jobs:
       - name: Run Trending SEO tests
         working-directory: trending_seo
         run: |
-          python -m unittest test_scorer.py test_researcher.py test_writer.py -v
+          python -m unittest test_scorer.py test_researcher.py test_writer.py test_writer_v4.py -v

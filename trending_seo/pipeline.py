@@ -59,13 +59,13 @@ MAX_ARTICLES_PER_RUN = 1
 
 # =========================================================
 # SAFE FIRST PRODUCTION TEST:
-# WordPress remains DRAFT ONLY.
+# WORDPRESS AUTO-PUBLISH.
 #
 # We will only enable public publishing after this
 # independent SEO pipeline passes its real smoke test.
 # =========================================================
 
-WORDPRESS_STATUS = "draft"
+WORDPRESS_STATUS = "publish"
 
 
 # =========================================================

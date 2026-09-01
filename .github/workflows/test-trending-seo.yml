@@ -31,4 +31,5 @@ jobs:
             test_writer_v4.py \
             test_writer_v5.py \
             test_seo_engine.py \
+            test_pipeline_publish_mode.py \
             -v

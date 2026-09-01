@@ -80,3 +80,31 @@ jobs:
             git commit -m "Update GamerQuest deals feed and images"
             git push
           fi
+
+      - name: Trigger WordPress Deals import
+        env:
+          WP_DEALS_TRIGGER_TOKEN: ${{ secrets.WP_DEALS_TRIGGER_TOKEN }}
+        run: |
+          if [ -z "$WP_DEALS_TRIGGER_TOKEN" ]; then
+            echo "::error::Missing GitHub secret WP_DEALS_TRIGGER_TOKEN"
+            exit 1
+          fi
+
+          if [ ! -s gamerquest-deals-feed.json ]; then
+            echo "::error::gamerquest-deals-feed.json is missing or empty"
+            exit 1
+          fi
+
+          curl \
+            --fail-with-body \
+            --show-error \
+            --silent \
+            --request POST \
+            --header "Content-Type: application/json" \
+            --header "Accept: application/json" \
+            --header "X-GamerQuest-Deals-Token: $WP_DEALS_TRIGGER_TOKEN" \
+            --data-binary "@gamerquest-deals-feed.json" \
+            "https://gamerquestfr.com/wp-json/gamerquest/v1/deals/import"
+
+          echo
+          echo "WordPress Deals import triggered successfully."

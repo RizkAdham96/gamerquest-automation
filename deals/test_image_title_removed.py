@@ -1,5 +1,5 @@
 import unittest
-from unittest.mock import patch
+from unittest.mock import patch, MagicMock
 
 from PIL import Image
 
@@ -24,35 +24,47 @@ class TestDealImageTitleRemoved(unittest.TestCase):
             "image_url": "https://example.com/control.jpg",
         }
 
+        fake_draw = MagicMock()
+
+        fake_draw.textbbox.return_value = (
+            0,
+            0,
+            180,
+            60,
+        )
+
         with patch(
             "deals.image_generator.download_image",
             return_value=source,
         ):
             with patch(
                 "deals.image_generator.ImageDraw.Draw",
-                wraps=__import__(
-                    "PIL.ImageDraw",
-                    fromlist=["ImageDraw"],
-                ).Draw,
-            ) as draw_factory:
+                return_value=fake_draw,
+            ):
 
                 generate_deal_image(
                     deal,
                     "/tmp/gamerquest-test-deal.jpg",
                 )
 
-                drawn_texts = []
+        drawn_texts = []
 
-                for call in draw_factory.mock_calls:
-                    if call.args:
-                        for arg in call.args:
-                            if isinstance(arg, str):
-                                drawn_texts.append(arg)
-
-                self.assertNotIn(
-                    "Control",
-                    drawn_texts,
+        for call in fake_draw.text.call_args_list:
+            if len(call.args) >= 2:
+                drawn_texts.append(
+                    str(call.args[1])
                 )
+
+        self.assertNotIn(
+            "Control",
+            drawn_texts,
+        )
+
+        # We DO want the deal information to stay.
+        self.assertIn(
+            "-90%",
+            drawn_texts,
+        )
 
 
 if __name__ == "__main__":

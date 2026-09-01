@@ -1,6 +1,5 @@
 from io import BytesIO
 from pathlib import Path
-import textwrap
 
 import requests
 from PIL import (
@@ -120,12 +119,7 @@ def cover_image(image):
     )
 
 
-def create_fallback_background(title):
-    """
-    Free fallback when no game artwork
-    can be downloaded.
-    """
-
+def create_fallback_background():
     image = Image.new(
         "RGB",
         (WIDTH, HEIGHT),
@@ -134,8 +128,11 @@ def create_fallback_background(title):
 
     draw = ImageDraw.Draw(image)
 
-    # Simple gaming-style geometric pattern.
-    for x in range(-300, WIDTH + 300, 180):
+    for x in range(
+        -300,
+        WIDTH + 300,
+        180,
+    ):
         draw.polygon(
             [
                 (x, 0),
@@ -153,19 +150,17 @@ def create_fallback_background(title):
     return image
 
 
-def wrap_title(title):
-    return textwrap.wrap(
-        title,
-        width=27,
-    )[:3]
-
-
 def format_price(price):
-    if float(price) == 0:
+    try:
+        value = float(price)
+    except (TypeError, ValueError):
+        value = 0
+
+    if value == 0:
         return "GRATUIT"
 
     return (
-        f"{float(price):.2f} €"
+        f"{value:.2f} €"
         .replace(".", ",")
     )
 
@@ -174,38 +169,61 @@ def generate_deal_image(
     deal,
     output_path,
 ):
-    output_path = Path(output_path)
+    output_path = Path(
+        output_path
+    )
 
     output_path.parent.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-    title = str(
-        deal.get("title", "GamerQuest")
-    )
-
     store = str(
-        deal.get("store", "")
-    )
-
-    original_price = float(
-        deal.get("original_price", 0)
-    )
-
-    current_price = float(
-        deal.get("current_price", 0)
-    )
-
-    discount = int(
         deal.get(
-            "discount_percent",
-            0,
+            "store",
+            "",
         )
-    )
+    ).strip()
+
+    try:
+        original_price = float(
+            deal.get(
+                "original_price",
+                0,
+            )
+            or 0
+        )
+    except (TypeError, ValueError):
+        original_price = 0
+
+    try:
+        current_price = float(
+            deal.get(
+                "current_price",
+                0,
+            )
+            or 0
+        )
+    except (TypeError, ValueError):
+        current_price = 0
+
+    try:
+        discount = int(
+            float(
+                deal.get(
+                    "discount_percent",
+                    0,
+                )
+                or 0
+            )
+        )
+    except (TypeError, ValueError):
+        discount = 0
 
     source_image = download_image(
-        deal.get("image_url")
+        deal.get(
+            "image_url"
+        )
     )
 
     if source_image:
@@ -216,24 +234,26 @@ def generate_deal_image(
         background = (
             ImageEnhance
             .Brightness(background)
-            .enhance(0.58)
+            .enhance(0.78)
         )
 
         background = background.filter(
             ImageFilter.GaussianBlur(
-                radius=0.5
+                radius=0.2
             )
         )
 
     else:
         background = (
-            create_fallback_background(
-                title
-            )
+            create_fallback_background()
         )
 
-    image = background.convert("RGBA")
+    image = background.convert(
+        "RGBA"
+    )
 
+    # Bottom panel only.
+    # No large title panel anymore.
     overlay = Image.new(
         "RGBA",
         (WIDTH, HEIGHT),
@@ -244,15 +264,19 @@ def generate_deal_image(
         overlay
     )
 
-    # Dark gradient-like panel.
     overlay_draw.rectangle(
-        (0, 0, 760, HEIGHT),
-        fill=(5, 6, 12, 190),
-    )
-
-    overlay_draw.rectangle(
-        (0, 470, WIDTH, HEIGHT),
-        fill=(5, 6, 12, 175),
+        (
+            0,
+            470,
+            WIDTH,
+            HEIGHT,
+        ),
+        fill=(
+            5,
+            6,
+            12,
+            175,
+        ),
     )
 
     image = Image.alpha_composite(
@@ -260,11 +284,8 @@ def generate_deal_image(
         overlay,
     )
 
-    draw = ImageDraw.Draw(image)
-
-    title_font = get_font(
-        58,
-        bold=True,
+    draw = ImageDraw.Draw(
+        image
     )
 
     badge_font = get_font(
@@ -287,29 +308,33 @@ def generate_deal_image(
         bold=True,
     )
 
-    # GamerQuest label.
+    # Keep GamerQuest branding.
     draw.text(
-        (55, 45),
+        (
+            55,
+            45,
+        ),
         "GAMERQUEST",
         font=brand_font,
-        fill=(255, 255, 255),
+        fill=(
+            255,
+            255,
+            255,
+        ),
     )
 
-    # Main game title.
-    y = 125
-
-    for line in wrap_title(title):
-        draw.text(
-            (55, y),
-            line,
-            font=title_font,
-            fill=(255, 255, 255),
-        )
-
-        y += 68
+    # =====================================================
+    # IMPORTANT:
+    # GAME TITLE REMOVED
+    #
+    # No:
+    # draw.text(... title ...)
+    #
+    # WordPress already displays the article title.
+    # =====================================================
 
     # Deal badge.
-    if current_price == 0:
+    if current_price <= 0:
         badge = "GRATUIT"
     else:
         badge = f"-{discount}%"
@@ -329,42 +354,78 @@ def generate_deal_image(
     draw.rounded_rectangle(
         (
             55,
-            360,
+            370,
             55 + badge_width,
-            435,
+            450,
         ),
         radius=15,
-        fill=(255, 255, 255),
+        fill=(
+            255,
+            255,
+            255,
+        ),
     )
 
     draw.text(
-        (80, 365),
+        (
+            80,
+            375,
+        ),
         badge,
         font=badge_font,
-        fill=(12, 13, 18),
+        fill=(
+            12,
+            13,
+            18,
+        ),
     )
 
-    # Prices.
-    price_text = (
-        f"{format_price(original_price)}"
-        f"  →  "
-        f"{format_price(current_price)}"
-    )
+    # Price.
+    if current_price <= 0:
+        if original_price > 0:
+            price_text = (
+                f"{format_price(original_price)}"
+                "  →  GRATUIT"
+            )
+        else:
+            price_text = "GRATUIT"
+
+    else:
+        price_text = (
+            f"{format_price(original_price)}"
+            "  →  "
+            f"{format_price(current_price)}"
+        )
 
     draw.text(
-        (55, 485),
+        (
+            55,
+            495,
+        ),
         price_text,
         font=price_font,
-        fill=(255, 255, 255),
+        fill=(
+            255,
+            255,
+            255,
+        ),
     )
 
     # Store.
-    draw.text(
-        (55, 545),
-        store,
-        font=small_font,
-        fill=(225, 225, 230),
-    )
+    if store:
+        draw.text(
+            (
+                55,
+                555,
+            ),
+            store,
+            font=small_font,
+            fill=(
+                225,
+                225,
+                230,
+            ),
+        )
 
     final_image = image.convert(
         "RGB"
@@ -373,7 +434,7 @@ def generate_deal_image(
     final_image.save(
         output_path,
         format="JPEG",
-        quality=90,
+        quality=92,
         optimize=True,
     )
 

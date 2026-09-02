@@ -1360,9 +1360,7 @@ def search_gaming_news():
     state = check_monthly_credit_safety()
 
     print("")
-    print(
-        "Searching gaming news..."
-    )
+    print("Searching gaming news...")
 
     print(
         "Maximum Tavily searches "
@@ -1371,129 +1369,362 @@ def search_gaming_news():
 
     print(
         f"Tavily candidate target "
-        f"from this single search: {MAX_RESULTS}"
+        f"per search: {MAX_RESULTS}"
     )
 
     print(
         "Tavily freshness window: 7 days"
     )
 
-    response = requests.post(
-        TAVILY_SEARCH_URL,
-        headers={
-            "Authorization":
-                f"Bearer {TAVILY_API_KEY}",
-            "Content-Type":
-                "application/json",
-        },
-        json={
-            "query": SEARCH_QUERY,
-            "search_depth": "basic",
-            "topic": "news",
-            "time_range": "week",
-            "max_results": MAX_RESULTS,
-            "include_answer": False,
-            "include_raw_content": "text",
-            "auto_parameters": False,
-        },
-        timeout=60,
-    )
+    all_clean_results = []
+    seen_urls = set()
 
-    response.raise_for_status()
+    searches_completed = 0
 
-    record_tavily_search(
-        state
-    )
+    for search_number, query in enumerate(
+        SEARCH_QUERIES[
+            :MAX_TAVILY_SEARCHES_PER_RUN
+        ],
+        start=1,
+    ):
+        # ---------------------------------------------
+        # MONTHLY SAFETY CHECK BEFORE EVERY SEARCH
+        # ---------------------------------------------
 
-    data = response.json()
+        if (
+            state["searches_used"]
+            >= TAVILY_MONTHLY_SAFETY_LIMIT
+        ):
+            print("")
+            print(
+                "TAVILY MONTHLY SAFETY STOP"
+            )
 
-    results = data.get(
-        "results",
-        []
-    )
+            print(
+                "Monthly Tavily limit reached."
+            )
 
-    if not results:
+            break
+
+        print("")
         print(
-            "No gaming-news results found."
+            "==================================="
         )
+
+        print(
+            f"TAVILY SEARCH "
+            f"{search_number}/"
+            f"{MAX_TAVILY_SEARCHES_PER_RUN}"
+        )
+
+        print(
+            "==================================="
+        )
+
+        print(
+            f"Query: {query}"
+        )
+
+        try:
+            response = requests.post(
+                TAVILY_SEARCH_URL,
+                headers={
+                    "Authorization":
+                        f"Bearer {TAVILY_API_KEY}",
+                    "Content-Type":
+                        "application/json",
+                },
+                json={
+                    "query": query,
+                    "search_depth": "basic",
+                    "topic": "news",
+                    "time_range": "week",
+                    "max_results": MAX_RESULTS,
+                    "include_answer": False,
+                    "include_raw_content":
+                        "text",
+                    "auto_parameters": False,
+                },
+                timeout=60,
+            )
+
+            response.raise_for_status()
+
+        except requests.exceptions.RequestException as error:
+            print(
+                f"Tavily search "
+                f"{search_number} failed: "
+                f"{error}"
+            )
+
+            continue
+
+        # Count the search ONLY after Tavily
+        # successfully accepted the request.
+        record_tavily_search(
+            state
+        )
+
+        searches_completed += 1
+
+        data = response.json()
+
+        results = data.get(
+            "results",
+            []
+        )
+
+        print(
+            f"Tavily returned "
+            f"{len(results)} candidates."
+        )
+
+        clean_results = []
+
+        for result in results:
+            title = (
+                result
+                .get("title", "")
+                .strip()
+            )
+
+            url = (
+                result
+                .get("url", "")
+                .strip()
+            )
+
+            if (
+                not title
+                or not url
+            ):
+                continue
+
+            # -----------------------------------------
+            # DUPLICATE WITHIN CURRENT SEARCHES
+            # -----------------------------------------
+
+            normalized_url = (
+                url
+                .lower()
+                .rstrip("/")
+            )
+
+            if normalized_url in seen_urls:
+                print(
+                    "Duplicate Tavily result "
+                    f"skipped: {title}"
+                )
+
+                continue
+
+            seen_urls.add(
+                normalized_url
+            )
+
+            # -----------------------------------------
+            # DUPLICATE WITH PREVIOUS ARTICLES
+            # -----------------------------------------
+
+            if source_already_used(
+                url
+            ):
+                print(
+                    f"Duplicate skipped: "
+                    f"{title}"
+                )
+
+                continue
+
+            tier = source_tier(
+                url
+            )
+
+            content_len = (
+                result_content_length(
+                    result
+                )
+            )
+
+            # Unknown domains need substantial
+            # source content before being accepted.
+            if (
+                tier == 3
+                and content_len < 1200
+            ):
+                print(
+                    "Weak source skipped "
+                    "before selection: "
+                    f"{get_domain(url)} | "
+                    f"{title}"
+                )
+
+                continue
+
+            clean_results.append(
+                result
+            )
+
+        print(
+            f"Usable candidates from "
+            f"search {search_number}: "
+            f"{len(clean_results)}"
+        )
+
+        all_clean_results.extend(
+            clean_results
+        )
+
+        # ---------------------------------------------
+        # STOP EARLY IF SEARCH 1 WORKED
+        # ---------------------------------------------
+        #
+        # We do NOT automatically burn the second
+        # Tavily request.
+        #
+        # Search 2 is a fallback only when search 1
+        # failed to find usable non-duplicate news.
+        # ---------------------------------------------
+
+        if clean_results:
+            print("")
+            print(
+                "Usable fresh sources found."
+            )
+
+            print(
+                "Fallback Tavily search "
+                "is not necessary."
+            )
+
+            break
+
+        if (
+            search_number
+            < MAX_TAVILY_SEARCHES_PER_RUN
+        ):
+            print("")
+            print(
+                "No usable fresh source "
+                "from this search."
+            )
+
+            print(
+                "Trying diversified "
+                "fallback search..."
+            )
+
+    # =====================================================
+    # NOTHING FOUND
+    # =====================================================
+
+    if not all_clean_results:
+        print("")
+        print(
+            "==================================="
+        )
+
+        print(
+            "NO USABLE GAMING NEWS FOUND"
+        )
+
+        print(
+            "==================================="
+        )
+
+        print(
+            f"Tavily searches performed "
+            f"this run: "
+            f"{searches_completed}"
+        )
+
+        print(
+            "All returned stories were "
+            "duplicates, weak sources, "
+            "or unusable."
+        )
+
+        print(
+            "Automation will stop safely "
+            "without creating an article."
+        )
+
         sys.exit(0)
 
-    print(
-        f"Tavily returned "
-        f"{len(results)} candidates."
-    )
+    # =====================================================
+    # REMOVE ANY FINAL DUPLICATES
+    # =====================================================
 
-    clean_results = []
+    unique_results = []
 
-    for result in results:
-        title = (
-            result
-            .get("title", "")
-            .strip()
-        )
+    final_seen_urls = set()
 
+    for result in all_clean_results:
         url = (
             result
             .get("url", "")
             .strip()
         )
 
-        if not title or not url:
-            continue
-
-        if source_already_used(url):
-            print(
-                f"Duplicate skipped: "
-                f"{title}"
-            )
-            continue
-
-        tier = source_tier(url)
-        content_len = result_content_length(result)
-
-        # Unknown sources must provide substantial article text before
-        # we even allow them into editorial selection. This prevents thin
-        # SEO/aggregation sites from beating official or established media.
-        if tier == 3 and content_len < 1200:
-            print(
-                f"Weak source skipped before selection: "
-                f"{get_domain(url)} | {title}"
-            )
-            continue
-
-        clean_results.append(result)
-
-    if not clean_results:
-        print("")
-        print(
-            "No usable non-duplicate sources were returned "
-            "from this single Tavily search."
+        normalized_url = (
+            url
+            .lower()
+            .rstrip("/")
         )
-        print(
-            "Safety rule preserved: no second Tavily search "
-            "will be made during this workflow run."
+
+        if normalized_url in final_seen_urls:
+            continue
+
+        final_seen_urls.add(
+            normalized_url
         )
-        sys.exit(0)
+
+        unique_results.append(
+            result
+        )
+
+    print("")
+    print(
+        f"Total usable unique candidates: "
+        f"{len(unique_results)}"
+    )
+
+    # =====================================================
+    # PRIORITIZE OFFICIAL + TRUSTED SOURCES
+    # =====================================================
 
     preferred_results = [
         result
-        for result in clean_results
-        if source_tier(result.get("url", "")) <= 2
+        for result in unique_results
+        if source_tier(
+            result.get(
+                "url",
+                ""
+            )
+        ) <= 2
     ]
 
-    # If the single search returned official/trusted sources, only let
-    # those compete. Unknown sites are a last-resort fallback.
     if preferred_results:
         print(
-            f"Using {len(preferred_results)} official/trusted "
-            "candidates for editorial selection."
+            f"Using "
+            f"{len(preferred_results)} "
+            "official/trusted candidates "
+            "for editorial selection."
         )
+
         return preferred_results
 
+    # =====================================================
+    # FALLBACK TO VETTED UNKNOWN SOURCES
+    # =====================================================
+
     print(
-        "No official/trusted candidate found; using vetted fallback sources."
+        "No official/trusted candidate "
+        "found; using vetted "
+        "fallback sources."
     )
-    return clean_results
+
+    return unique_results
 
 
 # =========================================================

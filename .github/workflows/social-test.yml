@@ -1,0 +1,21 @@
+name: GamerQuest Social Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-social:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run social integration test
+        run: |
+          python -m unittest tests.social.test_run_ai

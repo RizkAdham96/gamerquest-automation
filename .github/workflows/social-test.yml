@@ -17,5 +17,7 @@ jobs:
           python-version: "3.12"
 
       - name: Run social integration test
+        env:
+          PYTHONPATH: .
         run: |
-          python -m unittest discover -s tests/social -p "test_run_ai.py"
+          python tests/social/test_run_ai.py

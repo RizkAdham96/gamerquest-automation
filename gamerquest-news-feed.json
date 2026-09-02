@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-09-02T16:28:44.758531+00:00",
-  "count": 38,
+  "generated_at": "2026-09-02T20:56:07.131301+00:00",
+  "count": 39,
   "articles": [
+    {
+      "source_id": "911fdcdaa86000073fbdcca97c3ebf5a21a5183e3eae175be0cbb6485177306c",
+      "title": "DayZ Badlands – date de sortie, plateformes et nouveautés dévoilées à la Gamescom 2026",
+      "excerpt": "Bohemia Interactive a annoncé que l’extension DayZ Badlands arrive le 15 octobre 2026 sur Xbox, avec de nouvelles armes, motos, maisons à reconstruire et un système de butin radio dans la province de Nasdara.",
+      "content": "<p>Bohemia Interactive a confirmé lors de la <a href=\"https://gamerquestfr.com/fable-date-de-sortie-plateformes-gameplay/\">Gamescom 2026</a> que l’extension <strong>DayZ Badlands</strong> sortira le <strong>15 octobre 2026</strong> sur <strong>Xbox</strong>. Le trailer officiel « Your Many Lives in Nasdara » a présenté les principales <a href=\"https://gamerquestfr.com/trine-6-date-sortie/\">nouveautés</a> attendues par les survivants.</p>\n<h2>Quelle est la date de sortie de DayZ Badlands ?</h2>\n<p>Le trailer présenté à la Gamescom indique une date de lancement précise : <strong>15 octobre 2026</strong>. Cette date marque l’arrivée officielle de la nouvelle zone de jeu, la province de Nasdara, qui s’étend sur 267 km² d’aridité.</p>\n<h2>Sur quelles plateformes sera disponible DayZ Badlands ?</h2>\n<p>Selon la communication de Bohemia Interactive, l’extension sera disponible sur les consoles <strong>Xbox</strong>. Aucun autre support n’a été mentionné dans le trailer officiel.</p>\n<h2>Quelles sont les nouveautés annoncées pour DayZ Badlands ?</h2>\n<p>Le trailer met en avant plusieurs ajouts majeurs :</p>\n<ul>\n<li>De nouvelles armes régionales et de nouveaux équipements vestimentaires.</li>\n<li>Des objets de butin spécifiques à la zone de Nasdara.</li>\n<li>Des menaces environnementales inédites et des défis de survie renforcés.</li>\n<li>Des environnements authentiques et des points d’intérêt (POI) détaillés.</li>\n<li>La possibilité de <em>reconstruire des maisons</em> pour créer des bases ou des caches de butin.</li>\n<li>L’introduction de <strong>motos</strong> pour se déplacer plus rapidement à travers le désert.</li>\n<li>Un nouveau système d’obtention de butin via des <strong>transmissions radio</strong>.</li>\n</ul>\n<p>Ces ajouts visent à enrichir l’expérience de survie en offrant plus de liberté de construction, de mobilité et de stratégies de recherche de ressources.</p>",
+      "slug": "dayz-badlands-date-sortie",
+      "category": "Actualités",
+      "tags": [
+        "DayZ",
+        "Badlands",
+        "Xbox",
+        "Gamescom 2026",
+        "extension"
+      ],
+      "seo": {
+        "seo_title": "DayZ Badlands – date de sortie, plateformes et nouveautés annoncées à la Gamescom 2026",
+        "meta_description": "Bohemia Interactive a confirmé que l’extension DayZ Badlands sort le 15 octobre 2026 sur Xbox. Découvrez les nouvelles armes, motos, maisons à reconstruire et le système de butin radio présentés au trailer Gamescom.",
+        "primary_keyword": "date de sortie DayZ Badlands",
+        "secondary_keywords": [
+          "DayZ Badlands Xbox",
+          "extension DayZ",
+          "nouveautés DayZ Badlands",
+          "trailer Gamescom 2026",
+          "Nasdara",
+          "survie DayZ"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.ign.com/videos/dayz-badlands-official-your-many-lives-in-nasdara-release-date-trailer-xbox-gamescom-2026",
+        "title": "DayZ Badlands - Official 'Your Many Lives in Nasdara' Release Date Trailer | Xbox @ gamescom 2026",
+        "published_date": "Thu, 27 Aug 2026 20:00:00 GMT",
+        "domain": "ign.com"
+      },
+      "official_source": null,
+      "created_at": "2026-09-02T20:56:06.818960+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/dayz-badlands-date-sortie.jpg",
+        "filename": "dayz-badlands-date-sortie.jpg",
+        "alt": "DayZ Badlands – date de sortie, plateformes et nouveautés dévoilées à la Gamescom 2026 - GamerQuest",
+        "caption": "Illustration de l'article « DayZ Badlands – date de sortie, plateformes et nouveautés dévoilées à la Gamescom 2026 ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://assets-prd.ignimgs.com/2026/08/27/dayzthumb-1787847300515.png?width=1280&format=jpg&auto=webp&quality=80"
+      }
+    },
     {
       "source_id": "461db093f583926332b79c87fb715237bbe0cbfdfe2daaf9a87f72c17f16ab0f",
       "title": "Gamescom Opening Night Live 2026 : tout ce qu’on sait des dates, plateformes et gameplay",

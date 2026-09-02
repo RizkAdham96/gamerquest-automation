@@ -27,7 +27,7 @@ class TestSocialAIRunner(unittest.TestCase):
 
         mock_generate_ideas.return_value = expected
 
-        result = build_candidate_ideas(content)
+        result = run.build_candidate_ideas(content)
 
         self.assertEqual(result, expected)
         mock_generate_ideas.assert_called_once_with(content)

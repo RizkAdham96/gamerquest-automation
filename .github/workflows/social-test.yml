@@ -18,4 +18,4 @@ jobs:
 
       - name: Run social integration test
         run: |
-          python -m unittest tests.social.test_run_ai
+          python -m unittest discover -s tests/social -p "test_run_ai.py"

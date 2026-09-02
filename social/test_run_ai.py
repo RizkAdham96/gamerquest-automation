@@ -6,7 +6,7 @@ from social.run import build_candidate_ideas
 
 class TestSocialAIRunner(unittest.TestCase):
 
-    @patch("social.run.generate_ideas")
+   @patch("social.idea_generator.generate_ideas")
     def test_build_candidate_ideas_uses_ai_generator(
         self,
         mock_generate_ideas,

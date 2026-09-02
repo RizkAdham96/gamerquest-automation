@@ -39,14 +39,24 @@ NEWS_IMAGES_FOLDER = Path("generated_news_images")
 TAVILY_SEARCH_URL = "https://api.tavily.com/search"
 
 TAVILY_MONTHLY_SAFETY_LIMIT = 900
-MAX_TAVILY_SEARCHES_PER_RUN = 1
 
-SEARCH_QUERY = (
-    "latest gaming news official announcement release date gameplay "
-    "platforms price update DLC expansion hardware trailer showcase "
-    "PlayStation PS5 Xbox Nintendo Switch 2 PC Steam Game Pass "
-    "major video game announcement"
-)
+# The workflow runs every 2 hours.
+# Maximum theoretical usage:
+# 12 runs/day × 30 days × 2 searches = ~720 searches/month.
+# This stays safely below the 900/month limit.
+MAX_TAVILY_SEARCHES_PER_RUN = 2
+
+SEARCH_QUERIES = [
+    (
+        "latest major gaming news official announcement release date "
+        "gameplay DLC expansion trailer showcase video games "
+        "PlayStation Xbox Nintendo PC"
+    ),
+    (
+        "latest PlayStation PS5 Xbox Nintendo Switch 2 PC Steam "
+        "Game Pass gaming announcement update DLC release trailer"
+    ),
+]
 
 MAX_RESULTS = 20
 

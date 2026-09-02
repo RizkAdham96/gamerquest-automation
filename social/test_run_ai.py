@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 
-from social.run import build_candidate_ideas
+from social import run
 
 
 class TestSocialAIRunner(unittest.TestCase):

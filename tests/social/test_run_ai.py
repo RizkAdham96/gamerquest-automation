@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 
-from social import ai_client, run
+from social import ai_client, carousel_writer, idea_generator, run
 
 
 class TestSocialAIRunner(unittest.TestCase):
@@ -65,6 +65,68 @@ class TestSocialAIRunner(unittest.TestCase):
         self.assertEqual(
             request.get_header("User-agent"),
             "GamerQuest-Social/1.0",
+        )
+
+    def test_prepare_content_limits_ai_input_to_ten_compact_items(self):
+        content = [
+            {
+                "title": f"Article {index}",
+                "excerpt": "x" * 2000,
+                "content": "very large article body" * 500,
+                "slug": f"article-{index}",
+                "source_type": "news",
+                "created_at": f"2026-09-{index + 1:02d}T10:00:00+00:00",
+            }
+            for index in range(15)
+        ]
+
+        prepared = idea_generator.prepare_content_for_ai(content)
+
+        self.assertEqual(len(prepared), 10)
+        self.assertTrue(all("content" not in item for item in prepared))
+        self.assertTrue(all(len(item.get("excerpt", "")) <= 500 for item in prepared))
+
+    def test_build_prompt_stays_below_safe_character_budget(self):
+        content = [
+            {
+                "title": f"Large article {index}",
+                "excerpt": "x" * 5000,
+                "content": "y" * 50000,
+                "slug": f"large-{index}",
+                "source_type": "news",
+            }
+            for index in range(20)
+        ]
+
+        prompt = idea_generator.build_prompt(content)
+
+        self.assertLessEqual(len(prompt), 16000)
+
+    def test_carousel_package_keeps_caption_and_hashtags(self):
+        idea = {
+            "topic": "Test topic",
+            "angle": "Test angle",
+            "format": "ranking",
+            "hook": "Test hook",
+            "total_score": 80,
+            "slides": [
+                {"title": f"Slide {index}", "body": "Body"}
+                for index in range(1, 6)
+            ],
+            "caption": "A caption that adds context and drives clicks.",
+            "cta": "Full ranking on GamerQuest.fr",
+            "hashtags": ["#GamerQuest", "#GamingNews"],
+        }
+
+        carousel = carousel_writer.build_carousel(idea)
+
+        self.assertEqual(
+            carousel["caption"],
+            "A caption that adds context and drives clicks.",
+        )
+        self.assertEqual(
+            carousel["hashtags"],
+            ["#GamerQuest", "#GamingNews"],
         )
 
 

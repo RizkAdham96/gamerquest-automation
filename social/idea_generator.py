@@ -6,13 +6,16 @@ from social.history import get_recent_history
 
 
 MAX_CONTENT_ITEMS = 10
-MAX_EXCERPT_CHARS = 500
-MAX_PROMPT_CHARS = 16000
+MAX_EXCERPT_CHARS = 700
+MAX_PROMPT_CHARS = 18000
 RECENT_HISTORY_ITEMS = 8
 CONCEPT_COUNT = 3
-
 CAROUSEL_SLIDES = 3
 
+
+# =========================================================
+# HELPERS
+# =========================================================
 
 def _clean_text(value, limit=None):
     text = "" if value is None else str(value).strip()
@@ -21,6 +24,34 @@ def _clean_text(value, limit=None):
         return text[:limit]
 
     return text
+
+
+def _source_id(item):
+    if not isinstance(item, dict):
+        return ""
+
+    value = _clean_text(
+        item.get("source_id")
+    )
+
+    if value:
+        return value
+
+    slug = _clean_text(
+        item.get("slug")
+    )
+
+    if slug:
+        return f"slug:{slug}"
+
+    title = _clean_text(
+        item.get("title")
+    )
+
+    if title:
+        return f"title:{title}"
+
+    return ""
 
 
 def _compact_history_item(item):
@@ -61,6 +92,33 @@ def _content_sort_key(item):
         or item.get("date")
     )
 
+
+def _source_metadata(item):
+    source = item.get("source")
+
+    if not isinstance(source, dict):
+        source = {}
+
+    return {
+        "source_url": _clean_text(
+            item.get("source_url")
+            or source.get("url"),
+            500,
+        ),
+        "source_title": _clean_text(
+            source.get("title"),
+            250,
+        ),
+        "source_domain": _clean_text(
+            source.get("domain"),
+            120,
+        ),
+    }
+
+
+# =========================================================
+# PREPARE CONTENT
+# =========================================================
 
 def prepare_content_for_ai(content):
     valid = [
@@ -120,7 +178,6 @@ def prepare_content_for_ai(content):
     output = []
 
     for item in selected[:MAX_CONTENT_ITEMS]:
-
         tags = (
             item.get("tags", [])
             if isinstance(
@@ -130,33 +187,52 @@ def prepare_content_for_ai(content):
             else []
         )
 
+        source_metadata = (
+            _source_metadata(item)
+        )
+
         output.append(
             {
-                "title": _clean_text(
-                    item.get("title"),
-                    220,
-                ),
-                "excerpt": _clean_text(
-                    item.get("excerpt")
-                    or item.get("description"),
-                    MAX_EXCERPT_CHARS,
-                ),
-                "slug": _clean_text(
-                    item.get("slug"),
-                    180,
-                ),
-                "category": _clean_text(
-                    item.get("category"),
-                    80,
-                ),
-                "source_type": _clean_text(
-                    item.get("source_type"),
-                    40,
-                ),
-                "created_at": _clean_text(
-                    item.get("created_at"),
-                    80,
-                ),
+                "source_id":
+                    _source_id(item),
+
+                "title":
+                    _clean_text(
+                        item.get("title"),
+                        220,
+                    ),
+
+                "excerpt":
+                    _clean_text(
+                        item.get("excerpt")
+                        or item.get("description"),
+                        MAX_EXCERPT_CHARS,
+                    ),
+
+                "slug":
+                    _clean_text(
+                        item.get("slug"),
+                        180,
+                    ),
+
+                "category":
+                    _clean_text(
+                        item.get("category"),
+                        80,
+                    ),
+
+                "source_type":
+                    _clean_text(
+                        item.get("source_type"),
+                        40,
+                    ),
+
+                "created_at":
+                    _clean_text(
+                        item.get("created_at"),
+                        80,
+                    ),
+
                 "tags": [
                     _clean_text(
                         tag,
@@ -164,11 +240,75 @@ def prepare_content_for_ai(content):
                     )
                     for tag in tags[:5]
                 ],
+
+                **source_metadata,
             }
         )
 
     return output
 
+
+# =========================================================
+# EXACT SOURCE LOOKUP
+# =========================================================
+
+def find_source_item(content, source_id):
+    source_id = _clean_text(
+        source_id
+    )
+
+    if not source_id:
+        return None
+
+    for item in content:
+        if not isinstance(item, dict):
+            continue
+
+        if _source_id(item) == source_id:
+            return item
+
+    return None
+
+
+def _exact_source_content(
+    idea,
+    content,
+):
+    if not isinstance(content, list):
+        return []
+
+    source_id = ""
+
+    if isinstance(idea, dict):
+        source_id = _clean_text(
+            idea.get("source_id")
+        )
+
+    if source_id:
+        item = find_source_item(
+            content,
+            source_id,
+        )
+
+        if item:
+            return [item]
+
+    # Compatibility for tests / explicit single-item calls.
+    valid = [
+        item
+        for item in content
+        if isinstance(item, dict)
+    ]
+
+    if len(valid) == 1:
+        return valid
+
+    return []
+
+
+# =========================================================
+# PROMPT SAFETY
+# =========================================================
 
 def _safe_prompt(prompt):
     prompt = prompt.strip()
@@ -210,8 +350,7 @@ def parse_json_response(raw_response):
 
 
 # =========================================================
-# STEP 1
-# Generate 3 different concepts
+# CONCEPT PROMPT
 # =========================================================
 
 def build_prompt(content):
@@ -230,29 +369,49 @@ def build_prompt(content):
     return _safe_prompt(
         f"""
 Create exactly {CONCEPT_COUNT} DIFFERENT
-compact GamerQuest.fr carousel CONCEPTS.
+GamerQuest.fr social carousel concepts.
+
+IMPORTANT ARCHITECTURE RULE:
+
+Each concept MUST come from ONE AND ONLY ONE
+GamerQuest content item.
+
+You MUST copy the exact "source_id" of the
+chosen content item into the concept.
+
+NEVER combine facts from two articles.
+NEVER combine two similar stories.
+NEVER use information from another source_id.
 
 PRIMARY GOAL:
 Drive qualified gaming traffic to GamerQuest.fr.
 
-Use ONLY facts contained in the supplied content.
-Never invent or infer facts.
+Use ONLY explicit facts contained in the
+ONE selected content item.
 
-Avoid repeating recent:
-- topics
-- hooks
-- angles
-- formats
-- CTAs
+Never invent.
+Never infer.
+Never merge separate facts into a new claim.
 
-The concepts should create genuine curiosity,
-not misleading clickbait.
+Example:
+"construction de villes"
++
+"exploration sous-marine"
 
-Prefer topics that:
-1. have a strong visual gaming subject,
-2. contain a useful or surprising piece of information,
-3. can be understood quickly,
-4. give the reader a reason to visit GamerQuest.fr.
+DOES NOT mean:
+"villes sous-marines"
+
+Prefer content with:
+1. strong gaming visual potential,
+2. useful or surprising information,
+3. a dedicated original source page,
+4. clear factual information,
+5. good traffic potential.
+
+When two GamerQuest articles cover a similar topic,
+prefer the article whose original source_title is
+specifically about that same game/story rather than
+a generic roundup page.
 
 Allowed formats:
 {json.dumps(
@@ -260,7 +419,7 @@ Allowed formats:
     ensure_ascii=False
 )}
 
-Recent history:
+Recent social history:
 {json.dumps(
     history,
     ensure_ascii=False
@@ -272,17 +431,12 @@ Available GamerQuest content:
     ensure_ascii=False
 )}
 
-Do NOT write:
-- slides
-- captions
-- hashtags
-- visual prompts
-
 Return ONLY a JSON array.
 
-Each object must contain:
+Each object MUST contain:
 
 {{
+    "source_id": "COPY EXACT SOURCE ID",
     "topic": "...",
     "angle": "...",
     "format": "...",
@@ -296,26 +450,40 @@ Each object must contain:
 }}
 
 All scores must be integers from 0 to 10.
+
+Write all public-facing concepts in French.
 """
     )
 
 
 # =========================================================
-# STEP 2
-# Expand winning concept into EXACTLY 3 slides
+# EXPANSION PROMPT
 # =========================================================
 
 def build_expansion_prompt(
     idea,
     content,
 ):
+    exact_content = (
+        _exact_source_content(
+            idea,
+            content,
+        )
+    )
+
+    if not exact_content:
+        raise RuntimeError(
+            "Could not resolve exact source for carousel."
+        )
+
     sample = prepare_content_for_ai(
-        content
+        exact_content
     )
 
     base = {
         key: idea.get(key)
         for key in (
+            "source_id",
             "topic",
             "angle",
             "format",
@@ -328,143 +496,89 @@ def build_expansion_prompt(
 Create the FINAL Instagram/Facebook carousel
 for GamerQuest.fr.
 
+LANGUAGE:
+French only.
+
 CONCEPT:
 {json.dumps(
     base,
     ensure_ascii=False
 )}
 
-SOURCE CONTENT:
+ONE AND ONLY SOURCE:
 {json.dumps(
     sample,
     ensure_ascii=False
 )}
 
+CRITICAL:
+The source above is the ONLY article you may use.
+
+Do not use general knowledge.
+Do not use information from another article.
+Do not infer information that is not written there.
+
+Do not combine two separate facts into a stronger
+relationship.
+
+Example:
+
+SUPPORTED:
+- construction de villes
+- exploration sous-marine
+
+UNSUPPORTED:
+- construction de villes sous-marines
+- villes submergées
+- cités sous-marines
+
+unless the source explicitly says the cities
+themselves are underwater.
+
 The carousel MUST contain EXACTLY
 {CAROUSEL_SLIDES} slides.
 
-========================================
-SLIDE STRUCTURE
-========================================
-
 SLIDE 1 — HOOK
 
-Purpose:
-Stop the scroll.
-
-Requirements:
-- Strong concise headline.
-- Immediately understandable.
+- Strong headline.
+- Maximum approximately 8 words.
+- Short body.
 - Create curiosity.
-- Introduce the game/news/deal.
-- Do NOT explain everything.
-- Body must remain short.
-- The title should work visually over a gaming image.
+- Do not reveal everything.
 
 SLIDE 2 — VALUE
 
-Purpose:
-Give the most useful or interesting
-piece of information.
-
-Requirements:
-- Explain the key fact.
-- Give the reader real value.
-- Use ONLY facts explicitly present
-  in SOURCE CONTENT.
-- Keep title and body concise.
-- Do not repeat slide 1.
+- Most useful supported fact.
+- Maximum approximately 8-word title.
+- Maximum approximately 25-word body.
+- No unsupported interpretation.
 
 SLIDE 3 — CURIOSITY + TRAFFIC
 
-Purpose:
-Make the reader want to continue
-on GamerQuest.fr.
-
-Requirements:
-- Give one final useful fact OR
-  create a natural curiosity gap.
-- Do NOT invent missing information.
-- Do NOT use fake suspense.
-- Encourage the reader to discover
-  the complete information on GamerQuest.fr.
-- Keep text concise.
-
-========================================
-FACTUAL RULES
-========================================
-
-Every factual statement MUST be explicitly
-supported by SOURCE CONTENT.
-
-NEVER infer:
-- platforms
-- release dates
-- multiplayer
-- compatibility
-- prices
-- future prices
-- availability
-- features
-- editions
-- developers
-- publishers
-
-If SOURCE CONTENT does not explicitly
-contain a fact, DO NOT mention it.
-
-========================================
-TEXT RULES
-========================================
+- Give another supported fact OR a natural
+  curiosity gap.
+- Do not invent future information.
+- Encourage visiting GamerQuest.fr.
+- Avoid generic filler when a concrete supported
+  fact is available.
 
 Each slide must contain:
 
 "title"
-Maximum approximately 8 words.
-
 "body"
-Maximum approximately 25 words.
-
 "visual_prompt"
-A short description of the desired
-visual composition.
 
-The visual_prompt must NOT request:
-- text inside the image
+visual_prompt must NOT request:
+- text inside images
 - logos
 - fake screenshots
-- invented game characters
+- invented characters
 
-The renderer adds all typography itself.
+Write a French caption.
 
-========================================
-CAPTION
-========================================
+Write a short French CTA.
 
-Write one natural social caption.
-
-The caption should:
-- introduce the story,
-- create curiosity,
-- encourage visiting GamerQuest.fr,
-- avoid exaggerated clickbait.
-
-========================================
-CTA
-========================================
-
-Write one short CTA encouraging
-the user to visit GamerQuest.fr.
-
-========================================
-HASHTAGS
-========================================
-
-Provide 3 to 6 relevant hashtags.
-
-========================================
-OUTPUT
-========================================
+Provide 3 to 6 hashtags.
 
 Return ONLY valid JSON:
 
@@ -497,12 +611,22 @@ Return ONLY valid JSON:
 
 
 # =========================================================
-# GENERATE CONCEPTS
+# GENERATE IDEAS
 # =========================================================
 
 def generate_ideas(content):
     if not content:
         return []
+
+    sample = prepare_content_for_ai(
+        content
+    )
+
+    valid_source_ids = {
+        item.get("source_id")
+        for item in sample
+        if item.get("source_id")
+    }
 
     data = parse_json_response(
         call_grok(
@@ -515,11 +639,42 @@ def generate_ideas(content):
             "AI response must be a JSON array."
         )
 
-    return data[:CONCEPT_COUNT]
+    output = []
+
+    for idea in data:
+        if not isinstance(idea, dict):
+            continue
+
+        source_id = _clean_text(
+            idea.get("source_id")
+        )
+
+        # Compatibility with tests where only one source exists.
+        if (
+            not source_id
+            and len(valid_source_ids) == 1
+        ):
+            source_id = next(
+                iter(valid_source_ids)
+            )
+
+        if source_id not in valid_source_ids:
+            continue
+
+        clean_idea = idea.copy()
+        clean_idea[
+            "source_id"
+        ] = source_id
+
+        output.append(
+            clean_idea
+        )
+
+    return output[:CONCEPT_COUNT]
 
 
 # =========================================================
-# EXPAND CONCEPT
+# EXPAND IDEA
 # =========================================================
 
 def expand_idea(
@@ -529,11 +684,23 @@ def expand_idea(
     if not isinstance(idea, dict):
         return None
 
+    exact_content = (
+        _exact_source_content(
+            idea,
+            content,
+        )
+    )
+
+    if not exact_content:
+        raise RuntimeError(
+            "Exact source article was not found."
+        )
+
     data = parse_json_response(
         call_grok(
             build_expansion_prompt(
                 idea,
-                content,
+                exact_content,
             )
         )
     )
@@ -545,7 +712,7 @@ def expand_idea(
 
     slides = data.get(
         "slides",
-        []
+        [],
     )
 
     if (
@@ -588,13 +755,32 @@ def verify_carousel(
     idea,
     content,
 ):
+    exact_content = (
+        _exact_source_content(
+            idea,
+            content,
+        )
+    )
+
+    if not exact_content:
+        return {
+            "valid": False,
+            "unsupported_claims": [
+                "Exact source article missing"
+            ],
+            "reason":
+                "The carousel cannot be fact-checked "
+                "without its exact source article.",
+        }
+
     sample = prepare_content_for_ai(
-        content
+        exact_content
     )
 
     package = {
         key: idea.get(key)
         for key in (
+            "source_id",
             "topic",
             "hook",
             "slides",
@@ -605,9 +791,9 @@ def verify_carousel(
 
     prompt = _safe_prompt(
         f"""
-Fact-check PACKAGE against ONLY SOURCE.
+Fact-check PACKAGE using ONLY the ONE SOURCE.
 
-SOURCE:
+ONE SOURCE:
 {json.dumps(
     sample,
     ensure_ascii=False
@@ -619,26 +805,47 @@ PACKAGE:
     ensure_ascii=False
 )}
 
-Check EVERY factual claim.
+Check EVERY factual claim in:
+- every slide title
+- every slide body
+- caption
+- CTA if factual
 
-Pay particular attention to:
+A claim is valid ONLY if explicitly supported
+by the source.
+
+VERY IMPORTANT:
+Check relationships between facts.
+
+If the source separately says:
+- construction de villes
+- exploration sous-marine
+
+then these claims are NOT supported:
+- villes sous-marines
+- villes submergées
+- cités sous-marines
+
+unless the source explicitly states that the
+cities themselves are underwater.
+
+Also carefully check:
 - dates
 - platforms
-- multiplayer
-- prices
-- future pricing
+- price
 - availability
-- compatibility
+- multiplayer
 - features
+- developers
+- publishers
+- editions
+- locations
+- future announcements
 
-Explicit support in SOURCE is required.
+Do not use outside knowledge.
 
-If any factual claim is unsupported,
-valid MUST be false.
-
-Marketing language or CTA wording
-does not require factual verification
-unless it contains a factual claim.
+If ONE claim is unsupported:
+"valid" MUST be false.
 
 Return ONLY JSON:
 
@@ -667,24 +874,29 @@ Return ONLY JSON:
 
     claims = data.get(
         "unsupported_claims",
-        []
+        [],
     )
 
     if not isinstance(claims, list):
         claims = []
 
     return {
-        "valid": data["valid"],
-        "unsupported_claims": claims,
-        "reason": _clean_text(
-            data.get("reason"),
-            500,
-        ),
+        "valid":
+            data["valid"],
+
+        "unsupported_claims":
+            claims,
+
+        "reason":
+            _clean_text(
+                data.get("reason"),
+                700,
+            ),
     }
 
 
 # =========================================================
-# REPAIR FAILED FACT CHECK
+# REPAIR
 # =========================================================
 
 def repair_carousel(
@@ -692,8 +904,20 @@ def repair_carousel(
     content,
     unsupported_claims,
 ):
+    exact_content = (
+        _exact_source_content(
+            idea,
+            content,
+        )
+    )
+
+    if not exact_content:
+        raise RuntimeError(
+            "Exact source article missing during repair."
+        )
+
     sample = prepare_content_for_ai(
-        content
+        exact_content
     )
 
     package = {
@@ -708,10 +932,10 @@ def repair_carousel(
 
     prompt = _safe_prompt(
         f"""
-Repair this GamerQuest carousel
-using ONLY SOURCE facts.
+Repair this GamerQuest carousel.
 
-SOURCE:
+Use ONLY this ONE SOURCE:
+
 {json.dumps(
     sample,
     ensure_ascii=False
@@ -729,20 +953,33 @@ UNSUPPORTED CLAIMS:
     ensure_ascii=False
 )}
 
-Requirements:
+RULES:
 
-- Remove or rewrite ONLY what is needed.
-- Do not add new facts.
-- Preserve the original topic and angle.
-- Preserve EXACTLY {CAROUSEL_SLIDES} slides.
-- Keep the structure:
+- Rewrite or remove every unsupported claim.
+- Never add a new fact.
+- Do not use outside knowledge.
+- Preserve the topic.
+- Preserve EXACTLY 3 slides.
+- French only.
+
+IMPORTANT semantic rule:
+
+"construction de villes"
++
+"exploration sous-marine"
+
+must remain two separate facts.
+
+Never transform them into:
+- villes sous-marines
+- cités sous-marines
+- villes submergées
+
+unless SOURCE explicitly states this.
 
 Slide 1 = Hook
 Slide 2 = Value
 Slide 3 = Curiosity + traffic
-
-Every factual statement must be
-explicitly supported by SOURCE.
 
 Return ONLY JSON:
 

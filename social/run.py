@@ -1,14 +1,22 @@
 import json
+import time
 from pathlib import Path
 from social.sources import get_all_content
 from social.creative_brain import choose_best_idea
 from social.carousel_writer import build_carousel
 from social.config import MINIMUM_PUBLISH_SCORE
 from social import idea_generator
+
 OUTPUT_FILE=Path("social-output.json")
+GROQ_PACING_SECONDS=25
+
 def save_output(data):
     with OUTPUT_FILE.open("w",encoding="utf-8") as file:json.dump(data,file,ensure_ascii=False,indent=2)
 def build_candidate_ideas(content):return idea_generator.generate_ideas(content)
+def pace_groq(label):
+    print(f"Groq pacing: waiting {GROQ_PACING_SECONDS}s before {label}...")
+    time.sleep(GROQ_PACING_SECONDS)
+
 def run():
     content=get_all_content();print(f"Social content items found: {len(content)}")
     if not content:save_output({"status":"skipped","reason":"no_content"});return
@@ -22,13 +30,17 @@ def run():
     if score<MINIMUM_PUBLISH_SCORE:save_output({"status":"skipped","reason":"low_score","best_score":score});return
     try:complete_idea=idea_generator.expand_idea(best_idea,content)
     except Exception as error:print(f"AI carousel expansion failed: {error}");save_output({"status":"error","reason":"carousel_expansion_failed","error":str(error)});return
+
+    pace_groq("fact-check")
     try:verification=idea_generator.verify_carousel(complete_idea,content)
     except Exception as error:print(f"Carousel fact-check failed: {error}");save_output({"status":"error","reason":"fact_check_failed","error":str(error)});return
     repaired=False
     if not verification["valid"]:
         print(f"Unsupported claims found; attempting one repair: {verification['unsupported_claims']}")
         try:
+            pace_groq("repair")
             complete_idea=idea_generator.repair_carousel(complete_idea,content,verification["unsupported_claims"]);repaired=True
+            pace_groq("final fact-check")
             verification=idea_generator.verify_carousel(complete_idea,content)
         except Exception as error:print(f"Carousel repair failed: {error}");save_output({"status":"error","reason":"repair_failed","error":str(error)});return
         if not verification["valid"]:

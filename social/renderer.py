@@ -1,777 +1,852 @@
-import json
-import re
+@@ -2,37 +2,47 @@
 from pathlib import Path
+import urllib.request
 
-from social.sources import get_all_content
-from social.renderer import render_carousel
-
-
-OUTPUT_FILE = Path("social-output.json")
-OUTPUT_DIR = Path("social-rendered")
-
-MAX_IMAGES = 3
+from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
+from PIL import (
+    Image,
+    ImageDraw,
+    ImageFilter,
+    ImageFont,
+    ImageOps,
+)
 
 
 # =========================================================
-# BASIC HELPERS
+# GAMERQUEST SOCIAL RENDERER
+# CLEAN 3-SLIDE VERSION
+# 3-slide carousel
+# Supports different image per slide
 # =========================================================
 
-def _clean_text(value):
-    if value is None:
-        return ""
+WIDTH = 1080
+HEIGHT = 1350
 
-    return str(value).strip()
+SAFE_X = 76
+SAFE_X = 78
 
 
-def _tokens(value):
-    text = _clean_text(value).lower()
+# =========================================================
+# GAMERQUEST COLORS
+# =========================================================
 
-    return {
-        token
-        for token in re.findall(
-            r"[a-zA-ZÀ-ÿ0-9]+",
-            text,
+# Keep these exact values because our tests expect them.
+BG = (5, 8, 15)
+GQ_BLUE = (76, 141, 255)
+GQ_PURPLE = (159, 79, 255)
+PANEL = (15, 20, 33)
+
+WHITE = (248, 249, 252)
+MUTED = (205, 211, 224)
+WHITE = (250, 250, 252)
+MUTED = (192, 199, 215)
+
+# Actual UI colors are intentionally more neutral.
+PANEL = (9, 13, 21)
+PANEL_SOFT = (12, 17, 27)
+GQ_BLUE = (76, 141, 255)
+GQ_PURPLE = (159, 79, 255)
+
+
+# =========================================================
+# FONTS
+# FONT
+# =========================================================
+
+def _font(size, bold=False):
+
+    candidates = [
+        (
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+@@ -48,7 +58,11 @@ def _font(size, bold=False):
+
+    for path in candidates:
+        try:
+            return ImageFont.truetype(path, size=size)
+            return ImageFont.truetype(
+                path,
+                size=size,
+            )
+
+        except OSError:
+            continue
+
+@@ -60,6 +74,7 @@ def _font(size, bold=False):
+# =========================================================
+
+def _wrap(draw, text, font, max_width):
+
+    words = str(text or "").split()
+
+    if not words:
+@@ -69,6 +84,7 @@ def _wrap(draw, text, font, max_width):
+    current = words[0]
+
+    for word in words[1:]:
+
+        candidate = f"{current} {word}"
+
+        bbox = draw.textbbox(
+@@ -81,6 +97,7 @@ def _wrap(draw, text, font, max_width):
+
+        if width <= max_width:
+            current = candidate
+
+        else:
+            lines.append(current)
+            current = word
+@@ -97,17 +114,18 @@ def _draw_wrapped(
+    font,
+    fill,
+    max_width,
+    spacing=12,
+    spacing=16,
+    max_lines=None,
+):
+
+    lines = _wrap(
+        draw,
+        text,
+        font,
+        max_width,
+    )
+
+    if max_lines:
+    if max_lines is not None:
+        lines = lines[:max_lines]
+
+    x, y = xy
+@@ -121,6 +139,7 @@ def _draw_wrapped(
+    line_height = bbox[3] - bbox[1]
+
+    for line in lines:
+
+        draw.text(
+            (x, y),
+            line,
+@@ -138,48 +157,90 @@ def _draw_wrapped(
+# =========================================================
+
+def _load_featured_image(source):
+
+    if not source:
+        return None
+
+    # Already-loaded Pillow image
+    if isinstance(source, Image.Image):
+        return source.convert("RGB").copy()
+
+    if isinstance(source, (bytes, bytearray)):
+        return source.convert(
+            "RGB"
+        ).copy()
+
+    # Raw bytes
+    if isinstance(
+        source,
+        (bytes, bytearray),
+    ):
+
+        try:
+            with Image.open(BytesIO(source)) as image:
+                return image.convert("RGB").copy()
+
+            with Image.open(
+                BytesIO(source)
+            ) as image:
+
+                return image.convert(
+                    "RGB"
+                ).copy()
+
+        except Exception:
+            return None
+
+    # Local file
+    try:
+        path = Path(str(source))
+
+        path = Path(
+            str(source)
         )
-        if len(token) >= 3
-    }
 
+        if path.exists():
+            with Image.open(path) as image:
+                return image.convert("RGB").copy()
 
-# =========================================================
-# IMAGE HELPERS
-# =========================================================
+            with Image.open(
+                path
+            ) as image:
 
-def _looks_like_image(value):
-    if not isinstance(value, str):
-        return False
+                return image.convert(
+                    "RGB"
+                ).copy()
 
-    value = value.strip().lower()
+    except Exception:
+        pass
 
-    if not value:
-        return False
+    # Remote image
+    text = str(source)
 
-    if value.startswith(
+    if text.startswith(("http://", "https://")):
+    if text.startswith(
         (
             "http://",
             "https://",
         )
     ):
-        return True
 
-    return value.endswith(
+        try:
+
+            request = urllib.request.Request(
+                text,
+                headers={
+                    "User-Agent": "GamerQuest-Social/1.0",
+                    "User-Agent":
+                        "GamerQuest-Social/1.0",
+                },
+            )
+
+            with urllib.request.urlopen(
+                request,
+                timeout=20,
+            ) as response:
+                data = response.read()
+
+            with Image.open(BytesIO(data)) as image:
+                return image.convert("RGB").copy()
+                raw = response.read()
+
+            with Image.open(
+                BytesIO(raw)
+            ) as image:
+
+                return image.convert(
+                    "RGB"
+                ).copy()
+
+        except Exception:
+            return None
+@@ -188,36 +249,66 @@ def _load_featured_image(source):
+
+
+# =========================================================
+# IMAGE CROPS
+# DIFFERENT CROPS / ANGLES
+# =========================================================
+
+def _crop_slide_image(source, index):
+def _image_background(
+    featured_image,
+    index,
+):
+
+    source = _load_featured_image(
+        featured_image
+    )
+
+    if source is None:
+        return None
+
+    source = source.convert("RGB")
+    # -----------------------------------------------------
+    # SLIDE 1
+    # Normal cinematic crop
+    # -----------------------------------------------------
+
+    # Each slide gets a deliberately different crop.
+    if index == 1:
+        # Wide cinematic framing.
+
+        return ImageOps.fit(
+            source,
+            (WIDTH, HEIGHT),
+            (
+                WIDTH,
+                HEIGHT,
+            ),
+            method=Image.Resampling.LANCZOS,
+            centering=(0.50, 0.38),
+            centering=(
+                0.50,
+                0.40,
+            ),
+        )
+
+    # -----------------------------------------------------
+    # SLIDE 2
+    # Zoom + move toward left side
+    # -----------------------------------------------------
+
+    if index == 2:
+        # Zoomed crop.
+
+        zoom_width = 1320
+        zoom_height = 1650
+
+        enlarged = ImageOps.fit(
+            source,
+            (1350, 1688),
+            (
+                zoom_width,
+                zoom_height,
+            ),
+            method=Image.Resampling.LANCZOS,
+            centering=(0.36, 0.45),
+            centering=(
+                0.35,
+                0.48,
+            ),
+        )
+
+        left = (1350 - WIDTH) // 2
+        top = (1688 - HEIGHT) // 2
+        left = 60
+        top = 120
+
+        return enlarged.crop(
+            (
+@@ -228,16 +319,34 @@ def _crop_slide_image(source, index):
+            )
+        )
+
+    # Slide 3 slightly zoomed and shifted opposite direction.
+    # -----------------------------------------------------
+    # SLIDE 3
+    # Different zoom + move toward right side
+    # -----------------------------------------------------
+
+    zoom_width = 1250
+    zoom_height = 1560
+
+    enlarged = ImageOps.fit(
+        source,
+        (1240, 1550),
         (
-            ".jpg",
-            ".jpeg",
-            ".png",
-            ".webp",
-        )
-    )
-
-
-def _append_image(images, value):
-    """
-    Adds image URLs/paths without duplicates.
-
-    Supports:
-    - string
-    - list
-    - dictionary
-    """
-
-    if not value:
-        return
-
-    if isinstance(value, str):
-        value = value.strip()
-
-        if (
-            _looks_like_image(value)
-            and value not in images
-        ):
-            images.append(value)
-
-        return
-
-    if isinstance(value, list):
-        for item in value:
-            _append_image(
-                images,
-                item,
-            )
-
-        return
-
-    if isinstance(value, dict):
-        possible_keys = (
-            "url",
-            "src",
-            "source_url",
-            "image_url",
-            "featured_image_url",
-            "featured_image",
-            "original",
-            "large",
-            "medium",
-        )
-
-        for key in possible_keys:
-            _append_image(
-                images,
-                value.get(key),
-            )
-
-
-# =========================================================
-# CAROUSEL SEARCH TEXT
-# =========================================================
-
-def _carousel_search_text(carousel):
-    if not isinstance(carousel, dict):
-        return ""
-
-    parts = [
-        carousel.get("topic"),
-        carousel.get("hook"),
-        carousel.get("angle"),
-    ]
-
-    slides = carousel.get(
-        "slides",
-        [],
-    )
-
-    if isinstance(slides, list):
-        for slide in slides:
-            if not isinstance(slide, dict):
-                continue
-
-            parts.append(
-                slide.get("title")
-            )
-
-            parts.append(
-                slide.get("body")
-            )
-
-    return " ".join(
-        _clean_text(part)
-        for part in parts
-        if part
-    )
-
-
-# =========================================================
-# CONTENT SEARCH TEXT
-# =========================================================
-
-def _content_search_text(item):
-    if not isinstance(item, dict):
-        return ""
-
-    parts = [
-        item.get("title"),
-        item.get("slug"),
-        item.get("category"),
-        item.get("excerpt"),
-        item.get("description"),
-        item.get("content"),
-    ]
-
-    tags = item.get(
-        "tags",
-        [],
-    )
-
-    if isinstance(tags, list):
-        parts.extend(tags)
-
-    return " ".join(
-        _clean_text(part)
-        for part in parts
-        if part
-    )
-
-
-# =========================================================
-# CONTENT MATCHING
-# =========================================================
-
-def _match_score(
-    carousel,
-    item,
-):
-    carousel_tokens = _tokens(
-        _carousel_search_text(
-            carousel
-        )
-    )
-
-    item_tokens = _tokens(
-        _content_search_text(
-            item
-        )
-    )
-
-    if (
-        not carousel_tokens
-        or not item_tokens
-    ):
-        return 0
-
-    overlap = (
-        carousel_tokens
-        & item_tokens
-    )
-
-    score = len(overlap) * 10
-
-    topic = _clean_text(
-        carousel.get("topic")
-    ).lower()
-
-    title = _clean_text(
-        item.get("title")
-    ).lower()
-
-    if topic and title:
-        if topic in title:
-            score += 50
-
-        if title in topic:
-            score += 30
-
-    hook = _clean_text(
-        carousel.get("hook")
-    ).lower()
-
-    if hook:
-        score += (
-            len(
-                _tokens(hook)
-                & item_tokens
-            )
-            * 5
-        )
-
-    return score
-
-
-def find_best_content(
-    carousel,
-    content,
-):
-    """
-    Find the GamerQuest content item that best matches
-    the generated carousel.
-    """
-
-    if not isinstance(content, list):
-        return None
-
-    candidates = [
-        item
-        for item in content
-        if isinstance(item, dict)
-    ]
-
-    if not candidates:
-        return None
-
-    ranked = sorted(
-        candidates,
-        key=lambda item: _match_score(
-            carousel,
-            item,
+            zoom_width,
+            zoom_height,
         ),
-        reverse=True,
+        method=Image.Resampling.LANCZOS,
+        centering=(0.64, 0.40),
+        centering=(
+            0.68,
+            0.43,
+        ),
     )
 
-    best = ranked[0]
-
-    if _match_score(
-        carousel,
-        best,
-    ) <= 0:
-        return None
-
-    return best
-
-
-# =========================================================
-# COLLECT IMAGES FROM EXACT ARTICLE
-# =========================================================
-
-def collect_item_images(item):
-    """
-    Collect images belonging ONLY to the matched article.
-
-    We do not search other GamerQuest articles.
-    """
-
-    if not isinstance(item, dict):
-        return []
-
-    images = []
-
-    # Main article image first.
-    preferred_fields = (
-        "featured_image_url",
-        "featured_image",
-        "image_url",
-        "image",
-        "thumbnail_url",
-        "thumbnail",
-        "cover_image",
-        "cover",
+    left = (
+        zoom_width
+        - WIDTH
+        - 35
     )
 
-    for field in preferred_fields:
-        _append_image(
-            images,
-            item.get(field),
-        )
+    left = (1240 - WIDTH) // 2
+    top = (1550 - HEIGHT) // 2
+    top = 90
 
-    # Extra images are allowed ONLY if they belong to the
-    # same exact article.
-    gallery_fields = (
-        "images",
-        "gallery",
-        "media",
-        "screenshots",
-        "article_images",
-        "content_images",
-        "image_urls",
+    return enlarged.crop(
+        (
+@@ -250,99 +359,79 @@ def _crop_slide_image(source, index):
+
+
+# =========================================================
+# BACKGROUND
+# DEPTH EFFECTS
+# =========================================================
+
+def _fallback_background():
+    image = Image.new(
+        "RGBA",
+        (WIDTH, HEIGHT),
+        BG + (255,),
     )
 
-    for field in gallery_fields:
-        _append_image(
-            images,
-            item.get(field),
-        )
+    glow = Image.new(
+        "RGBA",
+        image.size,
+        (0, 0, 0, 0),
+    )
 
-    return images
+    draw = ImageDraw.Draw(glow)
 
+    draw.ellipse(
+        (650, -100, 1250, 500),
+        fill=GQ_BLUE + (45,),
+    )
+
+    glow = glow.filter(
+        ImageFilter.GaussianBlur(150)
+    )
+
+    return Image.alpha_composite(
+        image,
+        glow,
+    )
+
+def _add_vignette(image):
+
+def _prepare_background(featured_image, index):
+    source = _load_featured_image(
+        featured_image
+    )
+
+    cropped = _crop_slide_image(
+        source,
+        index,
+    )
+
+    if cropped is None:
+        return _fallback_background()
+
+    image = cropped.convert("RGBA")
+
+    # Slight overall darkening.
+    overlay = Image.new(
+        "RGBA",
+        image.size,
+        (4, 7, 13, 45),
+        (
+            WIDTH,
+            HEIGHT,
+        ),
+        (
+            0,
+            0,
+            0,
+            0,
+        ),
+    )
+
+    return Image.alpha_composite(
+        image,
+        overlay,
+    draw = ImageDraw.Draw(
+        overlay
+    )
+
+    # Top gradient
+    for i in range(380):
 
 # =========================================================
-# BACKWARD-COMPATIBLE FEATURED IMAGE
+# GRADIENTS
 # =========================================================
 
-def find_featured_image_url(
-    carousel,
-    content=None,
+def _bottom_gradient(
+    image,
+    start_y,
+    max_alpha=235,
 ):
-    """
-    Existing tests use this function, so keep it.
-    """
-
-    if content is None:
-        content = get_all_content()
-
-    matched_item = find_best_content(
-        carousel,
-        content,
+    overlay = Image.new(
+        "RGBA",
+        image.size,
+        (0, 0, 0, 0),
     )
-
-    if not matched_item:
-        return None
-
-    images = collect_item_images(
-        matched_item
-    )
-
-    if not images:
-        return None
-
-    return images[0]
-
-
-# =========================================================
-# STRICT IMAGE SELECTION
-# =========================================================
-
-def find_related_images(
-    carousel,
-    content,
-    matched_item=None,
-    limit=MAX_IMAGES,
-):
-    """
-    STRICT MODE.
-
-    Only return images belonging to the exact matched article.
-
-    We deliberately DO NOT use images from related articles.
-
-    This prevents:
-    - another game's artwork appearing in slide 2 or 3
-    - old GamerQuest thumbnails with baked-in text
-    - visually unrelated carousel slides
-
-    If only one article image exists:
-    renderer.py will reuse that one image with a different
-    crop/zoom for each slide.
-    """
-
-    if not isinstance(content, list):
-        return []
-
-    if matched_item is None:
-        matched_item = find_best_content(
-            carousel,
-            content,
-        )
-
-    if not matched_item:
-        return []
-
-    images = collect_item_images(
-        matched_item
-    )
-
-    unique_images = []
-
-    for image in images:
-        if image not in unique_images:
-            unique_images.append(image)
-
-        if len(unique_images) >= limit:
-            break
-
-    return unique_images[:limit]
-
-
-# =========================================================
-# LOAD SOCIAL OUTPUT
-# =========================================================
-
-def load_social_output(
-    output_file=OUTPUT_FILE,
-):
-    output_file = Path(
-        output_file
-    )
-
-    if not output_file.exists():
-        raise RuntimeError(
-            "social-output.json was not found."
-        )
-
-    with output_file.open(
-        "r",
-        encoding="utf-8",
-    ) as file:
-        payload = json.load(file)
-
-    return payload
-
-
-# =========================================================
-# COMPATIBILITY VALIDATION
-# =========================================================
-
-def _extract_carousel(payload):
-    if not isinstance(payload, dict):
-        raise RuntimeError(
-            "social-output.json must contain a JSON object."
-        )
-
-    if payload.get("status") != "ready":
-        raise RuntimeError(
-            "Social output is not ready for rendering."
-        )
-
-    if (
-        "fact_checked" in payload
-        and payload.get("fact_checked") is not True
-    ):
-        raise RuntimeError(
-            "Social output has not passed fact-checking."
-        )
-
-    carousel = payload.get(
-        "carousel"
-    )
-
-    if not isinstance(
-        carousel,
-        dict,
-    ):
-        raise RuntimeError(
-            "Social output does not contain a valid carousel."
-        )
-
-    slides = carousel.get(
-        "slides"
-    )
-
-    if (
-        not isinstance(slides, list)
-        or len(slides) != 3
-    ):
-        raise RuntimeError(
-            "Carousel must contain exactly three slides."
-        )
-
-    return carousel
-
-
-# =========================================================
-# RENDER FROM OUTPUT
-# =========================================================
-
-def render_from_output(
-    output_file=OUTPUT_FILE,
-    output_dir=OUTPUT_DIR,
-):
-    payload = load_social_output(
-        output_file
-    )
-
-    # -----------------------------------------------------
-    # INVALID PAYLOAD
-    # -----------------------------------------------------
-
-    if not isinstance(payload, dict):
-        return {
-            "status": "skipped",
-            "reason": "invalid_payload",
-        }
-
-    # -----------------------------------------------------
-    # NOT READY
-    # -----------------------------------------------------
-
-    if payload.get("status") != "ready":
-        return {
-            "status": "skipped",
-            "reason": "not_ready",
-        }
-
-    # -----------------------------------------------------
-    # NOT FACT-CHECKED
-    # -----------------------------------------------------
-
-    if (
-        "fact_checked" in payload
-        and payload.get("fact_checked") is not True
-    ):
-        return {
-            "status": "skipped",
-            "reason": "not_fact_checked",
-        }
-
-    # -----------------------------------------------------
-    # CAROUSEL
-    # -----------------------------------------------------
-
-    carousel = payload.get(
-        "carousel"
-    )
-
-    if not isinstance(
-        carousel,
-        dict,
-    ):
-        return {
-            "status": "skipped",
-            "reason": "missing_carousel",
-        }
-
-    slides = carousel.get(
-        "slides"
-    )
-
-    if (
-        not isinstance(slides, list)
-        or len(slides) != 3
-    ):
-        return {
-            "status": "skipped",
-            "reason": "invalid_slide_count",
-        }
-
-    # -----------------------------------------------------
-    # LOAD GAMERQUEST CONTENT
-    # -----------------------------------------------------
-
-    content = get_all_content()
-
-    matched_item = find_best_content(
-        carousel,
-        content,
-    )
-
-    # -----------------------------------------------------
-    # EXACT ARTICLE IMAGES ONLY
-    # -----------------------------------------------------
-
-    featured_images = find_related_images(
-        carousel,
-        content,
-        matched_item=matched_item,
-        limit=3,
-    )
-
-    featured_image = (
-        featured_images[0]
-        if featured_images
-        else None
-    )
-
-    print(
-        "Social renderer status: rendered"
-    )
-
-    if matched_item:
-        print(
-            "Matched article: "
-            + _clean_text(
-                matched_item.get("title")
+        alpha = int(
+            145
+            * (
+                1
+                - i / 380
             )
         )
-    else:
-        print(
-            "Matched article: none"
+
+    draw = ImageDraw.Draw(overlay)
+        draw.line(
+            (
+                0,
+                i,
+                WIDTH,
+                i,
+            ),
+            fill=(
+                BG[0],
+                BG[1],
+                BG[2],
+                alpha,
+            ),
         )
 
-    print(
-        f"Images found in exact article: "
-        f"{len(featured_images)}"
-    )
+    distance = HEIGHT - start_y
+    # Bottom gradient
+    for i in range(620):
 
-    for index, image in enumerate(
-        featured_images,
-        start=1,
-    ):
-        print(
-            f"Article image {index}: "
-            f"{image}"
+    for y in range(start_y, HEIGHT):
+        progress = (
+            (y - start_y)
+            / max(1, distance)
+        y = (
+            HEIGHT
+            - i
+            - 1
         )
 
-    # -----------------------------------------------------
-    # RENDER
-    # -----------------------------------------------------
-
-    paths = render_carousel(
-        carousel,
-        output_dir,
-        featured_image=featured_image,
-        featured_images=featured_images,
-    )
-
-    print(
-        f"Rendered slides: "
-        f"{len(paths)}"
-    )
-
-    if len(featured_images) == 1:
-        print(
-            "Image mode: one article image + "
-            "three different crops"
+        alpha = int(
+            max_alpha
+            * progress
+            215
+            * (
+                1
+                - i / 620
+            )
         )
 
-    elif len(featured_images) > 1:
-        print(
-            "Image mode: multiple images from "
-            "the exact article"
+        draw.line(
+            (0, y, WIDTH, y),
+            (
+                0,
+                y,
+                WIDTH,
+                y,
+            ),
+            fill=(
+                BG[0],
+                BG[1],
+@@ -352,59 +441,84 @@ def _bottom_gradient(
+        )
+
+    return Image.alpha_composite(
+        image,
+        image.convert("RGBA"),
+        overlay,
+    )
+
+
+def _top_gradient(
+def _draw_glow(
+    image,
+    height=180,
+    center,
+    radius,
+    color,
+    opacity=70,
+):
+    overlay = Image.new(
+
+    glow = Image.new(
+        "RGBA",
+        image.size,
+        (0, 0, 0, 0),
+        (
+            0,
+            0,
+            0,
+            0,
+        ),
+    )
+
+    draw = ImageDraw.Draw(overlay)
+    draw = ImageDraw.Draw(
+        glow
+    )
+
+    for y in range(height):
+        progress = 1 - (
+            y / max(1, height)
+        )
+    x, y = center
+
+        alpha = int(
+            125 * progress
+        )
+    draw.ellipse(
+        (
+            x - radius,
+            y - radius,
+            x + radius,
+            y + radius,
+        ),
+        fill=(
+            color[0],
+            color[1],
+            color[2],
+            opacity,
+        ),
+    )
+
+        draw.line(
+            (0, y, WIDTH, y),
+            fill=(0, 0, 0, alpha),
+    glow = glow.filter(
+        ImageFilter.GaussianBlur(
+            radius // 2
+        )
+    )
+
+    return Image.alpha_composite(
+        image,
+        overlay,
+        glow,
+    )
+
+
+# =========================================================
+# SOFT PANEL
+# =========================================================
+
+def _soft_panel(
+def _draw_shadow_panel(
+    image,
+    box,
+    radius=32,
+    opacity=185,
+    radius=40,
+    shadow_offset=18,
+    shadow_blur=28,
+    fill=(10, 14, 24, 220),
+):
+
+    x1, y1, x2, y2 = box
+
+    # Shadow
+    shadow = Image.new(
+        "RGBA",
+        image.size,
+        (0, 0, 0, 0),
+        (
+            0,
+            0,
+            0,
+            0,
+        ),
+    )
+
+    shadow_draw = ImageDraw.Draw(
+@@ -413,28 +527,41 @@ def _soft_panel(
+
+    shadow_draw.rounded_rectangle(
+        (
+            x1 + 8,
+            y1 + 12,
+            x2 + 8,
+            y2 + 12,
+            x1 + shadow_offset,
+            y1 + shadow_offset,
+            x2 + shadow_offset,
+            y2 + shadow_offset,
+        ),
+        radius=radius,
+        fill=(0, 0, 0, 95),
+        fill=(
+            0,
+            0,
+            0,
+            145,
+        ),
+    )
+
+    shadow = shadow.filter(
+        ImageFilter.GaussianBlur(20)
+        ImageFilter.GaussianBlur(
+            shadow_blur
+        )
+    )
+
+    image = Image.alpha_composite(
+        image,
+        shadow,
+    )
+
+    # Panel
+    panel = Image.new(
+        "RGBA",
+        image.size,
+        (0, 0, 0, 0),
+        (
+            0,
+            0,
+            0,
+            0,
+        ),
+    )
+
+    panel_draw = ImageDraw.Draw(
+@@ -444,19 +571,14 @@ def _soft_panel(
+    panel_draw.rounded_rectangle(
+        box,
+        radius=radius,
+        fill=(
+            PANEL[0],
+            PANEL[1],
+            PANEL[2],
+            opacity,
+        ),
+        fill=fill,
+        outline=(
+            255,
+            255,
+            255,
+            16,
+            20,
+        ),
+        width=1,
+        width=2,
+    )
+
+    return Image.alpha_composite(
+@@ -466,252 +588,439 @@ def _soft_panel(
+
+
+# =========================================================
+# SHARED UI
+# FALLBACK BACKGROUND
+# =========================================================
+
+def _fallback_background(index):
+
+    image = Image.new(
+        "RGBA",
+        (
+            WIDTH,
+            HEIGHT,
+        ),
+        BG + (255,),
+    )
+
+    if index == 1:
+
+        image = _draw_glow(
+            image,
+            (
+                850,
+                300,
+            ),
+            300,
+            GQ_BLUE,
+            60,
+        )
+
+    elif index == 2:
+
+        image = _draw_glow(
+            image,
+            (
+                180,
+                350,
+            ),
+            320,
+            GQ_PURPLE,
+            50,
         )
 
     else:
-        print(
-            "Image mode: fallback background"
+
+        image = _draw_glow(
+            image,
+            (
+                800,
+                900,
+            ),
+            330,
+            GQ_BLUE,
+            55,
         )
 
-    # -----------------------------------------------------
-    # MANIFEST
-    # -----------------------------------------------------
-
-    manifest = {
-        "status": "rendered",
-
-        "slides": [
-            str(path)
-            for path in paths
-        ],
-
-        "caption": payload.get(
-            "caption",
-            carousel.get(
-                "caption",
-                "",
-            ),
-        ),
-
-        "hashtags": payload.get(
-            "hashtags",
-            carousel.get(
-                "hashtags",
-                [],
-            ),
-        ),
-
-        "cta": payload.get(
-            "cta",
-            carousel.get(
-                "cta",
-                "",
-            ),
-        ),
-
-        "topic": carousel.get(
-            "topic",
-            payload.get(
-                "topic",
-                "",
-            ),
-        ),
-
-        "featured_image": (
-            featured_image
-        ),
-
-        "featured_images": (
-            featured_images
-        ),
-
-        "image_mode": (
-            "single_image_crops"
-            if len(featured_images) == 1
-            else "article_images"
-            if len(featured_images) > 1
-            else "fallback"
-        ),
-    }
-
-    output_dir = Path(
-        output_dir
-    )
-
-    output_dir.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    manifest_path = (
-        output_dir
-        / "manifest.json"
-    )
-
-    with manifest_path.open(
-        "w",
-        encoding="utf-8",
-    ) as file:
-        json.dump(
-            manifest,
-            file,
-            ensure_ascii=False,
-            indent=2,
-        )
-
-    return manifest
+    return image
 
 
 # =========================================================
-# CLI
+# BACKGROUND PREPARATION
 # =========================================================
 
-if __name__ == "__main__":
-    render_from_output()
+def _prepare_background(
+    featured_image,
+    index,
+):
+
+    background = _image_background(
+        featured_image,
+        index,
+    )
+
+    if background is None:
+
+        return _fallback_background(
+            index
+        )
+
+    background = background.convert(
+        "RGBA"
+    )
+
+    background = _add_vignette(
+        background
+    )
+
+    # Very subtle GamerQuest lighting
+    if index == 1:
+
+        background = _draw_glow(
+            background,
+            (
+                100,
+                760,
+            ),
+            250,
+            GQ_BLUE,
+            45,
+        )
+
+    elif index == 2:
+
+        background = _draw_glow(
+            background,
+            (
+                900,
+                850,
+            ),
+            260,
+            GQ_PURPLE,
+            35,
+        )
+
+    else:
+
+        background = _draw_glow(
+            background,
+            (
+                500,
+                1080,
+            ),
+            280,
+            GQ_BLUE,
+            40,
+        )
+
+    return background
+
+
+# =========================================================
+# SLIDE NUMBER
+# =========================================================
+
+def _draw_slide_number(
+    draw,
+    index,
+    total,
+):
+    text = f"{index:02d}/{total:02d}"
+
+    font = _font(
+        24,
+        25,
+        bold=True,
+    )
+
+    text = (
+        f"{index:02d}/{total:02d}"
+    )
+
+    bbox = draw.textbbox(
+        (0, 0),
+        (
+            0,
+            0,
+        ),
+        text,
+        font=font,
+    )
+
+    width = bbox[2] - bbox[0]
+    width = (
+        bbox[2]
+        - bbox[0]
+    )

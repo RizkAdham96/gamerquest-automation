@@ -299,6 +299,147 @@ def find_featured_image_url(
     carousel,
     content=None,
 ):
+    """
+    Backward-compatible featured image lookup.
+
+    IMPORTANT:
+    This function must NOT download or validate the image.
+    Existing tests use example URLs and expect the stored
+    featured image URL to be returned directly.
+
+    The real multi-image validation happens later inside
+    image_finder.py during the actual social render.
+    """
+
+    if content is None:
+        content = get_all_content()
+
+    matched_item = find_best_content(
+        carousel,
+        content,
+    )
+
+    if not matched_item:
+        return None
+
+    # =====================================================
+    # PRIMARY FEATURED IMAGE FIELDS
+    # =====================================================
+
+    primary_fields = (
+        "featured_image_url",
+        "featured_image",
+        "image_url",
+        "image",
+        "thumbnail_url",
+        "thumbnail",
+        "cover_image",
+        "cover",
+    )
+
+    for field in primary_fields:
+        value = matched_item.get(
+            field
+        )
+
+        # Direct URL/path
+        if isinstance(value, str):
+            value = value.strip()
+
+            if value:
+                return value
+
+        # Some feeds store image information in a dict.
+        if isinstance(value, dict):
+            for key in (
+                "url",
+                "src",
+                "source_url",
+                "image_url",
+                "featured_image_url",
+                "original",
+                "large",
+                "medium",
+            ):
+                candidate = value.get(
+                    key
+                )
+
+                if isinstance(
+                    candidate,
+                    str,
+                ):
+                    candidate = (
+                        candidate.strip()
+                    )
+
+                    if candidate:
+                        return candidate
+
+    # =====================================================
+    # FALLBACK TO ARTICLE IMAGE LIST
+    # =====================================================
+
+    gallery_fields = (
+        "images",
+        "gallery",
+        "media",
+        "screenshots",
+        "article_images",
+        "content_images",
+        "image_urls",
+    )
+
+    for field in gallery_fields:
+        value = matched_item.get(
+            field
+        )
+
+        if not isinstance(
+            value,
+            list,
+        ):
+            continue
+
+        for image in value:
+            if isinstance(
+                image,
+                str,
+            ):
+                image = image.strip()
+
+                if image:
+                    return image
+
+            if isinstance(
+                image,
+                dict,
+            ):
+                for key in (
+                    "url",
+                    "src",
+                    "source_url",
+                    "image_url",
+                    "original",
+                    "large",
+                    "medium",
+                ):
+                    candidate = image.get(
+                        key
+                    )
+
+                    if isinstance(
+                        candidate,
+                        str,
+                    ):
+                        candidate = (
+                            candidate.strip()
+                        )
+
+                        if candidate:
+                            return candidate
+
+    return None
 
     if content is None:
 

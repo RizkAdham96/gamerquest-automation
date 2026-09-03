@@ -2,37 +2,47 @@ from io import BytesIO
 from pathlib import Path
 import urllib.request
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
+from PIL import (
+    Image,
+    ImageDraw,
+    ImageFilter,
+    ImageFont,
+    ImageOps,
+)
 
 
 # =========================================================
 # GAMERQUEST SOCIAL RENDERER
-# CLEAN 3-SLIDE VERSION
+# 3-slide carousel
+# Supports different image per slide
 # =========================================================
 
 WIDTH = 1080
 HEIGHT = 1350
 
-SAFE_X = 76
+SAFE_X = 78
 
-# Keep these exact values because our tests expect them.
+
+# =========================================================
+# GAMERQUEST COLORS
+# =========================================================
+
 BG = (5, 8, 15)
+PANEL = (15, 20, 33)
+
+WHITE = (250, 250, 252)
+MUTED = (192, 199, 215)
+
 GQ_BLUE = (76, 141, 255)
 GQ_PURPLE = (159, 79, 255)
 
-WHITE = (248, 249, 252)
-MUTED = (205, 211, 224)
-
-# Actual UI colors are intentionally more neutral.
-PANEL = (9, 13, 21)
-PANEL_SOFT = (12, 17, 27)
-
 
 # =========================================================
-# FONTS
+# FONT
 # =========================================================
 
 def _font(size, bold=False):
+
     candidates = [
         (
             "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
@@ -48,7 +58,11 @@ def _font(size, bold=False):
 
     for path in candidates:
         try:
-            return ImageFont.truetype(path, size=size)
+            return ImageFont.truetype(
+                path,
+                size=size,
+            )
+
         except OSError:
             continue
 
@@ -60,6 +74,7 @@ def _font(size, bold=False):
 # =========================================================
 
 def _wrap(draw, text, font, max_width):
+
     words = str(text or "").split()
 
     if not words:
@@ -69,6 +84,7 @@ def _wrap(draw, text, font, max_width):
     current = words[0]
 
     for word in words[1:]:
+
         candidate = f"{current} {word}"
 
         bbox = draw.textbbox(
@@ -81,6 +97,7 @@ def _wrap(draw, text, font, max_width):
 
         if width <= max_width:
             current = candidate
+
         else:
             lines.append(current)
             current = word
@@ -97,9 +114,10 @@ def _draw_wrapped(
     font,
     fill,
     max_width,
-    spacing=12,
+    spacing=16,
     max_lines=None,
 ):
+
     lines = _wrap(
         draw,
         text,
@@ -107,7 +125,7 @@ def _draw_wrapped(
         max_width,
     )
 
-    if max_lines:
+    if max_lines is not None:
         lines = lines[:max_lines]
 
     x, y = xy
@@ -121,6 +139,7 @@ def _draw_wrapped(
     line_height = bbox[3] - bbox[1]
 
     for line in lines:
+
         draw.text(
             (x, y),
             line,
@@ -138,37 +157,73 @@ def _draw_wrapped(
 # =========================================================
 
 def _load_featured_image(source):
+
     if not source:
         return None
 
+    # Already-loaded Pillow image
     if isinstance(source, Image.Image):
-        return source.convert("RGB").copy()
 
-    if isinstance(source, (bytes, bytearray)):
+        return source.convert(
+            "RGB"
+        ).copy()
+
+    # Raw bytes
+    if isinstance(
+        source,
+        (bytes, bytearray),
+    ):
+
         try:
-            with Image.open(BytesIO(source)) as image:
-                return image.convert("RGB").copy()
+
+            with Image.open(
+                BytesIO(source)
+            ) as image:
+
+                return image.convert(
+                    "RGB"
+                ).copy()
+
         except Exception:
             return None
 
+    # Local file
     try:
-        path = Path(str(source))
+
+        path = Path(
+            str(source)
+        )
 
         if path.exists():
-            with Image.open(path) as image:
-                return image.convert("RGB").copy()
+
+            with Image.open(
+                path
+            ) as image:
+
+                return image.convert(
+                    "RGB"
+                ).copy()
 
     except Exception:
         pass
 
+    # Remote image
     text = str(source)
 
-    if text.startswith(("http://", "https://")):
+    if text.startswith(
+        (
+            "http://",
+            "https://",
+        )
+    ):
+
         try:
+
             request = urllib.request.Request(
                 text,
                 headers={
-                    "User-Agent": "GamerQuest-Social/1.0",
+                    "User-Agent":
+                        "GamerQuest-Social/1.0",
                 },
             )
 
@@ -176,10 +231,16 @@ def _load_featured_image(source):
                 request,
                 timeout=20,
             ) as response:
-                data = response.read()
 
-            with Image.open(BytesIO(data)) as image:
-                return image.convert("RGB").copy()
+                raw = response.read()
+
+            with Image.open(
+                BytesIO(raw)
+            ) as image:
+
+                return image.convert(
+                    "RGB"
+                ).copy()
 
         except Exception:
             return None
@@ -188,36 +249,66 @@ def _load_featured_image(source):
 
 
 # =========================================================
-# IMAGE CROPS
+# DIFFERENT CROPS / ANGLES
 # =========================================================
 
-def _crop_slide_image(source, index):
+def _image_background(
+    featured_image,
+    index,
+):
+
+    source = _load_featured_image(
+        featured_image
+    )
+
     if source is None:
         return None
 
-    source = source.convert("RGB")
+    # -----------------------------------------------------
+    # SLIDE 1
+    # Normal cinematic crop
+    # -----------------------------------------------------
 
-    # Each slide gets a deliberately different crop.
     if index == 1:
-        # Wide cinematic framing.
+
         return ImageOps.fit(
             source,
-            (WIDTH, HEIGHT),
+            (
+                WIDTH,
+                HEIGHT,
+            ),
             method=Image.Resampling.LANCZOS,
-            centering=(0.50, 0.38),
+            centering=(
+                0.50,
+                0.40,
+            ),
         )
+
+    # -----------------------------------------------------
+    # SLIDE 2
+    # Zoom + move toward left side
+    # -----------------------------------------------------
 
     if index == 2:
-        # Zoomed crop.
+
+        zoom_width = 1320
+        zoom_height = 1650
+
         enlarged = ImageOps.fit(
             source,
-            (1350, 1688),
+            (
+                zoom_width,
+                zoom_height,
+            ),
             method=Image.Resampling.LANCZOS,
-            centering=(0.36, 0.45),
+            centering=(
+                0.35,
+                0.48,
+            ),
         )
 
-        left = (1350 - WIDTH) // 2
-        top = (1688 - HEIGHT) // 2
+        left = 60
+        top = 120
 
         return enlarged.crop(
             (
@@ -228,16 +319,34 @@ def _crop_slide_image(source, index):
             )
         )
 
-    # Slide 3 slightly zoomed and shifted opposite direction.
+    # -----------------------------------------------------
+    # SLIDE 3
+    # Different zoom + move toward right side
+    # -----------------------------------------------------
+
+    zoom_width = 1250
+    zoom_height = 1560
+
     enlarged = ImageOps.fit(
         source,
-        (1240, 1550),
+        (
+            zoom_width,
+            zoom_height,
+        ),
         method=Image.Resampling.LANCZOS,
-        centering=(0.64, 0.40),
+        centering=(
+            0.68,
+            0.43,
+        ),
     )
 
-    left = (1240 - WIDTH) // 2
-    top = (1550 - HEIGHT) // 2
+    left = (
+        zoom_width
+        - WIDTH
+        - 35
+    )
+
+    top = 90
 
     return enlarged.crop(
         (
@@ -250,99 +359,79 @@ def _crop_slide_image(source, index):
 
 
 # =========================================================
-# BACKGROUND
+# DEPTH EFFECTS
 # =========================================================
 
-def _fallback_background():
-    image = Image.new(
-        "RGBA",
-        (WIDTH, HEIGHT),
-        BG + (255,),
-    )
+def _add_vignette(image):
 
-    glow = Image.new(
-        "RGBA",
-        image.size,
-        (0, 0, 0, 0),
-    )
-
-    draw = ImageDraw.Draw(glow)
-
-    draw.ellipse(
-        (650, -100, 1250, 500),
-        fill=GQ_BLUE + (45,),
-    )
-
-    glow = glow.filter(
-        ImageFilter.GaussianBlur(150)
-    )
-
-    return Image.alpha_composite(
-        image,
-        glow,
-    )
-
-
-def _prepare_background(featured_image, index):
-    source = _load_featured_image(
-        featured_image
-    )
-
-    cropped = _crop_slide_image(
-        source,
-        index,
-    )
-
-    if cropped is None:
-        return _fallback_background()
-
-    image = cropped.convert("RGBA")
-
-    # Slight overall darkening.
     overlay = Image.new(
         "RGBA",
-        image.size,
-        (4, 7, 13, 45),
+        (
+            WIDTH,
+            HEIGHT,
+        ),
+        (
+            0,
+            0,
+            0,
+            0,
+        ),
     )
 
-    return Image.alpha_composite(
-        image,
-        overlay,
+    draw = ImageDraw.Draw(
+        overlay
     )
 
-
-# =========================================================
-# GRADIENTS
-# =========================================================
-
-def _bottom_gradient(
-    image,
-    start_y,
-    max_alpha=235,
-):
-    overlay = Image.new(
-        "RGBA",
-        image.size,
-        (0, 0, 0, 0),
-    )
-
-    draw = ImageDraw.Draw(overlay)
-
-    distance = HEIGHT - start_y
-
-    for y in range(start_y, HEIGHT):
-        progress = (
-            (y - start_y)
-            / max(1, distance)
-        )
+    # Top gradient
+    for i in range(380):
 
         alpha = int(
-            max_alpha
-            * progress
+            145
+            * (
+                1
+                - i / 380
+            )
         )
 
         draw.line(
-            (0, y, WIDTH, y),
+            (
+                0,
+                i,
+                WIDTH,
+                i,
+            ),
+            fill=(
+                BG[0],
+                BG[1],
+                BG[2],
+                alpha,
+            ),
+        )
+
+    # Bottom gradient
+    for i in range(620):
+
+        y = (
+            HEIGHT
+            - i
+            - 1
+        )
+
+        alpha = int(
+            215
+            * (
+                1
+                - i / 620
+            )
+        )
+
+        draw.line(
+            (
+                0,
+                y,
+                WIDTH,
+                y,
+            ),
             fill=(
                 BG[0],
                 BG[1],
@@ -352,59 +441,84 @@ def _bottom_gradient(
         )
 
     return Image.alpha_composite(
-        image,
+        image.convert("RGBA"),
         overlay,
     )
 
 
-def _top_gradient(
+def _draw_glow(
     image,
-    height=180,
+    center,
+    radius,
+    color,
+    opacity=70,
 ):
-    overlay = Image.new(
+
+    glow = Image.new(
         "RGBA",
         image.size,
-        (0, 0, 0, 0),
+        (
+            0,
+            0,
+            0,
+            0,
+        ),
     )
 
-    draw = ImageDraw.Draw(overlay)
+    draw = ImageDraw.Draw(
+        glow
+    )
 
-    for y in range(height):
-        progress = 1 - (
-            y / max(1, height)
-        )
+    x, y = center
 
-        alpha = int(
-            125 * progress
-        )
+    draw.ellipse(
+        (
+            x - radius,
+            y - radius,
+            x + radius,
+            y + radius,
+        ),
+        fill=(
+            color[0],
+            color[1],
+            color[2],
+            opacity,
+        ),
+    )
 
-        draw.line(
-            (0, y, WIDTH, y),
-            fill=(0, 0, 0, alpha),
+    glow = glow.filter(
+        ImageFilter.GaussianBlur(
+            radius // 2
         )
+    )
 
     return Image.alpha_composite(
         image,
-        overlay,
+        glow,
     )
 
 
-# =========================================================
-# SOFT PANEL
-# =========================================================
-
-def _soft_panel(
+def _draw_shadow_panel(
     image,
     box,
-    radius=32,
-    opacity=185,
+    radius=40,
+    shadow_offset=18,
+    shadow_blur=28,
+    fill=(10, 14, 24, 220),
 ):
+
     x1, y1, x2, y2 = box
 
+    # Shadow
     shadow = Image.new(
         "RGBA",
         image.size,
-        (0, 0, 0, 0),
+        (
+            0,
+            0,
+            0,
+            0,
+        ),
     )
 
     shadow_draw = ImageDraw.Draw(
@@ -413,17 +527,24 @@ def _soft_panel(
 
     shadow_draw.rounded_rectangle(
         (
-            x1 + 8,
-            y1 + 12,
-            x2 + 8,
-            y2 + 12,
+            x1 + shadow_offset,
+            y1 + shadow_offset,
+            x2 + shadow_offset,
+            y2 + shadow_offset,
         ),
         radius=radius,
-        fill=(0, 0, 0, 95),
+        fill=(
+            0,
+            0,
+            0,
+            145,
+        ),
     )
 
     shadow = shadow.filter(
-        ImageFilter.GaussianBlur(20)
+        ImageFilter.GaussianBlur(
+            shadow_blur
+        )
     )
 
     image = Image.alpha_composite(
@@ -431,10 +552,16 @@ def _soft_panel(
         shadow,
     )
 
+    # Panel
     panel = Image.new(
         "RGBA",
         image.size,
-        (0, 0, 0, 0),
+        (
+            0,
+            0,
+            0,
+            0,
+        ),
     )
 
     panel_draw = ImageDraw.Draw(
@@ -444,19 +571,14 @@ def _soft_panel(
     panel_draw.rounded_rectangle(
         box,
         radius=radius,
-        fill=(
-            PANEL[0],
-            PANEL[1],
-            PANEL[2],
-            opacity,
-        ),
+        fill=fill,
         outline=(
             255,
             255,
             255,
-            16,
+            20,
         ),
-        width=1,
+        width=2,
     )
 
     return Image.alpha_composite(
@@ -466,7 +588,135 @@ def _soft_panel(
 
 
 # =========================================================
-# SHARED UI
+# FALLBACK BACKGROUND
+# =========================================================
+
+def _fallback_background(index):
+
+    image = Image.new(
+        "RGBA",
+        (
+            WIDTH,
+            HEIGHT,
+        ),
+        BG + (255,),
+    )
+
+    if index == 1:
+
+        image = _draw_glow(
+            image,
+            (
+                850,
+                300,
+            ),
+            300,
+            GQ_BLUE,
+            60,
+        )
+
+    elif index == 2:
+
+        image = _draw_glow(
+            image,
+            (
+                180,
+                350,
+            ),
+            320,
+            GQ_PURPLE,
+            50,
+        )
+
+    else:
+
+        image = _draw_glow(
+            image,
+            (
+                800,
+                900,
+            ),
+            330,
+            GQ_BLUE,
+            55,
+        )
+
+    return image
+
+
+# =========================================================
+# BACKGROUND PREPARATION
+# =========================================================
+
+def _prepare_background(
+    featured_image,
+    index,
+):
+
+    background = _image_background(
+        featured_image,
+        index,
+    )
+
+    if background is None:
+
+        return _fallback_background(
+            index
+        )
+
+    background = background.convert(
+        "RGBA"
+    )
+
+    background = _add_vignette(
+        background
+    )
+
+    # Very subtle GamerQuest lighting
+    if index == 1:
+
+        background = _draw_glow(
+            background,
+            (
+                100,
+                760,
+            ),
+            250,
+            GQ_BLUE,
+            45,
+        )
+
+    elif index == 2:
+
+        background = _draw_glow(
+            background,
+            (
+                900,
+                850,
+            ),
+            260,
+            GQ_PURPLE,
+            35,
+        )
+
+    else:
+
+        background = _draw_glow(
+            background,
+            (
+                500,
+                1080,
+            ),
+            280,
+            GQ_BLUE,
+            40,
+        )
+
+    return background
+
+
+# =========================================================
+# SLIDE NUMBER
 # =========================================================
 
 def _draw_slide_number(
@@ -474,25 +724,36 @@ def _draw_slide_number(
     index,
     total,
 ):
-    text = f"{index:02d}/{total:02d}"
 
     font = _font(
-        24,
+        25,
         bold=True,
     )
 
+    text = (
+        f"{index:02d}/{total:02d}"
+    )
+
     bbox = draw.textbbox(
-        (0, 0),
+        (
+            0,
+            0,
+        ),
         text,
         font=font,
     )
 
-    width = bbox[2] - bbox[0]
+    width = (
+        bbox[2]
+        - bbox[0]
+    )
 
     draw.text(
         (
-            WIDTH - SAFE_X - width,
-            54,
+            WIDTH
+            - SAFE_X
+            - width,
+            58,
         ),
         text,
         font=font,
@@ -500,12 +761,76 @@ def _draw_slide_number(
     )
 
 
+# =========================================================
+# PROGRESS
+# =========================================================
+
+def _draw_progress(
+    draw,
+    index,
+    total,
+):
+
+    start_x = (
+        WIDTH
+        - SAFE_X
+        - total * 32
+    )
+
+    y = HEIGHT - 73
+
+    for position in range(
+        total
+    ):
+
+        active = (
+            position
+            == index - 1
+        )
+
+        width = (
+            28
+            if active
+            else 10
+        )
+
+        fill = (
+            GQ_BLUE
+            if active
+            else (
+                94,
+                102,
+                123,
+            )
+        )
+
+        draw.rounded_rectangle(
+            (
+                start_x,
+                y,
+                start_x + width,
+                y + 10,
+            ),
+            radius=5,
+            fill=fill,
+        )
+
+        start_x += (
+            width + 12
+        )
+
+
+# =========================================================
+# FOOTER
+# =========================================================
+
 def _draw_footer(
     draw,
     index,
     total,
 ):
-    y = HEIGHT - 62
+
+    y = HEIGHT - 88
 
     draw.text(
         (
@@ -514,101 +839,56 @@ def _draw_footer(
         ),
         "gamerquestfr.com",
         font=_font(
-            23,
+            25,
             bold=True,
         ),
-        fill=(180, 190, 210),
-    )
-
-    start_x = WIDTH - SAFE_X - 90
-
-    for position in range(total):
-        active = position == index - 1
-
-        radius = 5
-
-        fill = (
-            GQ_BLUE
-            if active
-            else (92, 98, 112)
-        )
-
-        draw.ellipse(
-            (
-                start_x,
-                y + 8,
-                start_x + radius * 2,
-                y + 8 + radius * 2,
-            ),
-            fill=fill,
-        )
-
-        start_x += 26
-
-
-def _draw_accent_line(
-    draw,
-    x,
-    y,
-):
-    draw.rounded_rectangle(
-        (
-            x,
-            y,
-            x + 70,
-            y + 6,
-        ),
-        radius=3,
         fill=GQ_BLUE,
     )
 
-    draw.rounded_rectangle(
-        (
-            x + 76,
-            y,
-            x + 105,
-            y + 6,
-        ),
-        radius=3,
-        fill=(
-            120,
-            96,
-            220,
-        ),
+    _draw_progress(
+        draw,
+        index,
+        total,
     )
 
 
 # =========================================================
-# TEST-COMPATIBLE LAYOUT SETTINGS
+# TEXT SETTINGS
 # =========================================================
 
-def _layout_text_settings(index):
+def _layout_text_settings(
+    index
+):
+
     if index == 1:
+
         return {
-            "title_y": 790,
-            "max_width": 890,
-            "title_size": 69,
-            "body_size": 32,
+            "title_y": 635,
+            "max_width": 850,
+            "title_size": 74,
+            "body_size": 35,
         }
 
     if index == 2:
+
         return {
-            "title_y": 760,
-            "max_width": 875,
-            "title_size": 62,
-            "body_size": 32,
+            "title_y": 755,
+            "max_width": 840,
+            "title_size": 61,
+            "body_size": 35,
         }
 
     return {
-        "title_y": 760,
-        "max_width": 880,
-        "title_size": 64,
-        "body_size": 32,
+        "title_y": 700,
+        "max_width": 850,
+        "title_size": 66,
+        "body_size": 35,
     }
 
 
 # =========================================================
-# SLIDE 1 — HOOK
+# SLIDE 1
+# HOOK
 # =========================================================
 
 def _render_slide_one(
@@ -616,22 +896,56 @@ def _render_slide_one(
     slide,
     total,
 ):
-    image = _top_gradient(
-        image,
-        140,
-    )
 
-    image = _bottom_gradient(
+    image = _draw_shadow_panel(
         image,
-        560,
-        245,
+        (
+            55,
+            585,
+            1025,
+            1160,
+        ),
+        radius=48,
+        fill=(
+            6,
+            10,
+            18,
+            205,
+        ),
     )
 
     draw = ImageDraw.Draw(
         image
     )
 
-    settings = _layout_text_settings(1)
+    # Category
+    draw.rounded_rectangle(
+        (
+            SAFE_X,
+            620,
+            SAFE_X + 205,
+            668,
+        ),
+        radius=22,
+        fill=GQ_BLUE,
+    )
+
+    draw.text(
+        (
+            SAFE_X + 19,
+            631,
+        ),
+        "GAMING NEWS",
+        font=_font(
+            21,
+            bold=True,
+        ),
+        fill=WHITE,
+    )
+
+    settings = (
+        _layout_text_settings(1)
+    )
 
     title = str(
         slide.get("title")
@@ -643,60 +957,51 @@ def _render_slide_one(
         or ""
     ).strip()
 
-    # Small floating category pill only.
-    draw.rounded_rectangle(
-        (
-            SAFE_X,
-            675,
-            SAFE_X + 180,
-            718,
-        ),
-        radius=20,
-        fill=(
-            25,
-            35,
-            52,
-        ),
-    )
-
-    draw.text(
-        (
-            SAFE_X + 18,
-            685,
-        ),
-        "GAMING NEWS",
-        font=_font(
-            18,
-            bold=True,
-        ),
-        fill=(
-            212,
-            221,
-            239,
-        ),
-    )
-
     title_end = _draw_wrapped(
         draw,
         title,
         (
             SAFE_X,
-            752,
+            700,
         ),
         _font(
-            settings["title_size"],
+            settings[
+                "title_size"
+            ],
             bold=True,
         ),
         WHITE,
-        settings["max_width"],
-        spacing=8,
+        settings[
+            "max_width"
+        ],
+        spacing=12,
         max_lines=3,
     )
 
-    _draw_accent_line(
-        draw,
-        SAFE_X,
-        title_end + 15,
+    accent_y = (
+        title_end + 20
+    )
+
+    draw.rounded_rectangle(
+        (
+            SAFE_X,
+            accent_y,
+            SAFE_X + 120,
+            accent_y + 9,
+        ),
+        radius=5,
+        fill=GQ_BLUE,
+    )
+
+    draw.rounded_rectangle(
+        (
+            SAFE_X + 120,
+            accent_y,
+            SAFE_X + 185,
+            accent_y + 9,
+        ),
+        radius=5,
+        fill=GQ_PURPLE,
     )
 
     _draw_wrapped(
@@ -704,14 +1009,18 @@ def _render_slide_one(
         body,
         (
             SAFE_X,
-            title_end + 48,
+            accent_y + 38,
         ),
         _font(
-            settings["body_size"],
+            settings[
+                "body_size"
+            ]
         ),
         MUTED,
-        settings["max_width"],
-        spacing=10,
+        settings[
+            "max_width"
+        ],
+        spacing=12,
         max_lines=3,
     )
 
@@ -731,7 +1040,8 @@ def _render_slide_one(
 
 
 # =========================================================
-# SLIDE 2 — VALUE
+# SLIDE 2
+# VALUE
 # =========================================================
 
 def _render_slide_two(
@@ -739,23 +1049,54 @@ def _render_slide_two(
     slide,
     total,
 ):
-    image = _top_gradient(
-        image,
-        130,
-    )
 
-    # Dark gradient only on bottom half.
-    image = _bottom_gradient(
+    # Keep the rectangle design.
+    image = _draw_shadow_panel(
         image,
-        640,
-        240,
+        (
+            55,
+            720,
+            1025,
+            1185,
+        ),
+        radius=46,
+        fill=(
+            9,
+            14,
+            26,
+            215,
+        ),
     )
 
     draw = ImageDraw.Draw(
         image
     )
 
-    settings = _layout_text_settings(2)
+    draw.rounded_rectangle(
+        (
+            SAFE_X,
+            760,
+            SAFE_X + 150,
+            771,
+        ),
+        radius=5,
+        fill=GQ_BLUE,
+    )
+
+    draw.rounded_rectangle(
+        (
+            SAFE_X + 150,
+            760,
+            SAFE_X + 235,
+            771,
+        ),
+        radius=5,
+        fill=GQ_PURPLE,
+    )
+
+    settings = (
+        _layout_text_settings(2)
+    )
 
     title = str(
         slide.get("title")
@@ -767,43 +1108,24 @@ def _render_slide_two(
         or ""
     ).strip()
 
-    # Much smaller panel than before.
-    image = _soft_panel(
-        image,
-        (
-            56,
-            715,
-            1024,
-            1125,
-        ),
-        radius=30,
-        opacity=150,
-    )
-
-    draw = ImageDraw.Draw(
-        image
-    )
-
-    _draw_accent_line(
-        draw,
-        SAFE_X,
-        760,
-    )
-
     title_end = _draw_wrapped(
         draw,
         title,
         (
             SAFE_X,
-            798,
+            805,
         ),
         _font(
-            settings["title_size"],
+            settings[
+                "title_size"
+            ],
             bold=True,
         ),
         WHITE,
-        settings["max_width"],
-        spacing=8,
+        settings[
+            "max_width"
+        ],
+        spacing=12,
         max_lines=3,
     )
 
@@ -812,14 +1134,18 @@ def _render_slide_two(
         body,
         (
             SAFE_X,
-            title_end + 26,
+            title_end + 28,
         ),
         _font(
-            settings["body_size"],
+            settings[
+                "body_size"
+            ]
         ),
         MUTED,
-        settings["max_width"],
-        spacing=10,
+        settings[
+            "max_width"
+        ],
+        spacing=13,
         max_lines=4,
     )
 
@@ -839,7 +1165,8 @@ def _render_slide_two(
 
 
 # =========================================================
-# SLIDE 3 — CTA
+# SLIDE 3
+# CURIOSITY + CTA
 # =========================================================
 
 def _render_slide_three(
@@ -847,22 +1174,31 @@ def _render_slide_three(
     slide,
     total,
 ):
-    image = _top_gradient(
-        image,
-        130,
-    )
 
-    image = _bottom_gradient(
+    image = _draw_shadow_panel(
         image,
-        520,
-        250,
+        (
+            55,
+            640,
+            1025,
+            1165,
+        ),
+        radius=50,
+        fill=(
+            6,
+            10,
+            18,
+            220,
+        ),
     )
 
     draw = ImageDraw.Draw(
         image
     )
 
-    settings = _layout_text_settings(3)
+    settings = (
+        _layout_text_settings(3)
+    )
 
     title = str(
         slide.get("title")
@@ -877,18 +1213,14 @@ def _render_slide_three(
     draw.text(
         (
             SAFE_X,
-            690,
+            685,
         ),
         "À RETENIR",
         font=_font(
-            20,
+            24,
             bold=True,
         ),
-        fill=(
-            175,
-            185,
-            205,
-        ),
+        fill=GQ_PURPLE,
     )
 
     title_end = _draw_wrapped(
@@ -896,15 +1228,19 @@ def _render_slide_three(
         title,
         (
             SAFE_X,
-            735,
+            730,
         ),
         _font(
-            settings["title_size"],
+            settings[
+                "title_size"
+            ],
             bold=True,
         ),
         WHITE,
-        settings["max_width"],
-        spacing=8,
+        settings[
+            "max_width"
+        ],
+        spacing=12,
         max_lines=3,
     )
 
@@ -913,48 +1249,45 @@ def _render_slide_three(
         body,
         (
             SAFE_X,
-            title_end + 24,
+            title_end + 25,
         ),
         _font(
-            settings["body_size"],
+            settings[
+                "body_size"
+            ]
         ),
         MUTED,
-        settings["max_width"],
-        spacing=10,
+        settings[
+            "max_width"
+        ],
+        spacing=13,
         max_lines=3,
     )
 
     cta_y = min(
-        body_end + 32,
-        1100,
+        body_end + 35,
+        1080,
     )
 
-    # Clean outline CTA instead of huge blue button.
     draw.rounded_rectangle(
         (
             SAFE_X,
             cta_y,
-            SAFE_X + 375,
-            cta_y + 64,
+            SAFE_X + 440,
+            cta_y + 75,
         ),
-        radius=24,
-        fill=(
-            20,
-            28,
-            42,
-        ),
-        outline=GQ_BLUE,
-        width=2,
+        radius=30,
+        fill=GQ_BLUE,
     )
 
     draw.text(
         (
-            SAFE_X + 24,
-            cta_y + 17,
+            SAFE_X + 28,
+            cta_y + 20,
         ),
-        "Voir l'article complet  →",
+        "Voir la suite sur GamerQuest →",
         font=_font(
-            23,
+            25,
             bold=True,
         ),
         fill=WHITE,
@@ -976,7 +1309,7 @@ def _render_slide_three(
 
 
 # =========================================================
-# RENDER SINGLE SLIDE
+# RENDER ONE SLIDE
 # =========================================================
 
 def render_slide(
@@ -986,12 +1319,19 @@ def render_slide(
     output_path,
     featured_image=None,
 ):
+
     if total != 3:
+
         raise ValueError(
             "GamerQuest carousel requires exactly 3 slides."
         )
 
-    if index not in (1, 2, 3):
+    if index not in (
+        1,
+        2,
+        3,
+    ):
+
         raise ValueError(
             "Slide index must be between 1 and 3."
         )
@@ -1011,6 +1351,7 @@ def render_slide(
     )
 
     if index == 1:
+
         image = _render_slide_one(
             image,
             slide,
@@ -1018,6 +1359,7 @@ def render_slide(
         )
 
     elif index == 2:
+
         image = _render_slide_two(
             image,
             slide,
@@ -1025,13 +1367,16 @@ def render_slide(
         )
 
     else:
+
         image = _render_slide_three(
             image,
             slide,
             total,
         )
 
-    image = image.convert("RGB")
+    image = image.convert(
+        "RGB"
+    )
 
     image.save(
         output_path,
@@ -1044,14 +1389,31 @@ def render_slide(
 
 # =========================================================
 # RENDER CAROUSEL
+# Supports:
+#
+# featured_image="image.jpg"
+#
+# OR
+#
+# featured_images=[
+#     "image1.jpg",
+#     "image2.jpg",
+#     "image3.jpg",
+# ]
 # =========================================================
 
 def render_carousel(
     carousel,
     output_dir,
     featured_image=None,
+    featured_images=None,
 ):
-    if not isinstance(carousel, dict):
+
+    if not isinstance(
+        carousel,
+        dict,
+    ):
+
         raise ValueError(
             "Carousel must be a dictionary."
         )
@@ -1061,9 +1423,13 @@ def render_carousel(
     )
 
     if (
-        not isinstance(slides, list)
+        not isinstance(
+            slides,
+            list,
+        )
         or len(slides) != 3
     ):
+
         raise ValueError(
             "Renderer requires exactly three slides."
         )
@@ -1077,16 +1443,90 @@ def render_carousel(
         exist_ok=True,
     )
 
-    output_paths = []
+    # =====================================================
+    # PREPARE IMAGE LIST
+    # =====================================================
+
+    images = []
+
+    if isinstance(
+        featured_images,
+        list,
+    ):
+
+        for image in featured_images:
+
+            if (
+                image
+                and image
+                not in images
+            ):
+
+                images.append(
+                    image
+                )
+
+    # Backwards compatibility.
+    if (
+        not images
+        and featured_image
+    ):
+
+        images.append(
+            featured_image
+        )
+
+    print(
+        f"Renderer received "
+        f"{len(images)} unique image(s)."
+    )
+
+    paths = []
+
+    # =====================================================
+    # RENDER EACH SLIDE
+    # =====================================================
 
     for index, slide in enumerate(
         slides,
         start=1,
     ):
-        if not isinstance(slide, dict):
+
+        if not isinstance(
+            slide,
+            dict,
+        ):
+
             raise ValueError(
                 "Each slide must be a dictionary."
             )
+
+        # ---------------------------------------------
+        # Choose image for this slide.
+        # ---------------------------------------------
+
+        if len(images) >= index:
+
+            # We have a unique image for this slide.
+            slide_image = images[
+                index - 1
+            ]
+
+        elif images:
+
+            # Not enough unique images.
+            #
+            # Reuse available source, but the
+            # _image_background() function applies
+            # a different zoom/crop for each slide.
+            slide_image = images[
+                (index - 1)
+                % len(images)
+            ]
+
+        else:
+
+            slide_image = None
 
         path = (
             output_dir
@@ -1098,9 +1538,11 @@ def render_carousel(
             index,
             3,
             path,
-            featured_image=featured_image,
+            featured_image=slide_image,
         )
 
-        output_paths.append(path)
+        paths.append(
+            path
+        )
 
-    return output_paths
+    return paths

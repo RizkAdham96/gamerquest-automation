@@ -13,11 +13,11 @@ def call_grok(prompt):
 
     The request is sent to Groq, not xAI/Grok.
     """
-    api_key = os.getenv("SOCIAL_GROQ_API_KEY")
+    api_key = os.getenv("GROQ_API_KEY")
 
     if not api_key:
         raise RuntimeError(
-            "Missing SOCIAL_GROQ_API_KEY environment variable."
+            "Missing GROQ_API_KEY environment variable."
         )
 
     payload = {

@@ -1,3 +1,4 @@
+import base64
 import json
 import tempfile
 import unittest
@@ -39,11 +40,18 @@ class TestCarouselRenderer(unittest.TestCase):
             with self.assertRaises(ValueError):
                 renderer.render_carousel(carousel, Path(temp_dir))
 
-    def test_renderer_uses_gamerquest_purple_blue_palette(self):
-        self.assertEqual(renderer.GQ_PURPLE, (124, 58, 237))
-        self.assertEqual(renderer.GQ_BLUE, (56, 189, 248))
-        self.assertFalse(hasattr(renderer, "GQ_YELLOW"))
-        self.assertFalse(hasattr(renderer, "GQ_ORANGE"))
+    def test_renderer_uses_exact_gamerquest_site_palette(self):
+        # Sampled from the live GamerQuest FR homepage supplied by the owner.
+        self.assertEqual(renderer.GQ_BLUE, (76, 141, 255))
+        self.assertEqual(renderer.GQ_PURPLE, (159, 79, 255))
+        self.assertEqual(renderer.BG, (5, 8, 15))
+
+    def test_renderer_uses_real_logo_bitmap_not_fake_text_badge(self):
+        raw = base64.b64decode(renderer.BRAND_LOGO_PNG_BASE64)
+        self.assertGreater(len(raw), 1000)
+        logo = renderer._load_brand_logo()
+        self.assertIsNotNone(logo)
+        self.assertGreater(logo.width, logo.height)
 
     def test_render_slide_uses_featured_image_when_available(self):
         with tempfile.TemporaryDirectory() as temp_dir:

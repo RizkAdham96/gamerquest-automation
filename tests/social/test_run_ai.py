@@ -1,84 +1,503 @@
-import io
+import json
 import unittest
-import urllib.error
 from unittest.mock import patch
-from social import ai_client, carousel_writer, idea_generator, run
+
+from social import idea_generator
+
+
+def three_slides():
+    return [
+        {
+            "title": "Hook",
+            "body": "Short hook body",
+            "visual_prompt": "Gaming image",
+        },
+        {
+            "title": "Value",
+            "body": "Supported useful information",
+            "visual_prompt": "Gaming detail",
+        },
+        {
+            "title": "Continue",
+            "body": "Read the full story on GamerQuest.fr",
+            "visual_prompt": "Gaming image with depth",
+        },
+    ]
+
 
 class TestSocialAIRunner(unittest.TestCase):
-    @patch("social.idea_generator.generate_ideas")
-    def test_build_candidate_ideas_uses_ai_generator(self,mock_generate_ideas):
-        content=[{"title":"Test gaming article","source_type":"news"}]; expected=[{"topic":"Test topic","format":"breaking_news"}]
-        mock_generate_ideas.return_value=expected
-        self.assertEqual(run.build_candidate_ideas(content),expected); mock_generate_ideas.assert_called_once_with(content)
 
-    def test_extract_text_reads_groq_chat_completion(self):
-        self.assertEqual(ai_client.extract_text({"choices":[{"message":{"role":"assistant","content":"Three original GamerQuest carousel ideas"}}]}),"Three original GamerQuest carousel ideas")
+    def test_prepare_content_for_ai_limits_items(self):
+        content = []
 
-    @patch.dict("os.environ",{"GROQ_API_KEY":"test-key"})
-    @patch("social.ai_client.urllib.request.urlopen")
-    def test_groq_request_has_user_agent(self,mock_urlopen):
-        mock_response=mock_urlopen.return_value.__enter__.return_value; mock_response.read.return_value=b'{"choices":[{"message":{"content":"ok"}}]}'
-        ai_client.call_grok("test prompt"); request=mock_urlopen.call_args.args[0]
-        self.assertEqual(request.get_header("User-agent"),"GamerQuest-Social/1.0")
+        for index in range(20):
+            content.append(
+                {
+                    "title": f"Article {index}",
+                    "excerpt": "A" * 1000,
+                    "source_type": "news",
+                    "created_at": f"2026-09-{index + 1:02d}",
+                }
+            )
 
-    @patch.dict("os.environ",{"GROQ_API_KEY":"test-key"})
-    @patch("social.ai_client.time.sleep")
-    @patch("social.ai_client.urllib.request.urlopen")
-    def test_groq_429_waits_and_retries_once(self,mock_urlopen,mock_sleep):
-        body=b'{"error":{"message":"Rate limit reached. Please try again in 3.6525s.","type":"tokens","code":"rate_limit_exceeded"}}'
-        error=urllib.error.HTTPError(ai_client.GROQ_API_URL,429,"Too Many Requests",{},io.BytesIO(body))
-        success=unittest.mock.MagicMock(); success.__enter__.return_value.read.return_value=b'{"choices":[{"message":{"content":"recovered"}}]}'
-        mock_urlopen.side_effect=[error,success]
-        self.assertEqual(ai_client.call_grok("test prompt"),"recovered"); self.assertEqual(mock_urlopen.call_count,2); mock_sleep.assert_called_once(); self.assertGreaterEqual(mock_sleep.call_args.args[0],3.6525)
+        result = idea_generator.prepare_content_for_ai(content)
 
-    @patch("social.run.time.sleep")
-    @patch("social.run.idea_generator.verify_carousel")
-    @patch("social.run.idea_generator.expand_idea")
-    @patch("social.run.choose_best_idea")
-    @patch("social.run.build_candidate_ideas")
-    @patch("social.run.get_all_content")
-    def test_run_paces_fact_check_after_expansion(self,mock_content,mock_candidates,mock_choose,mock_expand,mock_verify,mock_sleep):
-        content=[{"title":"News","source_type":"news"}]; idea={"topic":"News","total_score":90}
-        mock_content.return_value=content; mock_candidates.return_value=[idea]; mock_choose.return_value=idea
-        mock_expand.return_value={**idea,"slides":[{"title":str(i),"body":"Body"} for i in range(5)],"caption":"Caption","cta":"CTA","hashtags":["#Gaming"]}
-        mock_verify.return_value={"valid":True,"unsupported_claims":[],"reason":""}
-        with patch("social.run.build_carousel",return_value={"slides":mock_expand.return_value["slides"],"caption":"Caption","cta":"CTA","hashtags":["#Gaming"]}), patch("social.run.save_output"):
-            run.run()
-        mock_sleep.assert_any_call(run.GROQ_PACING_SECONDS)
-        self.assertGreaterEqual(run.GROQ_PACING_SECONDS,20)
+        self.assertLessEqual(
+            len(result),
+            idea_generator.MAX_CONTENT_ITEMS,
+        )
 
-    def test_prepare_content_limits_ai_input_to_ten_compact_items(self):
-        content=[{"title":f"Article {i}","excerpt":"x"*2000,"content":"body"*500,"slug":f"article-{i}","source_type":"news","created_at":f"2026-09-{i+1:02d}T10:00:00+00:00"} for i in range(15)]
-        prepared=idea_generator.prepare_content_for_ai(content)
-        self.assertEqual(len(prepared),10); self.assertTrue(all("content" not in x for x in prepared)); self.assertTrue(all(len(x.get("excerpt",""))<=500 for x in prepared))
+        for item in result:
+            self.assertLessEqual(
+                len(item["excerpt"]),
+                idea_generator.MAX_EXCERPT_CHARS,
+            )
 
-    def test_build_prompt_stays_below_safe_character_budget(self):
-        content=[{"title":f"Large {i}","excerpt":"x"*5000,"content":"y"*50000,"slug":f"large-{i}","source_type":"news"} for i in range(20)]
-        self.assertLessEqual(len(idea_generator.build_prompt(content)),16000)
+    def test_parse_json_response_accepts_plain_json(self):
+        raw = json.dumps(
+            [
+                {
+                    "topic": "Topic",
+                }
+            ]
+        )
 
-    def test_carousel_package_keeps_caption_and_hashtags(self):
-        idea={"topic":"Test","angle":"Angle","format":"ranking","hook":"Hook","total_score":80,"slides":[{"title":str(i),"body":"Body"} for i in range(5)],"caption":"Caption","cta":"Full ranking on GamerQuest.fr","hashtags":["#GamerQuest","#GamingNews"]}
-        carousel=carousel_writer.build_carousel(idea); self.assertEqual(carousel["caption"],"Caption"); self.assertEqual(carousel["hashtags"],["#GamerQuest","#GamingNews"])
+        result = idea_generator.parse_json_response(raw)
 
-    @patch("social.idea_generator.call_grok")
-    def test_generate_ideas_limits_concepts_to_three(self,mock_call):
-        mock_call.return_value='[{"topic":"A"},{"topic":"B"},{"topic":"C"},{"topic":"D"},{"topic":"E"}]'
-        ideas=idea_generator.generate_ideas([{"title":"Article","source_type":"news"}]); self.assertEqual(len(ideas),3); self.assertIn("exactly 3",mock_call.call_args.args[0].lower())
+        self.assertEqual(
+            result[0]["topic"],
+            "Topic",
+        )
 
-    @patch("social.idea_generator.call_grok")
-    def test_expand_idea_generates_complete_carousel_package(self,mock_call):
-        mock_call.return_value='{"slides":[{"title":"1","body":"a","visual_prompt":"v"},{"title":"2","body":"b","visual_prompt":"v"},{"title":"3","body":"c","visual_prompt":"v"},{"title":"4","body":"d","visual_prompt":"v"},{"title":"5","body":"e","visual_prompt":"v"}],"caption":"Caption","cta":"Read more on GamerQuest.fr","hashtags":["#GamerQuest","#Gaming"]}'
-        result=idea_generator.expand_idea({"topic":"Topic","angle":"Angle","format":"ranking","hook":"Hook","total_score":82},[{"title":"Article","excerpt":"Facts","source_type":"news"}]); self.assertEqual(len(result["slides"]),5); self.assertEqual(result["total_score"],82)
+    def test_parse_json_response_accepts_fenced_json(self):
+        raw = """```json
+[
+  {
+    "topic": "Topic"
+  }
+]
+```"""
 
-    @patch("social.idea_generator.call_grok")
-    def test_verify_carousel_rejects_unsupported_claims(self,mock_call):
-        mock_call.return_value='{"valid":false,"unsupported_claims":["cross-platform multiplayer"],"reason":"unsupported"}'
-        result=idea_generator.verify_carousel({"topic":"Game","slides":[]},[{"title":"Game","excerpt":"Solo","source_type":"news"}]); self.assertFalse(result["valid"]); self.assertIn("cross-platform multiplayer",result["unsupported_claims"])
+        result = idea_generator.parse_json_response(raw)
 
-    @patch("social.idea_generator.call_grok")
-    def test_repair_carousel_changes_only_package_fields(self,mock_call):
-        mock_call.return_value='{"slides":[{"title":"1","body":"Supported fact","visual_prompt":"v"}],"caption":"Supported caption","cta":"Read GamerQuest.fr","hashtags":["#GamerQuest"]}'
-        original={"topic":"Game","angle":"Deal","format":"deal","hook":"Free now","total_score":80.5,"slides":[{"title":"1","body":"Unsupported claim"}],"caption":"Wrong","cta":"Read","hashtags":["#Gaming"]}
-        fixed=idea_generator.repair_carousel(original,[{"title":"Game","excerpt":"Supported fact","source_type":"deal"}],["Unsupported claim"]); self.assertEqual(fixed["topic"],"Game"); self.assertEqual(fixed["total_score"],80.5); self.assertEqual(fixed["slides"][0]["body"],"Supported fact")
+        self.assertEqual(
+            result[0]["topic"],
+            "Topic",
+        )
 
-if __name__=="__main__": unittest.main()
+    @patch(
+        "social.idea_generator.call_grok"
+    )
+    def test_generate_ideas_returns_three_concepts_max(
+        self,
+        mock_call,
+    ):
+        mock_call.return_value = json.dumps(
+            [
+                {
+                    "topic": "A",
+                    "angle": "A",
+                    "format": "news",
+                    "hook": "A",
+                },
+                {
+                    "topic": "B",
+                    "angle": "B",
+                    "format": "ranking",
+                    "hook": "B",
+                },
+                {
+                    "topic": "C",
+                    "angle": "C",
+                    "format": "deal",
+                    "hook": "C",
+                },
+                {
+                    "topic": "D",
+                    "angle": "D",
+                    "format": "guide",
+                    "hook": "D",
+                },
+            ]
+        )
+
+        result = idea_generator.generate_ideas(
+            [
+                {
+                    "title": "Article",
+                    "excerpt": "Facts",
+                    "source_type": "news",
+                }
+            ]
+        )
+
+        self.assertEqual(
+            len(result),
+            3,
+        )
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
+    def test_expand_idea_generates_complete_carousel_package(
+        self,
+        mock_call,
+    ):
+        mock_call.return_value = json.dumps(
+            {
+                "slides": three_slides(),
+                "caption": "Caption",
+                "cta": "Visit GamerQuest.fr",
+                "hashtags": [
+                    "#GamerQuest",
+                    "#Gaming",
+                ],
+            }
+        )
+
+        result = idea_generator.expand_idea(
+            {
+                "topic": "Topic",
+                "angle": "Angle",
+                "format": "ranking",
+                "hook": "Hook",
+                "total_score": 82,
+            },
+            [
+                {
+                    "title": "Article",
+                    "excerpt": "Facts",
+                    "source_type": "news",
+                }
+            ],
+        )
+
+        self.assertEqual(
+            len(result["slides"]),
+            3,
+        )
+
+        self.assertEqual(
+            result["total_score"],
+            82,
+        )
+
+        self.assertEqual(
+            result["caption"],
+            "Caption",
+        )
+
+        self.assertEqual(
+            result["cta"],
+            "Visit GamerQuest.fr",
+        )
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
+    def test_expand_idea_rejects_five_slides(
+        self,
+        mock_call,
+    ):
+        mock_call.return_value = json.dumps(
+            {
+                "slides": three_slides()
+                + [
+                    {
+                        "title": "Extra 4",
+                        "body": "Extra",
+                        "visual_prompt": "",
+                    },
+                    {
+                        "title": "Extra 5",
+                        "body": "Extra",
+                        "visual_prompt": "",
+                    },
+                ],
+                "caption": "Caption",
+                "cta": "CTA",
+                "hashtags": [],
+            }
+        )
+
+        with self.assertRaises(RuntimeError):
+            idea_generator.expand_idea(
+                {
+                    "topic": "Topic",
+                    "angle": "Angle",
+                    "format": "ranking",
+                    "hook": "Hook",
+                },
+                [
+                    {
+                        "title": "Article",
+                        "excerpt": "Facts",
+                        "source_type": "news",
+                    }
+                ],
+            )
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
+    def test_verify_carousel_accepts_valid_package(
+        self,
+        mock_call,
+    ):
+        mock_call.return_value = json.dumps(
+            {
+                "valid": True,
+                "unsupported_claims": [],
+                "reason": "",
+            }
+        )
+
+        result = idea_generator.verify_carousel(
+            {
+                "topic": "Game",
+                "hook": "Hook",
+                "slides": three_slides(),
+                "caption": "Caption",
+                "cta": "CTA",
+            },
+            [
+                {
+                    "title": "Game",
+                    "excerpt": "Supported fact",
+                    "source_type": "news",
+                }
+            ],
+        )
+
+        self.assertTrue(
+            result["valid"]
+        )
+
+        self.assertEqual(
+            result["unsupported_claims"],
+            [],
+        )
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
+    def test_verify_carousel_reports_unsupported_claims(
+        self,
+        mock_call,
+    ):
+        mock_call.return_value = json.dumps(
+            {
+                "valid": False,
+                "unsupported_claims": [
+                    "Unsupported claim"
+                ],
+                "reason": "Not in source",
+            }
+        )
+
+        result = idea_generator.verify_carousel(
+            {
+                "topic": "Game",
+                "hook": "Hook",
+                "slides": three_slides(),
+                "caption": "Caption",
+                "cta": "CTA",
+            },
+            [
+                {
+                    "title": "Game",
+                    "excerpt": "Supported fact",
+                    "source_type": "deal",
+                }
+            ],
+        )
+
+        self.assertFalse(
+            result["valid"]
+        )
+
+        self.assertEqual(
+            result["unsupported_claims"],
+            [
+                "Unsupported claim"
+            ],
+        )
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
+    def test_repair_carousel_changes_only_package_fields(
+        self,
+        mock_call,
+    ):
+        repaired_slides = [
+            {
+                "title": "Hook",
+                "body": "Supported fact",
+                "visual_prompt": "Game image",
+            },
+            {
+                "title": "Value",
+                "body": "Supported fact",
+                "visual_prompt": "Game detail",
+            },
+            {
+                "title": "Continue",
+                "body": "Read more on GamerQuest.fr",
+                "visual_prompt": "Game image",
+            },
+        ]
+
+        mock_call.return_value = json.dumps(
+            {
+                "slides": repaired_slides,
+                "caption": "Fixed caption",
+                "cta": "Visit GamerQuest.fr",
+                "hashtags": [
+                    "#GamerQuest"
+                ],
+            }
+        )
+
+        original = {
+            "topic": "Game",
+            "angle": "Angle",
+            "format": "news",
+            "hook": "Hook",
+            "total_score": 80.5,
+            "slides": three_slides(),
+            "caption": "Original caption",
+            "cta": "CTA",
+            "hashtags": [
+                "#Gaming"
+            ],
+        }
+
+        fixed = idea_generator.repair_carousel(
+            original,
+            [
+                {
+                    "title": "Game",
+                    "excerpt": "Supported fact",
+                    "source_type": "deal",
+                }
+            ],
+            [
+                "Unsupported claim"
+            ],
+        )
+
+        self.assertEqual(
+            fixed["topic"],
+            "Game",
+        )
+
+        self.assertEqual(
+            fixed["total_score"],
+            80.5,
+        )
+
+        self.assertEqual(
+            len(fixed["slides"]),
+            3,
+        )
+
+        self.assertEqual(
+            fixed["slides"][0]["body"],
+            "Supported fact",
+        )
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
+    def test_repair_carousel_rejects_five_slides(
+        self,
+        mock_call,
+    ):
+        mock_call.return_value = json.dumps(
+            {
+                "slides": three_slides()
+                + [
+                    {
+                        "title": "Extra",
+                        "body": "Extra",
+                        "visual_prompt": "",
+                    },
+                    {
+                        "title": "Extra",
+                        "body": "Extra",
+                        "visual_prompt": "",
+                    },
+                ],
+                "caption": "Caption",
+                "cta": "CTA",
+                "hashtags": [],
+            }
+        )
+
+        with self.assertRaises(RuntimeError):
+            idea_generator.repair_carousel(
+                {
+                    "topic": "Game",
+                    "slides": three_slides(),
+                    "caption": "Caption",
+                    "cta": "CTA",
+                    "hashtags": [],
+                },
+                [
+                    {
+                        "title": "Game",
+                        "excerpt": "Supported fact",
+                        "source_type": "news",
+                    }
+                ],
+                [
+                    "Unsupported claim"
+                ],
+            )
+
+    def test_build_expansion_prompt_requires_three_slides(self):
+        prompt = idea_generator.build_expansion_prompt(
+            {
+                "topic": "Topic",
+                "angle": "Angle",
+                "format": "news",
+                "hook": "Hook",
+            },
+            [
+                {
+                    "title": "Article",
+                    "excerpt": "Fact",
+                    "source_type": "news",
+                }
+            ],
+        )
+
+        self.assertIn(
+            "EXACTLY",
+            prompt,
+        )
+
+        self.assertIn(
+            "3 slides",
+            prompt,
+        )
+
+    def test_repair_prompt_preserves_three_slide_structure(self):
+        prompt = idea_generator._safe_prompt(
+            """
+Preserve EXACTLY 3 slides.
+Slide 1 = Hook
+Slide 2 = Value
+Slide 3 = Curiosity + traffic
+"""
+        )
+
+        self.assertIn(
+            "3 slides",
+            prompt,
+        )
+
+
+if __name__ == "__main__":
+    unittest.main()

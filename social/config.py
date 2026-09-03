@@ -4,7 +4,7 @@
 BRAND_NAME = "GamerQuest"
 WEBSITE_URL = "https://gamerquest.fr"
 
-POSTS_PER_WEEK = 3
+POSTS_PER_WEEK = 2
 
 RECENT_POST_MEMORY = 20
 

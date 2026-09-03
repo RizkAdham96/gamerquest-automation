@@ -1,53 +1,428 @@
 import json
 import time
 from pathlib import Path
+
 from social.sources import get_all_content
-from social.creative_brain import choose_best_idea
+from social.idea_generator import (
+    generate_ideas,
+    expand_idea,
+    verify_carousel,
+    repair_carousel,
+)
+from social.scorer import score_idea
 from social.carousel_writer import build_carousel
-from social.config import MINIMUM_PUBLISH_SCORE
-from social import idea_generator
+from social.history import (
+    load_history,
+    save_history,
+)
 
-OUTPUT_FILE=Path("social-output.json")
-GROQ_PACING_SECONDS=25
 
-def save_output(data):
-    with OUTPUT_FILE.open("w",encoding="utf-8") as file:json.dump(data,file,ensure_ascii=False,indent=2)
-def build_candidate_ideas(content):return idea_generator.generate_ideas(content)
-def pace_groq(label):
-    print(f"Groq pacing: waiting {GROQ_PACING_SECONDS}s before {label}...")
-    time.sleep(GROQ_PACING_SECONDS)
+OUTPUT_FILE = Path("social-output.json")
+
+MIN_SOCIAL_SCORE = 60
+
+# Groq pacing
+GROQ_WAIT_SECONDS = 25
+
+# Allow up to 2 repair attempts total
+MAX_REPAIR_ATTEMPTS = 2
+
+
+# =========================================================
+# HELPERS
+# =========================================================
+
+def _write_output(payload):
+    with OUTPUT_FILE.open(
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            payload,
+            file,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+
+def _sleep_before(label):
+    print(
+        f"Groq pacing: waiting "
+        f"{GROQ_WAIT_SECONDS}s "
+        f"before {label}..."
+    )
+
+    time.sleep(
+        GROQ_WAIT_SECONDS
+    )
+
+
+def _fact_check_passed(result):
+    if not isinstance(result, dict):
+        return False
+
+    return bool(
+        result.get("valid")
+        or result.get("passed")
+        or result.get("supported")
+    )
+
+
+def _unsupported_claims(result):
+    if not isinstance(result, dict):
+        return []
+
+    claims = result.get(
+        "unsupported_claims",
+        [],
+    )
+
+    if isinstance(claims, list):
+        return claims
+
+    return []
+
+
+def _fact_check_reason(result):
+    if not isinstance(result, dict):
+        return ""
+
+    return str(
+        result.get("reason")
+        or result.get("fact_check_reason")
+        or ""
+    ).strip()
+
+
+# =========================================================
+# MAIN
+# =========================================================
 
 def run():
-    content=get_all_content();print(f"Social content items found: {len(content)}")
-    if not content:save_output({"status":"skipped","reason":"no_content"});return
-    try:ideas=build_candidate_ideas(content)
-    except Exception as error:print(f"AI idea generation failed: {error}");save_output({"status":"error","reason":"ai_generation_failed","error":str(error)});return
-    print(f"Candidate ideas generated: {len(ideas)}")
-    if not ideas:save_output({"status":"skipped","reason":"no_ideas"});return
-    best_idea=choose_best_idea(ideas)
-    if not best_idea:save_output({"status":"skipped","reason":"repetitive_or_invalid"});return
-    score=best_idea.get("total_score",0);print(f"Best social idea score: {score}")
-    if score<MINIMUM_PUBLISH_SCORE:save_output({"status":"skipped","reason":"low_score","best_score":score});return
-    try:complete_idea=idea_generator.expand_idea(best_idea,content)
-    except Exception as error:print(f"AI carousel expansion failed: {error}");save_output({"status":"error","reason":"carousel_expansion_failed","error":str(error)});return
+    # =====================================================
+    # LOAD CONTENT
+    # =====================================================
 
-    pace_groq("fact-check")
-    try:verification=idea_generator.verify_carousel(complete_idea,content)
-    except Exception as error:print(f"Carousel fact-check failed: {error}");save_output({"status":"error","reason":"fact_check_failed","error":str(error)});return
-    repaired=False
-    if not verification["valid"]:
-        print(f"Unsupported claims found; attempting one repair: {verification['unsupported_claims']}")
-        try:
-            pace_groq("repair")
-            complete_idea=idea_generator.repair_carousel(complete_idea,content,verification["unsupported_claims"]);repaired=True
-            pace_groq("final fact-check")
-            verification=idea_generator.verify_carousel(complete_idea,content)
-        except Exception as error:print(f"Carousel repair failed: {error}");save_output({"status":"error","reason":"repair_failed","error":str(error)});return
-        if not verification["valid"]:
-            print(f"Carousel rejected after repair: {verification['unsupported_claims']}");save_output({"status":"skipped","reason":"unsupported_claims_after_repair","unsupported_claims":verification["unsupported_claims"],"fact_check_reason":verification["reason"]});return
-        print("Carousel repair passed fact-check.")
-    else:print("Carousel fact-check passed.")
-    carousel=build_carousel(complete_idea)
-    if not carousel:save_output({"status":"skipped","reason":"invalid_carousel"});return
-    save_output({"status":"ready","fact_checked":True,"repaired":repaired,"carousel":carousel});print("Social carousel successfully created.");print(f"Output saved to: {OUTPUT_FILE}")
-if __name__=="__main__":run()
+    content = get_all_content()
+
+    print(
+        f"Social content items found: "
+        f"{len(content)}"
+    )
+
+    if not content:
+        payload = {
+            "status": "skipped",
+            "reason": "no_content",
+        }
+
+        _write_output(
+            payload
+        )
+
+        return payload
+
+    # =====================================================
+    # LOAD HISTORY
+    # =====================================================
+
+    history = load_history()
+
+    # =====================================================
+    # GENERATE CONCEPTS
+    # =====================================================
+
+    ideas = generate_ideas(
+        content,
+        history=history,
+    )
+
+    print(
+        f"Candidate ideas generated: "
+        f"{len(ideas)}"
+    )
+
+    if not ideas:
+        payload = {
+            "status": "skipped",
+            "reason": "no_ideas",
+        }
+
+        _write_output(
+            payload
+        )
+
+        return payload
+
+    # =====================================================
+    # SCORE IDEAS
+    # =====================================================
+
+    scored = []
+
+    for idea in ideas:
+        score = score_idea(
+            idea,
+            content=content,
+            history=history,
+        )
+
+        scored.append(
+            (
+                score,
+                idea,
+            )
+        )
+
+    scored.sort(
+        key=lambda pair: pair[0],
+        reverse=True,
+    )
+
+    best_score, best_idea = scored[0]
+
+    print(
+        f"Best social idea score: "
+        f"{best_score}"
+    )
+
+    # =====================================================
+    # SCORE THRESHOLD
+    # =====================================================
+
+    if best_score < MIN_SOCIAL_SCORE:
+        payload = {
+            "status": "skipped",
+            "reason": "score_too_low",
+            "score": best_score,
+            "idea": best_idea,
+        }
+
+        _write_output(
+            payload
+        )
+
+        return payload
+
+    # =====================================================
+    # EXPAND INTO 3-SLIDE CAROUSEL
+    # =====================================================
+
+    carousel_package = expand_idea(
+        best_idea,
+        content,
+    )
+
+    # =====================================================
+    # FIRST FACT-CHECK
+    # =====================================================
+
+    _sleep_before(
+        "fact-check"
+    )
+
+    fact_check = verify_carousel(
+        carousel_package,
+        content,
+    )
+
+    # =====================================================
+    # REPAIR LOOP
+    # =====================================================
+
+    repair_attempt = 0
+
+    while (
+        not _fact_check_passed(
+            fact_check
+        )
+        and repair_attempt
+        < MAX_REPAIR_ATTEMPTS
+    ):
+        repair_attempt += 1
+
+        unsupported = _unsupported_claims(
+            fact_check
+        )
+
+        reason = _fact_check_reason(
+            fact_check
+        )
+
+        print(
+            f"Fact-check failed. "
+            f"Repair attempt "
+            f"{repair_attempt}/"
+            f"{MAX_REPAIR_ATTEMPTS}."
+        )
+
+        if unsupported:
+            print(
+                "Unsupported claims: "
+                + " | ".join(
+                    str(claim)
+                    for claim in unsupported
+                )
+            )
+
+        if reason:
+            print(
+                "Fact-check reason: "
+                + reason
+            )
+
+        _sleep_before(
+            f"repair {repair_attempt}"
+        )
+
+        # Give repair_carousel the current package
+        # and the exact failed fact-check so Groq can
+        # correct only the unsupported statements.
+        carousel_package = repair_carousel(
+            carousel_package,
+            fact_check,
+            content,
+        )
+
+        _sleep_before(
+            f"fact-check after repair "
+            f"{repair_attempt}"
+        )
+
+        fact_check = verify_carousel(
+            carousel_package,
+            content,
+        )
+
+    # =====================================================
+    # STILL FAILED AFTER 2 REPAIRS
+    # =====================================================
+
+    if not _fact_check_passed(
+        fact_check
+    ):
+        payload = {
+            "status": "skipped",
+            "reason":
+                "unsupported_claims_after_repair",
+            "unsupported_claims":
+                _unsupported_claims(
+                    fact_check
+                ),
+            "fact_check_reason":
+                _fact_check_reason(
+                    fact_check
+                ),
+            "repair_attempts":
+                repair_attempt,
+        }
+
+        _write_output(
+            payload
+        )
+
+        print(
+            "Social carousel skipped: "
+            "unsupported claims remained "
+            "after repair attempts."
+        )
+
+        return payload
+
+    # =====================================================
+    # BUILD FINAL CAROUSEL
+    # =====================================================
+
+    carousel = build_carousel(
+        carousel_package
+    )
+
+    # =====================================================
+    # SAVE HISTORY
+    # =====================================================
+
+    history_entry = {
+        "topic": carousel.get(
+            "topic",
+            best_idea.get(
+                "topic",
+                "",
+            ),
+        ),
+        "hook": carousel.get(
+            "hook",
+            best_idea.get(
+                "hook",
+                "",
+            ),
+        ),
+        "angle": carousel.get(
+            "angle",
+            best_idea.get(
+                "angle",
+                "",
+            ),
+        ),
+        "score": best_score,
+    }
+
+    history.append(
+        history_entry
+    )
+
+    save_history(
+        history
+    )
+
+    # =====================================================
+    # READY OUTPUT
+    # =====================================================
+
+    payload = {
+        "status": "ready",
+        "fact_checked": True,
+        "score": best_score,
+        "idea": best_idea,
+        "carousel": carousel,
+        "caption": carousel.get(
+            "caption",
+            "",
+        ),
+        "hashtags": carousel.get(
+            "hashtags",
+            [],
+        ),
+        "cta": carousel.get(
+            "cta",
+            "",
+        ),
+        "repair_attempts": repair_attempt,
+    }
+
+    _write_output(
+        payload
+    )
+
+    print(
+        "Social carousel successfully created."
+    )
+
+    print(
+        f"Repair attempts used: "
+        f"{repair_attempt}"
+    )
+
+    print(
+        f"Output saved to: "
+        f"{OUTPUT_FILE}"
+    )
+
+    return payload
+
+
+# =========================================================
+# CLI
+# =========================================================
+
+if __name__ == "__main__":
+    run()

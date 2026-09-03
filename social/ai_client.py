@@ -4,25 +4,34 @@ import urllib.error
 import urllib.request
 
 
-XAI_API_URL = "https://api.x.ai/v1/responses"
-XAI_MODEL = os.getenv("SOCIAL_XAI_MODEL", "grok-4.6")
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = os.getenv("SOCIAL_GROQ_MODEL", "openai/gpt-oss-120b")
 
 
 def call_grok(prompt):
-    api_key = os.getenv("SOCIAL_GROK_API_KEY")
+    """Backward-compatible function name used by the social pipeline.
+
+    The request is sent to Groq, not xAI/Grok.
+    """
+    api_key = os.getenv("SOCIAL_GROQ_API_KEY")
 
     if not api_key:
         raise RuntimeError(
-            "Missing SOCIAL_GROK_API_KEY environment variable."
+            "Missing SOCIAL_GROQ_API_KEY environment variable."
         )
 
     payload = {
-        "model": XAI_MODEL,
-        "input": prompt,
+        "model": GROQ_MODEL,
+        "messages": [
+            {
+                "role": "user",
+                "content": prompt,
+            }
+        ],
     }
 
     request = urllib.request.Request(
-        XAI_API_URL,
+        GROQ_API_URL,
         data=json.dumps(payload).encode("utf-8"),
         headers={
             "Authorization": f"Bearer {api_key}",
@@ -40,12 +49,12 @@ def call_grok(prompt):
         error_body = error.read().decode("utf-8", errors="replace")
 
         raise RuntimeError(
-            f"Grok API error {error.code}: {error_body}"
+            f"Groq API error {error.code}: {error_body}"
         ) from error
 
     except urllib.error.URLError as error:
         raise RuntimeError(
-            f"Unable to connect to Grok API: {error}"
+            f"Unable to connect to Groq API: {error}"
         ) from error
 
     return extract_text(data)
@@ -53,25 +62,22 @@ def call_grok(prompt):
 
 def extract_text(data):
     if not isinstance(data, dict):
-        raise RuntimeError("Unexpected Grok API response.")
+        raise RuntimeError("Unexpected Groq API response.")
 
-    output = data.get("output", [])
+    choices = data.get("choices", [])
 
-    for item in output:
-        if not isinstance(item, dict):
+    for choice in choices:
+        if not isinstance(choice, dict):
             continue
 
-        content = item.get("content", [])
+        message = choice.get("message", {})
+        if not isinstance(message, dict):
+            continue
 
-        for content_item in content:
-            if not isinstance(content_item, dict):
-                continue
-
-            text = content_item.get("text")
-
-            if text:
-                return text.strip()
+        text = message.get("content")
+        if text:
+            return text.strip()
 
     raise RuntimeError(
-        "Grok returned a response but no text could be extracted."
+        "Groq returned a response but no text could be extracted."
     )

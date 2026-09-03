@@ -39,9 +39,11 @@ class TestCarouselRenderer(unittest.TestCase):
             with self.assertRaises(ValueError):
                 renderer.render_carousel(carousel, Path(temp_dir))
 
-    def test_renderer_uses_gamerquest_yellow_and_orange_palette(self):
-        self.assertEqual(renderer.GQ_YELLOW, (255, 204, 0))
-        self.assertEqual(renderer.GQ_ORANGE, (255, 111, 0))
+    def test_renderer_uses_gamerquest_purple_blue_palette(self):
+        self.assertEqual(renderer.GQ_PURPLE, (124, 58, 237))
+        self.assertEqual(renderer.GQ_BLUE, (56, 189, 248))
+        self.assertFalse(hasattr(renderer, "GQ_YELLOW"))
+        self.assertFalse(hasattr(renderer, "GQ_ORANGE"))
 
     def test_render_slide_uses_featured_image_when_available(self):
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -56,7 +58,6 @@ class TestCarouselRenderer(unittest.TestCase):
                 featured_image=str(source_path),
             )
             with Image.open(output_path) as image:
-                # Center must contain source-image influence, not the flat fallback background.
                 center = image.getpixel((540, 675))
                 self.assertNotEqual(center, renderer.BG)
 

@@ -36,6 +36,7 @@ def call_grok(prompt):
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "User-Agent": "GamerQuest-Social/1.0",
         },
         method="POST",
     )

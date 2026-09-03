@@ -13,7 +13,7 @@ MAX_IMAGES = 3
 
 
 # =========================================================
-# HELPERS
+# BASIC HELPERS
 # =========================================================
 
 def _clean_text(value):
@@ -36,6 +36,10 @@ def _tokens(value):
     }
 
 
+# =========================================================
+# IMAGE HELPERS
+# =========================================================
+
 def _looks_like_image(value):
     if not isinstance(value, str):
         return False
@@ -46,7 +50,10 @@ def _looks_like_image(value):
         return False
 
     if value.startswith(
-        ("http://", "https://")
+        (
+            "http://",
+            "https://",
+        )
     ):
         return True
 
@@ -61,8 +68,21 @@ def _looks_like_image(value):
 
 
 def _append_image(images, value):
+    """
+    Add image URLs/paths without duplicates.
+
+    Supports:
+    - string
+    - list
+    - dictionary
+    """
+
     if not value:
         return
+
+    # -----------------------------------------------------
+    # STRING
+    # -----------------------------------------------------
 
     if isinstance(value, str):
         value = value.strip()
@@ -75,13 +95,22 @@ def _append_image(images, value):
 
         return
 
+    # -----------------------------------------------------
+    # LIST
+    # -----------------------------------------------------
+
     if isinstance(value, list):
         for item in value:
             _append_image(
                 images,
                 item,
             )
+
         return
+
+    # -----------------------------------------------------
+    # DICTIONARY
+    # -----------------------------------------------------
 
     if isinstance(value, dict):
         possible_keys = (
@@ -142,6 +171,10 @@ def _carousel_search_text(carousel):
     )
 
 
+# =========================================================
+# CONTENT SEARCH TEXT
+# =========================================================
+
 def _content_search_text(item):
     if not isinstance(item, dict):
         return ""
@@ -171,10 +204,13 @@ def _content_search_text(item):
 
 
 # =========================================================
-# MATCH CONTENT
+# CONTENT MATCHING
 # =========================================================
 
-def _match_score(carousel, item):
+def _match_score(
+    carousel,
+    item,
+):
     carousel_tokens = _tokens(
         _carousel_search_text(
             carousel
@@ -208,6 +244,7 @@ def _match_score(carousel, item):
         item.get("title")
     ).lower()
 
+    # Strong topic/title match
     if topic and title:
         if topic in title:
             score += 50
@@ -215,6 +252,7 @@ def _match_score(carousel, item):
         if title in topic:
             score += 30
 
+    # Hook overlap
     hook = _clean_text(
         carousel.get("hook")
     ).lower()
@@ -235,6 +273,11 @@ def find_best_content(
     carousel,
     content,
 ):
+    """
+    Find the GamerQuest content item that best matches
+    the carousel topic.
+    """
+
     if not isinstance(content, list):
         return None
 
@@ -268,16 +311,24 @@ def find_best_content(
 
 
 # =========================================================
-# IMAGE EXTRACTION
+# COLLECT IMAGES FROM ONE CONTENT ITEM
 # =========================================================
 
 def collect_item_images(item):
+    """
+    Collect every usable image from a GamerQuest
+    article/deal/content item.
+    """
+
     if not isinstance(item, dict):
         return []
 
     images = []
 
-    # Main/featured images first.
+    # -----------------------------------------------------
+    # PRIMARY IMAGE FIELDS
+    # -----------------------------------------------------
+
     preferred_fields = (
         "featured_image_url",
         "featured_image",
@@ -295,7 +346,10 @@ def collect_item_images(item):
             item.get(field),
         )
 
-    # Additional images.
+    # -----------------------------------------------------
+    # GALLERY / ADDITIONAL IMAGE FIELDS
+    # -----------------------------------------------------
+
     gallery_fields = (
         "images",
         "gallery",
@@ -316,9 +370,9 @@ def collect_item_images(item):
 
 
 # =========================================================
-# BACKWARD-COMPATIBLE FUNCTION
+# BACKWARD COMPATIBILITY
 #
-# Existing tests call this function directly.
+# Existing renderer tests use this function.
 # DO NOT REMOVE.
 # =========================================================
 
@@ -326,6 +380,13 @@ def find_featured_image_url(
     carousel,
     content=None,
 ):
+    """
+    Return the primary featured image for the carousel.
+
+    This function is preserved because existing tests and
+    previous GamerQuest code depend on it.
+    """
+
     if content is None:
         content = get_all_content()
 
@@ -348,7 +409,7 @@ def find_featured_image_url(
 
 
 # =========================================================
-# RELATED IMAGE SEARCH
+# FIND MULTIPLE RELATED IMAGES
 # =========================================================
 
 def find_related_images(
@@ -358,14 +419,17 @@ def find_related_images(
     limit=MAX_IMAGES,
 ):
     """
-    Return up to 3 unique images.
+    Find up to 3 different images for the carousel.
 
     Priority:
-    1. Images belonging to the exact matched article.
-    2. Images from other GamerQuest content strongly related
-       to the same game/topic.
-    3. If fewer than 3 are found, renderer.py reuses the
-       available image with different crops.
+
+    1. Featured image of exact article.
+    2. Additional images from exact article.
+    3. Images from closely related GamerQuest articles
+       about the same game/topic.
+
+    If only one image exists, renderer.py will automatically
+    create different crops/zoom positions for each slide.
     """
 
     if not isinstance(content, list):
@@ -382,9 +446,10 @@ def find_related_images(
 
     images = []
 
-    # -----------------------------------------------------
-    # 1. Exact article
-    # -----------------------------------------------------
+    # =====================================================
+    # STEP 1
+    # IMAGES FROM EXACT MATCHED ARTICLE
+    # =====================================================
 
     for image in collect_item_images(
         matched_item
@@ -395,9 +460,10 @@ def find_related_images(
         if len(images) >= limit:
             return images[:limit]
 
-    # -----------------------------------------------------
-    # 2. Related GamerQuest articles
-    # -----------------------------------------------------
+    # =====================================================
+    # STEP 2
+    # FIND RELATED GAMERQUEST ARTICLES
+    # =====================================================
 
     matched_title_tokens = _tokens(
         matched_item.get("title")
@@ -432,19 +498,20 @@ def find_related_images(
             item.get("title")
         )
 
-        # General topical overlap.
+        # General carousel/article overlap
         general_overlap = len(
             carousel_tokens
             & item_tokens
         )
 
-        # Stronger signal: same game/name appears in titles.
+        # Strong signal:
+        # same words in both article titles
         title_overlap = len(
             matched_title_tokens
             & item_title_tokens
         )
 
-        # Topic explicitly overlaps this article.
+        # Explicit carousel topic overlap
         topic_overlap = len(
             topic_tokens
             & item_tokens
@@ -470,10 +537,16 @@ def find_related_images(
             )
         )
 
+    # Best related content first
     related.sort(
         key=lambda pair: pair[0],
         reverse=True,
     )
+
+    # =====================================================
+    # STEP 3
+    # COLLECT UNIQUE RELATED IMAGES
+    # =====================================================
 
     for _, item in related:
         for image in collect_item_images(
@@ -491,30 +564,48 @@ def find_related_images(
 
 
 # =========================================================
-# VALIDATION
+# LOAD SOCIAL OUTPUT
+# =========================================================
+
+def load_social_output(
+    output_file=OUTPUT_FILE,
+):
+    output_file = Path(
+        output_file
+    )
+
+    if not output_file.exists():
+        raise RuntimeError(
+            "social-output.json was not found."
+        )
+
+    with output_file.open(
+        "r",
+        encoding="utf-8",
+    ) as file:
+        payload = json.load(file)
+
+    return payload
+
+
+# =========================================================
+# VALIDATE READY CAROUSEL
+#
+# Kept for compatibility with any other code that imports
+# this helper directly.
 # =========================================================
 
 def _extract_carousel(payload):
-    """
-    Supports the current ready payload as well as the
-    fact-check structure used by the existing tests.
-    """
-
     if not isinstance(payload, dict):
         raise RuntimeError(
             "social-output.json must contain a JSON object."
         )
 
-    status = payload.get(
-        "status"
-    )
-
-    if status != "ready":
+    if payload.get("status") != "ready":
         raise RuntimeError(
             "Social output is not ready for rendering."
         )
 
-    # If fact_checked exists explicitly, it must be true.
     if (
         "fact_checked" in payload
         and payload.get("fact_checked") is not True
@@ -551,52 +642,109 @@ def _extract_carousel(payload):
 
 
 # =========================================================
-# LOAD OUTPUT
-# =========================================================
-
-def load_social_output(
-    output_file=OUTPUT_FILE,
-):
-    output_file = Path(
-        output_file
-    )
-
-    if not output_file.exists():
-        raise RuntimeError(
-            "social-output.json was not found."
-        )
-
-    with output_file.open(
-        "r",
-        encoding="utf-8",
-    ) as file:
-        payload = json.load(file)
-
-    return payload
-
-
-# =========================================================
-# RENDER FROM OUTPUT
+# RENDER FROM SOCIAL OUTPUT
 # =========================================================
 
 def render_from_output(
     output_file=OUTPUT_FILE,
     output_dir=OUTPUT_DIR,
 ):
+    # =====================================================
+    # LOAD PAYLOAD
+    # =====================================================
+
     payload = load_social_output(
         output_file
     )
 
-    carousel = _extract_carousel(
-        payload
+    # =====================================================
+    # INVALID PAYLOAD
+    #
+    # Do not crash GitHub Actions.
+    # Return a skipped result instead.
+    # =====================================================
+
+    if not isinstance(payload, dict):
+        return {
+            "status": "skipped",
+            "reason": "invalid_payload",
+        }
+
+    # =====================================================
+    # NOT READY
+    # =====================================================
+
+    if payload.get("status") != "ready":
+        return {
+            "status": "skipped",
+            "reason": "not_ready",
+        }
+
+    # =====================================================
+    # NOT FACT-CHECKED
+    # =====================================================
+
+    if (
+        "fact_checked" in payload
+        and payload.get("fact_checked") is not True
+    ):
+        return {
+            "status": "skipped",
+            "reason": "not_fact_checked",
+        }
+
+    # =====================================================
+    # GET CAROUSEL
+    # =====================================================
+
+    carousel = payload.get(
+        "carousel"
     )
 
+    if not isinstance(
+        carousel,
+        dict,
+    ):
+        return {
+            "status": "skipped",
+            "reason": "missing_carousel",
+        }
+
+    # =====================================================
+    # CHECK EXACTLY 3 SLIDES
+    # =====================================================
+
+    slides = carousel.get(
+        "slides"
+    )
+
+    if (
+        not isinstance(slides, list)
+        or len(slides) != 3
+    ):
+        return {
+            "status": "skipped",
+            "reason": "invalid_slide_count",
+        }
+
+    # =====================================================
+    # LOAD GAMERQUEST CONTENT
+    # =====================================================
+
     content = get_all_content()
+
+    # =====================================================
+    # FIND MATCHED ARTICLE
+    # =====================================================
 
     matched_item = find_best_content(
         carousel,
         content,
     )
+
+    # =====================================================
+    # FIND UP TO 3 DIFFERENT IMAGES
+    # =====================================================
 
     featured_images = find_related_images(
         carousel,
@@ -605,18 +753,16 @@ def render_from_output(
         limit=3,
     )
 
-    # -----------------------------------------------------
-    # BACKWARD COMPATIBILITY
-    #
-    # The old renderer/tests expect a single featured image.
-    # The new renderer can additionally receive multiple.
-    # -----------------------------------------------------
-
+    # Primary image kept for backward compatibility
     featured_image = (
         featured_images[0]
         if featured_images
         else None
     )
+
+    # =====================================================
+    # LOG IMAGE SELECTION
+    # =====================================================
 
     print(
         "Social renderer status: rendered"
@@ -636,6 +782,10 @@ def render_from_output(
             f"{image}"
         )
 
+    # =====================================================
+    # RENDER THE 3 SLIDES
+    # =====================================================
+
     paths = render_carousel(
         carousel,
         output_dir,
@@ -644,7 +794,8 @@ def render_from_output(
     )
 
     print(
-        f"Rendered slides: {len(paths)}"
+        f"Rendered slides: "
+        f"{len(paths)}"
     )
 
     if featured_image:
@@ -657,12 +808,13 @@ def render_from_output(
             "Featured image: none"
         )
 
-    # -----------------------------------------------------
-    # MANIFEST
+    # =====================================================
+    # CREATE MANIFEST
     #
-    # Keep old fields so tests/workflows don't break.
-    # Add featured_images for new functionality.
-    # -----------------------------------------------------
+    # IMPORTANT:
+    # Keep original fields for old tests/workflows.
+    # Add featured_images for new multi-image behavior.
+    # =====================================================
 
     manifest = {
         "status": "rendered",
@@ -704,16 +856,26 @@ def render_from_output(
             ),
         ),
 
-        # Old compatibility field
+        # ---------------------------------------------
+        # OLD FIELD
+        # ---------------------------------------------
+
         "featured_image": (
             featured_image
         ),
 
-        # New multi-image field
+        # ---------------------------------------------
+        # NEW FIELD
+        # ---------------------------------------------
+
         "featured_images": (
             featured_images
         ),
     }
+
+    # =====================================================
+    # SAVE MANIFEST
+    # =====================================================
 
     output_dir = Path(
         output_dir

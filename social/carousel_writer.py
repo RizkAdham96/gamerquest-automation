@@ -42,6 +42,26 @@ def normalize_slides(slides):
     return cleaned[:CAROUSEL_MAX_SLIDES]
 
 
+def normalize_hashtags(hashtags):
+    if not isinstance(hashtags, list):
+        return []
+
+    cleaned = []
+
+    for hashtag in hashtags:
+        text = clean_text(hashtag)
+        if not text:
+            continue
+
+        if not text.startswith("#"):
+            text = f"#{text.replace(' ', '')}"
+
+        if text not in cleaned:
+            cleaned.append(text)
+
+    return cleaned[:6]
+
+
 def build_carousel(idea):
     if not isinstance(idea, dict):
         return None
@@ -60,6 +80,7 @@ def build_carousel(idea):
         "slides": slides,
         "caption": clean_text(idea.get("caption")),
         "cta": clean_text(idea.get("cta")),
+        "hashtags": normalize_hashtags(idea.get("hashtags", [])),
         "website_url": WEBSITE_URL,
         "brand": BRAND_NAME,
     }

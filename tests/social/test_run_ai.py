@@ -10,7 +10,7 @@ class TestSocialAIRunner(unittest.TestCase):
         self.assertEqual(run.build_candidate_ideas(content),expected); mock_generate_ideas.assert_called_once_with(content)
 
     def test_extract_text_reads_groq_chat_completion(self):
-        self.assertEqual(ai_client.extract_text({"choices":[{"message":{"role":"assistant","content":"Five original GamerQuest carousel ideas"}}]}),"Five original GamerQuest carousel ideas")
+        self.assertEqual(ai_client.extract_text({"choices":[{"message":{"role":"assistant","content":"Three original GamerQuest carousel ideas"}}]}),"Three original GamerQuest carousel ideas")
 
     @patch.dict("os.environ",{"GROQ_API_KEY":"test-key"})
     @patch("social.ai_client.urllib.request.urlopen")
@@ -33,10 +33,11 @@ class TestSocialAIRunner(unittest.TestCase):
         carousel=carousel_writer.build_carousel(idea); self.assertEqual(carousel["caption"],"Caption"); self.assertEqual(carousel["hashtags"],["#GamerQuest","#GamingNews"])
 
     @patch("social.idea_generator.call_grok")
-    def test_generate_ideas_requests_only_compact_concepts(self,mock_call):
-        mock_call.return_value='[{"topic":"A","angle":"B","format":"ranking","hook":"C","freshness":8,"click_potential":8,"curiosity":8,"shareability":8,"originality":8,"gamerquest_relevance":8}]'
-        self.assertEqual(len(idea_generator.generate_ideas([{"title":"Article","source_type":"news"}])),1)
-        prompt=mock_call.call_args.args[0]; self.assertNotIn('"slides"',prompt); self.assertNotIn('"caption"',prompt)
+    def test_generate_ideas_limits_concepts_to_three(self,mock_call):
+        mock_call.return_value='[{"topic":"A"},{"topic":"B"},{"topic":"C"},{"topic":"D"},{"topic":"E"}]'
+        ideas=idea_generator.generate_ideas([{"title":"Article","source_type":"news"}])
+        self.assertEqual(len(ideas),3)
+        self.assertIn("exactly 3",mock_call.call_args.args[0].lower())
 
     @patch("social.idea_generator.call_grok")
     def test_expand_idea_generates_complete_carousel_package(self,mock_call):

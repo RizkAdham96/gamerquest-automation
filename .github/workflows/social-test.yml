@@ -25,7 +25,7 @@ jobs:
       - name: Run real Groq social generation
         env:
           PYTHONPATH: .
-          SOCIAL_GROQ_API_KEY: ${{ secrets.SOCIAL_GROQ_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python -m social.run
 

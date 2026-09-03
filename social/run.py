@@ -294,10 +294,9 @@ def run():
     # 3. GENERATE 3 SOCIAL IDEAS
     # =====================================================
 
-    ideas = generate_ideas(
-        content,
-        history=history,
-    )
+   ideas = generate_ideas(
+    content
+)
 
     print(
         f"Candidate ideas generated: "

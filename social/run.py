@@ -1,3 +1,4 @@
+import inspect
 import json
 import time
 from pathlib import Path
@@ -17,19 +18,23 @@ from social.history import (
 )
 
 
+# =========================================================
+# CONFIG
+# =========================================================
+
 OUTPUT_FILE = Path("social-output.json")
 
 MIN_SOCIAL_SCORE = 60
 
-# Groq pacing
+# Groq Free Plan pacing
 GROQ_WAIT_SECONDS = 25
 
-# Allow up to 2 repair attempts total
+# First repair + one extra repair attempt
 MAX_REPAIR_ATTEMPTS = 2
 
 
 # =========================================================
-# HELPERS
+# OUTPUT
 # =========================================================
 
 def _write_output(payload):
@@ -45,6 +50,10 @@ def _write_output(payload):
         )
 
 
+# =========================================================
+# GROQ PACING
+# =========================================================
+
 def _sleep_before(label):
     print(
         f"Groq pacing: waiting "
@@ -57,15 +66,29 @@ def _sleep_before(label):
     )
 
 
+# =========================================================
+# FACT-CHECK HELPERS
+# =========================================================
+
 def _fact_check_passed(result):
+    """
+    Support the different valid/pass field names that may
+    exist in idea_generator.py.
+    """
+
     if not isinstance(result, dict):
         return False
 
-    return bool(
-        result.get("valid")
-        or result.get("passed")
-        or result.get("supported")
-    )
+    if result.get("valid") is True:
+        return True
+
+    if result.get("passed") is True:
+        return True
+
+    if result.get("supported") is True:
+        return True
+
+    return False
 
 
 def _unsupported_claims(result):
@@ -95,12 +118,151 @@ def _fact_check_reason(result):
 
 
 # =========================================================
-# MAIN
+# REPAIR COMPATIBILITY
+# =========================================================
+
+def _repair_package(
+    carousel_package,
+    fact_check,
+    content,
+):
+    """
+    Call the existing repair_carousel() while adapting to
+    the parameter names already used in idea_generator.py.
+
+    This avoids breaking the current implementation if its
+    argument names/order are slightly different.
+    """
+
+    signature = inspect.signature(
+        repair_carousel
+    )
+
+    parameter_names = list(
+        signature.parameters.keys()
+    )
+
+    kwargs = {}
+
+    for name in parameter_names:
+        lowered = name.lower()
+
+        # ---------------------------------------------
+        # CAROUSEL / PACKAGE
+        # ---------------------------------------------
+
+        if any(
+            token in lowered
+            for token in (
+                "carousel",
+                "package",
+                "draft",
+            )
+        ):
+            kwargs[name] = carousel_package
+            continue
+
+        # ---------------------------------------------
+        # FACT CHECK / VERIFICATION
+        # ---------------------------------------------
+
+        if any(
+            token in lowered
+            for token in (
+                "fact",
+                "verify",
+                "verification",
+                "check",
+                "unsupported",
+            )
+        ):
+            kwargs[name] = fact_check
+            continue
+
+        # ---------------------------------------------
+        # SOURCE CONTENT
+        # ---------------------------------------------
+
+        if any(
+            token in lowered
+            for token in (
+                "content",
+                "source",
+                "articles",
+                "items",
+            )
+        ):
+            kwargs[name] = content
+            continue
+
+    # If we successfully identified every required
+    # argument, call using keywords.
+    required_parameters = [
+        name
+        for name, parameter
+        in signature.parameters.items()
+        if (
+            parameter.default
+            is inspect.Parameter.empty
+            and parameter.kind
+            in (
+                inspect.Parameter.POSITIONAL_ONLY,
+                inspect.Parameter.POSITIONAL_OR_KEYWORD,
+            )
+        )
+    ]
+
+    if all(
+        name in kwargs
+        for name in required_parameters
+    ):
+        return repair_carousel(
+            **kwargs
+        )
+
+    # -------------------------------------------------
+    # FALLBACK
+    #
+    # Current GamerQuest implementation is expected to
+    # use package + fact check + source content.
+    # -------------------------------------------------
+
+    try:
+        return repair_carousel(
+            carousel_package,
+            fact_check,
+            content,
+        )
+
+    except TypeError:
+        pass
+
+    # Alternative common order.
+    try:
+        return repair_carousel(
+            carousel_package,
+            content,
+            fact_check,
+        )
+
+    except TypeError:
+        pass
+
+    # Some versions may only need package + content.
+    return repair_carousel(
+        carousel_package,
+        content,
+    )
+
+
+# =========================================================
+# MAIN SOCIAL PIPELINE
 # =========================================================
 
 def run():
+
     # =====================================================
-    # LOAD CONTENT
+    # 1. LOAD GAMERQUEST CONTENT
     # =====================================================
 
     content = get_all_content()
@@ -123,13 +285,13 @@ def run():
         return payload
 
     # =====================================================
-    # LOAD HISTORY
+    # 2. LOAD SOCIAL HISTORY
     # =====================================================
 
     history = load_history()
 
     # =====================================================
-    # GENERATE CONCEPTS
+    # 3. GENERATE 3 SOCIAL IDEAS
     # =====================================================
 
     ideas = generate_ideas(
@@ -155,7 +317,7 @@ def run():
         return payload
 
     # =====================================================
-    # SCORE IDEAS
+    # 4. SCORE IDEAS
     # =====================================================
 
     scored = []
@@ -179,7 +341,9 @@ def run():
         reverse=True,
     )
 
-    best_score, best_idea = scored[0]
+    best_score, best_idea = (
+        scored[0]
+    )
 
     print(
         f"Best social idea score: "
@@ -187,7 +351,7 @@ def run():
     )
 
     # =====================================================
-    # SCORE THRESHOLD
+    # 5. MINIMUM QUALITY SCORE
     # =====================================================
 
     if best_score < MIN_SOCIAL_SCORE:
@@ -205,16 +369,36 @@ def run():
         return payload
 
     # =====================================================
-    # EXPAND INTO 3-SLIDE CAROUSEL
+    # 6. CREATE EXACTLY 3 SLIDES
     # =====================================================
 
-    carousel_package = expand_idea(
-        best_idea,
-        content,
+    carousel_package = (
+        expand_idea(
+            best_idea,
+            content,
+        )
     )
 
+    slides = carousel_package.get(
+        "slides",
+        [],
+    )
+
+    if len(slides) != 3:
+        payload = {
+            "status": "skipped",
+            "reason": "invalid_slide_count",
+            "slide_count": len(slides),
+        }
+
+        _write_output(
+            payload
+        )
+
+        return payload
+
     # =====================================================
-    # FIRST FACT-CHECK
+    # 7. FIRST FACT CHECK
     # =====================================================
 
     _sleep_before(
@@ -227,7 +411,22 @@ def run():
     )
 
     # =====================================================
-    # REPAIR LOOP
+    # 8. REPAIR LOOP
+    #
+    # Before:
+    #
+    # fact check
+    # → repair once
+    # → still wrong
+    # → abandon entire post
+    #
+    # Now:
+    #
+    # fact check
+    # → repair 1
+    # → check
+    # → repair 2
+    # → check
     # =====================================================
 
     repair_attempt = 0
@@ -239,80 +438,150 @@ def run():
         and repair_attempt
         < MAX_REPAIR_ATTEMPTS
     ):
+
         repair_attempt += 1
 
-        unsupported = _unsupported_claims(
-            fact_check
+        unsupported = (
+            _unsupported_claims(
+                fact_check
+            )
         )
 
-        reason = _fact_check_reason(
-            fact_check
+        reason = (
+            _fact_check_reason(
+                fact_check
+            )
         )
 
         print(
-            f"Fact-check failed. "
-            f"Repair attempt "
+            ""
+        )
+
+        print(
+            "Fact-check failed."
+        )
+
+        print(
+            f"Repair attempt: "
             f"{repair_attempt}/"
-            f"{MAX_REPAIR_ATTEMPTS}."
+            f"{MAX_REPAIR_ATTEMPTS}"
         )
 
         if unsupported:
             print(
-                "Unsupported claims: "
-                + " | ".join(
-                    str(claim)
-                    for claim in unsupported
-                )
+                "Unsupported claims:"
             )
+
+            for claim in unsupported:
+                print(
+                    f"- {claim}"
+                )
 
         if reason:
             print(
-                "Fact-check reason: "
-                + reason
+                "Fact-check reason:"
             )
+
+            print(
+                reason
+            )
+
+        # -------------------------------------------------
+        # WAIT BEFORE GROQ REPAIR
+        # -------------------------------------------------
 
         _sleep_before(
             f"repair {repair_attempt}"
         )
 
-        # Give repair_carousel the current package
-        # and the exact failed fact-check so Groq can
-        # correct only the unsupported statements.
-        carousel_package = repair_carousel(
-            carousel_package,
-            fact_check,
-            content,
+        # -------------------------------------------------
+        # TARGETED REPAIR
+        # -------------------------------------------------
+
+        carousel_package = (
+            _repair_package(
+                carousel_package,
+                fact_check,
+                content,
+            )
         )
+
+        repaired_slides = (
+            carousel_package.get(
+                "slides",
+                [],
+            )
+        )
+
+        # Never allow repair to change 3-slide format.
+        if len(repaired_slides) != 3:
+            payload = {
+                "status": "skipped",
+                "reason":
+                    "repair_changed_slide_count",
+                "repair_attempt":
+                    repair_attempt,
+                "slide_count":
+                    len(repaired_slides),
+            }
+
+            _write_output(
+                payload
+            )
+
+            return payload
+
+        # -------------------------------------------------
+        # WAIT BEFORE RECHECK
+        # -------------------------------------------------
 
         _sleep_before(
             f"fact-check after repair "
             f"{repair_attempt}"
         )
 
+        # -------------------------------------------------
+        # FACT CHECK REPAIRED VERSION
+        # -------------------------------------------------
+
         fact_check = verify_carousel(
             carousel_package,
             content,
         )
 
+        if _fact_check_passed(
+            fact_check
+        ):
+            print(
+                f"Carousel repair "
+                f"{repair_attempt} "
+                f"passed fact-check."
+            )
+
     # =====================================================
-    # STILL FAILED AFTER 2 REPAIRS
+    # 9. STILL UNSUPPORTED AFTER 2 REPAIRS
     # =====================================================
 
     if not _fact_check_passed(
         fact_check
     ):
+
         payload = {
             "status": "skipped",
+
             "reason":
                 "unsupported_claims_after_repair",
+
             "unsupported_claims":
                 _unsupported_claims(
                     fact_check
                 ),
+
             "fact_check_reason":
                 _fact_check_reason(
                     fact_check
                 ),
+
             "repair_attempts":
                 repair_attempt,
         }
@@ -322,23 +591,50 @@ def run():
         )
 
         print(
-            "Social carousel skipped: "
-            "unsupported claims remained "
-            "after repair attempts."
+            ""
+        )
+
+        print(
+            "Social carousel skipped."
+        )
+
+        print(
+            "Unsupported claims remained "
+            "after both repair attempts."
         )
 
         return payload
 
     # =====================================================
-    # BUILD FINAL CAROUSEL
+    # 10. BUILD FINAL CAROUSEL
     # =====================================================
 
     carousel = build_carousel(
         carousel_package
     )
 
+    final_slides = carousel.get(
+        "slides",
+        [],
+    )
+
+    if len(final_slides) != 3:
+        payload = {
+            "status": "skipped",
+            "reason":
+                "final_carousel_invalid_slide_count",
+            "slide_count":
+                len(final_slides),
+        }
+
+        _write_output(
+            payload
+        )
+
+        return payload
+
     # =====================================================
-    # SAVE HISTORY
+    # 11. SAVE SOCIAL HISTORY
     # =====================================================
 
     history_entry = {
@@ -349,6 +645,7 @@ def run():
                 "",
             ),
         ),
+
         "hook": carousel.get(
             "hook",
             best_idea.get(
@@ -356,6 +653,7 @@ def run():
                 "",
             ),
         ),
+
         "angle": carousel.get(
             "angle",
             best_idea.get(
@@ -363,6 +661,7 @@ def run():
                 "",
             ),
         ),
+
         "score": best_score,
     }
 
@@ -375,32 +674,45 @@ def run():
     )
 
     # =====================================================
-    # READY OUTPUT
+    # 12. READY FOR RENDERER
     # =====================================================
 
     payload = {
         "status": "ready",
+
         "fact_checked": True,
+
         "score": best_score,
+
         "idea": best_idea,
+
         "carousel": carousel,
+
         "caption": carousel.get(
             "caption",
             "",
         ),
+
         "hashtags": carousel.get(
             "hashtags",
             [],
         ),
+
         "cta": carousel.get(
             "cta",
             "",
         ),
-        "repair_attempts": repair_attempt,
+
+        "repair_attempts":
+            repair_attempt,
     }
 
     _write_output(
         payload
+    )
+
+    print(
+        ""
     )
 
     print(

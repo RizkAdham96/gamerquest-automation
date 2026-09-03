@@ -21,3 +21,18 @@ jobs:
           PYTHONPATH: .
         run: |
           python tests/social/test_run_ai.py
+
+      - name: Run real Groq social generation
+        env:
+          PYTHONPATH: .
+          SOCIAL_GROQ_API_KEY: ${{ secrets.SOCIAL_GROQ_API_KEY }}
+        run: |
+          python -m social.run
+
+      - name: Upload social output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gamerquest-social-output
+          path: social-output.json
+          if-no-files-found: warn

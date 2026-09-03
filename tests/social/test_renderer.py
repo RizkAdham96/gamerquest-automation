@@ -41,17 +41,23 @@ class TestCarouselRenderer(unittest.TestCase):
                 renderer.render_carousel(carousel, Path(temp_dir))
 
     def test_renderer_uses_exact_gamerquest_site_palette(self):
-        # Sampled from the live GamerQuest FR homepage supplied by the owner.
         self.assertEqual(renderer.GQ_BLUE, (76, 141, 255))
         self.assertEqual(renderer.GQ_PURPLE, (159, 79, 255))
         self.assertEqual(renderer.BG, (5, 8, 15))
 
-    def test_renderer_uses_real_logo_bitmap_not_fake_text_badge(self):
+    def test_renderer_uses_uploaded_real_logo(self):
         raw = base64.b64decode(renderer.BRAND_LOGO_PNG_BASE64)
         self.assertGreater(len(raw), 1000)
         logo = renderer._load_brand_logo()
         self.assertIsNotNone(logo)
-        self.assertGreater(logo.width, logo.height)
+        self.assertLess(abs(logo.width - logo.height), max(logo.width, logo.height) * 0.1)
+
+    def test_logo_is_only_used_on_first_and_last_slide(self):
+        self.assertTrue(renderer._should_show_logo(1, 5))
+        self.assertFalse(renderer._should_show_logo(2, 5))
+        self.assertFalse(renderer._should_show_logo(3, 5))
+        self.assertFalse(renderer._should_show_logo(4, 5))
+        self.assertTrue(renderer._should_show_logo(5, 5))
 
     def test_render_slide_uses_featured_image_when_available(self):
         with tempfile.TemporaryDirectory() as temp_dir:

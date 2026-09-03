@@ -2,7 +2,7 @@ import json
 from social.ai_client import call_grok
 from social.config import SOCIAL_FORMATS
 from social.history import get_recent_history
-MAX_CONTENT_ITEMS=10; MAX_EXCERPT_CHARS=500; MAX_PROMPT_CHARS=16000; RECENT_HISTORY_ITEMS=8
+MAX_CONTENT_ITEMS=10; MAX_EXCERPT_CHARS=500; MAX_PROMPT_CHARS=16000; RECENT_HISTORY_ITEMS=8; CONCEPT_COUNT=3
 
 def _clean_text(value,limit=None):
     text="" if value is None else str(value).strip(); return text[:limit] if limit is not None else text
@@ -31,7 +31,7 @@ def parse_json_response(raw_response):
     except json.JSONDecodeError as error: raise RuntimeError(f"AI returned invalid JSON: {error}") from error
 def build_prompt(content):
     history=[_compact_history_item(x) for x in get_recent_history(RECENT_HISTORY_ITEMS) if isinstance(x,dict)]; sample=prepare_content_for_ai(content)
-    return _safe_prompt(f'''Create exactly 5 DIFFERENT compact GamerQuest.fr carousel CONCEPTS designed to drive website visits. Use only supplied facts; never invent facts. Avoid recent topics/hooks/angles/formats/CTAs. Do NOT write slides/captions/hashtags/visual prompts yet. Allowed formats: {json.dumps(SOCIAL_FORMATS,ensure_ascii=False)} Recent history: {json.dumps(history,ensure_ascii=False)} Content: {json.dumps(sample,ensure_ascii=False)} Return ONLY JSON array objects with topic, angle, format, hook and integer 0-10 scores freshness, click_potential, curiosity, shareability, originality, gamerquest_relevance.''')
+    return _safe_prompt(f'''Create exactly {CONCEPT_COUNT} DIFFERENT compact GamerQuest.fr carousel CONCEPTS designed to drive website visits. Use only supplied facts; never invent facts. Avoid recent topics/hooks/angles/formats/CTAs. Do NOT write slides/captions/hashtags/visual prompts yet. Allowed formats: {json.dumps(SOCIAL_FORMATS,ensure_ascii=False)} Recent history: {json.dumps(history,ensure_ascii=False)} Content: {json.dumps(sample,ensure_ascii=False)} Return ONLY JSON array objects with topic, angle, format, hook and integer 0-10 scores freshness, click_potential, curiosity, shareability, originality, gamerquest_relevance.''')
 def build_expansion_prompt(idea,content):
     sample=prepare_content_for_ai(content); base={k:idea.get(k) for k in ("topic","angle","format","hook")}
     return _safe_prompt(f'''Create final Instagram/Facebook carousel for GamerQuest.fr. Concept: {json.dumps(base,ensure_ascii=False)} Sources: {json.dumps(sample,ensure_ascii=False)} STRICT: every factual statement must be explicitly supported. Never infer platforms, multiplayer, dates, prices, future pricing, features, compatibility or availability. Exactly 5 concise slides, caption, CTA, 3-6 hashtags, visual prompt per slide. Return ONLY JSON: {{"slides":[{{"title":"...","body":"...","visual_prompt":"..."}}],"caption":"...","cta":"...","hashtags":["#GamerQuest"]}}''')
@@ -39,7 +39,7 @@ def generate_ideas(content):
     if not content:return []
     data=parse_json_response(call_grok(build_prompt(content)))
     if not isinstance(data,list):raise RuntimeError("AI response must be a JSON array.")
-    return data[:5]
+    return data[:CONCEPT_COUNT]
 def expand_idea(idea,content):
     if not isinstance(idea,dict):return None
     data=parse_json_response(call_grok(build_expansion_prompt(idea,content)))

@@ -1,4 +1,6 @@
+import io
 import unittest
+import urllib.error
 from unittest.mock import patch
 from social import ai_client, carousel_writer, idea_generator, run
 
@@ -18,6 +20,20 @@ class TestSocialAIRunner(unittest.TestCase):
         mock_response=mock_urlopen.return_value.__enter__.return_value; mock_response.read.return_value=b'{"choices":[{"message":{"content":"ok"}}]}'
         ai_client.call_grok("test prompt"); request=mock_urlopen.call_args.args[0]
         self.assertEqual(request.get_header("User-agent"),"GamerQuest-Social/1.0")
+
+    @patch.dict("os.environ",{"GROQ_API_KEY":"test-key"})
+    @patch("social.ai_client.time.sleep")
+    @patch("social.ai_client.urllib.request.urlopen")
+    def test_groq_429_waits_and_retries_once(self,mock_urlopen,mock_sleep):
+        body=b'{"error":{"message":"Rate limit reached. Please try again in 3.6525s.","type":"tokens","code":"rate_limit_exceeded"}}'
+        error=urllib.error.HTTPError(ai_client.GROQ_API_URL,429,"Too Many Requests",{},io.BytesIO(body))
+        success=unittest.mock.MagicMock()
+        success.__enter__.return_value.read.return_value=b'{"choices":[{"message":{"content":"recovered"}}]}'
+        mock_urlopen.side_effect=[error,success]
+        self.assertEqual(ai_client.call_grok("test prompt"),"recovered")
+        self.assertEqual(mock_urlopen.call_count,2)
+        mock_sleep.assert_called_once()
+        self.assertGreaterEqual(mock_sleep.call_args.args[0],3.6525)
 
     def test_prepare_content_limits_ai_input_to_ten_compact_items(self):
         content=[{"title":f"Article {i}","excerpt":"x"*2000,"content":"body"*500,"slug":f"article-{i}","source_type":"news","created_at":f"2026-09-{i+1:02d}T10:00:00+00:00"} for i in range(15)]

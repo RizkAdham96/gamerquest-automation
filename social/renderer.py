@@ -6,12 +6,12 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 WIDTH = 1080
 HEIGHT = 1350
-BG = (7, 8, 11)
-PANEL = (15, 17, 22)
-WHITE = (250, 250, 250)
-MUTED = (202, 205, 212)
-GQ_YELLOW = (255, 204, 0)
-GQ_ORANGE = (255, 111, 0)
+BG = (7, 10, 22)
+PANEL = (17, 22, 43)
+WHITE = (250, 250, 252)
+MUTED = (202, 207, 220)
+GQ_PURPLE = (124, 58, 237)
+GQ_BLUE = (56, 189, 248)
 SAFE_X = 84
 
 
@@ -96,7 +96,6 @@ def _image_background(featured_image, index):
         centering=(0.5, 0.5),
     )
 
-    # Alternate composition while retaining the same source artwork.
     if index % 3 == 2:
         canvas = canvas.crop((0, 0, WIDTH, HEIGHT)).resize((WIDTH, HEIGHT))
     elif index % 3 == 0:
@@ -109,20 +108,20 @@ def _apply_brand_overlay(image, index):
     overlay = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
 
-    # Strong dark gradient-like blocks preserve the game art while keeping text readable.
-    draw.rectangle((0, 0, WIDTH, HEIGHT), fill=(4, 5, 8, 92))
+    # GamerQuest FR: deep navy/black foundation with neon purple + electric blue accents.
+    draw.rectangle((0, 0, WIDTH, HEIGHT), fill=(5, 7, 18, 94))
     if index % 3 == 1:
-        draw.rectangle((0, 0, 760, HEIGHT), fill=(5, 6, 9, 185))
-        draw.rectangle((0, 0, 18, HEIGHT), fill=GQ_YELLOW + (255,))
-        draw.rectangle((18, 0, 26, HEIGHT), fill=GQ_ORANGE + (255,))
+        draw.rectangle((0, 0, 760, HEIGHT), fill=(7, 9, 24, 188))
+        draw.rectangle((0, 0, 18, HEIGHT), fill=GQ_PURPLE + (255,))
+        draw.rectangle((18, 0, 26, HEIGHT), fill=GQ_BLUE + (255,))
     elif index % 3 == 2:
-        draw.rectangle((0, 700, WIDTH, HEIGHT), fill=(5, 6, 9, 220))
-        draw.rectangle((70, 748, 340, 760), fill=GQ_YELLOW + (255,))
-        draw.rectangle((340, 748, 460, 760), fill=GQ_ORANGE + (255,))
+        draw.rectangle((0, 700, WIDTH, HEIGHT), fill=(7, 9, 24, 222))
+        draw.rectangle((70, 748, 340, 760), fill=GQ_PURPLE + (255,))
+        draw.rectangle((340, 748, 460, 760), fill=GQ_BLUE + (255,))
     else:
-        draw.rectangle((0, 0, WIDTH, 650), fill=(5, 6, 9, 200))
-        draw.rectangle((70, 110, 250, 124), fill=GQ_YELLOW + (255,))
-        draw.rectangle((250, 110, 330, 124), fill=GQ_ORANGE + (255,))
+        draw.rectangle((0, 0, WIDTH, 650), fill=(7, 9, 24, 204))
+        draw.rectangle((70, 110, 250, 124), fill=GQ_PURPLE + (255,))
+        draw.rectangle((250, 110, 330, 124), fill=GQ_BLUE + (255,))
 
     return Image.alpha_composite(image.convert("RGBA"), overlay).convert("RGB")
 
@@ -131,18 +130,18 @@ def _fallback_background(index):
     image = Image.new("RGB", (WIDTH, HEIGHT), BG)
     draw = ImageDraw.Draw(image)
     if index % 3 == 1:
-        draw.rectangle((0, 0, 18, HEIGHT), fill=GQ_YELLOW)
-        draw.rectangle((18, 0, 26, HEIGHT), fill=GQ_ORANGE)
+        draw.rectangle((0, 0, 18, HEIGHT), fill=GQ_PURPLE)
+        draw.rectangle((18, 0, 26, HEIGHT), fill=GQ_BLUE)
         draw.rounded_rectangle((620, 90, 1045, 630), radius=60, fill=PANEL)
     elif index % 3 == 2:
-        draw.polygon([(0, 0), (WIDTH, 0), (WIDTH, 350), (0, 610)], fill=(13, 15, 20))
+        draw.polygon([(0, 0), (WIDTH, 0), (WIDTH, 350), (0, 610)], fill=(12, 16, 34))
         draw.rounded_rectangle((70, 800, 1010, 1215), radius=48, fill=PANEL)
-        draw.rectangle((70, 770, 300, 784), fill=GQ_YELLOW)
-        draw.rectangle((300, 770, 400, 784), fill=GQ_ORANGE)
+        draw.rectangle((70, 770, 300, 784), fill=GQ_PURPLE)
+        draw.rectangle((300, 770, 400, 784), fill=GQ_BLUE)
     else:
-        draw.polygon([(670, 0), (WIDTH, 0), (WIDTH, 820), (880, 620)], fill=(13, 15, 20))
-        draw.rectangle((70, 110, 235, 124), fill=GQ_YELLOW)
-        draw.rectangle((235, 110, 305, 124), fill=GQ_ORANGE)
+        draw.polygon([(670, 0), (WIDTH, 0), (WIDTH, 820), (880, 620)], fill=(12, 16, 34))
+        draw.rectangle((70, 110, 235, 124), fill=GQ_PURPLE)
+        draw.rectangle((235, 110, 305, 124), fill=GQ_BLUE)
     return image
 
 
@@ -159,8 +158,10 @@ def render_slide(slide, index, total, output_path, featured_image=None):
     title_font = _font(72 if index == 1 else 62, bold=True)
     body_font = _font(36)
 
-    draw.rounded_rectangle((SAFE_X - 18, 42, SAFE_X + 236, 104), radius=20, fill=(7, 8, 11,))
-    draw.text((SAFE_X, 58), "GAMERQUEST", font=brand_font, fill=GQ_YELLOW)
+    draw.rounded_rectangle((SAFE_X - 18, 42, SAFE_X + 258, 104), radius=20, fill=BG)
+    draw.text((SAFE_X, 58), "GAMERQUEST FR", font=brand_font, fill=WHITE)
+    draw.rounded_rectangle((SAFE_X - 18, 100, SAFE_X + 258, 106), radius=3, fill=GQ_PURPLE)
+    draw.rounded_rectangle((SAFE_X + 135, 100, SAFE_X + 258, 106), radius=3, fill=GQ_BLUE)
     draw.text((WIDTH - 190, 60), f"{index:02d}/{total:02d}", font=small_font, fill=WHITE)
 
     title = str(slide.get("title") or "").strip()
@@ -175,19 +176,19 @@ def render_slide(slide, index, total, output_path, featured_image=None):
 
     y = _draw_wrapped(draw, title, (SAFE_X, title_y), title_font, WHITE, max_width, spacing=14, max_lines=4)
     y += 30
-    draw.rounded_rectangle((SAFE_X, y, SAFE_X + 105, y + 10), radius=5, fill=GQ_YELLOW)
-    draw.rounded_rectangle((SAFE_X + 105, y, SAFE_X + 165, y + 10), radius=5, fill=GQ_ORANGE)
+    draw.rounded_rectangle((SAFE_X, y, SAFE_X + 105, y + 10), radius=5, fill=GQ_PURPLE)
+    draw.rounded_rectangle((SAFE_X + 105, y, SAFE_X + 165, y + 10), radius=5, fill=GQ_BLUE)
     y += 42
 
     _draw_wrapped(draw, body, (SAFE_X, y), body_font, MUTED, max_width, spacing=15, max_lines=6)
 
     footer_y = HEIGHT - 105
-    draw.rounded_rectangle((55, footer_y - 18, WIDTH - 55, footer_y + 48), radius=22, fill=(7, 8, 11))
-    draw.text((SAFE_X, footer_y), "gamerquest.fr", font=_font(27, bold=True), fill=GQ_YELLOW)
+    draw.rounded_rectangle((55, footer_y - 18, WIDTH - 55, footer_y + 48), radius=22, fill=BG)
+    draw.text((SAFE_X, footer_y), "gamerquestfr.com", font=_font(27, bold=True), fill=GQ_BLUE)
 
     dot_x = WIDTH - SAFE_X - (total * 22)
     for offset in range(total):
-        fill = GQ_ORANGE if offset == index - 1 else (95, 98, 104)
+        fill = GQ_PURPLE if offset == index - 1 else (95, 103, 124)
         draw.ellipse((dot_x + offset * 22, footer_y + 8, dot_x + 10 + offset * 22, footer_y + 18), fill=fill)
 
     image.save(output_path, format="PNG", optimize=True)

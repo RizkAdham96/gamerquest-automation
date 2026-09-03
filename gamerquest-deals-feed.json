@@ -1,49 +1,27 @@
 {
-  "generated_at": "2026-09-03T11:15:08.886343+00:00",
-  "count": 2,
+  "generated_at": "2026-09-03T16:25:52.760184+00:00",
+  "count": 1,
   "articles": [
     {
-      "source_id": "2b707bb3d1f6a716082facc4573ce8dbe6590319cdfcff584a0a383cc8d65587",
-      "title": "Breathedge est gratuit sur Epic Games Store pendant une durée limitée",
-      "excerpt": "Breathedge, habituellement proposé à 24,99 €, est actuellement disponible gratuitement sur Epic Games Store.",
-      "content": "<p><strong>Breathedge</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 24,99 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>24,99 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>3 septembre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/breathedge\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.epicgames.com/fr/p/breathedge",
+      "source_id": "7c4fe5e46ea999513b01f549a2c42e372e72ba917679bde9a534d23995f8406f",
+      "title": "Alone With You est gratuit sur Epic Games Store pendant une durée limitée",
+      "excerpt": "Alone With You, habituellement proposé à 8,99 €, est actuellement disponible gratuitement sur Epic Games Store.",
+      "content": "<p><strong>Alone With You</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 8,99 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>8,99 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>10 septembre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/alone-with-you-028a15\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.epicgames.com/fr/p/alone-with-you-028a15",
       "deal": {
-        "game": "Breathedge",
+        "game": "Alone With You",
         "store": "Epic Games Store",
-        "original_price": 24.99,
+        "original_price": 8.99,
         "current_price": 0.0,
         "discount_percent": 100,
-        "expires_at": "2026-09-03T15:00:00.000Z"
+        "expires_at": "2026-09-10T15:00:00.000Z"
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/2b707bb3d1f6a716082facc4573ce8dbe6590319cdfcff584a0a383cc8d65587.jpg",
-        "filename": "2b707bb3d1f6a716082facc4573ce8dbe6590319cdfcff584a0a383cc8d65587.jpg",
-        "alt": "Breathedge gratuit sur Epic Games Store - GamerQuest",
-        "caption": "Breathedge : offre gratuit sur Epic Games Store.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Breathedge sur Epic Games Store."
-      }
-    },
-    {
-      "source_id": "8afe078a1dee14534c2d512eced3dab80f1272bb53a1b828e2b487bcf089cdaa",
-      "title": "Rival Stars Horse Racing : Desktop Edition est gratuit sur Epic Games Store pendant une durée limitée",
-      "excerpt": "Rival Stars Horse Racing : Desktop Edition, habituellement proposé à 22,39 €, est actuellement disponible gratuitement sur Epic Games Store.",
-      "content": "<p><strong>Rival Stars Horse Racing : Desktop Edition</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 22,39 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>22,39 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>3 septembre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/rival-stars-horse-racing-dd09de\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.epicgames.com/fr/p/rival-stars-horse-racing-dd09de",
-      "deal": {
-        "game": "Rival Stars Horse Racing : Desktop Edition",
-        "store": "Epic Games Store",
-        "original_price": 22.39,
-        "current_price": 0.0,
-        "discount_percent": 100,
-        "expires_at": "2026-09-03T15:00:00.000Z"
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/8afe078a1dee14534c2d512eced3dab80f1272bb53a1b828e2b487bcf089cdaa.jpg",
-        "filename": "8afe078a1dee14534c2d512eced3dab80f1272bb53a1b828e2b487bcf089cdaa.jpg",
-        "alt": "Rival Stars Horse Racing : Desktop Edition gratuit sur Epic Games Store - GamerQuest",
-        "caption": "Rival Stars Horse Racing : Desktop Edition : offre gratuit sur Epic Games Store.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Rival Stars Horse Racing : Desktop Edition sur Epic Games Store."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/7c4fe5e46ea999513b01f549a2c42e372e72ba917679bde9a534d23995f8406f.jpg",
+        "filename": "7c4fe5e46ea999513b01f549a2c42e372e72ba917679bde9a534d23995f8406f.jpg",
+        "alt": "Alone With You gratuit sur Epic Games Store - GamerQuest",
+        "caption": "Alone With You : offre gratuit sur Epic Games Store.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Alone With You sur Epic Games Store."
       }
     }
   ]

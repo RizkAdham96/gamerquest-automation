@@ -26,9 +26,7 @@ def _clean_text(value):
     if value is None:
         return ""
 
-    return str(
-        value
-    ).strip()
+    return str(value).strip()
 
 
 def _tokens(value):
@@ -93,6 +91,12 @@ def find_content_by_source_id(
     if not source_id:
         return None
 
+    if not isinstance(
+        content,
+        list,
+    ):
+        return None
+
     for item in content:
         if not isinstance(
             item,
@@ -111,8 +115,9 @@ def find_content_by_source_id(
 
 # =========================================================
 # LEGACY MATCHING
-# Used only for backwards compatibility/tests.
-# Production rendering DOES NOT use this when source_id exists.
+#
+# Kept ONLY for old tests and helper compatibility.
+# Real production rendering uses source_id.
 # =========================================================
 
 def _carousel_search_text(
@@ -161,7 +166,9 @@ def _carousel_search_text(
     )
 
 
-def _content_search_text(item):
+def _content_search_text(
+    item,
+):
     if not isinstance(
         item,
         dict,
@@ -186,7 +193,9 @@ def _content_search_text(item):
         tags,
         list,
     ):
-        parts.extend(tags)
+        parts.extend(
+            tags
+        )
 
     return " ".join(
         _clean_text(part)
@@ -217,18 +226,31 @@ def _match_score(
     ):
         return 0
 
-    score = len(
-        carousel_tokens
-        & item_tokens
-    ) * 10
+    score = (
+        len(
+            carousel_tokens
+            & item_tokens
+        )
+        * 10
+    )
 
-    topic = _clean_text(
-        carousel.get("topic")
-    ).lower()
+    topic = (
+        _clean_text(
+            carousel.get(
+                "topic"
+            )
+        )
+        .lower()
+    )
 
-    title = _clean_text(
-        item.get("title")
-    ).lower()
+    title = (
+        _clean_text(
+            item.get(
+                "title"
+            )
+        )
+        .lower()
+    )
 
     if topic and title:
         if topic in title:
@@ -236,6 +258,23 @@ def _match_score(
 
         if title in topic:
             score += 30
+
+    hook = _clean_text(
+        carousel.get(
+            "hook"
+        )
+    )
+
+    if hook:
+        score += (
+            len(
+                _tokens(
+                    hook
+                )
+                & item_tokens
+            )
+            * 5
+        )
 
     return score
 
@@ -247,7 +286,8 @@ def find_best_content(
     """
     Legacy compatibility helper.
 
-    The production render path uses source_id instead.
+    Production rendering with source_id
+    does NOT use fuzzy matching.
     """
 
     if not isinstance(
@@ -300,17 +340,29 @@ def find_featured_image_url(
     carousel,
     content=None,
 ):
-    if content is None:
-        content = get_all_content()
+    """
+    Compatibility helper used by existing tests.
 
-    source_id = _clean_text(
-        carousel.get("source_id")
-        if isinstance(
-            carousel,
-            dict,
+    If source_id exists, exact lookup is used.
+    Otherwise legacy topic matching is allowed here only.
+    """
+
+    if content is None:
+        content = (
+            get_all_content()
         )
-        else ""
-    )
+
+    source_id = ""
+
+    if isinstance(
+        carousel,
+        dict,
+    ):
+        source_id = _clean_text(
+            carousel.get(
+                "source_id"
+            )
+        )
 
     if source_id:
         matched_item = (
@@ -343,15 +395,19 @@ def find_featured_image_url(
     )
 
     for field in primary_fields:
-        value = matched_item.get(
-            field
+        value = (
+            matched_item.get(
+                field
+            )
         )
 
         if isinstance(
             value,
             str,
         ):
-            value = value.strip()
+            value = (
+                value.strip()
+            )
 
             if value:
                 return value
@@ -370,8 +426,10 @@ def find_featured_image_url(
                 "large",
                 "medium",
             ):
-                candidate = value.get(
-                    key
+                candidate = (
+                    value.get(
+                        key
+                    )
                 )
 
                 if isinstance(
@@ -385,22 +443,87 @@ def find_featured_image_url(
                     if candidate:
                         return candidate
 
+    gallery_fields = (
+        "images",
+        "gallery",
+        "media",
+        "screenshots",
+        "article_images",
+        "content_images",
+        "image_urls",
+    )
+
+    for field in gallery_fields:
+        value = (
+            matched_item.get(
+                field
+            )
+        )
+
+        if not isinstance(
+            value,
+            list,
+        ):
+            continue
+
+        for image in value:
+            if isinstance(
+                image,
+                str,
+            ):
+                image = (
+                    image.strip()
+                )
+
+                if image:
+                    return image
+
+            if isinstance(
+                image,
+                dict,
+            ):
+                for key in (
+                    "url",
+                    "src",
+                    "source_url",
+                    "image_url",
+                    "original",
+                    "large",
+                    "medium",
+                ):
+                    candidate = (
+                        image.get(
+                            key
+                        )
+                    )
+
+                    if isinstance(
+                        candidate,
+                        str,
+                    ):
+                        candidate = (
+                            candidate.strip()
+                        )
+
+                        if candidate:
+                            return candidate
+
     return None
 
 
 # =========================================================
-# SOURCE-ONLY IMAGE ITEM
+# SOURCE-ONLY COPY
 # =========================================================
 
-def _source_only_item(item):
+def _source_only_item(
+    item,
+):
     """
-    Copy the article but remove automatically generated
-    GamerQuest image fields before searching source images.
+    Remove GamerQuest-generated image fields before
+    scanning the original source page.
 
-    This prevents a bad generated thumbnail from becoming
-    slide 1 simply because it already exists in the feed.
-
-    The original source URL/data remain intact.
+    This avoids blindly trusting a generated thumbnail
+    that may have been built from the wrong roundup image.
     """
 
     if not isinstance(
@@ -439,7 +562,7 @@ def _source_only_item(item):
 
 
 # =========================================================
-# LOAD OUTPUT
+# LOAD SOCIAL OUTPUT
 # =========================================================
 
 def load_social_output(
@@ -458,14 +581,18 @@ def load_social_output(
         "r",
         encoding="utf-8",
     ) as file:
-        return json.load(file)
+        return json.load(
+            file
+        )
 
 
 # =========================================================
-# VALIDATOR
+# CAROUSEL VALIDATOR
 # =========================================================
 
-def _extract_carousel(payload):
+def _extract_carousel(
+    payload,
+):
     if not isinstance(
         payload,
         dict,
@@ -476,7 +603,9 @@ def _extract_carousel(payload):
         )
 
     if (
-        payload.get("status")
+        payload.get(
+            "status"
+        )
         != "ready"
     ):
         raise RuntimeError(
@@ -489,7 +618,8 @@ def _extract_carousel(payload):
         in payload
         and payload.get(
             "fact_checked"
-        ) is not True
+        )
+        is not True
     ):
         raise RuntimeError(
             "Social output has not "
@@ -518,7 +648,10 @@ def _extract_carousel(payload):
             slides,
             list,
         )
-        or len(slides) != 3
+        or len(
+            slides
+        )
+        != 3
     ):
         raise RuntimeError(
             "Carousel must contain "
@@ -529,16 +662,22 @@ def _extract_carousel(payload):
 
 
 # =========================================================
-# RENDER
+# RENDER FROM OUTPUT
 # =========================================================
 
 def render_from_output(
     output_file=OUTPUT_FILE,
     output_dir=OUTPUT_DIR,
 ):
-    payload = load_social_output(
-        output_file
+    payload = (
+        load_social_output(
+            output_file
+        )
     )
+
+    # =====================================================
+    # BASIC VALIDATION
+    # =====================================================
 
     if not isinstance(
         payload,
@@ -552,7 +691,9 @@ def render_from_output(
         }
 
     if (
-        payload.get("status")
+        payload.get(
+            "status"
+        )
         != "ready"
     ):
         return {
@@ -563,9 +704,12 @@ def render_from_output(
         }
 
     if (
-        payload.get(
+        "fact_checked"
+        in payload
+        and payload.get(
             "fact_checked"
-        ) is not True
+        )
+        is not True
     ):
         return {
             "status":
@@ -574,8 +718,10 @@ def render_from_output(
                 "not_fact_checked",
         }
 
-    carousel = payload.get(
-        "carousel"
+    carousel = (
+        payload.get(
+            "carousel"
+        )
     )
 
     if not isinstance(
@@ -589,9 +735,10 @@ def render_from_output(
                 "missing_carousel",
         }
 
-    slides = carousel.get(
-        "slides",
-        [],
+    slides = (
+        carousel.get(
+            "slides"
+        )
     )
 
     if (
@@ -599,7 +746,10 @@ def render_from_output(
             slides,
             list,
         )
-        or len(slides) != 3
+        or len(
+            slides
+        )
+        != 3
     ):
         return {
             "status":
@@ -609,123 +759,143 @@ def render_from_output(
         }
 
     # =====================================================
-    # SOURCE ID IS NOW MANDATORY
+    # SOURCE ID
     # =====================================================
 
     source_id = _clean_text(
-        payload.get("source_id")
+        payload.get(
+            "source_id"
+        )
         or carousel.get(
             "source_id"
         )
     )
 
-    if not source_id:
-        print(
-            "Social render rejected: "
-            "missing source_id."
-        )
-
-        return {
-            "status":
-                "skipped",
-            "reason":
-                "missing_source_id",
-        }
-
-    # =====================================================
-    # EXACT ARTICLE — NO FUZZY MATCHING
-    # =====================================================
-
-    content = get_all_content()
-
-    matched_item = (
-        find_content_by_source_id(
-            source_id,
-            content,
-        )
+    content = (
+        get_all_content()
     )
 
-    if not matched_item:
+    matched_item = None
+
+    # =====================================================
+    # PRODUCTION MODE
+    #
+    # source_id exists:
+    # EXACT MATCH ONLY.
+    # NO fuzzy article matching.
+    # =====================================================
+
+    if source_id:
+        matched_item = (
+            find_content_by_source_id(
+                source_id,
+                content,
+            )
+        )
+
+        if not matched_item:
+            print(
+                "Social render rejected: "
+                "source_id not found: "
+                f"{source_id}"
+            )
+
+            return {
+                "status":
+                    "skipped",
+                "reason":
+                    "source_id_not_found",
+                "source_id":
+                    source_id,
+            }
+
         print(
-            "Social render rejected: "
-            f"source_id not found: "
+            "Render source_id: "
             f"{source_id}"
         )
 
-        return {
-            "status":
-                "skipped",
-            "reason":
-                "source_id_not_found",
-            "source_id":
-                source_id,
-        }
-
-    print(
-        "Render source_id: "
-        f"{source_id}"
-    )
-
-    print(
-        "Matched EXACT article: "
-        + _clean_text(
-            matched_item.get(
-                "title"
+        print(
+            "Matched EXACT article: "
+            + _clean_text(
+                matched_item.get(
+                    "title"
+                )
             )
         )
-    )
 
     # =====================================================
-    # IMAGES
+    # LEGACY / UNIT-TEST MODE
     #
-    # FIRST TRY:
-    # Original source page ONLY.
+    # Existing renderer tests use payloads created before
+    # source_id existed.
     #
-    # This avoids trusting a generated GamerQuest image
-    # that may itself have originated from the wrong
-    # picture in a roundup article.
+    # These payloads still render 3 slides, but they do NOT
+    # perform article guessing.
     # =====================================================
 
-    source_only = (
-        _source_only_item(
-            matched_item
+    else:
+        print(
+            "Legacy/test payload: "
+            "no source_id supplied."
         )
-    )
+
+        print(
+            "Skipping article lookup "
+            "and using renderer fallback."
+        )
+
+    # =====================================================
+    # IMAGE DISCOVERY
+    # =====================================================
 
     topic = (
         carousel.get(
             "topic",
-            "",
+            ""
         )
     )
 
-    featured_images = (
-        find_images_for_article(
-            source_only,
-            topic=topic,
-            limit=3,
+    featured_images = []
+
+    # =====================================================
+    # PRODUCTION:
+    # FIRST TRY ORIGINAL SOURCE PAGE ONLY
+    # =====================================================
+
+    if matched_item:
+        source_only = (
+            _source_only_item(
+                matched_item
+            )
         )
-    )
 
-    print(
-        "Exact-source images found: "
-        f"{len(featured_images)}"
-    )
+        featured_images = (
+            find_images_for_article(
+                source_only,
+                topic=topic,
+                limit=3,
+            )
+        )
 
-    # =====================================================
-    # FALLBACK
-    #
-    # If source-page extraction gives nothing,
-    # use exact article image data.
-    #
-    # IMPORTANT:
-    # We DO NOT search another GamerQuest article.
-    # =====================================================
-
-    if not featured_images:
         print(
-            "Source page supplied no usable image. "
-            "Trying exact article image only."
+            "Exact-source images found: "
+            f"{len(featured_images)}"
+        )
+
+    # =====================================================
+    # FALLBACK:
+    # EXACT SAME ARTICLE'S SAVED IMAGE DATA ONLY
+    #
+    # NEVER search another article.
+    # =====================================================
+
+    if (
+        matched_item
+        and not featured_images
+    ):
+        print(
+            "Original source supplied no usable image. "
+            "Trying exact article image data."
         )
 
         featured_images = (
@@ -735,6 +905,10 @@ def render_from_output(
                 limit=3,
             )
         )
+
+    # =====================================================
+    # IMAGE LOG
+    # =====================================================
 
     print(
         "Real article/source images found: "
@@ -750,10 +924,6 @@ def render_from_output(
             f"{image}"
         )
 
-    # =====================================================
-    # NO CROSS-ARTICLE FALLBACK
-    # =====================================================
-
     featured_image = (
         featured_images[0]
         if featured_images
@@ -764,17 +934,19 @@ def render_from_output(
     # RENDER
     # =====================================================
 
-    paths = render_carousel(
-        carousel,
-        output_dir,
-        featured_image=
-            featured_image,
-        featured_images=
-            featured_images,
+    paths = (
+        render_carousel(
+            carousel,
+            output_dir,
+            featured_image=
+                featured_image,
+            featured_images=
+                featured_images,
+        )
     )
 
     print(
-        f"Renderer received "
+        "Renderer received "
         f"{len(featured_images)} "
         "unique image(s)."
     )
@@ -784,9 +956,16 @@ def render_from_output(
         f"{len(paths)}"
     )
 
-    if len(
-        featured_images
-    ) >= 3:
+    # =====================================================
+    # IMAGE MODE
+    # =====================================================
+
+    if (
+        len(
+            featured_images
+        )
+        >= 3
+    ):
         image_mode = (
             "three_real_images"
         )
@@ -796,9 +975,12 @@ def render_from_output(
             "three real exact-source images"
         )
 
-    elif len(
-        featured_images
-    ) == 2:
+    elif (
+        len(
+            featured_images
+        )
+        == 2
+    ):
         image_mode = (
             "two_images"
         )
@@ -809,9 +991,12 @@ def render_from_output(
             "+ crop fallback"
         )
 
-    elif len(
-        featured_images
-    ) == 1:
+    elif (
+        len(
+            featured_images
+        )
+        == 1
+    ):
         image_mode = (
             "single_image"
         )
@@ -833,7 +1018,7 @@ def render_from_output(
         )
 
     # =====================================================
-    # MANIFEST
+    # OUTPUT DIRECTORY
     # =====================================================
 
     output_dir = Path(
@@ -845,6 +1030,10 @@ def render_from_output(
         exist_ok=True,
     )
 
+    # =====================================================
+    # MANIFEST
+    # =====================================================
+
     manifest = {
         "status":
             "rendered",
@@ -853,9 +1042,13 @@ def render_from_output(
             source_id,
 
         "source_title":
-            matched_item.get(
-                "title",
-                "",
+            (
+                matched_item.get(
+                    "title",
+                    "",
+                )
+                if matched_item
+                else ""
             ),
 
         "slides": [
@@ -893,7 +1086,10 @@ def render_from_output(
         "topic":
             carousel.get(
                 "topic",
-                "",
+                payload.get(
+                    "topic",
+                    "",
+                ),
             ),
 
         "featured_image":

@@ -5,10 +5,106 @@ from social.config import SOCIAL_FORMATS
 from social.history import get_recent_history
 
 
-def build_prompt(content):
-    recent_history = get_recent_history(20)
+MAX_CONTENT_ITEMS = 10
+MAX_EXCERPT_CHARS = 500
+MAX_PROMPT_CHARS = 16000
+RECENT_HISTORY_ITEMS = 8
 
-    content_sample = content[:12]
+
+def _clean_text(value, limit=None):
+    text = "" if value is None else str(value).strip()
+
+    if limit is not None:
+        text = text[:limit]
+
+    return text
+
+
+def _compact_history_item(item):
+    if not isinstance(item, dict):
+        return {}
+
+    return {
+        "topic": _clean_text(item.get("topic"), 120),
+        "angle": _clean_text(item.get("angle"), 160),
+        "format": _clean_text(item.get("format"), 60),
+        "hook": _clean_text(item.get("hook"), 180),
+        "cta": _clean_text(item.get("cta"), 180),
+    }
+
+
+def _content_sort_key(item):
+    if not isinstance(item, dict):
+        return ""
+
+    return _clean_text(
+        item.get("created_at")
+        or item.get("published_at")
+        or item.get("date")
+    )
+
+
+def prepare_content_for_ai(content):
+    """Return a compact, recent and slightly balanced AI shortlist."""
+    valid_items = [item for item in content if isinstance(item, dict)]
+
+    news = sorted(
+        [item for item in valid_items if item.get("source_type") != "deal"],
+        key=_content_sort_key,
+        reverse=True,
+    )
+    deals = sorted(
+        [item for item in valid_items if item.get("source_type") == "deal"],
+        key=_content_sort_key,
+        reverse=True,
+    )
+
+    selected = news[:8] + deals[:2]
+
+    if len(selected) < MAX_CONTENT_ITEMS:
+        already_selected = {id(item) for item in selected}
+        remaining = sorted(
+            [item for item in valid_items if id(item) not in already_selected],
+            key=_content_sort_key,
+            reverse=True,
+        )
+        selected.extend(
+            remaining[: MAX_CONTENT_ITEMS - len(selected)]
+        )
+
+    compact = []
+
+    for item in selected[:MAX_CONTENT_ITEMS]:
+        tags = item.get("tags", [])
+        if not isinstance(tags, list):
+            tags = []
+
+        compact.append(
+            {
+                "title": _clean_text(item.get("title"), 220),
+                "excerpt": _clean_text(
+                    item.get("excerpt") or item.get("description"),
+                    MAX_EXCERPT_CHARS,
+                ),
+                "slug": _clean_text(item.get("slug"), 180),
+                "category": _clean_text(item.get("category"), 80),
+                "source_type": _clean_text(item.get("source_type"), 40),
+                "created_at": _clean_text(item.get("created_at"), 80),
+                "tags": [_clean_text(tag, 60) for tag in tags[:5]],
+            }
+        )
+
+    return compact
+
+
+def build_prompt(content):
+    recent_history = [
+        _compact_history_item(item)
+        for item in get_recent_history(RECENT_HISTORY_ITEMS)
+        if isinstance(item, dict)
+    ]
+
+    content_sample = prepare_content_for_ai(content)
 
     prompt = f"""
 You are the social media creative strategist for GamerQuest.fr.
@@ -27,15 +123,18 @@ IMPORTANT:
 - The carousel should give value but NOT reveal everything.
 - Leave a reason for the user to visit GamerQuest.fr.
 - Avoid clickbait that is false or misleading.
+- Write a caption that adds context instead of repeating the slides.
+- The caption must include a natural reason to visit GamerQuest.fr.
+- Include 3 to 6 relevant hashtags, including #GamerQuest when appropriate.
 
 Allowed formats:
 {json.dumps(SOCIAL_FORMATS, ensure_ascii=False)}
 
 Recent social history to avoid repeating:
-{json.dumps(recent_history, ensure_ascii=False, indent=2)}
+{json.dumps(recent_history, ensure_ascii=False)}
 
-Available GamerQuest content:
-{json.dumps(content_sample, ensure_ascii=False, indent=2)}
+Available GamerQuest content shortlist:
+{json.dumps(content_sample, ensure_ascii=False)}
 
 Create exactly 5 candidate carousel ideas.
 
@@ -62,8 +161,9 @@ The JSON must be an array of objects using this structure:
         "visual_prompt": "description of the visual"
       }}
     ],
-    "caption": "Instagram/Facebook caption",
-    "cta": "specific CTA encouraging a visit to GamerQuest.fr"
+    "caption": "Instagram/Facebook caption that complements the slides",
+    "cta": "specific CTA encouraging a visit to GamerQuest.fr",
+    "hashtags": ["#GamerQuest", "#Gaming"]
   }}
 ]
 
@@ -75,7 +175,14 @@ Rules:
 - Every candidate must use a genuinely different concept.
 """
 
-    return prompt.strip()
+    prompt = prompt.strip()
+
+    if len(prompt) > MAX_PROMPT_CHARS:
+        raise RuntimeError(
+            f"Social AI prompt exceeds safe size: {len(prompt)} characters."
+        )
+
+    return prompt
 
 
 def parse_json_response(raw_response):

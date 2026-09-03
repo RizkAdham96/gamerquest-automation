@@ -1,7 +1,53 @@
 {
-  "generated_at": "2026-09-03T20:54:28.195831+00:00",
-  "count": 44,
+  "generated_at": "2026-09-03T23:56:15.547855+00:00",
+  "count": 45,
   "articles": [
+    {
+      "source_id": "b91cfc07e0a9fbd3ab8d6318901675ba893c92f9d125327d06affa95cf5663ec",
+      "title": "State of Play et State of Play Japan le 3 septembre 2026 : date, heure et plateformes de diffusion",
+      "excerpt": "Sony Interactive Entertainment a annoncé un State of Play le 3 septembre 2026 à 6 h PT (9 h ET), suivi d’un State of Play Japan. Retrouvez la date, l’heure et les plateformes où les suivre en direct.",
+      "content": "<article>\n<h1>State of Play et State of Play Japan le 3 septembre 2026 : date, heure et plateformes de diffusion</h1>\n<p>Sony Interactive Entertainment a confirmé la tenue d’un <strong><a href=\"https://gamerquestfr.com/crimson-desert-dlc-charting-unknown/\">State of Play</a></strong> le <strong>3 septembre 2026</strong>, suivi immédiatement d’un <strong>State of Play Japan</strong>. Voici tout ce que vous devez savoir pour ne rien manquer.</p>\n<h2>Quelle est la date et l’heure du State of Play du 3 septembre 2026 ?</h2>\n<p>Le State of Play sera diffusé le <strong>3 septembre 2026 à 6 h PT</strong> (Pacific Time), soit <strong>9 h ET</strong> (Eastern Time). Le programme débute immédiatement après, avec le State of Play Japan.</p>\n<h2>Sur quelles plateformes pourra‑t‑on regarder le State of Play ?</h2>\n<p>Les deux diffusions seront disponibles en direct sur les plateformes suivantes :</p>\n<ul>\n<li>YouTube (versions anglaise, sous‑titres anglais et japonais)</li>\n<li>Twitch</li>\n<li>TikTok</li>\n</ul>\n<h2>Quel contenu sera présenté lors du State of Play ?</h2>\n<p>Le State of Play mettra en avant des mises à jour et des annonces provenant de <strong>PlayStation Studios</strong> ainsi que de partenaires tiers. La diffusion se clôturera par un aperçu prolongé de <em>Final Fantasy VII Revelation</em>.</p>\n<h2>Qu’attendre du State of Play Japan ?</h2>\n<p>Animé par <strong>Yuki Kaji</strong>, le State of Play Japan proposera des plongées approfondies dans les prochains titres développés au Japon et en Asie. Attendez‑vous à voir de nouvelles séquences de gameplay, des annonces exclusives et des interviews. Le tout sera présenté en japonais avec des sous‑titres anglais.</p>\n<h2>Le State of Play sera‑t‑il accessible en français ?</h2>\n<p>Le State of Play principal sera diffusé en anglais avec des sous‑titres japonais. Aucun sous‑titre français n’est indiqué dans l’annonce officielle.</p>\n</article>",
+      "slug": "state-of-play-septembre-2026",
+      "category": "Actualités",
+      "tags": [
+        "State of Play",
+        "PlayStation",
+        "Final Fantasy VII Revelation",
+        "Yuki Kaji",
+        "Sony Interactive Entertainment"
+      ],
+      "seo": {
+        "seo_title": "State of Play et State of Play Japan 3 septembre 2026 – date, heure et plateformes",
+        "meta_description": "Découvrez la date, l’heure et les plateformes de diffusion du State of Play et du State of Play Japan prévus le 3 septembre 2026, ainsi le programme annoncé.",
+        "primary_keyword": "State of Play septembre 2026",
+        "secondary_keywords": [
+          "date State of Play",
+          "heure State of Play",
+          "où regarder State of Play",
+          "Final Fantasy VII Revelation",
+          "State of Play Japan",
+          "Yuki Kaji",
+          "PlayStation Studios"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.gematsu.com/2026/08/state-of-play-and-state-of-play-japan-set-for-september-3",
+        "title": "State of Play and State of Play Japan set for September 3 - Gematsu",
+        "published_date": "Mon, 31 Aug 2026 12:05:55 GMT",
+        "domain": "gematsu.com"
+      },
+      "official_source": null,
+      "created_at": "2026-09-03T23:56:14.883709+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/state-of-play-septembre-2026.jpg",
+        "filename": "state-of-play-septembre-2026.jpg",
+        "alt": "State of Play et State of Play Japan le 3 septembre 2026 : date, heure et plateformes de diffusion - GamerQuest",
+        "caption": "Illustration de l'article « State of Play et State of Play Japan le 3 septembre 2026 : date, heure et plateformes de diffusion ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://www.gematsu.com/wp-content/uploads/2026/08/State-of-Play-Ann_08-31-26.jpg"
+      }
+    },
     {
       "source_id": "c8194c16ee0a1448646d770cbf783813a7f227b26d9870ee76add260c12cbf74",
       "title": "Tout ce qu’on sait du DLC « Charting the Unknown » de Crimson Desert",

@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-09-03T04:08:26.505149+00:00",
-  "count": 41,
+  "generated_at": "2026-09-03T11:04:23.247130+00:00",
+  "count": 42,
   "articles": [
+    {
+      "source_id": "66f721d5431c71e501c9e9c2aa92504d48a21e564b84d366b41a870df3aee603",
+      "title": "Medieval Dynasty – DLC The Backwood : tout ce qu’on sait sur la sortie, les plateformes et le gameplay",
+      "excerpt": "Le DLC The Backwood de Medieval Dynasty arrive en 2027, suivi du Hunting Pack le 22 septembre 2026. Retrouvez les plateformes supportées, les nouveautés gameplay et les possibilités de jeu coopératif.",
+      "content": "<article>\n<p>Le nouveau trailer officiel du DLC <strong>The Backwood</strong> de <em>Medieval Dynasty</em> révèle les <a href=\"https://gamerquestfr.com/gamescom-opening-night-live-2026/\">dates de sortie</a>, les plateformes concernées et les principales <a href=\"https://gamerquestfr.com/trine-6-date-sortie/\">nouveautés</a> gameplay.</p>\n<h2>Quelle est la date de sortie du DLC The Backwood ?</h2>\n<p>Le DLC <strong>The Backwood</strong> sera disponible en <strong>2027</strong>. Aucun jour ou mois précis n’a encore été communiqué.</p>\n<h2>Quelle est la date de sortie du DLC Hunting Pack ?</h2>\n<p>Le <strong>Hunting Pack</strong> arrive le <strong>22 septembre 2026</strong>, soit avant le lancement de The Backwood.</p>\n<h2>Sur quelles plateformes est disponible Medieval Dynasty ?</h2>\n<p><em>Medieval Dynasty</em> est jouable sur <strong>PC (Steam, Epic Games Store, GOG)</strong>, <strong>PlayStation 5</strong>, <strong>Xbox Series X/S</strong> et via <strong>Xbox Game Pass</strong>. Le DLC sera compatible avec les mêmes plateformes que le jeu de base.</p>\n<h2>Quelles sont les nouveautés gameplay du DLC The Backwood ?</h2>\n<p>Le trailer montre une nouvelle zone à explorer, caractérisée par des forêts denses et de nouveaux décors. Le DLC promet d’enrichir l’expérience de survie, de construction et de gestion de votre dynastie médiévale.</p>\n<h2>Medieval Dynasty proposera‑t‑il du multijoueur ?</h2>\n<p>Le jeu de base propose déjà un mode coopératif où l’on peut jouer seul ou <strong>se mettre en équipe avec des amis</strong>. Le trailer ne précise pas de nouvelles fonctionnalités <a href=\"https://gamerquestfr.com/roco-kingdom-beta-date-plateformes-gameplay/\">multijoueur</a>s spécifiques au DLC, mais le mode coopératif reste disponible.</p>\n</article>",
+      "slug": "medieval-dynasty-backwood-dlc",
+      "category": "Actualités",
+      "tags": [
+        "Medieval Dynasty",
+        "DLC",
+        "The Backwood",
+        "Hunting Pack",
+        "gameplay"
+      ],
+      "seo": {
+        "seo_title": "Medieval Dynasty DLC The Backwood – date de sortie, plateformes et gameplay",
+        "meta_description": "Découvrez les dates de sortie du DLC The Backwood (2027) et du Hunting Pack (22 septembre 2026), les plateformes compatibles et les nouveautés gameplay.",
+        "primary_keyword": "Medieval Dynasty DLC",
+        "secondary_keywords": [
+          "The Backwood DLC",
+          "Hunting Pack DLC",
+          "date de sortie Medieval Dynasty",
+          "plateformes Medieval Dynasty",
+          "gameplay DLC",
+          "multijoueur Medieval Dynasty"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://in.ign.com/video/270785/medieval-dynasty-the-backwood-official-gameplay-trailer",
+        "title": "Medieval Dynasty: The Backwood - Official Gameplay Trailer",
+        "published_date": "Wed, 02 Sep 2026 15:03:24 GMT",
+        "domain": "in.ign.com"
+      },
+      "official_source": null,
+      "created_at": "2026-09-03T11:04:21.368161+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/medieval-dynasty-backwood-dlc.jpg",
+        "filename": "medieval-dynasty-backwood-dlc.jpg",
+        "alt": "Medieval Dynasty – DLC The Backwood : tout ce qu’on sait sur la sortie, les plateformes et le gameplay - GamerQuest",
+        "caption": "Illustration de l'article « Medieval Dynasty – DLC The Backwood : tout ce qu’on sait sur la sortie, les plateformes et le gameplay ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://sm.ign.com/t/ign_in/video/m/medieval-d/medieval-dynasty-the-backwood-official-gameplay-trailer_mrme.1200.jpg"
+      }
+    },
     {
       "source_id": "c56df7f5cf4ef0954d7a339949870d241b04e601954fcf8a186b734419d83697",
       "title": "Scott Pilgrim EX : nouveau DLC « Back in the Band » à 3,99 $ et mise à jour gratuite « Coin‑Op Chaos » disponibles maintenant",

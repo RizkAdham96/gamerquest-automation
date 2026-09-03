@@ -51,6 +51,22 @@ class TestSocialAIRunner(unittest.TestCase):
             "Five original GamerQuest carousel ideas",
         )
 
+    @patch.dict("os.environ", {"GROQ_API_KEY": "test-key"})
+    @patch("social.ai_client.urllib.request.urlopen")
+    def test_groq_request_has_user_agent(self, mock_urlopen):
+        mock_response = mock_urlopen.return_value.__enter__.return_value
+        mock_response.read.return_value = (
+            b'{"choices":[{"message":{"content":"ok"}}]}'
+        )
+
+        ai_client.call_grok("test prompt")
+
+        request = mock_urlopen.call_args.args[0]
+        self.assertEqual(
+            request.get_header("User-agent"),
+            "GamerQuest-Social/1.0",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

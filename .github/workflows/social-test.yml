@@ -42,6 +42,7 @@ jobs:
       - name: Render social carousel images
         env:
           PYTHONPATH: .
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           python -m social.render
 
@@ -53,4 +54,6 @@ jobs:
           path: |
             social-output.json
             social-rendered/
+            social-generated/
+            social/openai_image_usage.json
           if-no-files-found: warn

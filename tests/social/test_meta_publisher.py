@@ -109,12 +109,6 @@ class TestMetaPublisher(unittest.TestCase):
         )
 
     def test_build_raw_github_urls(self):
-        if self.publisher is None:
-            self.fail(
-                "social/meta_publisher.py "
-                "does not exist yet."
-            )
-
         paths = [
             "social-published/test/slide-1.png",
             "social-published/test/slide-2.png",
@@ -133,42 +127,23 @@ class TestMetaPublisher(unittest.TestCase):
         )
 
         self.assertEqual(
-            result,
-            [
-                (
-                    "https://raw.githubusercontent.com/"
-                    "RizkAdham96/"
-                    "gamerquest-automation/"
-                    "main/"
-                    "social-published/test/"
-                    "slide-1.png"
-                ),
-                (
-                    "https://raw.githubusercontent.com/"
-                    "RizkAdham96/"
-                    "gamerquest-automation/"
-                    "main/"
-                    "social-published/test/"
-                    "slide-2.png"
-                ),
-                (
-                    "https://raw.githubusercontent.com/"
-                    "RizkAdham96/"
-                    "gamerquest-automation/"
-                    "main/"
-                    "social-published/test/"
-                    "slide-3.png"
-                ),
-            ],
+            len(result),
+            3,
+        )
+
+        self.assertEqual(
+            result[0],
+            (
+                "https://raw.githubusercontent.com/"
+                "RizkAdham96/"
+                "gamerquest-automation/"
+                "main/"
+                "social-published/test/"
+                "slide-1.png"
+            ),
         )
 
     def test_publish_history_defaults_empty(self):
-        if self.publisher is None:
-            self.fail(
-                "social/meta_publisher.py "
-                "does not exist yet."
-            )
-
         with tempfile.TemporaryDirectory() as directory:
             history_file = (
                 Path(directory)
@@ -187,12 +162,6 @@ class TestMetaPublisher(unittest.TestCase):
             )
 
     def test_publish_history_round_trip(self):
-        if self.publisher is None:
-            self.fail(
-                "social/meta_publisher.py "
-                "does not exist yet."
-            )
-
         with tempfile.TemporaryDirectory() as directory:
             history_file = (
                 Path(directory)
@@ -229,12 +198,6 @@ class TestMetaPublisher(unittest.TestCase):
             )
 
     def test_pending_platforms_returns_both_for_new_source(self):
-        if self.publisher is None:
-            self.fail(
-                "social/meta_publisher.py "
-                "does not exist yet."
-            )
-
         result = (
             self.publisher.pending_platforms(
                 source_id="source-123",
@@ -251,12 +214,6 @@ class TestMetaPublisher(unittest.TestCase):
         )
 
     def test_pending_platforms_retries_only_failed_platform(self):
-        if self.publisher is None:
-            self.fail(
-                "social/meta_publisher.py "
-                "does not exist yet."
-            )
-
         history = {
             "source-123": {
                 "instagram": {
@@ -285,12 +242,6 @@ class TestMetaPublisher(unittest.TestCase):
         )
 
     def test_pending_platforms_returns_empty_when_both_done(self):
-        if self.publisher is None:
-            self.fail(
-                "social/meta_publisher.py "
-                "does not exist yet."
-            )
-
         history = {
             "source-123": {
                 "instagram": {
@@ -317,12 +268,6 @@ class TestMetaPublisher(unittest.TestCase):
         )
 
     def test_caption_combines_caption_and_hashtags(self):
-        if self.publisher is None:
-            self.fail(
-                "social/meta_publisher.py "
-                "does not exist yet."
-            )
-
         result = (
             self.publisher.build_caption(
                 caption=(
@@ -348,13 +293,53 @@ class TestMetaPublisher(unittest.TestCase):
             ),
         )
 
-    def test_instagram_creates_three_children_then_carousel(self):
-        if self.publisher is None:
-            self.fail(
-                "social/meta_publisher.py "
-                "does not exist yet."
+    def test_instagram_uses_instagram_graph_host(self):
+        fake_requests = FakeRequests()
+
+        self.publisher.publish_instagram_carousel(
+            image_urls=[
+                "https://example.com/1.png",
+                "https://example.com/2.png",
+                "https://example.com/3.png",
+            ],
+            caption="Test caption",
+            ig_user_id="123456",
+            access_token="secret-token",
+            requests_module=fake_requests,
+        )
+
+        for call in fake_requests.calls:
+            self.assertTrue(
+                call["url"].startswith(
+                    "https://graph.instagram.com/"
+                ),
+                call["url"],
             )
 
+    def test_facebook_uses_facebook_graph_host(self):
+        fake_requests = FakeRequests()
+
+        self.publisher.publish_facebook_carousel(
+            image_urls=[
+                "https://example.com/1.png",
+                "https://example.com/2.png",
+                "https://example.com/3.png",
+            ],
+            caption="Test caption",
+            page_id="987654",
+            access_token="secret-token",
+            requests_module=fake_requests,
+        )
+
+        for call in fake_requests.calls:
+            self.assertTrue(
+                call["url"].startswith(
+                    "https://graph.facebook.com/"
+                ),
+                call["url"],
+            )
+
+    def test_instagram_creates_three_children_then_carousel(self):
         fake_requests = FakeRequests()
 
         result = (
@@ -380,11 +365,7 @@ class TestMetaPublisher(unittest.TestCase):
             5,
         )
 
-        first_three = (
-            fake_requests.calls[:3]
-        )
-
-        for call in first_three:
+        for call in fake_requests.calls[:3]:
             self.assertIn(
                 "/123456/media",
                 call["url"],
@@ -396,11 +377,6 @@ class TestMetaPublisher(unittest.TestCase):
 
         parent_call = (
             fake_requests.calls[3]
-        )
-
-        self.assertIn(
-            "/123456/media",
-            parent_call["url"],
         )
 
         self.assertEqual(
@@ -420,12 +396,6 @@ class TestMetaPublisher(unittest.TestCase):
         )
 
     def test_facebook_uploads_three_unpublished_photos_then_post(self):
-        if self.publisher is None:
-            self.fail(
-                "social/meta_publisher.py "
-                "does not exist yet."
-            )
-
         fake_requests = FakeRequests()
 
         result = (

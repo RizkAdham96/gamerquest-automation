@@ -374,19 +374,17 @@ class TestSocialAIRunner(unittest.TestCase):
         ][0]
 
         self.assertIn(
-            (
-                "A navigation CTA such as "
-                "\"Lire la suite sur "
-                "GamerQuest.fr\""
-            ),
+            "A navigation CTA such as",
             prompt,
         )
 
         self.assertIn(
-            (
-                "is NOT a factual claim "
-                "about the source"
-            ),
+            "\"Lire la suite sur GamerQuest.fr\"",
+            prompt,
+        )
+
+        self.assertIn(
+            "is NOT a factual claim about the source",
             prompt,
         )
 

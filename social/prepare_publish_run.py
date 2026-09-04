@@ -4,11 +4,15 @@ from pathlib import Path
 from social.prepare_publish import (
     prepare_carousel_for_publish,
 )
+from social.meta_publisher import (
+    build_raw_github_urls,
+)
 
 
 OUTPUT_FILE = Path("social-output.json")
 RENDERED_DIR = Path("social-rendered")
 PUBLISHED_ROOT = Path("social-published")
+READY_FILE = Path("social-publish-ready.json")
 
 
 def load_social_output():
@@ -42,14 +46,14 @@ def get_source_id(payload):
 
     selected = payload.get(
         "selected",
-        {}
+        {},
     )
 
     if isinstance(selected, dict):
         source_id = str(
             selected.get(
                 "source_id",
-                ""
+                "",
             )
         ).strip()
 
@@ -60,6 +64,44 @@ def get_source_id(payload):
         )
 
     return source_id
+
+
+def write_publish_ready_file(
+    source_id,
+    image_paths,
+):
+    image_urls = build_raw_github_urls(
+        image_paths=image_paths,
+        repository=(
+            "RizkAdham96/"
+            "gamerquest-automation"
+        ),
+        branch="main",
+    )
+
+    if len(image_urls) != 3:
+        raise RuntimeError(
+            "Exactly three public image URLs "
+            "are required."
+        )
+
+    payload = {
+        "source_id": source_id,
+        "image_urls": image_urls,
+    }
+
+    with READY_FILE.open(
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            payload,
+            file,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    return payload
 
 
 def main():
@@ -73,6 +115,11 @@ def main():
         source_id=source_id,
         rendered_dir=RENDERED_DIR,
         published_root=PUBLISHED_ROOT,
+    )
+
+    ready_payload = write_publish_ready_file(
+        source_id=result["source_id"],
+        image_paths=result["image_paths"],
     )
 
     print(
@@ -99,6 +146,21 @@ def main():
     print(
         f"Manifest: {result['manifest']}"
     )
+
+    print(
+        f"Publish-ready file: {READY_FILE}"
+    )
+
+    print(
+        "Public image URLs:"
+    )
+
+    for image_url in ready_payload[
+        "image_urls"
+    ]:
+        print(
+            f"- {image_url}"
+        )
 
 
 if __name__ == "__main__":

@@ -38,6 +38,12 @@ jobs:
         run: |
           python tests/social/test_meta_publisher.py
 
+      - name: Run publish preparation test
+        env:
+          PYTHONPATH: .
+        run: |
+          python tests/social/test_prepare_publish.py
+
       - name: Run real Groq social generation
         env:
           PYTHONPATH: .

@@ -67,7 +67,7 @@ jobs:
           python tests/social/test_publish_run.py
 
       # ===================================================
-      # GENERATE SOCIAL POST
+      # GENERATE SOCIAL CONTENT
       # ===================================================
 
       - name: Run real Groq social generation
@@ -78,10 +78,100 @@ jobs:
           python -m social.run
 
       # ===================================================
+      # CHECK WHETHER GROQ PRODUCED A VALID POST
+      # ===================================================
+
+      - name: Check social generation status
+        id: social_status
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          output_file = Path("social-output.json")
+
+          if not output_file.exists():
+              print("social-output.json does not exist.")
+              status = "missing"
+          else:
+              try:
+                  payload = json.loads(
+                      output_file.read_text(
+                          encoding="utf-8"
+                      )
+                  )
+              except Exception as error:
+                  print(
+                      f"Could not read social-output.json: "
+                      f"{error}"
+                  )
+                  status = "invalid"
+              else:
+                  status = str(
+                      payload.get(
+                          "status",
+                          ""
+                      )
+                  ).strip()
+
+                  print(
+                      f"Social generation status: "
+                      f"{status}"
+                  )
+
+                  if status != "ready":
+                      reason = str(
+                          payload.get(
+                              "reason",
+                              ""
+                          )
+                      ).strip()
+
+                      if reason:
+                          print(
+                              f"Skip reason: {reason}"
+                          )
+
+          github_output = os.environ[
+              "GITHUB_OUTPUT"
+          ]
+
+          with open(
+              github_output,
+              "a",
+              encoding="utf-8",
+          ) as file:
+              file.write(
+                  f"status={status}\n"
+              )
+
+              file.write(
+                  "ready="
+                  + (
+                      "true"
+                      if status == "ready"
+                      else "false"
+                  )
+                  + "\n"
+              )
+          PY
+
+      - name: No approved social post this run
+        if: ${{ steps.social_status.outputs.ready != 'true' }}
+        run: |
+          echo "No fact-checked carousel was approved."
+          echo "The workflow will stop publishing steps safely."
+          echo "This is not a system failure."
+
+      # ===================================================
       # GENERATE + RENDER IMAGES
+      # ONLY WHEN CONTENT IS APPROVED
       # ===================================================
 
       - name: Render social carousel images
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -93,6 +183,7 @@ jobs:
       # ===================================================
 
       - name: Prepare carousel for public publishing
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -101,6 +192,7 @@ jobs:
           python -m social.prepare_publish_run
 
       - name: Verify three published images
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
         shell: bash
         run: |
           echo "Checking social-published..."
@@ -118,11 +210,11 @@ jobs:
           find social-published -type f | sort
 
       # ===================================================
-      # PUSH IMAGES FIRST
-      # Meta needs public URLs before publishing.
+      # PUSH IMAGES BEFORE META FETCHES THEM
       # ===================================================
 
       - name: Commit prepared carousel
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"
@@ -140,12 +232,13 @@ jobs:
       # ===================================================
       # REAL META PUBLISHING
       #
-      # This runs ONLY when you manually enable:
-      # Publish to Meta = true
+      # Runs only when:
+      # 1. Groq/fact-check returned status=ready
+      # 2. You manually selected Publish to Meta
       # ===================================================
 
       - name: Publish carousel to Meta
-        if: ${{ inputs.publish_to_meta == true }}
+        if: ${{ steps.social_status.outputs.ready == 'true' && inputs.publish_to_meta == true }}
         env:
           PYTHONPATH: .
           META_IG_ACCESS_TOKEN: ${{ secrets.META_IG_ACCESS_TOKEN }}
@@ -157,13 +250,11 @@ jobs:
           python -m social.publish_run
 
       # ===================================================
-      # SAVE PUBLISH HISTORY
-      #
-      # This prevents duplicate posts.
+      # SAVE META PUBLISH HISTORY
       # ===================================================
 
       - name: Commit Meta publish history
-        if: ${{ inputs.publish_to_meta == true && always() }}
+        if: ${{ steps.social_status.outputs.ready == 'true' && inputs.publish_to_meta == true && always() }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"

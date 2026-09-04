@@ -3,6 +3,9 @@ name: GamerQuest Social Test
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   test-social:
     runs-on: ubuntu-latest
@@ -10,14 +13,17 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install social renderer dependency
+      - name: Install social dependencies
         run: |
+          python -m pip install --upgrade pip
           python -m pip install Pillow
 
       - name: Run social integration test
@@ -58,6 +64,44 @@ jobs:
         run: |
           python -m social.render
 
+      - name: Prepare carousel for public publishing
+        env:
+          PYTHONPATH: .
+        run: |
+          python -m social.prepare_publish_run
+
+      - name: Verify three published images
+        shell: bash
+        run: |
+          echo "Checking social-published..."
+
+          IMAGE_COUNT=$(find social-published -type f -name "slide-*.png" | wc -l)
+
+          echo "Published PNG count: $IMAGE_COUNT"
+
+          if [ "$IMAGE_COUNT" -lt 3 ]; then
+            echo "ERROR: Expected at least 3 published PNG files."
+            exit 1
+          fi
+
+          echo "Published carousel files:"
+          find social-published -type f | sort
+
+      - name: Commit prepared carousel
+        shell: bash
+        run: |
+          git config user.name "GamerQuest Social Bot"
+          git config user.email "actions@github.com"
+
+          git add social-published/
+
+          if git diff --cached --quiet; then
+            echo "No new carousel files to commit."
+          else
+            git commit -m "social: prepare carousel for publishing"
+            git push
+          fi
+
       - name: Upload social output
         if: always()
         uses: actions/upload-artifact@v4
@@ -67,5 +111,6 @@ jobs:
             social-output.json
             social-rendered/
             social-generated/
+            social-published/
             social/openai_image_usage.json
           if-no-files-found: warn

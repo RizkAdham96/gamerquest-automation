@@ -5,6 +5,7 @@ import urllib.request
 from PIL import (
     Image,
     ImageDraw,
+    ImageEnhance,
     ImageFilter,
     ImageFont,
     ImageOps,
@@ -214,7 +215,49 @@ def _load_featured_image(source):
 
 
 # =========================================================
-# DIFFERENT CROPS
+# CINEMATIC IMAGE ENHANCEMENT
+# =========================================================
+
+def _enhance_image(image):
+    """
+    Mild enhancement only.
+
+    We intentionally avoid aggressive filters because
+    the original game artwork/screenshots must stay
+    credible and natural.
+    """
+
+    if image is None:
+        return None
+
+    image = image.convert("RGB")
+
+    # Slight contrast boost.
+    image = ImageEnhance.Contrast(
+        image
+    ).enhance(
+        1.08
+    )
+
+    # Small saturation boost.
+    image = ImageEnhance.Color(
+        image
+    ).enhance(
+        1.05
+    )
+
+    # Very light sharpness improvement.
+    image = ImageEnhance.Sharpness(
+        image
+    ).enhance(
+        1.10
+    )
+
+    return image
+
+
+# =========================================================
+# SAFE CINEMATIC CROPS
 # =========================================================
 
 def _image_background(
@@ -228,95 +271,45 @@ def _image_background(
     if source is None:
         return None
 
-    # -----------------------------------------------------
-    # SLIDE 1
-    # Normal cinematic crop
-    # -----------------------------------------------------
+    source = _enhance_image(
+        source
+    )
+
+    # =====================================================
+    # IMPORTANT:
+    # When 3 unique images exist, each image already belongs
+    # to its own slide.
+    #
+    # These crops are therefore intentionally gentle.
+    # We are NOT trying to fake diversity with extreme zoom.
+    # =====================================================
 
     if index == 1:
-        return ImageOps.fit(
-            source,
-            (
-                WIDTH,
-                HEIGHT,
-            ),
-            method=Image.Resampling.LANCZOS,
-            centering=(
-                0.50,
-                0.40,
-            ),
+        centering = (
+            0.50,
+            0.42,
         )
 
-    # -----------------------------------------------------
-    # SLIDE 2
-    # Stronger zoom + shifted left
-    # -----------------------------------------------------
-
-    if index == 2:
-        zoom_width = 1360
-        zoom_height = 1700
-
-        enlarged = ImageOps.fit(
-            source,
-            (
-                zoom_width,
-                zoom_height,
-            ),
-            method=Image.Resampling.LANCZOS,
-            centering=(
-                0.32,
-                0.46,
-            ),
+    elif index == 2:
+        centering = (
+            0.50,
+            0.38,
         )
 
-        left = 70
-        top = 135
-
-        return enlarged.crop(
-            (
-                left,
-                top,
-                left + WIDTH,
-                top + HEIGHT,
-            )
+    else:
+        centering = (
+            0.50,
+            0.40,
         )
 
-    # -----------------------------------------------------
-    # SLIDE 3
-    # Different zoom + shifted right
-    # -----------------------------------------------------
-
-    zoom_width = 1280
-    zoom_height = 1600
-
-    enlarged = ImageOps.fit(
+    return ImageOps.fit(
         source,
         (
-            zoom_width,
-            zoom_height,
+            WIDTH,
+            HEIGHT,
         ),
         method=Image.Resampling.LANCZOS,
-        centering=(
-            0.70,
-            0.40,
-        ),
-    )
-
-    left = (
-        zoom_width
-        - WIDTH
-        - 30
-    )
-
-    top = 100
-
-    return enlarged.crop(
-        (
-            left,
-            top,
-            left + WIDTH,
-            top + HEIGHT,
-        )
+        centering=centering,
     )
 
 
@@ -343,13 +336,16 @@ def _add_vignette(image):
         overlay
     )
 
-    # Top gradient
-    for i in range(380):
+    # =====================================================
+    # TOP GRADIENT
+    # =====================================================
+
+    for i in range(340):
         alpha = int(
-            145
+            115
             * (
                 1
-                - i / 380
+                - i / 340
             )
         )
 
@@ -368,8 +364,14 @@ def _add_vignette(image):
             ),
         )
 
-    # Bottom gradient
-    for i in range(620):
+    # =====================================================
+    # BOTTOM GRADIENT
+    #
+    # Strong enough for text readability,
+    # but lighter than before so more of the image survives.
+    # =====================================================
+
+    for i in range(600):
         y = (
             HEIGHT
             - i
@@ -377,10 +379,10 @@ def _add_vignette(image):
         )
 
         alpha = int(
-            215
+            195
             * (
                 1
-                - i / 620
+                - i / 600
             )
         )
 
@@ -621,6 +623,9 @@ def _prepare_background(
         background
     )
 
+    # Keep the GamerQuest blue/purple atmospheric depth,
+    # but make it slightly more subtle.
+
     if index == 1:
         background = _draw_glow(
             background,
@@ -630,7 +635,7 @@ def _prepare_background(
             ),
             250,
             GQ_BLUE,
-            45,
+            32,
         )
 
     elif index == 2:
@@ -642,7 +647,7 @@ def _prepare_background(
             ),
             260,
             GQ_PURPLE,
-            35,
+            27,
         )
 
     else:
@@ -654,7 +659,7 @@ def _prepare_background(
             ),
             280,
             GQ_BLUE,
-            40,
+            30,
         )
 
     return background
@@ -1355,6 +1360,15 @@ def render_carousel(
 
     # =====================================================
     # IMAGE LIST
+    #
+    # CRITICAL:
+    # preserve source order.
+    #
+    # Image 1 -> Slide 1
+    # Image 2 -> Slide 2
+    # Image 3 -> Slide 3
+    #
+    # Do NOT score, reorder, or replace them here.
     # =====================================================
 
     images = []
@@ -1372,7 +1386,7 @@ def render_carousel(
                     image
                 )
 
-    # Backward compatibility
+    # Backward compatibility.
     if (
         not images
         and featured_image
@@ -1404,19 +1418,19 @@ def render_carousel(
                 "Each slide must be a dictionary."
             )
 
-        # -------------------------------------------------
+        # =================================================
         # IMAGE SELECTION
-        # -------------------------------------------------
+        #
+        # IMPORTANT:
+        # This logic is intentionally unchanged.
+        # =================================================
 
         if len(images) >= index:
-            # Different real image available
             slide_image = images[
                 index - 1
             ]
 
         elif images:
-            # Reuse available exact-article image.
-            # Different crop is applied by _image_background.
             slide_image = images[
                 (index - 1)
                 % len(images)
@@ -1435,7 +1449,8 @@ def render_carousel(
             index,
             3,
             path,
-            featured_image=slide_image,
+            featured_image=
+                slide_image,
         )
 
         paths.append(

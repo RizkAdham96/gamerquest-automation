@@ -293,7 +293,6 @@ def _exact_source_content(
         if item:
             return [item]
 
-    # Compatibility for tests / explicit single-item calls.
     valid = [
         item
         for item in content
@@ -393,12 +392,19 @@ Never invent.
 Never infer.
 Never merge separate facts into a new claim.
 
+Never invent audience reaction, fan excitement,
+hype, popularity, controversy, anticipation,
+community reaction, or emotional response unless
+the source explicitly states it.
+
 Example:
+
 "construction de villes"
 +
 "exploration sous-marine"
 
 DOES NOT mean:
+
 "villes sous-marines"
 
 Prefer content with:
@@ -512,6 +518,7 @@ ONE AND ONLY SOURCE:
 )}
 
 CRITICAL:
+
 The source above is the ONLY article you may use.
 
 Do not use general knowledge.
@@ -520,6 +527,18 @@ Do not infer information that is not written there.
 
 Do not combine two separate facts into a stronger
 relationship.
+
+Never invent:
+- fan reaction
+- audience reaction
+- excitement
+- hype
+- popularity
+- anticipation
+- controversy
+- community sentiment
+
+unless the source explicitly states it.
 
 Example:
 
@@ -561,6 +580,11 @@ SLIDE 3 — CURIOSITY + TRAFFIC
 - Encourage visiting GamerQuest.fr.
 - Avoid generic filler when a concrete supported
   fact is available.
+- A simple navigation CTA is allowed, for example:
+  "Lire la suite sur GamerQuest.fr".
+- Do NOT claim GamerQuest has an analysis,
+  exclusive report, test, review, guide or other
+  content unless that is actually known.
 
 Each slide must contain:
 
@@ -577,6 +601,10 @@ visual_prompt must NOT request:
 Write a French caption.
 
 Write a short French CTA.
+
+A navigation CTA such as:
+"Lire la suite sur GamerQuest.fr"
+is allowed.
 
 Provide 3 to 6 hashtags.
 
@@ -649,7 +677,6 @@ def generate_ideas(content):
             idea.get("source_id")
         )
 
-        # Compatibility with tests where only one source exists.
         if (
             not source_id
             and len(valid_source_ids) == 1
@@ -662,6 +689,7 @@ def generate_ideas(content):
             continue
 
         clean_idea = idea.copy()
+
         clean_idea[
             "source_id"
         ] = source_id
@@ -814,8 +842,47 @@ Check EVERY factual claim in:
 A claim is valid ONLY if explicitly supported
 by the source.
 
+IMPORTANT CTA RULE:
+
+A navigation CTA such as
+"Lire la suite sur GamerQuest.fr"
+is NOT a factual claim about the source.
+
+The source does NOT need to mention GamerQuest.fr
+for a simple navigation CTA to be valid.
+
+These are allowed without source support:
+- "Lire la suite sur GamerQuest.fr"
+- "Découvre la suite sur GamerQuest.fr"
+- "Retrouve l'article sur GamerQuest.fr"
+- "En savoir plus sur GamerQuest.fr"
+
+However, a CTA becomes factual if it claims
+specific content exists.
+
+Examples that REQUIRE support:
+- "Lis notre analyse complète"
+- "Découvre notre test"
+- "Notre guide complet est disponible"
+- "Retrouve notre interview exclusive"
+
 VERY IMPORTANT:
-Check relationships between facts.
+
+Never treat audience reaction as supported unless
+the source explicitly describes it.
+
+Reject unsupported statements such as:
+- "les fans sont enthousiastes"
+- "les joueurs sont impatients"
+- "le jeu fait énormément parler"
+- "une attente énorme"
+- "un événement qui a fait vibrer les fans"
+- "le trailer a créé beaucoup de hype"
+
+unless those reactions are explicitly written in
+the source.
+
+Also check relationships between facts.
 
 If the source separately says:
 - construction de villes
@@ -844,8 +911,10 @@ Also carefully check:
 
 Do not use outside knowledge.
 
-If ONE claim is unsupported:
+If ONE factual claim is unsupported:
 "valid" MUST be false.
+
+Do NOT reject a simple GamerQuest navigation CTA.
 
 Return ONLY JSON:
 
@@ -961,6 +1030,46 @@ RULES:
 - Preserve the topic.
 - Preserve EXACTLY 3 slides.
 - French only.
+
+Do not invent audience reaction,
+fan excitement, hype, popularity,
+anticipation, controversy or community
+reaction.
+
+Examples of phrases you MUST NOT invent:
+- "les fans sont enthousiastes"
+- "les joueurs sont impatients"
+- "une forte attente"
+- "beaucoup de hype"
+- "fait vibrer les fans"
+- "très attendu"
+- "les joueurs l'attendent avec impatience"
+
+These are allowed ONLY if the source explicitly
+states the reaction.
+
+When replacing an unsupported claim,
+prefer a plain concrete fact from the source.
+
+Do NOT replace one unsupported claim with
+another vague marketing claim.
+
+IMPORTANT CTA RULE:
+
+A simple navigation CTA is allowed:
+
+"Lire la suite sur GamerQuest.fr"
+
+It does NOT need to be stated in the source.
+
+Do NOT claim:
+- "notre analyse complète"
+- "notre test"
+- "notre guide"
+- "notre dossier exclusif"
+
+unless that specific GamerQuest content is known
+to exist.
 
 IMPORTANT semantic rule:
 

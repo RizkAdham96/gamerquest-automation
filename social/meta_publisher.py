@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 
 
@@ -6,9 +7,17 @@ from pathlib import Path
 # CONFIG
 # =========================================================
 
-GRAPH_API_VERSION = "v24.0"
+GRAPH_API_VERSION = os.getenv(
+    "META_GRAPH_API_VERSION",
+    "v26.0",
+).strip() or "v26.0"
 
-GRAPH_API_BASE_URL = (
+INSTAGRAM_GRAPH_BASE_URL = (
+    f"https://graph.instagram.com/"
+    f"{GRAPH_API_VERSION}"
+)
+
+FACEBOOK_GRAPH_BASE_URL = (
     f"https://graph.facebook.com/"
     f"{GRAPH_API_VERSION}"
 )
@@ -149,7 +158,7 @@ def _post(
     if "error" in payload:
         error = payload.get(
             "error",
-            {}
+            {},
         )
 
         if isinstance(
@@ -190,9 +199,6 @@ def build_raw_github_urls(
     """
     Convert repository file paths into
     public raw.githubusercontent.com URLs.
-
-    Meta can fetch these URLs because the
-    GamerQuest repository is public.
     """
 
     repository = _require_value(
@@ -463,7 +469,7 @@ def mark_platform_published(
 
     source_history = history.setdefault(
         source_id,
-        {}
+        {},
     )
 
     source_history[
@@ -510,7 +516,7 @@ def mark_platform_failed(
 
     source_history = history.setdefault(
         source_id,
-        {}
+        {},
     )
 
     previous = source_history.get(
@@ -558,10 +564,8 @@ def publish_instagram_carousel(
     Publish exactly three images as
     an Instagram carousel.
 
-    Flow:
-    1. Create three carousel children.
-    2. Create parent CAROUSEL container.
-    3. Publish parent container.
+    Instagram Login API uses:
+    graph.instagram.com
     """
 
     image_urls = (
@@ -591,19 +595,19 @@ def publish_instagram_carousel(
     )
 
     media_endpoint = (
-        f"{GRAPH_API_BASE_URL}/"
+        f"{INSTAGRAM_GRAPH_BASE_URL}/"
         f"{ig_user_id}/media"
     )
 
     publish_endpoint = (
-        f"{GRAPH_API_BASE_URL}/"
+        f"{INSTAGRAM_GRAPH_BASE_URL}/"
         f"{ig_user_id}/media_publish"
     )
 
     child_ids = []
 
     # -----------------------------------------------------
-    # CREATE 3 CHILD MEDIA CONTAINERS
+    # CREATE THREE CAROUSEL CHILDREN
     # -----------------------------------------------------
 
     for image_url in image_urls:
@@ -611,9 +615,14 @@ def publish_instagram_carousel(
             requests_module,
             media_endpoint,
             {
-                "image_url": image_url,
-                "is_carousel_item": True,
-                "access_token": access_token,
+                "image_url":
+                    image_url,
+
+                "is_carousel_item":
+                    True,
+
+                "access_token":
+                    access_token,
             },
         )
 
@@ -634,19 +643,26 @@ def publish_instagram_carousel(
         )
 
     # -----------------------------------------------------
-    # CREATE PARENT CAROUSEL
+    # CREATE CAROUSEL PARENT
     # -----------------------------------------------------
 
     parent_payload = _post(
         requests_module,
         media_endpoint,
         {
-            "media_type": "CAROUSEL",
-            "children": ",".join(
-                child_ids
-            ),
-            "caption": caption,
-            "access_token": access_token,
+            "media_type":
+                "CAROUSEL",
+
+            "children":
+                ",".join(
+                    child_ids
+                ),
+
+            "caption":
+                caption,
+
+            "access_token":
+                access_token,
         },
     )
 
@@ -663,15 +679,18 @@ def publish_instagram_carousel(
         )
 
     # -----------------------------------------------------
-    # PUBLISH CAROUSEL
+    # PUBLISH
     # -----------------------------------------------------
 
     publish_payload = _post(
         requests_module,
         publish_endpoint,
         {
-            "creation_id": creation_id,
-            "access_token": access_token,
+            "creation_id":
+                creation_id,
+
+            "access_token":
+                access_token,
         },
     )
 
@@ -688,11 +707,20 @@ def publish_instagram_carousel(
         )
 
     return {
-        "published": True,
-        "platform": "instagram",
-        "post_id": post_id,
-        "creation_id": creation_id,
-        "children": child_ids,
+        "published":
+            True,
+
+        "platform":
+            "instagram",
+
+        "post_id":
+            post_id,
+
+        "creation_id":
+            creation_id,
+
+        "children":
+            child_ids,
     }
 
 
@@ -708,13 +736,11 @@ def publish_facebook_carousel(
     requests_module=None,
 ):
     """
-    Publish three images as one
-    Facebook Page multi-photo post.
+    Publish exactly three images as
+    one Facebook Page multi-photo post.
 
-    Flow:
-    1. Upload each image as unpublished.
-    2. Create one Page feed post using
-       attached_media.
+    Facebook Page API uses:
+    graph.facebook.com
     """
 
     image_urls = (
@@ -744,12 +770,12 @@ def publish_facebook_carousel(
     )
 
     photos_endpoint = (
-        f"{GRAPH_API_BASE_URL}/"
+        f"{FACEBOOK_GRAPH_BASE_URL}/"
         f"{page_id}/photos"
     )
 
     feed_endpoint = (
-        f"{GRAPH_API_BASE_URL}/"
+        f"{FACEBOOK_GRAPH_BASE_URL}/"
         f"{page_id}/feed"
     )
 
@@ -764,9 +790,14 @@ def publish_facebook_carousel(
             requests_module,
             photos_endpoint,
             {
-                "url": image_url,
-                "published": False,
-                "access_token": access_token,
+                "url":
+                    image_url,
+
+                "published":
+                    False,
+
+                "access_token":
+                    access_token,
             },
         )
 
@@ -787,12 +818,15 @@ def publish_facebook_carousel(
         )
 
     # -----------------------------------------------------
-    # ATTACH PHOTOS TO ONE POST
+    # CREATE ONE MULTI-PHOTO PAGE POST
     # -----------------------------------------------------
 
     post_data = {
-        "message": caption,
-        "access_token": access_token,
+        "message":
+            caption,
+
+        "access_token":
+            access_token,
     }
 
     for index, photo_id in enumerate(
@@ -802,7 +836,8 @@ def publish_facebook_carousel(
             f"attached_media[{index}]"
         ] = json.dumps(
             {
-                "media_fbid": photo_id
+                "media_fbid":
+                    photo_id
             }
         )
 
@@ -825,8 +860,15 @@ def publish_facebook_carousel(
         )
 
     return {
-        "published": True,
-        "platform": "facebook",
-        "post_id": post_id,
-        "photo_ids": photo_ids,
+        "published":
+            True,
+
+        "platform":
+            "facebook",
+
+        "post_id":
+            post_id,
+
+        "photo_ids":
+            photo_ids,
     }

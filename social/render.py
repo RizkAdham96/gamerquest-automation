@@ -4,18 +4,15 @@ from pathlib import Path
 
 from social.sources import get_all_content
 from social.renderer import render_carousel
-from social.image_finder import (
-    find_images_for_article,
+from social.image_finder import find_images_for_article
+from social.openai_image_generator import (
+    try_generate_carousel_images,
 )
 
 
-OUTPUT_FILE = Path(
-    "social-output.json"
-)
-
-OUTPUT_DIR = Path(
-    "social-rendered"
-)
+OUTPUT_FILE = Path("social-output.json")
+OUTPUT_DIR = Path("social-rendered")
+OPENAI_OUTPUT_DIR = Path("social-generated")
 
 
 # =========================================================
@@ -30,10 +27,9 @@ def _clean_text(value):
 
 
 def _tokens(value):
-    text = (
-        _clean_text(value)
-        .lower()
-    )
+    text = _clean_text(
+        value
+    ).lower()
 
     return {
         token
@@ -53,21 +49,27 @@ def _item_source_id(item):
         return ""
 
     value = _clean_text(
-        item.get("source_id")
+        item.get(
+            "source_id"
+        )
     )
 
     if value:
         return value
 
     slug = _clean_text(
-        item.get("slug")
+        item.get(
+            "slug"
+        )
     )
 
     if slug:
         return f"slug:{slug}"
 
     title = _clean_text(
-        item.get("title")
+        item.get(
+            "title"
+        )
     )
 
     if title:
@@ -116,8 +118,9 @@ def find_content_by_source_id(
 # =========================================================
 # LEGACY MATCHING
 #
-# Kept ONLY for old tests and helper compatibility.
-# Real production rendering uses source_id.
+# Kept for tests / old helper compatibility only.
+#
+# Production rendering with source_id does NOT use this.
 # =========================================================
 
 def _carousel_search_text(
@@ -152,11 +155,15 @@ def _carousel_search_text(
                 continue
 
             parts.append(
-                slide.get("title")
+                slide.get(
+                    "title"
+                )
             )
 
             parts.append(
-                slide.get("body")
+                slide.get(
+                    "body"
+                )
             )
 
     return " ".join(
@@ -234,23 +241,17 @@ def _match_score(
         * 10
     )
 
-    topic = (
-        _clean_text(
-            carousel.get(
-                "topic"
-            )
+    topic = _clean_text(
+        carousel.get(
+            "topic"
         )
-        .lower()
-    )
+    ).lower()
 
-    title = (
-        _clean_text(
-            item.get(
-                "title"
-            )
+    title = _clean_text(
+        item.get(
+            "title"
         )
-        .lower()
-    )
+    ).lower()
 
     if topic and title:
         if topic in title:
@@ -341,16 +342,13 @@ def find_featured_image_url(
     content=None,
 ):
     """
-    Compatibility helper used by existing tests.
+    Compatibility helper used by older tests.
 
-    If source_id exists, exact lookup is used.
-    Otherwise legacy topic matching is allowed here only.
+    Exact source_id is preferred.
     """
 
     if content is None:
-        content = (
-            get_all_content()
-        )
+        content = get_all_content()
 
     source_id = ""
 
@@ -395,19 +393,15 @@ def find_featured_image_url(
     )
 
     for field in primary_fields:
-        value = (
-            matched_item.get(
-                field
-            )
+        value = matched_item.get(
+            field
         )
 
         if isinstance(
             value,
             str,
         ):
-            value = (
-                value.strip()
-            )
+            value = value.strip()
 
             if value:
                 return value
@@ -426,10 +420,8 @@ def find_featured_image_url(
                 "large",
                 "medium",
             ):
-                candidate = (
-                    value.get(
-                        key
-                    )
+                candidate = value.get(
+                    key
                 )
 
                 if isinstance(
@@ -454,10 +446,8 @@ def find_featured_image_url(
     )
 
     for field in gallery_fields:
-        value = (
-            matched_item.get(
-                field
-            )
+        value = matched_item.get(
+            field
         )
 
         if not isinstance(
@@ -471,9 +461,7 @@ def find_featured_image_url(
                 image,
                 str,
             ):
-                image = (
-                    image.strip()
-                )
+                image = image.strip()
 
                 if image:
                     return image
@@ -519,11 +507,10 @@ def _source_only_item(
     item,
 ):
     """
-    Remove GamerQuest-generated image fields before
-    scanning the original source page.
+    Remove already-generated GamerQuest image fields.
 
-    This avoids blindly trusting a generated thumbnail
-    that may have been built from the wrong roundup image.
+    This lets the fallback image finder inspect the
+    original exact source first.
     """
 
     if not isinstance(
@@ -648,10 +635,7 @@ def _extract_carousel(
             slides,
             list,
         )
-        or len(
-            slides
-        )
-        != 3
+        or len(slides) != 3
     ):
         raise RuntimeError(
             "Carousel must contain "
@@ -662,6 +646,119 @@ def _extract_carousel(
 
 
 # =========================================================
+# EXACT-SOURCE FALLBACK IMAGES
+# =========================================================
+
+def _find_exact_source_images(
+    matched_item,
+    topic,
+):
+    """
+    Existing image pipeline.
+
+    This is now the fallback if OpenAI generation
+    is unavailable.
+
+    It NEVER searches another GamerQuest article.
+    """
+
+    if not matched_item:
+        return []
+
+    source_only = _source_only_item(
+        matched_item
+    )
+
+    featured_images = (
+        find_images_for_article(
+            source_only,
+            topic=topic,
+            limit=3,
+        )
+    )
+
+    print(
+        "Exact-source images found: "
+        f"{len(featured_images)}"
+    )
+
+    if featured_images:
+        return featured_images
+
+    print(
+        "Original source supplied no usable image. "
+        "Trying exact article image data."
+    )
+
+    return find_images_for_article(
+        matched_item,
+        topic=topic,
+        limit=3,
+    )
+
+
+# =========================================================
+# OPENAI IMAGES
+# =========================================================
+
+def _generate_openai_images(
+    carousel,
+    matched_item,
+):
+    """
+    Try OpenAI first.
+
+    Any error is safely handled inside
+    try_generate_carousel_images().
+
+    If OpenAI fails, [] is returned and we immediately
+    use the old exact-source image system.
+    """
+
+    if not matched_item:
+        return []
+
+    print(
+        "Trying OpenAI visual generation..."
+    )
+
+    generated = (
+        try_generate_carousel_images(
+            carousel=carousel,
+            source_item=matched_item,
+            output_dir=OPENAI_OUTPUT_DIR,
+        )
+    )
+
+    if len(generated) == 3:
+        generated = [
+            str(path)
+            for path in generated
+        ]
+
+        print(
+            "OpenAI visual generation: SUCCESS"
+        )
+
+        for index, path in enumerate(
+            generated,
+            start=1,
+        ):
+            print(
+                f"OpenAI image {index}: {path}"
+            )
+
+        return generated
+
+    print(
+        "OpenAI did not return a complete "
+        "3-image set."
+    )
+
+    return []
+
+
+# =========================================================
 # RENDER FROM OUTPUT
 # =========================================================
 
@@ -669,10 +766,8 @@ def render_from_output(
     output_file=OUTPUT_FILE,
     output_dir=OUTPUT_DIR,
 ):
-    payload = (
-        load_social_output(
-            output_file
-        )
+    payload = load_social_output(
+        output_file
     )
 
     # =====================================================
@@ -684,10 +779,8 @@ def render_from_output(
         dict,
     ):
         return {
-            "status":
-                "skipped",
-            "reason":
-                "invalid_payload",
+            "status": "skipped",
+            "reason": "invalid_payload",
         }
 
     if (
@@ -697,10 +790,8 @@ def render_from_output(
         != "ready"
     ):
         return {
-            "status":
-                "skipped",
-            "reason":
-                "not_ready",
+            "status": "skipped",
+            "reason": "not_ready",
         }
 
     if (
@@ -712,16 +803,12 @@ def render_from_output(
         is not True
     ):
         return {
-            "status":
-                "skipped",
-            "reason":
-                "not_fact_checked",
+            "status": "skipped",
+            "reason": "not_fact_checked",
         }
 
-    carousel = (
-        payload.get(
-            "carousel"
-        )
+    carousel = payload.get(
+        "carousel"
     )
 
     if not isinstance(
@@ -729,16 +816,12 @@ def render_from_output(
         dict,
     ):
         return {
-            "status":
-                "skipped",
-            "reason":
-                "missing_carousel",
+            "status": "skipped",
+            "reason": "missing_carousel",
         }
 
-    slides = (
-        carousel.get(
-            "slides"
-        )
+    slides = carousel.get(
+        "slides"
     )
 
     if (
@@ -746,16 +829,11 @@ def render_from_output(
             slides,
             list,
         )
-        or len(
-            slides
-        )
-        != 3
+        or len(slides) != 3
     ):
         return {
-            "status":
-                "skipped",
-            "reason":
-                "invalid_slide_count",
+            "status": "skipped",
+            "reason": "invalid_slide_count",
         }
 
     # =====================================================
@@ -771,18 +849,12 @@ def render_from_output(
         )
     )
 
-    content = (
-        get_all_content()
-    )
+    content = get_all_content()
 
     matched_item = None
 
     # =====================================================
     # PRODUCTION MODE
-    #
-    # source_id exists:
-    # EXACT MATCH ONLY.
-    # NO fuzzy article matching.
     # =====================================================
 
     if source_id:
@@ -801,12 +873,9 @@ def render_from_output(
             )
 
             return {
-                "status":
-                    "skipped",
-                "reason":
-                    "source_id_not_found",
-                "source_id":
-                    source_id,
+                "status": "skipped",
+                "reason": "source_id_not_found",
+                "source_id": source_id,
             }
 
         print(
@@ -824,13 +893,7 @@ def render_from_output(
         )
 
     # =====================================================
-    # LEGACY / UNIT-TEST MODE
-    #
-    # Existing renderer tests use payloads created before
-    # source_id existed.
-    #
-    # These payloads still render 3 slides, but they do NOT
-    # perform article guessing.
+    # LEGACY / TEST MODE
     # =====================================================
 
     else:
@@ -840,78 +903,102 @@ def render_from_output(
         )
 
         print(
-            "Skipping article lookup "
+            "Skipping OpenAI/article lookup "
             "and using renderer fallback."
         )
 
-    # =====================================================
-    # IMAGE DISCOVERY
-    # =====================================================
-
-    topic = (
-        carousel.get(
-            "topic",
-            ""
-        )
+    topic = carousel.get(
+        "topic",
+        "",
     )
 
-    featured_images = []
+    # =====================================================
+    # IMAGE PIPELINE
+    #
+    # 1. OpenAI
+    # 2. Existing exact-source images
+    # 3. Renderer graphical fallback
+    # =====================================================
 
-    # =====================================================
-    # PRODUCTION:
-    # FIRST TRY ORIGINAL SOURCE PAGE ONLY
-    # =====================================================
+    featured_images = []
+    image_mode = "fallback"
+
+    # -----------------------------------------------------
+    # STEP 1 — OPENAI
+    # -----------------------------------------------------
 
     if matched_item:
-        source_only = (
-            _source_only_item(
-                matched_item
-            )
-        )
-
         featured_images = (
-            find_images_for_article(
-                source_only,
-                topic=topic,
-                limit=3,
+            _generate_openai_images(
+                carousel,
+                matched_item,
             )
         )
 
-        print(
-            "Exact-source images found: "
-            f"{len(featured_images)}"
+    if len(featured_images) == 3:
+        image_mode = (
+            "openai_generated"
         )
+
+    # -----------------------------------------------------
+    # STEP 2 — EXACT SOURCE FALLBACK
+    # -----------------------------------------------------
+
+    else:
+        if matched_item:
+            print(
+                "Using existing exact-source "
+                "image fallback..."
+            )
+
+            featured_images = (
+                _find_exact_source_images(
+                    matched_item,
+                    topic,
+                )
+            )
 
     # =====================================================
-    # FALLBACK:
-    # EXACT SAME ARTICLE'S SAVED IMAGE DATA ONLY
-    #
-    # NEVER search another article.
+    # IMAGE MODE
     # =====================================================
 
     if (
-        matched_item
-        and not featured_images
+        image_mode
+        != "openai_generated"
     ):
-        print(
-            "Original source supplied no usable image. "
-            "Trying exact article image data."
-        )
-
-        featured_images = (
-            find_images_for_article(
-                matched_item,
-                topic=topic,
-                limit=3,
+        if len(
+            featured_images
+        ) >= 3:
+            image_mode = (
+                "three_real_images"
             )
-        )
 
-    # =====================================================
-    # IMAGE LOG
-    # =====================================================
+        elif len(
+            featured_images
+        ) == 2:
+            image_mode = (
+                "two_images"
+            )
+
+        elif len(
+            featured_images
+        ) == 1:
+            image_mode = (
+                "single_image"
+            )
+
+        else:
+            image_mode = (
+                "fallback"
+            )
 
     print(
-        "Real article/source images found: "
+        "Final image mode: "
+        f"{image_mode}"
+    )
+
+    print(
+        "Images sent to renderer: "
         f"{len(featured_images)}"
     )
 
@@ -934,88 +1021,17 @@ def render_from_output(
     # RENDER
     # =====================================================
 
-    paths = (
-        render_carousel(
-            carousel,
-            output_dir,
-            featured_image=
-                featured_image,
-            featured_images=
-                featured_images,
-        )
-    )
-
-    print(
-        "Renderer received "
-        f"{len(featured_images)} "
-        "unique image(s)."
+    paths = render_carousel(
+        carousel,
+        output_dir,
+        featured_image=featured_image,
+        featured_images=featured_images,
     )
 
     print(
         f"Rendered slides: "
         f"{len(paths)}"
     )
-
-    # =====================================================
-    # IMAGE MODE
-    # =====================================================
-
-    if (
-        len(
-            featured_images
-        )
-        >= 3
-    ):
-        image_mode = (
-            "three_real_images"
-        )
-
-        print(
-            "Image mode: "
-            "three real exact-source images"
-        )
-
-    elif (
-        len(
-            featured_images
-        )
-        == 2
-    ):
-        image_mode = (
-            "two_images"
-        )
-
-        print(
-            "Image mode: "
-            "two exact-source images "
-            "+ crop fallback"
-        )
-
-    elif (
-        len(
-            featured_images
-        )
-        == 1
-    ):
-        image_mode = (
-            "single_image"
-        )
-
-        print(
-            "Image mode: "
-            "one exact-source image "
-            "+ crop fallback"
-        )
-
-    else:
-        image_mode = (
-            "fallback"
-        )
-
-        print(
-            "Image mode: "
-            "renderer fallback"
-        )
 
     # =====================================================
     # OUTPUT DIRECTORY
@@ -1100,6 +1116,12 @@ def render_from_output(
 
         "image_mode":
             image_mode,
+
+        "openai_images_used":
+            (
+                image_mode
+                == "openai_generated"
+            ),
     }
 
     manifest_path = (
@@ -1126,9 +1148,7 @@ def render_from_output(
 # =========================================================
 
 def main():
-    result = (
-        render_from_output()
-    )
+    result = render_from_output()
 
     print(
         "Social renderer status: "

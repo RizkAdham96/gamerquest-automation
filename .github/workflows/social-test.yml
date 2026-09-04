@@ -2,6 +2,12 @@ name: GamerQuest Social Test
 
 on:
   workflow_dispatch:
+    inputs:
+      publish_to_meta:
+        description: "Publish the carousel to Instagram and Facebook"
+        required: true
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -24,7 +30,11 @@ jobs:
       - name: Install social dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install Pillow
+          python -m pip install Pillow requests
+
+      # ===================================================
+      # TESTS
+      # ===================================================
 
       - name: Run social integration test
         env:
@@ -50,12 +60,26 @@ jobs:
         run: |
           python tests/social/test_prepare_publish.py
 
+      - name: Run publish runner test
+        env:
+          PYTHONPATH: .
+        run: |
+          python tests/social/test_publish_run.py
+
+      # ===================================================
+      # GENERATE SOCIAL POST
+      # ===================================================
+
       - name: Run real Groq social generation
         env:
           PYTHONPATH: .
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python -m social.run
+
+      # ===================================================
+      # GENERATE + RENDER IMAGES
+      # ===================================================
 
       - name: Render social carousel images
         env:
@@ -64,9 +88,15 @@ jobs:
         run: |
           python -m social.render
 
+      # ===================================================
+      # PREPARE PUBLIC IMAGES
+      # ===================================================
+
       - name: Prepare carousel for public publishing
         env:
           PYTHONPATH: .
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_BRANCH: main
         run: |
           python -m social.prepare_publish_run
 
@@ -87,6 +117,11 @@ jobs:
           echo "Published carousel files:"
           find social-published -type f | sort
 
+      # ===================================================
+      # PUSH IMAGES FIRST
+      # Meta needs public URLs before publishing.
+      # ===================================================
+
       - name: Commit prepared carousel
         shell: bash
         run: |
@@ -102,6 +137,55 @@ jobs:
             git push
           fi
 
+      # ===================================================
+      # REAL META PUBLISHING
+      #
+      # This runs ONLY when you manually enable:
+      # Publish to Meta = true
+      # ===================================================
+
+      - name: Publish carousel to Meta
+        if: ${{ inputs.publish_to_meta == true }}
+        env:
+          PYTHONPATH: .
+          META_IG_ACCESS_TOKEN: ${{ secrets.META_IG_ACCESS_TOKEN }}
+          META_FB_PAGE_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_GRAPH_API_VERSION: v26.0
+        run: |
+          python -m social.publish_run
+
+      # ===================================================
+      # SAVE PUBLISH HISTORY
+      #
+      # This prevents duplicate posts.
+      # ===================================================
+
+      - name: Commit Meta publish history
+        if: ${{ inputs.publish_to_meta == true && always() }}
+        shell: bash
+        run: |
+          git config user.name "GamerQuest Social Bot"
+          git config user.email "actions@github.com"
+
+          if [ -f social/publish_history.json ]; then
+            git add social/publish_history.json
+
+            if git diff --cached --quiet; then
+              echo "No publish history changes."
+            else
+              git commit -m "social: update Meta publish history"
+              git push
+            fi
+          else
+            echo "No publish history file found."
+          fi
+
+      # ===================================================
+      # ARTIFACTS
+      # ===================================================
+
       - name: Upload social output
         if: always()
         uses: actions/upload-artifact@v4
@@ -109,8 +193,10 @@ jobs:
           name: gamerquest-social-output
           path: |
             social-output.json
+            social-publish-ready.json
             social-rendered/
             social-generated/
             social-published/
+            social/publish_history.json
             social/openai_image_usage.json
           if-no-files-found: warn

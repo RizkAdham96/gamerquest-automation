@@ -16,32 +16,53 @@ class TestCarouselRenderer(unittest.TestCase):
             "slides": [
                 {
                     "title": f"Slide {index}",
-                    "body": "Une information gaming courte et utile.",
-                    "visual_prompt": "gaming visual",
+                    "body": (
+                        "Une information gaming "
+                        "courte et utile."
+                    ),
+                    "visual_prompt":
+                        "gaming visual",
                 }
-                for index in range(1, 4)
+                for index in range(
+                    1,
+                    4,
+                )
             ],
         }
 
-    def test_render_carousel_creates_three_1080x1350_pngs(self):
+    def test_render_carousel_creates_three_1080x1350_pngs(
+        self
+    ):
         with tempfile.TemporaryDirectory() as temp_dir:
 
-            paths = renderer.render_carousel(
-                self.sample_carousel(),
-                Path(temp_dir),
+            paths = (
+                renderer.render_carousel(
+                    self.sample_carousel(),
+                    Path(temp_dir),
+                )
             )
 
-            self.assertEqual(len(paths), 3)
+            self.assertEqual(
+                len(paths),
+                3,
+            )
 
             for path in paths:
 
-                self.assertTrue(path.exists())
+                self.assertTrue(
+                    path.exists()
+                )
 
-                with Image.open(path) as image:
+                with Image.open(
+                    path
+                ) as image:
 
                     self.assertEqual(
                         image.size,
-                        (1080, 1350),
+                        (
+                            1080,
+                            1350,
+                        ),
                     )
 
                     self.assertEqual(
@@ -49,96 +70,136 @@ class TestCarouselRenderer(unittest.TestCase):
                         "PNG",
                     )
 
-    def test_render_carousel_requires_exactly_three_slides(self):
+    def test_render_carousel_requires_exactly_three_slides(
+        self
+    ):
+        carousel = (
+            self.sample_carousel()
+        )
 
-        carousel = self.sample_carousel()
-
-        carousel["slides"] = carousel["slides"][:2]
+        carousel["slides"] = (
+            carousel[
+                "slides"
+            ][:2]
+        )
 
         with tempfile.TemporaryDirectory() as temp_dir:
 
-            with self.assertRaises(ValueError):
+            with self.assertRaises(
+                ValueError
+            ):
 
                 renderer.render_carousel(
                     carousel,
                     Path(temp_dir),
                 )
 
-    def test_renderer_rejects_five_slides(self):
+    def test_renderer_rejects_five_slides(
+        self
+    ):
+        carousel = (
+            self.sample_carousel()
+        )
 
-        carousel = self.sample_carousel()
-
-        carousel["slides"].extend(
+        carousel[
+            "slides"
+        ].extend(
             [
                 {
-                    "title": "Extra slide",
-                    "body": "Should not exist",
+                    "title":
+                        "Extra slide",
+                    "body":
+                        "Should not exist",
                 },
                 {
-                    "title": "Extra slide",
-                    "body": "Should not exist",
+                    "title":
+                        "Extra slide",
+                    "body":
+                        "Should not exist",
                 },
             ]
         )
 
         with tempfile.TemporaryDirectory() as temp_dir:
 
-            with self.assertRaises(ValueError):
+            with self.assertRaises(
+                ValueError
+            ):
 
                 renderer.render_carousel(
                     carousel,
                     Path(temp_dir),
                 )
 
-    def test_renderer_uses_gamerquest_palette(self):
-
+    def test_renderer_uses_gamerquest_palette(
+        self
+    ):
         self.assertEqual(
             renderer.GQ_BLUE,
-            (76, 141, 255),
+            (
+                76,
+                141,
+                255,
+            ),
         )
 
         self.assertEqual(
             renderer.GQ_PURPLE,
-            (159, 79, 255),
+            (
+                159,
+                79,
+                255,
+            ),
         )
 
         self.assertEqual(
             renderer.BG,
-            (5, 8, 15),
+            (
+                5,
+                8,
+                15,
+            ),
         )
 
-    def test_renderer_has_no_logo_dependency(self):
+    # =====================================================
+    # NEW LOGO TEST
+    # =====================================================
 
-        self.assertFalse(
+    def test_renderer_supports_gamerquest_logo(
+        self
+    ):
+        self.assertTrue(
             hasattr(
                 renderer,
-                "BRAND_LOGO_PNG_BASE64",
+                "LOGO_FILE",
             )
         )
 
-        self.assertFalse(
+        self.assertTrue(
             hasattr(
                 renderer,
-                "LOGO_PATH",
+                "_draw_brand_logo",
             )
         )
 
-        self.assertFalse(
-            hasattr(
-                renderer,
-                "_load_brand_logo",
-            )
+        self.assertIsInstance(
+            renderer.LOGO_FILE,
+            Path,
         )
 
-        self.assertFalse(
-            hasattr(
-                renderer,
-                "_draw_logo",
-            )
+        self.assertEqual(
+            renderer.LOGO_FILE.name,
+            "gamerquest-logo.png",
         )
 
-    def test_render_slide_uses_featured_image(self):
+        self.assertEqual(
+            renderer.LOGO_FILE.parent.name,
+            "assets",
+        )
 
+    def test_render_slide_uses_featured_image(
+        self
+    ):
         with tempfile.TemporaryDirectory() as temp_dir:
 
             source_path = (
@@ -153,25 +214,46 @@ class TestCarouselRenderer(unittest.TestCase):
 
             Image.new(
                 "RGB",
-                (800, 800),
-                (20, 180, 80),
-            ).save(source_path)
+                (
+                    800,
+                    800,
+                ),
+                (
+                    20,
+                    180,
+                    80,
+                ),
+            ).save(
+                source_path
+            )
 
             renderer.render_slide(
                 {
-                    "title": "Game update",
-                    "body": "New content",
+                    "title":
+                        "Game update",
+                    "body":
+                        "New content",
                 },
                 1,
                 3,
                 output_path,
-                featured_image=str(source_path),
+                featured_image=
+                    str(
+                        source_path
+                    ),
             )
 
-            with Image.open(output_path) as image:
+            with Image.open(
+                output_path
+            ) as image:
 
-                center = image.getpixel(
-                    (540, 675)
+                center = (
+                    image.getpixel(
+                        (
+                            540,
+                            675,
+                        )
+                    )
                 )
 
                 self.assertNotEqual(
@@ -179,19 +261,26 @@ class TestCarouselRenderer(unittest.TestCase):
                     renderer.BG,
                 )
 
-    def test_renderer_supports_three_distinct_layouts(self):
-
+    def test_renderer_supports_three_distinct_layouts(
+        self
+    ):
         layouts = []
 
-        for index in range(1, 4):
+        for index in range(
+            1,
+            4,
+        ):
 
             settings = (
-                renderer._layout_text_settings(
+                renderer
+                ._layout_text_settings(
                     index
                 )
             )
 
-            layouts.append(settings)
+            layouts.append(
+                settings
+            )
 
             self.assertIn(
                 "title_y",
@@ -218,33 +307,46 @@ class TestCarouselRenderer(unittest.TestCase):
             3,
         )
 
-    def test_text_layout_stays_inside_canvas(self):
-
-        for index in range(1, 4):
+    def test_text_layout_stays_inside_canvas(
+        self
+    ):
+        for index in range(
+            1,
+            4,
+        ):
 
             settings = (
-                renderer._layout_text_settings(
+                renderer
+                ._layout_text_settings(
                     index
                 )
             )
 
             self.assertGreaterEqual(
-                settings["title_y"],
+                settings[
+                    "title_y"
+                ],
                 0,
             )
 
             self.assertLess(
-                settings["title_y"],
+                settings[
+                    "title_y"
+                ],
                 renderer.HEIGHT,
             )
 
             self.assertGreater(
-                settings["max_width"],
+                settings[
+                    "max_width"
+                ],
                 0,
             )
 
             self.assertLessEqual(
-                settings["max_width"],
+                settings[
+                    "max_width"
+                ],
                 renderer.WIDTH,
             )
 
@@ -254,7 +356,6 @@ class TestRenderCLI(unittest.TestCase):
     def test_render_from_output_requires_ready_fact_checked_payload(
         self
     ):
-
         with tempfile.TemporaryDirectory() as temp_dir:
 
             input_path = (
@@ -270,47 +371,71 @@ class TestRenderCLI(unittest.TestCase):
             input_path.write_text(
                 json.dumps(
                     {
-                        "status": "skipped",
-                        "fact_checked": False,
+                        "status":
+                            "skipped",
+                        "fact_checked":
+                            False,
                     }
                 ),
                 encoding="utf-8",
             )
 
-            result = render.render_from_output(
-                input_path,
-                output_dir,
+            result = (
+                render.render_from_output(
+                    input_path,
+                    output_dir,
+                )
             )
 
             self.assertEqual(
-                result["status"],
+                result[
+                    "status"
+                ],
                 "skipped",
             )
 
             self.assertFalse(
-                output_dir.exists(),
+                output_dir.exists()
             )
 
     def test_render_from_output_writes_three_slide_manifest(
         self
     ):
-
         payload = {
-            "status": "ready",
-            "fact_checked": True,
+            "status":
+                "ready",
+
+            "fact_checked":
+                True,
+
             "carousel": {
-                "brand": "GamerQuest",
-                "caption": "Caption",
-                "cta": "Découvre la suite sur GamerQuest.",
+                "brand":
+                    "GamerQuest",
+
+                "caption":
+                    "Caption",
+
+                "cta":
+                    (
+                        "Découvre la suite "
+                        "sur GamerQuest."
+                    ),
+
                 "hashtags": [
                     "#GamerQuest"
                 ],
+
                 "slides": [
                     {
-                        "title": f"Slide {index}",
-                        "body": "Body",
+                        "title":
+                            f"Slide {index}",
+                        "body":
+                            "Body",
                     }
-                    for index in range(1, 4)
+                    for index in range(
+                        1,
+                        4,
+                    )
                 ],
             },
         }
@@ -328,71 +453,100 @@ class TestRenderCLI(unittest.TestCase):
             )
 
             input_path.write_text(
-                json.dumps(payload),
+                json.dumps(
+                    payload
+                ),
                 encoding="utf-8",
             )
 
-            result = render.render_from_output(
-                input_path,
-                output_dir,
+            result = (
+                render.render_from_output(
+                    input_path,
+                    output_dir,
+                )
             )
 
-            manifest = json.loads(
-                (
-                    output_dir
-                    / "manifest.json"
-                ).read_text(
-                    encoding="utf-8"
+            manifest = (
+                json.loads(
+                    (
+                        output_dir
+                        / "manifest.json"
+                    ).read_text(
+                        encoding="utf-8"
+                    )
                 )
             )
 
             self.assertEqual(
-                result["status"],
+                result[
+                    "status"
+                ],
                 "rendered",
             )
 
             self.assertEqual(
-                len(manifest["slides"]),
+                len(
+                    manifest[
+                        "slides"
+                    ]
+                ),
                 3,
             )
 
             self.assertEqual(
-                manifest["caption"],
+                manifest[
+                    "caption"
+                ],
                 "Caption",
             )
 
             self.assertEqual(
-                manifest["cta"],
-                "Découvre la suite sur GamerQuest.",
+                manifest[
+                    "cta"
+                ],
+                (
+                    "Découvre la suite "
+                    "sur GamerQuest."
+                ),
             )
 
     def test_find_featured_image_url_matches_carousel_topic(
         self
     ):
-
         carousel = {
-            "topic": "Scott Pilgrim EX"
+            "topic":
+                "Scott Pilgrim EX"
         }
 
         content = [
             {
                 "title":
-                    "Scott Pilgrim EX : nouveau DLC",
+                    (
+                        "Scott Pilgrim EX : "
+                        "nouveau DLC"
+                    ),
 
                 "slug":
                     "scott-pilgrim-ex-dlc",
 
                 "featured_image": {
                     "url":
-                        "https://example.com/scott.jpg"
+                        (
+                            "https://example.com/"
+                            "scott.jpg"
+                        )
                 },
             },
             {
-                "title": "LEGO Skylines",
+                "title":
+                    "LEGO Skylines",
 
                 "featured_image": {
                     "url":
-                        "https://example.com/lego.jpg"
+                        (
+                            "https://example.com/"
+                            "lego.jpg"
+                        )
                 },
             },
         ]
@@ -402,7 +556,10 @@ class TestRenderCLI(unittest.TestCase):
                 carousel,
                 content,
             ),
-            "https://example.com/scott.jpg",
+            (
+                "https://example.com/"
+                "scott.jpg"
+            ),
         )
 
 

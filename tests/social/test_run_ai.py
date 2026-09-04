@@ -40,7 +40,9 @@ class TestSocialAIRunner(unittest.TestCase):
                 }
             )
 
-        result = idea_generator.prepare_content_for_ai(content)
+        result = idea_generator.prepare_content_for_ai(
+            content
+        )
 
         self.assertLessEqual(
             len(result),
@@ -62,7 +64,9 @@ class TestSocialAIRunner(unittest.TestCase):
             ]
         )
 
-        result = idea_generator.parse_json_response(raw)
+        result = idea_generator.parse_json_response(
+            raw
+        )
 
         self.assertEqual(
             result[0]["topic"],
@@ -78,7 +82,9 @@ class TestSocialAIRunner(unittest.TestCase):
 ]
 ```"""
 
-        result = idea_generator.parse_json_response(raw)
+        result = idea_generator.parse_json_response(
+            raw
+        )
 
         self.assertEqual(
             result[0]["topic"],
@@ -220,7 +226,9 @@ class TestSocialAIRunner(unittest.TestCase):
             }
         )
 
-        with self.assertRaises(RuntimeError):
+        with self.assertRaises(
+            RuntimeError
+        ):
             idea_generator.expand_idea(
                 {
                     "topic": "Topic",
@@ -326,6 +334,65 @@ class TestSocialAIRunner(unittest.TestCase):
     @patch(
         "social.idea_generator.call_grok"
     )
+    def test_verify_prompt_allows_navigation_cta(
+        self,
+        mock_call,
+    ):
+        mock_call.return_value = json.dumps(
+            {
+                "valid": True,
+                "unsupported_claims": [],
+                "reason": "",
+            }
+        )
+
+        idea_generator.verify_carousel(
+            {
+                "topic": "Game",
+                "hook": "Hook",
+                "slides": three_slides(),
+                "caption": "Caption",
+                "cta": (
+                    "Lire la suite sur "
+                    "GamerQuest.fr"
+                ),
+            },
+            [
+                {
+                    "title": "Game",
+                    "excerpt": (
+                        "Le jeu sort le "
+                        "8 avril 2027."
+                    ),
+                    "source_type": "news",
+                }
+            ],
+        )
+
+        prompt = mock_call.call_args[
+            0
+        ][0]
+
+        self.assertIn(
+            (
+                "A navigation CTA such as "
+                "\"Lire la suite sur "
+                "GamerQuest.fr\""
+            ),
+            prompt,
+        )
+
+        self.assertIn(
+            (
+                "is NOT a factual claim "
+                "about the source"
+            ),
+            prompt,
+        )
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
     def test_repair_carousel_changes_only_package_fields(
         self,
         mock_call,
@@ -410,6 +477,75 @@ class TestSocialAIRunner(unittest.TestCase):
     @patch(
         "social.idea_generator.call_grok"
     )
+    def test_repair_prompt_forbids_invented_hype(
+        self,
+        mock_call,
+    ):
+        mock_call.return_value = json.dumps(
+            {
+                "slides": three_slides(),
+                "caption": "Caption",
+                "cta": (
+                    "Lire la suite sur "
+                    "GamerQuest.fr"
+                ),
+                "hashtags": [
+                    "#GamerQuest"
+                ],
+            }
+        )
+
+        idea_generator.repair_carousel(
+            {
+                "topic": "Game",
+                "slides": three_slides(),
+                "caption": "Caption",
+                "cta": (
+                    "Lire la suite sur "
+                    "GamerQuest.fr"
+                ),
+                "hashtags": [],
+            },
+            [
+                {
+                    "title": "Game",
+                    "excerpt": (
+                        "Le trailer a été présenté "
+                        "au State of Play."
+                    ),
+                    "source_type": "news",
+                }
+            ],
+            [
+                (
+                    "Les fans sont très "
+                    "enthousiastes."
+                )
+            ],
+        )
+
+        prompt = mock_call.call_args[
+            0
+        ][0]
+
+        self.assertIn(
+            "Do not invent audience reaction",
+            prompt,
+        )
+
+        self.assertIn(
+            "fan excitement",
+            prompt,
+        )
+
+        self.assertIn(
+            "hype",
+            prompt,
+        )
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
     def test_repair_carousel_rejects_five_slides(
         self,
         mock_call,
@@ -435,7 +571,9 @@ class TestSocialAIRunner(unittest.TestCase):
             }
         )
 
-        with self.assertRaises(RuntimeError):
+        with self.assertRaises(
+            RuntimeError
+        ):
             idea_generator.repair_carousel(
                 {
                     "topic": "Game",
@@ -456,21 +594,25 @@ class TestSocialAIRunner(unittest.TestCase):
                 ],
             )
 
-    def test_build_expansion_prompt_requires_three_slides(self):
-        prompt = idea_generator.build_expansion_prompt(
-            {
-                "topic": "Topic",
-                "angle": "Angle",
-                "format": "news",
-                "hook": "Hook",
-            },
-            [
+    def test_build_expansion_prompt_requires_three_slides(
+        self
+    ):
+        prompt = (
+            idea_generator.build_expansion_prompt(
                 {
-                    "title": "Article",
-                    "excerpt": "Fact",
-                    "source_type": "news",
-                }
-            ],
+                    "topic": "Topic",
+                    "angle": "Angle",
+                    "format": "news",
+                    "hook": "Hook",
+                },
+                [
+                    {
+                        "title": "Article",
+                        "excerpt": "Fact",
+                        "source_type": "news",
+                    }
+                ],
+            )
         )
 
         self.assertIn(
@@ -483,7 +625,9 @@ class TestSocialAIRunner(unittest.TestCase):
             prompt,
         )
 
-    def test_repair_prompt_preserves_three_slide_structure(self):
+    def test_repair_prompt_preserves_three_slide_structure(
+        self
+    ):
         prompt = idea_generator._safe_prompt(
             """
 Preserve EXACTLY 3 slides.

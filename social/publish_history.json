@@ -1,14 +1,13 @@
 {
   "8d9842fe4c72ac41e2c5fcba3165129bf288f42ace8149bfbc1df68f0bacfc21": {
     "instagram": {
-      "published": false,
-      "post_id": "",
-      "error": "Meta API error | HTTP status: 400 | message: Media ID is not available | type: OAuthException | code: 9007 | error_subcode: 2207027 | fbtrace_id: A_qzJEb8fhRrosA81YgxqiM"
+      "published": true,
+      "post_id": "18114765679777867"
     },
     "facebook": {
       "published": false,
       "post_id": "",
-      "error": "Meta API error | HTTP status: 400 | message: Error validating access token: Session has expired on Friday, 04-Sep-26 08:00:00 PDT. The current time is Saturday, 05-Sep-26 01:05:59 PDT. | type: OAuthException | code: 190 | error_subcode: 463 | fbtrace_id: ARyZ087IXcX7Sk3xqY5pHuR"
+      "error": "Meta API error | HTTP status: 403 | message: (#200) Unpublished posts must be posted to a page as the page itself. | type: OAuthException | code: 200 | fbtrace_id: AZ9ObdJ5nU3sBPnkzuwkTg4"
     }
   }
 }

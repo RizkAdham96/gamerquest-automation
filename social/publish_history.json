@@ -8,5 +8,17 @@
       "published": true,
       "post_id": "1303389956186440_122109737517446919"
     }
+  },
+  "8e3d6209c2276468720b1a7df627c7f153fd507e4b4797265f1febb4aeab71da": {
+    "instagram": {
+      "published": false,
+      "post_id": "",
+      "error": "Meta API error | HTTP status: 400 | message: API access blocked. | type: OAuthException | code: 200 | fbtrace_id: A-vBFVEqPGJMYf97WXYhxxD"
+    },
+    "facebook": {
+      "published": false,
+      "post_id": "",
+      "error": "Meta API error | HTTP status: 400 | message: Error validating access token: Session has expired on Saturday, 05-Sep-26 04:00:00 PDT. The current time is Saturday, 05-Sep-26 15:16:39 PDT. | type: OAuthException | code: 190 | error_subcode: 463 | fbtrace_id: Akrv5NwvZWBzkvBAaODcMG6"
+    }
   }
 }

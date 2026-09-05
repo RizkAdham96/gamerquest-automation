@@ -1,5 +1,6 @@
 import json
 import os
+import time
 from pathlib import Path
 
 
@@ -28,9 +29,12 @@ DEFAULT_PUBLISH_HISTORY_FILE = Path(
     "social/publish_history.json"
 )
 
+INSTAGRAM_STATUS_MAX_ATTEMPTS = 12
+INSTAGRAM_STATUS_WAIT_SECONDS = 5
+
 
 # =========================================================
-# VALIDATION
+# BASIC HELPERS
 # =========================================================
 
 def _clean_text(value):
@@ -38,6 +42,20 @@ def _clean_text(value):
         return ""
 
     return str(value).strip()
+
+
+def _require_value(
+    value,
+    name,
+):
+    cleaned = _clean_text(value)
+
+    if not cleaned:
+        raise ValueError(
+            f"{name} is required."
+        )
+
+    return cleaned
 
 
 def _validate_three_images(
@@ -72,22 +90,6 @@ def _validate_three_images(
                 "Every image must use "
                 "a public HTTP(S) URL."
             )
-
-    return cleaned
-
-
-def _require_value(
-    value,
-    name,
-):
-    cleaned = _clean_text(
-        value
-    )
-
-    if not cleaned:
-        raise ValueError(
-            f"{name} is required."
-        )
 
     return cleaned
 
@@ -247,10 +249,53 @@ def _post(
         0,
     )
 
-    # Important:
-    # use status_code instead of response.ok
-    # so this works with both real requests
-    # responses and our FakeResponse tests.
+    if status_code >= 400:
+        raise RuntimeError(
+            _format_meta_error(
+                response,
+                payload,
+            )
+        )
+
+    if payload is None:
+        raise RuntimeError(
+            "Meta returned a successful HTTP "
+            "response but the body was not "
+            "valid JSON."
+        )
+
+    if "error" in payload:
+        raise RuntimeError(
+            _format_meta_error(
+                response,
+                payload,
+            )
+        )
+
+    return payload
+
+
+def _get(
+    requests_module,
+    url,
+    params=None,
+):
+    response = requests_module.get(
+        url,
+        params=params,
+        timeout=DEFAULT_TIMEOUT,
+    )
+
+    payload = _response_json(
+        response
+    )
+
+    status_code = getattr(
+        response,
+        "status_code",
+        0,
+    )
+
     if status_code >= 400:
         raise RuntimeError(
             _format_meta_error(
@@ -278,6 +323,96 @@ def _post(
 
 
 # =========================================================
+# INSTAGRAM READINESS
+# =========================================================
+
+def _is_instagram_media_not_ready_error(
+    error,
+):
+    message = _clean_text(
+        error
+    )
+
+    return (
+        "code: 9007" in message
+        and "error_subcode: 2207027" in message
+    )
+
+
+def _wait_for_instagram_container(
+    requests_module,
+    creation_id,
+    access_token,
+):
+    """
+    Wait until Instagram reports that the
+    carousel parent container is FINISHED.
+
+    Stops after a bounded number of attempts.
+    """
+
+    status_endpoint = (
+        f"{INSTAGRAM_GRAPH_BASE_URL}/"
+        f"{creation_id}"
+    )
+
+    last_status = ""
+
+    for attempt in range(
+        1,
+        INSTAGRAM_STATUS_MAX_ATTEMPTS + 1,
+    ):
+        payload = _get(
+            requests_module,
+            status_endpoint,
+            {
+                "fields": "status_code",
+                "access_token": access_token,
+            },
+        )
+
+        status_code = _clean_text(
+            payload.get(
+                "status_code"
+            )
+        ).upper()
+
+        last_status = status_code
+
+        if status_code == "FINISHED":
+            return True
+
+        if status_code in (
+            "ERROR",
+            "EXPIRED",
+        ):
+            raise RuntimeError(
+                "Instagram carousel container "
+                f"failed with status: {status_code}"
+            )
+
+        if attempt < (
+            INSTAGRAM_STATUS_MAX_ATTEMPTS
+        ):
+            print(
+                "Instagram carousel is not "
+                "ready yet "
+                f"({status_code or 'UNKNOWN'}). "
+                "Waiting..."
+            )
+
+            time.sleep(
+                INSTAGRAM_STATUS_WAIT_SECONDS
+            )
+
+    raise RuntimeError(
+        "Instagram carousel container did not "
+        "become ready in time. "
+        f"Last status: {last_status or 'UNKNOWN'}"
+    )
+
+
+# =========================================================
 # GITHUB RAW URLS
 # =========================================================
 
@@ -289,11 +424,6 @@ def build_raw_github_urls(
     ),
     branch="main",
 ):
-    """
-    Convert repository file paths into
-    public raw.githubusercontent.com URLs.
-    """
-
     repository = _require_value(
         repository,
         "repository",
@@ -316,9 +446,7 @@ def build_raw_github_urls(
 
     for path in image_paths:
         clean_path = (
-            _clean_text(
-                path
-            )
+            _clean_text(path)
             .replace("\\", "/")
             .lstrip("/")
         )
@@ -326,15 +454,13 @@ def build_raw_github_urls(
         if not clean_path:
             continue
 
-        url = (
-            "https://raw.githubusercontent.com/"
-            f"{repository}/"
-            f"{branch}/"
-            f"{clean_path}"
-        )
-
         urls.append(
-            url
+            (
+                "https://raw.githubusercontent.com/"
+                f"{repository}/"
+                f"{branch}/"
+                f"{clean_path}"
+            )
         )
 
     return urls
@@ -368,9 +494,7 @@ def build_caption(
         if not hashtag:
             continue
 
-        if not hashtag.startswith(
-            "#"
-        ):
+        if not hashtag.startswith("#"):
             hashtag = (
                 f"#{hashtag}"
             )
@@ -383,10 +507,7 @@ def build_caption(
         clean_hashtags
     )
 
-    if (
-        caption
-        and hashtag_text
-    ):
+    if caption and hashtag_text:
         return (
             f"{caption}\n\n"
             f"{hashtag_text}"
@@ -653,14 +774,6 @@ def publish_instagram_carousel(
     access_token,
     requests_module=None,
 ):
-    """
-    Publish exactly three images as
-    an Instagram carousel.
-
-    Instagram Login API uses:
-    graph.instagram.com
-    """
-
     image_urls = (
         _validate_three_images(
             image_urls
@@ -699,7 +812,10 @@ def publish_instagram_carousel(
 
     child_ids = []
 
+    # -----------------------------------------------------
     # Create 3 carousel children
+    # -----------------------------------------------------
+
     for image_url in image_urls:
         payload = _post(
             requests_module,
@@ -732,7 +848,10 @@ def publish_instagram_carousel(
             child_id
         )
 
+    # -----------------------------------------------------
     # Create carousel parent
+    # -----------------------------------------------------
+
     parent_payload = _post(
         requests_module,
         media_endpoint,
@@ -765,18 +884,71 @@ def publish_instagram_carousel(
             "a carousel creation ID."
         )
 
-    # Publish carousel
-    publish_payload = _post(
-        requests_module,
-        publish_endpoint,
-        {
-            "creation_id":
-                creation_id,
+    # -----------------------------------------------------
+    # Try publishing
+    # -----------------------------------------------------
 
-            "access_token":
-                access_token,
-        },
-    )
+    publish_data = {
+        "creation_id":
+            creation_id,
+
+        "access_token":
+            access_token,
+    }
+
+    try:
+        publish_payload = _post(
+            requests_module,
+            publish_endpoint,
+            publish_data,
+        )
+
+    except RuntimeError as error:
+
+        # Meta sometimes creates the carousel
+        # successfully but media_publish is called
+        # before processing has finished.
+        #
+        # Error:
+        # code 9007
+        # subcode 2207027
+        #
+        # In that exact situation, wait for
+        # status_code=FINISHED and retry once.
+
+        if not (
+            _is_instagram_media_not_ready_error(
+                error
+            )
+        ):
+            raise
+
+        print(
+            "Instagram carousel container "
+            "is still processing."
+        )
+
+        print(
+            "Waiting for Instagram "
+            "to finish processing..."
+        )
+
+        _wait_for_instagram_container(
+            requests_module,
+            creation_id,
+            access_token,
+        )
+
+        print(
+            "Instagram carousel is ready. "
+            "Publishing again..."
+        )
+
+        publish_payload = _post(
+            requests_module,
+            publish_endpoint,
+            publish_data,
+        )
 
     post_id = _clean_text(
         publish_payload.get(
@@ -819,14 +991,6 @@ def publish_facebook_carousel(
     access_token,
     requests_module=None,
 ):
-    """
-    Publish exactly three images as
-    one Facebook Page multi-photo post.
-
-    Facebook Page API uses:
-    graph.facebook.com
-    """
-
     image_urls = (
         _validate_three_images(
             image_urls
@@ -865,7 +1029,10 @@ def publish_facebook_carousel(
 
     photo_ids = []
 
-    # Upload 3 unpublished photos
+    # -----------------------------------------------------
+    # Upload 3 unpublished Page photos
+    # -----------------------------------------------------
+
     for image_url in image_urls:
         payload = _post(
             requests_module,
@@ -898,7 +1065,10 @@ def publish_facebook_carousel(
             photo_id
         )
 
-    # Create one multi-photo post
+    # -----------------------------------------------------
+    # Create one multi-photo Page post
+    # -----------------------------------------------------
+
     post_data = {
         "message":
             caption,

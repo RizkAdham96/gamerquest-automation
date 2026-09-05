@@ -241,11 +241,17 @@ def _post(
         response
     )
 
-    if not getattr(
+    status_code = getattr(
         response,
-        "ok",
-        False,
-    ):
+        "status_code",
+        0,
+    )
+
+    # Important:
+    # use status_code instead of response.ok
+    # so this works with both real requests
+    # responses and our FakeResponse tests.
+    if status_code >= 400:
         raise RuntimeError(
             _format_meta_error(
                 response,
@@ -693,6 +699,7 @@ def publish_instagram_carousel(
 
     child_ids = []
 
+    # Create 3 carousel children
     for image_url in image_urls:
         payload = _post(
             requests_module,
@@ -725,6 +732,7 @@ def publish_instagram_carousel(
             child_id
         )
 
+    # Create carousel parent
     parent_payload = _post(
         requests_module,
         media_endpoint,
@@ -757,6 +765,7 @@ def publish_instagram_carousel(
             "a carousel creation ID."
         )
 
+    # Publish carousel
     publish_payload = _post(
         requests_module,
         publish_endpoint,
@@ -856,6 +865,7 @@ def publish_facebook_carousel(
 
     photo_ids = []
 
+    # Upload 3 unpublished photos
     for image_url in image_urls:
         payload = _post(
             requests_module,
@@ -888,6 +898,7 @@ def publish_facebook_carousel(
             photo_id
         )
 
+    # Create one multi-photo post
     post_data = {
         "message":
             caption,

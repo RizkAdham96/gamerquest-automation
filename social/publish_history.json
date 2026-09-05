@@ -1,0 +1,14 @@
+{
+  "8d9842fe4c72ac41e2c5fcba3165129bf288f42ace8149bfbc1df68f0bacfc21": {
+    "instagram": {
+      "published": false,
+      "post_id": "",
+      "error": "400 Client Error: Bad Request for url: https://graph.instagram.com/v26.0/17841435127619122/media_publish"
+    },
+    "facebook": {
+      "published": false,
+      "post_id": "",
+      "error": "400 Client Error: Bad Request for url: https://graph.facebook.com/v26.0/1303389956186440/photos"
+    }
+  }
+}

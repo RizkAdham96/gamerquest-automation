@@ -120,22 +120,110 @@ def _response_json(
     try:
         payload = response.json()
 
-    except Exception as error:
-        raise RuntimeError(
-            "Meta returned an invalid "
-            "JSON response."
-        ) from error
+    except Exception:
+        return None
 
     if not isinstance(
         payload,
         dict,
     ):
-        raise RuntimeError(
-            "Meta returned an unexpected "
-            "response."
-        )
+        return None
 
     return payload
+
+
+def _format_meta_error(
+    response,
+    payload=None,
+):
+    if payload is None:
+        payload = _response_json(
+            response
+        )
+
+    status_code = getattr(
+        response,
+        "status_code",
+        "unknown",
+    )
+
+    if not isinstance(
+        payload,
+        dict,
+    ):
+        return (
+            "Meta API request failed. "
+            f"HTTP status: {status_code}. "
+            "Meta did not return a readable "
+            "JSON error response."
+        )
+
+    error = payload.get(
+        "error",
+        {},
+    )
+
+    if not isinstance(
+        error,
+        dict,
+    ):
+        return (
+            "Meta API request failed. "
+            f"HTTP status: {status_code}. "
+            f"Response: {_clean_text(error)}"
+        )
+
+    message = _clean_text(
+        error.get("message")
+    )
+
+    error_type = _clean_text(
+        error.get("type")
+    )
+
+    code = _clean_text(
+        error.get("code")
+    )
+
+    error_subcode = _clean_text(
+        error.get("error_subcode")
+    )
+
+    fbtrace_id = _clean_text(
+        error.get("fbtrace_id")
+    )
+
+    parts = [
+        "Meta API error",
+        f"HTTP status: {status_code}",
+    ]
+
+    if message:
+        parts.append(
+            f"message: {message}"
+        )
+
+    if error_type:
+        parts.append(
+            f"type: {error_type}"
+        )
+
+    if code:
+        parts.append(
+            f"code: {code}"
+        )
+
+    if error_subcode:
+        parts.append(
+            f"error_subcode: {error_subcode}"
+        )
+
+    if fbtrace_id:
+        parts.append(
+            f"fbtrace_id: {fbtrace_id}"
+        )
+
+    return " | ".join(parts)
 
 
 def _post(
@@ -149,36 +237,35 @@ def _post(
         timeout=DEFAULT_TIMEOUT,
     )
 
-    response.raise_for_status()
-
     payload = _response_json(
         response
     )
 
-    if "error" in payload:
-        error = payload.get(
-            "error",
-            {},
+    if not getattr(
+        response,
+        "ok",
+        False,
+    ):
+        raise RuntimeError(
+            _format_meta_error(
+                response,
+                payload,
+            )
         )
 
-        if isinstance(
-            error,
-            dict,
-        ):
-            message = (
-                error.get(
-                    "message"
-                )
-                or "Unknown Meta error"
-            )
-
-        else:
-            message = str(
-                error
-            )
-
+    if payload is None:
         raise RuntimeError(
-            f"Meta API error: {message}"
+            "Meta returned a successful HTTP "
+            "response but the body was not "
+            "valid JSON."
+        )
+
+    if "error" in payload:
+        raise RuntimeError(
+            _format_meta_error(
+                response,
+                payload,
+            )
         )
 
     return payload
@@ -606,10 +693,6 @@ def publish_instagram_carousel(
 
     child_ids = []
 
-    # -----------------------------------------------------
-    # CREATE THREE CAROUSEL CHILDREN
-    # -----------------------------------------------------
-
     for image_url in image_urls:
         payload = _post(
             requests_module,
@@ -642,10 +725,6 @@ def publish_instagram_carousel(
             child_id
         )
 
-    # -----------------------------------------------------
-    # CREATE CAROUSEL PARENT
-    # -----------------------------------------------------
-
     parent_payload = _post(
         requests_module,
         media_endpoint,
@@ -677,10 +756,6 @@ def publish_instagram_carousel(
             "Instagram did not return "
             "a carousel creation ID."
         )
-
-    # -----------------------------------------------------
-    # PUBLISH
-    # -----------------------------------------------------
 
     publish_payload = _post(
         requests_module,
@@ -781,10 +856,6 @@ def publish_facebook_carousel(
 
     photo_ids = []
 
-    # -----------------------------------------------------
-    # UPLOAD THREE UNPUBLISHED PHOTOS
-    # -----------------------------------------------------
-
     for image_url in image_urls:
         payload = _post(
             requests_module,
@@ -816,10 +887,6 @@ def publish_facebook_carousel(
         photo_ids.append(
             photo_id
         )
-
-    # -----------------------------------------------------
-    # CREATE ONE MULTI-PHOTO PAGE POST
-    # -----------------------------------------------------
 
     post_data = {
         "message":

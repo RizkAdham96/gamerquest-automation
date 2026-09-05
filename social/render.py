@@ -2,34 +2,78 @@ import json
 import re
 from pathlib import Path
 
-from social.sources import get_all_content
-from social.renderer import render_carousel
-from social.image_finder import find_images_for_article
+from PIL import (
+    Image,
+    ImageStat,
+)
+
+from social.sources import (
+    get_all_content,
+)
+
+from social.renderer import (
+    render_carousel,
+)
+
 from social.openai_image_generator import (
     try_generate_carousel_images,
 )
 
 
-OUTPUT_FILE = Path("social-output.json")
-OUTPUT_DIR = Path("social-rendered")
-OPENAI_OUTPUT_DIR = Path("social-generated")
+OUTPUT_FILE = Path(
+    "social-output.json"
+)
+
+OUTPUT_DIR = Path(
+    "social-rendered"
+)
+
+OPENAI_OUTPUT_DIR = Path(
+    "social-generated"
+)
 
 
 # =========================================================
-# HELPERS
+# CREATIVE SAFETY SETTINGS
 # =========================================================
 
-def _clean_text(value):
+MIN_IMAGE_WIDTH = 700
+MIN_IMAGE_HEIGHT = 900
+
+BLANK_WHITE_MEAN = 242
+BLANK_BLACK_MEAN = 13
+
+MIN_BRIGHTNESS_STDDEV = 8
+
+DUPLICATE_HASH_DISTANCE = 5
+
+
+# =========================================================
+# BASIC HELPERS
+# =========================================================
+
+def _clean_text(
+    value,
+):
     if value is None:
         return ""
 
-    return str(value).strip()
+    return " ".join(
+        str(
+            value
+        ).split()
+    )
 
 
-def _tokens(value):
-    text = _clean_text(
-        value
-    ).lower()
+def _tokens(
+    value,
+):
+    text = (
+        _clean_text(
+            value
+        )
+        .lower()
+    )
 
     return {
         token
@@ -41,7 +85,9 @@ def _tokens(value):
     }
 
 
-def _item_source_id(item):
+def _item_source_id(
+    item,
+):
     if not isinstance(
         item,
         dict,
@@ -64,7 +110,9 @@ def _item_source_id(item):
     )
 
     if slug:
-        return f"slug:{slug}"
+        return (
+            f"slug:{slug}"
+        )
 
     title = _clean_text(
         item.get(
@@ -73,21 +121,25 @@ def _item_source_id(item):
     )
 
     if title:
-        return f"title:{title}"
+        return (
+            f"title:{title}"
+        )
 
     return ""
 
 
 # =========================================================
-# EXACT SOURCE LOOKUP
+# EXACT SOURCE MATCHING
 # =========================================================
 
 def find_content_by_source_id(
     source_id,
     content,
 ):
-    source_id = _clean_text(
-        source_id
+    source_id = (
+        _clean_text(
+            source_id
+        )
     )
 
     if not source_id:
@@ -100,6 +152,7 @@ def find_content_by_source_id(
         return None
 
     for item in content:
+
         if not isinstance(
             item,
             dict,
@@ -107,7 +160,9 @@ def find_content_by_source_id(
             continue
 
         if (
-            _item_source_id(item)
+            _item_source_id(
+                item
+            )
             == source_id
         ):
             return item
@@ -116,11 +171,13 @@ def find_content_by_source_id(
 
 
 # =========================================================
-# LEGACY MATCHING
+# LEGACY SEARCH HELPERS
 #
-# Kept for tests / old helper compatibility only.
+# These remain ONLY because the existing unit tests
+# depend on find_featured_image_url().
 #
-# Production rendering with source_id does NOT use this.
+# Production with source_id NEVER uses fuzzy matching
+# for images anymore.
 # =========================================================
 
 def _carousel_search_text(
@@ -133,14 +190,22 @@ def _carousel_search_text(
         return ""
 
     parts = [
-        carousel.get("topic"),
-        carousel.get("hook"),
-        carousel.get("angle"),
+        carousel.get(
+            "topic"
+        ),
+        carousel.get(
+            "hook"
+        ),
+        carousel.get(
+            "angle"
+        ),
     ]
 
-    slides = carousel.get(
-        "slides",
-        [],
+    slides = (
+        carousel.get(
+            "slides",
+            [],
+        )
     )
 
     if isinstance(
@@ -148,6 +213,7 @@ def _carousel_search_text(
         list,
     ):
         for slide in slides:
+
             if not isinstance(
                 slide,
                 dict,
@@ -167,7 +233,9 @@ def _carousel_search_text(
             )
 
     return " ".join(
-        _clean_text(part)
+        _clean_text(
+            part
+        )
         for part in parts
         if part
     )
@@ -183,17 +251,31 @@ def _content_search_text(
         return ""
 
     parts = [
-        item.get("title"),
-        item.get("slug"),
-        item.get("category"),
-        item.get("excerpt"),
-        item.get("description"),
-        item.get("content"),
+        item.get(
+            "title"
+        ),
+        item.get(
+            "slug"
+        ),
+        item.get(
+            "category"
+        ),
+        item.get(
+            "excerpt"
+        ),
+        item.get(
+            "description"
+        ),
+        item.get(
+            "content"
+        ),
     ]
 
-    tags = item.get(
-        "tags",
-        [],
+    tags = (
+        item.get(
+            "tags",
+            [],
+        )
     )
 
     if isinstance(
@@ -205,7 +287,9 @@ def _content_search_text(
         )
 
     return " ".join(
-        _clean_text(part)
+        _clean_text(
+            part
+        )
         for part in parts
         if part
     )
@@ -215,15 +299,19 @@ def _match_score(
     carousel,
     item,
 ):
-    carousel_tokens = _tokens(
-        _carousel_search_text(
-            carousel
+    carousel_tokens = (
+        _tokens(
+            _carousel_search_text(
+                carousel
+            )
         )
     )
 
-    item_tokens = _tokens(
-        _content_search_text(
-            item
+    item_tokens = (
+        _tokens(
+            _content_search_text(
+                item
+            )
         )
     )
 
@@ -241,19 +329,28 @@ def _match_score(
         * 10
     )
 
-    topic = _clean_text(
-        carousel.get(
-            "topic"
+    topic = (
+        _clean_text(
+            carousel.get(
+                "topic"
+            )
         )
-    ).lower()
+        .lower()
+    )
 
-    title = _clean_text(
-        item.get(
-            "title"
+    title = (
+        _clean_text(
+            item.get(
+                "title"
+            )
         )
-    ).lower()
+        .lower()
+    )
 
-    if topic and title:
+    if (
+        topic
+        and title
+    ):
         if topic in title:
             score += 50
 
@@ -284,13 +381,6 @@ def find_best_content(
     carousel,
     content,
 ):
-    """
-    Legacy compatibility helper.
-
-    Production rendering with source_id
-    does NOT use fuzzy matching.
-    """
-
     if not isinstance(
         content,
         list,
@@ -334,7 +424,7 @@ def find_best_content(
 
 
 # =========================================================
-# FEATURED IMAGE COMPATIBILITY
+# FEATURED IMAGE LEGACY HELPER
 # =========================================================
 
 def find_featured_image_url(
@@ -342,13 +432,17 @@ def find_featured_image_url(
     content=None,
 ):
     """
-    Compatibility helper used by older tests.
+    Compatibility helper for old tests.
 
-    Exact source_id is preferred.
+    IMPORTANT:
+    Production social publishing does NOT use this
+    as an image fallback anymore.
     """
 
     if content is None:
-        content = get_all_content()
+        content = (
+            get_all_content()
+        )
 
     source_id = ""
 
@@ -356,13 +450,16 @@ def find_featured_image_url(
         carousel,
         dict,
     ):
-        source_id = _clean_text(
-            carousel.get(
-                "source_id"
+        source_id = (
+            _clean_text(
+                carousel.get(
+                    "source_id"
+                )
             )
         )
 
     if source_id:
+
         matched_item = (
             find_content_by_source_id(
                 source_id,
@@ -371,6 +468,7 @@ def find_featured_image_url(
         )
 
     else:
+
         matched_item = (
             find_best_content(
                 carousel,
@@ -393,15 +491,20 @@ def find_featured_image_url(
     )
 
     for field in primary_fields:
-        value = matched_item.get(
-            field
+
+        value = (
+            matched_item.get(
+                field
+            )
         )
 
         if isinstance(
             value,
             str,
         ):
-            value = value.strip()
+            value = (
+                value.strip()
+            )
 
             if value:
                 return value
@@ -410,6 +513,7 @@ def find_featured_image_url(
             value,
             dict,
         ):
+
             for key in (
                 "url",
                 "src",
@@ -420,8 +524,11 @@ def find_featured_image_url(
                 "large",
                 "medium",
             ):
-                candidate = value.get(
-                    key
+
+                candidate = (
+                    value.get(
+                        key
+                    )
                 )
 
                 if isinstance(
@@ -446,8 +553,11 @@ def find_featured_image_url(
     )
 
     for field in gallery_fields:
-        value = matched_item.get(
-            field
+
+        value = (
+            matched_item.get(
+                field
+            )
         )
 
         if not isinstance(
@@ -457,11 +567,14 @@ def find_featured_image_url(
             continue
 
         for image in value:
+
             if isinstance(
                 image,
                 str,
             ):
-                image = image.strip()
+                image = (
+                    image.strip()
+                )
 
                 if image:
                     return image
@@ -470,6 +583,7 @@ def find_featured_image_url(
                 image,
                 dict,
             ):
+
                 for key in (
                     "url",
                     "src",
@@ -479,6 +593,7 @@ def find_featured_image_url(
                     "large",
                     "medium",
                 ):
+
                     candidate = (
                         image.get(
                             key
@@ -500,56 +615,407 @@ def find_featured_image_url(
 
 
 # =========================================================
-# SOURCE-ONLY COPY
+# CTA CLEANER
 # =========================================================
 
-def _source_only_item(
-    item,
+CTA_PATTERNS = (
+    r"\s*Lire la suite sur "
+    r"GamerQuest(?:\.fr|fr)?\.?",
+
+    r"\s*Lire la suite sur "
+    r"GamerQuestfr\.com\.?",
+
+    r"\s*Plus d['’]informations "
+    r"sur GamerQuest(?:\.fr|fr)?\.?",
+
+    r"\s*Plus d['’]infos "
+    r"sur GamerQuest(?:\.fr|fr)?\.?",
+
+    r"\s*Découvre la suite "
+    r"sur GamerQuest(?:\.fr|fr)?\.?",
+
+    r"\s*Découvrir la suite "
+    r"sur GamerQuest(?:\.fr|fr)?\.?",
+)
+
+
+def remove_redundant_cta(
+    text,
 ):
     """
-    Remove already-generated GamerQuest image fields.
+    Remove CTA phrases from slide body text.
 
-    This lets the fallback image finder inspect the
-    original exact source first.
+    The renderer already displays the GamerQuest
+    website and final CTA separately.
+    """
+
+    text = _clean_text(
+        text
+    )
+
+    if not text:
+        return ""
+
+    for pattern in CTA_PATTERNS:
+
+        text = re.sub(
+            pattern,
+            "",
+            text,
+            flags=re.IGNORECASE,
+        )
+
+    text = re.sub(
+        r"\s+([,.!?;:])",
+        r"\1",
+        text,
+    )
+
+    text = re.sub(
+        r"\.{2,}",
+        ".",
+        text,
+    )
+
+    text = (
+        text.strip(
+            " -"
+        )
+    )
+
+    return text
+
+
+def clean_carousel_copy(
+    carousel,
+):
+    if not isinstance(
+        carousel,
+        dict,
+    ):
+        return carousel
+
+    cleaned = dict(
+        carousel
+    )
+
+    slides = (
+        carousel.get(
+            "slides",
+            [],
+        )
+    )
+
+    cleaned_slides = []
+
+    for slide in slides:
+
+        if not isinstance(
+            slide,
+            dict,
+        ):
+            cleaned_slides.append(
+                slide
+            )
+            continue
+
+        new_slide = dict(
+            slide
+        )
+
+        new_slide[
+            "body"
+        ] = (
+            remove_redundant_cta(
+                slide.get(
+                    "body"
+                )
+            )
+        )
+
+        cleaned_slides.append(
+            new_slide
+        )
+
+    cleaned[
+        "slides"
+    ] = cleaned_slides
+
+    return cleaned
+
+
+# =========================================================
+# IMAGE QUALITY VALIDATION
+# =========================================================
+
+def _open_local_image(
+    path,
+):
+    path = Path(
+        path
+    )
+
+    if not path.exists():
+        raise RuntimeError(
+            "Generated image is missing: "
+            f"{path}"
+        )
+
+    try:
+        with Image.open(
+            path
+        ) as source:
+
+            image = (
+                source
+                .convert(
+                    "RGB"
+                )
+                .copy()
+            )
+
+    except Exception as error:
+        raise RuntimeError(
+            "Generated image could not "
+            f"be opened: {path}"
+        ) from error
+
+    return image
+
+
+def _image_brightness_stats(
+    image,
+):
+    grayscale = (
+        image.convert(
+            "L"
+        )
+    )
+
+    stat = ImageStat.Stat(
+        grayscale
+    )
+
+    mean = float(
+        stat.mean[0]
+    )
+
+    stddev = float(
+        stat.stddev[0]
+    )
+
+    return (
+        mean,
+        stddev,
+    )
+
+
+def _is_blank_image(
+    image,
+):
+    mean, stddev = (
+        _image_brightness_stats(
+            image
+        )
+    )
+
+    almost_white = (
+        mean >= BLANK_WHITE_MEAN
+        and stddev
+        <= MIN_BRIGHTNESS_STDDEV
+    )
+
+    almost_black = (
+        mean <= BLANK_BLACK_MEAN
+        and stddev
+        <= MIN_BRIGHTNESS_STDDEV
+    )
+
+    return (
+        almost_white
+        or almost_black
+    )
+
+
+def _average_hash(
+    image,
+):
+    """
+    Small perceptual hash.
+
+    Used only to detect duplicate /
+    near-duplicate carousel images.
+    """
+
+    image = (
+        image
+        .convert(
+            "L"
+        )
+        .resize(
+            (
+                16,
+                16,
+            ),
+            Image.Resampling.LANCZOS,
+        )
+    )
+
+    pixels = list(
+        image.getdata()
+    )
+
+    average = (
+        sum(
+            pixels
+        )
+        / len(
+            pixels
+        )
+    )
+
+    bits = [
+        1
+        if pixel >= average
+        else 0
+        for pixel in pixels
+    ]
+
+    return bits
+
+
+def _hash_distance(
+    first,
+    second,
+):
+    return sum(
+        left != right
+        for left, right
+        in zip(
+            first,
+            second,
+        )
+    )
+
+
+def validate_generated_images(
+    paths,
+):
+    """
+    Hard production gate.
+
+    This does NOT try to decide whether Wolverine
+    looks exactly like Wolverine.
+
+    It prevents the proven technical failures:
+    - missing images
+    - corrupt images
+    - blank/white images
+    - blank/black images
+    - tiny images
+    - duplicate/near-duplicate images
     """
 
     if not isinstance(
-        item,
-        dict,
+        paths,
+        (
+            list,
+            tuple,
+        ),
     ):
-        return {}
-
-    clean = item.copy()
-
-    image_fields = (
-        "featured_image_url",
-        "featured_image",
-        "image_url",
-        "image",
-        "thumbnail_url",
-        "thumbnail",
-        "cover_image",
-        "cover",
-        "images",
-        "gallery",
-        "media",
-        "screenshots",
-        "article_images",
-        "content_images",
-        "image_urls",
-    )
-
-    for field in image_fields:
-        clean.pop(
-            field,
-            None,
+        raise RuntimeError(
+            "Generated images must "
+            "be a list."
         )
 
-    return clean
+    if len(paths) != 3:
+        raise RuntimeError(
+            "Creative validation failed: "
+            "exactly 3 generated images "
+            "are required."
+        )
+
+    validated_paths = []
+    hashes = []
+
+    for index, path in enumerate(
+        paths,
+        start=1,
+    ):
+
+        image = (
+            _open_local_image(
+                path
+            )
+        )
+
+        if (
+            image.width
+            < MIN_IMAGE_WIDTH
+            or image.height
+            < MIN_IMAGE_HEIGHT
+        ):
+            raise RuntimeError(
+                "Creative validation failed: "
+                f"slide {index} image "
+                "is too small."
+            )
+
+        if _is_blank_image(
+            image
+        ):
+            raise RuntimeError(
+                "Creative validation failed: "
+                f"slide {index} is blank "
+                "or nearly blank."
+            )
+
+        image_hash = (
+            _average_hash(
+                image
+            )
+        )
+
+        for previous_index, previous_hash in enumerate(
+            hashes,
+            start=1,
+        ):
+
+            distance = (
+                _hash_distance(
+                    previous_hash,
+                    image_hash,
+                )
+            )
+
+            if (
+                distance
+                <= DUPLICATE_HASH_DISTANCE
+            ):
+                raise RuntimeError(
+                    "Creative validation failed: "
+                    f"slide {index} is duplicate "
+                    "or too similar to "
+                    f"slide {previous_index}."
+                )
+
+        hashes.append(
+            image_hash
+        )
+
+        validated_paths.append(
+            str(
+                Path(
+                    path
+                )
+            )
+        )
+
+    return validated_paths
 
 
 # =========================================================
-# LOAD SOCIAL OUTPUT
+# LOAD OUTPUT
 # =========================================================
 
 def load_social_output(
@@ -561,20 +1027,22 @@ def load_social_output(
 
     if not output_file.exists():
         raise RuntimeError(
-            "social-output.json was not found."
+            "social-output.json "
+            "was not found."
         )
 
     with output_file.open(
         "r",
         encoding="utf-8",
     ) as file:
+
         return json.load(
             file
         )
 
 
 # =========================================================
-# CAROUSEL VALIDATOR
+# BASIC CAROUSEL VALIDATION
 # =========================================================
 
 def _extract_carousel(
@@ -585,8 +1053,8 @@ def _extract_carousel(
         dict,
     ):
         raise RuntimeError(
-            "social-output.json must contain "
-            "a JSON object."
+            "social-output.json "
+            "must contain a JSON object."
         )
 
     if (
@@ -596,8 +1064,8 @@ def _extract_carousel(
         != "ready"
     ):
         raise RuntimeError(
-            "Social output is not ready "
-            "for rendering."
+            "Social output is not "
+            "ready for rendering."
         )
 
     if (
@@ -613,8 +1081,10 @@ def _extract_carousel(
             "passed fact-checking."
         )
 
-    carousel = payload.get(
-        "carousel"
+    carousel = (
+        payload.get(
+            "carousel"
+        )
     )
 
     if not isinstance(
@@ -626,8 +1096,10 @@ def _extract_carousel(
             "contain a valid carousel."
         )
 
-    slides = carousel.get(
-        "slides"
+    slides = (
+        carousel.get(
+            "slides"
+        )
     )
 
     if (
@@ -635,7 +1107,10 @@ def _extract_carousel(
             slides,
             list,
         )
-        or len(slides) != 3
+        or len(
+            slides
+        )
+        != 3
     ):
         raise RuntimeError(
             "Carousel must contain "
@@ -646,77 +1121,18 @@ def _extract_carousel(
 
 
 # =========================================================
-# EXACT-SOURCE FALLBACK IMAGES
-# =========================================================
-
-def _find_exact_source_images(
-    matched_item,
-    topic,
-):
-    """
-    Existing image pipeline.
-
-    This is now the fallback if OpenAI generation
-    is unavailable.
-
-    It NEVER searches another GamerQuest article.
-    """
-
-    if not matched_item:
-        return []
-
-    source_only = _source_only_item(
-        matched_item
-    )
-
-    featured_images = (
-        find_images_for_article(
-            source_only,
-            topic=topic,
-            limit=3,
-        )
-    )
-
-    print(
-        "Exact-source images found: "
-        f"{len(featured_images)}"
-    )
-
-    if featured_images:
-        return featured_images
-
-    print(
-        "Original source supplied no usable image. "
-        "Trying exact article image data."
-    )
-
-    return find_images_for_article(
-        matched_item,
-        topic=topic,
-        limit=3,
-    )
-
-
-# =========================================================
-# OPENAI IMAGES
+# OPENAI IMAGE GENERATION
 # =========================================================
 
 def _generate_openai_images(
     carousel,
     matched_item,
 ):
-    """
-    Try OpenAI first.
-
-    Any error is safely handled inside
-    try_generate_carousel_images().
-
-    If OpenAI fails, [] is returned and we immediately
-    use the old exact-source image system.
-    """
-
     if not matched_item:
-        return []
+        raise RuntimeError(
+            "Exact source article "
+            "was not found."
+        )
 
     print(
         "Trying OpenAI visual generation..."
@@ -726,61 +1142,145 @@ def _generate_openai_images(
         try_generate_carousel_images(
             carousel=carousel,
             source_item=matched_item,
-            output_dir=OPENAI_OUTPUT_DIR,
+            output_dir=(
+                OPENAI_OUTPUT_DIR
+            ),
         )
     )
 
-    if len(generated) == 3:
-        generated = [
-            str(path)
-            for path in generated
-        ]
+    if not isinstance(
+        generated,
+        (
+            list,
+            tuple,
+        ),
+    ):
+        generated = []
 
-        print(
-            "OpenAI visual generation: SUCCESS"
+    generated = [
+        str(
+            path
         )
+        for path in generated
+        if path
+    ]
 
-        for index, path in enumerate(
-            generated,
-            start=1,
-        ):
-            print(
-                f"OpenAI image {index}: {path}"
-            )
+    if len(
+        generated
+    ) != 3:
 
-        return generated
+        raise RuntimeError(
+            "OpenAI did not generate "
+            "a complete 3-image carousel. "
+            "Publishing stopped. "
+            "Web-image fallback is disabled "
+            "in production to prevent "
+            "unrelated images."
+        )
 
     print(
-        "OpenAI did not return a complete "
-        "3-image set."
+        "OpenAI generated "
+        "three images."
     )
 
-    return []
+    return generated
 
 
 # =========================================================
-# RENDER FROM OUTPUT
+# MANIFEST
+# =========================================================
+
+def _write_manifest(
+    output_dir,
+    carousel,
+    rendered_paths,
+    source_id="",
+    image_mode="",
+):
+    output_dir = Path(
+        output_dir
+    )
+
+    manifest = {
+        "source_id":
+            source_id,
+
+        "caption":
+            _clean_text(
+                carousel.get(
+                    "caption"
+                )
+            ),
+
+        "cta":
+            _clean_text(
+                carousel.get(
+                    "cta"
+                )
+            ),
+
+        "hashtags":
+            carousel.get(
+                "hashtags",
+                [],
+            ),
+
+        "slides": [
+            str(
+                path
+            )
+            for path in rendered_paths
+        ],
+
+        "image_mode":
+            image_mode,
+    }
+
+    manifest_path = (
+        output_dir
+        / "manifest.json"
+    )
+
+    manifest_path.write_text(
+        json.dumps(
+            manifest,
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+    return manifest_path
+
+
+# =========================================================
+# RENDER
 # =========================================================
 
 def render_from_output(
     output_file=OUTPUT_FILE,
     output_dir=OUTPUT_DIR,
 ):
-    payload = load_social_output(
-        output_file
+    payload = (
+        load_social_output(
+            output_file
+        )
     )
 
-    # =====================================================
-    # BASIC VALIDATION
-    # =====================================================
+    # -----------------------------------------------------
+    # Normal skips
+    # -----------------------------------------------------
 
     if not isinstance(
         payload,
         dict,
     ):
         return {
-            "status": "skipped",
-            "reason": "invalid_payload",
+            "status":
+                "skipped",
+
+            "reason":
+                "invalid_payload",
         }
 
     if (
@@ -790,8 +1290,11 @@ def render_from_output(
         != "ready"
     ):
         return {
-            "status": "skipped",
-            "reason": "not_ready",
+            "status":
+                "skipped",
+
+            "reason":
+                "not_ready",
         }
 
     if (
@@ -803,12 +1306,17 @@ def render_from_output(
         is not True
     ):
         return {
-            "status": "skipped",
-            "reason": "not_fact_checked",
+            "status":
+                "skipped",
+
+            "reason":
+                "not_fact_checked",
         }
 
-    carousel = payload.get(
-        "carousel"
+    carousel = (
+        payload.get(
+            "carousel"
+        )
     )
 
     if not isinstance(
@@ -816,12 +1324,17 @@ def render_from_output(
         dict,
     ):
         return {
-            "status": "skipped",
-            "reason": "missing_carousel",
+            "status":
+                "skipped",
+
+            "reason":
+                "missing_carousel",
         }
 
-    slides = carousel.get(
-        "slides"
+    slides = (
+        carousel.get(
+            "slides"
+        )
     )
 
     if (
@@ -829,74 +1342,55 @@ def render_from_output(
             slides,
             list,
         )
-        or len(slides) != 3
+        or len(
+            slides
+        )
+        != 3
     ):
         return {
-            "status": "skipped",
-            "reason": "invalid_slide_count",
+            "status":
+                "skipped",
+
+            "reason":
+                "invalid_slide_count",
         }
 
-    # =====================================================
-    # SOURCE ID
-    # =====================================================
-
-    source_id = _clean_text(
-        payload.get(
-            "source_id"
-        )
-        or carousel.get(
-            "source_id"
+    carousel = (
+        clean_carousel_copy(
+            carousel
         )
     )
 
-    content = get_all_content()
+    # -----------------------------------------------------
+    # SOURCE ID
+    # -----------------------------------------------------
 
-    matched_item = None
-
-    # =====================================================
-    # PRODUCTION MODE
-    # =====================================================
-
-    if source_id:
-        matched_item = (
-            find_content_by_source_id(
-                source_id,
-                content,
+    source_id = (
+        _clean_text(
+            payload.get(
+                "source_id"
+            )
+            or carousel.get(
+                "source_id"
             )
         )
+    )
 
-        if not matched_item:
-            print(
-                "Social render rejected: "
-                "source_id not found: "
-                f"{source_id}"
-            )
-
-            return {
-                "status": "skipped",
-                "reason": "source_id_not_found",
-                "source_id": source_id,
-            }
-
-        print(
-            "Render source_id: "
-            f"{source_id}"
-        )
-
-        print(
-            "Matched EXACT article: "
-            + _clean_text(
-                matched_item.get(
-                    "title"
-                )
-            )
-        )
+    output_dir = Path(
+        output_dir
+    )
 
     # =====================================================
-    # LEGACY / TEST MODE
+    # LEGACY UNIT-TEST MODE
+    #
+    # Existing renderer tests do not provide source_id.
+    # Keep this fallback ONLY for local/test compatibility.
+    #
+    # It is NOT used by real GamerQuest production posts.
     # =====================================================
 
-    else:
+    if not source_id:
+
         print(
             "Legacy/test payload: "
             "no source_id supplied."
@@ -907,240 +1401,272 @@ def render_from_output(
             "and using renderer fallback."
         )
 
-    topic = carousel.get(
-        "topic",
-        "",
+        rendered_paths = (
+            render_carousel(
+                carousel,
+                output_dir,
+            )
+        )
+
+        manifest_path = (
+            _write_manifest(
+                output_dir=output_dir,
+                carousel=carousel,
+                rendered_paths=
+                    rendered_paths,
+                source_id="",
+                image_mode=
+                    "test_fallback",
+            )
+        )
+
+        print(
+            "Final image mode: "
+            "test_fallback"
+        )
+
+        print(
+            "Rendered slides: "
+            f"{len(rendered_paths)}"
+        )
+
+        return {
+            "status":
+                "rendered",
+
+            "slides":
+                [
+                    str(
+                        path
+                    )
+                    for path
+                    in rendered_paths
+                ],
+
+            "manifest":
+                str(
+                    manifest_path
+                ),
+
+            "image_mode":
+                "test_fallback",
+        }
+
+    # =====================================================
+    # REAL PRODUCTION MODE
+    # =====================================================
+
+    print(
+        "Render source_id: "
+        f"{source_id}"
     )
 
-    # =====================================================
-    # IMAGE PIPELINE
+    content = (
+        get_all_content()
+    )
+
+    matched_item = (
+        find_content_by_source_id(
+            source_id,
+            content,
+        )
+    )
+
+    if not matched_item:
+
+        raise RuntimeError(
+            "Production rendering stopped: "
+            "the exact source article "
+            f"could not be found for "
+            f"source_id {source_id}."
+        )
+
+    print(
+        "Matched EXACT article: "
+        + _clean_text(
+            matched_item.get(
+                "title"
+            )
+        )
+    )
+
+    # -----------------------------------------------------
+    # OPENAI ONLY
     #
-    # 1. OpenAI
-    # 2. Existing exact-source images
-    # 3. Renderer graphical fallback
-    # =====================================================
-
-    featured_images = []
-    image_mode = "fallback"
-
-    # -----------------------------------------------------
-    # STEP 1 — OPENAI
+    # CRITICAL:
+    # NO image_finder fallback.
+    # NO generic web images.
+    # NO unrelated article images.
     # -----------------------------------------------------
 
-    if matched_item:
-        featured_images = (
-            _generate_openai_images(
-                carousel,
-                matched_item,
-            )
+    generated_images = (
+        _generate_openai_images(
+            carousel,
+            matched_item,
         )
+    )
 
-    if len(featured_images) == 3:
-        image_mode = (
-            "openai_generated"
+    # -----------------------------------------------------
+    # HARD QUALITY GATE
+    # -----------------------------------------------------
+
+    print(
+        "Running creative image "
+        "quality validation..."
+    )
+
+    validated_images = (
+        validate_generated_images(
+            generated_images
         )
+    )
+
+    print(
+        "Creative validation: PASS"
+    )
 
     # -----------------------------------------------------
-    # STEP 2 — EXACT SOURCE FALLBACK
+    # RENDER
     # -----------------------------------------------------
-
-    else:
-        if matched_item:
-            print(
-                "Using existing exact-source "
-                "image fallback..."
-            )
-
-            featured_images = (
-                _find_exact_source_images(
-                    matched_item,
-                    topic,
-                )
-            )
-
-    # =====================================================
-    # IMAGE MODE
-    # =====================================================
-
-    if (
-        image_mode
-        != "openai_generated"
-    ):
-        if len(
-            featured_images
-        ) >= 3:
-            image_mode = (
-                "three_real_images"
-            )
-
-        elif len(
-            featured_images
-        ) == 2:
-            image_mode = (
-                "two_images"
-            )
-
-        elif len(
-            featured_images
-        ) == 1:
-            image_mode = (
-                "single_image"
-            )
-
-        else:
-            image_mode = (
-                "fallback"
-            )
 
     print(
         "Final image mode: "
-        f"{image_mode}"
+        "openai_validated"
     )
 
     print(
         "Images sent to renderer: "
-        f"{len(featured_images)}"
+        f"{len(validated_images)}"
     )
 
-    for index, image in enumerate(
-        featured_images,
+    for index, image_path in enumerate(
+        validated_images,
         start=1,
     ):
         print(
-            f"Carousel image {index}: "
-            f"{image}"
+            f"Carousel image "
+            f"{index}: "
+            f"{image_path}"
         )
 
-    featured_image = (
-        featured_images[0]
-        if featured_images
-        else None
+    rendered_paths = (
+        render_carousel(
+            carousel,
+            output_dir,
+            featured_images=
+                validated_images,
+        )
     )
 
-    # =====================================================
-    # RENDER
-    # =====================================================
+    if len(
+        rendered_paths
+    ) != 3:
 
-    paths = render_carousel(
-        carousel,
-        output_dir,
-        featured_image=featured_image,
-        featured_images=featured_images,
+        raise RuntimeError(
+            "Renderer did not produce "
+            "exactly three slides. "
+            "Publishing stopped."
+        )
+
+    # -----------------------------------------------------
+    # FINAL FILE CHECK
+    # -----------------------------------------------------
+
+    for path in rendered_paths:
+
+        path = Path(
+            path
+        )
+
+        if not path.exists():
+
+            raise RuntimeError(
+                "Rendered slide is missing: "
+                f"{path}"
+            )
+
+        try:
+            with Image.open(
+                path
+            ) as image:
+
+                if image.size != (
+                    1080,
+                    1350,
+                ):
+                    raise RuntimeError(
+                        "Rendered slide has "
+                        "invalid dimensions: "
+                        f"{path}"
+                    )
+
+        except RuntimeError:
+            raise
+
+        except Exception as error:
+            raise RuntimeError(
+                "Rendered slide could "
+                "not be validated: "
+                f"{path}"
+            ) from error
+
+    # -----------------------------------------------------
+    # MANIFEST
+    # -----------------------------------------------------
+
+    manifest_path = (
+        _write_manifest(
+            output_dir=
+                output_dir,
+
+            carousel=
+                carousel,
+
+            rendered_paths=
+                rendered_paths,
+
+            source_id=
+                source_id,
+
+            image_mode=
+                "openai_validated",
+        )
     )
 
     print(
-        f"Rendered slides: "
-        f"{len(paths)}"
+        "Rendered slides: "
+        f"{len(rendered_paths)}"
     )
 
-    # =====================================================
-    # OUTPUT DIRECTORY
-    # =====================================================
-
-    output_dir = Path(
-        output_dir
+    print(
+        "Social renderer status: "
+        "rendered"
     )
 
-    output_dir.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    # =====================================================
-    # MANIFEST
-    # =====================================================
-
-    manifest = {
+    return {
         "status":
             "rendered",
 
         "source_id":
             source_id,
 
-        "source_title":
-            (
-                matched_item.get(
-                    "title",
-                    "",
+        "slides":
+            [
+                str(
+                    path
                 )
-                if matched_item
-                else ""
+                for path
+                in rendered_paths
+            ],
+
+        "manifest":
+            str(
+                manifest_path
             ),
-
-        "slides": [
-            str(path)
-            for path in paths
-        ],
-
-        "caption":
-            payload.get(
-                "caption",
-                carousel.get(
-                    "caption",
-                    "",
-                ),
-            ),
-
-        "hashtags":
-            payload.get(
-                "hashtags",
-                carousel.get(
-                    "hashtags",
-                    [],
-                ),
-            ),
-
-        "cta":
-            payload.get(
-                "cta",
-                carousel.get(
-                    "cta",
-                    "",
-                ),
-            ),
-
-        "topic":
-            carousel.get(
-                "topic",
-                payload.get(
-                    "topic",
-                    "",
-                ),
-            ),
-
-        "featured_image":
-            featured_image,
-
-        "featured_images":
-            featured_images,
 
         "image_mode":
-            image_mode,
-
-        "openai_images_used":
-            (
-                image_mode
-                == "openai_generated"
-            ),
+            "openai_validated",
     }
-
-    manifest_path = (
-        output_dir
-        / "manifest.json"
-    )
-
-    with manifest_path.open(
-        "w",
-        encoding="utf-8",
-    ) as file:
-        json.dump(
-            manifest,
-            file,
-            ensure_ascii=False,
-            indent=2,
-        )
-
-    return manifest
 
 
 # =========================================================
@@ -1148,11 +1674,44 @@ def render_from_output(
 # =========================================================
 
 def main():
-    result = render_from_output()
+    result = (
+        render_from_output()
+    )
+
+    status = (
+        result.get(
+            "status"
+        )
+        if isinstance(
+            result,
+            dict,
+        )
+        else ""
+    )
+
+    if status == "skipped":
+
+        print(
+            "Social renderer skipped."
+        )
+
+        reason = (
+            result.get(
+                "reason",
+                "",
+            )
+        )
+
+        if reason:
+            print(
+                "Reason: "
+                f"{reason}"
+            )
+
+        return
 
     print(
-        "Social renderer status: "
-        f"{result.get('status')}"
+        "Social renderer completed."
     )
 
 

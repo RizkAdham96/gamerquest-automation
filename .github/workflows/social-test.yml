@@ -12,15 +12,28 @@ on:
 permissions:
   contents: write
 
+# Prevent two Social workflows from writing to main at the same time.
+concurrency:
+  group: gamerquest-social-publishing
+  cancel-in-progress: false
+
 jobs:
   test-social:
     runs-on: ubuntu-latest
 
     steps:
+      # ===================================================
+      # CHECKOUT
+      # ===================================================
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      # ===================================================
+      # PYTHON
+      # ===================================================
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -226,7 +239,15 @@ jobs:
             echo "No new carousel files to commit."
           else
             git commit -m "social: prepare carousel for publishing"
-            git push
+
+            echo "Fetching latest main..."
+            git fetch origin main
+
+            echo "Rebasing carousel commit onto latest main..."
+            git rebase origin/main
+
+            echo "Pushing carousel files..."
+            git push origin HEAD:main
           fi
 
       # ===================================================
@@ -267,7 +288,15 @@ jobs:
               echo "No publish history changes."
             else
               git commit -m "social: update Meta publish history"
-              git push
+
+              echo "Fetching latest main..."
+              git fetch origin main
+
+              echo "Rebasing publish-history commit onto latest main..."
+              git rebase origin/main
+
+              echo "Pushing publish history..."
+              git push origin HEAD:main
             fi
           else
             echo "No publish history file found."

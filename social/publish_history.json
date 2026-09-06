@@ -31,5 +31,15 @@
       "post_id": "",
       "error": "Meta API error | HTTP status: 403 | message: (#200) Unpublished posts must be posted to a page as the page itself. | type: OAuthException | code: 200 | fbtrace_id: AIOxqGGnwYxLO6_29tVOUHB"
     }
+  },
+  "1fb17c58ac3c625b9a2624a226038843512cb2d0b4440794f982fa752ed40ad3": {
+    "instagram": {
+      "published": true,
+      "post_id": "17907209610498734"
+    },
+    "facebook": {
+      "published": true,
+      "post_id": "1303389956186440_122110382211446919"
+    }
   }
 }

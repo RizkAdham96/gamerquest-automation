@@ -1,4 +1,4 @@
-name: GamerQuest Social Test
+name: GamerQuest Social Automation
 
 on:
   workflow_dispatch:
@@ -9,24 +9,103 @@ on:
         default: false
         type: boolean
 
+  # GitHub cron uses UTC.
+  #
+  # Paris:
+  # Summer = UTC+2 -> 16:30 UTC = 18:30 Paris
+  # Winter = UTC+1 -> 17:30 UTC = 18:30 Paris
+  #
+  # We trigger BOTH and the Paris-time guard below
+  # keeps only the correct 18:30 run.
+  schedule:
+    - cron: "30 16 * * 2,5"
+    - cron: "30 17 * * 2,5"
+
 permissions:
   contents: write
 
-# Prevent two Social workflows from writing to main at the same time.
+# Prevent two Social workflows from publishing at the same time.
 concurrency:
   group: gamerquest-social-publishing
   cancel-in-progress: false
 
 jobs:
-  test-social:
+  social-automation:
     runs-on: ubuntu-latest
 
     steps:
+      # ===================================================
+      # PARIS TIME SCHEDULE GUARD
+      # ===================================================
+
+      - name: Check Paris publishing time
+        id: schedule_guard
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          event_name = os.environ.get("EVENT_NAME", "")
+          paris_now = datetime.now(ZoneInfo("Europe/Paris"))
+
+          print(
+              "Paris time:",
+              paris_now.strftime("%Y-%m-%d %H:%M:%S %Z")
+          )
+
+          # Manual runs are always allowed.
+          if event_name == "workflow_dispatch":
+              proceed = True
+              print("Manual workflow run: allowed.")
+
+          # Scheduled runs are allowed only during
+          # the correct Paris 18:xx hour on Tuesday/Friday.
+          else:
+              correct_day = paris_now.weekday() in (1, 4)
+              correct_hour = paris_now.hour == 18
+
+              proceed = correct_day and correct_hour
+
+              if proceed:
+                  print(
+                      "Correct Paris publishing window: allowed."
+                  )
+              else:
+                  print(
+                      "This is the DST duplicate cron run. "
+                      "Publishing skipped."
+                  )
+
+          github_output = os.environ["GITHUB_OUTPUT"]
+
+          with open(
+              github_output,
+              "a",
+              encoding="utf-8",
+          ) as file:
+              file.write(
+                  "proceed="
+                  + ("true" if proceed else "false")
+                  + "\n"
+              )
+          PY
+
+      - name: Skip duplicate DST schedule
+        if: ${{ steps.schedule_guard.outputs.proceed != 'true' }}
+        run: |
+          echo "Not the correct 18:30 Europe/Paris run."
+          echo "Nothing will be generated or published."
+
       # ===================================================
       # CHECKOUT
       # ===================================================
 
       - name: Checkout repository
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -36,11 +115,13 @@ jobs:
       # ===================================================
 
       - name: Set up Python
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Install social dependencies
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         run: |
           python -m pip install --upgrade pip
           python -m pip install Pillow requests
@@ -50,30 +131,35 @@ jobs:
       # ===================================================
 
       - name: Run social integration test
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         env:
           PYTHONPATH: .
         run: |
           python tests/social/test_run_ai.py
 
       - name: Run social renderer test
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         env:
           PYTHONPATH: .
         run: |
           python tests/social/test_renderer.py
 
       - name: Run Meta publisher test
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         env:
           PYTHONPATH: .
         run: |
           python tests/social/test_meta_publisher.py
 
       - name: Run publish preparation test
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         env:
           PYTHONPATH: .
         run: |
           python tests/social/test_prepare_publish.py
 
       - name: Run publish runner test
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         env:
           PYTHONPATH: .
         run: |
@@ -84,6 +170,7 @@ jobs:
       # ===================================================
 
       - name: Run real Groq social generation
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         env:
           PYTHONPATH: .
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -96,6 +183,7 @@ jobs:
 
       - name: Check social generation status
         id: social_status
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         shell: bash
         run: |
           python - <<'PY'
@@ -172,7 +260,7 @@ jobs:
           PY
 
       - name: No approved social post this run
-        if: ${{ steps.social_status.outputs.ready != 'true' }}
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready != 'true' }}
         run: |
           echo "No fact-checked carousel was approved."
           echo "The workflow will stop publishing steps safely."
@@ -180,11 +268,10 @@ jobs:
 
       # ===================================================
       # GENERATE + RENDER IMAGES
-      # ONLY WHEN CONTENT IS APPROVED
       # ===================================================
 
       - name: Render social carousel images
-        if: ${{ steps.social_status.outputs.ready == 'true' }}
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -196,7 +283,7 @@ jobs:
       # ===================================================
 
       - name: Prepare carousel for public publishing
-        if: ${{ steps.social_status.outputs.ready == 'true' }}
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -205,7 +292,7 @@ jobs:
           python -m social.prepare_publish_run
 
       - name: Verify three published images
-        if: ${{ steps.social_status.outputs.ready == 'true' }}
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' }}
         shell: bash
         run: |
           echo "Checking social-published..."
@@ -227,7 +314,7 @@ jobs:
       # ===================================================
 
       - name: Commit prepared carousel
-        if: ${{ steps.social_status.outputs.ready == 'true' }}
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"
@@ -251,15 +338,17 @@ jobs:
           fi
 
       # ===================================================
-      # REAL META PUBLISHING
+      # META PUBLISHING
       #
-      # Runs only when:
-      # 1. Groq/fact-check returned status=ready
-      # 2. You manually selected Publish to Meta
+      # Scheduled runs:
+      # publish automatically.
+      #
+      # Manual runs:
+      # publish only if Publish to Meta = true.
       # ===================================================
 
       - name: Publish carousel to Meta
-        if: ${{ steps.social_status.outputs.ready == 'true' && inputs.publish_to_meta == true }}
+        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         env:
           PYTHONPATH: .
           META_IG_ACCESS_TOKEN: ${{ secrets.META_IG_ACCESS_TOKEN }}
@@ -275,7 +364,7 @@ jobs:
       # ===================================================
 
       - name: Commit Meta publish history
-        if: ${{ steps.social_status.outputs.ready == 'true' && inputs.publish_to_meta == true && always() }}
+        if: ${{ always() && steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"
@@ -307,7 +396,7 @@ jobs:
       # ===================================================
 
       - name: Upload social output
-        if: always()
+        if: ${{ always() && steps.schedule_guard.outputs.proceed == 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: gamerquest-social-output

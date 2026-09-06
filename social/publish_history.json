@@ -20,5 +20,16 @@
       "post_id": "",
       "error": "Meta API error | HTTP status: 400 | message: Error validating access token: Session has expired on Saturday, 05-Sep-26 04:00:00 PDT. The current time is Saturday, 05-Sep-26 15:16:39 PDT. | type: OAuthException | code: 190 | error_subcode: 463 | fbtrace_id: Akrv5NwvZWBzkvBAaODcMG6"
     }
+  },
+  "2a9088804b1646c0ac5657087ee33cacea0e2bee54bc0f3abb82f0717b4a8817": {
+    "instagram": {
+      "published": true,
+      "post_id": "18093845894261803"
+    },
+    "facebook": {
+      "published": false,
+      "post_id": "",
+      "error": "Meta API error | HTTP status: 403 | message: (#200) Unpublished posts must be posted to a page as the page itself. | type: OAuthException | code: 200 | fbtrace_id: AIOxqGGnwYxLO6_29tVOUHB"
+    }
   }
 }

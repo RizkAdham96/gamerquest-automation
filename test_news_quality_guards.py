@@ -53,6 +53,21 @@ def test_different_story_about_same_game_is_not_a_duplicate():
     assert not automation.is_duplicate_news_topic(candidate, existing)
 
 
+def test_wo_long_reworded_article_is_a_duplicate():
+    existing = [article(
+        "Wo Long Complete Edition arrive sur Switch 2 : "
+        "performance en deçà des rivaux",
+        "wo-long-complete-edition-switch-2-performance",
+    )]
+    candidate = article(
+        "Wo Long: Fallen Dynasty Complete Edition disponible sur "
+        "Nintendo Switch 2 – tout ce qu’il faut savoir",
+        "wo-long-fallen-dynasty-switch-2",
+    )
+
+    assert automation.is_duplicate_news_topic(candidate, existing)
+
+
 def test_generic_roundup_image_is_rejected_for_game_specific_article():
     story = {
         "title": "Toutes les annonces du State of Play de septembre 2026",

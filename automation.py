@@ -454,7 +454,11 @@ def same_news_subject(first, second):
     second_terms = news_topic_terms(second)
     overlap = first_terms & second_terms
     shortest = min(len(first_terms), len(second_terms))
-    return bool(shortest and len(overlap) >= 2 and len(overlap) / shortest >= 0.6)
+    return bool(
+        shortest
+        and len(overlap) >= 3
+        and len(overlap) / shortest >= 0.4
+    )
 
 
 def is_duplicate_news_topic(candidate, existing_articles):

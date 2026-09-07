@@ -35,9 +35,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Test news image generator
+      - name: Run News regression tests
         run: |
-          python -m pytest test_news_image_generator.py -v
+          python -m pytest \
+            test_news_image_generator.py \
+            test_news_quality_guards.py \
+            -v
 
       - name: Run GamerQuest automation
         env:

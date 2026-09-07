@@ -403,6 +403,146 @@ def normalize_words(text):
     ]
 
 
+NEWS_TOPIC_GENERIC_TERMS = {
+    "annonce", "annoncee", "annoncees", "annonces", "confirme",
+    "confirmee", "confirmation", "date", "dates", "sortie", "sortira",
+    "plateforme", "plateformes", "prix", "dlc", "trailer", "gameplay",
+    "mise", "jour", "disponible", "edition", "complete", "remastered",
+    "pour", "avec", "dans", "sur", "une", "des", "les", "aux", "son",
+    "ses", "2025", "2026", "2027", "2028", "2029", "2030",
+}
+
+NEWS_STORY_ANGLES = {
+    "release": {"date", "dates", "sortie", "sortira", "disponible"},
+    "dlc": {"dlc", "extension", "contenu", "pack"},
+    "update": {"update", "patch", "version", "mise"},
+    "gameplay": {"gameplay", "mecanique", "mecaniques"},
+    "platform": {"plateforme", "plateformes", "ps5", "xbox", "switch", "pc"},
+}
+
+
+def normalized_news_terms(text):
+    """Return stable, accent-free terms used by News quality guards."""
+    normalized = slugify(str(text or "")).replace("-vii-", "-7-")
+    normalized = normalized.replace("-viii-", "-8-").replace("-ix-", "-9-")
+    return set(normalized.split("-")) - {"", "the", "de", "du", "et", "en", "a"}
+
+
+def news_topic_terms(article):
+    searchable = " ".join([
+        str(article.get("title", "")),
+        str(article.get("slug", "")),
+        str(article.get("seo", {}).get("primary_keyword", "")),
+        " ".join(str(tag) for tag in article.get("tags", []) if tag),
+    ])
+    return normalized_news_terms(searchable) - NEWS_TOPIC_GENERIC_TERMS
+
+
+def news_story_angles(article):
+    terms = normalized_news_terms(
+        f"{article.get('title', '')} {article.get('slug', '')}"
+    )
+    return {
+        angle
+        for angle, markers in NEWS_STORY_ANGLES.items()
+        if terms & markers
+    }
+
+
+def same_news_subject(first, second):
+    first_terms = news_topic_terms(first)
+    second_terms = news_topic_terms(second)
+    overlap = first_terms & second_terms
+    shortest = min(len(first_terms), len(second_terms))
+    return bool(shortest and len(overlap) >= 2 and len(overlap) / shortest >= 0.6)
+
+
+def is_duplicate_news_topic(candidate, existing_articles):
+    """Detect the same story even when it arrives from another URL."""
+    candidate_slug = slugify(candidate.get("slug", ""))
+    candidate_angles = news_story_angles(candidate)
+
+    for existing in existing_articles:
+        if candidate_slug and candidate_slug == slugify(existing.get("slug", "")):
+            return True
+        if not same_news_subject(candidate, existing):
+            continue
+        existing_angles = news_story_angles(existing)
+        if candidate_angles and existing_angles and not (candidate_angles & existing_angles):
+            continue
+        return True
+
+    return False
+
+
+def source_image_matches_article(article_title, story, image_url):
+    """Reject generic showcase artwork for a game-specific News article."""
+    source_context = " ".join([
+        str(story.get("title", "")),
+        str(story.get("url", "")),
+    ]).lower()
+    roundup_markers = (
+        "state of play", "showcase", "roundup", "toutes les annonces",
+        "all announcements", "gamescom", "direct recap",
+    )
+    if not any(marker in source_context for marker in roundup_markers):
+        return True
+
+    article_terms = normalized_news_terms(article_title) - NEWS_TOPIC_GENERIC_TERMS
+    image_terms = normalized_news_terms(image_url)
+    return len(article_terms & image_terms) >= 2
+
+
+def release_years(article):
+    text = f"{article.get('title', '')} {article.get('content', '')}"
+    return set(re.findall(r"\b20(?:2[5-9]|3[0-5])\b", text))
+
+
+def claimed_platforms(article):
+    text = slugify(f"{article.get('title', '')} {article.get('content', '')}")
+    platforms = set()
+    aliases = {
+        "ps5": ("ps5", "playstation-5"),
+        "xbox": ("xbox-series", "xbox"),
+        "switch": ("switch-2", "nintendo-switch", "switch"),
+        "pc": ("-pc-",),
+    }
+    padded = f"-{text}-"
+    for platform, markers in aliases.items():
+        if any(marker in padded for marker in markers):
+            platforms.add(platform)
+    return platforms
+
+
+def is_exclusive_claim(article):
+    text = slugify(article.get("content", ""))
+    return "exclusivite" in text or "exclusif" in text or "exclusive" in text
+
+
+def has_conflicting_news_claims(candidate, existing_articles):
+    """Block incompatible release-year or exclusivity claims for one topic."""
+    for existing in existing_articles:
+        if not same_news_subject(candidate, existing):
+            continue
+
+        candidate_years = release_years(candidate)
+        existing_years = release_years(existing)
+        if candidate_years and existing_years and candidate_years.isdisjoint(existing_years):
+            return True
+
+        candidate_platforms = claimed_platforms(candidate)
+        existing_platforms = claimed_platforms(existing)
+        if (
+            candidate_platforms
+            and existing_platforms
+            and candidate_platforms.isdisjoint(existing_platforms)
+            and (is_exclusive_claim(candidate) or is_exclusive_claim(existing))
+        ):
+            return True
+
+    return False
+
+
 
 
 # =========================================================
@@ -534,7 +674,7 @@ def validate_remote_image_candidate(
         return False
 
 
-def extract_source_image_url(story):
+def extract_source_image_url(story, article_title=""):
     """
     Find the best contextual image for the selected story.
 
@@ -631,6 +771,11 @@ def extract_source_image_url(story):
                     and validate_remote_image_candidate(
                         candidate
                     )
+                    and source_image_matches_article(
+                        article_title,
+                        story,
+                        candidate,
+                    )
                 ):
                     print(
                         f"Contextual image found from "
@@ -684,6 +829,11 @@ def extract_source_image_url(story):
             candidate
             and validate_remote_image_candidate(
                 candidate
+            )
+            and source_image_matches_article(
+                article_title,
+                story,
+                candidate,
             )
         ):
             print(
@@ -811,6 +961,13 @@ def extract_source_image_url(story):
                 ):
                     continue
 
+                if not source_image_matches_article(
+                    article_title,
+                    story,
+                    candidate,
+                ):
+                    continue
+
                 print(
                     f"Contextual image found from page: "
                     f"{candidate}"
@@ -849,7 +1006,8 @@ def build_news_featured_image(
 
     source_image_url = (
         extract_source_image_url(
-            story
+            story,
+            article_title,
         )
     )
 
@@ -1097,24 +1255,52 @@ def build_news_feed_article(
     }
 
 
+def article_data_for_quality_guards(article_data):
+    """Create the feed-shaped metadata needed before image generation."""
+    return {
+        "title": article_data[6],
+        "slug": article_data[5],
+        "content": article_data[10],
+        "tags": parse_feed_tags(article_data[9]),
+        "seo": {
+            "primary_keyword": article_data[2],
+        },
+    }
+
+
+def news_quality_rejection(article_data, existing_articles=None):
+    candidate = article_data_for_quality_guards(article_data)
+    if existing_articles is None:
+        existing_articles = load_existing_news_feed().get("articles", [])
+
+    if has_conflicting_news_claims(candidate, existing_articles):
+        return "Conflicting release-date or platform claims for an existing topic."
+    if is_duplicate_news_topic(candidate, existing_articles):
+        return "The same News story already exists in the feed."
+    return ""
+
+
 def save_news_to_feed(
     article_data,
     story,
     official_story=None,
 ):
+    feed = load_existing_news_feed()
+    existing_articles = feed.get("articles", [])
+    rejection_reason = news_quality_rejection(
+        article_data,
+        existing_articles,
+    )
+
+    if rejection_reason:
+        print("")
+        print(f"NEWS ARTICLE BLOCKED: {rejection_reason}")
+        return None
+
     new_article = build_news_feed_article(
         article_data,
         story,
         official_story,
-    )
-
-    feed = load_existing_news_feed()
-
-    existing_articles = (
-        feed.get(
-            "articles",
-            [],
-        )
     )
 
     existing_articles = [
@@ -3953,7 +4139,21 @@ def main():
         )
     )
 
-    # 8. Add safe contextual internal links.
+    # 8. Stop duplicates or contradictory coverage before creating a draft,
+    # image, or WordPress feed entry.
+    rejection_reason = news_quality_rejection(article_data)
+
+    if rejection_reason:
+        save_rejection_report(
+            "NEWS QUALITY GUARD",
+            rejection_reason,
+            story,
+        )
+        print("")
+        print(f"News article blocked: {rejection_reason}")
+        return
+
+    # 9. Add safe contextual internal links.
     #
     # Uses existing GamerQuest feed entries only.
     # No extra Tavily search and no extra Groq request.
@@ -3961,14 +4161,14 @@ def main():
         article_data
     )
 
-    # 9. Save GitHub Markdown backup
+    # 10. Save GitHub Markdown backup
     save_draft(
         article_data,
         story,
         official_story,
     )
 
-    # 10. Save the corrected article into the GitHub news feed.
+    # 11. Save the corrected article into the GitHub news feed.
     #
     # WordPress will pull this feed internally.
     # We do not POST directly from GitHub Actions because

@@ -29,7 +29,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install groq requests beautifulsoup4
 
-      - name: Run Trending SEO image tests
+      - name: Run Trending SEO image and publishing tests
         working-directory: trending_seo
         run: |
           python -m unittest \
@@ -37,25 +37,14 @@ jobs:
             test_pipeline_publish_mode.py \
             -v
 
-      - name: Run Trending SEO pipeline in forced draft mode
+      - name: Run Trending SEO pipeline with automatic publishing
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           WP_URL: ${{ secrets.WP_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
         run: |
-          python - <<'PY'
-          import sys
-
-          sys.path.insert(0, "trending_seo")
-          import pipeline
-
-          # Safety override: the legacy pipeline must never publish
-          # directly to the live site. The main News pipeline remains
-          # unchanged and continues to use the feed/importer flow.
-          pipeline.WORDPRESS_STATUS = "draft"
-          pipeline.main()
-          PY
+          python trending_seo/pipeline.py
 
       - name: Save Trending SEO state
         if: always()

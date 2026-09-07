@@ -8,11 +8,14 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict
+from urllib.parse import urljoin, urlparse
 
 import requests
+from bs4 import BeautifulSoup
 from groq import Groq
 
 import scorer
@@ -38,6 +41,12 @@ SCORED_TOPICS_FILE = (
 PIPELINE_RESULT_FILE = (
     BASE_DIR
     / "pipeline_result.json"
+)
+
+INTEL_TOPICS_FILE = (
+    BASE_DIR
+    / "intel"
+    / "topics.json"
 )
 
 
@@ -87,6 +96,207 @@ def utc_now() -> str:
     )
 
 
+IMAGE_GENERIC_TERMS = {
+    "announcement", "annonce", "article", "banner", "default", "gamescom",
+    "gaming", "header", "hero", "image", "logo", "news", "official",
+    "showcase", "trailer",
+}
+
+
+def image_match_terms(value: Any) -> set[str]:
+    return {
+        word
+        for word in re.findall(
+            r"[a-z0-9]+",
+            safe_string(value).lower(),
+        )
+        if len(word) >= 2
+        and word not in IMAGE_GENERIC_TERMS
+    }
+
+
+def extract_relevant_image_url(
+    html: str,
+    page_url: str,
+    topic: str,
+) -> str:
+    """Select only an image whose URL or description matches the SEO topic."""
+    if not safe_string(html) or not safe_string(page_url):
+        return ""
+
+    topic_terms = image_match_terms(topic)
+    if len(topic_terms) < 2:
+        return ""
+
+    soup = BeautifulSoup(html, "html.parser")
+    candidates = []
+
+    for tag in soup.find_all("meta"):
+        marker = safe_string(tag.get("property") or tag.get("name")).lower()
+        if marker not in {"og:image", "og:image:secure_url", "twitter:image"}:
+            continue
+        candidates.append((safe_string(tag.get("content")), ""))
+
+    for tag in soup.find_all("img", limit=80):
+        image_url = safe_string(
+            tag.get("src")
+            or tag.get("data-src")
+            or tag.get("data-lazy-src")
+        )
+        description = " ".join([
+            safe_string(tag.get("alt")),
+            safe_string(tag.get("title")),
+        ])
+        candidates.append((image_url, description))
+
+    ranked = []
+    for image_url, description in candidates:
+        absolute_url = urljoin(page_url, image_url)
+        if urlparse(absolute_url).scheme not in {"http", "https"}:
+            continue
+        context_terms = image_match_terms(f"{absolute_url} {description}")
+        score = len(topic_terms & context_terms)
+        if score >= 2:
+            ranked.append((score, absolute_url))
+
+    if not ranked:
+        return ""
+
+    ranked.sort(key=lambda item: item[0], reverse=True)
+    return ranked[0][1]
+
+
+def find_relevant_source_image(topic: Dict[str, Any], client=None) -> str:
+    """Inspect verified source pages and return the first relevant image."""
+    if client is None:
+        client = requests
+
+    topic_name = safe_string(topic.get("topic"))
+    sources = topic.get("sources", [])
+    if not topic_name or not isinstance(sources, list):
+        return ""
+
+    for source in sources:
+        if not isinstance(source, dict):
+            continue
+        source_url = safe_string(source.get("url"))
+        if urlparse(source_url).scheme not in {"http", "https"}:
+            continue
+        try:
+            response = client.get(
+                source_url,
+                timeout=25,
+                headers={
+                    "Accept": "text/html,application/xhtml+xml",
+                    "User-Agent": "GamerQuest-Trending-SEO/2.0",
+                },
+            )
+        except Exception:
+            continue
+        if getattr(response, "status_code", 0) != 200:
+            continue
+        image_url = extract_relevant_image_url(
+            safe_string(getattr(response, "text", "")),
+            source_url,
+            topic_name,
+        )
+        if image_url:
+            return image_url
+
+    return ""
+
+
+def upload_featured_image(
+    image_url: str,
+    article_title: str,
+    wp_config: Dict[str, str],
+    client=None,
+) -> Dict[str, Any]:
+    """Download a validated image and upload it to WordPress Media."""
+    if client is None:
+        client = requests
+
+    base_url = safe_string(wp_config.get("base_url")).rstrip("/")
+    username = safe_string(wp_config.get("username"))
+    password = safe_string(wp_config.get("application_password"))
+    if not image_url or not base_url or not username or not password:
+        return {"status": "BLOCKED_FEATURED_IMAGE_CONFIG", "media_id": None}
+
+    try:
+        response = client.get(
+            image_url,
+            timeout=25,
+            headers={"Accept": "image/*", "User-Agent": "GamerQuest-Trending-SEO/2.0"},
+        )
+    except Exception as error:
+        return {
+            "status": "BLOCKED_FEATURED_IMAGE_DOWNLOAD",
+            "media_id": None,
+            "error": f"{type(error).__name__}: {error}",
+        }
+
+    content_type = safe_string(getattr(response, "headers", {}).get("Content-Type")).split(";")[0]
+    image_bytes = getattr(response, "content", b"")
+    if (
+        getattr(response, "status_code", 0) != 200
+        or not content_type.startswith("image/")
+        or not isinstance(image_bytes, bytes)
+        or not image_bytes
+        or len(image_bytes) > 10 * 1024 * 1024
+    ):
+        return {"status": "BLOCKED_INVALID_FEATURED_IMAGE", "media_id": None}
+
+    extension = {
+        "image/jpeg": "jpg",
+        "image/png": "png",
+        "image/webp": "webp",
+        "image/gif": "gif",
+    }.get(content_type)
+    if not extension:
+        return {"status": "BLOCKED_INVALID_FEATURED_IMAGE", "media_id": None}
+
+    filename = re.sub(r"[^a-z0-9]+", "-", article_title.lower()).strip("-")[:70]
+    filename = f"{filename or 'gamerquest-seo'}.{extension}"
+
+    try:
+        media_response = client.post(
+            base_url + "/wp-json/wp/v2/media",
+            data=image_bytes,
+            auth=(username, password),
+            timeout=30,
+            headers={
+                "Accept": "application/json",
+                "Content-Type": content_type,
+                "Content-Disposition": f'attachment; filename="{filename}"',
+                "User-Agent": "GamerQuest-Trending-SEO/2.0",
+            },
+        )
+    except Exception as error:
+        return {
+            "status": "BLOCKED_FEATURED_IMAGE_UPLOAD",
+            "media_id": None,
+            "error": f"{type(error).__name__}: {error}",
+        }
+
+    if not 200 <= getattr(media_response, "status_code", 0) < 300:
+        return {"status": "BLOCKED_FEATURED_IMAGE_UPLOAD", "media_id": None}
+
+    try:
+        media_data = media_response.json()
+    except Exception:
+        return {"status": "BLOCKED_FEATURED_IMAGE_UPLOAD", "media_id": None}
+
+    media_id = media_data.get("id") if isinstance(media_data, dict) else None
+    if isinstance(media_id, bool) or not isinstance(media_id, int) or media_id <= 0:
+        return {"status": "BLOCKED_FEATURED_IMAGE_UPLOAD", "media_id": None}
+
+    return {
+        "status": "FEATURED_IMAGE_READY",
+        "media_id": media_id,
+        "source_url": image_url,
+    }
+
+
 def load_json(
     path: Path,
 ) -> Dict[str, Any]:
@@ -132,6 +342,31 @@ def save_json(
         )
 
         file.write("\n")
+
+
+def with_intel_sources(
+    scored_topic: Dict[str, Any],
+    intel_data: Dict[str, Any],
+) -> Dict[str, Any]:
+    """Restore verified sources omitted by older scored-topic records."""
+    enriched = dict(scored_topic)
+    existing_sources = enriched.get("sources")
+    if isinstance(existing_sources, list) and existing_sources:
+        return enriched
+
+    topic_id = safe_string(enriched.get("id"))
+    topics = intel_data.get("topics", []) if isinstance(intel_data, dict) else []
+    for intel_topic in topics:
+        if not isinstance(intel_topic, dict):
+            continue
+        if safe_string(intel_topic.get("id")) != topic_id:
+            continue
+        sources = intel_topic.get("sources", [])
+        if isinstance(sources, list):
+            enriched["sources"] = sources
+        break
+
+    return enriched
 
 
 def stop_result(
@@ -769,6 +1004,22 @@ def create_wordpress_draft(
         )
     )
 
+    featured_media = article.get(
+        "featured_media"
+    )
+
+    if (
+        isinstance(featured_media, bool)
+        or not isinstance(featured_media, int)
+        or featured_media <= 0
+    ):
+        return {
+            "status": (
+                "BLOCKED_FEATURED_IMAGE_REQUIRED"
+            ),
+            "published": False,
+        }
+
     if (
         not title
         or not content
@@ -794,6 +1045,7 @@ def create_wordpress_draft(
         "title": title,
         "content": content,
         "status": WORDPRESS_STATUS,
+        "featured_media": featured_media,
     }
 
     if meta_description:
@@ -1127,7 +1379,41 @@ def process_seo_topic(
     ] = True
 
     # =====================================================
-    # STAGE 6 — WORDPRESS
+    # STAGE 6 — FEATURED IMAGE
+    # =====================================================
+
+    print("")
+    print("Finding a relevant SEO featured image...")
+
+    image_url = find_relevant_source_image(topic)
+
+    if not image_url:
+        return stop_result(
+            status="BLOCKED_FEATURED_IMAGE_NOT_FOUND",
+            reason="No relevant image was found in the verified SEO sources.",
+            topic=topic_name,
+        )
+
+    image_result = upload_featured_image(
+        image_url=image_url,
+        article_title=article.get("title", topic_name),
+        wp_config=wp_config,
+    )
+
+    if image_result.get("status") != "FEATURED_IMAGE_READY":
+        return stop_result(
+            status=image_result.get("status", "BLOCKED_FEATURED_IMAGE"),
+            reason=image_result.get(
+                "error",
+                "The relevant image could not be uploaded to WordPress.",
+            ),
+            topic=topic_name,
+        )
+
+    article["featured_media"] = image_result["media_id"]
+
+    # =====================================================
+    # STAGE 7 — WORDPRESS
     # =====================================================
 
     print("")
@@ -1238,6 +1524,10 @@ def process_seo_topic(
                 "wordpress_url"
             )
         ),
+        "featured_media": article.get(
+            "featured_media"
+        ),
+        "featured_image_source": image_url,
         "published": False,
         "created_at": utc_now(),
     }
@@ -1485,6 +1775,16 @@ def main() -> None:
     # =====================================================
 
     topic = candidates[0]
+
+    try:
+        intel_data = load_json(INTEL_TOPICS_FILE)
+    except Exception:
+        intel_data = {}
+
+    topic = with_intel_sources(
+        topic,
+        intel_data,
+    )
 
     process_seo_topic(
         topic=topic,

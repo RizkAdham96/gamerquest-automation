@@ -521,6 +521,10 @@ def analyze_topic(topic):
         "scores": scores,
         "total_score": total_score,
         "decision": decision,
+        "sources": topic.get(
+            "sources",
+            [],
+        ),
         "seo": {
             "primary_keyword": (
                 ai_result.get(

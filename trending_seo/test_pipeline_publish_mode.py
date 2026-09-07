@@ -1,4 +1,5 @@
 import unittest
+from pathlib import Path
 
 import pipeline
 
@@ -9,6 +10,24 @@ class TestSeoPipelinePublishMode(unittest.TestCase):
         self.assertEqual(
             pipeline.WORDPRESS_STATUS,
             "publish",
+        )
+
+    def test_workflow_does_not_force_legacy_pipeline_to_draft(self):
+        workflow_path = (
+            Path(__file__).resolve().parents[1]
+            / ".github"
+            / "workflows"
+            / "run-trending-seo-pipeline.yml"
+        )
+        workflow = workflow_path.read_text(encoding="utf-8")
+
+        self.assertNotIn(
+            'pipeline.WORDPRESS_STATUS = "draft"',
+            workflow,
+        )
+        self.assertIn(
+            "python trending_seo/pipeline.py",
+            workflow,
         )
 
 

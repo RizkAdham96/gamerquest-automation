@@ -17,7 +17,13 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -m pip install Pillow requests
-      - name: Run CTA regression
+      - name: Run full social regression
         env:
           PYTHONPATH: .
-        run: python tests/social/test_cta_cleaner.py
+        run: |
+          python tests/social/test_cta_cleaner.py
+          python tests/social/test_run_ai.py
+          python tests/social/test_renderer.py
+          python tests/social/test_meta_publisher.py
+          python tests/social/test_prepare_publish.py
+          python tests/social/test_publish_run.py

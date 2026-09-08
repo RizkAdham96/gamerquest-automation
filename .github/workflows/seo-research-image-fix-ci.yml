@@ -17,6 +17,18 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install groq requests beautifulsoup4
-      - name: Run research image regression
+      - name: Run full Evergreen SEO regression suite
         working-directory: trending_seo
-        run: python -m unittest test_research_image_sources.py -v
+        run: |
+          python -m unittest \
+            test_scorer.py \
+            test_seo_engine.py \
+            test_researcher.py \
+            test_evergreen_research.py \
+            test_writer.py \
+            test_featured_images.py \
+            test_research_image_sources.py \
+            test_evergreen_pipeline.py \
+            test_pipeline_research_gate.py \
+            test_pipeline_publish_mode.py \
+            -v

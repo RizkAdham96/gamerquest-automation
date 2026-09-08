@@ -5,6 +5,7 @@ import pipeline
 
 
 class TestSeoPipelinePublishMode(unittest.TestCase):
+    # Final integration regression: this branch is based on the latest main.
 
     def workflow_text(self):
         workflow_path = (

@@ -212,22 +212,72 @@ def extract_relevant_image_url(
     ranked.sort(key=lambda item: item[0], reverse=True)
     return ranked[0][1]
 
-def find_relevant_source_image(topic: Dict[str, Any], client=None) -> str:
-    """Inspect verified source pages and return the first relevant image."""
+def build_featured_image_sources(
+    topic: Dict[str, Any],
+    research_context: Dict[str, Any] | None = None,
+) -> list[Dict[str, Any]]:
+    """Build a deduplicated image-source list from original and verified research pages."""
+    collected = []
+
+    original_sources = topic.get("sources", []) if isinstance(topic, dict) else []
+    if isinstance(original_sources, list):
+        collected.extend(item for item in original_sources if isinstance(item, dict))
+
+    context = research_context if isinstance(research_context, dict) else {}
+
+    usable_evidence = context.get("usable_evidence", [])
+    if isinstance(usable_evidence, list):
+        collected.extend(item for item in usable_evidence if isinstance(item, dict))
+
+    claim_specific = context.get("claim_specific_evidence", {})
+    if isinstance(claim_specific, dict):
+        for items in claim_specific.values():
+            if isinstance(items, list):
+                collected.extend(item for item in items if isinstance(item, dict))
+
+    for key in ("discovered_sources", "fetched_sources"):
+        items = context.get(key, [])
+        if not isinstance(items, list):
+            continue
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            status = safe_string(item.get("fetch_status")).upper()
+            if status == "USABLE":
+                collected.append(item)
+
+    deduped = []
+    seen = set()
+    for source in collected:
+        source_url = safe_string(source.get("url"))
+        if urlparse(source_url).scheme not in {"http", "https"}:
+            continue
+        normalized_url = source_url.rstrip("/")
+        if normalized_url in seen:
+            continue
+        seen.add(normalized_url)
+        deduped.append(source)
+
+    return deduped
+
+
+def find_relevant_source_image(
+    topic: Dict[str, Any],
+    research_context: Dict[str, Any] | None = None,
+    client=None,
+) -> str:
+    """Inspect original plus verified research source pages for a relevant image."""
     if client is None:
         client = requests
 
     topic_name = safe_string(topic.get("topic"))
-    sources = topic.get("sources", [])
-    if not topic_name or not isinstance(sources, list):
+    if not topic_name:
         return ""
 
+    sources = build_featured_image_sources(topic, research_context)
+
     for source in sources:
-        if not isinstance(source, dict):
-            continue
         source_url = safe_string(source.get("url"))
-        if urlparse(source_url).scheme not in {"http", "https"}:
-            continue
         try:
             response = client.get(
                 source_url,
@@ -250,7 +300,6 @@ def find_relevant_source_image(topic: Dict[str, Any], client=None) -> str:
             return image_url
 
     return ""
-
 
 def upload_featured_image(
     image_url: str,
@@ -1573,7 +1622,10 @@ def process_seo_topic(
     print("")
     print("Finding a relevant SEO featured image...")
 
-    image_url = find_relevant_source_image(topic)
+    image_url = find_relevant_source_image(
+        topic,
+        research_context=research_context,
+    )
 
     if not image_url:
         return stop_result(

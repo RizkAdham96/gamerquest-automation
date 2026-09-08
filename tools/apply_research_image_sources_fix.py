@@ -104,3 +104,4 @@ text = text.replace(
 )
 path.write_text(text, encoding="utf-8")
 print("Verified research image-source path patched.")
+# trigger after apply workflow exists

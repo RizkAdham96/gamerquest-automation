@@ -95,6 +95,45 @@ class TestTrendingSeoFeaturedImages(unittest.TestCase):
             "https://games.example/images/witcher-3-remastered-hero.jpg",
         )
 
+    def test_hashed_og_image_is_allowed_when_page_is_clearly_about_topic(self):
+        html = """
+        <html><head>
+          <title>The Witcher 3 Remastered — official reveal</title>
+          <meta property="og:title" content="The Witcher 3 Remastered">
+          <meta property="og:image" content="https://cdn.example/9f31a8b7c4.jpg">
+        </head><body>
+          <h1>The Witcher 3 Remastered</h1>
+        </body></html>
+        """
+
+        self.assertEqual(
+            pipeline.extract_relevant_image_url(
+                html,
+                "https://publisher.example/witcher-remastered",
+                "The Witcher 3 Remastered",
+            ),
+            "https://cdn.example/9f31a8b7c4.jpg",
+        )
+
+    def test_hashed_og_image_is_rejected_when_page_is_not_about_topic(self):
+        html = """
+        <html><head>
+          <title>Gamescom 2026 homepage</title>
+          <meta property="og:image" content="https://cdn.example/9f31a8b7c4.jpg">
+        </head><body>
+          <h1>Gamescom 2026</h1>
+        </body></html>
+        """
+
+        self.assertEqual(
+            pipeline.extract_relevant_image_url(
+                html,
+                "https://publisher.example/home",
+                "The Witcher 3 Remastered",
+            ),
+            "",
+        )
+
     def test_generic_image_is_rejected(self):
         html = """
         <meta property="og:image" content="/images/gamescom-logo.jpg">
@@ -174,3 +213,5 @@ class TestTrendingSeoFeaturedImages(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+# Regression trigger: verifies the patched selector on the branch.

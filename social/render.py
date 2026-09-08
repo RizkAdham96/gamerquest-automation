@@ -636,6 +636,9 @@ CTA_PATTERNS = (
 
     r"\s*Découvrir la suite "
     r"sur GamerQuest(?:\.fr|fr)?\.?",
+
+    r"\s*Découvrez plus "
+    r"sur GamerQuest(?:\.fr|fr)?\.?",
 )
 
 

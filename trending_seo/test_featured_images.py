@@ -167,8 +167,9 @@ class TestTrendingSeoFeaturedImages(unittest.TestCase):
                 },
             )
 
-        self.assertEqual(result["status"], "WORDPRESS_DRAFT_CREATED")
+        self.assertEqual(result["status"], "WORDPRESS_POST_PUBLISHED")
         self.assertEqual(client.payload["featured_media"], 456)
+        self.assertEqual(client.payload["status"], "publish")
 
 
 if __name__ == "__main__":

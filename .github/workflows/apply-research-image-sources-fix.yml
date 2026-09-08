@@ -1,0 +1,33 @@
+name: Apply Research Image Sources Fix
+
+on:
+  push:
+    branches:
+      - fix/seo-research-image-sources
+    paths:
+      - tools/apply_research_image_sources_fix.py
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply patch
+        run: python tools/apply_research_image_sources_fix.py
+      - name: Commit pipeline change
+        run: |
+          git config user.name "GamerQuest Bot"
+          git config user.email "actions@github.com"
+          git add trending_seo/pipeline.py
+          if git diff --cached --quiet; then
+            echo "No pipeline changes."
+          else
+            git commit -m "fix: use verified research pages for SEO images"
+            git push
+          fi

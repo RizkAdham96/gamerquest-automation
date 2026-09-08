@@ -1,0 +1,149 @@
+name: Social Final Smoke Once
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/social-final-smoke-once.yml
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install Pillow requests
+
+      - name: Run full social regression
+        env:
+          PYTHONPATH: .
+        run: |
+          python tests/social/test_cta_cleaner.py
+          python tests/social/test_run_ai.py
+          python tests/social/test_renderer.py
+          python tests/social/test_meta_publisher.py
+          python tests/social/test_prepare_publish.py
+          python tests/social/test_publish_run.py
+
+      - name: Validate live Meta credentials without publishing
+        env:
+          META_IG_ACCESS_TOKEN: ${{ secrets.META_IG_ACCESS_TOKEN }}
+          META_FB_PAGE_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.parse, urllib.request
+          version = "v26.0"
+          def check(label, object_id, token, fields):
+              if not object_id or not token:
+                  raise SystemExit(f"{label}: missing secret")
+              params = urllib.parse.urlencode({"fields": fields, "access_token": token})
+              url = f"https://graph.facebook.com/{version}/{object_id}?{params}"
+              with urllib.request.urlopen(url, timeout=30) as response:
+                  payload = json.loads(response.read().decode("utf-8"))
+              if str(payload.get("id", "")) != str(object_id):
+                  raise SystemExit(f"{label}: wrong object id")
+              print(f"{label}: OK")
+          check("Instagram", os.environ["META_IG_USER_ID"], os.environ["META_IG_ACCESS_TOKEN"], "id,username")
+          check("Facebook", os.environ["META_PAGE_ID"], os.environ["META_FB_PAGE_ACCESS_TOKEN"], "id,name")
+          print("META_LIVE_CHECK_PASSED")
+          PY
+
+      - name: Generate real social content with Groq
+        env:
+          PYTHONPATH: .
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python -m social.run
+
+      - name: Verify social content ready
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = json.loads(Path('social-output.json').read_text(encoding='utf-8'))
+          if p.get('status') != 'ready':
+              raise SystemExit(f"Not ready: {p.get('status')} {p.get('reason','')}")
+          if p.get('fact_checked') is not True:
+              raise SystemExit('Content is not fact checked')
+          slides = p.get('carousel', {}).get('slides', [])
+          if len(slides) != 3:
+              raise SystemExit(f'Expected 3 slides, got {len(slides)}')
+          print('CONTENT_READY')
+          print('Source:', p.get('source_id'))
+          print('Topic:', p.get('carousel', {}).get('topic'))
+          PY
+
+      - name: Render real 3-slide carousel
+        env:
+          PYTHONPATH: .
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python -m social.render
+
+      - name: Validate rendered images
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          files = sorted(Path('social-rendered').glob('slide-*.png'))
+          if len(files) != 3:
+              raise SystemExit(f'Expected 3 rendered slides, found {len(files)}')
+          for f in files:
+              with Image.open(f) as im:
+                  if im.size != (1080, 1350):
+                      raise SystemExit(f'Wrong image size for {f}: {im.size}')
+          print('RENDER_READY')
+          PY
+
+      - name: Prepare publish package without publishing
+        env:
+          PYTHONPATH: .
+        run: python -m social.prepare_publish_run
+
+      - name: Validate publish package and history safety
+        env:
+          PYTHONPATH: .
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from social.publish_run import extract_publish_package
+          from social.meta_publisher import load_publish_history, pending_platforms
+          output = json.loads(Path('social-output.json').read_text(encoding='utf-8'))
+          ready = json.loads(Path('social-publish-ready.json').read_text(encoding='utf-8'))
+          package = extract_publish_package(output, ready)
+          if len(package['image_urls']) != 3:
+              raise SystemExit('Publish package does not have 3 image URLs')
+          history = load_publish_history(Path('social/publish_history.json'))
+          pending = pending_platforms(package['source_id'], history)
+          if not isinstance(pending, list):
+              raise SystemExit('pending_platforms returned invalid value')
+          print('PUBLISH_PACKAGE_READY')
+          print('Pending platforms:', ', '.join(pending) if pending else 'none')
+          print('NO_META_PUBLISH_CALL_WAS_MADE')
+          PY
+
+      - name: Upload final smoke artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gamerquest-social-final-smoke
+          path: |
+            social-output.json
+            social-publish-ready.json
+            social-rendered/
+            social-generated/
+            social-published/
+            social/openai_image_usage.json
+          if-no-files-found: warn

@@ -357,7 +357,7 @@ def build_discovery_query(topic, claim=""):
     else:
         topic_name = str(topic or "").strip()
     claim = str(claim or "").strip()
-    return f"{topic_name} {claim}".strip() if claim else f"{topic_name} official announcement news".strip()
+    return f"{topic_name} {claim}".strip() if claim else f"{topic_name} guide avis comparatif informations".strip()
 
 
 def _local_name(tag):

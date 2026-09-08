@@ -19,10 +19,12 @@ from bs4 import BeautifulSoup
 from groq import Groq
 
 import scorer
+import researcher
 
 from seo_engine import (
     select_seo_candidates,
     build_seo_brief,
+    normalize_search_intent,
     validate_seo_article,
 )
 
@@ -47,6 +49,11 @@ INTEL_TOPICS_FILE = (
     BASE_DIR
     / "intel"
     / "topics.json"
+)
+
+SEO_INTENT_HISTORY_FILE = (
+    BASE_DIR
+    / "seo_intent_history.json"
 )
 
 
@@ -344,6 +351,59 @@ def save_json(
         file.write("\n")
 
 
+def load_intent_history(path: Path = SEO_INTENT_HISTORY_FILE) -> Dict[str, Any]:
+    empty = {"version": "1.0", "updated_at": None, "published": []}
+    try:
+        data = load_json(path)
+    except Exception:
+        return empty
+    published = data.get("published", [])
+    if not isinstance(published, list):
+        return empty
+    return {
+        "version": "1.0",
+        "updated_at": data.get("updated_at"),
+        "published": published,
+    }
+
+
+def record_published_intent(
+    history: Dict[str, Any],
+    article: Dict[str, Any],
+    brief: Dict[str, Any],
+    wp_result: Dict[str, Any],
+) -> Dict[str, Any]:
+    current = {
+        "version": "1.0",
+        "updated_at": history.get("updated_at") if isinstance(history, dict) else None,
+        "published": list(history.get("published", [])) if isinstance(history, dict) and isinstance(history.get("published", []), list) else [],
+    }
+    wordpress_status = safe_string(wp_result.get("wordpress_status")).lower()
+    post_id = wp_result.get("wordpress_post_id")
+    if wordpress_status != "publish" or not post_id:
+        return current
+    primary_keyword = safe_string(brief.get("primary_keyword"))
+    intent_key = normalize_search_intent(primary_keyword)
+    if not intent_key:
+        return current
+    if any(
+        isinstance(item, dict) and normalize_search_intent(item.get("intent_key", "")) == intent_key
+        for item in current["published"]
+    ):
+        return current
+    published_at = utc_now()
+    current["published"].append({
+        "intent_key": intent_key,
+        "primary_keyword": primary_keyword,
+        "title": safe_string(article.get("title")),
+        "wordpress_url": safe_string(wp_result.get("wordpress_url")),
+        "wordpress_post_id": post_id,
+        "published_at": published_at,
+    })
+    current["updated_at"] = published_at
+    return current
+
+
 def with_intel_sources(
     scored_topic: Dict[str, Any],
     intel_data: Dict[str, Any],
@@ -408,6 +468,55 @@ def stop_result(
 
     return result
 
+
+
+def build_research_context(topic: Dict[str, Any]) -> Dict[str, Any]:
+    """Build the existing Researcher V9 evidence pack for one SEO topic."""
+    try:
+        return researcher.build_research_record(topic, topic)
+    except Exception as error:
+        return {
+            "research_status": "RESEARCH_FAILED",
+            "usable_evidence": [],
+            "fact_pack": {
+                "confirmed_facts": [],
+                "blocked_claims": [],
+            },
+            "error": f"{type(error).__name__}: {error}",
+        }
+
+
+def research_context_is_sufficient(context: Dict[str, Any]) -> bool:
+    if not isinstance(context, dict):
+        return False
+    evidence = context.get("usable_evidence", [])
+    fact_pack = context.get("fact_pack", {})
+    facts = fact_pack.get("confirmed_facts", []) if isinstance(fact_pack, dict) else []
+    return bool(isinstance(evidence, list) and evidence) or bool(
+        isinstance(facts, list) and facts
+    )
+
+
+def compact_research_context(context: Dict[str, Any]) -> Dict[str, Any]:
+    if not isinstance(context, dict):
+        return {"confirmed_facts": [], "sources": []}
+    fact_pack = context.get("fact_pack", {})
+    confirmed = fact_pack.get("confirmed_facts", []) if isinstance(fact_pack, dict) else []
+    evidence = context.get("usable_evidence", [])
+    sources = []
+    if isinstance(evidence, list):
+        for item in evidence[:3]:
+            if not isinstance(item, dict):
+                continue
+            sources.append({
+                "url": safe_string(item.get("url")),
+                "title": safe_string(item.get("title")),
+                "text": safe_string(item.get("text"))[:1500],
+            })
+    return {
+        "confirmed_facts": confirmed[:8] if isinstance(confirmed, list) else [],
+        "sources": sources,
+    }
 
 # =========================================================
 # WORDPRESS CONFIG
@@ -548,6 +657,7 @@ def extract_json_object(
 
 def build_article_prompt(
     brief: Dict[str, Any],
+    research_context: Dict[str, Any] | None = None,
 ) -> str:
 
     topic = safe_string(
@@ -592,6 +702,12 @@ def build_article_prompt(
         for keyword
         in secondary_keywords
         if safe_string(keyword)
+    )
+
+    research_summary = json.dumps(
+        compact_research_context(research_context or {}),
+        ensure_ascii=False,
+        indent=2,
     )
 
     return f"""
@@ -697,6 +813,16 @@ Si une information précise n'est pas certaine,
 formule la section sans présenter cette information
 comme un fait confirmé.
 
+CONTEXTE DE RECHERCHE VÉRIFIÉ :
+{research_summary}
+
+RÈGLES DE RECHERCHE :
+- Réponds immédiatement à l'intention de recherche principale.
+- Crée une ressource durable, pas un récapitulatif d'événement.
+- Pour les dates, prix, plateformes et fonctionnalités précises, utilise uniquement les faits confirmés et les sources ci-dessus.
+- N'invente jamais de fait précis.
+- N'utilise jamais une affirmation bloquée ou non vérifiée comme un fait.
+
 IMPORTANT :
 
 Le brief peut contenir des hypothèses, angles,
@@ -732,6 +858,7 @@ Structure exacte :
 
 def generate_seo_article(
     brief: Dict[str, Any],
+    research_context: Dict[str, Any] | None = None,
 ) -> Dict[str, Any]:
 
     api_key = safe_string(
@@ -749,7 +876,8 @@ def generate_seo_article(
         }
 
     prompt = build_article_prompt(
-        brief
+        brief,
+        research_context=research_context,
     )
 
     try:
@@ -1164,9 +1292,9 @@ def create_wordpress_draft(
 
     return {
         "status": (
-            "WORDPRESS_DRAFT_CREATED"
+            "WORDPRESS_POST_PUBLISHED"
         ),
-        "published": False,
+        "published": True,
         "wordpress_status": (
             wordpress_status
         ),
@@ -1190,6 +1318,7 @@ def create_wordpress_draft(
 def process_seo_topic(
     topic: Dict[str, Any],
     wp_config: Dict[str, str],
+    history: Dict[str, Any] | None = None,
 ) -> Dict[str, Any]:
 
     topic_name = safe_string(
@@ -1251,7 +1380,26 @@ def process_seo_topic(
     )
 
     # =====================================================
-    # STAGE 3 — AI SEO ARTICLE
+    # STAGE 3 — VERIFIED RESEARCH GATE
+    # =====================================================
+
+    print("")
+    print("Building verified SEO research context...")
+
+    research_context = build_research_context(topic)
+
+    if not research_context_is_sufficient(research_context):
+        return stop_result(
+            status="BLOCKED_INSUFFICIENT_RESEARCH",
+            reason=(
+                "No usable research evidence was available; "
+                "generation, image work and WordPress publishing were skipped."
+            ),
+            topic=topic_name,
+        )
+
+    # =====================================================
+    # STAGE 4 — AI SEO ARTICLE
     # =====================================================
 
     print("")
@@ -1261,7 +1409,8 @@ def process_seo_topic(
     )
 
     article = generate_seo_article(
-        brief
+        brief,
+        research_context=research_context,
     )
 
     if (
@@ -1292,7 +1441,7 @@ def process_seo_topic(
     )
 
     # =====================================================
-    # STAGE 4 — SEO QUALITY CHECK
+    # STAGE 5 — SEO QUALITY CHECK
     # =====================================================
 
     quality = validate_seo_article(
@@ -1331,7 +1480,7 @@ def process_seo_topic(
         )
 
     # =====================================================
-    # STAGE 5 — LIGHTWEIGHT SANITY CHECK
+    # STAGE 6 — LIGHTWEIGHT SANITY CHECK
     # =====================================================
 
     sanity = (
@@ -1379,7 +1528,7 @@ def process_seo_topic(
     ] = True
 
     # =====================================================
-    # STAGE 6 — FEATURED IMAGE
+    # STAGE 7 — FEATURED IMAGE
     # =====================================================
 
     print("")
@@ -1413,7 +1562,7 @@ def process_seo_topic(
     article["featured_media"] = image_result["media_id"]
 
     # =====================================================
-    # STAGE 7 — WORDPRESS
+    # STAGE 8 — WORDPRESS
     # =====================================================
 
     print("")
@@ -1432,7 +1581,7 @@ def process_seo_topic(
         wordpress_result.get(
             "status"
         )
-        != "WORDPRESS_DRAFT_CREATED"
+        != "WORDPRESS_POST_PUBLISHED"
     ):
         return stop_result(
             status=(
@@ -1452,6 +1601,19 @@ def process_seo_topic(
         )
 
     # =====================================================
+    # PERSIST SUCCESSFUL SEARCH INTENT
+    # =====================================================
+
+    if history is not None:
+        updated_history = record_published_intent(
+            history=history,
+            article=article,
+            brief=brief,
+            wp_result=wordpress_result,
+        )
+        save_json(SEO_INTENT_HISTORY_FILE, updated_history)
+
+    # =====================================================
     # SUCCESS
     # =====================================================
 
@@ -1460,7 +1622,7 @@ def process_seo_topic(
             PIPELINE_VERSION
         ),
         "status": (
-            "SEO_PIPELINE_DRAFT_SUCCESS"
+            "SEO_PIPELINE_PUBLISH_SUCCESS"
         ),
         "topic": topic_name,
         "topic_id": (
@@ -1528,7 +1690,7 @@ def process_seo_topic(
             "featured_media"
         ),
         "featured_image_source": image_url,
-        "published": False,
+        "published": True,
         "created_at": utc_now(),
     }
 
@@ -1744,6 +1906,12 @@ def main() -> None:
         return
 
     # =====================================================
+    # LOAD DURABLE SEO INTENT HISTORY
+    # =====================================================
+
+    history = load_intent_history(SEO_INTENT_HISTORY_FILE)
+
+    # =====================================================
     # SELECT WRITE OPPORTUNITY
     # =====================================================
 
@@ -1753,6 +1921,7 @@ def main() -> None:
             max_articles=(
                 MAX_ARTICLES_PER_RUN
             ),
+            history=history,
         )
     )
 
@@ -1789,6 +1958,7 @@ def main() -> None:
     process_seo_topic(
         topic=topic,
         wp_config=wp_config,
+        history=history,
     )
 
 

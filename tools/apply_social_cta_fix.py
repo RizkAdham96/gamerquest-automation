@@ -11,3 +11,4 @@ if needle not in text:
 
 path.write_text(text.replace(needle, replacement, 1), encoding="utf-8")
 print("Social CTA cleaner patched.")
+# Trigger after apply workflow is present.

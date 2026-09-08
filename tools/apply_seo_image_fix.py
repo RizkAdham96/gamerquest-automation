@@ -98,3 +98,4 @@ replacement = r'''def extract_relevant_image_url(
 
 path.write_text(text[:start] + replacement + text[end:], encoding="utf-8")
 print("SEO featured-image selector patched.")
+# Triggered intentionally after the workflow was present on the branch.

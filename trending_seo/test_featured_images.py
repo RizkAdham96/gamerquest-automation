@@ -213,3 +213,5 @@ class TestTrendingSeoFeaturedImages(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+# Regression trigger: verifies the patched selector on the branch.

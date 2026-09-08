@@ -1,0 +1,22 @@
+name: SEO Image Fix CI
+
+on:
+  push:
+    branches:
+      - fix/seo-featured-image
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install groq requests beautifulsoup4
+      - name: Run featured image regression
+        working-directory: trending_seo
+        run: python -m unittest test_featured_images.py -v

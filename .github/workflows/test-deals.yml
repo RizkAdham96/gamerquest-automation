@@ -95,16 +95,44 @@ jobs:
             exit 1
           fi
 
+          ENDPOINT="https://gamerquestfr.com/wp-json/gamerquest/v1/deals/import"
+
+          echo "Checking WordPress endpoint connectivity..."
           curl \
+            --ipv4 \
+            --http1.1 \
+            --connect-timeout 20 \
+            --max-time 45 \
+            --retry 3 \
+            --retry-delay 5 \
+            --retry-all-errors \
+            --show-error \
+            --silent \
+            --output /dev/null \
+            "$ENDPOINT" || echo "Endpoint preflight did not return cleanly; continuing with retried POST."
+
+          echo "Sending deals feed to WordPress..."
+          curl \
+            --ipv4 \
+            --http1.1 \
+            --tlsv1.2 \
+            --connect-timeout 20 \
+            --max-time 90 \
+            --retry 5 \
+            --retry-delay 10 \
+            --retry-max-time 240 \
+            --retry-all-errors \
             --fail-with-body \
             --show-error \
             --silent \
             --request POST \
+            --user-agent "GamerQuest-GitHub-Actions/1.0" \
             --header "Content-Type: application/json" \
             --header "Accept: application/json" \
+            --header "Connection: close" \
             --header "X-GamerQuest-Deals-Token: $WP_DEALS_TRIGGER_TOKEN" \
             --data-binary "@gamerquest-deals-feed.json" \
-            "https://gamerquestfr.com/wp-json/gamerquest/v1/deals/import"
+            "$ENDPOINT"
 
           echo
           echo "WordPress Deals import triggered successfully."

@@ -1,7 +1,9 @@
+import requests
+
 from reviews.discovery import discover_game_queries
 from reviews.pipeline import build_review_record, verdict_from_percent
 from reviews.steam import choose_best_search_result
-from reviews.wordpress import build_post_payload
+from reviews.wordpress import WordPressPublisher, build_post_payload
 
 
 def test_discovery_prefers_deals_then_news_and_deduplicates():
@@ -80,3 +82,40 @@ def test_wordpress_payload_targets_tests_category_and_featured_media():
     assert payload["categories"] == [9]
     assert payload["featured_media"] == 44
     assert payload["slug"].startswith("avis-2-game-name")
+
+
+class _FakeResponse:
+    def __init__(self, data):
+        self._data = data
+
+    def raise_for_status(self):
+        return None
+
+    def json(self):
+        return self._data
+
+
+class _FlakySession:
+    def __init__(self):
+        self.headers = {}
+        self.auth = None
+        self.attempts = 0
+
+    def request(self, method, url, **kwargs):
+        self.attempts += 1
+        if self.attempts < 3:
+            raise requests.ConnectionError("connection reset by peer")
+        return _FakeResponse([{"id": 9}])
+
+
+def test_wordpress_retries_transient_connection_resets():
+    session = _FlakySession()
+    publisher = WordPressPublisher(
+        base_url="https://example.com",
+        username="user",
+        password="pass",
+        session=session,
+        sleep_fn=lambda _seconds: None,
+    )
+    assert publisher.tests_category_id() == 9
+    assert session.attempts == 3

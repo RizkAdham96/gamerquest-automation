@@ -1,0 +1,48 @@
+name: GamerQuest Tests & Avis Automation
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "reviews/**"
+      - ".github/workflows/reviews.yml"
+  schedule:
+    - cron: "27 8 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gamerquest-reviews
+  cancel-in-progress: false
+
+jobs:
+  reviews:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Tests & Avis tests
+        run: |
+          python -m pytest reviews/test_reviews.py -q
+
+      - name: Publish or update Tests & Avis
+        env:
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: |
+          python -m reviews.run

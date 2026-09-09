@@ -51,7 +51,7 @@ def build_review_record(app, reviews):
     release_date = str((app.get("release_date") or {}).get("date") or "Non renseignée")
 
     content = f"""
-<article class="gq-review">
+<article class="gq-review" data-total-reviews="{total_reviews}">
 <p><strong>Score joueurs GamerQuest : {stars} &nbsp; {score_5}/5 — {html.escape(label)}</strong></p>
 <p>{positive_percent}% d’avis positifs sur Steam, sur {formatted_reviews} avis joueurs analysés.</p>
 <h2>En bref</h2>

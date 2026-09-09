@@ -52,7 +52,7 @@ def build_review_record(app, reviews):
 
     content = f"""
 <article class="gq-review">
-<p><strong>{stars} &nbsp; {score_5}/5 — {html.escape(label)}</strong></p>
+<p><strong>Score joueurs GamerQuest : {stars} &nbsp; {score_5}/5 — {html.escape(label)}</strong></p>
 <p>{positive_percent}% d’avis positifs sur Steam, sur {formatted_reviews} avis joueurs analysés.</p>
 <h2>En bref</h2>
 <p>{html.escape(description)}</p>

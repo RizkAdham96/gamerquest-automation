@@ -45,6 +45,20 @@ def test_build_review_record_uses_player_score_not_fake_editorial_score():
     assert "Team NINJA" in record["content"]
 
 
+def test_review_excerpt_is_fun_and_rating_first_for_archive_cards():
+    app = {
+        "steam_appid": 1448440,
+        "name": "Wo Long: Fallen Dynasty",
+        "header_image": "https://cdn.example/header.jpg",
+    }
+    reviews = {"total_positive": 1000, "total_negative": 250, "total_reviews": 1250}
+    record = build_review_record(app, reviews)
+    assert record["excerpt"].startswith("★★★★☆  4.0/5")
+    assert "Très positif" in record["excerpt"]
+    assert "80% positif" in record["excerpt"]
+    assert "1 250 avis Steam" in record["excerpt"]
+
+
 def test_choose_best_search_result_prefers_exact_title():
     items = [
         {"id": 1, "name": "Wo Long Demo"},

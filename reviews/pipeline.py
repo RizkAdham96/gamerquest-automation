@@ -15,6 +15,11 @@ def verdict_from_percent(percent):
     return "Plutôt négatif"
 
 
+def stars_from_score(score_5):
+    filled = max(0, min(5, int(round(float(score_5)))))
+    return "★" * filled + "☆" * (5 - filled)
+
+
 def _platforms(data):
     source = data.get("platforms") or {}
     names = []
@@ -35,6 +40,8 @@ def build_review_record(app, reviews):
     positive_percent = round(100 * total_positive / denominator) if denominator else 0
     score_5 = round(positive_percent / 20, 1)
     label = verdict_from_percent(positive_percent)
+    stars = stars_from_score(score_5)
+    formatted_reviews = f"{total_reviews:,}".replace(",", " ")
 
     name = str(app.get("name") or "Jeu").strip()
     description = str(app.get("short_description") or "").strip()
@@ -45,8 +52,8 @@ def build_review_record(app, reviews):
 
     content = f"""
 <article class="gq-review">
-<p><strong>Score joueurs GamerQuest : {score_5}/5 — {html.escape(label)}</strong></p>
-<p>{positive_percent}% d’avis positifs sur Steam, sur {total_reviews} avis joueurs analysés.</p>
+<p><strong>{stars} &nbsp; {score_5}/5 — {html.escape(label)}</strong></p>
+<p>{positive_percent}% d’avis positifs sur Steam, sur {formatted_reviews} avis joueurs analysés.</p>
 <h2>En bref</h2>
 <p>{html.escape(description)}</p>
 <ul>
@@ -72,5 +79,8 @@ def build_review_record(app, reviews):
         "total_reviews": total_reviews,
         "image_url": str(app.get("header_image") or ""),
         "content": content,
-        "excerpt": f"{name} : {score_5}/5 selon l’indice joueurs GamerQuest, basé sur {total_reviews} avis Steam.",
+        "excerpt": (
+            f"{stars}  {score_5}/5 · {label} · "
+            f"{positive_percent}% positif · {formatted_reviews} avis Steam"
+        ),
     }

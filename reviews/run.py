@@ -3,13 +3,13 @@ from reviews.pipeline import build_review_record
 from reviews.steam import fetch_app_details, fetch_review_summary, search_game
 from reviews.wordpress import WordPressPublisher
 
-MAX_GAMES_PER_RUN = 3
+MAX_GAMES_PER_RUN = 15
 
 
 def run(max_games=MAX_GAMES_PER_RUN):
     queries = discover_game_queries(limit=max_games)
     if not queries:
-        print("No game candidates found in GamerQuest feeds.")
+        print("No game candidates found in GamerQuest feeds or starter catalog.")
         return
 
     publisher = WordPressPublisher()

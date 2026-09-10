@@ -14,8 +14,27 @@ def test_discovery_prefers_deals_then_news_and_deduplicates():
         {"tags": ["Elden Ring", "PS5"]},
     ]}
     assert discover_game_queries(news, deals, limit=3) == [
-        "Alone With You", "Wo Long", "Elden Ring"
+        "Alone With You", "Wo Long: Fallen Dynasty", "Elden Ring"
     ]
+
+
+def test_discovery_uses_starter_catalog_when_feeds_are_thin():
+    result = discover_game_queries({"articles": []}, {"articles": []}, limit=8)
+    assert len(result) == 8
+    assert "Elden Ring" in result
+    assert "Cyberpunk 2077" in result
+    assert "Baldur's Gate 3" in result
+
+
+def test_discovery_filters_hardware_and_generic_tags():
+    news = {"articles": [
+        {"tags": ["Nintendo Switch 2", "PS5", "DLC", "Elden Ring"]},
+    ]}
+    result = discover_game_queries(news, {"articles": []}, limit=5)
+    assert "Nintendo Switch 2" not in result
+    assert "PS5" not in result
+    assert "DLC" not in result
+    assert "Elden Ring" in result
 
 
 def test_verdict_labels_are_transparent():

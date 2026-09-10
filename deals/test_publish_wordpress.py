@@ -19,3 +19,9 @@ def test_future_deal_remains_publishable():
 
 def test_deal_without_expiry_remains_publishable():
     assert is_expired({"deal": {}}, now=datetime.now(timezone.utc)) is False
+
+
+def test_deal_with_null_expiry_remains_publishable():
+    article = {"deal": {"expires_at": None}}
+
+    assert is_expired(article, now=datetime.now(timezone.utc)) is False

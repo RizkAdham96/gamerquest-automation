@@ -19,7 +19,11 @@ SESSION.headers.update({"User-Agent": "GamerQuest-GitHub-Actions/1.0"})
 
 
 def is_expired(article: dict, now: datetime | None = None) -> bool:
-    expires_at = str((article.get("deal") or {}).get("expires_at", "")).strip()
+    raw_expiry = (article.get("deal") or {}).get("expires_at")
+    if not raw_expiry:
+        return False
+
+    expires_at = str(raw_expiry).strip()
     if not expires_at:
         return False
 

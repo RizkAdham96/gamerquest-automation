@@ -3,6 +3,7 @@ import mimetypes
 import os
 import re
 import unicodedata
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -15,6 +16,19 @@ WP_APP_PASSWORD = os.environ.get("WP_APP_PASSWORD", "")
 SESSION = requests.Session()
 SESSION.auth = (WP_USERNAME, WP_APP_PASSWORD)
 SESSION.headers.update({"User-Agent": "GamerQuest-GitHub-Actions/1.0"})
+
+
+def is_expired(article: dict, now: datetime | None = None) -> bool:
+    expires_at = str((article.get("deal") or {}).get("expires_at", "")).strip()
+    if not expires_at:
+        return False
+
+    expires_at = expires_at.replace("Z", "+00:00")
+    expiry = datetime.fromisoformat(expires_at)
+    if expiry.tzinfo is None:
+        expiry = expiry.replace(tzinfo=timezone.utc)
+
+    return expiry <= (now or datetime.now(timezone.utc))
 
 
 def slugify(value: str) -> str:
@@ -140,12 +154,20 @@ def main() -> None:
 
     published = 0
     skipped = 0
+    expired = 0
     for article in articles:
+        if is_expired(article):
+            expired += 1
+            print(f"SKIP: expired deal: {article.get('title', '')}")
+            continue
         result = publish_article(article)
         published += result == "published"
         skipped += result == "skipped"
 
-    print(f"WordPress direct publish complete: published={published}, skipped={skipped}")
+    print(
+        "WordPress direct publish complete: "
+        f"published={published}, skipped={skipped}, expired={expired}"
+    )
 
 
 if __name__ == "__main__":

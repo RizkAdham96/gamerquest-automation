@@ -34,7 +34,7 @@ def test_accepts_more_than_90_percent_discount():
     assert should_accept_deal(deal) is True
 
 
-def test_rejects_89_percent_discount():
+def test_accepts_89_percent_discount_under_value_based_rules():
     deal = {
         "title": "Example Game",
         "original_price": 59.99,
@@ -42,7 +42,7 @@ def test_rejects_89_percent_discount():
         "discount_percent": 89,
     }
 
-    assert should_accept_deal(deal) is False
+    assert should_accept_deal(deal) is True
 
 
 def test_rejects_normal_discount():

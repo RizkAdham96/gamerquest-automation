@@ -3,6 +3,14 @@ name: GamerQuest Deals Automation
 on:
   workflow_dispatch:
 
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/test-deals.yml"
+      - "deals/**"
+      - "requirements.txt"
+
   schedule:
     - cron: "17 */2 * * *"
 

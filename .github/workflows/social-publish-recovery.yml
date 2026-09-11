@@ -128,12 +128,19 @@ jobs:
               f.write(f"ready={'true' if ready else 'false'}\n")
           PY
 
-      - name: Render carousel images
+      - name: Render carousel images with safe free fallback
         if: ${{ steps.published_today.outputs.already != 'true' && steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python -m social.render
+        shell: bash
+        run: |
+          if python -m social.render; then
+            echo "Primary AI render succeeded."
+          else
+            echo "Primary AI render failed. Switching to free deterministic GamerQuest renderer."
+            python -m social.render_fallback
+          fi
 
       - name: Prepare public carousel images
         if: ${{ steps.published_today.outputs.already != 'true' && steps.social_status.outputs.ready == 'true' }}

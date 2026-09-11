@@ -41,5 +41,16 @@
       "published": true,
       "post_id": "1303389956186440_122110382211446919"
     }
+  },
+  "64021e5d7e5f64e9a3efefe6a3c04d712e5019be42041456988b237e2050f43b": {
+    "instagram": {
+      "published": false,
+      "post_id": "",
+      "error": "Meta API error | HTTP status: 400 | message: Invalid OAuth access token - Cannot parse access token | type: OAuthException | code: 190 | fbtrace_id: ADS1BnqVpV3sgZIabvRxhY8"
+    },
+    "facebook": {
+      "published": true,
+      "post_id": "1303389956186440_122112392145446919"
+    }
   }
 }

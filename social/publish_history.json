@@ -46,7 +46,7 @@
     "instagram": {
       "published": false,
       "post_id": "",
-      "error": "Meta API error | HTTP status: 400 | message: Invalid OAuth access token - Cannot parse access token | type: OAuthException | code: 190 | fbtrace_id: ADS1BnqVpV3sgZIabvRxhY8"
+      "error": "Meta API error | HTTP status: 400 | message: Invalid OAuth access token - Cannot parse access token | type: OAuthException | code: 190 | fbtrace_id: AugfqKDYI7Q6CuRMA3Ez6mB"
     },
     "facebook": {
       "published": true,

@@ -176,7 +176,10 @@ jobs:
         if: ${{ steps.published_today.outputs.already != 'true' && steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
-          META_IG_ACCESS_TOKEN: ${{ secrets.META_IG_ACCESS_TOKEN }}
+          # The dedicated IG secret currently returns OAuth code 190 (cannot parse).
+          # The Page token is valid in this same Meta app/session and is the correct
+          # fallback for Facebook Login based Instagram Graph publishing.
+          META_IG_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
           META_FB_PAGE_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}

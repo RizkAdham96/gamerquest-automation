@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-09-10T04:25:10.522277+00:00",
+  "generated_at": "2026-09-11T11:06:42.039847+00:00",
   "count": 50,
   "articles": [
+    {
+      "source_id": "64021e5d7e5f64e9a3efefe6a3c04d712e5019be42041456988b237e2050f43b",
+      "title": "Date de sortie du remake Ocarina of Time sur Switch 2 – Analyse du Direct 40e anniversaire de Zelda",
+      "excerpt": "Le Direct du 40e anniversaire de Zelda a confirmé la sortie du remake d’Ocarina of Time le 5 novembre 2026 sur Nintendo Switch 2, avec un nouveau gameplay et plusieurs éditions spéciales.",
+      "content": "<article>\n  <p>Le <strong>Direct du 40e anniversaire de The Legend of Zelda</strong> a annoncé que le remake de <em>The Legend of Zelda : Ocarina of Time</em> sortira le <strong>5 novembre 2026</strong> exclusivement sur la <strong>Nintendo Switch 2</strong>. Voici le récapitulatif des informations présentées lors de l’événement.</p>\n\n  <h2>Quelle est la date de sortie du remake ?</h2>\n  <p>Le trailer final du Direct a confirmé que le jeu sera disponible le <strong>5 novembre 2026</strong>. Cette date a été présentée comme le lancement officiel du titre.</p>\n\n  <h2>Sur quelles plateformes le remake sera‑t‑il disponible ?</h2>\n  <p>Le remake sera exclusif à la <strong>Nintendo Switch 2</strong>. Aucun autre support n’a été mentionné lors du Direct.</p>\n\n  <h2>Quelles sont les nouveautés du gameplay présentées ?</h2>\n  <p>Eiji Aonuma a montré une séquence de gameplay étendue, avec des environnements revisités et des améliorations graphiques grâce au moteur de la Switch 2. Le trailer met en avant des zones emblématiques du jeu original ainsi que des contrôles modernisés.</p>\n\n  <h2>Quelles autres annonces ont accompagné le Direct ?</h2>\n  <ul>\n    <li><strong>Thème orchestral du 40e anniversaire</strong> : une nouvelle composition créée spécialement pour l’événement.</li>\n    <li><strong>Film Zelda</strong> : le titre officiel du film a été confirmé comme <em>The Legend of Zelda</em>, avec une sortie prévue le <strong>30 avril 2027</strong>.</li>\n    <li><strong>Museum Nintendo</strong> : des billets à thème Zelda seront disponibles pendant un an, et une exposition Master Sword débutera le <strong>5 novembre 2026</strong>.</li>\n    <li><strong>Merchandising</strong> : Nintendo a présenté des ocarinas physiques, un set LEGO représentant Link et Epona, ainsi que des amiibo Young Link et Young Zelda prévus pour 2027.</li>\n    <li><strong>Édition spéciale console et Pro Controller</strong> : une version spéciale de la Switch 2 et du Pro Controller arborant le design d’Ocarina of Time sera commercialisée à partir du <strong>29 octobre 2026</strong>.</li>\n    <li><strong>Tour d’orchestre mondial</strong> : le premier concert aura lieu en janvier 2027 au Japon, suivi de dates aux États‑Unis, au Royaume‑Uni et en Australie.</li>\n  </ul>\n\n  <p>En résumé, le Direct du 40e anniversaire a confirmé la sortie du remake le 5 novembre 2026 sur Switch 2, accompagné d’une série d’annonces qui enrichissent l’univers Zelda pour les fans et les nouveaux joueurs.</p>\n</article>",
+      "slug": "date-sortie-ocarina-of-time-switch-2",
+      "category": "Actualités",
+      "tags": [
+        "Zelda",
+        "Nintendo Direct",
+        "Switch 2",
+        "Ocarina of Time",
+        "Remake"
+      ],
+      "seo": {
+        "seo_title": "Date de sortie du remake Ocarina of Time sur Switch 2 – Tout ce qu’on sait du Direct 40e anniversaire Zelda",
+        "meta_description": "Découvrez la date officielle du remake de The Legend of Zelda : Ocarina of Time sur Nintendo Switch 2, annoncée lors du Direct du 40e anniversaire, ainsi que les principales annonces du Direct.",
+        "primary_keyword": "date de sortie Ocarina of Time Switch 2",
+        "secondary_keywords": [
+          "Zelda 40e anniversaire",
+          "Nintendo Direct 2026",
+          "Ocarina of Time remake",
+          "Switch 2",
+          "Zelda gameplay",
+          "édition spéciale console"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.nintendolife.com/guides/zelda-40th-anniversary-direct-every-announcement-and-trailer",
+        "title": "Zelda 40th Anniversary Direct - Every Announcement and Trailer",
+        "published_date": "Tue, 08 Sep 2026 16:00:00 GMT",
+        "domain": "nintendolife.com"
+      },
+      "official_source": null,
+      "created_at": "2026-09-11T11:06:41.417743+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/date-sortie-ocarina-of-time-switch-2.jpg",
+        "filename": "date-sortie-ocarina-of-time-switch-2.jpg",
+        "alt": "Date de sortie du remake Ocarina of Time sur Switch 2 – Analyse du Direct 40e anniversaire de Zelda - GamerQuest",
+        "caption": "Illustration de l'article « Date de sortie du remake Ocarina of Time sur Switch 2 – Analyse du Direct 40e anniversaire de Zelda ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://images.nintendolife.com/2b45e31835c08/large.jpg"
+      }
+    },
     {
       "source_id": "63a3dbcfad85f16d48a7e1f8fdd49b6539347fbe25887b4fe997317fe4d7d33b",
       "title": "Nintendo Direct septembre 2026 : récapitulatif complet des annonces, dates de sortie et plateformes",
@@ -2228,51 +2273,6 @@
         "caption": "Illustration de l'article « Witcher 3 Remaster : date, plateformes, prix et premières infos sur l’extension Songs of the Past ».",
         "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
         "source_image_url": "https://assetsio.gnwcdn.com/witcher-songs-of-past-3-(1).jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
-      }
-    },
-    {
-      "source_id": "633b00450dac11f119af6467bc491f94d372096f543f7bd79521cef4a0957860",
-      "title": "Final Fantasy 7 Revelation : tout ce qu’on sait de la sortie après Gamescom 2026",
-      "excerpt": "La dernière annonce de Gamescom 2026 révèle que Final Fantasy 7 Revelation sortira au printemps 2027 sur Switch 2, PS5, PC et Xbox Series X, mais le prix et le gameplay restent inconnus.",
-      "content": "<article>\n  <p>Lors de la soirée d’ouverture de Gamescom 2026, Square Enix a présenté <strong>Final Fantasy 7 Revelation</strong>. Voici les informations essentielles qui répondent aux questions les plus fréquentes des joueurs.</p>\n\n  <h2>Quelle est la date de sortie de Final Fantasy 7 Revelation ?</h2>\n  <p>Le développeur a indiqué que le jeu sortira au <strong>printemps 2027</strong>. Aucun jour précis n’a été communiqué.</p>\n\n  <h2>Sur quelles plateformes sortira Final Fantasy 7 Revelation ?</h2>\n  <p>Le titre sera disponible simultanément sur les quatre consoles de nouvelle génération et PC, selon l’annonce officielle :</p>\n  <ul>\n    <li>Nintendo Switch 2</li>\n    <li>PlayStation 5</li>\n    <li>Windows PC</li>\n    <li>Xbox Series X</li>\n  </ul>\n\n  <h2>Quel sera le prix de Final Fantasy 7 Revelation ?</h2>\n  <p>Le prix du jeu n’a pas encore été annoncé par Square Enix.</p>\n\n  <h2>Que sait‑on du gameplay de Final Fantasy 7 Revelation ?</h2>\n  <p>Aucun détail concret sur le gameplay n’a été révélé lors de la diffusion du trailer. L’annonce s’est concentrée sur la date et les plateformes.</p>\n\n  <h2>Final Fantasy 7 Revelation proposera‑t‑il du multijoueur ?</h2>\n  <p>Jusqu’à présent, aucun mode multijoueur n’a été mentionné dans la présentation officielle.</p>\n</article>",
-      "slug": "final-fantasy-7-revelation-dates-sortie",
-      "category": "Actualités",
-      "tags": [
-        "Final Fantasy 7",
-        "Gamescom 2026",
-        "annonces jeux",
-        "sortie 2027",
-        "RPG"
-      ],
-      "seo": {
-        "seo_title": "Final Fantasy 7 Revelation : date de sortie, plateformes et infos clés après Gamescom 2026",
-        "meta_description": "Découvrez la date de sortie prévue au printemps 2027, les plateformes annoncées et les dernières informations officielles sur Final Fantasy 7 Revelation présentées à Gamescom 2026.",
-        "primary_keyword": "Final Fantasy 7 Revelation date de sortie",
-        "secondary_keywords": [
-          "Final Fantasy 7 Revelation plateformes",
-          "Final Fantasy 7 Revelation prix",
-          "Final Fantasy 7 Revelation gameplay",
-          "Final Fantasy 7 Revelation multijoueur",
-          "Gamescom 2026",
-          "annonce jeux vidéo"
-        ],
-        "search_intent": "News"
-      },
-      "source": {
-        "url": "https://www.polygon.com/gamescom-2026-opening-night-live-all-news-announcements-trailers/",
-        "title": "Every Big Announcement from Gamescom Opening Night Live - Polygon.com",
-        "published_date": "Tue, 25 Aug 2026 20:07:28 GMT",
-        "domain": "polygon.com"
-      },
-      "official_source": null,
-      "created_at": "2026-08-25T20:35:23.426609+00:00",
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/final-fantasy-7-revelation-dates-sortie.jpg",
-        "filename": "final-fantasy-7-revelation-dates-sortie.jpg",
-        "alt": "Final Fantasy 7 Revelation : tout ce qu’on sait de la sortie après Gamescom 2026 - GamerQuest",
-        "caption": "Illustration de l'article « Final Fantasy 7 Revelation : tout ce qu’on sait de la sortie après Gamescom 2026 ».",
-        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
-        "source_image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/ss_271acc7cebd1faeaa848997e60eb8f5a92ff94fd-1920x1080.jpg?w=1600&h=900&fit=crop"
       }
     }
   ]

@@ -9,22 +9,14 @@ on:
         default: false
         type: boolean
 
-  # GitHub cron uses UTC.
-  #
-  # Paris:
-  # Summer = UTC+2 -> 16:30 UTC = 18:30 Paris
-  # Winter = UTC+1 -> 17:30 UTC = 18:30 Paris
-  #
-  # We trigger BOTH and the Paris-time guard below
-  # keeps only the correct 18:30 run.
+  # One timezone-aware schedule: no duplicate DST cron and no runtime-hour guard.
   schedule:
-    - cron: "30 16 * * 2,5"
-    - cron: "30 17 * * 2,5"
+    - cron: "30 18 * * 2,5"
+      timezone: "Europe/Paris"
 
 permissions:
   contents: write
 
-# Prevent two Social workflows from publishing at the same time.
 concurrency:
   group: gamerquest-social-publishing
   cancel-in-progress: false
@@ -34,156 +26,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ===================================================
-      # PARIS TIME SCHEDULE GUARD
-      # ===================================================
-
-      - name: Check Paris publishing time
-        id: schedule_guard
-        shell: bash
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-        run: |
-          python - <<'PY'
-          import os
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
-
-          event_name = os.environ.get("EVENT_NAME", "")
-          paris_now = datetime.now(ZoneInfo("Europe/Paris"))
-
-          print(
-              "Paris time:",
-              paris_now.strftime("%Y-%m-%d %H:%M:%S %Z")
-          )
-
-          # Manual runs are always allowed.
-          if event_name == "workflow_dispatch":
-              proceed = True
-              print("Manual workflow run: allowed.")
-
-          # Scheduled runs are allowed only during
-          # the correct Paris 18:xx hour on Tuesday/Friday.
-          else:
-              correct_day = paris_now.weekday() in (1, 4)
-              correct_hour = paris_now.hour == 18
-
-              proceed = correct_day and correct_hour
-
-              if proceed:
-                  print(
-                      "Correct Paris publishing window: allowed."
-                  )
-              else:
-                  print(
-                      "This is the DST duplicate cron run. "
-                      "Publishing skipped."
-                  )
-
-          github_output = os.environ["GITHUB_OUTPUT"]
-
-          with open(
-              github_output,
-              "a",
-              encoding="utf-8",
-          ) as file:
-              file.write(
-                  "proceed="
-                  + ("true" if proceed else "false")
-                  + "\n"
-              )
-          PY
-
-      - name: Skip duplicate DST schedule
-        if: ${{ steps.schedule_guard.outputs.proceed != 'true' }}
-        run: |
-          echo "Not the correct 18:30 Europe/Paris run."
-          echo "Nothing will be generated or published."
-
-      # ===================================================
-      # CHECKOUT
-      # ===================================================
-
       - name: Checkout repository
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # ===================================================
-      # PYTHON
-      # ===================================================
-
       - name: Set up Python
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Install social dependencies
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         run: |
           python -m pip install --upgrade pip
           python -m pip install Pillow requests
 
-      # ===================================================
-      # TESTS
-      # ===================================================
-
-      - name: Run social integration test
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
+      - name: Run critical social tests
         env:
           PYTHONPATH: .
         run: |
           python tests/social/test_run_ai.py
-
-      - name: Run social renderer test
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
-        env:
-          PYTHONPATH: .
-        run: |
           python tests/social/test_renderer.py
-
-      - name: Run Meta publisher test
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
-        env:
-          PYTHONPATH: .
-        run: |
           python tests/social/test_meta_publisher.py
-
-      - name: Run publish preparation test
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
-        env:
-          PYTHONPATH: .
-        run: |
           python tests/social/test_prepare_publish.py
-
-      - name: Run publish runner test
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
-        env:
-          PYTHONPATH: .
-        run: |
           python tests/social/test_publish_run.py
 
-      # ===================================================
-      # GENERATE SOCIAL CONTENT
-      # ===================================================
-
-      - name: Run real Groq social generation
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
+      - name: Generate fact-checked social carousel
         env:
           PYTHONPATH: .
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: |
-          python -m social.run
-
-      # ===================================================
-      # CHECK WHETHER GROQ PRODUCED A VALID POST
-      # ===================================================
+        run: python -m social.run
 
       - name: Check social generation status
         id: social_status
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' }}
         shell: bash
         run: |
           python - <<'PY'
@@ -191,180 +66,96 @@ jobs:
           import os
           from pathlib import Path
 
-          output_file = Path("social-output.json")
+          path = Path("social-output.json")
+          ready = False
+          status = "missing"
+          reason = "missing_social_output"
 
-          if not output_file.exists():
-              print("social-output.json does not exist.")
-              status = "missing"
-          else:
+          if path.exists():
               try:
-                  payload = json.loads(
-                      output_file.read_text(
-                          encoding="utf-8"
-                      )
-                  )
-              except Exception as error:
-                  print(
-                      f"Could not read social-output.json: "
-                      f"{error}"
-                  )
+                  payload = json.loads(path.read_text(encoding="utf-8"))
+                  status = str(payload.get("status", "")).strip() or "unknown"
+                  ready = status == "ready"
+                  reason = str(payload.get("reason", status)).strip()
+              except Exception as exc:
                   status = "invalid"
-              else:
-                  status = str(
-                      payload.get(
-                          "status",
-                          ""
-                      )
-                  ).strip()
+                  reason = f"invalid_social_output:{exc}"
 
-                  print(
-                      f"Social generation status: "
-                      f"{status}"
-                  )
+          print(f"Social generation status: {status}")
+          print(f"Ready: {ready}")
+          print(f"Reason/status: {reason}")
 
-                  if status != "ready":
-                      reason = str(
-                          payload.get(
-                              "reason",
-                              ""
-                          )
-                      ).strip()
-
-                      if reason:
-                          print(
-                              f"Skip reason: {reason}"
-                          )
-
-          github_output = os.environ[
-              "GITHUB_OUTPUT"
-          ]
-
-          with open(
-              github_output,
-              "a",
-              encoding="utf-8",
-          ) as file:
-              file.write(
-                  f"status={status}\n"
-              )
-
-              file.write(
-                  "ready="
-                  + (
-                      "true"
-                      if status == "ready"
-                      else "false"
-                  )
-                  + "\n"
-              )
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"ready={'true' if ready else 'false'}\n")
+              f.write(f"status={status}\n")
           PY
 
       - name: No approved social post this run
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready != 'true' }}
+        if: ${{ steps.social_status.outputs.ready != 'true' }}
         run: |
           echo "No fact-checked carousel was approved."
-          echo "The workflow will stop publishing steps safely."
-          echo "This is not a system failure."
+          echo "Publishing is skipped safely."
 
-      # ===================================================
-      # GENERATE + RENDER IMAGES
-      # ===================================================
-
-      - name: Render social carousel images
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' }}
+      # Free deterministic rendering is the production path.
+      # This removes the paid/OpenAI image dependency and prevents moderation
+      # failures from stopping a valid carousel.
+      - name: Render carousel with free GamerQuest renderer
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          python -m social.render
-
-      # ===================================================
-      # PREPARE PUBLIC IMAGES
-      # ===================================================
+        run: python -m social.render_fallback
 
       - name: Prepare carousel for public publishing
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' }}
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_BRANCH: main
-        run: |
-          python -m social.prepare_publish_run
+        run: python -m social.prepare_publish_run
 
-      - name: Verify three published images
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' }}
+      - name: Verify exactly three current carousel images
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
         shell: bash
         run: |
-          echo "Checking social-published..."
-
-          IMAGE_COUNT=$(find social-published -type f -name "slide-*.png" | wc -l)
-
-          echo "Published PNG count: $IMAGE_COUNT"
-
-          if [ "$IMAGE_COUNT" -lt 3 ]; then
-            echo "ERROR: Expected at least 3 published PNG files."
-            exit 1
-          fi
-
-          echo "Published carousel files:"
-          find social-published -type f | sort
-
-      # ===================================================
-      # PUSH IMAGES BEFORE META FETCHES THEM
-      # ===================================================
+          COUNT=$(find social-rendered -maxdepth 1 -type f -name "slide-*.png" | wc -l)
+          echo "Current rendered PNG count: $COUNT"
+          test "$COUNT" -eq 3
 
       - name: Commit prepared carousel
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' }}
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"
           git config user.email "actions@github.com"
-
           git add social-published/
 
           if git diff --cached --quiet; then
             echo "No new carousel files to commit."
           else
             git commit -m "social: prepare carousel for publishing"
-
-            echo "Fetching latest main..."
             git fetch origin main
-
-            echo "Rebasing carousel commit onto latest main..."
             git rebase origin/main
-
-            echo "Pushing carousel files..."
             git push origin HEAD:main
           fi
 
-      # ===================================================
-      # META PUBLISHING
-      #
-      # Scheduled runs:
-      # publish automatically.
-      #
-      # Manual runs:
-      # publish only if Publish to Meta = true.
-      # ===================================================
-
-      - name: Publish carousel to Meta
-        if: ${{ steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
+      # Scheduled runs publish automatically. Manual runs publish only when the
+      # explicit publish_to_meta input is enabled.
+      - name: Publish carousel to Instagram and Facebook
+        if: ${{ steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         env:
           PYTHONPATH: .
-          META_IG_ACCESS_TOKEN: ${{ secrets.META_IG_ACCESS_TOKEN }}
+          # GamerQuest uses the Facebook/Page token flow for the connected
+          # Instagram professional account, so Instagram is routed through the
+          # Facebook Graph API by publish_run_facebook_login.
+          META_IG_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
           META_FB_PAGE_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           META_GRAPH_API_VERSION: v26.0
-        run: |
-          python -m social.publish_run
-
-      # ===================================================
-      # SAVE META PUBLISH HISTORY
-      # ===================================================
+        run: python -m social.publish_run_facebook_login
 
       - name: Commit Meta publish history
-        if: ${{ always() && steps.schedule_guard.outputs.proceed == 'true' && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
+        if: ${{ always() && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"
@@ -372,31 +163,16 @@ jobs:
 
           if [ -f social/publish_history.json ]; then
             git add social/publish_history.json
-
-            if git diff --cached --quiet; then
-              echo "No publish history changes."
-            else
+            if ! git diff --cached --quiet; then
               git commit -m "social: update Meta publish history"
-
-              echo "Fetching latest main..."
               git fetch origin main
-
-              echo "Rebasing publish-history commit onto latest main..."
               git rebase origin/main
-
-              echo "Pushing publish history..."
               git push origin HEAD:main
             fi
-          else
-            echo "No publish history file found."
           fi
 
-      # ===================================================
-      # ARTIFACTS
-      # ===================================================
-
       - name: Upload social output
-        if: ${{ always() && steps.schedule_guard.outputs.proceed == 'true' }}
+        if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
           name: gamerquest-social-output
@@ -404,8 +180,6 @@ jobs:
             social-output.json
             social-publish-ready.json
             social-rendered/
-            social-generated/
             social-published/
             social/publish_history.json
-            social/openai_image_usage.json
           if-no-files-found: warn

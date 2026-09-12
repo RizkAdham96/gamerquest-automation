@@ -97,9 +97,10 @@ jobs:
           echo "No fact-checked carousel was approved."
           echo "Publishing is skipped safely."
 
-      # Free deterministic rendering is the production path.
-      # It must use the exact selected article image; if that image is missing,
-      # render_fallback refuses to create/publish a gradient-only carousel.
+      # Production rendering is free and deterministic. render_fallback must
+      # resolve THREE distinct relevant visuals for the exact selected source.
+      # It rejects repeated images, gradient-only output, and sources that do
+      # not provide enough suitable imagery, stopping before Meta publishing.
       - name: Render carousel with free GamerQuest renderer
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:

@@ -51,6 +51,14 @@ class TestFallbackSourceImage(unittest.TestCase):
         )
         self.assertEqual(len(set(images)), 3)
 
+    def test_upgrades_nintendolife_thumbnail_to_large_variant(self):
+        self.assertEqual(
+            render_fallback._upgrade_image_url(
+                "https://images.nintendolife.com/a1222a9011485/150x90.jpg"
+            ),
+            "https://images.nintendolife.com/a1222a9011485/large.jpg",
+        )
+
     def test_refuses_render_when_three_unique_relevant_images_cannot_be_found(self):
         articles = [
             {

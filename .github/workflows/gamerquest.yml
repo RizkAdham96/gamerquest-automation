@@ -40,6 +40,8 @@ jobs:
           python -m pytest \
             test_news_image_generator.py \
             test_news_quality_guards.py \
+            test_platform_classifier.py \
+            test_platform_feed.py \
             -v
 
       - name: Run GamerQuest automation
@@ -51,6 +53,10 @@ jobs:
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
         run: |
           python automation.py
+
+      - name: Classify Nintendo PlayStation and Xbox coverage
+        run: |
+          python enrich_platforms.py
 
       - name: Save drafts, rejections, state, feed and images
         if: always()

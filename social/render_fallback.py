@@ -78,24 +78,19 @@ def load_ready_carousel(output_file=OUTPUT_FILE):
         raise RuntimeError("social-output.json does not exist.")
 
     payload = json.loads(output_file.read_text(encoding="utf-8"))
-
     if not isinstance(payload, dict):
         raise RuntimeError("social-output.json must contain a JSON object.")
-
     if payload.get("status") != "ready":
         raise RuntimeError("Social content is not ready for rendering.")
-
     if "fact_checked" in payload and payload.get("fact_checked") is not True:
         raise RuntimeError("Refusing fallback render: carousel was not fact-checked.")
 
     carousel = payload.get("carousel")
     if not isinstance(carousel, dict):
         raise RuntimeError("Missing carousel payload.")
-
     slides = carousel.get("slides")
     if not isinstance(slides, list) or len(slides) != 3:
         raise RuntimeError("Fallback renderer requires exactly three slides.")
-
     return clean_carousel_copy(carousel)
 
 
@@ -131,16 +126,8 @@ def _terms(item):
         token
         for token in re.findall(r"[a-z0-9]{3,}", text)
         if token not in {
-            "the",
-            "and",
-            "sur",
-            "avec",
-            "pour",
-            "date",
-            "sortie",
-            "remake",
-            "game",
-            "news",
+            "the", "and", "sur", "avec", "pour", "date", "sortie",
+            "remake", "game", "news",
         }
     }
 
@@ -150,18 +137,32 @@ def _canonical_url(url):
     return f"{parsed.scheme}://{parsed.netloc}{parsed.path}".rstrip("/").lower()
 
 
+def _visual_key(url):
+    """Collapse CDN size variants of the same underlying visual."""
+    parsed = urlparse(str(url or "").strip())
+    path = parsed.path.lower().rstrip("/")
+    parts = path.split("/")
+    if parts:
+        basename = parts[-1]
+        if re.fullmatch(r"(?:\d{2,4}x\d{2,4}|large|medium|small|original)\.(?:jpe?g|png|webp|avif)", basename):
+            path = "/".join(parts[:-1])
+    return f"{parsed.netloc.lower()}{path}"
+
+
+def _resolution_area(url):
+    match = re.search(r"/(\d{2,4})x(\d{2,4})\.(?:jpe?g|png|webp|avif)(?:$|\?)", str(url).lower())
+    if not match:
+        return 0
+    width, height = int(match.group(1)), int(match.group(2))
+    return width * height
+
+
 def _looks_like_content_image(url, alt, keywords):
     text = f"{url} {alt}".lower()
     if any(hint in text for hint in _BLOCKED_IMAGE_HINTS):
         return False
-
     path = urlparse(url).path.lower()
-    if not path.endswith((".jpg", ".jpeg", ".png", ".webp", ".avif")):
-        return False
-
-    # Source-article images with matching game/topic terms rank highest, but
-    # generic editorial image URLs are still allowed after junk assets are removed.
-    return True
+    return path.endswith((".jpg", ".jpeg", ".png", ".webp", ".avif"))
 
 
 def _score_image(url, alt, keywords):
@@ -172,6 +173,15 @@ def _score_image(url, alt, keywords):
         score += 3
     if any(word in haystack for word in ("gameplay", "trailer", "edition", "console", "switch", "zelda")):
         score += 4
+
+    area = _resolution_area(url)
+    if area:
+        # Strongly prefer full-size/srcset variants over tiny thumbnails.
+        score += min(area / 50000, 30)
+        if area < 300000:
+            score -= 20
+    elif any(size_word in url.lower() for size_word in ("/large.", "/original.")):
+        score += 20
     return score
 
 
@@ -183,43 +193,41 @@ def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
     if content_items is None:
         content_items = get_all_content()
 
-    selected_item = None
-    for item in content_items:
-        if isinstance(item, dict) and str(item.get("source_id", "")).strip() == source_id:
-            selected_item = item
-            break
-
+    selected_item = next(
+        (
+            item for item in content_items
+            if isinstance(item, dict)
+            and str(item.get("source_id", "")).strip() == source_id
+        ),
+        None,
+    )
     if selected_item is None:
         raise RuntimeError("Selected social source was not found in the content feed.")
 
     keywords = _terms(selected_item)
     candidates = []
-    excluded_canonical = set()
+    excluded_visuals = set()
 
     featured = selected_item.get("featured_image")
     if isinstance(featured, dict):
         featured_url = str(featured.get("url", "")).strip()
         source_image_url = str(featured.get("source_image_url", "")).strip()
         if featured_url:
-            candidates.append((featured_url, "featured", 1000))
-        # The GamerQuest featured image is derived from this source image, so
-        # never count both as two distinct visuals.
+            candidates.append((featured_url, "featured", 1000.0))
         if source_image_url:
-            excluded_canonical.add(_canonical_url(source_image_url))
+            excluded_visuals.add(_visual_key(source_image_url))
     elif isinstance(featured, str) and featured.strip():
-        candidates.append((featured.strip(), "featured", 1000))
+        candidates.append((featured.strip(), "featured", 1000.0))
 
     if not candidates:
         for key in ("image_url", "thumbnail", "cover_image"):
             value = str(selected_item.get(key, "")).strip()
             if value:
-                candidates.append((value, key, 1000))
+                candidates.append((value, key, 1000.0))
                 break
 
     source = selected_item.get("source")
-    source_url = ""
-    if isinstance(source, dict):
-        source_url = str(source.get("url", "")).strip()
+    source_url = str(source.get("url", "")).strip() if isinstance(source, dict) else ""
 
     if source_url:
         fetcher = page_fetcher or _default_page_fetcher
@@ -228,8 +236,7 @@ def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
             parser = _ImageCollector(source_url)
             parser.feed(str(html or ""))
             for url, alt in parser.images:
-                canonical = _canonical_url(url)
-                if canonical in excluded_canonical:
+                if _visual_key(url) in excluded_visuals:
                     continue
                 if not _looks_like_content_image(url, alt, keywords):
                     continue
@@ -237,19 +244,19 @@ def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
         except Exception as exc:
             print(f"WARNING: could not inspect source article images: {exc}")
 
-    # Highest relevance first, preserving the GamerQuest featured image as slide 1.
-    candidates.sort(key=lambda item: item[2], reverse=True)
-
-    unique = []
-    seen = set()
-    for url, _label, _score in candidates:
-        canonical = _canonical_url(url)
-        if not canonical or canonical in seen or canonical in excluded_canonical:
+    # Keep only the best/highest-resolution variant for each underlying visual.
+    best_by_visual = {}
+    for candidate in candidates:
+        url, _label, score = candidate
+        key = _visual_key(url)
+        if not key or key in excluded_visuals:
             continue
-        seen.add(canonical)
-        unique.append(url)
-        if len(unique) == 3:
-            break
+        current = best_by_visual.get(key)
+        if current is None or score > current[2]:
+            best_by_visual[key] = candidate
+
+    ranked = sorted(best_by_visual.values(), key=lambda item: item[2], reverse=True)
+    unique = [url for url, _label, _score in ranked[:3]]
 
     if len(unique) != 3:
         raise RuntimeError(
@@ -271,10 +278,8 @@ def main():
     source_id = load_source_id()
     featured_images = resolve_featured_images(source_id)
 
-    # Never mix stale images from a previous failed render with this run.
     if OUTPUT_DIR.exists():
         shutil.rmtree(OUTPUT_DIR)
-
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     print("AI image generation unavailable; using free deterministic GamerQuest renderer.")
@@ -287,14 +292,12 @@ def main():
         OUTPUT_DIR,
         featured_images=featured_images,
     )
-
     rendered = [Path(path) for path in rendered]
 
     if len(rendered) != 3:
         raise RuntimeError(
             f"Fallback renderer produced {len(rendered)} slides; exactly 3 are required."
         )
-
     for path in rendered:
         if not path.exists() or path.suffix.lower() != ".png":
             raise RuntimeError(f"Invalid fallback render output: {path}")

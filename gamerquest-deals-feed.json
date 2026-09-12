@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12T15:32:16.941456+00:00",
-  "count": 5,
+  "generated_at": "2026-09-12T18:23:40.062596+00:00",
+  "count": 4,
   "articles": [
     {
       "source_id": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032",
@@ -44,28 +44,6 @@
         "alt": "DEATH STRANDING DIRECTOR'S CUT -75% sur Steam - GamerQuest",
         "caption": "DEATH STRANDING DIRECTOR'S CUT : offre -75% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre DEATH STRANDING DIRECTOR'S CUT sur Steam."
-      }
-    },
-    {
-      "source_id": "286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee",
-      "title": "Call of Duty®: Black Ops III à -75% sur Steam",
-      "excerpt": "Call of Duty®: Black Ops III bénéficie actuellement d'une réduction de 75% sur Steam, passant de 59,99 € à 14,99 €.",
-      "content": "<p><strong>Call of Duty®: Black Ops III</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/311210/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/311210/",
-      "deal": {
-        "game": "Call of Duty®: Black Ops III",
-        "store": "Steam",
-        "original_price": 59.99,
-        "current_price": 14.99,
-        "discount_percent": 75,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee.jpg",
-        "filename": "286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee.jpg",
-        "alt": "Call of Duty®: Black Ops III -75% sur Steam - GamerQuest",
-        "caption": "Call of Duty®: Black Ops III : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Call of Duty®: Black Ops III sur Steam."
       }
     },
     {

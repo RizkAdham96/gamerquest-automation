@@ -94,6 +94,7 @@ jobs:
           python tests/social/test_meta_publisher.py
           python tests/social/test_prepare_publish.py
           python tests/social/test_publish_run.py
+          python tests/social/test_render_fallback_source_image.py
 
       - name: Generate social carousel content
         if: ${{ steps.published_today.outputs.already != 'true' }}

@@ -1,0 +1,184 @@
+name: Replace Zelda Instagram Carousel
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/social-replace-zelda.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gamerquest-social-publishing
+  cancel-in-progress: false
+
+jobs:
+  replace-zelda-carousel:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install Pillow requests
+
+      - name: Build exact Zelda replacement payload
+        shell: bash
+        run: |
+          cat > social-output.json <<'JSON'
+          {
+            "status": "ready",
+            "fact_checked": true,
+            "source_id": "64021e5d7e5f64e9a3efefe6a3c04d712e5019be42041456988b237e2050f43b",
+            "caption": "Le remake d’Ocarina of Time arrive sur Nintendo Switch 2 le 5 novembre 2026. Le Direct du 40e anniversaire de Zelda a aussi présenté un nouveau gameplay et plusieurs éditions spéciales.",
+            "hashtags": ["Zelda", "OcarinaOfTime", "NintendoSwitch2", "GamerQuestFR"],
+            "carousel": {
+              "category": "NEWS",
+              "slides": [
+                {
+                  "label": "NEWS",
+                  "title": "Ocarina of Time revient sur Switch 2 !",
+                  "body": "Le Direct du 40e anniversaire de Zelda a confirmé la sortie du remake sur Nintendo Switch 2."
+                },
+                {
+                  "title": "Sortie officielle le 5 novembre 2026",
+                  "body": "Le remake d’Ocarina of Time sera disponible sur Nintendo Switch 2 le 5 novembre 2026, avec un nouveau gameplay."
+                },
+                {
+                  "title": "Éditions spéciales à découvrir",
+                  "body": "Plusieurs éditions spéciales seront proposées, comme annoncé lors du Direct."
+                }
+              ]
+            }
+          }
+          JSON
+
+      - name: Render corrected carousel with article image
+        env:
+          PYTHONPATH: .
+        run: python -m social.render_fallback
+
+      - name: Verify corrected slides
+        shell: bash
+        run: |
+          COUNT=$(find social-rendered -maxdepth 1 -type f -name 'slide-*.png' | wc -l)
+          echo "Corrected slide count: $COUNT"
+          test "$COUNT" -eq 3
+          ls -lh social-rendered/slide-*.png
+
+      - name: Prepare corrected carousel
+        env:
+          PYTHONPATH: .
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_BRANCH: main
+        run: python -m social.prepare_publish_run
+
+      - name: Commit corrected public images
+        shell: bash
+        run: |
+          git config user.name "GamerQuest Social Bot"
+          git config user.email "actions@github.com"
+          git add social-published/64021e5d7e5f64e9a3efefe6a3c04d712e5019be42041456988b237e2050f43b/
+          if ! git diff --cached --quiet; then
+            git commit -m "social: replace Zelda carousel images"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+
+      - name: Replace Instagram post
+        env:
+          PYTHONPATH: .
+          META_IG_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_GRAPH_API_VERSION: v26.0
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.parse
+          import urllib.request
+          from pathlib import Path
+
+          from social import meta_publisher
+
+          OLD_MEDIA_ID = "17933229018392081"
+          SOURCE_ID = "64021e5d7e5f64e9a3efefe6a3c04d712e5019be42041456988b237e2050f43b"
+          token = os.environ["META_IG_ACCESS_TOKEN"].strip()
+          ig_user_id = os.environ["META_IG_USER_ID"].strip()
+          version = os.environ.get("META_GRAPH_API_VERSION", "v26.0").strip()
+
+          # GamerQuest uses the Facebook/Page token flow.
+          meta_publisher.INSTAGRAM_GRAPH_BASE_URL = meta_publisher.FACEBOOK_GRAPH_BASE_URL
+
+          # Best-effort old-post removal. Some Instagram Graph configurations do
+          # not expose deletion for published media; replacement publication must
+          # still continue if Meta rejects DELETE.
+          delete_url = f"https://graph.facebook.com/{version}/{OLD_MEDIA_ID}"
+          delete_data = urllib.parse.urlencode({"access_token": token}).encode("utf-8")
+          delete_request = urllib.request.Request(delete_url, data=delete_data, method="DELETE")
+          try:
+              with urllib.request.urlopen(delete_request, timeout=30) as response:
+                  body = response.read().decode("utf-8", errors="replace")
+              print(f"Old Instagram media delete response: {body}")
+          except Exception as exc:
+              print(f"WARNING: Meta did not allow API deletion of old Instagram media: {exc}")
+
+          output = json.loads(Path("social-output.json").read_text(encoding="utf-8"))
+          ready = json.loads(Path("social-publish-ready.json").read_text(encoding="utf-8"))
+          image_urls = ready.get("image_urls", [])
+          if len(image_urls) != 3:
+              raise RuntimeError("Expected exactly 3 public image URLs for replacement.")
+
+          caption = meta_publisher.build_caption(
+              output.get("caption", ""),
+              output.get("hashtags", []),
+          )
+
+          result = meta_publisher.publish_instagram_carousel(
+              image_urls=image_urls,
+              caption=caption,
+              ig_user_id=ig_user_id,
+              access_token=token,
+          )
+          new_post_id = str(result.get("post_id", "")).strip()
+          if not new_post_id:
+              raise RuntimeError("Instagram replacement returned no media ID.")
+
+          print(f"Corrected Instagram carousel published: {new_post_id}")
+
+          history_path = Path("social/publish_history.json")
+          history = meta_publisher.load_publish_history(history_path)
+          history = meta_publisher.mark_platform_published(
+              history,
+              SOURCE_ID,
+              "instagram",
+              new_post_id,
+          )
+          meta_publisher.save_publish_history(history, history_path)
+          PY
+
+      - name: Commit replacement publish history
+        shell: bash
+        run: |
+          git config user.name "GamerQuest Social Bot"
+          git config user.email "actions@github.com"
+          git add social/publish_history.json
+          if ! git diff --cached --quiet; then
+            git commit -m "social: record corrected Zelda Instagram post"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi

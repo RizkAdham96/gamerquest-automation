@@ -29,6 +29,25 @@ _BLOCKED_IMAGE_HINTS = (
 )
 
 
+def _upgrade_image_url(url):
+    """Upgrade known CDN thumbnails to a production-size image URL."""
+    text = str(url or "").strip()
+    parsed = urlparse(text)
+    host = parsed.netloc.lower()
+    path = parsed.path
+
+    if host == "images.nintendolife.com":
+        path = re.sub(
+            r"/\d{2,4}x\d{2,4}\.(?:jpe?g|png|webp|avif)$",
+            "/large.jpg",
+            path,
+            flags=re.IGNORECASE,
+        )
+        return parsed._replace(path=path, query="", fragment="").geturl()
+
+    return text
+
+
 class _ImageCollector(HTMLParser):
     def __init__(self, base_url):
         super().__init__()
@@ -68,7 +87,7 @@ class _ImageCollector(HTMLParser):
         value = str(value or "").strip()
         if not value or value.startswith(("data:", "blob:")):
             return
-        absolute = urljoin(self.base_url, value)
+        absolute = _upgrade_image_url(urljoin(self.base_url, value))
         if absolute.startswith(("http://", "https://")):
             self.images.append((absolute, str(alt or "")))
 
@@ -138,19 +157,24 @@ def _canonical_url(url):
 
 
 def _visual_key(url):
-    """Collapse CDN size variants of the same underlying visual."""
     parsed = urlparse(str(url or "").strip())
     path = parsed.path.lower().rstrip("/")
     parts = path.split("/")
     if parts:
         basename = parts[-1]
-        if re.fullmatch(r"(?:\d{2,4}x\d{2,4}|large|medium|small|original)\.(?:jpe?g|png|webp|avif)", basename):
+        if re.fullmatch(
+            r"(?:\d{2,4}x\d{2,4}|large|medium|small|original)\.(?:jpe?g|png|webp|avif)",
+            basename,
+        ):
             path = "/".join(parts[:-1])
     return f"{parsed.netloc.lower()}{path}"
 
 
 def _resolution_area(url):
-    match = re.search(r"/(\d{2,4})x(\d{2,4})\.(?:jpe?g|png|webp|avif)(?:$|\?)", str(url).lower())
+    match = re.search(
+        r"/(\d{2,4})x(\d{2,4})\.(?:jpe?g|png|webp|avif)(?:$|\?)",
+        str(url).lower(),
+    )
     if not match:
         return 0
     width, height = int(match.group(1)), int(match.group(2))
@@ -171,12 +195,14 @@ def _score_image(url, alt, keywords):
     score = overlap * 10
     if alt.strip():
         score += 3
-    if any(word in haystack for word in ("gameplay", "trailer", "edition", "console", "switch", "zelda")):
+    if any(
+        word in haystack
+        for word in ("gameplay", "trailer", "edition", "console", "switch", "zelda")
+    ):
         score += 4
 
     area = _resolution_area(url)
     if area:
-        # Strongly prefer full-size/srcset variants over tiny thumbnails.
         score += min(area / 50000, 30)
         if area < 300000:
             score -= 20
@@ -195,7 +221,8 @@ def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
 
     selected_item = next(
         (
-            item for item in content_items
+            item
+            for item in content_items
             if isinstance(item, dict)
             and str(item.get("source_id", "")).strip() == source_id
         ),
@@ -215,7 +242,7 @@ def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
         if featured_url:
             candidates.append((featured_url, "featured", 1000.0))
         if source_image_url:
-            excluded_visuals.add(_visual_key(source_image_url))
+            excluded_visuals.add(_visual_key(_upgrade_image_url(source_image_url)))
     elif isinstance(featured, str) and featured.strip():
         candidates.append((featured.strip(), "featured", 1000.0))
 
@@ -223,7 +250,7 @@ def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
         for key in ("image_url", "thumbnail", "cover_image"):
             value = str(selected_item.get(key, "")).strip()
             if value:
-                candidates.append((value, key, 1000.0))
+                candidates.append((_upgrade_image_url(value), key, 1000.0))
                 break
 
     source = selected_item.get("source")
@@ -244,7 +271,6 @@ def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
         except Exception as exc:
             print(f"WARNING: could not inspect source article images: {exc}")
 
-    # Keep only the best/highest-resolution variant for each underlying visual.
     best_by_visual = {}
     for candidate in candidates:
         url, _label, score = candidate

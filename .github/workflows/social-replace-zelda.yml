@@ -1,3 +1,4 @@
+# Trigger replacement run 2026-09-12
 name: Replace Zelda Instagram Carousel
 
 on:
@@ -120,12 +121,8 @@ jobs:
           ig_user_id = os.environ["META_IG_USER_ID"].strip()
           version = os.environ.get("META_GRAPH_API_VERSION", "v26.0").strip()
 
-          # GamerQuest uses the Facebook/Page token flow.
           meta_publisher.INSTAGRAM_GRAPH_BASE_URL = meta_publisher.FACEBOOK_GRAPH_BASE_URL
 
-          # Best-effort old-post removal. Some Instagram Graph configurations do
-          # not expose deletion for published media; replacement publication must
-          # still continue if Meta rejects DELETE.
           delete_url = f"https://graph.facebook.com/{version}/{OLD_MEDIA_ID}"
           delete_data = urllib.parse.urlencode({"access_token": token}).encode("utf-8")
           delete_request = urllib.request.Request(delete_url, data=delete_data, method="DELETE")

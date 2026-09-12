@@ -1,0 +1,22 @@
+name: Social Image Regression Check
+
+on:
+  push:
+    paths:
+      - ".github/workflows/social-image-regression.yml"
+      - "tests/social/test_render_fallback_source_image.py"
+      - "social/render_fallback.py"
+      - "social/renderer.py"
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install Pillow requests
+      - env:
+          PYTHONPATH: .
+        run: python tests/social/test_render_fallback_source_image.py

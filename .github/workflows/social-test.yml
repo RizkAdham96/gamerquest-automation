@@ -8,9 +8,6 @@ on:
         required: true
         default: false
         type: boolean
-  push:
-    paths:
-      - ".github/workflows/social-test.yml"
   schedule:
     - cron: "30 18 * * 2,5"
       timezone: "Europe/Paris"
@@ -115,7 +112,7 @@ jobs:
             git push origin HEAD:main
           fi
       - name: Publish carousel to Instagram and Facebook
-        if: ${{ steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || github.event_name == 'push' || inputs.publish_to_meta == true) }}
+        if: ${{ steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         env:
           PYTHONPATH: .
           META_IG_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
@@ -125,7 +122,7 @@ jobs:
           META_GRAPH_API_VERSION: v26.0
         run: python -m social.publish_run_facebook_login
       - name: Commit Meta publish history
-        if: ${{ always() && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || github.event_name == 'push' || inputs.publish_to_meta == true) }}
+        if: ${{ always() && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"

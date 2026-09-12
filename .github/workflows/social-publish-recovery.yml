@@ -1,4 +1,4 @@
-# Immediate recovery trigger requested 2026-09-12
+# Verification run for article-image fallback 2026-09-12
 name: GamerQuest Social Publish Recovery
 
 on:
@@ -32,62 +32,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Check whether Instagram already published today
-        id: published_today
-        shell: bash
-        run: |
-          python - <<'PY'
-          import json
-          import os
-          from datetime import datetime
-          from pathlib import Path
-          from zoneinfo import ZoneInfo
-
-          history_file = Path("social/publish_history.json")
-          today = datetime.now(ZoneInfo("Europe/Paris")).date()
-          already = False
-
-          if history_file.exists():
-              try:
-                  history = json.loads(history_file.read_text(encoding="utf-8"))
-              except Exception as exc:
-                  print(f"Could not read publish history: {exc}")
-                  history = []
-
-              if isinstance(history, list):
-                  for entry in history:
-                      if not isinstance(entry, dict):
-                          continue
-                      if not entry.get("instagram_published"):
-                          continue
-                      stamp = str(entry.get("published_at_utc", "")).strip()
-                      if not stamp:
-                          continue
-                      try:
-                          dt = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
-                          if dt.astimezone(ZoneInfo("Europe/Paris")).date() == today:
-                              already = True
-                              break
-                      except ValueError:
-                          continue
-
-          print(f"Instagram already published today: {already}")
-          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
-              f.write(f"already={'true' if already else 'false'}\n")
-          PY
-
-      - name: Stop because today's carousel already exists
-        if: ${{ steps.published_today.outputs.already == 'true' }}
-        run: echo "Instagram already has a successful GamerQuest carousel today; recovery is not needed."
-
       - name: Install social dependencies
-        if: ${{ steps.published_today.outputs.already != 'true' }}
         run: |
           python -m pip install --upgrade pip
           python -m pip install Pillow requests
 
       - name: Run critical social tests
-        if: ${{ steps.published_today.outputs.already != 'true' }}
         env:
           PYTHONPATH: .
         run: |
@@ -97,7 +47,6 @@ jobs:
           python tests/social/test_render_fallback_source_image.py
 
       - name: Generate social carousel content
-        if: ${{ steps.published_today.outputs.already != 'true' }}
         env:
           PYTHONPATH: .
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -105,7 +54,6 @@ jobs:
 
       - name: Require a publishable carousel
         id: social_status
-        if: ${{ steps.published_today.outputs.already != 'true' }}
         shell: bash
         run: |
           python - <<'PY'
@@ -115,93 +63,27 @@ jobs:
 
           path = Path("social-output.json")
           ready = False
-          reason = "missing_social_output"
           if path.exists():
-              try:
-                  payload = json.loads(path.read_text(encoding="utf-8"))
-                  ready = payload.get("status") == "ready"
-                  reason = payload.get("reason", payload.get("status", "unknown"))
-              except Exception as exc:
-                  reason = f"invalid_social_output:{exc}"
-
-          print(f"Carousel ready: {ready}; reason/status: {reason}")
+              payload = json.loads(path.read_text(encoding="utf-8"))
+              ready = payload.get("status") == "ready"
+          print(f"Carousel ready: {ready}")
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
               f.write(f"ready={'true' if ready else 'false'}\n")
           PY
 
-      - name: Render carousel images with safe free fallback
-        if: ${{ steps.published_today.outputs.already != 'true' && steps.social_status.outputs.ready == 'true' }}
+      - name: Render carousel with exact article image
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python -m social.render_fallback
+
+      - name: Verify three rendered images
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
         shell: bash
         run: |
-          if python -m social.render; then
-            echo "Primary AI render succeeded."
-          else
-            echo "Primary AI render failed. Switching to free deterministic GamerQuest renderer."
-            python -m social.render_fallback
-          fi
+          test "$(find social-rendered -type f -name 'slide-*.png' | wc -l)" -eq 3
+          ls -lh social-rendered/slide-*.png
 
-      - name: Prepare public carousel images
-        if: ${{ steps.published_today.outputs.already != 'true' && steps.social_status.outputs.ready == 'true' }}
-        env:
-          PYTHONPATH: .
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_BRANCH: main
-        run: python -m social.prepare_publish_run
-
-      - name: Verify carousel images
-        if: ${{ steps.published_today.outputs.already != 'true' && steps.social_status.outputs.ready == 'true' }}
-        shell: bash
-        run: |
-          IMAGE_COUNT=$(find social-published -type f -name "slide-*.png" | wc -l)
-          echo "Published PNG count: $IMAGE_COUNT"
-          test "$IMAGE_COUNT" -ge 3
-
-      - name: Commit prepared carousel
-        if: ${{ steps.published_today.outputs.already != 'true' && steps.social_status.outputs.ready == 'true' }}
-        shell: bash
-        run: |
-          git config user.name "GamerQuest Social Bot"
-          git config user.email "actions@github.com"
-          git add social-published/
-          if ! git diff --cached --quiet; then
-            git commit -m "social: prepare recovery carousel"
-            git fetch origin main
-            git rebase origin/main
-            git push origin HEAD:main
-          fi
-
-      - name: Publish carousel to Instagram and Facebook
-        if: ${{ steps.published_today.outputs.already != 'true' && steps.social_status.outputs.ready == 'true' }}
-        env:
-          PYTHONPATH: .
-          META_IG_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
-          META_FB_PAGE_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
-          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
-          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
-          META_GRAPH_API_VERSION: v26.0
-        run: python -m social.publish_run_facebook_login
-
-      - name: Commit Meta publish history
-        if: ${{ always() && steps.published_today.outputs.already != 'true' && steps.social_status.outputs.ready == 'true' }}
-        shell: bash
-        run: |
-          git config user.name "GamerQuest Social Bot"
-          git config user.email "actions@github.com"
-          if [ -f social/publish_history.json ]; then
-            git add social/publish_history.json
-            if ! git diff --cached --quiet; then
-              git commit -m "social: update Meta publish history (recovery)"
-              git fetch origin main
-              git rebase origin/main
-              git push origin HEAD:main
-            fi
-          fi
-
-      - name: Fail loudly if no carousel was generated
-        if: ${{ steps.published_today.outputs.already != 'true' && steps.social_status.outputs.ready != 'true' }}
-        run: |
-          echo "ERROR: Recovery ran, but social generation did not produce a publishable carousel."
-          exit 1
+      - name: Verification only - do not publish
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
+        run: echo "Render verified. Meta publishing intentionally disabled for this test run."

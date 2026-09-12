@@ -50,6 +50,7 @@ jobs:
           python tests/social/test_meta_publisher.py
           python tests/social/test_prepare_publish.py
           python tests/social/test_publish_run.py
+          python tests/social/test_render_fallback_source_image.py
 
       - name: Generate fact-checked social carousel
         env:
@@ -97,8 +98,8 @@ jobs:
           echo "Publishing is skipped safely."
 
       # Free deterministic rendering is the production path.
-      # This removes the paid/OpenAI image dependency and prevents moderation
-      # failures from stopping a valid carousel.
+      # It must use the exact selected article image; if that image is missing,
+      # render_fallback refuses to create/publish a gradient-only carousel.
       - name: Render carousel with free GamerQuest renderer
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:

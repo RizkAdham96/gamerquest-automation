@@ -1,0 +1,24 @@
+name: Social Hardening Regression
+
+on:
+  push:
+    paths:
+      - "tests/social/test_publish_run.py"
+      - "social/publish_run.py"
+      - "social/meta_publisher.py"
+      - "social/prepare_publish.py"
+      - "social/prepare_publish_run.py"
+      - ".github/workflows/social-hardening-regression.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install requests Pillow
+      - env:
+          PYTHONPATH: .
+        run: python tests/social/test_publish_run.py

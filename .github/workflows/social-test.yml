@@ -8,8 +8,9 @@ on:
         required: true
         default: false
         type: boolean
-
-  # One timezone-aware schedule: no duplicate DST cron and no runtime-hour guard.
+  push:
+    paths:
+      - ".github/workflows/social-test.yml"
   schedule:
     - cron: "30 18 * * 2,5"
       timezone: "Europe/Paris"
@@ -24,23 +25,19 @@ concurrency:
 jobs:
   social-automation:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Install social dependencies
         run: |
           python -m pip install --upgrade pip
           python -m pip install Pillow requests
-
       - name: Run critical social tests
         env:
           PYTHONPATH: .
@@ -51,62 +48,43 @@ jobs:
           python tests/social/test_prepare_publish.py
           python tests/social/test_publish_run.py
           python tests/social/test_render_fallback_source_image.py
-
       - name: Generate fact-checked social carousel
         env:
           PYTHONPATH: .
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python -m social.run
-
       - name: Check social generation status
         id: social_status
         shell: bash
         run: |
           python - <<'PY'
-          import json
-          import os
+          import json, os
           from pathlib import Path
-
           path = Path("social-output.json")
           ready = False
           status = "missing"
-          reason = "missing_social_output"
-
           if path.exists():
               try:
                   payload = json.loads(path.read_text(encoding="utf-8"))
                   status = str(payload.get("status", "")).strip() or "unknown"
                   ready = status == "ready"
-                  reason = str(payload.get("reason", status)).strip()
-              except Exception as exc:
+              except Exception:
                   status = "invalid"
-                  reason = f"invalid_social_output:{exc}"
-
           print(f"Social generation status: {status}")
-          print(f"Ready: {ready}")
-          print(f"Reason/status: {reason}")
-
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
               f.write(f"ready={'true' if ready else 'false'}\n")
               f.write(f"status={status}\n")
           PY
-
       - name: No approved social post this run
         if: ${{ steps.social_status.outputs.ready != 'true' }}
         run: |
           echo "No fact-checked carousel was approved."
           echo "Publishing is skipped safely."
-
-      # Production rendering is free and deterministic. render_fallback must
-      # resolve THREE distinct relevant visuals for the exact selected source.
-      # It rejects repeated images, gradient-only output, and sources that do
-      # not provide enough suitable imagery, stopping before Meta publishing.
       - name: Render carousel with free GamerQuest renderer
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
         run: python -m social.render_fallback
-
       - name: Prepare carousel for public publishing
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:
@@ -114,7 +92,6 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_BRANCH: main
         run: python -m social.prepare_publish_run
-
       - name: Verify exactly three current carousel images
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         shell: bash
@@ -122,7 +99,6 @@ jobs:
           COUNT=$(find social-rendered -maxdepth 1 -type f -name "slide-*.png" | wc -l)
           echo "Current rendered PNG count: $COUNT"
           test "$COUNT" -eq 3
-
       - name: Commit prepared carousel
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         shell: bash
@@ -130,7 +106,6 @@ jobs:
           git config user.name "GamerQuest Social Bot"
           git config user.email "actions@github.com"
           git add social-published/
-
           if git diff --cached --quiet; then
             echo "No new carousel files to commit."
           else
@@ -139,11 +114,8 @@ jobs:
             git rebase origin/main
             git push origin HEAD:main
           fi
-
-      # Scheduled runs publish automatically. Manual runs publish only when the
-      # explicit publish_to_meta input is enabled.
       - name: Publish carousel to Instagram and Facebook
-        if: ${{ steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
+        if: ${{ steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || github.event_name == 'push' || inputs.publish_to_meta == true) }}
         env:
           PYTHONPATH: .
           META_IG_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
@@ -152,14 +124,12 @@ jobs:
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           META_GRAPH_API_VERSION: v26.0
         run: python -m social.publish_run_facebook_login
-
       - name: Commit Meta publish history
-        if: ${{ always() && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
+        if: ${{ always() && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || github.event_name == 'push' || inputs.publish_to_meta == true) }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"
           git config user.email "actions@github.com"
-
           if [ -f social/publish_history.json ]; then
             git add social/publish_history.json
             if ! git diff --cached --quiet; then
@@ -169,7 +139,6 @@ jobs:
               git push origin HEAD:main
             fi
           fi
-
       - name: Upload social output
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
@@ -182,5 +151,3 @@ jobs:
             social-published/
             social/publish_history.json
           if-no-files-found: warn
-
-# Immediate publish approved by owner: 2026-09-12

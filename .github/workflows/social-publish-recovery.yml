@@ -1,14 +1,7 @@
-# Verification run for article-image fallback 2026-09-12
 name: GamerQuest Social Publish Recovery
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - ".github/workflows/social-publish-recovery.yml"
-  schedule:
-    - cron: "15 19 * * 2,5"
-      timezone: "Europe/Paris"
 
 permissions:
   contents: write
@@ -77,6 +70,14 @@ jobs:
           PYTHONPATH: .
         run: python -m social.render_fallback
 
+      - name: Prepare public carousel images
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
+        env:
+          PYTHONPATH: .
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_BRANCH: main
+        run: python -m social.prepare_publish_run
+
       - name: Verify three rendered images
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         shell: bash
@@ -84,6 +85,43 @@ jobs:
           test "$(find social-rendered -type f -name 'slide-*.png' | wc -l)" -eq 3
           ls -lh social-rendered/slide-*.png
 
-      - name: Verification only - do not publish
+      - name: Commit prepared carousel
         if: ${{ steps.social_status.outputs.ready == 'true' }}
-        run: echo "Render verified. Meta publishing intentionally disabled for this test run."
+        shell: bash
+        run: |
+          git config user.name "GamerQuest Social Bot"
+          git config user.email "actions@github.com"
+          git add social-published/
+          if ! git diff --cached --quiet; then
+            git commit -m "social: prepare recovery carousel"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+
+      - name: Publish carousel to Instagram and Facebook
+        if: ${{ steps.social_status.outputs.ready == 'true' }}
+        env:
+          PYTHONPATH: .
+          META_IG_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+          META_FB_PAGE_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_GRAPH_API_VERSION: v26.0
+        run: python -m social.publish_run_facebook_login
+
+      - name: Commit Meta publish history
+        if: ${{ always() && steps.social_status.outputs.ready == 'true' }}
+        shell: bash
+        run: |
+          git config user.name "GamerQuest Social Bot"
+          git config user.email "actions@github.com"
+          if [ -f social/publish_history.json ]; then
+            git add social/publish_history.json
+            if ! git diff --cached --quiet; then
+              git commit -m "social: update Meta publish history (recovery)"
+              git fetch origin main
+              git rebase origin/main
+              git push origin HEAD:main
+            fi
+          fi

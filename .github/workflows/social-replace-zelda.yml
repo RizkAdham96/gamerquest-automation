@@ -2,17 +2,20 @@ name: Replace Zelda Instagram Carousel
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/social-replace-zelda.yml"
 
 permissions:
   contents: read
 
 concurrency:
   group: gamerquest-social-publishing
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   replacement-closed:
     runs-on: ubuntu-latest
     steps:
-      - name: Replacement already executed
-        run: echo "The one-off Zelda replacement workflow is closed."
+      - name: Cancel duplicate replacement
+        run: echo "Replacement already completed; this run only cancels any duplicate in progress."

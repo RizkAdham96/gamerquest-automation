@@ -89,7 +89,6 @@ def pending_platforms(source_id, history, carousel_version=""):
             pending.append(platform)
             continue
         stored_version = _clean(item.get("carousel_version"))
-        # Legacy successful records stay protected from accidental duplication.
         if not stored_version:
             continue
         if carousel_version and stored_version != carousel_version:
@@ -101,10 +100,7 @@ def _mark_platform(history, source_id, platform, published, post_id="", error=""
     if not isinstance(history, dict):
         history = {}
     source_history = history.setdefault(source_id, {})
-    payload = {
-        "published": bool(published),
-        "post_id": _clean(post_id),
-    }
+    payload = {"published": bool(published), "post_id": _clean(post_id)}
     if carousel_version:
         payload["carousel_version"] = _clean(carousel_version)
     if error:
@@ -113,13 +109,22 @@ def _mark_platform(history, source_id, platform, published, post_id="", error=""
     return history
 
 
+def _backfill_legacy_versions(history, source_id, version):
+    changed = False
+    source_history = history.get(source_id, {}) if isinstance(history, dict) else {}
+    if not isinstance(source_history, dict):
+        return False
+    for platform in ("instagram", "facebook"):
+        item = source_history.get(platform)
+        if isinstance(item, dict) and item.get("published") is True and not _clean(item.get("carousel_version")):
+            item["carousel_version"] = version
+            changed = True
+    return changed
+
+
 def _url_is_public(url):
     try:
-        request = urllib.request.Request(
-            url,
-            method="HEAD",
-            headers={"User-Agent": "GamerQuest-Social-Publisher/1.0"},
-        )
+        request = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "GamerQuest-Social-Publisher/1.0"})
         with urllib.request.urlopen(request, timeout=20) as response:
             return 200 <= response.status < 400
     except Exception:
@@ -142,9 +147,8 @@ def wait_for_public_urls(image_urls, attempts=PUBLIC_URL_ATTEMPTS, wait_seconds=
 def _is_transient(error):
     text = str(error).lower()
     return any(token in text for token in (
-        "http status: 429", "http status: 500", "http status: 502",
-        "http status: 503", "http status: 504", "temporar", "timeout",
-        "timed out", "connection reset", "connection aborted",
+        "http status: 429", "http status: 500", "http status: 502", "http status: 503",
+        "http status: 504", "temporar", "timeout", "timed out", "connection reset", "connection aborted",
     ))
 
 
@@ -163,12 +167,7 @@ def _publish_with_retry(label, fn):
     raise last_error
 
 
-def run_publish(
-    output_file=DEFAULT_OUTPUT_FILE,
-    ready_file=DEFAULT_READY_FILE,
-    history_file=DEFAULT_HISTORY_FILE,
-    wait_for_urls=True,
-):
+def run_publish(output_file=DEFAULT_OUTPUT_FILE, ready_file=DEFAULT_READY_FILE, history_file=DEFAULT_HISTORY_FILE, wait_for_urls=True):
     print("\n======================================")
     print("GAMERQUEST META PUBLISHER")
     print("======================================")
@@ -183,6 +182,9 @@ def run_publish(
     print(f"Carousel version: {version}")
     print("Pending platforms: " + (", ".join(pending) if pending else "none"))
     if not pending:
+        if _backfill_legacy_versions(history, source_id, version):
+            save_publish_history(history, history_file)
+            print("Legacy publish history baselined to this carousel version.")
         print("This exact carousel version has already been published.")
         return {"status": "already_published", "source_id": source_id, "carousel_version": version}
     if wait_for_urls:

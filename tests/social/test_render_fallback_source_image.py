@@ -24,8 +24,14 @@ class TestFallbackSourceImage(unittest.TestCase):
           <meta property="og:image" content="https://source.example.com/zelda-cover.jpg">
         </head><body>
           <img src="https://source.example.com/site-logo.png" alt="Site logo">
-          <img src="https://source.example.com/zelda-gameplay.jpg" alt="Ocarina of Time Switch 2 gameplay">
-          <img src="https://source.example.com/zelda-special-edition.jpg" alt="Zelda Switch 2 special edition console">
+          <img
+            src="https://images.example.com/gameplay/150x90.jpg"
+            srcset="https://images.example.com/gameplay/640x360.jpg 640w, https://images.example.com/gameplay/1280x720.jpg 1280w"
+            alt="Ocarina of Time Switch 2 gameplay">
+          <img
+            src="https://images.example.com/special-edition/150x90.jpg"
+            srcset="https://images.example.com/special-edition/1280x720.jpg 1280w"
+            alt="Zelda Switch 2 special edition console">
         </body></html>
         """
 
@@ -39,8 +45,8 @@ class TestFallbackSourceImage(unittest.TestCase):
             images,
             [
                 "https://cdn.example.com/zelda-cover.jpg",
-                "https://source.example.com/zelda-gameplay.jpg",
-                "https://source.example.com/zelda-special-edition.jpg",
+                "https://images.example.com/gameplay/1280x720.jpg",
+                "https://images.example.com/special-edition/1280x720.jpg",
             ],
         )
         self.assertEqual(len(set(images)), 3)

@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-09-11T20:58:39.198923+00:00",
+  "generated_at": "2026-09-12T00:18:37.253335+00:00",
   "count": 4,
   "articles": [
-    {
-      "source_id": "1b6c87c571326c3f3323a373b85a7f3ba8dfc5d25ae456c2baefbe754fa76065",
-      "title": "DEATH STRANDING DIRECTOR'S CUT à -75% sur Steam",
-      "excerpt": "DEATH STRANDING DIRECTOR'S CUT bénéficie actuellement d'une réduction de 75% sur Steam, passant de 39,99 € à 9,99 €.",
-      "content": "<p><strong>DEATH STRANDING DIRECTOR'S CUT</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>9,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1850570/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/1850570/",
-      "deal": {
-        "game": "DEATH STRANDING DIRECTOR'S CUT",
-        "store": "Steam",
-        "original_price": 39.99,
-        "current_price": 9.99,
-        "discount_percent": 75,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/1b6c87c571326c3f3323a373b85a7f3ba8dfc5d25ae456c2baefbe754fa76065.jpg",
-        "filename": "1b6c87c571326c3f3323a373b85a7f3ba8dfc5d25ae456c2baefbe754fa76065.jpg",
-        "alt": "DEATH STRANDING DIRECTOR'S CUT -75% sur Steam - GamerQuest",
-        "caption": "DEATH STRANDING DIRECTOR'S CUT : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre DEATH STRANDING DIRECTOR'S CUT sur Steam."
-      }
-    },
     {
       "source_id": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032",
       "title": "Warhammer 40,000: Space Marine 2 à -75% sur Steam",
@@ -44,6 +22,28 @@
         "alt": "Warhammer 40,000: Space Marine 2 -75% sur Steam - GamerQuest",
         "caption": "Warhammer 40,000: Space Marine 2 : offre -75% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Warhammer 40,000: Space Marine 2 sur Steam."
+      }
+    },
+    {
+      "source_id": "1b6c87c571326c3f3323a373b85a7f3ba8dfc5d25ae456c2baefbe754fa76065",
+      "title": "DEATH STRANDING DIRECTOR'S CUT à -75% sur Steam",
+      "excerpt": "DEATH STRANDING DIRECTOR'S CUT bénéficie actuellement d'une réduction de 75% sur Steam, passant de 39,99 € à 9,99 €.",
+      "content": "<p><strong>DEATH STRANDING DIRECTOR'S CUT</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>9,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1850570/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1850570/",
+      "deal": {
+        "game": "DEATH STRANDING DIRECTOR'S CUT",
+        "store": "Steam",
+        "original_price": 39.99,
+        "current_price": 9.99,
+        "discount_percent": 75,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/1b6c87c571326c3f3323a373b85a7f3ba8dfc5d25ae456c2baefbe754fa76065.jpg",
+        "filename": "1b6c87c571326c3f3323a373b85a7f3ba8dfc5d25ae456c2baefbe754fa76065.jpg",
+        "alt": "DEATH STRANDING DIRECTOR'S CUT -75% sur Steam - GamerQuest",
+        "caption": "DEATH STRANDING DIRECTOR'S CUT : offre -75% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre DEATH STRANDING DIRECTOR'S CUT sur Steam."
       }
     },
     {

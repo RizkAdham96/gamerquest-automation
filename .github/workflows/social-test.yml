@@ -27,14 +27,17 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install social dependencies
         run: |
           python -m pip install --upgrade pip
           python -m pip install Pillow requests
+
       - name: Run critical social tests
         env:
           PYTHONPATH: .
@@ -45,11 +48,24 @@ jobs:
           python tests/social/test_prepare_publish.py
           python tests/social/test_publish_run.py
           python tests/social/test_render_fallback_source_image.py
+          python tests/social/test_meta_healthcheck.py
+
+      - name: Meta publishing preflight
+        if: ${{ github.event_name == 'schedule' || inputs.publish_to_meta == true }}
+        env:
+          PYTHONPATH: .
+          META_FB_PAGE_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_GRAPH_API_VERSION: v26.0
+        run: python -m social.meta_healthcheck
+
       - name: Generate fact-checked social carousel
         env:
           PYTHONPATH: .
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python -m social.run
+
       - name: Check social generation status
         id: social_status
         shell: bash
@@ -72,16 +88,19 @@ jobs:
               f.write(f"ready={'true' if ready else 'false'}\n")
               f.write(f"status={status}\n")
           PY
+
       - name: No approved social post this run
         if: ${{ steps.social_status.outputs.ready != 'true' }}
         run: |
           echo "No fact-checked carousel was approved."
           echo "Publishing is skipped safely."
+
       - name: Render carousel with free GamerQuest renderer
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
         run: python -m social.render_fallback
+
       - name: Prepare carousel for public publishing
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:
@@ -89,6 +108,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_BRANCH: main
         run: python -m social.prepare_publish_run
+
       - name: Verify exactly three current carousel images
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         shell: bash
@@ -96,6 +116,16 @@ jobs:
           COUNT=$(find social-rendered -maxdepth 1 -type f -name "slide-*.png" | wc -l)
           echo "Current rendered PNG count: $COUNT"
           test "$COUNT" -eq 3
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          payload = json.loads(Path("social-publish-ready.json").read_text(encoding="utf-8"))
+          assert len(payload.get("image_urls", [])) == 3
+          assert len(set(payload["image_urls"])) == 3
+          assert payload.get("carousel_version")
+          print(f"Carousel version: {payload['carousel_version']}")
+          PY
+
       - name: Commit prepared carousel
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         shell: bash
@@ -111,6 +141,7 @@ jobs:
             git rebase origin/main
             git push origin HEAD:main
           fi
+
       - name: Publish carousel to Instagram and Facebook
         if: ${{ steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         env:
@@ -121,6 +152,7 @@ jobs:
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           META_GRAPH_API_VERSION: v26.0
         run: python -m social.publish_run_facebook_login
+
       - name: Commit Meta publish history
         if: ${{ always() && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         shell: bash
@@ -136,6 +168,7 @@ jobs:
               git push origin HEAD:main
             fi
           fi
+
       - name: Upload social output
         if: ${{ always() }}
         uses: actions/upload-artifact@v4

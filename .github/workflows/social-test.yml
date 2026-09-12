@@ -146,9 +146,6 @@ jobs:
         if: ${{ steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         env:
           PYTHONPATH: .
-          # GamerQuest uses the Facebook/Page token flow for the connected
-          # Instagram professional account, so Instagram is routed through the
-          # Facebook Graph API by publish_run_facebook_login.
           META_IG_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
           META_FB_PAGE_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
@@ -185,3 +182,5 @@ jobs:
             social-published/
             social/publish_history.json
           if-no-files-found: warn
+
+# Immediate publish approved by owner: 2026-09-12

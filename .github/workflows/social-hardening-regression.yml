@@ -5,11 +5,15 @@ on:
     paths:
       - "tests/social/test_publish_run.py"
       - "tests/social/test_meta_healthcheck.py"
+      - "tests/social/test_prepare_publish.py"
+      - "tests/social/test_render_fallback_source_image.py"
       - "social/publish_run.py"
       - "social/meta_healthcheck.py"
       - "social/meta_publisher.py"
       - "social/prepare_publish.py"
       - "social/prepare_publish_run.py"
+      - "social/render_fallback.py"
+      - "social/renderer.py"
       - ".github/workflows/social-hardening-regression.yml"
 
 jobs:
@@ -26,3 +30,5 @@ jobs:
         run: |
           python tests/social/test_publish_run.py
           python tests/social/test_meta_healthcheck.py
+          python tests/social/test_prepare_publish.py
+          python tests/social/test_render_fallback_source_image.py

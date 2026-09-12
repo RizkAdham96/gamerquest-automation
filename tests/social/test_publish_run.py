@@ -93,6 +93,28 @@ class TestPublishRun(unittest.TestCase):
         )
         self.assertEqual(pending, [])
 
+    def test_legacy_history_is_backfilled_with_current_version_when_skipped(self):
+        with tempfile.TemporaryDirectory() as directory:
+            directory = Path(directory)
+            output_file, ready_file = self._write_package(directory, "version-baseline")
+            history_file = directory / "history.json"
+            history_file.write_text(json.dumps({
+                "article-123": {
+                    "instagram": {"published": True, "post_id": "legacy"},
+                    "facebook": {"published": True, "post_id": "legacyfb"},
+                }
+            }), encoding="utf-8")
+            result = self.publisher.run_publish(
+                output_file=output_file,
+                ready_file=ready_file,
+                history_file=history_file,
+                wait_for_urls=False,
+            )
+            self.assertEqual(result["status"], "already_published")
+            history = json.loads(history_file.read_text(encoding="utf-8"))
+            self.assertEqual(history["article-123"]["instagram"]["carousel_version"], "version-baseline")
+            self.assertEqual(history["article-123"]["facebook"]["carousel_version"], "version-baseline")
+
     def test_successful_publish_records_carousel_version(self):
         with tempfile.TemporaryDirectory() as directory:
             directory = Path(directory)

@@ -20,3 +20,17 @@ jobs:
       - env:
           PYTHONPATH: .
         run: python tests/social/test_render_fallback_source_image.py
+      - name: Verify real Zelda source has 3 distinct visuals
+        env:
+          PYTHONPATH: .
+        run: |
+          python - <<'PY'
+          from social.render_fallback import resolve_featured_images
+          source_id = "64021e5d7e5f64e9a3efefe6a3c04d712e5019be42041456988b237e2050f43b"
+          images = resolve_featured_images(source_id)
+          print("Resolved images:")
+          for image in images:
+              print(image)
+          assert len(images) == 3
+          assert len(set(images)) == 3
+          PY

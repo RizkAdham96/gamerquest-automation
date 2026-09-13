@@ -48,13 +48,13 @@ MAX_TAVILY_SEARCHES_PER_RUN = 2
 
 SEARCH_QUERIES = [
     (
-        "latest major gaming news official announcement release date "
-        "gameplay DLC expansion trailer showcase video games "
-        "PlayStation Xbox Nintendo PC"
+        "latest gaming official announcement release date patch guide "
+        "comment résoudre problème performance crossplay sauvegarde "
+        "DLC gratuit PlayStation Xbox Nintendo Switch 2 PC"
     ),
     (
-        "latest PlayStation PS5 Xbox Nintendo Switch 2 PC Steam "
-        "Game Pass gaming announcement update DLC release trailer"
+        "latest game guide comment débloquer trouver obtenir problème "
+        "erreur patch performance PS5 Xbox Switch 2 PC Steam Game Pass"
     ),
 ]
 
@@ -2000,14 +2000,16 @@ Prioritize topics where users may search:
 
 Prefer:
 
-- release announcements
-- gameplay reveals
-- major DLC
-- large franchises
-- platform announcements
-- price information
-- hardware
-- significant updates
+- specific long-tail player questions with a clear answer
+- release announcements with exact date/platform intent
+- fixes, patches, performance issues and how-to opportunities
+- free games, meaningful discounts and availability windows
+- gameplay or DLC only when there is a genuinely new development
+- underserved game/platform combinations a new domain can realistically rank for
+
+Avoid choosing a broad roundup or giant head keyword when a narrower,
+useful search intent is available. GamerQuest is a new domain: usefulness,
+specificity and freshness matter more than franchise size.
 
 Source-quality rules:
 

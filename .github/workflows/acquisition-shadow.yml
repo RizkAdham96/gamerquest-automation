@@ -3,12 +3,20 @@ name: GamerQuest Acquisition Shadow
 on:
   push:
     paths:
-      - "acquisition/**"
+      - "acquisition/engine.py"
+      - "acquisition/run_shadow.py"
+      - "acquisition/test_engine.py"
+      - "acquisition/test_shadow_cli.py"
       - ".github/workflows/acquisition-shadow.yml"
   workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
 
 jobs:
-  test:
+  shadow:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -23,3 +31,16 @@ jobs:
           pip install -r requirements.txt
       - name: Run acquisition tests
         run: python -m pytest acquisition/test_engine.py acquisition/test_shadow_cli.py -v
+      - name: Build shadow queue
+        run: python -m acquisition.run_shadow
+      - name: Commit shadow queue when changed
+        run: |
+          git config user.name "GamerQuest Acquisition Bot"
+          git config user.email "actions@github.com"
+          git add acquisition/shadow_queue.json
+          if git diff --cached --quiet; then
+            echo "No shadow queue changes to commit."
+          else
+            git commit -m "data: refresh acquisition shadow queue"
+            git push
+          fi

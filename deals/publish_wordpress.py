@@ -42,6 +42,14 @@ def slugify(value: str) -> str:
     return value[:180]
 
 
+def deal_category_slugs(article: dict) -> list[str]:
+    categories = ["bons-plans"]
+    current_price = float((article.get("deal") or {}).get("current_price") or 0)
+    if current_price == 0:
+        categories.append("jeux-gratuits")
+    return categories
+
+
 def require_config() -> None:
     missing = [
         name for name, value in {
@@ -67,6 +75,30 @@ def existing_post(slug: str):
     response.raise_for_status()
     posts = response.json()
     return posts[0] if posts else None
+
+
+def ensure_category(slug: str) -> int:
+    response = SESSION.get(api("categories"), params={"slug": slug}, timeout=45)
+    response.raise_for_status()
+    matches = response.json()
+    if matches:
+        return int(matches[0]["id"])
+
+    name_map = {
+        "bons-plans": "Bons plans",
+        "jeux-gratuits": "Jeux gratuits",
+    }
+    create_response = SESSION.post(
+        api("categories"),
+        json={"name": name_map.get(slug, slug.replace("-", " ").title()), "slug": slug},
+        timeout=45,
+    )
+    create_response.raise_for_status()
+    return int(create_response.json()["id"])
+
+
+def category_ids_for(article: dict) -> list[int]:
+    return [ensure_category(slug) for slug in deal_category_slugs(article)]
 
 
 def upload_featured_image(image_info: dict) -> int | None:
@@ -134,6 +166,7 @@ def publish_article(article: dict) -> str:
         "excerpt": excerpt,
         "slug": slug,
         "status": "publish",
+        "categories": category_ids_for(article),
     }
     if media_id:
         payload["featured_media"] = media_id

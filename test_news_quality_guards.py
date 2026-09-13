@@ -190,3 +190,43 @@ def test_duplicate_is_not_built_or_added_to_feed(monkeypatch, tmp_path):
         {"url": "https://different.example/story"},
     ) is None
     assert not (tmp_path / "feed.json").exists()
+
+
+def test_historical_topic_history_blocks_old_wordpress_duplicate(monkeypatch, tmp_path):
+    history_file = tmp_path / "news_topic_history.json"
+    history_file.write_text(
+        '{"articles":[{"title":"Final Fantasy VII Revelation : date de sortie, plateformes, prix et DLC","slug":"final-fantasy-vii-revelation-sortie-plateformes-prix-dlc","content":"","seo":{"primary_keyword":"Final Fantasy VII Revelation date de sortie"},"tags":[]}]}',
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(automation, "NEWS_TOPIC_HISTORY_FILE", history_file)
+    monkeypatch.setattr(
+        automation,
+        "load_existing_news_feed",
+        lambda: {"articles": []},
+    )
+    candidate = (
+        "Final Fantasy VII Revelation : prix, plateformes et date de sortie",
+        "meta",
+        "Final Fantasy VII Revelation date de sortie",
+        "Final Fantasy VII Revelation plateformes",
+        "Informational",
+        "final-fantasy-vii-revelation-date-sortie-plateformes",
+        "Final Fantasy VII Revelation : prix, plateformes et date de sortie",
+        "excerpt",
+        "Actualités",
+        "Final Fantasy VII, Revelation",
+        "Les informations de sortie et de plateformes sont détaillées.",
+    )
+    assert automation.news_quality_rejection(candidate)
+
+
+def test_remember_news_topic_persists_new_topic(monkeypatch, tmp_path):
+    history_file = tmp_path / "news_topic_history.json"
+    monkeypatch.setattr(automation, "NEWS_TOPIC_HISTORY_FILE", history_file)
+    item = article(
+        "Project Nova : date de sortie",
+        "project-nova-date-sortie",
+    )
+    automation.remember_news_topic(item)
+    loaded = automation.load_news_topic_history()
+    assert loaded[0]["slug"] == "project-nova-date-sortie"

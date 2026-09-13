@@ -31,6 +31,8 @@ REJECTED_FOLDER = Path("rejected")
 STATE_FOLDER = Path("state")
 
 TAVILY_STATE_FILE = STATE_FOLDER / "tavily_usage.json"
+NEWS_TOPIC_HISTORY_FILE = STATE_FOLDER / "news_topic_history.json"
+MAX_NEWS_TOPIC_HISTORY = 1000
 
 NEWS_FEED_FILE = Path("gamerquest-news-feed.json")
 MAX_NEWS_FEED_ARTICLES = 50
@@ -1168,6 +1170,63 @@ def load_existing_news_feed():
         }
 
 
+
+
+def load_news_topic_history():
+    """Load compact topic history kept beyond the rolling 50-item feed."""
+    if not NEWS_TOPIC_HISTORY_FILE.exists():
+        return []
+    try:
+        data = json.loads(NEWS_TOPIC_HISTORY_FILE.read_text(encoding="utf-8"))
+        articles = data.get("articles", []) if isinstance(data, dict) else data
+        if not isinstance(articles, list):
+            return []
+        return [item for item in articles if isinstance(item, dict)]
+    except Exception as error:
+        print(f"WARNING: News topic history could not be loaded: {error}")
+        return []
+
+
+def combined_news_quality_history():
+    feed_articles = load_existing_news_feed().get("articles", [])
+    history_articles = load_news_topic_history()
+    merged = []
+    seen = set()
+    for item in [*feed_articles, *history_articles]:
+        key = slugify(item.get("slug", "") or item.get("title", ""))
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        merged.append(item)
+    return merged
+
+
+def remember_news_topic(article):
+    STATE_FOLDER.mkdir(exist_ok=True)
+    history = load_news_topic_history()
+    article_seo = article.get("seo", {})
+    if not isinstance(article_seo, dict):
+        article_seo = {}
+    compact = {
+        "title": str(article.get("title", "")).strip(),
+        "slug": str(article.get("slug", "")).strip(),
+        "content": str(article.get("content", ""))[:3000],
+        "tags": article.get("tags", []) if isinstance(article.get("tags", []), list) else [],
+        "seo": {"primary_keyword": str(article_seo.get("primary_keyword", "")).strip()},
+    }
+    compact_key = slugify(compact["slug"] or compact["title"])
+    remaining = []
+    for item in history:
+        item_key = slugify(item.get("slug", "") or item.get("title", ""))
+        if item_key and item_key == compact_key:
+            continue
+        remaining.append(item)
+    NEWS_TOPIC_HISTORY_FILE.write_text(
+        json.dumps({"articles": [compact, *remaining][:MAX_NEWS_TOPIC_HISTORY]}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
 def build_news_feed_article(
     article_data,
     story,
@@ -1275,7 +1334,7 @@ def article_data_for_quality_guards(article_data):
 def news_quality_rejection(article_data, existing_articles=None):
     candidate = article_data_for_quality_guards(article_data)
     if existing_articles is None:
-        existing_articles = load_existing_news_feed().get("articles", [])
+        existing_articles = combined_news_quality_history()
 
     if has_conflicting_news_claims(candidate, existing_articles):
         return "Conflicting release-date or platform claims for an existing topic."
@@ -1341,6 +1400,8 @@ def save_news_to_feed(
         ),
         encoding="utf-8",
     )
+
+    remember_news_topic(new_article)
 
     print("")
     print(

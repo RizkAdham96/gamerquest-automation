@@ -161,11 +161,15 @@ def publish_article(article: dict) -> str:
     required_categories = category_ids_for(article)
     previous = existing_post(slug)
     if previous:
-        post_id = int(previous["id"])
-        categories = merge_category_ids(previous.get("categories"), required_categories)
-        update = SESSION.post(api(f"posts/{post_id}"), json={"categories": categories}, timeout=45)
-        update.raise_for_status()
-        print(f"UPDATED CATEGORIES: {title} -> {previous.get('link', '')}")
+        existing_categories = [int(value) for value in (previous.get("categories") or [])]
+        missing_categories = [value for value in required_categories if value not in existing_categories]
+        if missing_categories:
+            print(
+                f"WARNING: existing deal is missing required categories {missing_categories}: "
+                f"{title} -> {previous.get('link', '')}"
+            )
+        else:
+            print(f"SKIP: already exists and categorized: {title} -> {previous.get('link', '')}")
         return "skipped"
 
     media_id = upload_featured_image(article.get("featured_image") or {})

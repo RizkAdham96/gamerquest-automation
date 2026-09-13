@@ -40,6 +40,19 @@ def test_same_story_from_a_different_source_is_a_duplicate():
     assert automation.is_duplicate_news_topic(candidate, existing)
 
 
+def test_same_subject_with_overlapping_search_intent_is_duplicate():
+    existing = [article(
+        "Final Fantasy VII Revelation : date de sortie, plateformes, prix et DLC",
+        "final-fantasy-vii-revelation-sortie-plateformes-prix-dlc",
+    )]
+    candidate = article(
+        "Final Fantasy VII Revelation : prix, gameplay, plateformes et date de sortie",
+        "final-fantasy-vii-revelation-prix-gameplay-plateformes-date",
+    )
+
+    assert automation.is_duplicate_news_topic(candidate, existing)
+
+
 def test_different_story_about_same_game_is_not_a_duplicate():
     existing = [article(
         "The Witcher 3 Remastered : date de sortie annoncée",

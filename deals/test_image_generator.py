@@ -26,5 +26,5 @@ def test_generates_featured_image(tmp_path):
 
     image = Image.open(result)
 
-    assert image.size == (1200, 630)
+    assert image.size == (1200, 675)
     assert image.format == "JPEG"

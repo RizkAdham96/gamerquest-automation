@@ -50,6 +50,10 @@ def deal_category_slugs(article: dict) -> list[str]:
     return categories
 
 
+def merge_category_ids(existing: list[int] | None, required: list[int]) -> list[int]:
+    return sorted(set(int(value) for value in (existing or []) + required))
+
+
 def require_config() -> None:
     missing = [
         name for name, value in {
@@ -154,9 +158,14 @@ def publish_article(article: dict) -> str:
     if source_id:
         slug = f"{slug}-{source_id[:10]}"
 
+    required_categories = category_ids_for(article)
     previous = existing_post(slug)
     if previous:
-        print(f"SKIP: already exists: {title} -> {previous.get('link', '')}")
+        post_id = int(previous["id"])
+        categories = merge_category_ids(previous.get("categories"), required_categories)
+        update = SESSION.post(api(f"posts/{post_id}"), json={"categories": categories}, timeout=45)
+        update.raise_for_status()
+        print(f"UPDATED CATEGORIES: {title} -> {previous.get('link', '')}")
         return "skipped"
 
     media_id = upload_featured_image(article.get("featured_image") or {})
@@ -166,7 +175,7 @@ def publish_article(article: dict) -> str:
         "excerpt": excerpt,
         "slug": slug,
         "status": "publish",
-        "categories": category_ids_for(article),
+        "categories": required_categories,
     }
     if media_id:
         payload["featured_media"] = media_id

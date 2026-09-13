@@ -27,6 +27,13 @@ def article(title, slug, content=""):
     }
 
 
+def test_news_discovery_includes_long_tail_player_intent():
+    queries = " ".join(automation.SEARCH_QUERIES).lower()
+    assert "guide" in queries
+    assert "comment" in queries
+    assert "probleme" in queries or "problème" in queries
+
+
 def test_same_story_from_a_different_source_is_a_duplicate():
     existing = [article(
         "Final Fantasy VII Revelation : date de sortie en 2027",

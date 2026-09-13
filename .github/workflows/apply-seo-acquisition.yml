@@ -1,80 +1,25 @@
-name: Apply SEO Acquisition Strategy
+name: Verify SEO Acquisition Strategy
 
 on:
   push:
     paths:
       - ".github/workflows/apply-seo-acquisition.yml"
-
-permissions:
-  contents: write
+  workflow_dispatch:
 
 jobs:
-  apply:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Update discovery strategy
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          p = Path('automation.py')
-          text = p.read_text(encoding='utf-8')
-          old = '''SEARCH_QUERIES = [
-              (
-                  "latest major gaming news official announcement release date "
-                  "gameplay DLC expansion trailer showcase video games "
-                  "PlayStation Xbox Nintendo PC"
-              ),
-              (
-                  "latest PlayStation PS5 Xbox Nintendo Switch 2 PC Steam "
-                  "Game Pass gaming announcement update DLC release trailer"
-              ),
-          ]'''
-          new = '''SEARCH_QUERIES = [
-              (
-                  "latest gaming official announcement release date patch guide "
-                  "comment résoudre problème performance crossplay sauvegarde "
-                  "DLC gratuit PlayStation Xbox Nintendo Switch 2 PC"
-              ),
-              (
-                  "latest game guide comment débloquer trouver obtenir problème "
-                  "erreur patch performance PS5 Xbox Switch 2 PC Steam Game Pass"
-              ),
-          ]'''
-          if old not in text:
-              raise SystemExit('SEARCH_QUERIES block not found')
-          text = text.replace(old, new, 1)
-          old2 = '''Prefer:
-
-          - release announcements
-          - gameplay reveals
-          - major DLC
-          - large franchises
-          - platform announcements
-          - price information
-          - hardware
-          - significant updates'''
-          new2 = '''Prefer:
-
-          - specific long-tail player questions with a clear answer
-          - release announcements with exact date/platform intent
-          - fixes, patches, performance issues and how-to opportunities
-          - free games, meaningful discounts and availability windows
-          - gameplay or DLC only when there is a genuinely new development
-          - underserved game/platform combinations a new domain can realistically rank for
-
-          Avoid choosing a broad roundup or giant head keyword when a narrower,
-          useful search intent is available. GamerQuest is a new domain: usefulness,
-          specificity and freshness matter more than franchise size.'''
-          if old2 not in text:
-              raise SystemExit('selection preference block not found')
-          text = text.replace(old2, new2, 1)
-          p.write_text(text, encoding='utf-8')
-          PY
-      - name: Commit strategy
-        run: |
-          git config user.name "GamerQuest Bot"
-          git config user.email "actions@github.com"
-          git add automation.py
-          git commit -m "SEO: prioritize long-tail acquisition opportunities"
-          git push
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Verify News acquisition and quality guards
+        env:
+          GROQ_API_KEY: test-key
+          TAVILY_API_KEY: test-key
+        run: python -m pytest test_news_quality_guards.py -v

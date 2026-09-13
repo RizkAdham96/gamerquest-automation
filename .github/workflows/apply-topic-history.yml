@@ -1,4 +1,4 @@
-name: Apply Persistent Topic History
+name: Verify Persistent Topic History
 
 on:
   push:
@@ -6,11 +6,8 @@ on:
       - ".github/workflows/apply-topic-history.yml"
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  apply:
+  verify:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -27,17 +24,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run corrected TDD migration
-        run: python scripts/apply_topic_history_v2.py
-
-      - name: Commit persistent topic history
+      - name: Run full News regression suite
+        env:
+          GROQ_API_KEY: test-key
+          TAVILY_API_KEY: test-key
         run: |
-          git config user.name "GamerQuest Bot"
-          git config user.email "actions@github.com"
-          git add automation.py test_news_quality_guards.py state/news_topic_history.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "SEO: keep persistent topic history"
-            git push
-          fi
+          python -m pytest \
+            test_news_image_generator.py \
+            test_news_quality_guards.py \
+            test_platform_classifier.py \
+            test_platform_feed.py \
+            -v

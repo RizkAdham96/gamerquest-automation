@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-09-13T15:41:48.838485+00:00",
+  "mode": "shadow",
+  "count": 5,
+  "opportunities": [
+    {
+      "id": "b44ea749d4092eacb651fa8573db444ed75c062fc8c8463d226032c3a6c8ae2e",
+      "title": "Astral Ascent est gratuit sur Epic Games Store pendant une durée limitée",
+      "source_type": "deal",
+      "keywords": [
+        "Astral Ascent",
+        "Epic Games Store",
+        "Astral Ascent gratuit"
+      ],
+      "freshness": "urgent",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "epic games store",
+          "url": "https://store.epicgames.com/fr/p/astral-ascent-b33bc2"
+        }
+      ],
+      "score": 89,
+      "decision": "PRIORITIZE",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 22,
+        "search_intent": 14,
+        "freshness": 15,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "time-sensitive opportunity",
+        "specific long-tail angle",
+        "strong social/distribution hook"
+      ]
+    },
+    {
+      "id": "c273153ae2f7ea4cfe40ed377e23681fa9bf2df56f3dfe45cdad985a58fc8725",
+      "title": "Luftrausers est gratuit sur Epic Games Store pendant une durée limitée",
+      "source_type": "deal",
+      "keywords": [
+        "Luftrausers",
+        "Epic Games Store",
+        "Luftrausers gratuit"
+      ],
+      "freshness": "urgent",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "epic games store",
+          "url": "https://store.epicgames.com/fr/p/luftrausers-51e5e9"
+        }
+      ],
+      "score": 89,
+      "decision": "PRIORITIZE",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 22,
+        "search_intent": 14,
+        "freshness": 15,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "time-sensitive opportunity",
+        "specific long-tail angle",
+        "strong social/distribution hook"
+      ]
+    },
+    {
+      "id": "witcher3-remastered-gamescom-2026",
+      "title": "The Witcher 3: Wild Hunt Remastered",
+      "source_type": "seo_intel",
+      "keywords": [
+        "The Witcher 3 Remastered",
+        "The Witcher 3 Remastered date de sortie",
+        "The Witcher 3 Remastered nouveautés",
+        "The Witcher 3 Remastered PS5",
+        "The Witcher 3 Remastered Xbox",
+        "The Witcher 3 Remastered PC"
+      ],
+      "freshness": "fresh",
+      "existing_score": 81,
+      "sources": [
+        {
+          "type": "official",
+          "url": "https://www.gamescom.global/en",
+          "title": "The Witcher 3: Wild Hunt — Remastered | Official Announcement Trailer",
+          "evidence": "Gamescom lists the CD PROJEKT RED remaster announcement trailer among its Opening Night Live 2026 trailers."
+        },
+        {
+          "type": "official",
+          "url": "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are",
+          "title": "gamescom award 2026: the winners are!",
+          "evidence": "The Witcher 3 Remastered and Songs of the Past won the consumer-voted Best Trailer / Announcement award."
+        }
+      ],
+      "score": 84,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 22,
+        "search_intent": 14,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032",
+      "title": "Warhammer 40,000: Space Marine 2 à -75% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "Warhammer 40,000: Space Marine 2",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/2183900/"
+        }
+      ],
+      "score": 61,
+      "decision": "WATCH",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 18,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 8,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
+      ]
+    },
+    {
+      "id": "1b6c87c571326c3f3323a373b85a7f3ba8dfc5d25ae456c2baefbe754fa76065",
+      "title": "DEATH STRANDING DIRECTOR'S CUT à -75% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "DEATH STRANDING DIRECTOR'S CUT",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/1850570/"
+        }
+      ],
+      "score": 57,
+      "decision": "WATCH",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 14,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 8,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
+      ]
+    }
+  ]
+}

@@ -22,4 +22,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Run acquisition tests
-        run: python -m pytest acquisition/test_engine.py -v
+        run: python -m pytest acquisition/test_engine.py acquisition/test_shadow_cli.py -v

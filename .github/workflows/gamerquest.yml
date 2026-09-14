@@ -76,7 +76,9 @@ jobs:
             echo "No new files or state changes to save."
           else
             git commit -m "GamerQuest automatic news update"
+            git stash push --include-untracked -m "gamerquest-news-pre-rebase" || true
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main
+            git stash pop || true
           fi

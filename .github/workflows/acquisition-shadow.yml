@@ -54,7 +54,9 @@ jobs:
             echo "No shadow queue changes to commit."
           else
             git commit -m "data: refresh acquisition shadow queue"
+            git stash push --include-untracked -m "gamerquest-acquisition-pre-rebase" || true
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main
+            git stash pop || true
           fi

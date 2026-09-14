@@ -80,9 +80,11 @@ jobs:
             echo "No feed or image changes to save."
           else
             git commit -m "Update GamerQuest deals feed and images"
+            git stash push --include-untracked -m "gamerquest-deals-pre-rebase" || true
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main
+            git stash pop || true
           fi
 
       - name: Publish deals directly to WordPress

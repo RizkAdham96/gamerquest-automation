@@ -15,12 +15,18 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: gamerquest-repo-writer
+  cancel-in-progress: false
+
 jobs:
   shadow:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -48,5 +54,7 @@ jobs:
             echo "No shadow queue changes to commit."
           else
             git commit -m "data: refresh acquisition shadow queue"
-            git push
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
           fi

@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: gamerquest-deals
+  group: gamerquest-repo-writer
   cancel-in-progress: false
 
 jobs:
@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -78,7 +80,9 @@ jobs:
             echo "No feed or image changes to save."
           else
             git commit -m "Update GamerQuest deals feed and images"
-            git push
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
           fi
 
       - name: Publish deals directly to WordPress

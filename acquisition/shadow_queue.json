@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T19:15:56.032330+00:00",
+  "generated_at": "2026-09-14T06:04:24.659393+00:00",
   "mode": "shadow",
   "count": 5,
   "opportunities": [
@@ -123,38 +123,6 @@
       ]
     },
     {
-      "id": "286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee",
-      "title": "Call of Duty®: Black Ops III à -75% sur Steam",
-      "source_type": "deal",
-      "keywords": [
-        "Call of Duty®: Black Ops III",
-        "Steam"
-      ],
-      "freshness": "fresh",
-      "existing_score": 0,
-      "sources": [
-        {
-          "type": "steam",
-          "url": "https://store.steampowered.com/app/311210/"
-        }
-      ],
-      "score": 61,
-      "decision": "WATCH",
-      "duplicate_risk": false,
-      "breakdown": {
-        "specificity": 18,
-        "search_intent": 5,
-        "freshness": 10,
-        "competition_proxy": 8,
-        "gamerquest_fit": 10,
-        "distribution_potential": 5,
-        "internal_link_potential": 5
-      },
-      "reasons": [
-        "weak acquisition signal"
-      ]
-    },
-    {
       "id": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032",
       "title": "Warhammer 40,000: Space Marine 2 à -75% sur Steam",
       "source_type": "deal",
@@ -175,6 +143,38 @@
       "duplicate_risk": false,
       "breakdown": {
         "specificity": 18,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 8,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
+      ]
+    },
+    {
+      "id": "1b6c87c571326c3f3323a373b85a7f3ba8dfc5d25ae456c2baefbe754fa76065",
+      "title": "DEATH STRANDING DIRECTOR'S CUT à -75% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "DEATH STRANDING DIRECTOR'S CUT",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/1850570/"
+        }
+      ],
+      "score": 57,
+      "decision": "WATCH",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 14,
         "search_intent": 5,
         "freshness": 10,
         "competition_proxy": 8,

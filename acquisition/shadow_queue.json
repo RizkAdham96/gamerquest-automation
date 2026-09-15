@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T21:49:51.411810+00:00",
+  "generated_at": "2026-09-15T04:55:42.064645+00:00",
   "mode": "shadow",
-  "count": 3,
+  "count": 4,
   "opportunities": [
     {
       "id": "b44ea749d4092eacb651fa8573db444ed75c062fc8c8463d226032c3a6c8ae2e",
@@ -120,6 +120,38 @@
         "specific long-tail angle",
         "strong social/distribution hook",
         "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "e6562c63edf889e60896de39b61e71f42ba279c0585ad925ef9a574cf93213ca",
+      "title": "Half-Life: Alyx à -75% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "Half-Life: Alyx",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/546560/"
+        }
+      ],
+      "score": 57,
+      "decision": "WATCH",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 14,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 8,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
       ]
     }
   ]

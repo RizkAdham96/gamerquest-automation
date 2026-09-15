@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-09-15T11:44:31.276528+00:00",
-  "count": 3,
+  "generated_at": "2026-09-15T16:59:40.760471+00:00",
+  "count": 2,
   "articles": [
-    {
-      "source_id": "e6562c63edf889e60896de39b61e71f42ba279c0585ad925ef9a574cf93213ca",
-      "title": "Half-Life: Alyx à -75% sur Steam",
-      "excerpt": "Half-Life: Alyx bénéficie actuellement d'une réduction de 75% sur Steam, passant de 58,99 € à 14,74 €.",
-      "content": "<p><strong>Half-Life: Alyx</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>58,99 €</strong></li><li>Prix actuel : <strong>14,74 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/546560/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/546560/",
-      "deal": {
-        "game": "Half-Life: Alyx",
-        "store": "Steam",
-        "original_price": 58.99,
-        "current_price": 14.74,
-        "discount_percent": 75,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/e6562c63edf889e60896de39b61e71f42ba279c0585ad925ef9a574cf93213ca.jpg",
-        "filename": "e6562c63edf889e60896de39b61e71f42ba279c0585ad925ef9a574cf93213ca.jpg",
-        "alt": "Half-Life: Alyx -75% sur Steam - GamerQuest",
-        "caption": "Half-Life: Alyx : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Half-Life: Alyx sur Steam."
-      }
-    },
     {
       "source_id": "c273153ae2f7ea4cfe40ed377e23681fa9bf2df56f3dfe45cdad985a58fc8725",
       "title": "Luftrausers est gratuit sur Epic Games Store pendant une durée limitée",

@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-09-16T00:20:43.749027+00:00",
-  "count": 3,
+  "generated_at": "2026-09-16T07:41:43.146938+00:00",
+  "count": 2,
   "articles": [
-    {
-      "source_id": "286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee",
-      "title": "Call of Duty®: Black Ops III à -75% sur Steam",
-      "excerpt": "Call of Duty®: Black Ops III bénéficie actuellement d'une réduction de 75% sur Steam, passant de 59,99 € à 14,99 €.",
-      "content": "<p><strong>Call of Duty®: Black Ops III</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/311210/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/311210/",
-      "deal": {
-        "game": "Call of Duty®: Black Ops III",
-        "store": "Steam",
-        "original_price": 59.99,
-        "current_price": 14.99,
-        "discount_percent": 75,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee.jpg",
-        "filename": "286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee.jpg",
-        "alt": "Call of Duty®: Black Ops III -75% sur Steam - GamerQuest",
-        "caption": "Call of Duty®: Black Ops III : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Call of Duty®: Black Ops III sur Steam."
-      }
-    },
     {
       "source_id": "c273153ae2f7ea4cfe40ed377e23681fa9bf2df56f3dfe45cdad985a58fc8725",
       "title": "Luftrausers est gratuit sur Epic Games Store pendant une durée limitée",

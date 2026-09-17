@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 from social import run as social_run
+from social.render_fallback import resolve_featured_images
 
 
 PUBLISH_HISTORY_FILE = Path("social/publish_history.json")
@@ -30,6 +31,25 @@ def filter_already_published(content, publish_history):
     return fresh
 
 
+def filter_renderable_sources(content, image_resolver=resolve_featured_images):
+    """Keep only sources that can produce the required 3-image carousel."""
+    renderable = []
+    for item in content:
+        source_id = str(item.get("source_id", "")).strip()
+        if not source_id:
+            continue
+        try:
+            images = image_resolver(source_id, content_items=content)
+        except Exception as exc:
+            print(f"Skipping source without 3 usable visuals: {source_id} ({exc})")
+            continue
+        if len(images) != 3 or len(set(images)) != 3:
+            print(f"Skipping source without 3 unique visuals: {source_id}")
+            continue
+        renderable.append(item)
+    return renderable
+
+
 def run():
     original_get_all_content = social_run.get_all_content
     publish_history = load_publish_history()
@@ -37,8 +57,10 @@ def run():
     def get_fresh_content():
         content = original_get_all_content()
         fresh = filter_already_published(content, publish_history)
+        renderable = filter_renderable_sources(fresh)
         print(f"Fresh social content items: {len(fresh)}/{len(content)}")
-        return fresh
+        print(f"Fresh renderable social items: {len(renderable)}/{len(fresh)}")
+        return renderable
 
     social_run.get_all_content = get_fresh_content
     try:

@@ -35,17 +35,41 @@ class TestFreshSocialSelection(unittest.TestCase):
     def test_skips_fresh_source_without_three_images_and_uses_next(self):
         content = [
             {"source_id": "bad-images", "title": "Story with one image"},
-            {"source_id": "good-images", "title": "Story with three images"},
+            {"source_id": "good-images", "title": "Metroid Prime 4 gameplay"},
         ]
 
         def resolver(source_id, content_items=None):
             if source_id == "bad-images":
                 raise RuntimeError("three unique relevant images")
-            return ["one.jpg", "two.jpg", "three.jpg"]
+            return [
+                "https://cdn.example.com/metroid-prime-4-cover.jpg",
+                "https://cdn.example.com/metroid-prime-4-gameplay-1.jpg",
+                "https://cdn.example.com/metroid-prime-4-gameplay-2.jpg",
+            ]
 
         result = filter_renderable_sources(content, image_resolver=resolver)
 
         self.assertEqual([item["source_id"] for item in result], ["good-images"])
+
+    def test_rejects_mixed_topic_images_for_roundup_article(self):
+        content = [
+            {
+                "source_id": "nintendo-direct-roundup",
+                "title": "Nintendo Direct septembre 2026 : annonces pour Switch 2",
+                "tags": ["Nintendo Direct", "Switch 2", "Nintendo"],
+            }
+        ]
+
+        def resolver(source_id, content_items=None):
+            return [
+                "https://cdn.example.com/mario-movie.jpg",
+                "https://i.ytimg.com/monster-hunter-trailer.jpg",
+                "https://cdn.example.com/final-fantasy-vii.jpg",
+            ]
+
+        result = filter_renderable_sources(content, image_resolver=resolver)
+
+        self.assertEqual(result, [])
 
 
 if __name__ == "__main__":

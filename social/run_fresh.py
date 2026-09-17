@@ -1,11 +1,17 @@
 import json
+import re
 from pathlib import Path
+from urllib.parse import urlparse
 
 from social import run as social_run
 from social.render_fallback import resolve_featured_images
 
 
 PUBLISH_HISTORY_FILE = Path("social/publish_history.json")
+GENERIC_VISUAL_TERMS = {
+    "actualites", "annonce", "annonces", "direct", "game", "gaming", "jeux",
+    "news", "nintendo", "playstation", "septembre", "switch", "xbox",
+}
 
 
 def load_publish_history():
@@ -31,8 +37,47 @@ def filter_already_published(content, publish_history):
     return fresh
 
 
+def _tokens(value):
+    return {
+        token.lower()
+        for token in re.findall(r"[a-zA-ZÀ-ÿ0-9]+", str(value or ""))
+        if len(token) >= 4
+    }
+
+
+def _visual_terms(item):
+    terms = _tokens(item.get("title", ""))
+    tags = item.get("tags", [])
+    if isinstance(tags, list):
+        for tag in tags:
+            terms.update(_tokens(tag))
+    return terms - GENERIC_VISUAL_TERMS
+
+
+def _image_terms(url):
+    parsed = urlparse(str(url or ""))
+    return _tokens(f"{parsed.netloc} {parsed.path}") - GENERIC_VISUAL_TERMS
+
+
+def images_match_source_topic(item, images):
+    """Reject carousels whose resolved images visibly describe unrelated games/topics."""
+    if not isinstance(item, dict) or len(images) != 3:
+        return False
+
+    source_terms = _visual_terms(item)
+    if not source_terms:
+        return False
+
+    # Slide 1 is our article/featured visual. Slides 2-3 are external source visuals
+    # and must carry at least one specific term from this exact article's topic.
+    for image_url in images[1:]:
+        if not (source_terms & _image_terms(image_url)):
+            return False
+    return True
+
+
 def filter_renderable_sources(content, image_resolver=resolve_featured_images):
-    """Keep only sources that can produce the required 3-image carousel."""
+    """Keep only fresh sources that can produce 3 unique, topic-coherent visuals."""
     renderable = []
     for item in content:
         source_id = str(item.get("source_id", "")).strip()
@@ -45,6 +90,9 @@ def filter_renderable_sources(content, image_resolver=resolve_featured_images):
             continue
         if len(images) != 3 or len(set(images)) != 3:
             print(f"Skipping source without 3 unique visuals: {source_id}")
+            continue
+        if not images_match_source_topic(item, images):
+            print(f"Skipping source with mixed-topic visuals: {source_id}")
             continue
         renderable.append(item)
     return renderable

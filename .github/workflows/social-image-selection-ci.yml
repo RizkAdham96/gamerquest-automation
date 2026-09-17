@@ -1,0 +1,23 @@
+name: Social Image Selection CI
+
+on:
+  pull_request:
+    paths:
+      - "social/run_fresh.py"
+      - "tests/social/test_run_fresh.py"
+      - ".github/workflows/social-image-selection-ci.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install Pillow requests
+      - env:
+          PYTHONPATH: .
+        run: |
+          python tests/social/test_run_fresh.py
+          python tests/social/test_render_fallback_source_image.py

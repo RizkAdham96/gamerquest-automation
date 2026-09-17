@@ -2,6 +2,12 @@ name: GamerQuest Social Publish Recovery
 
 on:
   workflow_dispatch:
+  schedule:
+    # Publish twice per week at 18:00 Europe/Paris time.
+    - cron: "0 18 * * 2"
+      timezone: "Europe/Paris"
+    - cron: "0 18 * * 5"
+      timezone: "Europe/Paris"
 
 permissions:
   contents: write

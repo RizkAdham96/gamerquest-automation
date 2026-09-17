@@ -47,6 +47,26 @@ class TestFreshSocialSelection(unittest.TestCase):
 
         self.assertEqual([item["source_id"] for item in result], ["good-images"])
 
+    def test_rejects_mixed_topic_images_for_roundup_article(self):
+        content = [
+            {
+                "source_id": "nintendo-direct-roundup",
+                "title": "Nintendo Direct septembre 2026 : annonces pour Switch 2",
+                "tags": ["Nintendo Direct", "Switch 2", "Nintendo"],
+            }
+        ]
+
+        def resolver(source_id, content_items=None):
+            return [
+                "https://cdn.example.com/mario-movie.jpg",
+                "https://i.ytimg.com/monster-hunter-trailer.jpg",
+                "https://cdn.example.com/final-fantasy-vii.jpg",
+            ]
+
+        result = filter_renderable_sources(content, image_resolver=resolver)
+
+        self.assertEqual(result, [])
+
 
 if __name__ == "__main__":
     unittest.main()

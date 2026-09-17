@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T04:53:48.039867+00:00",
+  "generated_at": "2026-09-17T11:42:15.030206+00:00",
   "mode": "shadow",
-  "count": 4,
+  "count": 3,
   "opportunities": [
     {
       "id": "b44ea749d4092eacb651fa8573db444ed75c062fc8c8463d226032c3a6c8ae2e",
@@ -120,38 +120,6 @@
         "specific long-tail angle",
         "strong social/distribution hook",
         "blocked by existing coverage"
-      ]
-    },
-    {
-      "id": "286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee",
-      "title": "Call of Duty®: Black Ops III à -75% sur Steam",
-      "source_type": "deal",
-      "keywords": [
-        "Call of Duty®: Black Ops III",
-        "Steam"
-      ],
-      "freshness": "fresh",
-      "existing_score": 0,
-      "sources": [
-        {
-          "type": "steam",
-          "url": "https://store.steampowered.com/app/311210/"
-        }
-      ],
-      "score": 61,
-      "decision": "WATCH",
-      "duplicate_risk": false,
-      "breakdown": {
-        "specificity": 18,
-        "search_intent": 5,
-        "freshness": 10,
-        "competition_proxy": 8,
-        "gamerquest_fit": 10,
-        "distribution_potential": 5,
-        "internal_link_potential": 5
-      },
-      "reasons": [
-        "weak acquisition signal"
       ]
     }
   ]

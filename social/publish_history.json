@@ -45,11 +45,13 @@
   "64021e5d7e5f64e9a3efefe6a3c04d712e5019be42041456988b237e2050f43b": {
     "instagram": {
       "published": true,
-      "post_id": "18011228381976739"
+      "post_id": "18011228381976739",
+      "carousel_version": "b19a29acb2f9ce9723306541bd610685400133b4043cb32555595c62afa637af"
     },
     "facebook": {
       "published": true,
-      "post_id": "1303389956186440_122112392145446919"
+      "post_id": "1303389956186440_122112392145446919",
+      "carousel_version": "b19a29acb2f9ce9723306541bd610685400133b4043cb32555595c62afa637af"
     }
   }
 }

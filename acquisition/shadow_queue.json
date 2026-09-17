@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-17T17:00:06.303751+00:00",
+  "generated_at": "2026-09-17T21:22:55.885431+00:00",
   "mode": "shadow",
   "count": 3,
   "opportunities": [
     {
-      "id": "b44ea749d4092eacb651fa8573db444ed75c062fc8c8463d226032c3a6c8ae2e",
-      "title": "Astral Ascent est gratuit sur Epic Games Store pendant une durée limitée",
+      "id": "92e552851e316c3e07b837166b8705c6c43676eaa7aaa90b65fc893bb331d522",
+      "title": "Mindcop est gratuit sur Epic Games Store pendant une durée limitée",
       "source_type": "deal",
       "keywords": [
-        "Astral Ascent",
+        "Mindcop",
         "Epic Games Store",
-        "Astral Ascent gratuit"
+        "Mindcop gratuit"
       ],
       "freshness": "urgent",
       "existing_score": 0,
       "sources": [
         {
           "type": "epic games store",
-          "url": "https://store.epicgames.com/fr/p/astral-ascent-b33bc2"
+          "url": "https://store.epicgames.com/fr/p/mindcop-78e6c1"
         }
       ],
       "score": 89,
@@ -40,20 +40,20 @@
       ]
     },
     {
-      "id": "c273153ae2f7ea4cfe40ed377e23681fa9bf2df56f3dfe45cdad985a58fc8725",
-      "title": "Luftrausers est gratuit sur Epic Games Store pendant une durée limitée",
+      "id": "5c79bc0bfa66c3cbadb6d5571e199edc331030af62de71c094188fe7e12de1c2",
+      "title": "Shogun Showdown est gratuit sur Epic Games Store pendant une durée limitée",
       "source_type": "deal",
       "keywords": [
-        "Luftrausers",
+        "Shogun Showdown",
         "Epic Games Store",
-        "Luftrausers gratuit"
+        "Shogun Showdown gratuit"
       ],
       "freshness": "urgent",
       "existing_score": 0,
       "sources": [
         {
           "type": "epic games store",
-          "url": "https://store.epicgames.com/fr/p/luftrausers-51e5e9"
+          "url": "https://store.epicgames.com/fr/p/shogun-showdown-61832d"
         }
       ],
       "score": 89,

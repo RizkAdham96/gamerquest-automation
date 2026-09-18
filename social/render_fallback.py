@@ -240,9 +240,10 @@ def _default_image_fetcher(url):
         return response.read()
 
 
-def _average_hash(image, hash_size=8):
+def _visual_signature(image, hash_size=8):
+    rgb = image.convert("RGB")
     sample = ImageOps.fit(
-        image.convert("L"),
+        rgb.convert("L"),
         (hash_size, hash_size),
         method=Image.Resampling.LANCZOS,
     )
@@ -251,11 +252,21 @@ def _average_hash(image, hash_size=8):
     bits = 0
     for value in pixels:
         bits = (bits << 1) | int(value >= average)
-    return bits
+
+    color_sample = rgb.resize((1, 1), Image.Resampling.LANCZOS)
+    average_color = color_sample.getpixel((0, 0))
+    return bits, average_color
 
 
 def _hamming_distance(left, right):
     return (int(left) ^ int(right)).bit_count()
+
+
+def _color_distance(left, right):
+    return sum(
+        (int(a) - int(b)) ** 2
+        for a, b in zip(left, right)
+    ) ** 0.5
 
 
 def validate_source_images(image_urls, image_fetcher=None):
@@ -265,7 +276,7 @@ def validate_source_images(image_urls, image_fetcher=None):
 
     fetcher = image_fetcher or _default_image_fetcher
     validated = []
-    hashes = []
+    signatures = []
 
     for url in image_urls:
         try:
@@ -283,7 +294,7 @@ def validate_source_images(image_urls, image_fetcher=None):
                         f"Source image is too small for Instagram: "
                         f"{width}x{height} ({url})"
                     )
-                visual_hash = _average_hash(image)
+                signature = _visual_signature(image)
         except RuntimeError:
             raise
         except Exception as exc:
@@ -291,14 +302,19 @@ def validate_source_images(image_urls, image_fetcher=None):
                 f"Could not validate source image quality: {url} ({exc})"
             ) from exc
 
-        for previous_hash in hashes:
-            if _hamming_distance(visual_hash, previous_hash) <= DUPLICATE_HASH_DISTANCE:
+        for previous_hash, previous_color in signatures:
+            visual_hash, average_color = signature
+            if (
+                _hamming_distance(visual_hash, previous_hash)
+                <= DUPLICATE_HASH_DISTANCE
+                and _color_distance(average_color, previous_color) <= 45
+            ):
                 raise RuntimeError(
                     "Carousel source images are visually duplicated; "
                     "refusing to publish repeated artwork."
                 )
 
-        hashes.append(visual_hash)
+        signatures.append(signature)
         validated.append(str(url))
 
     return validated

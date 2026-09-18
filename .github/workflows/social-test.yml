@@ -48,6 +48,7 @@ jobs:
           python tests/social/test_prepare_publish.py
           python tests/social/test_publish_run.py
           python tests/social/test_render_fallback_source_image.py
+          python tests/social/test_run_fresh.py
           python tests/social/test_meta_healthcheck.py
 
       - name: Meta publishing preflight
@@ -64,7 +65,7 @@ jobs:
         env:
           PYTHONPATH: .
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: python -m social.run
+        run: python -m social.run_fresh
 
       - name: Check social generation status
         id: social_status

@@ -8,6 +8,14 @@ on:
         required: true
         default: false
         type: boolean
+
+  # Temporary non-publishing smoke trigger for the Instagram regression fix.
+  # Publish steps do not run on push, and generated social-published files do
+  # not match this path filter, so this cannot loop.
+  push:
+    paths:
+      - ".github/workflows/social-test.yml"
+
   schedule:
     - cron: "30 18 * * 2,5"
       timezone: "Europe/Paris"

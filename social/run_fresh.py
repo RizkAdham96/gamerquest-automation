@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 from social import run as social_run
-from social.render_fallback import resolve_featured_images
+from social.render_fallback import resolve_publishable_images
 
 
 PUBLISH_HISTORY_FILE = Path("social/publish_history.json")
@@ -29,7 +29,7 @@ def filter_already_published(content, publish_history):
     return fresh
 
 
-def filter_renderable_sources(content, image_resolver=resolve_featured_images):
+def filter_renderable_sources(content, image_resolver=resolve_publishable_images):
     """Keep only fresh sources that resolve to 3 distinct, relevant visuals."""
     renderable = []
     for item in content:

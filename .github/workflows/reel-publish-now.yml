@@ -1,0 +1,115 @@
+name: GamerQuest Reel Publish Now
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".trigger-reel-publish-now"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gamerquest-repo-writer
+  cancel-in-progress: false
+
+jobs:
+  publish-reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GQ_LIVE_PUBLISH: "true"
+      GQ_MAX_REELS_PER_WEEK: "3"
+      GQ_MIN_TOPIC_SCORE: "55"
+      GQ_META_API_VERSION: "v26.0"
+      GQ_INSTAGRAM_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      GQ_INSTAGRAM_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout GamerQuest automation
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak
+
+      - name: Checkout Reel agent
+        run: |
+          git clone --depth 1 https://github.com/RizkAdham96/gamerquest-social-agent.git reel-agent
+
+      - name: Install Reel agent
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ./reel-agent pytest
+
+      - name: Verify required Meta configuration
+        run: |
+          test -n "$GQ_INSTAGRAM_USER_ID" || (echo "Missing META_IG_USER_ID secret" >&2; exit 1)
+          test -n "$GQ_INSTAGRAM_ACCESS_TOKEN" || (echo "Missing META_FB_PAGE_ACCESS_TOKEN secret" >&2; exit 1)
+          echo "Using the existing GamerQuest Meta publishing credentials."
+
+      - name: Generate and publish one Reel
+        id: publish_reel
+        shell: bash
+        run: |
+          mkdir -p reel-agent/output
+          set +e
+          (
+            cd reel-agent
+            python -m automation.main \
+              --topics topics.live.json \
+              --output-dir output \
+              --publish-log state/publish_log.json
+          ) 2>&1 | tee reel-live-run.log
+          STATUS=${PIPESTATUS[0]}
+          exit "$STATUS"
+
+      - name: Record successful Reel publish
+        if: success()
+        shell: bash
+        run: |
+          cp reel-agent/state/publish_log.json reel-publish-result.json
+          git config user.name "GamerQuest Reel Bot"
+          git config user.email "actions@github.com"
+          git add reel-publish-result.json
+          git commit -m "social: record Instagram Reel publish result" || exit 0
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+
+      - name: Record Reel publish failure
+        if: failure()
+        shell: bash
+        run: |
+          {
+            echo "Run failed at: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo
+            tail -n 160 reel-live-run.log 2>/dev/null || true
+          } > reel-publish-error.txt
+          git config user.name "GamerQuest Reel Bot"
+          git config user.email "actions@github.com"
+          git add reel-publish-error.txt
+          git commit -m "social: record Reel publish failure" || exit 0
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+
+      - name: Upload Reel artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gamerquest-live-reel
+          path: |
+            reel-agent/output/
+            reel-live-run.log
+          if-no-files-found: warn
+          retention-days: 30

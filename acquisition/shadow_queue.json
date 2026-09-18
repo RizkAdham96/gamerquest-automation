@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T16:24:45.871877+00:00",
+  "generated_at": "2026-09-18T20:55:19.967664+00:00",
   "mode": "shadow",
-  "count": 4,
+  "count": 3,
   "opportunities": [
     {
       "id": "92e552851e316c3e07b837166b8705c6c43676eaa7aaa90b65fc893bb331d522",
@@ -120,38 +120,6 @@
         "specific long-tail angle",
         "strong social/distribution hook",
         "blocked by existing coverage"
-      ]
-    },
-    {
-      "id": "4902be5a92e0c9fbb7c343829c9f1e3b75ef380a1acfc175831da4c0d391d1a4",
-      "title": "Grand Theft Auto IV: The Complete Edition à -70% sur Steam",
-      "source_type": "deal",
-      "keywords": [
-        "Grand Theft Auto IV: The Complete Edition",
-        "Steam"
-      ],
-      "freshness": "fresh",
-      "existing_score": 0,
-      "sources": [
-        {
-          "type": "steam",
-          "url": "https://store.steampowered.com/app/12210/"
-        }
-      ],
-      "score": 61,
-      "decision": "WATCH",
-      "duplicate_risk": false,
-      "breakdown": {
-        "specificity": 18,
-        "search_intent": 5,
-        "freshness": 10,
-        "competition_proxy": 8,
-        "gamerquest_fit": 10,
-        "distribution_potential": 5,
-        "internal_link_potential": 5
-      },
-      "reasons": [
-        "weak acquisition signal"
       ]
     }
   ]

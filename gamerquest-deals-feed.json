@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-18T07:24:31.108346+00:00",
+  "generated_at": "2026-09-18T12:58:28.040872+00:00",
   "count": 3,
   "articles": [
     {
-      "source_id": "633ab0b5c1c905066d7190d3dcc4633eb6e8cd90eda5945fe4d7c2d9074d2eb4",
-      "title": "Far Cry® 6 à -90% sur Steam",
-      "excerpt": "Far Cry® 6 bénéficie actuellement d'une réduction de 90% sur Steam, passant de 59,99 € à 5,99 €.",
-      "content": "<p><strong>Far Cry® 6</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>5,99 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2369390/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/2369390/",
+      "source_id": "4902be5a92e0c9fbb7c343829c9f1e3b75ef380a1acfc175831da4c0d391d1a4",
+      "title": "Grand Theft Auto IV: The Complete Edition à -70% sur Steam",
+      "excerpt": "Grand Theft Auto IV: The Complete Edition bénéficie actuellement d'une réduction de 70% sur Steam, passant de 19,99 € à 5,99 €.",
+      "content": "<p><strong>Grand Theft Auto IV: The Complete Edition</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>19,99 €</strong></li><li>Prix actuel : <strong>5,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/12210/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/12210/",
       "deal": {
-        "game": "Far Cry® 6",
+        "game": "Grand Theft Auto IV: The Complete Edition",
         "store": "Steam",
-        "original_price": 59.99,
+        "original_price": 19.99,
         "current_price": 5.99,
-        "discount_percent": 90,
+        "discount_percent": 70,
         "expires_at": null
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/633ab0b5c1c905066d7190d3dcc4633eb6e8cd90eda5945fe4d7c2d9074d2eb4.jpg",
-        "filename": "633ab0b5c1c905066d7190d3dcc4633eb6e8cd90eda5945fe4d7c2d9074d2eb4.jpg",
-        "alt": "Far Cry® 6 -90% sur Steam - GamerQuest",
-        "caption": "Far Cry® 6 : offre -90% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Far Cry® 6 sur Steam."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/4902be5a92e0c9fbb7c343829c9f1e3b75ef380a1acfc175831da4c0d391d1a4.jpg",
+        "filename": "4902be5a92e0c9fbb7c343829c9f1e3b75ef380a1acfc175831da4c0d391d1a4.jpg",
+        "alt": "Grand Theft Auto IV: The Complete Edition -70% sur Steam - GamerQuest",
+        "caption": "Grand Theft Auto IV: The Complete Edition : offre -70% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Grand Theft Auto IV: The Complete Edition sur Steam."
       }
     },
     {

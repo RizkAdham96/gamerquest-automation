@@ -2,9 +2,12 @@ import json
 import re
 import shutil
 import urllib.request
+from io import BytesIO
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
+
+from PIL import Image, ImageOps
 
 from social.render import clean_carousel_copy
 from social.renderer import render_carousel
@@ -13,6 +16,11 @@ from social.sources import get_all_content
 
 OUTPUT_FILE = Path("social-output.json")
 OUTPUT_DIR = Path("social-rendered")
+
+MIN_SOURCE_WIDTH = 900
+MIN_SOURCE_HEIGHT = 500
+MIN_SOURCE_PIXELS = 700_000
+DUPLICATE_HASH_DISTANCE = 7
 
 _BLOCKED_IMAGE_HINTS = (
     "logo",
@@ -223,6 +231,96 @@ def _score_image(url, alt, keywords):
     return score
 
 
+def _default_image_fetcher(url):
+    request = urllib.request.Request(
+        str(url),
+        headers={"User-Agent": "GamerQuest-Social/1.0"},
+    )
+    with urllib.request.urlopen(request, timeout=25) as response:
+        return response.read()
+
+
+def _average_hash(image, hash_size=8):
+    sample = ImageOps.fit(
+        image.convert("L"),
+        (hash_size, hash_size),
+        method=Image.Resampling.LANCZOS,
+    )
+    pixels = list(sample.getdata())
+    average = sum(pixels) / len(pixels)
+    bits = 0
+    for value in pixels:
+        bits = (bits << 1) | int(value >= average)
+    return bits
+
+
+def _hamming_distance(left, right):
+    return (int(left) ^ int(right)).bit_count()
+
+
+def validate_source_images(image_urls, image_fetcher=None):
+    """Require three genuinely different, publication-quality source images."""
+    if not isinstance(image_urls, (list, tuple)) or len(image_urls) != 3:
+        raise RuntimeError("Exactly three source images are required.")
+
+    fetcher = image_fetcher or _default_image_fetcher
+    validated = []
+    hashes = []
+
+    for url in image_urls:
+        try:
+            raw = fetcher(url)
+            with Image.open(BytesIO(raw)) as image:
+                image.load()
+                width, height = image.size
+                pixels = width * height
+                if (
+                    width < MIN_SOURCE_WIDTH
+                    or height < MIN_SOURCE_HEIGHT
+                    or pixels < MIN_SOURCE_PIXELS
+                ):
+                    raise RuntimeError(
+                        f"Source image is too small for Instagram: "
+                        f"{width}x{height} ({url})"
+                    )
+                visual_hash = _average_hash(image)
+        except RuntimeError:
+            raise
+        except Exception as exc:
+            raise RuntimeError(
+                f"Could not validate source image quality: {url} ({exc})"
+            ) from exc
+
+        for previous_hash in hashes:
+            if _hamming_distance(visual_hash, previous_hash) <= DUPLICATE_HASH_DISTANCE:
+                raise RuntimeError(
+                    "Carousel source images are visually duplicated; "
+                    "refusing to publish repeated artwork."
+                )
+
+        hashes.append(visual_hash)
+        validated.append(str(url))
+
+    return validated
+
+
+def resolve_publishable_images(
+    source_id,
+    content_items=None,
+    page_fetcher=None,
+    image_fetcher=None,
+):
+    images = resolve_featured_images(
+        source_id,
+        content_items=content_items,
+        page_fetcher=page_fetcher,
+    )
+    return validate_source_images(
+        images,
+        image_fetcher=image_fetcher,
+    )
+
+
 def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
     source_id = str(source_id or "").strip()
     if not source_id:
@@ -314,7 +412,7 @@ def resolve_featured_image(source_id, content_items=None):
 def main():
     carousel = load_ready_carousel()
     source_id = load_source_id()
-    featured_images = resolve_featured_images(source_id)
+    featured_images = resolve_publishable_images(source_id)
 
     if OUTPUT_DIR.exists():
         shutil.rmtree(OUTPUT_DIR)

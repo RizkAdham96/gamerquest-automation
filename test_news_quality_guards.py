@@ -230,3 +230,299 @@ def test_remember_news_topic_persists_new_topic(monkeypatch, tmp_path):
     automation.remember_news_topic(item)
     loaded = automation.load_news_topic_history()
     assert loaded[0]["slug"] == "project-nova-date-sortie"
+
+
+
+def test_search_collects_fallback_candidates_even_when_first_search_has_results(monkeypatch):
+    calls = []
+
+    class FakeResponse:
+        def __init__(self, number):
+            self.number = number
+
+        def raise_for_status(self):
+            return None
+
+        def json(self):
+            return {
+                "results": [
+                    {
+                        "title": f"Fresh story {self.number}",
+                        "url": f"https://example.com/story-{self.number}",
+                        "content": "x" * 2000,
+                        "published_date": "2026-09-18",
+                    }
+                ]
+            }
+
+    def fake_post(*args, **kwargs):
+        calls.append(kwargs["json"]["query"])
+        return FakeResponse(len(calls))
+
+    monkeypatch.setattr(
+        automation,
+        "check_monthly_credit_safety",
+        lambda: {"searches_used": 0},
+    )
+    monkeypatch.setattr(
+        automation,
+        "record_tavily_search",
+        lambda state: state.__setitem__(
+            "searches_used",
+            state["searches_used"] + 1,
+        ),
+    )
+    monkeypatch.setattr(
+        automation.requests,
+        "post",
+        fake_post,
+    )
+    monkeypatch.setattr(
+        automation,
+        "source_already_used",
+        lambda url: False,
+    )
+    monkeypatch.setattr(
+        automation,
+        "source_tier",
+        lambda url: 2,
+    )
+    monkeypatch.setattr(
+        automation,
+        "result_content_length",
+        lambda result: 2000,
+    )
+
+    results = automation.search_gaming_news()
+
+    expected_searches = min(
+        automation.MAX_TAVILY_SEARCHES_PER_RUN,
+        len(automation.SEARCH_QUERIES),
+    )
+    assert len(calls) == expected_searches
+    assert len(results) == expected_searches
+
+
+def test_main_retries_next_candidate_after_source_validation_rejection(monkeypatch):
+    stories = [
+        {
+            "title": "Bad candidate",
+            "url": "https://example.com/bad",
+        },
+        {
+            "title": "Good candidate",
+            "url": "https://example.com/good",
+        },
+    ]
+    saved = []
+
+    article_data = (
+        "SEO title",
+        "meta",
+        "keyword",
+        "",
+        "information",
+        "good-candidate",
+        "Good candidate",
+        "excerpt",
+        "Actualités",
+        "Good Candidate",
+        "Fresh article body.",
+    )
+
+    monkeypatch.setattr(
+        automation,
+        "search_gaming_news",
+        lambda: list(stories),
+    )
+    monkeypatch.setattr(
+        automation,
+        "select_best_story",
+        lambda results: results[0],
+    )
+    monkeypatch.setattr(
+        automation,
+        "find_matching_official_source",
+        lambda selected, results: None,
+    )
+    monkeypatch.setattr(
+        automation,
+        "extract_page",
+        lambda story: "source text " * 200,
+    )
+    monkeypatch.setattr(
+        automation,
+        "validate_source",
+        lambda story, source_text: (
+            (False, "bad source")
+            if story["url"].endswith("/bad")
+            else (True, "ok")
+        ),
+    )
+    monkeypatch.setattr(
+        automation,
+        "save_rejection_report",
+        lambda *args, **kwargs: None,
+    )
+    monkeypatch.setattr(
+        automation.time,
+        "sleep",
+        lambda seconds: None,
+    )
+    monkeypatch.setattr(
+        automation,
+        "generate_article",
+        lambda *args, **kwargs: "generated",
+    )
+    monkeypatch.setattr(
+        automation,
+        "parse_article",
+        lambda generated: article_data,
+    )
+    monkeypatch.setattr(
+        automation,
+        "verify_and_correct_article",
+        lambda data, source_text, official_text: data,
+    )
+    monkeypatch.setattr(
+        automation,
+        "news_quality_rejection",
+        lambda data: "",
+    )
+    monkeypatch.setattr(
+        automation,
+        "add_contextual_internal_links",
+        lambda data: data,
+    )
+    monkeypatch.setattr(
+        automation,
+        "save_draft",
+        lambda data, story, official_story: saved.append(
+            ("draft", story["url"])
+        ),
+    )
+    monkeypatch.setattr(
+        automation,
+        "save_news_to_feed",
+        lambda data, story, official_story: (
+            saved.append(("feed", story["url"]))
+            or {"slug": "good-candidate"}
+        ),
+    )
+
+    automation.main()
+
+    assert ("feed", "https://example.com/good") in saved
+    assert ("feed", "https://example.com/bad") not in saved
+
+
+def test_main_retries_next_candidate_after_quality_guard_rejection(monkeypatch):
+    stories = [
+        {
+            "title": "Duplicate candidate",
+            "url": "https://example.com/duplicate",
+        },
+        {
+            "title": "Fresh candidate",
+            "url": "https://example.com/fresh",
+        },
+    ]
+    saved = []
+
+    def article_for(url):
+        duplicate = url.endswith("/duplicate")
+        return (
+            "SEO title",
+            "meta",
+            "keyword",
+            "",
+            "information",
+            "duplicate" if duplicate else "fresh",
+            "Duplicate candidate" if duplicate else "Fresh candidate",
+            "excerpt",
+            "Actualités",
+            "Gaming",
+            "Article body.",
+        )
+
+    monkeypatch.setattr(
+        automation,
+        "search_gaming_news",
+        lambda: list(stories),
+    )
+    monkeypatch.setattr(
+        automation,
+        "select_best_story",
+        lambda results: results[0],
+    )
+    monkeypatch.setattr(
+        automation,
+        "find_matching_official_source",
+        lambda selected, results: None,
+    )
+    monkeypatch.setattr(
+        automation,
+        "extract_page",
+        lambda story: "source text " * 200,
+    )
+    monkeypatch.setattr(
+        automation,
+        "validate_source",
+        lambda story, source_text: (True, "ok"),
+    )
+    monkeypatch.setattr(
+        automation.time,
+        "sleep",
+        lambda seconds: None,
+    )
+    monkeypatch.setattr(
+        automation,
+        "generate_article",
+        lambda story, *args, **kwargs: story["url"],
+    )
+    monkeypatch.setattr(
+        automation,
+        "parse_article",
+        article_for,
+    )
+    monkeypatch.setattr(
+        automation,
+        "verify_and_correct_article",
+        lambda data, source_text, official_text: data,
+    )
+    monkeypatch.setattr(
+        automation,
+        "news_quality_rejection",
+        lambda data: (
+            "The same News story already exists in the feed."
+            if data[5] == "duplicate"
+            else ""
+        ),
+    )
+    monkeypatch.setattr(
+        automation,
+        "save_rejection_report",
+        lambda *args, **kwargs: None,
+    )
+    monkeypatch.setattr(
+        automation,
+        "add_contextual_internal_links",
+        lambda data: data,
+    )
+    monkeypatch.setattr(
+        automation,
+        "save_draft",
+        lambda *args, **kwargs: None,
+    )
+    monkeypatch.setattr(
+        automation,
+        "save_news_to_feed",
+        lambda data, story, official_story: (
+            saved.append(story["url"])
+            or {"slug": data[5]}
+        ),
+    )
+
+    automation.main()
+
+    assert saved == ["https://example.com/fresh"]

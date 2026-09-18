@@ -77,5 +77,53 @@ class TestFallbackSourceImage(unittest.TestCase):
             )
 
 
+    def test_rejects_high_resolution_unrelated_article_images(self):
+        source_id = "article-123"
+        articles = [
+            {
+                "source_id": source_id,
+                "title": "Final Fantasy VII Revelation release date",
+                "tags": ["Final Fantasy VII", "Revelation", "Square Enix"],
+                "source": {"url": "https://source.example.com/final-fantasy"},
+                "featured_image": {
+                    "url": "https://cdn.example.com/final-fantasy-vii-cover.jpg",
+                },
+            }
+        ]
+
+        html = """
+        <html><body>
+          <img src="https://cdn.example.com/unrelated-mario-4k.jpg"
+               alt="Mario movie promotional artwork">
+          <img src="https://cdn.example.com/cloud-gameplay-1.jpg"
+               alt="Final Fantasy VII Revelation Cloud gameplay">
+          <img src="https://cdn.example.com/tifa-gameplay-2.jpg"
+               alt="Final Fantasy VII Revelation Tifa gameplay">
+        </body></html>
+        """
+
+        images = render_fallback.resolve_featured_images(
+            source_id,
+            content_items=articles,
+            page_fetcher=lambda url: html,
+        )
+
+        self.assertEqual(len(images), 3)
+        self.assertNotIn(
+            "https://cdn.example.com/unrelated-mario-4k.jpg",
+            images,
+        )
+
+    def test_accepts_hashed_cdn_url_when_alt_text_matches_topic(self):
+        keywords = {"zelda", "ocarina", "switch"}
+        self.assertTrue(
+            render_fallback._looks_like_content_image(
+                "https://images.example.com/a1222a9011485/large.jpg",
+                "Zelda Ocarina of Time Switch 2 gameplay",
+                keywords,
+            )
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

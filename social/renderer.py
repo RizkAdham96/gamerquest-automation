@@ -390,35 +390,54 @@ def _image_background(
         )
     )
 
-    if index == 1:
-        centering = (
-            0.50,
-            0.40,
-        )
-
-    elif index == 2:
-        centering = (
-            0.50,
-            0.43,
-        )
-
-    else:
-        centering = (
-            0.50,
-            0.42,
-        )
-
-    return ImageOps.fit(
+    # Preserve the complete source artwork. The old implementation used
+    # ImageOps.fit(), which can crop faces, characters, logos, and important
+    # UI near the edges. We now build a blurred full-bleed backdrop and place
+    # an uncropped contained version of the source on top.
+    backdrop = ImageOps.fit(
         source,
         (
             WIDTH,
             HEIGHT,
         ),
-        method=(
-            Image.Resampling.LANCZOS
-        ),
-        centering=centering,
+        method=Image.Resampling.LANCZOS,
+        centering=(0.50, 0.50),
     )
+    backdrop = backdrop.filter(
+        ImageFilter.GaussianBlur(28)
+    )
+    backdrop = ImageEnhance.Brightness(
+        backdrop
+    ).enhance(0.58)
+
+    foreground = ImageOps.contain(
+        source,
+        (
+            WIDTH,
+            HEIGHT,
+        ),
+        method=Image.Resampling.LANCZOS,
+    )
+
+    x = (
+        WIDTH
+        - foreground.width
+    ) // 2
+
+    y = (
+        HEIGHT
+        - foreground.height
+    ) // 2
+
+    backdrop.paste(
+        foreground,
+        (
+            x,
+            y,
+        ),
+    )
+
+    return backdrop
 
 
 # =========================================================

@@ -139,6 +139,8 @@ class TestPublishRun(unittest.TestCase):
             history = json.loads(history_file.read_text(encoding="utf-8"))
             self.assertEqual(history["article-123"]["instagram"]["carousel_version"], "version-new")
             self.assertEqual(history["article-123"]["facebook"]["carousel_version"], "version-new")
+            self.assertTrue(history["article-123"]["instagram"]["published_at_utc"].endswith("Z"))
+            self.assertTrue(history["article-123"]["facebook"]["published_at_utc"].endswith("Z"))
 
     def test_rejects_mismatched_source_ids(self):
         with self.assertRaises(RuntimeError):

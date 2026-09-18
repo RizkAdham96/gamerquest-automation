@@ -9,6 +9,12 @@ on:
         default: false
         type: boolean
 
+  push:
+    paths:
+      - "social/**/*.py"
+      - "tests/social/**/*.py"
+      - ".github/workflows/social-test.yml"
+
   schedule:
     - cron: "30 18 * * 2,5"
       timezone: "Europe/Paris"

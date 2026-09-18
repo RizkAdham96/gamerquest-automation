@@ -62,6 +62,11 @@ SEARCH_QUERIES = [
 
 MAX_RESULTS = 20
 
+# Do not let one bad SEO pick kill an entire scheduled run.
+# The editor can retry a handful of different candidates while keeping
+# Groq/Tavily usage bounded and predictable.
+MAX_NEWS_CANDIDATE_ATTEMPTS = 6
+
 MIN_SOURCE_TEXT_LENGTH = 250
 
 # We deliberately avoid sending huge pages repeatedly to Groq.
@@ -1827,43 +1832,35 @@ def search_gaming_news():
         )
 
         # ---------------------------------------------
-        # STOP EARLY IF SEARCH 1 WORKED
+        # KEEP SEARCHING FOR A DIVERSIFIED CANDIDATE POOL
         # ---------------------------------------------
         #
-        # We do NOT automatically burn the second
-        # Tavily request.
-        #
-        # Search 2 is a fallback only when search 1
-        # failed to find usable non-duplicate news.
+        # A URL can look usable here and still fail later source validation
+        # or the topic-level quality guard. Collecting both configured
+        # searches gives the retry loop below somewhere useful to go instead
+        # of letting one stale/invalid story kill the scheduled run.
         # ---------------------------------------------
-
-        if clean_results:
-            print("")
-            print(
-                "Usable fresh sources found."
-            )
-
-            print(
-                "Fallback Tavily search "
-                "is not necessary."
-            )
-
-            break
 
         if (
             search_number
             < MAX_TAVILY_SEARCHES_PER_RUN
         ):
             print("")
-            print(
-                "No usable fresh source "
-                "from this search."
-            )
 
-            print(
-                "Trying diversified "
-                "fallback search..."
-            )
+            if clean_results:
+                print(
+                    "Fresh candidates found; "
+                    "collecting diversified fallback candidates too..."
+                )
+            else:
+                print(
+                    "No usable fresh source "
+                    "from this search."
+                )
+                print(
+                    "Trying diversified "
+                    "fallback search..."
+                )
 
     # =====================================================
     # NOTHING FOUND
@@ -4059,32 +4056,7 @@ def save_rejection_report(
 
 ## Reason
 
-{reason}
-
-## Story
-
-{story_title}
-
-## URL
-
-{story_url}
-
-## Result
-
-SOURCE REJECTED - NO ARTICLE CREATED.
-"""
-
-    filename.write_text(
-        report,
-        encoding="utf-8",
-    )
-
-
-# =========================================================
-# MAIN
-# =========================================================
-
-def main():
+{rdef main():
     print("")
     print(
         "==================================="
@@ -4098,147 +4070,274 @@ def main():
         "==================================="
     )
 
-    # 1. Search
+    # 1. Search both configured query pools so one stale/invalid result
+    # cannot leave the run with no fallback candidates.
     results = search_gaming_news()
 
-    # 2. Select SEO opportunity
-    selected_story = select_best_story(
-        results
-    )
+    remaining_results = list(results)
+    attempts = 0
 
-    # 3. BEFORE validation, look for a matching official source returned
-    # by the SAME Tavily search. If one exists, make it the primary writing
-    # source instead of merely using it as a verification footnote.
-    official_story = (
-        find_matching_official_source(
+    while (
+        remaining_results
+        and attempts < MAX_NEWS_CANDIDATE_ATTEMPTS
+    ):
+        attempts += 1
+
+        print("")
+        print(
+            "==================================="
+        )
+        print(
+            f"NEWS CANDIDATE ATTEMPT "
+            f"{attempts}/{MAX_NEWS_CANDIDATE_ATTEMPTS}"
+        )
+        print(
+            "==================================="
+        )
+
+        # 2. Pick the strongest SEO opportunity from candidates that have
+        # not already failed during this run.
+        selected_story = select_best_story(
+            remaining_results
+        )
+
+        selected_url = (
+            selected_story
+            .get("url", "")
+            .strip()
+            .lower()
+            .rstrip("/")
+        )
+
+        # Remove the selected discovery result immediately. Any rejection
+        # below will therefore continue with a different story.
+        remaining_results = [
+            result
+            for result in remaining_results
+            if (
+                result
+                .get("url", "")
+                .strip()
+                .lower()
+                .rstrip("/")
+                != selected_url
+            )
+        ]
+
+        # 3. Prefer a matching official source when it is actually usable.
+        # If the official page is a generic landing page or bad extraction,
+        # fall back to the selected trusted story instead of killing the run.
+        official_story = find_matching_official_source(
             selected_story,
             results,
         )
-    )
 
-    if (
-        official_story
-        and official_story.get("url") != selected_story.get("url")
-    ):
-        print("")
-        print("Switching primary source to matching official source:")
-        print(official_story.get("url", ""))
-        discovery_story = selected_story
-        story = official_story
-    else:
-        discovery_story = selected_story
         story = selected_story
+        source_text = ""
+        valid = False
+        reason = ""
 
-    # 4. Extract and validate the BEST available primary source.
-    source_text = extract_page(
-        story
-    )
-
-    valid, reason = validate_source(
-        story,
-        source_text,
-    )
-
-    if not valid:
-        save_rejection_report(
-            "SOURCE VALIDATION",
-            reason,
-            story,
-        )
-
-        print("")
-        print(
-            "Source rejected."
-        )
-
-        return
-
-    # 5. Keep official verification text when the primary source is official.
-    official_text = ""
-
-    if official_story:
-        print("")
-        print(
-            "Official source available:"
-        )
-        print(
-            official_story.get(
-                "url",
-                ""
+        if (
+            official_story
+            and official_story.get("url")
+            != selected_story.get("url")
+        ):
+            print("")
+            print(
+                "Trying matching official source first:"
             )
-        )
+            print(
+                official_story.get("url", "")
+            )
 
-        if official_story.get("url") == story.get("url"):
-            official_text = source_text
-        else:
-            official_text = extract_page(
+            official_source_text = extract_page(
                 official_story
             )
 
-    else:
-        print("")
-        print(
-            "No matching official source found. "
-            "Using established secondary source only."
-        )
+            official_valid, official_reason = validate_source(
+                official_story,
+                official_source_text,
+            )
 
-    # Small pause between Groq calls.
-    time.sleep(4)
+            if official_valid:
+                story = official_story
+                source_text = official_source_text
+                valid = True
+                reason = ""
+            else:
+                print("")
+                print(
+                    "Official source was not usable; "
+                    "falling back to the selected story."
+                )
+                print(
+                    f"Reason: {official_reason}"
+                )
 
-    # 6. Generate article
-    generated = generate_article(
-        story,
-        source_text,
-        official_story,
-        official_text,
-    )
+                # Do not use a failed official page later as verification.
+                official_story = None
 
-    article_data = parse_article(
-        generated
-    )
+        if not valid:
+            story = selected_story
+            source_text = extract_page(
+                story
+            )
 
-    # 7. Final correction
-    article_data = (
-        verify_and_correct_article(
-            article_data,
+            valid, reason = validate_source(
+                story,
+                source_text,
+            )
+
+        if not valid:
+            save_rejection_report(
+                "SOURCE VALIDATION",
+                reason,
+                story,
+            )
+
+            print("")
+            print(
+                "Source rejected; trying the next candidate."
+            )
+
+            continue
+
+        # 4. Keep official verification text only when the official source
+        # was the validated primary source.
+        official_text = ""
+
+        if official_story:
+            print("")
+            print(
+                "Official source available:"
+            )
+            print(
+                official_story.get(
+                    "url",
+                    ""
+                )
+            )
+
+            if (
+                official_story.get("url")
+                == story.get("url")
+            ):
+                official_text = source_text
+            else:
+                official_text = extract_page(
+                    official_story
+                )
+        else:
+            print("")
+            print(
+                "No usable matching official source found. "
+                "Using established secondary source only."
+            )
+
+        # Small pause between Groq calls.
+        time.sleep(4)
+
+        # 5. Generate article.
+        generated = generate_article(
+            story,
             source_text,
+            official_story,
             official_text,
         )
-    )
 
-    # 8. Stop duplicates or contradictory coverage before creating a draft,
-    # image, or WordPress feed entry.
-    rejection_reason = news_quality_rejection(article_data)
-
-    if rejection_reason:
-        save_rejection_report(
-            "NEWS QUALITY GUARD",
-            rejection_reason,
-            story,
+        article_data = parse_article(
+            generated
         )
+
+        # 6. Final correction.
+        article_data = (
+            verify_and_correct_article(
+                article_data,
+                source_text,
+                official_text,
+            )
+        )
+
+        # 7. A duplicate or contradictory story is a candidate rejection,
+        # not a run-ending event.
+        rejection_reason = news_quality_rejection(
+            article_data
+        )
+
+        if rejection_reason:
+            save_rejection_report(
+                "NEWS QUALITY GUARD",
+                rejection_reason,
+                story,
+            )
+
+            print("")
+            print(
+                "News candidate blocked: "
+                f"{rejection_reason}"
+            )
+            print(
+                "Trying the next candidate."
+            )
+
+            continue
+
+        # 8. Add safe contextual internal links.
+        article_data = add_contextual_internal_links(
+            article_data
+        )
+
+        # 9. Save GitHub Markdown backup.
+        save_draft(
+            article_data,
+            story,
+            official_story,
+        )
+
+        # 10. Save the corrected article into the GitHub news feed.
+        # WordPress pulls this feed internally.
+        saved_article = save_news_to_feed(
+            article_data,
+            story,
+            official_story,
+        )
+
+        if saved_article is None:
+            print("")
+            print(
+                "Feed rejected the candidate at final save; "
+                "trying the next candidate."
+            )
+            continue
+
         print("")
-        print(f"News article blocked: {rejection_reason}")
+        print(
+            "GamerQuest SEO automation "
+            "completed successfully."
+        )
+        print(
+            f"Published after {attempts} "
+            f"candidate attempt(s)."
+        )
         return
 
-    # 9. Add safe contextual internal links.
-    #
-    # Uses existing GamerQuest feed entries only.
-    # No extra Tavily search and no extra Groq request.
-    article_data = add_contextual_internal_links(
-        article_data
+    print("")
+    print(
+        "==================================="
     )
-
-    # 10. Save GitHub Markdown backup
-    save_draft(
-        article_data,
-        story,
-        official_story,
+    print(
+        "NO PUBLISHABLE NEWS CANDIDATE"
     )
-
-    # 11. Save the corrected article into the GitHub news feed.
-    #
-    # WordPress will pull this feed internally.
-    # We do not POST directly from GitHub Actions because
+    print(
+        "==================================="
+    )
+    print(
+        f"Tried {attempts} different candidate(s)."
+    )
+    print(
+        "All were invalid, duplicate, contradictory, "
+        "or otherwise rejected safely."
+    ) We do not POST directly from GitHub Actions because
     # the free hosting layer blocks automated external requests.
     save_news_to_feed(
         article_data,

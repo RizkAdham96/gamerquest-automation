@@ -351,6 +351,31 @@ class TestCarouselRenderer(unittest.TestCase):
             )
 
 
+    def test_background_preserves_portrait_top_and_bottom_edges(self):
+        source = Image.new(
+            "RGB",
+            (400, 1200),
+            (40, 180, 80),
+        )
+        for y in range(0, 120):
+            for x in range(400):
+                source.putpixel((x, y), (240, 20, 20))
+        for y in range(1080, 1200):
+            for x in range(400):
+                source.putpixel((x, y), (20, 40, 240))
+
+        background = renderer._image_background(source, 1)
+
+        self.assertEqual(background.size, (1080, 1350))
+        top = background.getpixel((540, 30))
+        bottom = background.getpixel((540, 1320))
+        self.assertGreater(top[0], top[1])
+        self.assertGreater(top[0], top[2])
+        self.assertGreater(bottom[2], bottom[0])
+        self.assertGreater(bottom[2], bottom[1])
+
+
+
 class TestRenderCLI(unittest.TestCase):
 
     def test_render_from_output_requires_ready_fact_checked_payload(

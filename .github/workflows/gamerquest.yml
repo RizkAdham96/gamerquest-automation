@@ -3,8 +3,14 @@ name: GamerQuest Automation
 on:
   workflow_dispatch:
 
+  # One-shot smoke trigger for the candidate-retry fix.
+  # Scoped to this workflow file so generated content cannot retrigger it.
+  push:
+    paths:
+      - ".github/workflows/gamerquest.yml"
+
   # Automatic news run every 2 hours.
-  # One Tavily search per run => about 360 scheduled searches/month.
+  # Up to two Tavily searches per run => about 720 scheduled searches/month.
   # automation.py still enforces the hard 900/month safety cap.
   schedule:
     - cron: "7 */2 * * *"

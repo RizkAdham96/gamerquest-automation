@@ -1,4 +1,7 @@
 import unittest
+from io import BytesIO
+
+from PIL import Image
 
 from social import render_fallback
 
@@ -123,6 +126,96 @@ class TestFallbackSourceImage(unittest.TestCase):
                 keywords,
             )
         )
+
+
+    def _image_bytes(self, size, color, accent=None):
+        image = Image.new("RGB", size, color)
+        if accent is not None:
+            width, height = size
+            for x in range(max(1, width // 3)):
+                for y in range(max(1, height // 3)):
+                    image.putpixel((x, y), accent)
+        buffer = BytesIO()
+        image.save(buffer, format="JPEG", quality=92)
+        return buffer.getvalue()
+
+    def test_rejects_low_resolution_source_images(self):
+        urls = [
+            "https://cdn.example.com/a.jpg",
+            "https://cdn.example.com/b.jpg",
+            "https://cdn.example.com/c.jpg",
+        ]
+        payloads = {
+            urls[0]: self._image_bytes((1400, 900), (220, 30, 30)),
+            urls[1]: self._image_bytes((640, 360), (30, 220, 30)),
+            urls[2]: self._image_bytes((1400, 900), (30, 30, 220)),
+        }
+
+        with self.assertRaisesRegex(RuntimeError, "too small"):
+            render_fallback.validate_source_images(
+                urls,
+                image_fetcher=lambda url: payloads[url],
+            )
+
+    def test_rejects_same_artwork_served_from_different_urls(self):
+        urls = [
+            "https://cdn-a.example.com/art.jpg",
+            "https://cdn-b.example.com/art-copy.jpg",
+            "https://cdn.example.com/other.jpg",
+        ]
+        same_art = self._image_bytes(
+            (1400, 900),
+            (80, 80, 80),
+            accent=(220, 20, 20),
+        )
+        payloads = {
+            urls[0]: same_art,
+            urls[1]: same_art,
+            urls[2]: self._image_bytes(
+                (1400, 900),
+                (20, 80, 220),
+                accent=(240, 220, 20),
+            ),
+        }
+
+        with self.assertRaisesRegex(RuntimeError, "visually duplicated"):
+            render_fallback.validate_source_images(
+                urls,
+                image_fetcher=lambda url: payloads[url],
+            )
+
+    def test_accepts_three_large_visually_distinct_images(self):
+        urls = [
+            "https://cdn.example.com/a.jpg",
+            "https://cdn.example.com/b.jpg",
+            "https://cdn.example.com/c.jpg",
+        ]
+        payloads = {
+            urls[0]: self._image_bytes(
+                (1400, 900),
+                (220, 30, 30),
+                accent=(20, 20, 20),
+            ),
+            urls[1]: self._image_bytes(
+                (1400, 900),
+                (30, 220, 30),
+                accent=(240, 240, 240),
+            ),
+            urls[2]: self._image_bytes(
+                (1400, 900),
+                (30, 30, 220),
+                accent=(220, 180, 30),
+            ),
+        }
+
+        self.assertEqual(
+            render_fallback.validate_source_images(
+                urls,
+                image_fetcher=lambda url: payloads[url],
+            ),
+            urls,
+        )
+
 
 
 if __name__ == "__main__":

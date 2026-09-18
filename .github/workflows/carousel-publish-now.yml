@@ -1,0 +1,114 @@
+name: GamerQuest Carousel Publish Now
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".trigger-carousel-publish-now"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gamerquest-repo-writer
+  cancel-in-progress: false
+
+jobs:
+  publish-carousel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+      META_IG_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+      META_GRAPH_API_VERSION: "v26.0"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependency
+        run: pip install requests
+
+      - name: Publish prepared carousel to Instagram
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          from social import meta_publisher
+
+          source_id = "1f45c9b3785e8cd78bb7b23c2b576427edcc955f3d8f2a403c8d17698fc70b49"
+          version = "349b34f0a45eeb0cd3dc46f949379aaaa03d883fd74b571cbd360d5e08dcb584"
+          base = (
+              "https://raw.githubusercontent.com/"
+              "RizkAdham96/gamerquest-automation/main/"
+              f"social-published/{source_id}/"
+          )
+          image_urls = [
+              base + "slide-1.png",
+              base + "slide-2.png",
+              base + "slide-3.png",
+          ]
+
+          caption = (
+              "Resident Evil : Night 0 sort le 17 septembre 2026. "
+              "Voici l’essentiel de l’annonce présentée au State of Play. "
+              "Tu veux plus d’actu gaming rapide ? Suis GamerQuest FR.\n\n"
+              "#ResidentEvil #GamingFR #GamerQuestFR #StateOfPlay #JeuxVideo"
+          )
+
+          # This repo authenticates Instagram publishing with a Facebook/Page token.
+          meta_publisher.INSTAGRAM_GRAPH_BASE_URL = meta_publisher.FACEBOOK_GRAPH_BASE_URL
+
+          result = meta_publisher.publish_instagram_carousel(
+              image_urls=image_urls,
+              caption=caption,
+              ig_user_id=os.environ["META_IG_USER_ID"],
+              access_token=os.environ["META_IG_ACCESS_TOKEN"],
+          )
+
+          history_path = Path("social/publish_history.json")
+          history = meta_publisher.load_publish_history(history_path)
+          source_history = history.setdefault(source_id, {})
+          source_history["instagram"] = {
+              "published": True,
+              "post_id": result["post_id"],
+              "carousel_version": version,
+          }
+          meta_publisher.save_publish_history(history, history_path)
+
+          Path("carousel-publish-result.json").write_text(
+              json.dumps(
+                  {
+                      "source_id": source_id,
+                      "carousel_version": version,
+                      "instagram": result,
+                  },
+                  ensure_ascii=False,
+                  indent=2,
+              ),
+              encoding="utf-8",
+          )
+
+          print("Instagram carousel media ID:", result["post_id"])
+          PY
+
+      - name: Commit Instagram publish result
+        run: |
+          git config user.name "GamerQuest Social Bot"
+          git config user.email "actions@github.com"
+          git add social/publish_history.json carousel-publish-result.json
+          git commit -m "social: record Instagram carousel publish result" || exit 0
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

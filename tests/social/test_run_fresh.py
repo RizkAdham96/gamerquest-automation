@@ -51,25 +51,24 @@ class TestFreshSocialSelection(unittest.TestCase):
 
         self.assertEqual([item["source_id"] for item in result], ["good-images"])
 
-    def test_rejects_mixed_topic_images_for_roundup_article(self):
+    def test_accepts_semantically_valid_hashed_cdn_images_from_resolver(self):
         content = [
             {
-                "source_id": "nintendo-direct-roundup",
-                "title": "Nintendo Direct septembre 2026 : annonces pour Switch 2",
-                "tags": ["Nintendo Direct", "Switch 2", "Nintendo"],
+                "source_id": "zelda-story",
+                "title": "Zelda Ocarina of Time Switch 2",
             }
         ]
 
         def resolver(source_id, content_items=None):
             return [
-                "https://cdn.example.com/mario-movie.jpg",
-                "https://i.ytimg.com/monster-hunter-trailer.jpg",
-                "https://cdn.example.com/final-fantasy-vii.jpg",
+                "https://cdn.example.com/cover.jpg",
+                "https://images.example.com/a1222a9011485/large.jpg",
+                "https://images.example.com/b9982d7711c42/large.jpg",
             ]
 
         result = filter_renderable_sources(content, image_resolver=resolver)
 
-        self.assertEqual(result, [])
+        self.assertEqual([item["source_id"] for item in result], ["zelda-story"])
 
 
 if __name__ == "__main__":

@@ -185,8 +185,20 @@ def _looks_like_content_image(url, alt, keywords):
     text = f"{url} {alt}".lower()
     if any(hint in text for hint in _BLOCKED_IMAGE_HINTS):
         return False
+
     path = urlparse(url).path.lower()
-    return path.endswith((".jpg", ".jpeg", ".png", ".webp", ".avif"))
+    if not path.endswith((".jpg", ".jpeg", ".png", ".webp", ".avif")):
+        return False
+
+    # Source pages often contain high-resolution but unrelated sidebar,
+    # promo, newsletter, or cross-article images. Require at least one
+    # article-specific term in the URL or alt text before the image can
+    # enter the ranking pool. This keeps hashed CDN URLs valid when their
+    # alt text describes the actual game/topic.
+    if keywords and not any(term in text for term in keywords):
+        return False
+
+    return True
 
 
 def _score_image(url, alt, keywords):

@@ -3,10 +3,9 @@ name: GamerQuest Social Publish Recovery
 on:
   workflow_dispatch:
   schedule:
-    # Publish twice per week at 18:00 Europe/Paris time.
-    - cron: "0 18 * * 2"
-      timezone: "Europe/Paris"
-    - cron: "0 18 * * 5"
+    # Primary social automation runs at 18:30 Europe/Paris.
+    # Recovery waits 45 minutes and only runs if Instagram did not publish today.
+    - cron: "15 19 * * 2,5"
       timezone: "Europe/Paris"
 
 permissions:
@@ -17,7 +16,68 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  recovery-check:
+    runs-on: ubuntu-latest
+    outputs:
+      should_recover: ${{ steps.guard.outputs.should_recover }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check whether Instagram already published today
+        id: guard
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          history_path = Path("social/publish_history.json")
+          today = datetime.now(ZoneInfo("Europe/Paris")).date()
+          published_today = False
+
+          if history_path.exists():
+              try:
+                  history = json.loads(history_path.read_text(encoding="utf-8"))
+              except Exception as exc:
+                  print(f"Could not read publish history: {exc}")
+                  history = {}
+
+              if isinstance(history, dict):
+                  for source_id, state in history.items():
+                      if not isinstance(state, dict):
+                          continue
+                      instagram = state.get("instagram", {})
+                      if not isinstance(instagram, dict):
+                          continue
+                      if instagram.get("published") is not True:
+                          continue
+                      stamp = str(instagram.get("published_at_utc", "")).strip()
+                      if not stamp:
+                          continue
+                      try:
+                          dt = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+                      except ValueError:
+                          continue
+                      if dt.astimezone(ZoneInfo("Europe/Paris")).date() == today:
+                          print(f"Instagram already published today: {source_id} at {stamp}")
+                          published_today = True
+                          break
+
+          should_recover = not published_today
+          print(f"Recovery required: {should_recover}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(
+                  f"should_recover={'true' if should_recover else 'false'}\n"
+              )
+          PY
+
   recover-social-publish:
+    needs: recovery-check
+    if: ${{ needs.recovery-check.outputs.should_recover == 'true' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -45,6 +105,16 @@ jobs:
           python tests/social/test_publish_run.py
           python tests/social/test_render_fallback_source_image.py
           python tests/social/test_run_fresh.py
+          python tests/social/test_renderer.py
+
+      - name: Meta publishing preflight
+        env:
+          PYTHONPATH: .
+          META_FB_PAGE_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_GRAPH_API_VERSION: v26.0
+        run: python -m social.meta_healthcheck
 
       - name: Generate fresh social carousel content
         env:
@@ -67,11 +137,15 @@ jobs:
               payload = json.loads(path.read_text(encoding="utf-8"))
               ready = payload.get("status") == "ready"
           print(f"Carousel ready: {ready}")
-          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
-              f.write(f"ready={'true' if ready else 'false'}\n")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"ready={'true' if ready else 'false'}\n")
           PY
 
-      - name: Render carousel with exact article image
+      - name: Stop safely if no publishable story exists
+        if: ${{ steps.social_status.outputs.ready != 'true' }}
+        run: echo "No fresh story passed the publishing gates; recovery ends without publishing."
+
+      - name: Render carousel without destructive cropping
         if: ${{ steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
@@ -90,7 +164,17 @@ jobs:
         shell: bash
         run: |
           test "$(find social-rendered -type f -name 'slide-*.png' | wc -l)" -eq 3
-          ls -lh social-rendered/slide-*.png
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+
+          paths = sorted(Path("social-rendered").glob("slide-*.png"))
+          assert len(paths) == 3
+          for path in paths:
+              with Image.open(path) as image:
+                  assert image.size == (1080, 1350), (path, image.size)
+                  print(path, image.size, path.stat().st_size)
+          PY
 
       - name: Commit prepared carousel
         if: ${{ steps.social_status.outputs.ready == 'true' }}

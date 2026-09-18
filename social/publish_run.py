@@ -2,6 +2,7 @@ import json
 import os
 import time
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
 from social.meta_publisher import (
@@ -100,7 +101,13 @@ def _mark_platform(history, source_id, platform, published, post_id="", error=""
     if not isinstance(history, dict):
         history = {}
     source_history = history.setdefault(source_id, {})
-    payload = {"published": bool(published), "post_id": _clean(post_id)}
+    payload = {
+        "published": bool(published),
+        "post_id": _clean(post_id),
+        "updated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+    }
+    if published:
+        payload["published_at_utc"] = payload["updated_at_utc"]
     if carousel_version:
         payload["carousel_version"] = _clean(carousel_version)
     if error:

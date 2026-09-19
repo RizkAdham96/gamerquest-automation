@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-19T08:52:01.894963+00:00",
+  "updated_at": "2026-09-19T08:57:43.741985+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -382,6 +382,315 @@
         "suggested_title": "Bruce Straley s’excuse d’avoir cité God of War Laufey pour critiquer l’innovation AAA"
       },
       "reasoning": "Le sujet est une information très récente et ponctuelle : il ne possède pas de valeur durable et ne pourra pas générer de trafic à long terme. La requête est très spécifique à l'événement et ne correspond pas à une recherche evergreen. Bien que les deux titres (The Last of Us, God of War) soient populaires en France, la concurrence sur les actualités de ce type est élevée et les requêtes sont principalement de nature journalistique, ce qui ne correspond pas à la stratégie de création de ressources pérennes. Le potentiel de liens internes existe mais reste limité à quelques pages de jeux et dossiers d'innovation. En conséquence, le score global reste faible, indiquant que ce sujet ne mérite pas une ressource SEO evergreen dédiée, mais plutôt un article d'actualité ponctuel."
+    },
+    {
+      "id": "rss-i-suck-at-overwatch-but-i-was-dominating-with-new-hero--b2f5651b8104",
+      "topic": "I suck at Overwatch but I was dominating with new hero Doctrine, so I smell a nerf coming",
+      "detected_at": "2026-09-19T08:50:47.513668+00:00",
+      "analysed_at": "2026-09-19T08:56:28.575639+00:00",
+      "scores": {
+        "durability": 12,
+        "search_intent": 15,
+        "long_tail_specificity": 10,
+        "french_relevance": 8,
+        "competition": 3,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 4
+      },
+      "total_score": 59,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fps/i-suck-at-overwatch-but-i-was-dominating-with-new-hero-doctrine-so-i-smell-a-nerf-coming/",
+          "title": "I suck at Overwatch but I was dominating with new hero Doctrine, so I smell a nerf coming",
+          "evidence": "<article> <p>Whenever I play Overwatch with my friends and actually contribute to our success, I'm treated like a child who's 'helping' his parents put away groceries and manages to put the cheese in the right fridge drawer for a change. In short, I suck.</p><p>Even when I'm in the zone as my main man, Reinhardt, I'm not sure I've ever gotten MVP in the hundreds of matches I've played over the years. It was to my great surprise, then, that I found myself dominating as new support hero Doctrine over the weekend at <a href=\"https://www.gamesradar.com/news/live/blizzcon-2026-everything-announced/\"><u>BlizzCon 2026</u></a>.</p><p>Don't get me wrong; I still didn't get MVP in the handful of matches I played. But I was surprisingly competent for someone who A) sucks, and B) had never played Doctrine before. Even without much time to get a good handle on the hero's moves, Doctrine's primary ranged attack, speed, and healing speed-buffing drones were so intuitive that my Quick Play performance made me feel like I <em>wasn't </em>being carried for once.</p><p>Unfortunately, I have a hunch that I didn't suddenly 'git gud', synchronizing with Doctrine's life energy as a lover of all things va"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Guide Doctrine Overwatch",
+        "secondary_keywords": [
+          "Comment jouer Doctrine Overwatch",
+          "Doctrine Overwatch compétences",
+          "Doctrine Overwatch build optimal",
+          "Doctrine Overwatch astuces",
+          "Doctrine Overwatch nerf"
+        ],
+        "search_intent_type": "informationnel (guide / tutoriel)",
+        "recommended_angle": "Créer un guide complet et evergreen en français pour le nouveau héros Doctrine d'Overwatch : présentation des compétences, conseils de jeu pour débutants et joueurs intermédiaires, builds recommandés, synergies d'équipe et anticipation des éventuels nerfs. Le contenu doit rester pertinent au-delà de la sortie initiale grâce à des sections « mise à jour » faciles à actualiser.",
+        "suggested_title": "Guide complet de Doctrine dans Overwatch : compétences, builds et astuces pour dominer"
+      },
+      "reasoning": "Le sujet porte sur le nouveau héros Doctrine, fraîchement présenté à BlizzCon 2026. Bien que l'article d'origine soit une anecdote très temporelle, le besoin d'un guide français durable est fort : les joueurs recherchent rapidement des informations détaillées sur les nouvelles capacités et les meilleures stratégies. Le potentiel de recherche est informatif (guide) avec une intention durable, et les requêtes longues en français (« guide Doctrine Overwatch », « comment jouer Doctrine Overwatch ») sont suffisamment spécifiques pour permettre à un nouveau domaine de se positionner. La concurrence est élevée sur les guides Overwatch, ce qui réduit le score de compétition, mais GamerQuest FR possède déjà une audience et des pages liées à Overwatch, offrant de bonnes opportunités de liens internes vers les actualités, les pages de jeu et les offres de bundles. Le sujet reste pertinent pour le public français et peut être mis à jour facilement en cas de nerf, assurant une bonne durabilité."
+    },
+    {
+      "id": "rss-everything-announced-at-big-autumn-warhammer-preview-20-44cad31f5548",
+      "topic": "Everything announced at Big Autumn Warhammer Preview 2026, from Legion of the Damned to a brand-new paint range",
+      "detected_at": "2026-09-19T08:50:47.515039+00:00",
+      "analysed_at": "2026-09-19T08:56:30.809992+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 9,
+        "competition": 7,
+        "gamerquest_relevance": 5,
+        "internal_link_potential": 3
+      },
+      "total_score": 51,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/news/live/everything-announced-at-big-autumn-warhammer-preview-2026/",
+          "title": "Everything announced at Big Autumn Warhammer Preview 2026, from Legion of the Damned to a brand-new paint range",
+          "evidence": "<article> <div class=\"live-content\"><p>The Big Autumn Warhammer Preview wasn't exaggerating with its name; there was a <em>lot </em>of announcements being thrown down throughout the show with the speed and fury of a bolt rifle. The return of a mythical, forgotten Space Marine army, an all-new Age of Sigmar faction, and a D&D-style tabletop RPG set in the 40K universe are just the beginning. </p><p>Because a lot was shown off during the live stream, I've rounded up everything you need to know about the Big Autumn Warhammer Preview in bite-size format right here. I've also split each announcement up into sections, so it's easier to browse. </p><p>Before we get started, a quick note on availability: don't expect these releases to go up for pre-order yet. While we can expect them to appear at the Warhammer store (or for a discount at indie retailers like <a href=\"https://www.miniaturemarket.com/\">Miniature Market</a> and <a href=\"https://www.waylandgames.co.uk/\">Wayland Games</a>) in the not-so-distant future, they'll probably show up in drips and drabs over the next few months. Stand down those wallets, and just enjoy the reveals for now!</p><div class=\"youtube-video\" data-nosnippet >"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "annonces preview automne Warhammer 2026",
+        "secondary_keywords": [
+          "Legion of the Damned Warhammer",
+          "nouvelle gamme de peinture Warhammer 2026",
+          "nouveaux jeux de table Warhammer 2026",
+          "factions Age of Sigmar 2026"
+        ],
+        "search_intent_type": "informationnelle",
+        "recommended_angle": "Guide complet des annonces du Big Autumn Warhammer Preview 2026, présenté sous forme de synthèse détaillée pour les collectionneurs et joueurs français, avec mise en avant des produits disponibles en boutique et des liens vers les fiches produit GamerQuest.",
+        "suggested_title": "Tout ce qui a été annoncé au Big Autumn Warhammer Preview 2026 – Legion of the Damned, nouvelle gamme de peinture et plus"
+      },
+      "reasoning": "Le sujet porte sur un événement de lancement très ponctuel (preview automne 2026). La valeur SEO est limitée dans le temps, ce qui réduit la durabilité du contenu. Cependant, la requête est très précise (long‑tail) et en français, ce qui permet de se positionner sur un créneau peu concurrentiel. Le contenu peut être structuré comme un guide evergreen qui restera utile comme référence des annonces, tout en offrant des opportunités de liens internes vers les pages de produits Warhammer, les guides de peinture et les actualités de GamerQuest. Le sujet reste pertinent pour le public FR et pour la ligne éditoriale de GamerQuest, mais il ne justifie pas un pilier majeur en raison de son caractère événementiel et de son intérêt limité au-delà de 2026."
+    },
+    {
+      "id": "rss-marvel-s-wolverine-beat-death-stranding-2-s-entire-life-c63030cac5cc",
+      "topic": "Marvel's Wolverine beat Death Stranding 2's entire lifetime PS5 revenue in 3 days even with everyone making fun of it, analyst estimates, with 1.9M copies sold",
+      "detected_at": "2026-09-19T08:50:47.515303+00:00",
+      "analysed_at": "2026-09-19T08:56:33.040275+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 8,
+        "long_tail_specificity": 7,
+        "french_relevance": 9,
+        "competition": 3,
+        "gamerquest_relevance": 6,
+        "internal_link_potential": 2
+      },
+      "total_score": 40,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/marvels-wolverine-beat-death-stranding-2s-entire-lifetime-ps5-revenue-in-3-days-even-with-everyone-making-fun-of-it-analyst-estimates-with-1-9m-copies-sold/",
+          "title": "Marvel's Wolverine beat Death Stranding 2's entire lifetime PS5 revenue in 3 days even with everyone making fun of it, analyst estimates, with 1.9M copies sold",
+          "evidence": "<article> <p>Marvel's Wolverine has already made a huge number of sales in the three days since its launch, even though would-be fans keep suggesting it's not worth the Adamantium on its retractable claws. Despite them, Insomniac's new superhero blowout has already surpassed Hideo Kojima's Death Stranding 2 in lifetime sales on PS5. </p><p>Head of market analysis Rhys Elliott explains in <a href=\"https://alineaanalytics.substack.com/p/wolverine-sells-19m-despite-the-online\" target=\"_blank\"><u>Alinea Analytics' latest Substack newsletter</u></a> that the PS5-exclusive Wolverine has quickly amassed a $130 million fortune, while Death Stranding 2 falls just short of that with $129 million in total PS5 sales – though it's been out on the platform for over a year now. Similarly, Wolverine has already sold a heavy heap of 1.9 million copies on PS5, while Death Stranding 2 lags with 1.8 million total sales. </p><p>These numbers help put into perspective <a href=\"https://www.gamesradar.com/games/action/physint-goes-from-playstation-to-xbox-as-sony-unexpectedly-drops-hideo-kojimas-metal-gear-solid-spiritual-successor/\"><u>PlayStation's decision to abandon Kojima</u></a>'s upcoming stealth g"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Marvel's Wolverine ventes PS5",
+        "secondary_keywords": [
+          "Death Stranding 2 ventes PS5",
+          "comparaison ventes jeux PS5 2026",
+          "chiffre d'affaires Marvel's Wolverine",
+          "analyse ventes jeux vidéo 2026"
+        ],
+        "search_intent_type": "informationnelle (analyse comparative des ventes)",
+        "recommended_angle": "Proposer une analyse détaillée des performances commerciales de Marvel's Wolverine sur PS5, en la comparant aux ventes cumulées de Death Stranding 2, tout en contextualisant les chiffres dans le marché français et les réactions des joueurs.",
+        "suggested_title": "Marvel's Wolverine dépasse les ventes de Death Stranding 2 sur PS5 en 3 jours : analyse des chiffres et du marché français"
+      },
+      "reasoning": "Le sujet est essentiellement une actualité chiffrée très récente : il s'agit d'un comparatif de ventes qui perd rapidement de sa pertinence une fois les chiffres stabilisés, ce qui limite fortement la durabilité du contenu (score bas). La requête est clairement informationnelle, mais elle reste très ponctuelle, ce qui réduit l'intérêt d'un article evergreen. En revanche, la requête est assez précise (Marvel's Wolverine ventes PS5) et en français, ce qui offre un certain potentiel de trafic ciblé à court terme. Le sujet est pertinent pour GamerQuest FR car il peut être lié à des pages de news, de guides ou de fiches de jeux, mais il ne constitue pas un pilier de contenu durable. La concurrence sur les sujets de ventes de jeux récents est élevée, surtout pour les titres très médiatisés, d'où un score de compétition faible. Enfin, le potentiel de liens internes est limité à quelques articles connexes (actualités, fiches de jeux, analyses de marché)."
+    },
+    {
+      "id": "rss-i-wanted-to-adore-the-epomaker-gx1-headset-but-its-tinn-2f056bbbc2b6",
+      "topic": "I wanted to adore the Epomaker GX1 headset, but its tinny sound and middling software put a stop to our audio love affair",
+      "detected_at": "2026-09-19T08:50:47.515911+00:00",
+      "analysed_at": "2026-09-19T08:56:35.460651+00:00",
+      "scores": {
+        "durability": 18,
+        "search_intent": 22,
+        "long_tail_specificity": 13,
+        "french_relevance": 9,
+        "competition": 7,
+        "gamerquest_relevance": 9,
+        "internal_link_potential": 4
+      },
+      "total_score": 82,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/headsets-headphones/epomaker-gx1-headset-review/",
+          "title": "I wanted to adore the Epomaker GX1 headset, but its tinny sound and middling software put a stop to our audio love affair",
+          "evidence": "<article> <p>The Epomaker GX1 is the first time the brand has tried its hand at making a headset, and I think it needed more on the design chopping block.</p><p>I went into testing the GX1 hoping it'd end up on our <a href=\"https://www.gamesradar.com/best-gaming-headsets/\">best gaming headsets</a> list, primarily as I was a fan of its stylish looks (at least where the white version provided for this review is concerned) and for the fact it provides an open-back form factor at a cheap $49.99 / £45.99. Something that's pretty much unheard of with other brands, Epomaker was off to a great start.</p><p>But after a few weeks of the brand's first-ever cans by my side, what should remain unheard is their tinny sound. Combined with awkward-to-use software that refused to boot up at times and the muddy microphone, this is not the dream cheap open-back pair I've been hoping for. </p><h2 class=\"article-body__section\" id=\"section-key-specs\"><span>Key specs</span></h2><div ><table><tbody><tr><td class=\"firstcol \" ><p><strong>Price</strong></p></td><td ><p>$49.99 / £45.99</p></td></tr><tr><td class=\"firstcol \" ><p><strong>Acoustic design</strong></p></td><td ><p>Over-ear, open-black</p></td></tr"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Epomaker GX1 avis",
+        "secondary_keywords": [
+          "Epomaker GX1 test",
+          "casque gaming Epomaker GX1",
+          "Epomaker GX1 prix",
+          "casque open‑back pas cher",
+          "Epomaker GX1 microphone"
+        ],
+        "search_intent_type": "informationnel / investigation commerciale",
+        "recommended_angle": "Un test complet en français du casque gaming Epomaker GX1 : analyse du rendu sonore, de la qualité du micro, du logiciel, du confort et du rapport qualité‑prix, avec un comparatif aux autres casques open‑back pas chers et un guide d’achat pour aider les lecteurs à décider.",
+        "suggested_title": "Epomaker GX1 : test complet, avis et guide d’achat du casque gaming open‑back pas cher"
+      },
+      "reasoning": "Le sujet porte sur un produit matériel qui reste disponible plusieurs années, ce qui confère une bonne durabilité. Les requêtes françaises autour de \"Epomaker GX1 avis\" ou \"test\" sont très ciblées (long‑tail) et reflètent un fort besoin d'information avant achat (intention informationnelle et commerciale). Le marché francophone pour ce casque est peu saturé, offrant une opportunité de se positionner rapidement. Le contenu s’intègre naturellement aux rubriques existantes de GamerQuest (revues de matériel, comparatifs de casques, pages de deals), permettant de créer de nombreux liens internes vers des guides \"meilleurs casques gaming\" ou des articles \"bonnes affaires\". Ainsi, le sujet répond aux critères d’un article evergreen à forte valeur SEO pour le site."
+    },
+    {
+      "id": "rss-fire-emblem-fortune-s-weave-is-my-ideal-rpg-sequel-and--ca83a43f6dcb",
+      "topic": "Fire Emblem: Fortune's Weave is my ideal RPG sequel and the Three Houses followup I always wanted",
+      "detected_at": "2026-09-19T08:56:25.956634+00:00",
+      "analysed_at": "2026-09-19T08:56:47.010448+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 10,
+        "long_tail_specificity": 8,
+        "french_relevance": 7,
+        "competition": 6,
+        "gamerquest_relevance": 5,
+        "internal_link_potential": 3
+      },
+      "total_score": 44,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/game-of-the-week-september-18-fire-emblem-fortunes-weave/",
+          "title": "Fire Emblem: Fortune's Weave is my ideal RPG sequel and the Three Houses followup I always wanted",
+          "evidence": "<article> <ul><li><strong>Fire Emblem: Fortune's Weave is perfect if you want</strong> hours upon hours of grid-based tactical combat, plenty of role-playing game elements like levels and classes, and so very many different characters.</li></ul><p>Here's the <strong>60-second pitch</strong> for why you should play Fire Emblem: Fortune's Weave this weekend: Fortune's Weave has consumed my life. While that might at first sound hyperbolic, please understand that I nearly completed three out of four protagonist routes before the Nintendo Switch 2 game was even released. I'm not even close to done, either. Between the multiple protagonists, lengthy combat cycles, RPG elements like levels and classes, and multitude of recruitable characters, there's still so much to see and do that I can't wait to experience.</p><h3 id=\"why-play-it-today\">Why play it today?</h3><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"JdH3RU89DtXBe8uEzEVQeT\" name=\"fire_emblem_fortunes_weave_5\" alt=\"Theodora lounges in a chair in"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Fire Emblem Fortune's Weave",
+        "secondary_keywords": [
+          "date de sortie Fire Emblem Fortune's Weave",
+          "plateformes Fire Emblem Fortune's Weave",
+          "gameplay Fire Emblem Fortune's Weave",
+          "guide Fire Emblem Fortune's Weave",
+          "avis Fire Emblem Fortune's Weave"
+        ],
+        "search_intent_type": "informationnelle / investigation commerciale",
+        "recommended_angle": "Présenter les rumeurs, les attentes des fans et les éléments confirmés autour de Fire Emblem : Fortune’s Weave, en comparant avec Three Houses et en expliquant ce qui pourrait faire de ce titre le successeur idéal, tout en restant factuel et en indiquant les sources officielles.",
+        "suggested_title": "Fire Emblem : Fortune’s Weave – tout ce que l’on sait sur le futur RPG de la série"
+      },
+      "reasoning": "Le sujet porte sur un titre non encore annoncé ou très spéculatif, ce qui limite fortement sa durabilité : l’article deviendra rapidement obsolète si le jeu n’est jamais publié ou si les informations changent. L’intention de recherche est principalement informationnelle (les joueurs cherchent des détails, dates, plateformes, avis), mais les requêtes sont très longues et spécifiques, ce qui réduit le volume potentiel. En français, Fire Emblem bénéficie d’une audience solide, mais la concurrence sur les mots‑clés généraux de la franchise est élevée, tandis que la concurrence sur ce titre précis est faible mais la demande est incertaine. Le sujet reste pertinent pour GamerQuest car il peut être lié aux pages existantes sur Fire Emblem, aux guides de Three Houses et aux actualités de la série, offrant quelques opportunités de liens internes. Au final, le faible score de durabilité et le caractère dépendant de la confirmation officielle du jeu font de ce sujet un candidat peu prioritaire pour un contenu evergreen."
+    },
+    {
+      "id": "rss-as-sony-kills-physical-games-former-playstation-execs-r-c7435e0be090",
+      "topic": "As Sony kills physical games, former PlayStation execs recreate now-infamous PS4 game-sharing tutorial, but whoops, there's no disc now",
+      "detected_at": "2026-09-19T08:56:25.956910+00:00",
+      "analysed_at": "2026-09-19T08:57:09.155820+00:00",
+      "scores": {
+        "durability": 12,
+        "search_intent": 18,
+        "long_tail_specificity": 12,
+        "french_relevance": 9,
+        "competition": 4,
+        "gamerquest_relevance": 8,
+        "internal_link_potential": 4
+      },
+      "total_score": 67,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/as-sony-kills-physical-games-former-playstation-execs-recreate-now-infamous-ps4-game-sharing-tutorial-but-whoops-theres-no-disc-now/",
+          "title": "As Sony kills physical games, former PlayStation execs recreate now-infamous PS4 game-sharing tutorial, but whoops, there's no disc now",
+          "evidence": "<article> <p>In June 2013, PlayStation was untouchable, standing on the battered body of Xbox after a breezy round three in the ring. The \"<a href=\"https://youtu.be/kWSIFh8ICaA\" target=\"_blank\">Official PlayStation Used Game Instructional Video</a>\" twisted the knife during the PS4 generation, with now-former Sony executives Shuhei Yoshida and Adam Boyes spending 21 seconds showing just how easily users could lend game discs to each other. In 2026, Yoshida and Boyes have recreated the now-infamous passing of the disc as Sony moves to <a href=\"https://www.gamesradar.com/platforms/playstation/playstation-is-ending-physical-disc-production-for-new-games-in-2028-as-sony-says-general-preference-for-digital-media-significantly-outpaces-physical-discs/\">end support for physical games in January 2028</a>, and the conversation is very different. </p><p>In a September 18 Twitter post, Yoshida shares two photos from the floor of PlayStation's Tokyo Game Show setup. Both see him catching up with \"best friend\" Boyes, but one has sparked far more conversation online.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twit"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "fin des disques physiques PlayStation 2028",
+        "secondary_keywords": [
+          "partage de jeux PlayStation sans disque",
+          "comment prêter un jeu PlayStation en version digitale",
+          "alternatives au partage de jeux physiques PlayStation",
+          "guide PS Plus Family Sharing",
+          "jeux numériques PlayStation 5"
+        ],
+        "search_intent_type": "informationnelle / investigation commerciale",
+        "recommended_angle": "Créer un guide evergreen qui explique les solutions de partage et de prêt de jeux PlayStation en version digitale suite à l'arrêt des disques physiques annoncé par Sony. Le texte s’appuie sur l’actualité (annonce 2028) comme point d’entrée, puis détaille les options permanentes : PlayStation Plus, le partage de console, les bibliothèques numériques, les services de cloud gaming, etc. L’accent est mis sur les étapes concrètes, les limites légales et les meilleures pratiques pour les joueurs français.",
+        "suggested_title": "Fin des disques physiques PlayStation : comment partager et prêter vos jeux en version digitale ?"
+      },
+      "reasoning": "Le sujet est avant tout une actualité liée à la décision de Sony d’arrêter la production de disques physiques en 2028, ce qui le rend peu durable en tant que simple article de news. Cependant, la transition vers le tout‑digital crée un besoin d’information durable pour les joueurs qui souhaitent toujours partager ou prêter leurs jeux. Des requêtes longues et très spécifiques existent en français (ex. : « partage de jeux PlayStation sans disque », « comment prêter un jeu PS5 en version digitale »), ce qui offre une opportunité de se positionner sur des mots‑clés de niche avec une concurrence modérée. Le thème est hautement pertinent pour le public francophone de GamerQuest et permet de créer de nombreux liens internes vers les actualités Sony, les guides de jeux, les pages de deals numériques et les tests de services de cloud gaming. Ainsi, même si le point de départ est une actualité, le contenu peut être transformé en ressource evergreen à forte valeur SEO."
+    },
+    {
+      "id": "rss-i-would-100-prioritize-gta-and-now-i-don-t-have-to-ex-n-3ebe5e08af89",
+      "topic": "\"I would 100% prioritize [GTA], and now I don't have to\": Ex-Nintendo marketing lead says \"thank god\" the Zelda Ocarina of Time remake is dodging GTA 6, because even she'd pick Rockstar",
+      "detected_at": "2026-09-19T08:56:25.957154+00:00",
+      "analysed_at": "2026-09-19T08:57:29.327031+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 8,
+        "long_tail_specificity": 7,
+        "french_relevance": 8,
+        "competition": 3,
+        "gamerquest_relevance": 6,
+        "internal_link_potential": 3
+      },
+      "total_score": 40,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-legend-of-zelda/i-would-100-percent-prioritize-gta-and-now-i-dont-have-to-ex-nintendo-marketing-lead-says-thank-god-the-zelda-ocarina-of-time-remake-is-dodging-gta-6-because-even-shed-pick-rockstar/",
+          "title": "\"I would 100% prioritize [GTA], and now I don't have to\": Ex-Nintendo marketing lead says \"thank god\" the Zelda Ocarina of Time remake is dodging GTA 6, because even she'd pick Rockstar",
+          "evidence": "<article> <p>The collective industry is doing its darnedest to avoid <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> this November, and that includes Nintendo. Even <a href=\"https://www.gamesradar.com/the-legend-of-zelda-ocarina-of-time-remake-guide/\">The Legend of Zelda: Ocarina of Time remake</a> is avoiding Rockstar's latest blockbuster, and a former marketing lead from the house of Mario believes this is the smartest course of action.</p><p>Indeed, Grand Theft Auto 6 will be fully playable on November 19, while Ocarina of Time is coming to the Switch 2 slightly beforehand, on November 5. That's two whole weeks of time for Zelda fans to dive into the long-awaited redux before moving over the Leonida, should they desire.</p><p>\"I think it's great. Thank God,\" Krysta Yang, former PR manager for Nintendo of America who now <a href=\"https://www.youtube.com/watch?v=W5E_gBYOpaQ\" target=\"_blank\">co-hosts Kit and Krysta on YouTube</a>, says of Ocarina of Time's launch date. \"If it happened, where this was on the same day as GTA, and I saw that this was a faithful remake, I would be playing GTA.\"</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><ifr"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "date de sortie Ocarina of Time remake vs GTA 6",
+        "secondary_keywords": [
+          "conflit de sortie Zelda Ocarina of Time GTA 6",
+          "comparaison dates de sortie jeux 2026",
+          "ex marketing Nintendo avis Zelda vs GTA",
+          "quelle sortie choisir 2026 jeux vidéo"
+        ],
+        "search_intent_type": "informationnelle/comparative",
+        "recommended_angle": "Un guide comparatif qui explique les dates de sortie du remake de The Legend of Zelda : Ocarina of Time et de GTA 6, analyse l’impact de ces fenêtres de lancement sur les joueurs français, et propose des conseils d’achat et de planification de jeu sans se reposer uniquement sur l’actualité du jour.",
+        "suggested_title": "Ocarina of Time Remake vs GTA 6 : quelles dates de sortie choisir en 2026 ?"
+      },
+      "reasoning": "Le sujet est essentiellement une actualité liée aux dates de sortie de deux titres majeurs (Zelda et GTA) et ne possède pas de valeur durable : il dépend de la période de lancement (novembre 2026) et perdra rapidement de la pertinence. Cependant, il existe un intérêt informationnel persistant pour les joueurs français qui souhaitent planifier leurs achats et comprendre le chevauchement des sorties. Le sujet est très recherché en français (les deux franchises sont populaires en France), mais la concurrence est élevée, car de nombreux sites couvriront la même actualité. Un article evergreen peut être construit autour d’une comparaison des fenêtres de lancement, des implications pour les joueurs et des conseils d’achat, ce qui crée un potentiel de liens internes vers les pages de guides Zelda, GTA, et les actualités de sorties de jeux sur GamerQuest. Malgré cela, la forte dépendance à la récence et la forte concurrence limitent la note globale, rendant le sujet plus adapté à un article de news ponctuel qu’à une ressource evergreen à forte priorité."
+    },
+    {
+      "id": "rss-roblox-the-hunt-20-guide-all-items-and-games-5d20269520bb",
+      "topic": "Roblox The Hunt 20 guide - all items and games",
+      "detected_at": "2026-09-19T08:56:25.957549+00:00",
+      "analysed_at": "2026-09-19T08:57:43.741961+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 10,
+        "long_tail_specificity": 8,
+        "french_relevance": 6,
+        "competition": 3,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 3
+      },
+      "total_score": 42,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/puzzle/roblox-the-hunt-20-guide/",
+          "title": "Roblox The Hunt 20 guide - all items and games",
+          "evidence": "<article> <p>Roblox The Hunt 20 is a new event celebrating the gaming platform's huge milestone with a look back on some of the top games from the last 20 years. While playing each of the 20 beloved games including in the line-up, including Piggy and Dress to Impress, you can complete quests to earn exclusive rewards.</p><p>If you want to grab it all before the event ends, here's everything you need to know, including all the Roblox the Hunt 20 items you can collect, which games are making an appearance, and each of the quests you need to complete.</p><h2 class=\"article-body__section\" id=\"section-how-to-play-roblox-the-hunt-20-and-claim-rewards\"><span>How to play Roblox the Hunt 20 and claim rewards</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"WJwuTXBafrrczeeJjezSj7\" name=\"roblox-hunt-20-items-claim\" alt=\"A player claims a reward in the 2006 Roblox the Hunt 20 event hub.\" src=\"https://cdn.mos.cms.futurecdn.net/WJwuTXBafrrczeeJjezSj7-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" w"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Guide Roblox The Hunt 20",
+        "secondary_keywords": [
+          "Roblox The Hunt 20 objets",
+          "Roblox The Hunt 20 jeux",
+          "quêtes Roblox The Hunt 20",
+          "comment obtenir les récompenses Roblox The Hunt 20",
+          "événement Roblox The Hunt 20 dates"
+        ],
+        "search_intent_type": "informationnel – guide complet pour un événement limité",
+        "recommended_angle": "Un guide détaillé en français qui recense chaque jeu présenté, chaque objet à collectionner, les quêtes à accomplir et les étapes pour réclamer les récompenses, avec des astuces pour optimiser le temps de jeu pendant l'événement limité.",
+        "suggested_title": "Guide complet du Roblox The Hunt 20 : tous les objets, jeux et quêtes à ne pas manquer"
+      },
+      "reasoning": "Le sujet porte sur un événement temporaire (The Hunt 20) qui ne sera plus d'actualité après la fin de l'événement, ce qui limite fortement la durabilité du contenu (score bas). L'intention de recherche est clairement informationnelle – les joueurs cherchent un guide exhaustif – mais elle reste liée à la période de l'événement, ce qui réduit le potentiel de trafic à long terme. La requête est très longue et spécifique, ce qui permet de se positionner sur des mots‑clés de niche en français, d'où un bon score de spécificité. Roblox possède une communauté francophone, mais l'événement est récent et anglophone, ce qui donne une pertinence moyenne pour le marché FR. La concurrence pour les guides d'événements Roblox est assez élevée, surtout de la part de sites anglophones, ce qui pénalise le score de compétition. Le sujet reste pertinent pour GamerQuest car il peut être lié à d'autres actualités Roblox, guides de jeux Roblox et éventuelles offres de jeux ou d'objets virtuels, offrant ainsi de bonnes opportunités de maillage interne. En résumé, le sujet a un intérêt limité en termes d'éternité et de volume de recherche durable, mais il peut être exploité comme un article de courte durée avec un bon angle de guide complet pour capter le trafic pendant la période de l'événement."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-19T08:54:28.210288+00:00",
+  "updated_at": "2026-09-19T08:59:45.309715+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -17,6 +17,22 @@
       "wordpress_url": "https://gamerquestfr.com/fable-2027-date-de-sortie-plateformes-gameplay-et-pourquoi-playground-games-a-repris-la-franchise/",
       "wordpress_post_id": 402,
       "published_at": "2026-09-19T08:54:28.210288+00:00"
+    },
+    {
+      "intent_key": "pourquoi valve fait petites mises jour team fortress 2",
+      "primary_keyword": "pourquoi Valve fait de petites mises à jour sur Team Fortress 2",
+      "title": "Pourquoi Valve fait de petites mises à jour sur Team Fortress 2 et Counter‑Strike ? Analyse et explications",
+      "wordpress_url": "https://gamerquestfr.com/pourquoi-valve-fait-de-petites-mises-a-jour-sur-team-fortress-2-et-counter-strike-analyse-et-explications/",
+      "wordpress_post_id": 404,
+      "published_at": "2026-09-19T08:59:13.147952+00:00"
+    },
+    {
+      "intent_key": "epomaker gx1 avis",
+      "primary_keyword": "Epomaker GX1 avis",
+      "title": "Epomaker GX1 : test complet, avis et guide d’achat du casque gaming open‑back pas cher",
+      "wordpress_url": "https://gamerquestfr.com/epomaker-gx1-test-complet-avis-et-guide-dachat-du-casque-gaming-open-back-pas-cher/",
+      "wordpress_post_id": 406,
+      "published_at": "2026-09-19T08:59:45.309715+00:00"
     }
   ]
 }

@@ -12,6 +12,8 @@ from social.sources import (
 )
 
 from social.renderer import (
+    HEIGHT,
+    WIDTH,
     render_carousel,
 )
 
@@ -1594,8 +1596,8 @@ def render_from_output(
             ) as image:
 
                 if image.size != (
-                    1080,
-                    1350,
+                    WIDTH,
+                    HEIGHT,
                 ):
                     raise RuntimeError(
                         "Rendered slide has "

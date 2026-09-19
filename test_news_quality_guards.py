@@ -526,3 +526,61 @@ def test_main_retries_next_candidate_after_quality_guard_rejection(monkeypatch):
     automation.main()
 
     assert saved == ["https://example.com/fresh"]
+
+
+def test_main_publishes_multiple_quality_candidates_per_run(monkeypatch):
+    stories = [
+        {"title": f"Fresh candidate {index}", "url": f"https://example.com/fresh-{index}"}
+        for index in range(1, 5)
+    ]
+    saved = []
+
+    monkeypatch.setattr(automation, "search_gaming_news", lambda: list(stories))
+    monkeypatch.setattr(automation, "select_best_story", lambda results: results[0])
+    monkeypatch.setattr(automation, "find_matching_official_source", lambda selected, results: None)
+    monkeypatch.setattr(automation, "extract_page", lambda story: "source text " * 200)
+    monkeypatch.setattr(automation, "validate_source", lambda story, source_text: (True, "ok"))
+    monkeypatch.setattr(automation.time, "sleep", lambda seconds: None)
+    monkeypatch.setattr(automation, "generate_article", lambda story, *args, **kwargs: story["url"])
+
+    def parse_article(url):
+        number = url.rsplit("-", 1)[-1]
+        return (
+            f"SEO title {number}",
+            "meta",
+            f"keyword {number}",
+            "",
+            "information",
+            f"fresh-candidate-{number}",
+            f"Fresh candidate {number}",
+            "excerpt",
+            "Actualités",
+            "Gaming",
+            f"Fresh article body {number}.",
+        )
+
+    monkeypatch.setattr(automation, "parse_article", parse_article)
+    monkeypatch.setattr(
+        automation,
+        "verify_and_correct_article",
+        lambda data, source_text, official_text: data,
+    )
+    monkeypatch.setattr(automation, "news_quality_rejection", lambda data: "")
+    monkeypatch.setattr(automation, "add_contextual_internal_links", lambda data: data)
+    monkeypatch.setattr(automation, "save_draft", lambda *args, **kwargs: None)
+    monkeypatch.setattr(
+        automation,
+        "save_news_to_feed",
+        lambda data, story, official_story: (
+            saved.append(story["url"]) or {"slug": data[5]}
+        ),
+    )
+
+    automation.main()
+
+    assert len(saved) == automation.MAX_NEWS_ARTICLES_PER_RUN
+    assert saved == [
+        "https://example.com/fresh-1",
+        "https://example.com/fresh-2",
+        "https://example.com/fresh-3",
+    ]

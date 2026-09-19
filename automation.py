@@ -65,7 +65,11 @@ MAX_RESULTS = 20
 # Do not let one bad SEO pick kill an entire scheduled run.
 # The editor can retry a handful of different candidates while keeping
 # Groq/Tavily usage bounded and predictable.
-MAX_NEWS_CANDIDATE_ATTEMPTS = 6
+MAX_NEWS_CANDIDATE_ATTEMPTS = 12
+
+# Publish several independent, quality-approved stories from the same
+# discovery pool. This increases output without increasing Tavily searches.
+MAX_NEWS_ARTICLES_PER_RUN = 3
 
 MIN_SOURCE_TEXT_LENGTH = 250
 
@@ -4095,16 +4099,18 @@ def main():
         "==================================="
     )
 
-    # 1. Search both configured query pools so one stale/invalid result
-    # cannot leave the run with no fallback candidates.
+    # One discovery pass can support several independent stories.
+    # We keep Tavily usage bounded while allowing more publishing volume.
     results = search_gaming_news()
 
     remaining_results = list(results)
     attempts = 0
+    published_count = 0
 
     while (
         remaining_results
         and attempts < MAX_NEWS_CANDIDATE_ATTEMPTS
+        and published_count < MAX_NEWS_ARTICLES_PER_RUN
     ):
         attempts += 1
 
@@ -4117,11 +4123,14 @@ def main():
             f"{attempts}/{MAX_NEWS_CANDIDATE_ATTEMPTS}"
         )
         print(
+            f"PUBLISHED THIS RUN: "
+            f"{published_count}/{MAX_NEWS_ARTICLES_PER_RUN}"
+        )
+        print(
             "==================================="
         )
 
-        # 2. Pick the strongest SEO opportunity from candidates that have
-        # not already failed during this run.
+        # Pick the strongest remaining SEO opportunity.
         selected_story = select_best_story(
             remaining_results
         )
@@ -4135,7 +4144,7 @@ def main():
         )
 
         # Remove the selected discovery result immediately. Any rejection
-        # below will therefore continue with a different story.
+        # or success below continues with a different story.
         remaining_results = [
             result
             for result in remaining_results
@@ -4149,9 +4158,7 @@ def main():
             )
         ]
 
-        # 3. Prefer a matching official source when it is actually usable.
-        # If the official page is a generic landing page or bad extraction,
-        # fall back to the selected trusted story instead of killing the run.
+        # Prefer a matching official source when it is actually usable.
         official_story = find_matching_official_source(
             selected_story,
             results,
@@ -4199,7 +4206,6 @@ def main():
                     f"Reason: {official_reason}"
                 )
 
-                # Do not use a failed official page later as verification.
                 official_story = None
 
         if not valid:
@@ -4227,8 +4233,6 @@ def main():
 
             continue
 
-        # 4. Keep official verification text only when the official source
-        # was the validated primary source.
         official_text = ""
 
         if official_story:
@@ -4259,10 +4263,8 @@ def main():
                 "Using established secondary source only."
             )
 
-        # Small pause between Groq calls.
         time.sleep(4)
 
-        # 5. Generate article.
         generated = generate_article(
             story,
             source_text,
@@ -4274,7 +4276,6 @@ def main():
             generated
         )
 
-        # 6. Final correction.
         article_data = (
             verify_and_correct_article(
                 article_data,
@@ -4283,8 +4284,6 @@ def main():
             )
         )
 
-        # 7. A duplicate or contradictory story is a candidate rejection,
-        # not a run-ending event.
         rejection_reason = news_quality_rejection(
             article_data
         )
@@ -4307,20 +4306,16 @@ def main():
 
             continue
 
-        # 8. Add safe contextual internal links.
         article_data = add_contextual_internal_links(
             article_data
         )
 
-        # 9. Save GitHub Markdown backup.
         save_draft(
             article_data,
             story,
             official_story,
         )
 
-        # 10. Save the corrected article into the GitHub news feed.
-        # WordPress pulls this feed internally.
         saved_article = save_news_to_feed(
             article_data,
             story,
@@ -4335,34 +4330,47 @@ def main():
             )
             continue
 
+        published_count += 1
+
         print("")
         print(
-            "GamerQuest SEO automation "
-            "completed successfully."
+            "GamerQuest article accepted."
         )
         print(
-            f"Published after {attempts} "
-            f"candidate attempt(s)."
+            f"Published this run: "
+            f"{published_count}/{MAX_NEWS_ARTICLES_PER_RUN}"
         )
-        return
 
     print("")
     print(
         "==================================="
     )
-    print(
-        "NO PUBLISHABLE NEWS CANDIDATE"
-    )
-    print(
-        "==================================="
-    )
-    print(
-        f"Tried {attempts} different candidate(s)."
-    )
-    print(
-        "All were invalid, duplicate, contradictory, "
-        "or otherwise rejected safely."
-    )
+
+    if published_count:
+        print(
+            "GAMERQUEST NEWS RUN COMPLETE"
+        )
+        print(
+            "==================================="
+        )
+        print(
+            f"Published {published_count} article(s) "
+            f"after {attempts} candidate attempt(s)."
+        )
+    else:
+        print(
+            "NO PUBLISHABLE NEWS CANDIDATE"
+        )
+        print(
+            "==================================="
+        )
+        print(
+            f"Tried {attempts} different candidate(s)."
+        )
+        print(
+            "All were invalid, duplicate, contradictory, "
+            "or otherwise rejected safely."
+        )
 
 
 if __name__ == "__main__":

@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict
@@ -16,7 +17,7 @@ from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
-from groq import Groq
+from groq import Groq, RateLimitError
 
 import scorer
 import researcher
@@ -965,34 +966,80 @@ def generate_seo_article(
         research_context=research_context,
     )
 
-    try:
-        client = Groq(
-            api_key=api_key
-        )
+    client = Groq(
+        api_key=api_key,
+        max_retries=0,
+    )
 
-        response = (
-            client.chat.completions.create(
-                model=MODEL,
-                messages=[
-                    {
-                        "role": "system",
-                        "content": (
-                            "Tu es un rédacteur SEO "
-                            "gaming français. "
-                            "Retourne uniquement "
-                            "du JSON valide."
-                        ),
-                    },
-                    {
-                        "role": "user",
-                        "content": prompt,
-                    },
-                ],
-                temperature=0.4,
-                max_tokens=5000,
+    response = None
+    last_error = None
+
+    for attempt in range(1, 5):
+        try:
+            response = (
+                client.chat.completions.create(
+                    model=MODEL,
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": (
+                                "Tu es un rédacteur SEO "
+                                "gaming français. "
+                                "Retourne uniquement "
+                                "du JSON valide."
+                            ),
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt,
+                        },
+                    ],
+                    temperature=0.4,
+                    max_tokens=5000,
+                )
             )
-        )
+            break
 
+        except RateLimitError as error:
+            last_error = error
+
+            if attempt >= 4:
+                break
+
+            wait_seconds = min(
+                4 * attempt,
+                16,
+            )
+            print(
+                "Groq temporary rate limit during SEO writing; "
+                f"retrying in {wait_seconds}s "
+                f"({attempt}/4)."
+            )
+            time.sleep(wait_seconds)
+
+        except Exception as error:
+            return {
+                "status": (
+                    "BLOCKED_AI_UNAVAILABLE"
+                ),
+                "error": (
+                    f"{type(error).__name__}: "
+                    f"{error}"
+                ),
+            }
+
+    if response is None:
+        return {
+            "status": (
+                "BLOCKED_AI_RATE_LIMIT"
+            ),
+            "error": (
+                f"{type(last_error).__name__}: "
+                f"{last_error}"
+            ),
+        }
+
+    try:
         text = (
             response
             .choices[0]
@@ -1007,10 +1054,9 @@ def generate_seo_article(
         )
 
     except Exception as error:
-
         return {
             "status": (
-                "BLOCKED_AI_UNAVAILABLE"
+                "BLOCKED_AI_RESPONSE"
             ),
             "error": (
                 f"{type(error).__name__}: "

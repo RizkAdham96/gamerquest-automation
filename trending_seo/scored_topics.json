@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-08-29T22:52:56.742934+00:00",
+  "updated_at": "2026-09-19T08:52:01.894963+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -74,6 +74,314 @@
         "suggested_title": "The Witcher 3 Remastered : tout ce qu’on sait après l’annonce à Gamescom 2026 (date, nouveautés, plateformes)"
       },
       "reasoning": "L’annonce du remaster à Gamescom crée un pic d’intérêt (trend_strength élevé) et génère de nombreuses recherches d’information (date de sortie, nouveautés, plateformes). L’événement vient de se produire, ce qui rend le sujet très frais (freshness). Le public français est fortement concerné par un titre aussi emblématique, d’où un fort score de pertinence locale. La concurrence sera déjà élevée, car de nombreux sites couvriront l’annonce, ce qui justifie un score bas en competition. Enfin, le sujet correspond parfaitement à la ligne éditoriale de GamerQuest FR, d’où le score maximal en gamerquest_relevance."
+    },
+    {
+      "id": "rss-after-forza-horizon-fable-devs-wanted-to-prove-we-could-237511a2fc10",
+      "topic": "After Forza Horizon, Fable devs wanted to prove \"we could cut it in a different genre,\" lead says: \"There was a little bit of pride\"",
+      "detected_at": "2026-09-19T08:50:47.511679+00:00",
+      "analysed_at": "2026-09-19T08:50:50.409190+00:00",
+      "scores": {
+        "durability": 18,
+        "search_intent": 22,
+        "long_tail_specificity": 13,
+        "french_relevance": 9,
+        "competition": 5,
+        "gamerquest_relevance": 9,
+        "internal_link_potential": 4
+      },
+      "total_score": 80,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/after-forza-horizon-fable-devs-wanted-to-prove-we-could-cut-it-in-a-different-genre-lead-says-there-was-a-little-bit-of-pride/",
+          "title": "After Forza Horizon, Fable devs wanted to prove \"we could cut it in a different genre,\" lead says: \"There was a little bit of pride\"",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/fable-4-release-date-news-rumours/\">Next year's big Fable revival</a> is being handled by Playground Games, the Xbox-owned studio behind the Forza Horizon series, taking over from Lionhead Studios. The developer just launched <a href=\"https://www.gamesradar.com/forza-horizon-6-guide/\">Forza Horizon 6</a> to near universal acclaim this year, but now it's set to release Fable on February 23, 2027, and everyone's eager to see what a fantasy RPG from a beloved franchise looks and plays like when it's designed by a team that's only ever made racing games. </p><p>The choice of Playground Games as Fable's developer might seem like an odd one at first blush, but from the perspective of the studio, it's an opportunity for them to prove themselves in a completely different space.</p><p>\"I think there was a little bit of pride in proving we could cut it in a different genre,\" Playground co-founder and Fable game director Ralph Fulton tells <a href=\"https://www.theguardian.com/games/2026/sep/15/we-were-bored-of-traditional-fantasy-cliches-inside-playground-games-10-year-effort-to-revive-fable\" target=\"_blank\">The Guardian</a>, who points out the"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Fable 2027 date de sortie",
+        "secondary_keywords": [
+          "Fable Playground Games développeur",
+          "Fable plateformes",
+          "Fable gameplay",
+          "Fable guide",
+          "Fable précommande"
+        ],
+        "search_intent_type": "informationnelle / investigation commerciale",
+        "recommended_angle": "Un guide complet sur le nouveau Fable 2027, en mettant l’accent sur le changement de studio (Playground Games, créateur de Forza Horizon), la date de sortie, les plateformes, les premières impressions du gameplay et les options de précommande ou d’offres promotionnelles.",
+        "suggested_title": "Fable (2027) : date de sortie, plateformes, gameplay et pourquoi Playground Games a repris la franchise"
+      },
+      "reasoning": "Le sujet porte sur un titre très attendu qui sera développé par un studio connu pour un autre genre, ce qui crée une requête de longue traîne spécifique en français (ex. \"Fable 2027 date de sortie\", \"Fable Playground Games développeur\"). La recherche est durable pendant plusieurs mois avant et après la sortie, avec un fort potentiel d’intention informationnelle et commerciale (précommandes, offres). La concurrence sur le terme générique \"Fable\" est élevée, mais l’angle \"Playground Games\" et les détails de sortie sont moins saturés, offrant une opportunité de se positionner. Le contenu pourra être lié naturellement aux actualités, aux pages de jeu, aux guides et aux deals de GamerQuest, renforçant la pertinence interne."
+    },
+    {
+      "id": "rss-valve-devs-can-t-believe-we-get-away-with-such-small-up-f58bf0830ce7",
+      "topic": "Valve devs \"can't believe we get away\" with such small updates for Team Fortress 2 and Counter-Strike, ex-writer says",
+      "detected_at": "2026-09-19T08:50:47.511908+00:00",
+      "analysed_at": "2026-09-19T08:50:52.977772+00:00",
+      "scores": {
+        "durability": 20,
+        "search_intent": 22,
+        "long_tail_specificity": 13,
+        "french_relevance": 9,
+        "competition": 6,
+        "gamerquest_relevance": 8,
+        "internal_link_potential": 4
+      },
+      "total_score": 82,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fps/valve-devs-cant-believe-we-get-away-with-such-small-updates-for-team-fortress-2-and-counter-strike-ex-writer-says/",
+          "title": "Valve devs \"can't believe we get away\" with such small updates for Team Fortress 2 and Counter-Strike, ex-writer says",
+          "evidence": "<article> <p>If you're among the legions of Counter-Strike and <a href=\"https://www.reddit.com/r/tf2/comments/1uqhulf/can_we_agree_to_never_call_these_kinds_of_updates/\" target=\"_blank\">Team Fortress 2 players</a> who've ever wondered why those games have historically gotten much smaller updates than other games owned by Valve, you can at least take comfort in knowing that a veteran of the studio who left back in 2017 was equally perplexed.</p><p>Chet Faliszek, who was a Valve writer from 2004 to 2017 and worked on Half-Life, Portal, Team Fortress, Counter-Strike, and Left 4 Dead, for which he was co-project lead, says in a new video that the teams dedicated to working on Counter-Strike and Team Fortress 2 were often pleasantly surprised by player response to meager updates when other Valve games were getting much more substantial expansions. In the video, Faliszek is responding to a question about \"how small updates are\" for Counter-Strike and Team Fortress 2 specifically, and he shares this little insight:</p><p>\"Even at Valve, we'd be like, 'I can't believe we get away with this',\" says Faliszek. \"Like, we're not getting away with it like we're trying to hoodwink you, but these "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "pourquoi Valve fait de petites mises à jour sur Team Fortress 2",
+        "secondary_keywords": [
+          "mise à jour petite Counter-Strike",
+          "fréquence des mises à jour Valve",
+          "Chet Faliszek interview Valve",
+          "politique de mise à jour Valve",
+          "TF2 mises à jour fréquentes"
+        ],
+        "search_intent_type": "informationnelle / investigation durable",
+        "recommended_angle": "Proposer une analyse evergreen de la stratégie de Valve concernant les petites mises à jour de Team Fortress 2 et Counter‑Strike : historique des mises à jour, raisons évoquées par les anciens développeurs (ex. Chet Faliszek), comparaison avec les autres titres Valve, impact sur la communauté et perspectives futures. L’article doit rester pertinent au fil du temps tout en s’appuyant sur la citation récente comme point d’entrée.",
+        "suggested_title": "Pourquoi Valve publie‑t‑elle de petites mises à jour pour Team Fortress 2 et Counter‑Strike ? Analyse et explications"
+      },
+      "reasoning": "Le sujet provient d’une actualité, mais la question sous‑jacente – la politique de petites mises à jour de Valve – est durable et intéresse les joueurs français de TF2 et CS. Une page evergreen répondant à la requête longue‑traîne « pourquoi Valve fait de petites mises à jour sur Team Fortress 2 » peut attirer un trafic informatif constant, se différencier de la simple actualité et être liée naturellement aux fiches de jeux, guides et actualités de GamerQuest. La concurrence en français sur ce thème est modérée, ce qui permet de viser un bon positionnement. Le contenu pourra être enrichi avec des citations d’ex‑développeurs, des comparaisons avec d’autres titres Valve et des liens internes vers les pages dédiées aux jeux et aux offres, maximisant ainsi la pertinence pour GamerQuest."
+    },
+    {
+      "id": "rss-the-craziest-numbers-i-ve-seen-in-17-years-working-at-b-365b474133df",
+      "topic": "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking",
+      "detected_at": "2026-09-19T08:50:47.512194+00:00",
+      "analysed_at": "2026-09-19T08:50:55.006732+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 10,
+        "long_tail_specificity": 5,
+        "french_relevance": 8,
+        "competition": 3,
+        "gamerquest_relevance": 5,
+        "internal_link_potential": 2
+      },
+      "total_score": 38,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/the-craziest-numbers-ive-seen-in-17-years-working-at-blizzard-wow-forever-devs-seem-genuinely-shocked-the-beta-is-so-popular-as-they-explain-why-their-mmo-servers-keep-breaking/",
+          "title": "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking",
+          "evidence": "<article> <p>World of Warcraft has been running for 22 years, and even now Blizzard sometimes struggles to keep up with demand. Yesterday, the <a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-beta-struggles-to-launch-as-devs-say-the-number-of-people-hammering-at-the-door-of-the-beta-is-insane/\">WoW: Forever beta launched and immediately broke</a> under the weight of everyone trying to get in at once. How is this still happening when Blizzard has decades of experience with launching new MMO content? The devs themselves say they were genuinely taken aback by just how popular the Forever beta has been.</p><p>\"Man, it was hard to sleep last night, I was so excited,\" senior game designer Josh Greenfield says on <a href=\"https://x.com/AggrendWoW/status/2101015233506750526\" target=\"_blank\">Twitter</a>. \"Beta has been... crazy. The craziest numbers I've seen in 17 years working at Blizzard and almost 8 years on classic. We've got something really special here.\"</p><p>Maybe that sounds hyperbolic, but senior game producer Tom Ellis has posted a more exhaustive technical breakdown of what went wrong for the opening hours of the Forever beta. \"It's not a P"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW Forever beta problèmes de serveur",
+        "secondary_keywords": [
+          "World of Warcraft Forever serveur surchargé",
+          "WoW Forever connexion impossible",
+          "WoW Forever beta date de sortie",
+          "WoW Forever guide connexion"
+        ],
+        "search_intent_type": "informationnelle / investigation",
+        "recommended_angle": "Analyser les raisons techniques du plantage du serveur du bêta WoW Forever, expliquer pourquoi même Blizzard rencontre des difficultés, et fournir aux joueurs des conseils pratiques pour augmenter leurs chances de se connecter (horaires, file d’attente, paramètres réseau). L’article doit rester pertinent au-delà du jour J en abordant les problématiques récurrentes des lancements de MMO.",
+        "suggested_title": "Pourquoi le serveur du bêta WoW Forever plante-t-il ? Analyse des problèmes et solutions pour les joueurs"
+      },
+      "reasoning": "Le sujet est très actuel et lié à un lancement de bêta, ce qui le rend peu durable (durabilité faible). Cependant, il génère un fort intérêt informationnel immédiat (intent élevé) et peut être ciblé avec des requêtes longues et spécifiques en français, ce qui justifie un score moyen en spécificité. La pertinence française est élevée, mais la concurrence sur les mots‑clés liés à l’actualité du bêta est forte, d’où un score bas en compétition. Le sujet reste pertinent pour GamerQuest car il peut être lié à des actualités, des guides de connexion et des pages de jeu WoW, mais le potentiel de liens internes est limité. Au final, le score global indique que le sujet n’est pas idéal pour un contenu evergreen, mais il peut être exploité comme un article d’investigation à court terme avec un angle technique et des conseils pratiques."
+    },
+    {
+      "id": "rss-brad-pitt-to-return-for-world-war-z-sequel-from-conclav-0a1f3f51be5b",
+      "topic": "Brad Pitt to return for World War Z sequel from Conclave director",
+      "detected_at": "2026-09-19T08:50:47.512384+00:00",
+      "analysed_at": "2026-09-19T08:50:57.023948+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 8,
+        "long_tail_specificity": 4,
+        "french_relevance": 6,
+        "competition": 3,
+        "gamerquest_relevance": 2,
+        "internal_link_potential": 1
+      },
+      "total_score": 29,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/sci-fi-movies/brad-pitt-to-return-for-world-war-z-sequel-from-conclave-director/",
+          "title": "Brad Pitt to return for World War Z sequel from Conclave director",
+          "evidence": "<article> <p>Paramount's previously announced World War Z movie is officially moving ahead with Brad Pitt to return as hero Gerry Lane.</p><p>According to <a href=\"https://deadline.com/2026/09/brad-pitt-the-riders-edward-berger-world-war-z-2-1237106804/\" target=\"_blank\">Deadline</a>, All Quiet on the Western Front and Conclave director Edward Berger is set to helm the pic. British playwright Dennis Kelley will pen the script. <a href=\"https://www.gamesradar.com/entertainment/action-movies/paramount-says-streaming-movies-are-not-a-priority-at-the-studio-and-is-instead-going-all-in-on-top-gun-3-star-trek-and-a-new-world-war-z-movie/\">Paramount announced the sequel in 2025</a>, citing it as a top priority for the studio.</p><p>The 2013 sci-fi action thriller, based on the bestselling Max Brooks novel World War Z: An Oral History of the Zombie War, sees a deadly virus break out across the globe and turn humankind into zombies. It's up to former United Nations investigator Gerry (Pitt) to search for a cure. Marc Forster directs from a screenplay penned by Matthew Michael Carnahan, Drew Goddard<u>,</u> and Damon Lindelof. The cast includes Peter Capaldi, Ruth Negga, Mireille Enos, James "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Brad Pitt World War Z 2",
+        "secondary_keywords": [
+          "date de sortie World War Z 2",
+          "casting World War Z 2",
+          "World War Z 2 film zombie",
+          "nouveau film World War Z"
+        ],
+        "search_intent_type": "informationnelle",
+        "recommended_angle": "Un article d'actualité qui résume l'annonce du retour de Brad Pitt dans la suite de World War Z, en mettant l'accent sur les détails du film (réalisateur, scénario, date de sortie) et en créant des liens vers les jeux vidéo zombies populaires couverts par GamerQuest (ex. : Resident Evil, The Last of Us) pour offrir un contexte gaming à l’audience.",
+        "suggested_title": "Brad Pitt revient dans World War Z 2 : tout ce qu’on sait du nouveau film zombie"
+      },
+      "reasoning": "Le sujet est une actualité cinéma très récente et ne constitue pas un contenu evergreen : l'intérêt disparaît rapidement une fois la sortie du film annoncée. La recherche est purement informationnelle et très concurrentielle (sites d'actualités cinéma, blogs de pop‑culture). Bien que la requête puisse être recherchée en français, elle n’est pas directement liée à l’univers du jeu vidéo, ce qui limite la pertinence pour GamerQuest et le potentiel de liens internes. Le score global reflète donc une faible durabilité, une pertinence limitée pour le site et un potentiel de maillage interne minimal, suggérant qu’il vaut mieux couvrir ce sujet comme une brève news ponctuelle plutôt que de créer une ressource SEO permanente."
+    },
+    {
+      "id": "rss-as-final-fantasy-resonance-drops-its-gacha-baggage-anot-dc505843d5b2",
+      "topic": "As Final Fantasy Resonance drops its gacha baggage, another JRPG dev doing the same thinks it's \"wonderful\" these live-service games will be preserved",
+      "detected_at": "2026-09-19T08:50:47.512578+00:00",
+      "analysed_at": "2026-09-19T08:51:13.709175+00:00",
+      "scores": {
+        "durability": 12,
+        "search_intent": 15,
+        "long_tail_specificity": 10,
+        "french_relevance": 9,
+        "competition": 8,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 4
+      },
+      "total_score": 65,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/jrpg/as-final-fantasy-resonance-drops-its-gacha-baggage-another-jrpg-dev-doing-the-same-thinks-its-wonderful-these-live-service-games-will-be-preserved/",
+          "title": "As Final Fantasy Resonance drops its gacha baggage, another JRPG dev doing the same thinks it's \"wonderful\" these live-service games will be preserved",
+          "evidence": "<article> <p>Another Eden Begins follows <a href=\"https://www.gamesradar.com/games/final-fantasy/final-fantasy-resonance-is-part-of-a-resurgence-of-turn-based-rpgs-and-jrpgs-lead-dev-says-who-wants-to-capture-the-appeal-of-the-classics/\">Final Fantasy Resonance</a> and <a href=\"https://www.gamesradar.com/games/jrpg/octopath-traveler-0-review/\">Octopath Traveler 0</a> in a line of JRPGs based on online mobile games that have been forever preserved through premium-release adaptations, and producer Shinnosuke Hirasawa says it's \"wonderful\" to see them escape the live-service reaper.</p><p>Speaking with <a href=\"https://automaton-media.com/en/news/another-eden-begins-dev-wasnt-surprised-by-ff-resonance-and-octopath-traveler-0-making-the-same-move-from-live-service-to-console-rpgs-were-all-thinking-the-same-way/\" target=\"_blank\">Automaton</a>, Hirasawa, who oversaw the overhaul of Another Eden: The Cat Beyond Time and Space, says it was no surprise to see other developers arrive at the same plan. </p><p>\"Live-service games have the inherent issue that once services are terminated, they become unplayable,\" Hirasawa reasons. \"Also, when a game continues for a long time, it’s common for th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "JRPG sans gacha",
+        "secondary_keywords": [
+          "Final Fantasy Resonance gacha supprimé",
+          "Another Eden live-service préservation",
+          "jeux JRPG qui abandonnent le modèle live-service",
+          "préserver les jeux en ligne JRPG",
+          "exemple de JRPG sans gacha"
+        ],
+        "search_intent_type": "informationnel / guide",
+        "recommended_angle": "Présenter la tendance croissante des JRPG à abandonner le modèle gacha et live‑service, en expliquant les raisons (préservation, fatigue du joueur, régulation), en citant des exemples concrets comme Final Fantasy Resonance, Octopath Traveler 0 et Another Eden, et en donnant des conseils aux joueurs sur ce que cela implique pour la jouabilité et la longévité des titres.",
+        "suggested_title": "Pourquoi les JRPG abandonnent le gacha : le cas de Final Fantasy Resonance et d’Another Eden"
+      },
+      "reasoning": "Le sujet actuel est une actualité très récente, mais il s’inscrit dans une tendance plus large qui pourra rester pertinente sur le long terme : la transition des jeux JRPG du modèle live‑service/gacha vers des versions premium et préservées. Un article evergreen qui explique ce phénomène, cite les titres concernés et détaille les enjeux de préservation répondra à des requêtes d’information spécifiques en français (ex. « JRPG sans gacha », « jeux JRPG qui abandonnent le live‑service »). La concurrence sur ces requêtes de niche est faible, la pertinence pour le public francophone est élevée, et le contenu pourra être lié naturellement aux pages d’actualités, de guides et de fiches de jeux de GamerQuest (Final Fantasy Resonance, Another Eden, Octopath Traveler). Ainsi, le sujet mérite un article dédié plutôt qu’une simple news ponctuelle."
+    },
+    {
+      "id": "rss-diablo-himself-is-the-reason-diablo-5-is-coming-instead-c46f60cc9201",
+      "topic": "Diablo himself is the reason Diablo 5 is coming instead of more Diablo 4 expansions, says project lead: \"We needed to give him his own game\"",
+      "detected_at": "2026-09-19T08:50:47.512831+00:00",
+      "analysed_at": "2026-09-19T08:51:31.401705+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 12,
+        "long_tail_specificity": 7,
+        "french_relevance": 9,
+        "competition": 3,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 4
+      },
+      "total_score": 50,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/diablo-himself-is-the-reason-diablo-5-is-coming-instead-of-more-diablo-4-expansions-says-project-lead-we-needed-to-give-him-his-own-game/",
+          "title": "Diablo himself is the reason Diablo 5 is coming instead of more Diablo 4 expansions, says project lead: \"We needed to give him his own game\"",
+          "evidence": "<article> <p>The unveiling of <a href=\"https://www.gamesradar.com/games/diablo/diablo-5-guide/\">Diablo 5</a> during <a href=\"https://www.gamesradar.com/news/live/blizzcon-2026-everything-announced/\">BlizzCon 2026</a> prompted a range of reactions from oohs and aahs to disappointment at the confirmation that <a href=\"https://www.gamesradar.com/games/diablo/diablo-4-lord-of-hatred-is-the-games-final-expansion-as-blizzard-focuses-on-getting-to-diablo-5/\">the surprise sequel means no more expansions for Diablo 4</a>. Diablo 4 currently has two expansions, 2024's Vessel of Hatred and this year's Lord of Hatred, and there won't be any more as Blizzard focuses on getting Diablo 5 out the door by its planned release window of spring 2029. The game will still get regular seasonal updates, like the wonderfully nostalgic Season of Hell's Legacy, but full-blown expansions are officially in the rear view for Diablo 4.</p><p>We haven't seen much of Diablo 5 yet, but one big departure from series convention is the complete removal of towns and safe zones, which ties into the narrative premise about Diablo having won the big war against humanity before the story kicks off. Even with such a big cha"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "pourquoi Diablo 5 arrive au lieu d'extensions de Diablo 4",
+        "secondary_keywords": [
+          "Diablo 5 date de sortie",
+          "Diablo 5 gameplay",
+          "Diablo 5 nouvelles fonctionnalités",
+          "Diablo 5 décision Blizzard",
+          "Diablo 5 vs Diablo 4 expansions"
+        ],
+        "search_intent_type": "informationnel",
+        "recommended_angle": "Analyse approfondie de la décision de Blizzard de lancer Diablo 5 plutôt que de poursuivre les extensions de Diablo 4 : contexte narratif, impact sur la communauté, calendrier de sortie et ce que cela implique pour les joueurs français.",
+        "suggested_title": "Pourquoi Diablo 5 arrive au lieu d’autres extensions de Diablo 4 ? Analyse de la décision de Blizzard"
+      },
+      "reasoning": "Le sujet est avant‑tout une actualité de BlizzCon 2026, donc peu durable en tant que page evergreen. Cependant, la question « pourquoi Diablo 5 remplace les futures extensions de Diablo 4 ? » constitue une requête longue‑queue très spécifique que les joueurs français peuvent rechercher longtemps après l’annonce, surtout en attendant la sortie prévue en 2029. Une page qui explique le raisonnement de Blizzard, les changements de direction narrative et les conséquences pour les joueurs pourra rester pertinente et être mise à jour au fil des nouvelles informations. Le sujet est hautement pertinent pour le public français (FR) et pour GamerQuest, qui couvre déjà les actualités et guides Diablo. La concurrence sur ce long‑tail est modérée, car la plupart des sites se concentrent sur les annonces générales plutôt que sur l’analyse du pourquoi. La page pourra naturellement lier les articles de news, les guides de Diablo 4, les pages de fiches de jeux et les futures offres promotionnelles, offrant ainsi un bon potentiel de liens internes."
+    },
+    {
+      "id": "rss-the-blood-of-dawnwalker-one-of-the-year-s-top-rpgs-was--aa4362bbfa96",
+      "topic": "The Blood of Dawnwalker, one of the year's top RPGs, was made on a budget of $40 million much like Kingdom Come: Deliverance 2",
+      "detected_at": "2026-09-19T08:50:47.513084+00:00",
+      "analysed_at": "2026-09-19T08:51:44.650563+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 15,
+        "long_tail_specificity": 12,
+        "french_relevance": 9,
+        "competition": 8,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 4
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/the-blood-of-dawnwalker-one-of-the-years-top-rpgs-was-made-on-a-budget-of-usd40-million-much-like-kingdom-come-deliverance-2/",
+          "title": "The Blood of Dawnwalker, one of the year's top RPGs, was made on a budget of $40 million much like Kingdom Come: Deliverance 2",
+          "evidence": "<article> <p>The Blood of Dawnwalker, the newly released vampire RPG from the new studio led by The Witcher 3 director Konrad Tomaszkiewicz, was made on a budget of $40 million under NetEase.</p><p>That's according to a new article from <a href=\"https://www.bloomberg.com/news/newsletters/2026-09-18/the-40-million-journey-behind-the-blood-of-dawnwalker?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4OTc0MzY1OSwiZXhwIjoxNzkwMzQ4NDU5LCJhcnRpY2xlSWQiOiJUTEtDODFLSVVQU0UwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.5RFF7A8gol5xk6ZSnpHpdSI48PiaLrkfGmmO3TfAURU&leadSource=article-gifting\" target=\"_blank\"><u>Bloomberg</u></a> covering the game's development. The budget is the standout: Chinese company NetEase gained a 26% investment in The Blood of Dawnwalker developer Rebel Wolves and set its budget, while Bandai Namco ultimately stepped in as the game's publisher. In 2024, NetEase found a big hit in Marvel Rivals, which remains a popular multiplayer shooter. </p><p>This $40 million figure is significant for a few reasons, though it doesn't tell the whole story about The Blood of Dawnwalker's development or"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "budget du jeu The Blood of Dawnwalker",
+        "secondary_keywords": [
+          "coût du jeu The Blood of Dawnwalker",
+          "budget RPG 2026",
+          "comparaison budget The Blood of Dawnwalker Kingdom Come Deliverance 2",
+          "développement The Blood of Dawnwalker budget"
+        ],
+        "search_intent_type": "informationnel",
+        "recommended_angle": "Proposer une analyse détaillée du budget de développement de The Blood of Dawnwalker, le mettre en perspective avec d’autres RPG récents (ex. Kingdom Come : Deliverance 2), expliquer les implications pour la qualité du jeu et pour les joueurs français, tout en restant neutre et factuel.",
+        "suggested_title": "Quel est le budget du RPG The Blood of Dawnwalker ? Analyse et comparaison avec Kingdom Come : Deliverance 2"
+      },
+      "reasoning": "Le sujet est une actualité de budget de jeu, donc peu durable (durabilité faible). Cependant, la requête \"budget du jeu The Blood of Dawnwalker\" est très précise, peu concurrentielle et très pertinente pour le public francophone de GamerQuest. L’intention est purement informationnelle, ce qui correspond à un format evergreen qui peut rester utile même après la vague d’actualité initiale. Le contenu pourra être lié aux pages de news du jeu, aux guides de gameplay et aux éventuelles offres commerciales, offrant ainsi un bon potentiel de liens internes. La concurrence sur ce long‑tail est faible, la pertinence française élevée, et le sujet reste en lien avec la ligne éditoriale de GamerQuest."
+    },
+    {
+      "id": "rss-the-last-of-us-director-apologizes-for-using-god-of-war-5628feb24db1",
+      "topic": "The Last of Us director apologizes for using God of War Laufey as an example of \"lack\" of innovation in AAA: \"This isn't the team's fault\"",
+      "detected_at": "2026-09-19T08:50:47.513345+00:00",
+      "analysed_at": "2026-09-19T08:52:01.894934+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 5,
+        "long_tail_specificity": 5,
+        "french_relevance": 7,
+        "competition": 2,
+        "gamerquest_relevance": 4,
+        "internal_link_potential": 2
+      },
+      "total_score": 30,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/god-of-war/the-last-of-us-director-apologizes-for-using-god-of-war-laufey-as-an-example-of-lack-of-innovation-in-aaa-this-isnt-the-teams-fault/",
+          "title": "The Last of Us director apologizes for using God of War Laufey as an example of \"lack\" of innovation in AAA: \"This isn't the team's fault\"",
+          "evidence": "<article> <p>Naughty Dog veteran Bruce Straley has issued a public apology to the <a href=\"https://www.gamesradar.com/god-of-war-laufey-guide/\"><u>God of War Laufey</u></a> developers at Santa Monica Studio after using the game to illustrate how AAA production has stagnated in an interview with Edge, as part of a feature now available to read in the magazine's Knowledge <a href=\"https://www.gamesradar.com/newsletter/\"><u>newsletter</u></a>. </p><p>\"I want to apologize to the Laufey team for dragging you all into this uninvited & unnecessary negative attention,\" Straley writes <a href=\"https://x.com/bruce_straley/status/2100959840080404712\" target=\"_blank\"><u>in a September 18 Twitter post</u></a>. \"I was trying to illustrate an industry concern & my mistake of naming your game is being used out of context & for clickbait. You don't need this. I'm sorry.\" </p><p>Let me remind you of <a href=\"https://www.gamesradar.com/games/god-of-war/the-last-of-us-game-director-says-aaa-games-have-gotten-boring-and-hes-not-excited-looking-at-god-of-war-laufey-gameplay/\"><u>the original context</u></a>. Straley spoke to Edge for issue 428 – <a href=\"https://www.magazinesdirect.com/uk/single-issues/"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Bruce Straley s'excuse utilisation God of War Laufey",
+        "secondary_keywords": [
+          "The Last of Us directeur excuse",
+          "God of War Laufey controverse",
+          "innovation AAA jeux vidéo",
+          "débat innovation jeux vidéo 2026"
+        ],
+        "search_intent_type": "informationnelle (actualité)",
+        "recommended_angle": "Un article d'actualité concis qui résume les excuses de Bruce Straley, rappelle le contexte de ses propos sur l'innovation AAA, et analyse brièvement les réactions de l'industrie. Le texte doit renvoyer vers les pages de guides et d'analyses de The Last of Us et God of War sur GamerQuest, ainsi que vers des dossiers plus larges sur l'innovation dans les jeux AAA.",
+        "suggested_title": "Bruce Straley s’excuse d’avoir cité God of War Laufey pour critiquer l’innovation AAA"
+      },
+      "reasoning": "Le sujet est une information très récente et ponctuelle : il ne possède pas de valeur durable et ne pourra pas générer de trafic à long terme. La requête est très spécifique à l'événement et ne correspond pas à une recherche evergreen. Bien que les deux titres (The Last of Us, God of War) soient populaires en France, la concurrence sur les actualités de ce type est élevée et les requêtes sont principalement de nature journalistique, ce qui ne correspond pas à la stratégie de création de ressources pérennes. Le potentiel de liens internes existe mais reste limité à quelques pages de jeux et dossiers d'innovation. En conséquence, le score global reste faible, indiquant que ce sujet ne mérite pas une ressource SEO evergreen dédiée, mais plutôt un article d'actualité ponctuel."
     }
   ]
 }

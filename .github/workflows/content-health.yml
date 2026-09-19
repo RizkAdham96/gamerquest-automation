@@ -1,0 +1,64 @@
+name: GamerQuest Content Health
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "13 * * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  check-content-freshness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Wake WordPress GitHub bridge
+        run: |
+          curl --fail --silent --show-error --location \
+            --max-time 30 \
+            --user-agent "GamerQuest-Content-Health/1.0" \
+            https://gamerquestfr.com/ > /dev/null
+
+      - name: Check latest Actualités post
+        run: |
+          python - <<'PY'
+          import json
+          import urllib.request
+          from datetime import datetime, timezone
+
+          url = (
+              "https://gamerquestfr.com/wp-json/wp/v2/posts"
+              "?categories=2&per_page=1&orderby=date&order=desc"
+              "&_fields=id,date,slug,link,title"
+          )
+
+          request = urllib.request.Request(
+              url,
+              headers={"User-Agent": "GamerQuest-Content-Health/1.0"},
+          )
+
+          with urllib.request.urlopen(request, timeout=30) as response:
+              posts = json.load(response)
+
+          if not posts:
+              raise SystemExit("No published Actualités posts found.")
+
+          latest = posts[0]
+          published = datetime.fromisoformat(latest["date"]).replace(
+              tzinfo=timezone.utc
+          )
+          age_hours = (
+              datetime.now(timezone.utc) - published
+          ).total_seconds() / 3600
+
+          print("Latest article:", latest.get("title", {}).get("rendered"))
+          print("Latest URL:", latest.get("link"))
+          print(f"Age: {age_hours:.2f} hours")
+
+          if age_hours > 6:
+              raise SystemExit(
+                  f"Actualités publishing is stale: {age_hours:.2f} hours."
+              )
+          PY

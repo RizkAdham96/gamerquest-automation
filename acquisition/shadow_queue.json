@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T20:55:19.967664+00:00",
+  "generated_at": "2026-09-19T04:38:25.556307+00:00",
   "mode": "shadow",
-  "count": 3,
+  "count": 6,
   "opportunities": [
     {
       "id": "92e552851e316c3e07b837166b8705c6c43676eaa7aaa90b65fc893bb331d522",
@@ -120,6 +120,102 @@
         "specific long-tail angle",
         "strong social/distribution hook",
         "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "261cdc966e5ac3b97aa841d125fb5dcd6db784b041559bac8384353446a1d212",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE à -75% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "FINAL FANTASY VII REMAKE INTERGRADE",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/1462040/"
+        }
+      ],
+      "score": 61,
+      "decision": "WATCH",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 18,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 8,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
+      ]
+    },
+    {
+      "id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
+      "title": "FINAL FANTASY VII REBIRTH à -70% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "FINAL FANTASY VII REBIRTH",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/2909400/"
+        }
+      ],
+      "score": 57,
+      "decision": "WATCH",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 14,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 8,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
+      ]
+    },
+    {
+      "id": "633ab0b5c1c905066d7190d3dcc4633eb6e8cd90eda5945fe4d7c2d9074d2eb4",
+      "title": "Far Cry® 6 à -90% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "Far Cry® 6",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/2369390/"
+        }
+      ],
+      "score": 51,
+      "decision": "SKIP",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 8,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 8,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
       ]
     }
   ]

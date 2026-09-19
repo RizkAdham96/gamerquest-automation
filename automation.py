@@ -4056,7 +4056,32 @@ def save_rejection_report(
 
 ## Reason
 
-{rdef main():
+{reason}
+
+## Story
+
+{story_title}
+
+## URL
+
+{story_url}
+
+## Result
+
+SOURCE REJECTED - NO ARTICLE CREATED.
+"""
+
+    filename.write_text(
+        report,
+        encoding="utf-8",
+    )
+
+
+# =========================================================
+# MAIN
+# =========================================================
+
+def main():
     print("")
     print(
         "==================================="
@@ -4337,18 +4362,6 @@ def save_rejection_report(
     print(
         "All were invalid, duplicate, contradictory, "
         "or otherwise rejected safely."
-    ) We do not POST directly from GitHub Actions because
-    # the free hosting layer blocks automated external requests.
-    save_news_to_feed(
-        article_data,
-        story,
-        official_story,
-    )
-
-    print("")
-    print(
-        "GamerQuest SEO automation "
-        "completed successfully."
     )
 
 

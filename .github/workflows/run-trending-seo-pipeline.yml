@@ -2,6 +2,9 @@ name: Run Trending SEO Pipeline
 
 on:
   workflow_dispatch:
+  schedule:
+    # Four production runs per day; each can publish up to three SEO articles.
+    - cron: "43 */6 * * *"
 
 permissions:
   contents: write
@@ -13,7 +16,7 @@ concurrency:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
 
     steps:
       - name: Checkout repository
@@ -44,6 +47,12 @@ jobs:
             test_pipeline_publish_mode.py \
             -v
 
+      - name: Refill fresh gaming SEO topics
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          python trending_seo/discover_topics.py
+
       - name: Run Trending SEO pipeline with automatic publishing
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -59,6 +68,7 @@ jobs:
           git config user.name "GamerQuest Bot"
           git config user.email "actions@github.com"
 
+          git add trending_seo/intel/topics.json 2>/dev/null || true
           git add trending_seo/scored_topics.json 2>/dev/null || true
           git add trending_seo/research_results.json 2>/dev/null || true
           git add trending_seo/pipeline_result.json 2>/dev/null || true

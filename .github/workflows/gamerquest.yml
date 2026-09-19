@@ -82,3 +82,11 @@ jobs:
             git push origin HEAD:main
             git stash pop || true
           fi
+
+      - name: Wake WordPress news importer
+        if: success()
+        run: |
+          curl --fail --silent --show-error --location \
+            --max-time 30 \
+            --user-agent "GamerQuest-News-Wakeup/1.0" \
+            https://gamerquestfr.com/ > /dev/null

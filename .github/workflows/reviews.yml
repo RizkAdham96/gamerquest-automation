@@ -7,7 +7,8 @@ on:
       - "reviews/**"
       - ".github/workflows/reviews.yml"
   schedule:
-    - cron: "27 8 * * *"
+    # Refresh reviews three times per day; duplicate protection stays in WordPressPublisher.
+    - cron: "27 */8 * * *"
 
 permissions:
   contents: read

@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: gamerquest-trending-seo
+  group: gamerquest-repo-writer
   cancel-in-progress: false
 
 jobs:
@@ -78,5 +78,9 @@ jobs:
             echo "No Trending SEO state changes to save."
           else
             git commit -m "Update Trending SEO pipeline state"
-            git push
+            git stash push --include-untracked -m "gamerquest-trending-seo-pre-rebase" || true
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+            git stash pop || true
           fi

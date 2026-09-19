@@ -403,13 +403,20 @@ def _image_background(
         method=Image.Resampling.LANCZOS,
         centering=(0.50, 0.50),
     )
+    # Keep the full 9:16 canvas visually filled. The backdrop is still
+    # full-bleed, but it stays recognizable instead of becoming a large
+    # dark/empty-looking area around landscape source images.
     backdrop = backdrop.filter(
-        ImageFilter.GaussianBlur(28)
+        ImageFilter.GaussianBlur(16)
     )
     backdrop = ImageEnhance.Brightness(
         backdrop
-    ).enhance(0.58)
+    ).enhance(0.72)
 
+    # Preserve the complete source image on top of the full-bleed backdrop.
+    # Short/landscape artwork is anchored near the top of the story canvas
+    # instead of being vertically centered, which previously created a huge
+    # empty-looking band above the artwork on 9:16 slides.
     foreground = ImageOps.contain(
         source,
         (
@@ -424,10 +431,18 @@ def _image_background(
         - foreground.width
     ) // 2
 
-    y = (
+    centered_y = (
         HEIGHT
         - foreground.height
     ) // 2
+
+    y = max(
+        0,
+        min(
+            centered_y,
+            160,
+        ),
+    )
 
     backdrop.paste(
         foreground,
@@ -779,7 +794,7 @@ def _prepare_background(
         background = (
             _dark_gradient(
                 background,
-                620,
+                900,
                 strength=245,
             )
         )
@@ -788,7 +803,7 @@ def _prepare_background(
         background = (
             _dark_gradient(
                 background,
-                720,
+                1050,
                 strength=220,
             )
         )
@@ -1266,7 +1281,7 @@ def _layout_text_settings(
 ):
     if index == 1:
         return {
-            "title_y": 790,
+            "title_y": 1180,
             "max_width": 900,
             "title_size": 72,
             "body_size": 31,
@@ -1690,6 +1705,15 @@ def render_slide(
         parents=True,
         exist_ok=True,
     )
+
+    if image.size != (
+        WIDTH,
+        HEIGHT,
+    ):
+        raise RuntimeError(
+            "Renderer produced an invalid canvas size: "
+            f"{image.size}; expected {(WIDTH, HEIGHT)}."
+        )
 
     image.convert(
         "RGB"

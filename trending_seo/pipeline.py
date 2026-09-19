@@ -65,13 +65,10 @@ PIPELINE_VERSION = "2.0"
 
 MODEL = "openai/gpt-oss-120b"
 
-# =========================================================
-# IMPORTANT:
-# This SEO automation is intentionally limited to
-# ONE article per run.
-# =========================================================
-
-MAX_ARTICLES_PER_RUN = 1
+# Publish several independent SEO articles per run while preserving
+# the research, image, duplicate-intent and quality gates.
+MAX_ARTICLES_PER_RUN = 3
+MAX_SEO_CANDIDATE_ATTEMPTS = 8
 
 # =========================================================
 # SAFE FIRST PRODUCTION TEST:
@@ -2010,7 +2007,7 @@ def main() -> None:
         select_seo_candidates(
             scored_data,
             max_articles=(
-                MAX_ARTICLES_PER_RUN
+                MAX_SEO_CANDIDATE_ATTEMPTS
             ),
             history=history,
         )
@@ -2031,25 +2028,57 @@ def main() -> None:
         return
 
     # =====================================================
-    # ONE ARTICLE MAXIMUM
+    # PROCESS MULTIPLE QUALITY-APPROVED SEO OPPORTUNITIES
     # =====================================================
-
-    topic = candidates[0]
 
     try:
         intel_data = load_json(INTEL_TOPICS_FILE)
     except Exception:
         intel_data = {}
 
-    topic = with_intel_sources(
-        topic,
-        intel_data,
-    )
+    published_count = 0
+    attempted_count = 0
 
-    process_seo_topic(
-        topic=topic,
-        wp_config=wp_config,
-        history=history,
+    for raw_topic in candidates:
+        if published_count >= MAX_ARTICLES_PER_RUN:
+            break
+
+        attempted_count += 1
+
+        topic = with_intel_sources(
+            raw_topic,
+            intel_data,
+        )
+
+        # Reload durable history before every article so a successful
+        # publication immediately protects the remaining candidates from
+        # search-intent cannibalization.
+        current_history = load_intent_history(
+            SEO_INTENT_HISTORY_FILE
+        )
+
+        result = process_seo_topic(
+            topic=topic,
+            wp_config=wp_config,
+            history=current_history,
+        )
+
+        if (
+            isinstance(result, dict)
+            and result.get("published") is True
+        ):
+            published_count += 1
+
+    print("")
+    print("=" * 60)
+    print("TRENDING SEO RUN COMPLETE")
+    print("=" * 60)
+    print(
+        f"Published: {published_count}/"
+        f"{MAX_ARTICLES_PER_RUN}"
+    )
+    print(
+        f"Candidates attempted: {attempted_count}"
     )
 
 

@@ -139,7 +139,7 @@ jobs:
               hashes.append(sha256(raw).hexdigest())
               with Image.open(path) as image:
                   assert image.format == "PNG", (path, image.format)
-                  assert image.size == (1080, 1920), (path, image.size)
+                  assert image.size == (1920, 1080), (path, image.size)
               assert len(raw) > 100_000, (path, len(raw))
               print(path, len(raw))
 

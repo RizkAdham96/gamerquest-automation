@@ -1140,6 +1140,33 @@ def high_risk_sanity_check(
 # WORDPRESS DRAFT BRIDGE
 # =========================================================
 
+def wordpress_category_ids_for_brief(
+    brief: Dict[str, Any],
+) -> list[int]:
+    """Map search intent to GamerQuest's durable WordPress taxonomy."""
+    keyword = safe_string(brief.get("primary_keyword")).lower()
+    intent = safe_string(brief.get("search_intent")).lower()
+    text = f"{keyword} {intent}"
+
+    guide_markers = (
+        "guide", "comment", "astuce", "soluce", "walkthrough",
+        "probleme", "problème", "erreur", "fix", "où trouver",
+        "ou trouver", "obtenir", "débloquer", "debloquer",
+    )
+    recommendation_markers = (
+        "meilleur", "meilleure", "comparatif", "recommand",
+        "versus", " vs ",
+    )
+
+    if any(marker in text for marker in guide_markers):
+        return [3]  # Guides
+
+    if any(marker in text for marker in recommendation_markers):
+        return [4]  # Recommandations
+
+    return [2]  # Actualités
+
+
 def create_wordpress_draft(
     article: Dict[str, Any],
     wp_config: Dict[str, str],
@@ -1254,11 +1281,19 @@ def create_wordpress_draft(
     # This V2 smoke-test pipeline creates DRAFTS ONLY.
     # =====================================================
 
+    category_ids = article.get(
+        "wordpress_category_ids",
+        [2],
+    )
+    if not isinstance(category_ids, list) or not category_ids:
+        category_ids = [2]
+
     payload = {
         "title": title,
         "content": content,
         "status": WORDPRESS_STATUS,
         "featured_media": featured_media,
+        "categories": category_ids,
     }
 
     if meta_description:
@@ -1611,6 +1646,12 @@ def process_seo_topic(
     article[
         "publishable"
     ] = True
+
+    article["wordpress_category_ids"] = (
+        wordpress_category_ids_for_brief(
+            brief
+        )
+    )
 
     # =====================================================
     # STAGE 7 — FEATURED IMAGE

@@ -16,7 +16,7 @@ OPENAI_IMAGE_ENDPOINT = (
 
 OPENAI_IMAGE_MODEL = "gpt-image-1"
 
-OPENAI_IMAGE_SIZE = "1024x1536"
+OPENAI_IMAGE_SIZE = "1536x1024"
 
 OPENAI_IMAGE_QUALITY = "medium"
 
@@ -32,7 +32,7 @@ DEFAULT_TIMEOUT_SECONDS = 180
 # We want to stay far below the user's €5/month budget.
 #
 # At current published GPT-Image-1 pricing:
-# medium 1024x1536 ≈ $0.063 / image.
+# medium 1536x1024 ≈ $0.063 / image.
 #
 # 50 images would be roughly $3.15 in image-output cost.
 #
@@ -403,7 +403,7 @@ def _carousel_context(
 
 def _shared_style_prompt():
     return """
-Create a premium vertical gaming-editorial visual for GamerQuest FR.
+Create a premium wide landscape gaming-editorial visual for GamerQuest FR.
 
 Visual direction:
 - cinematic gaming magazine aesthetic
@@ -411,14 +411,14 @@ Visual direction:
 - realistic lighting and believable materials
 - strong depth between foreground, subject and background
 - high visual contrast
-- composition suitable for Instagram
+- wide composition designed to be placed inside a 16:9 Instagram carousel slide
 - dark futuristic atmosphere where appropriate
 - subtle blue and purple lighting accents
 - visually rich but not cluttered
 - professional gaming publication quality
 - main subject clearly readable immediately
-- leave useful darker/clean visual space in the lower half for a text card
-- preserve strong visual interest in the upper half
+- leave useful darker/clean visual space across the lower third for a text card
+- preserve strong visual interest across the upper two-thirds
 
 Important restrictions:
 - NO written words
@@ -449,7 +449,7 @@ Prioritize a dramatic recognizable subject or scene.
 Use a cinematic hero composition.
 The image should instantly communicate the gaming story.
 Avoid generic gaming hardware unless the story is actually about hardware.
-Keep the lower central area calmer because text will be overlaid later.
+Keep the lower third calmer because text will be overlaid later.
 """.strip()
 
     if index == 2:
@@ -460,7 +460,7 @@ Create a distinctly different composition from slide 1.
 Show gameplay, environment, action, a location, a mechanic, or a meaningful story detail when supported by the supplied context.
 Do not simply create another close-up hero portrait.
 The visual must still clearly belong to the same gaming story.
-Keep the lower central area usable for a text panel.
+Keep the lower third usable for a text panel.
 """.strip()
 
     return """
@@ -469,7 +469,7 @@ This is slide 3, the closing image.
 Create a third distinct composition that still belongs to the same story.
 Favor a memorable dramatic angle, atmospheric scene, action moment, or secondary visual idea.
 It should feel like a satisfying final carousel image, not a repeat of slide 1.
-Keep enough clean/darker space in the lower half for the closing text and CTA.
+Keep enough clean/darker space in the lower third for the closing text and CTA.
 """.strip()
 
 
@@ -542,7 +542,7 @@ Do not create text inside the image.
 
 OUTPUT
 ------
-One polished vertical background image only.
+One polished wide landscape background image only.
 """.strip()
 
     return prompt

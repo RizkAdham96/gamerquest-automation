@@ -1194,6 +1194,9 @@ def wordpress_category_ids_for_brief(
     intent = safe_string(brief.get("search_intent")).lower()
     text = f"{keyword} {intent}"
 
+    review_markers = (
+        "test", "avis", "review",
+    )
     guide_markers = (
         "guide", "comment", "astuce", "soluce", "walkthrough",
         "probleme", "problème", "erreur", "fix", "où trouver",
@@ -1203,6 +1206,9 @@ def wordpress_category_ids_for_brief(
         "meilleur", "meilleure", "comparatif", "recommand",
         "versus", " vs ",
     )
+
+    if any(marker in text for marker in review_markers):
+        return [5]  # Tests
 
     if any(marker in text for marker in guide_markers):
         return [3]  # Guides

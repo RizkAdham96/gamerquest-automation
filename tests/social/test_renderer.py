@@ -30,7 +30,7 @@ class TestCarouselRenderer(unittest.TestCase):
             ],
         }
 
-    def test_render_carousel_creates_three_1080x1350_pngs(
+    def test_render_carousel_creates_three_1080x1920_pngs(
         self
     ):
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -61,7 +61,7 @@ class TestCarouselRenderer(unittest.TestCase):
                         image.size,
                         (
                             1080,
-                            1350,
+                            1920,
                         ),
                     )
 
@@ -366,9 +366,9 @@ class TestCarouselRenderer(unittest.TestCase):
 
         background = renderer._image_background(source, 1)
 
-        self.assertEqual(background.size, (1080, 1350))
+        self.assertEqual(background.size, (1080, 1920))
         top = background.getpixel((540, 30))
-        bottom = background.getpixel((540, 1320))
+        bottom = background.getpixel((540, 1890))
         self.assertGreater(top[0], top[1])
         self.assertGreater(top[0], top[2])
         self.assertGreater(bottom[2], bottom[0])

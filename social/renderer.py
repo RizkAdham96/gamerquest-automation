@@ -16,10 +16,12 @@ from PIL import (
 # GAMERQUEST SOCIAL RENDERER
 # =========================================================
 
-WIDTH = 1080
-HEIGHT = 1920
+WIDTH = 1920
+HEIGHT = 1080
 
-SAFE_X = 72
+# Instagram carousel master format: 16:9 landscape.
+# Do not change these independently; publishing must stay exactly 16:9.
+SAFE_X = 96
 
 BG = (5, 8, 15)
 PANEL = (12, 17, 29)
@@ -492,8 +494,8 @@ def _fallback_background(
         )
 
         center = (
-            800,
-            350,
+            1450,
+            260,
         )
 
     elif index == 2:
@@ -502,8 +504,8 @@ def _fallback_background(
         )
 
         center = (
-            250,
-            500,
+            420,
+            360,
         )
 
     else:
@@ -512,8 +514,8 @@ def _fallback_background(
         )
 
         center = (
-            820,
-            750,
+            1500,
+            460,
         )
 
     radius = 430
@@ -691,8 +693,8 @@ def _brand_glow(
 
     if index == 1:
         center = (
-            110,
-            960,
+            180,
+            640,
         )
 
         color = (
@@ -701,8 +703,8 @@ def _brand_glow(
 
     elif index == 2:
         center = (
-            850,
-            970,
+            1540,
+            650,
         )
 
         color = (
@@ -711,8 +713,8 @@ def _brand_glow(
 
     else:
         center = (
-            180,
-            1050,
+            280,
+            700,
         )
 
         color = (
@@ -794,7 +796,7 @@ def _prepare_background(
         background = (
             _dark_gradient(
                 background,
-                900,
+                430,
                 strength=245,
             )
         )
@@ -803,7 +805,7 @@ def _prepare_background(
         background = (
             _dark_gradient(
                 background,
-                1050,
+                520,
                 strength=220,
             )
         )
@@ -1281,25 +1283,25 @@ def _layout_text_settings(
 ):
     if index == 1:
         return {
-            "title_y": 1180,
-            "max_width": 900,
-            "title_size": 72,
-            "body_size": 31,
+            "title_y": 600,
+            "max_width": 1600,
+            "title_size": 68,
+            "body_size": 30,
         }
 
     if index == 2:
         return {
-            "title_y": 820,
-            "max_width": 800,
-            "title_size": 54,
-            "body_size": 31,
+            "title_y": 500,
+            "max_width": 1550,
+            "title_size": 52,
+            "body_size": 29,
         }
 
     return {
-        "title_y": 800,
-        "max_width": 800,
-        "title_size": 54,
-        "body_size": 31,
+        "title_y": 500,
+        "max_width": 1550,
+        "title_size": 52,
+        "body_size": 29,
     }
 
 
@@ -1421,7 +1423,7 @@ def _render_cover(
                 ]
             ),
             MUTED,
-            790,
+            1420,
             spacing=8,
             max_lines=3,
         )
@@ -1492,7 +1494,7 @@ def _render_explanation(
         ]
     )
 
-    content_width = 790
+    content_width = 1500
 
     title_height = (
         _text_height(
@@ -1525,10 +1527,10 @@ def _render_explanation(
     )
 
     panel_height = max(
-        340,
+        300,
         min(
             panel_height,
-            510,
+            430,
         ),
     )
 

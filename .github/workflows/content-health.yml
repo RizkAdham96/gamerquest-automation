@@ -2,6 +2,9 @@ name: GamerQuest Content Health
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/content-health.yml"
   schedule:
     - cron: "13 * * * *"
 

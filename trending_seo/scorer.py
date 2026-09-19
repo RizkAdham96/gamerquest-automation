@@ -13,7 +13,7 @@ INTEL_FILE = BASE_DIR / "intel" / "topics.json"
 SCORED_FILE = BASE_DIR / "scored_topics.json"
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_MODEL = "openai/gpt-oss-120b"
-MAX_TOPICS_PER_RUN = 3
+MAX_TOPICS_PER_RUN = 8
 GROQ_MAX_RETRIES = 3
 GROQ_DEFAULT_WAIT_SECONDS = 10
 

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T16:11:29.994428+00:00",
+  "generated_at": "2026-09-20T20:49:34.333286+00:00",
   "mode": "shadow",
-  "count": 78,
+  "count": 90,
   "opportunities": [
     {
       "id": "rss-cloud-is-still-the-main-character-of-final-fantasy-7-re-cf45bad46657",
@@ -414,6 +414,47 @@
       ]
     },
     {
+      "id": "rss-ball-x-pit-just-revealed-a-whole-new-expansion-risen-ba-09011ec558f9",
+      "title": "Ball x Pit just revealed a whole new expansion: Risen Ballbylon",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Ball x Pit just revealed a whole new expansion: Risen Ballbylon",
+        "Ball x Pit just revealed a whole new expansion: Risen Ballbylon date de sortie",
+        "Ball x Pit just revealed a whole new expansion: Risen Ballbylon plateformes",
+        "Ball x Pit just revealed a whole new expansion: Risen Ballbylon gameplay",
+        "Ball x Pit just revealed a whole new expansion: Risen Ballbylon guide",
+        "Ball x Pit just revealed a whole new expansion: Risen Ballbylon avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/roguelike/ball-x-pit-just-revealed-a-whole-new-expansion-risen-ballbylon/",
+          "title": "Ball x Pit just revealed a whole new expansion: Risen Ballbylon",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/XeNAXBO1_k8\" allowfullscreen></iframe></div></div><p>You know, for like a solid month after Ball x Pit released, it had several members of PC Gamer's staff in a white-knuckle chokehold. Editors, staff writers, possibly an accountant or two—the game's blend of Breakout and roguelike swept through these offices like a delightful plague, leaving none of us unchanged.</p><p>Time to be changed again, then. At the PC Gaming Show Tokyo Direct, we just saw Ball x Pit: Risen Ballbylon, an entirely new expansion for the game with new characters, gameplay, buildings, passives and, brace yourself, new balls.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/MVqyEhtXvxvB32PejaDqp.png\" alt=\"Ball X Pit: Risen Ballbylon art with logo\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Ball X Pit: Risen Ballbylon on Ste"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-best-early-black-friday-gaming-laptop-deals-2026-the-bi-569f3ebbaadb",
       "title": "Best early Black Friday gaming laptop deals 2026, the biggest discounts ahead of the holiday sales",
       "source_type": "seo_intel",
@@ -556,6 +597,47 @@
           "url": "https://www.pcgamer.com/games/the-witcher/cd-projekt-says-abandoning-its-in-house-engine-for-the-witcher-4-had-nothing-to-do-with-cyberpunk-2077s-technical-woes-the-dream-of-the-company-was-actually-never-to-make-technology/",
           "title": "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology'",
           "evidence": "<article> <p>We still don't know a huge amount about<a href=\"https://www.pcgamer.com/uk/the-witcher-4/\"> The Witcher 4</a>. But we do know it represents two big changes for the series thus far. The first change is, of course, that Ciri will replace Geralt as the lead character. The second is that CD Projekk will replace its in-house REDengine with Unreal Engine 5.</p><p>There's been considerable speculation as to why CDP is abandoning tech that's delivered some of the most cutting-edge visuals of the last decade, with some fans suggesting that<a href=\"https://www.pcgamer.com/uk/cyberpunk-2077/\"> Cyberpunk 2077</a>'s difficult development and compromised initial release might be a factor. But the studio's co-CEO Michał Nowakowski has formally dismissed this suggestion, stating the decision had more to do with CD Projekt's general ambitions than Cyberpunk specifically.</p><p>Speaking on the<a href=\"https://www.deconstructoroffun.com/blog/why-none-of-us-saw-cyberpunk-coming-apart\" target=\"_blank\"> Deconstructor of Fun</a> podcast (via<a href=\"https://www.gamesradar.com/games/the-witcher/the-witcher-4-abandons-cd-projekt-reds-in-house-tech-for-unreal-engine-5-but-studio-lead-says-its-n"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-co-op-puzzle-game-we-were-here-tomorrow-is-out-next-mon-3b017d5f2105",
+      "title": "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills",
+        "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills date de sortie",
+        "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills plateformes",
+        "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills gameplay",
+        "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills guide",
+        "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/puzzle/co-op-puzzle-game-we-were-here-tomorrow-is-out-next-month-so-youve-got-time-to-practise-your-communication-skills/",
+          "title": "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/fYhNo2QgbJ0\" allowfullscreen></iframe></div></div><p>As much as I enjoy multiplayer games, it's becoming more and more difficult to actually gather my friends for a session. We're growing up and have less time for games due to all our boring adult responsibilities, bleh. But give me a two player co-op game and I can normally convince my girlfriend to at least give it a go. Puzzle games are her favourite, so I reckon we'll be able to get properly stuck into We Were Here Tomorrow, the latest in the co-op puzzle series. And we only have to wait a month to play it.</p><p>As we just revealed at the PC Gaming Show Tokyo Direct, We Were Here Tomorrow is launching October 20. It's the sixth game in the We Were Here series, all co-op puzzle games that involve you and a buddy teaming up to escape some sort of predicament. The games have taken us to castles, a deserted island, and now, a mysterious facility.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanil"
         }
       ],
       "score": 93,
@@ -1275,6 +1357,47 @@
       ]
     },
     {
+      "id": "rss-in-falsus-is-a-delightfully-unforgiving-rhythm-game-tho-cfbcb5a6ead7",
+      "title": "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story",
+      "source_type": "seo_intel",
+      "keywords": [
+        "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story",
+        "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story date de sortie",
+        "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story plateformes",
+        "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story gameplay",
+        "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story guide",
+        "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rhythm/in-falsus-is-a-delightfully-unforgiving-rhythm-game-though-its-best-tracks-are-locked-behind-an-unimpressive-story/",
+          "title": "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Critical Hit</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"WcCZiWMVteuU25phgoBuD8\" name=\"critical-hit-boxout-badge\" caption=\"\" alt=\"Critical Hit column logo\" src=\"https://cdn.mos.cms.futurecdn.net/WcCZiWMVteuU25phgoBuD8-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/critical-hit/\" target=\"_blank\">Critical Hit</a>, where I (or someone else on the PC Gamer team) celebrate and lament all things videogame music, audio design, and the ways our favourite games make our ears tingle.</p></div></div><p>I'm almost certain my love for videogame music was the pipeline to becoming a chronic rhythm game enjoyer, combining "
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-indie-dev-says-ai-voice-in-his-game-was-actually-his-wi-32aa2906b225",
       "title": "Indie Dev Says “AI” Voice In His Game Was Actually His Wife",
       "source_type": "seo_intel",
@@ -1335,6 +1458,47 @@
           "url": "https://www.pcgamer.com/games/rpg/it-rules-that-a-27-year-old-rpg-one-of-the-greatest-of-all-time-is-still-getting-patches/",
           "title": "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches",
           "evidence": "<article> <p>A lamentable fact of our hobby is this: time marches on. Because our games have to be rendered in real-time by whatever tech we load them onto, they inevitably end up harder to run as the years wear on, and the gap grows between the tech we <em>have</em> and the tech the games were designed to run on. On PC, the task of keeping those games running tends to end up in the hands of dedicated fans—and god bless them.</p><p>You can't expect devs to maintain games in perpetuity. Unless, I guess, they happen to be the stewards of the Baldur's Gate and Planescape: Torment Enhanced Editions, which are still getting patches almost three decades after the original games released. Most recently (September 15), Planescape got a beta update to its, uh, beta update: a release candidate for an upcoming patch that will bring the game in line with the 2.7 patches some of Beamdog's <a href=\"https://www.pcgamer.com/games/baldurs-gate/beamdog-swaggers-in-says-sorry-im-late-then-surprise-patches-baldurs-gate-1-and-2-enhanced-14-years-after-release/\">other Enhanced Edition games</a> already have.</p><p>As with those other games, the new Planescape beta (itself an addition to <a href=\"https:/"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-it-s-just-you-and-your-van-in-this-upcoming-open-world--fc0f62a3964b",
+      "title": "It's just you and your van in this upcoming open-world scavenging game",
+      "source_type": "seo_intel",
+      "keywords": [
+        "It's just you and your van in this upcoming open-world scavenging game",
+        "It's just you and your van in this upcoming open-world scavenging game date de sortie",
+        "It's just you and your van in this upcoming open-world scavenging game plateformes",
+        "It's just you and your van in this upcoming open-world scavenging game gameplay",
+        "It's just you and your van in this upcoming open-world scavenging game guide",
+        "It's just you and your van in this upcoming open-world scavenging game avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/adventure/its-just-you-and-your-van-in-this-upcoming-open-world-scavenging-game/",
+          "title": "It's just you and your van in this upcoming open-world scavenging game",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/4UF4lxGqPhI\" allowfullscreen></iframe></div></div><p>Deep down, I know I want to abandon it all and live the life of a nomad. If I didn't have a family and friends to worry about, I'd pack some clothes into a van and drive off, moving from town to town and camping out in the woods. Unfortunately, I have responsibilities and no driver's license, so I can't head off just yet. I can, however, live out the fantasy in Hodka, a new game revealed at the PC Gaming Show Tokyo Direct.</p><p>Hodka is an upcoming game from developer Flazm. In the reveal trailer, we see a dilapidated van cresting a hill next to some stone ruins. The scene is set: this is about you and your trusty home-on-wheels venturing through what remains of this troubled world.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/hrq2PEya2twqN4MYfYKkMb.jpg\" alt=\"A ma"
         }
       ],
       "score": 93,
@@ -1603,6 +1767,47 @@
       ]
     },
     {
+      "id": "rss-neon-abyss-2-has-a-new-final-boss-a-release-date-and-at-89535b5dda9a",
+      "title": "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points",
+        "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points date de sortie",
+        "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points plateformes",
+        "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points gameplay",
+        "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points guide",
+        "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/neon-abyss-2-has-a-new-final-boss-a-release-date-and-at-least-1-massive-fish-worth-many-many-points/",
+          "title": "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Ss9920Jn8Eg\" allowfullscreen></iframe></div></div><p>Back in 2020, the first Neon Abyss served us up a run 'n' gun roguelike filled with glorious colour, overwhelming action, and like a billion possible builds. It was a sugary-sweet thinker of a game, so it was, tickling all the bestial regions of your brain even while it put that grey matter to work.</p><p>Well, now it's back. We just saw Neon Abyss 2 at the PC Gaming Show Tokyo Direct and, brother, there sure is a lot going on here. The game's gearing up for an October 8 release date—it's currently out in early access—and to celebrate it's getting a new final boss: Theia, God of Vanity.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/u5S2TFKvrV78U6gquQBSF5.png\" alt=\"Key art from Neon Abyss 2\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Neon A"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-new-marvel-s-wolverine-update-makes-the-game-s-infamous-f0de838addd5",
       "title": "New Marvel's Wolverine update makes the game's infamous scent trails \"less intense,\" while Insomniac explores \"toggleable options\"",
       "source_type": "seo_intel",
@@ -1663,6 +1868,47 @@
           "url": "https://www.gamespot.com/articles/new-pokemon-plane-looks-incredible-even-includes-themed-cups-and-napkins/",
           "title": "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins",
           "evidence": "GameSpot published a fresh gaming story titled: New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins. All factual claims must be independently verified before publication."
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-night-plane-is-a-horror-game-designed-to-scare-me-speci-090f578a526d",
+      "title": "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons",
+        "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons date de sortie",
+        "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons plateformes",
+        "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons gameplay",
+        "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons guide",
+        "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/night-plane-is-a-horror-game-designed-to-scare-me-specifically-because-i-hate-flying-and-deer-demons/",
+          "title": "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/lMqCIDu54LQ\" allowfullscreen></iframe></div></div><p>I hate flying. Crammed into a tiny metal tube with 100s of other people, 1000s of feet in the air, unnaturally defying the will of God—it's awful. I don't know how flight attendants stay so calm and professional the entire time. At least in the real world they don't have to contend with shape-shifting demons like they do in Night Plane, the upcoming horror job sim from Liquid Static Studio.</p><p>In a new trailer unveiled during the PC Gaming Show Tokyo Direct, things get spooky real quick. A deer just stands there, menacingly staring at the flight attendant before they board the Plane Airlines plane, and we see a bloody handprint smeared on the emergency door.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/8XVEm9GD8DTYV5Tsti6cwR.jpg\" alt=\"A monstrous creature perche"
         }
       ],
       "score": 93,
@@ -1767,6 +2013,47 @@
       ]
     },
     {
+      "id": "rss-pirate-poker-battler-piroker-has-a-playtest-you-can-sig-e3adf20b8d0a",
+      "title": "Pirate poker battler Piroker has a playtest you can sign up for now",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Pirate poker battler Piroker has a playtest you can sign up for now",
+        "Pirate poker battler Piroker has a playtest you can sign up for now date de sortie",
+        "Pirate poker battler Piroker has a playtest you can sign up for now plateformes",
+        "Pirate poker battler Piroker has a playtest you can sign up for now gameplay",
+        "Pirate poker battler Piroker has a playtest you can sign up for now guide",
+        "Pirate poker battler Piroker has a playtest you can sign up for now avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/card-games/pirate-poker-battler-piroker-has-a-playtest-you-can-sign-up-for-now/",
+          "title": "Pirate poker battler Piroker has a playtest you can sign up for now",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/hU3oTbteJ8A\" allowfullscreen></iframe></div></div><p>Pirates and poker are two of my favourite things beginning with the letter 'P', so I'm delighted we just revealed a new animated trailer for Piroker during the PC Gaming Show Tokyo Direct. It's an asynchronous multiplayer poker game with a wonderful pirate theme, and fans of Balatro are sure to enjoy it.</p><p>I played a bit too much Piroker when PC Gaming Show editorial director Jake Tucker first slid an early build of the game across my desk. You pick a pirate captain and go head-to-head against seven other players trying to score the best hands possible.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/faUNbWd6t8sKjmns9SPsRi.jpg\" alt=\"Pirates play poker. The Piroker logo is shown.\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Piroker on Stea"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-pokemon-go-september-2026-events-raid-bosses-spotlight--b8c61e7df5d5",
       "title": "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More",
       "source_type": "seo_intel",
@@ -1827,6 +2114,47 @@
           "url": "https://www.gamesradar.com/games/puzzle/portal-couldve-had-a-bunch-of-gore-and-dead-bodies-if-one-dev-had-his-way-says-valve-veteran-but-gabe-newell-considered-it-the-stupidest-question-ever/",
           "title": "Portal could've had \"a bunch of gore and dead bodies\" if one dev had his way, says Valve veteran, but Gabe Newell considered it \"the stupidest question ever\"",
           "evidence": "<article> <p>Portal writer and Valve veteran Chet Faliszek says that one of the developers behind the 2007 puzzle game gem wanted it to be a <em>tad</em> more gory – something that the rest of the team, and Gabe Newell himself, didn't want to consider.</p><p>Faliszek reveals as much in a new <a href=\"https://www.youtube.com/watch?v=HZis8GwXU4U\" target=\"_blank\">video on YouTube (below)</a>, recalling how \"someone had suggested we add gore to Portal – the original Portal.\" They weren't a small dev, either, although the former Valve writer doesn't clarify <em>who</em> it was. He does, however, make it clear that neither he nor anyone else was a fan of the thought. <br><br>As Faliszek puts it, \"Somebody with enough oomph wants to add a bunch of gore and dead bodies all through Portal, and it's a horrible idea.\"</p><p>He continues, \"The entire team thinks it's a horrible idea, but this person is being very verbal about it and calls a meeting and calls Gabe [Newell]. <br><br>That's when Eric Wolpaw asked Faliszek to \"just come into this meeting\" and \"just say no\" – and point out \"how stupid this is,\" because let's face it… Portal is no Half-Life, and gore just wouldn't fit into Aperture "
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-quarantine-zone-is-getting-a-free-expansion-with-a-whol-176fa49ad9af",
+      "title": "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs'",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs'",
+        "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs' date de sortie",
+        "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs' plateformes",
+        "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs' gameplay",
+        "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs' guide",
+        "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs' avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/quarantine-zone-is-getting-a-free-expansion-with-a-whole-new-location-and-its-time-to-experiment-with-drugs/",
+          "title": "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs'",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/ryeSOQTPcNI\" allowfullscreen></iframe></div></div><p>It's finally time, everyone. It's time to figure out the answer to the world's oldest question: what's wrong with Miami? Quarantine Zone—the game about manning a checkpoint and making sure plague-bearers don't sneak their way through—just showed off its new, Miami-based expansion at the PC Gaming Show Tokyo Direct.</p><p>Quarantine Zone: Miami Zero will arrive as a free update for the original game and it's coming on October 15, bringing you to the titular, and entirely new, location. It's sun-drenched, absurd, and comes with a whole gamut of new ailments and symptoms for Florida's unlucky inhabitants to suffer from and smuggle past you. Or attempt to smuggle past you, anyway. Your job is making sure they don't.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/eanzwJEb"
         }
       ],
       "score": 93,
@@ -1991,6 +2319,47 @@
           "url": "https://www.gamesradar.com/entertainment/netflix/stranger-things-tales-from-85-season-2-has-debuted-to-a-franchise-low-rotten-tomatoes-score/",
           "title": "Stranger Things: Tales from '85 season 2 has debuted to a franchise-low Rotten Tomatoes score",
           "evidence": "<article> <p>Things have gone upside down for Netflix's flagship franchise after the second season of the animated spin-off, Stranger Things: Tales from '85, earned the property's lowest Rotten Tomatoes score so far. At the time of writing, the new chapter, which tells another untold story wedged between seasons 2 and 3 of the live-action series, has earned a disappointing <a href=\"https://www.rottentomatoes.com/tv/stranger_things_tales_from_85/s02\" target=\"_blank\">43% on the review aggregator</a>, with the consensus that it's all style and no substance. </p><p>The new season once again sees El and pals, along with the ally that's only appeared in the animated show, Nikki Baxter (Odessa A’zion), going back into the woods to face a new kind of Demogorgon. This new beastie sets itself apart from the other creatures they've encountered, since it's a ghostly apparition that's hungry for human. But while 'bustin might make Dustin and pals feel good, it apparently wasn't enough for critics.</p><p><a href=\"https://www.ign.com/articles/stranger-things-tales-from-85-season-2-review\" target=\"_blank\">IGN</a> said, \"Stranger Things: Tales From '85 remains a gorgeously designed and animated sho"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-stronghold-4-boasts-castles-aplenty-and-a-rogue-s-galle-d2e85cef0d1d",
+      "title": "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against",
+        "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against date de sortie",
+        "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against plateformes",
+        "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against gameplay",
+        "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against guide",
+        "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rts/stronghold-4-boasts-castles-aplenty-and-a-rogues-gallery-of-weirdos-to-pit-them-against/",
+          "title": "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/wNCSxUS_VZ0\" allowfullscreen></iframe></div></div><p>Since the dawn of time, mankind has reckoned with one overriding question: how do I get in that building and kill everyone in it?</p><p>For almost as long, the Stronghold series has grappled with both sides of this conundrum, placing you in the mailed shoes of both defender and attacker in medieval siege after medieval siege. Now, 15 years (would you believe it?) after Stronghold 3, Stronghold 4 is here to put things in trebuchets and launch them at you, and we just caught sight of it at the PC Gaming Show Tokyo Direct.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/3ZnAt9BmWgki7PTNoW7C8K.png\" alt=\"The Stronghold 4 keyart\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Stronghold 4 on Steam</h3><div class=\"card__description-wrapper\"><div class="
         }
       ],
       "score": 93,
@@ -2628,6 +2997,47 @@
       ]
     },
     {
+      "id": "rss-vaewolf-s-new-story-trailer-takes-us-down-a-brutal-path-c5b534d00a08",
+      "title": "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat",
+        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat date de sortie",
+        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat plateformes",
+        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat gameplay",
+        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat guide",
+        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/vaewolfs-new-story-trailer-takes-us-down-a-brutal-path-of-revenge-and-shows-off-the-frenetic-vampire-and-werewolf-combat/",
+          "title": "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/LapaDbUyezs\" allowfullscreen></iframe></div></div><p>It's always vampires versus werewolves. In games like Skyrim, you can be one or the other, but not both. In Twilight, you had to choose team Jacob or team Edward. Now we're all grown up, it's team Charlie and Carlisle all the way. In Vaewolf, you don't have to choose, you play an elf who's half werewolf and half vampire.</p><p>Vaewolf is an action game where you hack and slash your way to vengeance. The PC Gaming Show Tokyo Direct just debuted a story trailer that gives us a good look at the events that led to our protagonist going down the path of violence.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/y3q7vNa57iQpPTSHdhcAnZ.jpg\" alt=\"A werewolf and a vampiric figure howling. The Vaewolf logo is shown.\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-valve-devs-can-t-believe-we-get-away-with-such-small-up-f58bf0830ce7",
       "title": "Valve devs \"can't believe we get away\" with such small updates for Team Fortress 2 and Counter-Strike, ex-writer says",
       "source_type": "seo_intel",
@@ -2688,6 +3098,47 @@
           "url": "https://www.gamespot.com/articles/very-large-man-could-join-helldivers-movie-after-a-different-very-large-aquaman-dropped-out/",
           "title": "Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out",
           "evidence": "GameSpot published a fresh gaming story titled: Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out. All factual claims must be independently verified before publication."
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-videogame-development-sim-let-s-build-a-dungeon-launche-84d0a1dbb43f",
+      "title": "Videogame development sim Let's Build a Dungeon launches into early access February 11",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Videogame development sim Let's Build a Dungeon launches into early access February 11",
+        "Videogame development sim Let's Build a Dungeon launches into early access February 11 date de sortie",
+        "Videogame development sim Let's Build a Dungeon launches into early access February 11 plateformes",
+        "Videogame development sim Let's Build a Dungeon launches into early access February 11 gameplay",
+        "Videogame development sim Let's Build a Dungeon launches into early access February 11 guide",
+        "Videogame development sim Let's Build a Dungeon launches into early access February 11 avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/videogame-development-sim-lets-build-a-dungeon-launches-into-early-access-february-11/",
+          "title": "Videogame development sim Let's Build a Dungeon launches into early access February 11",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/JWuoN2zk7ns\" allowfullscreen></iframe></div></div><p>Since you're reading this, chances are you've thought to yourself, \"I bet I could make a better game than that.\" I know I have. Well, the chance for us to prove it will soon be upon us: MMORPG-maker Let's Build a Dungeon is launching into early access February 11, 2027.</p><p>In Let's Build a Dungeon, you take control of a videogame studio making an MMORPG. It's part management simulator, part RPG maker. You'll be in charge of hiring devs, assigning work, even deciding if you'll make your workers crunch or not.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/Ksgar4ZTieb7LPg4WboAEG.jpg\" alt=\"Monsters gather around an old-fashioned PC. The Let's Build a Dungeon logo is shown.\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Let's Build a Dungeon on"
         }
       ],
       "score": 93,
@@ -2934,6 +3385,47 @@
           "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-convinced-me-that-we-lost-too-much-to-modern-mmo-quest-design/",
           "title": "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design",
           "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Terminally Online</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PgGhmt5pTtxusaQQX3dHPF\" name=\"logo_terminally\" caption=\"\" alt=\"The Terminally Online logo.\" src=\"https://cdn.mos.cms.futurecdn.net/PgGhmt5pTtxusaQQX3dHPF-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">This is <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/terminally-online/\" target=\"_blank\">Terminally Online</a>:<strong> </strong>PC Gamer's very own MMO column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice.</p><"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-yet-another-pok-mon-inspired-game-is-popping-off-on-ste-fffb404ce1e1",
+      "title": "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo",
+        "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo date de sortie",
+        "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo plateformes",
+        "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo gameplay",
+        "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo guide",
+        "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/yet-another-pokemon-inspired-game-is-popping-off-on-steam-with-over-160-000-concurrent-players-for-aniimo/",
+          "title": "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo",
+          "evidence": "<article> <p>Step aside Palworld, you are now merely the second most-played pastiche of the world's highest-grossing multimedia franchise on Steam. You've been overtaken by none other than Aniimo, the Genshin Impact-esque but <a href=\"https://www.pcgamer.com/games/rpg/aniimo-is-it-gacha-monetization-explained/\">non-gacha</a> open world RPG, according to <a href=\"https://steamdb.info/app/4126040/charts/\" target=\"_blank\">SteamDB</a>. The numbers are climbing as I write this, with the game currently sitting at over 166,000 simultaneous players.</p><p>That's a lot! For reference, it's sitting ahead of likes of Rust, Delta Force, and Slay the Spire 2, with only the mighty Bongo Cat and its lessers (Apex Legends, Dota 2, etc) making up the list of eight games with more players on Steam right now. At the very top is, as always, Counter-Strike 2. Just imagine the numbers it'd enjoy if it also had cute little creatures that only say their own name.</p><p>When PC Gamer lead SEO editor Lauren Morton tried it, she wasn't wowed, saying \"I can't find much about it that other creature collecting and gacha games aren't doing better\"—though this was back in the closed beta from January. The game cu"
         }
       ],
       "score": 93,

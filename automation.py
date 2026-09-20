@@ -73,11 +73,13 @@ MAX_NEWS_ARTICLES_PER_RUN = 3
 
 MIN_SOURCE_TEXT_LENGTH = 250
 
-# We deliberately avoid sending huge pages repeatedly to Groq.
-MAX_SOURCE_TEXT_LENGTH = 22000
-MAX_GENERATION_SOURCE_LENGTH = 16000
-MAX_VERIFICATION_SOURCE_LENGTH = 9000
-MAX_OFFICIAL_SOURCE_LENGTH = 5000
+# Keep Groq requests compact enough for the free-tier TPM budget.
+# These are character caps, not token counts. They preserve the useful
+# source facts while avoiding repeated full-page payloads.
+MAX_SOURCE_TEXT_LENGTH = 12000
+MAX_GENERATION_SOURCE_LENGTH = 8000
+MAX_VERIFICATION_SOURCE_LENGTH = 4500
+MAX_OFFICIAL_SOURCE_LENGTH = 3500
 
 GROQ_MODEL = "openai/gpt-oss-120b"
 

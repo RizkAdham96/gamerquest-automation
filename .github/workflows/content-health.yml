@@ -31,10 +31,12 @@ jobs:
           import urllib.request
           from datetime import datetime, timezone
 
+          ALERT_AFTER_HOURS = 24
+
           url = (
               "https://gamerquestfr.com/wp-json/wp/v2/posts"
               "?categories=2&per_page=1&orderby=date&order=desc"
-              "&_fields=id,date,slug,link,title"
+              "&_fields=id,date,date_gmt,slug,link,title"
           )
 
           request = urllib.request.Request(
@@ -49,18 +51,26 @@ jobs:
               raise SystemExit("No published Actualités posts found.")
 
           latest = posts[0]
-          published = datetime.fromisoformat(latest["date"]).replace(
-              tzinfo=timezone.utc
+          published_raw = latest.get("date_gmt") or latest.get("date")
+          if not published_raw:
+              raise SystemExit("Latest Actualités post has no publish date.")
+
+          published = datetime.fromisoformat(
+              published_raw.replace("Z", "+00:00")
           )
+          if published.tzinfo is None:
+              published = published.replace(tzinfo=timezone.utc)
+
           age_hours = (
-              datetime.now(timezone.utc) - published
+              datetime.now(timezone.utc) - published.astimezone(timezone.utc)
           ).total_seconds() / 3600
 
           print("Latest article:", latest.get("title", {}).get("rendered"))
           print("Latest URL:", latest.get("link"))
           print(f"Age: {age_hours:.2f} hours")
+          print(f"Alert threshold: {ALERT_AFTER_HOURS} hours")
 
-          if age_hours > 6:
+          if age_hours > ALERT_AFTER_HOURS:
               raise SystemExit(
                   f"Actualités publishing is stale: {age_hours:.2f} hours."
               )

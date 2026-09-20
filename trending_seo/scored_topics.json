@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-19T16:05:01.116965+00:00",
+  "updated_at": "2026-09-20T05:47:04.759099+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -997,6 +997,122 @@
         "suggested_title": "I Am Legend 2 : le scénariste dévoile les obstacles qui retardent le film"
       },
       "reasoning": "Le sujet est une actualité très récente et centrée sur un film, pas sur un jeu vidéo. Il possède une faible durabilité (les informations seront rapidement dépassées) et un intérêt limité pour la communauté de gamers de GamerQuest FR. La requête est assez précise, mais la concurrence est moyenne et la pertinence pour le site est faible, car il n'existe pas de lien naturel avec les guides, tests ou offres de jeux. Le potentiel de liens internes est limité à la rubrique \"actualités cinéma\" éventuelle, qui n'est pas le cœur de GamerQuest. En conséquence, le score global reste bas et le sujet ne justifie pas la création d'une ressource evergreen dédiée."
+    },
+    {
+      "id": "rss-my-least-favorite-blood-of-dawnwalker-mission-has-the-b-58ed166ef95a",
+      "topic": "My least favorite Blood of Dawnwalker mission has the best writing in the whole RPG, and I never want to play it again",
+      "detected_at": "2026-09-19T16:03:48.298718+00:00",
+      "analysed_at": "2026-09-20T05:25:09.333481+00:00",
+      "scores": {
+        "durability": 18,
+        "search_intent": 20,
+        "long_tail_specificity": 12,
+        "french_relevance": 8,
+        "competition": 8,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 4
+      },
+      "total_score": 77,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/my-least-favorite-blood-of-dawnwalker-mission-has-the-best-writing-in-the-whole-rpg-and-i-never-want-to-play-it-again/",
+          "title": "My least favorite Blood of Dawnwalker mission has the best writing in the whole RPG, and I never want to play it again",
+          "evidence": "<article> <p>If life is but a dream, then <a href=\"https://www.gamesradar.com/games/action-rpg/blood-of-dawnwalker-home-sweet-home/\">The Blood of Dawnwalker's Home Sweet Home mission</a> must be a nightmare. I stumble into it as a bit of an afterthought, having fought my way into the alchemist's tower while investigating the clay-baked gargoyles plaguing the city of Svartrau. But instead of leaving to show Marat the alchemist's notes, as per my next objective, I head up the spiral staircase and ascend further into the tower.</p><p>A short cutscene plays out when I reach the landing and interact with a closed door. The alchemist himself is just inside, Coen notes – should I head inside to confront him? Thinking it would be yet another boss fight, I choose to follow my curiosity. But, instead of a blistering encounter with a magical artificer, Coen steps through the door and right into his family home.</p><h2 id=\"family-business\">Family business</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"c"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "guide mission Home Sweet Home Blood of Dawnwalker",
+        "secondary_keywords": [
+          "Blood of Dawnwalker mission guide",
+          "Home Sweet Home scénario",
+          "conseils mission Blood of Dawnwalker",
+          "analyse écriture mission Blood of Dawnwalker",
+          "trucs et astuces Home Sweet Home"
+        ],
+        "search_intent_type": "informationnel",
+        "recommended_angle": "Proposer un guide complet de la mission « Home Sweet Home » : résumé de l’histoire, étapes détaillées, astuces pour progresser, et analyse de la qualité d’écriture qui la rend mémorable. Le contenu doit rester evergreen et servir de référence pour les joueurs francophones.",
+        "suggested_title": "Guide complet de la mission « Home Sweet Home » dans Blood of Dawnwalker – histoire, astuces et analyse"
+      },
+      "reasoning": "La mission « Home Sweet Home » est un élément central du RPG Blood of Dawnwalker. Les joueurs recherchent souvent des guides détaillés et des analyses de l’intrigue, ce qui crée un fort intent de recherche informationnel durable. Le sujet est très spécifique (long‑tail) et peu concurrentiel en français, ce qui permet à GamerQuest FR de se positionner rapidement. Le guide pourra être lié aux pages du jeu, aux actualités, aux autres guides de missions et aux offres de jeux, maximisant le potentiel de liens internes. Le contenu reste pertinent tant que le jeu reste disponible, assurant une bonne durabilité."
+    },
+    {
+      "id": "rss-here-s-how-to-watch-this-year-s-pc-gaming-show-tokyo-di-fdaf9498bb87",
+      "topic": "Here's how to watch this year's PC Gaming Show Tokyo Direct",
+      "detected_at": "2026-09-19T16:03:48.298880+00:00",
+      "analysed_at": "2026-09-20T05:25:11.634920+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 18,
+        "long_tail_specificity": 12,
+        "french_relevance": 9,
+        "competition": 7,
+        "gamerquest_relevance": 6,
+        "internal_link_potential": 2
+      },
+      "total_score": 59,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/heres-how-to-watch-this-years-pc-gaming-show-tokyo-direct/",
+          "title": "Here's how to watch this year's PC Gaming Show Tokyo Direct",
+          "evidence": "<article> <p>The PC Gaming Show Tokyo Direct is returning once again, with announcements direct from this year's Tokyo Gaming Show.</p><p>Hosted once again by Frankie Ward, this year's show will run for 90 minutes and host more than 35 trailers, developer deep dives, and exclusive announcements. There'll be world premiere announcements, and news direct from the TGS show floor.</p><p>Already confirmed for this year's show are; a new trailer for Stronghold 4, the latest entry in the legendary RTS series; a selection of games from Devolver Digital, including the literal smash-hit title Virtue and a Sledgehammer; and a deep dive into Tenebris Somnia, a retro survival horror adventure.</p><p>This year's show will take place on Sunday, September 20 at 09:00 PT / 12:00 ET / 17:00 BST and 01:00 JST on Monday, September 21. You'll be able to watch on PC Gamer's <a href=\"https://www.youtube.com/pcgamer\" target=\"_blank\">YouTube</a>, <a href=\"https://x.com/pcgamer\" target=\"_blank\">Twitter</a>, <a href=\"https://www.twitch.tv/pcgamer\" target=\"_blank\">Twitch</a>, and <a href=\"https://www.facebook.com/pcgamermagazine\" target=\"_blank\">Facebook </a>channels, or catch the full show streamed on <a hre"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Comment regarder le PC Gaming Show Tokyo Direct 2026",
+        "secondary_keywords": [
+          "date du PC Gaming Show Tokyo Direct 2026",
+          "plateformes de diffusion du PC Gaming Show Tokyo Direct",
+          "programme du PC Gaming Show Tokyo Direct",
+          "comment suivre les shows PC Gaming en streaming"
+        ],
+        "search_intent_type": "informationnel (guide pratique)",
+        "recommended_angle": "Guide pratique dédié à l'événement 2026 du PC Gaming Show Tokyo Direct, incluant la date, les plateformes de diffusion (YouTube, Twitch, etc.) et le programme. Le contenu doit rester focalisé sur cet événement précis, avec une courte section « Comment suivre les prochains PC Gaming Shows » pour apporter une petite valeur evergreen, mais l'article principal reste centré sur l'édition 2026.",
+        "suggested_title": "Comment regarder le PC Gaming Show Tokyo Direct 2026 : date, plateformes et programme"
+      },
+      "reasoning": "Le sujet est très temporel (un show qui se déroule le 20‑21 septembre 2026) et ne possède pas de valeur durable : il ne sera plus pertinent après l'événement. Le score de durabilité est donc bas. L'intention de recherche est clairement informationnelle – les internautes cherchent à savoir comment et où regarder le show – ce qui justifie un score moyen‑élevé pour l'intention. Le terme est très long‑tail et spécifique, d'où un bon score de spécificité. La pertinence pour le public français est élevée, mais la concurrence SEO est faible à modérée (peu de sites français couvrent cet événement). L'intérêt pour GamerQuest est limité à un lien vers la page d'actualité du show ou vers des guides de jeux annoncés, d'où un score moyen. Le potentiel de liens internes est faible, car le contenu ne se prête pas à de nombreux liens vers d'autres guides ou pages de jeux. En résumé, le sujet ne mérite pas une ressource evergreen permanente, mais un article d'actualité bien structuré peut être publié au moment de l'événement."
+    },
+    {
+      "id": "rss-with-11-kills-12-kills-at-a-time-battle-royale-hybrid-p-9d06a816532b",
+      "topic": "With \"11 kills, 12 kills at a time,\" battle royale hybrid Project Zeta is not your daddy's MOBA (or your brother's hero shooter)",
+      "detected_at": "2026-09-19T16:03:48.299124+00:00",
+      "analysed_at": "2026-09-20T05:34:18.437824+00:00",
+      "scores": {
+        "durability": 15,
+        "search_intent": 20,
+        "long_tail_specificity": 13,
+        "french_relevance": 9,
+        "competition": 8,
+        "gamerquest_relevance": 9,
+        "internal_link_potential": 4
+      },
+      "total_score": 78,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/moba/with-11-kills-12-kills-at-a-time-battle-royale-hybrid-project-zeta-is-not-your-daddys-moba-or-your-brothers-hero-shooter/",
+          "title": "With \"11 kills, 12 kills at a time,\" battle royale hybrid Project Zeta is not your daddy's MOBA (or your brother's hero shooter)",
+          "evidence": "<article> <p>Project Zeta has a lot stacked against it. The MOBA genre is not exactly one that's wanting for competition, with many well-established competitors already throwing hands in the arena that Korean developer Nirvanana seeks to enter. Your average League of Legends or DOTA player isn't usually one to venture too far out of their comfort zones, and to the uninitiated, the genre as a whole has a huge barrier to entry that wouldn't necessarily attract new players.</p><p>But that hasn't shaken Nirvanana's ambitions for Project Zeta. Sitting down with executive producer Namseok Kim to try the game at Gamescom 2026, I'm told that Project Zeta isn't just a MOBA in the strictest sense. Rather, Nirvanana has crafted a MOBA-battle royale hybrid, with elements of hero shooter thrown in for good measure.</p><h2 id=\"chaos-reigns\">Chaos reigns</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"pj7VCzVJe29Gcqu4nXKTcg\" name=\"ss_0055ace47fc41cdf6226ea7ad6e25132b8bdba39.1920x1080\" alt=\"Project Zeta scre"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Guide de Project Zeta",
+        "secondary_keywords": [
+          "Project Zeta date de sortie",
+          "Project Zeta plateformes",
+          "Project Zeta gameplay",
+          "Project Zeta guide français",
+          "Project Zeta avis"
+        ],
+        "search_intent_type": "informationnel – guide pratique",
+        "recommended_angle": "Créer un guide français complet qui explique le concept hybride MOBA‑battle‑royale de Project Zeta, détaille les mécaniques de jeu, les rôles des héros, les cartes, les stratégies de survie et de combat, indique les plateformes disponibles, la date de sortie et les options d’achat, tout en proposant des astuces pour les joueurs novices et expérimentés.",
+        "suggested_title": "Guide complet de Project Zeta : MOBA‑battle‑royale hybride – comment jouer, plateformes et astuces"
+      },
+      "reasoning": "Le sujet porte sur un nouveau titre (Project Zeta) qui combine MOBA, battle‑royale et hero‑shooter. Bien que l’article d’origine soit une actualité, le jeu pourra rester pertinent pendant plusieurs années, ce qui justifie un contenu evergreen sous forme de guide. Les requêtes françaises très ciblées (ex. « guide de Project Zeta », « comment jouer à Project Zeta ») offrent une forte spécificité long‑tail et peu de concurrence, car le jeu vient d’être annoncé. La recherche d’informations pratiques (règles, stratégies, plateformes) correspond à un fort intent de recherche informationnel. Le thème est hautement pertinent pour GamerQuest FR, qui couvre les nouveautés et peut créer des liens internes vers les actualités, les tests, les pages de jeux et les offres promotionnelles. Le score global reflète la durabilité modérée (dépend du cycle de vie du jeu), le fort potentiel d’intention de recherche, la spécificité française, la faible concurrence et la capacité à générer des liens internes."
     }
   ]
 }

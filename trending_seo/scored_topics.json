@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-20T05:47:04.759099+00:00",
+  "updated_at": "2026-09-20T21:05:03.072889+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -1113,6 +1113,317 @@
         "suggested_title": "Guide complet de Project Zeta : MOBA‑battle‑royale hybride – comment jouer, plateformes et astuces"
       },
       "reasoning": "Le sujet porte sur un nouveau titre (Project Zeta) qui combine MOBA, battle‑royale et hero‑shooter. Bien que l’article d’origine soit une actualité, le jeu pourra rester pertinent pendant plusieurs années, ce qui justifie un contenu evergreen sous forme de guide. Les requêtes françaises très ciblées (ex. « guide de Project Zeta », « comment jouer à Project Zeta ») offrent une forte spécificité long‑tail et peu de concurrence, car le jeu vient d’être annoncé. La recherche d’informations pratiques (règles, stratégies, plateformes) correspond à un fort intent de recherche informationnel. Le thème est hautement pertinent pour GamerQuest FR, qui couvre les nouveautés et peut créer des liens internes vers les actualités, les tests, les pages de jeux et les offres promotionnelles. Le score global reflète la durabilité modérée (dépend du cycle de vie du jeu), le fort potentiel d’intention de recherche, la spécificité française, la faible concurrence et la capacité à générer des liens internes."
+    },
+    {
+      "id": "rss-wardogs-studio-checks-the-steam-accounts-of-their-hires-f9bf0c9daf2c",
+      "topic": "Wardogs studio checks the Steam accounts of their hires to make sure they're \"passionate about FPS games\" as \"you wouldn't let me go and make Final Fantasy\"",
+      "detected_at": "2026-09-19T16:03:48.299284+00:00",
+      "analysed_at": "2026-09-20T21:03:45.307084+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 8,
+        "long_tail_specificity": 8,
+        "french_relevance": 7,
+        "competition": 8,
+        "gamerquest_relevance": 5,
+        "internal_link_potential": 2
+      },
+      "total_score": 43,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fps/wardogs-studio-checks-the-steam-accounts-of-their-hires-to-make-sure-theyre-passionate-about-fps-games-as-you-wouldnt-let-me-go-and-make-final-fantasy/",
+          "title": "Wardogs studio checks the Steam accounts of their hires to make sure they're \"passionate about FPS games\" as \"you wouldn't let me go and make Final Fantasy\"",
+          "evidence": "<article> <p>Bulkhead, the studio behind recent breakout hit <a href=\"https://www.gamesradar.com/uk/wardogs/\">Wardogs</a>, makes sure its prospective developers are FPS fans before hiring them. As executive director Joe Brammer says, \"You wouldn't let me go and make Final Fantasy\" because he apparently wouldn't know where to start on a genre he's unfamiliar with. </p><p>Speaking to GamesRadar+ about the studio's sudden success, Brammer explains the \"anti-cheat stuff\" that Bulkhead is implementing is \"expensive and there's risk we're taking on there.\" As such, to him, \"the studio should be rewarded for it.\"</p><p>\"I like to think that if you're an FPS fan, we're trying to do right by that audience, and we're one of the good guys to support,\" he continues. \"[We] won't always get it right, but we like people to know where their money is going and what type of studio it's going into, and [into] someone that they feel they can share values with. So, I think, that's kind of where the core of Bulkhead is. We are FPS players. You know, [when] you apply to Bulkhead, you have to put the Steam hours.\"</p><p>Wardogs senior producer Kane Allard explains the studio checks every applicants' Steam"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Wardogs vérifie compte Steam recrutement",
+        "secondary_keywords": [
+          "studio FPS recrutement Steam",
+          "politique d'embauche Bulkhead",
+          "vérification profil Steam candidats jeux vidéo",
+          "pratiques de recrutement jeux vidéo France"
+        ],
+        "search_intent_type": "informationnel",
+        "recommended_angle": "Analyse approfondie des pratiques de recrutement de Wardogs (Bulkhead) qui consiste à vérifier les comptes Steam des candidats afin de s'assurer qu'ils sont passionnés par les FPS. Le texte doit replacer ce cas dans le contexte plus large des studios de jeux vidéo qui utilisent les données de jeu comme critère de sélection, en évaluant les avantages, les limites et les réactions de la communauté.",
+        "suggested_title": "Pourquoi Wardogs vérifie les comptes Steam de ses candidats ? Analyse des pratiques de recrutement dans les studios FPS"
+      },
+      "reasoning": "Le sujet est une actualité très récente et très spécifique, ce qui limite sa durabilité : il ne restera pas pertinent au-delà de quelques mois. L'intention de recherche est principalement informationnelle, les internautes cherchant à comprendre pourquoi un studio examine les profils Steam des candidats. Il existe des requêtes longues et très ciblées en français (ex. « Wardogs vérifie compte Steam recrutement ») qui un nouveau site pourrait classer, mais le volume sera limité. Le thème reste pertinent pour le public français (FR) et la concurrence SEO est faible, car peu de sites traitent de ce sujet de façon détaillée. Cependant, l'intérêt direct pour GamerQuest est limité à un article d'actualité ; il n’y a pas de lien naturel avec les guides, pages de jeux ou deals, ce qui réduit le potentiel de liens internes. En somme, le sujet ne justifie pas la création d’une ressource evergreen, mais peut être couvert comme un article d'actualité ponctuel."
+    },
+    {
+      "id": "rss-new-marvel-s-wolverine-update-makes-the-game-s-infamous-f0de838addd5",
+      "topic": "New Marvel's Wolverine update makes the game's infamous scent trails \"less intense,\" while Insomniac explores \"toggleable options\"",
+      "detected_at": "2026-09-19T16:03:48.299445+00:00",
+      "analysed_at": "2026-09-20T21:03:47.813398+00:00",
+      "scores": {
+        "durability": 15,
+        "search_intent": 20,
+        "long_tail_specificity": 13,
+        "french_relevance": 9,
+        "competition": 8,
+        "gamerquest_relevance": 9,
+        "internal_link_potential": 4
+      },
+      "total_score": 78,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/new-marvels-wolverine-update-makes-the-games-infamous-scent-trails-less-intense-while-insomniac-explores-toggleable-options/",
+          "title": "New Marvel's Wolverine update makes the game's infamous scent trails \"less intense,\" while Insomniac explores \"toggleable options\"",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/marvels-wolverine-guide/\">Marvel's Wolverine</a> has been the subject of intense fan mockery in the days since its release (and even before), largely thanks to the game's overbearing Scent Trail - dubbed a 'fart trail' in some online circles. Developer Insomniac Games has now nerfed the glowing line that often points Logan to his next objective.</p><p>Look in most corners of the gaming internet, and you'll probably find players making fun out of Marvel's Wolverine for a few different reasons. Chief among them is <a href=\"https://www.gamesradar.com/games/action/marvels-wolverine-motorcycle-section-and-quicktime-events-are-getting-the-wrong-kind-of-attention-because-the-game-plays-itself-and-you-dont-have-to-press-anything/\">the game's tendency to lead players in the right direction</a> a little too hard - the aforementioned scent trail, frequent voice lines, and on-screen markers make sure you never get lost in the world.</p><p>But fans have taken issue with the hand-holdy design. Recalling discourse around yellow paint in games like Resident Evil or Final Fantasy 7 Rebirth, some players have complained that the overbearing reminders "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "désactiver la piste d'odeur Marvel's Wolverine",
+        "secondary_keywords": [
+          "réduire la piste d'odeur Marvel's Wolverine",
+          "options de guidage Marvel's Wolverine",
+          "comment désactiver le scent trail",
+          "mise à jour Marvel's Wolverine 2026 réglages",
+          "guide gameplay Marvel's Wolverine"
+        ],
+        "search_intent_type": "informationnelle / guide pratique",
+        "recommended_angle": "Proposer un guide pas‑à‑pas pour désactiver ou atténuer la piste d'odeur (scent trail) dans Marvel’s Wolverine après la dernière mise à jour, en détaillant les nouvelles options basculables, les paramètres du menu, les impacts sur le gameplay et les éventuelles alternatives pour les joueurs qui souhaitent un niveau de guidage moindre.",
+        "suggested_title": "Comment désactiver ou réduire la piste d'odeur dans Marvel’s Wolverine ? Guide complet après la mise à jour 2026"
+      },
+      "reasoning": "Le sujet porte sur une mise à jour récente, mais le problème de la \"piste d'odeur\" est récurrent et les joueurs chercheront durablement comment la gérer. Une page guide en français répond à une intention informationnelle forte (comment modifier les réglages) et se positionne sur une requête très longue traîne, avec peu de concurrence en français. Le contenu pourra être lié aux actualités de GamerQuest, à la fiche du jeu, aux offres de téléchargement et à d’autres guides de réglages, renforçant la pertinence interne. La durabilité est moyenne‑élevée car le paramètre devrait rester pertinent tant que le jeu est joué, même si les futures mises à jour peuvent le modifier."
+    },
+    {
+      "id": "rss-cloud-is-still-the-main-character-of-final-fantasy-7-re-cf45bad46657",
+      "topic": "\"Cloud is still the main character\" of Final Fantasy 7 Revelation, but the developers know you \"want to see more of the other characters\"",
+      "detected_at": "2026-09-19T16:03:48.299589+00:00",
+      "analysed_at": "2026-09-20T21:03:49.948727+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 10,
+        "long_tail_specificity": 3,
+        "french_relevance": 7,
+        "competition": 3,
+        "gamerquest_relevance": 5,
+        "internal_link_potential": 3
+      },
+      "total_score": 36,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/final-fantasy/cloud-is-still-the-main-character-of-final-fantasy-7-revelation-but-the-developers-know-you-want-to-see-more-of-the-other-characters/",
+          "title": "\"Cloud is still the main character\" of Final Fantasy 7 Revelation, but the developers know you \"want to see more of the other characters\"",
+          "evidence": "<article> <p>Cloud Strife lovers might have noticed a distinct lack of the iconic, spike-headed hero in all the <a href=\"https://www.gamesradar.com/final-fantasy-7-revelation-guide/\">Final Fantasy 7 Revelation</a> trailers we've seen so far. While players of the original certainly know the <em>why </em>of it all, series director and game lead Naoki Hamaguchi says it gives players a chance to \"see more\" of the RPG's colorful party members.</p><p><a href=\"https://www.gamesradar.com/games/final-fantasy/final-fantasy-7-revelation-masterfully-blends-nostalgia-and-new-in-an-exciting-and-overwhelming-package/\">Speaking to GamesRadar+</a>, Final Fantasy 7 Remake's Hamaguchi assured folks that \"Cloud is still the main character\" of the upcoming game, even if he's not as front and centre in the marketing campaign as you might have expected. His leave of absence in the party gives the rest of the cast time to shine, however.</p><p>Hamaguchi adds that he knows fans \"want to see more of the other characters too, so we very much wanted to have content that goes into each of those characters.\" To accommodate those desires, players can freely switch between each party member on the fly and bring a"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "personnages jouables Final Fantasy VII Revelation",
+        "secondary_keywords": [
+          "Cloud Strife Final Fantasy VII Revelation",
+          "autres personnages FF7 Revelation",
+          "guide personnages Final Fantasy VII Revelation",
+          "FF7 Revelation gameplay personnages"
+        ],
+        "search_intent_type": "informationnel / investigation commerciale",
+        "recommended_angle": "Créer un guide evergreen qui présente chaque personnage jouable dans Final Fantasy VII Revelation, leurs compétences, leur rôle dans l’histoire et comment le jeu met en avant les membres du groupe au-delà de Cloud. Le contenu pourra être enrichi après la sortie du jeu avec des captures d’écran, des astuces et des comparaisons avec le remake original.",
+        "suggested_title": "Final Fantasy VII Revelation : guide complet des personnages jouables et leurs rôles"
+      },
+      "reasoning": "Le sujet provient d’une actualité très récente et se concentre sur une déclaration de marketing. En tant que tel, il a une faible durabilité et ne constitue pas un contenu evergreen en l’état. Cependant, la question sous‑jacente – quels sont les personnages jouables et comment le jeu les met‑en avant – reste pertinente à long terme une fois le titre sorti. Un guide détaillé sur les personnages pourra être lié aux pages de news, aux fiches de jeu et aux offres promotionnelles de GamerQuest, offrant ainsi un bon potentiel de liens internes. Le volume de recherche en français pour des requêtes comme « personnages jouables Final Fantasy VII Revelation » est suffisamment ciblé pour être exploité, mais la concurrence est élevée (sites spécialisés, grands médias). Le score reflète donc une opportunité modérée, à condition de publier le guide après la sortie du jeu pour maximiser la durabilité et la pertinence."
+    },
+    {
+      "id": "rss-the-disc-is-dying-but-the-box-isn-t-what-will-a-physica-7d63ff4ce9d8",
+      "topic": "The disc is dying, but the box isn’t – what will a \"physical game\" actually mean in 2030?",
+      "detected_at": "2026-09-19T16:03:48.300027+00:00",
+      "analysed_at": "2026-09-20T21:03:52.909670+00:00",
+      "scores": {
+        "durability": 20,
+        "search_intent": 22,
+        "long_tail_specificity": 10,
+        "french_relevance": 9,
+        "competition": 8,
+        "gamerquest_relevance": 8,
+        "internal_link_potential": 4
+      },
+      "total_score": 81,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-disc-is-dying-but-the-box-isnt-what-will-a-physical-game-actually-mean-in-2030/",
+          "title": "The disc is dying, but the box isn’t – what will a \"physical game\" actually mean in 2030?",
+          "evidence": "<article> <p>Without getting too misty-eyed, a \"physical game\" used to be easy to define. You bought a box and the game was sitting inside on a disc or cartridge. </p><p>Fast-forward to today and things are more complicated. The box might hold a download code or a Game-Key Card that still needs software from a server, while some expensive collector’s editions don’t even include a physical copy at all. So, with Sony steering full-steam toward <a href=\"https://www.gamesradar.com/platforms/playstation/playstation-is-ending-physical-disc-production-for-new-games-in-2028-as-sony-says-general-preference-for-digital-media-significantly-outpaces-physical-discs/\">Playstation's digital-only future</a>, what exactly are we going to mean by a \"physical game\" in 2030? </p><p>To find out, I spoke to Perry Gresham, head of data at MIDiA Research, and James McWhirter, senior analyst at Omdia. Their answers suggest the physical box isn’t necessarily going anywhere – but what it contains, and what owning it gives you, may change dramatically.</p><h2 id=\"physical-demand-could-outlive-the-disc\">Physical demand could outlive the disc</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-imag"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "futur des jeux physiques 2030",
+        "secondary_keywords": [
+          "jeu physique disque vs boîte",
+          "code de téléchargement boîte physique",
+          "édition collector physique 2025",
+          "Sony jeu physique digital 2028",
+          "tendance jeux physiques 2025-2030",
+          "impact du digital sur les jeux physiques"
+        ],
+        "search_intent_type": "informationnelle / investigation",
+        "recommended_angle": "Proposer une analyse evergreen qui décrypte l’évolution du jeu physique d’ici 2030 : du disque traditionnel à la boîte contenant uniquement un code de téléchargement, en passant par les éditions collector sans support physique. S’appuyer sur les déclarations de Sony, Microsoft et les études de marché, expliquer les implications pour les joueurs français (revente, archivage, collection) et donner des conseils pratiques pour acheter ou conserver un jeu physique à l’ère du tout‑digital.",
+        "suggested_title": "Quel sera le futur des jeux physiques en 2030 ? Disque, boîte et codes de téléchargement décryptés"
+      },
+      "reasoning": "Le sujet n’est pas lié à un événement ponctuel mais à une tendance qui s’étendra sur plusieurs années, ce qui lui confère une forte durabilité (20/25). La plupart des recherches seront de type informationnelle, les internautes cherchant à comprendre comment le concept de \"jeu physique\" évoluera (22/25). En français, les requêtes sont assez longues et spécifiques (ex. « futur des jeux physiques 2030 », « code de téléchargement boîte physique »), ce justifie un score moyen‑élevé en spécificité (10/15). Le thème intéresse particulièrement le public francophone, notamment avec les annonces de Sony pour 2028, d’où un score élevé en pertinence française (9/10). La concurrence sur ces longues requêtes est faible, car peu de sites français traitent déjà ce futur hypothétique (8/10). GamerQuest FR peut facilement intégrer ce contenu dans ses rubriques news, guides d’achat et dossiers collection, ce qui le rend très pertinent pour la ligne éditoriale (8/10). Enfin, le texte pourra créer de nombreux liens internes vers des articles sur les éditions collector, les codes de téléchargement, les stratégies d’achat de jeux physiques et les actualités Sony/Microsoft (4/5)."
+    },
+    {
+      "id": "rss-palworld-lead-thought-one-of-pocketpair-s-most-iconic-p-5d6f809dc607",
+      "topic": "Palworld lead thought one of Pocketpair's most iconic Pals would \"fade into the background\" before it unexpectedly became the survival game's \"mascot\"",
+      "detected_at": "2026-09-19T16:03:48.300174+00:00",
+      "analysed_at": "2026-09-20T21:04:12.995018+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 12,
+        "long_tail_specificity": 13,
+        "french_relevance": 6,
+        "competition": 9,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 3
+      },
+      "total_score": 58,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/survival/palworld-lead-thought-one-of-pocketpairs-most-iconic-pals-would-fade-into-the-background-before-it-unexpectedly-became-the-survival-games-mascot/",
+          "title": "Palworld lead thought one of Pocketpair's most iconic Pals would \"fade into the background\" before it unexpectedly became the survival game's \"mascot\"",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/uk/palworld/\"><u>Palworld</u></a> is full of wildly popular but oddly-designed creatures to tame and train, but the popularity of one of the game's biggest mascots actually came as a surprise to Pockpair's head of communications and publishing, John 'Bucky' Buckley.</p><p>\"For the record, this is my opinion,\" Buckley makes clear while chatting to <a href=\"https://www.youtube.com/watch?v=0eJ-aQFXqQs\"><u>Gaming World Interviews</u></a> about the Pals who surprised him the most. \"It's not the company's opinion. It's the opinion of me and me only. I never really thought Cattiva would be popular, like ever. Cattiva, Chikipi and Lamball were like the three-o in the beginning when you wake up on the beach.\"</p><p>Buckley goes on to say he was always \"pretty confident\" in Lamball, the adorably fluffy sheep-y creature who somehow looks even cuter holding a deadly weapon with a smile on its face. Chikipi and Cattiva, though? Buckley thought the duo would \"fade into - not irrelevance, either - but fade into the background.\"</p><p>The Pocketpair lead acknowledges Chikipi has kind of \"faded away\" anyway. \"It's a chicken, right?\" But Cattiva? The "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Palworld mascotte Cattiva",
+        "secondary_keywords": [
+          "Cattiva Palworld",
+          "Chikipi Palworld",
+          "Lamball Palworld",
+          "Palworld créatures populaires",
+          "guide des Pals Palworld"
+        ],
+        "search_intent_type": "informationnel",
+        "recommended_angle": "Présenter les Pals les plus emblématiques de Palworld en s’appuyant sur l’interview du responsable de Pocketpair : expliquer comment Cattiva, initialement sous‑estimé, est devenu la mascotte du jeu, comparer avec Chikipi et Lamball, et fournir un guide pratique des Pals populaires pour aider les joueurs à les capturer et les utiliser.",
+        "suggested_title": "Palworld : Cattiva, le Pal devenu mascotte – tout savoir sur les Pals les plus populaires"
+      },
+      "reasoning": "Le sujet est très spécifique et lié à une anecdote récente, ce qui limite sa durabilité, mais il peut être transformé en un guide evergreen sur les Pals emblématiques de Palworld, répondant à une requête d’information précise (« Quel est le Pal mascotte de Palworld ? »). La requête est longue et peu concurrentielle, ce qui offre une bonne opportunité de se positionner. Le contenu pourra être lié naturellement aux pages existantes de GamerQuest sur Palworld (actualités, guides de créatures, offres de jeux), renforçant la pertinence interne. La popularité du jeu en France justifie une pertinence modérée, tandis que la faible concurrence sur ce sujet de niche permet d’obtenir un score élevé dans cette catégorie."
+    },
+    {
+      "id": "rss-i-ve-been-hands-on-with-all-the-new-warhammer-40k-space-12e5f7ee7633",
+      "topic": "I've been hands on with all the new Warhammer 40K Space Marine models, these are the ones you should buy",
+      "detected_at": "2026-09-19T16:03:48.300716+00:00",
+      "analysed_at": "2026-09-20T21:04:30.747795+00:00",
+      "scores": {
+        "durability": 15,
+        "search_intent": 20,
+        "long_tail_specificity": 12,
+        "french_relevance": 8,
+        "competition": 5,
+        "gamerquest_relevance": 8,
+        "internal_link_potential": 4
+      },
+      "total_score": 72,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/tabletop-gaming/new-warhammer-40k-space-marines-2026/",
+          "title": "I've been hands on with all the new Warhammer 40K Space Marine models, these are the ones you should buy",
+          "evidence": "<article> <p>As the poster children for Warhammer 40K, Space Marines usually get the best toys. I mean that both literally and metaphorically; besides having some of the coolest-looking models, they've got an extensive army list with tremendous variety. That army list just got a facelift for the game's 11th edition, and I've been hands-on with every new model in the range.</p><p>So, how do they hold up? After the faction was overshadowed in the <a href=\"https://www.gamesradar.com/tabletop-gaming/ive-been-hands-on-with-warhammer-40k-armageddon-and-its-the-push-i-need-to-finally-go-all-in/\">Armageddon box set</a> by those gorgeous Ork models, 11th-ed Space Marines have a two-pronged attack strategy: nostalgia and versatility. Sure, they aren't as wild as the <a href=\"https://www.gamesradar.com/tabletop-gaming/warhammer-40k-ork-range-review-2026/\">new Warhammer 40K Orks</a>. But they <em>do </em>pull on the heartstrings with retro throwbacks that will make old-timers like me declare \"you son of a bitch, I'm in.\" They also feel more flexible than ever, making this an incredibly accessible yet nuanced Warhammer 40K army. </p><p>To get you up to speed on all-things new for the Space Mari"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "guide d'achat figurines Space Marine Warhammer 40k 11e édition",
+        "secondary_keywords": [
+          "quels modèles Space Marine Warhammer 40k acheter 2026",
+          "figurines Warhammer 40k avis",
+          "comparatif modèles Space Marine 11e édition",
+          "prix figurines Warhammer 40k Space Marine",
+          "conseils peinture figurines Warhammer 40k"
+        ],
+        "search_intent_type": "commercial investigation / guide d'achat",
+        "recommended_angle": "Un guide complet en français des nouvelles figurines Space Marine sorties en 2026 pour la 11e édition de Warhammer 40K : description détaillée, points forts/faibles, prix, disponibilité, conseils de peinture et recommandations selon les styles de jeu (narratif, compétitif, collection). Le contenu doit rester evergreen pendant au moins 12‑18 mois en se concentrant sur les modèles plutôt que sur les dates de sortie précises.",
+        "suggested_title": "Guide d'achat 2026 des nouvelles figurines Space Marine Warhammer 40K : quels modèles choisir ?"
+      },
+      "reasoning": "Le sujet répond à une intention de recherche durable (acheter les nouveaux modèles), avec un fort potentiel de requêtes longues et spécifiques en français. Warhammer 40K possède une communauté active en France, ce qui assure une bonne pertinence locale. La concurrence sur ce créneau est modérée, permettant à GamerQuest de se positionner grâce à un contenu riche et détaillé. Le guide pourra être lié à d’autres articles de GamerQuest (actualités 11e édition, critiques de jeux, offres de figurines, tutoriels de peinture), maximisant le maillage interne. Le sujet n’est pas limité à l’actualité immédiate, ce qui le rend adapté à un format evergreen."
+    },
+    {
+      "id": "rss-the-witcher-4-abandons-cd-projekt-red-s-in-house-tech-f-e9f1ead5f249",
+      "topic": "The Witcher 4 abandons CD Projekt Red's in-house tech for Unreal Engine 5, but studio lead says it's not because of issues with Cyberpunk 2077",
+      "detected_at": "2026-09-19T16:03:48.301118+00:00",
+      "analysed_at": "2026-09-20T21:04:46.304553+00:00",
+      "scores": {
+        "durability": 20,
+        "search_intent": 22,
+        "long_tail_specificity": 13,
+        "french_relevance": 9,
+        "competition": 6,
+        "gamerquest_relevance": 9,
+        "internal_link_potential": 5
+      },
+      "total_score": 84,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-witcher/the-witcher-4-abandons-cd-projekt-reds-in-house-tech-for-unreal-engine-5-but-studio-lead-says-its-not-because-of-issues-with-cyberpunk-2077/",
+          "title": "The Witcher 4 abandons CD Projekt Red's in-house tech for Unreal Engine 5, but studio lead says it's not because of issues with Cyberpunk 2077",
+          "evidence": "<article> <p>The launch of <a href=\"https://www.gamesradar.com/uk/cyberpunk-2077/\">Cyberpunk 2077</a> was a trying time for <a href=\"https://www.gamesradar.com/uk/tag/cd-projekt-red/\">CD Projekt Red</a>. After years of anticipation, the RPG arrived glitchy and broken, leading to a number of post-launch patches and updates to make it more playable. It was the last major release from the studio to use REDEngine, its in-house engine, before switching to Unreal Engine 5 for <a href=\"https://www.gamesradar.com/games/the-witcher/the-witcher-4-guide/\">The Witcher 4</a>, but one of the company's leaders contends this is more of a coincidence.</p><p>Michał Nowakowski, the joint CEO of CD Projekt Red, appeared on the <a href=\"https://www.deconstructoroffun.com/blog/why-none-of-us-saw-cyberpunk-coming-apart\" target=\"_blank\">Deconstructor of Fun podcast</a> (thanks, <a href=\"https://www.videogameschronicle.com/news/cd-projekt-reds-move-from-redengine-to-ue5-for-the-witcher-4-wasnt-because-of-cyberpunks-launch-co-ceo-says/\" target=\"_blank\">VGC</a>), where he explained why the decision was made to change technology. </p><p>\"A lot of people think like this, but this is a bit of a false assumption"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Witcher 4 moteur Unreal Engine 5",
+        "secondary_keywords": [
+          "Pourquoi The Witcher 4 utilise Unreal Engine",
+          "The Witcher 4 vs RedEngine",
+          "CD Projekt Red changement de moteur",
+          "The Witcher 4 performances Unreal Engine 5",
+          "The Witcher 4 moteur de jeu"
+        ],
+        "search_intent_type": "informationnelle / investigation commerciale",
+        "recommended_angle": "Expliquer les raisons du passage de CD Projekt Red du RedEngine à Unreal Engine 5 pour The Witcher 4, en démystifiant le lien supposé avec les problèmes de Cyberpunk 2077, détailler les avantages techniques et graphiques d’Unreal 5, et analyser les impacts pour les joueurs et pour les futurs projets du studio.",
+        "suggested_title": "Pourquoi The Witcher 4 utilise Unreal Engine 5 : tout ce qu’il faut savoir"
+      },
+      "reasoning": "Le sujet porte sur un changement technologique majeur qui restera pertinent pendant toute la durée de vie du jeu, offrant ainsi une forte durabilité. Les requêtes françaises très ciblées (ex. « Pourquoi The Witcher 4 utilise Unreal Engine », « The Witcher 4 moteur ») existent et sont peu concurrentielles, ce qui permet de se positionner facilement. L’intention de recherche est clairement informationnelle avec un volet d’investigation commerciale (performance, graphismes, impact sur le prix ou les offres). Le thème est très pertinent pour le public français de GamerQuest, qui suit les actualités de The Witcher et de CD Projekt Red, et il permet de créer de nombreux liens internes vers les pages de news, guides, fiches de jeu et offres promotionnelles. Le contenu peut être structuré de façon evergreen, évitant la dépendance à la seule actualité du jour, tout en restant attractif pour les recherches à long terme."
+    },
+    {
+      "id": "rss-wow-forever-doesn-t-allow-gdkp-blizzard-says-the-new-mm-190e7f8251a5",
+      "topic": "WoW: Forever doesn't allow GDKP, Blizzard says the new MMO's economy is \"something we're taking very seriously\"",
+      "detected_at": "2026-09-19T16:03:48.301316+00:00",
+      "analysed_at": "2026-09-20T21:05:03.072863+00:00",
+      "scores": {
+        "durability": 15,
+        "search_intent": 20,
+        "long_tail_specificity": 12,
+        "french_relevance": 9,
+        "competition": 8,
+        "gamerquest_relevance": 9,
+        "internal_link_potential": 4
+      },
+      "total_score": 77,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/wow-forever-doesnt-allow-gdkp-blizzard-says-the-new-mmos-economy-is-something-were-taking-very-seriously/",
+          "title": "WoW: Forever doesn't allow GDKP, Blizzard says the new MMO's economy is \"something we're taking very seriously\"",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-is-a-whole-new-wow-game-launching-in-november-thatll-live-alongside-classic-and-vanilla/\">World of Warcraft: Forever</a> has been on many a fan's mind since Blizzard's big reveal during <a href=\"https://www.gamesradar.com/news/live/blizzcon-2026-everything-announced/\">BlizzCon 2026</a>, especially as it's essentially a take on the long-requested Classic+. But how exactly will it differ from the other branches of WoW?</p><p>Well, according to senior game designer Josh Greenfield, there's one glaring difference: GDKP will <em>not</em> be a part of Forever. <br><br>In case you're out of the loop, GDKP stands for Gold Dragon Kill Points – an auction-based loot distribution system that sees a raid party's treasure go to the highest bidder, only for all of the accumulated gold to then be split across the players. It's controversial because lots of folks feel it encourages real-money trading.</p><p>So, what does Greenfield have to say about it? In a new Q&A session over on <a href=\"https://www.youtube.com/watch?v=Y5zzSMSVhRo\" target=\"_blank\">YouTube</a>, the lead first explains that World of"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GDKP interdit WoW Forever",
+        "secondary_keywords": [
+          "World of Warcraft Forever GDKP",
+          "GDKP ban WoW Forever",
+          "système de loot WoW Forever",
+          "économie WoW Forever GDKP",
+          "alternatives GDKP WoW"
+        ],
+        "search_intent_type": "informationnelle / investigation",
+        "recommended_angle": "Expliquer la décision de Blizzard d’interdire le système GDKP dans World of Warcraft Forever, analyser les raisons (lutte contre le real‑money trading, préservation de l’économie du jeu), détailler les conséquences pour les guildes et les joueurs, et proposer des alternatives légales de distribution de butin.",
+        "suggested_title": "GDKP interdit dans World of Warcraft Forever : pourquoi Blizzard a banni ce système de loot"
+      },
+      "reasoning": "Le sujet porte sur une décision de conception permanente de WoW Forever, ce qui le rend durable au-delà de la simple actualité du lancement. Les joueurs francophones recherchent des réponses précises (ex. « GDKP autorisé WoW Forever ? ») ; il s’agit donc d’une requête à forte intention informationnelle. La requête est très longue‑queue et spécifique au marché français, avec peu de concurrence directe, ce qui offre une bonne opportunité de se positionner. Le thème s’inscrit naturellement dans la ligne éditoriale de GamerQuest (actualités WoW, guides de loot, économie du jeu) et permet de créer de nombreux liens internes vers les pages de news WoW Forever, les guides de loot, et les articles sur l’économie des MMO. Le score global reflète ces atouts tout en tenant compte du fait que le sujet reste lié à un titre spécifique et à une politique qui pourrait évoluer."
     }
   ]
 }

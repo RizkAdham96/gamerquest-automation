@@ -5,10 +5,10 @@ from social.config import SOCIAL_FORMATS
 from social.history import get_recent_history
 
 
-MAX_CONTENT_ITEMS = 10
-MAX_EXCERPT_CHARS = 700
+MAX_CONTENT_ITEMS = 6
+MAX_EXCERPT_CHARS = 500
 MAX_PROMPT_CHARS = 18000
-RECENT_HISTORY_ITEMS = 8
+RECENT_HISTORY_ITEMS = 5
 CONCEPT_COUNT = 3
 CAROUSEL_SLIDES = 3
 
@@ -148,8 +148,8 @@ def prepare_content_for_ai(content):
     )
 
     selected = (
-        news[:8]
-        + deals[:2]
+        news[:5]
+        + deals[:1]
     )
 
     if len(selected) < MAX_CONTENT_ITEMS:

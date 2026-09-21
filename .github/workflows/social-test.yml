@@ -69,12 +69,14 @@ jobs:
         run: python -m social.meta_healthcheck
 
       - name: Generate fact-checked social carousel
+        if: ${{ github.event_name != 'push' }}
         env:
           PYTHONPATH: .
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python -m social.run_fresh
 
       - name: Check social generation status
+        if: ${{ github.event_name != 'push' }}
         id: social_status
         shell: bash
         run: |
@@ -98,19 +100,19 @@ jobs:
           PY
 
       - name: No approved social post this run
-        if: ${{ steps.social_status.outputs.ready != 'true' }}
+        if: ${{ github.event_name != 'push' && steps.social_status.outputs.ready != 'true' }}
         run: |
           echo "No fact-checked carousel was approved."
           echo "Publishing is skipped safely."
 
       - name: Render carousel with free GamerQuest renderer
-        if: ${{ steps.social_status.outputs.ready == 'true' }}
+        if: ${{ github.event_name != 'push' && steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
         run: python -m social.render_fallback
 
       - name: Prepare carousel for public publishing
-        if: ${{ steps.social_status.outputs.ready == 'true' }}
+        if: ${{ github.event_name != 'push' && steps.social_status.outputs.ready == 'true' }}
         env:
           PYTHONPATH: .
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -118,7 +120,7 @@ jobs:
         run: python -m social.prepare_publish_run
 
       - name: Verify exactly three current carousel images
-        if: ${{ steps.social_status.outputs.ready == 'true' }}
+        if: ${{ github.event_name != 'push' && steps.social_status.outputs.ready == 'true' }}
         shell: bash
         run: |
           COUNT=$(find social-rendered -maxdepth 1 -type f -name "slide-*.png" | wc -l)
@@ -155,7 +157,7 @@ jobs:
           PY
 
       - name: Commit prepared carousel
-        if: ${{ steps.social_status.outputs.ready == 'true' }}
+        if: ${{ github.event_name != 'push' && steps.social_status.outputs.ready == 'true' }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"

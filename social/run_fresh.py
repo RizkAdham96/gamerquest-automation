@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 from social import run as social_run
+from social.ai_client import GroqRateLimitError
 from social.render_fallback import resolve_publishable_images
 
 
@@ -66,7 +67,20 @@ def run():
 
     social_run.get_all_content = get_fresh_content
     try:
-        return social_run.run()
+        try:
+            return social_run.run()
+        except GroqRateLimitError as exc:
+            payload = {
+                "status": "skipped",
+                "reason": "groq_rate_limited",
+                "detail": str(exc),
+            }
+            social_run.write_output(payload)
+            print(
+                "Groq is rate-limited; carousel generation was "
+                "skipped safely so the workflow can recover later."
+            )
+            return payload
     finally:
         social_run.get_all_content = original_get_all_content
 

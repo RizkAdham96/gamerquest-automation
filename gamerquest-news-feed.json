@@ -15,7 +15,9 @@
         "date de sortie",
         "PS5",
         "Xbox Series X|S",
-        "Steam"
+        "Steam",
+        "PlayStation",
+        "Xbox"
       ],
       "seo": {
         "seo_title": "Silent Hill Townfall : date de sortie, plateformes et trailer officiel",
@@ -46,7 +48,11 @@
         "caption": "Illustration de l'article « Silent Hill Townfall : date de sortie, plateformes et aperçu du trailer officiel ».",
         "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
         "source_image_url": "https://assets-prd.ignimgs.com/2026/09/21/sht-blog-1789985576648.jpg?width=1280&format=jpg&auto=webp&quality=80"
-      }
+      },
+      "platforms": [
+        "PlayStation",
+        "Xbox"
+      ]
     },
     {
       "source_id": "b4f70acbeec250b3ff6a7c4ebc5fc2f6135cbf2b814347acfedafc95f187adc5",

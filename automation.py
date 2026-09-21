@@ -76,10 +76,10 @@ MIN_SOURCE_TEXT_LENGTH = 250
 # Keep Groq requests compact enough for the free-tier TPM budget.
 # These are character caps, not token counts. They preserve the useful
 # source facts while avoiding repeated full-page payloads.
-MAX_SOURCE_TEXT_LENGTH = 12000
-MAX_GENERATION_SOURCE_LENGTH = 8000
-MAX_VERIFICATION_SOURCE_LENGTH = 4500
-MAX_OFFICIAL_SOURCE_LENGTH = 3500
+MAX_SOURCE_TEXT_LENGTH = 10000
+MAX_GENERATION_SOURCE_LENGTH = 6500
+MAX_VERIFICATION_SOURCE_LENGTH = 3200
+MAX_OFFICIAL_SOURCE_LENGTH = 2600
 
 GROQ_MODEL = "openai/gpt-oss-120b"
 
@@ -2567,6 +2567,14 @@ NONE
     ]
 
 
+def compact_ai_source(text, max_chars):
+    """Remove formatting noise while preserving factual wording."""
+    text = str(text or "")
+    text = re.sub(r"[\t\r ]+", " ", text)
+    text = re.sub(r"\n{2,}", "\n", text)
+    return "\n".join(line.strip() for line in text.split("\n") if line.strip())[:max_chars]
+
+
 # =========================================================
 # SEO ARTICLE GENERATION
 # =========================================================
@@ -2582,19 +2590,8 @@ def generate_article(
         "Generating SEO article..."
     )
 
-    discovery_source = (
-        source_text[
-            :MAX_GENERATION_SOURCE_LENGTH
-        ]
-    )
-
-    official_source = (
-        official_text[
-            :MAX_OFFICIAL_SOURCE_LENGTH
-        ]
-        if official_text
-        else ""
-    )
+    discovery_source = compact_ai_source(source_text, MAX_GENERATION_SOURCE_LENGTH)
+    official_source = compact_ai_source(official_text, MAX_OFFICIAL_SOURCE_LENGTH)
 
     official_section = ""
 
@@ -2945,23 +2942,8 @@ def verify_and_correct_article(
         "Running SEO + factual correction..."
     )
 
-    # Important:
-    # give Groq a moment before another large request.
-    time.sleep(8)
-
-    compact_source = (
-        source_text[
-            :MAX_VERIFICATION_SOURCE_LENGTH
-        ]
-    )
-
-    compact_official = (
-        official_text[
-            :MAX_OFFICIAL_SOURCE_LENGTH
-        ]
-        if official_text
-        else ""
-    )
+    compact_source = compact_ai_source(source_text, MAX_VERIFICATION_SOURCE_LENGTH)
+    compact_official = compact_ai_source(official_text, MAX_OFFICIAL_SOURCE_LENGTH)
 
     official_section = ""
 

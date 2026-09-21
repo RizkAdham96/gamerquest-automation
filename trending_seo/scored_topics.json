@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-20T21:05:03.072889+00:00",
+  "updated_at": "2026-09-21T22:15:05.413821+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -1424,6 +1424,316 @@
         "suggested_title": "GDKP interdit dans World of Warcraft Forever : pourquoi Blizzard a banni ce système de loot"
       },
       "reasoning": "Le sujet porte sur une décision de conception permanente de WoW Forever, ce qui le rend durable au-delà de la simple actualité du lancement. Les joueurs francophones recherchent des réponses précises (ex. « GDKP autorisé WoW Forever ? ») ; il s’agit donc d’une requête à forte intention informationnelle. La requête est très longue‑queue et spécifique au marché français, avec peu de concurrence directe, ce qui offre une bonne opportunité de se positionner. Le thème s’inscrit naturellement dans la ligne éditoriale de GamerQuest (actualités WoW, guides de loot, économie du jeu) et permet de créer de nombreux liens internes vers les pages de news WoW Forever, les guides de loot, et les articles sur l’économie des MMO. Le score global reflète ces atouts tout en tenant compte du fait que le sujet reste lié à un titre spécifique et à une politique qui pourrait évoluer."
+    },
+    {
+      "id": "rss-portal-could-ve-had-a-bunch-of-gore-and-dead-bodies-if--9979ff58e9a7",
+      "topic": "Portal could've had \"a bunch of gore and dead bodies\" if one dev had his way, says Valve veteran, but Gabe Newell considered it \"the stupidest question ever\"",
+      "detected_at": "2026-09-19T16:03:48.301490+00:00",
+      "analysed_at": "2026-09-21T22:13:55.585276+00:00",
+      "scores": {
+        "durability": 18,
+        "search_intent": 15,
+        "long_tail_specificity": 12,
+        "french_relevance": 6,
+        "competition": 8,
+        "gamerquest_relevance": 5,
+        "internal_link_potential": 3
+      },
+      "total_score": 67,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/puzzle/portal-couldve-had-a-bunch-of-gore-and-dead-bodies-if-one-dev-had-his-way-says-valve-veteran-but-gabe-newell-considered-it-the-stupidest-question-ever/",
+          "title": "Portal could've had \"a bunch of gore and dead bodies\" if one dev had his way, says Valve veteran, but Gabe Newell considered it \"the stupidest question ever\"",
+          "evidence": "<article> <p>Portal writer and Valve veteran Chet Faliszek says that one of the developers behind the 2007 puzzle game gem wanted it to be a <em>tad</em> more gory – something that the rest of the team, and Gabe Newell himself, didn't want to consider.</p><p>Faliszek reveals as much in a new <a href=\"https://www.youtube.com/watch?v=HZis8GwXU4U\" target=\"_blank\">video on YouTube (below)</a>, recalling how \"someone had suggested we add gore to Portal – the original Portal.\" They weren't a small dev, either, although the former Valve writer doesn't clarify <em>who</em> it was. He does, however, make it clear that neither he nor anyone else was a fan of the thought. <br><br>As Faliszek puts it, \"Somebody with enough oomph wants to add a bunch of gore and dead bodies all through Portal, and it's a horrible idea.\"</p><p>He continues, \"The entire team thinks it's a horrible idea, but this person is being very verbal about it and calls a meeting and calls Gabe [Newell]. <br><br>That's when Eric Wolpaw asked Faliszek to \"just come into this meeting\" and \"just say no\" – and point out \"how stupid this is,\" because let's face it… Portal is no Half-Life, and gore just wouldn't fit into Aperture "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Pourquoi Portal n'a pas de gore",
+        "secondary_keywords": [
+          "Chet Faliszek gore Portal",
+          "Valve décision gore Portal",
+          "anecdote gore Portal",
+          "développement Portal gore",
+          "Portal design sans violence"
+        ],
+        "search_intent_type": "informationnelle",
+        "recommended_angle": "Présenter l’anecdote révélée par le vétéran de Valve Chet Faliszek sur la proposition d’ajouter du gore à Portal, expliquer pourquoi l’équipe et Gabe Newell ont rejeté l’idée, et replacer cette décision dans la philosophie de design du jeu. L’article servira de référence evergreen sur les choix créatifs de Portal et pourra être lié aux guides, pages de jeu et actualités Valve/Portal de GamerQuest.",
+        "suggested_title": "Pourquoi Portal n’a jamais eu de gore : l’anecdote révélée par Chet Faliszek"
+      },
+      "reasoning": "Le sujet est une anecdote de développement qui ne dépend pas de la date de publication et restera pertinente tant que Portal est joué, ce qui lui confère une bonne durabilité. L’intention de recherche est clairement informationnelle : les joueurs curieux cherchent à comprendre pourquoi le jeu ne comporte pas de violence graphique. La requête longue‑queue \"Pourquoi Portal n’a pas de gore\" est spécifique au marché français et peu concurrentielle, offrant une opportunité de se positionner facilement. Le thème reste pertinent pour la communauté francophone de GamerQuest, permettant des liens internes vers les pages de jeu Portal, les guides de puzzles, les actualités Valve et les offres de jeux. Bien que le sujet soit de niche, il peut être intégré dans un article plus large sur les secrets de développement de Portal, évitant ainsi le risque de contenu trop mince."
+    },
+    {
+      "id": "rss-late-nintendo-president-satoru-iwata-never-wanted-tons--93c3a82e7057",
+      "topic": "Late Nintendo president Satoru Iwata never wanted tons of Mario and Zelda sequels because that's \"not the kind of company I want Nintendo to be\"",
+      "detected_at": "2026-09-19T21:00:59.416353+00:00",
+      "analysed_at": "2026-09-21T22:13:58.076413+00:00",
+      "scores": {
+        "durability": 15,
+        "search_intent": 20,
+        "long_tail_specificity": 12,
+        "french_relevance": 9,
+        "competition": 4,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 4
+      },
+      "total_score": 71,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/late-nintendo-president-satoru-iwata-never-wanted-tons-of-mario-and-zelda-sequels-because-thats-not-the-kind-of-company-i-want-nintendo-to-be/",
+          "title": "Late Nintendo president Satoru Iwata never wanted tons of Mario and Zelda sequels because that's \"not the kind of company I want Nintendo to be\"",
+          "evidence": "<article> <p>When a game like Super Mario Odyssey or The Legend of Zelda: Breath of the Wild arrives, it feels monumental, and Nintendo has made a point of not oversaturating us with sequels in its biggest series. That's been the company's approach for decades, and late president Satoru Iwata described it succinctly back in 2006.</p><p>\"If all we were to ever do is just continue to make sequels and not do anything new or different,\" Iwata told Stephen Totilo at <a href=\"https://web.archive.org/web/20150716174258/http://www.mtv.com/news/1527445/nintendo-president-says-revolution-still-full-of-surprises/\" target=\"_blank\">MTV News</a>, \"people would view us as a very conservative company and a company that is unwilling to really take new initiatives and embark on new adventures. That's not the type of person I am and not the kind of company I want Nintendo to be.\"</p><p>That line would've sounded pretty radical at the time, when Nintendo had spent years competing against the fast-rising PlayStation and Xbox brands on roughly even terms. Despite the acclaim that games like Super Mario 64, Ocarina of Time, Super Mario Sunshine, and Wind Waker enjoyed, the N64 and GameCube were both bein"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Pourquoi Nintendo ne veut pas trop de suites Mario et Zelda",
+        "secondary_keywords": [
+          "philosophie Satoru Iwata sur les suites",
+          "Nintendo stratégie suites de jeux",
+          "Nintendo éviter trop de suites Mario",
+          "Nintendo éviter trop de suites Zelda",
+          "impact des suites sur les franchises Nintendo"
+        ],
+        "search_intent_type": "informationnelle / investigation",
+        "recommended_angle": "Analyser la philosophie de Satoru Iwata et la stratégie de Nintendo visant à limiter les suites excessives de ses franchises phares (Mario, Zelda), en illustrant avec des exemples historiques, les raisons commerciales et créatives, et les implications pour les joueurs français.",
+        "suggested_title": "Pourquoi Nintendo limite les suites de Mario et Zelda ? Analyse de la philosophie de Satoru Iwata"
+      },
+      "reasoning": "Le sujet repose sur une citation historique de Satoru Iwata, mais la question de la politique de Nintendo concernant les suites reste d'actualité et durable. Les internautes français recherchent souvent des explications sur la rareté des nouvelles itérations de Mario et Zelda, ce qui crée une intention de recherche informationnelle à long terme. Le thème est suffisamment spécifique pour cibler des requêtes longues en français, tout en restant assez large pour générer du trafic continu. La concurrence est modérée : de nombreux articles de presse couvrent la citation, mais peu offrent une analyse approfondie et evergreen adaptée au public francophone. Le contenu pourra être lié naturellement aux pages de guides, actualités et fiches de jeux Mario/Zelda de GamerQuest, renforçant la pertinence interne et le maillage du site."
+    },
+    {
+      "id": "rss-marvel-fans-think-the-new-visionquest-posters-are-hidin-6a14a316ba0e",
+      "topic": "Marvel fans think the new VisionQuest posters are hiding an Easter egg that means more character reveals are coming",
+      "detected_at": "2026-09-19T21:00:59.417049+00:00",
+      "analysed_at": "2026-09-21T22:14:00.337090+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 10,
+        "long_tail_specificity": 8,
+        "french_relevance": 7,
+        "competition": 2,
+        "gamerquest_relevance": 2,
+        "internal_link_potential": 1
+      },
+      "total_score": 35,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/marvel-fans-think-the-new-visionquest-posters-are-hiding-an-easter-egg-that-means-more-character-reveals-are-coming/",
+          "title": "Marvel fans think the new VisionQuest posters are hiding an Easter egg that means more character reveals are coming",
+          "evidence": "<article> <p>Next month sees the return of Paul Bettany's hard-wired hero Vision in his own MCU television show, <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-release-date-cast-trailer-plot/\">VisionQuest.</a> To keep the hype going, three new posters have been released highlighting the hero, his old nemesis, Ultron (James Spader), and his estranged son, Tommy (Ruaridh Mollica), whom he'll have to reconnect with, or save from drowning, by the looks of things.</p><p>They're certainly a lovely set that shows the tone the new series will be going for, but naturally Marvel fans are trying desperately to read between the carefully placed lines. On closer inspection, they've theorized that the art is teasing three other characters who haven't appeared yet and haven't been officially announced. With Vision, Ultron, and Tommy each on a different floor in each poster, the guess is that Wanda (Elizabeth Olsen), Billy Maximoff (Joe Locke), and Agatha Harkness (Kathryn Hahn) might be on the other three.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/210"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "affiches VisionQuest Easter egg",
+        "secondary_keywords": [
+          "théorie affiches VisionQuest",
+          "personnages cachés VisionQuest",
+          "Marvel VisionQuest poster analyse",
+          "signification affiches VisionQuest"
+        ],
+        "search_intent_type": "informationnelle / investigation",
+        "recommended_angle": "Proposer une analyse détaillée des trois nouveaux posters de VisionQuest, décortiquer les éléments visuels qui pourraient cacher des Easter eggs, comparer les hypothèses des fans avec les informations officielles et expliquer pourquoi ces théories sont plausibles ou non, tout en rappelant que rien n’est confirmé.",
+        "suggested_title": "Que cachent les nouveaux affiches de VisionQuest ? Analyse des Easter eggs et théories sur les prochains personnages"
+      },
+      "reasoning": "Le sujet est très lié à l’actualité du lancement de la série VisionQuest et repose sur des spéculations de fans. Cela le rend peu durable (les théories perdront de l’intérêt une fois la série diffusée) et fortement concurrentiel, de nombreux sites de pop‑culture couvriront le même angle. La requête est très longue et spécifique, ce qui permet de viser un petit volume de recherche francophone, mais la pertinence pour GamerQuest est limitée car il s’agit d’une série TV Marvel plutôt que d’un jeu vidéo. Le potentiel de liens internes est faible, à part éventuellement vers des articles sur les adaptations Marvel en jeu ou les actualités MCU. En raison de ces facteurs, le score global reste bas, indiquant que le sujet n’est pas idéal pour un contenu evergreen dédié sur GamerQuest FR."
+    },
+    {
+      "id": "rss-the-worst-experience-i-ve-had-with-a-game-all-year-how--321855193611",
+      "topic": "The worst experience I've had with a game all year: How catastrophic bugs in Mortal Shell 2 nearly killed it for me",
+      "detected_at": "2026-09-19T21:00:59.417512+00:00",
+      "analysed_at": "2026-09-21T22:14:02.544737+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 12,
+        "long_tail_specificity": 8,
+        "french_relevance": 8,
+        "competition": 6,
+        "gamerquest_relevance": 5,
+        "internal_link_potential": 3
+      },
+      "total_score": 47,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/the-worst-experience-ive-had-with-a-game-all-year-how-catastrophic-bugs-in-mortal-shell-2-nearly-killed-it-for-me/",
+          "title": "The worst experience I've had with a game all year: How catastrophic bugs in Mortal Shell 2 nearly killed it for me",
+          "evidence": "<article> <p>Mortal Shell 2 is a good game that's fascinatingly bad at specific things. The open world's egregious lack of checkpoints, for example, was hastily fixed in a patch after everyone told the devs that this feels like a prank. The lighting is so dark that I, with mild cornea problems, had to crank up the brightness and gamma to see anything, yet key items are still hidden in a black smear half of the time. And the final boss, even with the secret MacGuffin designed to counter it, is among the worst I've ever seen – buggy, spongey, and spamming a grab attack so bullshit that it could fertilize corn fields. </p><p>But the real steel-toed boot to my kneecaps came in the opening hours of Mortal Shell 2. Outliers in player behavior are something that game journalists like to write about, and few are more painful than people realizing a bazillion hours into a game that they've missed a key feature that was signaled by yellow paint, waypoints, and NPC dialogue, and surrounded by neon signs reading, \"You're really going to need this.\" This time, it happened to me, and it nearly made me uninstall Mortal Shell 2. In my defense, it was mostly down to bugs, which are not in short sup"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "bugs Mortal Shell 2",
+        "secondary_keywords": [
+          "problèmes Mortal Shell 2",
+          "Mortal Shell 2 bugs courants",
+          "Mortal Shell 2 correctifs",
+          "guide de dépannage Mortal Shell 2",
+          "Mortal Shell 2 erreurs techniques"
+        ],
+        "search_intent_type": "informationnelle / dépannage",
+        "recommended_angle": "Créer un guide evergreen qui recense les bugs majeurs de Mortal Shell 2, leurs symptômes, les correctifs officiels ou les solutions de contournement, avec des captures d'écran et des conseils pratiques pour les joueurs francophones.",
+        "suggested_title": "Mortal Shell 2 : bugs connus, problèmes récurrents et solutions – guide complet"
+      },
+      "reasoning": "Le sujet d'origine est une anecdote très ponctuelle et dépendante de l'actualité (bugs récents, patchs). En tant que ressource SEO durable, il vaut mieux transformer le thème en un guide de dépannage général sur les bugs de Mortal Shell 2, qui reste pertinent tant que le jeu est joué. La requête \"bugs Mortal Shell 2\" est un long‑tail français avec un volume de recherche modéré et une concurrence relativement faible, ce qui permet à GamerQuest FR de se positionner. Le guide pourra être lié aux pages actualités du jeu, aux critiques, aux offres et aux guides de gameplay déjà existants, renforçant ainsi la pertinence interne du site. Le score reflète la faible durabilité du texte original, mais la valeur SEO d'un guide evergreen sur les bugs justifie la création d'un contenu dédié."
+    },
+    {
+      "id": "rss-the-evercade-dual-thumbstick-wireless-controller-readie-a22106f86267",
+      "topic": "The Evercade Dual Thumbstick Wireless Controller readies the cartridge-based retro console for early 3D gaming, even if it's not my outright favorite retro gamepad",
+      "detected_at": "2026-09-19T21:00:59.418207+00:00",
+      "analysed_at": "2026-09-21T22:14:14.920252+00:00",
+      "scores": {
+        "durability": 12,
+        "search_intent": 20,
+        "long_tail_specificity": 12,
+        "french_relevance": 8,
+        "competition": 8,
+        "gamerquest_relevance": 8,
+        "internal_link_potential": 4
+      },
+      "total_score": 72,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/retro/evercade-dual-thumbstick-wireless-controller-review/",
+          "title": "The Evercade Dual Thumbstick Wireless Controller readies the cartridge-based retro console for early 3D gaming, even if it's not my outright favorite retro gamepad",
+          "evidence": "<article> <p>Some may accuse the Evercade Dual Thumbstick Wireless Controller of being late. I’d argue it has arrived exactly when it means to, as the evolving cartridge-wielding ecosystem has only just found a need for 3D controls. Yes, the <a href=\"https://www.gamesradar.com/best-retro-consoles/\">retro console</a> maker first started venturing into three dimensions with glover in 2024, but now that it’s firmly in its fifth-generation territory, you’ve a reason to want to sticks if you own a VS or Alpha.</p><p>I’m going to say this up front: the Evercade Dual Thumbstick pad isn’t the <a href=\"https://www.gamesradar.com/hardware/retro/best-retro-controllers/\">best retro controller</a> out there. That’s not to say it isn’t a good gamepad that builds upon the staple gamepad feel first supplied by the VS console pad, nor does it fail in adding nice-feeling 3D controls to a tried and tested formula. It’s just that it doesn’t quite nail the ergonomic side of things or build upon some of the greatest designs out there.</p><p>You shouldn’t really pick up the Dual Thumbstick Wireless Controller expecting it to be an amazingly authentic pad for your custom emulation station. What Blaze does"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Evercade Dual Thumbstick sans fil",
+        "secondary_keywords": [
+          "avis manette Evercade Dual Thumbstick",
+          "Evercade contrôleur 3D",
+          "Evercade accessoires",
+          "Evercade Dual Thumbstick prix",
+          "Evercade jeux compatibles 3D"
+        ],
+        "search_intent_type": "Commercial investigation / avis",
+        "recommended_angle": "Un test complet qui analyse l’ergonomie, la réactivité des sticks, l’autonomie, la compatibilité 3D et le rapport qualité‑prix du contrôleur Evercade Dual Thumbstick, avec un comparatif des meilleures manettes rétro disponibles en France et un guide d’achat pour les collectionneurs et les joueurs cherchant à jouer aux titres 3D sur Evercade.",
+        "suggested_title": "Evercade Dual Thumbstick sans fil : test complet, avis et guide d’achat pour le retro‑gaming 3D"
+      },
+      "reasoning": "Le contrôleur Evercade Dual Thumbstick est un accessoire de niche mais pertinent pour la communauté retro‑gaming francophone. La requête est très longue et spécifique, ce qui permet de se positionner facilement sur des recherches d’avis et de guide d’achat en français, où la concurrence est faible. Le sujet possède une valeur durable tant que la console Evercade reste sur le marché, et il s’intègre naturellement aux pages existantes de GamerQuest (articles sur Evercade, guides d’accessoires, comparatifs de manettes, offres de deals). Le contenu pourra répondre à une intention d’enquête commerciale (avis, comparaison, prix) et générer des liens internes vers les sections console, jeux compatibles 3D et offres promotionnelles."
+    },
+    {
+      "id": "rss-stranger-things-tales-from-85-season-2-has-debuted-to-a-8b77fa0cfce2",
+      "topic": "Stranger Things: Tales from '85 season 2 has debuted to a franchise-low Rotten Tomatoes score",
+      "detected_at": "2026-09-19T21:00:59.418448+00:00",
+      "analysed_at": "2026-09-21T22:14:33.217474+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 5,
+        "long_tail_specificity": 8,
+        "french_relevance": 6,
+        "competition": 5,
+        "gamerquest_relevance": 4,
+        "internal_link_potential": 2
+      },
+      "total_score": 35,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/netflix/stranger-things-tales-from-85-season-2-has-debuted-to-a-franchise-low-rotten-tomatoes-score/",
+          "title": "Stranger Things: Tales from '85 season 2 has debuted to a franchise-low Rotten Tomatoes score",
+          "evidence": "<article> <p>Things have gone upside down for Netflix's flagship franchise after the second season of the animated spin-off, Stranger Things: Tales from '85, earned the property's lowest Rotten Tomatoes score so far. At the time of writing, the new chapter, which tells another untold story wedged between seasons 2 and 3 of the live-action series, has earned a disappointing <a href=\"https://www.rottentomatoes.com/tv/stranger_things_tales_from_85/s02\" target=\"_blank\">43% on the review aggregator</a>, with the consensus that it's all style and no substance. </p><p>The new season once again sees El and pals, along with the ally that's only appeared in the animated show, Nikki Baxter (Odessa A’zion), going back into the woods to face a new kind of Demogorgon. This new beastie sets itself apart from the other creatures they've encountered, since it's a ghostly apparition that's hungry for human. But while 'bustin might make Dustin and pals feel good, it apparently wasn't enough for critics.</p><p><a href=\"https://www.ign.com/articles/stranger-things-tales-from-85-season-2-review\" target=\"_blank\">IGN</a> said, \"Stranger Things: Tales From '85 remains a gorgeously designed and animated sho"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Stranger Things Tales from 85 saison 2 note Rotten Tomatoes",
+        "secondary_keywords": [
+          "Stranger Things Tales from 85 saison 2 critique",
+          "Stranger Things Tales from 85 avis",
+          "Stranger Things Tales from 85 épisode 2 résumé",
+          "Stranger Things Tales from 85 saison 2 date de sortie"
+        ],
+        "search_intent_type": "informationnelle / actualité",
+        "recommended_angle": "Un article d'actualité concis qui résume la note Rotten Tomatoes de la saison 2, explique les raisons principales de la critique négative, et le replace dans le contexte de la série animée. Inclure un petit encadré \"Tout savoir sur Stranger Things : Tales from ’85\" pour créer un mini‑guide evergreen qui pourra être relié à d’autres contenus GamerQuest (news, guides, pages de jeux Netflix).",
+        "suggested_title": "Stranger Things : Tales from ’85 – Saison 2 : critique et note Rotten Tomatoes (43 %)"
+      },
+      "reasoning": "Le sujet porte sur un événement très récent (début de la saison 2 et score bas), ce qui le rend peu durable et surtout pertinent pour une recherche d'actualité. La requête est déjà très longue‑queue, mais elle ne génèrera pas de trafic récurrent sur le long terme. La pertinence pour le public français est moyenne, car la série est connue mais reste un produit Netflix plutôt que purement gaming. La concurrence est élevée parmi les sites d'actualités streaming, ce qui diminue la valeur SEO d'un article dédié. L'intérêt pour GamerQuest est limité, car il s'agit d'une série animée dérivée d'une franchise TV, pas d'un jeu vidéo. Le potentiel de liens internes existe seulement si l’on crée un petit guide \"Tout savoir sur Tales from ’85\" qui pourra être relié à d’autres articles sur la franchise Stranger Things ou les contenus Netflix. Au final, le score global reste faible, indiquant que ce sujet n'est pas idéal pour un contenu evergreen dédié."
+    },
+    {
+      "id": "rss-the-pimax-dream-air-costs-double-the-steam-frame-and-wh-3ccb3d8cbc5c",
+      "topic": "The Pimax Dream Air costs double the Steam Frame, and while its visuals are worth every penny, its performance demands and inconsistencies make it hard to recommend",
+      "detected_at": "2026-09-19T21:00:59.419465+00:00",
+      "analysed_at": "2026-09-21T22:14:51.047077+00:00",
+      "scores": {
+        "durability": 15,
+        "search_intent": 22,
+        "long_tail_specificity": 13,
+        "french_relevance": 9,
+        "competition": 5,
+        "gamerquest_relevance": 8,
+        "internal_link_potential": 4
+      },
+      "total_score": 76,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/vr/pimax-dream-air-review/",
+          "title": "The Pimax Dream Air costs double the Steam Frame, and while its visuals are worth every penny, its performance demands and inconsistencies make it hard to recommend",
+          "evidence": "<article> <p>PC VR gaming is still alive and well, but it's getting harder and harder to find headsets that give you its original appeal. Most new headsets today focus on the convenience of streaming and wireless connections when it comes to gaming, and in their standalone modes, they just don't have the power to match up against a desktop PC. So, if you want that crystal-clear visual fidelity and lossless connection from your PC's graphics card, there are fewer and fewer places to turn these days. That's why the Pimax Dream Air is such an interesting <a href=\"https://www.gamesradar.com/the-best-vr-headset\">VR headset</a> to review right now. </p><p>Up against PSVR 2, the Meta Quest 3, and most recently, the Steam Frame, it and the HTC Vive Focus Vision seem to be the only ones that actually want to give PC gamers the ultimate visual feast with a lossless DisplayPort connection. But for how old-fashioned a wired connection is, the Dream Air has a more futuristic, lightweight design than any of its rivals. It bears a striking resemblance to the Apple Vision Pro, but that's more of a statement of intent rather than an appeal to disappointed Apple fans. It's the PCVR gaming headset th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Pimax Dream Air avis",
+        "secondary_keywords": [
+          "Pimax Dream Air prix",
+          "Pimax Dream Air comparaison Steam Frame",
+          "Pimax Dream Air spécifications",
+          "Guide d'achat Pimax Dream Air",
+          "Pimax Dream Air exigences PC"
+        ],
+        "search_intent_type": "Commercial investigation (avis, comparaison, guide d'achat)",
+        "recommended_angle": "Un guide d'achat complet en français qui analyse la qualité visuelle du Pimax Dream Air, détaille ses exigences matérielles, compare son prix et ses performances au Steam Frame, et fournit des conseils pratiques pour décider si cet investissement vaut le coût.",
+        "suggested_title": "Pimax Dream Air : avis complet, prix, performances et comparaison avec le Steam Frame"
+      },
+      "reasoning": "Le sujet porte sur un casque VR haut de gamme dont le prix et les performances sont des critères d'achat cruciaux. Les recherches françaises autour de \"Pimax Dream Air avis\" ou \"prix\" sont typiquement de nature commerciale et durable, car les acheteurs cherchent des informations détaillées avant d'investir. Le sujet est suffisamment spécifique pour cibler des requêtes longue traîne, tout en restant pertinent pour la communauté FR de GamerQuest (VR, hardware, guides d'achat). La concurrence est modérée : le produit est niche, donc moins saturé que les casques grand public, ce qui offre une opportunité de se positionner. Le contenu pourra être lié à d’autres pages GamerQuest (actualités VR, guides de configuration PC, comparatifs de casques, offres et deals), maximisant le potentiel de liens internes. Ainsi, le sujet mérite un article evergreen plutôt qu’une simple actualité."
+    },
+    {
+      "id": "rss-roguelike-fps-dednet-exists-to-spread-the-gospel-of-pub-df53536af9f7",
+      "topic": "Roguelike FPS Dednet exists to spread \"the gospel of PUBG,\" says creative director, which means it has \"infinite\" gameplay opportunities",
+      "detected_at": "2026-09-19T21:00:59.419878+00:00",
+      "analysed_at": "2026-09-21T22:15:05.413796+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 5,
+        "long_tail_specificity": 8,
+        "french_relevance": 6,
+        "competition": 7,
+        "gamerquest_relevance": 5,
+        "internal_link_potential": 3
+      },
+      "total_score": 39,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fps/roguelike-fps-dednet-exists-to-spread-the-gospel-of-pubg-says-creative-director-which-means-it-has-infinite-gameplay-opportunities/",
+          "title": "Roguelike FPS Dednet exists to spread \"the gospel of PUBG,\" says creative director, which means it has \"infinite\" gameplay opportunities",
+          "evidence": "<article> <p>In PUBG: Dednet, death is only the beginning, or at least that's the one-liner plastered over its marketing campaign. The new instalment from the creators of the phenomenon that popularized the battle royale genre, Dednet has learned a lot from its predecessors, taking and shaking up lessons from what came before to apply the same chaotic thrill to a multiplayer FPS by leveraging roguelike elements.</p><p>Set in the gritty '90s Pacific Northwest-inspired region of Cascadia, one design throughline is clear – this is the PUBG's edgier younger sibling Talking to creative director Dave Curd, it's clear that ethos extends beyond the grungy, graffiti style visuals that make the map pop with color. Curd says Dednet is spreading \"the gospel of PUBG,\" and doing so by providing an \"infinite\" amount of gameplay opportunities in a distinct form.</p><h2 id=\"i-39-m-in\">I'm in</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"tqwJpDKDzukESR24j6rfBY\" name=\"ss_3d0a88d3f2a0aa554ca8ca3610e3e423c75a1f"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "guide PUBG Dednet",
+        "secondary_keywords": [
+          "PUBG Dednet date de sortie",
+          "PUBG Dednet plateformes",
+          "PUBG Dednet astuces",
+          "PUBG Dednet gameplay",
+          "PUBG Dednet avis"
+        ],
+        "search_intent_type": "informationnel (guide complet)",
+        "recommended_angle": "Créer un guide evergreen qui présente le jeu PUBG: Dednet, ses mécaniques roguelike, les plateformes disponibles, la date de sortie, les modes de jeu, ainsi que des astuces et stratégies pour les joueurs français. Le contenu doit rester pertinent au fil du temps, même après la sortie du jeu, en se concentrant sur les fondamentaux du gameplay et les conseils de progression.",
+        "suggested_title": "Guide complet de PUBG: Dednet – date de sortie, plateformes, gameplay et astuces"
+      },
+      "reasoning": "Le sujet provient d'une annonce récente, ce qui le rend peu durable en tant que simple article d'actualité. Cependant, le jeu introduit un mélange inédit de FPS battle‑royale et de roguelike, ce qui crée une opportunité pour un guide evergreen qui pourra rester utile après la sortie. La requête \"guide PUBG Dednet\" est suffisamment longue et spécifique pour que GamerQuest puisse se positionner sans affronter la forte concurrence des termes génériques \"PUBG\". Le guide pourra être lié naturellement aux pages d'actualités sur le lancement, aux fiches de jeu PUBG existantes, aux tests de performance et aux offres de précommande ou de réduction, maximisant ainsi le potentiel de liens internes. Le score reflète la faible durabilité et le caractère news du sujet, mais compense par la spécificité du long‑tail, la pertinence pour le public français et le potentiel de liens internes."
     }
   ]
 }

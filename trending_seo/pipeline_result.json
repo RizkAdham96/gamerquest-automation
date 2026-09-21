@@ -1,11 +1,11 @@
 {
   "pipeline_version": "2.0",
-  "status": "BLOCKED_INSUFFICIENT_RESEARCH",
-  "reason": "No usable research evidence was available; generation, image work and WordPress publishing were skipped.",
-  "topic": "Jeux comme Elden Ring",
+  "status": "SANITY_CHECK_FAILED",
+  "reason": "Potential unsupported high-risk factual wording: cd projekt red a confirmé que",
+  "topic": "The Witcher 4 abandons CD Projekt Red's in-house tech for Unreal Engine 5, but studio lead says it's not because of issues with Cyberpunk 2077",
   "wordpress_status": null,
   "wordpress_post_id": null,
   "wordpress_url": null,
   "published": false,
-  "created_at": "2026-09-21T13:21:33.363307+00:00"
+  "created_at": "2026-09-21T22:16:28.392909+00:00"
 }

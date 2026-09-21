@@ -84,8 +84,14 @@ MAX_OFFICIAL_SOURCE_LENGTH = 3500
 GROQ_MODEL = "openai/gpt-oss-120b"
 
 # Retry settings for 429 errors.
-GROQ_MAX_RETRIES = 4
+GROQ_MAX_RETRIES = 2
 GROQ_DEFAULT_WAIT_SECONDS = 10
+GROQ_MAX_WAIT_SECONDS = 45
+
+# Leave enough time for state persistence and the WordPress wake step before
+# the GitHub job's hard 30-minute timeout.
+MAX_NEWS_RUN_SECONDS = 22 * 60
+MIN_SECONDS_TO_START_AI_CANDIDATE = 180
 
 
 # =========================================================
@@ -167,8 +173,12 @@ def groq_chat(
                     * attempt
                 )
 
-            # Give Groq a small extra buffer.
-            wait_seconds += 2
+            # Give Groq a small extra buffer, but never let one 429 consume
+            # several minutes of the scheduled run.
+            wait_seconds = min(
+                wait_seconds + 2,
+                GROQ_MAX_WAIT_SECONDS,
+            )
 
             print("")
             print(
@@ -4088,6 +4098,8 @@ SOURCE REJECTED - NO ARTICLE CREATED.
 # =========================================================
 
 def main():
+    run_started = time.monotonic()
+
     print("")
     print(
         "==================================="
@@ -4114,6 +4126,20 @@ def main():
         and attempts < MAX_NEWS_CANDIDATE_ATTEMPTS
         and published_count < MAX_NEWS_ARTICLES_PER_RUN
     ):
+        elapsed = time.monotonic() - run_started
+        remaining_budget = MAX_NEWS_RUN_SECONDS - elapsed
+
+        if remaining_budget < MIN_SECONDS_TO_START_AI_CANDIDATE:
+            print("")
+            print("===================================")
+            print("NEWS RUNTIME BUDGET REACHED")
+            print("===================================")
+            print(
+                f"Only {remaining_budget:.0f}s remain in the safe News budget; "
+                "stopping before another expensive AI candidate."
+            )
+            break
+
         attempts += 1
 
         print("")
@@ -4265,26 +4291,47 @@ def main():
                 "Using established secondary source only."
             )
 
-        time.sleep(4)
+        elapsed = time.monotonic() - run_started
+        remaining_budget = MAX_NEWS_RUN_SECONDS - elapsed
+        if remaining_budget < MIN_SECONDS_TO_START_AI_CANDIDATE:
+            print("")
+            print("Skipping AI generation because the safe News runtime budget is nearly exhausted.")
+            break
 
-        generated = generate_article(
-            story,
-            source_text,
-            official_story,
-            official_text,
-        )
-
-        article_data = parse_article(
-            generated
-        )
-
-        article_data = (
-            verify_and_correct_article(
-                article_data,
+        try:
+            generated = generate_article(
+                story,
                 source_text,
+                official_story,
                 official_text,
             )
-        )
+
+            article_data = parse_article(
+                generated
+            )
+
+            article_data = (
+                verify_and_correct_article(
+                    article_data,
+                    source_text,
+                    official_text,
+                )
+            )
+        except RateLimitError as error:
+            save_rejection_report(
+                "GROQ RATE LIMIT",
+                "Groq remained rate-limited after bounded retries; ending this run cleanly.",
+                story,
+            )
+            print("")
+            print("===================================")
+            print("GROQ STILL RATE-LIMITED")
+            print("===================================")
+            print(
+                "Bounded retries were exhausted. Ending this scheduled run cleanly "
+                "instead of waiting until GitHub kills the job."
+            )
+            break
 
         rejection_reason = news_quality_rejection(
             article_data

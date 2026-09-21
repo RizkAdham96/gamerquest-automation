@@ -6,6 +6,10 @@ import urllib.error
 import urllib.request
 
 
+class GroqRateLimitError(RuntimeError):
+    """Raised when Groq cannot serve the request because a rate limit is active."""
+
+
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = os.getenv(
     "SOCIAL_GROQ_MODEL",
@@ -107,6 +111,15 @@ def _rate_limit_wait_seconds(error_body):
     return DEFAULT_RATE_LIMIT_WAIT_SECONDS
 
 
+def _is_daily_token_limit(error_body):
+    text = (error_body or "").lower()
+    return (
+        "tokens per day" in text
+        or " tpd" in text
+        or "(tpd)" in text
+    )
+
+
 def call_grok(prompt):
     """
     Backward-compatible function name used by the social pipeline.
@@ -163,8 +176,16 @@ def call_grok(prompt):
 
             if error.code == 429:
 
+                if _is_daily_token_limit(error_body):
+                    raise GroqRateLimitError(
+                        "Groq daily token limit is active. "
+                        "Skipping AI generation for this run instead of "
+                        "sleeping or failing the whole workflow. "
+                        f"Last response: {error_body}"
+                    ) from error
+
                 if attempt >= MAX_RATE_LIMIT_RETRIES:
-                    raise RuntimeError(
+                    raise GroqRateLimitError(
                         "Groq rate limit is still active "
                         "after automatic retries. "
                         f"Last response: {error_body}"

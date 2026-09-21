@@ -1,7 +1,57 @@
 {
-  "generated_at": "2026-09-20T11:12:52.324813+00:00",
+  "generated_at": "2026-09-21T07:12:58.517824+00:00",
   "count": 50,
   "articles": [
+    {
+      "source_id": "b4f70acbeec250b3ff6a7c4ebc5fc2f6135cbf2b814347acfedafc95f187adc5",
+      "title": "TheGameArchives : votre guide complet des news, patch notes et calendriers de sortie",
+      "excerpt": "TheGameArchives réunit news, notes de patch, historiques de version et calendriers de sortie pour PC, consoles et mobile, offrant une analyse de préservation et des alertes personnalisées.",
+      "content": "<p>Vous cherchez à suivre les dernières actualités, les <strong>patch notes jeux vidéo</strong> détaillées et les <a href=\"https://gamerquestfr.com/dates-sortie-switch-2-2026/\">dates de sortie</a> de vos titres préférés ? TheGameArchives centralise ces informations pour PC, consoles et plateformes mobiles, en les présentant avec un contexte de préservation et des outils d’alerte personnalisés.</p>\n<h2>Quelles plateformes sont couvertes par TheGameArchives ?</h2>\n<p>TheGameArchives couvre l’ensemble des environnements de jeu : PC, consoles de salon, consoles portables, plateformes cloud et systèmes rétro. Chaque article indique clairement la plateforme, le numéro de version, la date de publication et, le cas échéant, les indicateurs régionaux.</p>\n<h2>Comment lire les notes de patch et les historiques de version ?</h2>\n<p>Les notes de patch sont structurées pour mettre en avant l’effet principal (par ex. : « matchmaking penalty reduced », build 1.14.2), suivi de la justification technique et des implications de préservation. Pour les exploiter :</p>\n<ol>\n<li>Identifiez votre plateforme et votre région, puis comparez le numéro de build indiqué.</li>\n<li>Examinez les sections « balance » et « bug » afin de repérer les valeurs numériques modifiées (dégâts, temps de recharge, taux d’XP).</li>\n<li>Notez les mentions de suppression d’actifs ou de compatibilité qui peuvent affecter les sauvegardes ou les mods.</li>\n</ol>\n<p>TheGameArchives fournit également des liens vers des archives publiques, permettant de retracer l’apparition ou la dépréciation de fonctionnalités au fil des versions.</p>\n<h2>Quels sont les avantages des calendriers de sortie et des alertes ?</h2>\n<p>Le site propose des calendriers de sortie détaillés, regroupant les dates de lancement par plateforme et par région. En s’abonnant aux alertes, les joueurs peuvent suivre précisément le timing des mises à jour, éviter les incompatibilités matérielles et planifier leurs sessions de jeu en fonction des changements d’équilibrage, notamment pour les titres compétitifs.</p>\n<h2>Comment s’abonner aux newsletters et suivre les canaux communautaires ?</h2>\n<p>Selon les informations publiées par TheGameArchives, le site propose des newsletters résumant les patchs critiques, les <a href=\"https://gamerquestfr.com/nintendo-direct-septembre-2026-annonces/\">dates de sortie</a> et les notes de préservation. Les canaux communautaires (forums, réseaux sociaux) diffusent des alertes rapides avec des liens vers les analyses complètes. La recommandation pratique du site : tenir un petit journal de version (date, build, note) pour les titres compétitifs, afin de faciliter le diagnostic d’éventuelles régressions.</p>",
+      "slug": "guide-news-patch-notes-thegamearchives",
+      "category": "Actualités",
+      "tags": [
+        "news jeux",
+        "patch notes",
+        "calendrier sortie",
+        "préservation jeux",
+        "esports",
+        "communauté gaming",
+        "Nintendo"
+      ],
+      "seo": {
+        "seo_title": "Guide complet des news, notes de patch et calendriers de sortie – TheGameArchives",
+        "meta_description": "Découvrez comment TheGameArchives centralise les news jeux vidéo, les patch notes détaillées et les calendriers de sortie pour PC, consoles et mobile, avec des alertes personnalisées.",
+        "primary_keyword": "patch notes jeux vidéo",
+        "secondary_keywords": [
+          "news jeux vidéo",
+          "calendrier sorties jeux",
+          "version historique jeux",
+          "alertes mises à jour",
+          "communauté gaming",
+          "préservation jeux vidéo"
+        ],
+        "search_intent": "Informational"
+      },
+      "source": {
+        "url": "https://thegamearchives.com/2026/09/14/updates-from-thegamearchives-a-complete-guide-to-gaming-news-patches-and-releases",
+        "title": "Updates from TheGameArchives: A Complete Guide to Gaming News, Patches, and Releases - Thegamearchives",
+        "published_date": "Mon, 14 Sep 2026 19:56:32 GMT",
+        "domain": "thegamearchives.com"
+      },
+      "official_source": null,
+      "created_at": "2026-09-21T07:12:56.394859+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/guide-news-patch-notes-thegamearchives.jpg",
+        "filename": "guide-news-patch-notes-thegamearchives.jpg",
+        "alt": "TheGameArchives : votre guide complet des news, patch notes et calendriers de sortie - GamerQuest",
+        "caption": "Illustration de l'article « TheGameArchives : votre guide complet des news, patch notes et calendriers de sortie ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://thegamearchives.com/wp-content/uploads/2026/09/airtable_6aa851711fd23-1-scaled.jpg"
+      },
+      "platforms": [
+        "Nintendo"
+      ]
+    },
     {
       "source_id": "96bbcff02eded5c9b81ca08a96d0c9fe20f4e6c20f2348939ed23f3003c03ee0",
       "title": "Toshinden Collection : date de sortie 2027, plateformes PS5, Switch 2 et PC, et mode multijoueur",
@@ -15,7 +65,9 @@
         "Switch 2",
         "PC",
         "jeux de combat",
-        "rétro"
+        "rétro",
+        "Nintendo",
+        "PlayStation"
       ],
       "seo": {
         "seo_title": "Toshinden Collection : date de sortie 2027, plateformes PS5, Switch 2 et PC, mode multijoueur",
@@ -47,7 +99,11 @@
         "caption": "Illustration de l'article « Toshinden Collection : date de sortie 2027, plateformes PS5, Switch 2 et PC, et mode multijoueur ».",
         "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
         "source_image_url": "https://www.gematsu.com/wp-content/uploads/2026/09/Toshinden-Collection-Announced_09-17-26.jpg"
-      }
+      },
+      "platforms": [
+        "Nintendo",
+        "PlayStation"
+      ]
     },
     {
       "source_id": "c7899c7defd67a9643b1f6f3df8ce15f769a0d217a7c659c9c8f4ebb323f7fea",
@@ -61,7 +117,9 @@
         "Gears of War",
         "Minecraft Dungeons II",
         "Dune Awakening",
-        "dates de sortie"
+        "dates de sortie",
+        "Nintendo",
+        "Xbox"
       ],
       "seo": {
         "seo_title": "Date de sortie de Gears of War : E‑Day, Minecraft Dungeons II et Dune : Awakening sur Xbox Game Pass (septembre 2026)",
@@ -95,7 +153,11 @@
         "caption": "Illustration de l'article « Toutes les dates de sortie et infos gameplay de Gears of War : E‑Day, Minecraft Dungeons II et Dune : Awakening sur Xbox Game Pass ».",
         "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
         "source_image_url": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/XBOX_GamePass_Announcement_Sept15_13T_16x9_EN-cc3d77a12c0bc5663196.jpg"
-      }
+      },
+      "platforms": [
+        "Nintendo",
+        "Xbox"
+      ]
     },
     {
       "source_id": "9ea334822babc31dbae56c670f6b9e1e07c2ca558fa84c96ad69a869b45f6629",
@@ -141,7 +203,8 @@
         "caption": "Illustration de l'article « Annonce de la mise à jour du 14 septembre 2026 pour Beast Lord: The New Land ».",
         "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
         "source_image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/806093894_1029816800094433_5192021443356230587_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1005&ctp=p600x600&_nc_cat=104&ccb=1-7&_nc_sid=cae128&_nc_ohc=9XF3dAZXD28Q7kNvwFS4B7F&_nc_oc=AdpK-c4WAJNQYu2rOk9jcSTnLVfGXn02MIEmiDQX21Kow5GH6Vwmnq7N66w-6KRZStE&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=4K1J-WmZWazOaAYK7rgYRA&_nc_ss=7820f&oh=00_AQJ0yKKD6sTGYFsDFB8V4W0F9bd9hPuutaIY2W_ZQUVDXQ&oe=6AB48315"
-      }
+      },
+      "platforms": []
     },
     {
       "source_id": "6cd9c21326f4e205f7736b58fe70d689662c9e1637403b60582a1b1c3a718d65",
@@ -156,7 +219,10 @@
         "Team NINJA",
         "démo alpha",
         "date de sortie",
-        "précommande"
+        "précommande",
+        "Nintendo",
+        "PlayStation",
+        "Xbox"
       ],
       "seo": {
         "seo_title": "Wo Long 2 : Wings of Ember – date de sortie, plateformes, prix et démo alpha",
@@ -187,7 +253,12 @@
         "caption": "Illustration de l'article « Wo Long 2 : Wings of Ember – date de sortie, plateformes, prix et démo alpha ».",
         "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
         "source_image_url": "https://www.gematsu.com/wp-content/uploads/2026/09/Wo-Long-2-Wings-of-Ember_2026_09-15-26_003.jpg"
-      }
+      },
+      "platforms": [
+        "Nintendo",
+        "PlayStation",
+        "Xbox"
+      ]
     },
     {
       "source_id": "2874f5b4b5bb1981b03fc6abb68b06860338a443ada96e51015a36f5a220ff21",
@@ -2481,59 +2552,6 @@
         "caption": "Illustration de l'article « Warlock (D&D) : tout ce que l’on sait sur la date de sortie, les plateformes et le gameplay ».",
         "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
         "source_image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/warlock-teaser-trailer-1-10-screenshot-1.jpg?w=1600&h=900&fit=crop"
-      },
-      "platforms": [
-        "PlayStation",
-        "Xbox"
-      ]
-    },
-    {
-      "source_id": "d28de6512bcb183ce1a30d20ddf1db2e4262a66f3d094856948cc4537784d574",
-      "title": "Exodus : la date de sortie officielle, les plateformes et le gameplay dévoilés à la Gamescom 2026",
-      "excerpt": "Exodus, le futur RPG d’action spatial présenté comme le successeur de Mass Effect, sortira le 7 avril 2027 sur PS5, Xbox Series X et PC. Découvrez les premières informations sur son univers et son gameplay.",
-      "content": "<article>\n  <p>Exodus, le nouveau RPG d’action spatial présenté comme le successeur de <em>Mass Effect</em>, a reçu une date de sortie officielle : le <strong>7 avril 2027</strong>. Le jeu sera disponible sur <strong>PlayStation 5, Xbox Series X et PC Windows</strong>, comme l’a annoncé Archetype Entertainment lors de la soirée d’ouverture de la Gamescom 2026.</p>\n\n  <h2>Quelle est la date de sortie d’Exodus ?</h2>\n  <p>Le développeur Archetype Entertainment a confirmé que <strong>Exodus sortira le 7 avril 2027</strong>. L’annonce a été faite dans un trailer émotionnel diffusé pendant l’Opening Night Live de la Gamescom 2026.</p>\n\n  <h2>Sur quelles plateformes sortira Exodus ?</h2>\n  <p>Exodus sera lancé simultanément sur les trois plateformes suivantes :</p>\n  <ul>\n    <li>PlayStation 5</li>\n    <li>Xbox Series X</li>\n    <li>PC (Windows)</li>\n  </ul>\n\n  <h2>Que sait‑on du gameplay d’Exodus ?</h2>\n  <p>Exodus se veut un <strong>RPG d’action à la troisième personne</strong> ancré dans un univers de science‑fiction. L’histoire se déroule 40 000 ans dans le futur, après que l’humanité a quitté une Terre mourante pour coloniser un groupe de systèmes stellaires habitables. Le jeu met en avant :</p>\n  <ul>\n    <li>Un système de narration à embranchements, influencé par les choix du joueur.</li>\n    <li>Un groupe de cinq membres de combat confirmés, dont <em>Salt</em>, une pieuvre augmentée capable de sniper et de créer des écrans de fumée.</li>\n    <li>Des mécaniques liées à la dilatation temporelle, qui affectent le déroulement de l’histoire et les environnements.</li>\n    <li>Des combats mêlant tir de précision, capacités technologiques et coopération entre les membres du groupe.</li>\n  </ul>\n  <p>Le trailer présenté à la Gamescom a notamment mis en avant le personnage de Salt, équipé d’une combinaison mécanique autour d’un aquarium portable, illustrant le mélange d’action et de narration que le jeu promet.</p>\n</article>",
-      "slug": "exodus-date-de-sortie-2027",
-      "category": "Actualités",
-      "tags": [
-        "Exodus",
-        "Archetype Entertainment",
-        "Gamescom 2026",
-        "RPG",
-        "PS5",
-        "Xbox Series X",
-        "PlayStation",
-        "Xbox"
-      ],
-      "seo": {
-        "seo_title": "Exodus : date de sortie, plateformes et gameplay dévoilés à la Gamescom 2026",
-        "meta_description": "Découvrez la date officielle d’Exodus (7 avril 2027), les plateformes (PS5, Xbox Series X, PC) et les premiers éléments de gameplay révélés à la Gamescom 2026.",
-        "primary_keyword": "Exodus date de sortie",
-        "secondary_keywords": [
-          "Exodus plateforme",
-          "Exodus gameplay",
-          "Exodus PS5",
-          "Exodus Xbox Series X",
-          "Exodus PC",
-          "Exodus Gamescom 2026",
-          "RPG spatial"
-        ],
-        "search_intent": "News"
-      },
-      "source": {
-        "url": "https://www.polygon.com/exodus-release-date-reveal-gamescom-2026/",
-        "title": "'Mass Effect' Replacement 'Exodus' Finally Gets A Release Date - Polygon.com",
-        "published_date": "Tue, 25 Aug 2026 18:53:27 GMT",
-        "domain": "polygon.com"
-      },
-      "official_source": null,
-      "created_at": "2026-08-26T19:53:41.701655+00:00",
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/exodus-date-de-sortie-2027.jpg",
-        "filename": "exodus-date-de-sortie-2027.jpg",
-        "alt": "Exodus : la date de sortie officielle, les plateformes et le gameplay dévoilés à la Gamescom 2026 - GamerQuest",
-        "caption": "Illustration de l'article « Exodus : la date de sortie officielle, les plateformes et le gameplay dévoilés à la Gamescom 2026 ».",
-        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
-        "source_image_url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/exodus-jun-salt.jpg?w=1600&h=900&fit=crop"
       },
       "platforms": [
         "PlayStation",

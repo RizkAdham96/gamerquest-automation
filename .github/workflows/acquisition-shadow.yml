@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: gamerquest-repo-writer
+  group: gamerquest-acquisition-writer
   cancel-in-progress: false
 
 jobs:

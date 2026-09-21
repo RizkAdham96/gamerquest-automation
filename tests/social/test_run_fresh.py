@@ -1,6 +1,8 @@
 import unittest
+from unittest.mock import patch
 
-from social.run_fresh import filter_already_published, filter_renderable_sources
+from social.ai_client import GroqRateLimitError
+from social.run_fresh import filter_already_published, filter_renderable_sources, run
 
 
 class TestFreshSocialSelection(unittest.TestCase):
@@ -50,6 +52,19 @@ class TestFreshSocialSelection(unittest.TestCase):
         result = filter_renderable_sources(content, image_resolver=resolver)
 
         self.assertEqual([item["source_id"] for item in result], ["good-images"])
+
+    def test_rate_limit_is_a_safe_skip_not_a_workflow_failure(self):
+        with patch(
+            "social.run_fresh.social_run.run",
+            side_effect=GroqRateLimitError("daily TPD exhausted"),
+        ), patch(
+            "social.run_fresh.social_run.write_output"
+        ) as write_output:
+            result = run()
+
+        self.assertEqual(result["status"], "skipped")
+        self.assertEqual(result["reason"], "groq_rate_limited")
+        write_output.assert_called_once()
 
     def test_accepts_semantically_valid_hashed_cdn_images_from_resolver(self):
         content = [

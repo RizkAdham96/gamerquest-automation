@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: gamerquest-repo-writer
+  group: gamerquest-trending-seo
   cancel-in-progress: false
 
 jobs:

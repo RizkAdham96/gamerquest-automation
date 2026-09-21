@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: gamerquest-repo-writer
+  group: gamerquest-social-publishing
   cancel-in-progress: false
 
 jobs:

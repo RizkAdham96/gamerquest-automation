@@ -110,6 +110,10 @@ GROQ_CLIENT = Groq(
 # SAFE GROQ CALL
 # =========================================================
 
+class GroqRunDeferred(RuntimeError):
+    """Stop this scheduled run cleanly when Groq's budget cannot recover soon."""
+
+
 def groq_chat(
     messages,
     temperature=0.1,
@@ -151,6 +155,15 @@ def groq_chat(
             )
 
         except RateLimitError as error:
+            error_text = str(error).lower()
+
+            # A daily token cap cannot recover within this scheduled run.
+            # Do not sleep for tens of minutes and let GitHub kill the job.
+            if "tokens per day" in error_text or "tpd" in error_text:
+                raise GroqRunDeferred(
+                    "Groq daily token budget is exhausted; defer News generation to the next run."
+                ) from error
+
             retry_after = None
 
             try:
@@ -202,7 +215,9 @@ def groq_chat(
             )
 
             if attempt >= GROQ_MAX_RETRIES:
-                raise
+                raise GroqRunDeferred(
+                    "Groq remained rate-limited after bounded retries."
+                ) from error
 
             time.sleep(
                 wait_seconds
@@ -4317,21 +4332,8 @@ def main():
                     official_text,
                 )
             )
-        except RateLimitError as error:
-            save_rejection_report(
-                "GROQ RATE LIMIT",
-                "Groq remained rate-limited after bounded retries; ending this run cleanly.",
-                story,
-            )
-            print("")
-            print("===================================")
-            print("GROQ STILL RATE-LIMITED")
-            print("===================================")
-            print(
-                "Bounded retries were exhausted. Ending this scheduled run cleanly "
-                "instead of waiting until GitHub kills the job."
-            )
-            break
+        except GroqRunDeferred:
+            raise
 
         rejection_reason = news_quality_rejection(
             article_data
@@ -4423,4 +4425,16 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except GroqRunDeferred as error:
+        print("")
+        print("===================================")
+        print("NEWS RUN DEFERRED CLEANLY")
+        print("===================================")
+        print(str(error))
+        print(
+            "No quality rule was bypassed. State already produced by this run "
+            "can still be saved, and the next scheduled run can try again."
+        )
+        sys.exit(0)

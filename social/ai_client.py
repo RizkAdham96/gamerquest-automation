@@ -5,6 +5,8 @@ import time
 import urllib.error
 import urllib.request
 
+from groq_budget import GroqBudgetExhausted, consume_run_budget
+
 
 class GroqRateLimitError(RuntimeError):
     """Raised when Groq cannot serve the request because a rate limit is active."""
@@ -27,6 +29,7 @@ RATE_LIMIT_BUFFER_SECONDS = 3.0
 
 # Do not let a GitHub Action sleep forever.
 MAX_RATE_LIMIT_WAIT_SECONDS = 20 * 60
+SOCIAL_MAX_OUTPUT_TOKENS = 1100
 
 
 def _build_request(prompt, api_key):
@@ -38,6 +41,8 @@ def _build_request(prompt, api_key):
                 "content": prompt,
             }
         ],
+        "max_tokens": SOCIAL_MAX_OUTPUT_TOKENS,
+        "temperature": 0.2,
     }
 
     return urllib.request.Request(
@@ -139,6 +144,20 @@ def call_grok(prompt):
         raise RuntimeError(
             "Missing GROQ_API_KEY environment variable."
         )
+
+    try:
+        consume_run_budget(
+            prompt,
+            SOCIAL_MAX_OUTPUT_TOKENS,
+            lane="social",
+            operation="social:carousel",
+        )
+    except GroqBudgetExhausted as error:
+        raise GroqRateLimitError(
+            "Shared Groq ceiling reached before social generation. "
+            "The carousel is skipped instead of lowering content quality. "
+            f"{error}"
+        ) from error
 
     for attempt in range(MAX_RATE_LIMIT_RETRIES + 1):
 

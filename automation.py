@@ -82,12 +82,15 @@ MAX_VERIFICATION_SOURCE_LENGTH = 3200
 MAX_OFFICIAL_SOURCE_LENGTH = 2600
 
 GROQ_MODEL = "openai/gpt-oss-120b"
+GROQ_GENERATION_MODEL = "openai/gpt-oss-120b"
+GROQ_VERIFICATION_MODEL = "openai/gpt-oss-20b"
 
 # Keep each request small enough that the two production AI calls
 # (draft + factual correction) can fit inside Groq's free-tier TPM window.
 GROQ_DEFAULT_MAX_TOKENS = 1600
 GROQ_GENERATION_MAX_TOKENS = 1700
 GROQ_VERIFICATION_MAX_TOKENS = 1300
+GROQ_BETWEEN_ARTICLES_WAIT_SECONDS = 25
 
 # Retry settings for 429 errors.
 GROQ_MAX_RETRIES = 3
@@ -124,6 +127,7 @@ def groq_chat(
     messages,
     temperature=0.1,
     max_tokens=GROQ_DEFAULT_MAX_TOKENS,
+    model=GROQ_MODEL,
 ):
     """
     Make a Groq request.
@@ -148,7 +152,7 @@ def groq_chat(
                 .chat
                 .completions
                 .create(
-                    model=GROQ_MODEL,
+                    model=model,
                     messages=messages,
                     temperature=temperature,
                     max_tokens=max_tokens,
@@ -2495,6 +2499,7 @@ CONTENT:
         ],
         temperature=0.15,
         max_tokens=GROQ_GENERATION_MAX_TOKENS,
+        model=GROQ_GENERATION_MODEL,
     )
 
 
@@ -2827,6 +2832,7 @@ CONTENT:
         ],
         temperature=0.05,
         max_tokens=GROQ_VERIFICATION_MAX_TOKENS,
+        model=GROQ_VERIFICATION_MODEL,
     )
 
     return parse_article(
@@ -4139,6 +4145,17 @@ def main():
             f"Published this run: "
             f"{published_count}/{MAX_NEWS_ARTICLES_PER_RUN}"
         )
+
+        if (
+            remaining_results
+            and published_count < MAX_NEWS_ARTICLES_PER_RUN
+        ):
+            print(
+                f"Pacing Groq models for "
+                f"{GROQ_BETWEEN_ARTICLES_WAIT_SECONDS}s "
+                "before the next article."
+            )
+            time.sleep(GROQ_BETWEEN_ARTICLES_WAIT_SECONDS)
 
     print("")
     print(

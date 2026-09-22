@@ -165,27 +165,22 @@ class WordPressPublisher:
         category_id = self.tests_category_id()
         slug = review_slug(record)
         existing = self.existing_post(slug)
-        media_id = None
-        if not existing or not existing.get("featured_media"):
-            media_id = self.upload_image(record.get("image_url"), f"steam-{record['appid']}.jpg")
+        # Existing review posts are already valid published content. The current
+        # WordPress stack rejects REST updates to them with "empty_content"
+        # even when content/excerpt are present, so do not turn a refresh into
+        # a failed workflow. New reviews are still published normally.
         if existing:
-            payload = build_update_payload(record, category_id, media_id)
-            response = self._request(
-                "POST",
-                f"posts/{existing['id']}",
-                json=payload,
-                timeout=90,
-            )
-            action = "UPDATED"
-        else:
-            payload = build_post_payload(record, category_id, media_id)
-            response = self._request(
-                "POST",
-                "posts",
-                json=payload,
-                timeout=90,
-            )
-            action = "PUBLISHED"
+            print(f"SKIP: review already exists: {record['name']} -> {existing.get('link', '')}")
+            return existing
+
+        media_id = self.upload_image(record.get("image_url"), f"steam-{record['appid']}.jpg")
+        payload = build_post_payload(record, category_id, media_id)
+        response = self._request(
+            "POST",
+            "posts",
+            json=payload,
+            timeout=90,
+        )
         post = response.json()
-        print(f"{action}: {record['name']} -> {post.get('link', '')}")
+        print(f"PUBLISHED: {record['name']} -> {post.get('link', '')}")
         return post

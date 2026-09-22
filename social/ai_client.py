@@ -32,7 +32,7 @@ MAX_RATE_LIMIT_WAIT_SECONDS = 20 * 60
 SOCIAL_MAX_OUTPUT_TOKENS = 1100
 
 
-def _build_request(prompt, api_key):
+def _build_request(prompt, api_key, max_tokens):
     payload = {
         "model": GROQ_MODEL,
         "messages": [
@@ -41,7 +41,7 @@ def _build_request(prompt, api_key):
                 "content": prompt,
             }
         ],
-        "max_tokens": SOCIAL_MAX_OUTPUT_TOKENS,
+        "max_tokens": int(max_tokens),
         "temperature": 0.2,
     }
 
@@ -125,7 +125,7 @@ def _is_daily_token_limit(error_body):
     )
 
 
-def call_grok(prompt):
+def call_grok(prompt, max_tokens=SOCIAL_MAX_OUTPUT_TOKENS):
     """
     Backward-compatible function name used by the social pipeline.
 
@@ -148,7 +148,7 @@ def call_grok(prompt):
     try:
         consume_run_budget(
             prompt,
-            SOCIAL_MAX_OUTPUT_TOKENS,
+            max_tokens,
             lane="social",
             operation="social:carousel",
         )
@@ -164,6 +164,7 @@ def call_grok(prompt):
         request = _build_request(
             prompt,
             api_key,
+            max_tokens,
         )
 
         try:

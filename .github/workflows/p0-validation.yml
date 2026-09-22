@@ -1,0 +1,58 @@
+name: P0 Validation
+
+on:
+  push:
+    branches:
+      - fix/p0-automation-20260922
+    paths:
+      - ".github/workflows/p0-validation.yml"
+      - "automation.py"
+      - "test_news_quality_guards.py"
+      - "trending_seo/**"
+      - ".github/workflows/social-publish-recovery.yml"
+      - "scripts/fix_p0_live_content.py"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GROQ_API_KEY: test-key
+      TAVILY_API_KEY: test-key
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Compile P0 production code
+        run: |
+          python -m py_compile automation.py scripts/fix_p0_live_content.py trending_seo/scorer.py trending_seo/pipeline.py
+
+      - name: Run News regression tests
+        run: |
+          python -m pytest test_news_quality_guards.py -q
+
+      - name: Run SEO regression tests
+        working-directory: trending_seo
+        run: |
+          python -m unittest test_scorer.py test_seo_engine.py test_researcher.py test_evergreen_research.py test_writer.py test_featured_images.py test_evergreen_pipeline.py test_pipeline_research_gate.py test_pipeline_publish_mode.py -v
+
+      - name: Verify carousel dimension contract
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          renderer = Path("social/renderer.py").read_text(encoding="utf-8")
+          main = Path(".github/workflows/social-test.yml").read_text(encoding="utf-8")
+          recovery = Path(".github/workflows/social-publish-recovery.yml").read_text(encoding="utf-8")
+          assert "WIDTH = 1920" in renderer and "HEIGHT = 1080" in renderer
+          assert "image.size == (1920, 1080)" in main
+          assert "image.size == (1920, 1080)" in recovery
+          print("Carousel dimensions are aligned at 1920x1080.")
+          PY

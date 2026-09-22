@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T23:16:45.565924+00:00",
-  "count": 4,
+  "generated_at": "2026-09-22T04:57:15.083988+00:00",
+  "count": 5,
   "articles": [
     {
       "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
@@ -44,6 +44,28 @@
         "alt": "FINAL FANTASY VII REMAKE INTERGRADE -75% sur Steam - GamerQuest",
         "caption": "FINAL FANTASY VII REMAKE INTERGRADE : offre -75% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre FINAL FANTASY VII REMAKE INTERGRADE sur Steam."
+      }
+    },
+    {
+      "source_id": "cf385e5adb89fa066cb1e3841b5b828266b78ddd6aa5028c3c989a3080bd1416",
+      "title": "Detroit: Become Human à -80% sur Steam",
+      "excerpt": "Detroit: Become Human bénéficie actuellement d'une réduction de 80% sur Steam, passant de 39,99 € à 7,99 €.",
+      "content": "<p><strong>Detroit: Become Human</strong> bénéficie actuellement d'une réduction de <strong>80%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>7,99 €</strong></li><li>Réduction : <strong>80%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1222140/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1222140/",
+      "deal": {
+        "game": "Detroit: Become Human",
+        "store": "Steam",
+        "original_price": 39.99,
+        "current_price": 7.99,
+        "discount_percent": 80,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/cf385e5adb89fa066cb1e3841b5b828266b78ddd6aa5028c3c989a3080bd1416.jpg",
+        "filename": "cf385e5adb89fa066cb1e3841b5b828266b78ddd6aa5028c3c989a3080bd1416.jpg",
+        "alt": "Detroit: Become Human -80% sur Steam - GamerQuest",
+        "caption": "Detroit: Become Human : offre -80% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Detroit: Become Human sur Steam."
       }
     },
     {

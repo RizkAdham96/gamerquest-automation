@@ -108,7 +108,7 @@ def test_local_run_budget_blocks_before_api_call():
 def test_tpm_guard_paces_without_reducing_output_cap():
     groq_budget.reset_local_counters()
     waits = []
-    ticks = iter([0.0, 0.0, 0.0, 66.0])
+    ticks = iter([0.0, 0.0, 66.0])
 
     with patch.dict(
         "os.environ",
@@ -127,7 +127,7 @@ def test_tpm_guard_paces_without_reducing_output_cap():
             monotonic_fn=lambda: next(ticks),
         )
         second = groq_budget.consume_run_budget(
-            "b" * 4500,
+            "b" * 4503,
             500,
             lane="social",
             operation="second",
@@ -136,6 +136,6 @@ def test_tpm_guard_paces_without_reducing_output_cap():
         )
 
     assert first == 1000
-    assert second == 2000
+    assert second == 2001
     assert waits
     assert waits[0] >= 65.0

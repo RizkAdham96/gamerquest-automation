@@ -138,3 +138,38 @@ def test_wordpress_retries_transient_connection_resets():
     )
     assert publisher.tests_category_id() == 9
     assert session.attempts == 3
+
+
+class _ExistingPostSession:
+    def __init__(self):
+        self.headers = {}
+        self.auth = None
+        self.calls = []
+
+    def request(self, method, url, **kwargs):
+        self.calls.append((method, url, kwargs))
+        if url.endswith("/categories"):
+            return _FakeResponse([{"id": 9}])
+        if url.endswith("/posts"):
+            return _FakeResponse([{
+                "id": 442,
+                "link": "https://example.com/avis-2-game-name/",
+            }])
+        raise AssertionError(f"Unexpected request: {method} {url}")
+
+
+def test_existing_review_is_skipped_without_wordpress_update():
+    session = _ExistingPostSession()
+    publisher = WordPressPublisher(
+        base_url="https://example.com",
+        username="user",
+        password="pass",
+        session=session,
+        sleep_fn=lambda _seconds: None,
+    )
+
+    post = publisher.publish({"appid": 2, "name": "Game Name"})
+
+    assert post["id"] == 442
+    assert len(session.calls) == 2
+    assert [method for method, _url, _kwargs in session.calls] == ["GET", "GET"]

@@ -1,0 +1,106 @@
+name: Global Groq Budget Validation
+
+on:
+  push:
+    branches:
+      - fix/global-groq-budget
+    paths:
+      - "groq_budget.py"
+      - "test_groq_budget.py"
+      - "automation.py"
+      - "social/**"
+      - "tests/social/**"
+      - "trending_seo/**"
+      - ".github/workflows/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GROQ_API_KEY: test-key
+      TAVILY_API_KEY: test-key
+      GROQ_BUDGET_BYPASS: "1"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyyaml
+
+      - name: Compile production code
+        run: |
+          python -m py_compile \
+            groq_budget.py \
+            automation.py \
+            social/ai_client.py \
+            trending_seo/pipeline.py \
+            trending_seo/researcher.py \
+            trending_seo/scorer.py \
+            trending_seo/writer.py
+
+      - name: Validate every GitHub workflow YAML
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          for path in sorted(Path(".github/workflows").glob("*.yml")):
+              with path.open("r", encoding="utf-8") as handle:
+                  yaml.safe_load(handle)
+              print("VALID", path)
+          PY
+
+      - name: Validate budget and News tests
+        run: python -m pytest test_groq_budget.py test_news_quality_guards.py -q
+
+      - name: Validate Social tests
+        env:
+          PYTHONPATH: .
+        run: |
+          python tests/social/test_run_ai.py
+          python tests/social/test_run_fresh.py
+          python tests/social/test_renderer.py
+          python tests/social/test_meta_publisher.py
+
+      - name: Validate SEO suite
+        working-directory: trending_seo
+        run: |
+          python -m unittest \
+            test_scorer.py \
+            test_seo_engine.py \
+            test_researcher.py \
+            test_evergreen_research.py \
+            test_writer.py \
+            test_featured_images.py \
+            test_evergreen_pipeline.py \
+            test_pipeline_research_gate.py \
+            test_pipeline_publish_mode.py \
+            -v
+
+      - name: Verify no production Groq secret bypasses shared reservation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          allowed_without_reservation = {
+              ".github/workflows/run-trending-seo-scorer.yml",
+          }
+          for path in sorted(Path(".github/workflows").glob("*.yml")):
+              text = path.read_text(encoding="utf-8")
+              if "secrets.GROQ_API_KEY" not in text:
+                  continue
+              if str(path) in allowed_without_reservation:
+                  raise SystemExit(f"Unexpected Groq secret in token-free workflow: {path}")
+              assert "groq_budget.py reserve-run" in text, path
+              assert "GROQ_RUN_TOKEN_BUDGET" in text, path
+              assert "group: gamerquest-groq-global" in text, path
+              print("BUDGETED", path)
+          PY

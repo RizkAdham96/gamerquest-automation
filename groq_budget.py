@@ -25,9 +25,11 @@ DEFAULT_STATE_PATH = Path("state/groq_budget.json")
 
 DEFAULT_GLOBAL_DAILY_CEILING = 70_000
 DEFAULT_LANE_CEILINGS = {
-    "news": 48_000,
+    # Six 7k News windows + two 7k SEO windows + an 8k primary Social
+    # window and a 6k recovery window exactly fit the 70k global ceiling.
+    "news": 42_000,
     "seo": 14_000,
-    "social": 8_000,
+    "social": 14_000,
     "manual": 4_000,
 }
 

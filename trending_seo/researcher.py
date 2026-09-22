@@ -4,6 +4,7 @@ import json
 import os
 import re
 import socket
+import sys
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -13,6 +14,12 @@ from urllib.parse import parse_qsl, parse_qs, urlencode, urlparse, urlunparse
 from urllib.request import Request, urlopen
 
 from groq import Groq, RateLimitError
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from groq_budget import GroqBudgetExhausted, consume_run_budget
 
 BASE_DIR = Path(__file__).resolve().parent
 INTEL_FILE = BASE_DIR / "intel" / "topics.json"
@@ -898,6 +905,12 @@ def extract_ai_json(text):
 def groq_chat(messages):
     if GROQ_CLIENT is None:
         raise RuntimeError("GROQ_API_KEY is missing.")
+    consume_run_budget(
+        messages,
+        450,
+        lane="seo",
+        operation="seo:research-verification",
+    )
     for attempt in range(1, GROQ_MAX_RETRIES + 1):
         try:
             response = GROQ_CLIENT.chat.completions.create(
@@ -967,6 +980,12 @@ def verify_claims_v9(claims, general_evidence, claim_evidence_map):
             continue
         try:
             verification = verify_claim_with_groq(selected_claim, evidence)
+        except GroqBudgetExhausted as error:
+            print(
+                "Shared Groq ceiling reached. Research verification stops safely "
+                f"without weakening claim rules: {error}"
+            )
+            break
         except RateLimitError:
             print("Groq free quota unavailable. Stopping safely. No paid fallback.")
             break

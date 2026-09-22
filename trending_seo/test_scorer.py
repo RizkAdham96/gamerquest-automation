@@ -2,7 +2,7 @@ import json
 import unittest
 from unittest.mock import patch
 
-from scorer import analyze_topic, build_messages, calculate_total_score, get_decision
+from scorer import analyze_topic, analyze_topic_locally, build_messages, calculate_total_score, get_decision
 
 
 class TestTrendingSeoScorer(unittest.TestCase):
@@ -88,6 +88,29 @@ class TestTrendingSeoScorer(unittest.TestCase):
                 "sources": [source],
             })
         self.assertEqual(result["sources"], [source])
+
+
+    def test_local_production_scorer_does_not_call_groq(self):
+        with patch(
+            "scorer.groq_chat",
+            side_effect=AssertionError("production scoring must not call Groq"),
+        ):
+            result = analyze_topic_locally({
+                "id": "witcher-3-remastered",
+                "topic": "The Witcher 3 Remastered date de sortie",
+                "region": "FR",
+                "keywords": [
+                    "The Witcher 3 Remastered date de sortie",
+                    "The Witcher 3 Remastered PS5",
+                ],
+                "sources": [{
+                    "type": "official",
+                    "url": "https://example.com/official",
+                }],
+            })
+
+        self.assertEqual(result["decision"], "WRITE")
+        self.assertGreaterEqual(result["total_score"], 80)
 
 
 if __name__ == "__main__":

@@ -51,7 +51,7 @@ jobs:
         run: |
           python groq_budget.py reserve-run \
             --lane news \
-            --tokens 8000 \
+            --tokens 7000 \
             --reservation-id "${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-news" \
             --github-output "${GITHUB_OUTPUT}"
 

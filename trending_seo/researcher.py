@@ -744,6 +744,36 @@ def extract_source_evidence(intel_topic):
     return output
 
 
+def collect_seed_evidence(intel_topic):
+    """Use publisher-feed evidence as a resilient fallback when direct page fetches are blocked.
+
+    This never creates a source from thin air: the URL and evidence must already be present
+    in the durable intel record gathered from the publisher feed. HTML snippets are reduced
+    to readable text before they are exposed to the verifier/writer.
+    """
+    evidence = []
+    seen = set()
+    for source in extract_source_evidence(intel_topic):
+        url = resolve_discovery_url(source.get("url", ""))
+        raw = str(source.get("evidence", "") or "").strip()
+        text = extract_best_page_text(raw) if "<" in raw and ">" in raw else clean_html_text(raw)
+        if not url or is_search_result_url(url) or len(text) < 120:
+            continue
+        key = url.rstrip("/").lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        evidence.append({
+            "url": url,
+            "text": text[:MAX_EXTRACTED_CHARS],
+            "title": source.get("title", ""),
+            "publisher": source.get("type", "publisher"),
+            "target_claim": "",
+            "evidence_origin": "publisher_feed",
+        })
+    return evidence
+
+
 def fetch_topic_sources(intel_topic):
     fetched = []
     for source in extract_source_evidence(intel_topic):
@@ -996,7 +1026,14 @@ def build_research_record(scored_topic, intel_topic):
     original_sources = fetch_topic_sources(intel_topic)
     feed_candidates = discover_public_feed_sources(topic_name)
     discovered_sources = fetch_v8_candidates(feed_candidates)
-    general_evidence = collect_usable_evidence(original_sources, discovered_sources)
+
+    # Direct page requests from GitHub runners are sometimes blocked by publisher
+    # anti-bot layers. Preserve verified publisher-feed snippets as a fallback
+    # instead of turning a healthy topic into BLOCKED_INSUFFICIENT_RESEARCH.
+    fetched_evidence = collect_usable_evidence(original_sources, discovered_sources)
+    seed_evidence = collect_seed_evidence(intel_topic)
+    general_evidence = merge_claim_evidence(fetched_evidence, seed_evidence)
+
     claim_evidence_map = collect_claim_specific_evidence(topic_name, claims)
     verified_claims = verify_claims_v9(claims, general_evidence, claim_evidence_map)
     fact_pack = build_verified_fact_pack(verified_claims)

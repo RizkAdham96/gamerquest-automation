@@ -11,6 +11,7 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup, NavigableString
 from groq import Groq, RateLimitError
+from groq_budget import GroqBudgetExhausted, consume_run_budget
 from news_image_generator import generate_news_image
 
 
@@ -120,7 +121,11 @@ GROQ_CLIENT = Groq(
 # =========================================================
 
 class GroqRunDeferred(RuntimeError):
-    """Stop this scheduled run cleanly when Groq's budget cannot recover soon."""
+    """Stop this scheduled run when the provider itself cannot recover soon."""
+
+
+class GroqBudgetDeferred(RuntimeError):
+    """Planned stop before GamerQuest's own shared Groq ceiling is reached."""
 
 
 def groq_chat(
@@ -141,6 +146,16 @@ def groq_chat(
     just because the token-per-minute limit
     was temporarily reached.
     """
+
+    try:
+        consume_run_budget(
+            messages,
+            max_tokens,
+            lane="news",
+            operation=f"news:{model}",
+        )
+    except GroqBudgetExhausted as error:
+        raise GroqBudgetDeferred(str(error)) from error
 
     for attempt in range(
         1,
@@ -4192,6 +4207,17 @@ def main():
 if __name__ == "__main__":
     try:
         main()
+    except GroqBudgetDeferred as error:
+        print("")
+        print("===================================")
+        print("NEWS STOPPED AT SHARED GROQ CEILING")
+        print("===================================")
+        print(str(error))
+        print(
+            "Quality settings were not reduced. The remaining AI work is "
+            "deferred until a future run has a fresh shared budget allocation."
+        )
+        sys.exit(0)
     except GroqRunDeferred as error:
         print("")
         print("===================================")
@@ -4202,5 +4228,5 @@ if __name__ == "__main__":
             "No quality rule was bypassed. State already produced by this run "
             "can still be saved, and the next scheduled run can try again."
         )
-        # A production rate-limit outage must not appear green in GitHub.
+        # A provider-side rate-limit outage remains visible as a real failure.
         sys.exit(75)

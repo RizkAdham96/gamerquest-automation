@@ -89,7 +89,12 @@ class WordPressPublisher:
         for attempt in range(1, self.max_attempts + 1):
             try:
                 response = self.session.request(method, url, **kwargs)
-                response.raise_for_status()
+                if not response.ok:
+                    body = (response.text or "").strip().replace("\n", " ")[:1200]
+                    raise requests.HTTPError(
+                        f"{response.status_code} Client Error for {url}: {body}",
+                        response=response,
+                    )
                 return response
             except transient_errors as exc:
                 if attempt >= self.max_attempts:

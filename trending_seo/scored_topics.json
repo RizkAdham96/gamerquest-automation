@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-22T05:24:18.278776+00:00",
+  "updated_at": "2026-09-22T12:03:59.145079+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -2044,6 +2044,315 @@
         "suggested_title": "Diablo : 30 ans d’histoire – Le guide complet de la saga"
       },
       "reasoning": "Le sujet provient d’un événement BlizzCon 2026, ce qui le rend très temporel et peu durable en tant que contenu purement journalistique. Cependant, le thème « 30 ans de Diablo » possède un fort potentiel evergreen s’il est traité comme un guide historique de la franchise, répondant à une intention de recherche informationnelle durable. La requête longue‑queue « 30 ans de Diablo » est spécifique et peu concurrentielle, surtout en français, ce qui permet à GamerQuest FR de se positionner. Le sujet est hautement pertinent pour le public français et s’aligne avec la ligne éditoriale de GamerQuest (actualités, guides, interviews). Il offre de nombreuses opportunités de liens internes vers les pages actualités Diablo IV, les guides de jeu, les critiques et les offres promotionnelles, renforçant la maillage interne du site."
+    },
+    {
+      "id": "rss-kingdom-come-deliverance-2-is-at-a-royally-great-discou-5f67240dab06",
+      "topic": "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For?",
+      "detected_at": "2026-09-20T05:25:06.209525+00:00",
+      "analysed_at": "2026-09-22T12:03:06.070196+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 15,
+        "long_tail_specificity": 8,
+        "french_relevance": 9,
+        "competition": 4,
+        "gamerquest_relevance": 6,
+        "internal_link_potential": 3
+      },
+      "total_score": 50,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/kingdom-come-deliverance-2-is-at-a-royally-great-discount-so-what-art-thou-waiting-for/",
+          "title": "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For?",
+          "evidence": "GameSpot published a fresh gaming story titled: Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For?. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Kingdom Come Deliverance 2 réduction",
+        "secondary_keywords": [
+          "prix Kingdom Come Deliverance 2",
+          "offre Kingdom Come Deliverance 2",
+          "code promo Kingdom Come Deliverance 2",
+          "où acheter Kingdom Come Deliverance 2 pas cher",
+          "Kingdom Come Deliverance 2 Steam discount"
+        ],
+        "search_intent_type": "commercial",
+        "recommended_angle": "Guide complet des meilleures offres, réductions et prix pour Kingdom Come : Deliverance 2 en France, avec comparatif des plateformes et astuces pour profiter des promotions.",
+        "suggested_title": "Kingdom Come : Deliverance 2 – Réductions, prix et où l’acheter pas cher en 2026"
+      },
+      "reasoning": "Le sujet porte sur une promotion temporaire, ce qui limite la durabilité du contenu (score bas). Cependant, la recherche d’offres et de prix pour ce titre a un fort intent commercial et peut être ciblée avec des requêtes longues et spécifiques en français, ce qui justifie un score moyen en spécificité. Le jeu est populaire en France, assurant une bonne pertinence linguistique. La concurrence sur les pages de deals est assez élevée, d’où un score de compétition modéré. Le contenu peut être relié aux pages de jeu, guides et actualités de GamerQuest, offrant un potentiel de liens internes. Au final, le sujet n’est pas idéal pour un article evergreen pur, mais peut être exploité comme une ressource mise à jour régulièrement sur les promotions du jeu."
+    },
+    {
+      "id": "rss-the-frustrating-mystery-of-who-makes-nintendo-games-8a4f08cdc20a",
+      "topic": "The Frustrating Mystery Of Who Makes Nintendo Games",
+      "detected_at": "2026-09-20T05:25:06.209570+00:00",
+      "analysed_at": "2026-09-22T12:03:08.488517+00:00",
+      "scores": {
+        "durability": 20,
+        "search_intent": 22,
+        "long_tail_specificity": 12,
+        "french_relevance": 9,
+        "competition": 4,
+        "gamerquest_relevance": 8,
+        "internal_link_potential": 4
+      },
+      "total_score": 79,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/the-frustrating-mystery-of-who-makes-nintendo-games/",
+          "title": "The Frustrating Mystery Of Who Makes Nintendo Games",
+          "evidence": "GameSpot published a fresh gaming story titled: The Frustrating Mystery Of Who Makes Nintendo Games. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "qui développe les jeux Nintendo",
+        "secondary_keywords": [
+          "studios qui créent les jeux Nintendo",
+          "Nintendo développeurs externes",
+          "liste studios Nintendo",
+          "Nintendo internal development studios",
+          "partenaires de développement Nintendo"
+        ],
+        "search_intent_type": "informationnel durable",
+        "recommended_angle": "Un guide evergreen qui répertorie et décrit tous les studios internes de Nintendo (Nintendo EPD, Nintendo Entertainment Planning & Development, etc.) ainsi que les partenaires externes récurrents (Game Freak, Intelligent Systems, Retro Studios, etc.). Le contenu explique le rôle de chaque studio, les franchises qu’il gère, l’évolution historique et comment identifier le développeur d’un titre Nintendo sur les plateformes françaises. Le ton est pédagogique, avec des sections dédiées aux franchises majeures, aux collaborations récentes et aux astuces pour les joueurs francophones qui souhaitent en savoir plus sur la provenance des jeux qu’ils achètent.",
+        "suggested_title": "Qui développe les jeux Nintendo ? Guide complet des studios internes et partenaires"
+      },
+      "reasoning": "Le sujet est stable dans le temps : la question de savoir quels studios créent les jeux Nintendo reste pertinente tant que la marque existe, ce qui assure une forte durabilité. La plupart des recherches sont de nature informationnelle (les joueurs veulent connaître le développeur d’un titre), ce qui correspond à un intent durable et à forte valeur SEO. En français, les requêtes longues comme \"qui développe les jeux Nintendo\" ou \"studios qui créent les jeux Nintendo\" sont suffisamment spécifiques pour permettre un bon classement avec une concurrence modérée (principalement des listes génériques sur Wikipedia ou des articles d'actualité). Le sujet est très pertinent pour le public français de GamerQuest, qui consomme régulièrement des actualités, guides et offres sur les jeux Nintendo, offrant ainsi de nombreuses opportunités de liens internes vers les pages de jeux, les guides d'achat et les actualités. La compétition n’est pas extrême, ce qui laisse de la marge pour se positionner grâce à un contenu détaillé, bien structuré et optimisé pour le SEO français."
+    },
+    {
+      "id": "rss-indie-dev-says-ai-voice-in-his-game-was-actually-his-wi-32aa2906b225",
+      "topic": "Indie Dev Says “AI” Voice In His Game Was Actually His Wife",
+      "detected_at": "2026-09-20T05:25:06.209610+00:00",
+      "analysed_at": "2026-09-22T12:03:10.480565+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 10,
+        "long_tail_specificity": 8,
+        "french_relevance": 8,
+        "competition": 7,
+        "gamerquest_relevance": 4,
+        "internal_link_potential": 2
+      },
+      "total_score": 44,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/indie-dev-says-ai-voice-in-his-game-was-actually-his-wife/",
+          "title": "Indie Dev Says “AI” Voice In His Game Was Actually His Wife",
+          "evidence": "GameSpot published a fresh gaming story titled: Indie Dev Says “AI” Voice In His Game Was Actually His Wife. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "voix IA jeu indie développeur femme",
+        "secondary_keywords": [
+          "voix IA jeu indie",
+          "développeur indie voix femme",
+          "voix IA jeu vidéo",
+          "actualité voix IA jeu indie"
+        ],
+        "search_intent_type": "informationnelle (actualité)",
+        "recommended_angle": "Un article de type news court qui résume le fait, vérifie les déclarations du développeur, explique le contexte de l’utilisation de voix « IA » dans les jeux indépendants et discute brièvement des implications éthiques et techniques. Pas de guide ou de contenu pérenne, mais un format de news qui peut être lié aux pages de jeux indie ou aux dossiers sur l'IA dans le jeu.",
+        "suggested_title": "Indie dev révèle que la voix « IA » de son jeu était en fait celle de sa femme"
+      },
+      "reasoning": "Le sujet est une actualité très ponctuelle : il s’agit d’un événement récent et limité dans le temps, ce qui réduit fortement la durabilité du contenu (score bas). L’intention de recherche est clairement informationnelle, les internautes chercheront à comprendre ce qui s’est passé, ce qui justifie un score moyen pour l’intention. La requête est assez longue et spécifique en français, ce qui donne un bon score de spécificité long‑tail. Le sujet est pertinent pour le public français (FR) et il n’y a pas de forte concurrence SEO sur cette phrase exacte, d’où un score de compétition favorable. Cependant, l’article ne s’aligne pas naturellement avec les guides, les pages de jeux ou les deals de GamerQuest, limitant la pertinence pour le site et le potentiel de liens internes. En résumé, le sujet mérite un petit article de news, mais pas un guide evergreen, ce qui se reflète dans les scores attribués."
+    },
+    {
+      "id": "rss-new-pokemon-plane-looks-incredible-even-includes-themed-a4df855d5861",
+      "topic": "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins",
+      "detected_at": "2026-09-20T05:25:06.209653+00:00",
+      "analysed_at": "2026-09-22T12:03:12.451751+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 8,
+        "long_tail_specificity": 5,
+        "french_relevance": 8,
+        "competition": 3,
+        "gamerquest_relevance": 4,
+        "internal_link_potential": 2
+      },
+      "total_score": 35,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/new-pokemon-plane-looks-incredible-even-includes-themed-cups-and-napkins/",
+          "title": "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins",
+          "evidence": "GameSpot published a fresh gaming story titled: New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "avion Pokémon",
+        "secondary_keywords": [
+          "livery avion Pokémon",
+          "vols Pokémon Air France",
+          "plane Pokémon thème",
+          "couverts Pokémon avion"
+        ],
+        "search_intent_type": "informationnelle (actualité)",
+        "recommended_angle": "Article d'actualité détaillé présentant le nouveau design d'avion Pokémon, les compagnies aériennes impliquées, les éléments de merchandising (gobelets, serviettes) et les dates de mise en service, avec un focus sur les fans français.",
+        "suggested_title": "Nouvel avion à thème Pokémon : design, compagnies aériennes et goodies à bord"
+      },
+      "reasoning": "Le sujet est une actualité très récente et très spécifique, ce qui le rend peu durable : l'intérêt disparaîtra rapidement une fois la campagne terminée, ce qui pénalise le critère de durabilité. La recherche est principalement informationnelle (les internautes veulent savoir ce qu'est cet avion, qui le propose, quels sont les goodies), mais elle reste ponctuelle et ne génère pas de trafic récurrent. Les requêtes longues sont modestes (ex. \"livery avion Pokémon Air France\"), offrant un léger avantage de spécificité, mais le volume reste limité. En France, Pokémon reste très populaire, d'où un bon score de pertinence française, mais la concurrence sur ce type de news est élevée (sites d'actualités gaming, blogs de fans, médias généralistes), ce qui réduit le score de compétition. L'intérêt pour GamerQuest est moyen : l'article peut être lié aux pages \"Pokémon\" et aux actualités de jeux, mais il ne crée pas de lien interne majeur. Au final, le sujet ne justifie pas la création d'une ressource evergreen, mais peut être couvert comme article d'actualité ponctuel."
+    },
+    {
+      "id": "rss-i-guess-i-ll-delete-every-ps5-game-i-own-to-make-room-f-e9ad5de60e1b",
+      "topic": "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation",
+      "detected_at": "2026-09-20T05:25:06.209697+00:00",
+      "analysed_at": "2026-09-22T12:03:15.304142+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 8,
+        "long_tail_specificity": 7,
+        "french_relevance": 6,
+        "competition": 8,
+        "gamerquest_relevance": 6,
+        "internal_link_potential": 3
+      },
+      "total_score": 43,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/i-guess-ill-delete-every-ps5-game-i-own-to-make-room-for-ff7-revelation/",
+          "title": "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation",
+          "evidence": "GameSpot published a fresh gaming story titled: I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "comment libérer de l'espace sur PS5 pour installer Final Fantasy VII Revelation",
+        "secondary_keywords": [
+          "libérer espace PS5",
+          "supprimer jeux PS5",
+          "installer FF7 Revelation PS5",
+          "espace disque PS5",
+          "guide stockage PS5",
+          "Final Fantasy VII Revelation date de sortie",
+          "FF7 Revelation avis"
+        ],
+        "search_intent_type": "informationnel (guide pratique) avec investigation commerciale",
+        "recommended_angle": "Un guide pas à pas pour libérer de l’espace de stockage sur la PS5 afin d’installer le nouveau Final Fantasy VII Revelation : expliquer la taille du jeu, les options de suppression de titres, le transfert vers un disque externe, l’utilisation du cloud, et les bonnes pratiques de gestion du disque.",
+        "suggested_title": "Comment libérer de l’espace sur votre PS5 pour installer Final Fantasy VII Revelation : guide complet"
+      },
+      "reasoning": "Le sujet provient d’une anecdote d’actualité liée à la sortie de FF7 Revelation, ce qui le rend peu durable en tant que contenu \"news\". Cependant, la problématique sous‑jacente – faire de la place sur une PS5 – est récurrente et peut être transformée en guide evergreen. Le titre proposé répond à une requête longue‑traîne très spécifique que les joueurs français pourraient taper lorsqu’ils souhaitent installer le nouveau titre. La concurrence sur cette formulation précise est faible, tandis que les requêtes plus génériques sur le stockage PS5 sont plus compétitives, ce qui justifie un bon score de compétition. Le guide pourra être lié aux pages d’actualités FF7 Revelation, aux fiches de jeu, aux tests de stockage PS5 et aux offres de disques externes, offrant ainsi un bon potentiel de liens internes pour GamerQuest."
+    },
+    {
+      "id": "rss-pokemon-go-september-2026-events-raid-bosses-spotlight--b8c61e7df5d5",
+      "topic": "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More",
+      "detected_at": "2026-09-20T05:25:06.209754+00:00",
+      "analysed_at": "2026-09-22T12:03:29.897651+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 10,
+        "long_tail_specificity": 12,
+        "french_relevance": 9,
+        "competition": 3,
+        "gamerquest_relevance": 6,
+        "internal_link_potential": 3
+      },
+      "total_score": 48,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/pokemon-go-september-2026-events-raid-bosses-spotlight-hours-mega-finale-and-more/",
+          "title": "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More",
+          "evidence": "GameSpot published a fresh gaming story titled: Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "événements Pokémon GO septembre 2026",
+        "secondary_keywords": [
+          "raid boss septembre 2026 Pokémon GO",
+          "spotlight hour septembre 2026 Pokémon GO",
+          "mega finale septembre 2026 Pokémon GO",
+          "guide événements Pokémon GO septembre 2026"
+        ],
+        "search_intent_type": "informationnel",
+        "recommended_angle": "Proposer un guide complet et à jour des événements Pokémon GO prévus pour septembre 2026, avec un tableau récapitulatif des dates, des raid bosses, des Spotlight Hours, de la méga‑finale, ainsi que des astuces de participation et des liens vers les actualités et offres liées.",
+        "suggested_title": "Calendrier des événements Pokémon GO – Septembre 2026 : raids, Spotlight Hours et méga‑finale"
+      },
+      "reasoning": "Le sujet porte sur les événements mensuels de Pokémon GO, ce qui le rend très spécifique mais peu durable (durabilité faible). La requête cible un besoin d'information ponctuel (intentions informationnelles) et possède une forte pertinence francophone. La concurrence est élevée, de nombreux sites publient des guides mensuels, ce qui réduit le score de compétition. Le sujet reste pertinent pour GamerQuest FR, qui peut le lier à ses actualités Pokémon GO, guides de jeu et éventuelles promotions. Le potentiel de liens internes est moyen, permettant d'intégrer des pages de news, de guides de jeu et de deals. En raison de la nature éphémère, le score global reste modéré, mais le sujet peut être exploité comme une page récurrente mise à jour chaque mois."
+    },
+    {
+      "id": "rss-the-new-fire-emblem-lets-you-skip-a-massive-chunk-of-fi-411e4591d923",
+      "topic": "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem",
+      "detected_at": "2026-09-20T05:25:06.209801+00:00",
+      "analysed_at": "2026-09-22T12:03:43.305270+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 7,
+        "competition": 4,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 3
+      },
+      "total_score": 46,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/the-new-fire-emblem-lets-you-skip-a-massive-chunk-of-fire-emblem/",
+          "title": "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem",
+          "evidence": "GameSpot published a fresh gaming story titled: The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Fire Emblem comment sauter les premiers chapitres",
+        "secondary_keywords": [
+          "Fire Emblem guide saut",
+          "Fire Emblem nouvelle fonction skip",
+          "Fire Emblem astuces début de partie",
+          "Fire Emblem comment passer une partie du jeu"
+        ],
+        "search_intent_type": "informational",
+        "recommended_angle": "Un guide pratique détaillé expliquant la nouvelle fonctionnalité de saut des premiers chapitres dans le dernier Fire Emblem, incluant comment l’activer, les impacts sur la progression, les avantages et inconvénients, ainsi que des conseils pour les joueurs qui souhaitent gagner du temps ou éviter les parties les moins intéressantes.",
+        "suggested_title": "Fire Emblem : comment profiter de la nouvelle fonction de saut des premiers chapitres"
+      },
+      "reasoning": "Le sujet provient d’une actualité récente, ce qui limite sa durabilité ; toutefois la fonctionnalité de \"skip\" peut rester pertinente tant que le jeu est disponible, offrant un potentiel evergreen limité. La requête est clairement informationnelle (les joueurs cherchent à savoir comment utiliser le nouveau mécanisme). En français, la formulation longue‑queue « Fire Emblem comment sauter les premiers chapitres » est suffisamment spécifique pour que GamerQuest puisse se positionner face à une concurrence élevée sur les guides généraux Fire Emblem. Le thème est pertinent pour le public français de GamerQuest, qui suit les sorties Fire Emblem, et il permet de créer des liens internes vers les actualités Fire Emblem, les guides de jeu, les pages de critiques et les offres de jeux. La compétition est forte, mais la spécificité du nouveau mécanisme offre une niche exploitable. Le score reflète ces forces et faiblesses."
+    },
+    {
+      "id": "rss-ex-naughty-dog-dev-apologizes-to-god-of-war-studio-for--828f913ea32d",
+      "topic": "Ex-Naughty Dog Dev Apologizes To God Of War Studio For What He Said About Laufey",
+      "detected_at": "2026-09-20T05:25:06.209846+00:00",
+      "analysed_at": "2026-09-22T12:03:59.145053+00:00",
+      "scores": {
+        "durability": 3,
+        "search_intent": 2,
+        "long_tail_specificity": 5,
+        "french_relevance": 6,
+        "competition": 3,
+        "gamerquest_relevance": 4,
+        "internal_link_potential": 2
+      },
+      "total_score": 25,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/ex-naughty-dog-dev-apologizes-to-god-of-war-studio-for-what-he-said-about-laufey/",
+          "title": "Ex-Naughty Dog Dev Apologizes To God Of War Studio For What He Said About Laufey",
+          "evidence": "GameSpot published a fresh gaming story titled: Ex-Naughty Dog Dev Apologizes To God Of War Studio For What He Said About Laufey. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "ex développeur Naughty Dog s'excuse God of War Laufey",
+        "secondary_keywords": [
+          "ex développeur Naughty Dog apologizes",
+          "controverse Laufey God of War",
+          "déclaration développeur God of War",
+          "actualité God of War 2026"
+        ],
+        "search_intent_type": "informationnelle (actualité)",
+        "recommended_angle": "Un article d'actualité concis qui résume les faits : qui est l'ex‑développeur, ce qu'il a dit sur le personnage Laufey, pourquoi il s'est excusé, et les réactions du studio God of War et de la communauté. Inclure un rappel du contexte du personnage dans le jeu et un lien vers les pages God of War existantes sur GamerQuest.",
+        "suggested_title": "Ex‑développeur de Naughty Dog s’excuse auprès du studio God of War pour ses propos sur Laufey"
+      },
+      "reasoning": "Le sujet est une actualité très ponctuelle et ne possède pas de valeur durable : l'intérêt disparaît rapidement une fois la controverse résolue, ce qui limite fortement la durabilité. L'intention de recherche est purement informationnelle et liée à l'actualité, sans potentiel commercial ou de guide. Bien que la requête soit longue et spécifique, elle ne constitue pas un sujet evergreen que l’on peut exploiter à long terme. La pertinence pour le public français est moyenne, les fans de God of War s’y intéressent, mais le sujet reste limité à un événement isolé. La concurrence est élevée parmi les sites d'actualités gaming, rendant difficile un bon positionnement à long terme. L'intérêt pour GamerQuest est modéré : l'événement peut être intégré dans la veille news, mais ne justifie pas une ressource permanente. Il existe toutefois un petit potentiel de liens internes vers les pages God of War et les profils de personnages, d'où un score limité pour le potentiel de liens internes."
     }
   ]
 }

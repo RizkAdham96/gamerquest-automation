@@ -1,0 +1,141 @@
+import json
+from pathlib import Path
+from unittest.mock import patch
+
+import pytest
+
+import groq_budget
+
+
+def test_shared_daily_reservations_stop_before_global_ceiling(tmp_path):
+    state = tmp_path / "groq.json"
+
+    first = groq_budget.reserve_run(
+        "news",
+        7000,
+        "news-1",
+        path=state,
+        day="2026-09-22",
+        global_cap=10000,
+        lane_cap=10000,
+    )
+    second = groq_budget.reserve_run(
+        "seo",
+        4000,
+        "seo-1",
+        path=state,
+        day="2026-09-22",
+        global_cap=10000,
+        lane_cap=10000,
+    )
+
+    assert first["allowed"] is True
+    assert second["allowed"] is False
+    saved = json.loads(state.read_text(encoding="utf-8"))
+    assert saved["global_reserved"] == 7000
+
+
+def test_lane_ceiling_prevents_one_automation_from_starving_others(tmp_path):
+    state = tmp_path / "groq.json"
+
+    first = groq_budget.reserve_run(
+        "news",
+        7000,
+        "news-1",
+        path=state,
+        day="2026-09-22",
+        global_cap=70000,
+        lane_cap=7000,
+    )
+    second = groq_budget.reserve_run(
+        "news",
+        7000,
+        "news-2",
+        path=state,
+        day="2026-09-22",
+        global_cap=70000,
+        lane_cap=7000,
+    )
+
+    assert first["allowed"] is True
+    assert second["allowed"] is False
+    assert "news daily ceiling" in second["reason"]
+
+
+def test_new_utc_day_resets_shared_budget(tmp_path):
+    state = tmp_path / "groq.json"
+    groq_budget.reserve_run(
+        "news",
+        7000,
+        "old-day",
+        path=state,
+        day="2026-09-21",
+        global_cap=70000,
+        lane_cap=42000,
+    )
+
+    new_state = groq_budget.load_state(
+        state,
+        day="2026-09-22",
+    )
+
+    assert new_state["global_reserved"] == 0
+    assert new_state["lanes"]["news"] == 0
+
+
+def test_local_run_budget_blocks_before_api_call():
+    groq_budget.reset_local_counters()
+
+    with patch.dict(
+        "os.environ",
+        {
+            "GROQ_RUN_TOKEN_BUDGET": "2000",
+            "GROQ_TPM_CEILING": "6000",
+        },
+        clear=False,
+    ):
+        with pytest.raises(groq_budget.GroqBudgetExhausted):
+            groq_budget.consume_run_budget(
+                "x" * 4500,
+                800,
+                lane="news",
+                operation="unit-test",
+                sleep_fn=lambda _seconds: None,
+                monotonic_fn=lambda: 0.0,
+            )
+
+
+def test_tpm_guard_paces_without_reducing_output_cap():
+    groq_budget.reset_local_counters()
+    waits = []
+    ticks = iter([0.0, 0.0, 0.0, 66.0])
+
+    with patch.dict(
+        "os.environ",
+        {
+            "GROQ_RUN_TOKEN_BUDGET": "10000",
+            "GROQ_TPM_CEILING": "3000",
+        },
+        clear=False,
+    ):
+        first = groq_budget.consume_run_budget(
+            "a" * 1500,
+            500,
+            lane="social",
+            operation="first",
+            sleep_fn=waits.append,
+            monotonic_fn=lambda: next(ticks),
+        )
+        second = groq_budget.consume_run_budget(
+            "b" * 4500,
+            500,
+            lane="social",
+            operation="second",
+            sleep_fn=waits.append,
+            monotonic_fn=lambda: next(ticks),
+        )
+
+    assert first == 1000
+    assert second == 2000
+    assert waits
+    assert waits[0] >= 65.0

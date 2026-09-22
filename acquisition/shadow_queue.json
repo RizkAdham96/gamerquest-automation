@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T04:57:01.769374+00:00",
+  "generated_at": "2026-09-22T11:39:09.734903+00:00",
   "mode": "shadow",
-  "count": 137,
+  "count": 150,
   "opportunities": [
     {
       "id": "rss-cloud-is-still-the-main-character-of-final-fantasy-7-re-cf45bad46657",
@@ -303,13 +303,54 @@
         "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026 avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 51,
       "sources": [
         {
           "type": "publisher",
           "url": "https://www.gamespot.com/videos/30-years-of-diablo-with-diablo-iv-devs-owen-leach-and-dan-tanguay-play-history-at-blizzcon-2026/",
           "title": "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026",
           "evidence": "GameSpot published a fresh gaming story titled: 30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026. All factual claims must be independently verified before publication."
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-a-developer-with-no-games-on-steam-now-has-the-store-s--c08d809c337f",
+      "title": "A developer with no games on Steam now has the store's third-most-wishlisted game, behind Light No Fire and Valve's Deadlock",
+      "source_type": "seo_intel",
+      "keywords": [
+        "A developer with no games on Steam now has the store's third-most-wishlisted game, behind Light No Fire and Valve's Deadlock",
+        "A developer with no games on Steam now has the store's third-most-wishlisted game, behind Light No Fire and Valve's Deadlock date de sortie",
+        "A developer with no games on Steam now has the store's third-most-wishlisted game, behind Light No Fire and Valve's Deadlock plateformes",
+        "A developer with no games on Steam now has the store's third-most-wishlisted game, behind Light No Fire and Valve's Deadlock gameplay",
+        "A developer with no games on Steam now has the store's third-most-wishlisted game, behind Light No Fire and Valve's Deadlock guide",
+        "A developer with no games on Steam now has the store's third-most-wishlisted game, behind Light No Fire and Valve's Deadlock avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/co-op/a-developer-with-no-games-on-steam-now-has-the-stores-third-most-wishlisted-game-behind-light-no-fire-and-valves-deadlock/",
+          "title": "A developer with no games on Steam now has the store's third-most-wishlisted game, behind Light No Fire and Valve's Deadlock",
+          "evidence": "<article> <p>After some high-profile releases in 2026, the most-wishlisted games on Steam have shifted. The king is Valve's PvP shooter Deadlock, followed by Hello Games' next survival game epic <a href=\"https://www.gamesradar.com/light-no-fire-guide/\">Light No Fire</a>. The third-most-wishlisted game on Steam is probably the biggest surprise in the top 10. Ahead of Fable, Phantom Blade Zero, Resident Evil Veronica, and Witchbrook, airline comedy co-op game <a href=\"https://store.steampowered.com/app/4534960/Dear_Passengers/?curator_clanid=4777282\" target=\"_blank\">Dear Passengers</a> sits as one of the most-wanted games on Steam. Its developer, Flexus, has never released a game on Steam, per its Steam profile. </p><p>Dear Passengers fits comfortably into <a href=\"https://www.gamesradar.com/games/co-op/amid-the-friendslop-renaissance-usd5-co-op-fishing-game-hits-370-000-peak-players-on-steam-in-5-days/\">the friendslop trend</a> that's defined much of the past few years of Steam releases. One trailer bluntly calls it \"Another Friendslop Game,\" even, featuring characters from the likes of Peak and Burglin' Gnomes. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect"
         }
       ],
       "score": 93,
@@ -631,7 +672,7 @@
         "Best early Black Friday gaming laptop deals 2026, the biggest discounts ahead of the holiday sales avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 57,
       "sources": [
         {
           "type": "publisher",
@@ -754,7 +795,7 @@
         "Build a Boat for Treasure codes (September 2026) for Gold avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 53,
       "sources": [
         {
           "type": "publisher",
@@ -802,6 +843,47 @@
           "url": "https://www.pcgamer.com/games/bungie-un-cancels-destiny-vaulted-content-is-coming-back-as-new-leadership-promises-destiny-is-foundational-to-our-future/",
           "title": "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'",
           "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/asnrQ1UoBQM\" allowfullscreen></iframe></div></div><p>Bungie's new leadership duo laid out the \"next chapter of Bungie\" today in a blog post with an accompanying video. The big news is that Bungie has essentially uncanceled Destiny 2, or will at least go the lengths to finally undo its greatest mistake: vaulting a bunch of raids and multiple of its story campaigns. Funnily enough, that work has already begun on the community side with a <a href=\"https://www.pcgamer.com/games/fps/destiny-2-players-are-learning-how-to-crack-into-its-infamous-content-vault-by-tinkering-with-old-builds/\" target=\"_blank\">mod project</a> that makes vaulted content playable through an offline build of Destiny.</p><p>I got off the Destiny train a long time ago, but its \"downward spiral,\" as PCG's Lincoln Carpenter <a href=\"https://www.pcgamer.com/games/fps/destiny-2-hasnt-been-the-game-id-loved-in-years-but-it-still-sucks-to-know-its-ending/\" target=\"_blank\">put it in May</a>, was a series of unforced errors that really began with the widel"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-bungie-unvaulting-destiny-2-content-was-a-studio-saving-aca489dcf4ce",
+      "title": "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough",
+        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough date de sortie",
+        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough plateformes",
+        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough gameplay",
+        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough guide",
+        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/bungie-unvaulting-destiny-2-content-was-a-studio-saving-emergency-decision-because-marathon-updates-were-never-going-to-be-enough/",
+          "title": "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough",
+          "evidence": "<article> <p>Over the past couple of months, my Destiny 2 Fireteam has given me a tour of the Destiny 2 content I missed when I hopped off the train following the pandemic. When you play all the dungeons back-to-back, it's a buffet of delights—a concentrated dose of amazing and frequently obtuse FPS level design that you simply can't find anywhere else. A reminder that Bungie, pre-layoffs, was the very best at what it did. </p><p>And yet, no game has had more caveats in its lifespan. There was always an amazing experience inside Destiny 2 <em>somewhere</em>, but recommending it to any normal person was out of the question. The onboarding for rookies was rough. Hoovering up all the expansions and dungeons was pricey and confusing. And after the release of The Final Shape, Bungie pissed off its player base repeatedly until the game was no longer sustainable. At what point would you ever advise a new player to jump in? </p><p>Still, none of those issues compared to the content vault, first introduced in 2020. In removing entire campaigns from the game, not only did Bungie break players' ability to understand the complete story of Destiny 2, it also raised questions about the ethics of"
         }
       ],
       "score": 93,
@@ -1041,7 +1123,7 @@
         "Control Resonant review: \"Deeply weird with wondrous supernatural vistas but bafflingly dull combat\" avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 56,
       "sources": [
         {
           "type": "publisher",
@@ -1130,6 +1212,47 @@
           "url": "https://www.pcgamer.com/games/roguelike/defend-your-farm-from-a-gaze-of-raccoons-in-this-charming-tower-defense-roguelite-out-tomorrow/",
           "title": "Defend your farm from a gaze of raccoons in this charming tower defense roguelite, out tomorrow",
           "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/uWqAX25XWH4\" allowfullscreen></iframe></div></div><p>Never say I'm biased or I don't have an open mind, because here I am, telling you about a videogame where raccoons—my favourite animal on this Earth—are the enemy. Heartbreaking, I know. In The Rabbit Haul, the crafty little scamps are pestering a bunny named Sprout, so they decide to turn their garden into a warzone that can keep the mischievous Trash Panda Posse at bay.</p><p>Why does Sprout need to keep the raccoons away? Well, they kind of destroyed the town. I'm sure they didn't mean to and were just looking for snacks. Still, one has to defend one's home, so Sprout gets to planting deadly organic weaponry during the day and fighting off the hordes of ringtails at night. Sprout gets in on the action themselves, so you won't just be passively watching your plants do all the hard work.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"wi"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-diablo-5-tells-three-stories-across-the-past-present-an-baee780429a9",
+      "title": "Diablo 5 tells \"three stories\" across the past, present, and future, and biomes will change shape depending on which of Diablo's minions is in charge",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Diablo 5 tells \"three stories\" across the past, present, and future, and biomes will change shape depending on which of Diablo's minions is in charge",
+        "Diablo 5 tells \"three stories\" across the past, present, and future, and biomes will change shape depending on which of Diablo's minions is in charge date de sortie",
+        "Diablo 5 tells \"three stories\" across the past, present, and future, and biomes will change shape depending on which of Diablo's minions is in charge plateformes",
+        "Diablo 5 tells \"three stories\" across the past, present, and future, and biomes will change shape depending on which of Diablo's minions is in charge gameplay",
+        "Diablo 5 tells \"three stories\" across the past, present, and future, and biomes will change shape depending on which of Diablo's minions is in charge guide",
+        "Diablo 5 tells \"three stories\" across the past, present, and future, and biomes will change shape depending on which of Diablo's minions is in charge avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/diablo-5-tells-three-stories-across-the-past-present-and-future-and-biomes-will-change-shape-depending-on-which-of-diablos-minions-is-in-charge/",
+          "title": "Diablo 5 tells \"three stories\" across the past, present, and future, and biomes will change shape depending on which of Diablo's minions is in charge",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/diablo/diablo-5-guide/\">Diablo 5</a> takes place in a world where the titular Lord of Terror has already won, taking over Sanctuary and reshaping the world in his own image. For Blizzard, telling this dark chapter of the story means telling multiple stories in parallel: the past, the present, and the future.</p><p>That's according to game director Joe Shely, who tells our friends at <a href=\"https://www.techradar.com/gaming/diablo-5-senior-game-director-says-the-game-will-tell-three-stories-including-the-past-the-present-desolation-of-diablos-takeover-and-the-future-terror-forming-of-the-sanctuary\" target=\"_blank\">TechRadar Gaming</a> that there are \"three stories that we're telling\" within the world of Diablo 5. The past story is the tale of how Diablo took over Sanctuary in the first place. The present, of course, seems to consist of the main action of the game, where the familiar world has been taken over by the minions of Hell.</p><p>Diablo's top minions in this desolate world are called Dread Commanders, and they take an active role in reshaping Sanctuary in Hell's image – hence the future part of the story. \"We call it te"
         }
       ],
       "score": 93,
@@ -1849,6 +1972,129 @@
       ]
     },
     {
+      "id": "rss-how-long-is-silent-hill-townfall-a871ed2c01c9",
+      "title": "How long is Silent Hill Townfall?",
+      "source_type": "seo_intel",
+      "keywords": [
+        "How long is Silent Hill Townfall?",
+        "How long is Silent Hill Townfall? date de sortie",
+        "How long is Silent Hill Townfall? plateformes",
+        "How long is Silent Hill Townfall? gameplay",
+        "How long is Silent Hill Townfall? guide",
+        "How long is Silent Hill Townfall? avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/silent-hill/silent-hill-townfall-how-long-length/",
+          "title": "How long is Silent Hill Townfall?",
+          "evidence": "<article> <p>When it comes to how long Silent Hill Townfall is, it all depends on how brave you are, because the length of the game directly relates to how prepared you are to come out of hiding. Stealth plays a big part of the game and probably the biggest factor in how long it takes to complete will be how quickly you can sneak past the various monsters along the way. Having finished it and made a good start on an NG+, I can tell you how long it took me and how it looks generally for completion.</p><h2 class=\"article-body__section\" id=\"section-silent-hill-townfall-length\"><span>Silent Hill Townfall length </span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"BxRmgVbujH4APKdY2SWoWd\" name=\"Silent Hill Townfall\" alt=\"Silent Hill Townfall length\" src=\"https://cdn.mos.cms.futurecdn.net/BxRmgVbujH4APKdY2SWoWd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" "
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-how-to-open-the-silent-hill-townfall-door-dial-mechanis-0d343a57ab47",
+      "title": "How to open the Silent Hill Townfall door dial mechanism",
+      "source_type": "seo_intel",
+      "keywords": [
+        "How to open the Silent Hill Townfall door dial mechanism",
+        "How to open the Silent Hill Townfall door dial mechanism date de sortie",
+        "How to open the Silent Hill Townfall door dial mechanism plateformes",
+        "How to open the Silent Hill Townfall door dial mechanism gameplay",
+        "How to open the Silent Hill Townfall door dial mechanism guide",
+        "How to open the Silent Hill Townfall door dial mechanism avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/silent-hill/silent-hill-townfall-door-dial-mechanism-hotel/",
+          "title": "How to open the Silent Hill Townfall door dial mechanism",
+          "evidence": "<article> <p>A strange door dial in Silent Hill Townfall is the first puzzle you'll find as you explore St Amelia and the hotel. The solution is obviously a date, but what? You'll have all the clues, but as it's your first time seeing anything like this in the game it shouldn't be a surprise if you're not sure what's going on. What's the TV showing you? Why is there a menu in the room? Here's what it all means.</p><h2 class=\"article-body__section\" id=\"section-silent-hill-townfall-door-dial-solution\"><span>Silent Hill Townfall door dial solution </span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"JVLcLoBrZqCKv9bHWhwvCP\" name=\"silent hill townfall door dial puzzle\" alt=\"silent hill townfall door dial solution\" src=\"https://cdn.mos.cms.futurecdn.net/JVLcLoBrZqCKv9bHWhwvCP-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\""
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-how-to-open-the-organ-box-in-silent-hill-townfall-3acbf261e608",
+      "title": "How to open the organ box in Silent Hill Townfall",
+      "source_type": "seo_intel",
+      "keywords": [
+        "How to open the organ box in Silent Hill Townfall",
+        "How to open the organ box in Silent Hill Townfall date de sortie",
+        "How to open the organ box in Silent Hill Townfall plateformes",
+        "How to open the organ box in Silent Hill Townfall gameplay",
+        "How to open the organ box in Silent Hill Townfall guide",
+        "How to open the organ box in Silent Hill Townfall avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/silent-hill/silent-hill-townfall-organ-box/",
+          "title": "How to open the organ box in Silent Hill Townfall",
+          "evidence": "<article> <p>To open the Silent Hill Townfall organ box you'll need to first get the electricity running, and then use the computer to read an email to find the information you need for the code. It's not a hard puzzle but it does involves a few varied steps that can be easy to forget are connected, and it takes little longer than you might expect as a result. Crucially, when I did this puzzle a second time in NG+ it wouldn't let me just use the combination, I had to go through the steps to get it. </p><h3 class=\"article-body__section\" id=\"section-silent-hill-townfall-organ-box-solution\"><span>Silent Hill Townfall organ box solution </span></h3><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"oK3TjVSz4Fw7X3LPde86zJ\" name=\"silent hill townfall organ box puzzle\" alt=\"silent hill townfall organ box puzzle\" src=\"https://cdn.mos.cms.futurecdn.net/oK3TjVSz4Fw7X3LPde86zJ-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></di"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-i-am-legend-2-writer-says-he-s-doing-everything-he-can--ceee8fddd4e1",
       "title": "I Am Legend 2 writer says he's doing everything he can to get it made, but they are facing \"a series of obstacles\"",
       "source_type": "seo_intel",
@@ -2271,7 +2517,7 @@
         "I've watched all the Resident Evil movies, so you don't have to, and here's my ranking from worst to best avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 79,
       "sources": [
         {
           "type": "publisher",
@@ -2524,6 +2770,47 @@
           "url": "https://www.gamespot.com/articles/kingdom-come-deliverance-2-is-at-a-royally-great-discount-so-what-art-thou-waiting-for/",
           "title": "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For?",
           "evidence": "GameSpot published a fresh gaming story titled: Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For?. All factual claims must be independently verified before publication."
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-kojima-says-his-sony-split-was-amicable-and-they-both-s-a4d36ed71928",
+      "title": "Kojima says his Sony split was amicable and they both still love us very much",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Kojima says his Sony split was amicable and they both still love us very much",
+        "Kojima says his Sony split was amicable and they both still love us very much date de sortie",
+        "Kojima says his Sony split was amicable and they both still love us very much plateformes",
+        "Kojima says his Sony split was amicable and they both still love us very much gameplay",
+        "Kojima says his Sony split was amicable and they both still love us very much guide",
+        "Kojima says his Sony split was amicable and they both still love us very much avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/kojima-says-his-sony-split-was-amicable-and-they-both-still-love-us-very-much/",
+          "title": "Kojima says his Sony split was amicable and they both still love us very much",
+          "evidence": "<article> <p>You do not, as a rule, see studios respond to rumours, reports, and speculation, but a recent Bloomberg report that <a href=\"https://www.pcgamer.com/gaming-industry/sony-reportedly-dropped-hideo-kojimas-next-game-because-it-kept-missing-deadlines-was-over-budget-and-would-eventually-come-to-other-platforms/\">Sony dropped Physint</a>, Kojima Productions' upcoming stealth game, because it was overbudget and kept missing deadlines must have rankled the studio a little, because it released the statement above yesterday to quell fears.</p><p>To quell fears of what? Well, mostly that the relationship between Hideo Kojima and Sony has gotten as bad as the relationship between Hideo Kojima and Konami, his erstwhile employer. Sure, says the studio, they might have split on Physint, but it was amicable. They'll probably even still spend Christmas together.</p><p>Meanwhile, <a href=\"https://www.pcgamer.com/gaming-industry/playstation-tried-to-cancel-hideo-kojimas-physint-now-xbox-is-publishing-it/\">Xbox has swooped in</a> for an easy PR win: picking up the cheque for Physint's continued development. All's well that ends well? We'll see.</p><div class=\"product\"><a data-dimension11"
         }
       ],
       "score": 93,
@@ -3325,6 +3612,47 @@
       ]
     },
     {
+      "id": "rss-resident-evil-is-the-best-videogame-movie-because-bryan-6307ca4d0f99",
+      "title": "Resident Evil is the best videogame movie because Bryan sucks",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Resident Evil is the best videogame movie because Bryan sucks",
+        "Resident Evil is the best videogame movie because Bryan sucks date de sortie",
+        "Resident Evil is the best videogame movie because Bryan sucks plateformes",
+        "Resident Evil is the best videogame movie because Bryan sucks gameplay",
+        "Resident Evil is the best videogame movie because Bryan sucks guide",
+        "Resident Evil is the best videogame movie because Bryan sucks avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/resident-evil/resident-evil-is-the-best-videogame-movie-because-bryan-sucks/",
+          "title": "Resident Evil is the best videogame movie because Bryan sucks",
+          "evidence": "<article> <p>My God, they've done it. We're finally in the era when <a href=\"https://www.pcgamer.com/movies-tv/multiple-reviews-call-resident-evil-the-best-videogame-movie-ever/\" target=\"_blank\">videogame movies can actually be <em>good</em></a>. Not just good for a videogame movie, or \"It's good, but here are 50 caveats.\" It's simply brilliant. And Resi's lovably feckless protagonist Bryan is the primary reason. But before I dive in, I need to warn you about something. </p><p>Yep, this is going to be <strong>spoiler city</strong>. Spoilers for days, folks! Spoilers as big as your head—if your head is <em>exceedingly </em>large. So I'm going to give you ample time to stop scrolling. I am here to protect you. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:3840px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"GEsii5PiihBDenqqbrriKQ\" name=\"resi\" alt=\"Resident Evil (2026) trailer still - Austin Abrams pulling on a touque\" src=\"https://cdn.mos.cms.futurecdn.net/GEsii5PiihBDenqqbrriKQ-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"3840\" heig"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-roblox-the-hunt-20-guide-all-items-and-games-5d20269520bb",
       "title": "Roblox The Hunt 20 guide - all items and games",
       "source_type": "seo_intel",
@@ -3467,6 +3795,47 @@
           "url": "https://www.gamesradar.com/games/fps/roguelike-fps-dednet-exists-to-spread-the-gospel-of-pubg-says-creative-director-which-means-it-has-infinite-gameplay-opportunities/",
           "title": "Roguelike FPS Dednet exists to spread \"the gospel of PUBG,\" says creative director, which means it has \"infinite\" gameplay opportunities",
           "evidence": "<article> <p>In PUBG: Dednet, death is only the beginning, or at least that's the one-liner plastered over its marketing campaign. The new instalment from the creators of the phenomenon that popularized the battle royale genre, Dednet has learned a lot from its predecessors, taking and shaking up lessons from what came before to apply the same chaotic thrill to a multiplayer FPS by leveraging roguelike elements.</p><p>Set in the gritty '90s Pacific Northwest-inspired region of Cascadia, one design throughline is clear – this is the PUBG's edgier younger sibling Talking to creative director Dave Curd, it's clear that ethos extends beyond the grungy, graffiti style visuals that make the map pop with color. Curd says Dednet is spreading \"the gospel of PUBG,\" and doing so by providing an \"infinite\" amount of gameplay opportunities in a distinct form.</p><h2 id=\"i-39-m-in\">I'm in</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"tqwJpDKDzukESR24j6rfBY\" name=\"ss_3d0a88d3f2a0aa554ca8ca3610e3e423c75a1f"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-should-action-games-let-us-skip-the-action-026357e5974c",
+      "title": "Should action games let us skip the action?",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Should action games let us skip the action?",
+        "Should action games let us skip the action? date de sortie",
+        "Should action games let us skip the action? plateformes",
+        "Should action games let us skip the action? gameplay",
+        "Should action games let us skip the action? guide",
+        "Should action games let us skip the action? avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/should-action-games-let-us-skip-the-action/",
+          "title": "Should action games let us skip the action?",
+          "evidence": "<article> <p>\"We will introduce an additional difficulty level [to The Blood of Dawnwalker], but an easier one, because many people are asking for a more easy difficulty. </p><p>The Story mode which we have right now will be a different difficulty—we will call it Demanding or something like this—and we will add a new Story mode which will be even easier for people who don't want to experience the combat, they just want to learn the story and go through the game without this gameplay challenge.\" (via <a href=\"https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update\">Eurogamer</a>)</p><h2 id=\"wait-does-that-mean-a-combat-skip-option-is-coming\">Wait, does that mean a combat skip option is coming?</h2><p>I spent around 50 hours playing The Blood of Dawnwalker for <a href=\"https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-review/\">my review</a>. I played on the default \"Fair\" difficulty and didn't find it very challenging: as far as modern blockbuster RPGs go it's pretty easy-going (and I speak as someone who is <em>not </em>an apex gamer. Metal Gear Solid 4 is currently kicking my ass. How did I cope with this in 2008?).</p><p>So Rebel Wolves' new \"even easi"
         }
       ],
       "score": 93,
@@ -3870,7 +4239,7 @@
         "The Big Bang Theory spin-off wanted a Green Lantern for its surprise DC crossover episode, but the HBO show prevented it avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 32,
       "sources": [
         {
           "type": "publisher",
@@ -4280,7 +4649,7 @@
         "The first look at Ian McKellen back as Gandalf in The Hunt for Gollum has been revealed avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 35,
       "sources": [
         {
           "type": "publisher",
@@ -4444,7 +4813,7 @@
         "This is your reminder that Over the Garden Wall is back on Blu-ray, and a must-have fall edition to your physical media collection avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 39,
       "sources": [
         {
           "type": "publisher",
@@ -5006,6 +5375,47 @@
       ]
     },
     {
+      "id": "rss-who-the-hell-is-buying-their-server-memory-from-amazon--5f6e78d0ee92",
+      "title": "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit?",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit?",
+        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit? date de sortie",
+        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit? plateformes",
+        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit? gameplay",
+        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit? guide",
+        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit? avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/memory/who-the-hell-is-buying-their-server-memory-from-amazon-also-can-i-interest-you-in-a-usd101-000-kit/",
+          "title": "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit?",
+          "evidence": "<article> <p>This appeared on my X feed this morning and it's been bouncing around in my brain since I saw it. Titled as the \"first $100,000 RAM kit\" it caught my eye. The first thing to note is that this is, inevitably, server grade memory, and 2 TB of the stuff as well.</p><p>It's <a href=\"https://www.amazon.com/16X128GB-DDR5-5600-Compatible-Hypertec-GS680R-G6/dp/B0HK21M7XD?th=1\" target=\"_blank\">DDR5-5600 of ECC RDIMM in a 16-pack kit for precisely $101,451.99 at Amazon</a>, for all you server engineers out there. But the question that has been burning my bonce is who is buying their server farm memory directly from Amazon? But hey, Nemix RAM has been around a while now, and if it really is offering lifetime warranty on your $100k+ purchase that ain't bad. But surely, <em>surely,</em> you're getting a better deal from whoever you deal with, because if you're looking after datacenter hardware you must have been getting your kit from somewhere else originally, right?</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2101658775547494630\"><p lang=\"en\" dir=\"ltr\">First $100,000 "
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-with-11-kills-12-kills-at-a-time-battle-royale-hybrid-p-9d06a816532b",
       "title": "With \"11 kills, 12 kills at a time,\" battle royale hybrid Project Zeta is not your daddy's MOBA (or your brother's hero shooter)",
       "source_type": "seo_intel",
@@ -5416,6 +5826,47 @@
       ]
     },
     {
+      "id": "rss-silent-hill-townfall-house-tv-location-0b503d34027b",
+      "title": "silent hill townfall house tv location",
+      "source_type": "seo_intel",
+      "keywords": [
+        "silent hill townfall house tv location",
+        "silent hill townfall house tv location date de sortie",
+        "silent hill townfall house tv location plateformes",
+        "silent hill townfall house tv location gameplay",
+        "silent hill townfall house tv location guide",
+        "silent hill townfall house tv location avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/silent-hill/silent-hill-townfall-house-tv-location/",
+          "title": "silent hill townfall house tv location",
+          "evidence": "<article> <p>You'll need to find a house in Silent Hill Townfall using only images on your CRTV, not that long into the game. It's the first time you'll be introduced to this mechanic, and it's not the easiest set of clues to follow. If you can't work out where your CRTV is directing you, or just can't be bothered, here's where it's sending you and where you need to go. </p><h2 class=\"article-body__section\" id=\"section-silent-hill-townfall-house-location\"><span>Silent Hill Townfall house location </span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"tqevhMH8v7KEusDZ8uRuwL\" name=\"silent hill townfall house tv image\" alt=\"silent hill townfall house tv image\" src=\"https://cdn.mos.cms.futurecdn.net/tqevhMH8v7KEusDZ8uRuwL-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Konami)</spa"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "92e552851e316c3e07b837166b8705c6c43676eaa7aaa90b65fc893bb331d522",
       "title": "Mindcop est gratuit sur Epic Games Store pendant une durée limitée",
       "source_type": "deal",
@@ -5535,6 +5986,46 @@
       ]
     },
     {
+      "id": "rss-nighthawks-review-3f18ab41f2b4",
+      "title": "Nighthawks review",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Nighthawks review",
+        "Nighthawks review date de sortie",
+        "Nighthawks review plateformes",
+        "Nighthawks review gameplay",
+        "Nighthawks review guide",
+        "Nighthawks review avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/nighthawks-review-a-novel-vampire-rpg-thats-also-a-vampire-novels-worth-of-writing/",
+          "title": "Nighthawks review",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Need to know</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it?: </strong>A novel vampire RPG that's also a vampire novel's worth of great writing.<br><strong>Expect to pay: </strong>TBA<br><strong>Developer: </strong>The Curiosity Engine<br><strong>Publisher: </strong>Wadjet Eye<br><strong>Reviewed on:</strong> Windows 11, Intel Core i9, 32GB RAM, Nvidia RTX 4060<br><strong>Multiplayer?: </strong>No<br><strong>Steam Deck: </strong>Unknown<br><strong>Out:</strong> September 22<br><strong>Link: </strong><a data-analytics-id=\"inline-link\" href=\"https://wadjeteyegames.com/games/nighthawks/\" target=\"_blank\">Official site</a></p></div></div><p>Nighthawks is what you get if you take the masquerade out of Vampire: The Masquerade. It's a world where everyone knows vampires are real and therefore nobody has to bribe the police into pretending exsanguinated bodies aren't constantly turning up in back alleys. </p><p>Instead, you just have to bribe the police into saying somebody else did the exsanguination. Wasn't me, officer, must have been one of the other dozen people dressed entirely in black w"
+        }
+      ],
+      "score": 83,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 3,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "261cdc966e5ac3b97aa841d125fb5dcd6db784b041559bac8384353446a1d212",
       "title": "FINAL FANTASY VII REMAKE INTERGRADE à -75% sur Steam",
       "source_type": "deal",
@@ -5555,6 +6046,38 @@
       "duplicate_risk": false,
       "breakdown": {
         "specificity": 18,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 8,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
+      ]
+    },
+    {
+      "id": "cf385e5adb89fa066cb1e3841b5b828266b78ddd6aa5028c3c989a3080bd1416",
+      "title": "Detroit: Become Human à -80% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "Detroit: Become Human",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/1222140/"
+        }
+      ],
+      "score": 57,
+      "decision": "WATCH",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 14,
         "search_intent": 5,
         "freshness": 10,
         "competition_proxy": 8,

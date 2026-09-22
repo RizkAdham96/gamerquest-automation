@@ -584,3 +584,108 @@ def test_main_publishes_multiple_quality_candidates_per_run(monkeypatch):
         "https://example.com/fresh-2",
         "https://example.com/fresh-3",
     ]
+
+
+def test_news_selection_is_deterministic_and_does_not_call_groq(monkeypatch):
+    candidates = [
+        {
+            "title": "Generic gaming story",
+            "url": "https://example.com/generic-story",
+            "content": "x" * 1500,
+        },
+        {
+            "title": "Project Nova release date and platforms",
+            "url": "https://playstation.com/project-nova-release",
+            "content": "Project Nova release date platforms PS5 " * 100,
+        },
+    ]
+    monkeypatch.setattr(
+        automation,
+        "groq_chat",
+        lambda *args, **kwargs: (_ for _ in ()).throw(
+            AssertionError("selection must not spend Groq tokens")
+        ),
+    )
+    monkeypatch.setattr(
+        automation,
+        "get_recent_source_domains",
+        lambda: [],
+    )
+
+    selected = automation.select_best_story(candidates)
+
+    assert selected["url"].startswith("https://playstation.com/")
+
+
+def test_source_validation_is_local_and_does_not_call_groq(monkeypatch):
+    story = {
+        "title": "Project Nova release date platforms",
+        "url": "https://ign.com/articles/project-nova-release-date-platforms",
+    }
+    source_text = (
+        "Project Nova release date platforms PS5 PC gameplay details. " * 60
+    )
+    monkeypatch.setattr(
+        automation,
+        "groq_chat",
+        lambda *args, **kwargs: (_ for _ in ()).throw(
+            AssertionError("source validation must not spend Groq tokens")
+        ),
+    )
+
+    valid, reason = automation.validate_source(story, source_text)
+
+    assert valid is True
+    assert reason == "Source validation passed."
+
+
+def test_source_grounding_blocks_unsupported_platform_claim():
+    article_data = (
+        "Silent Hill Townfall date de sortie",
+        "meta",
+        "silent hill townfall",
+        "",
+        "News",
+        "silent-hill-townfall-date-de-sortie",
+        "Silent Hill Townfall : plateformes",
+        "excerpt",
+        "Actualités",
+        "Silent Hill",
+        "<p>Le jeu sortira sur PS5, Steam et Xbox Series X|S.</p>",
+    )
+    evidence = (
+        "Silent Hill Townfall will launch on PlayStation 5, Steam "
+        "and Epic Games Store in 2026."
+    )
+
+    reason = automation.source_grounding_rejection(
+        article_data,
+        evidence,
+    )
+
+    assert reason == "Unsupported platform claim: Xbox."
+
+
+def test_source_grounding_blocks_unsupported_negative_multiplayer_claim():
+    article_data = (
+        "Gears of War E-Day",
+        "meta",
+        "gears of war e-day",
+        "",
+        "News",
+        "gears-of-war-e-day",
+        "Gears of War: E-Day",
+        "excerpt",
+        "Actualités",
+        "Gears",
+        "<p>Le communiqué ne mentionne aucun mode multijoueur.</p>",
+    )
+    evidence = "Gears of War E-Day is a prequel campaign."
+
+    reason = automation.source_grounding_rejection(
+        article_data,
+        evidence,
+    )
+
+    assert reason
+    assert "multiplayer" in reason.lower() or "negative" in reason.lower()

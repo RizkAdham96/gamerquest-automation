@@ -168,6 +168,113 @@ Return ONLY valid JSON in this shape:
     return [{"role": "system", "content": system_prompt}, {"role": "user", "content": user_prompt}]
 
 
+def analyze_topic_locally(topic):
+    """Score SEO opportunities without consuming the shared Groq quota.
+
+    The Intel collector already supplies topic, keywords, source provenance and
+    region. Production scoring should be deterministic so the scarce AI budget
+    is reserved for the final researched article.
+    """
+    print("\n===================================")
+    print("ANALYSING EVERGREEN SEO TOPIC (LOCAL)")
+    print("===================================")
+    print(topic.get("topic", "Unknown topic"))
+
+    topic_text = str(topic.get("topic", "") or "").strip()
+    normalized = topic_text.lower()
+    words = re.findall(r"[a-z0-9à-ÿ]+", normalized)
+    keywords = [
+        str(item).strip()
+        for item in (topic.get("keywords") or [])
+        if str(item).strip()
+    ]
+    sources = [
+        item
+        for item in (topic.get("sources") or [])
+        if isinstance(item, dict)
+    ]
+    source_types = {
+        str(item.get("type", "")).strip().lower()
+        for item in sources
+    }
+
+    topic_id = str(topic.get("id", "") or "")
+    is_feed_lead = topic_id.startswith("rss-")
+    has_official = "official" in source_types
+    intent_markers = (
+        "date de sortie", "plateforme", "platform", "guide", "comment",
+        "performance", "patch", "erreur", "error", "crossplay",
+        "multijoueur", "multiplayer", "prix", "dlc", "gratuit", "free",
+    )
+    explicit_intent = any(marker in normalized for marker in intent_markers)
+
+    # Curated/official Intel is durable enough for an evergreen resource.
+    # Raw publisher-feed headlines remain leads until a specific search intent
+    # is established, so they should not consume article-generation tokens.
+    durability = 24 if has_official else 20 if not is_feed_lead else 10
+    search_intent = 24 if explicit_intent else 21 if has_official else 12
+
+    word_count = len(words)
+    if 3 <= word_count <= 10:
+        specificity = 14
+    elif 11 <= word_count <= 18:
+        specificity = 10
+    else:
+        specificity = 6
+
+    french_relevance = 10 if str(topic.get("region", "")).upper() == "FR" else 7
+    competition = 9 if specificity >= 12 else 6 if specificity >= 9 else 3
+    gamerquest_relevance = 10 if sources else 7
+    internal_link_potential = 5 if keywords or sources else 3
+
+    scores = validate_scores({
+        "durability": durability,
+        "search_intent": search_intent,
+        "long_tail_specificity": specificity,
+        "french_relevance": french_relevance,
+        "competition": competition,
+        "gamerquest_relevance": gamerquest_relevance,
+        "internal_link_potential": internal_link_potential,
+    })
+    total_score = calculate_total_score(scores)
+    decision = get_decision(total_score)
+
+    primary_keyword = keywords[0] if keywords else topic_text
+    secondary_keywords = [
+        item for item in keywords[1:6]
+        if item.lower() != primary_keyword.lower()
+    ]
+
+    result = {
+        "id": topic.get("id"),
+        "topic": topic.get("topic"),
+        "detected_at": topic.get("detected_at"),
+        "analysed_at": datetime.now(timezone.utc).isoformat(),
+        "scores": scores,
+        "total_score": total_score,
+        "decision": decision,
+        "sources": sources,
+        "seo": {
+            "primary_keyword": primary_keyword,
+            "secondary_keywords": secondary_keywords,
+            "search_intent_type": "information",
+            "recommended_angle": (
+                "Réponse evergreen fondée sur les sources vérifiées"
+                if decision == "WRITE"
+                else "Conserver comme piste jusqu'à un angle de recherche plus précis"
+            ),
+            "suggested_title": topic_text,
+        },
+        "reasoning": (
+            "Deterministic production score; AI quota is reserved for "
+            "research-backed article writing."
+        ),
+    }
+    print(f"Score: {total_score}/100")
+    print(f"Decision: {decision}")
+    return result
+
+
 def analyze_topic(topic):
     print("\n===================================")
     print("ANALYSING EVERGREEN SEO TOPIC")
@@ -236,7 +343,7 @@ def main():
     successful_results = []
     for topic in candidates:
         try:
-            successful_results.append(analyze_topic(topic))
+            successful_results.append(analyze_topic_locally(topic))
         except RateLimitError:
             print("Groq free limit unavailable. Stopping safely; no paid fallback.")
             break

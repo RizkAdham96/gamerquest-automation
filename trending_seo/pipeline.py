@@ -68,8 +68,10 @@ MODEL = "openai/gpt-oss-120b"
 
 # Publish several independent SEO articles per run while preserving
 # the research, image, duplicate-intent and quality gates.
-MAX_ARTICLES_PER_RUN = 3
-MAX_SEO_CANDIDATE_ATTEMPTS = 8
+# Free-tier production budget. Four scheduled runs/day can still publish up to four
+# high-quality SEO articles while avoiding one run exhausting the daily Groq quota.
+MAX_ARTICLES_PER_RUN = 1
+MAX_SEO_CANDIDATE_ATTEMPTS = 4
 
 # =========================================================
 # SAFE FIRST PRODUCTION TEST:
@@ -591,16 +593,16 @@ def compact_research_context(context: Dict[str, Any]) -> Dict[str, Any]:
     evidence = context.get("usable_evidence", [])
     sources = []
     if isinstance(evidence, list):
-        for item in evidence[:3]:
+        for item in evidence[:2]:
             if not isinstance(item, dict):
                 continue
             sources.append({
                 "url": safe_string(item.get("url")),
                 "title": safe_string(item.get("title")),
-                "text": safe_string(item.get("text"))[:1500],
+                "text": safe_string(item.get("text"))[:900],
             })
     return {
-        "confirmed_facts": confirmed[:8] if isinstance(confirmed, list) else [],
+        "confirmed_facts": confirmed[:4] if isinstance(confirmed, list) else [],
         "sources": sources,
     }
 
@@ -974,7 +976,7 @@ def generate_seo_article(
     response = None
     last_error = None
 
-    for attempt in range(1, 5):
+    for attempt in range(1, 3):
         try:
             response = (
                 client.chat.completions.create(
@@ -995,7 +997,7 @@ def generate_seo_article(
                         },
                     ],
                     temperature=0.4,
-                    max_tokens=5000,
+                    max_tokens=2600,
                 )
             )
             break
@@ -1003,7 +1005,7 @@ def generate_seo_article(
         except RateLimitError as error:
             last_error = error
 
-            if attempt >= 4:
+            if attempt >= 2:
                 break
 
             wait_seconds = min(
@@ -1013,7 +1015,7 @@ def generate_seo_article(
             print(
                 "Groq temporary rate limit during SEO writing; "
                 f"retrying in {wait_seconds}s "
-                f"({attempt}/4)."
+                f"({attempt}/2)."
             )
             time.sleep(wait_seconds)
 

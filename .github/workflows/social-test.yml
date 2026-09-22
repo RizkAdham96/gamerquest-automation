@@ -23,7 +23,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: gamerquest-social-publishing
+  group: gamerquest-groq-global
   cancel-in-progress: false
 
 jobs:
@@ -68,11 +68,40 @@ jobs:
           META_GRAPH_API_VERSION: v26.0
         run: python -m social.meta_healthcheck
 
-      - name: Generate fact-checked social carousel
+      - name: Reserve shared Groq budget
         if: ${{ github.event_name != 'push' }}
+        id: groq_budget
+        run: |
+          python groq_budget.py reserve-run \
+            --lane social \
+            --tokens 8000 \
+            --reservation-id "${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-social" \
+            --github-output "${GITHUB_OUTPUT}"
+
+      - name: Persist Groq budget reservation before AI calls
+        if: ${{ github.event_name != 'push' && steps.groq_budget.outputs.allowed == 'true' }}
+        run: |
+          git config user.name "GamerQuest Budget Bot"
+          git config user.email "actions@github.com"
+          git add state/groq_budget.json
+          git commit -m "budget: reserve Social Groq allowance" || true
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Shared Groq ceiling reached
+        if: ${{ github.event_name != 'push' && steps.groq_budget.outputs.allowed != 'true' }}
+        run: |
+          echo "Social AI skipped before any Groq call."
+          echo "Reason: ${{ steps.groq_budget.outputs.reason }}"
+          echo "The carousel renderer and image quality settings were not changed."
+
+      - name: Generate fact-checked social carousel
+        if: ${{ github.event_name != 'push' && steps.groq_budget.outputs.allowed == 'true' }}
         env:
           PYTHONPATH: .
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_RUN_TOKEN_BUDGET: ${{ steps.groq_budget.outputs.tokens }}
+          GROQ_TPM_CEILING: "6000"
         run: python -m social.run_fresh
 
       - name: Check social generation status

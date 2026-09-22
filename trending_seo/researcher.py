@@ -23,16 +23,17 @@ ALLOWED_STATUSES = {"CONFIRMED", "UNCONFIRMED", "UNKNOWN"}
 FETCH_TIMEOUT_SECONDS = 12
 MAX_PAGE_BYTES = 2_000_000
 MAX_EXTRACTED_CHARS = 25_000
-MAX_DISCOVERED_SOURCES_TO_FETCH = 6
-MAX_CLAIMS_PER_RUN = 3
-MAX_EVIDENCE_SOURCES_FOR_AI = 5
-MAX_EVIDENCE_CHARS_PER_SOURCE = 6_000
-MAX_CLAIM_DISCOVERY_QUERIES = 3
+# Hard free-tier budget: research must stay compact enough that the writer still has quota.
+MAX_DISCOVERED_SOURCES_TO_FETCH = 3
+MAX_CLAIMS_PER_RUN = 1
+MAX_EVIDENCE_SOURCES_FOR_AI = 2
+MAX_EVIDENCE_CHARS_PER_SOURCE = 1_800
+MAX_CLAIM_DISCOVERY_QUERIES = 1
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_MODEL = "openai/gpt-oss-120b"
-GROQ_MAX_RETRIES = 3
-GROQ_DEFAULT_WAIT_SECONDS = 10
+GROQ_MAX_RETRIES = 1
+GROQ_DEFAULT_WAIT_SECONDS = 6
 
 USER_AGENT = (
     "Mozilla/5.0 "
@@ -903,6 +904,7 @@ def groq_chat(messages):
                 model=GROQ_MODEL,
                 messages=messages,
                 temperature=0,
+                max_tokens=450,
             )
             return response.choices[0].message.content
         except RateLimitError as error:

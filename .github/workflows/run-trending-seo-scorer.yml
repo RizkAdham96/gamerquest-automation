@@ -22,9 +22,9 @@ jobs:
           pip install groq
 
       - name: Run Trending SEO scorer
-        env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
+          # Production scoring is deterministic/local and intentionally has
+          # no GROQ_API_KEY, so this workflow cannot spend AI tokens.
           python trending_seo/scorer.py
 
       - name: Commit scoring results

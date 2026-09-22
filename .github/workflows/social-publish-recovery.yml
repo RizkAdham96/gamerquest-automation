@@ -121,7 +121,7 @@ jobs:
         run: |
           python groq_budget.py reserve-run \
             --lane social \
-            --tokens 8000 \
+            --tokens 6000 \
             --reservation-id "${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-social-recovery" \
             --github-output "${GITHUB_OUTPUT}"
 

@@ -4,7 +4,11 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: gamerquest-groq-global
+  cancel-in-progress: false
 
 jobs:
   writer-smoke-test:
@@ -13,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,8 +30,36 @@ jobs:
           python -m pip install --upgrade pip
           pip install groq
 
+      - name: Reserve shared Groq budget
+        id: groq_budget
+        run: |
+          python groq_budget.py reserve-run \
+            --lane manual \
+            --tokens 4000 \
+            --reservation-id "${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-writer-smoke" \
+            --github-output "${GITHUB_OUTPUT}"
+
+      - name: Persist Groq budget reservation before AI calls
+        if: ${{ steps.groq_budget.outputs.allowed == 'true' }}
+        run: |
+          git config user.name "GamerQuest Budget Bot"
+          git config user.email "actions@github.com"
+          git add state/groq_budget.json
+          git commit -m "budget: reserve manual writer allowance" || true
+          git pull --rebase origin main
+          git push origin HEAD:main
+
       - name: Run real Writer V3 Groq smoke test
+        if: ${{ steps.groq_budget.outputs.allowed == 'true' }}
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_RUN_TOKEN_BUDGET: ${{ steps.groq_budget.outputs.tokens }}
+          GROQ_TPM_CEILING: "6000"
         run: |
           python trending_seo/writer_smoke_test.py
+
+      - name: Shared Groq ceiling reached
+        if: ${{ steps.groq_budget.outputs.allowed != 'true' }}
+        run: |
+          echo "Manual writer smoke test skipped before any Groq call."
+          echo "Reason: ${{ steps.groq_budget.outputs.reason }}"

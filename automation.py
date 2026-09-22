@@ -43,10 +43,10 @@ TAVILY_SEARCH_URL = "https://api.tavily.com/search"
 
 TAVILY_MONTHLY_SAFETY_LIMIT = 900
 
-# The workflow runs every 2 hours.
+# The production workflow runs every 4 hours.
 # Maximum theoretical usage:
-# 12 runs/day × 30 days × 2 searches = ~720 searches/month.
-# This stays safely below the 900/month limit.
+# 6 runs/day × 30 days × 2 searches = ~360 searches/month.
+# This stays safely below the 900/month limit and leaves retry headroom.
 MAX_TAVILY_SEARCHES_PER_RUN = 2
 
 SEARCH_QUERIES = [

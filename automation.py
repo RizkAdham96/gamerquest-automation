@@ -83,10 +83,16 @@ MAX_OFFICIAL_SOURCE_LENGTH = 2600
 
 GROQ_MODEL = "openai/gpt-oss-120b"
 
+# Keep each request small enough that the two production AI calls
+# (draft + factual correction) can fit inside Groq's free-tier TPM window.
+GROQ_DEFAULT_MAX_TOKENS = 1600
+GROQ_GENERATION_MAX_TOKENS = 1700
+GROQ_VERIFICATION_MAX_TOKENS = 1300
+
 # Retry settings for 429 errors.
-GROQ_MAX_RETRIES = 2
+GROQ_MAX_RETRIES = 3
 GROQ_DEFAULT_WAIT_SECONDS = 10
-GROQ_MAX_WAIT_SECONDS = 45
+GROQ_MAX_WAIT_SECONDS = 60
 
 # Leave enough time for state persistence and the WordPress wake step before
 # the GitHub job's hard 30-minute timeout.
@@ -117,6 +123,7 @@ class GroqRunDeferred(RuntimeError):
 def groq_chat(
     messages,
     temperature=0.1,
+    max_tokens=GROQ_DEFAULT_MAX_TOKENS,
 ):
     """
     Make a Groq request.
@@ -144,6 +151,7 @@ def groq_chat(
                     model=GROQ_MODEL,
                     messages=messages,
                     temperature=temperature,
+                    max_tokens=max_tokens,
                 )
             )
 
@@ -1379,6 +1387,75 @@ def news_quality_rejection(article_data, existing_articles=None):
     return ""
 
 
+def source_grounding_rejection(
+    article_data,
+    source_text,
+    official_text="",
+):
+    """Reject sensitive claims that do not appear in the supplied evidence."""
+    candidate = article_data_for_quality_guards(article_data)
+    article_text = " ".join(
+        [
+            str(candidate.get("title", "")),
+            str(candidate.get("content", "")),
+        ]
+    ).lower()
+    evidence_text = f"{source_text}\n{official_text}".lower()
+
+    platform_groups = {
+        "Xbox": ("xbox",),
+        "PlayStation": ("playstation", "ps5", "ps4"),
+        "Nintendo Switch": ("nintendo switch", "switch 2"),
+        "Steam": ("steam",),
+        "Epic Games Store": ("epic games store", "epic games"),
+        "PC": (" pc ", "windows"),
+    }
+
+    padded_article = f" {article_text} "
+    padded_evidence = f" {evidence_text} "
+
+    for label, aliases in platform_groups.items():
+        article_has = any(alias in padded_article for alias in aliases)
+        evidence_has = any(alias in padded_evidence for alias in aliases)
+        if article_has and not evidence_has:
+            return f"Unsupported platform claim: {label}."
+
+    article_years = set(
+        re.findall(r"\b20(?:2[5-9]|3[0-5])\b", article_text)
+    )
+    evidence_years = set(
+        re.findall(r"\b20(?:2[5-9]|3[0-5])\b", evidence_text)
+    )
+    unsupported_years = sorted(article_years - evidence_years)
+    if unsupported_years:
+        return (
+            "Unsupported release/year claim: "
+            + ", ".join(unsupported_years)
+            + "."
+        )
+
+    multiplayer_terms = (
+        "multijoueur", "multiplayer", "co-op", "coop",
+        "coopération", "cooperation", "pvp", "horde",
+    )
+    if (
+        any(term in article_text for term in multiplayer_terms)
+        and not any(term in evidence_text for term in multiplayer_terms)
+    ):
+        return "Unsupported multiplayer/co-op claim."
+
+    negative_sensitive_patterns = (
+        r"ne\s+mentionne\s+(?:aucun|pas)",
+        r"aucun\s+(?:mode\s+)?multijoueur",
+        r"pas\s+de\s+(?:mode\s+)?multijoueur",
+        r"sans\s+(?:mode\s+)?multijoueur",
+    )
+    if any(re.search(pattern, article_text) for pattern in negative_sensitive_patterns):
+        return "Unsupported negative feature claim."
+
+    return ""
+
+
 def save_news_to_feed(
     article_data,
     story,
@@ -2010,183 +2087,63 @@ def search_gaming_news():
 # SEO-FIRST STORY SELECTION
 # =========================================================
 
+def story_priority_score(result, recent_domains=None):
+    """Deterministically rank a vetted news candidate without spending AI tokens."""
+    recent_domains = set(recent_domains or [])
+    title = str(result.get("title", "") or "")
+    url = str(result.get("url", "") or "")
+    domain = get_domain(url)
+    normalized = slugify(title).replace("-", " ")
+
+    score = {1: 55, 2: 38, 3: 12}.get(source_tier(url), 0)
+
+    high_intent = (
+        "date de sortie", "release date", "plateforme", "platform",
+        "patch", "performance", "erreur", "error", "comment ",
+        "how to", "dlc", "gratuit", "free", "game pass",
+        "crossplay", "sauvegarde", "save",
+    )
+    score += min(
+        30,
+        sum(8 for marker in high_intent if marker in normalized),
+    )
+
+    specific_terms = normalized_news_terms(title) - NEWS_TOPIC_GENERIC_TERMS
+    score += min(12, len(specific_terms) * 2)
+
+    content_length = result_content_length(result)
+    if content_length >= 2500:
+        score += 8
+    elif content_length >= 1200:
+        score += 4
+
+    if domain in recent_domains:
+        score -= 10
+
+    return score
+
+
 def select_best_story(results):
-    recent_domains = (
-        get_recent_source_domains()
+    """Choose the strongest remaining opportunity locally."""
+    if not results:
+        raise RuntimeError("No news candidates available for selection.")
+
+    recent_domains = get_recent_source_domains()
+    ranked = sorted(
+        enumerate(results),
+        key=lambda item: (
+            story_priority_score(item[1], recent_domains),
+            -item[0],
+        ),
+        reverse=True,
     )
-
-    candidates = ""
-
-    for index, result in enumerate(
-        results,
-        start=1,
-    ):
-        content = (
-            result.get(
-                "content",
-                ""
-            )
-            or result.get(
-                "raw_content",
-                ""
-            )
-            or ""
-        )
-
-        candidates += f"""
-
-CANDIDATE {index}
-
-TITLE:
-{result.get('title', '')}
-
-DOMAIN:
-{get_domain(result.get('url', ''))}
-
-URL:
-{result.get('url', '')}
-
-DATE:
-{result.get('published_date', '')}
-
-SOURCE_TIER:
-{source_tier(result.get('url', ''))} (1=official, 2=trusted media, 3=other)
-
-CONTENT:
-{content[:1100]}
-
----------------------------------
-"""
-
-    prompt = f"""
-You are the SEO editor of GamerQuest FR.
-
-Choose ONE gaming story with the strongest
-organic-search opportunity.
-
-RECENTLY USED DOMAINS:
-
-{recent_domains}
-
-CANDIDATES:
-
-{candidates}
-
-Prioritize topics where users may search:
-
-- game + date de sortie
-- game + plateformes
-- game + prix
-- game + gameplay
-- game + PS5
-- game + Xbox
-- game + Switch 2
-- game + PC
-- game + Game Pass
-- game + multijoueur
-- game + nouveautés
-- game + DLC
-
-Prefer:
-
-- specific long-tail player questions with a clear answer
-- release announcements with exact date/platform intent
-- fixes, patches, performance issues and how-to opportunities
-- free games, meaningful discounts and availability windows
-- gameplay or DLC only when there is a genuinely new development
-- underserved game/platform combinations a new domain can realistically rank for
-
-Avoid choosing a broad roundup or giant head keyword when a narrower,
-useful search intent is available. GamerQuest is a new domain: usefulness,
-specificity and freshness matter more than franchise size.
-
-Source-quality rules:
-
-- Prefer tier 1 official/primary sources when they cover the same story.
-- Tier 2 established gaming publications are acceptable when no official
-  source for that exact story is available.
-- Tier 3 sources are last-resort only.
-- Never choose a thin, generic, scraped or aggregation page merely because
-  its headline looks SEO-friendly.
-
-Avoid:
-
-- homepages
-- thin stories
-- opinion pieces
-- rumors
-- leaks
-- SEO spam
-
-Do NOT invent search volume,
-keyword difficulty or CPC.
-
-Return ONLY the candidate number.
-"""
-
-    answer = groq_chat(
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "You are an SEO strategist "
-                    "specialized in gaming."
-                ),
-            },
-            {
-                "role": "user",
-                "content": prompt,
-            },
-        ],
-        temperature=0.1,
-    )
-
-    match = re.search(
-        r"\d+",
-        answer
-    )
-
-    if not match:
-        raise RuntimeError(
-            f"Could not parse selection: "
-            f"{answer}"
-        )
-
-    number = int(
-        match.group()
-    )
-
-    if (
-        number < 1
-        or number > len(results)
-    ):
-        raise RuntimeError(
-            "Groq selected invalid candidate."
-        )
-
-    story = results[
-        number - 1
-    ]
+    _, story = ranked[0]
 
     print("")
-    print(
-        "SEO story selected:"
-    )
-
-    print(
-        story.get(
-            "title",
-            ""
-        )
-    )
-
-    print(
-        story.get(
-            "url",
-            ""
-        )
-    )
-
+    print("SEO story selected (deterministic ranking):")
+    print(story.get("title", ""))
+    print(story.get("url", ""))
+    print("Priority score:", story_priority_score(story, recent_domains))
     return story
 
 
@@ -2279,175 +2236,46 @@ def validate_source(
     story,
     source_text,
 ):
-    url = story.get(
-        "url",
-        ""
-    ).strip()
-
-    title = story.get(
-        "title",
-        ""
-    ).strip()
-
-    parsed = urlparse(
-        url
-    )
-
-    path = (
-        parsed
-        .path
-        .strip("/")
-    )
+    """Validate source structure and title/body coherence without an AI call."""
+    url = story.get("url", "").strip()
+    title = story.get("title", "").strip()
+    parsed = urlparse(url)
+    path = parsed.path.strip("/")
 
     if not path:
-        return (
-            False,
-            "Homepage URL detected."
-        )
+        return (False, "Homepage URL detected.")
 
     generic_paths = {
-        "news",
-        "gaming",
-        "games",
-        "articles",
-        "latest",
-        "home",
-        "category",
+        "news", "gaming", "games", "articles",
+        "latest", "home", "category",
     }
-
     if path.lower() in generic_paths:
-        return (
-            False,
-            "Generic landing page."
-        )
+        return (False, "Generic landing page.")
 
     tier = source_tier(url)
-
-    # Short official announcements can be legitimate. Unknown sites need
-    # considerably more substance before we trust them.
-    if tier == 1:
-        required_length = 250
-    elif tier == 2:
-        required_length = 500
-    else:
-        required_length = 1200
-
+    required_length = 250 if tier == 1 else 500 if tier == 2 else 1200
     if len(source_text) < required_length:
         return (
             False,
             f"Source content too short for source tier {tier}: "
-            f"{len(source_text)} chars, requires {required_length}."
+            f"{len(source_text)} chars, requires {required_length}.",
         )
 
-    title_words = normalize_words(
-        title
-    )
-
-    unique_words = set(
-        title_words
-    )
-
+    title_words = normalize_words(title)
+    unique_words = set(title_words)
     if not unique_words:
-        return (
-            False,
-            "Could not analyse title."
-        )
+        return (False, "Could not analyse title.")
 
-    body_lower = (
-        source_text
-        .lower()
-    )
+    body_lower = source_text.lower()
+    matched = sum(1 for word in unique_words if word in body_lower)
+    ratio = matched / max(len(unique_words), 1)
+    print(f"Title/body match ratio: {ratio:.2f}")
 
-    matched = sum(
-        1
-        for word in unique_words
-        if word in body_lower
-    )
+    minimum_ratio = 0.30 if tier == 1 else 0.35 if tier == 2 else 0.45
+    if ratio < minimum_ratio:
+        return (False, "Source/title mismatch.")
 
-    ratio = (
-        matched
-        / max(
-            len(unique_words),
-            1,
-        )
-    )
-
-    print(
-        f"Title/body match ratio: "
-        f"{ratio:.2f}"
-    )
-
-    if ratio < 0.35:
-        return (
-            False,
-            "Source/title mismatch."
-        )
-
-    prompt = f"""
-Validate this gaming-news page.
-
-TITLE:
-{title}
-
-URL:
-{url}
-
-CONTENT:
-{source_text[:6000]}
-
-Return VALID only if the page clearly
-represents the same specific story.
-
-Return INVALID for:
-
-- homepage
-- category page
-- unrelated page
-- contaminated extraction
-- title/body mismatch
-
-Return exactly:
-
-VALID
-
-or
-
-INVALID
-"""
-
-    verdict = groq_chat(
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "Validate gaming-news "
-                    "sources conservatively."
-                ),
-            },
-            {
-                "role": "user",
-                "content": prompt,
-            },
-        ],
-        temperature=0,
-    )
-
-    verdict = (
-        verdict
-        .strip()
-        .upper()
-    )
-
-    if verdict != "VALID":
-        return (
-            False,
-            f"AI validator: {verdict}"
-        )
-
-    return (
-        True,
-        "Source validation passed."
-    )
+    return (True, "Source validation passed.")
 
 
 # =========================================================
@@ -2458,113 +2286,43 @@ def find_matching_official_source(
     selected_story,
     all_results,
 ):
-    official_candidates = [
-        result
-        for result in all_results
-        if looks_official(
-            result.get(
-                "url",
-                ""
-            )
-        )
-    ]
-
-    if not official_candidates:
+    """Match an official source by specific title/content term overlap."""
+    selected_terms = (
+        normalized_news_terms(selected_story.get("title", ""))
+        - NEWS_TOPIC_GENERIC_TERMS
+    )
+    if not selected_terms:
         return None
 
-    candidates = ""
+    best = None
+    best_score = 0
 
-    for index, result in enumerate(
-        official_candidates,
-        start=1,
-    ):
+    for candidate in all_results:
+        if not looks_official(candidate.get("url", "")):
+            continue
+
         content = (
-            result.get(
-                "content",
-                ""
-            )
-            or result.get(
-                "raw_content",
-                ""
-            )
+            candidate.get("content", "")
+            or candidate.get("raw_content", "")
             or ""
         )
-
-        candidates += f"""
-
-CANDIDATE {index}
-
-TITLE:
-{result.get('title', '')}
-
-URL:
-{result.get('url', '')}
-
-CONTENT:
-{content[:700]}
-
-"""
-
-    prompt = f"""
-Selected story:
-
-{selected_story.get('title', '')}
-
-Possible official sources:
-
-{candidates}
-
-Return candidate number ONLY if one clearly
-covers the same announcement.
-
-Otherwise return:
-
-NONE
-"""
-
-    answer = groq_chat(
-        messages=[
-            {
-                "role": "system",
-                "content": (
-                    "Match official gaming "
-                    "sources conservatively."
-                ),
-            },
-            {
-                "role": "user",
-                "content": prompt,
-            },
-        ],
-        temperature=0,
-    )
-
-    if "NONE" in answer.upper():
-        return None
-
-    match = re.search(
-        r"\d+",
-        answer
-    )
-
-    if not match:
-        return None
-
-    number = int(
-        match.group()
-    )
-
-    if (
-        number < 1
-        or number > len(
-            official_candidates
+        candidate_text = f"{candidate.get('title', '')} {content[:1400]}"
+        candidate_terms = (
+            normalized_news_terms(candidate_text)
+            - NEWS_TOPIC_GENERIC_TERMS
         )
-    ):
-        return None
+        overlap = selected_terms & candidate_terms
+        ratio = len(overlap) / max(len(selected_terms), 1)
 
-    return official_candidates[
-        number - 1
-    ]
+        if len(overlap) < 2 or ratio < 0.35:
+            continue
+
+        score = len(overlap) * 10 + int(ratio * 20)
+        if score > best_score:
+            best = candidate
+            best_score = score
+
+    return best
 
 
 def compact_ai_source(text, max_chars):
@@ -2736,6 +2494,7 @@ CONTENT:
             },
         ],
         temperature=0.15,
+        max_tokens=GROQ_GENERATION_MAX_TOKENS,
     )
 
 
@@ -3067,6 +2826,7 @@ CONTENT:
             },
         ],
         temperature=0.05,
+        max_tokens=GROQ_VERIFICATION_MAX_TOKENS,
     )
 
     return parse_article(
@@ -4317,9 +4077,15 @@ def main():
         except GroqRunDeferred:
             raise
 
-        rejection_reason = news_quality_rejection(
-            article_data
+        rejection_reason = source_grounding_rejection(
+            article_data,
+            source_text,
+            official_text,
         )
+        if not rejection_reason:
+            rejection_reason = news_quality_rejection(
+                article_data
+            )
 
         if rejection_reason:
             save_rejection_report(
@@ -4419,4 +4185,5 @@ if __name__ == "__main__":
             "No quality rule was bypassed. State already produced by this run "
             "can still be saved, and the next scheduled run can try again."
         )
-        sys.exit(0)
+        # A production rate-limit outage must not appear green in GitHub.
+        sys.exit(75)

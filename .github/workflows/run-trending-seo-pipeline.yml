@@ -3,14 +3,15 @@ name: Run Trending SEO Pipeline
 on:
   workflow_dispatch:
   schedule:
-    # Four production runs per day; each can publish up to three SEO articles.
-    - cron: "43 */6 * * *"
+    # Two evenly spaced SEO opportunities/day. Shared budgeting prevents
+    # SEO from consuming the News/Social reserve.
+    - cron: "43 */12 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: gamerquest-trending-seo
+  group: gamerquest-groq-global
   cancel-in-progress: false
 
 jobs:
@@ -53,9 +54,38 @@ jobs:
         run: |
           python trending_seo/discover_topics.py
 
+      - name: Reserve shared Groq budget
+        id: groq_budget
+        run: |
+          python groq_budget.py reserve-run \
+            --lane seo \
+            --tokens 7000 \
+            --reservation-id "${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-seo" \
+            --github-output "${GITHUB_OUTPUT}"
+
+      - name: Persist Groq budget reservation before AI calls
+        if: ${{ steps.groq_budget.outputs.allowed == 'true' }}
+        run: |
+          git config user.name "GamerQuest Budget Bot"
+          git config user.email "actions@github.com"
+          git add state/groq_budget.json
+          git commit -m "budget: reserve SEO Groq allowance" || true
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Shared Groq ceiling reached
+        if: ${{ steps.groq_budget.outputs.allowed != 'true' }}
+        run: |
+          echo "SEO AI skipped before any Groq call."
+          echo "Reason: ${{ steps.groq_budget.outputs.reason }}"
+          echo "SEO quality gates remain unchanged."
+
       - name: Run Trending SEO pipeline with automatic publishing
+        if: ${{ steps.groq_budget.outputs.allowed == 'true' }}
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_RUN_TOKEN_BUDGET: ${{ steps.groq_budget.outputs.tokens }}
+          GROQ_TPM_CEILING: "6000"
           WP_URL: ${{ secrets.WP_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}

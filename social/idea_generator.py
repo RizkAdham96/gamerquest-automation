@@ -658,7 +658,8 @@ def generate_ideas(content):
 
     data = parse_json_response(
         call_grok(
-            build_prompt(content)
+            build_prompt(content),
+            max_tokens=800,
         )
     )
 
@@ -729,7 +730,8 @@ def expand_idea(
             build_expansion_prompt(
                 idea,
                 exact_content,
-            )
+            ),
+            max_tokens=900,
         )
     )
 
@@ -927,7 +929,10 @@ Return ONLY JSON:
     )
 
     data = parse_json_response(
-        call_grok(prompt)
+        call_grok(
+            prompt,
+            max_tokens=350,
+        )
     )
 
     if (
@@ -1120,7 +1125,10 @@ Return ONLY JSON:
     )
 
     data = parse_json_response(
-        call_grok(prompt)
+        call_grok(
+            prompt,
+            max_tokens=900,
+        )
     )
 
     if not isinstance(data, dict):

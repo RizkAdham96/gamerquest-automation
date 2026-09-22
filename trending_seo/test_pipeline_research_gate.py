@@ -46,6 +46,22 @@ class TestPipelineResearchGate(unittest.TestCase):
         self.assertIn("Elden Ring est un action-RPG", prompt)
         self.assertIn("n'invente", prompt.lower())
 
+
+    def test_compact_research_context_has_hard_token_budget(self):
+        context = {
+            "usable_evidence": [
+                {"url": f"https://example.com/{i}", "title": "Source", "text": "x" * 5000}
+                for i in range(5)
+            ],
+            "fact_pack": {
+                "confirmed_facts": [{"claim": f"fact-{i}", "sources": ["https://example.com"]} for i in range(10)]
+            },
+        }
+        compact = pipeline.compact_research_context(context)
+        self.assertLessEqual(len(compact["sources"]), 2)
+        self.assertTrue(all(len(item["text"]) <= 900 for item in compact["sources"]))
+        self.assertLessEqual(len(compact["confirmed_facts"]), 4)
+
     def test_insufficient_research_stops_before_generation_and_images(self):
         topic = {
             "id": "elden",

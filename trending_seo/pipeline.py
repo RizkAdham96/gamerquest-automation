@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -18,6 +19,12 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 from groq import Groq, RateLimitError
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from groq_budget import GroqBudgetExhausted, consume_run_budget
 
 import scorer
 import researcher
@@ -976,6 +983,31 @@ def generate_seo_article(
 
     response = None
     last_error = None
+
+    try:
+        consume_run_budget(
+            [
+                {
+                    "role": "system",
+                    "content": (
+                        "Tu es un rédacteur SEO gaming français. "
+                        "Retourne uniquement du JSON valide."
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": prompt,
+                },
+            ],
+            SEO_ARTICLE_MAX_TOKENS,
+            lane="seo",
+            operation="seo:article",
+        )
+    except GroqBudgetExhausted as error:
+        return {
+            "status": "BLOCKED_BUDGET_CAP",
+            "error": str(error),
+        }
 
     for attempt in range(1, 4):
         try:
@@ -2178,8 +2210,13 @@ def main() -> None:
                 published_count += 1
             if result.get("status") == "BLOCKED_AI_RATE_LIMIT":
                 rate_limited = True
-                # Do not burn more candidates while the shared free-tier
-                # token window is unavailable.
+                # Do not burn more candidates while the provider window is unavailable.
+                break
+            if result.get("status") == "BLOCKED_BUDGET_CAP":
+                print(
+                    "Shared Groq ceiling reached before the next SEO article. "
+                    "Stopping without reducing article quality."
+                )
                 break
 
     print("")

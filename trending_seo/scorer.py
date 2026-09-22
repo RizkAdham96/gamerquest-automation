@@ -111,6 +111,7 @@ def groq_chat(messages):
                 model=GROQ_MODEL,
                 messages=messages,
                 temperature=0.1,
+                max_tokens=650,
             )
             return response.choices[0].message.content
         except RateLimitError as error:

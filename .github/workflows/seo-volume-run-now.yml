@@ -58,9 +58,8 @@ jobs:
             -v
 
       - name: Refill fresh gaming SEO topics
-        env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
+          # Discovery is deliberately token-free.
           python trending_seo/discover_topics.py
 
       - name: Reserve shared Groq budget

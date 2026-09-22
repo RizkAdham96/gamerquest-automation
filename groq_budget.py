@@ -366,12 +366,26 @@ def main() -> int:
     args = parser.parse_args()
 
     if args.command == "reserve-run":
-        result = reserve_run(
-            args.lane,
-            args.tokens,
-            args.reservation_id,
-            path=args.state_file,
-        )
+        github_ref = str(os.getenv("GITHUB_REF_NAME", "")).strip()
+        in_actions = str(os.getenv("GITHUB_ACTIONS", "")).lower() == "true"
+        allow_non_main = os.getenv("GROQ_ALLOW_NON_MAIN") == "1"
+
+        if in_actions and github_ref and github_ref != "main" and not allow_non_main:
+            result = {
+                "allowed": False,
+                "tokens": 0,
+                "reason": (
+                    f"Groq production is disabled on non-main branch: {github_ref}"
+                ),
+                "state": load_state(args.state_file),
+            }
+        else:
+            result = reserve_run(
+                args.lane,
+                args.tokens,
+                args.reservation_id,
+                path=args.state_file,
+            )
         _write_github_output(args.github_output, result)
         state = result["state"]
         print(

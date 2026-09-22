@@ -8,6 +8,12 @@ from pathlib import Path
 
 from groq import Groq, RateLimitError
 
+ROOT_DIR = Path(__file__).resolve().parents[1]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from groq_budget import GroqBudgetExhausted, consume_run_budget
+
 BASE_DIR = Path(__file__).resolve().parent
 INTEL_FILE = BASE_DIR / "intel" / "topics.json"
 SCORED_FILE = BASE_DIR / "scored_topics.json"
@@ -93,6 +99,12 @@ def validate_scores(raw_scores):
 def groq_chat(messages):
     if GROQ_CLIENT is None:
         raise RuntimeError("GROQ_API_KEY is missing.")
+    consume_run_budget(
+        messages,
+        650,
+        lane="seo",
+        operation="seo:manual-scorer",
+    )
     for attempt in range(1, GROQ_MAX_RETRIES + 1):
         try:
             response = GROQ_CLIENT.chat.completions.create(
@@ -344,6 +356,12 @@ def main():
     for topic in candidates:
         try:
             successful_results.append(analyze_topic_locally(topic))
+        except GroqBudgetExhausted as error:
+            print(
+                "Shared Groq ceiling reached. Scoring stops safely: "
+                f"{error}"
+            )
+            break
         except RateLimitError:
             print("Groq free limit unavailable. Stopping safely; no paid fallback.")
             break

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T16:57:50.664966+00:00",
+  "generated_at": "2026-09-22T21:19:36.805183+00:00",
   "mode": "shadow",
-  "count": 162,
+  "count": 161,
   "opportunities": [
     {
       "id": "rss-cloud-is-still-the-main-character-of-final-fantasy-7-re-cf45bad46657",
@@ -6517,11 +6517,11 @@
       ]
     },
     {
-      "id": "261cdc966e5ac3b97aa841d125fb5dcd6db784b041559bac8384353446a1d212",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE à -75% sur Steam",
+      "id": "552d53fad1a8e77f6c60295df897955e24189a3764fa5ccd30405ea2829d0ff7",
+      "title": "Call to Arms - Gates of Hell: Ostfront à -75% sur Steam",
       "source_type": "deal",
       "keywords": [
-        "FINAL FANTASY VII REMAKE INTERGRADE",
+        "Call to Arms - Gates of Hell: Ostfront",
         "Steam"
       ],
       "freshness": "fresh",
@@ -6529,7 +6529,7 @@
       "sources": [
         {
           "type": "steam",
-          "url": "https://store.steampowered.com/app/1462040/"
+          "url": "https://store.steampowered.com/app/400750/"
         }
       ],
       "score": 61,
@@ -6537,38 +6537,6 @@
       "duplicate_risk": false,
       "breakdown": {
         "specificity": 18,
-        "search_intent": 5,
-        "freshness": 10,
-        "competition_proxy": 8,
-        "gamerquest_fit": 10,
-        "distribution_potential": 5,
-        "internal_link_potential": 5
-      },
-      "reasons": [
-        "weak acquisition signal"
-      ]
-    },
-    {
-      "id": "cf385e5adb89fa066cb1e3841b5b828266b78ddd6aa5028c3c989a3080bd1416",
-      "title": "Detroit: Become Human à -80% sur Steam",
-      "source_type": "deal",
-      "keywords": [
-        "Detroit: Become Human",
-        "Steam"
-      ],
-      "freshness": "fresh",
-      "existing_score": 0,
-      "sources": [
-        {
-          "type": "steam",
-          "url": "https://store.steampowered.com/app/1222140/"
-        }
-      ],
-      "score": 57,
-      "decision": "WATCH",
-      "duplicate_risk": false,
-      "breakdown": {
-        "specificity": 14,
         "search_intent": 5,
         "freshness": 10,
         "competition_proxy": 8,

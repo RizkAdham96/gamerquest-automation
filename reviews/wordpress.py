@@ -35,6 +35,23 @@ def build_post_payload(record, category_id, media_id=None):
     return payload
 
 
+def build_update_payload(record, category_id, media_id=None):
+    """Keep updates conservative.
+
+    Some WordPress/security-plugin combinations reject full post replacements
+    (notably when slug/status/title are re-sent on an existing published post).
+    For refreshes we only need to update the review data and category.
+    """
+    payload = {
+        "content": record["content"],
+        "excerpt": record["excerpt"],
+        "categories": [int(category_id)],
+    }
+    if media_id:
+        payload["featured_media"] = int(media_id)
+    return payload
+
+
 class WordPressPublisher:
     def __init__(
         self,
@@ -143,8 +160,8 @@ class WordPressPublisher:
         media_id = None
         if not existing or not existing.get("featured_media"):
             media_id = self.upload_image(record.get("image_url"), f"steam-{record['appid']}.jpg")
-        payload = build_post_payload(record, category_id, media_id)
         if existing:
+            payload = build_update_payload(record, category_id, media_id)
             response = self._request(
                 "POST",
                 f"posts/{existing['id']}",
@@ -153,6 +170,7 @@ class WordPressPublisher:
             )
             action = "UPDATED"
         else:
+            payload = build_post_payload(record, category_id, media_id)
             response = self._request(
                 "POST",
                 "posts",

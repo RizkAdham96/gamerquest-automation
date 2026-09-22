@@ -1,11 +1,11 @@
 {
   "pipeline_version": "2.0",
-  "status": "SANITY_CHECK_FAILED",
-  "reason": "Potential unsupported high-risk factual wording: cd projekt red a confirmé que",
-  "topic": "The Witcher 4 abandons CD Projekt Red's in-house tech for Unreal Engine 5, but studio lead says it's not because of issues with Cyberpunk 2077",
+  "status": "BLOCKED_AI_RATE_LIMIT",
+  "reason": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kyf6gr3vfkftksp6cxb149aj` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199314, Requested 2559. Please try again in 13m29.136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",
+  "topic": "The disc is dying, but the box isn’t – what will a \"physical game\" actually mean in 2030?",
   "wordpress_status": null,
   "wordpress_post_id": null,
   "wordpress_url": null,
   "published": false,
-  "created_at": "2026-09-21T22:16:28.392909+00:00"
+  "created_at": "2026-09-22T05:51:29.427220+00:00"
 }

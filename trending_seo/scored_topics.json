@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-21T22:15:05.413821+00:00",
+  "updated_at": "2026-09-22T05:24:18.278776+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -1734,6 +1734,316 @@
         "suggested_title": "Guide complet de PUBG: Dednet – date de sortie, plateformes, gameplay et astuces"
       },
       "reasoning": "Le sujet provient d'une annonce récente, ce qui le rend peu durable en tant que simple article d'actualité. Cependant, le jeu introduit un mélange inédit de FPS battle‑royale et de roguelike, ce qui crée une opportunité pour un guide evergreen qui pourra rester utile après la sortie. La requête \"guide PUBG Dednet\" est suffisamment longue et spécifique pour que GamerQuest puisse se positionner sans affronter la forte concurrence des termes génériques \"PUBG\". Le guide pourra être lié naturellement aux pages d'actualités sur le lancement, aux fiches de jeu PUBG existantes, aux tests de performance et aux offres de précommande ou de réduction, maximisant ainsi le potentiel de liens internes. Le score reflète la faible durabilité et le caractère news du sujet, mais compense par la spécificité du long‑tail, la pertinence pour le public français et le potentiel de liens internes."
+    },
+    {
+      "id": "rss-best-early-black-friday-gaming-laptop-deals-2026-the-bi-569f3ebbaadb",
+      "topic": "Best early Black Friday gaming laptop deals 2026, the biggest discounts ahead of the holiday sales",
+      "detected_at": "2026-09-19T21:00:59.420928+00:00",
+      "analysed_at": "2026-09-22T05:23:13.852422+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 20,
+        "long_tail_specificity": 10,
+        "french_relevance": 9,
+        "competition": 2,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 4
+      },
+      "total_score": 57,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/best-black-friday-gaming-laptop-deals-sales-prices/",
+          "title": "Best early Black Friday gaming laptop deals 2026, the biggest discounts ahead of the holiday sales",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Menu</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"Xv9o4JipkxZWnFuZH3m9jM\" name=\"Black Friday gaming laptop deals\" caption=\"\" alt=\"Razer and Asus gaming laptops on a green background with Black Friday deals badge in the middle\" src=\"https://cdn.mos.cms.futurecdn.net/Xv9o4JipkxZWnFuZH3m9jM-1920-80.jpg\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\"><strong>1. </strong><a data-analytics-id=\"inline-link\" href=\"#section-the-retailers-to-know\">Retailers to know</a></p><p class=\"fancy-box__body-text\"><strong>2. </strong><a data-analytics-id=\"inline-link\" href=\"#section-the-best-gaming-laptop-deals-ahead-of-black-friday\">Today's best deals</a></p></div></div><p>In a year that saw the <a href=\"https://www.ga"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "offres laptop gaming Black Friday 2026",
+        "secondary_keywords": [
+          "promo laptop gamer",
+          "meilleurs laptops gaming pas cher",
+          "Black Friday ordinateur portable gaming",
+          "guide achat laptop gaming",
+          "réductions laptops gaming 2026"
+        ],
+        "search_intent_type": "commercial investigation",
+        "recommended_angle": "Un guide evergreen qui explique comment choisir le laptop gaming idéal et profiter des meilleures promotions du Black Friday, avec une section actualisable chaque année pour les offres spécifiques (ex. 2026). Le contenu se concentre sur les critères de sélection, les marques à surveiller et les astuces pour maximiser les économies, tout en restant pertinent au fil du temps.",
+        "suggested_title": "Guide des meilleures offres de laptops gaming avant le Black Friday 2026 – Comment choisir et économiser"
+      },
+      "reasoning": "Le sujet est très saisonnier (Black Friday 2026) et donc peu durable, ce qui limite le score de durabilité. Cependant, l’intention de recherche est clairement commerciale et investigatrice, ce qui mérite un score élevé dans cette catégorie. La requête est très longue‑queue et spécifique à l’année, ce qui donne un bon score de spécificité, mais la forte concurrence sur les pages de deals Black Friday réduit le score de compétition. Le sujet est hautement pertinent pour le public français et s’aligne avec la ligne éditoriale de GamerQuest sur le hardware gaming, offrant de nombreuses opportunités de liens internes vers des tests de laptops, des comparatifs et des pages de promotions. Le guide proposé peut être mis à jour chaque année, transformant un sujet à forte valeur temporelle en ressource evergreen."
+    },
+    {
+      "id": "rss-the-big-bang-theory-spin-off-wanted-a-green-lantern-for-f00e6a3eed17",
+      "topic": "The Big Bang Theory spin-off wanted a Green Lantern for its surprise DC crossover episode, but the HBO show prevented it",
+      "detected_at": "2026-09-19T21:00:59.421126+00:00",
+      "analysed_at": "2026-09-22T05:23:15.909021+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 8,
+        "long_tail_specificity": 5,
+        "french_relevance": 4,
+        "competition": 7,
+        "gamerquest_relevance": 2,
+        "internal_link_potential": 1
+      },
+      "total_score": 32,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-tv-shows/the-big-bang-theory-spin-off-wanted-a-green-lantern-for-its-surprise-dc-crossover-episode-but-the-hbo-show-prevented-it/",
+          "title": "The Big Bang Theory spin-off wanted a Green Lantern for its surprise DC crossover episode, but the HBO show prevented it",
+          "evidence": "<article> <p>The trend of mad-capped cameos and character reveals in The Big Bang Theory spin-off Stuart Fails to Save the Universe continued this week when the gang found themselves in the DC Universe and were saved from Mr. Freeze by Jay Garrick, aka The Flash. It's a wonderfully world-breaking moment, but one that could've been considerably different with an added Green Lantern glow, if only they'd got the go-ahead.</p><p>Speaking to <a href=\"https://deadline.com/2026/09/stuart-fails-to-save-the-universe-dc-crossover-explained-1237099922/\" target=\"_blank\">Deadline</a> about their latest episode aptly titled 'We Couldn't Get The Green Lantern,' the show's co-creator, Zak Penn, recalled that when it came to making the request for a member of the Green Lantern Corps to drop in and save the day, he, along with creative colleagues Chuck Lorre and Bill Prady, got the answer they feared. </p><p>\"They told us we couldn’t have him because of <a href=\"https://www.gamesradar.com/entertainment/dc-tv-shows/lanterns-review/\">Lanterns</a>, which I understood,\" he explained. From there, they had to pick another hero from the DC Universe, and the idea came in a flash.</p><p>''Chuck was a little "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Green Lantern épisode The Big Bang Theory spin‑off",
+        "secondary_keywords": [
+          "crossover DC The Big Bang Theory",
+          "Stuart Fails to Save the Universe Green Lantern",
+          "Pourquoi pas Green Lantern The Big Bang Theory",
+          "episode surprise DC The Big Bang Theory"
+        ],
+        "search_intent_type": "informationnelle",
+        "recommended_angle": "Un article d'actualité qui explique pourquoi le spin‑off de The Big Bang Theory n’a pas pu intégrer Green Lantern, en détaillant le contexte du crossover DC, les contraintes de licences HBO et les réactions des fans, tout en rappelant les liens possibles avec les jeux vidéo DC.",
+        "suggested_title": "Pourquoi le spin‑off de The Big Bang Theory n’a pas pu faire cameo de Green Lantern"
+      },
+      "reasoning": "Le sujet est une actualité très ponctuelle liée à une série télévisée, ce qui limite fortement sa durabilité et son potentiel evergreen. L’intention de recherche est principalement informationnelle (les internautes veulent savoir pourquoi le cameo n’a pas eu lieu). La requête est très longue et spécifique, mais le volume de recherche en français sera limité. La pertinence pour un site gaming français est faible, même si un lien vers les jeux DC peut être envisagé. La concurrence sur les articles d’actualité est élevée, et la valeur du contenu dépend fortement de la récence, ce qui pénalise le score global. En conséquence, le sujet n’est pas recommandé comme ressource SEO durable pour GamerQuest FR."
+    },
+    {
+      "id": "rss-the-first-look-at-ian-mckellen-back-as-gandalf-in-the-h-b912a6cf3263",
+      "topic": "The first look at Ian McKellen back as Gandalf in The Hunt for Gollum has been revealed",
+      "detected_at": "2026-09-19T21:00:59.421364+00:00",
+      "analysed_at": "2026-09-22T05:23:19.287568+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 10,
+        "long_tail_specificity": 8,
+        "french_relevance": 6,
+        "competition": 2,
+        "gamerquest_relevance": 3,
+        "internal_link_potential": 1
+      },
+      "total_score": 35,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/lord-of-the-rings-movies/the-first-look-at-ian-mckellen-back-as-gandalf-in-the-hunt-for-gollum-has-been-revealed/",
+          "title": "The first look at Ian McKellen back as Gandalf in The Hunt for Gollum has been revealed",
+          "evidence": "<article> <p>We haven’t even seen Ian McKellen don his shiny red Magneto helmet in Avengers: Doomsday yet, and already he’s being prepped to reprise his other iconic role as Gandalf the Grey in the Lord of the Rings prequel that doesn't have \"The Hobbit\" in the title: <a href=\"https://www.gamesradar.com/entertainment/lord-of-the-rings-movies/the-hunt-for-gollum-release-date-cast-plot-trailer/\">The Lord of the Rings: The Hunt for Gollum</a>. </p><p>The actor who has appeared in all six live-action Middle-Earth movies so far is back again, this time in the chapter that will follow the desperate search for the former owner of The One Ring before it got into the hands of Frodo Baggins. <br><br>The new video wasn't a special reveal, but a message from the man himself to musician Troye Sivan, who asked McKellen to help narrate his new music video for the song \"Party.\" It just so happens that during this video, McKellen is looking incredibly grey, but in the way Lord of the Rings fans would fully endorse. </p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2100630442038714686\"><p la"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ian McKellen Gandalf The Hunt for Gollum première image",
+        "secondary_keywords": [
+          "première image The Hunt for Gollum",
+          "Ian McKellen Gandalf film 2026",
+          "date de sortie The Hunt for Gollum",
+          "The Hunt for Gollum film informations"
+        ],
+        "search_intent_type": "informationnelle (actualité)",
+        "recommended_angle": "Un article d'actualité concis qui présente la première image d'Ian McKellen reprenant le rôle de Gandalf dans le film « The Hunt for Gollum », en rappelant le contexte du projet, les liens avec l’univers du Seigneur des Anneaux et les éventuelles implications pour les jeux vidéo LOTR déjà couverts par GamerQuest.",
+        "suggested_title": "Ian McKellen de retour en Gandalf : première image de « The Hunt for Gollum »"
+      },
+      "reasoning": "Le sujet est une actualité très ponctuelle (première image d'un film à venir). Son intérêt diminue rapidement, ce qui limite la durabilité du contenu. La requête est clairement informationnelle et très ciblée, ce qui donne un bon score de spécificité long‑tail, mais la concurrence sur les mots‑clés liés à la sortie du film et à Gandalf est élevée, surtout pour les sites anglophones. En français, la recherche reste pertinente, mais le trafic potentiel reste limité et la pertinence pour GamerQuest est faible, car il s'agit d'un film et non d'un jeu. Le potentiel de liens internes est minime, limité à quelques renvois vers les pages de jeux LOTR déjà existantes. Ainsi, le score global reste bas, indiquant que ce sujet n'est pas idéal pour un contenu evergreen dédié sur GamerQuest FR."
+    },
+    {
+      "id": "rss-i-ve-watched-all-the-resident-evil-movies-so-you-don-t--93421219228c",
+      "topic": "I've watched all the Resident Evil movies, so you don't have to, and here's my ranking from worst to best",
+      "detected_at": "2026-09-19T21:00:59.422092+00:00",
+      "analysed_at": "2026-09-22T05:23:21.695836+00:00",
+      "scores": {
+        "durability": 18,
+        "search_intent": 20,
+        "long_tail_specificity": 12,
+        "french_relevance": 9,
+        "competition": 8,
+        "gamerquest_relevance": 8,
+        "internal_link_potential": 4
+      },
+      "total_score": 79,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/horror-movies/best-resident-evil-movies-ranked/",
+          "title": "I've watched all the Resident Evil movies, so you don't have to, and here's my ranking from worst to best",
+          "evidence": "<article> <p>With a new movie now out in the wild I've decided that it is time to rank all the best Resident Evil movies. That's right, from Milla Jovovich's outing as Alice in Paul W. S. Anderson's movies to all the reboots set in Raccoon City (including Zach Cregger's new <a href=\"https://www.gamesradar.com/entertainment/horror-movies/resident-evil-movie-release-date-cast-trailer-plot/\"><u>Resident Evil </u></a>flick), you'll find all eight T-Virus-inflicted films ordered from worst to most entertaining right here. </p><p>But before you dive into this ranking, first a disclaimer: even as a massive fan of these flicks and of the Resident Evil games, I will say that these aren't masterpieces in the traditional sense. I've seen every single Resi movie and can honestly tell you that only a few are coherent. Most only reference the <a href=\"https://www.gamesradar.com/best-resident-evil-games/\"><u>best Resident Evil games</u></a>, and none adapt them faithfully. However, they are a ton of fun, and at this point, iconic in the realm of video game movies in general. Whenever I'm looking for a B-Movie that I know is going to be wild and action heavy I still go back to the Resident Evil mo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "classement films Resident Evil",
+        "secondary_keywords": [
+          "quel film Resident Evil regarder",
+          "Resident Evil film meilleur",
+          "films Resident Evil ordre",
+          "ranking Resident Evil movies français",
+          "liste films Resident Evil"
+        ],
+        "search_intent_type": "informationnel (classement/comparatif)",
+        "recommended_angle": "Proposer un guide complet en français qui classe les 8 films Resident Evil du pire au meilleur, avec un bref synopsis, une note, les plateformes de streaming ou d'achat, et des liens vers les pages de jeux Resident Evil et les actualités du franchise sur GamerQuest.",
+        "suggested_title": "Classement des films Resident Evil : du pire au meilleur – Guide complet 2026"
+      },
+      "reasoning": "Le sujet est durable (les films restent pertinents même après la sortie du dernier opus) et répond à une forte intention d'information : les internautes cherchent souvent quel film Resident Evil regarder en premier ou quel est le meilleur. En français, les requêtes longues comme \"classement des films Resident Evil du pire au meilleur\" sont peu concurrentielles, ce qui offre une bonne opportunité de se positionner. Le thème est très pertinent pour la communauté francophone de GamerQuest, qui suit la franchise tant côté jeux que adaptations cinématographiques, et permet de créer de nombreux liens internes vers les pages de jeux, les actualités de la franchise et les offres de streaming ou d'achat. Le contenu peut être enrichi avec des extraits vidéo, des notes personnelles et des mises à jour futures si de nouveaux films sortent, assurant ainsi une bonne durabilité et un potentiel de trafic récurrent."
+    },
+    {
+      "id": "rss-this-is-your-reminder-that-over-the-garden-wall-is-back-6adb2d7b8baa",
+      "topic": "This is your reminder that Over the Garden Wall is back on Blu-ray, and a must-have fall edition to your physical media collection",
+      "detected_at": "2026-09-19T21:00:59.422425+00:00",
+      "analysed_at": "2026-09-22T05:23:33.978568+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 10,
+        "long_tail_specificity": 8,
+        "french_relevance": 7,
+        "competition": 6,
+        "gamerquest_relevance": 2,
+        "internal_link_potential": 1
+      },
+      "total_score": 39,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/this-is-your-reminder-that-over-the-garden-wall-is-back-on-blu-ray-and-a-must-have-fall-edition-to-your-physical-media-collection/",
+          "title": "This is your reminder that Over the Garden Wall is back on Blu-ray, and a must-have fall edition to your physical media collection",
+          "evidence": "<article> <p>The first sight of crispy orange leaves always <em>leaves</em> me with one desire: \"It's time for an Over the Garden Wall rewatch.\" Yet until recently, this was a pretty arduous task. And I really mean <em>recent</em>, as the latest Blu-ray print of the perfectly autumnal 10-episode animated series launched on April 7 earlier this very year.</p><p>Before the <a href=\"https://www.amazon.com/Cartoon-Network-Over-Garden-Blu-ray/dp/B0GJ4LBVKK/\" target=\"_blank\">$17.95</a> / <a href=\"https://www.amazon.co.uk/Over-Garden-Wall-BluRay-Region/dp/B0GSFYFB16/\" target=\"_blank\">£14.99 (via Amazon)</a> Blu-ray dropped, the existing release was stuck on random streaming sites and DVD. Even if you did manage to catch a physical copy, it was consistently listed for upwards of $100, which was too much, no matter how much I adore Wirt and Greg's adventures into the Unknown. Thankfully, stressing over sourcing the beloved series for a rewatch is no longer an issue, and I've gathered the best places to grab your copy down below, so all you have to worry about is sourcing the pumpkin spice lattes, blankets (and maybe some potatoes and molasses) for your cozy, fall rewatch.</p><div class=\"pro"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Over the Garden Wall Blu-ray",
+        "secondary_keywords": [
+          "date de sortie Over the Garden Wall Blu-ray",
+          "où acheter Over the Garden Wall Blu-ray France",
+          "prix Over the Garden Wall Blu-ray",
+          "édition automne Over the Garden Wall Blu-ray"
+        ],
+        "search_intent_type": "commercial investigation / news",
+        "recommended_angle": "Un article d'actualité court qui annonce la sortie du Blu‑ray d'Over the Garden Wall, indique la date de sortie, le prix et les points de vente français, avec un petit encadré \"où acheter\". Pas de traitement evergreen, mais un format news qui pourra être archivé comme référence ponctuelle.",
+        "suggested_title": "Over the Garden Wall : sortie du Blu‑ray 2026 – date, prix et où l’acheter en France"
+      },
+      "reasoning": "Le sujet porte sur la sortie d’un Blu‑ray d’une série animée, ce qui n’est pas directement lié à l’univers gaming de GamerQuest. La valeur SEO est limitée dans le temps (durabilité faible) et le trafic provient surtout de requêtes très spécifiques et ponctuelles (ex. « Over the Garden Wall Blu-ray où acheter »). Bien qu’il existe un certain intérêt commercial (recherche de points de vente), l’article ne constitue pas un contenu evergreen et ne s’intègre que marginalement aux guides ou actualités jeux de GamerQuest. La concurrence est modérée, mais la pertinence pour le site reste très basse, ce qui justifie un score global limité et recommande de traiter le sujet uniquement comme une courte news plutôt que comme une ressource permanente."
+    },
+    {
+      "id": "rss-control-resonant-review-deeply-weird-with-wondrous-supe-ab46292898c2",
+      "topic": "Control Resonant review: \"Deeply weird with wondrous supernatural vistas but bafflingly dull combat\"",
+      "detected_at": "2026-09-20T05:25:06.042912+00:00",
+      "analysed_at": "2026-09-22T05:23:48.374513+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 20,
+        "long_tail_specificity": 10,
+        "french_relevance": 8,
+        "competition": 3,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 3
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/control-resonant-review/",
+          "title": "Control Resonant review: \"Deeply weird with wondrous supernatural vistas but bafflingly dull combat\"",
+          "evidence": "<article> <p>Control Resonant is a weird game, and for once with a Remedy Entertainment joint it's not all for reasons I like. Playing through Dylan Faden's open adventure across a Manhattan warped by paranatural forces, bonking angry creatures with an equally paranatural big stick, I'm often left scratching my head. Sure, this isn't a numbered sequel, but it is Control's successor – so why is this a much longer, more spread-out, open world (<a href=\"https://www.gamesradar.com/games/action-rpg/control-resonant-trades-shooting-for-a-shapeshifting-sword-because-melee-is-cool-its-creative-director-tells-me-and-hes-not-wrong/\"><u>ahem, </u><u><em>open-ended world</em></u></a>) adventure? Why has the snappy shooting been replaced with melee? Why is the attack, attack, attack, dodge mashy combat loop I'm doing in hour one feel almost unchanged by hour 24?</p><p>There's still a lot to love about <a href=\"https://www.gamesradar.com/games/control-resonant-guide/\"><u>Control Resonant</u></a>. Some of it's carried over from the original <a href=\"https://www.gamesradar.com/control-walkthrough-guide/\"><u>Control</u></a>, a basis of fantastic, supernatural worldbuilding revolving around the Fede"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Control Resonant avis",
+        "secondary_keywords": [
+          "Control Resonant date de sortie",
+          "Control Resonant plateformes",
+          "Control Resonant gameplay",
+          "Control Resonant guide",
+          "Control Resonant critique",
+          "Control Resonant test"
+        ],
+        "search_intent_type": "Commercial investigation – recherche d'avis et de verdict d'achat",
+        "recommended_angle": "Proposer un avis complet et objectif de Control Resonant : analyse du gameplay, des environnements surnaturels, du système de combat, des points forts/faibles, et un verdict d'achat avec recommandations de plateformes et de prix.",
+        "suggested_title": "Control Resonant : avis complet, gameplay, date de sortie et où l’acheter"
+      },
+      "reasoning": "Le sujet porte sur une critique de Control Resonant, ce qui correspond à une intention de recherche commerciale (avis d'achat). En français, les requêtes \"Control Resonant avis\" et ses variantes sont assez spécifiques et génèrent un trafic de niche, ce qui permet de viser des mots‑clés longue traîne. Cependant, le contenu d'une revue est peu durable : il perd de la pertinence dès que le jeu sort et que de nouveaux avis apparaissent, d'où un score de durabilité très bas. La concurrence sur les avis de jeux populaires est élevée, ce qui réduit le score de compétition. Le sujet reste très pertinent pour GamerQuest FR, qui publie régulièrement des tests et des guides, et il offre des opportunités de liens internes vers les pages de news, de guides de jeu, de fiches de jeu et de deals. Malgré la faible durabilité, le fort potentiel d'intention commerciale et la spécificité française justifient la création d'une page d'avis evergreen, mise à jour régulièrement avec de nouvelles impressions et des informations de prix."
+    },
+    {
+      "id": "rss-build-a-boat-for-treasure-codes-september-2026-for-gold-b37bab51201c",
+      "topic": "Build a Boat for Treasure codes (September 2026) for Gold",
+      "detected_at": "2026-09-20T05:25:06.043039+00:00",
+      "analysed_at": "2026-09-22T05:24:04.903201+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 18,
+        "long_tail_specificity": 12,
+        "french_relevance": 7,
+        "competition": 3,
+        "gamerquest_relevance": 5,
+        "internal_link_potential": 3
+      },
+      "total_score": 53,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/simulation/build-a-boat-for-treasure-codes/",
+          "title": "Build a Boat for Treasure codes (September 2026) for Gold",
+          "evidence": "<article> <p>Build a Boat for Treasure codes are a great way to help you complete the classic experience's quest for the Roblox the Hunt 20 event. Once again, you'll need to build a boat, but the treasure this time is some special celebratory birthday cake. Get across the lake and bring it back to claim your exclusive event reward - and using these promos can help you get there.<br><br><em>While you're claiming all the </em><a href=\"https://www.gamesradar.com/games/puzzle/roblox-the-hunt-20-guide\"><em>Roblox the Hunt 20</em></a><em> items you can, there are also plenty of general rewards that can be used across all experiences, so check out our list of the current </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em> for those.</em></p><h2 class=\"article-body__section\" id=\"section-all-build-a-boat-for-treasure-codes\"><span>All Build a Boat for Treasure codes</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"MzyT86CBLjxnnvQ9KfbMek\" name=\"build-b"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "code Build a Boat for Treasure septembre 2026 Gold",
+        "secondary_keywords": [
+          "code Build a Boat for Treasure septembre 2026",
+          "code promo Build a Boat for Treasure Gold",
+          "code Roblox Build a Boat for Treasure",
+          "code Build a Boat for Treasure septembre 2026 date de sortie",
+          "code Build a Boat for Treasure guide"
+        ],
+        "search_intent_type": "informationnelle / transactionnelle (recherche de codes à activer)",
+        "recommended_angle": "Créer une page \"Guide des codes Build a Boat for Treasure – Septembre 2026 (Gold)\" qui liste les codes actifs, explique comment les saisir dans le jeu Roblox, indique la date d'expiration et propose des astuces pour profiter au mieux des récompenses. Utiliser un format réutilisable chaque mois afin de pouvoir mettre à jour rapidement les nouveaux codes, tout en conservant le même URL pour capitaliser sur le trafic récurrent.",
+        "suggested_title": "Codes Build a Boat for Treasure – Septembre 2026 (Gold) : liste complète et comment les activer"
+      },
+      "reasoning": "Le sujet est très spécifique (codes mensuels pour un jeu Roblox) et répond à une intention de recherche claire : les joueurs veulent obtenir les codes du mois pour débloquer des récompenses. Le caractère mensuel rend la page peu durable (score bas en durabilité) mais le format récurrent permet de la réutiliser chaque mois, augmentant ainsi la valeur à long terme. La requête est longue et très ciblée, ce qui facilite le classement malgré une concurrence élevée sur les listes de codes. Le sujet est pertinent pour le public francophone de GamerQuest, qui s'intéresse aux jeux Roblox, et il offre des opportunités de liens internes vers les pages de jeu Roblox, les guides de gameplay et les actualités de promotions. Cependant, la forte concurrence des sites spécialisés dans les codes et le caractère éphémère du contenu limitent le score global, surtout en durabilité et en pertinence interne."
+    },
+    {
+      "id": "rss-30-years-of-diablo-with-diablo-iv-devs-owen-leach-and-d-c6d420e929b7",
+      "topic": "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026",
+      "detected_at": "2026-09-20T05:25:06.209464+00:00",
+      "analysed_at": "2026-09-22T05:24:18.278752+00:00",
+      "scores": {
+        "durability": 5,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 9,
+        "competition": 4,
+        "gamerquest_relevance": 7,
+        "internal_link_potential": 4
+      },
+      "total_score": 51,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/videos/30-years-of-diablo-with-diablo-iv-devs-owen-leach-and-dan-tanguay-play-history-at-blizzcon-2026/",
+          "title": "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026",
+          "evidence": "GameSpot published a fresh gaming story titled: 30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "30 ans de Diablo",
+        "secondary_keywords": [
+          "histoire de Diablo",
+          "chronologie Diablo",
+          "Diablo BlizzCon 2026",
+          "interview développeurs Diablo IV",
+          "évolution de la saga Diablo"
+        ],
+        "search_intent_type": "informationnelle",
+        "recommended_angle": "Créer un guide complet et intemporel qui retrace les 30 ans d’histoire de la série Diablo, en présentant chaque opus, les évolutions majeures du gameplay, les moments clés du lore et les anecdotes de développement, tout en citant l’interview des devs dDiablo IV présentée à BlizzCon 2026 comme source d’informations exclusives.",
+        "suggested_title": "Diablo : 30 ans d’histoire – Le guide complet de la saga"
+      },
+      "reasoning": "Le sujet provient d’un événement BlizzCon 2026, ce qui le rend très temporel et peu durable en tant que contenu purement journalistique. Cependant, le thème « 30 ans de Diablo » possède un fort potentiel evergreen s’il est traité comme un guide historique de la franchise, répondant à une intention de recherche informationnelle durable. La requête longue‑queue « 30 ans de Diablo » est spécifique et peu concurrentielle, surtout en français, ce qui permet à GamerQuest FR de se positionner. Le sujet est hautement pertinent pour le public français et s’aligne avec la ligne éditoriale de GamerQuest (actualités, guides, interviews). Il offre de nombreuses opportunités de liens internes vers les pages actualités Diablo IV, les guides de jeu, les critiques et les offres promotionnelles, renforçant la maillage interne du site."
     }
   ]
 }

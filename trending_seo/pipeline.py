@@ -65,6 +65,7 @@ SEO_INTENT_HISTORY_FILE = (
 PIPELINE_VERSION = "2.0"
 
 MODEL = "openai/gpt-oss-120b"
+SEO_ARTICLE_MAX_TOKENS = 1500
 
 # Publish several independent SEO articles per run while preserving
 # the research, image, duplicate-intent and quality gates.
@@ -976,7 +977,7 @@ def generate_seo_article(
     response = None
     last_error = None
 
-    for attempt in range(1, 3):
+    for attempt in range(1, 4):
         try:
             response = (
                 client.chat.completions.create(
@@ -996,26 +997,39 @@ def generate_seo_article(
                             "content": prompt,
                         },
                     ],
-                    temperature=0.4,
-                    max_tokens=2600,
+                    temperature=0.25,
+                    max_tokens=SEO_ARTICLE_MAX_TOKENS,
                 )
             )
             break
 
         except RateLimitError as error:
             last_error = error
+            error_text = str(error).lower()
 
-            if attempt >= 2:
+            # Daily caps cannot recover inside this job.
+            if "tokens per day" in error_text or "tpd" in error_text:
                 break
 
-            wait_seconds = min(
-                4 * attempt,
-                16,
-            )
+            if attempt >= 3:
+                break
+
+            retry_after = None
+            try:
+                retry_after = error.response.headers.get("retry-after")
+            except Exception:
+                retry_after = None
+
+            try:
+                wait_seconds = float(retry_after) + 2
+            except (TypeError, ValueError):
+                wait_seconds = 8 * attempt
+
+            wait_seconds = min(max(wait_seconds, 6), 30)
             print(
                 "Groq temporary rate limit during SEO writing; "
-                f"retrying in {wait_seconds}s "
-                f"({attempt}/2)."
+                f"retrying in {wait_seconds:.1f}s "
+                f"({attempt}/3)."
             )
             time.sleep(wait_seconds)
 
@@ -2133,6 +2147,7 @@ def main() -> None:
 
     published_count = 0
     attempted_count = 0
+    rate_limited = False
 
     for raw_topic in candidates:
         if published_count >= MAX_ARTICLES_PER_RUN:
@@ -2158,11 +2173,14 @@ def main() -> None:
             history=current_history,
         )
 
-        if (
-            isinstance(result, dict)
-            and result.get("published") is True
-        ):
-            published_count += 1
+        if isinstance(result, dict):
+            if result.get("published") is True:
+                published_count += 1
+            if result.get("status") == "BLOCKED_AI_RATE_LIMIT":
+                rate_limited = True
+                # Do not burn more candidates while the shared free-tier
+                # token window is unavailable.
+                break
 
     print("")
     print("=" * 60)
@@ -2175,6 +2193,10 @@ def main() -> None:
     print(
         f"Candidates attempted: {attempted_count}"
     )
+
+    if published_count == 0 and rate_limited:
+        # Production outages must be visible in GitHub instead of a false green.
+        raise SystemExit(75)
 
 
 if __name__ == "__main__":

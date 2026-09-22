@@ -41,6 +41,9 @@ BLOCKED_TAGS = {
     "pc", "steam", "epic", "epic games", "nintendo", "nintendo switch",
     "nintendo switch 2", "switch 2", "switch", "dlc", "update", "patch",
     "playstation", "game pass", "xbox game pass", "gamescom", "state of play",
+    "trailer", "date de sortie", "news jeux", "patch notes", "calendrier sortie",
+    "préservation jeux", "preservation jeux", "esports", "communauté gaming",
+    "communaute gaming",
 }
 
 

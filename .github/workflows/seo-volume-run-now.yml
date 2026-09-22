@@ -95,7 +95,9 @@ jobs:
 
       - name: Shared Groq ceiling reached
         if: ${{ steps.groq_budget.outputs.allowed != 'true' }}
-        run: echo "SEO volume run skipped before any Groq call: ${{ steps.groq_budget.outputs.reason }}"
+        run: |
+          echo "SEO volume run skipped before any Groq call."
+          echo "Reason: ${{ steps.groq_budget.outputs.reason }}"
 
       - name: Save SEO state
         if: always()

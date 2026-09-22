@@ -78,10 +78,8 @@ def tpm_ceiling() -> int:
 
 
 def run_budget() -> int:
-    # Missing/zero budget means "no production allocation". Unit tests can set
-    # GROQ_BUDGET_BYPASS=1 when they intentionally exercise a mocked client.
-    if os.getenv("GROQ_BUDGET_BYPASS") == "1":
-        return 10**9
+    # Missing/zero budget means "no production allocation". There is no
+    # production bypass: every real Groq caller must receive a reserved budget.
     return _int_env("GROQ_RUN_TOKEN_BUDGET", 0)
 
 

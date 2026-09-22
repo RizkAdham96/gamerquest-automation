@@ -1,0 +1,18 @@
+{
+  "date_utc": "2026-09-22",
+  "global_reserved": 8000,
+  "lanes": {
+    "news": 0,
+    "seo": 0,
+    "social": 8000,
+    "manual": 0
+  },
+  "reservations": [
+    {
+      "id": "35776180871-1-social",
+      "lane": "social",
+      "tokens": 8000,
+      "reserved_at": "2026-09-22T19:49:05.837445+00:00"
+    }
+  ]
+}

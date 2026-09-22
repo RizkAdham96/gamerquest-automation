@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T21:59:02.715557+00:00",
+  "generated_at": "2026-09-22T04:57:01.769374+00:00",
   "mode": "shadow",
-  "count": 125,
+  "count": 137,
   "opportunities": [
     {
       "id": "rss-cloud-is-still-the-main-character-of-final-fantasy-7-re-cf45bad46657",
@@ -209,6 +209,47 @@
       ]
     },
     {
+      "id": "rss-all-roads-lead-back-to-arma-9fb7213b2bb3",
+      "title": "'All roads lead back to Arma'",
+      "source_type": "seo_intel",
+      "keywords": [
+        "'All roads lead back to Arma'",
+        "'All roads lead back to Arma' date de sortie",
+        "'All roads lead back to Arma' plateformes",
+        "'All roads lead back to Arma' gameplay",
+        "'All roads lead back to Arma' guide",
+        "'All roads lead back to Arma' avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/all-roads-lead-back-to-arma/",
+          "title": "'All roads lead back to Arma'",
+          "evidence": "<article> <h2 id=\"the-arma-family-tree\">The ArmA family tree</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1472px;\"><p class=\"vanilla-image-block\" style=\"padding-top:51.29%;\"><img id=\"s3MzhyPbENF8bFsryNGLdE\" name=\"inspired\" alt=\"ArmA family tree\" src=\"https://cdn.mos.cms.futurecdn.net/s3MzhyPbENF8bFsryNGLdE-1920-80.png\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"1472\" height=\"755\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/s3MzhyPbENF8bFsryNGLdE-1920-80.png' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p>This <a href=\"https://www.tiktok.com/@biffmatic/video/7686338094685097238\" target=\"_blank\">TikTok from Biffmatic</a> (recently reshared by Bohemia Interactive) reminded me just how different PC gaming would look today if not for Arma, the long-running milsim series that's still going strong.</p><p>Pretty much e"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-the-largest-theft-of-labor-in-human-history-court-docs--d96fcb6ea07b",
       "title": "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet",
       "source_type": "seo_intel",
@@ -310,6 +351,47 @@
           "url": "https://www.gamesradar.com/games/rpg/after-forza-horizon-fable-devs-wanted-to-prove-we-could-cut-it-in-a-different-genre-lead-says-there-was-a-little-bit-of-pride/",
           "title": "After Forza Horizon, Fable devs wanted to prove \"we could cut it in a different genre,\" lead says: \"There was a little bit of pride\"",
           "evidence": "<article> <p><a href=\"https://www.gamesradar.com/fable-4-release-date-news-rumours/\">Next year's big Fable revival</a> is being handled by Playground Games, the Xbox-owned studio behind the Forza Horizon series, taking over from Lionhead Studios. The developer just launched <a href=\"https://www.gamesradar.com/forza-horizon-6-guide/\">Forza Horizon 6</a> to near universal acclaim this year, but now it's set to release Fable on February 23, 2027, and everyone's eager to see what a fantasy RPG from a beloved franchise looks and plays like when it's designed by a team that's only ever made racing games. </p><p>The choice of Playground Games as Fable's developer might seem like an odd one at first blush, but from the perspective of the studio, it's an opportunity for them to prove themselves in a completely different space.</p><p>\"I think there was a little bit of pride in proving we could cut it in a different genre,\" Playground co-founder and Fable game director Ralph Fulton tells <a href=\"https://www.theguardian.com/games/2026/sep/15/we-were-bored-of-traditional-fantasy-cliches-inside-playground-games-10-year-effort-to-revive-fable\" target=\"_blank\">The Guardian</a>, who points out the"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-alright-wow-forever-gamers-are-we-team-hd-models-or-tea-9d2cf15f9e72",
+      "title": "Alright WoW: Forever gamers, are we team HD models or team old school models?",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Alright WoW: Forever gamers, are we team HD models or team old school models?",
+        "Alright WoW: Forever gamers, are we team HD models or team old school models? date de sortie",
+        "Alright WoW: Forever gamers, are we team HD models or team old school models? plateformes",
+        "Alright WoW: Forever gamers, are we team HD models or team old school models? gameplay",
+        "Alright WoW: Forever gamers, are we team HD models or team old school models? guide",
+        "Alright WoW: Forever gamers, are we team HD models or team old school models? avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/alright-wow-forever-gamers-are-we-team-hd-models-or-team-old-school-models/",
+          "title": "Alright WoW: Forever gamers, are we team HD models or team old school models?",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/uk/world-of-warcraft-forever/\" target=\"_blank\">World of Warcraft: Forever</a> has a nice little toggle that lets you switch between Classic's old-school models and Retail's newer, shinier ones. But which one are you using?</p><p>Personally, I'm sporting the HD models. The big braided mohawk style on trolls just looks <em>so </em>much better. You can see a little comparison of my current Forever Shaman up in the ol' header image; peep how she looks in each style and let me know which one you like more!</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-W0EN7O\"></div> </div> <script src=\"https://kwizly.com/embed/W0EN7O.js\" async></script> </article>"
         }
       ],
       "score": 93,
@@ -578,6 +660,47 @@
       ]
     },
     {
+      "id": "rss-blizzard-warns-world-of-warcraft-forever-players-it-wil-ed4908550517",
+      "title": "Blizzard warns World of Warcraft: Forever players it will 'very aggressively' punish anyone who buys gold with real money",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Blizzard warns World of Warcraft: Forever players it will 'very aggressively' punish anyone who buys gold with real money",
+        "Blizzard warns World of Warcraft: Forever players it will 'very aggressively' punish anyone who buys gold with real money date de sortie",
+        "Blizzard warns World of Warcraft: Forever players it will 'very aggressively' punish anyone who buys gold with real money plateformes",
+        "Blizzard warns World of Warcraft: Forever players it will 'very aggressively' punish anyone who buys gold with real money gameplay",
+        "Blizzard warns World of Warcraft: Forever players it will 'very aggressively' punish anyone who buys gold with real money guide",
+        "Blizzard warns World of Warcraft: Forever players it will 'very aggressively' punish anyone who buys gold with real money avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/blizzard-warns-world-of-warcraft-forever-players-it-will-very-aggressively-punish-anyone-who-buys-gold-with-real-money/",
+          "title": "Blizzard warns World of Warcraft: Forever players it will 'very aggressively' punish anyone who buys gold with real money",
+          "evidence": "<article> <p>A common early World of Warcraft experience was to stumble into a <a href=\"https://www.reddit.com/r/wow/comments/2y2vb3/back_in_wrath_gold_sellers_used_to_suicide_in/\">series of corpses</a> lying on the ground that, when looked at from the right angle, spelled out a URL for a site where you can pay real money for in-game gold.</p><p>Gold was scarce back then, which spawned an entire market for buying it instead of grinding for it. Even if you never touched one of those sites, it was impossible to not see ads online or splayed out in front of you in a popular city.</p><p>Blizzard has taken a light touch in the past when it comes to punishing people who willingly violate the MMO's EULA with real-money trading (RMT), but promises that won't be the case for World of Warcraft: Forever.</p><p>In a recent <a href=\"https://youtu.be/Y5zzSMSVhRo\">Q&A</a>, senior game designer Josh Greenfield addressed concerns about guilds letting players bid on items with gold (known as \"gold dragon kill points\" or GDKP) and the risks of RMT in WoW: Forever. He emphasized that Blizzard will \"very aggressively punish gold buyers,\" to prevent the in-game trading economy from getting out of hand.<"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-brad-pitt-to-return-for-world-war-z-sequel-from-conclav-0a1f3f51be5b",
       "title": "Brad Pitt to return for World War Z sequel from Conclave director",
       "source_type": "seo_intel",
@@ -638,6 +761,47 @@
           "url": "https://www.gamesradar.com/games/simulation/build-a-boat-for-treasure-codes/",
           "title": "Build a Boat for Treasure codes (September 2026) for Gold",
           "evidence": "<article> <p>Build a Boat for Treasure codes are a great way to help you complete the classic experience's quest for the Roblox the Hunt 20 event. Once again, you'll need to build a boat, but the treasure this time is some special celebratory birthday cake. Get across the lake and bring it back to claim your exclusive event reward - and using these promos can help you get there.<br><br><em>While you're claiming all the </em><a href=\"https://www.gamesradar.com/games/puzzle/roblox-the-hunt-20-guide\"><em>Roblox the Hunt 20</em></a><em> items you can, there are also plenty of general rewards that can be used across all experiences, so check out our list of the current </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em> for those.</em></p><h2 class=\"article-body__section\" id=\"section-all-build-a-boat-for-treasure-codes\"><span>All Build a Boat for Treasure codes</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"MzyT86CBLjxnnvQ9KfbMek\" name=\"build-b"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-bungie-un-cancels-destiny-vaulted-content-is-coming-bac-fa9ca7aa73ab",
+      "title": "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'",
+        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' date de sortie",
+        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' plateformes",
+        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' gameplay",
+        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' guide",
+        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/bungie-un-cancels-destiny-vaulted-content-is-coming-back-as-new-leadership-promises-destiny-is-foundational-to-our-future/",
+          "title": "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/asnrQ1UoBQM\" allowfullscreen></iframe></div></div><p>Bungie's new leadership duo laid out the \"next chapter of Bungie\" today in a blog post with an accompanying video. The big news is that Bungie has essentially uncanceled Destiny 2, or will at least go the lengths to finally undo its greatest mistake: vaulting a bunch of raids and multiple of its story campaigns. Funnily enough, that work has already begun on the community side with a <a href=\"https://www.pcgamer.com/games/fps/destiny-2-players-are-learning-how-to-crack-into-its-infamous-content-vault-by-tinkering-with-old-builds/\" target=\"_blank\">mod project</a> that makes vaulted content playable through an offline build of Destiny.</p><p>I got off the Destiny train a long time ago, but its \"downward spiral,\" as PCG's Lincoln Carpenter <a href=\"https://www.pcgamer.com/games/fps/destiny-2-hasnt-been-the-game-id-loved-in-years-but-it-still-sucks-to-know-its-ending/\" target=\"_blank\">put it in May</a>, was a series of unforced errors that really began with the widel"
         }
       ],
       "score": 93,
@@ -1562,6 +1726,47 @@
       ]
     },
     {
+      "id": "rss-gta-5-has-true-air-travel-now-thanks-to-the-mod-i-just--d37ae31c7746",
+      "title": "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane",
+      "source_type": "seo_intel",
+      "keywords": [
+        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane",
+        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane date de sortie",
+        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane plateformes",
+        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane gameplay",
+        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane guide",
+        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-5-has-true-air-travel-now-thanks-to-the-mod-i-just-installed-but-they-wont-let-me-give-me-my-pals-piggybacks-onto-the-plane/",
+          "title": "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>It might feel minnowish compared to modern open worlds, but Los Santos is still a schlep to get across. Whether you're on a bike, in a car, or hoofing it on-foot, it takes a while to get from the city itself out to the northernmost boonies. Well, no more.</p><p><a href=\"https://www.gta5-mods.com/scripts/flights-v-airports-mod\" target=\"_blank\">Flights V</a> is a mod that turns GTA 5's airports into, ah, airports. That is to say, you can now rock up to a desk in the terminal, pick up a ticket, and jet off (as a passenger) to one of a select few other points on the map: LSI"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-hello-sunshine-s-latest-trailer-has-me-even-more-excite-83764a701063",
       "title": "Hello Sunshine's latest trailer has me even more excited for the giant robot game",
       "source_type": "seo_intel",
@@ -1972,6 +2177,47 @@
       ]
     },
     {
+      "id": "rss-i-m-taking-insomniac-s-wolverine-patch-as-a-sign-this-i-8e0b0d82aa23",
+      "title": "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get",
+      "source_type": "seo_intel",
+      "keywords": [
+        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get",
+        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get date de sortie",
+        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get plateformes",
+        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get gameplay",
+        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get guide",
+        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/im-taking-insomniacs-wolverine-patch-as-a-sign-this-is-as-bad-as-its-going-to-get/",
+          "title": "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get",
+          "evidence": "<article> <p>I'm calling it here—this is as bad as it's gonna get. Insomniac's Wolverine has been getting <a href=\"https://www.pcgamer.com/games/action/wolverine-review-roundup-frankly-were-starting-to-feel-a-little-better-about-the-whole-playstation-5-exclusive-thing/\">slapped around a fair bit</a> because it's perhaps the summit, the zenith—of 'how much handholding can you put in a game before we all get sick of it'. </p><p>And listen, I've actually defended yellow paint on this site before. I am in agreement with most developers that <a href=\"https://www.pcgamer.com/gaming-industry/game-development/the-problem-isnt-necessarily-the-yellow-paint-says-the-witcher-4-design-lead-but-its-overuse-people-see-through-the-smoke-and-mirrors/\">a little guidance is good</a>. Players do need environments that guide them, they do need the occasional bit of direction, and while they're smarter than Insomniac's given them credit for? They are also kind of dumb sometimes. </p><p>But they aren't <em>this dumb. </em>I've seen clips of Wolverine that look ripped straight out of parody videos—Logan does not need a scent trail, red flashing lights, and a snow trail so cleanly placed it might as well h"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-i-ve-been-hands-on-with-all-the-new-warhammer-40k-space-12e5f7ee7633",
       "title": "I've been hands on with all the new Warhammer 40K Space Marine models, these are the ones you should buy",
       "source_type": "seo_intel",
@@ -2312,7 +2558,7 @@
         "Late Nintendo president Satoru Iwata never wanted tons of Mario and Zelda sequels because that's \"not the kind of company I want Nintendo to be\" avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 71,
       "sources": [
         {
           "type": "publisher",
@@ -2435,7 +2681,7 @@
         "Marvel fans think the new VisionQuest posters are hiding an Easter egg that means more character reveals are coming avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 35,
       "sources": [
         {
           "type": "publisher",
@@ -2751,6 +2997,47 @@
       ]
     },
     {
+      "id": "rss-oh-good-the-pervert-s-back-1068628e557f",
+      "title": "Oh good, the pervert's back",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Oh good, the pervert's back",
+        "Oh good, the pervert's back date de sortie",
+        "Oh good, the pervert's back plateformes",
+        "Oh good, the pervert's back gameplay",
+        "Oh good, the pervert's back guide",
+        "Oh good, the pervert's back avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/oh-good-the-perverts-back/",
+          "title": "Oh good, the pervert's back",
+          "evidence": "<article> <p>While I've been pleased to watch Capcom begin teasing out previews of the expanded monster roster we'll face in Monster Hunter Wilds: Ascendance, its returning Elder Dragons have left me with a persistent feeling that something's still missing—something utterly detestable and unsettlingly phallic.</p><p>Thankfully, that hole in my life has been filled. Over the weekend, <a href=\"https://x.com/monsterhunter/status/2101204647952474400?s=20\" target=\"_blank\">Capcom confirmed</a> that Ascendance will be a homecoming for its most hateful horror: Khezu, the flabbiest, drippiest member of the Flying Wyvern family that for years has given hunters cause to ask \"why is it like that\" and \"how did they manage to make it even worse?\" If you're not already acquainted with its many unpleasant aspects, allow me to introduce you:</p><div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/T5zriyXsngejF5X2Vwn6GT.jpg\" alt=\"Khezu model render in Monster Hunter Wilds.\"></p></div><div class=\"card__content\"><"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-over-10-years-later-gabe-newell-s-advice-to-devs-still--18472259a553",
       "title": "Over 10 years later, Gabe Newell's advice to devs still holds up",
       "source_type": "seo_intel",
@@ -2968,7 +3255,7 @@
         "Portal could've had \"a bunch of gore and dead bodies\" if one dev had his way, says Valve veteran, but Gabe Newell considered it \"the stupidest question ever\" avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 67,
       "sources": [
         {
           "type": "publisher",
@@ -3120,6 +3407,47 @@
       ]
     },
     {
+      "id": "rss-rockstar-asks-modders-to-please-take-its-games-very-ser-b0a3a54c93fe",
+      "title": "Rockstar asks modders to please take its games very seriously",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Rockstar asks modders to please take its games very seriously",
+        "Rockstar asks modders to please take its games very seriously date de sortie",
+        "Rockstar asks modders to please take its games very seriously plateformes",
+        "Rockstar asks modders to please take its games very seriously gameplay",
+        "Rockstar asks modders to please take its games very seriously guide",
+        "Rockstar asks modders to please take its games very seriously avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-asks-modders-to-please-take-its-games-very-seriously/",
+          "title": "Rockstar asks modders to please take its games very seriously",
+          "evidence": "<article> <h2 id=\"what-happened\">What happened</h2><ul><li>On September 10, <strong>Rockstar Games </strong><a href=\"https://www.rockstargames.com/community-resources/mod-guidelines\"><strong>published new mod guidelines</strong></a> on its website, which it says are intended to \"maintain a fun, creative, and welcoming place for players and content creators.\"</li><li>The guidelines are seem primarily targeted at mods for the FiveM and RedM platforms, which <a href=\"https://www.pcgamer.com/rockstar-buys-the-makers-of-the-gta-online-fivem-mod-it-banned-8-years-ago/\">Rockstar acquired</a>—along with their developers—in 2023.</li><li><strong>Rockstar says mods must \"respect our games\":</strong> As part of its \"right to set limits on how others can use our games and brand,\" the studio says mods can't expand or modify official storylines, missions, and characters, and can't combine settings and characters from different Rockstar franchises.</li><li>Rockstar says <strong>modders can't incorporate other intellectual property</strong> or<strong> </strong>real-world likenesses, and forbids cheat menus or modifications that interfere with its official multiplayer and online services.</li><li>R"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-roguelike-fps-dednet-exists-to-spread-the-gospel-of-pub-df53536af9f7",
       "title": "Roguelike FPS Dednet exists to spread \"the gospel of PUBG,\" says creative director, which means it has \"infinite\" gameplay opportunities",
       "source_type": "seo_intel",
@@ -3132,7 +3460,7 @@
         "Roguelike FPS Dednet exists to spread \"the gospel of PUBG,\" says creative director, which means it has \"infinite\" gameplay opportunities avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 39,
       "sources": [
         {
           "type": "publisher",
@@ -3378,7 +3706,7 @@
         "Stranger Things: Tales from '85 season 2 has debuted to a franchise-low Rotten Tomatoes score avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 35,
       "sources": [
         {
           "type": "publisher",
@@ -3624,7 +3952,7 @@
         "The Evercade Dual Thumbstick Wireless Controller readies the cartridge-based retro console for early 3D gaming, even if it's not my outright favorite retro gamepad avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 72,
       "sources": [
         {
           "type": "publisher",
@@ -3788,7 +4116,7 @@
         "The Pimax Dream Air costs double the Steam Frame, and while its visuals are worth every penny, its performance demands and inconsistencies make it hard to recommend avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 76,
       "sources": [
         {
           "type": "publisher",
@@ -4034,7 +4362,7 @@
         "The worst experience I've had with a game all year: How catastrophic bugs in Mortal Shell 2 nearly killed it for me avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 47,
       "sources": [
         {
           "type": "publisher",
@@ -4205,6 +4533,47 @@
           "url": "https://www.pcgamer.com/games/action/tokyo-walled-city-looks-set-to-fill-the-deus-ex-shaped-hole-in-my-life/",
           "title": "Tokyo Walled City looks set to fill the Deus Ex-shaped hole in my life",
           "evidence": "<article> <p>It's been more than a decade since the last<a href=\"https://www.pcgamer.com/uk/deus-ex/\"> Deus Ex</a> game, and it's unlikely we'll see another one any time soon. Yet while Adam Jensen's story remains frustratingly unfinished thanks to the cliffhanger ending of<a href=\"https://www.pcgamer.com/deus-ex-mankind-divided-review/\"> Deus Ex: Mankind Divided</a>, the indie scene has offered fresh hope for fans of sneaking through moody cyberpunk cityscapes in the form of newly revealed immersive sim<a href=\"https://store.steampowered.com/app/4165760/TOKYO_WALLED_CITY/\"> Tokyo Walled City</a>.</p><p>Unveiled at<a href=\"https://www.pcgamer.com/gaming-industry/events-conferences/how-to-watch-the-pc-gaming-show-tokyo-direct-2025/\"> TGS 2026</a>, Tokyo Walled City is described by developer Grim Ronin as a \"stealth action retro-cyberpunk immersive sim with survival horror and RPG elements\". So, Deus Ex with scary bits, basically. You play as Reiko Kimura, a mercenary who is trapped in a dense, fortified district of Japan's capital, the name of which implies it is inspired by the Internet's favourite historic enclave Kowloon Walled City. Blade Runner is another clear inspiration, wit"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-touch-grass-not-when-amd-has-whittled-down-ray-tracing--3f4ca4c353bc",
+      "title": "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees",
+        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees date de sortie",
+        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees plateformes",
+        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees gameplay",
+        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees guide",
+        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/touch-grass-not-when-amd-has-whittled-down-ray-tracing-memory-usage-by-98-percent-for-these-hardware-sapping-bushes-and-trees/",
+          "title": "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees",
+          "evidence": "<article> <p>As someone who spent a lot of their childhood talking to trees, I'm of the opinion that videogame forestry doesn't need to look any better than <a href=\"https://www.pcgamer.com/alan-wake-2-review/\" target=\"_blank\">Alan Wake 2</a>'s Pacific Northwest woodlands. That hasn't stopped AMD from innovating though; by leveraging 'tetrahedral cages' to help render a vast scene of greenery, researchers at the company say they've managed to cut the potential ray tracing memory usage by 98%.</p><p>Typically, a scene of around 25,000 independently animated plants made of hundreds of thousands of triangles could hoover up 80 GB of GPU memory. Not only that, but it would take a <a href=\"https://www.pcgamer.com/hardware/graphics-cards/amd-radeon-rx-9700-xt-review-asus-prime-oc/\" target=\"_blank\">Radeon RX 9070 XT</a> GPU 300 ms per frame to check which surfaces within a scene are intersecting with a ray (the data structure that organises this information is called a Bounding Volume Hierarchy). In short, using traditional tech to render such a densely populated scene would be slow and choppy.</p><p>Holger Gruen, a Fellow of AMD's Advanced Graphics Program, <a href=\"https://gpuopen.com/l"
         }
       ],
       "score": 93,
@@ -4473,6 +4842,47 @@
       ]
     },
     {
+      "id": "rss-wait-how-did-lego-beat-minecraft-to-making-a-city-build-053d2a4effa2",
+      "title": "Wait, how did Lego beat Minecraft to making a city builder?",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Wait, how did Lego beat Minecraft to making a city builder?",
+        "Wait, how did Lego beat Minecraft to making a city builder? date de sortie",
+        "Wait, how did Lego beat Minecraft to making a city builder? plateformes",
+        "Wait, how did Lego beat Minecraft to making a city builder? gameplay",
+        "Wait, how did Lego beat Minecraft to making a city builder? guide",
+        "Wait, how did Lego beat Minecraft to making a city builder? avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/city-builder/wait-how-did-lego-beat-minecraft-to-making-a-city-builder/",
+          "title": "Wait, how did Lego beat Minecraft to making a city builder?",
+          "evidence": "<article> <p>Lego announced a city builder called <a href=\"https://store.steampowered.com/app/1573550/LEGO_Skylines/\">Lego Skylines</a> last month and we all collectively said: \"<a href=\"https://www.pcgamer.com/games/sim/lego-is-finally-fulfilling-its-destiny-by-making-a-city-builder/\">Oh yeah, duh</a>.\" A landscape of colorful bricks snapping together into a metropolis from the godlike perspective we already view our real life Legos just makes sense. </p><p>Hold on, what about the brand I affectionately refer to as \"digital Legos\"? Minecraft should by rights have spawned a city building spinoff by now. How were Lego and Mojang not competing over this category of PC players years ago?</p><h2 id=\"minecraft-as-a-city-builder\">Minecraft as a city builder:</h2><div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/jsEzdwvDf7rEGSsQ6LmC8n.jpg\" alt=\"Minecraft 1.20 - Steve celebrates his new camel pal\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">It makes sense</h3><div class=\"card__descr"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-wardogs-boss-admits-we-definitely-have-a-balancing-issu-202b61503601",
       "title": "Wardogs boss admits \"we definitely have a balancing issue\" as blue team gets destroyed for \"mixed reasons\"",
       "source_type": "seo_intel",
@@ -4719,6 +5129,47 @@
       ]
     },
     {
+      "id": "rss-wow-forever-has-rendered-me-a-min-maxing-hypocrite-and--5011b274e36f",
+      "title": "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me",
+      "source_type": "seo_intel",
+      "keywords": [
+        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me",
+        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me date de sortie",
+        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me plateformes",
+        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me gameplay",
+        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me guide",
+        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-has-rendered-me-a-min-maxing-hypocrite-and-heres-how-you-can-join-me/",
+          "title": "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me",
+          "evidence": "<article> <h2 id=\"i-swore-i-39-d-never-become-this-evil\">I swore I'd never become this evil</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"HbTTZa4sxmPugVhkyggzeW\" name=\"MoP Remix.png\" alt=\"An image of a Pandaren holding jade lightning in Mists of Pandaria: Remix.\" src=\"https://cdn.mos.cms.futurecdn.net/HbTTZa4sxmPugVhkyggzeW-1920-80.png\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"caption-text\">\"I think there are some genuine wrinkles in MoP: Remix, for sure. I'd like to see the shared XP buff thing return, for example—but the frog farming is only a problem if you view the event as a competitive experience, which it isn't designed to be.\"<em><strong>- </strong></em><a href=\"https://www.pcgamer.com/games/world-of-warcraft/the-hunt-for-the-perfect-grinding-spot-in-mists-of-pandaria-remix-show-us-just-how-incompatible-the-events-silly-fun"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-wow-forever-mentally-broke-me-with-a-boulder-1cb867b873b9",
       "title": "WoW: Forever mentally broke me with a boulder",
       "source_type": "seo_intel",
@@ -4779,6 +5230,47 @@
           "url": "https://www.gamesradar.com/games/rpg/world-zero-codes/",
           "title": "World Zero codes (September 2026) for coins, presents, and more",
           "evidence": "<article> <p>If you redeem the latest World Zero codes, you'll be able to use the valuable rewards to help you as you complete the OG Tower as part of the Roblox The Hunt 20 event.<br><br>While World Zero promos are rife anyway, the <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> game is getting more hits than ever thanks to being part of the celebratory event, so whether you're a new player experiencing it for the first time or a regular, there's something for you here, including items specific to the latest update.<br><br><em>These aren't the only rewards you can claim during the </em><a href=\"https://www.gamesradar.com/games/puzzle/roblox-the-hunt-20-guide\"><em>Roblox The Hunt 20</em></a><em> event, as you can always take a look at the latest </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em>, all of which can be used across different experiences.</em></p><h2 class=\"article-body__section\" id=\"section-all-world-zero-codes\"><span>All World Zero codes</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-world-of-warcraft-forever-players-competing-over-enemie-7bec0bfabedd",
+      "title": "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on'",
+      "source_type": "seo_intel",
+      "keywords": [
+        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on'",
+        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' date de sortie",
+        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' plateformes",
+        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' gameplay",
+        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' guide",
+        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-players-competing-over-enemies-is-extremely-important-to-the-experience-blizzard-says-this-is-one-of-those-things-that-we-simply-must-hold-the-line-on/",
+          "title": "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on'",
+          "evidence": "<article> <p>When the gates opened on the <a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a> beta, it was a free-for-all. Everyone fought to be the first to \"tag\" enemies with their attacks so they would count for their quests—a problem that is essentially obsolete in modern WoW.</p><p>My memories of doing this in the real classic WoW came flooding back as I frantically tried to claim enemies before someone else did. But that old frustration also prompted old solutions: Whenever I came across a quest to kill seven wolves or whatever, I invited other players into my group so that everyone got credit.</p><p>This, according to senior game designer Josh Greenfield on <a href=\"https://x.com/AggrendWoW/status/2101711250342453367\">X</a>, is exactly what Blizzard wants to see.</p><p>Greenfield responded to a conversation about whether or not shared enemy kill credit should be a thing in WoW: Forever to say pretty firmly that it's not going to change.</p><p>\"This is one of those things that we simply must hold the line on,\" he wrote. \"I think there are other things we can do to help alleviate some frustration here but shared tagging is not it.\"</p><p"
         }
       ],
       "score": 93,

@@ -544,6 +544,33 @@ def is_duplicate_news_topic(candidate, existing_articles):
     return False
 
 
+def discovery_story_is_duplicate(story, existing_articles=None):
+    """Reject known News topics before spending any Groq tokens."""
+    if not isinstance(story, dict):
+        return False
+
+    title = str(story.get("title", "")).strip()
+    if not title:
+        return False
+
+    candidate = {
+        "title": title,
+        "slug": slugify(title),
+        "tags": [],
+        "seo": {
+            "primary_keyword": title,
+        },
+    }
+
+    if existing_articles is None:
+        existing_articles = combined_news_quality_history()
+
+    return is_duplicate_news_topic(
+        candidate,
+        existing_articles,
+    )
+
+
 def source_image_matches_article(article_title, story, image_url):
     """Reject generic showcase artwork for a game-specific News article."""
     source_context = " ".join([
@@ -3977,6 +4004,17 @@ def main():
                 != selected_url
             )
         ]
+
+        # Reject the same story/topic before any expensive AI call. URL-level
+        # duplicate filtering happens during discovery; this topic-level pass
+        # catches reworded/alternate-source duplicates using the same semantic
+        # guard that protects the final feed.
+        if discovery_story_is_duplicate(selected_story):
+            print(
+                "Topic duplicate skipped before Groq: "
+                f"{selected_story.get('title', '')}"
+            )
+            continue
 
         # Prefer a matching official source when it is actually usable.
         official_story = find_matching_official_source(

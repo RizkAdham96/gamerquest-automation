@@ -5,7 +5,7 @@ import urllib.request
 from io import BytesIO
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import parse_qsl, urlencode, urljoin, urlparse
 
 from PIL import Image, ImageOps
 
@@ -53,7 +53,31 @@ def _upgrade_image_url(url):
         )
         return parsed._replace(path=path, query="", fragment="").geturl()
 
-    return text
+    # WordPress and many gaming CDNs expose the original asset by removing
+    # generated thumbnail dimensions from the filename.
+    path = re.sub(
+        r"-\d{2,4}x\d{2,4}(?=\.(?:jpe?g|png|webp|avif)$)",
+        "",
+        path,
+        flags=re.IGNORECASE,
+    )
+
+    # Drop common resize-only query arguments while preserving unrelated
+    # signed/version parameters. This lets us validate the original artwork
+    # instead of rejecting a small CDN rendition.
+    resize_keys = {
+        "w", "width", "h", "height", "resize", "crop", "fit",
+    }
+    query = urlencode(
+        [
+            (key, value)
+            for key, value in parse_qsl(parsed.query, keep_blank_values=True)
+            if key.lower() not in resize_keys
+        ],
+        doseq=True,
+    )
+
+    return parsed._replace(path=path, query=query, fragment="").geturl()
 
 
 class _ImageCollector(HTMLParser):
@@ -72,6 +96,14 @@ class _ImageCollector(HTMLParser):
                 self._add(attrs.get("content", ""), attrs.get("content", ""))
             return
 
+        if tag == "source":
+            for srcset_key in ("srcset", "data-srcset", "data-lazy-srcset"):
+                srcset = attrs.get(srcset_key, "")
+                if srcset:
+                    for part in srcset.split(","):
+                        self._add(part.strip().split(" ")[0], "")
+            return
+
         if tag != "img":
             return
 
@@ -80,9 +112,11 @@ class _ImageCollector(HTMLParser):
             attrs.get("src", ""),
             attrs.get("data-src", ""),
             attrs.get("data-original", ""),
+            attrs.get("data-original-src", ""),
+            attrs.get("data-lazy-src", ""),
         ]
 
-        for srcset_key in ("srcset", "data-srcset"):
+        for srcset_key in ("srcset", "data-srcset", "data-lazy-srcset"):
             srcset = attrs.get(srcset_key, "")
             if srcset:
                 for part in srcset.split(","):
@@ -270,13 +304,14 @@ def _color_distance(left, right):
 
 
 def validate_source_images(image_urls, image_fetcher=None):
-    """Require three genuinely different, publication-quality source images."""
-    if not isinstance(image_urls, (list, tuple)) or len(image_urls) != 3:
-        raise RuntimeError("Exactly three source images are required.")
+    """Select three genuinely different, publication-quality source images."""
+    if not isinstance(image_urls, (list, tuple)) or len(image_urls) < 3:
+        raise RuntimeError("At least three source image candidates are required.")
 
     fetcher = image_fetcher or _default_image_fetcher
     validated = []
     signatures = []
+    rejected = []
 
     for url in image_urls:
         try:
@@ -290,34 +325,41 @@ def validate_source_images(image_urls, image_fetcher=None):
                     or height < MIN_SOURCE_HEIGHT
                     or pixels < MIN_SOURCE_PIXELS
                 ):
-                    raise RuntimeError(
-                        f"Source image is too small for Instagram: "
-                        f"{width}x{height} ({url})"
+                    rejected.append(
+                        f"too small {width}x{height} ({url})"
                     )
+                    continue
                 signature = _visual_signature(image)
-        except RuntimeError:
-            raise
         except Exception as exc:
-            raise RuntimeError(
-                f"Could not validate source image quality: {url} ({exc})"
-            ) from exc
+            rejected.append(
+                f"could not validate {url} ({exc})"
+            )
+            continue
 
-        for previous_hash, previous_color in signatures:
-            visual_hash, average_color = signature
-            if (
-                _hamming_distance(visual_hash, previous_hash)
-                <= DUPLICATE_HASH_DISTANCE
-                and _color_distance(average_color, previous_color) <= 45
-            ):
-                raise RuntimeError(
-                    "Carousel source images are visually duplicated; "
-                    "refusing to publish repeated artwork."
-                )
+        visual_hash, average_color = signature
+        duplicated = any(
+            _hamming_distance(visual_hash, previous_hash)
+            <= DUPLICATE_HASH_DISTANCE
+            and _color_distance(average_color, previous_color) <= 45
+            for previous_hash, previous_color in signatures
+        )
+        if duplicated:
+            rejected.append(
+                f"visually duplicated artwork ({url})"
+            )
+            continue
 
         signatures.append(signature)
         validated.append(str(url))
 
-    return validated
+        if len(validated) == 3:
+            return validated
+
+    detail = "; ".join(rejected[:6])
+    raise RuntimeError(
+        "Could not find three publication-quality distinct images. "
+        f"{detail}"
+    )
 
 
 def resolve_publishable_images(
@@ -330,6 +372,8 @@ def resolve_publishable_images(
         source_id,
         content_items=content_items,
         page_fetcher=page_fetcher,
+        max_images=12,
+        require_three=True,
     )
     return validate_source_images(
         images,
@@ -337,7 +381,13 @@ def resolve_publishable_images(
     )
 
 
-def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
+def resolve_featured_images(
+    source_id,
+    content_items=None,
+    page_fetcher=None,
+    max_images=3,
+    require_three=True,
+):
     source_id = str(source_id or "").strip()
     if not source_id:
         raise RuntimeError("Fallback render has no selected source_id.")
@@ -380,10 +430,27 @@ def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
                 break
 
     source = selected_item.get("source")
-    source_url = str(source.get("url", "")).strip() if isinstance(source, dict) else ""
+    source_urls = []
 
-    if source_url:
-        fetcher = page_fetcher or _default_page_fetcher
+    if isinstance(source, dict):
+        source_url = str(source.get("url", "")).strip()
+        if source_url:
+            source_urls.append(source_url)
+
+    top_level_source_url = str(selected_item.get("source_url", "")).strip()
+    if top_level_source_url:
+        source_urls.append(top_level_source_url)
+
+    official_source = selected_item.get("official_source")
+    if isinstance(official_source, dict):
+        official_url = str(official_source.get("url", "")).strip()
+        if official_url:
+            source_urls.append(official_url)
+    elif isinstance(official_source, str) and official_source.strip():
+        source_urls.append(official_source.strip())
+
+    fetcher = page_fetcher or _default_page_fetcher
+    for source_url in dict.fromkeys(source_urls):
         try:
             html = fetcher(source_url)
             parser = _ImageCollector(source_url)
@@ -395,7 +462,10 @@ def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
                     continue
                 candidates.append((url, alt, _score_image(url, alt, keywords)))
         except Exception as exc:
-            print(f"WARNING: could not inspect source article images: {exc}")
+            print(
+                "WARNING: could not inspect source article images "
+                f"from {source_url}: {exc}"
+            )
 
     best_by_visual = {}
     for candidate in candidates:
@@ -408,9 +478,10 @@ def resolve_featured_images(source_id, content_items=None, page_fetcher=None):
             best_by_visual[key] = candidate
 
     ranked = sorted(best_by_visual.values(), key=lambda item: item[2], reverse=True)
-    unique = [url for url, _label, _score in ranked[:3]]
+    limit = max(3, int(max_images or 3))
+    unique = [url for url, _label, _score in ranked[:limit]]
 
-    if len(unique) != 3:
+    if require_three and len(unique) < 3:
         raise RuntimeError(
             "Selected social source does not provide three unique relevant images; "
             "refusing to publish a repeated-image or gradient carousel."

@@ -35,12 +35,24 @@ def get_post(slug):
 
 
 def update_post(post, content):
+    # GamerQuest's WordPress stack rejects partial REST updates as
+    # "empty_content". Preserve all editable text fields on every correction.
+    payload = {
+        "title": post.get("title", {}).get("raw", ""),
+        "content": content,
+        "excerpt": post.get("excerpt", {}).get("raw", ""),
+        "status": post.get("status", "publish"),
+    }
     response = session.post(
         api(f"posts/{post['id']}"),
-        json={"content": content},
+        json=payload,
         timeout=60,
     )
-    response.raise_for_status()
+    if not response.ok:
+        raise RuntimeError(
+            f"WordPress update failed for post {post['id']} "
+            f"({response.status_code}): {response.text[:1000]}"
+        )
     return response.json()
 
 
@@ -49,12 +61,21 @@ def fix_silent_hill():
     post = get_post(slug)
     content = post["content"]["raw"]
 
-    replacements = (
-        (r"Xbox Series X\|S", "Epic Games Store"),
-        (r"Xbox Series X/S", "Epic Games Store"),
-        (r"Xbox Series", "Epic Games Store"),
-    )
     updated = content
+    replacements = (
+        (
+            r'<a[^>]*>\s*Xbox Series\s*</a>\s*[Xx]\s*\|\s*[Ss]',
+            "Epic Games Store",
+        ),
+        (
+            r"<li>\s*Xbox Series[^<]*</li>",
+            "<li>Epic Games Store</li>",
+        ),
+        (
+            r"Xbox Series\s*[Xx]\s*(?:\||/)\s*[Ss]",
+            "Epic Games Store",
+        ),
+    )
     for pattern, replacement in replacements:
         updated = re.sub(pattern, replacement, updated, flags=re.IGNORECASE)
 
@@ -87,11 +108,13 @@ def fix_gears():
     )
 
     risky_paragraph = re.compile(
-        r"(?is)<p>[^<]*(?:ne\s+mentionne\s+aucun\s+mode\s+multijoueur|"
-        r"aucun\s+mode\s+multijoueur|pas\s+de\s+multijoueur|"
-        r"se\s+concentre\s+sur\s+une\s+campagne\s+solo)[^<]*</p>"
+        r"(?is)(<h2>Gears of War.*?multijoueur.*?</h2>)\s*<p>.*?</p>"
     )
-    updated, count = risky_paragraph.subn(replacement, content)
+    updated, count = risky_paragraph.subn(
+        lambda match: f"{match.group(1)}\n{replacement}",
+        content,
+        count=1,
+    )
 
     if count == 0 and (
         "Horde Siege" not in updated

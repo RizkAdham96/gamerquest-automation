@@ -2,6 +2,15 @@ name: Test Trending SEO
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "trending_seo/**"
+      - "groq_budget.py"
+      - "test_groq_budget.py"
+      - ".github/workflows/run-trending-seo-pipeline.yml"
+      - ".github/workflows/test-trending-seo.yml"
 
 jobs:
   test:
@@ -26,10 +35,14 @@ jobs:
         run: |
           python -m unittest \
             test_scorer.py \
+            test_seo_engine.py \
             test_researcher.py \
+            test_evergreen_research.py \
             test_writer.py \
             test_writer_v4.py \
             test_writer_v5.py \
-            test_seo_engine.py \
+            test_featured_images.py \
+            test_evergreen_pipeline.py \
+            test_pipeline_research_gate.py \
             test_pipeline_publish_mode.py \
             -v

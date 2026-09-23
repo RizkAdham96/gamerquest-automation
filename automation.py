@@ -432,6 +432,26 @@ def strip_code_fences(text):
     return text.strip()
 
 
+def sanitize_article_html(content):
+    """Normalize AI-generated article HTML before any publication path.
+
+    The model is instructed to return HTML, but can occasionally leak Markdown
+    bold markers or malformed nesting. Removing Markdown delimiters and
+    reparsing the fragment with BeautifulSoup prevents those artifacts from
+    reaching WordPress while preserving the article's text and links.
+    """
+    content = strip_code_fences(content)
+    content = re.sub(
+        r"\*\*(.*?)\*\*",
+        r"\1",
+        content,
+        flags=re.DOTALL,
+    )
+    content = content.replace("**", "")
+    soup = BeautifulSoup(content, "html.parser")
+    return "".join(str(node) for node in soup.contents).strip()
+
+
 def normalize_words(text):
     words = re.findall(
         r"[a-zA-Z0-9À-ÿ]+",
@@ -2686,7 +2706,7 @@ def parse_article(text):
             f"could not be parsed: {error}"
         )
 
-    content = strip_code_fences(
+    content = sanitize_article_html(
         content
     )
 

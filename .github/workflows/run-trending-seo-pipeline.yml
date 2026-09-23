@@ -48,32 +48,57 @@ jobs:
             test_pipeline_publish_mode.py \
             -v
 
-      - name: Refill fresh gaming SEO topics
-        run: |
-          # Discovery is deliberately token-free.
-          python trending_seo/discover_topics.py
-
-      - name: Reserve shared Groq budget
+      - name: Reserve and persist shared Groq budget
         id: groq_budget
         run: |
-          python groq_budget.py reserve-run \
-            --lane seo \
-            --tokens 10000 \
-            --reservation-id "${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-seo" \
-            --github-output "${GITHUB_OUTPUT}"
+          set -euo pipefail
 
-      - name: Persist Groq budget reservation before AI calls
-        if: ${{ steps.groq_budget.outputs.allowed == 'true' }}
-        run: |
           git config user.name "GamerQuest Budget Bot"
           git config user.email "actions@github.com"
-          git add state/groq_budget.json
-          git commit -m "budget: reserve SEO Groq allowance" || true
-          git stash push --include-untracked -m "gamerquest-seo-budget-pre-rebase" || true
-          git fetch origin main
-          git rebase origin/main
-          git push origin HEAD:main
-          git stash pop || true
+
+          reservation_id="${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-seo"
+          output_file="${RUNNER_TEMP}/groq-budget-output"
+          : > "${output_file}"
+
+          for attempt in 1 2 3; do
+            echo "SEO budget reservation attempt ${attempt}/3"
+            git fetch origin main
+            git reset --hard origin/main
+
+            : > "${output_file}"
+            python groq_budget.py reserve-run \
+              --lane seo \
+              --tokens 10000 \
+              --reservation-id "${reservation_id}" \
+              --github-output "${output_file}"
+
+            allowed="$(grep '^allowed=' "${output_file}" | tail -1 | cut -d= -f2- || true)"
+
+            if [ "${allowed}" != "true" ]; then
+              cat "${output_file}" >> "${GITHUB_OUTPUT}"
+              exit 0
+            fi
+
+            git add state/groq_budget.json
+            git commit -m "budget: reserve SEO Groq allowance"
+
+            if git push origin HEAD:main; then
+              cat "${output_file}" >> "${GITHUB_OUTPUT}"
+              exit 0
+            fi
+
+            echo "Shared budget state changed before SEO push; recomputing safely."
+          done
+
+          echo "Unable to persist SEO Groq reservation after 3 attempts." >&2
+          exit 1
+
+      - name: Refill fresh gaming SEO topics
+        if: ${{ steps.groq_budget.outputs.allowed == 'true' }}
+        run: |
+          # Discovery is token-free, but runs after reservation persistence so
+          # its state changes can never dirty the budget commit/rebase step.
+          python trending_seo/discover_topics.py
 
       - name: Shared Groq ceiling reached
         if: ${{ steps.groq_budget.outputs.allowed != 'true' }}

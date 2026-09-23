@@ -81,6 +81,28 @@ def run():
                 "skipped safely so the workflow can recover later."
             )
             return payload
+        except RuntimeError as exc:
+            message = str(exc)
+            recoverable_markers = (
+                "AI returned invalid JSON",
+                "no text could be extracted",
+                "Groq returned malformed API JSON",
+                "AI response must contain a concepts array",
+            )
+            if not any(marker in message for marker in recoverable_markers):
+                raise
+            payload = {
+                "status": "skipped",
+                "reason": "groq_invalid_response",
+                "detail": message,
+            }
+            social_run.write_output(payload)
+            print(
+                "Groq returned an unusable structured response; "
+                "this run is skipped safely so the recovery workflow "
+                "can retry later without publishing broken content."
+            )
+            return payload
     finally:
         social_run.get_all_content = original_get_all_content
 

@@ -220,6 +220,73 @@ def reserve_run(
     }
 
 
+def release_run(
+    reservation_id: str,
+    *,
+    path: Path | str = DEFAULT_STATE_PATH,
+    day: str | None = None,
+) -> dict[str, Any]:
+    """Release one known-unused workflow reservation.
+
+    This is intentionally explicit: callers must know that the reservation
+    belongs to a run that failed before making any Groq call. It is not used
+    automatically for arbitrary failures because partial AI usage must remain
+    counted conservatively.
+    """
+    reservation_id = str(reservation_id or "").strip()
+    if not reservation_id:
+        raise ValueError("reservation_id is required.")
+
+    day = day or utc_day()
+    state = load_state(path, day=day)
+    reservations = list(state.get("reservations", []))
+    target = next(
+        (
+            item
+            for item in reservations
+            if str(item.get("id", "")).strip() == reservation_id
+        ),
+        None,
+    )
+
+    if target is None:
+        return {
+            "released": False,
+            "tokens": 0,
+            "lane": "",
+            "reason": "not_found",
+            "state": state,
+        }
+
+    lane = str(target.get("lane", "")).strip().lower()
+    tokens = max(0, int(target.get("tokens", 0) or 0))
+
+    state["reservations"] = [
+        item
+        for item in reservations
+        if str(item.get("id", "")).strip() != reservation_id
+    ]
+    state["global_reserved"] = max(
+        0,
+        int(state.get("global_reserved", 0) or 0) - tokens,
+    )
+    if lane in state.get("lanes", {}):
+        state["lanes"][lane] = max(
+            0,
+            int(state["lanes"].get(lane, 0) or 0) - tokens,
+        )
+
+    save_state(state, path)
+
+    return {
+        "released": True,
+        "tokens": tokens,
+        "lane": lane,
+        "reason": "released",
+        "state": state,
+    }
+
+
 def estimate_request_tokens(
     prompt_or_messages: Any,
     max_output_tokens: int,
@@ -359,6 +426,10 @@ def main() -> int:
     reserve.add_argument("--state-file", default=str(DEFAULT_STATE_PATH))
     reserve.add_argument("--github-output", default="")
 
+    release = subparsers.add_parser("release-run")
+    release.add_argument("--reservation-id", required=True)
+    release.add_argument("--state-file", default=str(DEFAULT_STATE_PATH))
+
     status = subparsers.add_parser("status")
     status.add_argument("--state-file", default=str(DEFAULT_STATE_PATH))
 
@@ -392,6 +463,21 @@ def main() -> int:
             f"allowed={result['allowed']} lane={args.lane} "
             f"reserved={result.get('tokens', 0)} "
             f"global={state.get('global_reserved', 0)}/{global_daily_ceiling()} "
+            f"reason={result.get('reason', '')}"
+        )
+        return 0
+
+    if args.command == "release-run":
+        result = release_run(
+            args.reservation_id,
+            path=args.state_file,
+        )
+        print(
+            "Groq reservation release: "
+            f"released={result['released']} "
+            f"id={args.reservation_id} "
+            f"lane={result.get('lane', '')} "
+            f"tokens={result.get('tokens', 0)} "
             f"reason={result.get('reason', '')}"
         )
         return 0

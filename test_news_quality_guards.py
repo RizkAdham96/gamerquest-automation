@@ -763,3 +763,26 @@ def test_source_grounding_blocks_unsupported_negative_multiplayer_claim():
 
     assert reason
     assert "multiplayer" in reason.lower() or "negative" in reason.lower()
+
+
+def test_parse_article_sanitizes_markdown_bold_from_html():
+    raw = """SEO_TITLE: Test
+META_DESCRIPTION: Test description
+PRIMARY_KEYWORD: test
+SECONDARY_KEYWORDS: gaming
+SEARCH_INTENT: informationnel
+SUGGESTED_SLUG: test
+TITLE: Test
+EXCERPT: Test excerpt
+CATEGORY: Actualités
+TAGS: test
+CONTENT:
+<p>Un texte <strong>correct</strong> et Dune : Awakening**.**</p>
+"""
+
+    parsed = automation.parse_article(raw)
+    content = parsed[-1]
+
+    assert "**" not in content
+    assert "Dune : Awakening." in content
+    assert content.count("<strong>") == content.count("</strong>")

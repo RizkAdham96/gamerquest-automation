@@ -103,6 +103,24 @@ def fix_gears():
     post = get_post(slug)
     content = post["content"]["raw"]
 
+    plain_content = re.sub(r"<[^>]+>", " ", content)
+    bad_patterns = (
+        r"ne\s+mentionne\s+aucun\s+mode\s+multijoueur",
+        r"aucun\s+mode\s+multijoueur",
+        r"pas\s+de\s+multijoueur",
+    )
+
+    if (
+        "Horde Siege" in content
+        and "Versus" in content
+        and not any(
+            re.search(pattern, plain_content, flags=re.IGNORECASE)
+            for pattern in bad_patterns
+        )
+    ):
+        print("Gears of War: E-Day multiplayer claim already correct.")
+        return
+
     replacement = (
         "<p>La page officielle Xbox confirme une campagne jouable en solo ou en "
         "coopération à deux, ainsi que des modes multijoueur comprenant Horde Siege "
@@ -124,11 +142,6 @@ def fix_gears():
     ):
         updated += replacement
 
-    bad_patterns = (
-        r"ne\s+mentionne\s+aucun\s+mode\s+multijoueur",
-        r"aucun\s+mode\s+multijoueur",
-        r"pas\s+de\s+multijoueur",
-    )
     for pattern in bad_patterns:
         if re.search(pattern, updated, flags=re.IGNORECASE):
             raise RuntimeError("Gears article still contains the unsupported multiplayer claim.")

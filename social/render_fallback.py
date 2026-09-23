@@ -441,6 +441,20 @@ def resolve_featured_images(
     if top_level_source_url:
         source_urls.append(top_level_source_url)
 
+    # Also inspect GamerQuest's own article page when it is available. The
+    # feed often contains one featured image plus an external source URL, while
+    # the published article may expose additional relevant high-resolution
+    # media. This broadens discovery without relaxing any uniqueness,
+    # relevance, or minimum-resolution quality gates below.
+    for key in ("url", "link", "permalink", "post_url"):
+        article_url = str(selected_item.get(key, "")).strip()
+        if article_url:
+            source_urls.append(article_url)
+
+    slug = str(selected_item.get("slug", "")).strip().strip("/")
+    if slug:
+        source_urls.append(f"https://gamerquestfr.com/{slug}/")
+
     official_source = selected_item.get("official_source")
     if isinstance(official_source, dict):
         official_url = str(official_source.get("url", "")).strip()

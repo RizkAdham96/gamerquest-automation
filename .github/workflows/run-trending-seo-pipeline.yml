@@ -2,6 +2,13 @@ name: Run Trending SEO Pipeline
 
 on:
   workflow_dispatch:
+  # Temporary production-validation trigger; removed after the fixed pipeline
+  # completes successfully on main.
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/run-trending-seo-pipeline.yml"
   schedule:
     # One full-quality SEO opportunity/day. Shared budgeting preserves
     # the News/Social reserve without shrinking the SEO generation budget.

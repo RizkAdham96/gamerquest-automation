@@ -437,9 +437,27 @@ Available GamerQuest content:
     ensure_ascii=False
 )}
 
-Return ONLY a JSON array.
+Return ONLY one valid JSON object with this shape:
 
-Each object MUST contain:
+{
+    "concepts": [
+        {
+            "source_id": "COPY EXACT SOURCE ID",
+            "topic": "...",
+            "angle": "...",
+            "format": "...",
+            "hook": "...",
+            "freshness": 0,
+            "click_potential": 0,
+            "curiosity": 0,
+            "shareability": 0,
+            "originality": 0,
+            "gamerquest_relevance": 0
+        }
+    ]
+}
+
+Each object inside "concepts" MUST contain:
 
 {{
     "source_id": "COPY EXACT SOURCE ID",
@@ -663,9 +681,12 @@ def generate_ideas(content):
         )
     )
 
+    if isinstance(data, dict):
+        data = data.get("concepts", [])
+
     if not isinstance(data, list):
         raise RuntimeError(
-            "AI response must be a JSON array."
+            "AI response must contain a concepts array."
         )
 
     output = []

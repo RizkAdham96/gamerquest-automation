@@ -2,6 +2,13 @@ name: GamerQuest Automation
 
 on:
   workflow_dispatch:
+  # One-time validation hook: this path is removed immediately after the
+  # production validation run starts.
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/gamerquest.yml"
 
   # Four evenly spaced News opportunities/day. Each run has enough budget
   # for a full-quality draft + verification while TPM pacing separates calls.

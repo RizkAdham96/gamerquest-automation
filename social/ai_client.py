@@ -43,6 +43,11 @@ def _build_request(prompt, api_key, max_tokens):
         ],
         "max_tokens": int(max_tokens),
         "temperature": 0.2,
+        "reasoning_effort": "low",
+        "reasoning_format": "hidden",
+        "response_format": {
+            "type": "json_object",
+        },
     }
 
     return urllib.request.Request(
@@ -179,7 +184,12 @@ def call_grok(prompt, max_tokens=SOCIAL_MAX_OUTPUT_TOKENS):
                     .decode("utf-8")
                 )
 
-                data = json.loads(raw_response)
+                try:
+                    data = json.loads(raw_response)
+                except json.JSONDecodeError as error:
+                    raise RuntimeError(
+                        "Groq returned malformed API JSON."
+                    ) from error
 
                 return extract_text(data)
 
@@ -289,12 +299,28 @@ def extract_text(data):
         ):
             continue
 
-        text = message.get(
+        content = message.get(
             "content"
         )
 
-        if text:
-            return text.strip()
+        if isinstance(content, str) and content.strip():
+            return content.strip()
+
+        if isinstance(content, list):
+            parts = []
+            for part in content:
+                if isinstance(part, str) and part.strip():
+                    parts.append(part.strip())
+                elif isinstance(part, dict):
+                    text = part.get("text") or part.get("content")
+                    if isinstance(text, str) and text.strip():
+                        parts.append(text.strip())
+            if parts:
+                return "\n".join(parts)
+
+        legacy_text = choice.get("text")
+        if isinstance(legacy_text, str) and legacy_text.strip():
+            return legacy_text.strip()
 
     raise RuntimeError(
         "Groq returned a response "

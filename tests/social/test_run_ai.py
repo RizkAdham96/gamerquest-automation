@@ -94,6 +94,27 @@ class TestSocialAIRunner(unittest.TestCase):
     @patch(
         "social.idea_generator.call_grok"
     )
+    def test_structured_json_retries_once_after_malformed_output(
+        self,
+        mock_call,
+    ):
+        mock_call.side_effect = [
+            '{"concepts": [',
+            '{"concepts": []}',
+        ]
+
+        result = idea_generator.call_json_with_retry(
+            "Return JSON",
+            max_tokens=200,
+            label="test",
+        )
+
+        self.assertEqual(result, {"concepts": []})
+        self.assertEqual(mock_call.call_count, 2)
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
     def test_generate_ideas_accepts_json_object_mode_wrapper(
         self,
         mock_call,

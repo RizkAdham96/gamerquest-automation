@@ -66,6 +66,21 @@ class TestFreshSocialSelection(unittest.TestCase):
         self.assertEqual(result["reason"], "groq_rate_limited")
         write_output.assert_called_once()
 
+    def test_invalid_groq_response_is_a_safe_skip_not_a_workflow_failure(self):
+        with patch(
+            "social.run_fresh.social_run.run",
+            side_effect=RuntimeError(
+                "AI returned invalid JSON: Unterminated string"
+            ),
+        ), patch(
+            "social.run_fresh.social_run.write_output"
+        ) as write_output:
+            result = run()
+
+        self.assertEqual(result["status"], "skipped")
+        self.assertEqual(result["reason"], "groq_invalid_response")
+        write_output.assert_called_once()
+
     def test_accepts_semantically_valid_hashed_cdn_images_from_resolver(self):
         content = [
             {

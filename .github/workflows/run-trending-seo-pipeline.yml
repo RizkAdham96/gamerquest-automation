@@ -97,9 +97,11 @@ jobs:
 
       - name: Refill fresh gaming SEO topics
         if: ${{ steps.groq_budget.outputs.allowed == 'true' }}
+        continue-on-error: true
         run: |
-          # Discovery is token-free, but runs after reservation persistence so
-          # its state changes can never dirty the budget commit/rebase step.
+          # Discovery is token-free. A source outage must not strand a
+          # successfully persisted AI reservation; the pipeline can safely
+          # continue with the existing topic inventory.
           python trending_seo/discover_topics.py
 
       - name: Shared Groq ceiling reached

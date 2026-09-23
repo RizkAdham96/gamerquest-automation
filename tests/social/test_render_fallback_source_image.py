@@ -54,6 +54,45 @@ class TestFallbackSourceImage(unittest.TestCase):
         )
         self.assertEqual(len(set(images)), 3)
 
+    def test_inspects_gamerquest_article_url_as_additional_image_source(self):
+        source_id = "article-456"
+        articles = [
+            {
+                "source_id": source_id,
+                "title": "Metroid Prime 4 Switch 2",
+                "tags": ["Metroid Prime 4", "Switch 2"],
+                "slug": "metroid-prime-4-switch-2",
+                "featured_image": {
+                    "url": "https://cdn.example.com/metroid-cover.jpg",
+                },
+            }
+        ]
+
+        requested = []
+
+        def page_fetcher(url):
+            requested.append(url)
+            return """
+            <html><body>
+              <img src="https://cdn.example.com/metroid-gameplay.jpg"
+                   alt="Metroid Prime 4 Switch 2 gameplay">
+              <img src="https://cdn.example.com/metroid-world.jpg"
+                   alt="Metroid Prime 4 Switch 2 world">
+            </body></html>
+            """
+
+        images = render_fallback.resolve_featured_images(
+            source_id,
+            content_items=articles,
+            page_fetcher=page_fetcher,
+        )
+
+        self.assertIn(
+            "https://gamerquestfr.com/metroid-prime-4-switch-2/",
+            requested,
+        )
+        self.assertEqual(len(images), 3)
+
     def test_upgrades_nintendolife_thumbnail_to_large_variant(self):
         self.assertEqual(
             render_fallback._upgrade_image_url(

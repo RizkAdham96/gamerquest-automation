@@ -25,10 +25,11 @@ DEFAULT_STATE_PATH = Path("state/groq_budget.json")
 
 DEFAULT_GLOBAL_DAILY_CEILING = 70_000
 DEFAULT_LANE_CEILINGS = {
-    # Six 7k News windows + two 7k SEO windows + an 8k primary Social
-    # window and a 6k recovery window exactly fit the 70k global ceiling.
-    "news": 42_000,
-    "seo": 14_000,
+    # Four 11k News windows + one 10k SEO window + an 8k primary Social
+    # window and a 6k recovery window reserve at most 68k/day. This keeps
+    # full-quality multi-call jobs viable while staying below the 70k guard.
+    "news": 44_000,
+    "seo": 10_000,
     "social": 14_000,
     "manual": 4_000,
 }

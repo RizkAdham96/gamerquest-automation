@@ -30,33 +30,50 @@ jobs:
           python -m pip install --upgrade pip
           pip install groq
 
-      - name: Reserve shared Groq budget
+      - name: Reserve and persist shared Groq budget
         id: groq_budget
         run: |
-          python groq_budget.py reserve-run \
-            --lane manual \
-            --tokens 4000 \
-            --reservation-id "${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-writer-smoke" \
-            --github-output "${GITHUB_OUTPUT}"
+          set -euo pipefail
 
-      - name: Persist Groq budget reservation before AI calls
-        if: ${{ steps.groq_budget.outputs.allowed == 'true' }}
-        run: |
           git config user.name "GamerQuest Budget Bot"
           git config user.email "actions@github.com"
-          git add state/groq_budget.json
-          git commit -m "budget: reserve manual writer allowance" || true
-          git pull --rebase origin main
-          git push origin HEAD:main
 
-      - name: Run real Writer V3 Groq smoke test
-        if: ${{ steps.groq_budget.outputs.allowed == 'true' }}
-        env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GROQ_RUN_TOKEN_BUDGET: ${{ steps.groq_budget.outputs.tokens }}
-          GROQ_TPM_CEILING: "6000"
-        run: |
-          python trending_seo/writer_smoke_test.py
+          reservation_id="${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-seo-writer-smoke"
+          output_file="${RUNNER_TEMP}/groq-budget-output"
+          : > "${output_file}"
+
+          for attempt in 1 2 3; do
+            echo "SEO writer smoke budget reservation attempt ${attempt}/3"
+            git fetch origin main
+            git reset --hard origin/main
+
+            : > "${output_file}"
+            python groq_budget.py reserve-run \
+              --lane manual \
+              --tokens 4000 \
+              --reservation-id "${reservation_id}" \
+              --github-output "${output_file}"
+
+            allowed="$(grep '^allowed=' "${output_file}" | tail -1 | cut -d= -f2- || true)"
+
+            if [ "${allowed}" != "true" ]; then
+              cat "${output_file}" >> "${GITHUB_OUTPUT}"
+              exit 0
+            fi
+
+            git add state/groq_budget.json
+            git commit -m "budget: reserve SEO writer smoke Groq allowance"
+
+            if git push origin HEAD:main; then
+              cat "${output_file}" >> "${GITHUB_OUTPUT}"
+              exit 0
+            fi
+
+            echo "Shared budget state changed before push; recomputing safely."
+          done
+
+          echo "Unable to persist SEO writer smoke Groq reservation after 3 attempts." >&2
+          exit 1
 
       - name: Shared Groq ceiling reached
         if: ${{ steps.groq_budget.outputs.allowed != 'true' }}

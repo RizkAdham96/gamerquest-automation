@@ -3,9 +3,9 @@ name: Run Trending SEO Pipeline
 on:
   workflow_dispatch:
   schedule:
-    # Two evenly spaced SEO opportunities/day. Shared budgeting prevents
-    # SEO from consuming the News/Social reserve.
-    - cron: "43 */12 * * *"
+    # One full-quality SEO opportunity/day. Shared budgeting preserves
+    # the News/Social reserve without shrinking the SEO generation budget.
+    - cron: "43 2 * * *"
 
 permissions:
   contents: write
@@ -58,7 +58,7 @@ jobs:
         run: |
           python groq_budget.py reserve-run \
             --lane seo \
-            --tokens 7000 \
+            --tokens 10000 \
             --reservation-id "${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-seo" \
             --github-output "${GITHUB_OUTPUT}"
 
@@ -69,8 +69,11 @@ jobs:
           git config user.email "actions@github.com"
           git add state/groq_budget.json
           git commit -m "budget: reserve SEO Groq allowance" || true
-          git pull --rebase origin main
+          git stash push --include-untracked -m "gamerquest-seo-budget-pre-rebase" || true
+          git fetch origin main
+          git rebase origin/main
           git push origin HEAD:main
+          git stash pop || true
 
       - name: Shared Groq ceiling reached
         if: ${{ steps.groq_budget.outputs.allowed != 'true' }}

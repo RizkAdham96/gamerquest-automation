@@ -918,6 +918,7 @@ def groq_chat(messages):
                 messages=messages,
                 temperature=0,
                 max_tokens=450,
+                response_format={"type": "json_object"},
             )
             return response.choices[0].message.content
         except RateLimitError as error:

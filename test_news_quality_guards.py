@@ -639,6 +639,36 @@ def test_source_validation_is_local_and_does_not_call_groq(monkeypatch):
     assert reason == "Source validation passed."
 
 
+def test_final_editor_parse_failure_keeps_generated_article_for_local_guards(monkeypatch):
+    article_data = (
+        "SEO title",
+        "meta",
+        "keyword",
+        "secondary",
+        "News",
+        "safe-slug",
+        "Safe title",
+        "excerpt",
+        "Actualités",
+        "Gaming",
+        "<p>Supported source-grounded content.</p>",
+    )
+
+    monkeypatch.setattr(
+        automation,
+        "groq_chat",
+        lambda *args, **kwargs: "malformed editor response",
+    )
+
+    result = automation.verify_and_correct_article(
+        article_data,
+        "Supported source-grounded content.",
+        "",
+    )
+
+    assert result == article_data
+
+
 def test_source_grounding_blocks_unsupported_platform_claim():
     article_data = (
         "Silent Hill Townfall date de sortie",

@@ -12,6 +12,9 @@ session = requests.Session()
 session.auth = (WP_USERNAME, WP_APP_PASSWORD)
 session.headers.update({"User-Agent": "GamerQuest-P0-Content-Fix/1.0"})
 
+# Idempotent: when both known P0 claims are already corrected, this workflow
+# verifies the live state and exits successfully without rewriting the posts.
+
 
 def api(path):
     return f"{WP_URL}/wp-json/wp/v2/{path.lstrip('/')}"

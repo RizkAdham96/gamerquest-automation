@@ -3,10 +3,10 @@ name: GamerQuest Automation
 on:
   workflow_dispatch:
 
-  # Six evenly spaced News opportunities/day. The shared Groq ceiling can
-  # still skip a run before any API call if the daily budget is exhausted.
+  # Four evenly spaced News opportunities/day. Each run has enough budget
+  # for a full-quality draft + verification while TPM pacing separates calls.
   schedule:
-    - cron: "7 */4 * * *"
+    - cron: "7 */6 * * *"
 
 permissions:
   contents: write
@@ -51,7 +51,7 @@ jobs:
         run: |
           python groq_budget.py reserve-run \
             --lane news \
-            --tokens 7000 \
+            --tokens 11000 \
             --reservation-id "${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-news" \
             --github-output "${GITHUB_OUTPUT}"
 
@@ -62,8 +62,11 @@ jobs:
           git config user.email "actions@github.com"
           git add state/groq_budget.json
           git commit -m "budget: reserve News Groq allowance" || true
-          git pull --rebase origin main
+          git stash push --include-untracked -m "gamerquest-news-budget-pre-rebase" || true
+          git fetch origin main
+          git rebase origin/main
           git push origin HEAD:main
+          git stash pop || true
 
       - name: Shared Groq ceiling reached
         if: ${{ steps.groq_budget.outputs.allowed != 'true' }}

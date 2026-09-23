@@ -45,7 +45,9 @@ def update_post(post, content):
     }
     response = session.post(
         api(f"posts/{post['id']}"),
-        json=payload,
+        # Some hosts/proxies drop JSON request bodies on authenticated REST
+        # writes. WordPress also accepts standard form-encoded post fields.
+        data=payload,
         timeout=60,
     )
     if not response.ok:

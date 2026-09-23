@@ -1031,6 +1031,7 @@ def generate_seo_article(
                     ],
                     temperature=0.25,
                     max_tokens=SEO_ARTICLE_MAX_TOKENS,
+                    response_format={"type": "json_object"},
                 )
             )
             break

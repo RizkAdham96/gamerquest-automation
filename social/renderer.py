@@ -16,12 +16,12 @@ from PIL import (
 # GAMERQUEST SOCIAL RENDERER
 # =========================================================
 
-WIDTH = 1920
-HEIGHT = 1080
+WIDTH = 1080
+HEIGHT = 1920
 
-# Instagram carousel master format: 16:9 landscape.
-# Do not change these independently; publishing must stay exactly 16:9.
-SAFE_X = 96
+# GamerQuest vertical social master format: 9:16.
+# Keep renderer, tests and publishing validation aligned to this canvas.
+SAFE_X = 72
 
 BG = (5, 8, 15)
 PANEL = (12, 17, 29)
@@ -1281,27 +1281,29 @@ def _draw_footer(
 def _layout_text_settings(
     index,
 ):
+    max_width = WIDTH - (SAFE_X * 2)
+
     if index == 1:
         return {
-            "title_y": 600,
-            "max_width": 1600,
-            "title_size": 68,
-            "body_size": 30,
+            "title_y": 1080,
+            "max_width": max_width,
+            "title_size": 64,
+            "body_size": 32,
         }
 
     if index == 2:
         return {
-            "title_y": 500,
-            "max_width": 1550,
-            "title_size": 52,
-            "body_size": 29,
+            "title_y": 1120,
+            "max_width": max_width,
+            "title_size": 54,
+            "body_size": 32,
         }
 
     return {
-        "title_y": 500,
-        "max_width": 1550,
-        "title_size": 52,
-        "body_size": 29,
+        "title_y": 1120,
+        "max_width": max_width,
+        "title_size": 54,
+        "body_size": 32,
     }
 
 
@@ -1423,7 +1425,9 @@ def _render_cover(
                 ]
             ),
             MUTED,
-            1420,
+            settings[
+                "max_width"
+            ],
             spacing=8,
             max_lines=3,
         )
@@ -1494,7 +1498,7 @@ def _render_explanation(
         ]
     )
 
-    content_width = 1500
+    content_width = WIDTH - 2 * (SAFE_X + 42)
 
     title_height = (
         _text_height(
@@ -1527,10 +1531,10 @@ def _render_explanation(
     )
 
     panel_height = max(
-        300,
+        520,
         min(
             panel_height,
-            430,
+            760,
         ),
     )
 

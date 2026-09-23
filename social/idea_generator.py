@@ -439,9 +439,9 @@ Available GamerQuest content:
 
 Return ONLY one valid JSON object with this shape:
 
-{
+{{
     "concepts": [
-        {
+        {{
             "source_id": "COPY EXACT SOURCE ID",
             "topic": "...",
             "angle": "...",
@@ -453,24 +453,8 @@ Return ONLY one valid JSON object with this shape:
             "shareability": 0,
             "originality": 0,
             "gamerquest_relevance": 0
-        }
+        }}
     ]
-}
-
-Each object inside "concepts" MUST contain:
-
-{{
-    "source_id": "COPY EXACT SOURCE ID",
-    "topic": "...",
-    "angle": "...",
-    "format": "...",
-    "hook": "...",
-    "freshness": 0,
-    "click_potential": 0,
-    "curiosity": 0,
-    "shareability": 0,
-    "originality": 0,
-    "gamerquest_relevance": 0
 }}
 
 All scores must be integers from 0 to 10.

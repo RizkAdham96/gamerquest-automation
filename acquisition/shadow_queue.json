@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T21:19:36.805183+00:00",
+  "generated_at": "2026-09-23T04:45:43.226398+00:00",
   "mode": "shadow",
   "count": 161,
   "opportunities": [
@@ -6517,11 +6517,11 @@
       ]
     },
     {
-      "id": "552d53fad1a8e77f6c60295df897955e24189a3764fa5ccd30405ea2829d0ff7",
-      "title": "Call to Arms - Gates of Hell: Ostfront à -75% sur Steam",
+      "id": "cf385e5adb89fa066cb1e3841b5b828266b78ddd6aa5028c3c989a3080bd1416",
+      "title": "Detroit: Become Human à -80% sur Steam",
       "source_type": "deal",
       "keywords": [
-        "Call to Arms - Gates of Hell: Ostfront",
+        "Detroit: Become Human",
         "Steam"
       ],
       "freshness": "fresh",
@@ -6529,14 +6529,14 @@
       "sources": [
         {
           "type": "steam",
-          "url": "https://store.steampowered.com/app/400750/"
+          "url": "https://store.steampowered.com/app/1222140/"
         }
       ],
-      "score": 61,
+      "score": 57,
       "decision": "WATCH",
       "duplicate_risk": false,
       "breakdown": {
-        "specificity": 18,
+        "specificity": 14,
         "search_intent": 5,
         "freshness": 10,
         "competition_proxy": 8,

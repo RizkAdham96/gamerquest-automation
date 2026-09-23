@@ -201,7 +201,7 @@ jobs:
           assert len(paths) == 3
           for path in paths:
               with Image.open(path) as image:
-                  assert image.size == (1920, 1080), (path, image.size)
+                  assert image.size == (1080, 1920), (path, image.size)
                   print(path, image.size, path.stat().st_size)
           PY
 

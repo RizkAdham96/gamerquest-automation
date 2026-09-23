@@ -7,7 +7,9 @@ permissions:
   contents: write
 
 concurrency:
-  group: gamerquest-groq-global
+  # Serialize repository/state writers. This prevents bots from rebasing over
+  # each other's generated state while preserving every queued run.
+  group: gamerquest-repo-write-global
   cancel-in-progress: false
 
 jobs:

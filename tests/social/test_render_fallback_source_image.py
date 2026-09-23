@@ -101,6 +101,30 @@ class TestFallbackSourceImage(unittest.TestCase):
             "https://images.nintendolife.com/a1222a9011485/large.jpg",
         )
 
+    def test_upgrades_wordpress_thumbnail_to_original_asset(self):
+        self.assertEqual(
+            render_fallback._upgrade_image_url(
+                "https://example.com/uploads/game-320x180.jpg"
+            ),
+            "https://example.com/uploads/game.jpg",
+        )
+
+    def test_upgrades_youtube_thumbnail_to_max_resolution(self):
+        self.assertEqual(
+            render_fallback._upgrade_image_url(
+                "https://i.ytimg.com/vi/example/hqdefault.jpg"
+            ),
+            "https://i.ytimg.com/vi/example/maxresdefault.jpg",
+        )
+
+    def test_upgrades_ign_numeric_rendition_to_original(self):
+        self.assertEqual(
+            render_fallback._upgrade_image_url(
+                "https://sm.ign.com/t/ign_es/video/game-trailer.640.jpg"
+            ),
+            "https://sm.ign.com/t/ign_es/video/game-trailer.jpg",
+        )
+
     def test_refuses_render_when_three_unique_relevant_images_cannot_be_found(self):
         articles = [
             {

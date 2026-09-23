@@ -141,33 +141,67 @@ def test_tpm_guard_paces_without_reducing_output_cap():
     assert waits[0] >= 65.0
 
 
-def test_full_scheduled_day_fits_exactly_under_global_ceiling(tmp_path):
+def test_news_quality_window_allows_two_calls_with_tpm_pacing():
+    groq_budget.reset_local_counters()
+    waits = []
+    ticks = iter([0.0, 0.0, 66.0])
+
+    with patch.dict(
+        "os.environ",
+        {
+            "GROQ_RUN_TOKEN_BUDGET": "11000",
+            "GROQ_TPM_CEILING": "6000",
+        },
+        clear=False,
+    ):
+        first = groq_budget.consume_run_budget(
+            "a" * 7761,
+            1700,
+            lane="news",
+            operation="news:draft",
+            sleep_fn=waits.append,
+            monotonic_fn=lambda: next(ticks),
+        )
+        second = groq_budget.consume_run_budget(
+            "b" * 9711,
+            1300,
+            lane="news",
+            operation="news:verify",
+            sleep_fn=waits.append,
+            monotonic_fn=lambda: next(ticks),
+        )
+
+    assert first == 4287
+    assert second == 4537
+    assert waits and waits[0] >= 65.0
+
+
+def test_full_scheduled_day_fits_under_global_ceiling_with_headroom(tmp_path):
     state = tmp_path / "groq.json"
     day = "2026-09-22"
 
-    for index in range(6):
+    for index in range(4):
         result = groq_budget.reserve_run(
             "news",
-            7000,
+            11000,
             f"news-{index}",
             path=state,
             day=day,
             global_cap=70000,
-            lane_cap=42000,
+            lane_cap=44000,
         )
         assert result["allowed"] is True
 
-    for index in range(2):
-        result = groq_budget.reserve_run(
-            "seo",
-            7000,
-            f"seo-{index}",
-            path=state,
-            day=day,
-            global_cap=70000,
-            lane_cap=14000,
-        )
-        assert result["allowed"] is True
+    result = groq_budget.reserve_run(
+        "seo",
+        10000,
+        "seo-0",
+        path=state,
+        day=day,
+        global_cap=70000,
+        lane_cap=10000,
+    )
+    assert result["allowed"] is True
 
     primary = groq_budget.reserve_run(
         "social",
@@ -192,18 +226,18 @@ def test_full_scheduled_day_fits_exactly_under_global_ceiling(tmp_path):
     assert recovery["allowed"] is True
 
     saved = json.loads(state.read_text(encoding="utf-8"))
-    assert saved["global_reserved"] == 70000
+    assert saved["global_reserved"] == 68000
     assert saved["lanes"] == {
-        "news": 42000,
-        "seo": 14000,
+        "news": 44000,
+        "seo": 10000,
         "social": 14000,
         "manual": 0,
     }
 
     blocked = groq_budget.reserve_run(
         "manual",
-        1,
-        "one-token-too-many",
+        2001,
+        "over-global-headroom",
         path=state,
         day=day,
         global_cap=70000,

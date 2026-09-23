@@ -669,6 +669,50 @@ def test_final_editor_parse_failure_keeps_generated_article_for_local_guards(mon
     assert result == article_data
 
 
+def test_discovery_story_duplicate_is_blocked_before_ai():
+    existing = [
+        {
+            "title": "Monster Hunter Wilds Switch 2 : performances et détails",
+            "slug": "monster-hunter-wilds-switch-2-performances",
+            "tags": ["Monster Hunter Wilds", "Switch 2"],
+            "seo": {
+                "primary_keyword": "Monster Hunter Wilds Switch 2",
+            },
+        }
+    ]
+    story = {
+        "title": "Capcom details performance for Monster Hunter Wilds on Nintendo Switch 2",
+        "url": "https://example.com/monster-hunter-wilds-switch-2",
+    }
+
+    assert automation.discovery_story_is_duplicate(
+        story,
+        existing,
+    ) is True
+
+
+def test_discovery_story_different_angle_is_not_blocked():
+    existing = [
+        {
+            "title": "Project Nova date de sortie et plateformes",
+            "slug": "project-nova-date-sortie",
+            "tags": ["Project Nova"],
+            "seo": {
+                "primary_keyword": "Project Nova date de sortie",
+            },
+        }
+    ]
+    story = {
+        "title": "Project Nova gameplay trailer reveals new combat mechanics",
+        "url": "https://example.com/project-nova-gameplay",
+    }
+
+    assert automation.discovery_story_is_duplicate(
+        story,
+        existing,
+    ) is False
+
+
 def test_source_grounding_blocks_unsupported_platform_claim():
     article_data = (
         "Silent Hill Townfall date de sortie",

@@ -11,6 +11,7 @@ MAX_PROMPT_CHARS = 18000
 RECENT_HISTORY_ITEMS = 5
 CONCEPT_COUNT = 3
 CAROUSEL_SLIDES = 3
+STRUCTURED_RESPONSE_ATTEMPTS = 2
 
 
 # =========================================================
@@ -348,6 +349,47 @@ def parse_json_response(raw_response):
         ) from error
 
 
+def call_json_with_retry(prompt, max_tokens, label):
+    """Get valid structured JSON without lowering content quality.
+
+    Groq occasionally returns a truncated/empty structured response even when
+    JSON mode is requested. Retry once with a compact JSON-only reminder.
+    Every retry still passes through call_grok(), so the shared run/TPM budget
+    guard remains authoritative and can stop the retry safely.
+    """
+    last_error = None
+    retry_prompt = prompt
+
+    for attempt in range(STRUCTURED_RESPONSE_ATTEMPTS):
+        try:
+            raw = call_grok(
+                retry_prompt,
+                max_tokens=max_tokens,
+            )
+            return parse_json_response(raw)
+        except RuntimeError as error:
+            last_error = error
+            message = str(error)
+            recoverable = (
+                "AI returned invalid JSON" in message
+                or "no text could be extracted" in message
+            )
+            if not recoverable or attempt + 1 >= STRUCTURED_RESPONSE_ATTEMPTS:
+                raise
+
+            print(
+                f"{label}: Groq returned unusable structured output; "
+                "retrying once inside the shared token budget."
+            )
+            retry_prompt = _safe_prompt(
+                prompt
+                + "\n\nRETRY REQUIREMENT: Return one COMPLETE, compact JSON "
+                "object only. No markdown, commentary, or truncated strings."
+            )
+
+    raise last_error
+
+
 # =========================================================
 # CONCEPT PROMPT
 # =========================================================
@@ -658,11 +700,10 @@ def generate_ideas(content):
         if item.get("source_id")
     }
 
-    data = parse_json_response(
-        call_grok(
-            build_prompt(content),
-            max_tokens=800,
-        )
+    data = call_json_with_retry(
+        build_prompt(content),
+        max_tokens=800,
+        label="Social concepts",
     )
 
     if isinstance(data, dict):
@@ -730,14 +771,13 @@ def expand_idea(
             "Exact source article was not found."
         )
 
-    data = parse_json_response(
-        call_grok(
-            build_expansion_prompt(
-                idea,
-                exact_content,
-            ),
-            max_tokens=900,
-        )
+    data = call_json_with_retry(
+        build_expansion_prompt(
+            idea,
+            exact_content,
+        ),
+        max_tokens=900,
+        label="Carousel expansion",
     )
 
     if not isinstance(data, dict):
@@ -933,11 +973,10 @@ Return ONLY JSON:
 """
     )
 
-    data = parse_json_response(
-        call_grok(
-            prompt,
-            max_tokens=350,
-        )
+    data = call_json_with_retry(
+        prompt,
+        max_tokens=350,
+        label="Carousel fact check",
     )
 
     if (
@@ -1129,11 +1168,10 @@ Return ONLY JSON:
 """
     )
 
-    data = parse_json_response(
-        call_grok(
-            prompt,
-            max_tokens=900,
-        )
+    data = call_json_with_retry(
+        prompt,
+        max_tokens=900,
+        label="Carousel repair",
     )
 
     if not isinstance(data, dict):

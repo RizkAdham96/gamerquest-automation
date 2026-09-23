@@ -2850,9 +2850,23 @@ CONTENT:
         model=GROQ_VERIFICATION_MODEL,
     )
 
-    return parse_article(
-        corrected
-    )
+    try:
+        return parse_article(
+            corrected
+        )
+    except RuntimeError as error:
+        # The generation pass has already produced a complete article. The
+        # editor is an additional correction pass; a malformed editor format
+        # must not kill the News run. The unchanged article still goes through
+        # source_grounding_rejection() and all normal News quality guards
+        # before it can be saved or published.
+        print("")
+        print(
+            "Final Groq editor returned an unusable formatted response; "
+            "keeping the generated article for local safety validation."
+        )
+        print(f"Editor parse error: {error}")
+        return article_data
 
 
 

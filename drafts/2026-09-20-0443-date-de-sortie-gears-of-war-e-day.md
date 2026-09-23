@@ -53,7 +53,7 @@ Xbox Game Pass, Gears of War, Minecraft Dungeons II, Dune Awakening, dates de so
 <h2>Quel sera le gameplay de Gears of War : E‑Day ?</h2>
 <p>Il s’agit d’une campagne d’origine se déroulant 14 ans avant le premier <em>Gears of War</em>. Les joueurs incarnent Marcus Fenix et Dominic Santiago pendant l’« Emergence Day », la première éruption de la horde Locust. Le titre mise sur l’horreur et la brutalité du combat, avec une narration centrée sur la survie.</p>
 <h2>Gears of War : E‑Day proposera-t-il du multijoueur ?</h2>
-<p>Le communiqué ne mentionne aucun mode <a href="https://gamerquestfr.com/roco-kingdom-beta-date-plateformes-gameplay/">multijoueur</a> ; le jeu se concentre sur une campagne solo.</p>
+<p>Gears of War : E-Day proposera une campagne jouable en solo, en coopération locale à deux sur console et jusqu’à quatre joueurs en coopération en ligne. Le multijoueur inclura également Horde Siege en PvE et Versus en PvP.</p>
 <h2>Quelle est la date de sortie de Minecraft Dungeons II ?</h2>
 <p>Le titre arrive sur Xbox Game Pass le <strong>29 septembre 2026</strong>.</p>
 <h2>Sur quelles plateformes sera disponible Minecraft Dungeons II ?</h2>

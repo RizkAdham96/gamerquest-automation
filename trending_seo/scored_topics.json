@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-22T12:03:59.145079+00:00",
+  "updated_at": "2026-09-23T18:22:45.609266+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -2353,6 +2353,318 @@
         "suggested_title": "Ex‑développeur de Naughty Dog s’excuse auprès du studio God of War pour ses propos sur Laufey"
       },
       "reasoning": "Le sujet est une actualité très ponctuelle et ne possède pas de valeur durable : l'intérêt disparaît rapidement une fois la controverse résolue, ce qui limite fortement la durabilité. L'intention de recherche est purement informationnelle et liée à l'actualité, sans potentiel commercial ou de guide. Bien que la requête soit longue et spécifique, elle ne constitue pas un sujet evergreen que l’on peut exploiter à long terme. La pertinence pour le public français est moyenne, les fans de God of War s’y intéressent, mais le sujet reste limité à un événement isolé. La concurrence est élevée parmi les sites d'actualités gaming, rendant difficile un bon positionnement à long terme. L'intérêt pour GamerQuest est modéré : l'événement peut être intégré dans la veille news, mais ne justifie pas une ressource permanente. Il existe toutefois un petit potentiel de liens internes vers les pages God of War et les profils de personnages, d'où un score limité pour le potentiel de liens internes."
+    },
+    {
+      "id": "rss-very-large-man-could-join-helldivers-movie-after-a-diff-6e7b84179344",
+      "topic": "Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out",
+      "detected_at": "2026-09-20T05:25:06.209896+00:00",
+      "analysed_at": "2026-09-23T18:22:45.609002+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/very-large-man-could-join-helldivers-movie-after-a-different-very-large-aquaman-dropped-out/",
+          "title": "Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out",
+          "evidence": "GameSpot published a fresh gaming story titled: Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out",
+        "secondary_keywords": [
+          "Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out date de sortie",
+          "Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out plateformes",
+          "Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out gameplay",
+          "Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out guide",
+          "Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Very Large Man Could Join Helldivers Movie After A Different Very Large (Aqua)Man Dropped Out"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-tokyo-walled-city-looks-set-to-fill-the-deus-ex-shaped--9c0e556f6ce3",
+      "topic": "Tokyo Walled City looks set to fill the Deus Ex-shaped hole in my life",
+      "detected_at": "2026-09-20T11:48:28.024758+00:00",
+      "analysed_at": "2026-09-23T18:22:45.609053+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/tokyo-walled-city-looks-set-to-fill-the-deus-ex-shaped-hole-in-my-life/",
+          "title": "Tokyo Walled City looks set to fill the Deus Ex-shaped hole in my life",
+          "evidence": "<article> <p>It's been more than a decade since the last<a href=\"https://www.pcgamer.com/uk/deus-ex/\"> Deus Ex</a> game, and it's unlikely we'll see another one any time soon. Yet while Adam Jensen's story remains frustratingly unfinished thanks to the cliffhanger ending of<a href=\"https://www.pcgamer.com/deus-ex-mankind-divided-review/\"> Deus Ex: Mankind Divided</a>, the indie scene has offered fresh hope for fans of sneaking through moody cyberpunk cityscapes in the form of newly revealed immersive sim<a href=\"https://store.steampowered.com/app/4165760/TOKYO_WALLED_CITY/\"> Tokyo Walled City</a>.</p><p>Unveiled at<a href=\"https://www.pcgamer.com/gaming-industry/events-conferences/how-to-watch-the-pc-gaming-show-tokyo-direct-2025/\"> TGS 2026</a>, Tokyo Walled City is described by developer Grim Ronin as a \"stealth action retro-cyberpunk immersive sim with survival horror and RPG elements\". So, Deus Ex with scary bits, basically. You play as Reiko Kimura, a mercenary who is trapped in a dense, fortified district of Japan's capital, the name of which implies it is inspired by the Internet's favourite historic enclave Kowloon Walled City. Blade Runner is another clear inspiration, wit"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Tokyo Walled City looks set to fill the Deus Ex-shaped hole in my life",
+        "secondary_keywords": [
+          "Tokyo Walled City looks set to fill the Deus Ex-shaped hole in my life date de sortie",
+          "Tokyo Walled City looks set to fill the Deus Ex-shaped hole in my life plateformes",
+          "Tokyo Walled City looks set to fill the Deus Ex-shaped hole in my life gameplay",
+          "Tokyo Walled City looks set to fill the Deus Ex-shaped hole in my life guide",
+          "Tokyo Walled City looks set to fill the Deus Ex-shaped hole in my life avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Tokyo Walled City looks set to fill the Deus Ex-shaped hole in my life"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-over-10-years-later-gabe-newell-s-advice-to-devs-still--18472259a553",
+      "topic": "Over 10 years later, Gabe Newell's advice to devs still holds up",
+      "detected_at": "2026-09-20T11:48:28.025033+00:00",
+      "analysed_at": "2026-09-23T18:22:45.609081+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/game-development/over-10-years-later-gabe-newells-advice-to-devs-still-holds-up/",
+          "title": "Over 10 years later, Gabe Newell's advice to devs still holds up",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/t8QEOBgLBQU?start=3075\" allowfullscreen></iframe></div></div><p>In 2013, Valve head honcho Gabe Newell spoke to students at the LBJ School of Public Affairs in Austin about \"Productivity, Economics, Political Institutions & The Future of Corporations.\" It was a much more interesting topic than that makes it sounds, and has been doing the rounds again thanks to being sliced up into shorts by the <a href=\"https://www.youtube.com/@WebKnower/shorts\">Webknower channel</a>. </p><p>One clip that's been going around is Newell's response to being asked about how easy it is for hackers to get into game worlds and do things the creators don't want them to do: \"One of the biggest mistakes game developers make is to mistake hacking, or to mistake a genuinely entertaining action by a player as hacking. So the example game developers tell each other is when Lord British was killed during his first speech in Ultima Online they rolled the world back rather than recognizing that it was the coolest thing that had ever happened in Ult"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Over 10 years later, Gabe Newell's advice to devs still holds up",
+        "secondary_keywords": [
+          "Over 10 years later, Gabe Newell's advice to devs still holds up date de sortie",
+          "Over 10 years later, Gabe Newell's advice to devs still holds up plateformes",
+          "Over 10 years later, Gabe Newell's advice to devs still holds up gameplay",
+          "Over 10 years later, Gabe Newell's advice to devs still holds up guide",
+          "Over 10 years later, Gabe Newell's advice to devs still holds up avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Over 10 years later, Gabe Newell's advice to devs still holds up"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-evidence-of-canceled-grand-theft-auto-5-liberty-city-an-aace7c149e55",
+      "topic": "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online",
+      "detected_at": "2026-09-20T11:48:28.025278+00:00",
+      "analysed_at": "2026-09-23T18:22:45.609109+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 24,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 68,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/evidence-of-canceled-grand-theft-auto-5-liberty-city-and-agent-trevor-dlc-plus-early-version-of-gta6s-map-surface-online/",
+          "title": "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online",
+          "evidence": "<article> <p>As reported by <a href=\"https://www.ign.com/articles/new-gta-5-leak-suggests-rockstar-had-ambitious-city-sized-dlc-plans-that-were-ultimately-scrapped\" target=\"_blank\">IGN</a>, a trove of data from Rockstar has made its way online, with the big ticket items being Grand Theft Auto 5's source code, remnants of canceled GTA5 singleplayer DLC, as well as an early version of GTA6's map that can be loaded into the prior game.</p><p>It's unclear how or why the data is making the rounds now, but the consensus appears to be that it was first extracted from Rockstar in the <a href=\"https://www.pcgamer.com/the-gta-6-leak-was-one-of-the-biggest-ever-and-the-only-winners-were-the-news-writers/\" target=\"_blank\">infamous 2022 Lapsus hack</a> that revealed GTA6 to the world.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/6XuiPl7mTk4\" allowfullscreen></iframe></div></div><p>GTA YouTuber <a href=\"https://www.youtube.com/watch?v=6XuiPl7mTk4\" target=\"_blank\">TJGM</a> has a video and a number of posts on <a href=\"https://x.com/TJGM_\" target=\"_blank\">X</a> covering the <a href"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online",
+        "secondary_keywords": [
+          "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online date de sortie",
+          "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online plateformes",
+          "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online gameplay",
+          "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online guide",
+          "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-an-ambitious-fanmade-expansion-for-baldur-s-gate-3-is-o-75d6ac9ada41",
+      "topic": "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development",
+      "detected_at": "2026-09-20T11:48:28.025509+00:00",
+      "analysed_at": "2026-09-23T18:22:45.609136+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/baldurs-gate/an-ambitious-fanmade-expansion-for-baldurs-gate-3-is-out-after-almost-two-years-in-development/",
+          "title": "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development",
+          "evidence": "<article> <p>Baldur's Gate 3 is pretty great right out of the box, but it could be argued that its second act lacks some variety. If you aren't endlessly dazzled by shadowy forests and J.K. Simmons, you might have wished you could hang out after the family drama in the Shadow-Cursed Lands is sorted and explore some less gloomy vistas before arriving in the game's eponymous metropolis. </p><p>As always, modders have you covered. An ambitious mod for BG3, simply called \"<a href=\"https://www.nexusmods.com/baldursgate3/mods/24689\" target=\"_blank\">Baldur's Gate 3: Act Two Expansion</a>\" just released after \"almost two years in development,\" according to modder SquallyDaBeanz. As the description states, the expansion implements a custom zone called The Chionthar Wilds—\"a whole new region to experience that is similar in scope to the Act 1 Wilderness.\" </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/b48meTdw0OY\" allowfullscreen></iframe></div></div><p>With the mod installed, you can start adventuring in the new region (ideally with a party that's around level 8 or higher) af"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development",
+        "secondary_keywords": [
+          "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development date de sortie",
+          "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development plateformes",
+          "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development gameplay",
+          "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development guide",
+          "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-japanese-devs-aren-t-facing-the-same-layoff-crisis-beca-352193450b34",
+      "topic": "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert",
+      "detected_at": "2026-09-20T11:48:28.025859+00:00",
+      "analysed_at": "2026-09-23T18:22:45.609210+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/japanese-devs-arent-facing-the-same-layoff-crisis-because-their-executives-are-paid-an-order-of-magnitude-less-they-didnt-get-swept-up-in-the-live-service-trend-and-their-teams-are-smaller-says-industry-expert/",
+          "title": "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert",
+          "evidence": "<article> <p>In an interview first published in <a href=\"https://www.magazinesdirect.com/uk/single-issues/edge?utm_campaign=the-game-industry-is-broken-can-we-fix-it&utm_medium=referral&utm_source=knowledge.edge-online.com\" target=\"_blank\">Edge Magazine</a> issue 428 and shared online via its <a href=\"https://knowledge.edge-online.com/p/the-game-industry-is-broken-can-we-fix-it-tim-sweeney-edge-crash\" target=\"_blank\">Knowledge newsletter</a>, former Tencent Games business development director and <a href=\"https://www.pcgamer.com/gaming-industry/this-year-the-game-awards-finally-tackled-the-plague-of-game-industry-layoffs/\" target=\"_blank\">inaugural Game Awards Game Changer Amir Satvat</a> offered his take on why the now-yearslong games industry layoff crisis has been so uneven in its geographic distribution.</p><p>There's been a lot of debate whether the past three years have matched the infamous '83 videogame crash⁠—<a href=\"https://www.pcgamer.com/gaming-industry/the-industrys-in-a-really-horrible-place-brenda-romero-says-we-were-there-in-the-80s-for-the-crash-and-this-is-definitely-crashier/\" target=\"_blank\">Brenda Romero says yes</a>, Tim Cain <a href=\"https://www.pcgamer.com/g"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert",
+        "secondary_keywords": [
+          "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert date de sortie",
+          "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert plateformes",
+          "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert gameplay",
+          "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert guide",
+          "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-the-largest-theft-of-labor-in-human-history-court-docs--d96fcb6ea07b",
+      "topic": "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet",
+      "detected_at": "2026-09-20T11:48:28.026188+00:00",
+      "analysed_at": "2026-09-23T18:22:45.609239+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/the-largest-theft-of-labor-in-human-history-court-docs-reveal-microsoft-exec-predicted-ai-doom-loops-could-hollow-out-the-internet/",
+          "title": "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet",
+          "evidence": "<article> <p>In Dec. 2023, The New York Times filed one of the biggest copyright lawsuits in recent memory against OpenAI and Microsoft, alleging that its AI models heisted ludicrous amounts of journalistic work from the Times. Two days ago, <a href=\"https://cdn.arstechnica.net/wp-content/uploads/2026/07/NYT-v-OpenAI-Memorandum-of-Law-in-Support-of-Motion-for-Sanctions-Against-OpenAI-7-9-26.pdf\" target=\"_blank\">a court filing</a> (hosted and analyzed by <a href=\"https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/\" target=\"_blank\">Ars Technica</a>) was newly unsealed with all sorts of revealing quotes from higher-ups at Microsoft and OpenAI (thanks, <a href=\"https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/\" target=\"_blank\">Tech Crunch</a>).</p><p>Perhaps the most shocking sentiments are from Microsoft's director of applied science, Brent Hecht, who wrote in an internal presentation that Copilot's answer engine would \"hurt the performance of our models and the entire web at the same time.\" </p><p>Internal data from Micros"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet",
+        "secondary_keywords": [
+          "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet date de sortie",
+          "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet plateformes",
+          "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet gameplay",
+          "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet guide",
+          "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-i-played-the-adventure-game-so-scandalous-that-it-was-p-59c4d8556d53",
+      "topic": "I played the adventure game so scandalous that it was physically destroyed by UK customs",
+      "detected_at": "2026-09-20T11:48:28.026899+00:00",
+      "analysed_at": "2026-09-23T18:22:45.609261+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/adventure/i-played-the-adventure-game-so-scandalous-that-it-was-physically-destroyed-by-uk-customs/",
+          "title": "I played the adventure game so scandalous that it was physically destroyed by UK customs",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Weird Weekend</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/weird-weekend/\" target=\"_blank\">Weird Weekend</a> is our regular Saturday column where we celebrate PC gaming oddities: peculiar games, strange bits of trivia, forgotten history. Pop back every weekend to find out what Jeremy, Josh, Rick and Ted have become obsessed with this time, whether it's the <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/i-embarked-on-a-mission-to-answer-the-most-important-question-in-pc-gaming-how-tall-is-garrett-from-thief/\" target=\"_blank\">canon height of Thief's Garrett</a> or that time someone in the Vatican pirated <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/sports/a-part-of-my-brain-will-always-be-dedicated-to-the-time-someone-in-the-vatican-pirated-football-manager-2013/\" target=\"_blank\">Football Manager</a>.</p></div></div><p>Videogames have been banned and censored for all manner of reasons, and at least one game was so notoriously terrible that it was <a href=\"https://en.wikipedia.org/wik"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I played the adventure game so scandalous that it was physically destroyed by UK customs",
+        "secondary_keywords": [
+          "I played the adventure game so scandalous that it was physically destroyed by UK customs date de sortie",
+          "I played the adventure game so scandalous that it was physically destroyed by UK customs plateformes",
+          "I played the adventure game so scandalous that it was physically destroyed by UK customs gameplay",
+          "I played the adventure game so scandalous that it was physically destroyed by UK customs guide",
+          "I played the adventure game so scandalous that it was physically destroyed by UK customs avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "I played the adventure game so scandalous that it was physically destroyed by UK customs"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
     }
   ]
 }

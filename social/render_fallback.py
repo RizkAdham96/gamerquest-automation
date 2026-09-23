@@ -53,6 +53,24 @@ def _upgrade_image_url(url):
         )
         return parsed._replace(path=path, query="", fragment="").geturl()
 
+    if host in {"i.ytimg.com", "img.youtube.com"}:
+        path = re.sub(
+            r"/(?:hqdefault|sddefault|mqdefault|default)\.(?:jpe?g|webp)$",
+            "/maxresdefault.jpg",
+            path,
+            flags=re.IGNORECASE,
+        )
+
+    # IGN commonly inserts a numeric rendition marker immediately before the
+    # extension (for example ".640.jpg"). Removing it requests the original.
+    if host.endswith("ign.com"):
+        path = re.sub(
+            r"\.\d{3,4}(?=\.(?:jpe?g|png|webp|avif)$)",
+            "",
+            path,
+            flags=re.IGNORECASE,
+        )
+
     # WordPress and many gaming CDNs expose the original asset by removing
     # generated thumbnail dimensions from the filename.
     path = re.sub(

@@ -12,8 +12,9 @@ permissions:
   contents: write
 
 concurrency:
-  # ONE Groq workflow at a time across News, SEO and Social.
-  group: gamerquest-groq-global
+  # Serialize all repository/state writers so generated state and Groq
+  # reservations cannot race other GamerQuest bots.
+  group: gamerquest-repo-write-global
   cancel-in-progress: false
 
 jobs:

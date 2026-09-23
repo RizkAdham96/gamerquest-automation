@@ -245,3 +245,43 @@ def test_full_scheduled_day_fits_under_global_ceiling_with_headroom(tmp_path):
     )
     assert blocked["allowed"] is False
     assert "global daily ceiling" in blocked["reason"]
+
+
+def test_release_run_returns_unused_reservation_to_budget(tmp_path):
+    state = tmp_path / "groq.json"
+    groq_budget.reserve_run(
+        "seo",
+        10000,
+        "seo-failed-before-ai",
+        path=state,
+        day="2026-09-22",
+        global_cap=70000,
+        lane_cap=10000,
+    )
+
+    result = groq_budget.release_run(
+        "seo-failed-before-ai",
+        path=state,
+        day="2026-09-22",
+    )
+
+    assert result["released"] is True
+    assert result["tokens"] == 10000
+    assert result["lane"] == "seo"
+
+    saved = json.loads(state.read_text(encoding="utf-8"))
+    assert saved["global_reserved"] == 0
+    assert saved["lanes"]["seo"] == 0
+    assert saved["reservations"] == []
+
+
+def test_release_run_is_idempotent_when_reservation_is_missing(tmp_path):
+    state = tmp_path / "groq.json"
+    result = groq_budget.release_run(
+        "missing",
+        path=state,
+        day="2026-09-22",
+    )
+
+    assert result["released"] is False
+    assert result["reason"] == "not_found"

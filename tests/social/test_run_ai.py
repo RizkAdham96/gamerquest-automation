@@ -94,6 +94,38 @@ class TestSocialAIRunner(unittest.TestCase):
     @patch(
         "social.idea_generator.call_grok"
     )
+    def test_generate_ideas_accepts_json_object_mode_wrapper(
+        self,
+        mock_call,
+    ):
+        mock_call.return_value = json.dumps(
+            {
+                "concepts": [
+                    {
+                        "topic": "A",
+                        "angle": "A",
+                        "format": "news",
+                        "hook": "A",
+                    }
+                ]
+            }
+        )
+
+        result = idea_generator.generate_ideas(
+            [
+                {
+                    "title": "Article",
+                    "excerpt": "Facts",
+                    "source_type": "news",
+                }
+            ]
+        )
+
+        self.assertEqual(len(result), 1)
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
     def test_generate_ideas_returns_three_concepts_max(
         self,
         mock_call,

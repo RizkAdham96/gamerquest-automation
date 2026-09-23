@@ -46,27 +46,54 @@ jobs:
             test_platform_feed.py \
             -v
 
-      - name: Reserve shared Groq budget
+      - name: Reserve and persist shared Groq budget
         id: groq_budget
         run: |
-          python groq_budget.py reserve-run \
-            --lane news \
-            --tokens 11000 \
-            --reservation-id "${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-news" \
-            --github-output "${GITHUB_OUTPUT}"
+          set -euo pipefail
 
-      - name: Persist Groq budget reservation before AI calls
-        if: ${{ steps.groq_budget.outputs.allowed == 'true' }}
-        run: |
           git config user.name "GamerQuest Budget Bot"
           git config user.email "actions@github.com"
-          git add state/groq_budget.json
-          git commit -m "budget: reserve News Groq allowance" || true
-          git stash push --include-untracked -m "gamerquest-news-budget-pre-rebase" || true
-          git fetch origin main
-          git rebase origin/main
-          git push origin HEAD:main
-          git stash pop || true
+
+          reservation_id="${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-news"
+          output_file="${RUNNER_TEMP}/groq-budget-output"
+          : > "${output_file}"
+
+          for attempt in 1 2 3; do
+            echo "Budget reservation attempt ${attempt}/3"
+
+            # Always reserve against the newest shared state. If another bot
+            # committed state while this run was waiting, discard only this
+            # runner's unpushed copy and recompute from origin/main.
+            git fetch origin main
+            git reset --hard origin/main
+
+            : > "${output_file}"
+            python groq_budget.py reserve-run \
+              --lane news \
+              --tokens 11000 \
+              --reservation-id "${reservation_id}" \
+              --github-output "${output_file}"
+
+            allowed="$(grep '^allowed=' "${output_file}" | tail -1 | cut -d= -f2- || true)"
+
+            if [ "${allowed}" != "true" ]; then
+              cat "${output_file}" >> "${GITHUB_OUTPUT}"
+              exit 0
+            fi
+
+            git add state/groq_budget.json
+            git commit -m "budget: reserve News Groq allowance"
+
+            if git push origin HEAD:main; then
+              cat "${output_file}" >> "${GITHUB_OUTPUT}"
+              exit 0
+            fi
+
+            echo "Shared budget state changed before push; recomputing safely."
+          done
+
+          echo "Unable to persist shared Groq reservation after 3 attempts." >&2
+          exit 1
 
       - name: Shared Groq ceiling reached
         if: ${{ steps.groq_budget.outputs.allowed != 'true' }}

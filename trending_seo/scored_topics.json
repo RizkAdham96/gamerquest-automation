@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-23T18:22:45.609266+00:00",
+  "updated_at": "2026-09-24T07:49:15.448946+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -2663,6 +2663,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
         "suggested_title": "I played the adventure game so scandalous that it was physically destroyed by UK customs"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-world-of-warcraft-forever-s-convinced-me-that-we-lost-t-feb666536293",
+      "topic": "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design",
+      "detected_at": "2026-09-20T11:48:28.027302+00:00",
+      "analysed_at": "2026-09-24T07:49:15.448728+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-convinced-me-that-we-lost-too-much-to-modern-mmo-quest-design/",
+          "title": "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Terminally Online</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PgGhmt5pTtxusaQQX3dHPF\" name=\"logo_terminally\" caption=\"\" alt=\"The Terminally Online logo.\" src=\"https://cdn.mos.cms.futurecdn.net/PgGhmt5pTtxusaQQX3dHPF-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">This is <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/terminally-online/\" target=\"_blank\">Terminally Online</a>:<strong> </strong>PC Gamer's very own MMO column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice.</p><"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design",
+        "secondary_keywords": [
+          "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design date de sortie",
+          "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design plateformes",
+          "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design gameplay",
+          "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design guide",
+          "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-it-rules-that-a-27-year-old-rpg-one-of-the-greatest-of--4dce688f4b05",
+      "topic": "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches",
+      "detected_at": "2026-09-20T11:48:28.027535+00:00",
+      "analysed_at": "2026-09-24T07:49:15.448779+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 24,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 68,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/it-rules-that-a-27-year-old-rpg-one-of-the-greatest-of-all-time-is-still-getting-patches/",
+          "title": "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches",
+          "evidence": "<article> <p>A lamentable fact of our hobby is this: time marches on. Because our games have to be rendered in real-time by whatever tech we load them onto, they inevitably end up harder to run as the years wear on, and the gap grows between the tech we <em>have</em> and the tech the games were designed to run on. On PC, the task of keeping those games running tends to end up in the hands of dedicated fans—and god bless them.</p><p>You can't expect devs to maintain games in perpetuity. Unless, I guess, they happen to be the stewards of the Baldur's Gate and Planescape: Torment Enhanced Editions, which are still getting patches almost three decades after the original games released. Most recently (September 15), Planescape got a beta update to its, uh, beta update: a release candidate for an upcoming patch that will bring the game in line with the 2.7 patches some of Beamdog's <a href=\"https://www.pcgamer.com/games/baldurs-gate/beamdog-swaggers-in-says-sorry-im-late-then-surprise-patches-baldurs-gate-1-and-2-enhanced-14-years-after-release/\">other Enhanced Edition games</a> already have.</p><p>As with those other games, the new Planescape beta (itself an addition to <a href=\"https:/"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches",
+        "secondary_keywords": [
+          "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches date de sortie",
+          "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches plateformes",
+          "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches gameplay",
+          "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches guide",
+          "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-this-unofficial-engine-patch-for-thief-the-dark-project-422ac561299c",
+      "topic": "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster",
+      "detected_at": "2026-09-20T11:48:28.027821+00:00",
+      "analysed_at": "2026-09-24T07:49:15.448809+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 24,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 68,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/this-unofficial-engine-patch-for-thief-the-dark-project-adds-a-huge-new-feature-that-wont-be-in-nightdives-upcoming-remaster/",
+          "title": "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/uk/thief-the-dark-project/\">Thief: The Dark Project</a> is one of my favourite games of all time, so naturally I am very excited for Nightdive Studios'<a href=\"https://www.pcgamer.com/games/oh-hell-yes-nightdives-next-delicious-remaster-treat-is-thief/\"> upcoming remaster</a>. But it's worth remembering that the community has done an excellent job supporting the game up until this point. Unofficial patches like<a href=\"https://www.systemshock.org/index.php?topic=4128\"> NewDark</a> have ensured that Looking Glass' landmark stealth game can run in high resolutions and with support for widescreen and multi-monitor functionalities for years.</p><p>And if you thought an official remaster might put such efforts to an end, think again. Not to be outdone by Nightdive, NewDark's creator just released a new version of the overhaul which adds a radical new feature to Thief—dynamic shadows.</p><p>Yep, NewDark 1.29 introduces hardware transform & lighting to the Dark Engine, opening the door to GPU-driven effects in Thief's gothic steampunk world. Chief among these is shadows that are dynamically cast by moving objects—guards, doors, even master thi"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster",
+        "secondary_keywords": [
+          "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster date de sortie",
+          "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster plateformes",
+          "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster gameplay",
+          "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster guide",
+          "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-cd-projekt-says-abandoning-its-in-house-engine-for-the--6fc5a7c2495a",
+      "topic": "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology'",
+      "detected_at": "2026-09-20T11:48:28.028148+00:00",
+      "analysed_at": "2026-09-24T07:49:15.448839+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-witcher/cd-projekt-says-abandoning-its-in-house-engine-for-the-witcher-4-had-nothing-to-do-with-cyberpunk-2077s-technical-woes-the-dream-of-the-company-was-actually-never-to-make-technology/",
+          "title": "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology'",
+          "evidence": "<article> <p>We still don't know a huge amount about<a href=\"https://www.pcgamer.com/uk/the-witcher-4/\"> The Witcher 4</a>. But we do know it represents two big changes for the series thus far. The first change is, of course, that Ciri will replace Geralt as the lead character. The second is that CD Projekk will replace its in-house REDengine with Unreal Engine 5.</p><p>There's been considerable speculation as to why CDP is abandoning tech that's delivered some of the most cutting-edge visuals of the last decade, with some fans suggesting that<a href=\"https://www.pcgamer.com/uk/cyberpunk-2077/\"> Cyberpunk 2077</a>'s difficult development and compromised initial release might be a factor. But the studio's co-CEO Michał Nowakowski has formally dismissed this suggestion, stating the decision had more to do with CD Projekt's general ambitions than Cyberpunk specifically.</p><p>Speaking on the<a href=\"https://www.deconstructoroffun.com/blog/why-none-of-us-saw-cyberpunk-coming-apart\" target=\"_blank\"> Deconstructor of Fun</a> podcast (via<a href=\"https://www.gamesradar.com/games/the-witcher/the-witcher-4-abandons-cd-projekt-reds-in-house-tech-for-unreal-engine-5-but-studio-lead-says-its-n"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology'",
+        "secondary_keywords": [
+          "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' date de sortie",
+          "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' plateformes",
+          "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' gameplay",
+          "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' guide",
+          "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology'"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-dune-awakening-now-has-a-solo-mode-for-players-put-off--0f406e0b41da",
+      "topic": "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore'",
+      "detected_at": "2026-09-20T11:48:28.028479+00:00",
+      "analysed_at": "2026-09-24T07:49:15.448866+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/survival-crafting/dune-awakening-now-has-a-solo-mode-for-players-put-off-by-its-mmo-leanings-while-funcom-has-adjusted-progression-so-you-dont-have-to-lose-things-anymore/",
+          "title": "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore'",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/uk/dune-awakening/\">Dune Awakening</a> was lauded for its survivalist take on Frank Herbert's sci-fi epic when it was released last year, but there's one element of Funcom's sci-fi adventure that's proved consistently controversial, and that's its MMO-adjacent elements. Players seemingly love constructing bases and braving the many dangers lurking in Arrakis' deserts, but are less keen on sharing that experience with other players, especially when the game becomes more competitive in its PvP focussed Deep Desert.</p><p>Now though, in a move that would please Harkonnens galaxy-wide, Funcom has made it so you can keep Arrakis all to yourself. Dune Awakening's long-sought after single-player mode has arrived.<a href=\"https://store.steampowered.com/app/1172710/Dune_Awakening/\"> Update 1.5</a> introduces a tweaked version of Awakening suitable for solo play, while also adjusting Arrakis in a bunch of other ways to make it generally more accessible and less punishing.</p><p>Funcom has changed several core mechanics to make solo mode work, chiefly retooling multiplayer-reliant systems so they can work independently. The player-driven market kn"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore'",
+        "secondary_keywords": [
+          "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore' date de sortie",
+          "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore' plateformes",
+          "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore' gameplay",
+          "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore' guide",
+          "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore'"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-vaewolf-s-new-story-trailer-takes-us-down-a-brutal-path-c5b534d00a08",
+      "topic": "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat",
+      "detected_at": "2026-09-20T16:29:24.509166+00:00",
+      "analysed_at": "2026-09-24T07:49:15.448896+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/vaewolfs-new-story-trailer-takes-us-down-a-brutal-path-of-revenge-and-shows-off-the-frenetic-vampire-and-werewolf-combat/",
+          "title": "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/LapaDbUyezs\" allowfullscreen></iframe></div></div><p>It's always vampires versus werewolves. In games like Skyrim, you can be one or the other, but not both. In Twilight, you had to choose team Jacob or team Edward. Now we're all grown up, it's team Charlie and Carlisle all the way. In Vaewolf, you don't have to choose, you play an elf who's half werewolf and half vampire.</p><p>Vaewolf is an action game where you hack and slash your way to vengeance. The PC Gaming Show Tokyo Direct just debuted a story trailer that gives us a good look at the events that led to our protagonist going down the path of violence.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/y3q7vNa57iQpPTSHdhcAnZ.jpg\" alt=\"A werewolf and a vampiric figure howling. The Vaewolf logo is shown.\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat",
+        "secondary_keywords": [
+          "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat date de sortie",
+          "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat plateformes",
+          "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat gameplay",
+          "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat guide",
+          "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-it-s-just-you-and-your-van-in-this-upcoming-open-world--fc0f62a3964b",
+      "topic": "It's just you and your van in this upcoming open-world scavenging game",
+      "detected_at": "2026-09-20T16:29:24.509374+00:00",
+      "analysed_at": "2026-09-24T07:49:15.448918+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/adventure/its-just-you-and-your-van-in-this-upcoming-open-world-scavenging-game/",
+          "title": "It's just you and your van in this upcoming open-world scavenging game",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/4UF4lxGqPhI\" allowfullscreen></iframe></div></div><p>Deep down, I know I want to abandon it all and live the life of a nomad. If I didn't have a family and friends to worry about, I'd pack some clothes into a van and drive off, moving from town to town and camping out in the woods. Unfortunately, I have responsibilities and no driver's license, so I can't head off just yet. I can, however, live out the fantasy in Hodka, a new game revealed at the PC Gaming Show Tokyo Direct.</p><p>Hodka is an upcoming game from developer Flazm. In the reveal trailer, we see a dilapidated van cresting a hill next to some stone ruins. The scene is set: this is about you and your trusty home-on-wheels venturing through what remains of this troubled world.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/hrq2PEya2twqN4MYfYKkMb.jpg\" alt=\"A ma"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "It's just you and your van in this upcoming open-world scavenging game",
+        "secondary_keywords": [
+          "It's just you and your van in this upcoming open-world scavenging game date de sortie",
+          "It's just you and your van in this upcoming open-world scavenging game plateformes",
+          "It's just you and your van in this upcoming open-world scavenging game gameplay",
+          "It's just you and your van in this upcoming open-world scavenging game guide",
+          "It's just you and your van in this upcoming open-world scavenging game avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "It's just you and your van in this upcoming open-world scavenging game"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-neon-abyss-2-has-a-new-final-boss-a-release-date-and-at-89535b5dda9a",
+      "topic": "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points",
+      "detected_at": "2026-09-20T16:29:24.509571+00:00",
+      "analysed_at": "2026-09-24T07:49:15.448941+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/neon-abyss-2-has-a-new-final-boss-a-release-date-and-at-least-1-massive-fish-worth-many-many-points/",
+          "title": "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Ss9920Jn8Eg\" allowfullscreen></iframe></div></div><p>Back in 2020, the first Neon Abyss served us up a run 'n' gun roguelike filled with glorious colour, overwhelming action, and like a billion possible builds. It was a sugary-sweet thinker of a game, so it was, tickling all the bestial regions of your brain even while it put that grey matter to work.</p><p>Well, now it's back. We just saw Neon Abyss 2 at the PC Gaming Show Tokyo Direct and, brother, there sure is a lot going on here. The game's gearing up for an October 8 release date—it's currently out in early access—and to celebrate it's getting a new final boss: Theia, God of Vanity.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/u5S2TFKvrV78U6gquQBSF5.png\" alt=\"Key art from Neon Abyss 2\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Neon A"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points",
+        "secondary_keywords": [
+          "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points date de sortie",
+          "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points plateformes",
+          "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points gameplay",
+          "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points guide",
+          "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points"
       },
       "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
     }

@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-09-23T22:57:15.123416+00:00",
+  "generated_at": "2026-09-24T04:51:18.145457+00:00",
   "count": 4,
   "articles": [
-    {
-      "source_id": "261cdc966e5ac3b97aa841d125fb5dcd6db784b041559bac8384353446a1d212",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE à -75% sur Steam",
-      "excerpt": "FINAL FANTASY VII REMAKE INTERGRADE bénéficie actuellement d'une réduction de 75% sur Steam, passant de 39,99 € à 9,99 €.",
-      "content": "<p><strong>FINAL FANTASY VII REMAKE INTERGRADE</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>9,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1462040/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/1462040/",
-      "deal": {
-        "game": "FINAL FANTASY VII REMAKE INTERGRADE",
-        "store": "Steam",
-        "original_price": 39.99,
-        "current_price": 9.99,
-        "discount_percent": 75,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/261cdc966e5ac3b97aa841d125fb5dcd6db784b041559bac8384353446a1d212.jpg",
-        "filename": "261cdc966e5ac3b97aa841d125fb5dcd6db784b041559bac8384353446a1d212.jpg",
-        "alt": "FINAL FANTASY VII REMAKE INTERGRADE -75% sur Steam - GamerQuest",
-        "caption": "FINAL FANTASY VII REMAKE INTERGRADE : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre FINAL FANTASY VII REMAKE INTERGRADE sur Steam."
-      }
-    },
     {
       "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
       "title": "FINAL FANTASY VII REBIRTH à -70% sur Steam",
@@ -44,6 +22,28 @@
         "alt": "FINAL FANTASY VII REBIRTH -70% sur Steam - GamerQuest",
         "caption": "FINAL FANTASY VII REBIRTH : offre -70% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre FINAL FANTASY VII REBIRTH sur Steam."
+      }
+    },
+    {
+      "source_id": "261cdc966e5ac3b97aa841d125fb5dcd6db784b041559bac8384353446a1d212",
+      "title": "FINAL FANTASY VII REMAKE INTERGRADE à -75% sur Steam",
+      "excerpt": "FINAL FANTASY VII REMAKE INTERGRADE bénéficie actuellement d'une réduction de 75% sur Steam, passant de 39,99 € à 9,99 €.",
+      "content": "<p><strong>FINAL FANTASY VII REMAKE INTERGRADE</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>9,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1462040/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1462040/",
+      "deal": {
+        "game": "FINAL FANTASY VII REMAKE INTERGRADE",
+        "store": "Steam",
+        "original_price": 39.99,
+        "current_price": 9.99,
+        "discount_percent": 75,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/261cdc966e5ac3b97aa841d125fb5dcd6db784b041559bac8384353446a1d212.jpg",
+        "filename": "261cdc966e5ac3b97aa841d125fb5dcd6db784b041559bac8384353446a1d212.jpg",
+        "alt": "FINAL FANTASY VII REMAKE INTERGRADE -75% sur Steam - GamerQuest",
+        "caption": "FINAL FANTASY VII REMAKE INTERGRADE : offre -75% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre FINAL FANTASY VII REMAKE INTERGRADE sur Steam."
       }
     },
     {

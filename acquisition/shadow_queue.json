@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T21:30:26.437729+00:00",
+  "generated_at": "2026-09-24T04:51:41.361109+00:00",
   "mode": "shadow",
-  "count": 186,
+  "count": 185,
   "opportunities": [
     {
       "id": "rss-cloud-is-still-the-main-character-of-final-fantasy-7-re-cf45bad46657",
@@ -7553,38 +7553,6 @@
       "duplicate_risk": false,
       "breakdown": {
         "specificity": 14,
-        "search_intent": 5,
-        "freshness": 10,
-        "competition_proxy": 8,
-        "gamerquest_fit": 10,
-        "distribution_potential": 5,
-        "internal_link_potential": 5
-      },
-      "reasons": [
-        "weak acquisition signal"
-      ]
-    },
-    {
-      "id": "a119c95de058bf765f1c8be832e6434b052c2b5d58044f3067465e7626c4f6d5",
-      "title": "Graveyard Keeper à -80% sur Steam",
-      "source_type": "deal",
-      "keywords": [
-        "Graveyard Keeper",
-        "Steam"
-      ],
-      "freshness": "fresh",
-      "existing_score": 0,
-      "sources": [
-        {
-          "type": "steam",
-          "url": "https://store.steampowered.com/app/599140/"
-        }
-      ],
-      "score": 51,
-      "decision": "SKIP",
-      "duplicate_risk": false,
-      "breakdown": {
-        "specificity": 8,
         "search_intent": 5,
         "freshness": 10,
         "competition_proxy": 8,

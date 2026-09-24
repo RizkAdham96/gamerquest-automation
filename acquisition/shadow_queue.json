@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T04:51:41.361109+00:00",
+  "generated_at": "2026-09-24T11:47:44.217722+00:00",
   "mode": "shadow",
-  "count": 185,
+  "count": 197,
   "opportunities": [
     {
       "id": "rss-cloud-is-still-the-main-character-of-final-fantasy-7-re-cf45bad46657",
@@ -1041,7 +1041,7 @@
         "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 56,
       "sources": [
         {
           "type": "publisher",
@@ -1492,7 +1492,7 @@
         "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore' avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 56,
       "sources": [
         {
           "type": "publisher",
@@ -2095,6 +2095,47 @@
       ]
     },
     {
+      "id": "rss-halo-needed-to-change-but-activision-faces-a-huge-chall-ecc82aa117be",
+      "title": "Halo needed to change, but Activision faces a huge challenge to fix it",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Halo needed to change, but Activision faces a huge challenge to fix it",
+        "Halo needed to change, but Activision faces a huge challenge to fix it date de sortie",
+        "Halo needed to change, but Activision faces a huge challenge to fix it plateformes",
+        "Halo needed to change, but Activision faces a huge challenge to fix it gameplay",
+        "Halo needed to change, but Activision faces a huge challenge to fix it guide",
+        "Halo needed to change, but Activision faces a huge challenge to fix it avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/halo/halo-needed-to-change-but-activision-faces-a-huge-challenge-to-fix-it/",
+          "title": "Halo needed to change, but Activision faces a huge challenge to fix it",
+          "evidence": "<article> <p>Microsoft has given up on Halo Studios, the team it formed and recently renamed for the express purpose of making new Halo games. Another victim of the <a href=\"https://www.pcgamer.com/gaming-industry/xbox-is-laying-off-3-200-people-and-dumping-4-studios/\">Xbox Reset</a>, the studio has been slashed down to its bones as part of another (but not final)<a href=\"https://www.pcgamer.com/gaming-industry/xbox-lays-off-268-more-employees-merges-obsidian-into-bethesda-and-puts-activision-in-charge-of-halo/\"> wave of layoffs</a>, and what's left of Halo Studios will now oversee the franchise in nebulous-sounding ways. Indeed: <em>Halo Studios is no longer making Halo</em>.</p><p>Now Activision is in charge, and as both a Halo and Call of Duty fan, the pairing isn't exciting.</p><p>Though I've been a vocal critic of Halo Studios' take on Halo over the years (\"Halo Studios has no discernably new take on Bungie's landmark FPS\" -Me, 2026), Halo Infinite eventually grew into a strong multiplayer FPS that I sunk hundreds of hours into, and<a href=\"https://www.pcgamer.com/games/halo/halo-campaign-evolved-review/\"> Halo: Campaign Evolved</a> was the team's best effort yet to embrace th"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-hello-sunshine-s-latest-trailer-has-me-even-more-excite-83764a701063",
       "title": "Hello Sunshine's latest trailer has me even more excited for the giant robot game",
       "source_type": "seo_intel",
@@ -2360,6 +2401,47 @@
           "url": "https://www.gamespot.com/articles/i-guess-ill-delete-every-ps5-game-i-own-to-make-room-for-ff7-revelation/",
           "title": "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation",
           "evidence": "GameSpot published a fresh gaming story titled: I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation. All factual claims must be independently verified before publication."
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-i-apologize-in-advance-for-this-but-introducing-drillpo-296dd488285d",
+      "title": "I apologize in advance for this, but: Introducing Drillposting",
+      "source_type": "seo_intel",
+      "keywords": [
+        "I apologize in advance for this, but: Introducing Drillposting",
+        "I apologize in advance for this, but: Introducing Drillposting date de sortie",
+        "I apologize in advance for this, but: Introducing Drillposting plateformes",
+        "I apologize in advance for this, but: Introducing Drillposting gameplay",
+        "I apologize in advance for this, but: Introducing Drillposting guide",
+        "I apologize in advance for this, but: Introducing Drillposting avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/i-apologize-in-advance-for-this-but-introducing-drillposting/",
+          "title": "I apologize in advance for this, but: Introducing Drillposting",
+          "evidence": "<article> <p>The study of philosophy is powerful because you can map its insights onto any aspect of life today, just as you could a hundred or a thousand years ago. French philosopher Descartes, for example, pioneered the theory of mind-body dualism, writing \"I have a clear and distinct idea of myself, in so far as I am simply a thinking, non-extended thing... and on the other hand I have a distinct idea of body... accordingly, it is certain that I am really distinct from my body, and can exist without it.\" Descartes was born about 300 years too early to experience jetlag, but he was definitely onto something. </p><p>After flying home from Japan, where I spent a few days shooting for the <a href=\"https://www.pcgamer.com/gaming-industry/events-conferences/everything-announced-at-the-pc-gaming-show-tokyo-direct-2026/\" target=\"_blank\">PC Gaming Show Tokyo Direct</a>, I found my separated body and mind capable of little in the way of cogent thought. All I could think of yesterday was a single idea: Drillposting.</p><p>It's thanks to the preeminent philosopher of the 21st century that we're all now familiar with wisdom like \"theres actually zero difference between good & bad things,\" b"
         }
       ],
       "score": 93,
@@ -3132,7 +3214,7 @@
         "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 68,
       "sources": [
         {
           "type": "publisher",
@@ -3173,7 +3255,7 @@
         "It's just you and your van in this upcoming open-world scavenging game avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 63,
       "sources": [
         {
           "type": "publisher",
@@ -3612,6 +3694,88 @@
       ]
     },
     {
+      "id": "rss-micropost-i-use-my-ring-finger-for-right-mouse-button-a-11e45514c370",
+      "title": "Micropost: I use my ring finger for right mouse button. Am I okay?",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Micropost: I use my ring finger for right mouse button. Am I okay?",
+        "Micropost: I use my ring finger for right mouse button. Am I okay? date de sortie",
+        "Micropost: I use my ring finger for right mouse button. Am I okay? plateformes",
+        "Micropost: I use my ring finger for right mouse button. Am I okay? gameplay",
+        "Micropost: I use my ring finger for right mouse button. Am I okay? guide",
+        "Micropost: I use my ring finger for right mouse button. Am I okay? avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/micropost-i-use-my-ring-finger-for-right-mouse-button-am-i-okay/",
+          "title": "Micropost: I use my ring finger for right mouse button. Am I okay?",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"ZwbYyM9rQSi8Wt9xSUM8fX\" name=\"IMG_8046\" alt=\"Jacob Ridley holding a gaming mouse the correct and very normal way.\" src=\"https://cdn.mos.cms.futurecdn.net/ZwbYyM9rQSi8Wt9xSUM8fX-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p>Some say I hold my mouse weird. I rest my middle finger on the scroll wheel, and I solely use it for the scroll wheel. I use my ring finger for the right mouse button. But I don't think it's weird. It's elite. It's finesse. It's elegance. </p><p>You wouldn't get it.</p> </article>"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-microsoft-s-approach-to-age-verification-in-australia-i-7ba3089ff907",
+      "title": "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss",
+        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss date de sortie",
+        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss plateformes",
+        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss gameplay",
+        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss guide",
+        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/microsofts-approach-to-age-verification-in-australia-is-further-proof-that-valve-is-taking-the-everloving-piss/",
+          "title": "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss",
+          "evidence": "<article> <p>Many are justifiably annoyed about Steam's <a href=\"https://www.pcgamer.com/gaming-industry/steam-now-requires-australian-users-to-have-a-credit-card-to-purchase-r18-games-and-no-a-simple-bank-debit-card-wont-work/\">new age verification requirements</a> in Australia. Whereas most platforms and shopfronts offer several ways to verify one's age, Valve offers only one, and it's amusingly ill-suited to the Australian market. To prove that you're over 18 years old and thus, legally allowed to purchase games like Metal Gear Solid 4, Doom Eternal or Rimworld, you need to provide details for an active credit card. </p><p>The problem? <a href=\"https://www.rba.gov.au/publications/bulletin/2026/may/consumer-payment-behaviour-in-australia.html\">Very few Australians</a> use credit cards.</p><p>Even if you opened your Steam account as far back as 2003 and own a handful of R18+ games already, Steam will still require that credit card. </p><p>I don't want to big up Microsoft for doing slightly more than the bare minimum, but an email I received overnight does at least cast renewed light on how terrible Valve's approach is. An email from Microsoft regarding my \"Microsoft Age Verificati"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-my-favorite-space-warlord-baby-trading-sim-events-8534bf5da3c4",
       "title": "My favorite Space Warlord Baby Trading Sim events",
       "source_type": "seo_intel",
@@ -3694,6 +3858,47 @@
       ]
     },
     {
+      "id": "rss-my-first-mmo-character-2-joshua-wolens-1954acc3245f",
+      "title": "My first MMO character #2: Joshua Wolens",
+      "source_type": "seo_intel",
+      "keywords": [
+        "My first MMO character #2: Joshua Wolens",
+        "My first MMO character #2: Joshua Wolens date de sortie",
+        "My first MMO character #2: Joshua Wolens plateformes",
+        "My first MMO character #2: Joshua Wolens gameplay",
+        "My first MMO character #2: Joshua Wolens guide",
+        "My first MMO character #2: Joshua Wolens avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/my-first-mmo-character-2-joshua-wolens/",
+          "title": "My first MMO character #2: Joshua Wolens",
+          "evidence": "<article> <p>My first MMO character was... </p><p><strong>Karokan, Half-elf Something</strong></p><p><strong>Born: </strong>1999</p><p><strong>Game: </strong>EverQuest</p><p>Karokan's is a simple tale. When I was six years old, I saw my dad having a good time in a then-new release called EverQuest. Obviously, I wanted in on that, and badgered pops into helping me make a character.</p><p>My dad played a gnome magician, but I was revulsed by the idea of being as short in the game as I then was in real life. Also, magicianry sounded complicated. I settled on a half-elf whose class I no longer remember, and came up with a basically random series of syllables to serve as a name.</p><p>And then! I went nowhere. I was <em>terrified</em>. I wasn't so much scared of dying (though I was a bit scared of dying) but of getting lost. EverQuest felt impossibly vast, and I knew for sure that the second I stepped out of Freeport I'd never be able to find my way back. So I spent Karokan's life just outside the city gates, fighting orcs and rats, and never venturing further. It was a simple life, but a happy one.</p><p><a href=\"https://www.pcgamer.com/games/mmo/a-tribute-to-pc-gamers-first-mmo-charac"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-my-least-favorite-blood-of-dawnwalker-mission-has-the-b-58ed166ef95a",
       "title": "My least favorite Blood of Dawnwalker mission has the best writing in the whole RPG, and I never want to play it again",
       "source_type": "seo_intel",
@@ -3747,7 +3952,7 @@
         "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 56,
       "sources": [
         {
           "type": "publisher",
@@ -4164,6 +4369,47 @@
           "url": "https://www.gamesradar.com/games/puzzle/portal-couldve-had-a-bunch-of-gore-and-dead-bodies-if-one-dev-had-his-way-says-valve-veteran-but-gabe-newell-considered-it-the-stupidest-question-ever/",
           "title": "Portal could've had \"a bunch of gore and dead bodies\" if one dev had his way, says Valve veteran, but Gabe Newell considered it \"the stupidest question ever\"",
           "evidence": "<article> <p>Portal writer and Valve veteran Chet Faliszek says that one of the developers behind the 2007 puzzle game gem wanted it to be a <em>tad</em> more gory – something that the rest of the team, and Gabe Newell himself, didn't want to consider.</p><p>Faliszek reveals as much in a new <a href=\"https://www.youtube.com/watch?v=HZis8GwXU4U\" target=\"_blank\">video on YouTube (below)</a>, recalling how \"someone had suggested we add gore to Portal – the original Portal.\" They weren't a small dev, either, although the former Valve writer doesn't clarify <em>who</em> it was. He does, however, make it clear that neither he nor anyone else was a fan of the thought. <br><br>As Faliszek puts it, \"Somebody with enough oomph wants to add a bunch of gore and dead bodies all through Portal, and it's a horrible idea.\"</p><p>He continues, \"The entire team thinks it's a horrible idea, but this person is being very verbal about it and calls a meeting and calls Gabe [Newell]. <br><br>That's when Eric Wolpaw asked Faliszek to \"just come into this meeting\" and \"just say no\" – and point out \"how stupid this is,\" because let's face it… Portal is no Half-Life, and gore just wouldn't fit into Aperture "
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-quake-champions-takes-a-shower-shedding-all-its-2017-li-28855a18cf6b",
+      "title": "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game",
+        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game date de sortie",
+        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game plateformes",
+        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game gameplay",
+        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game guide",
+        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/quake-champions-takes-a-shower-shedding-all-its-2017-live-service-grime-and-becoming-a-usd10-game/",
+          "title": "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game",
+          "evidence": "<article> <div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/htq9zhXTVc6938Mzz4Hj9L.jpg\" alt=\"\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Behold, some wild Quake Champions patch notes</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><ul><li>Removed Battle Pass </li><li>Removed Weekly / Event Challenges </li><li>Removed the Store </li><li>Removed Platinum and Shard Currencies </li><li>Removed Loot Boxes </li><li>Removed Daily Login Rewards </li><li>Removed Champion Progression (the shard reward path) </li><li>Most Vanity Content is now Available to All Users</li></ul></div><div class=\"card__description\"><p>\"Today’s update marks a new chapter for Quake Champions as we transition the game from a free-to-play service to a paid application on Steam,\" the <a href=\"https://store.steampowered.com/news/app/611500/view/692020757910258707\">update</a> reads. \"Quake Champions is now available for one low price on Steam. No additional content updates are planned "
         }
       ],
       "score": 93,
@@ -4678,6 +4924,47 @@
       ]
     },
     {
+      "id": "rss-sometimes-it-s-fun-to-hit-a-scorpion-with-a-club-for-38-5cdac91f6d44",
+      "title": "Sometimes it's fun to hit a scorpion with a club for 38 seconds",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Sometimes it's fun to hit a scorpion with a club for 38 seconds",
+        "Sometimes it's fun to hit a scorpion with a club for 38 seconds date de sortie",
+        "Sometimes it's fun to hit a scorpion with a club for 38 seconds plateformes",
+        "Sometimes it's fun to hit a scorpion with a club for 38 seconds gameplay",
+        "Sometimes it's fun to hit a scorpion with a club for 38 seconds guide",
+        "Sometimes it's fun to hit a scorpion with a club for 38 seconds avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/sometimes-its-fun-to-hit-a-scorpion-with-a-club-for-38-seconds/",
+          "title": "Sometimes it's fun to hit a scorpion with a club for 38 seconds",
+          "evidence": "<article> <p>Like many others who carry the spiritual stain of prior MMO contact, I've been spending some time in the WoW: Forever beta. After piloting a freshly-minted orc through the introductory quests in the Valley of Trials, I emerged into the wider Durotar scrubland where I soon entered into combat with a hostile scorpion that had strayed too close to the road I was following to Razor Hill.</p><p>For the next 38 consecutive seconds, I did nothing but watch my orc slowly bludgeon that scorpion to death with a wooden club. And reader, I say this with full sincerity: Those were 38 seconds of peak gaming.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1080px;\"><p class=\"vanilla-image-block\" style=\"padding-top:27.78%;\"><img id=\"BHE7sSp3aWdV6amwPaKaFH\" name=\"scorpidfight_long\" alt=\"A distant shot of an orc fighting a scorpion in World of Warcraft: Forever.\" src=\"https://cdn.mos.cms.futurecdn.net/BHE7sSp3aWdV6amwPaKaFH-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1080\" height=\"300\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption item"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-sony-inzone-m10s-ii-review-63355939a053",
       "title": "Sony Inzone M10S II review",
       "source_type": "seo_intel",
@@ -4820,6 +5107,47 @@
           "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-this-indie-publisher-released-29-terrible-looking-steam-games-in-a-single-day-will-they-make-any-money/",
           "title": "Steam Week in Review: This indie publisher released 29 terrible-looking Steam games in a single day—will they make any money?",
           "evidence": "<article> <p>It's been a busy week for prodigious game publisher Hard Shark Games: on September 15 it released an astonishing 29 games on Steam across a huge variety of genres. </p><p>Not only did Hard Shark Games publish that many games, but the company is also marked as developer for every one of them. All of which, mind you, are early access affairs. \"We're launching in Early Access to involve the community from the very start,\" reads the first sentence of every single one of the early access blurbs for Hard Shark Games released in September 2026, which include genres as diverse as racing, retail sim, survival horror, sport, flight sim and 2D platformer.</p><p>The same is true for some of the 29 games Hard Shark Games released on March 4 last year: \"We're launching in Early Access to involve the community from the very start,\" reads the first line in the blurb for <a href=\"https://store.steampowered.com/app/3258500/Speedboat_Simulator/\">Speedboat Simulator</a>. “We're launching in Early Access to involve the community from the very start,\" reads the first line in the blurb for <a href=\"https://store.steampowered.com/app/3261890/Toy_Battlegrounds_Shoot_Em_Up_Survival/?snr=1_1056_"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-steam-game-disables-mods-after-facing-its-second-worksh-975833a47cb6",
+      "title": "Steam game disables mods after facing its second Workshop malware outbreak this year",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Steam game disables mods after facing its second Workshop malware outbreak this year",
+        "Steam game disables mods after facing its second Workshop malware outbreak this year date de sortie",
+        "Steam game disables mods after facing its second Workshop malware outbreak this year plateformes",
+        "Steam game disables mods after facing its second Workshop malware outbreak this year gameplay",
+        "Steam game disables mods after facing its second Workshop malware outbreak this year guide",
+        "Steam game disables mods after facing its second Workshop malware outbreak this year avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/steam-game-disables-mods-after-facing-its-second-workshop-malware-outbreak-this-year/",
+          "title": "Steam game disables mods after facing its second Workshop malware outbreak this year",
+          "evidence": "<article> <h2 id=\"what-happened\">What happened</h2><ul><li>On September 22, Studio Minus—the developer of ragdoll torture sandbox People Playground—<a href=\"https://store.steampowered.com/news/app/1118200/view/717916455762396045?l=english\" target=\"_blank\">posted a Steam news update</a> saying it had <strong>disabled the game's Steam Workshop support</strong> \"due to yet another malicious mod,\" which the developer said was \"especially bad\"</li><li>The developer has since <strong>released a new build of People Playground that prevents mods from running</strong>, <a href=\"https://discord.com/channels/779898133064056862/931579024432562226/1552279775249170563\" target=\"_blank\">saying on its Discord</a> that Workshop and mod support will only return if \"mods are fundamentally safe to run,\" which \"might never happen\"</li><li>A redditor who <a href=\"https://www.reddit.com/r/peopleplayground/comments/1wmn16s/fps_new_virus_full_breakdown/\" target=\"_blank\">inspected the malicious Workshop mod</a> claims <strong>the mod hijacks the user's Steam account to republish itself on the Workshop along with the user's personal information</strong>, destroys files for People Playground and other installe"
         }
       ],
       "score": 93,
@@ -5230,6 +5558,47 @@
           "url": "https://www.gamespot.com/articles/the-frustrating-mystery-of-who-makes-nintendo-games/",
           "title": "The Frustrating Mystery Of Who Makes Nintendo Games",
           "evidence": "GameSpot published a fresh gaming story titled: The Frustrating Mystery Of Who Makes Nintendo Games. All factual claims must be independently verified before publication."
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-the-industrial-revolution-is-the-reason-rpgs-have-area--d2c9c97c0095",
+      "title": "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™",
+      "source_type": "seo_intel",
+      "keywords": [
+        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™",
+        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™ date de sortie",
+        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™ plateformes",
+        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™ gameplay",
+        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™ guide",
+        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™ avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/the-industrial-revolution-is-the-reason-rpgs-have-area-of-effect-spells-a-pc-gamer-causality-chaintm/",
+          "title": "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™",
+          "evidence": "<article> <p><em>Causality Chain is a series at PC Gamer exploring the unlikely links between history, culture, and videogames.</em></p><p>Every time you cast a meteor spell in Diablo 2 or a cloud of daggers in Baldur's Gate 3, you are taking part in a chain of history—a causality chain, if you will—that dates back to the 18th century, when nobody had thought about taking a \"warlock dip\" since the Salem witch trials. And at that time, it had a very different meaning.</p><p>Today we trace the arc of history from the death of the agrarian period, all the way forward to that time you managed to set fire to five goblins at once and felt quite good about how clever you were. We chart the curious contours of cause and effect, and then we put our chins into our hands and we say, \"Hmmm. Yes. This is good.\"</p><p>Join us as we tip the dominoes that link the past to the present, then watch the huge and intricate Rube Goldberg machine known as \"history\" fall over into a heap of discarded playing pieces.</p><h2 id=\"the-industrial-revolution-area-of-effect-spells-in-rpgs\">The industrial revolution 🔗 Area-of-effect spells in RPGs</h2><h3 class=\"article-body__section\" id=\"section-rise-of-industry"
         }
       ],
       "score": 93,
@@ -5838,7 +6207,7 @@
         "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 68,
       "sources": [
         {
           "type": "publisher",
@@ -6002,7 +6371,7 @@
         "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 56,
       "sources": [
         {
           "type": "publisher",
@@ -6933,6 +7302,47 @@
       ]
     },
     {
+      "id": "rss-world-of-warcraft-forever-dev-addresses-the-debate-over-881f62b2a194",
+      "title": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
+      "source_type": "seo_intel",
+      "keywords": [
+        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
+        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' date de sortie",
+        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' plateformes",
+        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' gameplay",
+        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' guide",
+        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-dev-addresses-the-debate-over-who-its-made-for-i-did-not-spend-the-last-year-of-my-life-relearning-and-mastering-how-to-do-things-like-we-did-it-20-years-ago-for-retail-players/",
+          "title": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
+          "evidence": "<article> <div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-Xj2VxX\"></div> </div> <script src=\"https://kwizly.com/embed/Xj2VxX.js\" async></script><div class=\"product\"><a data-dimension112=\"04d63578-b79a-11f1-bbfe-63e23dd6ade1\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:661px;\"><p class=\"vanilla-image-block\" style=\"padding-top:98.94%;\"><img id=\"6offQUY4CXebir2TC27dMd\" name=\"kingdom come 2 square\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"661\" height=\"654\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\"></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/games/new-pc-games-2026/\" target=\"_blank\" data-dimension112=\"04d63578-b79a-11f1-bbfe-63e23dd6ade1\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" data-dimension25=\"\"><strong>2026 games</strong></a>: All the upcoming games<br><a href=\"https://www.pcgamer.com/the-best-pc-games/\" target=\"_blank\"><stro"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-world-of-warcraft-forever-players-competing-over-enemie-7bec0bfabedd",
       "title": "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on'",
       "source_type": "seo_intel",
@@ -7027,13 +7437,54 @@
         "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 63,
       "sources": [
         {
           "type": "publisher",
           "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-convinced-me-that-we-lost-too-much-to-modern-mmo-quest-design/",
           "title": "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design",
           "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Terminally Online</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PgGhmt5pTtxusaQQX3dHPF\" name=\"logo_terminally\" caption=\"\" alt=\"The Terminally Online logo.\" src=\"https://cdn.mos.cms.futurecdn.net/PgGhmt5pTtxusaQQX3dHPF-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">This is <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/terminally-online/\" target=\"_blank\">Terminally Online</a>:<strong> </strong>PC Gamer's very own MMO column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice.</p><"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-world-of-warcraft-forever-s-first-patch-will-bring-back-8fd6f3d0d784",
+      "title": "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms",
+      "source_type": "seo_intel",
+      "keywords": [
+        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms",
+        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms date de sortie",
+        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms plateformes",
+        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms gameplay",
+        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms guide",
+        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-first-patch-will-bring-back-the-number-one-thing-seasoned-players-missed-from-the-mmos-past-storms/",
+          "title": "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/grhjK8xH3H4\" allowfullscreen></iframe></div></div><p>If there's one thing that Blizzard nailed with <a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a>, it's the atmosphere. There's nothing quite like walking under the moonlight in Tirisfal Glades listening to distant howls and flapping wings on the way to your next quest. But many players familiar with the era of WoW it's based on felt like it was missing something.</p><p>\"I miss running through Dun Morogh hearing the iconic music with a massive snowstorm lowering my view distance on my Dwarf hunter, picking up quests from the dwarf next to the fire [and] restoring my inventory,\" Reddit user <a href=\"https://www.reddit.com/r/wow/comments/1wn6tyh/day_1_asking_blizzard_to_bring_back_the_weather/\">Darthbobz</a> wrote in a post pleading Blizzard to bring WoW's old weather effects to WoW: Forever.</p><p>It's not that it doesn't rain or snow in WoW: Forever, it's that it doesn't rain and snow <em>enough</em>. People like Darthbobz"
         }
       ],
       "score": 93,
@@ -7480,6 +7931,46 @@
           "url": "https://www.pcgamer.com/games/rpg/nighthawks-review-a-novel-vampire-rpg-thats-also-a-vampire-novels-worth-of-writing/",
           "title": "Nighthawks review",
           "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Need to know</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it?: </strong>A novel vampire RPG that's also a vampire novel's worth of great writing.<br><strong>Expect to pay: </strong>TBA<br><strong>Developer: </strong>The Curiosity Engine<br><strong>Publisher: </strong>Wadjet Eye<br><strong>Reviewed on:</strong> Windows 11, Intel Core i9, 32GB RAM, Nvidia RTX 4060<br><strong>Multiplayer?: </strong>No<br><strong>Steam Deck: </strong>Unknown<br><strong>Out:</strong> September 22<br><strong>Link: </strong><a data-analytics-id=\"inline-link\" href=\"https://wadjeteyegames.com/games/nighthawks/\" target=\"_blank\">Official site</a></p></div></div><p>Nighthawks is what you get if you take the masquerade out of Vampire: The Masquerade. It's a world where everyone knows vampires are real and therefore nobody has to bribe the police into pretending exsanguinated bodies aren't constantly turning up in back alleys. </p><p>Instead, you just have to bribe the police into saying somebody else did the exsanguination. Wasn't me, officer, must have been one of the other dozen people dressed entirely in black w"
+        }
+      ],
+      "score": 83,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 3,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-shoot-the-tires-please-86f1c317ade4",
+      "title": "Shoot the tires, please",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Shoot the tires, please",
+        "Shoot the tires, please date de sortie",
+        "Shoot the tires, please plateformes",
+        "Shoot the tires, please gameplay",
+        "Shoot the tires, please guide",
+        "Shoot the tires, please avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/shoot-the-tires-please/",
+          "title": "Shoot the tires, please",
+          "evidence": "<article> <p>Humvees are a nasty threat in Wardogs. They're fast, have thick enough armor to withstand multiple RPGs, and usually come with a machinegun nest that can easily mow down a squad of infantry in a single reload. But they have a pretty huge weakness that, two weeks in, many players in my matches are unaware of:</p><p><strong>Shoot the tires.</strong> Like, with anything.</p><p>Popping just one tire will cut the Humvees max speed by over half, and popping two will slow it to a crawl. This won't destroy the vehicle or even interrupt the gunner, but it will make it easier to get an unarmored angle on the gun nest and force the driver to make a tough choice: limp out of danger or go for a very risky repair.</p><p>As YouTuber <a href=\"https://www.youtube.com/watch?v=LB89XeQqEiU\" target=\"_blank\">Min Max Lab helpfully tested</a>, <strong>it takes just eight 5.56 bullets (the ammo used by Wardogs' free starter rifle) to pop a tire</strong>, so even a single soldier can deal enough damage to ruin a driver's day. I haven't managed to ruin two tires by myself, but popping one is often enough to convince the Humvee to disengage for repairs.</p><p>Be sure to watch that whole video bel"
         }
       ],
       "score": 83,

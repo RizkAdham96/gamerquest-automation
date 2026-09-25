@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-09-25T13:47:58.391381+00:00",
-  "count": 6,
+  "generated_at": "2026-09-25T18:37:39.764649+00:00",
+  "count": 5,
   "articles": [
-    {
-      "source_id": "d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327",
-      "title": "Persona 3 Reload à -70% sur Steam",
-      "excerpt": "Persona 3 Reload bénéficie actuellement d'une réduction de 70% sur Steam, passant de 59,99 € à 17,99 €.",
-      "content": "<p><strong>Persona 3 Reload</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>17,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2161700/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/2161700/",
-      "deal": {
-        "game": "Persona 3 Reload",
-        "store": "Steam",
-        "original_price": 59.99,
-        "current_price": 17.99,
-        "discount_percent": 70,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327.jpg",
-        "filename": "d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327.jpg",
-        "alt": "Persona 3 Reload -70% sur Steam - GamerQuest",
-        "caption": "Persona 3 Reload : offre -70% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Persona 3 Reload sur Steam."
-      }
-    },
     {
       "source_id": "39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9",
       "title": "Persona 5 Royal à -70% sur Steam",
@@ -47,6 +25,28 @@
       }
     },
     {
+      "source_id": "d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327",
+      "title": "Persona 3 Reload à -70% sur Steam",
+      "excerpt": "Persona 3 Reload bénéficie actuellement d'une réduction de 70% sur Steam, passant de 59,99 € à 17,99 €.",
+      "content": "<p><strong>Persona 3 Reload</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>17,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2161700/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/2161700/",
+      "deal": {
+        "game": "Persona 3 Reload",
+        "store": "Steam",
+        "original_price": 59.99,
+        "current_price": 17.99,
+        "discount_percent": 70,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327.jpg",
+        "filename": "d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327.jpg",
+        "alt": "Persona 3 Reload -70% sur Steam - GamerQuest",
+        "caption": "Persona 3 Reload : offre -70% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Persona 3 Reload sur Steam."
+      }
+    },
+    {
       "source_id": "f6fc6e7cee0f825c386b3c9b79c7c0da28cb4478f4824dcc55398efa49c63195",
       "title": "Warhammer 40,000: Rogue Trader à -70% sur Steam",
       "excerpt": "Warhammer 40,000: Rogue Trader bénéficie actuellement d'une réduction de 70% sur Steam, passant de 49,99 € à 14,99 €.",
@@ -66,28 +66,6 @@
         "alt": "Warhammer 40,000: Rogue Trader -70% sur Steam - GamerQuest",
         "caption": "Warhammer 40,000: Rogue Trader : offre -70% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Warhammer 40,000: Rogue Trader sur Steam."
-      }
-    },
-    {
-      "source_id": "bedefc3fde5a894c7231ade7fc1b779f6592a1ce81157092f3525fbfe2330eb4",
-      "title": "Ori and the Will of the Wisps à -90% sur Steam",
-      "excerpt": "Ori and the Will of the Wisps bénéficie actuellement d'une réduction de 90% sur Steam, passant de 29,99 € à 2,99 €.",
-      "content": "<p><strong>Ori and the Will of the Wisps</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>29,99 €</strong></li><li>Prix actuel : <strong>2,99 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1057090/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/1057090/",
-      "deal": {
-        "game": "Ori and the Will of the Wisps",
-        "store": "Steam",
-        "original_price": 29.99,
-        "current_price": 2.99,
-        "discount_percent": 90,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/bedefc3fde5a894c7231ade7fc1b779f6592a1ce81157092f3525fbfe2330eb4.jpg",
-        "filename": "bedefc3fde5a894c7231ade7fc1b779f6592a1ce81157092f3525fbfe2330eb4.jpg",
-        "alt": "Ori and the Will of the Wisps -90% sur Steam - GamerQuest",
-        "caption": "Ori and the Will of the Wisps : offre -90% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Ori and the Will of the Wisps sur Steam."
       }
     },
     {

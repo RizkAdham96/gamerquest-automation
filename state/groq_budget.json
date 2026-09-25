@@ -1,10 +1,10 @@
 {
   "date_utc": "2026-09-25",
-  "global_reserved": 51000,
+  "global_reserved": 57000,
   "lanes": {
     "news": 33000,
     "seo": 10000,
-    "social": 8000,
+    "social": 14000,
     "manual": 0
   },
   "reservations": [
@@ -37,6 +37,12 @@
       "lane": "social",
       "tokens": 8000,
       "reserved_at": "2026-09-25T20:05:13.099987+00:00"
+    },
+    {
+      "id": "36185811593-1-social-recovery",
+      "lane": "social",
+      "tokens": 6000,
+      "reserved_at": "2026-09-25T20:27:18.036296+00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T17:11:56.772520+00:00",
+  "generated_at": "2026-09-25T21:35:23.968650+00:00",
   "mode": "shadow",
-  "count": 211,
+  "count": 210,
   "opportunities": [
     {
       "id": "rss-cloud-is-still-the-main-character-of-final-fantasy-7-re-cf45bad46657",
@@ -8503,38 +8503,6 @@
       "duplicate_risk": false,
       "breakdown": {
         "specificity": 18,
-        "search_intent": 5,
-        "freshness": 10,
-        "competition_proxy": 8,
-        "gamerquest_fit": 10,
-        "distribution_potential": 5,
-        "internal_link_potential": 5
-      },
-      "reasons": [
-        "weak acquisition signal"
-      ]
-    },
-    {
-      "id": "bedefc3fde5a894c7231ade7fc1b779f6592a1ce81157092f3525fbfe2330eb4",
-      "title": "Ori and the Will of the Wisps à -90% sur Steam",
-      "source_type": "deal",
-      "keywords": [
-        "Ori and the Will of the Wisps",
-        "Steam"
-      ],
-      "freshness": "fresh",
-      "existing_score": 0,
-      "sources": [
-        {
-          "type": "steam",
-          "url": "https://store.steampowered.com/app/1057090/"
-        }
-      ],
-      "score": 57,
-      "decision": "WATCH",
-      "duplicate_risk": false,
-      "breakdown": {
-        "specificity": 14,
         "search_intent": 5,
         "freshness": 10,
         "competition_proxy": 8,

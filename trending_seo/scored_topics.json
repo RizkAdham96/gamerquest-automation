@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-24T07:49:15.448946+00:00",
+  "updated_at": "2026-09-25T08:11:17.044944+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -2975,6 +2975,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
         "suggested_title": "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-pirate-poker-battler-piroker-has-a-playtest-you-can-sig-e3adf20b8d0a",
+      "topic": "Pirate poker battler Piroker has a playtest you can sign up for now",
+      "detected_at": "2026-09-20T16:29:24.509762+00:00",
+      "analysed_at": "2026-09-25T08:11:17.044786+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/card-games/pirate-poker-battler-piroker-has-a-playtest-you-can-sign-up-for-now/",
+          "title": "Pirate poker battler Piroker has a playtest you can sign up for now",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/hU3oTbteJ8A\" allowfullscreen></iframe></div></div><p>Pirates and poker are two of my favourite things beginning with the letter 'P', so I'm delighted we just revealed a new animated trailer for Piroker during the PC Gaming Show Tokyo Direct. It's an asynchronous multiplayer poker game with a wonderful pirate theme, and fans of Balatro are sure to enjoy it.</p><p>I played a bit too much Piroker when PC Gaming Show editorial director Jake Tucker first slid an early build of the game across my desk. You pick a pirate captain and go head-to-head against seven other players trying to score the best hands possible.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/faUNbWd6t8sKjmns9SPsRi.jpg\" alt=\"Pirates play poker. The Piroker logo is shown.\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Piroker on Stea"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Pirate poker battler Piroker has a playtest you can sign up for now",
+        "secondary_keywords": [
+          "Pirate poker battler Piroker has a playtest you can sign up for now date de sortie",
+          "Pirate poker battler Piroker has a playtest you can sign up for now plateformes",
+          "Pirate poker battler Piroker has a playtest you can sign up for now gameplay",
+          "Pirate poker battler Piroker has a playtest you can sign up for now guide",
+          "Pirate poker battler Piroker has a playtest you can sign up for now avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Pirate poker battler Piroker has a playtest you can sign up for now"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-quarantine-zone-is-getting-a-free-expansion-with-a-whol-176fa49ad9af",
+      "topic": "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs'",
+      "detected_at": "2026-09-20T16:29:24.509952+00:00",
+      "analysed_at": "2026-09-25T08:11:17.044829+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 24,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 68,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/quarantine-zone-is-getting-a-free-expansion-with-a-whole-new-location-and-its-time-to-experiment-with-drugs/",
+          "title": "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs'",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/ryeSOQTPcNI\" allowfullscreen></iframe></div></div><p>It's finally time, everyone. It's time to figure out the answer to the world's oldest question: what's wrong with Miami? Quarantine Zone—the game about manning a checkpoint and making sure plague-bearers don't sneak their way through—just showed off its new, Miami-based expansion at the PC Gaming Show Tokyo Direct.</p><p>Quarantine Zone: Miami Zero will arrive as a free update for the original game and it's coming on October 15, bringing you to the titular, and entirely new, location. It's sun-drenched, absurd, and comes with a whole gamut of new ailments and symptoms for Florida's unlucky inhabitants to suffer from and smuggle past you. Or attempt to smuggle past you, anyway. Your job is making sure they don't.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/eanzwJEb"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs'",
+        "secondary_keywords": [
+          "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs' date de sortie",
+          "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs' plateformes",
+          "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs' gameplay",
+          "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs' guide",
+          "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Quarantine Zone is getting a free expansion with a whole new location, and it's time to 'Experiment with drugs'"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-ball-x-pit-just-revealed-a-whole-new-expansion-risen-ba-09011ec558f9",
+      "topic": "Ball x Pit just revealed a whole new expansion: Risen Ballbylon",
+      "detected_at": "2026-09-20T16:29:24.510156+00:00",
+      "analysed_at": "2026-09-25T08:11:17.044848+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/roguelike/ball-x-pit-just-revealed-a-whole-new-expansion-risen-ballbylon/",
+          "title": "Ball x Pit just revealed a whole new expansion: Risen Ballbylon",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/XeNAXBO1_k8\" allowfullscreen></iframe></div></div><p>You know, for like a solid month after Ball x Pit released, it had several members of PC Gamer's staff in a white-knuckle chokehold. Editors, staff writers, possibly an accountant or two—the game's blend of Breakout and roguelike swept through these offices like a delightful plague, leaving none of us unchanged.</p><p>Time to be changed again, then. At the PC Gaming Show Tokyo Direct, we just saw Ball x Pit: Risen Ballbylon, an entirely new expansion for the game with new characters, gameplay, buildings, passives and, brace yourself, new balls.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/MVqyEhtXvxvB32PejaDqp.png\" alt=\"Ball X Pit: Risen Ballbylon art with logo\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Ball X Pit: Risen Ballbylon on Ste"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ball x Pit just revealed a whole new expansion: Risen Ballbylon",
+        "secondary_keywords": [
+          "Ball x Pit just revealed a whole new expansion: Risen Ballbylon date de sortie",
+          "Ball x Pit just revealed a whole new expansion: Risen Ballbylon plateformes",
+          "Ball x Pit just revealed a whole new expansion: Risen Ballbylon gameplay",
+          "Ball x Pit just revealed a whole new expansion: Risen Ballbylon guide",
+          "Ball x Pit just revealed a whole new expansion: Risen Ballbylon avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Ball x Pit just revealed a whole new expansion: Risen Ballbylon"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-yet-another-pok-mon-inspired-game-is-popping-off-on-ste-fffb404ce1e1",
+      "topic": "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo",
+      "detected_at": "2026-09-20T16:29:24.510352+00:00",
+      "analysed_at": "2026-09-25T08:11:17.044872+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/yet-another-pokemon-inspired-game-is-popping-off-on-steam-with-over-160-000-concurrent-players-for-aniimo/",
+          "title": "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo",
+          "evidence": "<article> <p>Step aside Palworld, you are now merely the second most-played pastiche of the world's highest-grossing multimedia franchise on Steam. You've been overtaken by none other than Aniimo, the Genshin Impact-esque but <a href=\"https://www.pcgamer.com/games/rpg/aniimo-is-it-gacha-monetization-explained/\">non-gacha</a> open world RPG, according to <a href=\"https://steamdb.info/app/4126040/charts/\" target=\"_blank\">SteamDB</a>. The numbers are climbing as I write this, with the game currently sitting at over 166,000 simultaneous players.</p><p>That's a lot! For reference, it's sitting ahead of likes of Rust, Delta Force, and Slay the Spire 2, with only the mighty Bongo Cat and its lessers (Apex Legends, Dota 2, etc) making up the list of eight games with more players on Steam right now. At the very top is, as always, Counter-Strike 2. Just imagine the numbers it'd enjoy if it also had cute little creatures that only say their own name.</p><p>When PC Gamer lead SEO editor Lauren Morton tried it, she wasn't wowed, saying \"I can't find much about it that other creature collecting and gacha games aren't doing better\"—though this was back in the closed beta from January. The game cu"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo",
+        "secondary_keywords": [
+          "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo date de sortie",
+          "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo plateformes",
+          "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo gameplay",
+          "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo guide",
+          "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Yet another Pokémon-inspired game is popping off on Steam, with over 160,000 concurrent players for Aniimo"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-stronghold-4-boasts-castles-aplenty-and-a-rogue-s-galle-d2e85cef0d1d",
+      "topic": "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against",
+      "detected_at": "2026-09-20T16:29:24.510546+00:00",
+      "analysed_at": "2026-09-25T08:11:17.044887+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rts/stronghold-4-boasts-castles-aplenty-and-a-rogues-gallery-of-weirdos-to-pit-them-against/",
+          "title": "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/wNCSxUS_VZ0\" allowfullscreen></iframe></div></div><p>Since the dawn of time, mankind has reckoned with one overriding question: how do I get in that building and kill everyone in it?</p><p>For almost as long, the Stronghold series has grappled with both sides of this conundrum, placing you in the mailed shoes of both defender and attacker in medieval siege after medieval siege. Now, 15 years (would you believe it?) after Stronghold 3, Stronghold 4 is here to put things in trebuchets and launch them at you, and we just caught sight of it at the PC Gaming Show Tokyo Direct.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/3ZnAt9BmWgki7PTNoW7C8K.png\" alt=\"The Stronghold 4 keyart\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Stronghold 4 on Steam</h3><div class=\"card__description-wrapper\"><div class="
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against",
+        "secondary_keywords": [
+          "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against date de sortie",
+          "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against plateformes",
+          "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against gameplay",
+          "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against guide",
+          "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Stronghold 4 boasts castles aplenty and a rogue's gallery of weirdos to pit them against"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-co-op-puzzle-game-we-were-here-tomorrow-is-out-next-mon-3b017d5f2105",
+      "topic": "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills",
+      "detected_at": "2026-09-20T16:29:24.510729+00:00",
+      "analysed_at": "2026-09-25T08:11:17.044902+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/puzzle/co-op-puzzle-game-we-were-here-tomorrow-is-out-next-month-so-youve-got-time-to-practise-your-communication-skills/",
+          "title": "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/fYhNo2QgbJ0\" allowfullscreen></iframe></div></div><p>As much as I enjoy multiplayer games, it's becoming more and more difficult to actually gather my friends for a session. We're growing up and have less time for games due to all our boring adult responsibilities, bleh. But give me a two player co-op game and I can normally convince my girlfriend to at least give it a go. Puzzle games are her favourite, so I reckon we'll be able to get properly stuck into We Were Here Tomorrow, the latest in the co-op puzzle series. And we only have to wait a month to play it.</p><p>As we just revealed at the PC Gaming Show Tokyo Direct, We Were Here Tomorrow is launching October 20. It's the sixth game in the We Were Here series, all co-op puzzle games that involve you and a buddy teaming up to escape some sort of predicament. The games have taken us to castles, a deserted island, and now, a mysterious facility.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanil"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills",
+        "secondary_keywords": [
+          "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills date de sortie",
+          "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills plateformes",
+          "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills gameplay",
+          "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills guide",
+          "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Co-op puzzle game We Were Here Tomorrow is out next month, so you've got time to practise your communication skills"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-night-plane-is-a-horror-game-designed-to-scare-me-speci-090f578a526d",
+      "topic": "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons",
+      "detected_at": "2026-09-20T16:29:24.510935+00:00",
+      "analysed_at": "2026-09-25T08:11:17.044926+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/night-plane-is-a-horror-game-designed-to-scare-me-specifically-because-i-hate-flying-and-deer-demons/",
+          "title": "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/lMqCIDu54LQ\" allowfullscreen></iframe></div></div><p>I hate flying. Crammed into a tiny metal tube with 100s of other people, 1000s of feet in the air, unnaturally defying the will of God—it's awful. I don't know how flight attendants stay so calm and professional the entire time. At least in the real world they don't have to contend with shape-shifting demons like they do in Night Plane, the upcoming horror job sim from Liquid Static Studio.</p><p>In a new trailer unveiled during the PC Gaming Show Tokyo Direct, things get spooky real quick. A deer just stands there, menacingly staring at the flight attendant before they board the Plane Airlines plane, and we see a bloody handprint smeared on the emergency door.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/8XVEm9GD8DTYV5Tsti6cwR.jpg\" alt=\"A monstrous creature perche"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons",
+        "secondary_keywords": [
+          "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons date de sortie",
+          "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons plateformes",
+          "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons gameplay",
+          "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons guide",
+          "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-videogame-development-sim-let-s-build-a-dungeon-launche-84d0a1dbb43f",
+      "topic": "Videogame development sim Let's Build a Dungeon launches into early access February 11",
+      "detected_at": "2026-09-20T16:29:24.511122+00:00",
+      "analysed_at": "2026-09-25T08:11:17.044940+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/videogame-development-sim-lets-build-a-dungeon-launches-into-early-access-february-11/",
+          "title": "Videogame development sim Let's Build a Dungeon launches into early access February 11",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/JWuoN2zk7ns\" allowfullscreen></iframe></div></div><p>Since you're reading this, chances are you've thought to yourself, \"I bet I could make a better game than that.\" I know I have. Well, the chance for us to prove it will soon be upon us: MMORPG-maker Let's Build a Dungeon is launching into early access February 11, 2027.</p><p>In Let's Build a Dungeon, you take control of a videogame studio making an MMORPG. It's part management simulator, part RPG maker. You'll be in charge of hiring devs, assigning work, even deciding if you'll make your workers crunch or not.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/Ksgar4ZTieb7LPg4WboAEG.jpg\" alt=\"Monsters gather around an old-fashioned PC. The Let's Build a Dungeon logo is shown.\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Let's Build a Dungeon on"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Videogame development sim Let's Build a Dungeon launches into early access February 11",
+        "secondary_keywords": [
+          "Videogame development sim Let's Build a Dungeon launches into early access February 11 date de sortie",
+          "Videogame development sim Let's Build a Dungeon launches into early access February 11 plateformes",
+          "Videogame development sim Let's Build a Dungeon launches into early access February 11 gameplay",
+          "Videogame development sim Let's Build a Dungeon launches into early access February 11 guide",
+          "Videogame development sim Let's Build a Dungeon launches into early access February 11 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Videogame development sim Let's Build a Dungeon launches into early access February 11"
       },
       "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
     }

@@ -1,11 +1,11 @@
 {
   "pipeline_version": "2.0",
   "status": "BLOCKED_BUDGET_CAP",
-  "reason": "seo run budget would exceed 10000 tokens (8722+3814). Operation=seo:article",
+  "reason": "seo run budget would exceed 10000 tokens (8682+3811). Operation=seo:article",
   "topic": "The disc is dying, but the box isn’t – what will a \"physical game\" actually mean in 2030?",
   "wordpress_status": null,
   "wordpress_post_id": null,
   "wordpress_url": null,
   "published": false,
-  "created_at": "2026-09-24T07:51:28.331169+00:00"
+  "created_at": "2026-09-25T08:13:30.885534+00:00"
 }

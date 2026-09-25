@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T21:31:57.145477+00:00",
+  "generated_at": "2026-09-25T04:58:18.255228+00:00",
   "mode": "shadow",
-  "count": 197,
+  "count": 199,
   "opportunities": [
     {
       "id": "rss-cloud-is-still-the-main-character-of-final-fantasy-7-re-cf45bad46657",
@@ -7992,11 +7992,11 @@
       ]
     },
     {
-      "id": "261cdc966e5ac3b97aa841d125fb5dcd6db784b041559bac8384353446a1d212",
-      "title": "FINAL FANTASY VII REMAKE INTERGRADE à -75% sur Steam",
+      "id": "f6fc6e7cee0f825c386b3c9b79c7c0da28cb4478f4824dcc55398efa49c63195",
+      "title": "Warhammer 40,000: Rogue Trader à -70% sur Steam",
       "source_type": "deal",
       "keywords": [
-        "FINAL FANTASY VII REMAKE INTERGRADE",
+        "Warhammer 40,000: Rogue Trader",
         "Steam"
       ],
       "freshness": "fresh",
@@ -8004,7 +8004,7 @@
       "sources": [
         {
           "type": "steam",
-          "url": "https://store.steampowered.com/app/1462040/"
+          "url": "https://store.steampowered.com/app/2186680/"
         }
       ],
       "score": 61,
@@ -8024,11 +8024,11 @@
       ]
     },
     {
-      "id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-      "title": "FINAL FANTASY VII REBIRTH à -70% sur Steam",
+      "id": "d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327",
+      "title": "Persona 3 Reload à -70% sur Steam",
       "source_type": "deal",
       "keywords": [
-        "FINAL FANTASY VII REBIRTH",
+        "Persona 3 Reload",
         "Steam"
       ],
       "freshness": "fresh",
@@ -8036,20 +8036,84 @@
       "sources": [
         {
           "type": "steam",
-          "url": "https://store.steampowered.com/app/2909400/"
+          "url": "https://store.steampowered.com/app/2161700/"
         }
       ],
-      "score": 57,
-      "decision": "WATCH",
+      "score": 51,
+      "decision": "SKIP",
       "duplicate_risk": false,
       "breakdown": {
-        "specificity": 14,
+        "specificity": 8,
         "search_intent": 5,
         "freshness": 10,
         "competition_proxy": 8,
         "gamerquest_fit": 10,
         "distribution_potential": 5,
         "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
+      ]
+    },
+    {
+      "id": "39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9",
+      "title": "Persona 5 Royal à -70% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "Persona 5 Royal",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/1687950/"
+        }
+      ],
+      "score": 51,
+      "decision": "SKIP",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 8,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 8,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
+      ]
+    },
+    {
+      "id": "f25329c0989fa7a55a7c098bbeea3fda25fbbb69cb6e9a1449516e4a554632d5",
+      "title": "REMATCH à -60% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "REMATCH",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/2138720/"
+        }
+      ],
+      "score": 43,
+      "decision": "SKIP",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 8,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 3,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 2
       },
       "reasons": [
         "weak acquisition signal"

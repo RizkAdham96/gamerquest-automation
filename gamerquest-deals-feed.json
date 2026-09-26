@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T11:25:20.158587+00:00",
+  "generated_at": "2026-09-26T16:23:57.685679+00:00",
   "count": 5,
   "articles": [
     {
@@ -25,28 +25,6 @@
       }
     },
     {
-      "source_id": "c983cb3f5b8f9c0b12a70d7b389902568eb64cf0432b79d97fb89aa33e31e7d5",
-      "title": "Hades à -75% sur Steam",
-      "excerpt": "Hades bénéficie actuellement d'une réduction de 75% sur Steam, passant de 24,50 € à 6,12 €.",
-      "content": "<p><strong>Hades</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>24,50 €</strong></li><li>Prix actuel : <strong>6,12 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1145360/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/1145360/",
-      "deal": {
-        "game": "Hades",
-        "store": "Steam",
-        "original_price": 24.5,
-        "current_price": 6.12,
-        "discount_percent": 75,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/c983cb3f5b8f9c0b12a70d7b389902568eb64cf0432b79d97fb89aa33e31e7d5.jpg",
-        "filename": "c983cb3f5b8f9c0b12a70d7b389902568eb64cf0432b79d97fb89aa33e31e7d5.jpg",
-        "alt": "Hades -75% sur Steam - GamerQuest",
-        "caption": "Hades : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Hades sur Steam."
-      }
-    },
-    {
       "source_id": "39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9",
       "title": "Persona 5 Royal à -70% sur Steam",
       "excerpt": "Persona 5 Royal bénéficie actuellement d'une réduction de 70% sur Steam, passant de 59,99 € à 17,99 €.",
@@ -66,6 +44,28 @@
         "alt": "Persona 5 Royal -70% sur Steam - GamerQuest",
         "caption": "Persona 5 Royal : offre -70% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Persona 5 Royal sur Steam."
+      }
+    },
+    {
+      "source_id": "f6fc6e7cee0f825c386b3c9b79c7c0da28cb4478f4824dcc55398efa49c63195",
+      "title": "Warhammer 40,000: Rogue Trader à -70% sur Steam",
+      "excerpt": "Warhammer 40,000: Rogue Trader bénéficie actuellement d'une réduction de 70% sur Steam, passant de 49,99 € à 14,99 €.",
+      "content": "<p><strong>Warhammer 40,000: Rogue Trader</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>49,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2186680/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/2186680/",
+      "deal": {
+        "game": "Warhammer 40,000: Rogue Trader",
+        "store": "Steam",
+        "original_price": 49.99,
+        "current_price": 14.99,
+        "discount_percent": 70,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/f6fc6e7cee0f825c386b3c9b79c7c0da28cb4478f4824dcc55398efa49c63195.jpg",
+        "filename": "f6fc6e7cee0f825c386b3c9b79c7c0da28cb4478f4824dcc55398efa49c63195.jpg",
+        "alt": "Warhammer 40,000: Rogue Trader -70% sur Steam - GamerQuest",
+        "caption": "Warhammer 40,000: Rogue Trader : offre -70% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Warhammer 40,000: Rogue Trader sur Steam."
       }
     },
     {

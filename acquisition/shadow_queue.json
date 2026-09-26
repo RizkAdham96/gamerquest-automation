@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-26T04:59:01.044688+00:00",
+  "generated_at": "2026-09-26T11:25:44.810257+00:00",
   "mode": "shadow",
-  "count": 210,
+  "count": 222,
   "opportunities": [
     {
       "id": "rss-cloud-is-still-the-main-character-of-final-fantasy-7-re-cf45bad46657",
@@ -291,6 +291,47 @@
       ]
     },
     {
+      "id": "rss-i-sit-in-terror-looking-at-the-750-000-wishlists-a-nerv-e9efd25589ea",
+      "title": "'I sit in terror looking at the 750,000 wishlists': A nervous dev brings a classic Flash game to Steam",
+      "source_type": "seo_intel",
+      "keywords": [
+        "'I sit in terror looking at the 750,000 wishlists': A nervous dev brings a classic Flash game to Steam",
+        "'I sit in terror looking at the 750,000 wishlists': A nervous dev brings a classic Flash game to Steam date de sortie",
+        "'I sit in terror looking at the 750,000 wishlists': A nervous dev brings a classic Flash game to Steam plateformes",
+        "'I sit in terror looking at the 750,000 wishlists': A nervous dev brings a classic Flash game to Steam gameplay",
+        "'I sit in terror looking at the 750,000 wishlists': A nervous dev brings a classic Flash game to Steam guide",
+        "'I sit in terror looking at the 750,000 wishlists': A nervous dev brings a classic Flash game to Steam avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/i-sit-in-terror-looking-at-the-750-000-wishlists-a-nervous-dev-brings-a-classic-flash-game-to-steam/",
+          "title": "'I sit in terror looking at the 750,000 wishlists': A nervous dev brings a classic Flash game to Steam",
+          "evidence": "<article> <div class=\"looped-video\"><video class=\"lazyload-in-view lazyloading\" data-src=\"https://cdn.mos.cms.futurecdn.net/Ymp5eJF5VMKGCxFbxrdVqg/HAPPY.mp4\" autoplay loop muted playsinline src=\"https://cdn.mos.cms.futurecdn.net/Ymp5eJF5VMKGCxFbxrdVqg/HAPPY.mp4\"></video></div><p>It's just as fun as you remember and it only costs <a href=\"https://store.steampowered.com/app/4705510/Happy_Wheels/\" target=\"_blank\">$5 on Steam</a>. Hopefully all those folks who wishlisted it will dive back in for some gruesome nostalgia, and maybe some younger gamers will find it for the first time.</p><div class=\"product\"><a data-dimension112=\"03dc233e-b926-11f1-bf60-33fa459298c6\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:661px;\"><p class=\"vanilla-image-block\" style=\"padding-top:98.94%;\"><img id=\"6offQUY4CXebir2TC27dMd\" name=\"kingdom come 2 square\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"661\" height=\"654\" attribution=\"\" en"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-the-largest-theft-of-labor-in-human-history-court-docs--d96fcb6ea07b",
       "title": "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet",
       "source_type": "seo_intel",
@@ -474,6 +515,47 @@
           "url": "https://www.gamesradar.com/games/co-op/a-developer-with-no-games-on-steam-now-has-the-stores-third-most-wishlisted-game-behind-light-no-fire-and-valves-deadlock/",
           "title": "A developer with no games on Steam now has the store's third-most-wishlisted game, behind Light No Fire and Valve's Deadlock",
           "evidence": "<article> <p>After some high-profile releases in 2026, the most-wishlisted games on Steam have shifted. The king is Valve's PvP shooter Deadlock, followed by Hello Games' next survival game epic <a href=\"https://www.gamesradar.com/light-no-fire-guide/\">Light No Fire</a>. The third-most-wishlisted game on Steam is probably the biggest surprise in the top 10. Ahead of Fable, Phantom Blade Zero, Resident Evil Veronica, and Witchbrook, airline comedy co-op game <a href=\"https://store.steampowered.com/app/4534960/Dear_Passengers/?curator_clanid=4777282\" target=\"_blank\">Dear Passengers</a> sits as one of the most-wanted games on Steam. Its developer, Flexus, has never released a game on Steam, per its Steam profile. </p><p>Dear Passengers fits comfortably into <a href=\"https://www.gamesradar.com/games/co-op/amid-the-friendslop-renaissance-usd5-co-op-fishing-game-hits-370-000-peak-players-on-steam-in-5-days/\">the friendslop trend</a> that's defined much of the past few years of Steam releases. One trailer bluntly calls it \"Another Friendslop Game,\" even, featuring characters from the likes of Peak and Burglin' Gnomes. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-a-running-tally-of-the-most-ridiculous-things-ai-bigwig-65fa5fbe29ff",
+      "title": "A running tally of the most ridiculous things AI bigwigs have said so far",
+      "source_type": "seo_intel",
+      "keywords": [
+        "A running tally of the most ridiculous things AI bigwigs have said so far",
+        "A running tally of the most ridiculous things AI bigwigs have said so far date de sortie",
+        "A running tally of the most ridiculous things AI bigwigs have said so far plateformes",
+        "A running tally of the most ridiculous things AI bigwigs have said so far gameplay",
+        "A running tally of the most ridiculous things AI bigwigs have said so far guide",
+        "A running tally of the most ridiculous things AI bigwigs have said so far avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/live/news/what-are-the-ai-guys-saying-now/",
+          "title": "A running tally of the most ridiculous things AI bigwigs have said so far",
+          "evidence": "<article> <div class=\"live-content\"><p>If there's anything the leaders of the AI era love more than watching the billion-dollar valuations of their companies tick up, it's warning us that the software making them rich might just destroy the world. </p><p>AI is going to kill us all. <em>Now, can we have more money for data centers, please?</em></p><p>Their next favorite activity? Coming up with trendy phrases that either explain how toooootally smart the next upcoming AI model will be or justify why their previous claims of imminent AI sentience haven't quite arrived on schedule.</p><p>These buzzwords and prognostications are hard to keep track of and even harder to parse. With new whoppers arriving every week, we're spinning up a running log that we can reference whenever we need to recall how often AI thought leaders contradict themselves and each other, and how constantly they move the goal posts.</p><p>We'll update this blog whenever we notice a particularly absurd, empty, or unbelievable remark from an industry whose astronomical valuation is entirely down to the dubious claim that large language models are both going to destroy and save humanity. We're starting with just the l"
         }
       ],
       "score": 93,
@@ -1644,6 +1726,47 @@
       ]
     },
     {
+      "id": "rss-drop-everything-and-grab-the-popcorn-majuular-s-4-5-hou-b3af1c471a45",
+      "title": "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend",
+        "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend date de sortie",
+        "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend plateformes",
+        "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend gameplay",
+        "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend guide",
+        "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/drop-everything-and-grab-the-popcorn-majuulars-4-5-hour-documentary-on-ultima-online-is-here-to-devour-your-weekend/",
+          "title": "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/35SKawn2SDI\" allowfullscreen></iframe></div></div><p>I'll make this quick: Whatever you had planned for the weekend, you've got to carve four-and-a-half hours out for a last-minute swerve into the late '90s. Six months in the making, YouTube essayist Majuular is back with the (I believe) penultimate video in his multi-year Ultima series. \"This one was a doozy,\" he wrote in the comments. It's Ultima Online.</p><p>\"From its unlikely formation at the behest of Richard Garriott and Starr Long, to its tempering at the hands of Raph Koster and his team of Multi-User Dungeon enthusiasts, to its changing identity in the face of competition, to its incalculable influence, this is the story of Ultima Online,\" the description reads. If you get the Ultima Online bug after watching the documentary, good news: it's still very much playable on both official servers and fan ones. Majuular highlighted the server he played on, <a href=\"https://uo.mysterious-castle.com/\" target=\"_blank\">In Mani Ylem</a>, which aims to recapture the "
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-dune-awakening-now-has-a-solo-mode-for-players-put-off--0f406e0b41da",
       "title": "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore'",
       "source_type": "seo_intel",
@@ -1738,7 +1861,7 @@
         "Elden Ring Nightreign is dead, but modders are dabbing on its corpse, with one porting an entire Dark Souls 2 DLC zone as a playable map avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 68,
       "sources": [
         {
           "type": "publisher",
@@ -1902,7 +2025,7 @@
         "Everything announced at the PC Gaming Show Tokyo Direct 2026 avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 70,
       "sources": [
         {
           "type": "publisher",
@@ -2107,7 +2230,7 @@
         "Feel like a kid again when toy car game Obstacle Overdrive launches October 2 avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 63,
       "sources": [
         {
           "type": "publisher",
@@ -2189,7 +2312,7 @@
         "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 63,
       "sources": [
         {
           "type": "publisher",
@@ -2278,6 +2401,47 @@
           "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-5-has-true-air-travel-now-thanks-to-the-mod-i-just-installed-but-they-wont-let-me-give-me-my-pals-piggybacks-onto-the-plane/",
           "title": "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane",
           "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>It might feel minnowish compared to modern open worlds, but Los Santos is still a schlep to get across. Whether you're on a bike, in a car, or hoofing it on-foot, it takes a while to get from the city itself out to the northernmost boonies. Well, no more.</p><p><a href=\"https://www.gta5-mods.com/scripts/flights-v-airports-mod\" target=\"_blank\">Flights V</a> is a mod that turns GTA 5's airports into, ah, airports. That is to say, you can now rock up to a desk in the terminal, pick up a ticket, and jet off (as a passenger) to one of a select few other points on the map: LSI"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-guess-who-patented-a-new-system-for-in-game-ads-34c81740c20b",
+      "title": "Guess who patented a new system for in-game ads",
+      "source_type": "seo_intel",
+      "keywords": [
+        "Guess who patented a new system for in-game ads",
+        "Guess who patented a new system for in-game ads date de sortie",
+        "Guess who patented a new system for in-game ads plateformes",
+        "Guess who patented a new system for in-game ads gameplay",
+        "Guess who patented a new system for in-game ads guide",
+        "Guess who patented a new system for in-game ads avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/guess-who-patented-a-new-system-for-in-game-ads/",
+          "title": "Guess who patented a new system for in-game ads",
+          "evidence": "<article> <p><a href=\"https://www.tomshardware.com/video-games/microsoft-patents-system-to-freeze-games-and-inject-ads-during-downtimes-watching-commercials-earns-ad-free-playtime-credits\" target=\"_blank\">Tom's Hardware</a> and <a href=\"https://respawnfirst.com/microsoft-patents-ad-credit-system-for-pc-and-consoles-to-serve-in-game-ads-during-pause-windows/\" target=\"_blank\">Respawn First</a> recently reported on a fun new patent from those wiz kids at Microsoft, one that would dynamically pause your game to show you advertisements. Here are the big wham lines from the abstract of <a href=\"https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20260260258\" target=\"_blank\">US 202610260258 A1</a>, \"Contextually Aware Management of Interactive Software Application Access:\"</p><ul><li>\"A content management system may <strong>suspend a user's interaction</strong> with the interactive software application based on the promoted content trigger event.\" (Emphasis mine)</li><li>\"A content management system may present the promoted audiovisual content to the user.\"</li><li>\"A content management system may establish a credit … the credit delays suspension of the user's interaction.\"</"
         }
       ],
       "score": 93,
@@ -2505,6 +2669,47 @@
       ]
     },
     {
+      "id": "rss-how-to-open-the-auxiliary-lines-in-part-6-of-silent-hil-62b818b11293",
+      "title": "How to open the auxiliary lines in Part 6 of Silent Hill: Townfall",
+      "source_type": "seo_intel",
+      "keywords": [
+        "How to open the auxiliary lines in Part 6 of Silent Hill: Townfall",
+        "How to open the auxiliary lines in Part 6 of Silent Hill: Townfall date de sortie",
+        "How to open the auxiliary lines in Part 6 of Silent Hill: Townfall plateformes",
+        "How to open the auxiliary lines in Part 6 of Silent Hill: Townfall gameplay",
+        "How to open the auxiliary lines in Part 6 of Silent Hill: Townfall guide",
+        "How to open the auxiliary lines in Part 6 of Silent Hill: Townfall avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/silent-hill-townfall-open-the-auxiliary-lines/",
+          "title": "How to open the auxiliary lines in Part 6 of Silent Hill: Townfall",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Key items</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><ul><li><strong>Code </strong>to the locker in the command centre: <strong>0825</strong></li><li><strong>Key </strong>to the auxiliary room found in said locker. </li><li>A<strong> floppy disk</strong> found in the locker inside the auxiliary room. </li></ul></p></div></div><p><strong>Opening the auxiliary lines at the end of Part 6</strong> in Silent Hill: Townfall is perhaps its most complicated yet simple puzzle. By this point in the game my brain was completely fried and my nerves were shot. So in case you're also in a bad spot, here are some tips to point you in the right direction.</p><p><em><strong>Spoilers ahead for Silent Hill: Townfall</strong></em></p><h2 class=\"article-body__section\" id=\"section-how-to-get-to-the-auxiliary-room\"><span>How to get to the Auxiliary Room</span></h2><p>Before you head to the elevator and go up to the auxiliary room, you'll need to get the key. This can be found in the command centre, and the code to get into it is <strong>0825</strong>. Inside, you'll find the <strong>key </strong>to the auxiliary room. Now"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-how-to-open-the-organ-box-in-silent-hill-townfall-3acbf261e608",
       "title": "How to open the organ box in Silent Hill Townfall",
       "source_type": "seo_intel",
@@ -2669,6 +2874,88 @@
       ]
     },
     {
+      "id": "rss-i-did-the-math-on-my-wardogs-xp-grind-and-now-i-wish-i--adb0e4854e74",
+      "title": "I did the math on my Wardogs XP grind, and now I wish I hadn't",
+      "source_type": "seo_intel",
+      "keywords": [
+        "I did the math on my Wardogs XP grind, and now I wish I hadn't",
+        "I did the math on my Wardogs XP grind, and now I wish I hadn't date de sortie",
+        "I did the math on my Wardogs XP grind, and now I wish I hadn't plateformes",
+        "I did the math on my Wardogs XP grind, and now I wish I hadn't gameplay",
+        "I did the math on my Wardogs XP grind, and now I wish I hadn't guide",
+        "I did the math on my Wardogs XP grind, and now I wish I hadn't avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/i-did-the-math-on-my-wardogs-xp-grind-and-now-i-wish-i-hadnt/",
+          "title": "I did the math on my Wardogs XP grind, and now I wish I hadn't",
+          "evidence": "<article> <p>I've had this goal in the back of my head to unlock all the Medic gear in Wardogs so I can become the best sawbones on the server. There's only one piece I still don't have—a medical bag that can both revive and heal teammates in one item. It's unlocked at Medic level 24, which doesn't sound so bad, since I've already reached level 18 over my first 30 hours of Wardogs.</p><p>But this week I noticed my steady Medic rise had slowed considerably. I had been ranking up every one or two rounds, but now I'm lucky to climb a rank over a whole night of play. I'm doing just as well in matches—better than ever, actually, with the addition of defibrillators and stronger medkits—so that's not the issue.</p><p>For the first time, I made note of the XP thresholds for leveling up and compared where I'm at to my goal. I wish I hadn't. So far I've gained 17 levels with 177,619 Medic XP. Level 24, just seven ranks later, will require 337,000 XP. So while it looks like I'm gaining on that useful medicine bag, <strong>I'm actually just 52% of the way there</strong>.</p><p>So this is the brutal Wardogs grind I've been hearing about. Bummer.</p><h2 id=\"the-mountain\">The mountain</h2><p>I wa"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-i-feel-like-i-m-running-a-corner-store-in-dredd-or-cybe-20e86df4e8db",
+      "title": "I feel like I'm running a corner store in Dredd or Cyberpunk 2077",
+      "source_type": "seo_intel",
+      "keywords": [
+        "I feel like I'm running a corner store in Dredd or Cyberpunk 2077",
+        "I feel like I'm running a corner store in Dredd or Cyberpunk 2077 date de sortie",
+        "I feel like I'm running a corner store in Dredd or Cyberpunk 2077 plateformes",
+        "I feel like I'm running a corner store in Dredd or Cyberpunk 2077 gameplay",
+        "I feel like I'm running a corner store in Dredd or Cyberpunk 2077 guide",
+        "I feel like I'm running a corner store in Dredd or Cyberpunk 2077 avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/i-feel-like-im-running-a-corner-store-in-dredd-or-cyberpunk-2077/",
+          "title": "I feel like I'm running a corner store in Dredd or Cyberpunk 2077",
+          "evidence": "<article> <ul><li><strong>Papers, Please</strong>: Your decisions as a shopkeeper have an effect. If you spot someone on the wanted list coming in to your store, you can report them to security for a reward—but keep in mind they may be members of the resistance fighting against the cruel dystopia.</li><li><strong>Dredd</strong>: With customers coming in from the poverty-stricken lower levels and the wealthier upper levels, it feels like I'm working a shop in one of those massive towers from the Dredd movie, even though in the game's fiction I'm actually working in a cyberpunk space-station.</li><li><strong>Strange Horticulture</strong>: My favorite shopkeeping sim is <a href=\"https://www.pcgamer.com/strange-horticulture-review/\">a fascinating detective game in disguise</a>, and there's a hint of it in Probably Stolen. You can use a magnifying glass to examine items to see if they're counterfeit and as an appraisal tool to judge their value, a bit like how you search for clues to ID plants in Strange Horticulture. Fun!</li><li><strong>Fallout</strong>: You can farm rats for their meat, set up water purification systems, scavenge through trash heaps to find scrap to turn into sellabl"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-i-lost-hours-to-this-roguelike-card-based-city-builder--43076237af46",
       "title": "I lost hours to this roguelike card-based city builder even though I had no idea how all of those words could fit together",
       "source_type": "seo_intel",
@@ -2681,7 +2968,7 @@
         "I lost hours to this roguelike card-based city builder even though I had no idea how all of those words could fit together avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 56,
       "sources": [
         {
           "type": "publisher",
@@ -3296,7 +3583,7 @@
         "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 63,
       "sources": [
         {
           "type": "publisher",
@@ -4000,6 +4287,47 @@
           "url": "https://www.pcgamer.com/gaming-industry/microsofts-approach-to-age-verification-in-australia-is-further-proof-that-valve-is-taking-the-everloving-piss/",
           "title": "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss",
           "evidence": "<article> <p>Many are justifiably annoyed about Steam's <a href=\"https://www.pcgamer.com/gaming-industry/steam-now-requires-australian-users-to-have-a-credit-card-to-purchase-r18-games-and-no-a-simple-bank-debit-card-wont-work/\">new age verification requirements</a> in Australia. Whereas most platforms and shopfronts offer several ways to verify one's age, Valve offers only one, and it's amusingly ill-suited to the Australian market. To prove that you're over 18 years old and thus, legally allowed to purchase games like Metal Gear Solid 4, Doom Eternal or Rimworld, you need to provide details for an active credit card. </p><p>The problem? <a href=\"https://www.rba.gov.au/publications/bulletin/2026/may/consumer-payment-behaviour-in-australia.html\">Very few Australians</a> use credit cards.</p><p>Even if you opened your Steam account as far back as 2003 and own a handful of R18+ games already, Steam will still require that credit card. </p><p>I don't want to big up Microsoft for doing slightly more than the bare minimum, but an email I received overnight does at least cast renewed light on how terrible Valve's approach is. An email from Microsoft regarding my \"Microsoft Age Verificati"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-my-favorite-6-rpg-on-steam-just-got-a-beastmode-free-en-fe76ef92872e",
+      "title": "My favorite $6 RPG on Steam just got a beastmode free 'Enhanced Edition' update",
+      "source_type": "seo_intel",
+      "keywords": [
+        "My favorite $6 RPG on Steam just got a beastmode free 'Enhanced Edition' update",
+        "My favorite $6 RPG on Steam just got a beastmode free 'Enhanced Edition' update date de sortie",
+        "My favorite $6 RPG on Steam just got a beastmode free 'Enhanced Edition' update plateformes",
+        "My favorite $6 RPG on Steam just got a beastmode free 'Enhanced Edition' update gameplay",
+        "My favorite $6 RPG on Steam just got a beastmode free 'Enhanced Edition' update guide",
+        "My favorite $6 RPG on Steam just got a beastmode free 'Enhanced Edition' update avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/my-favorite-usd6-rpg-on-steam-just-got-a-beastmode-free-enhanced-edition-update/",
+          "title": "My favorite $6 RPG on Steam just got a beastmode free 'Enhanced Edition' update",
+          "evidence": "<article> <p><a href=\"https://store.steampowered.com/app/3108510/FlyKnight_Enhanced_Edition/\" target=\"_blank\">FlyKnight</a> is a $6, first-person RPG in the King's Field/Lunacid mold that whips ass, looks like Old School Runescape, and feels like it could have asked for twice as much money and still been a bargain.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Y1YARmOQZZE\" allowfullscreen></iframe></div></div><p>That alone makes it one of my easiest recommendations on Steam, but it also just got a <a href=\"https://store.steampowered.com/news/app/3108510/view/674006995886409223\" target=\"_blank\">free update</a> of the GOTY/Enhanced/Definitive Edition variety, from its solo dev, while still only asking new players for $6 upfront⁠—$4 at the time of writing, thanks to a sale running through September 30. Here are the big Enhanced Edition additions:</p><ul><li>Multiple difficulties, with a Miyazaki's Choice™ poison swamp exclusive to Hard</li><li>Item and enemy randomization, with savable procedural generation seeds</li><li>Four new weapon types, and an unspecified number "
         }
       ],
       "score": 93,
@@ -5141,7 +5469,7 @@
         "Solarpunk MMO Loftia is launching into early access November 3 avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 70,
       "sources": [
         {
           "type": "publisher",
@@ -5633,7 +5961,7 @@
         "Take to the skies and shoot your mates in the face with a shotgun in Fish & Ships avis"
       ],
       "freshness": "fresh",
-      "existing_score": 0,
+      "existing_score": 63,
       "sources": [
         {
           "type": "publisher",
@@ -6195,6 +6523,47 @@
       ]
     },
     {
+      "id": "rss-the-eyes-of-valve-s-creepy-portrait-are-glowing-again-5b6daf5f72f2",
+      "title": "The eyes of Valve's creepy portrait are glowing again",
+      "source_type": "seo_intel",
+      "keywords": [
+        "The eyes of Valve's creepy portrait are glowing again",
+        "The eyes of Valve's creepy portrait are glowing again date de sortie",
+        "The eyes of Valve's creepy portrait are glowing again plateformes",
+        "The eyes of Valve's creepy portrait are glowing again gameplay",
+        "The eyes of Valve's creepy portrait are glowing again guide",
+        "The eyes of Valve's creepy portrait are glowing again avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/moba/the-eyes-of-valves-creepy-portrait-are-glowing-again/",
+          "title": "The eyes of Valve's creepy portrait are glowing again",
+          "evidence": "<article> <p>The portrait of the man with red gloves is <a href=\"https://www.reddit.com/r/DeadlockTheGame/comments/1wq4y5e/was_this_before_the_current_update/\">glowing again</a>, which can only mean one thing for Deadlock players: Valve is about to drop a major new update very soon.</p><p>Real soon, in fact. The last time the portrait in the main hub started glowing was before the <a href=\"https://www.pcgamer.com/games/moba/deadlock-just-received-a-huge-update-with-6-new-heroes-overhauled-patrons-and-a-new-game-mode-and-it-was-all-predicted-with-dominos-pizza/\">Old Gods, New Blood update</a>, which introduced six new heroes, a new mode, and a bunch of other things that elevated the game from Valve's pet project to a real videogame that might actually see the light of day.</p><p>One of the developers at Valve <a href=\"https://www.reddit.com/r/DeadlockTheGame/comments/1wq30gm/yoshi_confirms_patch_early_next_week/\">confirmed it</a> on Discord, too, but when we're talking about the community of players who desperately <a href=\"https://www.pcgamer.com/games/moba/valve-assures-deadlock-players-hungry-for-its-next-big-update-that-it-will-notify-them-or-order-a-ton-of-pizza-when-its-ready/"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-the-first-look-at-ian-mckellen-back-as-gandalf-in-the-h-b912a6cf3263",
       "title": "The first look at Ian McKellen back as Gandalf in The Hunt for Gollum has been revealed",
       "source_type": "seo_intel",
@@ -6501,6 +6870,47 @@
           "url": "https://www.pcgamer.com/hardware/thing-is-that-you-watch-this-disembodied-ai-robot-hand-walk-like-a-terrible-spider-from-the-depths-of-my-nightmares/",
           "title": "Thing, is that you? Watch this disembodied AI robot hand 'walk' like a terrible spider from the depths of my nightmares",
           "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/93BLyBPAfYs\" allowfullscreen></iframe></div></div> </article>"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-this-78-year-old-grandmother-has-an-insatiable-lust-for-588d84d5209b",
+      "title": "This 78-year-old grandmother has an insatiable lust for violence (in Fortnite)",
+      "source_type": "seo_intel",
+      "keywords": [
+        "This 78-year-old grandmother has an insatiable lust for violence (in Fortnite)",
+        "This 78-year-old grandmother has an insatiable lust for violence (in Fortnite) date de sortie",
+        "This 78-year-old grandmother has an insatiable lust for violence (in Fortnite) plateformes",
+        "This 78-year-old grandmother has an insatiable lust for violence (in Fortnite) gameplay",
+        "This 78-year-old grandmother has an insatiable lust for violence (in Fortnite) guide",
+        "This 78-year-old grandmother has an insatiable lust for violence (in Fortnite) avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/battle-royale/this-78-year-old-grandmother-has-an-insatiable-lust-for-violence-in-fortnite/",
+          "title": "This 78-year-old grandmother has an insatiable lust for violence (in Fortnite)",
+          "evidence": "<article> <p>Scottish grandmother Cath Bowie's hunger for bloodshed is celebrated by thousands.</p><p>Recently named the world's oldest female Fortnite steamer by Guinness World Records, Bowie began playing the battle royale behemoth under the nom de guerre <a href=\"https://www.twitch.tv/grumpygran1948\">grumpygran1948</a> in 2017. Now streaming for an audience of over 24,000 followers, she was introduced to the game by her grandson, who—unwisely—doubted his grandmother's prospects as a conqueror.</p><p>\"As a young guy he just couldn't believe that his grandma would do such a thing and suggested that nobody would join me or watch me,\" Bowie told <a href=\"https://www.guinnessworldrecords.com/news/2026/9/scottish-gamer-gran-celebrates-turning-78-with-her-fortnite-streaming-world-record\">Guinness World Records</a>. \"Saying that was like a red rag to a bull to me. I would show him that I could do it. 24,000+ followers later and he doesn't mention it. I wonder why?\"</p><p>Given Bowie's self-professed singleminded pursuit of glorious slaughter, I can't blame her grandson for his reticence. Bowie says that during her daily Fortnite sessions, she's not playing for Victory Royales. Instead, "
         }
       ],
       "score": 93,
@@ -7261,6 +7671,47 @@
       ]
     },
     {
+      "id": "rss-what-insiders-say-halo-studios-was-up-to-before-losing--1b21f77a8884",
+      "title": "What insiders say Halo Studios was up to before losing Halo: 'The next Halo game was years away'",
+      "source_type": "seo_intel",
+      "keywords": [
+        "What insiders say Halo Studios was up to before losing Halo: 'The next Halo game was years away'",
+        "What insiders say Halo Studios was up to before losing Halo: 'The next Halo game was years away' date de sortie",
+        "What insiders say Halo Studios was up to before losing Halo: 'The next Halo game was years away' plateformes",
+        "What insiders say Halo Studios was up to before losing Halo: 'The next Halo game was years away' gameplay",
+        "What insiders say Halo Studios was up to before losing Halo: 'The next Halo game was years away' guide",
+        "What insiders say Halo Studios was up to before losing Halo: 'The next Halo game was years away' avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/halo/what-insiders-say-halo-studios-was-up-to-before-losing-halo-the-next-halo-game-was-years-away/",
+          "title": "What insiders say Halo Studios was up to before losing Halo: 'The next Halo game was years away'",
+          "evidence": "<article> <p>In the wake of Microsoft gutting Halo Studios to a skeleton crew and passing off the series to Activision, new reports from insiders tell a believable story about what was happening in Halo Studios as the plug got pulled. The accounts come from The Verge's <a href=\"https://www.theverge.com/tech/999919/microsoft-xbox-reorganization-activision-notepad\">Tom Warren</a> (longtime Microsoft beat writer) and YouTuber <a href=\"https://youtu.be/doDGO91IyoA\">Rebs Gaming</a> (whose sources within the Halo machine are often accurate).</p><div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/gzLoBEjWrqDLg7Hx8GQA8E.jpg\" alt=\"Halo Infinite Mark V armor\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">According to sources</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><ul><li>The drastic cuts were a surprise to some Halo Studios employees, who had to wait hours to learn if they still had a job: \"The first communication came in a public Xbox blog, before notif"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
       "id": "rss-what-the-hell-are-you-guys-doing-8900e0202da5",
       "title": "What the hell are you guys doing?",
       "source_type": "seo_intel",
@@ -7772,6 +8223,47 @@
           "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-dev-addresses-the-debate-over-who-its-made-for-i-did-not-spend-the-last-year-of-my-life-relearning-and-mastering-how-to-do-things-like-we-did-it-20-years-ago-for-retail-players/",
           "title": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
           "evidence": "<article> <div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-Xj2VxX\"></div> </div> <script src=\"https://kwizly.com/embed/Xj2VxX.js\" async></script><div class=\"product\"><a data-dimension112=\"04d63578-b79a-11f1-bbfe-63e23dd6ade1\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:661px;\"><p class=\"vanilla-image-block\" style=\"padding-top:98.94%;\"><img id=\"6offQUY4CXebir2TC27dMd\" name=\"kingdom come 2 square\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"661\" height=\"654\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\"></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/games/new-pc-games-2026/\" target=\"_blank\" data-dimension112=\"04d63578-b79a-11f1-bbfe-63e23dd6ade1\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" data-dimension25=\"\"><strong>2026 games</strong></a>: All the upcoming games<br><a href=\"https://www.pcgamer.com/the-best-pc-games/\" target=\"_blank\"><stro"
+        }
+      ],
+      "score": 93,
+      "decision": "SKIP",
+      "duplicate_risk": true,
+      "breakdown": {
+        "specificity": 25,
+        "search_intent": 20,
+        "freshness": 10,
+        "competition_proxy": 13,
+        "gamerquest_fit": 10,
+        "distribution_potential": 10,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "clear search intent",
+        "specific long-tail angle",
+        "strong social/distribution hook",
+        "blocked by existing coverage"
+      ]
+    },
+    {
+      "id": "rss-world-of-warcraft-forever-dev-has-no-sympathy-for-playe-3f6a703720c9",
+      "title": "World of Warcraft: Forever dev has 'no sympathy' for players kicked from the beta for offensive names: 'If you're genuinely confused, remember that it's our database, we can see every character you've created'",
+      "source_type": "seo_intel",
+      "keywords": [
+        "World of Warcraft: Forever dev has 'no sympathy' for players kicked from the beta for offensive names: 'If you're genuinely confused, remember that it's our database, we can see every character you've created'",
+        "World of Warcraft: Forever dev has 'no sympathy' for players kicked from the beta for offensive names: 'If you're genuinely confused, remember that it's our database, we can see every character you've created' date de sortie",
+        "World of Warcraft: Forever dev has 'no sympathy' for players kicked from the beta for offensive names: 'If you're genuinely confused, remember that it's our database, we can see every character you've created' plateformes",
+        "World of Warcraft: Forever dev has 'no sympathy' for players kicked from the beta for offensive names: 'If you're genuinely confused, remember that it's our database, we can see every character you've created' gameplay",
+        "World of Warcraft: Forever dev has 'no sympathy' for players kicked from the beta for offensive names: 'If you're genuinely confused, remember that it's our database, we can see every character you've created' guide",
+        "World of Warcraft: Forever dev has 'no sympathy' for players kicked from the beta for offensive names: 'If you're genuinely confused, remember that it's our database, we can see every character you've created' avis"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-dev-has-no-sympathy-for-players-kicked-from-the-beta-for-offensive-names-if-youre-genuinely-confused-remember-that-its-our-database-we-can-see-every-character-youve-created/",
+          "title": "World of Warcraft: Forever dev has 'no sympathy' for players kicked from the beta for offensive names: 'If you're genuinely confused, remember that it's our database, we can see every character you've created'",
+          "evidence": "<article> <p>One of the developers running the <a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a> beta has no patience for the people who think they can get away with naming their characters something inappropriate.</p><p>I was surprised at how many awful player names I've seen while playing the beta over the last week. WoW usually has a pretty strict filter that covers a lot of racist or disgusting names and all their permutations. But in the beta, I saw more than usual that felt like they should've been blocked at the character creation screen.</p><p>It turns out, this was a mistake on Blizzard's part, according to senior game producer Tom Ellis on <a href=\"https://x.com/FwoiblesWoW/status/2103470811826778368\">X</a>: \"Our naming filter wasn’t ready to rock for dual names but we naively thought after twenty years folks knew what was and wasn’t OK and we’d be fine for a few weeks of beta till it came online.\"</p><p>Things were not fine from day one of the beta, which required Blizzard to manually run every name through their filter system and then double check them just in case, Ellis said.</p><p>A wave of bans went out alongside the beta's "
         }
       ],
       "score": 93,
@@ -8483,38 +8975,6 @@
       ]
     },
     {
-      "id": "f6fc6e7cee0f825c386b3c9b79c7c0da28cb4478f4824dcc55398efa49c63195",
-      "title": "Warhammer 40,000: Rogue Trader à -70% sur Steam",
-      "source_type": "deal",
-      "keywords": [
-        "Warhammer 40,000: Rogue Trader",
-        "Steam"
-      ],
-      "freshness": "fresh",
-      "existing_score": 0,
-      "sources": [
-        {
-          "type": "steam",
-          "url": "https://store.steampowered.com/app/2186680/"
-        }
-      ],
-      "score": 61,
-      "decision": "WATCH",
-      "duplicate_risk": false,
-      "breakdown": {
-        "specificity": 18,
-        "search_intent": 5,
-        "freshness": 10,
-        "competition_proxy": 8,
-        "gamerquest_fit": 10,
-        "distribution_potential": 5,
-        "internal_link_potential": 5
-      },
-      "reasons": [
-        "weak acquisition signal"
-      ]
-    },
-    {
       "id": "d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327",
       "title": "Persona 3 Reload à -70% sur Steam",
       "source_type": "deal",
@@ -8573,6 +9033,38 @@
         "gamerquest_fit": 10,
         "distribution_potential": 5,
         "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
+      ]
+    },
+    {
+      "id": "c983cb3f5b8f9c0b12a70d7b389902568eb64cf0432b79d97fb89aa33e31e7d5",
+      "title": "Hades à -75% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "Hades",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/1145360/"
+        }
+      ],
+      "score": 43,
+      "decision": "SKIP",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 8,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 3,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 2
       },
       "reasons": [
         "weak acquisition signal"

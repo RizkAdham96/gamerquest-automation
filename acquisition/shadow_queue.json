@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T16:24:27.314396+00:00",
+  "generated_at": "2026-09-26T21:11:12.690020+00:00",
   "mode": "shadow",
   "count": 222,
   "opportunities": [
@@ -8975,6 +8975,38 @@
       ]
     },
     {
+      "id": "f6fc6e7cee0f825c386b3c9b79c7c0da28cb4478f4824dcc55398efa49c63195",
+      "title": "Warhammer 40,000: Rogue Trader à -70% sur Steam",
+      "source_type": "deal",
+      "keywords": [
+        "Warhammer 40,000: Rogue Trader",
+        "Steam"
+      ],
+      "freshness": "fresh",
+      "existing_score": 0,
+      "sources": [
+        {
+          "type": "steam",
+          "url": "https://store.steampowered.com/app/2186680/"
+        }
+      ],
+      "score": 61,
+      "decision": "WATCH",
+      "duplicate_risk": false,
+      "breakdown": {
+        "specificity": 18,
+        "search_intent": 5,
+        "freshness": 10,
+        "competition_proxy": 8,
+        "gamerquest_fit": 10,
+        "distribution_potential": 5,
+        "internal_link_potential": 5
+      },
+      "reasons": [
+        "weak acquisition signal"
+      ]
+    },
+    {
       "id": "d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327",
       "title": "Persona 3 Reload à -70% sur Steam",
       "source_type": "deal",
@@ -9033,38 +9065,6 @@
         "gamerquest_fit": 10,
         "distribution_potential": 5,
         "internal_link_potential": 5
-      },
-      "reasons": [
-        "weak acquisition signal"
-      ]
-    },
-    {
-      "id": "c983cb3f5b8f9c0b12a70d7b389902568eb64cf0432b79d97fb89aa33e31e7d5",
-      "title": "Hades à -75% sur Steam",
-      "source_type": "deal",
-      "keywords": [
-        "Hades",
-        "Steam"
-      ],
-      "freshness": "fresh",
-      "existing_score": 0,
-      "sources": [
-        {
-          "type": "steam",
-          "url": "https://store.steampowered.com/app/1145360/"
-        }
-      ],
-      "score": 43,
-      "decision": "SKIP",
-      "duplicate_risk": false,
-      "breakdown": {
-        "specificity": 8,
-        "search_intent": 5,
-        "freshness": 10,
-        "competition_proxy": 3,
-        "gamerquest_fit": 10,
-        "distribution_potential": 5,
-        "internal_link_potential": 2
       },
       "reasons": [
         "weak acquisition signal"

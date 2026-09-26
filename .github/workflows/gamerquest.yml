@@ -37,6 +37,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run News regression tests
+        id: news_tests
         run: |
           python -m pytest \
             test_news_image_generator.py \
@@ -221,7 +222,7 @@ jobs:
             --user-agent "GamerQuest-News-Wakeup/1.0" \
             https://gamerquestfr.com/ > /dev/null
 
-      - name: Verify live publication and report P0 status
+      - name: Verify live publication recover importer and report P0 status
         if: ${{ always() }}
         shell: bash
         run: |
@@ -233,6 +234,7 @@ jobs:
           from datetime import datetime, timezone
 
           before_id = "${{ steps.live_before.outputs.post_id }}" or "none"
+          tests_outcome = "${{ steps.news_tests.outcome }}".strip() or "skipped"
           budget_allowed = "${{ steps.groq_budget.outputs.allowed }}" == "true"
           budget_reason = "${{ steps.groq_budget.outputs.reason }}".strip()
           automation_outcome = "${{ steps.news_automation.outcome }}".strip() or "skipped"
@@ -240,20 +242,37 @@ jobs:
           generation_reason = "${{ steps.news_diag.outputs.reason }}".strip()
           wake_outcome = "${{ steps.wordpress_wakeup.outcome }}".strip() or "skipped"
 
-          url = (
+          api_url = (
               "https://gamerquestfr.com/wp-json/wp/v2/posts"
               "?categories=2&per_page=1&orderby=date&order=desc"
               "&_fields=id,date_gmt,link,title"
           )
+          home_url = "https://gamerquestfr.com/"
+
+          def fetch_latest():
+              req = urllib.request.Request(
+                  api_url,
+                  headers={"User-Agent": "GamerQuest-News-Diagnostic/1.0"},
+              )
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  posts = json.load(response)
+              return posts[0] if posts else None
+
+          def wake_importer(label):
+              req = urllib.request.Request(
+                  home_url,
+                  headers={"User-Agent": f"GamerQuest-News-Recovery/{label}"},
+              )
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  response.read(1)
+              print(f"Importer recovery wake {label} completed.")
 
           latest = None
           fetch_error = None
           for attempt in range(3):
               try:
-                  req = urllib.request.Request(url, headers={"User-Agent": "GamerQuest-News-Diagnostic/1.0"})
-                  with urllib.request.urlopen(req, timeout=30) as response:
-                      posts = json.load(response)
-                  latest = posts[0] if posts else None
+                  latest = fetch_latest()
+                  fetch_error = None
                   if latest and str(latest.get("id")) != before_id:
                       break
               except Exception as exc:
@@ -261,48 +280,113 @@ jobs:
               if attempt < 2:
                   time.sleep(10)
 
-          if not budget_allowed:
-              result = "SKIPPED"
-              reason = f"Groq budget unavailable: {budget_reason or 'no reason returned'}"
-          elif automation_outcome == "failure":
+          changed = bool(latest and str(latest.get("id")) != before_id)
+          recovery_attempted = False
+
+          # A produced draft with no live WordPress change is a recoverable importer
+          # problem. Retry the same wake mechanism twice before declaring P0 failure.
+          if (
+              not changed
+              and generation_status == "draft_created"
+              and automation_outcome == "success"
+          ):
+              recovery_attempted = True
+              for attempt in range(1, 3):
+                  try:
+                      wake_importer(str(attempt))
+                  except Exception as exc:
+                      print(f"Importer recovery wake {attempt} failed: {exc}")
+                  time.sleep(8)
+                  try:
+                      latest = fetch_latest()
+                      fetch_error = None
+                  except Exception as exc:
+                      fetch_error = str(exc)
+                      latest = None
+                  if latest and str(latest.get("id")) != before_id:
+                      changed = True
+                      break
+
+          age_hours = None
+          if latest and latest.get("date_gmt"):
+              try:
+                  published = datetime.fromisoformat(
+                      str(latest["date_gmt"]).replace("Z", "+00:00")
+                  )
+                  if published.tzinfo is None:
+                      published = published.replace(tzinfo=timezone.utc)
+                  age_hours = (
+                      datetime.now(timezone.utc)
+                      - published.astimezone(timezone.utc)
+                  ).total_seconds() / 3600
+              except Exception as exc:
+                  print(f"Could not calculate live article age: {exc}")
+
+          stale = age_hours is not None and age_hours > 24
+
+          if tests_outcome == "failure":
               result = "FAILED"
-              reason = "automation.py failed before a publishable news item completed."
-          elif wake_outcome == "failure":
-              result = "FAILED"
-              reason = "WordPress importer wake-up request failed."
+              reason = "News regression tests failed; production run is unsafe."
           elif latest is None:
               result = "FAILED"
               reason = f"Could not verify the live WordPress news feed: {fetch_error or 'no posts returned'}"
-          elif str(latest.get("id")) != before_id:
+          elif changed:
               result = "PUBLISHED"
               reason = "A new Actualités post appeared on WordPress during this run."
-          else:
-              published_raw = latest.get("date_gmt")
-              age_hours = None
-              if published_raw:
-                  published = datetime.fromisoformat(str(published_raw).replace("Z", "+00:00"))
-                  if published.tzinfo is None:
-                      published = published.replace(tzinfo=timezone.utc)
-                  age_hours = (datetime.now(timezone.utc) - published.astimezone(timezone.utc)).total_seconds() / 3600
-
-              if generation_status == "draft_created":
-                  result = "WAITING_IMPORT"
-                  reason = "A draft was created, but WordPress did not expose a new live post within the verification window."
-              elif generation_status == "rejected":
-                  result = "SKIPPED"
-                  reason = generation_reason
+              if recovery_attempted:
+                  reason += " The automatic importer recovery wake was required."
+          elif not budget_allowed:
+              if stale:
+                  result = "FAILED"
+                  reason = (
+                      f"Latest Actualités is {age_hours:.2f} hours old and the News run "
+                      f"could not execute because the Groq budget was unavailable: "
+                      f"{budget_reason or 'no reason returned'}"
+                  )
               else:
                   result = "SKIPPED"
-                  reason = generation_reason or "No publishable fresh candidate was produced."
-
-              if age_hours is not None and age_hours > 24:
-                  reason += f" WARNING: latest live Actualités post is {age_hours:.2f} hours old."
+                  reason = f"Groq budget unavailable: {budget_reason or 'no reason returned'}"
+          elif automation_outcome == "failure":
+              result = "FAILED"
+              reason = "automation.py failed before a publishable news item completed."
+          elif stale:
+              result = "FAILED"
+              if generation_status == "draft_created":
+                  reason = (
+                      f"A draft was created but WordPress still did not publish it after automatic "
+                      f"importer recovery; latest Actualités is {age_hours:.2f} hours old."
+                  )
+              elif generation_status == "rejected":
+                  reason = (
+                      f"No new article was published because the candidate was rejected and the "
+                      f"latest Actualités is now {age_hours:.2f} hours old. {generation_reason}"
+                  )
+              else:
+                  reason = (
+                      f"No publishable fresh candidate was produced and the latest Actualités is "
+                      f"{age_hours:.2f} hours old. {generation_reason}"
+                  )
+          elif wake_outcome == "failure" and generation_status == "draft_created":
+              result = "FAILED"
+              reason = "A draft was created but the WordPress importer wake-up failed."
+          elif generation_status == "draft_created":
+              result = "WAITING_IMPORT"
+              reason = "A draft was created, but WordPress did not expose a new live post within the recovery window; live content is still under 24 hours old."
+          elif generation_status == "rejected":
+              result = "SKIPPED"
+              reason = generation_reason
+          else:
+              result = "SKIPPED"
+              reason = generation_reason or "No publishable fresh candidate was produced."
 
           latest_id = str(latest.get("id")) if latest else "none"
           latest_link = str(latest.get("link")) if latest else "none"
+          age_text = f"{age_hours:.2f}h" if age_hours is not None else "unknown"
           print(f"NEWS RESULT: {result}")
           print(f"NEWS REASON: {reason}")
           print(f"LIVE POST: {latest_id} {latest_link}")
+          print(f"LIVE AGE: {age_text}")
+          print(f"IMPORTER RECOVERY ATTEMPTED: {recovery_attempted}")
 
           summary = os.environ.get("GITHUB_STEP_SUMMARY")
           if summary:
@@ -313,6 +397,8 @@ jobs:
                   f.write(f"Generation: `{generation_status}`\n\n")
                   f.write(f"automation.py: `{automation_outcome}`\n\n")
                   f.write(f"WordPress wake-up: `{wake_outcome}`\n\n")
+                  f.write(f"Importer recovery attempted: `{recovery_attempted}`\n\n")
+                  f.write(f"Latest live article age: `{age_text}`\n\n")
                   f.write(f"Latest live post: {latest_link}\n")
 
           if result == "FAILED":

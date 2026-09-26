@@ -41,9 +41,66 @@ jobs:
           python -m pytest reviews/test_reviews.py -q
 
       - name: Publish or update Tests & Avis
+        id: reviews_publish
         env:
           WP_URL: ${{ secrets.WP_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
         run: |
           python -m reviews.run
+
+      - name: Report Tests & Avis result
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          path = Path("reviews-run-status.json")
+          outcome = "${{ steps.reviews_publish.outcome }}" or "unknown"
+
+          if path.exists():
+              try:
+                  status = json.loads(path.read_text(encoding="utf-8"))
+              except Exception as exc:
+                  status = {"error": f"invalid status file: {exc}"}
+          else:
+              status = {"error": "reviews-run-status.json was not created"}
+
+          selected = status.get("selected", "unknown")
+          published = status.get("published", "unknown")
+          existing = status.get("existing", "unknown")
+          skipped = status.get("skipped", "unknown")
+          failed = status.get("failed", "unknown")
+
+          print(
+              f"REVIEWS RESULT: outcome={outcome} selected={selected} "
+              f"published={published} existing={existing} skipped={skipped} failed={failed}"
+          )
+
+          summary = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary:
+              with open(summary, "a", encoding="utf-8") as f:
+                  f.write("## GamerQuest Tests & Avis result\n")
+                  f.write(f"Workflow outcome: **{outcome}**\n\n")
+                  f.write(f"Selected: `{selected}`  \n")
+                  f.write(f"Newly published: `{published}`  \n")
+                  f.write(f"Already existing: `{existing}`  \n")
+                  f.write(f"Skipped before WordPress: `{skipped}`  \n")
+                  f.write(f"Failed: `{failed}`\n")
+                  errors = status.get("errors") or []
+                  if errors:
+                      f.write("\n### Errors\n")
+                      for error in errors:
+                          f.write(f"- {error}\n")
+          PY
+
+      - name: Upload Tests & Avis diagnostics
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: gamerquest-reviews-status
+          path: reviews-run-status.json
+          if-no-files-found: warn

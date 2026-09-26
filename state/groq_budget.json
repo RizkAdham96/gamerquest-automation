@@ -1,54 +1,18 @@
 {
-  "date_utc": "2026-09-25",
-  "global_reserved": 68000,
+  "date_utc": "2026-09-26",
+  "global_reserved": 11000,
   "lanes": {
-    "news": 44000,
-    "seo": 10000,
-    "social": 14000,
+    "news": 11000,
+    "seo": 0,
+    "social": 0,
     "manual": 0
   },
   "reservations": [
     {
-      "id": "36095876740-1-news",
+      "id": "36218949827-1-news",
       "lane": "news",
       "tokens": 11000,
-      "reserved_at": "2026-09-25T04:47:54.309851+00:00"
-    },
-    {
-      "id": "36111509773-1-seo",
-      "lane": "seo",
-      "tokens": 10000,
-      "reserved_at": "2026-09-25T08:11:14.701757+00:00"
-    },
-    {
-      "id": "36130954803-1-news",
-      "lane": "news",
-      "tokens": 11000,
-      "reserved_at": "2026-09-25T11:43:48.932867+00:00"
-    },
-    {
-      "id": "36164800007-1-news",
-      "lane": "news",
-      "tokens": 11000,
-      "reserved_at": "2026-09-25T17:04:40.259923+00:00"
-    },
-    {
-      "id": "36183576075-1-social",
-      "lane": "social",
-      "tokens": 8000,
-      "reserved_at": "2026-09-25T20:05:13.099987+00:00"
-    },
-    {
-      "id": "36185811593-1-social-recovery",
-      "lane": "social",
-      "tokens": 6000,
-      "reserved_at": "2026-09-25T20:27:18.036296+00:00"
-    },
-    {
-      "id": "36191890456-1-news",
-      "lane": "news",
-      "tokens": 11000,
-      "reserved_at": "2026-09-25T21:30:25.488795+00:00"
+      "reserved_at": "2026-09-26T04:49:18.987174+00:00"
     }
   ]
 }

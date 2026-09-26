@@ -12,8 +12,6 @@ permissions:
   contents: write
 
 concurrency:
-  # Serialize all repository/state writers so generated state and Groq
-  # reservations cannot race other GamerQuest bots.
   group: gamerquest-repo-write-global
   cancel-in-progress: false
 
@@ -47,6 +45,36 @@ jobs:
             test_platform_feed.py \
             -v
 
+      - name: Snapshot live news before run
+        id: live_before
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request
+
+          url = (
+              "https://gamerquestfr.com/wp-json/wp/v2/posts"
+              "?categories=2&per_page=1&orderby=date&order=desc"
+              "&_fields=id,date_gmt,link,title"
+          )
+          req = urllib.request.Request(url, headers={"User-Agent": "GamerQuest-News-Diagnostic/1.0"})
+          latest_id = "none"
+          latest_date = "none"
+          try:
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  posts = json.load(response)
+              if posts:
+                  latest_id = str(posts[0].get("id", "none"))
+                  latest_date = str(posts[0].get("date_gmt", "none"))
+          except Exception as exc:
+              print(f"Pre-run WordPress snapshot unavailable: {exc}")
+
+          print(f"Latest live post before run: id={latest_id} date={latest_date}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"post_id={latest_id}\n")
+              f.write(f"date_gmt={latest_date}\n")
+          PY
+
       - name: Reserve and persist shared Groq budget
         id: groq_budget
         run: |
@@ -61,10 +89,6 @@ jobs:
 
           for attempt in 1 2 3; do
             echo "Budget reservation attempt ${attempt}/3"
-
-            # Always reserve against the newest shared state. If another bot
-            # committed state while this run was waiting, discard only this
-            # runner's unpushed copy and recompute from origin/main.
             git fetch origin main
             git reset --hard origin/main
 
@@ -104,6 +128,7 @@ jobs:
           echo "No prompt, article or image quality setting was reduced."
 
       - name: Run GamerQuest automation
+        id: news_automation
         if: ${{ steps.groq_budget.outputs.allowed == 'true' }}
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -113,12 +138,56 @@ jobs:
           WP_URL: ${{ secrets.WP_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: python automation.py
+
+      - name: Diagnose news generation result
+        id: news_diag
+        if: ${{ always() }}
+        shell: bash
         run: |
-          python automation.py
+          python - <<'PY'
+          import os, subprocess
+
+          def changed(prefix):
+              result = subprocess.run(
+                  ["git", "status", "--porcelain", "--", prefix],
+                  text=True,
+                  capture_output=True,
+                  check=False,
+              )
+              return bool(result.stdout.strip())
+
+          draft_changed = changed("drafts/")
+          rejection_changed = changed("rejected/")
+          feed_changed = changed("gamerquest-news-feed.json")
+          image_changed = changed("generated_news_images/")
+
+          if draft_changed:
+              status = "draft_created"
+              reason = "Automation produced a new or changed draft."
+          elif rejection_changed:
+              status = "rejected"
+              reason = "Automation evaluated a candidate but rejected it; inspect rejected/ for the recorded quality reason."
+          elif feed_changed:
+              status = "feed_updated"
+              reason = "News feed changed, but no draft/rejection file changed."
+          elif image_changed:
+              status = "image_only"
+              reason = "Generated image state changed without a draft/rejection change."
+          else:
+              status = "no_candidate_change"
+              reason = "Automation produced no draft, rejection, feed, or image change. Likely no eligible fresh candidate after source/quality filters."
+
+          print(f"NEWS GENERATION STATUS: {status}")
+          print(f"NEWS GENERATION REASON: {reason}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"status={status}\n")
+              f.write(f"reason={reason}\n")
+          PY
 
       - name: Classify Nintendo PlayStation and Xbox coverage
-        run: |
-          python enrich_platforms.py
+        if: ${{ always() && steps.news_automation.outcome != 'failure' }}
+        run: python enrich_platforms.py
 
       - name: Save drafts, rejections, state, feed and images
         if: always()
@@ -144,9 +213,108 @@ jobs:
           fi
 
       - name: Wake WordPress news importer
-        if: success()
+        id: wordpress_wakeup
+        if: ${{ steps.news_automation.outcome == 'success' }}
         run: |
           curl --fail --silent --show-error --location \
             --max-time 30 \
             --user-agent "GamerQuest-News-Wakeup/1.0" \
             https://gamerquestfr.com/ > /dev/null
+
+      - name: Verify live publication and report P0 status
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.request
+          from datetime import datetime, timezone
+
+          before_id = "${{ steps.live_before.outputs.post_id }}" or "none"
+          budget_allowed = "${{ steps.groq_budget.outputs.allowed }}" == "true"
+          budget_reason = "${{ steps.groq_budget.outputs.reason }}".strip()
+          automation_outcome = "${{ steps.news_automation.outcome }}".strip() or "skipped"
+          generation_status = "${{ steps.news_diag.outputs.status }}".strip() or "unknown"
+          generation_reason = "${{ steps.news_diag.outputs.reason }}".strip()
+          wake_outcome = "${{ steps.wordpress_wakeup.outcome }}".strip() or "skipped"
+
+          url = (
+              "https://gamerquestfr.com/wp-json/wp/v2/posts"
+              "?categories=2&per_page=1&orderby=date&order=desc"
+              "&_fields=id,date_gmt,link,title"
+          )
+
+          latest = None
+          fetch_error = None
+          for attempt in range(3):
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": "GamerQuest-News-Diagnostic/1.0"})
+                  with urllib.request.urlopen(req, timeout=30) as response:
+                      posts = json.load(response)
+                  latest = posts[0] if posts else None
+                  if latest and str(latest.get("id")) != before_id:
+                      break
+              except Exception as exc:
+                  fetch_error = str(exc)
+              if attempt < 2:
+                  time.sleep(10)
+
+          if not budget_allowed:
+              result = "SKIPPED"
+              reason = f"Groq budget unavailable: {budget_reason or 'no reason returned'}"
+          elif automation_outcome == "failure":
+              result = "FAILED"
+              reason = "automation.py failed before a publishable news item completed."
+          elif wake_outcome == "failure":
+              result = "FAILED"
+              reason = "WordPress importer wake-up request failed."
+          elif latest is None:
+              result = "FAILED"
+              reason = f"Could not verify the live WordPress news feed: {fetch_error or 'no posts returned'}"
+          elif str(latest.get("id")) != before_id:
+              result = "PUBLISHED"
+              reason = "A new Actualités post appeared on WordPress during this run."
+          else:
+              published_raw = latest.get("date_gmt")
+              age_hours = None
+              if published_raw:
+                  published = datetime.fromisoformat(str(published_raw).replace("Z", "+00:00"))
+                  if published.tzinfo is None:
+                      published = published.replace(tzinfo=timezone.utc)
+                  age_hours = (datetime.now(timezone.utc) - published.astimezone(timezone.utc)).total_seconds() / 3600
+
+              if generation_status == "draft_created":
+                  result = "WAITING_IMPORT"
+                  reason = "A draft was created, but WordPress did not expose a new live post within the verification window."
+              elif generation_status == "rejected":
+                  result = "SKIPPED"
+                  reason = generation_reason
+              else:
+                  result = "SKIPPED"
+                  reason = generation_reason or "No publishable fresh candidate was produced."
+
+              if age_hours is not None and age_hours > 24:
+                  reason += f" WARNING: latest live Actualités post is {age_hours:.2f} hours old."
+
+          latest_id = str(latest.get("id")) if latest else "none"
+          latest_link = str(latest.get("link")) if latest else "none"
+          print(f"NEWS RESULT: {result}")
+          print(f"NEWS REASON: {reason}")
+          print(f"LIVE POST: {latest_id} {latest_link}")
+
+          summary = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary:
+              with open(summary, "a", encoding="utf-8") as f:
+                  f.write("## GamerQuest News result\n")
+                  f.write(f"**{result}**\n\n")
+                  f.write(f"{reason}\n\n")
+                  f.write(f"Generation: `{generation_status}`\n\n")
+                  f.write(f"automation.py: `{automation_outcome}`\n\n")
+                  f.write(f"WordPress wake-up: `{wake_outcome}`\n\n")
+                  f.write(f"Latest live post: {latest_link}\n")
+
+          if result == "FAILED":
+              raise SystemExit(1)
+          PY

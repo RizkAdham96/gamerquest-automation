@@ -171,5 +171,47 @@ def test_existing_review_is_skipped_without_wordpress_update():
     post = publisher.publish({"appid": 2, "name": "Game Name"})
 
     assert post["id"] == 442
+    assert post["_gq_action"] == "existing"
     assert len(session.calls) == 2
     assert [method for method, _url, _kwargs in session.calls] == ["GET", "GET"]
+
+
+class _NewPostSession:
+    def __init__(self):
+        self.headers = {}
+        self.auth = None
+        self.calls = []
+
+    def request(self, method, url, **kwargs):
+        self.calls.append((method, url, kwargs))
+        if url.endswith("/categories"):
+            return _FakeResponse([{"id": 9}])
+        if url.endswith("/posts") and method == "GET":
+            return _FakeResponse([])
+        if url.endswith("/posts") and method == "POST":
+            return _FakeResponse({
+                "id": 443,
+                "link": "https://example.com/avis-3-new-game/",
+            })
+        raise AssertionError(f"Unexpected request: {method} {url}")
+
+
+def test_new_review_is_marked_as_published():
+    session = _NewPostSession()
+    publisher = WordPressPublisher(
+        base_url="https://example.com",
+        username="user",
+        password="pass",
+        session=session,
+        sleep_fn=lambda _seconds: None,
+    )
+
+    post = publisher.publish({
+        "appid": 3,
+        "name": "New Game",
+        "content": "<p>Review</p>",
+        "excerpt": "Review excerpt",
+    })
+
+    assert post["id"] == 443
+    assert post["_gq_action"] == "published"

@@ -46,6 +46,7 @@ jobs:
           python -m pip install Pillow requests
 
       - name: Run critical social tests
+        id: social_tests
         env:
           PYTHONPATH: .
         run: |
@@ -241,6 +242,39 @@ jobs:
             git push origin HEAD:main
           fi
 
+      - name: Snapshot whether Meta publish is actually pending
+        id: meta_pending
+        if: ${{ steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+
+          ready = json.loads(Path("social-publish-ready.json").read_text(encoding="utf-8"))
+          source_id = str(ready.get("source_id", "")).strip()
+          version = str(ready.get("carousel_version", "")).strip()
+          if not source_id or not version:
+              raise SystemExit("publish-ready payload is missing source_id/carousel_version")
+
+          history_path = Path("social/publish_history.json")
+          history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else {}
+          entry = history.get(source_id, {}) if isinstance(history, dict) else {}
+
+          pending = []
+          for platform in ("instagram", "facebook"):
+              state = entry.get(platform, {}) if isinstance(entry, dict) else {}
+              already = bool(state.get("published")) and str(state.get("carousel_version", "")).strip() == version
+              if not already:
+                  pending.append(platform)
+
+          count = len(pending)
+          print(f"Meta publish pending platforms: {pending or ['none']}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"pending_count={count}\n")
+              f.write(f"pending_platforms={','.join(pending)}\n")
+          PY
+
       - name: Publish carousel to Instagram and Facebook
         id: meta_publish
         if: ${{ steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
@@ -273,9 +307,20 @@ jobs:
         if: ${{ always() }}
         shell: bash
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
+          PUBLISH_REQUESTED="false"
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.publish_to_meta }}" = "true" ]; then
+            PUBLISH_REQUESTED="true"
+          fi
+
+          if [ "${{ steps.social_tests.outcome }}" = "failure" ]; then
+            RESULT="FAILED"
+            REASON="Critical social regression tests failed."
+          elif [ "${{ github.event_name }}" = "push" ]; then
             RESULT="TEST_ONLY"
             REASON="Push event runs regression tests only; no generation or Meta publishing requested."
+          elif [ "${PUBLISH_REQUESTED}" = "true" ] && [ "${{ steps.meta_preflight.outcome }}" = "failure" ]; then
+            RESULT="FAILED"
+            REASON="Meta preflight failed before any publishing attempt."
           elif [ "${{ steps.groq_budget.outputs.allowed }}" != "true" ]; then
             RESULT="SKIPPED"
             REASON="Groq budget unavailable: ${{ steps.groq_budget.outputs.reason }}"
@@ -285,18 +330,21 @@ jobs:
           elif [ "${{ steps.social_status.outputs.ready }}" != "true" ]; then
             RESULT="SKIPPED"
             REASON="Generation status=${{ steps.social_status.outputs.status }}; ${{ steps.social_status.outputs.reason }}"
-          elif [ "${{ github.event_name }}" != "schedule" ] && [ "${{ inputs.publish_to_meta }}" != "true" ]; then
+          elif [ "${PUBLISH_REQUESTED}" != "true" ]; then
             RESULT="GENERATED_ONLY"
             REASON="Carousel passed generation checks; Meta publishing was not requested."
-          elif [ "${{ steps.meta_preflight.outcome }}" = "failure" ]; then
+          elif [ "${{ steps.meta_publish.outcome }}" = "failure" ]; then
             RESULT="FAILED"
-            REASON="Meta preflight failed before publishing."
+            REASON="Meta publish command failed. Pending platforms before publish: ${{ steps.meta_pending.outputs.pending_platforms }}"
+          elif [ "${{ steps.meta_pending.outputs.pending_count }}" = "0" ]; then
+            RESULT="ALREADY_PUBLISHED"
+            REASON="This exact carousel version was already recorded as published on Instagram and Facebook; no new post was created."
           elif [ "${{ steps.meta_publish.outcome }}" = "success" ]; then
             RESULT="PUBLISHED"
-            REASON="Carousel publish command completed successfully for Instagram/Facebook."
+            REASON="A publish was pending for ${{ steps.meta_pending.outputs.pending_platforms }} and the Meta publish command completed successfully."
           else
             RESULT="FAILED"
-            REASON="Meta publish step outcome=${{ steps.meta_publish.outcome }}."
+            REASON="Unexpected Meta publishing state: outcome=${{ steps.meta_publish.outcome }}, pending=${{ steps.meta_pending.outputs.pending_count }}."
           fi
 
           echo "SOCIAL RESULT: ${RESULT}"
@@ -309,6 +357,7 @@ jobs:
             echo ""
             echo "Generation status: ${{ steps.social_status.outputs.status }}"
             echo "Meta preflight: ${{ steps.meta_preflight.outcome }}"
+            echo "Meta pending before publish: ${{ steps.meta_pending.outputs.pending_platforms }}"
             echo "Meta publish: ${{ steps.meta_publish.outcome }}"
           } >> "${GITHUB_STEP_SUMMARY}"
 

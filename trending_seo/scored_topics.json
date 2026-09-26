@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-25T08:11:17.044944+00:00",
+  "updated_at": "2026-09-26T08:00:09.150709+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -3287,6 +3287,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
         "suggested_title": "Videogame development sim Let's Build a Dungeon launches into early access February 11"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-in-falsus-is-a-delightfully-unforgiving-rhythm-game-tho-cfbcb5a6ead7",
+      "topic": "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story",
+      "detected_at": "2026-09-20T16:29:24.511429+00:00",
+      "analysed_at": "2026-09-26T08:00:09.150369+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rhythm/in-falsus-is-a-delightfully-unforgiving-rhythm-game-though-its-best-tracks-are-locked-behind-an-unimpressive-story/",
+          "title": "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Critical Hit</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"WcCZiWMVteuU25phgoBuD8\" name=\"critical-hit-boxout-badge\" caption=\"\" alt=\"Critical Hit column logo\" src=\"https://cdn.mos.cms.futurecdn.net/WcCZiWMVteuU25phgoBuD8-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/critical-hit/\" target=\"_blank\">Critical Hit</a>, where I (or someone else on the PC Gamer team) celebrate and lament all things videogame music, audio design, and the ways our favourite games make our ears tingle.</p></div></div><p>I'm almost certain my love for videogame music was the pipeline to becoming a chronic rhythm game enjoyer, combining "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story",
+        "secondary_keywords": [
+          "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story date de sortie",
+          "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story plateformes",
+          "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story gameplay",
+          "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story guide",
+          "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "In Falsus is a delightfully unforgiving rhythm game, though its best tracks are locked behind an unimpressive story"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-first-5-day-tokyo-game-show-in-30-years-cuts-back-to-4--a229d452910a",
+      "topic": "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan",
+      "detected_at": "2026-09-20T21:03:42.770630+00:00",
+      "analysed_at": "2026-09-26T08:00:09.150444+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/first-5-day-tokyo-game-show-in-30-years-cuts-back-to-4-in-face-of-typhoon-dujuan/",
+          "title": "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan",
+          "evidence": "<article> <p>As reported by <a href=\"https://kotaku.com/typhoon-dujuan-forces-tokyo-game-show-2026-to-shut-down-a-day-early-2000735879\" target=\"_blank\">Kotaku</a>, the organizers of the Tokyo Game Show have announced that its final day has been canceled and tickets for Monday, September 21 will be refunded. This was supposed to be the first five-day event in TGS' 30-year run⁠—while I am not a superstitious man, God or karma or something may be trying to tell us that it's just supposed to be a four-day deal.</p><p>\"Due to the approach of Typhoon No. 25, strong winds and rain are expected to intensify in the afternoon and beyond, and disruptions to transportation are also a concern,\" event organizers wrote on <a href=\"https://x.com/tokyo_game_show/status/2101204902513180905\" target=\"_blank\">Twitter</a>. \"Therefore, prioritizing the safety of all attendees, exhibitors, and related parties, as well as ensuring safe return home, we have decided to cancel the event for the entire day.\"</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2101204902513180905\"><p lang=\"en\" dir=\"ltr\">【重"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan",
+        "secondary_keywords": [
+          "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan date de sortie",
+          "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan plateformes",
+          "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan gameplay",
+          "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan guide",
+          "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-elden-ring-nightreign-is-dead-but-modders-are-dabbing-o-68b475ca4c30",
+      "topic": "Elden Ring Nightreign is dead, but modders are dabbing on its corpse, with one porting an entire Dark Souls 2 DLC zone as a playable map",
+      "detected_at": "2026-09-20T21:03:42.770947+00:00",
+      "analysed_at": "2026-09-26T08:00:09.150492+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 24,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 68,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/elden-ring-nightreign-is-dead-but-modders-are-dabbing-on-its-corpse-with-one-porting-an-entire-dark-souls-2-dlc-zone-as-a-playable-map/",
+          "title": "Elden Ring Nightreign is dead, but modders are dabbing on its corpse, with one porting an entire Dark Souls 2 DLC zone as a playable map",
+          "evidence": "<article> <p>Modder Doneda has released a particularly funky and exciting mod for elden Ring Nightreign, <a href=\"https://www.nexusmods.com/eldenringnightreign/mods/862?tab=description\" target=\"_blank\">porting Dark Souls 2's Frozen Eleum Loyce</a> and Frigid Outskirts as a standalone map. They also have a <a href=\"https://www.youtube.com/watch?v=_dTIY5AHyKI\" target=\"_blank\">trailer</a> up for the project on YouTube. Doneda's a bit of a Dark Souls 2 expert⁠—they previously restored the <a href=\"https://www.pcgamer.com/games/dark-souls/a-youtuber-has-unearthed-dark-souls-2s-enormous-cut-sewers-map-and-its-another-fascinating-insight-into-the-design-of-fromsoftwares-most-divisive-work/\" target=\"_blank\">remains of a cut sewers map</a> to the sequel for demonstration purposes.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/_dTIY5AHyKI\" allowfullscreen></iframe></div></div><p>Gun to my head, I think the Brume Tower is my favorite DS2 level, but Eleum Loyce still feels like a dear old friend. I enjoyed base DS2 more than most, but the Lost Crowns DLCs were on a whole differ"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Elden Ring Nightreign is dead, but modders are dabbing on its corpse, with one porting an entire Dark Souls 2 DLC zone as a playable map",
+        "secondary_keywords": [
+          "Elden Ring Nightreign is dead, but modders are dabbing on its corpse, with one porting an entire Dark Souls 2 DLC zone as a playable map date de sortie",
+          "Elden Ring Nightreign is dead, but modders are dabbing on its corpse, with one porting an entire Dark Souls 2 DLC zone as a playable map plateformes",
+          "Elden Ring Nightreign is dead, but modders are dabbing on its corpse, with one porting an entire Dark Souls 2 DLC zone as a playable map gameplay",
+          "Elden Ring Nightreign is dead, but modders are dabbing on its corpse, with one porting an entire Dark Souls 2 DLC zone as a playable map guide",
+          "Elden Ring Nightreign is dead, but modders are dabbing on its corpse, with one porting an entire Dark Souls 2 DLC zone as a playable map avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Elden Ring Nightreign is dead, but modders are dabbing on its corpse, with one porting an entire Dark Souls 2 DLC zone as a playable map"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-everything-announced-at-the-pc-gaming-show-tokyo-direct-3ef0fc0a2b08",
+      "topic": "Everything announced at the PC Gaming Show Tokyo Direct 2026",
+      "detected_at": "2026-09-20T21:03:42.771975+00:00",
+      "analysed_at": "2026-09-26T08:00:09.150529+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 9,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 70,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/events-conferences/everything-announced-at-the-pc-gaming-show-tokyo-direct-2026/",
+          "title": "Everything announced at the PC Gaming Show Tokyo Direct 2026",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/VjrxcYciRAY\" allowfullscreen></iframe></div></div><p>The PC Gaming Show Tokyo Direct returned, and it revealed new details for 36 games and their DLC, including 13, count 'em, 13, world premieres. There was gameplay, there were developer interviews, scenes from the Tokyo Game Show show floor, you've got demoes to download, and videogames to add to your wishlist.</p><p>You can check out <a href=\"https://store.steampowered.com/curator/1850/sale/PCGamingShowTokyoDirect\" target=\"_blank\">our Steam list</a> which includes every game featured in the show, and you can read on for a rundown of all the reveals in the order they aired. There's also an embed to the full broadcast above if you missed it live. Enjoy!</p><h2 id=\"really-illegal-golf\">Really Illegal Golf</h2><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/e0k9cmPy7gg\" allowfullscreen></iframe></div></div><div class=\"product star-deal\"><div><span class=\"pr"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Everything announced at the PC Gaming Show Tokyo Direct 2026",
+        "secondary_keywords": [
+          "Everything announced at the PC Gaming Show Tokyo Direct 2026 date de sortie",
+          "Everything announced at the PC Gaming Show Tokyo Direct 2026 plateformes",
+          "Everything announced at the PC Gaming Show Tokyo Direct 2026 gameplay",
+          "Everything announced at the PC Gaming Show Tokyo Direct 2026 guide",
+          "Everything announced at the PC Gaming Show Tokyo Direct 2026 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Everything announced at the PC Gaming Show Tokyo Direct 2026"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-take-to-the-skies-and-shoot-your-mates-in-the-face-with-11ec9483525d",
+      "topic": "Take to the skies and shoot your mates in the face with a shotgun in Fish & Ships",
+      "detected_at": "2026-09-20T21:03:42.772158+00:00",
+      "analysed_at": "2026-09-26T08:00:09.150564+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/take-to-the-skies-and-shoot-your-mates-in-the-face-with-a-shotgun-in-fish-and-ships/",
+          "title": "Take to the skies and shoot your mates in the face with a shotgun in Fish & Ships",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Yvm2fDQCm2w\" allowfullscreen></iframe></div></div><p>Perhaps the most famous British meal is fish and chips. It's hard to beat a perfectly battered, crispy piece of fish, served with salty, pillowy soft chips absolutely drowned in vinegar. I'm getting hungry just thinking about it. But we're here to talk about Fish & Ships, a new co-op game about a group of fish piloting an airship in search of the ocean.</p><p>If you enjoy co-op games like Peak, then Fish & Ships looks like it'll be right up your alley. Take to the skies with your mates and engage in some shenanigans.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/PcvxjpSjH9kKFuWzs4FJg5.jpg\" alt=\"Ocean creatures and a flying ship drift around a dock. The Fish and Ships logo is shown.\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Fish & Ships o"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Take to the skies and shoot your mates in the face with a shotgun in Fish & Ships",
+        "secondary_keywords": [
+          "Take to the skies and shoot your mates in the face with a shotgun in Fish & Ships date de sortie",
+          "Take to the skies and shoot your mates in the face with a shotgun in Fish & Ships plateformes",
+          "Take to the skies and shoot your mates in the face with a shotgun in Fish & Ships gameplay",
+          "Take to the skies and shoot your mates in the face with a shotgun in Fish & Ships guide",
+          "Take to the skies and shoot your mates in the face with a shotgun in Fish & Ships avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Take to the skies and shoot your mates in the face with a shotgun in Fish & Ships"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-feel-like-a-kid-again-when-toy-car-game-obstacle-overdr-6dd76e364776",
+      "topic": "Feel like a kid again when toy car game Obstacle Overdrive launches October 2",
+      "detected_at": "2026-09-20T21:03:42.772362+00:00",
+      "analysed_at": "2026-09-26T08:00:09.150599+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/racing/feel-like-a-kid-again-when-toy-car-game-obstacle-overdrive-launches-october-2/",
+          "title": "Feel like a kid again when toy car game Obstacle Overdrive launches October 2",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Pq47NRE4UoI\" allowfullscreen></iframe></div></div><p>If you were fortunate enough to have toy cars when you were a kid—or rad enough to buy them for yourself as an adult—you probably had fun driving them over absolutely everything in your room. Mine could climb walls, scramble over book mountains, and drift around VHS-case race tracks. We'll soon be able to relive those memories without tipping pencils all over the table when Obstacle Overdrive launches October 2, 2026.</p><p>Developed and published by Arcane Ermine, Obstacle Overdrive lets you go off-road—because it's all in a '90s bedroom—and make miniature radio-controlled cars navigate wacky obstacle courses. In the trailer, we see trucks going over toy keyboards, shimmying around block boards, and trundling over mountains of soft plushy toys.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Feel like a kid again when toy car game Obstacle Overdrive launches October 2",
+        "secondary_keywords": [
+          "Feel like a kid again when toy car game Obstacle Overdrive launches October 2 date de sortie",
+          "Feel like a kid again when toy car game Obstacle Overdrive launches October 2 plateformes",
+          "Feel like a kid again when toy car game Obstacle Overdrive launches October 2 gameplay",
+          "Feel like a kid again when toy car game Obstacle Overdrive launches October 2 guide",
+          "Feel like a kid again when toy car game Obstacle Overdrive launches October 2 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Feel like a kid again when toy car game Obstacle Overdrive launches October 2"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-i-lost-hours-to-this-roguelike-card-based-city-builder--43076237af46",
+      "topic": "I lost hours to this roguelike card-based city builder even though I had no idea how all of those words could fit together",
+      "detected_at": "2026-09-20T21:03:42.772564+00:00",
+      "analysed_at": "2026-09-26T08:00:09.150641+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/roguelike/i-lost-hours-to-this-roguelike-card-based-city-builder-even-though-i-had-no-idea-how-all-of-those-words-could-fit-together/",
+          "title": "I lost hours to this roguelike card-based city builder even though I had no idea how all of those words could fit together",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/i22JdhbPTZU\" allowfullscreen></iframe></div></div><p>When I first heard about this card-based roguelike city builder, I was confused. Then I played a round. And another. And another. And another. And before I knew it far too much time had passed and I was absolutely hooked. That game is Toxic Frontier, and we just revealed it at the PC Gaming Show Tokyo Direct.</p><p>Toxic Frontier plays on a hexagonal grid that makes it feel a bit like Settlers of Catan, only I'm not screaming at my housemates because they won't accept my very reasonable trade offers. You draw cards such as villages, forests, sheep, mountains, lakes, and more, and try to find the synergies while expanding into the titular toxic wasteland.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/AKsX6oi4fyiwuB2WrW77V9.jpg\" alt=\"A figure in a gas mask looms over "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I lost hours to this roguelike card-based city builder even though I had no idea how all of those words could fit together",
+        "secondary_keywords": [
+          "I lost hours to this roguelike card-based city builder even though I had no idea how all of those words could fit together date de sortie",
+          "I lost hours to this roguelike card-based city builder even though I had no idea how all of those words could fit together plateformes",
+          "I lost hours to this roguelike card-based city builder even though I had no idea how all of those words could fit together gameplay",
+          "I lost hours to this roguelike card-based city builder even though I had no idea how all of those words could fit together guide",
+          "I lost hours to this roguelike card-based city builder even though I had no idea how all of those words could fit together avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "I lost hours to this roguelike card-based city builder even though I had no idea how all of those words could fit together"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-solarpunk-mmo-loftia-is-launching-into-early-access-nov-16029da83c0f",
+      "topic": "Solarpunk MMO Loftia is launching into early access November 3",
+      "detected_at": "2026-09-20T21:03:42.772799+00:00",
+      "analysed_at": "2026-09-26T08:00:09.150675+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 9,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 70,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mmo/solarpunk-mmo-loftia-is-launching-into-early-access-november-3/",
+          "title": "Solarpunk MMO Loftia is launching into early access November 3",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/8aWeb-Q4o14\" allowfullscreen></iframe></div></div><p>How come the future in videogames is, more often than not, dark and gloomy? Where's the hope? Where's the optimism? It's all in Loftia, an MMO life sim with a delightfully cheery, eco-friendly aesthetic. And, as was just revealed at the PC Gaming Show Tokyo Direct, you'll be able to get your hands on it November 3.</p><p>For those of you not in the know, Loftia is an eco-optimism life sim MMO that's been in development for the last four years. You and other players inhabiting the world will each get your own floating island to call home, and you've got a bunch of sustainable ways to decorate and power your slice of sanctuary.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/zCeoX9oxkUhUoiFdHDXpyE.jpg\" alt=\"Happy people frolic around a peaceful, natural environment. The"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Solarpunk MMO Loftia is launching into early access November 3",
+        "secondary_keywords": [
+          "Solarpunk MMO Loftia is launching into early access November 3 date de sortie",
+          "Solarpunk MMO Loftia is launching into early access November 3 plateformes",
+          "Solarpunk MMO Loftia is launching into early access November 3 gameplay",
+          "Solarpunk MMO Loftia is launching into early access November 3 guide",
+          "Solarpunk MMO Loftia is launching into early access November 3 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Solarpunk MMO Loftia is launching into early access November 3"
       },
       "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
     }

@@ -23,8 +23,6 @@ permissions:
   contents: write
 
 concurrency:
-  # Serialize repository/state writers. This prevents bots from rebasing over
-  # each other's generated state while preserving every queued run.
   group: gamerquest-repo-write-global
   cancel-in-progress: false
 
@@ -61,6 +59,7 @@ jobs:
           python tests/social/test_meta_healthcheck.py
 
       - name: Meta publishing preflight
+        id: meta_preflight
         if: ${{ github.event_name == 'schedule' || inputs.publish_to_meta == true }}
         env:
           PYTHONPATH: .
@@ -124,6 +123,7 @@ jobs:
           echo "The carousel renderer and image quality settings were not changed."
 
       - name: Generate fact-checked social carousel
+        id: social_generate
         if: ${{ github.event_name != 'push' && steps.groq_budget.outputs.allowed == 'true' }}
         env:
           PYTHONPATH: .
@@ -143,23 +143,35 @@ jobs:
           path = Path("social-output.json")
           ready = False
           status = "missing"
+          reason = "social-output.json was not created"
           if path.exists():
               try:
                   payload = json.loads(path.read_text(encoding="utf-8"))
                   status = str(payload.get("status", "")).strip() or "unknown"
                   ready = status == "ready"
-              except Exception:
+                  reason = str(
+                      payload.get("reason")
+                      or payload.get("message")
+                      or payload.get("error")
+                      or f"generator status={status}"
+                  ).replace("\n", " ").strip()
+              except Exception as exc:
                   status = "invalid"
+                  reason = f"invalid social-output.json: {exc}"
           print(f"Social generation status: {status}")
+          print(f"Social generation reason: {reason}")
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
               f.write(f"ready={'true' if ready else 'false'}\n")
               f.write(f"status={status}\n")
+              f.write(f"reason={reason}\n")
           PY
 
       - name: No approved social post this run
         if: ${{ github.event_name != 'push' && steps.social_status.outputs.ready != 'true' }}
         run: |
           echo "No fact-checked carousel was approved."
+          echo "Status: ${{ steps.social_status.outputs.status }}"
+          echo "Reason: ${{ steps.social_status.outputs.reason }}"
           echo "Publishing is skipped safely."
 
       - name: Render carousel with free GamerQuest renderer
@@ -230,6 +242,7 @@ jobs:
           fi
 
       - name: Publish carousel to Instagram and Facebook
+        id: meta_publish
         if: ${{ steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         env:
           PYTHONPATH: .
@@ -254,6 +267,53 @@ jobs:
               git rebase origin/main
               git push origin HEAD:main
             fi
+          fi
+
+      - name: P0 social final status
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            RESULT="TEST_ONLY"
+            REASON="Push event runs regression tests only; no generation or Meta publishing requested."
+          elif [ "${{ steps.groq_budget.outputs.allowed }}" != "true" ]; then
+            RESULT="SKIPPED"
+            REASON="Groq budget unavailable: ${{ steps.groq_budget.outputs.reason }}"
+          elif [ "${{ steps.social_generate.outcome }}" = "failure" ]; then
+            RESULT="FAILED"
+            REASON="Social generation command failed."
+          elif [ "${{ steps.social_status.outputs.ready }}" != "true" ]; then
+            RESULT="SKIPPED"
+            REASON="Generation status=${{ steps.social_status.outputs.status }}; ${{ steps.social_status.outputs.reason }}"
+          elif [ "${{ github.event_name }}" != "schedule" ] && [ "${{ inputs.publish_to_meta }}" != "true" ]; then
+            RESULT="GENERATED_ONLY"
+            REASON="Carousel passed generation checks; Meta publishing was not requested."
+          elif [ "${{ steps.meta_preflight.outcome }}" = "failure" ]; then
+            RESULT="FAILED"
+            REASON="Meta preflight failed before publishing."
+          elif [ "${{ steps.meta_publish.outcome }}" = "success" ]; then
+            RESULT="PUBLISHED"
+            REASON="Carousel publish command completed successfully for Instagram/Facebook."
+          else
+            RESULT="FAILED"
+            REASON="Meta publish step outcome=${{ steps.meta_publish.outcome }}."
+          fi
+
+          echo "SOCIAL RESULT: ${RESULT}"
+          echo "SOCIAL REASON: ${REASON}"
+          {
+            echo "## GamerQuest Social result"
+            echo "**${RESULT}**"
+            echo ""
+            echo "${REASON}"
+            echo ""
+            echo "Generation status: ${{ steps.social_status.outputs.status }}"
+            echo "Meta preflight: ${{ steps.meta_preflight.outcome }}"
+            echo "Meta publish: ${{ steps.meta_publish.outcome }}"
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+          if [ "${RESULT}" = "FAILED" ]; then
+            exit 1
           fi
 
       - name: Upload social output

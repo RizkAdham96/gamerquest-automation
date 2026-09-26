@@ -165,13 +165,11 @@ class WordPressPublisher:
         category_id = self.tests_category_id()
         slug = review_slug(record)
         existing = self.existing_post(slug)
-        # Existing review posts are already valid published content. The current
-        # WordPress stack rejects REST updates to them with "empty_content"
-        # even when content/excerpt are present, so do not turn a refresh into
-        # a failed workflow. New reviews are still published normally.
         if existing:
             print(f"SKIP: review already exists: {record['name']} -> {existing.get('link', '')}")
-            return existing
+            result = dict(existing)
+            result["_gq_action"] = "existing"
+            return result
 
         media_id = self.upload_image(record.get("image_url"), f"steam-{record['appid']}.jpg")
         payload = build_post_payload(record, category_id, media_id)
@@ -183,4 +181,6 @@ class WordPressPublisher:
         )
         post = response.json()
         print(f"PUBLISHED: {record['name']} -> {post.get('link', '')}")
-        return post
+        result = dict(post)
+        result["_gq_action"] = "published"
+        return result

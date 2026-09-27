@@ -7,6 +7,7 @@ from unittest.mock import patch
 from PIL import Image
 
 from social import config
+from social.master_carousel import MASTER_REFERENCE_POST
 from social.wordpress_publish import (
     cleanup_publish_package,
     recover_publish_package,
@@ -56,6 +57,12 @@ class WordPressPublishPackageTests(unittest.TestCase):
                 ],
             },
         }
+
+    def test_master_reference_is_locked(self):
+        self.assertEqual(
+            MASTER_REFERENCE_POST,
+            "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+        )
 
     def test_stage_recover_cleanup_round_trip(self):
         with tempfile.TemporaryDirectory() as tmp:

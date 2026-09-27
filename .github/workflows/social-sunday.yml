@@ -1,0 +1,27 @@
+name: GamerQuest Social Sunday Scheduler
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "30 18 * * 0"
+      timezone: "Europe/Paris"
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  dispatch-social:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch production social carousel workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          echo "Dispatching the third weekly GamerQuest carousel run."
+          gh workflow run social-test.yml \
+            --repo "${GITHUB_REPOSITORY}" \
+            --ref main \
+            -f publish_to_meta=true

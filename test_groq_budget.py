@@ -285,3 +285,59 @@ def test_release_run_is_idempotent_when_reservation_is_missing(tmp_path):
 
     assert result["released"] is False
     assert result["reason"] == "not_found"
+
+
+def test_reconcile_run_returns_unused_tokens_to_shared_budget(tmp_path):
+    state = tmp_path / "groq.json"
+    groq_budget.reserve_run(
+        "seo",
+        10000,
+        "seo-run",
+        path=state,
+        day="2026-09-22",
+        global_cap=70000,
+        lane_cap=10000,
+    )
+
+    result = groq_budget.reconcile_run(
+        "seo-run",
+        used_tokens=3800,
+        path=state,
+        day="2026-09-22",
+    )
+
+    assert result["reconciled"] is True
+    assert result["used_tokens"] == 3800
+    assert result["released_tokens"] == 6200
+
+    saved = json.loads(state.read_text(encoding="utf-8"))
+    assert saved["global_reserved"] == 3800
+    assert saved["lanes"]["seo"] == 3800
+    assert saved["reservations"][0]["tokens"] == 3800
+
+
+def test_consume_run_budget_persists_estimated_usage_for_reconciliation(tmp_path):
+    usage_file = tmp_path / "groq-usage.json"
+    groq_budget.reset_local_counters()
+
+    with patch.dict(
+        "os.environ",
+        {
+            "GROQ_RUN_TOKEN_BUDGET": "10000",
+            "GROQ_TPM_CEILING": "6000",
+            "GROQ_USAGE_FILE": str(usage_file),
+        },
+        clear=False,
+    ):
+        estimate = groq_budget.consume_run_budget(
+            "x" * 3000,
+            500,
+            lane="news",
+            operation="usage-test",
+            sleep_fn=lambda _seconds: None,
+            monotonic_fn=lambda: 0.0,
+        )
+
+    payload = json.loads(usage_file.read_text(encoding="utf-8"))
+    assert payload["estimated_tokens"] == estimate
+    assert payload["calls"] == 1

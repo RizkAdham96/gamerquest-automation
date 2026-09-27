@@ -139,6 +139,7 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_RUN_TOKEN_BUDGET: ${{ steps.groq_budget.outputs.tokens }}
           GROQ_TPM_CEILING: "6000"
+          GROQ_USAGE_FILE: ${{ runner.temp }}/groq-usage-seo.json
           WP_URL: ${{ secrets.WP_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
@@ -167,3 +168,69 @@ jobs:
             git push origin HEAD:main
             git stash pop || true
           fi
+
+      - name: Reconcile shared Groq budget (SEO)
+        if: ${{ always() && steps.groq_budget.outputs.allowed == 'true' }}
+        env:
+          GROQ_USAGE_FILE: ${{ runner.temp }}/groq-usage-seo.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          reservation_id="${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-seo"
+          used_tokens="$(python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          path = Path(os.environ["GROQ_USAGE_FILE"])
+          used = 0
+          if path.exists():
+              try:
+                  payload = json.loads(path.read_text(encoding="utf-8"))
+                  used = max(0, int(payload.get("estimated_tokens", 0) or 0))
+              except Exception as exc:
+                  print(f"Usage file unreadable; keeping reservation conservative: {exc}", file=__import__('sys').stderr)
+                  raise SystemExit(2)
+          print(used)
+          PY
+          )"
+
+          git config user.name "GamerQuest Budget Bot"
+          git config user.email "actions@github.com"
+
+          for attempt in 1 2 3; do
+            echo "SEO budget reconciliation attempt ${attempt}/3; used=${used_tokens}"
+            git fetch origin main
+            git reset --hard origin/main
+
+            RESERVATION_ID="${reservation_id}" USED_TOKENS="${used_tokens}" python - <<'PY'
+          import os
+          from groq_budget import reconcile_run
+
+          result = reconcile_run(
+              os.environ["RESERVATION_ID"],
+              int(os.environ["USED_TOKENS"]),
+          )
+          print(
+              "Groq reconciliation: "
+              f"reconciled={result['reconciled']} "
+              f"used={result['used_tokens']} "
+              f"released={result['released_tokens']} "
+              f"reason={result['reason']}"
+          )
+          PY
+
+            git add state/groq_budget.json
+            if git diff --cached --quiet; then
+              echo "No Groq budget state change to persist."
+              exit 0
+            fi
+            git commit -m "budget: reconcile SEO Groq allowance"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Shared budget state changed before reconciliation push; retrying safely."
+          done
+
+          echo "Unable to persist SEO Groq reconciliation after 3 attempts." >&2
+          exit 1

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-09-26T08:00:09.150709+00:00",
+  "updated_at": "2026-09-27T08:33:46.016577+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -3599,6 +3599,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
         "suggested_title": "Solarpunk MMO Loftia is launching into early access November 3"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-unlock-your-inner-superman-with-a-new-demo-from-undefea-cab77115161f",
+      "topic": "Unlock your inner Superman with a new demo from Undefeated: Genesis",
+      "detected_at": "2026-09-20T21:03:42.772986+00:00",
+      "analysed_at": "2026-09-27T08:33:46.016395+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/unlock-your-inner-superman-with-a-new-demo-from-undefeated-genesis/",
+          "title": "Unlock your inner Superman with a new demo from Undefeated: Genesis",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/bLsSkfGQwwk\" allowfullscreen></iframe></div></div><p>How cool would it be to wake up on an alien world with super powers? That's basically what happened to Superman himself. Now it's Albert Haltree's turn to fly around and save the day in Undefeated: Genesis, an action RPG with a new demo out now.</p><p>Al woke up one day on the alien world of Voltissia, and, for some unknown reason, he awoke with super powers. In the new trailer debuted at the PC Gaming Show Tokyo Direct, we see Al's powers in full force. He can fly, shoot beams from his eyes, fire magical orbs from his hands, and summon a barrier that reminds me of the AT fields in Neon Genesis Evangelion. All that while in the air, too.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/BkKcKci6oxSfXiRJ7q6Eya.jpg\" alt=\"Anime superheroes show off their powers. The Undefe"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Unlock your inner Superman with a new demo from Undefeated: Genesis",
+        "secondary_keywords": [
+          "Unlock your inner Superman with a new demo from Undefeated: Genesis date de sortie",
+          "Unlock your inner Superman with a new demo from Undefeated: Genesis plateformes",
+          "Unlock your inner Superman with a new demo from Undefeated: Genesis gameplay",
+          "Unlock your inner Superman with a new demo from Undefeated: Genesis guide",
+          "Unlock your inner Superman with a new demo from Undefeated: Genesis avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Unlock your inner Superman with a new demo from Undefeated: Genesis"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-marked-for-mayhem-is-a-4-player-dungeon-crawler-that-wa-9311713def62",
+      "topic": "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck",
+      "detected_at": "2026-09-20T21:03:42.773222+00:00",
+      "analysed_at": "2026-09-27T08:33:46.016452+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/marked-for-mayhem-is-a-4-player-dungeon-crawler-that-wants-you-to-try-to-win-as-a-team-while-also-beating-all-your-teammates-as-a-player-good-luck/",
+          "title": "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/uQpwAnazizE\" allowfullscreen></iframe></div></div><p>Heads up, hotshot: you are being dispatched to a hostile alien planet. You will have to overcome life-or-death challenges that test your wits, physicality, and raw luck. You may die. You will almost certainly be hurt. Also, the whole thing is being televised. How many friends would you like to take with you?</p><p>If you answered three, you're in luck—Marked For Mayhem is a four-player dungeon crawler which just got a world premiere at the PC Gaming Show Tokyo Direct, and I pretty much just gave you its elevator pitch in the opening paragraph. The aim of the game is to venture to planets that would really quite like to kill you and complete bounties, beat foes, take on bosses, and even partake in a few minigames.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/SSvmN24"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck",
+        "secondary_keywords": [
+          "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck date de sortie",
+          "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck plateformes",
+          "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck gameplay",
+          "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck guide",
+          "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-robots-versus-fungi-fps-mycopunk-is-leaving-early-acces-a41262350f1b",
+      "topic": "Robots versus fungi FPS Mycopunk is leaving early access next month",
+      "detected_at": "2026-09-20T21:03:42.773446+00:00",
+      "analysed_at": "2026-09-27T08:33:46.016474+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/robots-versus-fungi-fps-mycopunk-is-leaving-early-access-next-month/",
+          "title": "Robots versus fungi FPS Mycopunk is leaving early access next month",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/nArDNXOz3rM\" allowfullscreen></iframe></div></div><p>Good news co-op fans, Mycopunk just revealed its 1.0 launch date at the PC Gaming Show Tokyo Direct. It's coming October 20, so you only have to wait exactly one month for it. If you're unfamiliar with Pigeons at Play's FPS, let me get you caught up.</p><p>You and your friends play as a squad of robots who get sent to alien planets to kill the fungal monstrosities that are infesting everything. Neat. Each world you arrive on has a mission for you to complete. These can range from simple objectives like clearing an area of enemies, or more complex ones like building railguns to shoot down space ships. You get multiple lives per mission, so you can go solo if your friends are busy, or at least not get annoyed when they croak.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Robots versus fungi FPS Mycopunk is leaving early access next month",
+        "secondary_keywords": [
+          "Robots versus fungi FPS Mycopunk is leaving early access next month date de sortie",
+          "Robots versus fungi FPS Mycopunk is leaving early access next month plateformes",
+          "Robots versus fungi FPS Mycopunk is leaving early access next month gameplay",
+          "Robots versus fungi FPS Mycopunk is leaving early access next month guide",
+          "Robots versus fungi FPS Mycopunk is leaving early access next month avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Robots versus fungi FPS Mycopunk is leaving early access next month"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-virtue-and-a-sledgehammer-announces-october-27-release--3366bf1e74a0",
+      "topic": "Virtue and a Sledgehammer announces October 27 release date with another banger of a trailer",
+      "detected_at": "2026-09-20T21:03:42.773649+00:00",
+      "analysed_at": "2026-09-27T08:33:46.016492+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/virtue-and-a-sledgehammer-announces-october-27-release-date-with-another-banger-of-a-trailer/",
+          "title": "Virtue and a Sledgehammer announces October 27 release date with another banger of a trailer",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/UqnwUdfvwv8\" allowfullscreen></iframe></div></div><p>\"A machine will never hate itself enough to become better.\" That's the unbelievably metal quote we just saw in the latest Virtue and a Sledgehammer trailer, revealed on the PC Gaming Show Tokyo Direct alongside the game's launch date: October 27.</p><p>We showed off some of the hammer-wielding action <a href=\"https://www.pcgamer.com/games/action/virtue-and-a-sledgehammer-has-a-new-demo-and-a-thought-provoking-trailer-that-proves-the-game-is-about-more-than-just-smashing-things-but-you-will-still-smash-loads-of-things/\">in our June show</a>, so we already knew this was going to be a bizarre descent into the human psyche, as well as a game about smashing robots to bits. I love destructible environments, and I'm getting serious Red Faction: Guerrilla vibes from the carnage on offer here. What's more, these new words tell us a lot about developer Selkie Harbour's and Deconstructeam's views on self-improvement: it is fuelled by hatred, not love.</p><div class=\"card ca"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Virtue and a Sledgehammer announces October 27 release date with another banger of a trailer",
+        "secondary_keywords": [
+          "Virtue and a Sledgehammer announces October 27 release date with another banger of a trailer date de sortie",
+          "Virtue and a Sledgehammer announces October 27 release date with another banger of a trailer plateformes",
+          "Virtue and a Sledgehammer announces October 27 release date with another banger of a trailer gameplay",
+          "Virtue and a Sledgehammer announces October 27 release date with another banger of a trailer guide",
+          "Virtue and a Sledgehammer announces October 27 release date with another banger of a trailer avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Virtue and a Sledgehammer announces October 27 release date with another banger of a trailer"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-the-new-game-from-lorn-s-lure-s-developer-is-also-set-i-5ba0c7370037",
+      "topic": "The new game from Lorn's Lure's developer is also set in the creepy world, and this one's a horror flight sim",
+      "detected_at": "2026-09-20T21:03:42.773844+00:00",
+      "analysed_at": "2026-09-27T08:33:46.016510+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/the-new-game-from-lorns-lures-developer-is-also-set-in-the-creepy-world-and-this-ones-a-horror-flight-sim/",
+          "title": "The new game from Lorn's Lure's developer is also set in the creepy world, and this one's a horror flight sim",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/8e-Pdqf14jM\" allowfullscreen></iframe></div></div><p>\"Oh man, can't wait to fly this plane through the fog around these spooky towers. I sure hope I don't lose my mind like the guy who did this job before me.\" That's what I imagine the protagonist of The Hollowing thought right before he climbed into the cockpit and promptly started to lose it.</p><p>We just saw the world premiere trailer for The Hollowing at the PC Gaming Show Tokyo Direct. It's a first-person horror flight sim made by Rubeki, developer of Lorn's Lure, and this is even set in the same world.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/tdjJKEgBWHTFKfDX3A8vsk.jpg\" alt=\"A pilot stands by their plane in the dark, illuminated by an eerie red glow. The Hollowing logo is shown.\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist The Hol"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The new game from Lorn's Lure's developer is also set in the creepy world, and this one's a horror flight sim",
+        "secondary_keywords": [
+          "The new game from Lorn's Lure's developer is also set in the creepy world, and this one's a horror flight sim date de sortie",
+          "The new game from Lorn's Lure's developer is also set in the creepy world, and this one's a horror flight sim plateformes",
+          "The new game from Lorn's Lure's developer is also set in the creepy world, and this one's a horror flight sim gameplay",
+          "The new game from Lorn's Lure's developer is also set in the creepy world, and this one's a horror flight sim guide",
+          "The new game from Lorn's Lure's developer is also set in the creepy world, and this one's a horror flight sim avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "The new game from Lorn's Lure's developer is also set in the creepy world, and this one's a horror flight sim"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-steam-week-in-review-this-indie-publisher-released-29-t-f87061b91439",
+      "topic": "Steam Week in Review: This indie publisher released 29 terrible-looking Steam games in a single day—will they make any money?",
+      "detected_at": "2026-09-21T05:29:43.430395+00:00",
+      "analysed_at": "2026-09-27T08:33:46.016539+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-this-indie-publisher-released-29-terrible-looking-steam-games-in-a-single-day-will-they-make-any-money/",
+          "title": "Steam Week in Review: This indie publisher released 29 terrible-looking Steam games in a single day—will they make any money?",
+          "evidence": "<article> <p>It's been a busy week for prodigious game publisher Hard Shark Games: on September 15 it released an astonishing 29 games on Steam across a huge variety of genres. </p><p>Not only did Hard Shark Games publish that many games, but the company is also marked as developer for every one of them. All of which, mind you, are early access affairs. \"We're launching in Early Access to involve the community from the very start,\" reads the first sentence of every single one of the early access blurbs for Hard Shark Games released in September 2026, which include genres as diverse as racing, retail sim, survival horror, sport, flight sim and 2D platformer.</p><p>The same is true for some of the 29 games Hard Shark Games released on March 4 last year: \"We're launching in Early Access to involve the community from the very start,\" reads the first line in the blurb for <a href=\"https://store.steampowered.com/app/3258500/Speedboat_Simulator/\">Speedboat Simulator</a>. “We're launching in Early Access to involve the community from the very start,\" reads the first line in the blurb for <a href=\"https://store.steampowered.com/app/3261890/Toy_Battlegrounds_Shoot_Em_Up_Survival/?snr=1_1056_"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Steam Week in Review: This indie publisher released 29 terrible-looking Steam games in a single day—will they make any money?",
+        "secondary_keywords": [
+          "Steam Week in Review: This indie publisher released 29 terrible-looking Steam games in a single day—will they make any money? date de sortie",
+          "Steam Week in Review: This indie publisher released 29 terrible-looking Steam games in a single day—will they make any money? plateformes",
+          "Steam Week in Review: This indie publisher released 29 terrible-looking Steam games in a single day—will they make any money? gameplay",
+          "Steam Week in Review: This indie publisher released 29 terrible-looking Steam games in a single day—will they make any money? guide",
+          "Steam Week in Review: This indie publisher released 29 terrible-looking Steam games in a single day—will they make any money? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Steam Week in Review: This indie publisher released 29 terrible-looking Steam games in a single day—will they make any money?"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-defend-your-farm-from-a-gaze-of-raccoons-in-this-charmi-897beb24d989",
+      "topic": "Defend your farm from a gaze of raccoons in this charming tower defense roguelite, out tomorrow",
+      "detected_at": "2026-09-21T05:29:43.430813+00:00",
+      "analysed_at": "2026-09-27T08:33:46.016556+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 6,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 63,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/roguelike/defend-your-farm-from-a-gaze-of-raccoons-in-this-charming-tower-defense-roguelite-out-tomorrow/",
+          "title": "Defend your farm from a gaze of raccoons in this charming tower defense roguelite, out tomorrow",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/uWqAX25XWH4\" allowfullscreen></iframe></div></div><p>Never say I'm biased or I don't have an open mind, because here I am, telling you about a videogame where raccoons—my favourite animal on this Earth—are the enemy. Heartbreaking, I know. In The Rabbit Haul, the crafty little scamps are pestering a bunny named Sprout, so they decide to turn their garden into a warzone that can keep the mischievous Trash Panda Posse at bay.</p><p>Why does Sprout need to keep the raccoons away? Well, they kind of destroyed the town. I'm sure they didn't mean to and were just looking for snacks. Still, one has to defend one's home, so Sprout gets to planting deadly organic weaponry during the day and fighting off the hordes of ringtails at night. Sprout gets in on the action themselves, so you won't just be passively watching your plants do all the hard work.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"wi"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Defend your farm from a gaze of raccoons in this charming tower defense roguelite, out tomorrow",
+        "secondary_keywords": [
+          "Defend your farm from a gaze of raccoons in this charming tower defense roguelite, out tomorrow date de sortie",
+          "Defend your farm from a gaze of raccoons in this charming tower defense roguelite, out tomorrow plateformes",
+          "Defend your farm from a gaze of raccoons in this charming tower defense roguelite, out tomorrow gameplay",
+          "Defend your farm from a gaze of raccoons in this charming tower defense roguelite, out tomorrow guide",
+          "Defend your farm from a gaze of raccoons in this charming tower defense roguelite, out tomorrow avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "Defend your farm from a gaze of raccoons in this charming tower defense roguelite, out tomorrow"
+      },
+      "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
+    },
+    {
+      "id": "rss-we-just-saw-a-big-chunk-of-thief-remastered-gameplay-an-1af21608f0d2",
+      "topic": "We just saw a big chunk of Thief Remastered gameplay, and I'm more desperate than ever to play",
+      "detected_at": "2026-09-21T05:29:43.431047+00:00",
+      "analysed_at": "2026-09-27T08:33:46.016573+00:00",
+      "scores": {
+        "durability": 10,
+        "search_intent": 12,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/we-just-saw-a-big-chunk-of-thief-remastered-gameplay-and-im-more-desperate-than-ever-to-play/",
+          "title": "We just saw a big chunk of Thief Remastered gameplay, and I'm more desperate than ever to play",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/uUNypn7Moqo\" allowfullscreen></iframe></div></div><p>There aren't many things I'm looking forward to more than Nightdive's remaster of the original Thief. Is this because I'm old? Yes, but it's also because Thief is an all-timer videogame and I can't wait to see Nightdive work its magic on it.</p><p>At the PC Gaming Show Tokyo Direct, we got a hefty helping of gameplay in a new trailer for the remaster, showing Garrett stuffing his pockets in all manner of poorly-lit, erm, manors, plus sewers, crypts, tombs, dungeons—you know, Thief places.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/fSWLxjypqpeEJGr48DE9cc.jpg\" alt=\"Garret from Thief.\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Wishlist Thief: The Dark Project Remastered on Steam</h3><div class=\"card__description-wrapper\"><div class=\"card__descript"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "We just saw a big chunk of Thief Remastered gameplay, and I'm more desperate than ever to play",
+        "secondary_keywords": [
+          "We just saw a big chunk of Thief Remastered gameplay, and I'm more desperate than ever to play date de sortie",
+          "We just saw a big chunk of Thief Remastered gameplay, and I'm more desperate than ever to play plateformes",
+          "We just saw a big chunk of Thief Remastered gameplay, and I'm more desperate than ever to play gameplay",
+          "We just saw a big chunk of Thief Remastered gameplay, and I'm more desperate than ever to play guide",
+          "We just saw a big chunk of Thief Remastered gameplay, and I'm more desperate than ever to play avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche plus précis",
+        "suggested_title": "We just saw a big chunk of Thief Remastered gameplay, and I'm more desperate than ever to play"
       },
       "reasoning": "Deterministic production score; AI quota is reserved for research-backed article writing."
     }

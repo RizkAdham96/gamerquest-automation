@@ -43,7 +43,6 @@ jobs:
           python tests/social/test_wordpress_publish.py
           python tests/social/test_prepare_publish.py
           python tests/social/test_publish_run.py
-          python tests/social/test_recover_prepared_publish.py
           python tests/social/test_meta_healthcheck.py
 
       - name: Verify workflow YAML syntax

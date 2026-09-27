@@ -4,6 +4,9 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
+from PIL import Image
+
+from social import config
 from social.wordpress_publish import (
     cleanup_publish_package,
     recover_publish_package,
@@ -12,18 +15,57 @@ from social.wordpress_publish import (
 
 
 class WordPressPublishPackageTests(unittest.TestCase):
+    def _write_rendered(self, root, size=(1080, 1920), duplicate=False):
+        rendered = root / "rendered"
+        rendered.mkdir()
+        colors = [
+            (26, 80, 170),
+            (100, 35, 180),
+            (20, 145, 100),
+        ]
+        if duplicate:
+            colors = [colors[0], colors[0], colors[0]]
+        for index, color in enumerate(colors, start=1):
+            Image.new("RGB", size, color).save(
+                rendered / f"slide-{index:02d}.png",
+                format="PNG",
+            )
+        return rendered
+
+    def _ready_output(self):
+        return {
+            "status": "ready",
+            "source_id": "source-123",
+            "fact_checked": True,
+            "caption": "ok",
+            "carousel": {
+                "brand": "GamerQuest",
+                "slides": [
+                    {
+                        "title": "Une actualité gaming importante",
+                        "body": "Une explication courte et claire pour les joueurs.",
+                    },
+                    {
+                        "title": "Ce qu'il faut retenir",
+                        "body": "Le contexte essentiel tient dans quelques lignes lisibles.",
+                    },
+                    {
+                        "title": "Pourquoi ça compte",
+                        "body": "Une conclusion concise qui donne envie de lire la suite.",
+                    },
+                ],
+            },
+        }
+
     def test_stage_recover_cleanup_round_trip(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            rendered = root / "rendered"
-            rendered.mkdir()
-            for index in range(1, 4):
-                (rendered / f"slide-{index}.png").write_bytes((f"slide-{index}-" * 30).encode())
+            rendered = self._write_rendered(root)
 
             ready = root / "ready.json"
             pending = root / "pending.json"
             output = root / "output.json"
-            social_output = {"status": "ready", "source_id": "source-123", "caption": "ok"}
+            social_output = self._ready_output()
             staged = {
                 "image_urls": [f"https://example.test/{i}.png" for i in range(1, 4)],
                 "media_ids": [101, 102, 103],
@@ -69,6 +111,76 @@ class WordPressPublishPackageTests(unittest.TestCase):
                 username="user",
                 app_password="pass",
             )
+
+    def test_stage_rejects_copy_that_overflows_master_layout(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            rendered = self._write_rendered(root)
+            social_output = self._ready_output()
+            social_output["carousel"]["slides"][0]["title"] = "Titre beaucoup trop long " * 40
+            staged = {
+                "image_urls": [f"https://example.test/{i}.png" for i in range(1, 4)],
+                "media_ids": [101, 102, 103],
+            }
+
+            with patch("social.wordpress_publish.stage_carousel_media", return_value=staged):
+                with self.assertRaises(RuntimeError):
+                    stage_publish_package(
+                        social_output=social_output,
+                        rendered_dir=rendered,
+                        ready_file=root / "ready.json",
+                        pending_file=root / "pending.json",
+                        wp_url="https://example.test",
+                        username="user",
+                        app_password="pass",
+                    )
+
+    def test_stage_rejects_non_master_dimensions(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            rendered = self._write_rendered(root, size=(1080, 1080))
+            staged = {
+                "image_urls": [f"https://example.test/{i}.png" for i in range(1, 4)],
+                "media_ids": [101, 102, 103],
+            }
+
+            with patch("social.wordpress_publish.stage_carousel_media", return_value=staged):
+                with self.assertRaises(RuntimeError):
+                    stage_publish_package(
+                        social_output=self._ready_output(),
+                        rendered_dir=rendered,
+                        ready_file=root / "ready.json",
+                        pending_file=root / "pending.json",
+                        wp_url="https://example.test",
+                        username="user",
+                        app_password="pass",
+                    )
+
+    def test_stage_rejects_duplicate_rendered_slides(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            rendered = self._write_rendered(root, duplicate=True)
+            staged = {
+                "image_urls": [f"https://example.test/{i}.png" for i in range(1, 4)],
+                "media_ids": [101, 102, 103],
+            }
+
+            with patch("social.wordpress_publish.stage_carousel_media", return_value=staged):
+                with self.assertRaises(RuntimeError):
+                    stage_publish_package(
+                        social_output=self._ready_output(),
+                        rendered_dir=rendered,
+                        ready_file=root / "ready.json",
+                        pending_file=root / "pending.json",
+                        wp_url="https://example.test",
+                        username="user",
+                        app_password="pass",
+                    )
+
+    def test_social_schedule_is_three_posts_per_week(self):
+        self.assertEqual(config.POSTS_PER_WEEK, 3)
+        workflow = Path(".github/workflows/social-test.yml").read_text(encoding="utf-8")
+        self.assertIn('cron: "30 18 * * 0,2,5"', workflow)
 
 
 if __name__ == "__main__":

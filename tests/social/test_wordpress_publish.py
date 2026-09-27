@@ -83,6 +83,7 @@ class WordPressPublishPackageTests(unittest.TestCase):
                 )
             self.assertEqual(package["image_urls"], staged["image_urls"])
             self.assertEqual(package["media_ids"], staged["media_ids"])
+            self.assertEqual(package["master_spec_version"], "gamerquest-carousel-v1")
             self.assertTrue(ready.exists())
             self.assertTrue(pending.exists())
             upload.assert_called_once()
@@ -94,7 +95,9 @@ class WordPressPublishPackageTests(unittest.TestCase):
                 ready_file=restored_ready,
             )
             self.assertTrue(recovered["ready"])
-            self.assertEqual(json.loads(restored_ready.read_text())["image_urls"], staged["image_urls"])
+            restored = json.loads(restored_ready.read_text())
+            self.assertEqual(restored["image_urls"], staged["image_urls"])
+            self.assertEqual(restored["master_spec_version"], "gamerquest-carousel-v1")
 
             with patch("social.wordpress_publish.cleanup_media") as cleanup:
                 result = cleanup_publish_package(
@@ -123,7 +126,7 @@ class WordPressPublishPackageTests(unittest.TestCase):
                 "media_ids": [101, 102, 103],
             }
 
-            with patch("social.wordpress_publish.stage_carousel_media", return_value=staged):
+            with patch("social.wordpress_publish.stage_carousel_media", return_value=staged) as upload:
                 with self.assertRaises(RuntimeError):
                     stage_publish_package(
                         social_output=social_output,
@@ -134,6 +137,7 @@ class WordPressPublishPackageTests(unittest.TestCase):
                         username="user",
                         app_password="pass",
                     )
+                upload.assert_not_called()
 
     def test_stage_rejects_non_master_dimensions(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -144,7 +148,7 @@ class WordPressPublishPackageTests(unittest.TestCase):
                 "media_ids": [101, 102, 103],
             }
 
-            with patch("social.wordpress_publish.stage_carousel_media", return_value=staged):
+            with patch("social.wordpress_publish.stage_carousel_media", return_value=staged) as upload:
                 with self.assertRaises(RuntimeError):
                     stage_publish_package(
                         social_output=self._ready_output(),
@@ -155,6 +159,7 @@ class WordPressPublishPackageTests(unittest.TestCase):
                         username="user",
                         app_password="pass",
                     )
+                upload.assert_not_called()
 
     def test_stage_rejects_duplicate_rendered_slides(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -165,7 +170,7 @@ class WordPressPublishPackageTests(unittest.TestCase):
                 "media_ids": [101, 102, 103],
             }
 
-            with patch("social.wordpress_publish.stage_carousel_media", return_value=staged):
+            with patch("social.wordpress_publish.stage_carousel_media", return_value=staged) as upload:
                 with self.assertRaises(RuntimeError):
                     stage_publish_package(
                         social_output=self._ready_output(),
@@ -176,11 +181,22 @@ class WordPressPublishPackageTests(unittest.TestCase):
                         username="user",
                         app_password="pass",
                     )
+                upload.assert_not_called()
 
     def test_social_schedule_is_three_posts_per_week(self):
         self.assertEqual(config.POSTS_PER_WEEK, 3)
-        workflow = Path(".github/workflows/social-test.yml").read_text(encoding="utf-8")
-        self.assertIn('cron: "30 18 * * 0,2,5"', workflow)
+
+        main_workflow = Path(".github/workflows/social-test.yml").read_text(encoding="utf-8")
+        self.assertIn('cron: "30 18 * * 2,5"', main_workflow)
+        self.assertIn('timezone: "Europe/Paris"', main_workflow)
+
+        sunday_path = Path(".github/workflows/social-sunday.yml")
+        self.assertTrue(sunday_path.exists(), "Sunday social scheduler is missing")
+        sunday_workflow = sunday_path.read_text(encoding="utf-8")
+        self.assertIn('cron: "30 18 * * 0"', sunday_workflow)
+        self.assertIn('timezone: "Europe/Paris"', sunday_workflow)
+        self.assertIn("gh workflow run social-test.yml", sunday_workflow)
+        self.assertIn("publish_to_meta=true", sunday_workflow)
 
 
 if __name__ == "__main__":

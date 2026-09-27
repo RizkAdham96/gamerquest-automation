@@ -13,3 +13,8 @@ carousel-publish-result.json
 reel-publish-result.json
 gamerquest-test.json
 gamerquest-test-article.json
+
+# Trending SEO intermediates regenerated inside each run
+trending_seo/scored_topics.json
+trending_seo/research_results.json
+trending_seo/pipeline_result.json

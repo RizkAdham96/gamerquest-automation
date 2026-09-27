@@ -1,9 +1,11 @@
 import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
 
 from social.prepare_publish import prepare_carousel_for_publish
+from social.recover_prepared_publish import prepare_recovery_files
 
 
 class TestPreparePublish(unittest.TestCase):
@@ -53,6 +55,38 @@ class TestPreparePublish(unittest.TestCase):
             self.assertEqual(len(data["image_paths"]), 3)
             self.assertTrue(data["prepared_at_utc"].endswith("Z"))
             self.assertEqual(data["social_output"], social_output)
+
+    def test_recovery_rebuilds_publish_files_without_generation(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            rendered = self._make_rendered(root)
+            social_output = {
+                "status": "ready",
+                "source_id": "article-recovery",
+                "caption": "Recovery caption",
+                "hashtags": ["#GamerQuest"],
+            }
+            old_cwd = Path.cwd()
+            try:
+                os.chdir(root)
+                prepare_carousel_for_publish(
+                    source_id="article-recovery",
+                    rendered_dir=Path("social-rendered"),
+                    published_root=Path("social-published"),
+                    social_output=social_output,
+                )
+                result = prepare_recovery_files(
+                    repository="RizkAdham96/gamerquest-automation",
+                    branch="main",
+                )
+                self.assertTrue(result["ready"])
+                rebuilt_output = json.loads(Path("social-output.json").read_text(encoding="utf-8"))
+                rebuilt_ready = json.loads(Path("social-publish-ready.json").read_text(encoding="utf-8"))
+                self.assertEqual(rebuilt_output["caption"], "Recovery caption")
+                self.assertEqual(rebuilt_ready["source_id"], "article-recovery")
+                self.assertEqual(len(rebuilt_ready["image_urls"]), 3)
+            finally:
+                os.chdir(old_cwd)
 
     def test_rejects_missing_images(self):
         with tempfile.TemporaryDirectory() as temp_dir:

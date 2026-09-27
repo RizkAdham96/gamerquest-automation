@@ -13,13 +13,11 @@ on:
     - cron: "17 */6 * * *"
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  # Serialize repository/state writers. This prevents bots from rebasing over
-  # each other's generated state while preserving every queued run.
-  group: gamerquest-repo-write-global
-  cancel-in-progress: false
+  group: gamerquest-acquisition-shadow
+  cancel-in-progress: true
 
 jobs:
   shadow:
@@ -27,8 +25,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
@@ -45,20 +41,14 @@ jobs:
           GROQ_API_KEY: test-key
           TAVILY_API_KEY: test-key
         run: python -m pytest test_news_quality_guards.py trending_seo deals -q
-      - name: Build shadow queue
-        run: python -m acquisition.run_shadow
-      - name: Commit shadow queue when changed
+      - name: Build shadow queue outside the repository
         run: |
-          git config user.name "GamerQuest Acquisition Bot"
-          git config user.email "actions@github.com"
-          git add acquisition/shadow_queue.json
-          if git diff --cached --quiet; then
-            echo "No shadow queue changes to commit."
-          else
-            git commit -m "data: refresh acquisition shadow queue"
-            git stash push --include-untracked -m "gamerquest-acquisition-pre-rebase" || true
-            git fetch origin main
-            git rebase origin/main
-            git push origin HEAD:main
-            git stash pop || true
-          fi
+          python -m acquisition.run_shadow \
+            --output "${RUNNER_TEMP}/acquisition-shadow-queue.json"
+      - name: Upload shadow queue artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: acquisition-shadow-queue-${{ github.run_id }}
+          path: ${{ runner.temp }}/acquisition-shadow-queue.json
+          if-no-files-found: error
+          retention-days: 7

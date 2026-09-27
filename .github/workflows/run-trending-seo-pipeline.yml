@@ -50,6 +50,28 @@ jobs:
             test_pipeline_publish_mode.py \
             -v
 
+      - name: Validate SEO production configuration
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          missing=0
+          for name in GROQ_API_KEY WP_URL WP_USERNAME WP_APP_PASSWORD; do
+            if [ -z "${!name:-}" ]; then
+              echo "Missing required SEO production secret: ${name}" >&2
+              missing=1
+            fi
+          done
+          if [ "${missing}" -ne 0 ]; then
+            echo "SEO stopped before Groq budget reservation; no quota/state was consumed." >&2
+            exit 1
+          fi
+          echo "SEO production configuration is present."
+
       - name: Reserve and persist shared Groq budget
         id: groq_budget
         run: |

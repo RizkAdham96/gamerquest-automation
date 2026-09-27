@@ -1,0 +1,37 @@
+name: Cleanup Python Caches
+
+on:
+  push:
+    branches:
+      - fix/production-hardening-2026-09-27
+    paths:
+      - ".github/workflows/cleanup-python-caches.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v7
+        with:
+          ref: fix/production-hardening-2026-09-27
+          fetch-depth: 0
+
+      - name: Remove tracked Python cache artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          find . -type d -name '__pycache__' -prune -exec rm -rf {} +
+          find . -type d -name '.pytest_cache' -prune -exec rm -rf {} +
+          git config user.name "GamerQuest Cleanup Bot"
+          git config user.email "actions@github.com"
+          git add -u
+          if git diff --cached --quiet; then
+            echo "No tracked Python caches remained."
+            exit 0
+          fi
+          git commit -m "chore: remove tracked Python caches"
+          git push origin HEAD:fix/production-hardening-2026-09-27

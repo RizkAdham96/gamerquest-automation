@@ -287,6 +287,81 @@ def release_run(
     }
 
 
+def reconcile_run(
+    reservation_id: str,
+    used_tokens: int,
+    *,
+    path: Path | str = DEFAULT_STATE_PATH,
+    day: str | None = None,
+) -> dict[str, Any]:
+    """Shrink a reservation to the conservative usage recorded by the run.
+
+    Reconciliation never increases a reservation.  This lets workflows reserve
+    enough headroom for full quality up front, then return unused headroom after
+    all admitted Groq calls have been counted locally.
+    """
+    reservation_id = str(reservation_id or "").strip()
+    if not reservation_id:
+        raise ValueError("reservation_id is required.")
+    used_tokens = max(0, int(used_tokens))
+
+    day = day or utc_day()
+    state = load_state(path, day=day)
+    reservations = list(state.get("reservations", []))
+    target = next(
+        (
+            item
+            for item in reservations
+            if str(item.get("id", "")).strip() == reservation_id
+        ),
+        None,
+    )
+    if target is None:
+        return {
+            "reconciled": False,
+            "used_tokens": 0,
+            "released_tokens": 0,
+            "lane": "",
+            "reason": "not_found",
+            "state": state,
+        }
+
+    lane = str(target.get("lane", "")).strip().lower()
+    reserved_tokens = max(0, int(target.get("tokens", 0) or 0))
+    effective_used = min(reserved_tokens, used_tokens)
+    released_tokens = reserved_tokens - effective_used
+
+    if effective_used == 0:
+        state["reservations"] = [
+            item
+            for item in reservations
+            if str(item.get("id", "")).strip() != reservation_id
+        ]
+    else:
+        target["tokens"] = effective_used
+        target["reconciled_at"] = datetime.now(timezone.utc).isoformat()
+
+    state["global_reserved"] = max(
+        0,
+        int(state.get("global_reserved", 0) or 0) - released_tokens,
+    )
+    if lane in state.get("lanes", {}):
+        state["lanes"][lane] = max(
+            0,
+            int(state["lanes"].get(lane, 0) or 0) - released_tokens,
+        )
+
+    save_state(state, path)
+    return {
+        "reconciled": True,
+        "used_tokens": effective_used,
+        "released_tokens": released_tokens,
+        "lane": lane,
+        "reason": "reconciled",
+        "state": state,
+    }
+
+
 def estimate_request_tokens(
     prompt_or_messages: Any,
     max_output_tokens: int,
@@ -314,6 +389,34 @@ def reset_local_counters() -> None:
     _LOCAL_RUN_USED = 0
     _LOCAL_MINUTE_USED = 0
     _LOCAL_MINUTE_STARTED = None
+
+
+def _record_usage(estimated_tokens: int) -> None:
+    """Persist conservative admitted-call usage when a workflow requests it."""
+    raw_path = str(os.getenv("GROQ_USAGE_FILE", "")).strip()
+    if not raw_path:
+        return
+    path = Path(raw_path)
+    payload = {"estimated_tokens": 0, "calls": 0}
+    if path.exists():
+        try:
+            loaded = json.loads(path.read_text(encoding="utf-8"))
+            if isinstance(loaded, dict):
+                payload["estimated_tokens"] = max(
+                    0, int(loaded.get("estimated_tokens", 0) or 0)
+                )
+                payload["calls"] = max(0, int(loaded.get("calls", 0) or 0))
+        except Exception:
+            payload = {"estimated_tokens": 0, "calls": 0}
+    payload["estimated_tokens"] += max(0, int(estimated_tokens))
+    payload["calls"] += 1
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    tmp.replace(path)
 
 
 def consume_run_budget(
@@ -385,6 +488,7 @@ def consume_run_budget(
 
     _LOCAL_RUN_USED += estimate
     _LOCAL_MINUTE_USED += estimate
+    _record_usage(estimate)
 
     print(
         "Groq budget reservation: "

@@ -5,6 +5,7 @@ from pathlib import Path
 
 from social.meta_publisher import build_raw_github_urls
 from social.publish_run import pending_platforms
+from social.wordpress_publish import recover_publish_package
 
 
 PUBLISHED_ROOT = Path("social-published")
@@ -63,6 +64,14 @@ def find_latest_pending_package():
 
 
 def prepare_recovery_files(repository="RizkAdham96/gamerquest-automation", branch="main"):
+    # New production path: a tiny JSON package points at temporary WordPress
+    # media, so recovery no longer requires committed carousel PNGs.
+    wordpress_result = recover_publish_package()
+    if wordpress_result.get("ready"):
+        return wordpress_result
+
+    # Backward-compatible fallback for already-prepared legacy packages.  This
+    # can be removed after the historical social-published tree is retired.
     manifest = find_latest_pending_package()
     if manifest is None:
         return {"ready": False, "reason": "no prepared unpublished carousel found"}
@@ -89,7 +98,7 @@ def prepare_recovery_files(repository="RizkAdham96/gamerquest-automation", branc
     READY_FILE.write_text(json.dumps(ready, ensure_ascii=False, indent=2), encoding="utf-8")
     return {
         "ready": True,
-        "reason": "prepared unpublished carousel restored",
+        "reason": "legacy prepared unpublished carousel restored",
         "source_id": source_id,
         "carousel_version": ready["carousel_version"],
     }

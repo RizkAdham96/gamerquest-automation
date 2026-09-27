@@ -61,6 +61,7 @@ def main():
         source_id=source_id,
         rendered_dir=RENDERED_DIR,
         published_root=PUBLISHED_ROOT,
+        social_output=payload,
     )
     ready_payload = write_publish_ready_file(
         source_id=result["source_id"],

@@ -1,0 +1,78 @@
+name: Refactor News Quality Verification
+
+on:
+  push:
+    branches:
+      - fix/final-cleanup
+    paths:
+      - test_news_quality_module.py
+      - scripts/refactor_news_quality.py
+      - .github/workflows/refactor-news-quality.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gamerquest-final-cleanup
+  cancel-in-progress: false
+
+jobs:
+  refactor-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v7
+        with:
+          ref: fix/final-cleanup
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Verify RED before extraction
+        shell: bash
+        run: |
+          set +e
+          python -m pytest test_news_quality_module.py -q
+          status=$?
+          set -e
+          if [ "$status" -eq 0 ]; then
+            echo "Expected module contract test to fail before extraction, but it passed." >&2
+            exit 1
+          fi
+          echo "RED verified: news_quality module is not implemented yet."
+
+      - name: Extract pure News quality module
+        run: python scripts/refactor_news_quality.py
+
+      - name: Verify module contract GREEN
+        run: python -m pytest test_news_quality_module.py -q
+
+      - name: Run full News regression suite
+        run: |
+          python -m pytest \
+            test_news_image_generator.py \
+            test_news_quality_guards.py \
+            test_platform_classifier.py \
+            test_platform_feed.py \
+            test_news_quality_module.py \
+            -v
+
+      - name: Commit verified refactor to branch
+        shell: bash
+        run: |
+          git config user.name "GamerQuest Refactor Bot"
+          git config user.email "actions@github.com"
+          git add automation.py news_quality.py
+          if git diff --cached --quiet; then
+            echo "No refactor changes produced." >&2
+            exit 1
+          fi
+          git commit -m "refactor: extract pure News quality module"
+          git push origin HEAD:fix/final-cleanup

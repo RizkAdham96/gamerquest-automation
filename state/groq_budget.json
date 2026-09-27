@@ -1,9 +1,9 @@
 {
   "date_utc": "2026-09-27",
-  "global_reserved": 21000,
+  "global_reserved": 19674,
   "lanes": {
-    "news": 11000,
-    "seo": 10000,
+    "news": 10993,
+    "seo": 8681,
     "social": 0,
     "manual": 0
   },
@@ -11,14 +11,16 @@
     {
       "id": "36296445106-1-news",
       "lane": "news",
-      "tokens": 11000,
-      "reserved_at": "2026-09-27T05:10:59.336440+00:00"
+      "tokens": 10993,
+      "reserved_at": "2026-09-27T05:10:59.336440+00:00",
+      "reconciled_from_logs": true
     },
     {
       "id": "36306568724-1-seo",
       "lane": "seo",
-      "tokens": 10000,
-      "reserved_at": "2026-09-27T08:33:43.834754+00:00"
+      "tokens": 8681,
+      "reserved_at": "2026-09-27T08:33:43.834754+00:00",
+      "reconciled_from_logs": true
     }
   ]
 }

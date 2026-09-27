@@ -1,3 +1,7 @@
+# Python runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
 
 # GamerQuest generated runtime artifacts
 acquisition/shadow_queue.json
@@ -5,4 +9,3 @@ social-rendered/
 social-published/
 social-output.json
 social-publish-ready.json
-

@@ -8,6 +8,12 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
+from social.master_carousel import (
+    MASTER_REFERENCE_POST,
+    MASTER_SPEC_VERSION,
+    validate_master_copy,
+    validate_master_package,
+)
 from social.prepare_publish import _carousel_version
 from social.wordpress_media import cleanup_media, stage_carousel_media
 
@@ -73,6 +79,14 @@ def stage_publish_package(
     if len(image_paths) != 3:
         raise RuntimeError("Exactly three rendered PNGs are required for staging.")
 
+    # Permanent fail-closed quality gate.  If copy would be truncated, if the
+    # canvas is not the approved 1080x1920 format, or if the rendered slides
+    # are duplicated/malformed, nothing is uploaded to WordPress or Meta.
+    validate_master_package(
+        social_output=social_output,
+        image_paths=image_paths,
+    )
+
     kwargs = {
         "wp_url": wp_url,
         "username": username,
@@ -86,9 +100,11 @@ def stage_publish_package(
         "source_id": source_id,
         "carousel_version": version,
         "image_urls": staged["image_urls"],
+        "master_spec_version": MASTER_SPEC_VERSION,
     }
     pending = {
         **ready,
+        "master_reference_post": MASTER_REFERENCE_POST,
         "media_ids": staged["media_ids"],
         "prepared_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "social_output": social_output,
@@ -117,6 +133,7 @@ def recover_publish_package(
         return {"ready": False, "reason": "no pending WordPress carousel found"}
     source_id = str(pending.get("source_id", "")).strip()
     version = str(pending.get("carousel_version", "")).strip()
+    spec_version = str(pending.get("master_spec_version", "")).strip()
     image_urls = [
         str(url).strip()
         for url in pending.get("image_urls", [])
@@ -126,12 +143,18 @@ def recover_publish_package(
     if (
         not source_id
         or not version
+        or spec_version != MASTER_SPEC_VERSION
         or len(image_urls) != 3
         or len(set(image_urls)) != 3
         or not isinstance(social_output, dict)
         or social_output.get("status") != "ready"
     ):
-        raise RuntimeError("Pending WordPress publish package is invalid.")
+        raise RuntimeError("Pending WordPress publish package is invalid or pre-master-spec.")
+
+    # Recovery is allowed only for copy that still satisfies the current
+    # master contract.  Requiring the spec version above prevents old pending
+    # packages created before this gate from slipping through after deployment.
+    validate_master_copy(social_output)
 
     social_output = dict(social_output)
     social_output["source_id"] = source_id
@@ -139,6 +162,7 @@ def recover_publish_package(
         "source_id": source_id,
         "carousel_version": version,
         "image_urls": image_urls,
+        "master_spec_version": MASTER_SPEC_VERSION,
     }
     output_file.write_text(
         json.dumps(social_output, ensure_ascii=False, indent=2) + "\n",

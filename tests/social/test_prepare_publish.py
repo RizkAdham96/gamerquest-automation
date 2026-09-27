@@ -6,6 +6,39 @@ from pathlib import Path
 
 from social.prepare_publish import prepare_carousel_for_publish
 from social.recover_prepared_publish import prepare_recovery_files
+from social.wordpress_media import cleanup_media, stage_carousel_media
+
+
+class _FakeResponse:
+    def __init__(self, payload, status_code=201):
+        self._payload = payload
+        self.status_code = status_code
+        self.text = json.dumps(payload)
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise RuntimeError(f"HTTP {self.status_code}")
+
+    def json(self):
+        return self._payload
+
+
+class _FakeSession:
+    def __init__(self):
+        self.posts = []
+        self.deletes = []
+
+    def post(self, url, data, headers, auth, timeout):
+        self.posts.append((url, data, headers, auth, timeout))
+        index = len(self.posts)
+        return _FakeResponse({
+            "id": 100 + index,
+            "source_url": f"https://gamerquestfr.com/wp-content/uploads/slide-{index}.png",
+        })
+
+    def delete(self, url, auth, timeout):
+        self.deletes.append((url, auth, timeout))
+        return _FakeResponse({"deleted": True}, status_code=200)
 
 
 class TestPreparePublish(unittest.TestCase):
@@ -116,6 +149,38 @@ class TestPreparePublish(unittest.TestCase):
             self.assertNotIn(" ", result["folder_name"])
             self.assertNotIn("/", result["folder_name"])
             self.assertNotIn("#", result["folder_name"])
+
+    def test_wordpress_staging_returns_three_public_urls_and_media_ids(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            rendered = self._make_rendered(root)
+            session = _FakeSession()
+
+            result = stage_carousel_media(
+                sorted(rendered.glob("slide-*.png")),
+                wp_url="https://gamerquestfr.com",
+                username="bot",
+                app_password="secret",
+                session=session,
+            )
+
+            self.assertEqual(result["media_ids"], [101, 102, 103])
+            self.assertEqual(len(result["image_urls"]), 3)
+            self.assertEqual(len(set(result["image_urls"])), 3)
+            self.assertEqual(len(session.posts), 3)
+            self.assertTrue(all(call[3] == ("bot", "secret") for call in session.posts))
+
+    def test_wordpress_cleanup_deletes_staged_media(self):
+        session = _FakeSession()
+        cleanup_media(
+            [101, 102, 103],
+            wp_url="https://gamerquestfr.com",
+            username="bot",
+            app_password="secret",
+            session=session,
+        )
+        self.assertEqual(len(session.deletes), 3)
+        self.assertTrue(all("force=true" in call[0] for call in session.deletes))
 
 
 if __name__ == "__main__":

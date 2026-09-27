@@ -2,6 +2,7 @@ import hashlib
 import json
 import re
 import shutil
+from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -66,6 +67,7 @@ def prepare_carousel_for_publish(
     source_id,
     rendered_dir=DEFAULT_RENDERED_DIR,
     published_root=DEFAULT_PUBLISHED_ROOT,
+    social_output=None,
 ):
     source_id = _clean_text(source_id)
     if not source_id:
@@ -98,7 +100,10 @@ def prepare_carousel_for_publish(
         "folder_name": source_folder,
         "carousel_version": version,
         "image_paths": image_paths,
+        "prepared_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
     }
+    if isinstance(social_output, dict):
+        manifest_payload["social_output"] = social_output
     with manifest_path.open("w", encoding="utf-8") as file:
         json.dump(manifest_payload, file, ensure_ascii=False, indent=2)
 

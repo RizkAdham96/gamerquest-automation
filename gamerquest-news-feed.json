@@ -1,7 +1,54 @@
 {
-  "generated_at": "2026-09-27T11:57:15.344080+00:00",
+  "generated_at": "2026-09-27T21:18:34.329033+00:00",
   "count": 50,
   "articles": [
+    {
+      "source_id": "ea76130f14a3f8826b6b6b98eb11fa1ac9d5f8c39f5759e8b257af980b638308",
+      "title": "Patch Wolverine d'Insomniac : le hotfix v1.001.005 expliqué",
+      "excerpt": "Insomniac a publié le hotfix v1.001.005 pour Marvel’s Wolverine, corrigeant des crashs et modifiant les indicateurs de Scent Trails. Analyse des changements et des réactions de la communauté.",
+      "content": "<article>\n<p>Insomniac a déployé le hotfix <strong>v1.001.005</strong> pour <em>Marvel’s Wolverine</em>. Ce correctif vise à éliminer les plantages rencontrés par une petite partie des joueurs depuis le lancement et à atténuer la visibilité des indicateurs de <em>Scent Trails</em> et d'<em>Audio Sense</em>. Voici le détail du contenu du patch et les réactions de la communauté.</p>\n<h2>Quel est le contenu du hotfix v1.001.005 ?</h2>\n<ul>\n<li>Correction de <strong>crashs fréquents</strong> signalés par un petit pourcentage de joueurs.</li>\n<li>Modification de la présentation des <strong>Scent Trails</strong> : réduction de l’opacité pour rendre les traînées moins envahissantes.</li>\n<li>Réduction de l’intensité visuelle de l’indicateur <strong>Audio Sense</strong>.</li>\n<li>Annonce d’une future étude visant à rendre ces indicateurs <strong>activables/désactivables</strong> via une option de réglage.</li>\n</ul>\n<h2>Pourquoi les Scent Trails suscitent-ils la polémique ?</h2>\n<p>Depuis la sortie, de nombreux joueurs reprochent à <em>Marvel’s Wolverine</em> un <strong>guidage excessif</strong> : des traînées de parfum jaunes, des lumières clignotantes et des effets visuels jugés « parodiques ». Le patch tente de répondre à ces critiques en diminuant la visibilité de ces éléments, mais le débat reste ouvert.</p>\n<h2>Réactions de la communauté et perspectives d’Insomniac</h2>\n<p>Harvey Randall, rédacteur de PC Gamer, résume le sentiment général : « c’est le sommet du guidage avant que les développeurs ne reviennent à un design plus sobre ». Insomniac indique qu’il continue d’évaluer <strong>des options de désactivation</strong> pour les sens, ce qui pourrait marquer un premier pas vers un gameplay moins intrusif.</p>\n<h2>Quelles sont les prochaines étapes pour Wolverine ?</h2>\n<p>Le studio n’a pas annoncé de nouvelle date de mise à jour, mais il a clairement indiqué que les <strong>options de personnalisation des indicateurs</strong> seront étudiées. Les joueurs espèrent ainsi retrouver un équilibre entre assistance et liberté d’exploration.</p>\n</article>",
+      "slug": "patch-wolverine-insomniac-hotfix-v1-001-005",
+      "category": "Actualités",
+      "tags": [
+        "Wolverine",
+        "Insomniac",
+        "Patch",
+        "Hotfix",
+        "Marvel",
+        "Jeux PC"
+      ],
+      "seo": {
+        "seo_title": "Patch Wolverine d'Insomniac : tout sur le hotfix v1.001.005 et ses changements",
+        "meta_description": "Découvrez le contenu du hotfix v1.001.005 de Marvel’s Wolverine d'Insomniac, les corrections de crashs, la réduction des Scent Trails et les réactions des joueurs.",
+        "primary_keyword": "patch Wolverine Insomniac",
+        "secondary_keywords": [
+          "Marvel’s Wolverine hotfix",
+          "Scent Trails",
+          "Insomniac mise à jour",
+          "guidage excessif jeu",
+          "Wolverine PC",
+          "critiques patch Wolverine"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.pcgamer.com/games/im-taking-insomniacs-wolverine-patch-as-a-sign-this-is-as-bad-as-its-going-to-get/",
+        "title": "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get - PC Gamer",
+        "published_date": "Mon, 21 Sep 2026 14:07:20 GMT",
+        "domain": "pcgamer.com"
+      },
+      "official_source": null,
+      "created_at": "2026-09-27T21:18:33.840498+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/patch-wolverine-insomniac-hotfix-v1-001-005.jpg",
+        "filename": "patch-wolverine-insomniac-hotfix-v1-001-005.jpg",
+        "alt": "Patch Wolverine d'Insomniac : le hotfix v1.001.005 expliqué - GamerQuest",
+        "caption": "Illustration de l'article « Patch Wolverine d'Insomniac : le hotfix v1.001.005 expliqué ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://cdn.mos.cms.futurecdn.net/PEAbGb6khTUPPwvqqgZnyH-2560-80.jpg"
+      },
+      "platforms": []
+    },
     {
       "source_id": "23030c7268b264e44e9222e9d2640809eeaeb1fa069ce88eee8e97077f494b2a",
       "title": "Splatoon Raiders : aucune DLC prévue – le développeur ferme la porte aux extensions",
@@ -2529,58 +2576,6 @@
       "platforms": [
         "Nintendo",
         "PlayStation"
-      ]
-    },
-    {
-      "source_id": "893b937c914599c63fe41b89ed790040a9b0b3b51744161a0e9a20e4f152215b",
-      "title": "Mariachi Legends : date de sortie, plateformes, prix et gameplay",
-      "excerpt": "Mariachi Legends, le Metroidvania mexicain dévoilé à Gamescom 2026, arrive le 27 avril 2027 sur PS5, Xbox Series X|S, Switch et PC. Voici tout ce qu’on sait.",
-      "content": "<article>\n<p><strong>Mariachi Legends</strong> sortira le <strong>27 avril 2027</strong>. Le jeu a été présenté lors de l'<em>Opening Night Live</em> de <a href=\"https://gamerquestfr.com/final-fantasy-7-revelation-dates-sortie/\">Gamescom 2026</a> et promet d’allier l’esthétique du jour des morts à un gameplay Metroidvania.</p>\n<h2>Quelle est la date de sortie de Mariachi Legends ?</h2>\n<p>La date officielle de sortie est le <strong>27 avril 2027</strong>. Aucun report n’a été annoncé depuis la révélation.</p>\n<h2>Sur quelles plateformes sera disponible Mariachi Legends ?</h2>\n<p>Le titre sera disponible sur les consoles et PC suivantes :</p>\n<ul>\n<li>PlayStation 5</li>\n<li>Xbox Series X|S</li>\n<li>Nintendo Switch</li>\n<li>PC (via Steam)</li>\n<li><a href=\"https://gamerquestfr.com/annonces-xbox-game-pass-gamescom-2026/\">Xbox Game Pass</a> (jour de lancement)</li>\n</ul>\n<h2>Quel sera le prix de Mariachi Legends ?</h2>\n<p>Le prix n’a pas encore été communiqué par le développeur Halberd Studios. Les informations seront publiées plus près de la sortie.</p>\n<h2>Que sait‑on du gameplay de Mariachi Legends ?</h2>\n<p>Mariachi Legends est un <em>Metroidvania</em> à thème mexicain. Le joueur incarne un vampire dans un univers inspiré du folklore et du jour des morts. Le jeu propose :</p>\n<ul>\n<li>Des environnements interconnectés et superposés.</li>\n<li>Un combat rapide et expressif, rappelant les classiques du genre.</li>\n<li>Une direction artistique mêlant horreur gothique et iconographie mexicaine.</li>\n</ul>\n<h2>Mariachi Legends proposera‑t‑il du multijoueur ?</h2>\n<p>Aucun mode <a href=\"https://gamerquestfr.com/date-de-sortie-path-of-exile-2-decembre-2026/\">multijoueur</a> n’a été annoncé lors de la présentation. Le projet semble se concentrer sur une expérience solo.</p>\n</article>",
-      "slug": "date-de-sortie-mariachi-legends",
-      "category": "Actualités",
-      "tags": [
-        "Mariachi Legends",
-        "Metroidvania",
-        "Gamescom 2026",
-        "date de sortie",
-        "plateformes",
-        "Nintendo",
-        "PlayStation",
-        "Xbox"
-      ],
-      "seo": {
-        "seo_title": "Mariachi Legends : date de sortie, plateformes, prix et gameplay",
-        "meta_description": "Mariachi Legends, le Metroidvania mexicain présenté à Gamescom 2026, sort le 27 avril 2027 sur PS5, Xbox Series X|S, Switch et PC. Découvrez date, plateformes, prix et gameplay.",
-        "primary_keyword": "date de sortie Mariachi Legends",
-        "secondary_keywords": [
-          "Mariachi Legends plateforme",
-          "Mariachi Legends prix",
-          "Mariachi Legends gameplay",
-          "Metroidvania 2027",
-          "jeux vidéo Gamescom 2026"
-        ],
-        "search_intent": "Informational"
-      },
-      "source": {
-        "url": "https://www.altchar.com/game-news/biggest-games-announced-at-gamescom-opening-night-live-2026-aKbGB1V8Diz7",
-        "title": "Biggest Games Announced at Gamescom Opening Night Live 2026 | AltChar",
-        "published_date": "Tue, 25 Aug 2026 21:07:03 GMT",
-        "domain": "altchar.com"
-      },
-      "official_source": null,
-      "created_at": "2026-09-01T04:51:59.164951+00:00",
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/date-de-sortie-mariachi-legends.jpg",
-        "filename": "date-de-sortie-mariachi-legends.jpg",
-        "alt": "Mariachi Legends : date de sortie, plateformes, prix et gameplay - GamerQuest",
-        "caption": "Illustration de l'article « Mariachi Legends : date de sortie, plateformes, prix et gameplay ».",
-        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
-        "source_image_url": "https://media.altchar.com/prod/images/gm_featured_image/981b6447908d-853c6c66-4594-4230-b295-140e7672168f.jpeg"
-      },
-      "platforms": [
-        "Nintendo",
-        "PlayStation",
-        "Xbox"
       ]
     }
   ]

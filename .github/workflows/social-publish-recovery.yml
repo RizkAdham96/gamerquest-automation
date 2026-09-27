@@ -24,51 +24,39 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Check whether Instagram already published today
+      - name: Check for a pending WordPress Meta package
         id: guard
         shell: bash
         run: |
           python - <<'PY'
           import json
           import os
-          from datetime import datetime
           from pathlib import Path
-          from zoneinfo import ZoneInfo
 
-          history_path = Path("social/publish_history.json")
-          today = datetime.now(ZoneInfo("Europe/Paris")).date()
-          published_today = False
-
-          if history_path.exists():
+          pending_path = Path("social/pending_publish.json")
+          should_recover = False
+          reason = "no pending WordPress carousel"
+          if pending_path.exists():
               try:
-                  history = json.loads(history_path.read_text(encoding="utf-8"))
+                  payload = json.loads(pending_path.read_text(encoding="utf-8"))
+                  urls = payload.get("image_urls", []) if isinstance(payload, dict) else []
+                  media_ids = payload.get("media_ids", []) if isinstance(payload, dict) else []
+                  should_recover = (
+                      isinstance(payload, dict)
+                      and bool(str(payload.get("source_id", "")).strip())
+                      and bool(str(payload.get("carousel_version", "")).strip())
+                      and len(urls) == 3
+                      and len(set(urls)) == 3
+                      and len(media_ids) == 3
+                  )
+                  reason = "valid pending WordPress carousel" if should_recover else "pending WordPress manifest is invalid"
               except Exception as exc:
-                  print(f"Could not read publish history: {exc}")
-                  history = {}
+                  reason = f"pending WordPress manifest unreadable: {exc}"
 
-              if isinstance(history, dict):
-                  for source_id, state in history.items():
-                      if not isinstance(state, dict):
-                          continue
-                      instagram = state.get("instagram", {})
-                      if not isinstance(instagram, dict) or instagram.get("published") is not True:
-                          continue
-                      stamp = str(instagram.get("published_at_utc", "")).strip()
-                      if not stamp:
-                          continue
-                      try:
-                          dt = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
-                      except ValueError:
-                          continue
-                      if dt.astimezone(ZoneInfo("Europe/Paris")).date() == today:
-                          print(f"Instagram already published today: {source_id} at {stamp}")
-                          published_today = True
-                          break
-
-          should_recover = not published_today
-          print(f"Recovery required: {should_recover}")
+          print(f"Recovery required: {should_recover}; reason={reason}")
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
               output.write(f"should_recover={'true' if should_recover else 'false'}\n")
+              output.write(f"reason={reason.replace(chr(10), ' ')}\n")
           PY
 
   recover-social-publish:
@@ -96,6 +84,7 @@ jobs:
           PYTHONPATH: .
         run: |
           python tests/social/test_prepare_publish.py
+          python tests/social/test_wordpress_publish.py
           python tests/social/test_publish_run.py
           python tests/social/test_meta_healthcheck.py
 
@@ -123,7 +112,7 @@ jobs:
           echo "Social recovery skipped safely."
           echo "Reason: ${{ steps.recovery_package.outputs.reason }}"
 
-      - name: Retry Meta publish from committed carousel
+      - name: Retry Meta publish from pending WordPress carousel
         id: meta_publish
         if: ${{ steps.recovery_package.outputs.ready == 'true' }}
         env:
@@ -135,20 +124,28 @@ jobs:
           META_GRAPH_API_VERSION: v26.0
         run: python -m social.publish_run_facebook_login
 
+      - name: Clean recovered WordPress carousel media
+        id: wordpress_cleanup
+        if: ${{ steps.meta_publish.outcome == 'success' }}
+        env:
+          PYTHONPATH: .
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: python -m social.wordpress_publish cleanup
+
       - name: Commit Meta publish history
         if: ${{ always() && steps.recovery_package.outputs.ready == 'true' }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"
           git config user.email "actions@github.com"
-          if [ -f social/publish_history.json ]; then
-            git add social/publish_history.json
-            if ! git diff --cached --quiet; then
-              git commit -m "social: update Meta publish history (recovery)"
-              git fetch origin main
-              git rebase origin/main
-              git push origin HEAD:main
-            fi
+          git add -A social/publish_history.json social/pending_publish.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "social: update Meta publish state (recovery)"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
           fi
 
       - name: Report recovery result
@@ -160,3 +157,4 @@ jobs:
           echo "Reason: ${{ steps.recovery_package.outputs.reason }}" >> "${GITHUB_STEP_SUMMARY}"
           echo "Meta preflight: ${{ steps.meta_preflight.outcome }}" >> "${GITHUB_STEP_SUMMARY}"
           echo "Meta publish: ${{ steps.meta_publish.outcome }}" >> "${GITHUB_STEP_SUMMARY}"
+          echo "WordPress cleanup: ${{ steps.wordpress_cleanup.outcome }}" >> "${GITHUB_STEP_SUMMARY}"

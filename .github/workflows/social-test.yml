@@ -54,6 +54,7 @@ jobs:
           python tests/social/test_renderer.py
           python tests/social/test_meta_publisher.py
           python tests/social/test_prepare_publish.py
+          python tests/social/test_wordpress_publish.py
           python tests/social/test_publish_run.py
           python tests/social/test_render_fallback_source_image.py
           python tests/social/test_run_fresh.py
@@ -131,6 +132,7 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_RUN_TOKEN_BUDGET: ${{ steps.groq_budget.outputs.tokens }}
           GROQ_TPM_CEILING: "6000"
+          GROQ_USAGE_FILE: ${{ runner.temp }}/groq-usage-social.json
         run: python -m social.run_fresh
 
       - name: Check social generation status
@@ -181,16 +183,18 @@ jobs:
           PYTHONPATH: .
         run: python -m social.render_fallback
 
-      - name: Prepare carousel for public publishing
-        if: ${{ github.event_name != 'push' && steps.social_status.outputs.ready == 'true' }}
+      - name: Stage carousel in temporary WordPress media
+        id: wordpress_stage
+        if: ${{ github.event_name != 'push' && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         env:
           PYTHONPATH: .
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_BRANCH: main
-        run: python -m social.prepare_publish_run
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: python -m social.wordpress_publish stage
 
       - name: Verify exactly three current carousel images
-        if: ${{ github.event_name != 'push' && steps.social_status.outputs.ready == 'true' }}
+        if: ${{ github.event_name != 'push' && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         shell: bash
         run: |
           COUNT=$(find social-rendered -maxdepth 1 -type f -name "slide-*.png" | wc -l)
@@ -226,17 +230,17 @@ jobs:
           print(f"Carousel version: {payload['carousel_version']}")
           PY
 
-      - name: Commit prepared carousel
-        if: ${{ github.event_name != 'push' && steps.social_status.outputs.ready == 'true' }}
+      - name: Commit pending WordPress publish manifest
+        if: ${{ github.event_name != 'push' && steps.wordpress_stage.outcome == 'success' }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"
           git config user.email "actions@github.com"
-          git add social-published/
+          git add social/pending_publish.json
           if git diff --cached --quiet; then
-            echo "No new carousel files to commit."
+            echo "Pending publish manifest is already current."
           else
-            git commit -m "social: prepare carousel for publishing"
+            git commit -m "social: persist pending Meta publish package"
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main
@@ -287,21 +291,95 @@ jobs:
           META_GRAPH_API_VERSION: v26.0
         run: python -m social.publish_run_facebook_login
 
+      - name: Clean temporary WordPress carousel media
+        id: wordpress_cleanup
+        if: ${{ steps.meta_publish.outcome == 'success' }}
+        env:
+          PYTHONPATH: .
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: python -m social.wordpress_publish cleanup
+
       - name: Commit Meta publish history
         if: ${{ always() && steps.social_status.outputs.ready == 'true' && (github.event_name == 'schedule' || inputs.publish_to_meta == true) }}
         shell: bash
         run: |
           git config user.name "GamerQuest Social Bot"
           git config user.email "actions@github.com"
-          if [ -f social/publish_history.json ]; then
-            git add social/publish_history.json
-            if ! git diff --cached --quiet; then
-              git commit -m "social: update Meta publish history"
-              git fetch origin main
-              git rebase origin/main
-              git push origin HEAD:main
-            fi
+          git add -A social/publish_history.json social/pending_publish.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "social: update Meta publish state"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
           fi
+
+      - name: Reconcile shared Groq budget (Social)
+        if: ${{ always() && steps.groq_budget.outputs.allowed == 'true' }}
+        env:
+          GROQ_USAGE_FILE: ${{ runner.temp }}/groq-usage-social.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          reservation_id="${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-social"
+          used_tokens="$(python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          path = Path(os.environ["GROQ_USAGE_FILE"])
+          used = 0
+          if path.exists():
+              try:
+                  payload = json.loads(path.read_text(encoding="utf-8"))
+                  used = max(0, int(payload.get("estimated_tokens", 0) or 0))
+              except Exception as exc:
+                  print(f"Usage file unreadable; keeping reservation conservative: {exc}", file=__import__('sys').stderr)
+                  raise SystemExit(2)
+          print(used)
+          PY
+          )"
+
+          git config user.name "GamerQuest Budget Bot"
+          git config user.email "actions@github.com"
+
+          for attempt in 1 2 3; do
+            echo "Social budget reconciliation attempt ${attempt}/3; used=${used_tokens}"
+            git fetch origin main
+            git reset --hard origin/main
+
+            RESERVATION_ID="${reservation_id}" USED_TOKENS="${used_tokens}" python - <<'PY'
+          import os
+          from groq_budget import reconcile_run
+
+          result = reconcile_run(
+              os.environ["RESERVATION_ID"],
+              int(os.environ["USED_TOKENS"]),
+          )
+          print(
+              "Groq reconciliation: "
+              f"reconciled={result['reconciled']} "
+              f"used={result['used_tokens']} "
+              f"released={result['released_tokens']} "
+              f"reason={result['reason']}"
+          )
+          PY
+
+            git add state/groq_budget.json
+            if git diff --cached --quiet; then
+              echo "No Groq budget state change to persist."
+              exit 0
+            fi
+            git commit -m "budget: reconcile Social Groq allowance"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Shared budget state changed before reconciliation push; retrying safely."
+          done
+
+          echo "Unable to persist Social Groq reconciliation after 3 attempts." >&2
+          exit 1
 
       - name: P0 social final status
         if: ${{ always() }}
@@ -321,6 +399,9 @@ jobs:
           elif [ "${PUBLISH_REQUESTED}" = "true" ] && [ "${{ steps.meta_preflight.outcome }}" = "failure" ]; then
             RESULT="FAILED"
             REASON="Meta preflight failed before any publishing attempt."
+          elif [ "${PUBLISH_REQUESTED}" = "true" ] && [ "${{ steps.wordpress_stage.outcome }}" = "failure" ]; then
+            RESULT="FAILED"
+            REASON="Temporary WordPress media staging failed; nothing was sent to Meta."
           elif [ "${{ steps.groq_budget.outputs.allowed }}" != "true" ]; then
             RESULT="SKIPPED"
             REASON="Groq budget unavailable: ${{ steps.groq_budget.outputs.reason }}"
@@ -357,8 +438,10 @@ jobs:
             echo ""
             echo "Generation status: ${{ steps.social_status.outputs.status }}"
             echo "Meta preflight: ${{ steps.meta_preflight.outcome }}"
+            echo "WordPress staging: ${{ steps.wordpress_stage.outcome }}"
             echo "Meta pending before publish: ${{ steps.meta_pending.outputs.pending_platforms }}"
             echo "Meta publish: ${{ steps.meta_publish.outcome }}"
+            echo "WordPress cleanup: ${{ steps.wordpress_cleanup.outcome }}"
           } >> "${GITHUB_STEP_SUMMARY}"
 
           if [ "${RESULT}" = "FAILED" ]; then
@@ -374,6 +457,6 @@ jobs:
             social-output.json
             social-publish-ready.json
             social-rendered/
-            social-published/
             social/publish_history.json
           if-no-files-found: warn
+          retention-days: 3

@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "title": "Grounded 2 – notes de mise à jour 0.5.1 : correctifs, équilibrage et stabilité",
+      "slug": "grounded-2-patch-notes-0-5-1",
+      "content": "<p>La mise à jour <strong>0.5.1</strong> de <em>Grounded 2</em> est disponible et apporte une série de <a href=\"https://gamerquestfr.com/mise-a-jour-beast-lord-the-new-land-14-septembre-2026/\">correctifs</a>, d’ajustements d’équilibrage et d’améliorations de stabilité. Voici le détail complet des changements annoncés par les développeurs.</p>\n<h2>Quelles sont les nouveautés de la version 0.5.1 de Grounded 2 ?</h2>\n<ul>\n<li>Amélioration de la perception des insectes « buggy » afin qu’ils puissent rejoindre les combats plus facilement avec le joueur/teen.</li>\n<li>Ajout d’améliorations de molaire pour les Mega Milk Molars, Milk Molars et Moldy Milk Molars.</li>\n<li><a href=\"https://gamerquestfr.com/dayz-badlands-date-sortie/\">Extension</a> des niveaux de mise à jour disponibles via les Milk Molars et Moldy Milk Molars.</li>\n<li>Retrait de l’Infused Ooze du jeu et modification de la recette de l’Omni‑Axe Tier 4 en conséquence.</li>\n</ul>\n<h2>Quels correctifs sont apportés dans la mise à jour 0.5.1 ?</h2>\n<ul>\n<li>Correction d’un problème où la mutation Genuine Gathering Ant augmentait le taux de drop du trinket Everlasting Hogstopper lors de la coupe de Billy Hogs avec les Ant Buggies.</li>\n<li>Résolution d’un bug empêchant l’ouverture de la trappe de l’Abîme en mode Créatif ; la combinaison de plongée n’est plus requise.</li>\n<li>Correction d’un problème de disparition d’objets lorsqu’ils étaient placés dans l’inventaire d’un Buggy via la souris.</li>\n<li>Affichage du fond d’écran et des informations d’événement d’Halloween désormais présent dans le menu principal.</li>\n<li>Correction d’un bug où l’amélioration des armes de poing avec des dégâts élémentaires supprimait leur type de dégâts d’origine.</li>\n<li>Résolution d’un bug qui désactivait de façon permanente le Buggy après la destruction d’un nid.</li>\n<li>Correction d’une animation manquante du client lors de l’utilisation de l’Omni‑Tool avec la mise à jour du Glitter Bar.</li>\n<li>Correction du son de pas d’eau sur le sol de la Diving Station.</li>\n<li>Réparation de l’impossibilité de remplir le réservoir du Ladybug Buggy avec de l’eau d’étang.</li>\n<li>Correction d’un bug du Bubble Diffuser qui fournissait de l’air à l’infini après sa destruction.</li>\n<li>Correction de l’icône de molaire étirée sur le Molar Scanner.</li>\n<li>Correction de la prévisualisation du Green Shield Bug qui ne correspondait pas à la version en jeu.</li>\n<li>Correction d’une description erronée de l’option « Swap to Custom Game ».</li>\n<li>Correction d’une faute d’orthographe dans le nom d’un trinket.</li>\n<li>Correction des poses Photo Mode liées aux Teens qui provoquaient un mauvais alignement des jambes.</li>\n<li>Correction du Toe Biter Buggy qui ne infligeait pas de dégâts avec son attaque Sweep lorsqu’il était utilisé seul.</li>\n<li>Correction des défis Taxidermy et Small Game Hunter Ranger qui ne se terminaient pas lors de la construction de trophées montés et d’insectes empaillés.</li>\n<li>Correction de l’ali",
+      "tags": [
+        "Grounded 2",
+        "patch notes",
+        "mise à jour",
+        "correctifs",
+        "bugs"
+      ],
+      "seo": {
+        "primary_keyword": "Grounded 2 patch notes"
+      }
+    },
+    {
       "title": "Graveyard Keeper 2 : date de sortie, plateformes et aperçu du gameplay",
       "slug": "graveyard-keeper-2-sortie",
       "content": "<p>Graveyard Keeper 2, le deuxième volet de la série de simulation de cimetière, sort le</p>",

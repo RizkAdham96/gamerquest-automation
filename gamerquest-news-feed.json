@@ -1,7 +1,53 @@
 {
-  "generated_at": "2026-09-28T05:15:56.161254+00:00",
+  "generated_at": "2026-09-28T23:13:39.325342+00:00",
   "count": 50,
   "articles": [
+    {
+      "source_id": "dce33db872a1eae6ead7823da9dedc8aabd0bb966399c60242737eb02877dcb9",
+      "title": "Grounded 2 – notes de mise à jour 0.5.1 : correctifs, équilibrage et stabilité",
+      "excerpt": "La version 0.5.1 de Grounded 2 apporte une trentaine de correctifs, des ajustements d’équilibrage et des améliorations de performance pour rendre le jeu plus fluide et stable.",
+      "content": "<p>La mise à jour <strong>0.5.1</strong> de <em>Grounded 2</em> est disponible et apporte une série de <a href=\"https://gamerquestfr.com/mise-a-jour-beast-lord-the-new-land-14-septembre-2026/\">correctifs</a>, d’ajustements d’équilibrage et d’améliorations de stabilité. Voici le détail complet des changements annoncés par les développeurs.</p>\n<h2>Quelles sont les nouveautés de la version 0.5.1 de Grounded 2 ?</h2>\n<ul>\n<li>Amélioration de la perception des insectes « buggy » afin qu’ils puissent rejoindre les combats plus facilement avec le joueur/teen.</li>\n<li>Ajout d’améliorations de molaire pour les Mega Milk Molars, Milk Molars et Moldy Milk Molars.</li>\n<li><a href=\"https://gamerquestfr.com/dayz-badlands-date-sortie/\">Extension</a> des niveaux de mise à jour disponibles via les Milk Molars et Moldy Milk Molars.</li>\n<li>Retrait de l’Infused Ooze du jeu et modification de la recette de l’Omni‑Axe Tier 4 en conséquence.</li>\n</ul>\n<h2>Quels correctifs sont apportés dans la mise à jour 0.5.1 ?</h2>\n<ul>\n<li>Correction d’un problème où la mutation Genuine Gathering Ant augmentait le taux de drop du trinket Everlasting Hogstopper lors de la coupe de Billy Hogs avec les Ant Buggies.</li>\n<li>Résolution d’un bug empêchant l’ouverture de la trappe de l’Abîme en mode Créatif ; la combinaison de plongée n’est plus requise.</li>\n<li>Correction d’un problème de disparition d’objets lorsqu’ils étaient placés dans l’inventaire d’un Buggy via la souris.</li>\n<li>Affichage du fond d’écran et des informations d’événement d’Halloween désormais présent dans le menu principal.</li>\n<li>Correction d’un bug où l’amélioration des armes de poing avec des dégâts élémentaires supprimait leur type de dégâts d’origine.</li>\n<li>Résolution d’un bug qui désactivait de façon permanente le Buggy après la destruction d’un nid.</li>\n<li>Correction d’une animation manquante du client lors de l’utilisation de l’Omni‑Tool avec la mise à jour du Glitter Bar.</li>\n<li>Correction du son de pas d’eau sur le sol de la Diving Station.</li>\n<li>Réparation de l’impossibilité de remplir le réservoir du Ladybug Buggy avec de l’eau d’étang.</li>\n<li>Correction d’un bug du Bubble Diffuser qui fournissait de l’air à l’infini après sa destruction.</li>\n<li>Correction de l’icône de molaire étirée sur le Molar Scanner.</li>\n<li>Correction de la prévisualisation du Green Shield Bug qui ne correspondait pas à la version en jeu.</li>\n<li>Correction d’une description erronée de l’option « Swap to Custom Game ».</li>\n<li>Correction d’une faute d’orthographe dans le nom d’un trinket.</li>\n<li>Correction des poses Photo Mode liées aux Teens qui provoquaient un mauvais alignement des jambes.</li>\n<li>Correction du Toe Biter Buggy qui ne infligeait pas de dégâts avec son attaque Sweep lorsqu’il était utilisé seul.</li>\n<li>Correction des défis Taxidermy et Small Game Hunter Ranger qui ne se terminaient pas lors de la construction de trophées montés et d’insectes empaillés.</li>\n<li>Correction de l’alignement de la carte avec la zone de l’Abîme.</li>\n<li>Correction de l’impossibilité d’interagir avec le PTS menant à l’Abîme après deux pressions sur E.</li>\n<li>Correction</li></ul>",
+      "slug": "grounded-2-patch-notes-0-5-1",
+      "category": "Actualités",
+      "tags": [
+        "Grounded 2",
+        "patch notes",
+        "mise à jour",
+        "correctifs",
+        "bugs"
+      ],
+      "seo": {
+        "seo_title": "Grounded 2 : notes de mise à jour 0.5.1 – correctifs et nouveautés",
+        "meta_description": "Découvrez les notes de mise à jour 0.5.1 de Grounded 2 : correctifs de bugs, ajustements d’équilibrage et améliorations de stabilité détaillés.",
+        "primary_keyword": "Grounded 2 patch notes",
+        "secondary_keywords": [
+          "Grounded 2 0.5.1",
+          "mise à jour Grounded 2",
+          "correctifs Grounded 2",
+          "nouveautés Grounded 2",
+          "bugs Grounded 2",
+          "équilibrage Grounded 2"
+        ],
+        "search_intent": "Informational"
+      },
+      "source": {
+        "url": "https://www.ign.com/wikis/grounded-2/Grounded_2_0.5.1_Patch_Notes",
+        "title": "Grounded 2 0.5.1 Patch Notes - IGN",
+        "published_date": "Fri, 25 Sep 2026 09:32:17 GMT",
+        "domain": "ign.com"
+      },
+      "official_source": null,
+      "created_at": "2026-09-28T23:13:38.450387+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/grounded-2-patch-notes-0-5-1.jpg",
+        "filename": "grounded-2-patch-notes-0-5-1.jpg",
+        "alt": "Grounded 2 – notes de mise à jour 0.5.1 : correctifs, équilibrage et stabilité - GamerQuest",
+        "caption": "Illustration de l'article « Grounded 2 – notes de mise à jour 0.5.1 : correctifs, équilibrage et stabilité ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/grounded-2/3/32/Grounded-2.jpg"
+      },
+      "platforms": []
+    },
     {
       "source_id": "7e331ec6b493acdf4ebdfed014717bd48d095ee9587da0d683b74a18b5182ac7",
       "title": "Graveyard Keeper 2 : date de sortie, plateformes et aperçu du gameplay",
@@ -2528,56 +2574,6 @@
       "platforms": [
         "Nintendo",
         "PlayStation",
-        "Xbox"
-      ]
-    },
-    {
-      "source_id": "f3f3de8ccfaa30b8ef2422f0e1520132d8ea7afa6326757e59641893a0b2a94e",
-      "title": "Dates de sortie et plateformes des jeux présentés à Gamescom Opening Night Live 2026",
-      "excerpt": "Gamescom Opening Night Live 2026 a confirmé les dates de sortie et les plateformes de nombreux titres déjà attendus, de The Witcher 3 : Songs of the Past à Path of Exile 2.",
-      "content": "<article>\n<p>Gamescom Opening Night Live 2026 a permis aux éditeurs de préciser, pour plusieurs titres déjà annoncés, les fenêtres de sortie et les plateformes ciblées. Voici les informations qui ont été confirmées lors de l’événement.</p>\n<h2>The Witcher 3 : Wild Hunt – Songs of the Past</h2>\n<p>Une date de sortie précise n’a pas été annoncée. Les développeurs ont indiqué que le jeu arrivera sur les consoles de nouvelle génération et PC, mais aucun calendrier officiel n’a été communiqué.</p>\n<h2>Final Fantasy VII Revelation</h2>\n<p>Aucune date de sortie officielle n’a été fournie. Les plateformes prévues restent à confirmer.</p>\n<h2>Gears of War : E‑Day</h2>\n<p>La date de sortie n’a pas été confirmée lors de l’événement. Les plateformes annoncées sont les consoles Xbox de nouvelle génération et PC, avec une disponibilité via <a href=\"https://gamerquestfr.com/annonces-xbox-game-pass-gamescom-2026/\">Xbox Game Pass</a> dès le lancement.</p>\n<h2>Ananta</h2>\n<p>Le lancement n’a pas été détaillé. Les plateformes annoncées comprennent les consoles de nouvelle génération et PC, ainsi que des versions mobiles prévues pour le futur.</p>\n<h2>Silent Hill : Townfall</h2>\n<p>Aucune date de sortie n’a été communiquée. Les plateformes restent à préciser.</p>\n<h2>Tides of Annihilation</h2>\n<p>Le jeu a été présenté, mais aucune date de sortie ni plateforme n’a été annoncée.</p>\n<h2>Resonance : A Plague Tale Legacy</h2>\n<p>La date de sortie n’a pas été confirmée. Les plateformes prévues n’ont pas été détaillées.</p>\n<h2>Crimson Desert – Enhanced Update</h2>\n<p>Il s’agit d’une mise à jour déjà disponible pour le titre existant. Aucun nouveau calendrier de sortie n’a été présenté.</p>\n<h2>Mega Man : Dual Override</h2>\n<p>Aucune date de sortie officielle n’a été annoncée. Les plateformes prévues restent à confirmer.</p>\n<h2>Rayman Legends Retold</h2>\n<p>Le titre a été présenté, mais aucune date de sortie ni plateforme n’a été confirmée.</p>\n<h2>Worms : Galactic Tactics</h2>\n<p>Pas de date de sortie ni de plateforme annoncées.</p>\n<h2>Metro 2039</h2>\n<p>Aucune information officielle sur la date de sortie ou les plateformes n’a été fournie.</p>\n<h2>Control Resonant</h2>\n<p>Le jeu a été présenté sans précision de date de sortie ni de plateformes.</p>\n<h2>1666 : Amsterdam</h2>\n<p>Le titre est déjà disponible en accès anticipé ; aucune nouvelle date de sortie n’a été annoncée.</p>\n<h2>Showa : American Story</h2>\n<p>Aucune date ni plateforme n’a été communiquée.</p>\n<h2>Mewgenics</h2>\n<p>Pas de date de sortie officielle ni de plateformes confirmées.</p>\n<h2>Aliens : Fireteam Elite 2</h2>\n<p>Le jeu a déjà été lancé sur certaines plateformes, mais aucune nouvelle date de sortie n’a été annoncée pour d’éventuelles versions supplémentaires.</p>\n<h2>Aion 2</h2>\n<p>Aucune date de sortie ni plateforme n’a été confirmée lors de l’événement.</p>\n<h2>Path of Exile 2</h2>\n<p>Le titre a été présenté sans précision de date de sortie ni de plateformes.</p>\n</article>",
-      "slug": "dates-sortie-jeux-gamescom-2026",
-      "category": "Actualités",
-      "tags": [
-        "Gamescom 2026",
-        "dates de sortie",
-        "plateformes",
-        "The Witcher 3",
-        "Path of Exile 2",
-        "Xbox"
-      ],
-      "seo": {
-        "seo_title": "Dates de sortie et plateformes des jeux présentés à Gamescom Opening Night Live 2026",
-        "meta_description": "Découvrez les informations officielles communiquées lors de Gamescom Opening Night Live 2026 concernant les dates de sortie et les plateformes des titres déjà annoncés, de The Witcher 3 à Path of Exile 2.",
-        "primary_keyword": "date de sortie jeux Gamescom 2026",
-        "secondary_keywords": [
-          "Gamescom 2026",
-          "date de sortie",
-          "plateformes jeux",
-          "The Witcher 3 Songs of the Past",
-          "Path of Exile 2",
-          "Gears of War E-Day",
-          "Final Fantasy VII Revelation"
-        ],
-        "search_intent": "Informational"
-      },
-      "source": {
-        "url": "https://www.altchar.com/game-news/everything-shown-at-gamescom-opening-night-live-2026-that-we-already-knew-about-afSap8v6KKmM",
-        "title": "Everything Shown at Gamescom Opening Night Live 2026 That We Already Knew About | AltChar",
-        "published_date": "Wed, 26 Aug 2026 16:50:34 GMT",
-        "domain": "altchar.com"
-      },
-      "official_source": null,
-      "created_at": "2026-09-01T20:57:40.455317+00:00",
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/dates-sortie-jeux-gamescom-2026.jpg",
-        "filename": "dates-sortie-jeux-gamescom-2026.jpg",
-        "alt": "Dates de sortie et plateformes des jeux présentés à Gamescom Opening Night Live 2026 - GamerQuest",
-        "caption": "Illustration de l'article « Dates de sortie et plateformes des jeux présentés à Gamescom Opening Night Live 2026 ».",
-        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
-        "source_image_url": "https://media.altchar.com/prod/images/gm_featured_image/5565e086d138-gamescom-opening-night-announcements.png"
-      },
-      "platforms": [
         "Xbox"
       ]
     }

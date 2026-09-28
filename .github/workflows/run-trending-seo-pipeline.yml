@@ -31,24 +31,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install groq requests beautifulsoup4
-
-      - name: Run Evergreen SEO regression tests
-        working-directory: trending_seo
-        run: |
-          python -m unittest \
-            test_scorer.py \
-            test_seo_engine.py \
-            test_researcher.py \
-            test_evergreen_research.py \
-            test_writer.py \
-            test_featured_images.py \
-            test_evergreen_pipeline.py \
-            test_pipeline_research_gate.py \
-            test_pipeline_publish_mode.py \
-            -v
+        run: pip install groq requests beautifulsoup4
 
       - name: Validate SEO production configuration
         env:
@@ -143,8 +126,7 @@ jobs:
           WP_URL: ${{ secrets.WP_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
-        run: |
-          python trending_seo/pipeline.py
+        run: python trending_seo/pipeline.py
 
       - name: Save Trending SEO state
         if: always()

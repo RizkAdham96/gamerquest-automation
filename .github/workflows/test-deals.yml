@@ -2,30 +2,21 @@ name: GamerQuest Deals Automation
 
 on:
   workflow_dispatch:
-
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/test-deals.yml"
-      - "deals/**"
-      - "requirements.txt"
-
   schedule:
-    - cron: "17 */2 * * *"
+    # Balanced production cadence: six scans per day.
+    - cron: "17 */4 * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  # Serialize repository/state writers. This prevents bots from rebasing over
-  # each other's generated state while preserving every queued run.
   group: gamerquest-repo-write-global
   cancel-in-progress: false
 
 jobs:
   deals:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
@@ -39,33 +30,10 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
-      - name: Run deals tests
-        run: |
-          python -m pytest deals -v
-
-      - name: Scan real Steam deals
-        run: |
-          python -m deals.run_steam
-
-      - name: Scan CheapShark deals
-        run: |
-          python -m deals.run_cheapshark
-
-      - name: Scan Epic free games
-        run: |
-          python -m deals.run_epic
-
-      - name: Test combined GamerQuest pipeline
-        run: |
-          python -m deals.run_all
-
-      - name: Build WordPress deals feed
-        run: |
-          python -m deals.build_feed
+      - name: Collect deals once and build WordPress feed
+        run: python -m deals.build_feed
 
       - name: Save deals feed
         run: |
@@ -94,5 +62,4 @@ jobs:
           WP_URL: ${{ secrets.WP_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
-        run: |
-          python -m deals.publish_wordpress
+        run: python -m deals.publish_wordpress

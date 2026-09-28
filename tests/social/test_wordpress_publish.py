@@ -194,16 +194,14 @@ class WordPressPublishPackageTests(unittest.TestCase):
         self.assertEqual(config.POSTS_PER_WEEK, 3)
 
         main_workflow = Path(".github/workflows/social-test.yml").read_text(encoding="utf-8")
-        self.assertIn('cron: "30 18 * * 2,5"', main_workflow)
+        self.assertIn('cron: "30 18 * * 0,2,5"', main_workflow)
         self.assertIn('timezone: "Europe/Paris"', main_workflow)
 
         sunday_path = Path(".github/workflows/social-sunday.yml")
-        self.assertTrue(sunday_path.exists(), "Sunday social scheduler is missing")
-        sunday_workflow = sunday_path.read_text(encoding="utf-8")
-        self.assertIn('cron: "30 18 * * 0"', sunday_workflow)
-        self.assertIn('timezone: "Europe/Paris"', sunday_workflow)
-        self.assertIn("gh workflow run social-test.yml", sunday_workflow)
-        self.assertIn("publish_to_meta=true", sunday_workflow)
+        self.assertFalse(
+            sunday_path.exists(),
+            "Sunday should be handled directly by social-test.yml, not a dispatcher workflow",
+        )
 
 
 if __name__ == "__main__":

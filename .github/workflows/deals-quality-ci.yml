@@ -1,0 +1,35 @@
+name: Deals Quality CI
+
+on:
+  pull_request:
+    paths:
+      - "deals/**"
+      - "requirements.txt"
+      - ".github/workflows/test-deals.yml"
+      - ".github/workflows/deals-quality-ci.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "deals/**"
+      - "requirements.txt"
+      - ".github/workflows/test-deals.yml"
+      - ".github/workflows/deals-quality-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-deals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run Deals regression suite
+        run: python -m pytest deals -v

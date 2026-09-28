@@ -21,6 +21,7 @@ permissions:
 jobs:
   test-seo:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -31,9 +32,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install SEO test dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install groq requests beautifulsoup4
+        run: pip install groq requests beautifulsoup4
 
       - name: Run SEO regression suite
         working-directory: trending_seo
@@ -44,6 +43,8 @@ jobs:
             test_researcher.py \
             test_evergreen_research.py \
             test_writer.py \
+            test_writer_v4.py \
+            test_writer_v5.py \
             test_featured_images.py \
             test_evergreen_pipeline.py \
             test_pipeline_research_gate.py \

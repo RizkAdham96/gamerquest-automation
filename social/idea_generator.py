@@ -373,6 +373,11 @@ def call_json_with_retry(prompt, max_tokens, label):
             recoverable = (
                 "AI returned invalid JSON" in message
                 or "no text could be extracted" in message
+                or "json_validate_failed" in message
+                or (
+                    "max completion tokens reached before generating "
+                    "a valid document"
+                ) in message
             )
             if not recoverable or attempt + 1 >= STRUCTURED_RESPONSE_ATTEMPTS:
                 raise
@@ -975,7 +980,7 @@ Return ONLY JSON:
 
     data = call_json_with_retry(
         prompt,
-        max_tokens=500,
+        max_tokens=800,
         label="Carousel fact check",
     )
 

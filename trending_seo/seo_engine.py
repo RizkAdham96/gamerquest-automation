@@ -6,7 +6,10 @@ import re
 import unicodedata
 from typing import Any, Dict, List
 
-SEO_ENGINE_VERSION = "2.0"
+SEO_ENGINE_VERSION = "2.1"
+MIN_ARTICLE_WORDS = 350
+MIN_META_DESCRIPTION_LENGTH = 100
+MAX_META_DESCRIPTION_LENGTH = 180
 
 EVENT_ONLY_TERMS = {
     "annonce", "annonces", "showcase", "state of play", "gamescom",
@@ -17,6 +20,8 @@ EVERGREEN_PATTERNS = (
     "meilleurs ", "meilleures ", "jeux comme ", "comment ",
     "crossplay", "configuration pc", "duree de vie", "ordre pour jouer",
     "vaut il le coup", "alternatives a", "guide ", "astuces ",
+    "ou trouver", "obtenir ", "debloquer", "erreur ", "probleme ",
+    "solution ", "build ", "meilleur build", "multijoueur", "coop ",
 )
 
 INTENT_STOPWORDS = {
@@ -31,6 +36,15 @@ INTENT_TOKEN_ALIASES = {
     "cooperatives": "coop",
     "coop": "coop",
 }
+
+PLACEHOLDER_PATTERNS = (
+    "informations à venir",
+    "information à venir",
+    "à compléter",
+    "a completer",
+    "todo",
+    "lorem ipsum",
+)
 
 
 def _clean_text(value: Any) -> str:
@@ -63,6 +77,11 @@ def _primary_keyword(topic: Dict[str, Any]) -> str:
     return _clean_text(topic.get("topic"))
 
 
+def _plain_text_from_html(value: Any) -> str:
+    text = re.sub(r"<[^>]+>", " ", _clean_text(value))
+    return " ".join(text.split())
+
+
 def normalize_search_intent(value: Any) -> str:
     tokens = []
     for token in _ascii_text(value).split():
@@ -80,8 +99,15 @@ def classify_evergreen_intent(topic: Dict[str, Any]) -> Dict[str, Any]:
     topic_text = _ascii_text(topic.get("topic", "") if isinstance(topic, dict) else "")
     durable = any(pattern in f"{normalized} " for pattern in EVERGREEN_PATTERNS)
     event_only = any(term in topic_text or term in normalized for term in EVENT_ONLY_TERMS)
-    eligible = bool(normalized) and (durable or not event_only)
-    reason = "durable_search_intent" if eligible else "event_only_or_empty"
+    eligible = bool(normalized) and durable and not event_only
+    if eligible:
+        reason = "durable_search_intent"
+    elif event_only:
+        reason = "event_only"
+    elif normalized:
+        reason = "no_durable_search_intent"
+    else:
+        reason = "empty_intent"
     return {
         "eligible": eligible,
         "reason": reason,
@@ -184,7 +210,8 @@ def build_seo_brief(topic: Dict[str, Any]) -> Dict[str, Any]:
         "seo_requirements": {
             "primary_keyword_in_title": True,
             "primary_keyword_in_intro": True,
-            "minimum_h2_sections": 2,
+            "minimum_h2_sections": 3,
+            "minimum_article_words": MIN_ARTICLE_WORDS,
             "answer_search_intent": True,
             "include_meta_description": True,
             "natural_keyword_usage": True,
@@ -201,6 +228,8 @@ def build_seo_brief(topic: Dict[str, Any]) -> Dict[str, Any]:
             "no_fake_release_dates": True,
             "no_fake_prices": True,
             "no_fake_platform_confirmations": True,
+            "no_placeholders": True,
+            "no_truncated_content": True,
         },
     }
 
@@ -216,25 +245,47 @@ def validate_seo_article(article: Dict[str, Any], brief: Dict[str, Any]) -> Dict
     meta_description = _clean_text(article.get("meta_description"))
     content = _clean_text(article.get("content"))
     primary_keyword = _clean_text(brief.get("primary_keyword"))
+
     if not title:
         issues.append("title")
     if not meta_description:
         issues.append("meta_description")
     if not content:
         issues.append("content")
+
     combined_text = " ".join([title, meta_description, content])
     if primary_keyword and not _contains_keyword(combined_text, primary_keyword):
         issues.append("primary_keyword")
+
     h2_count = len(re.findall(r"<h2(?:\s[^>]*)?>", content, flags=re.IGNORECASE))
-    if h2_count < 2:
+    if h2_count < 3:
         issues.append("h2_structure")
+
+    plain_text = _plain_text_from_html(content)
+    word_count = len(re.findall(r"\b[\wÀ-ÿ'-]+\b", plain_text, flags=re.UNICODE))
+    if word_count < MIN_ARTICLE_WORDS:
+        issues.append("thin_content")
+
+    meta_length = len(meta_description)
+    if meta_description and not (
+        MIN_META_DESCRIPTION_LENGTH <= meta_length <= MAX_META_DESCRIPTION_LENGTH
+    ):
+        issues.append("meta_description_length")
+
+    normalized_plain_text = _normalize_keyword(plain_text)
+    if any(_normalize_keyword(pattern) in normalized_plain_text for pattern in PLACEHOLDER_PATTERNS):
+        issues.append("placeholder_content")
 
     checks = {
         "primary_keyword_found": "primary_keyword" not in issues,
         "h2_count": h2_count,
+        "word_count": word_count,
+        "minimum_word_count": MIN_ARTICLE_WORDS,
+        "meta_description_length": meta_length,
         "has_title": bool(title),
         "has_meta_description": bool(meta_description),
         "has_content": bool(content),
+        "has_placeholders": "placeholder_content" in issues,
     }
     if issues:
         return {"status": "SEO_QUALITY_FAILED", "publishable": False, "issues": issues, "checks": checks}

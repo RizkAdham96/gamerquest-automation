@@ -17,61 +17,97 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Wake WordPress GitHub bridge
-        run: |
-          curl --fail --silent --show-error --location \
-            --max-time 30 \
-            --user-agent "GamerQuest-Content-Health/1.0" \
-            https://gamerquestfr.com/ > /dev/null
+      - name: Checkout repository state
+        uses: actions/checkout@v7
 
-      - name: Check latest Actualités post
+      - name: Validate automation state
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          scored_path = Path("trending_seo/scored_topics.json")
+          if not scored_path.exists():
+              raise SystemExit("Trending SEO state missing: trending_seo/scored_topics.json")
+          scored = json.loads(scored_path.read_text(encoding="utf-8"))
+          if not isinstance(scored.get("topics"), list):
+              raise SystemExit("Trending SEO scored_topics.json has invalid topics state.")
+          print("Trending SEO state: OK")
+
+          deals_path = Path("gamerquest-deals-feed.json")
+          if not deals_path.exists():
+              raise SystemExit("Deals feed missing: gamerquest-deals-feed.json")
+          deals = json.loads(deals_path.read_text(encoding="utf-8"))
+          generated_raw = deals.get("generated_at")
+          if not generated_raw:
+              raise SystemExit("Deals feed has no generated_at timestamp.")
+          generated = datetime.fromisoformat(generated_raw.replace("Z", "+00:00"))
+          if generated.tzinfo is None:
+              generated = generated.replace(tzinfo=timezone.utc)
+          deals_age = (
+              datetime.now(timezone.utc) - generated.astimezone(timezone.utc)
+          ).total_seconds() / 3600
+          print(f"Deals feed age: {deals_age:.2f} hours")
+          if deals_age > 6:
+              raise SystemExit(f"Deals feed is stale: {deals_age:.2f} hours.")
+          PY
+
+      - name: Check live WordPress content and homepage visibility
         run: |
           python - <<'PY'
           import json
           import urllib.request
           from datetime import datetime, timezone
 
+          USER_AGENT = "GamerQuest-Content-Health/2.0"
           ALERT_AFTER_HOURS = 24
 
-          url = (
-              "https://gamerquestfr.com/wp-json/wp/v2/posts"
-              "?categories=2&per_page=1&orderby=date&order=desc"
-              "&_fields=id,date,date_gmt,slug,link,title"
-          )
+          def fetch_json(url):
+              request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return json.load(response)
 
-          request = urllib.request.Request(
-              url,
-              headers={"User-Agent": "GamerQuest-Content-Health/1.0"},
-          )
+          def fetch_text(url):
+              request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return response.read().decode("utf-8", errors="replace")
 
-          with urllib.request.urlopen(request, timeout=30) as response:
-              posts = json.load(response)
-
-          if not posts:
-              raise SystemExit("No published Actualités posts found.")
-
-          latest = posts[0]
-          published_raw = latest.get("date_gmt") or latest.get("date")
-          if not published_raw:
-              raise SystemExit("Latest Actualités post has no publish date.")
-
-          published = datetime.fromisoformat(
-              published_raw.replace("Z", "+00:00")
-          )
-          if published.tzinfo is None:
-              published = published.replace(tzinfo=timezone.utc)
-
-          age_hours = (
-              datetime.now(timezone.utc) - published.astimezone(timezone.utc)
-          ).total_seconds() / 3600
-
-          print("Latest article:", latest.get("title", {}).get("rendered"))
-          print("Latest URL:", latest.get("link"))
-          print(f"Age: {age_hours:.2f} hours")
-          print(f"Alert threshold: {ALERT_AFTER_HOURS} hours")
-
-          if age_hours > ALERT_AFTER_HOURS:
-              raise SystemExit(
-                  f"Actualités publishing is stale: {age_hours:.2f} hours."
+          def latest_post(category_id, label):
+              url = (
+                  "https://gamerquestfr.com/wp-json/wp/v2/posts"
+                  f"?categories={category_id}&per_page=1&orderby=date&order=desc"
+                  "&_fields=id,date,date_gmt,slug,link,title"
               )
+              posts = fetch_json(url)
+              if not posts:
+                  raise SystemExit(f"No published {label} posts found.")
+              latest = posts[0]
+              published_raw = latest.get("date_gmt") or latest.get("date")
+              if not published_raw:
+                  raise SystemExit(f"Latest {label} post has no publish date.")
+              published = datetime.fromisoformat(published_raw.replace("Z", "+00:00"))
+              if published.tzinfo is None:
+                  published = published.replace(tzinfo=timezone.utc)
+              age_hours = (
+                  datetime.now(timezone.utc) - published.astimezone(timezone.utc)
+              ).total_seconds() / 3600
+              print(f"Latest {label}: {latest.get('title', {}).get('rendered')}")
+              print(f"{label} URL: {latest.get('link')}")
+              print(f"{label} age: {age_hours:.2f} hours")
+              if age_hours > ALERT_AFTER_HOURS:
+                  raise SystemExit(f"{label} publishing is stale: {age_hours:.2f} hours.")
+              return latest
+
+          latest_news = latest_post(2, "Actualités")
+          latest_review = latest_post(5, "Tests & Avis")
+
+          homepage = fetch_text("https://gamerquestfr.com/")
+          for label, post in (("Actualités", latest_news), ("Tests & Avis", latest_review)):
+              link = str(post.get("link") or "")
+              if not link or link not in homepage:
+                  raise SystemExit(
+                      f"Latest {label} post is published but not visible on the homepage: {link}"
+                  )
+              print(f"Homepage visibility for latest {label}: OK")
           PY

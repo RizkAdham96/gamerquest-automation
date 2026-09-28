@@ -36,6 +36,20 @@ SCORE_LIMITS = {
 GROQ_CLIENT = Groq(api_key=GROQ_API_KEY, max_retries=0) if GROQ_API_KEY else None
 
 
+DURABLE_INTENT_MARKERS = (
+    "meilleurs ", "meilleures ", "jeux comme ", "comment ", "guide ",
+    "astuce", "crossplay", "configuration pc", "duree de vie",
+    "ordre pour jouer", "vaut il le coup", "alternatives a", "ou trouver",
+    "obtenir ", "debloquer", "erreur ", "probleme ", "solution ",
+    "build ", "multijoueur", "coop ",
+)
+
+FRESHNESS_INTENT_MARKERS = (
+    "date de sortie", "date sortie", "prix", "plateforme", "platform",
+    "annonce", "trailer", "patch notes", "mise a jour", "mise à jour",
+)
+
+
 def load_json(path):
     with path.open("r", encoding="utf-8") as file:
         return json.load(file)
@@ -46,6 +60,43 @@ def save_json(path, data):
     with path.open("w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
         file.write("\n")
+
+
+def empty_scored_data():
+    return {
+        "version": "2.0",
+        "updated_at": None,
+        "scoring_model": {
+            "max_score": 100,
+            "criteria": SCORE_LIMITS,
+            "decision_thresholds": {
+                "write": 80,
+                "review": 65,
+                "reject_below": 65,
+            },
+        },
+        "topics": [],
+    }
+
+
+def load_or_initialize_scored_data(path):
+    """Load scorer state, creating a safe empty state on a clean checkout."""
+    if not path.exists():
+        data = empty_scored_data()
+        save_json(path, data)
+        return data
+
+    data = load_json(path)
+    if not isinstance(data, dict):
+        raise ValueError("Scored topics state must be a JSON object.")
+    topics = data.get("topics", [])
+    if not isinstance(topics, list):
+        raise ValueError("Scored topics state must contain a topics list.")
+    data.setdefault("version", "2.0")
+    data.setdefault("updated_at", None)
+    data.setdefault("scoring_model", empty_scored_data()["scoring_model"])
+    data["topics"] = topics
+    return data
 
 
 def calculate_total_score(scores):
@@ -184,9 +235,10 @@ Return ONLY valid JSON in this shape:
 def analyze_topic_locally(topic):
     """Score SEO opportunities without consuming the shared Groq quota.
 
-    The Intel collector already supplies topic, keywords, source provenance and
-    region. Production scoring should be deterministic so the scarce AI budget
-    is reserved for the final researched article.
+    Production scoring is intentionally conservative: only durable, explicit
+    search intents should automatically cross the WRITE threshold. Freshness-
+    sensitive facts such as release dates or prices stay in REVIEW until a
+    stronger live-data path exists.
     """
     print("\n===================================")
     print("ANALYSING EVERGREEN SEO TOPIC (LOCAL)")
@@ -194,38 +246,44 @@ def analyze_topic_locally(topic):
     print(topic.get("topic", "Unknown topic"))
 
     topic_text = str(topic.get("topic", "") or "").strip()
-    normalized = topic_text.lower()
-    words = re.findall(r"[a-z0-9à-ÿ]+", normalized)
     keywords = [
         str(item).strip()
         for item in (topic.get("keywords") or [])
         if str(item).strip()
     ]
+    primary_keyword = keywords[0] if keywords else topic_text
+    normalized_keyword = primary_keyword.lower()
+    words = re.findall(r"[a-z0-9à-ÿ]+", normalized_keyword)
+
     sources = [
         item
         for item in (topic.get("sources") or [])
         if isinstance(item, dict)
     ]
-    source_types = {
-        str(item.get("type", "")).strip().lower()
-        for item in sources
-    }
-
     topic_id = str(topic.get("id", "") or "")
     is_feed_lead = topic_id.startswith("rss-")
-    has_official = "official" in source_types
-    intent_markers = (
-        "date de sortie", "plateforme", "platform", "guide", "comment",
-        "performance", "patch", "erreur", "error", "crossplay",
-        "multijoueur", "multiplayer", "prix", "dlc", "gratuit", "free",
-    )
-    explicit_intent = any(marker in normalized for marker in intent_markers)
 
-    # Curated/official Intel is durable enough for an evergreen resource.
-    # Raw publisher-feed headlines remain leads until a specific search intent
-    # is established, so they should not consume article-generation tokens.
-    durability = 24 if has_official else 20 if not is_feed_lead else 10
-    search_intent = 24 if explicit_intent else 21 if has_official else 12
+    durable_intent = any(
+        marker in normalized_keyword
+        for marker in DURABLE_INTENT_MARKERS
+    )
+    freshness_intent = any(
+        marker in normalized_keyword
+        for marker in FRESHNESS_INTENT_MARKERS
+    )
+
+    if durable_intent:
+        durability = 25
+        search_intent = 25
+    elif freshness_intent:
+        durability = 12
+        search_intent = 15
+    elif is_feed_lead:
+        durability = 8
+        search_intent = 10
+    else:
+        durability = 14
+        search_intent = 12
 
     word_count = len(words)
     if 3 <= word_count <= 10:
@@ -236,7 +294,11 @@ def analyze_topic_locally(topic):
         specificity = 6
 
     french_relevance = 10 if str(topic.get("region", "")).upper() == "FR" else 7
-    competition = 9 if specificity >= 12 else 6 if specificity >= 9 else 3
+
+    # Without live SERP/search-volume data we must not pretend to know that a
+    # query has low competition. Durable long-tail intent gets a modest score;
+    # everything else stays conservative.
+    competition = 5 if durable_intent and specificity >= 10 else 3
     gamerquest_relevance = 10 if sources else 7
     internal_link_potential = 5 if keywords or sources else 3
 
@@ -252,7 +314,6 @@ def analyze_topic_locally(topic):
     total_score = calculate_total_score(scores)
     decision = get_decision(total_score)
 
-    primary_keyword = keywords[0] if keywords else topic_text
     secondary_keywords = [
         item for item in keywords[1:6]
         if item.lower() != primary_keyword.lower()
@@ -274,13 +335,13 @@ def analyze_topic_locally(topic):
             "recommended_angle": (
                 "Réponse evergreen fondée sur les sources vérifiées"
                 if decision == "WRITE"
-                else "Conserver comme piste jusqu'à un angle de recherche plus précis"
+                else "Conserver comme piste jusqu'à un angle de recherche durable et précis"
             ),
             "suggested_title": topic_text,
         },
         "reasoning": (
-            "Deterministic production score; AI quota is reserved for "
-            "research-backed article writing."
+            "Deterministic conservative production score; only explicit durable "
+            "search intent can auto-qualify for article generation."
         ),
     }
     print(f"Score: {total_score}/100")
@@ -335,11 +396,9 @@ def main():
     if not INTEL_FILE.exists():
         print("Intel file not found:", INTEL_FILE)
         sys.exit(1)
-    if not SCORED_FILE.exists():
-        print("Scored topics file not found:", SCORED_FILE)
-        sys.exit(1)
+
     intel_data = load_json(INTEL_FILE)
-    scored_data = load_json(SCORED_FILE)
+    scored_data = load_or_initialize_scored_data(SCORED_FILE)
     already_scored = get_already_scored_ids(scored_data)
     candidates = []
     for topic in intel_data.get("topics", []):

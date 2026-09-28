@@ -1,0 +1,22 @@
+{
+  "version": "2.0",
+  "updated_at": null,
+  "scoring_model": {
+    "max_score": 100,
+    "criteria": {
+      "durability": 25,
+      "search_intent": 25,
+      "long_tail_specificity": 15,
+      "french_relevance": 10,
+      "competition": 10,
+      "gamerquest_relevance": 10,
+      "internal_link_potential": 5
+    },
+    "decision_thresholds": {
+      "write": 80,
+      "review": 65,
+      "reject_below": 65
+    }
+  },
+  "topics": []
+}

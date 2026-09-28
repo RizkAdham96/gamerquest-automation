@@ -37,6 +37,22 @@ def test_discovery_filters_hardware_and_generic_tags():
     assert "Elden Ring" in result
 
 
+def test_discovery_rejects_editorial_tags_that_are_not_game_titles():
+    news = {"articles": [{
+        "tags": [
+            "gameplay", "simulation", "Hotfix", "zombie", "plateformes",
+            "Jeux PC", "Insomniac", "Marvel", "Elden Ring",
+        ]
+    }]}
+    result = discover_game_queries(news, {"articles": []}, limit=15)
+    for generic in (
+        "gameplay", "simulation", "Hotfix", "zombie", "plateformes",
+        "Jeux PC", "Insomniac", "Marvel",
+    ):
+        assert generic not in result
+    assert "Elden Ring" in result
+
+
 def test_verdict_labels_are_transparent():
     assert verdict_from_percent(95) == "Exceptionnellement positif"
     assert verdict_from_percent(82) == "Très positif"
@@ -87,6 +103,19 @@ def test_choose_best_search_result_prefers_exact_title():
     ]
     chosen = choose_best_search_result("Wo Long: Fallen Dynasty", items)
     assert chosen["id"] == 2
+
+
+def test_choose_best_search_result_rejects_unrelated_fallback():
+    items = [
+        {"id": 1, "name": "The End of Gameplay"},
+        {"id": 2, "name": "Gameplay Football"},
+    ]
+    assert choose_best_search_result("gameplay", items) is None
+
+
+def test_choose_best_search_result_rejects_loose_single_word_match():
+    items = [{"id": 1, "name": "Steel Wolverines: Modern Armored Combat"}]
+    assert choose_best_search_result("Wolverine", items) is None
 
 
 def test_wordpress_payload_targets_tests_category_and_featured_media():

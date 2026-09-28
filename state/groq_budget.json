@@ -1,54 +1,18 @@
 {
-  "date_utc": "2026-09-27",
-  "global_reserved": 52041,
+  "date_utc": "2026-09-28",
+  "global_reserved": 11000,
   "lanes": {
-    "news": 36267,
-    "seo": 8681,
-    "social": 7093,
+    "news": 11000,
+    "seo": 0,
+    "social": 0,
     "manual": 0
   },
   "reservations": [
     {
-      "id": "36296445106-1-news",
+      "id": "36381031419-1-news",
       "lane": "news",
-      "tokens": 10993,
-      "reserved_at": "2026-09-27T05:10:59.336440+00:00",
-      "reconciled_from_logs": true
-    },
-    {
-      "id": "36306568724-1-seo",
-      "lane": "seo",
-      "tokens": 8681,
-      "reserved_at": "2026-09-27T08:33:43.834754+00:00",
-      "reconciled_from_logs": true
-    },
-    {
-      "id": "36317301813-1-news",
-      "lane": "news",
-      "tokens": 7250,
-      "reserved_at": "2026-09-27T11:55:56.324944+00:00",
-      "reconciled_at": "2026-09-27T11:58:15.791138+00:00"
-    },
-    {
-      "id": "36334918384-1-news",
-      "lane": "news",
-      "tokens": 9648,
-      "reserved_at": "2026-09-27T16:54:09.163048+00:00",
-      "reconciled_at": "2026-09-27T16:57:00.755449+00:00"
-    },
-    {
-      "id": "36337251383-1-social",
-      "lane": "social",
-      "tokens": 7093,
-      "reserved_at": "2026-09-27T17:31:42.003698+00:00",
-      "reconciled_at": "2026-09-27T17:35:59.647860+00:00"
-    },
-    {
-      "id": "36351130508-1-news",
-      "lane": "news",
-      "tokens": 8376,
-      "reserved_at": "2026-09-27T21:17:15.248515+00:00",
-      "reconciled_at": "2026-09-27T21:19:45.253474+00:00"
+      "tokens": 11000,
+      "reserved_at": "2026-09-28T05:14:36.874256+00:00"
     }
   ]
 }

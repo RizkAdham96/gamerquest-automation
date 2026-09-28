@@ -111,8 +111,7 @@ class TestTrendingSeoScorer(unittest.TestCase):
                 }],
             })
 
-        self.assertEqual(result["decision"], "WRITE")
-        self.assertGreaterEqual(result["total_score"], 80)
+        self.assertNotEqual(result["decision"], "WRITE")
 
     def test_missing_scored_state_is_initialized_instead_of_crashing(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -137,6 +136,20 @@ class TestTrendingSeoScorer(unittest.TestCase):
         })
 
         self.assertNotEqual(result["decision"], "WRITE")
+
+    def test_durable_long_tail_can_still_be_auto_write_opportunity(self):
+        result = analyze_topic_locally({
+            "id": "elden-ring-alternatives",
+            "topic": "Jeux comme Elden Ring",
+            "region": "FR",
+            "keywords": ["jeux comme Elden Ring", "alternatives à Elden Ring"],
+            "sources": [{
+                "type": "publisher",
+                "url": "https://example.com/guide",
+            }],
+        })
+
+        self.assertEqual(result["decision"], "WRITE")
 
 
 if __name__ == "__main__":

@@ -45,6 +45,8 @@ BLOCKED_TAGS = {
     "préservation jeux", "preservation jeux", "esports", "communauté gaming",
     "communaute gaming", "gameplay", "simulation", "hotfix", "zombie",
     "plateforme", "plateformes", "jeux pc", "insomniac", "marvel",
+    "mise à jour", "mise a jour", "ubisoft", "jeu vidéo", "jeux vidéo",
+    "jeu video", "jeux video", "sorties 2026",
 }
 
 

@@ -975,7 +975,7 @@ Return ONLY JSON:
 
     data = call_json_with_retry(
         prompt,
-        max_tokens=350,
+        max_tokens=500,
         label="Carousel fact check",
     )
 

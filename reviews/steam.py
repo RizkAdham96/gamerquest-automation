@@ -1,3 +1,6 @@
+import re
+import unicodedata
+
 import requests
 
 STORE_SEARCH = "https://store.steampowered.com/api/storesearch/"
@@ -6,7 +9,10 @@ APP_REVIEWS = "https://store.steampowered.com/appreviews/{appid}"
 
 
 def _norm(value):
-    return " ".join(str(value or "").lower().replace(":", " ").split())
+    text = unicodedata.normalize("NFKD", str(value or "").lower())
+    text = "".join(char for char in text if not unicodedata.combining(char))
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return " ".join(text.split())
 
 
 def choose_best_search_result(query, items):
@@ -14,15 +20,7 @@ def choose_best_search_result(query, items):
         return None
     q = _norm(query)
     exact = [item for item in items if _norm(item.get("name")) == q]
-    if exact:
-        return exact[0]
-    # Single-word discovery terms are too ambiguous to safely expand to a
-    # different Steam title. Multi-word queries may accept a title that begins
-    # with the full normalized query (for example an edition/subtitle suffix).
-    if len(q.split()) < 2:
-        return None
-    starts = [item for item in items if _norm(item.get("name")).startswith(q)]
-    return starts[0] if starts else None
+    return exact[0] if exact else None
 
 
 def search_game(query, session=requests):

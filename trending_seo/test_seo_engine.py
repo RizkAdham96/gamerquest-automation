@@ -27,6 +27,28 @@ class TestSEOEngine(unittest.TestCase):
             },
         }
 
+    def useful_long_content(self):
+        paragraph = (
+            "Ce guide compare les approches de progression, le rythme des combats, "
+            "l'exploration, la difficulté et les options accessibles aux joueurs. "
+            "Il explique aussi dans quels cas chaque choix est pertinent, avec des "
+            "conseils concrets pour éviter les erreurs fréquentes et choisir selon son profil. "
+        )
+        return (
+            "<p>Voici les meilleurs jeux comme Elden Ring selon le type d'expérience recherché. "
+            + paragraph
+            + "</p>"
+            + "<h2>Pour le combat exigeant</h2><p>"
+            + paragraph * 3
+            + "</p>"
+            + "<h2>Pour l'exploration</h2><p>"
+            + paragraph * 3
+            + "</p>"
+            + "<h2>Pour progresser à son rythme</h2><p>"
+            + paragraph * 3
+            + "</p>"
+        )
+
     def test_event_only_topic_is_not_evergreen(self):
         result = classify_evergreen_intent({
             "topic": "State of Play septembre 2026 : toutes les annonces",
@@ -36,6 +58,20 @@ class TestSEOEngine(unittest.TestCase):
 
     def test_durable_query_is_evergreen(self):
         self.assertTrue(classify_evergreen_intent(self.evergreen_topic())["eligible"])
+
+    def test_generic_entity_is_not_treated_as_evergreen_search_intent(self):
+        result = classify_evergreen_intent({
+            "topic": "The Witcher 3 Remastered",
+            "seo": {"primary_keyword": "The Witcher 3 Remastered"},
+        })
+        self.assertFalse(result["eligible"])
+
+    def test_release_date_query_is_not_auto_publish_evergreen_content(self):
+        result = classify_evergreen_intent({
+            "topic": "The Witcher 3 Remastered",
+            "seo": {"primary_keyword": "The Witcher 3 Remastered date de sortie"},
+        })
+        self.assertFalse(result["eligible"])
 
     def test_normalize_search_intent_handles_french_variants(self):
         a = normalize_search_intent("Les meilleurs jeux coopératifs sur PC")
@@ -79,12 +115,11 @@ class TestSEOEngine(unittest.TestCase):
     def test_good_seo_article_passes_quality_check(self):
         article = {
             "title": "Jeux comme Elden Ring : nos recommandations",
-            "meta_description": "Découvrez les jeux comme Elden Ring à essayer selon vos envies.",
-            "content": (
-                "<p>Voici les meilleurs jeux comme Elden Ring selon le type d'expérience recherché.</p>"
-                "<h2>Pour le combat exigeant</h2><p>Choisissez selon vos priorités.</p>"
-                "<h2>Pour l'exploration</h2><p>Comparez les mondes et les systèmes.</p>"
+            "meta_description": (
+                "Découvrez des jeux comme Elden Ring, comparés selon le combat, "
+                "l'exploration et la difficulté pour choisir celui qui vous convient."
             ),
+            "content": self.useful_long_content(),
         }
         result = validate_seo_article(article, {"primary_keyword": "jeux comme Elden Ring"})
         self.assertTrue(result["publishable"])
@@ -92,12 +127,27 @@ class TestSEOEngine(unittest.TestCase):
     def test_article_missing_primary_keyword_fails(self):
         article = {
             "title": "Un guide utile",
-            "meta_description": "Conseils utiles.",
-            "content": "<h2>Débuter</h2><p>Conseils.</p><h2>Progresser</h2><p>Astuces.</p>",
+            "meta_description": "Conseils détaillés pour progresser et choisir selon vos besoins de joueur.",
+            "content": self.useful_long_content().replace("jeux comme Elden Ring", "jeux exigeants"),
         }
         result = validate_seo_article(article, {"primary_keyword": "jeux comme Elden Ring"})
         self.assertFalse(result["publishable"])
         self.assertIn("primary_keyword", result["issues"])
+
+    def test_thin_or_truncated_article_cannot_pass_quality_gate(self):
+        article = {
+            "title": "Graveyard Keeper 2 : date de sortie, plateformes et gameplay",
+            "meta_description": "Tout savoir sur Graveyard Keeper 2, ses plateformes et son gameplay.",
+            "content": (
+                "<p>Graveyard Keeper 2, le deuxième volet de la série, sort le</p>"
+                "<h2>Date de sortie</h2><p>Informations à venir.</p>"
+                "<h2>Plateformes</h2><p>Informations à venir.</p>"
+                "<h2>Gameplay</h2><p>Informations à venir.</p>"
+            ),
+        }
+        result = validate_seo_article(article, {"primary_keyword": "Graveyard Keeper 2"})
+        self.assertFalse(result["publishable"])
+        self.assertIn("thin_content", result["issues"])
 
 
 if __name__ == "__main__":

@@ -1,7 +1,10 @@
 import json
+import tempfile
 import unittest
+from pathlib import Path
 from unittest.mock import patch
 
+import scorer
 from scorer import analyze_topic, analyze_topic_locally, build_messages, calculate_total_score, get_decision
 
 
@@ -89,7 +92,6 @@ class TestTrendingSeoScorer(unittest.TestCase):
             })
         self.assertEqual(result["sources"], [source])
 
-
     def test_local_production_scorer_does_not_call_groq(self):
         with patch(
             "scorer.groq_chat",
@@ -109,8 +111,45 @@ class TestTrendingSeoScorer(unittest.TestCase):
                 }],
             })
 
+        self.assertNotEqual(result["decision"], "WRITE")
+
+    def test_missing_scored_state_is_initialized_instead_of_crashing(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "scored_topics.json"
+            data = scorer.load_or_initialize_scored_data(path)
+
+            self.assertTrue(path.exists())
+            self.assertEqual(data["version"], "2.0")
+            self.assertEqual(data["topics"], [])
+            self.assertIsNone(data["updated_at"])
+
+    def test_generic_official_entity_is_not_auto_write_opportunity(self):
+        result = analyze_topic_locally({
+            "id": "witcher-3-remastered",
+            "topic": "The Witcher 3 Remastered",
+            "region": "FR",
+            "keywords": ["The Witcher 3 Remastered"],
+            "sources": [{
+                "type": "official",
+                "url": "https://example.com/official",
+            }],
+        })
+
+        self.assertNotEqual(result["decision"], "WRITE")
+
+    def test_durable_long_tail_can_still_be_auto_write_opportunity(self):
+        result = analyze_topic_locally({
+            "id": "elden-ring-alternatives",
+            "topic": "Jeux comme Elden Ring",
+            "region": "FR",
+            "keywords": ["jeux comme Elden Ring", "alternatives à Elden Ring"],
+            "sources": [{
+                "type": "publisher",
+                "url": "https://example.com/guide",
+            }],
+        })
+
         self.assertEqual(result["decision"], "WRITE")
-        self.assertGreaterEqual(result["total_score"], 80)
 
 
 if __name__ == "__main__":

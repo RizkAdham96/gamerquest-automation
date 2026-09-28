@@ -115,6 +115,32 @@ class TestSocialAIRunner(unittest.TestCase):
     @patch(
         "social.idea_generator.call_grok"
     )
+    def test_structured_json_retries_after_groq_json_validate_failed(
+        self,
+        mock_call,
+    ):
+        mock_call.side_effect = [
+            RuntimeError(
+                "Groq API error 400: "
+                "{\"error\":{\"code\":\"json_validate_failed\","
+                "\"message\":\"max completion tokens reached before "
+                "generating a valid document\"}}"
+            ),
+            '{"valid": true, "unsupported_claims": [], "reason": ""}',
+        ]
+
+        result = idea_generator.call_json_with_retry(
+            "Return JSON",
+            max_tokens=500,
+            label="test",
+        )
+
+        self.assertTrue(result["valid"])
+        self.assertEqual(mock_call.call_count, 2)
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
     def test_generate_ideas_accepts_json_object_mode_wrapper(
         self,
         mock_call,

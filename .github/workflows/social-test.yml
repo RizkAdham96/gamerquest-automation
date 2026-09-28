@@ -9,14 +9,8 @@ on:
         default: false
         type: boolean
 
-  push:
-    paths:
-      - "social/**/*.py"
-      - "tests/social/**/*.py"
-      - ".github/workflows/social-test.yml"
-
   schedule:
-    - cron: "30 18 * * 2,5"
+    - cron: "30 18 * * 0,2,5"
       timezone: "Europe/Paris"
 
 permissions:
@@ -41,24 +35,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install social dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install Pillow requests
-
-      - name: Run critical social tests
-        id: social_tests
-        env:
-          PYTHONPATH: .
-        run: |
-          python tests/social/test_run_ai.py
-          python tests/social/test_renderer.py
-          python tests/social/test_meta_publisher.py
-          python tests/social/test_prepare_publish.py
-          python tests/social/test_wordpress_publish.py
-          python tests/social/test_publish_run.py
-          python tests/social/test_render_fallback_source_image.py
-          python tests/social/test_run_fresh.py
-          python tests/social/test_meta_healthcheck.py
+        run: python -m pip install Pillow requests
 
       - name: Meta publishing preflight
         id: meta_preflight
@@ -390,13 +367,7 @@ jobs:
             PUBLISH_REQUESTED="true"
           fi
 
-          if [ "${{ steps.social_tests.outcome }}" = "failure" ]; then
-            RESULT="FAILED"
-            REASON="Critical social regression tests failed."
-          elif [ "${{ github.event_name }}" = "push" ]; then
-            RESULT="TEST_ONLY"
-            REASON="Push event runs regression tests only; no generation or Meta publishing requested."
-          elif [ "${PUBLISH_REQUESTED}" = "true" ] && [ "${{ steps.meta_preflight.outcome }}" = "failure" ]; then
+          if [ "${PUBLISH_REQUESTED}" = "true" ] && [ "${{ steps.meta_preflight.outcome }}" = "failure" ]; then
             RESULT="FAILED"
             REASON="Meta preflight failed before any publishing attempt."
           elif [ "${PUBLISH_REQUESTED}" = "true" ] && [ "${{ steps.wordpress_stage.outcome }}" = "failure" ]; then

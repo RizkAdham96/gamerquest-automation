@@ -41,13 +41,15 @@ def test_discovery_rejects_editorial_tags_that_are_not_game_titles():
     news = {"articles": [{
         "tags": [
             "gameplay", "simulation", "Hotfix", "zombie", "plateformes",
-            "Jeux PC", "Insomniac", "Marvel", "Elden Ring",
+            "Jeux PC", "Insomniac", "Marvel", "mise à jour", "Ubisoft",
+            "jeu vidéo", "jeux vidéo", "sorties 2026", "Elden Ring",
         ]
     }]}
     result = discover_game_queries(news, {"articles": []}, limit=15)
     for generic in (
         "gameplay", "simulation", "Hotfix", "zombie", "plateformes",
-        "Jeux PC", "Insomniac", "Marvel",
+        "Jeux PC", "Insomniac", "Marvel", "mise à jour", "Ubisoft",
+        "jeu vidéo", "jeux vidéo", "sorties 2026",
     ):
         assert generic not in result
     assert "Elden Ring" in result
@@ -116,6 +118,17 @@ def test_choose_best_search_result_rejects_unrelated_fallback():
 def test_choose_best_search_result_rejects_loose_single_word_match():
     items = [{"id": 1, "name": "Steel Wolverines: Modern Armored Combat"}]
     assert choose_best_search_result("Wolverine", items) is None
+
+
+def test_choose_best_search_result_rejects_dlc_prefix_for_base_game():
+    items = [{"id": 4974020, "name": "The Division 2 – Pack Masque classique"}]
+    assert choose_best_search_result("The Division 2", items) is None
+
+
+def test_choose_best_search_result_accepts_punctuation_variants():
+    items = [{"id": 1755830, "name": "Astrea: Six-Sided Oracles"}]
+    chosen = choose_best_search_result("Astrea Six Sided Oracles", items)
+    assert chosen["id"] == 1755830
 
 
 def test_wordpress_payload_targets_tests_category_and_featured_media():

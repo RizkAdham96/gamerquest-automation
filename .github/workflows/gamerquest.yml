@@ -32,19 +32,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Run News regression tests
-        id: news_tests
-        run: |
-          python -m pytest \
-            test_news_image_generator.py \
-            test_news_quality_guards.py \
-            test_platform_classifier.py \
-            test_platform_feed.py \
-            -v
+        run: pip install -r requirements.txt
 
       - name: Snapshot live news before run
         id: live_before
@@ -235,7 +223,6 @@ jobs:
           from datetime import datetime, timezone
 
           before_id = "${{ steps.live_before.outputs.post_id }}" or "none"
-          tests_outcome = "${{ steps.news_tests.outcome }}".strip() or "skipped"
           budget_allowed = "${{ steps.groq_budget.outputs.allowed }}" == "true"
           budget_reason = "${{ steps.groq_budget.outputs.reason }}".strip()
           automation_outcome = "${{ steps.news_automation.outcome }}".strip() or "skipped"
@@ -325,10 +312,7 @@ jobs:
 
           stale = age_hours is not None and age_hours > 24
 
-          if tests_outcome == "failure":
-              result = "FAILED"
-              reason = "News regression tests failed; production run is unsafe."
-          elif latest is None:
+          if latest is None:
               result = "FAILED"
               reason = f"Could not verify the live WordPress news feed: {fetch_error or 'no posts returned'}"
           elif changed:

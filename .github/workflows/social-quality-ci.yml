@@ -1,0 +1,48 @@
+name: Social Quality CI
+
+on:
+  pull_request:
+    paths:
+      - "social/**"
+      - "tests/social/**"
+      - ".github/workflows/social-test.yml"
+      - ".github/workflows/social-publish-recovery.yml"
+      - ".github/workflows/social-quality-ci.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "social/**"
+      - "tests/social/**"
+      - ".github/workflows/social-test.yml"
+      - ".github/workflows/social-publish-recovery.yml"
+      - ".github/workflows/social-quality-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-social:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Install social test dependencies
+        run: python -m pip install Pillow requests
+      - name: Run Social regression suite
+        env:
+          PYTHONPATH: .
+        run: |
+          python tests/social/test_run_ai.py
+          python tests/social/test_renderer.py
+          python tests/social/test_meta_publisher.py
+          python tests/social/test_prepare_publish.py
+          python tests/social/test_wordpress_publish.py
+          python tests/social/test_publish_run.py
+          python tests/social/test_render_fallback_source_image.py
+          python tests/social/test_run_fresh.py
+          python tests/social/test_meta_healthcheck.py

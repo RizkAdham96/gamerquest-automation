@@ -16,8 +16,13 @@ def choose_best_search_result(query, items):
     exact = [item for item in items if _norm(item.get("name")) == q]
     if exact:
         return exact[0]
+    # Single-word discovery terms are too ambiguous to safely expand to a
+    # different Steam title. Multi-word queries may accept a title that begins
+    # with the full normalized query (for example an edition/subtitle suffix).
+    if len(q.split()) < 2:
+        return None
     starts = [item for item in items if _norm(item.get("name")).startswith(q)]
-    return starts[0] if starts else items[0]
+    return starts[0] if starts else None
 
 
 def search_game(query, session=requests):

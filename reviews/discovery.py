@@ -43,7 +43,8 @@ BLOCKED_TAGS = {
     "playstation", "game pass", "xbox game pass", "gamescom", "state of play",
     "trailer", "date de sortie", "news jeux", "patch notes", "calendrier sortie",
     "préservation jeux", "preservation jeux", "esports", "communauté gaming",
-    "communaute gaming",
+    "communaute gaming", "gameplay", "simulation", "hotfix", "zombie",
+    "plateforme", "plateformes", "jeux pc", "insomniac", "marvel",
 }
 
 

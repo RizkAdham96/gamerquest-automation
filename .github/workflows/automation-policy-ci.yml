@@ -1,0 +1,29 @@
+name: Automation Policy CI
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/**"
+      - "tests/test_workflow_policy.py"
+  push:
+    paths:
+      - ".github/workflows/**"
+      - "tests/test_workflow_policy.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  policy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Verify balanced automation policy
+        run: python tests/test_workflow_policy.py -v

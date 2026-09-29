@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": null,
+  "updated_at": "2026-09-29T09:03:17.141717+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -18,5 +18,318 @@
       "reject_below": 65
     }
   },
-  "topics": []
+  "topics": [
+    {
+      "id": "rss-the-craziest-numbers-i-ve-seen-in-17-years-working-at-b-365b474133df",
+      "topic": "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking",
+      "detected_at": "2026-09-19T08:50:47.512194+00:00",
+      "analysed_at": "2026-09-29T09:03:17.141319+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/the-craziest-numbers-ive-seen-in-17-years-working-at-blizzard-wow-forever-devs-seem-genuinely-shocked-the-beta-is-so-popular-as-they-explain-why-their-mmo-servers-keep-breaking/",
+          "title": "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking",
+          "evidence": "<article> <p>World of Warcraft has been running for 22 years, and even now Blizzard sometimes struggles to keep up with demand. Yesterday, the <a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-beta-struggles-to-launch-as-devs-say-the-number-of-people-hammering-at-the-door-of-the-beta-is-insane/\">WoW: Forever beta launched and immediately broke</a> under the weight of everyone trying to get in at once. How is this still happening when Blizzard has decades of experience with launching new MMO content? The devs themselves say they were genuinely taken aback by just how popular the Forever beta has been.</p><p>\"Man, it was hard to sleep last night, I was so excited,\" senior game designer Josh Greenfield says on <a href=\"https://x.com/AggrendWoW/status/2101015233506750526\" target=\"_blank\">Twitter</a>. \"Beta has been... crazy. The craziest numbers I've seen in 17 years working at Blizzard and almost 8 years on classic. We've got something really special here.\"</p><p>Maybe that sounds hyperbolic, but senior game producer Tom Ellis has posted a more exhaustive technical breakdown of what went wrong for the opening hours of the Forever beta. \"It's not a P"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking",
+        "secondary_keywords": [
+          "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking date de sortie",
+          "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking plateformes",
+          "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking gameplay",
+          "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking guide",
+          "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-brad-pitt-to-return-for-world-war-z-sequel-from-conclav-0a1f3f51be5b",
+      "topic": "Brad Pitt to return for World War Z sequel from Conclave director",
+      "detected_at": "2026-09-19T08:50:47.512384+00:00",
+      "analysed_at": "2026-09-29T09:03:17.141390+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/sci-fi-movies/brad-pitt-to-return-for-world-war-z-sequel-from-conclave-director/",
+          "title": "Brad Pitt to return for World War Z sequel from Conclave director",
+          "evidence": "<article> <p>Paramount's previously announced World War Z movie is officially moving ahead with Brad Pitt to return as hero Gerry Lane.</p><p>According to <a href=\"https://deadline.com/2026/09/brad-pitt-the-riders-edward-berger-world-war-z-2-1237106804/\" target=\"_blank\">Deadline</a>, All Quiet on the Western Front and Conclave director Edward Berger is set to helm the pic. British playwright Dennis Kelley will pen the script. <a href=\"https://www.gamesradar.com/entertainment/action-movies/paramount-says-streaming-movies-are-not-a-priority-at-the-studio-and-is-instead-going-all-in-on-top-gun-3-star-trek-and-a-new-world-war-z-movie/\">Paramount announced the sequel in 2025</a>, citing it as a top priority for the studio.</p><p>The 2013 sci-fi action thriller, based on the bestselling Max Brooks novel World War Z: An Oral History of the Zombie War, sees a deadly virus break out across the globe and turn humankind into zombies. It's up to former United Nations investigator Gerry (Pitt) to search for a cure. Marc Forster directs from a screenplay penned by Matthew Michael Carnahan, Drew Goddard<u>,</u> and Damon Lindelof. The cast includes Peter Capaldi, Ruth Negga, Mireille Enos, James "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Brad Pitt to return for World War Z sequel from Conclave director",
+        "secondary_keywords": [
+          "Brad Pitt to return for World War Z sequel from Conclave director date de sortie",
+          "Brad Pitt to return for World War Z sequel from Conclave director plateformes",
+          "Brad Pitt to return for World War Z sequel from Conclave director gameplay",
+          "Brad Pitt to return for World War Z sequel from Conclave director guide",
+          "Brad Pitt to return for World War Z sequel from Conclave director avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Brad Pitt to return for World War Z sequel from Conclave director"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-as-final-fantasy-resonance-drops-its-gacha-baggage-anot-dc505843d5b2",
+      "topic": "As Final Fantasy Resonance drops its gacha baggage, another JRPG dev doing the same thinks it's \"wonderful\" these live-service games will be preserved",
+      "detected_at": "2026-09-19T08:50:47.512578+00:00",
+      "analysed_at": "2026-09-29T09:03:17.141441+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/jrpg/as-final-fantasy-resonance-drops-its-gacha-baggage-another-jrpg-dev-doing-the-same-thinks-its-wonderful-these-live-service-games-will-be-preserved/",
+          "title": "As Final Fantasy Resonance drops its gacha baggage, another JRPG dev doing the same thinks it's \"wonderful\" these live-service games will be preserved",
+          "evidence": "<article> <p>Another Eden Begins follows <a href=\"https://www.gamesradar.com/games/final-fantasy/final-fantasy-resonance-is-part-of-a-resurgence-of-turn-based-rpgs-and-jrpgs-lead-dev-says-who-wants-to-capture-the-appeal-of-the-classics/\">Final Fantasy Resonance</a> and <a href=\"https://www.gamesradar.com/games/jrpg/octopath-traveler-0-review/\">Octopath Traveler 0</a> in a line of JRPGs based on online mobile games that have been forever preserved through premium-release adaptations, and producer Shinnosuke Hirasawa says it's \"wonderful\" to see them escape the live-service reaper.</p><p>Speaking with <a href=\"https://automaton-media.com/en/news/another-eden-begins-dev-wasnt-surprised-by-ff-resonance-and-octopath-traveler-0-making-the-same-move-from-live-service-to-console-rpgs-were-all-thinking-the-same-way/\" target=\"_blank\">Automaton</a>, Hirasawa, who oversaw the overhaul of Another Eden: The Cat Beyond Time and Space, says it was no surprise to see other developers arrive at the same plan. </p><p>\"Live-service games have the inherent issue that once services are terminated, they become unplayable,\" Hirasawa reasons. \"Also, when a game continues for a long time, it’s common for th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "As Final Fantasy Resonance drops its gacha baggage, another JRPG dev doing the same thinks it's \"wonderful\" these live-service games will be preserved",
+        "secondary_keywords": [
+          "As Final Fantasy Resonance drops its gacha baggage, another JRPG dev doing the same thinks it's \"wonderful\" these live-service games will be preserved date de sortie",
+          "As Final Fantasy Resonance drops its gacha baggage, another JRPG dev doing the same thinks it's \"wonderful\" these live-service games will be preserved plateformes",
+          "As Final Fantasy Resonance drops its gacha baggage, another JRPG dev doing the same thinks it's \"wonderful\" these live-service games will be preserved gameplay",
+          "As Final Fantasy Resonance drops its gacha baggage, another JRPG dev doing the same thinks it's \"wonderful\" these live-service games will be preserved guide",
+          "As Final Fantasy Resonance drops its gacha baggage, another JRPG dev doing the same thinks it's \"wonderful\" these live-service games will be preserved avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "As Final Fantasy Resonance drops its gacha baggage, another JRPG dev doing the same thinks it's \"wonderful\" these live-service games will be preserved"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-diablo-himself-is-the-reason-diablo-5-is-coming-instead-c46f60cc9201",
+      "topic": "Diablo himself is the reason Diablo 5 is coming instead of more Diablo 4 expansions, says project lead: \"We needed to give him his own game\"",
+      "detected_at": "2026-09-19T08:50:47.512831+00:00",
+      "analysed_at": "2026-09-29T09:03:17.141494+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/diablo-himself-is-the-reason-diablo-5-is-coming-instead-of-more-diablo-4-expansions-says-project-lead-we-needed-to-give-him-his-own-game/",
+          "title": "Diablo himself is the reason Diablo 5 is coming instead of more Diablo 4 expansions, says project lead: \"We needed to give him his own game\"",
+          "evidence": "<article> <p>The unveiling of <a href=\"https://www.gamesradar.com/games/diablo/diablo-5-guide/\">Diablo 5</a> during <a href=\"https://www.gamesradar.com/news/live/blizzcon-2026-everything-announced/\">BlizzCon 2026</a> prompted a range of reactions from oohs and aahs to disappointment at the confirmation that <a href=\"https://www.gamesradar.com/games/diablo/diablo-4-lord-of-hatred-is-the-games-final-expansion-as-blizzard-focuses-on-getting-to-diablo-5/\">the surprise sequel means no more expansions for Diablo 4</a>. Diablo 4 currently has two expansions, 2024's Vessel of Hatred and this year's Lord of Hatred, and there won't be any more as Blizzard focuses on getting Diablo 5 out the door by its planned release window of spring 2029. The game will still get regular seasonal updates, like the wonderfully nostalgic Season of Hell's Legacy, but full-blown expansions are officially in the rear view for Diablo 4.</p><p>We haven't seen much of Diablo 5 yet, but one big departure from series convention is the complete removal of towns and safe zones, which ties into the narrative premise about Diablo having won the big war against humanity before the story kicks off. Even with such a big cha"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Diablo himself is the reason Diablo 5 is coming instead of more Diablo 4 expansions, says project lead: \"We needed to give him his own game\"",
+        "secondary_keywords": [
+          "Diablo himself is the reason Diablo 5 is coming instead of more Diablo 4 expansions, says project lead: \"We needed to give him his own game\" date de sortie",
+          "Diablo himself is the reason Diablo 5 is coming instead of more Diablo 4 expansions, says project lead: \"We needed to give him his own game\" plateformes",
+          "Diablo himself is the reason Diablo 5 is coming instead of more Diablo 4 expansions, says project lead: \"We needed to give him his own game\" gameplay",
+          "Diablo himself is the reason Diablo 5 is coming instead of more Diablo 4 expansions, says project lead: \"We needed to give him his own game\" guide",
+          "Diablo himself is the reason Diablo 5 is coming instead of more Diablo 4 expansions, says project lead: \"We needed to give him his own game\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Diablo himself is the reason Diablo 5 is coming instead of more Diablo 4 expansions, says project lead: \"We needed to give him his own game\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-blood-of-dawnwalker-one-of-the-year-s-top-rpgs-was--aa4362bbfa96",
+      "topic": "The Blood of Dawnwalker, one of the year's top RPGs, was made on a budget of $40 million much like Kingdom Come: Deliverance 2",
+      "detected_at": "2026-09-19T08:50:47.513084+00:00",
+      "analysed_at": "2026-09-29T09:03:17.141540+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/the-blood-of-dawnwalker-one-of-the-years-top-rpgs-was-made-on-a-budget-of-usd40-million-much-like-kingdom-come-deliverance-2/",
+          "title": "The Blood of Dawnwalker, one of the year's top RPGs, was made on a budget of $40 million much like Kingdom Come: Deliverance 2",
+          "evidence": "<article> <p>The Blood of Dawnwalker, the newly released vampire RPG from the new studio led by The Witcher 3 director Konrad Tomaszkiewicz, was made on a budget of $40 million under NetEase.</p><p>That's according to a new article from <a href=\"https://www.bloomberg.com/news/newsletters/2026-09-18/the-40-million-journey-behind-the-blood-of-dawnwalker?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4OTc0MzY1OSwiZXhwIjoxNzkwMzQ4NDU5LCJhcnRpY2xlSWQiOiJUTEtDODFLSVVQU0UwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.5RFF7A8gol5xk6ZSnpHpdSI48PiaLrkfGmmO3TfAURU&leadSource=article-gifting\" target=\"_blank\"><u>Bloomberg</u></a> covering the game's development. The budget is the standout: Chinese company NetEase gained a 26% investment in The Blood of Dawnwalker developer Rebel Wolves and set its budget, while Bandai Namco ultimately stepped in as the game's publisher. In 2024, NetEase found a big hit in Marvel Rivals, which remains a popular multiplayer shooter. </p><p>This $40 million figure is significant for a few reasons, though it doesn't tell the whole story about The Blood of Dawnwalker's development or"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Blood of Dawnwalker, one of the year's top RPGs, was made on a budget of $40 million much like Kingdom Come: Deliverance 2",
+        "secondary_keywords": [
+          "The Blood of Dawnwalker, one of the year's top RPGs, was made on a budget of $40 million much like Kingdom Come: Deliverance 2 date de sortie",
+          "The Blood of Dawnwalker, one of the year's top RPGs, was made on a budget of $40 million much like Kingdom Come: Deliverance 2 plateformes",
+          "The Blood of Dawnwalker, one of the year's top RPGs, was made on a budget of $40 million much like Kingdom Come: Deliverance 2 gameplay",
+          "The Blood of Dawnwalker, one of the year's top RPGs, was made on a budget of $40 million much like Kingdom Come: Deliverance 2 guide",
+          "The Blood of Dawnwalker, one of the year's top RPGs, was made on a budget of $40 million much like Kingdom Come: Deliverance 2 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Blood of Dawnwalker, one of the year's top RPGs, was made on a budget of $40 million much like Kingdom Come: Deliverance 2"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-last-of-us-director-apologizes-for-using-god-of-war-5628feb24db1",
+      "topic": "The Last of Us director apologizes for using God of War Laufey as an example of \"lack\" of innovation in AAA: \"This isn't the team's fault\"",
+      "detected_at": "2026-09-19T08:50:47.513345+00:00",
+      "analysed_at": "2026-09-29T09:03:17.141587+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/god-of-war/the-last-of-us-director-apologizes-for-using-god-of-war-laufey-as-an-example-of-lack-of-innovation-in-aaa-this-isnt-the-teams-fault/",
+          "title": "The Last of Us director apologizes for using God of War Laufey as an example of \"lack\" of innovation in AAA: \"This isn't the team's fault\"",
+          "evidence": "<article> <p>Naughty Dog veteran Bruce Straley has issued a public apology to the <a href=\"https://www.gamesradar.com/god-of-war-laufey-guide/\"><u>God of War Laufey</u></a> developers at Santa Monica Studio after using the game to illustrate how AAA production has stagnated in an interview with Edge, as part of a feature now available to read in the magazine's Knowledge <a href=\"https://www.gamesradar.com/newsletter/\"><u>newsletter</u></a>. </p><p>\"I want to apologize to the Laufey team for dragging you all into this uninvited & unnecessary negative attention,\" Straley writes <a href=\"https://x.com/bruce_straley/status/2100959840080404712\" target=\"_blank\"><u>in a September 18 Twitter post</u></a>. \"I was trying to illustrate an industry concern & my mistake of naming your game is being used out of context & for clickbait. You don't need this. I'm sorry.\" </p><p>Let me remind you of <a href=\"https://www.gamesradar.com/games/god-of-war/the-last-of-us-game-director-says-aaa-games-have-gotten-boring-and-hes-not-excited-looking-at-god-of-war-laufey-gameplay/\"><u>the original context</u></a>. Straley spoke to Edge for issue 428 – <a href=\"https://www.magazinesdirect.com/uk/single-issues/"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Last of Us director apologizes for using God of War Laufey as an example of \"lack\" of innovation in AAA: \"This isn't the team's fault\"",
+        "secondary_keywords": [
+          "The Last of Us director apologizes for using God of War Laufey as an example of \"lack\" of innovation in AAA: \"This isn't the team's fault\" date de sortie",
+          "The Last of Us director apologizes for using God of War Laufey as an example of \"lack\" of innovation in AAA: \"This isn't the team's fault\" plateformes",
+          "The Last of Us director apologizes for using God of War Laufey as an example of \"lack\" of innovation in AAA: \"This isn't the team's fault\" gameplay",
+          "The Last of Us director apologizes for using God of War Laufey as an example of \"lack\" of innovation in AAA: \"This isn't the team's fault\" guide",
+          "The Last of Us director apologizes for using God of War Laufey as an example of \"lack\" of innovation in AAA: \"This isn't the team's fault\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Last of Us director apologizes for using God of War Laufey as an example of \"lack\" of innovation in AAA: \"This isn't the team's fault\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-suck-at-overwatch-but-i-was-dominating-with-new-hero--b2f5651b8104",
+      "topic": "I suck at Overwatch but I was dominating with new hero Doctrine, so I smell a nerf coming",
+      "detected_at": "2026-09-19T08:50:47.513668+00:00",
+      "analysed_at": "2026-09-29T09:03:17.141661+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fps/i-suck-at-overwatch-but-i-was-dominating-with-new-hero-doctrine-so-i-smell-a-nerf-coming/",
+          "title": "I suck at Overwatch but I was dominating with new hero Doctrine, so I smell a nerf coming",
+          "evidence": "<article> <p>Whenever I play Overwatch with my friends and actually contribute to our success, I'm treated like a child who's 'helping' his parents put away groceries and manages to put the cheese in the right fridge drawer for a change. In short, I suck.</p><p>Even when I'm in the zone as my main man, Reinhardt, I'm not sure I've ever gotten MVP in the hundreds of matches I've played over the years. It was to my great surprise, then, that I found myself dominating as new support hero Doctrine over the weekend at <a href=\"https://www.gamesradar.com/news/live/blizzcon-2026-everything-announced/\"><u>BlizzCon 2026</u></a>.</p><p>Don't get me wrong; I still didn't get MVP in the handful of matches I played. But I was surprisingly competent for someone who A) sucks, and B) had never played Doctrine before. Even without much time to get a good handle on the hero's moves, Doctrine's primary ranged attack, speed, and healing speed-buffing drones were so intuitive that my Quick Play performance made me feel like I <em>wasn't </em>being carried for once.</p><p>Unfortunately, I have a hunch that I didn't suddenly 'git gud', synchronizing with Doctrine's life energy as a lover of all things va"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I suck at Overwatch but I was dominating with new hero Doctrine, so I smell a nerf coming",
+        "secondary_keywords": [
+          "I suck at Overwatch but I was dominating with new hero Doctrine, so I smell a nerf coming date de sortie",
+          "I suck at Overwatch but I was dominating with new hero Doctrine, so I smell a nerf coming plateformes",
+          "I suck at Overwatch but I was dominating with new hero Doctrine, so I smell a nerf coming gameplay",
+          "I suck at Overwatch but I was dominating with new hero Doctrine, so I smell a nerf coming guide",
+          "I suck at Overwatch but I was dominating with new hero Doctrine, so I smell a nerf coming avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I suck at Overwatch but I was dominating with new hero Doctrine, so I smell a nerf coming"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-everything-announced-at-big-autumn-warhammer-preview-20-44cad31f5548",
+      "topic": "Everything announced at Big Autumn Warhammer Preview 2026, from Legion of the Damned to a brand-new paint range",
+      "detected_at": "2026-09-19T08:50:47.515039+00:00",
+      "analysed_at": "2026-09-29T09:03:17.141709+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/news/live/everything-announced-at-big-autumn-warhammer-preview-2026/",
+          "title": "Everything announced at Big Autumn Warhammer Preview 2026, from Legion of the Damned to a brand-new paint range",
+          "evidence": "<article> <div class=\"live-content\"><p>The Big Autumn Warhammer Preview wasn't exaggerating with its name; there was a <em>lot </em>of announcements being thrown down throughout the show with the speed and fury of a bolt rifle. The return of a mythical, forgotten Space Marine army, an all-new Age of Sigmar faction, and a D&D-style tabletop RPG set in the 40K universe are just the beginning. </p><p>Because a lot was shown off during the live stream, I've rounded up everything you need to know about the Big Autumn Warhammer Preview in bite-size format right here. I've also split each announcement up into sections, so it's easier to browse. </p><p>Before we get started, a quick note on availability: don't expect these releases to go up for pre-order yet. While we can expect them to appear at the Warhammer store (or for a discount at indie retailers like <a href=\"https://www.miniaturemarket.com/\">Miniature Market</a> and <a href=\"https://www.waylandgames.co.uk/\">Wayland Games</a>) in the not-so-distant future, they'll probably show up in drips and drabs over the next few months. Stand down those wallets, and just enjoy the reveals for now!</p><div class=\"youtube-video\" data-nosnippet >"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Everything announced at Big Autumn Warhammer Preview 2026, from Legion of the Damned to a brand-new paint range",
+        "secondary_keywords": [
+          "Everything announced at Big Autumn Warhammer Preview 2026, from Legion of the Damned to a brand-new paint range date de sortie",
+          "Everything announced at Big Autumn Warhammer Preview 2026, from Legion of the Damned to a brand-new paint range plateformes",
+          "Everything announced at Big Autumn Warhammer Preview 2026, from Legion of the Damned to a brand-new paint range gameplay",
+          "Everything announced at Big Autumn Warhammer Preview 2026, from Legion of the Damned to a brand-new paint range guide",
+          "Everything announced at Big Autumn Warhammer Preview 2026, from Legion of the Damned to a brand-new paint range avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Everything announced at Big Autumn Warhammer Preview 2026, from Legion of the Damned to a brand-new paint range"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    }
+  ]
 }

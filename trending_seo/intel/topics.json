@@ -1,85 +1,7 @@
 {
   "version": "1.1",
-  "updated_at": "2026-09-28T08:57:42.662888+00:00",
+  "updated_at": "2026-09-29T09:03:16.608877+00:00",
   "topics": [
-    {
-      "id": "witcher3-remastered-gamescom-2026",
-      "topic": "The Witcher 3: Wild Hunt Remastered",
-      "detected_at": "2026-08-30T00:00:00+02:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "official",
-          "url": "https://www.gamescom.global/en",
-          "title": "The Witcher 3: Wild Hunt — Remastered | Official Announcement Trailer",
-          "evidence": "Gamescom lists the CD PROJEKT RED remaster announcement trailer among its Opening Night Live 2026 trailers."
-        },
-        {
-          "type": "official",
-          "url": "https://www.gamescom.global/en/gamescom-award-2026-the-winners-are",
-          "title": "gamescom award 2026: the winners are!",
-          "evidence": "The Witcher 3 Remastered and Songs of the Past won the consumer-voted Best Trailer / Announcement award."
-        }
-      ],
-      "keywords": [
-        "The Witcher 3 Remastered",
-        "The Witcher 3 Remastered date de sortie",
-        "The Witcher 3 Remastered nouveautés",
-        "The Witcher 3 Remastered PS5",
-        "The Witcher 3 Remastered Xbox",
-        "The Witcher 3 Remastered PC"
-      ],
-      "notes": "Official Gamescom evidence confirms the remaster announcement and a consumer-voted award. No release date should be assumed unless separately verified.",
-      "status": "new"
-    },
-    {
-      "id": "rss-after-forza-horizon-fable-devs-wanted-to-prove-we-could-237511a2fc10",
-      "topic": "After Forza Horizon, Fable devs wanted to prove \"we could cut it in a different genre,\" lead says: \"There was a little bit of pride\"",
-      "detected_at": "2026-09-19T08:50:47.511679+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/rpg/after-forza-horizon-fable-devs-wanted-to-prove-we-could-cut-it-in-a-different-genre-lead-says-there-was-a-little-bit-of-pride/",
-          "title": "After Forza Horizon, Fable devs wanted to prove \"we could cut it in a different genre,\" lead says: \"There was a little bit of pride\"",
-          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/fable-4-release-date-news-rumours/\">Next year's big Fable revival</a> is being handled by Playground Games, the Xbox-owned studio behind the Forza Horizon series, taking over from Lionhead Studios. The developer just launched <a href=\"https://www.gamesradar.com/forza-horizon-6-guide/\">Forza Horizon 6</a> to near universal acclaim this year, but now it's set to release Fable on February 23, 2027, and everyone's eager to see what a fantasy RPG from a beloved franchise looks and plays like when it's designed by a team that's only ever made racing games. </p><p>The choice of Playground Games as Fable's developer might seem like an odd one at first blush, but from the perspective of the studio, it's an opportunity for them to prove themselves in a completely different space.</p><p>\"I think there was a little bit of pride in proving we could cut it in a different genre,\" Playground co-founder and Fable game director Ralph Fulton tells <a href=\"https://www.theguardian.com/games/2026/sep/15/we-were-bored-of-traditional-fantasy-cliches-inside-playground-games-10-year-effort-to-revive-fable\" target=\"_blank\">The Guardian</a>, who points out the"
-        }
-      ],
-      "keywords": [
-        "After Forza Horizon, Fable devs wanted to prove \"we could cut it in a different genre,\" lead says: \"There was a little bit of pride\"",
-        "After Forza Horizon, Fable devs wanted to prove \"we could cut it in a different genre,\" lead says: \"There was a little bit of pride\" date de sortie",
-        "After Forza Horizon, Fable devs wanted to prove \"we could cut it in a different genre,\" lead says: \"There was a little bit of pride\" plateformes",
-        "After Forza Horizon, Fable devs wanted to prove \"we could cut it in a different genre,\" lead says: \"There was a little bit of pride\" gameplay",
-        "After Forza Horizon, Fable devs wanted to prove \"we could cut it in a different genre,\" lead says: \"There was a little bit of pride\" guide",
-        "After Forza Horizon, Fable devs wanted to prove \"we could cut it in a different genre,\" lead says: \"There was a little bit of pride\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-valve-devs-can-t-believe-we-get-away-with-such-small-up-f58bf0830ce7",
-      "topic": "Valve devs \"can't believe we get away\" with such small updates for Team Fortress 2 and Counter-Strike, ex-writer says",
-      "detected_at": "2026-09-19T08:50:47.511908+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/fps/valve-devs-cant-believe-we-get-away-with-such-small-updates-for-team-fortress-2-and-counter-strike-ex-writer-says/",
-          "title": "Valve devs \"can't believe we get away\" with such small updates for Team Fortress 2 and Counter-Strike, ex-writer says",
-          "evidence": "<article> <p>If you're among the legions of Counter-Strike and <a href=\"https://www.reddit.com/r/tf2/comments/1uqhulf/can_we_agree_to_never_call_these_kinds_of_updates/\" target=\"_blank\">Team Fortress 2 players</a> who've ever wondered why those games have historically gotten much smaller updates than other games owned by Valve, you can at least take comfort in knowing that a veteran of the studio who left back in 2017 was equally perplexed.</p><p>Chet Faliszek, who was a Valve writer from 2004 to 2017 and worked on Half-Life, Portal, Team Fortress, Counter-Strike, and Left 4 Dead, for which he was co-project lead, says in a new video that the teams dedicated to working on Counter-Strike and Team Fortress 2 were often pleasantly surprised by player response to meager updates when other Valve games were getting much more substantial expansions. In the video, Faliszek is responding to a question about \"how small updates are\" for Counter-Strike and Team Fortress 2 specifically, and he shares this little insight:</p><p>\"Even at Valve, we'd be like, 'I can't believe we get away with this',\" says Faliszek. \"Like, we're not getting away with it like we're trying to hoodwink you, but these "
-        }
-      ],
-      "keywords": [
-        "Valve devs \"can't believe we get away\" with such small updates for Team Fortress 2 and Counter-Strike, ex-writer says",
-        "Valve devs \"can't believe we get away\" with such small updates for Team Fortress 2 and Counter-Strike, ex-writer says date de sortie",
-        "Valve devs \"can't believe we get away\" with such small updates for Team Fortress 2 and Counter-Strike, ex-writer says plateformes",
-        "Valve devs \"can't believe we get away\" with such small updates for Team Fortress 2 and Counter-Strike, ex-writer says gameplay",
-        "Valve devs \"can't believe we get away\" with such small updates for Team Fortress 2 and Counter-Strike, ex-writer says guide",
-        "Valve devs \"can't believe we get away\" with such small updates for Team Fortress 2 and Counter-Strike, ex-writer says avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-the-craziest-numbers-i-ve-seen-in-17-years-working-at-b-365b474133df",
       "topic": "\"The craziest numbers I've seen in 17 years working at Blizzard\": WoW Forever devs seem genuinely shocked the beta is so popular as they explain why their MMO servers keep breaking",
@@ -5788,6 +5710,294 @@
         "The spiritual successor to classic JRPG Wild Arms has seemingly been cancelled, four years after its Kickstarter raised nearly $3 million gameplay",
         "The spiritual successor to classic JRPG Wild Arms has seemingly been cancelled, four years after its Kickstarter raised nearly $3 million guide",
         "The spiritual successor to classic JRPG Wild Arms has seemingly been cancelled, four years after its Kickstarter raised nearly $3 million avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-diablo-4-seasons-will-continue-even-after-diablo-5-laun-023cc4ca687c",
+      "topic": "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms",
+      "detected_at": "2026-09-29T09:03:16.605701+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/diablo-4-seasons-will-continue-after-diablo-5-launches-similar-to-diablo-2-and-3-blizzard-confirms/",
+          "title": "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms",
+          "evidence": "<article> <p>With the surprise announcement of <a href=\"https://www.gamesradar.com/games/diablo/diablo-5-guide/\">Diablo 5</a> at <a href=\"https://www.gamesradar.com/news/live/blizzcon-2026-everything-announced/\">BlizzCon 2026</a>, some fans of the series are left with a bittersweet feeling. Sure, a new game sounds great, and with <a href=\"https://www.gamesradar.com/games/diablo/diablo-4s-nostalgic-new-season-has-convinced-me-that-we-need-a-diablo-1-remake-more-than-diablo-5/\">Diablo 5 looking like the darkest entry in the series since OG Diablo</a>, it <em>does </em>look great. But what does that mean for Diablo 4, which is only three years old? Well, <a href=\"https://www.gamesradar.com/games/diablo/diablo-4-lord-of-hatred-is-the-games-final-expansion-as-blizzard-focuses-on-getting-to-diablo-5/\">Blizzard itself has confirmed it means no more Diablo 4 expansions</a>, but the developer has made it clear seasonal updates will continue despite Diablo 5 being the apparent main focus within Blizzard's Diablo team. But with Diablo 4 seasons being as meaty as they are these days, <a href=\"https://www.gamesradar.com/games/diablo/almost-all-of-diablo-1-has-been-recreated-in-a-new-diablo-4-ac"
+        }
+      ],
+      "keywords": [
+        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms",
+        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms date de sortie",
+        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms plateformes",
+        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms gameplay",
+        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms guide",
+        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-cyberpunk-2077-dev-doesn-t-think-phantom-liberty-s-succ-9aee33fbf9dd",
+      "topic": "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game",
+      "detected_at": "2026-09-29T09:03:16.605921+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/cyberpunk/cyberpunk-2077-designer-doesnt-think-phantom-libertys-success-erases-the-terrible-launch-of-the-base-game/",
+          "title": "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/cyberpunk-2077-guide/\">Cyberpunk 2077</a>'s redemption arc is long complete, 2023's acclaimed <a href=\"https://www.gamesradar.com/uk/cyberpunk-2077-phantom-liberty/\">Phantom Liberty</a> expansion cementing the RPG's legacy as one of this generation's all-time greats. Even as I sit here in 2026 writing this, it's still jarring to talk about Cyberpunk 2077 in such a uniformly positive light, and that's because I was doing this exact same job back in December 2020 when the game finally launched after multiple delays... and got absolutely dragged through the mud. We have a curated list of the <a href=\"https://www.gamesradar.com/cyberpunk-2077-bugs/\">best Cyberpunk 2077 bugs</a> we could find at the time, if that gives you an idea of the state of the game at launch.</p><p>Shortly after launch, developer CD Projekt Red began rapid firing patches and updates at Cyberpunk 2077 in an effort to address widespread performance and technical issues, culminating in the massive <a href=\"https://www.gamesradar.com/five-reasons-i-am-redownloading-cyberpunk-2077-for-patch-15/\">1.5 \"next-gen\" update</a> that really marked a turning point in the game's "
+        }
+      ],
+      "keywords": [
+        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game",
+        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game date de sortie",
+        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game plateformes",
+        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game gameplay",
+        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game guide",
+        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-amid-ps5-pro-shortage-sony-implements-a-lottery-system--bd988c0e9096",
+      "topic": "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime",
+      "detected_at": "2026-09-29T09:03:16.606136+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/amid-ps5-pro-shortage-sony-implements-a-lottery-system-in-japan-that-requires-60-hours-of-playtime/",
+          "title": "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime",
+          "evidence": "<article> <p>Since the RAM shortage <a href=\"https://www.gamesradar.com/hardware/ram-shortage-shoves-ps5-xbox-and-nintendos-us-sales-to-a-july-low-not-seen-since-2020-as-price-concerns-linger-analyst-says/\">seems to be neverending</a>, PlayStation has had no choice but to separate the Real Gamers from the boys while preparing its PS5 Pro lottery system in Japan. Anyone who participates will be required to have at least 60 hours of playtime on their Sony account since 2024.</p><p>Video game industry update account <a href=\"https://x.com/Genki_JPN/status/2104395673944932371\" target=\"_blank\">Genki translates</a> a Japanese <a href=\"https://www.playstation.com/ja-jp/local/campaigns/ps5-pro-register-to-buy/\" target=\"_blank\">PlayStation blog</a> that went live on September 27, explaining that \"PS5 Pro is also facing stock shortages in Japan.\" The latest <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> reveal in August <a href=\"https://www.gamesradar.com/games/grand-theft-auto/ps5-pros-all-but-vanish-after-gta-6-reveal-going-for-up-to-usd1-300-at-the-few-stores-with-stock/\">decimated PS5 Pro stock here in the US</a>, and scalpers worldwide are responding by pricing the upgraded"
+        }
+      ],
+      "keywords": [
+        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime",
+        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime date de sortie",
+        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime plateformes",
+        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime gameplay",
+        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime guide",
+        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-ps5-emulator-updates-have-6-games-fully-playable-at-60--755eef1afb00",
+      "topic": "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind",
+      "detected_at": "2026-09-29T09:03:16.606396+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/ps5-emulator-updates-have-6-games-fully-playable-at-60-fps-and-demons-souls-isnt-far-behind/",
+          "title": "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind",
+          "evidence": "<article> <p>PS5 emulators are already making massive strides in compatibility and performance. A series of recent updates to major PS5 emulation projects have seen more and more games categorized as playable, even including notable AAA releases like Demon's Souls and Astro Bot.</p><p><a href=\"https://sharpemu.app/\" target=\"_blank\">SharpEmu</a> and <a href=\"https://kytyps5.github.io/\" target=\"_blank\">KytyPS5</a> are arguably the two most notable PS5 emulator projects, and they both keep full compatibility lists of tested titles at their respective sites. Take note right now: neither emulator is yet a truly viable way to play PS5 games. You will experience bugs, visual glitches, and performance issues even in the tiny handful of games that actually boot right now.</p><p>But the mere fact that PS5 emulation is even at the fringe of viability right now is, frankly, mind-blowing. A SharpEmu dev who goes by Scarecrow <a href=\"https://x.com/CursedIfElse/status/2103612440143339874\" target=\"_blank\">tweets</a> that \"out of 55 tested games, 12 can now reach in-game, and 6 of them are fully playable at 60 FPS,\" as of the latest update. The titles here are mostly small indie projects and retro"
+        }
+      ],
+      "keywords": [
+        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind",
+        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind date de sortie",
+        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind plateformes",
+        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind gameplay",
+        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind guide",
+        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-path-of-exile-co-creator-is-tentatively-hopeful-diablo--2293655d364a",
+      "topic": "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing",
+      "detected_at": "2026-09-29T09:03:16.606752+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/path-of-exile-co-creator-is-tentatively-hopeful-diablo-5-will-stick-the-landing/",
+          "title": "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing",
+          "evidence": "<article> <p>We haven't seen much of <a href=\"https://www.gamesradar.com/games/diablo/diablo-5-guide/\">Diablo 5</a> yet beyond the cinematic announcement we got at <a href=\"https://www.gamesradar.com/news/live/blizzcon-2026-everything-announced/\">BlizzCon 2026</a>, but Blizzard has been leaving a trail of breadcrumbs indicating a dramatic departure from previous entries in the series, and in other cases, a return to its roots. I've written at some length about how <a href=\"https://www.gamesradar.com/games/diablo/diablo-5-is-blizzards-darkest-arpg-yet-and-thats-the-best-way-to-honor-the-game-that-changed-my-life-30-years-ago/\">Blizzard is doubling down on the Diablo series' trademark darkness and why that's the best way to pay tribute to the original 1996 action RPG</a>, and now Path of Exile co-creator Chris Wilson is pointing out a few more clues that seem to suggest Diablo 5 is taking inspiration from its early forbearers.</p><p>Of course, Path of Exile wouldn't exist without Diablo 1 and 2, so Wilson has a thoroughly documented obsession with those iconic ARPGs. He's also been outspoken about not having clicked with Diablo 3 and 4 for various reasons, and in a new video, he expl"
+        }
+      ],
+      "keywords": [
+        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing",
+        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing date de sortie",
+        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing plateformes",
+        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing gameplay",
+        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing guide",
+        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-witcher-3-remaster-overhauls-skill-trees-adds-new-q-7814114d6118",
+      "topic": "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals",
+      "detected_at": "2026-09-29T09:03:16.606932+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-witcher/the-witcher-3-remaster-overhauls-skill-trees-adds-new-quest-markers-brings-a-mode-to-reduce-cognitive-load-and-more-cd-projekt-red-reveals-in-patch-notes/",
+          "title": "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals",
+          "evidence": "<article> <p>The remaster of <a href=\"https://www.gamesradar.com/uk/the-witcher-3-wild-hunt/\">The Witcher 3</a>: Wild Hunt comes out tomorrow, and CD Projekt Red has released a <a href=\"https://www.thewitcher.com/es/en/news/52041/see-whats-new-in-the-witcher-3-wild-hunt-remastered\" target=\"_blank\">list of the most notable changes</a> you'll find in the mammoth RPG. You've got plenty of audio and visual improvements, of course, but there are some deeper tweaks to be mindful of, too.</p><p>One such example is in the skill trees. \"Skills are now organized into a skill tree and each skill has three ranks,\" read the notes. \"Unlocking new skills now requires having the necessary prerequisite skills rather than spending a set number of skill points.\"</p><p>Your existing skill points will be reset if you're importing a save file, so be wary of that, and several of the skills have been renamed to be more appropriate to what they represent. No examples are given, so it'll be worth scanning through to re-orientate yourself across your entire build.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-no"
+        }
+      ],
+      "keywords": [
+        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals",
+        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals date de sortie",
+        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals plateformes",
+        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals gameplay",
+        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals guide",
+        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-ps5-survival-horror-everyone-thought-hideo-kojima-was-w-b3da1a920e84",
+      "topic": "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store",
+      "detected_at": "2026-09-29T09:03:16.607191+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/survival-horror/after-5-controversial-years-ps5-survival-horror-everyone-thought-hideo-kojima-was-working-on-returns-to-the-playstation-store-with-death-stranding-references-intact/",
+          "title": "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store",
+          "evidence": "<article> <p>Strange things are happening to a strange game – Abandoned, the survival horror shooter indie studio Blue Box Game first announced in 2021 and initially planned to release that same year, is suddenly back on the PlayStation store after the PS5-exclusive was previously taken down, and then added back, and taken down, and… </p><p>Some people think of Abandoned as <a href=\"https://www.youtube.com/watch?v=RyqwKO8qjtM\" target=\"_blank\"><u>\"The Survival Horror Game That Never Existed,\"</u></a> because, well, it doesn't exist. Blue Box <a href=\"https://x.com/BBGameStudios/status/1509591396084326413\" target=\"_blank\"><u>delayed the game indefinitely in 2022</u></a>, saying, \"We will continue to work on the game and we will notify you when we are ready.\" That hasn't happened yet. So, while the game's latest <a href=\"https://store.playstation.com/en-us/concept/10002968\" target=\"_blank\"><u>PlayStation store listing</u></a> carries what should be an intriguing 2027 release window, its game description is still too sparse to inspire new confidence: \"Abandoned is a horror survival shooter with the focus on realism.\" </p><p>All Abandoned is really doing <a href=\"https://www.reddit.com/"
+        }
+      ],
+      "keywords": [
+        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store",
+        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store date de sortie",
+        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store plateformes",
+        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store gameplay",
+        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store guide",
+        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-doctors-find-that-vr-headsets-can-lower-blood-pressure--59a80303e0fa",
+      "topic": "Doctors find that VR headsets can lower blood pressure and stress levels in an ER",
+      "detected_at": "2026-09-29T09:03:16.607540+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/vr/doctors-experimented-with-gaming-vr-headsets-in-an-er-finding-that-a-few-minutes-in-a-peaceful-virtual-forest-while-listening-to-mozart-can-help-lower-blood-pressure-and-anxiety-for-patients/",
+          "title": "Doctors find that VR headsets can lower blood pressure and stress levels in an ER",
+          "evidence": "<article> <p>Doctors might have just discovered a new use for <a href=\"https://www.gamesradar.com/the-best-vr-headset\">VR headsets</a> normally used for gaming - and to think people complain about this hardware causing motion sickness. In a small independent study, emergency medicine specialists at Ankaha Bilkent City Hospital in Ankara, Turkey, have found that a combination of peaceful VR environments and classical music can lower blood pressure and stress levels more quickly than regular medication. </p><p>\"Patients who arrive in the emergency department with markedly elevated blood pressure—readings of 180 mmHg or higher on the top number, or 110 mmHg or higher on the bottom number—are extremely common\", said Dr. Safa Dönmez, an associate professor of emergency medicine at the University of Health Sciences in Ankara.</p><p>\"The emergency department environment itself—the noise, the bright lights, the uncertainty—can make that worse. This made me wonder: if we could help patients feel calmer, could we also help their blood pressure come down faster?\"</p><p>This led him and his colleagues, including Dr Kadir Yenal, to create and publish a study surrounding the use of VR in this sp"
+        }
+      ],
+      "keywords": [
+        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER",
+        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER date de sortie",
+        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER plateformes",
+        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER gameplay",
+        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER guide",
+        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-gta-6-fans-replicate-the-400-collector-s-box-statue-and-01296567d94d",
+      "topic": "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home",
+      "detected_at": "2026-09-29T09:03:16.607767+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-fans-replicate-the-usd400-collectors-box-statue-and-you-can-now-3d-print-your-own-ugly-gator-at-home/",
+          "title": "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home",
+          "evidence": "<article> <p>Rather than pay $400 for the <a href=\"https://www.gamesradar.com/gta-6-guide/\"><u>GTA 6</u></a> Collector's Box to get it, fans are now downloading and 3D printing the ugly alligator figure included in the bundle. </p><p><a href=\"https://www.gamesradar.com/uk/tag/rockstar-games/\"><u>Rockstar Games</u></a> releases are usually pretty popular, and there's no doubt that it'll sell a ton of copies the second it releases GTA 6 (or anything else) to the public. And with that sort of guaranteed success, it probably makes sense to drop an expensive collector's edition of the game for those who really want to go all-out for it, but uhh… a $400 box that doesn't include the game is probably not the most appealing prospect for many. So much so that scalpers were struggling to get one over on people at first, with the <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-scalpers-are-already-trying-to-resell-rockstars-usd400-collectors-box-for-upwards-of-usd1-500-even-though-its-still-in-stock/\"><u>box remaining in stock for a decent amount of time</u></a>.</p><p>And I can't really say I blame them. It's one thing to drop a massively expensive collector's edition, it's a"
+        }
+      ],
+      "keywords": [
+        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home",
+        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home date de sortie",
+        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home plateformes",
+        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home gameplay",
+        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home guide",
+        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-argos-is-already-the-best-place-to-buy-a-switch-2-in-th-1c91d62000fe",
+      "topic": "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings",
+      "detected_at": "2026-09-29T09:03:16.608088+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/argos-is-already-the-best-place-to-buy-a-switch-2-in-the-uk-and-this-offer-just-sweetens-the-savings/",
+          "title": "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings",
+          "evidence": "<article> <p>Argos is already at the top of my list for UK retailer recommendations if you were to ask me, \"Where should I order my Nintendo Switch 2 from?\" This new limited-time offer just sweetens the deal.</p><p>From today, you can pick up either Pokemon Pokopia, Star Fox, Metroid Prime 4 Beyond, or Cyberpunk 2077 Ultimate Edition for just<a href=\"https://www.argos.co.uk/product/7624867/specialoffers/E49847?\" target=\"_blank\"> £20 (via Argos)</a>, so long as you order it alongside the Switch 2. With titles like Pokopia typically still found between £54 and its full price, this is one of the single <a href=\"https://www.gamesradar.com/cheap-nintendo-switch-bundles-compared/\">best Nintendo Switch bundle deals</a> available today, as no matter what you pick, you're getting the console and a physical game for £374.99. Sounds yummy to me!</p><div class=\"product\"><a data-dimension112=\"dc398866-bb3d-11f1-bedb-0b998b55e2e2\" data-action=\"Deal Block\" data-label=\"Buy Nintendo Switch 2 Console and add a selected game for just £20\" data-dimension48=\"Buy Nintendo Switch 2 Console and add a selected game for just £20\" data-dimension25=\"£374.99\" href=\"https://www.argos.co.uk/product/7624867/speci"
+        }
+      ],
+      "keywords": [
+        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings",
+        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings date de sortie",
+        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings plateformes",
+        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings gameplay",
+        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings guide",
+        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-should-you-eat-the-mold-in-control-resonant-11dff98fdbdc",
+      "topic": "Should you eat the Mold in Control Resonant?",
+      "detected_at": "2026-09-29T09:03:16.608383+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/control-resonant-eat-the-mold/",
+          "title": "Should you eat the Mold in Control Resonant?",
+          "evidence": "<article> <p>To eat the Mold in Control Resonant is a strange choice, but one that is nonetheless provided when you're hunting down the Resonant Boss Fight in The Park. Characters have been repeatedly telling Dylan not to eat the Mold up until this point, but they've not been especially clear about the perils or consequences of doing so, which begs the question... what happens when you do eat it? I'll explain below.</p><p><strong>Warning: The following guide contains spoilers for The Park Resonant questline.</strong></p><h2 class=\"article-body__section\" id=\"section-what-happens-if-you-eat-the-mold-in-control-resonant\"><span>What happens if you eat the Mold in Control Resonant?</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"TuaZvHU9vnQsjHrcNCNYwE\" name=\"Eat the Mold (2)\" alt=\"Eating the Mold in Control Resonant\" src=\"https://cdn.mos.cms.futurecdn.net/TuaZvHU9vnQsjHrcNCNYwE-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"i"
+        }
+      ],
+      "keywords": [
+        "Should you eat the Mold in Control Resonant?",
+        "Should you eat the Mold in Control Resonant? date de sortie",
+        "Should you eat the Mold in Control Resonant? plateformes",
+        "Should you eat the Mold in Control Resonant? gameplay",
+        "Should you eat the Mold in Control Resonant? guide",
+        "Should you eat the Mold in Control Resonant? avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-turtle-beach-s-new-switch-2-animal-crossing-accessories-e5127c1c8d5e",
+      "topic": "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included)",
+      "detected_at": "2026-09-29T09:03:16.608775+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/accessories/turtle-beachs-new-switch-2-animal-crossing-accessories-are-so-stellar-that-they-literally-light-up-case-included/",
+          "title": "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included)",
+          "evidence": "<article> <p>Turtle Beach's new Animal Crossing accessories are an adorable, stellar spectacle. The brand has added not one controller to its repertoire, but two new gamepad designs available for <a href=\"https://www.amazon.com/Wireless-Controller-Crossing-Nintendo-Gaming-Console/dp/B0HCY9FTLP/\" target=\"_blank\">$49.88 each (via Amazon)</a> to its Rematch line-up. They're both cute enough as is, but they each reveal a cute secret pattern once illuminated, including a starry night sky twinkling above the iconic K.K. Slider while he's strumming away. <br><br>The brand has also unveiled a pair of cases, and the K.K. Slider one even matches the dazzling display of its controller counterpart. I fully expected the cases just to be a simple copy-and-paste job, and that is what you'll find with the Timmy Tommy version. However, the glow-in-the-dark K.K Slider model goes the extra mile, and together, they're some of the <a href=\"https://www.gamesradar.com/hardware/accessories/the-best-nintendo-switch-2-accessories/\">best Switch 2 accessories</a> I've seen inspired by New Horizons.</p> <div class=\"featured_product_block featured_block_versus\" data-id=\"8747bf7a-bb48-11f1-be1f-31d776ee95e1\"> <a"
+        }
+      ],
+      "keywords": [
+        "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included)",
+        "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included) date de sortie",
+        "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included) plateformes",
+        "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included) gameplay",
+        "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included) guide",
+        "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included) avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

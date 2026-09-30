@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-09-30T12:28:26.183944+00:00",
+  "generated_at": "2026-09-30T22:12:01.056031+00:00",
   "count": 50,
   "articles": [
+    {
+      "source_id": "59dae103ac8a9a944c75081afb9a90471d8a505a6a2b5cce1d827d1b709bbb3d",
+      "title": "Little Nightmares III : le DLC “The Shores” disponible dès maintenant",
+      "excerpt": "Le nouveau DLC The Shores pour Little Nightmares III arrive enfin, offrant de nouveaux décors aquatiques, un phare inquiétant et des défis mortels, disponible sur toutes les plateformes majeures.",
+      "content": "<p>Le DLC téléchargeable <strong>The Shores</strong> de <em>Little Nightmares III</em> est désormais disponible. Publié par <a href=\"https://gamerquestfr.com/digimon-story-time-stranger-dlc-date-sortie/\">Bandai Namco</a> et développé par Supermassive Games, il s’intègre à l’extension « Secrets of The Spiral ». Voici tout ce que vous devez savoir.</p>\n<h2>Quand le DLC The Shores est-il disponible ?</h2>\n<p>Le contenu « The Shores » est sorti <strong>aujourd’hui</strong>, sans date précise supplémentaire dans le communiqué. Il est immédiatement téléchargeable via les boutiques en ligne des consoles et PC.</p>\n<h2>Sur quelles plateformes le DLC The Shores est-il disponible ?</h2>\n<p>Le DLC est compatible avec toutes les plateformes sur lesquelles <em>Little Nightmares III</em> est présent :</p>\n<ul>\n<li>PlayStation 5</li>\n<li>PlayStation 4</li>\n<li><a href=\"https://gamerquestfr.com/final-fantasy-vii-revelation-date-sortie/\">Xbox Series X|S</a></li>\n<li>Xbox One</li>\n<li>Nintendo Switch</li>\n<li>Nintendo Switch 2</li>\n<li>PC (Steam et Microsoft Store)</li>\n</ul>\n<h2>Que propose le DLC The Shores ?</h2>\n<p>Le nouveau chapitre transporte Low et Alone sur des rivages brumeux où le danger est omniprésent :</p>\n<ul>\n<li><strong>Anchor at the Shores</strong> : les deux protagonistes retrouvent le chemin grâce au phare qui perce le brouillard.</li>\n<li><strong>Run Away From the Leeches</strong> : des rues inondées et des maisons vides laissent place à des sangsues géantes et à un monstre de sangsues qui les guette.</li>\n<li><strong>Take One Last Breath</strong> : pour atteindre le phare, Low et Alone doivent traverser des égouts remplis de tuyaux ouverts, de valves qui crachent de l’eau et de propulseurs tranchants, chaque respiration comptant.</li>\n</ul>\n<p>Le DLC mise sur une atmosphère encore plus oppressante, avec des environnements aquatiques, des effets de lumière du phare et des ennemis qui renforcent le sentiment de vulnérabilité caractéristique de la série.</p>\n<h2>Comment accéder au DLC ?</h2>\n<p>Le contenu fait partie du <em>Secrets of The Spiral</em> expansion pass. Les joueurs possédant déjà ce pass peuvent télécharger « The Shores » directement depuis le magasin de leur console ou de leur PC. Aucun achat supplémentaire n’est requis au-delà du pass.</p>",
+      "slug": "little-nightmares-iii-dlc-the-shores-disponible",
+      "category": "Actualités",
+      "tags": [
+        "Little Nightmares III",
+        "DLC",
+        "The Shores",
+        "Bandai Namco",
+        "Supermassive Games",
+        "Nintendo",
+        "PlayStation",
+        "Xbox"
+      ],
+      "seo": {
+        "seo_title": "Little Nightmares III – DLC The Shores disponible maintenant | Dates, plateformes et contenu",
+        "meta_description": "Le DLC The Shores de Little Nightmares III est disponible dès maintenant sur PS5, Xbox Series, Switch 2, PC et autres plateformes, avec de nouveaux niveaux sombres et un phare menaçant.",
+        "primary_keyword": "Little Nightmares III DLC",
+        "secondary_keywords": [
+          "The Shores",
+          "Bandai Namco",
+          "Supermassive Games",
+          "PS5",
+          "Xbox Series",
+          "Switch 2",
+          "PC"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.gematsu.com/2026/09/little-nightmares-iii-dlc-the-shores-now-available",
+        "title": "Little Nightmares III DLC ‘The Shores’ now available - Gematsu",
+        "published_date": "Tue, 29 Sep 2026 22:00:59 GMT",
+        "domain": "gematsu.com"
+      },
+      "official_source": null,
+      "created_at": "2026-09-30T22:12:00.290300+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/little-nightmares-iii-dlc-the-shores-disponible.jpg",
+        "filename": "little-nightmares-iii-dlc-the-shores-disponible.jpg",
+        "alt": "Little Nightmares III : le DLC “The Shores” disponible dès maintenant - GamerQuest",
+        "caption": "Illustration de l'article « Little Nightmares III : le DLC “The Shores” disponible dès maintenant ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://www.gematsu.com/wp-content/uploads/2026/09/LN3-DLC-The-Shores_09-29-26.jpg"
+      },
+      "platforms": [
+        "Nintendo",
+        "PlayStation",
+        "Xbox"
+      ]
+    },
     {
       "source_id": "ea9beda9c26ef0e54bb5c8a089a370575332a4d391b0e2122e4ca4496859d640",
       "title": "007 First Light : DLC gratuit – détails et perspectives",
@@ -2516,59 +2570,6 @@
         "caption": "Illustration de l'article « Scott Pilgrim EX : nouveau DLC « Back in the Band » à 3,99 $ et mise à jour gratuite « Coin‑Op Chaos » disponibles maintenant ».",
         "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
         "source_image_url": "http://static1.squarespace.com/static/59a2574903596e3462d0bd19/5d8501e97d51593a02c252d5/6a90c8da2df4370f9f28213f/1787873667389/SPEX_BITB_KeyArt_1_1_2160x2160_20260720ghjgh.png?format=1500w"
-      },
-      "platforms": [
-        "Nintendo",
-        "PlayStation",
-        "Xbox"
-      ]
-    },
-    {
-      "source_id": "884384193cc2e4aacc2b5ff821a329bf1d51c8b25da7b65585434e5a5cb30606",
-      "title": "LEGO Skylines : tout ce que l’on sait sur la date de sortie, le gameplay et les plateformes",
-      "excerpt": "LEGO Skylines, le city‑builder en briques, arrive en 2027 sur PC, PS5, Xbox Series X|S et Switch 2. Voici les dernières infos officielles sur sa sortie, son gameplay et ses DLC.",
-      "content": "<p>LEGO Skylines, le nouveau city‑builder développé par Iceflake Studios et publié par Paradox Interactive, a été présenté lors de l’Opening Night Live de Gamescom le 25 août 2026. Voici les informations officielles disponibles à ce jour concernant sa date de sortie, ses plateformes, son gameplay, son prix, le mode <a href=\"https://gamerquestfr.com/roco-kingdom-beta-date-plateformes-gameplay/\">multijoueur</a> et les éventuels DLC.</p>\n<h2>Quelle est la date de sortie de LEGO Skylines ?</h2>\n<p>Paradox Interactive n’a pas encore communiqué de date précise. La page officielle de Nintendo indique toutefois une sortie prévue en <strong>2027</strong>. Tant que Paradox ne publiera pas de fenêtre de lancement officielle, la date reste <em>à confirmer</em>.</p>\n<h2>Sur quelles plateformes sortira LEGO Skylines ?</h2>\n<p>Le jeu sera disponible sur les plateformes suivantes :</p>\n<ul>\n<li>PC (via Steam)</li>\n<li>PlayStation 5</li>\n<li>Xbox Series X|S</li>\n<li>Nintendo Switch 2</li>\n</ul>\n<p>Aucune version pour PlayStation 4, Xbox One ou la première Nintendo Switch n’a été annoncée.</p>\n<h2>Quel sera le prix de LEGO Skylines ?</h2>\n<p>Le prix de lancement n’a pas encore été communiqué par le développeur ou l’éditeur. Aucun détail tarifaire n’est disponible à ce jour.</p>\n<h2>Que sait‑on du gameplay de LEGO Skylines ?</h2>\n<p>LEGO Skylines combine gestion de ville et liberté de construction LEGO. Le joueur débute avec un petit terrain, construit des habitations, puis développe le réseau de routes, d’électricité, d’eau, de nourriture et de services (emplois, parcs, commerces, hôpitaux, collecte des déchets, etc.). Le jeu promet une personnalisation poussée des parcelles et des bâtiments, ainsi qu’une vaste collection de décorations LEGO. Paradox décrit le jeu comme offrant « un espace illimité », bien que les limites techniques exactes restent à préciser.</p>\n<h2>LEGO Skylines proposera‑t‑il du multijoueur ?</h2>\n<p>Le titre est prévu comme une expérience <strong>solo</strong>. Aucun mode <a href=\"https://gamerquestfr.com/call-of-duty-modern-warfare-4-switch-2/\">multijoueur</a> n’a été annoncé.</p>\n<h2>LEGO Skylines aura‑t‑il des DLC ?</h2>\n<p>Paradox a confirmé que le jeu bénéficiera de contenus additionnels après son lancement, incluant à la fois des extensions gratuites et payantes. Les thèmes LEGO, packs de bâtiments et nouvelles mécaniques de ville sont envisagés, mais aucun détail concret n’a encore été publié.</p>",
-      "slug": "lego-skylines-date-de-sortie",
-      "category": "Actualités",
-      "tags": [
-        "LEGO",
-        "City‑builder",
-        "Paradox Interactive",
-        "Iceflake Studios",
-        "Switch 2",
-        "Nintendo",
-        "PlayStation",
-        "Xbox"
-      ],
-      "seo": {
-        "seo_title": "LEGO Skylines : date de sortie, gameplay, plateformes et DLC – tout ce qu’on sait",
-        "meta_description": "Découvrez la date de sortie prévue en 2027, les plateformes (PC, PS5, Xbox Series X|S, Switch 2), le gameplay et les DLC annoncés pour LEGO Skylines, le nouveau city‑builder de Paradox.",
-        "primary_keyword": "LEGO Skylines date de sortie",
-        "secondary_keywords": [
-          "LEGO Skylines plateformes",
-          "LEGO Skylines gameplay",
-          "LEGO Skylines prix",
-          "LEGO Skylines DLC",
-          "LEGO Skylines multijoueur",
-          "LEGO Skylines Paradox"
-        ],
-        "search_intent": "Informational"
-      },
-      "source": {
-        "url": "https://www.gameshub.com/news/article/lego-skylines-everything-we-know-about-the-release-date-gameplay-and-platforms-so-far-2896277",
-        "title": "LEGO Skylines – Everything we know about the release date, gameplay and platforms",
-        "published_date": "Fri, 28 Aug 2026 11:04:47 GMT",
-        "domain": "gameshub.com"
-      },
-      "official_source": null,
-      "created_at": "2026-09-03T00:00:50.690834+00:00",
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/lego-skylines-date-de-sortie.jpg",
-        "filename": "lego-skylines-date-de-sortie.jpg",
-        "alt": "LEGO Skylines : tout ce que l’on sait sur la date de sortie, le gameplay et les plateformes - GamerQuest",
-        "caption": "Illustration de l'article « LEGO Skylines : tout ce que l’on sait sur la date de sortie, le gameplay et les plateformes ».",
-        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
-        "source_image_url": "https://www.gameshub.com/wp-content/uploads/2026/08/lego_skylines.jpg"
       },
       "platforms": [
         "Nintendo",

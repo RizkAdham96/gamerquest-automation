@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-01T15:27:31.511506+00:00",
-  "count": 5,
+  "generated_at": "2026-10-01T21:02:11.768668+00:00",
+  "count": 6,
   "articles": [
     {
-      "source_id": "39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9",
-      "title": "Persona 5 Royal à -70% sur Steam",
-      "excerpt": "Persona 5 Royal bénéficie actuellement d'une réduction de 70% sur Steam, passant de 59,99 € à 17,99 €.",
-      "content": "<p><strong>Persona 5 Royal</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>17,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1687950/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/1687950/",
+      "source_id": "2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754",
+      "title": "Cyberpunk 2077 à -70% sur Steam",
+      "excerpt": "Cyberpunk 2077 bénéficie actuellement d'une réduction de 70% sur Steam, passant de 59,99 € à 17,99 €.",
+      "content": "<p><strong>Cyberpunk 2077</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>17,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1091500/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1091500/",
       "deal": {
-        "game": "Persona 5 Royal",
+        "game": "Cyberpunk 2077",
         "store": "Steam",
         "original_price": 59.99,
         "current_price": 17.99,
@@ -17,55 +17,77 @@
         "expires_at": null
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9.jpg",
-        "filename": "39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9.jpg",
-        "alt": "Persona 5 Royal -70% sur Steam - GamerQuest",
-        "caption": "Persona 5 Royal : offre -70% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Persona 5 Royal sur Steam."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754.jpg",
+        "filename": "2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754.jpg",
+        "alt": "Cyberpunk 2077 -70% sur Steam - GamerQuest",
+        "caption": "Cyberpunk 2077 : offre -70% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Cyberpunk 2077 sur Steam."
       }
     },
     {
-      "source_id": "d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327",
-      "title": "Persona 3 Reload à -70% sur Steam",
-      "excerpt": "Persona 3 Reload bénéficie actuellement d'une réduction de 70% sur Steam, passant de 59,99 € à 17,99 €.",
-      "content": "<p><strong>Persona 3 Reload</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>17,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2161700/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/2161700/",
+      "source_id": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612",
+      "title": "The Elder Scrolls V: Skyrim Special Edition à -90% sur Steam",
+      "excerpt": "The Elder Scrolls V: Skyrim Special Edition bénéficie actuellement d'une réduction de 90% sur Steam, passant de 39,99 € à 3,99 €.",
+      "content": "<p><strong>The Elder Scrolls V: Skyrim Special Edition</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>3,99 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/489830/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/489830/",
       "deal": {
-        "game": "Persona 3 Reload",
+        "game": "The Elder Scrolls V: Skyrim Special Edition",
         "store": "Steam",
-        "original_price": 59.99,
-        "current_price": 17.99,
-        "discount_percent": 70,
+        "original_price": 39.99,
+        "current_price": 3.99,
+        "discount_percent": 90,
         "expires_at": null
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327.jpg",
-        "filename": "d5d208054c7d12754ff5fccc07283a1d94d31ae5d492a6b92d8fa4b05e9d5327.jpg",
-        "alt": "Persona 3 Reload -70% sur Steam - GamerQuest",
-        "caption": "Persona 3 Reload : offre -70% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Persona 3 Reload sur Steam."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
+        "filename": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
+        "alt": "The Elder Scrolls V: Skyrim Special Edition -90% sur Steam - GamerQuest",
+        "caption": "The Elder Scrolls V: Skyrim Special Edition : offre -90% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre The Elder Scrolls V: Skyrim Special Edition sur Steam."
       }
     },
     {
-      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-      "title": "FINAL FANTASY VII REBIRTH à -70% sur Steam",
-      "excerpt": "FINAL FANTASY VII REBIRTH bénéficie actuellement d'une réduction de 70% sur Steam, passant de 49,99 € à 14,99 €.",
-      "content": "<p><strong>FINAL FANTASY VII REBIRTH</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>49,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2909400/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/2909400/",
+      "source_id": "5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546",
+      "title": "The Outlast Trials à -90% sur Steam",
+      "excerpt": "The Outlast Trials bénéficie actuellement d'une réduction de 90% sur Steam, passant de 38,99 € à 3,89 €.",
+      "content": "<p><strong>The Outlast Trials</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>38,99 €</strong></li><li>Prix actuel : <strong>3,89 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1304930/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1304930/",
       "deal": {
-        "game": "FINAL FANTASY VII REBIRTH",
+        "game": "The Outlast Trials",
         "store": "Steam",
-        "original_price": 49.99,
+        "original_price": 38.99,
+        "current_price": 3.89,
+        "discount_percent": 90,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546.jpg",
+        "filename": "5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546.jpg",
+        "alt": "The Outlast Trials -90% sur Steam - GamerQuest",
+        "caption": "The Outlast Trials : offre -90% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre The Outlast Trials sur Steam."
+      }
+    },
+    {
+      "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
+      "title": "Red Dead Redemption 2 à -75% sur Steam",
+      "excerpt": "Red Dead Redemption 2 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 59,99 € à 14,99 €.",
+      "content": "<p><strong>Red Dead Redemption 2</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1174180/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1174180/",
+      "deal": {
+        "game": "Red Dead Redemption 2",
+        "store": "Steam",
+        "original_price": 59.99,
         "current_price": 14.99,
-        "discount_percent": 70,
+        "discount_percent": 75,
         "expires_at": null
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb.jpg",
-        "filename": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb.jpg",
-        "alt": "FINAL FANTASY VII REBIRTH -70% sur Steam - GamerQuest",
-        "caption": "FINAL FANTASY VII REBIRTH : offre -70% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre FINAL FANTASY VII REBIRTH sur Steam."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
+        "filename": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
+        "alt": "Red Dead Redemption 2 -75% sur Steam - GamerQuest",
+        "caption": "Red Dead Redemption 2 : offre -75% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Red Dead Redemption 2 sur Steam."
       }
     },
     {

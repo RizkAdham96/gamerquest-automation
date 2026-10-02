@@ -6,6 +6,7 @@ from scripts.repair_missing_featured_images import (
     image_figure_html,
     inject_image_after_intro,
     repair_missing_featured_images,
+    verify_recent_posts_have_featured_images,
 )
 
 
@@ -74,6 +75,18 @@ def test_repairs_only_posts_missing_featured_media(tmp_path):
     assert skipped == []
     assert session.uploads == 1
     assert session.attached == {101: 501}
+
+
+def test_verifier_flags_only_posts_without_featured_media():
+    session = FakeSession()
+
+    unresolved = verify_recent_posts_have_featured_images(
+        session,
+        "https://example.test",
+        limit=2,
+    )
+
+    assert unresolved == [(101, "missing-image")]
 
 
 def test_injects_featured_image_after_first_paragraph():

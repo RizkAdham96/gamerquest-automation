@@ -236,6 +236,12 @@ def repair_missing_inline_images(
                 f"featured_media={featured_media}"
             )
         except Exception as exc:
+            response = getattr(exc, "response", None)
+            if response is not None:
+                print(
+                    f"Inline repair response: post={post_id} status={response.status_code} "
+                    f"body={response.text[:1000]}"
+                )
             skipped.append((post_id, slug, f"inline repair failed: {exc}"))
 
         if len(repaired) >= max_repairs:

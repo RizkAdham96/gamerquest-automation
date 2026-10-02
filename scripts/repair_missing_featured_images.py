@@ -196,6 +196,7 @@ def repair_missing_inline_images(
     post_limit=DEFAULT_POST_LIMIT,
     max_repairs=DEFAULT_MAX_INLINE_REPAIRS,
 ):
+    """Legacy/manual helper. Inline body images are not required for a WordPress featured image."""
     posts = fetch_recent_posts(session, base_url, post_limit)
     repaired = []
     skipped = []
@@ -250,19 +251,19 @@ def repair_missing_inline_images(
     return repaired, skipped
 
 
-def verify_recent_posts_have_images(session, base_url, limit=DEFAULT_POST_LIMIT):
+def verify_recent_posts_have_featured_images(
+    session,
+    base_url,
+    limit=DEFAULT_POST_LIMIT,
+):
+    """Return recent WordPress posts that truly have no featured_media assigned."""
     unresolved = []
     posts = fetch_recent_posts(session, base_url, limit)
     for summary in posts:
         post_id = int(summary.get("id", 0) or 0)
         featured_media = int(summary.get("featured_media", 0) or 0)
         slug = str(summary.get("slug", "")).strip()
-        if not post_id or featured_media <= 0:
-            continue
-        post = fetch_post_for_edit(session, base_url, post_id)
-        content_obj = post.get("content") or {}
-        content = str(content_obj.get("raw") or content_obj.get("rendered") or "")
-        if "<img" not in content.lower():
+        if post_id and featured_media <= 0:
             unresolved.append((post_id, slug))
     return unresolved
 
@@ -273,7 +274,7 @@ def main():
 
     session = requests.Session()
     session.auth = wordpress_auth()
-    session.headers.update({"User-Agent": "GamerQuest-Article-Image-Repair/2.0"})
+    session.headers.update({"User-Agent": "GamerQuest-Featured-Image-Repair/3.0"})
 
     featured_repaired, featured_skipped = repair_missing_featured_images(
         session,
@@ -285,31 +286,21 @@ def main():
         ),
     )
 
-    inline_repaired, inline_skipped = repair_missing_inline_images(
-        session,
-        base_url,
-        post_limit=int(os.environ.get("GQ_FEATURED_IMAGE_POST_LIMIT", DEFAULT_POST_LIMIT)),
-        max_repairs=int(
-            os.environ.get("GQ_INLINE_IMAGE_MAX_REPAIRS", DEFAULT_MAX_INLINE_REPAIRS)
-        ),
-    )
-
     print(
-        "Article image repair completed: "
-        f"featured={len(featured_repaired)} inline={len(inline_repaired)} "
-        f"skipped={len(featured_skipped) + len(inline_skipped)}"
+        "Featured image repair completed: "
+        f"repaired={len(featured_repaired)} skipped={len(featured_skipped)}"
     )
-    for post_id, slug, reason in [*featured_skipped, *inline_skipped]:
+    for post_id, slug, reason in featured_skipped:
         print(f"Skipped post={post_id} slug={slug}: {reason}")
 
-    unresolved = verify_recent_posts_have_images(
+    unresolved = verify_recent_posts_have_featured_images(
         session,
         base_url,
         int(os.environ.get("GQ_FEATURED_IMAGE_POST_LIMIT", DEFAULT_POST_LIMIT)),
     )
     if unresolved:
         details = ", ".join(f"{post_id}:{slug}" for post_id, slug in unresolved)
-        raise SystemExit(f"WordPress posts still have featured media but no inline image: {details}")
+        raise SystemExit(f"WordPress posts still have no featured image: {details}")
 
 
 if __name__ == "__main__":

@@ -767,6 +767,31 @@ def mark_platform_failed(
 # INSTAGRAM
 # =========================================================
 
+def verify_instagram_carousel(post_id, access_token, requests_module=None):
+    """Read the published album back from Meta; return reviewable evidence."""
+    post_id = _require_value(post_id, "post_id")
+    token = _require_value(access_token, "access_token")
+    payload = _get(
+        _get_requests_module(requests_module),
+        f"{INSTAGRAM_GRAPH_BASE_URL}/{post_id}",
+        params={
+            "fields": "id,media_type,permalink,children{id}",
+            "access_token": token,
+        },
+    )
+    children = payload.get("children", {}).get("data", [])
+    ids = [_clean_text(item.get("id")) for item in children if isinstance(item, dict)]
+    permalink = _clean_text(payload.get("permalink"))
+    if (
+        _clean_text(payload.get("id")) != post_id
+        or payload.get("media_type") != "CAROUSEL_ALBUM"
+        or len(ids) != 3 or len(set(ids)) != 3 or not all(ids)
+        or not permalink.startswith("https://www.instagram.com/")
+    ):
+        raise RuntimeError(f"Instagram did not confirm a published three-slide carousel: {post_id}")
+    return {"post_id": post_id, "permalink": permalink, "child_count": 3}
+
+
 def publish_instagram_carousel(
     image_urls,
     caption,

@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 from social import run as social_run
-from social.ai_client import GroqRateLimitError
+from social.ai_client import GroqRateLimitError, SocialBudgetExhausted
 from social.render_fallback import resolve_publishable_images
 
 
@@ -69,6 +69,15 @@ def run():
     try:
         try:
             return social_run.run()
+        except SocialBudgetExhausted as exc:
+            payload = {
+                "status": "skipped",
+                "reason": "social_budget_exhausted",
+                "detail": str(exc),
+            }
+            social_run.write_output(payload)
+            print(f"Social allocation exhausted before publication: {exc}")
+            return payload
         except GroqRateLimitError as exc:
             payload = {
                 "status": "skipped",

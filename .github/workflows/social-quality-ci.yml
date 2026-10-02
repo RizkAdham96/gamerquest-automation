@@ -44,5 +44,9 @@ jobs:
           python tests/social/test_wordpress_publish.py
           python tests/social/test_publish_run.py
           python tests/social/test_render_fallback_source_image.py
+          python tests/social/test_publication_budget.py
+          python tests/social/test_publication_verification.py
+          python tests/social/test_production_result.py
+          python tests/social/test_ai_client.py
           python tests/social/test_run_fresh.py
           python tests/social/test_meta_healthcheck.py

@@ -25,8 +25,8 @@ DEFAULT_STATE_PATH = Path("state/groq_budget.json")
 
 DEFAULT_GLOBAL_DAILY_CEILING = 70_000
 DEFAULT_LANE_CEILINGS = {
-    # Four 11k News windows + one 10k SEO window + an 8k primary Social
-    # window and a 6k recovery window reserve at most 68k/day. This keeps
+    # Four 11k News windows + one 10k SEO window + a 14k primary Social
+    # window (prepared-package recovery makes no AI calls) reserve at most 68k/day. This keeps
     # full-quality multi-call jobs viable while staying below the 70k guard.
     "news": 44_000,
     "seo": 10_000,
@@ -497,6 +497,38 @@ def consume_run_budget(
         f"minute={_LOCAL_MINUTE_USED}/{minute_cap}"
     )
     return estimate
+
+
+def settle_run_usage(estimate: int, usage: Any) -> None:
+    """Settle a completed request using validated provider token accounting.
+
+    Keep TPM admission conservative. Only the run/daily usage is settled;
+    missing or inconsistent metadata must never release token allowance.
+    """
+    global _LOCAL_RUN_USED
+    if not isinstance(usage, dict):
+        return
+    values = [usage.get(key) for key in (
+        "prompt_tokens", "completion_tokens", "total_tokens",
+    )]
+    if any(type(value) is not int or value < 0 for value in values):
+        return
+    prompt, completion, total = values
+    if total <= 0 or prompt + completion != total:
+        return
+    adjustment = total - int(estimate)
+    _LOCAL_RUN_USED = max(0, _LOCAL_RUN_USED + adjustment)
+    raw_path = str(os.getenv("GROQ_USAGE_FILE", "")).strip()
+    if raw_path:
+        path = Path(raw_path)
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        payload["estimated_tokens"] = max(
+            0, int(payload["estimated_tokens"]) + adjustment,
+        )
+        tmp = path.with_suffix(path.suffix + ".tmp")
+        tmp.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+        tmp.replace(path)
+    print(f"Groq completed request: actual={total} reserved={estimate} run_used={_LOCAL_RUN_USED}")
 
 
 def _write_github_output(

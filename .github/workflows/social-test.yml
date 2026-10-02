@@ -69,7 +69,7 @@ jobs:
             : > "${output_file}"
             python groq_budget.py reserve-run \
               --lane social \
-              --tokens 8000 \
+              --tokens 14000 \
               --reservation-id "${reservation_id}" \
               --github-output "${output_file}"
 
@@ -415,6 +415,11 @@ jobs:
             echo "WordPress cleanup: ${{ steps.wordpress_cleanup.outcome }}"
           } >> "${GITHUB_STEP_SUMMARY}"
 
+          if [ "${RESULT}" = "SKIPPED" ] && [ "${PUBLISH_REQUESTED}" = "true" ]; then
+            echo "Production publication was requested but no carousel was published." >&2
+            exit 1
+          fi
+
           if [ "${RESULT}" = "FAILED" ]; then
             exit 1
           fi
@@ -427,6 +432,7 @@ jobs:
           path: |
             social-output.json
             social-publish-ready.json
+            social-publication-evidence.json
             social-rendered/
             social/publish_history.json
           if-no-files-found: warn

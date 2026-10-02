@@ -5,11 +5,15 @@ import time
 import urllib.error
 import urllib.request
 
-from groq_budget import GroqBudgetExhausted, consume_run_budget
+from groq_budget import GroqBudgetExhausted, consume_run_budget, settle_run_usage
 
 
 class GroqRateLimitError(RuntimeError):
     """Raised when Groq cannot serve the request because a rate limit is active."""
+
+
+class SocialBudgetExhausted(RuntimeError):
+    """The local allocation, rather than the external provider, is exhausted."""
 
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
@@ -151,14 +155,14 @@ def call_grok(prompt, max_tokens=SOCIAL_MAX_OUTPUT_TOKENS):
         )
 
     try:
-        consume_run_budget(
+        estimate = consume_run_budget(
             prompt,
             max_tokens,
             lane="social",
             operation="social:carousel",
         )
     except GroqBudgetExhausted as error:
-        raise GroqRateLimitError(
+        raise SocialBudgetExhausted(
             "Shared Groq ceiling reached before social generation. "
             "The carousel is skipped instead of lowering content quality. "
             f"{error}"
@@ -191,6 +195,7 @@ def call_grok(prompt, max_tokens=SOCIAL_MAX_OUTPUT_TOKENS):
                         "Groq returned malformed API JSON."
                     ) from error
 
+                settle_run_usage(estimate, data.get("usage"))
                 return extract_text(data)
 
         except urllib.error.HTTPError as error:

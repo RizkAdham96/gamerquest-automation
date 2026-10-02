@@ -3,8 +3,8 @@ name: GamerQuest Deals Automation
 on:
   workflow_dispatch:
   schedule:
-    # Balanced production cadence: six scans per day.
-    - cron: "17 */4 * * *"
+    # Balanced production cadence: six scans per day, away from top-of-hour load.
+    - cron: "37 */4 * * *"
 
 permissions:
   contents: write

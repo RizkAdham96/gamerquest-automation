@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 
 import requests
+from PIL import Image
 from requests.auth import HTTPBasicAuth
 
 
@@ -39,6 +40,18 @@ def load_feed_images(feed_path=NEWS_FEED_FILE):
                 "description": str(image.get("description", "")).strip(),
             }
     return mapping
+
+
+def valid_local_image(path):
+    path = Path(path)
+    if not path.is_file() or path.stat().st_size < 1024:
+        return False
+    try:
+        with Image.open(path) as image:
+            image.verify()
+        return True
+    except Exception:
+        return False
 
 
 def fetch_recent_news_posts(session, base_url, limit=DEFAULT_POST_LIMIT):
@@ -116,8 +129,8 @@ def repair_missing_featured_images(
             continue
 
         image_path = Path(images_folder) / metadata["filename"]
-        if not image_path.is_file() or image_path.stat().st_size < 15000:
-            skipped.append((post_id, slug, "image file missing or suspiciously small"))
+        if not valid_local_image(image_path):
+            skipped.append((post_id, slug, "image file missing or invalid"))
             continue
 
         media_id = upload_media(session, base_url, image_path, metadata)
@@ -142,7 +155,7 @@ def verify_no_repairable_missing_images(session, base_url, feed_images, limit=DE
         if not metadata:
             continue
         image_path = NEWS_IMAGES_FOLDER / metadata["filename"]
-        if image_path.is_file() and image_path.stat().st_size >= 15000:
+        if valid_local_image(image_path):
             unresolved.append((int(post.get("id", 0) or 0), slug))
     return unresolved
 

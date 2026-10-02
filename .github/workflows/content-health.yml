@@ -102,7 +102,7 @@ jobs:
                   )
               return latest
 
-          latest_news = latest_post(2, "Actualités", 8)
+          latest_news = latest_post(2, "Actualités", 14)
           latest_review = latest_post(5, "Tests & Avis", 30)
 
           homepage = fetch_text("https://gamerquestfr.com/")

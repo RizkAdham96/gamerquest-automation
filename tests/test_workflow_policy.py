@@ -31,14 +31,14 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
         self.assertNotRegex(text, r"python\s+tests/.+test_", name)
 
     def test_option_b_schedules(self):
-        self.assert_cron("gamerquest.yml", "27 */6 * * *")
+        self.assert_cron("gamerquest.yml", "27 0,12 * * *")
         self.assert_cron("run-trending-seo-pipeline.yml", "43 2 * * *")
         self.assert_cron("test-deals.yml", "37 */4 * * *")
         self.assert_cron("reviews.yml", "27 5 * * *")
         self.assert_cron("content-health.yml", "43 */6 * * *")
         self.assert_cron("acquisition-shadow.yml", "17 4 * * *")
-        self.assert_cron("social-test.yml", "30 18 * * 0,2,5")
-        self.assert_cron("social-publish-recovery.yml", "15 19 * * 0,2,5")
+        self.assert_cron("social-test.yml", "30 12,18 * * *")
+        self.assert_cron("social-publish-recovery.yml", "15 13,19 * * *")
 
     def test_production_workflows_are_not_push_publishers(self):
         for name in (
@@ -100,7 +100,7 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
 
     def test_health_thresholds_match_content_cadence(self):
         text = workflow("content-health.yml")
-        self.assertRegex(text, r'latest_post\(2,\s*"Actualités",\s*8\)')
+        self.assertRegex(text, r'latest_post\(2,\s*"Actualités",\s*14\)')
         self.assertRegex(text, r'latest_post\(5,\s*"Tests & Avis",\s*30\)')
         self.assertIn("max_age_hours", text)
 

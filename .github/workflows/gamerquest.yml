@@ -3,10 +3,10 @@ name: GamerQuest Automation
 on:
   workflow_dispatch:
 
-  # Four evenly spaced News opportunities/day, away from top-of-hour load.
+  # Two full-quality News opportunities/day leave priority for carousels.
   # Each run has enough budget for a full-quality draft + verification while TPM pacing separates calls.
   schedule:
-    - cron: "27 */6 * * *"
+    - cron: "27 0,12 * * *"
 
 permissions:
   contents: write

@@ -7,6 +7,37 @@ import pytest
 import groq_budget
 
 
+def test_two_daily_carousels_fit_even_after_other_lanes_use_their_caps(tmp_path):
+    state = tmp_path / "groq.json"
+    day = "2026-10-02"
+    for lane in ("news", "seo", "manual"):
+        result = groq_budget.reserve_run(
+            lane, groq_budget.lane_ceiling(lane), f"all-{lane}", path=state, day=day,
+        )
+        assert result["allowed"] is True
+    for slot in ("12:30", "18:30"):
+        result = groq_budget.reserve_run(
+            "social", 17000, f"carousel-{slot}", path=state, day=day,
+        )
+        assert result["allowed"] is True, result["reason"]
+    saved = json.loads(state.read_text())
+    assert saved["lanes"]["social"] == 34000
+    assert saved["global_reserved"] <= groq_budget.global_daily_ceiling()
+
+
+def test_minimum_other_daily_allocations_preserve_full_quality_runs(tmp_path):
+    state = tmp_path / "groq.json"
+    day = "2026-10-02"
+    for index in range(2):
+        result = groq_budget.reserve_run("news", 11000, f"news-{index}", path=state, day=day)
+        assert result["allowed"] is True
+    result = groq_budget.reserve_run("seo", 10000, "seo", path=state, day=day)
+    assert result["allowed"] is True
+    for index in range(2):
+        result = groq_budget.reserve_run("social", 17000, f"social-{index}", path=state, day=day)
+        assert result["allowed"] is True
+
+
 def test_shared_daily_reservations_stop_before_global_ceiling(tmp_path):
     state = tmp_path / "groq.json"
 

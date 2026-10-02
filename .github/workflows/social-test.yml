@@ -10,7 +10,7 @@ on:
         type: boolean
 
   schedule:
-    - cron: "30 18 * * 0,2,5"
+    - cron: "30 12,18 * * *"
       timezone: "Europe/Paris"
 
 permissions:
@@ -69,7 +69,7 @@ jobs:
             : > "${output_file}"
             python groq_budget.py reserve-run \
               --lane social \
-              --tokens 14000 \
+              --tokens 17000 \
               --reservation-id "${reservation_id}" \
               --github-output "${output_file}"
 

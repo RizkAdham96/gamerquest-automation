@@ -25,12 +25,13 @@ DEFAULT_STATE_PATH = Path("state/groq_budget.json")
 
 DEFAULT_GLOBAL_DAILY_CEILING = 70_000
 DEFAULT_LANE_CEILINGS = {
-    # Four 11k News windows + one 10k SEO window + a 14k primary Social
-    # window (prepared-package recovery makes no AI calls) reserve at most 68k/day. This keeps
-    # full-quality multi-call jobs viable while staying below the 70k guard.
-    "news": 44_000,
+    # Give Social the largest allocation: two full-quality 17k windows/day.
+    # Other lanes together cannot consume their 34k Social allowance.
+    # News retains its 11k per-run budget; unused allowance is returned.
+    # Prepared-package recovery makes no AI calls. All lane caps sum to 70k.
+    "news": 22_000,
     "seo": 10_000,
-    "social": 14_000,
+    "social": 34_000,
     "manual": 4_000,
 }
 

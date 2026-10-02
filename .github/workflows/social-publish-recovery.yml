@@ -3,9 +3,9 @@ name: GamerQuest Social Publish Recovery
 on:
   workflow_dispatch:
   schedule:
-    # Primary social automation runs at 18:30 Europe/Paris on Tue/Fri/Sun.
+    # Primary carousels run daily at 12:30 and 18:30 Europe/Paris.
     # Recovery waits 45 minutes and retries only the already-prepared carousel.
-    - cron: "15 19 * * 0,2,5"
+    - cron: "15 13,19 * * *"
       timezone: "Europe/Paris"
 
 permissions:

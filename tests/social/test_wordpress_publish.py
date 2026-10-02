@@ -64,6 +64,26 @@ class WordPressPublishPackageTests(unittest.TestCase):
             "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
         )
 
+    def test_recovery_rejects_package_prepared_before_full_slide_approval(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            pending = root / "pending.json"
+            output = root / "output.json"
+            ready = root / "ready.json"
+            pending.write_text(json.dumps({
+                "source_id": "source-123",
+                "carousel_version": "old-contained-images",
+                "master_spec_version": "gamerquest-carousel-v1",
+                "image_urls": [f"https://example.test/{i}.png" for i in range(1, 4)],
+                "social_output": self._ready_output(),
+            }))
+            with self.assertRaisesRegex(RuntimeError, "pre-master-spec"):
+                recover_publish_package(
+                    pending_file=pending, output_file=output, ready_file=ready,
+                )
+            self.assertFalse(output.exists())
+            self.assertFalse(ready.exists())
+
     def test_stage_recover_cleanup_round_trip(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -90,7 +110,7 @@ class WordPressPublishPackageTests(unittest.TestCase):
                 )
             self.assertEqual(package["image_urls"], staged["image_urls"])
             self.assertEqual(package["media_ids"], staged["media_ids"])
-            self.assertEqual(package["master_spec_version"], "gamerquest-carousel-v1")
+            self.assertEqual(package["master_spec_version"], "gamerquest-carousel-v2")
             self.assertTrue(ready.exists())
             self.assertTrue(pending.exists())
             upload.assert_called_once()
@@ -104,7 +124,7 @@ class WordPressPublishPackageTests(unittest.TestCase):
             self.assertTrue(recovered["ready"])
             restored = json.loads(restored_ready.read_text())
             self.assertEqual(restored["image_urls"], staged["image_urls"])
-            self.assertEqual(restored["master_spec_version"], "gamerquest-carousel-v1")
+            self.assertEqual(restored["master_spec_version"], "gamerquest-carousel-v2")
 
             with patch("social.wordpress_publish.cleanup_media") as cleanup:
                 result = cleanup_publish_package(

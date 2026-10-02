@@ -3,8 +3,8 @@ name: GamerQuest Content Health
 on:
   workflow_dispatch:
   schedule:
-    # Balanced monitoring cadence: four checks per day.
-    - cron: "13 */6 * * *"
+    # Balanced monitoring cadence: four checks per day, away from top-of-hour load.
+    - cron: "43 */6 * * *"
 
 permissions:
   contents: read

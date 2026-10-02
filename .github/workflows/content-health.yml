@@ -47,8 +47,11 @@ jobs:
               datetime.now(timezone.utc) - generated.astimezone(timezone.utc)
           ).total_seconds() / 3600
           print(f"Deals feed age: {deals_age:.2f} hours")
-          if deals_age > 6:
-              raise SystemExit(f"Deals feed is stale: {deals_age:.2f} hours.")
+          # Deals runs every 4h. Allow one delayed/missed slot plus scheduler margin
+          # before declaring the feed stale, so health checks do not false-alarm
+          # immediately before a healthy scheduled refresh.
+          if deals_age > 10:
+              raise SystemExit(f"Deals feed is stale: {deals_age:.2f} hours (limit 10h).")
           PY
 
       - name: Check live WordPress content and homepage visibility

@@ -1,0 +1,76 @@
+{
+  "source_id": "5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546",
+  "carousel_version": "a2259af044ccad193a9fc08c2986e3bcbcdbb49c446eabb9f525591f4b002433",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v1",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    572,
+    573,
+    574
+  ],
+  "prepared_at_utc": "2026-10-02T15:24:36.253058Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546",
+    "source_title": "The Outlast Trials à -90% sur Steam",
+    "score": 83.0,
+    "idea": {
+      "source_id": "5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546",
+      "topic": "Promotion -90 % sur The Outlast Trials",
+      "angle": "Offre exceptionnelle sur Steam, le jeu passe de 38,99 € à 3,89 €",
+      "format": "deal_alert",
+      "hook": "Incroyable ! The Outlast Trials à -90 % sur Steam : ne manquez pas ce prix choc !",
+      "freshness": 9,
+      "click_potential": 9,
+      "curiosity": 8,
+      "shareability": 8,
+      "originality": 7,
+      "gamerquest_relevance": 9,
+      "total_score": 83.0
+    },
+    "carousel": {
+      "topic": "Promotion -90 % sur The Outlast Trials",
+      "angle": "Offre exceptionnelle sur Steam, le jeu passe de 38,99 € à 3,89 €",
+      "format": "deal_alert",
+      "hook": "Incroyable ! The Outlast Trials à -90 % sur Steam : ne manquez pas ce prix choc !",
+      "score": 83.0,
+      "slides": [
+        {
+          "title": "Incroyable ! -90 % sur The Outlast Trials",
+          "body": "Un prix choc qui fait tourner les têtes.",
+          "visual_prompt": "Atmosphère sombre d'un laboratoire d'horreur, éclairage tamisé, silhouette d'un casque de réalité virtuelle posé sur une table, ambiance inquiétante."
+        },
+        {
+          "title": "De 38,99 € à 3,89 €",
+          "body": "The Outlast Trials est actuellement à 3,89 € sur Steam, soit une réduction de 90 % par rapport au prix initial de 38,99 €.",
+          "visual_prompt": "Capture d'écran stylisée du magasin Steam montrant le prix original barré et le nouveau prix affiché en gros, avec le logo du jeu en arrière‑plan."
+        },
+        {
+          "title": "Découvrez le tarif",
+          "body": "Profitez de ce prix sur Steam dès maintenant.",
+          "visual_prompt": "Vue rapprochée d'une horloge vintage dont les aiguilles avancent rapidement, entourée d'éléments de jeu (câbles, écrans, ambiance sombre)."
+        }
+      ],
+      "caption": "The Outlast Trials à -90 % sur Steam ! Ne laissez pas passer ce tarif imbattable.",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546"
+    },
+    "caption": "The Outlast Trials à -90 % sur Steam ! Ne laissez pas passer ce tarif imbattable.",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 1
+  }
+}

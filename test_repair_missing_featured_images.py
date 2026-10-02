@@ -129,6 +129,9 @@ class InlineRepairSession:
         raise AssertionError(f"Unexpected GET {url}")
 
     def post(self, url, files=None, data=None, json=None, timeout=None):
+        raise AssertionError("Inline repairs must use PUT for existing posts")
+
+    def put(self, url, files=None, data=None, json=None, timeout=None):
         assert url.endswith("/wp-json/wp/v2/posts/201")
         self.update_payload = json
         return FakeResponse({"id": 201})

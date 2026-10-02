@@ -2,6 +2,12 @@ name: Repair Missing Featured Images
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/repair_missing_featured_images.py"
+      - "test_repair_missing_featured_images.py"
+      - ".github/workflows/repair-featured-images.yml"
   workflow_run:
     workflows: ["GamerQuest Automation"]
     types: [completed]
@@ -18,7 +24,7 @@ concurrency:
 jobs:
   repair:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -36,11 +42,12 @@ jobs:
       - name: Test featured-image repair logic
         run: pytest -q test_repair_missing_featured_images.py
 
-      - name: Repair and verify recent WordPress featured images
+      - name: Repair and verify WordPress article images
         env:
           WP_URL: ${{ secrets.WP_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
-          GQ_FEATURED_IMAGE_POST_LIMIT: "30"
-          GQ_FEATURED_IMAGE_MAX_REPAIRS: "12"
+          GQ_FEATURED_IMAGE_POST_LIMIT: "100"
+          GQ_FEATURED_IMAGE_MAX_REPAIRS: "20"
+          GQ_INLINE_IMAGE_MAX_REPAIRS: "100"
         run: python scripts/repair_missing_featured_images.py

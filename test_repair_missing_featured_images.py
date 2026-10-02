@@ -2,7 +2,11 @@ from pathlib import Path
 
 from PIL import Image
 
-from scripts.repair_missing_featured_images import repair_missing_featured_images
+from scripts.repair_missing_featured_images import (
+    image_figure_html,
+    inject_image_after_intro,
+    repair_missing_featured_images,
+)
 
 
 class FakeResponse:
@@ -70,3 +74,25 @@ def test_repairs_only_posts_missing_featured_media(tmp_path):
     assert skipped == []
     assert session.uploads == 1
     assert session.attached == {101: 501}
+
+
+def test_injects_featured_image_after_first_paragraph():
+    content = "<p>Intro text.</p><h2>Next section</h2><p>Body.</p>"
+    figure = image_figure_html(
+        "https://example.test/image.jpg",
+        'Game "cover"',
+    )
+
+    updated = inject_image_after_intro(content, figure)
+
+    assert updated.startswith("<p>Intro text.</p>\n<figure")
+    assert 'src="https://example.test/image.jpg"' in updated
+    assert 'alt="Game &quot;cover&quot;"' in updated
+    assert updated.count("<img") == 1
+
+
+def test_does_not_duplicate_existing_inline_image():
+    content = '<p>Intro.</p><figure><img src="existing.jpg" alt=""></figure>'
+    figure = image_figure_html("https://example.test/new.jpg", "New")
+
+    assert inject_image_after_intro(content, figure) == content

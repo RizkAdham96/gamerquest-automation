@@ -228,7 +228,7 @@ def repair_missing_inline_images(
             excerpt = str(
                 excerpt_obj.get("raw") or excerpt_obj.get("rendered") or ""
             )
-            response = session.post(
+            response = session.put(
                 f"{base_url}/wp-json/wp/v2/posts/{post_id}",
                 json={"content": updated_content, "excerpt": excerpt},
                 timeout=30,

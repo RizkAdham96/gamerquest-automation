@@ -1,0 +1,46 @@
+name: Repair Missing Featured Images
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["GamerQuest Automation"]
+    types: [completed]
+  schedule:
+    - cron: "50 */6 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gamerquest-featured-image-repair
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+
+      - name: Test featured-image repair logic
+        run: pytest -q test_repair_missing_featured_images.py
+
+      - name: Repair and verify recent WordPress featured images
+        env:
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+          GQ_FEATURED_IMAGE_POST_LIMIT: "30"
+          GQ_FEATURED_IMAGE_MAX_REPAIRS: "12"
+        run: python scripts/repair_missing_featured_images.py

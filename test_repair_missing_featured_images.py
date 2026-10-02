@@ -6,6 +6,7 @@ from scripts.repair_missing_featured_images import (
     image_figure_html,
     inject_image_after_intro,
     repair_missing_featured_images,
+    repair_missing_inline_images,
 )
 
 
@@ -96,3 +97,54 @@ def test_does_not_duplicate_existing_inline_image():
     figure = image_figure_html("https://example.test/new.jpg", "New")
 
     assert inject_image_after_intro(content, figure) == content
+
+
+class InlineRepairSession:
+    def __init__(self):
+        self.update_payload = None
+
+    def get(self, url, params=None, timeout=None):
+        if url.endswith("/wp-json/wp/v2/posts"):
+            return FakeResponse([
+                {"id": 201, "slug": "needs-inline", "featured_media": 701},
+            ])
+        if url.endswith("/wp-json/wp/v2/posts/201"):
+            payload = {
+                "id": 201,
+                "slug": "needs-inline",
+                "featured_media": 701,
+                "title": {"raw": "Needs inline image"},
+                "content": {"raw": "<p>Intro.</p><p>Body.</p>"},
+            }
+            if "excerpt" in str((params or {}).get("_fields", "")):
+                payload["excerpt"] = {"raw": "Existing excerpt"}
+            return FakeResponse(payload)
+        if url.endswith("/wp-json/wp/v2/media/701"):
+            return FakeResponse({
+                "id": 701,
+                "source_url": "https://example.test/featured.jpg",
+                "alt_text": "Featured image",
+                "caption": {"raw": ""},
+            })
+        raise AssertionError(f"Unexpected GET {url}")
+
+    def post(self, url, files=None, data=None, json=None, timeout=None):
+        assert url.endswith("/wp-json/wp/v2/posts/201")
+        self.update_payload = json
+        return FakeResponse({"id": 201})
+
+
+def test_inline_repair_preserves_excerpt_in_wordpress_update():
+    session = InlineRepairSession()
+
+    repaired, skipped = repair_missing_inline_images(
+        session,
+        "https://example.test",
+        post_limit=1,
+        max_repairs=1,
+    )
+
+    assert repaired == [(201, "needs-inline", 701)]
+    assert skipped == []
+    assert session.update_payload["excerpt"] == "Existing excerpt"
+    assert "<img" in session.update_payload["content"]

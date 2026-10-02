@@ -351,28 +351,12 @@ class TestCarouselRenderer(unittest.TestCase):
             )
 
 
-    def test_background_preserves_portrait_top_and_bottom_edges(self):
-        source = Image.new(
-            "RGB",
-            (400, 1200),
-            (40, 180, 80),
-        )
-        for y in range(0, 120):
-            for x in range(400):
-                source.putpixel((x, y), (240, 20, 20))
-        for y in range(1080, 1200):
-            for x in range(400):
-                source.putpixel((x, y), (20, 40, 240))
-
+    def test_landscape_artwork_fills_canvas_without_dimmed_padding(self):
+        source = Image.new("RGB", (1920, 1080), (240, 30, 30))
         background = renderer._image_background(source, 1)
-
         self.assertEqual(background.size, (1080, 1920))
-        top = background.getpixel((540, 30))
-        bottom = background.getpixel((540, 1890))
-        self.assertGreater(top[0], top[1])
-        self.assertGreater(top[0], top[2])
-        self.assertGreater(bottom[2], bottom[0])
-        self.assertGreater(bottom[2], bottom[1])
+        for position in ((0, 0), (1079, 0), (0, 1919), (1079, 1919), (540, 950)):
+            self.assertGreater(background.getpixel(position)[0], 230)
 
 
 

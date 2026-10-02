@@ -7,6 +7,49 @@ from social import render_fallback
 
 
 class TestFallbackSourceImage(unittest.TestCase):
+    def test_steam_gallery_uses_full_game_screenshots_before_page_decoration(self):
+        import html
+        import json
+
+        root = "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1304930/"
+        screenshots = [root + f"ss_{index}.1920x1080.jpg" for index in range(3)]
+        props = {"appName": "The Outlast Trials", "screenshots": [
+            {"full": url, "altText": f"Screenshot #{index}"}
+            for index, url in enumerate(screenshots)
+        ]}
+        page = '<div data-props="' + html.escape(json.dumps(props), quote=True) + '"></div>'
+        page += f'<img src="{root}page_bg_raw.jpg">'
+        page += f'<img src="{root}extras/decoration.avif">'
+        # Another game's CDN image must not acquire the current game's relevance.
+        props["screenshots"].append({"full": root.replace("1304930", "999") + "ss_other.jpg"})
+        page += '<div data-props="' + html.escape(json.dumps(props), quote=True) + '"></div>'
+        images = render_fallback.resolve_featured_images(
+            "outlast", content_items=[{
+                "source_id": "outlast", "title": "The Outlast Trials à -90% sur Steam",
+                "source": {"url": "https://store.steampowered.com/app/1304930/"},
+                "featured_image": {"url": "https://cdn.example.com/branded-cover.jpg"},
+            }], page_fetcher=lambda url: page,
+        )
+        self.assertEqual(images, screenshots)
+
+    def test_rejects_steam_page_background_even_when_topic_matches(self):
+        self.assertFalse(render_fallback._looks_like_content_image(
+            "https://shared.fastly.steamstatic.com/steam/apps/1304930/page_bg_raw.jpg",
+            "The Outlast Trials Steam", {"outlast", "steam"},
+        ))
+
+    def test_rejects_transparent_decoration_before_rgb_conversion(self):
+        decoration = Image.new("RGBA", (1080, 1080), (240, 30, 90, 70))
+        buffer = BytesIO()
+        decoration.save(buffer, format="PNG")
+        payloads = {
+            "decoration.png": buffer.getvalue(),
+            "a.jpg": self._image_bytes((1400, 900), (220, 30, 30)),
+            "b.jpg": self._image_bytes((1400, 900), (30, 30, 220)),
+        }
+        with self.assertRaisesRegex(RuntimeError, "transparent decoration"):
+            render_fallback.validate_source_images(list(payloads), image_fetcher=payloads.get)
+
     def test_resolves_three_unique_relevant_images_for_selected_source(self):
         source_id = "article-123"
         articles = [
@@ -271,13 +314,17 @@ class TestFallbackSourceImage(unittest.TestCase):
             ),
         }
 
+        accepted_payloads = {}
         self.assertEqual(
             render_fallback.validate_source_images(
                 urls,
                 image_fetcher=lambda url: payloads[url],
+                image_payloads=accepted_payloads,
             ),
             urls,
         )
+        # The renderer must receive the validated bytes, not redownload URLs.
+        self.assertEqual(accepted_payloads, payloads)
 
 
 

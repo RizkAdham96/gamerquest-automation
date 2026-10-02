@@ -392,69 +392,15 @@ def _image_background(
         )
     )
 
-    # Preserve the complete source artwork. The old implementation used
-    # ImageOps.fit(), which can crop faces, characters, logos, and important
-    # UI near the edges. We now build a blurred full-bleed backdrop and place
-    # an uncropped contained version of the source on top.
-    backdrop = ImageOps.fit(
+    # Cover the complete vertical slide with sharp artwork. Landscape
+    # pictures are cropped at the sides rather than placed in a small box
+    # over a dim, blurred copy. Text overlays provide their own contrast.
+    return ImageOps.fit(
         source,
-        (
-            WIDTH,
-            HEIGHT,
-        ),
+        (WIDTH, HEIGHT),
         method=Image.Resampling.LANCZOS,
         centering=(0.50, 0.50),
     )
-    # Keep the full 9:16 canvas visually filled. The backdrop is still
-    # full-bleed, but it stays recognizable instead of becoming a large
-    # dark/empty-looking area around landscape source images.
-    backdrop = backdrop.filter(
-        ImageFilter.GaussianBlur(16)
-    )
-    backdrop = ImageEnhance.Brightness(
-        backdrop
-    ).enhance(0.72)
-
-    # Preserve the complete source image on top of the full-bleed backdrop.
-    # Short/landscape artwork is anchored near the top of the story canvas
-    # instead of being vertically centered, which previously created a huge
-    # empty-looking band above the artwork on 9:16 slides.
-    foreground = ImageOps.contain(
-        source,
-        (
-            WIDTH,
-            HEIGHT,
-        ),
-        method=Image.Resampling.LANCZOS,
-    )
-
-    x = (
-        WIDTH
-        - foreground.width
-    ) // 2
-
-    centered_y = (
-        HEIGHT
-        - foreground.height
-    ) // 2
-
-    y = max(
-        0,
-        min(
-            centered_y,
-            160,
-        ),
-    )
-
-    backdrop.paste(
-        foreground,
-        (
-            x,
-            y,
-        ),
-    )
-
-    return backdrop
 
 
 # =========================================================

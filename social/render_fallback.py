@@ -7,7 +7,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urljoin, urlparse
 
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, ImageStat
 
 from social.render import clean_carousel_copy
 from social.renderer import render_carousel
@@ -34,6 +34,7 @@ _BLOCKED_IMAGE_HINTS = (
     "advert",
     "newsletter",
     "social-share",
+    "page_bg",
 )
 
 
@@ -103,10 +104,41 @@ class _ImageCollector(HTMLParser):
         super().__init__()
         self.base_url = base_url
         self.images = []
+        self.gallery_images = set()
+
+    def _steam_gallery(self, attrs):
+        page = urlparse(self.base_url)
+        match = re.match(r"/app/(\d+)(?:/|$)", page.path)
+        if page.hostname != "store.steampowered.com" or not match:
+            return
+        try:
+            props = json.loads(attrs.get("data-props", ""))
+        except (ValueError, TypeError):
+            return
+        if not isinstance(props, dict):
+            return
+        screenshots = props.get("screenshots", [])
+        if not isinstance(screenshots, list):
+            return
+        for screenshot in screenshots:
+            if not isinstance(screenshot, dict):
+                continue
+            url = str(screenshot.get("full", ""))
+            asset = urlparse(url)
+            if (
+                not (asset.hostname or "").endswith(".steamstatic.com")
+                or f"/steam/apps/{match.group(1)}/" not in asset.path
+                or not re.fullmatch(r"ss_[\w.-]+\.jpg", Path(asset.path).name)
+            ):
+                continue
+            url = _upgrade_image_url(url)
+            self.gallery_images.add(url)
+            self._add(url, f"{props.get('appName', '')} Steam gameplay screenshot")
 
     def handle_starttag(self, tag, attrs):
         attrs = {str(k).lower(): str(v or "") for k, v in attrs}
         tag = tag.lower()
+        self._steam_gallery(attrs)
 
         if tag == "meta":
             key = (attrs.get("property") or attrs.get("name") or "").lower()
@@ -132,6 +164,7 @@ class _ImageCollector(HTMLParser):
             attrs.get("data-original", ""),
             attrs.get("data-original-src", ""),
             attrs.get("data-lazy-src", ""),
+            attrs.get("data-full", ""),
         ]
 
         for srcset_key in ("srcset", "data-srcset", "data-lazy-srcset"):
@@ -247,6 +280,10 @@ def _looks_like_content_image(url, alt, keywords):
         return False
 
     path = urlparse(url).path.lower()
+    if (urlparse(url).hostname or "").endswith(".steamstatic.com") and "/extras/" in path:
+        # Store descriptions include decorative overlays, not just artwork.
+        # Use the game's screenshot gallery instead.
+        return False
     if not path.endswith((".jpg", ".jpeg", ".png", ".webp", ".avif")):
         return False
 
@@ -321,7 +358,7 @@ def _color_distance(left, right):
     ) ** 0.5
 
 
-def validate_source_images(image_urls, image_fetcher=None):
+def validate_source_images(image_urls, image_fetcher=None, image_payloads=None):
     """Select three genuinely different, publication-quality source images."""
     if not isinstance(image_urls, (list, tuple)) or len(image_urls) < 3:
         raise RuntimeError("At least three source image candidates are required.")
@@ -332,6 +369,9 @@ def validate_source_images(image_urls, image_fetcher=None):
     rejected = []
 
     for url in image_urls:
+        if "page_bg" in urlparse(str(url)).path.lower():
+            rejected.append(f"website background ({url})")
+            continue
         try:
             raw = fetcher(url)
             with Image.open(BytesIO(raw)) as image:
@@ -347,6 +387,11 @@ def validate_source_images(image_urls, image_fetcher=None):
                         f"too small {width}x{height} ({url})"
                     )
                     continue
+                if "A" in image.getbands() or "transparency" in image.info:
+                    alpha = image.convert("RGBA").getchannel("A")
+                    if ImageStat.Stat(alpha).mean[0] < 250:
+                        rejected.append(f"transparent decoration ({url})")
+                        continue
                 signature = _visual_signature(image)
         except Exception as exc:
             rejected.append(
@@ -369,6 +414,8 @@ def validate_source_images(image_urls, image_fetcher=None):
 
         signatures.append(signature)
         validated.append(str(url))
+        if image_payloads is not None:
+            image_payloads[str(url)] = raw
 
         if len(validated) == 3:
             return validated
@@ -385,6 +432,7 @@ def resolve_publishable_images(
     content_items=None,
     page_fetcher=None,
     image_fetcher=None,
+    image_payloads=None,
 ):
     images = resolve_featured_images(
         source_id,
@@ -396,6 +444,7 @@ def resolve_publishable_images(
     return validate_source_images(
         images,
         image_fetcher=image_fetcher,
+        image_payloads=image_payloads,
     )
 
 
@@ -492,7 +541,8 @@ def resolve_featured_images(
                     continue
                 if not _looks_like_content_image(url, alt, keywords):
                     continue
-                candidates.append((url, alt, _score_image(url, alt, keywords)))
+                score = 1500.0 if url in parser.gallery_images else _score_image(url, alt, keywords)
+                candidates.append((url, alt, score))
         except Exception as exc:
             print(
                 "WARNING: could not inspect source article images "
@@ -531,7 +581,8 @@ def resolve_featured_image(source_id, content_items=None):
 def main():
     carousel = load_ready_carousel()
     source_id = load_source_id()
-    featured_images = resolve_publishable_images(source_id)
+    image_payloads = {}
+    featured_images = resolve_publishable_images(source_id, image_payloads=image_payloads)
 
     if OUTPUT_DIR.exists():
         shutil.rmtree(OUTPUT_DIR)
@@ -545,7 +596,9 @@ def main():
     rendered = render_carousel(
         carousel,
         OUTPUT_DIR,
-        featured_images=featured_images,
+        # Render the exact bytes that passed validation. A second download
+        # could fail/change and silently produce the renderer's blank fallback.
+        featured_images=[image_payloads[url] for url in featured_images],
     )
     rendered = [Path(path) for path in rendered]
 

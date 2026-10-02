@@ -42,12 +42,11 @@ jobs:
       - name: Test featured-image repair logic
         run: pytest -q test_repair_missing_featured_images.py
 
-      - name: Repair and verify WordPress article images
+      - name: Repair and verify WordPress featured images
         env:
           WP_URL: ${{ secrets.WP_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
           GQ_FEATURED_IMAGE_POST_LIMIT: "100"
           GQ_FEATURED_IMAGE_MAX_REPAIRS: "20"
-          GQ_INLINE_IMAGE_MAX_REPAIRS: "100"
         run: python scripts/repair_missing_featured_images.py

@@ -1,19 +1,18 @@
 {
-  "date_utc": "2026-10-01",
-  "global_reserved": 8365,
+  "date_utc": "2026-10-02",
+  "global_reserved": 11000,
   "lanes": {
-    "news": 8365,
+    "news": 11000,
     "seo": 0,
     "social": 0,
     "manual": 0
   },
   "reservations": [
     {
-      "id": "36821015345-1-news",
+      "id": "36968924758-1-news",
       "lane": "news",
-      "tokens": 8365,
-      "reserved_at": "2026-10-01T05:42:10.988141+00:00",
-      "reconciled_at": "2026-10-01T05:44:40.526180+00:00"
+      "tokens": 11000,
+      "reserved_at": "2026-10-02T05:26:31.652305+00:00"
     }
   ]
 }

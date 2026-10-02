@@ -76,7 +76,7 @@ def fetch_post_for_edit(session, base_url, post_id):
         f"{base_url}/wp-json/wp/v2/posts/{post_id}",
         params={
             "context": "edit",
-            "_fields": "id,slug,featured_media,title,link,content,excerpt",
+            "_fields": "id,slug,featured_media,title,link,content",
         },
         timeout=30,
     )
@@ -224,13 +224,9 @@ def repair_missing_inline_images(
             fallback_alt = str(title_obj.get("raw") or title_obj.get("rendered") or "").strip()
             figure = image_figure_html(source_url, alt_text or fallback_alt)
             updated_content = inject_image_after_intro(content, figure)
-            excerpt_obj = post.get("excerpt") or {}
-            excerpt = str(
-                excerpt_obj.get("raw") or excerpt_obj.get("rendered") or ""
-            )
             response = session.post(
                 f"{base_url}/wp-json/wp/v2/posts/{post_id}",
-                data={"content": updated_content, "excerpt": excerpt},
+                json={"content": updated_content},
                 timeout=30,
             )
             response.raise_for_status()

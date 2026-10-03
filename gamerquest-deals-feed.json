@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T20:56:01.466350+00:00",
-  "count": 6,
+  "generated_at": "2026-10-03T05:40:47.461622+00:00",
+  "count": 7,
   "articles": [
     {
       "source_id": "2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754",
@@ -66,6 +66,28 @@
         "alt": "The Outlast Trials -90% sur Steam - GamerQuest",
         "caption": "The Outlast Trials : offre -90% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre The Outlast Trials sur Steam."
+      }
+    },
+    {
+      "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
+      "title": "Red Dead Redemption 2 à -75% sur Steam",
+      "excerpt": "Red Dead Redemption 2 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 59,99 € à 14,99 €.",
+      "content": "<p><strong>Red Dead Redemption 2</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1174180/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1174180/",
+      "deal": {
+        "game": "Red Dead Redemption 2",
+        "store": "Steam",
+        "original_price": 59.99,
+        "current_price": 14.99,
+        "discount_percent": 75,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
+        "filename": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
+        "alt": "Red Dead Redemption 2 -75% sur Steam - GamerQuest",
+        "caption": "Red Dead Redemption 2 : offre -75% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Red Dead Redemption 2 sur Steam."
       }
     },
     {

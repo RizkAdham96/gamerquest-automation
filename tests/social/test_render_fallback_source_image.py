@@ -90,7 +90,7 @@ class TestFallbackSourceImage(unittest.TestCase):
         self.assertEqual(
             images,
             [
-                "https://cdn.example.com/zelda-cover.jpg",
+                "https://source.example.com/zelda-cover.jpg",
                 "https://images.example.com/gameplay/1280x720.jpg",
                 "https://images.example.com/special-edition/1280x720.jpg",
             ],

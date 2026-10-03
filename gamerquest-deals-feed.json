@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:39:30.901084+00:00",
+  "generated_at": "2026-10-03T19:26:07.390658+00:00",
   "count": 6,
   "articles": [
     {
@@ -25,28 +25,6 @@
       }
     },
     {
-      "source_id": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612",
-      "title": "The Elder Scrolls V: Skyrim Special Edition à -90% sur Steam",
-      "excerpt": "The Elder Scrolls V: Skyrim Special Edition bénéficie actuellement d'une réduction de 90% sur Steam, passant de 39,99 € à 3,99 €.",
-      "content": "<p><strong>The Elder Scrolls V: Skyrim Special Edition</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>3,99 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/489830/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/489830/",
-      "deal": {
-        "game": "The Elder Scrolls V: Skyrim Special Edition",
-        "store": "Steam",
-        "original_price": 39.99,
-        "current_price": 3.99,
-        "discount_percent": 90,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
-        "filename": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
-        "alt": "The Elder Scrolls V: Skyrim Special Edition -90% sur Steam - GamerQuest",
-        "caption": "The Elder Scrolls V: Skyrim Special Edition : offre -90% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre The Elder Scrolls V: Skyrim Special Edition sur Steam."
-      }
-    },
-    {
       "source_id": "5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546",
       "title": "The Outlast Trials à -90% sur Steam",
       "excerpt": "The Outlast Trials bénéficie actuellement d'une réduction de 90% sur Steam, passant de 38,99 € à 3,89 €.",
@@ -69,13 +47,35 @@
       }
     },
     {
-      "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
-      "title": "Red Dead Redemption 2 à -75% sur Steam",
-      "excerpt": "Red Dead Redemption 2 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 59,99 € à 14,99 €.",
-      "content": "<p><strong>Red Dead Redemption 2</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1174180/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/1174180/",
+      "source_id": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612",
+      "title": "The Elder Scrolls V: Skyrim Special Edition à -90% sur Steam",
+      "excerpt": "The Elder Scrolls V: Skyrim Special Edition bénéficie actuellement d'une réduction de 90% sur Steam, passant de 39,99 € à 3,99 €.",
+      "content": "<p><strong>The Elder Scrolls V: Skyrim Special Edition</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>3,99 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/489830/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/489830/",
       "deal": {
-        "game": "Red Dead Redemption 2",
+        "game": "The Elder Scrolls V: Skyrim Special Edition",
+        "store": "Steam",
+        "original_price": 39.99,
+        "current_price": 3.99,
+        "discount_percent": 90,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
+        "filename": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
+        "alt": "The Elder Scrolls V: Skyrim Special Edition -90% sur Steam - GamerQuest",
+        "caption": "The Elder Scrolls V: Skyrim Special Edition : offre -90% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre The Elder Scrolls V: Skyrim Special Edition sur Steam."
+      }
+    },
+    {
+      "source_id": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032",
+      "title": "Warhammer 40,000: Space Marine 2 à -75% sur Steam",
+      "excerpt": "Warhammer 40,000: Space Marine 2 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 59,99 € à 14,99 €.",
+      "content": "<p><strong>Warhammer 40,000: Space Marine 2</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2183900/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/2183900/",
+      "deal": {
+        "game": "Warhammer 40,000: Space Marine 2",
         "store": "Steam",
         "original_price": 59.99,
         "current_price": 14.99,
@@ -83,11 +83,11 @@
         "expires_at": null
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
-        "filename": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
-        "alt": "Red Dead Redemption 2 -75% sur Steam - GamerQuest",
-        "caption": "Red Dead Redemption 2 : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Red Dead Redemption 2 sur Steam."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032.jpg",
+        "filename": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032.jpg",
+        "alt": "Warhammer 40,000: Space Marine 2 -75% sur Steam - GamerQuest",
+        "caption": "Warhammer 40,000: Space Marine 2 : offre -75% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Warhammer 40,000: Space Marine 2 sur Steam."
       }
     },
     {

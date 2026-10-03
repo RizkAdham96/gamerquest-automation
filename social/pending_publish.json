@@ -1,0 +1,84 @@
+{
+  "source_id": "df00facd980f0a0a0b33489be5db8f297209bc09d7073453af261f6fbf3687e9",
+  "carousel_version": "12a8720a7845b970418bd1cb07f9255b8caabe5cee367124c746269745f49559",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v2",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    577,
+    578,
+    579
+  ],
+  "prepared_at_utc": "2026-10-03T14:51:26.140354Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "df00facd980f0a0a0b33489be5db8f297209bc09d7073453af261f6fbf3687e9",
+    "source_title": "Dates de sortie et plateformes des jeux majeurs d’octobre 2026",
+    "score": 72.5,
+    "idea": {
+      "source_id": "df00facd980f0a0a0b33489be5db8f297209bc09d7073453af261f6fbf3687e9",
+      "topic": "Calendrier des sorties majeures d’octobre 2026",
+      "angle": "Guide visuel des dates et plateformes des jeux phares du mois",
+      "format": "upcoming_games",
+      "hook": "Octobre arrive avec plus de 7 titres incontournables ! Découvrez quand et où les jouer.",
+      "freshness": 9,
+      "click_potential": 8,
+      "curiosity": 7,
+      "shareability": 6,
+      "originality": 5,
+      "gamerquest_relevance": 9,
+      "total_score": 72.5
+    },
+    "carousel": {
+      "topic": "Calendrier des sorties majeures d’octobre 2026",
+      "angle": "Guide visuel des dates et plateformes des jeux phares du mois",
+      "format": "upcoming_games",
+      "hook": "Octobre arrive avec plus de 7 titres incontournables ! Découvrez quand et où les jouer.",
+      "score": 72.5,
+      "slides": [
+        {
+          "title": "Octobre 2026 : 7 titres majeurs",
+          "body": "Le mois s’annonce chargé ! Découvrez quels jeux arrivent et où les jouer.",
+          "visual_prompt": "Illustration dynamique d’un calendrier d’octobre 2026 avec des icônes de manettes de jeu et des silhouettes de jeux populaires."
+        },
+        {
+          "title": "Les sorties phares du mois",
+          "body": "Dynasty Warriors 3, Ghost of Yotei, Ace Combat 8, Aion 2, Gears of War : E‑day, Star Wars : Galactic Racer et Hellraiser : Revival seront disponibles en octobre 2026.",
+          "visual_prompt": "Collage artistique montrant les couvertures ou les concepts visuels des sept jeux cités, disposés autour d’un fond de mois d’octobre."
+        },
+        {
+          "title": "Plus de détails sur GamerQuest.fr",
+          "body": "Toutes les dates précises et les plateformes de chaque titre sont répertoriées sur notre site.",
+          "visual_prompt": "Capture d’écran stylisée d’une page web avec un aperçu de calendrier de sorties de jeux, sans texte lisible."
+        }
+      ],
+      "caption": "Octobre arrive avec une avalanche de nouveautés ! 🎮📅",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest",
+        "#Octobre2026",
+        "#SortiesJeux",
+        "#GamingNews",
+        "#JeuxVidéo"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "df00facd980f0a0a0b33489be5db8f297209bc09d7073453af261f6fbf3687e9"
+    },
+    "caption": "Octobre arrive avec une avalanche de nouveautés ! 🎮📅",
+    "hashtags": [
+      "#GamerQuest",
+      "#Octobre2026",
+      "#SortiesJeux",
+      "#GamingNews",
+      "#JeuxVidéo"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 0
+  }
+}

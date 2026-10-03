@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-02T09:01:06.358057+00:00",
+  "updated_at": "2026-10-03T08:33:27.051488+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -1264,6 +1264,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "The first look at Ian McKellen back as Gandalf in The Hunt for Gollum has been revealed"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-30-years-of-diablo-with-diablo-iv-devs-owen-leach-and-d-c6d420e929b7",
+      "topic": "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026",
+      "detected_at": "2026-09-20T05:25:06.209464+00:00",
+      "analysed_at": "2026-10-03T08:33:27.051258+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/videos/30-years-of-diablo-with-diablo-iv-devs-owen-leach-and-dan-tanguay-play-history-at-blizzcon-2026/",
+          "title": "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026",
+          "evidence": "GameSpot published a fresh gaming story titled: 30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026",
+        "secondary_keywords": [
+          "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026 date de sortie",
+          "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026 plateformes",
+          "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026 gameplay",
+          "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026 guide",
+          "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "30 years of Diablo with Diablo IV Devs Owen Leach and Dan Tanguay | Play History at Blizzcon 2026"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-kingdom-come-deliverance-2-is-at-a-royally-great-discou-5f67240dab06",
+      "topic": "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For?",
+      "detected_at": "2026-09-20T05:25:06.209525+00:00",
+      "analysed_at": "2026-10-03T08:33:27.051305+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/kingdom-come-deliverance-2-is-at-a-royally-great-discount-so-what-art-thou-waiting-for/",
+          "title": "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For?",
+          "evidence": "GameSpot published a fresh gaming story titled: Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For?. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For?",
+        "secondary_keywords": [
+          "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For? date de sortie",
+          "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For? plateformes",
+          "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For? gameplay",
+          "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For? guide",
+          "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Kingdom Come: Deliverance 2 Is At A Royally Great Discount, So What Art Thou Waiting For?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-frustrating-mystery-of-who-makes-nintendo-games-8a4f08cdc20a",
+      "topic": "The Frustrating Mystery Of Who Makes Nintendo Games",
+      "detected_at": "2026-09-20T05:25:06.209570+00:00",
+      "analysed_at": "2026-10-03T08:33:27.051332+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/the-frustrating-mystery-of-who-makes-nintendo-games/",
+          "title": "The Frustrating Mystery Of Who Makes Nintendo Games",
+          "evidence": "GameSpot published a fresh gaming story titled: The Frustrating Mystery Of Who Makes Nintendo Games. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Frustrating Mystery Of Who Makes Nintendo Games",
+        "secondary_keywords": [
+          "The Frustrating Mystery Of Who Makes Nintendo Games date de sortie",
+          "The Frustrating Mystery Of Who Makes Nintendo Games plateformes",
+          "The Frustrating Mystery Of Who Makes Nintendo Games gameplay",
+          "The Frustrating Mystery Of Who Makes Nintendo Games guide",
+          "The Frustrating Mystery Of Who Makes Nintendo Games avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Frustrating Mystery Of Who Makes Nintendo Games"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-indie-dev-says-ai-voice-in-his-game-was-actually-his-wi-32aa2906b225",
+      "topic": "Indie Dev Says “AI” Voice In His Game Was Actually His Wife",
+      "detected_at": "2026-09-20T05:25:06.209610+00:00",
+      "analysed_at": "2026-10-03T08:33:27.051373+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/indie-dev-says-ai-voice-in-his-game-was-actually-his-wife/",
+          "title": "Indie Dev Says “AI” Voice In His Game Was Actually His Wife",
+          "evidence": "GameSpot published a fresh gaming story titled: Indie Dev Says “AI” Voice In His Game Was Actually His Wife. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Indie Dev Says “AI” Voice In His Game Was Actually His Wife",
+        "secondary_keywords": [
+          "Indie Dev Says “AI” Voice In His Game Was Actually His Wife date de sortie",
+          "Indie Dev Says “AI” Voice In His Game Was Actually His Wife plateformes",
+          "Indie Dev Says “AI” Voice In His Game Was Actually His Wife gameplay",
+          "Indie Dev Says “AI” Voice In His Game Was Actually His Wife guide",
+          "Indie Dev Says “AI” Voice In His Game Was Actually His Wife avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Indie Dev Says “AI” Voice In His Game Was Actually His Wife"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-new-pokemon-plane-looks-incredible-even-includes-themed-a4df855d5861",
+      "topic": "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins",
+      "detected_at": "2026-09-20T05:25:06.209653+00:00",
+      "analysed_at": "2026-10-03T08:33:27.051400+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/new-pokemon-plane-looks-incredible-even-includes-themed-cups-and-napkins/",
+          "title": "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins",
+          "evidence": "GameSpot published a fresh gaming story titled: New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins",
+        "secondary_keywords": [
+          "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins date de sortie",
+          "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins plateformes",
+          "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins gameplay",
+          "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins guide",
+          "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "New Pokemon Plane Looks Incredible, Even Includes Themed Cups And Napkins"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-guess-i-ll-delete-every-ps5-game-i-own-to-make-room-f-e9ad5de60e1b",
+      "topic": "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation",
+      "detected_at": "2026-09-20T05:25:06.209697+00:00",
+      "analysed_at": "2026-10-03T08:33:27.051436+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/i-guess-ill-delete-every-ps5-game-i-own-to-make-room-for-ff7-revelation/",
+          "title": "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation",
+          "evidence": "GameSpot published a fresh gaming story titled: I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation",
+        "secondary_keywords": [
+          "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation date de sortie",
+          "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation plateformes",
+          "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation gameplay",
+          "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation guide",
+          "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I Guess I’ll Delete Every PS5 Game I Own To Make Room For FF7 Revelation"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-pokemon-go-september-2026-events-raid-bosses-spotlight--b8c61e7df5d5",
+      "topic": "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More",
+      "detected_at": "2026-09-20T05:25:06.209754+00:00",
+      "analysed_at": "2026-10-03T08:33:27.051461+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/pokemon-go-september-2026-events-raid-bosses-spotlight-hours-mega-finale-and-more/",
+          "title": "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More",
+          "evidence": "GameSpot published a fresh gaming story titled: Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More",
+        "secondary_keywords": [
+          "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More date de sortie",
+          "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More plateformes",
+          "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More gameplay",
+          "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More guide",
+          "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Pokemon Go September 2026 Events: Raid Bosses, Spotlight Hours, Mega Finale, And More"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-new-fire-emblem-lets-you-skip-a-massive-chunk-of-fi-411e4591d923",
+      "topic": "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem",
+      "detected_at": "2026-09-20T05:25:06.209801+00:00",
+      "analysed_at": "2026-10-03T08:33:27.051484+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/the-new-fire-emblem-lets-you-skip-a-massive-chunk-of-fire-emblem/",
+          "title": "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem",
+          "evidence": "GameSpot published a fresh gaming story titled: The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem",
+        "secondary_keywords": [
+          "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem date de sortie",
+          "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem plateformes",
+          "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem gameplay",
+          "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem guide",
+          "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

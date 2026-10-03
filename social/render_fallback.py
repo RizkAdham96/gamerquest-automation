@@ -37,6 +37,35 @@ _BLOCKED_IMAGE_HINTS = (
     "page_bg",
 )
 
+# Generic words must never make an unrelated image look relevant.  The
+# production bug on 2026-10-03 happened because an October roundup could match
+# arbitrary October/gaming artwork from the GamerQuest article page.
+_GENERIC_TOPIC_TERMS = {
+    "actualites", "article", "articles", "disponible", "disponibles",
+    "gameplay", "gamerquest", "jeux", "majeur", "majeurs", "mois",
+    "news", "nouveau", "nouveaux", "octobre", "plateforme", "plateformes",
+    "playstation", "sortie", "sorties", "switch", "titre", "titres", "xbox",
+    "septembre", "novembre", "decembre", "janvier", "fevrier", "mars",
+    "avril", "mai", "juin", "juillet", "aout",
+    "avec", "dans", "pour", "sans", "sera", "seront", "sont", "tout",
+    "tous", "toute", "toutes", "cette", "comme", "mais", "aussi",
+    "the", "and", "with", "from", "this", "that", "your",
+}
+
+
+def _is_gamerquest_generated_image(url):
+    """Return True for precomposed GamerQuest article art.
+
+    Those files already contain a branded/gradient composition. Reusing them as
+    a full-bleed carousel background can produce an apparently empty slide and
+    must never be treated as a gameplay/source visual.
+    """
+    path = urlparse(str(url or "").strip()).path.lower()
+    return (
+        "/generated_news_images/" in path
+        or "/generated_images/" in path
+    )
+
 
 def _upgrade_image_url(url):
     """Upgrade known CDN thumbnails to a production-size image URL."""
@@ -228,20 +257,69 @@ def _default_page_fetcher(url):
         return response.read().decode("utf-8", errors="replace")
 
 
-def _terms(item):
-    text_parts = [str(item.get("title", ""))]
+def _terms(item, carousel=None):
+    """Build semantic topic terms, favouring game/entity names over metadata."""
+    text_parts = [
+        str(item.get("title", "")),
+        str(item.get("excerpt", "")),
+    ]
+
     tags = item.get("tags")
     if isinstance(tags, list):
         text_parts.extend(str(tag) for tag in tags)
+
+    seo = item.get("seo")
+    if isinstance(seo, dict):
+        text_parts.append(str(seo.get("primary_keyword", "")))
+        secondary = seo.get("secondary_keywords")
+        if isinstance(secondary, list):
+            text_parts.extend(str(value) for value in secondary)
+
+    if isinstance(carousel, dict):
+        text_parts.extend(
+            str(carousel.get(key, ""))
+            for key in ("topic", "caption")
+        )
+        slides = carousel.get("slides")
+        if isinstance(slides, list):
+            for slide in slides:
+                if isinstance(slide, dict):
+                    text_parts.extend(
+                        str(slide.get(key, ""))
+                        for key in ("title", "body")
+                    )
+
     text = " ".join(text_parts).lower()
     return {
         token
-        for token in re.findall(r"[a-z0-9]{3,}", text)
-        if token not in {
-            "the", "and", "sur", "avec", "pour", "date", "sortie",
-            "remake", "game", "news",
-        }
+        for token in re.findall(r"[a-zà-ÿ0-9]+", text)
+        if (
+            len(token) >= 4
+            and not token.isdigit()
+            and token not in _GENERIC_TOPIC_TERMS
+        )
     }
+
+
+def _item_relevance_score(item, keywords):
+    """Score another feed item against the selected carousel's named topics."""
+    if not isinstance(item, dict) or not keywords:
+        return 0
+
+    parts = [
+        str(item.get("title", "")),
+        str(item.get("excerpt", "")),
+        str(item.get("content", "")),
+    ]
+    seo = item.get("seo")
+    if isinstance(seo, dict):
+        parts.append(str(seo.get("primary_keyword", "")))
+        secondary = seo.get("secondary_keywords")
+        if isinstance(secondary, list):
+            parts.extend(str(value) for value in secondary)
+
+    haystack = " ".join(parts).lower()
+    return sum(1 for term in keywords if term in haystack)
 
 
 def _canonical_url(url):
@@ -433,6 +511,7 @@ def resolve_publishable_images(
     page_fetcher=None,
     image_fetcher=None,
     image_payloads=None,
+    carousel=None,
 ):
     images = resolve_featured_images(
         source_id,
@@ -440,6 +519,7 @@ def resolve_publishable_images(
         page_fetcher=page_fetcher,
         max_images=12,
         require_three=True,
+        carousel=carousel,
     )
     return validate_source_images(
         images,
@@ -454,6 +534,7 @@ def resolve_featured_images(
     page_fetcher=None,
     max_images=3,
     require_three=True,
+    carousel=None,
 ):
     source_id = str(source_id or "").strip()
     if not source_id:
@@ -474,25 +555,32 @@ def resolve_featured_images(
     if selected_item is None:
         raise RuntimeError("Selected social source was not found in the content feed.")
 
-    keywords = _terms(selected_item)
+    keywords = _terms(selected_item, carousel=carousel)
     candidates = []
     excluded_visuals = set()
 
+    # Prefer the original source artwork. Never use GamerQuest's generated
+    # article card as a carousel background: it is already a branded layout,
+    # not gameplay/press art.
     featured = selected_item.get("featured_image")
     if isinstance(featured, dict):
         featured_url = str(featured.get("url", "")).strip()
         source_image_url = str(featured.get("source_image_url", "")).strip()
-        if featured_url:
-            candidates.append((featured_url, "featured", 1000.0))
         if source_image_url:
-            excluded_visuals.add(_visual_key(_upgrade_image_url(source_image_url)))
+            candidates.append(
+                (_upgrade_image_url(source_image_url), "source_image_url", 2000.0)
+            )
+        elif featured_url and not _is_gamerquest_generated_image(featured_url):
+            candidates.append((_upgrade_image_url(featured_url), "featured", 1000.0))
     elif isinstance(featured, str) and featured.strip():
-        candidates.append((featured.strip(), "featured", 1000.0))
+        featured_url = featured.strip()
+        if not _is_gamerquest_generated_image(featured_url):
+            candidates.append((_upgrade_image_url(featured_url), "featured", 1000.0))
 
     if not candidates:
         for key in ("image_url", "thumbnail", "cover_image"):
             value = str(selected_item.get(key, "")).strip()
-            if value:
+            if value and not _is_gamerquest_generated_image(value):
                 candidates.append((_upgrade_image_url(value), key, 1000.0))
                 break
 
@@ -529,6 +617,44 @@ def resolve_featured_images(
             source_urls.append(official_url)
     elif isinstance(official_source, str) and official_source.strip():
         source_urls.append(official_source.strip())
+
+    # For roundup posts, discover source pages from other feed items that
+    # explicitly mention the named games in this carousel. This gives the
+    # renderer a chance to find real screenshots/press art instead of grabbing
+    # unrelated images from GamerQuest's own page.
+    related_items = []
+    for item in content_items:
+        if not isinstance(item, dict) or item is selected_item:
+            continue
+        relevance = _item_relevance_score(item, keywords)
+        if relevance <= 0:
+            continue
+        related_items.append((relevance, item))
+
+    related_items.sort(key=lambda pair: pair[0], reverse=True)
+    for relevance, item in related_items[:8]:
+        related_featured = item.get("featured_image")
+        if isinstance(related_featured, dict):
+            related_source_image = str(
+                related_featured.get("source_image_url", "")
+            ).strip()
+            if related_source_image:
+                candidates.append(
+                    (
+                        _upgrade_image_url(related_source_image),
+                        f"related:{item.get('title', '')}",
+                        1100.0 + (relevance * 100.0),
+                    )
+                )
+
+        related_source = item.get("source")
+        if isinstance(related_source, dict):
+            related_url = str(related_source.get("url", "")).strip()
+            if related_url:
+                source_urls.append(related_url)
+        related_source_url = str(item.get("source_url", "")).strip()
+        if related_source_url:
+            source_urls.append(related_source_url)
 
     fetcher = page_fetcher or _default_page_fetcher
     for source_url in dict.fromkeys(source_urls):
@@ -582,13 +708,17 @@ def main():
     carousel = load_ready_carousel()
     source_id = load_source_id()
     image_payloads = {}
-    featured_images = resolve_publishable_images(source_id, image_payloads=image_payloads)
+    featured_images = resolve_publishable_images(
+        source_id,
+        image_payloads=image_payloads,
+        carousel=carousel,
+    )
 
     if OUTPUT_DIR.exists():
         shutil.rmtree(OUTPUT_DIR)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    print("AI image generation unavailable; using free deterministic GamerQuest renderer.")
+    print("Using free source-image GamerQuest renderer with strict relevance checks.")
     print(f"Using 3 distinct source visuals for source_id: {source_id}")
     for index, image_url in enumerate(featured_images, start=1):
         print(f"Slide {index} source image: {image_url}")

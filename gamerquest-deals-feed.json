@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T19:26:07.390658+00:00",
-  "count": 6,
+  "generated_at": "2026-10-03T23:18:56.714534+00:00",
+  "count": 7,
   "articles": [
     {
       "source_id": "2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754",
@@ -22,6 +22,28 @@
         "alt": "Cyberpunk 2077 -70% sur Steam - GamerQuest",
         "caption": "Cyberpunk 2077 : offre -70% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Cyberpunk 2077 sur Steam."
+      }
+    },
+    {
+      "source_id": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612",
+      "title": "The Elder Scrolls V: Skyrim Special Edition à -90% sur Steam",
+      "excerpt": "The Elder Scrolls V: Skyrim Special Edition bénéficie actuellement d'une réduction de 90% sur Steam, passant de 39,99 € à 3,99 €.",
+      "content": "<p><strong>The Elder Scrolls V: Skyrim Special Edition</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>3,99 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/489830/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/489830/",
+      "deal": {
+        "game": "The Elder Scrolls V: Skyrim Special Edition",
+        "store": "Steam",
+        "original_price": 39.99,
+        "current_price": 3.99,
+        "discount_percent": 90,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
+        "filename": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
+        "alt": "The Elder Scrolls V: Skyrim Special Edition -90% sur Steam - GamerQuest",
+        "caption": "The Elder Scrolls V: Skyrim Special Edition : offre -90% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre The Elder Scrolls V: Skyrim Special Edition sur Steam."
       }
     },
     {
@@ -47,25 +69,25 @@
       }
     },
     {
-      "source_id": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612",
-      "title": "The Elder Scrolls V: Skyrim Special Edition à -90% sur Steam",
-      "excerpt": "The Elder Scrolls V: Skyrim Special Edition bénéficie actuellement d'une réduction de 90% sur Steam, passant de 39,99 € à 3,99 €.",
-      "content": "<p><strong>The Elder Scrolls V: Skyrim Special Edition</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>3,99 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/489830/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/489830/",
+      "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
+      "title": "Red Dead Redemption 2 à -75% sur Steam",
+      "excerpt": "Red Dead Redemption 2 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 59,99 € à 14,99 €.",
+      "content": "<p><strong>Red Dead Redemption 2</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1174180/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1174180/",
       "deal": {
-        "game": "The Elder Scrolls V: Skyrim Special Edition",
+        "game": "Red Dead Redemption 2",
         "store": "Steam",
-        "original_price": 39.99,
-        "current_price": 3.99,
-        "discount_percent": 90,
+        "original_price": 59.99,
+        "current_price": 14.99,
+        "discount_percent": 75,
         "expires_at": null
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
-        "filename": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
-        "alt": "The Elder Scrolls V: Skyrim Special Edition -90% sur Steam - GamerQuest",
-        "caption": "The Elder Scrolls V: Skyrim Special Edition : offre -90% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre The Elder Scrolls V: Skyrim Special Edition sur Steam."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
+        "filename": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
+        "alt": "Red Dead Redemption 2 -75% sur Steam - GamerQuest",
+        "caption": "Red Dead Redemption 2 : offre -75% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Red Dead Redemption 2 sur Steam."
       }
     },
     {

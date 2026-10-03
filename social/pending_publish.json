@@ -1,0 +1,84 @@
+{
+  "source_id": "e81865c062497ba372235601896b264ccdaf7957e8e37f1bae2ec1eab95ce0e5",
+  "carousel_version": "9ec0b6c49f745bdef4bf21af42856b877b270a4acc24095e9a09d7270bdc4fa0",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v2",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    582,
+    583,
+    584
+  ],
+  "prepared_at_utc": "2026-10-03T19:24:52.667541Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "e81865c062497ba372235601896b264ccdaf7957e8e37f1bae2ec1eab95ce0e5",
+    "source_title": "Les nouveautés Xbox du 5 au 9 octobre 2026 : dates, plateformes, prix et gameplay",
+    "score": 72.5,
+    "idea": {
+      "source_id": "e81865c062497ba372235601896b264ccdaf7957e8e37f1bae2ec1eab95ce0e5",
+      "topic": "Nouveautés Xbox du 5 au 9 octobre 2026",
+      "angle": "Calendrier des sorties Xbox avec dates, plateformes, prix et aperçu du gameplay",
+      "format": "breaking_news",
+      "hook": "Découvrez les 15 nouveaux titres Xbox qui arrivent cette semaine ! Dates de sortie, prix et premières images de gameplay au rendez‑vous.",
+      "freshness": 9,
+      "click_potential": 8,
+      "curiosity": 7,
+      "shareability": 6,
+      "originality": 5,
+      "gamerquest_relevance": 9,
+      "total_score": 72.5
+    },
+    "carousel": {
+      "topic": "Nouveautés Xbox du 5 au 9 octobre 2026",
+      "angle": "Calendrier des sorties Xbox avec dates, plateformes, prix et aperçu du gameplay",
+      "format": "breaking_news",
+      "hook": "Découvrez les 15 nouveaux titres Xbox qui arrivent cette semaine ! Dates de sortie, prix et premières images de gameplay au rendez‑vous.",
+      "score": 72.5,
+      "slides": [
+        {
+          "title": "15 nouveaux titres Xbox cette semaine !",
+          "body": "Découvrez les sorties du 5‑9 octobre 2026 : dates, plateformes, prix et premières images de gameplay.",
+          "visual_prompt": "Capture d'écran d'une sélection de jeux Xbox affichant leurs jaquettes colorées, avec un fond neutre évoquant le calendrier."
+        },
+        {
+          "title": "Calendrier complet des sorties",
+          "body": "Xbox News répertorie quinze jeux avec leurs dates de sortie, les plateformes compatibles, les tarifs et un aperçu du gameplay pour chaque titre.",
+          "visual_prompt": "Illustration d'un agenda stylisé montrant les dates du 5 au 9 octobre, chaque jour associé à une icône de jeu."
+        },
+        {
+          "title": "Plus de détails et images",
+          "body": "Pour les prix exacts, les plateformes supportées et les premières images de chaque jeu, consultez l’article complet.",
+          "visual_prompt": "Montage d’images de gameplay floues et de captures d’écran d’interface Xbox, suggérant du contenu supplémentaire."
+        }
+      ],
+      "caption": "Cette semaine, Xbox dévoile quinze nouveaux titres ! Dates, plateformes, prix et premiers aperçus de gameplay au programme.",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#Xbox",
+        "#Nouveautés",
+        "#Gaming",
+        "#GamerQuest",
+        "#Sorties2026"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "e81865c062497ba372235601896b264ccdaf7957e8e37f1bae2ec1eab95ce0e5"
+    },
+    "caption": "Cette semaine, Xbox dévoile quinze nouveaux titres ! Dates, plateformes, prix et premiers aperçus de gameplay au programme.",
+    "hashtags": [
+      "#Xbox",
+      "#Nouveautés",
+      "#Gaming",
+      "#GamerQuest",
+      "#Sorties2026"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 0
+  }
+}

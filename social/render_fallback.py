@@ -514,6 +514,11 @@ def validate_source_images(image_urls, image_fetcher=None, image_payloads=None):
                     if ImageStat.Stat(alpha).mean[0] < 250:
                         rejected.append(f"transparent decoration ({url})")
                         continue
+                luminance = image.convert("L")
+                luminance_stddev = ImageStat.Stat(luminance).stddev[0]
+                if luminance_stddev < 12 and luminance.entropy() < 4.5:
+                    rejected.append(f"low-detail artwork ({url})")
+                    continue
                 signature = _visual_signature(image)
         except Exception as exc:
             rejected.append(

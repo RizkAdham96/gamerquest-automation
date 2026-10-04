@@ -41,9 +41,11 @@ jobs:
           python - <<'PY'
           import json, os, urllib.request
 
+          # News can land in Actualités (2), Guides (3), Sélections (8) or
+          # Tests & Avis (9), so the snapshot must cover all of them.
           url = (
               "https://gamerquestfr.com/wp-json/wp/v2/posts"
-              "?categories=2&per_page=1&orderby=date&order=desc"
+              "?categories=2,3,8,9&per_page=1&orderby=date&order=desc"
               "&_fields=id,date_gmt,link,title"
           )
           req = urllib.request.Request(url, headers={"User-Agent": "GamerQuest-News-Diagnostic/1.0"})
@@ -230,9 +232,11 @@ jobs:
           generation_reason = "${{ steps.news_diag.outputs.reason }}".strip()
           wake_outcome = "${{ steps.wordpress_wakeup.outcome }}".strip() or "skipped"
 
+          # Same category set as the pre-run snapshot: a new Guides or
+          # Sélections post is a successful publication, not a stuck importer.
           api_url = (
               "https://gamerquestfr.com/wp-json/wp/v2/posts"
-              "?categories=2&per_page=1&orderby=date&order=desc"
+              "?categories=2,3,8,9&per_page=1&orderby=date&order=desc"
               "&_fields=id,date_gmt,link,title"
           )
           home_url = "https://gamerquestfr.com/"

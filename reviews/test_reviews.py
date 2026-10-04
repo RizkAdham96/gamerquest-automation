@@ -257,3 +257,44 @@ def test_new_review_is_marked_as_published():
 
     assert post["id"] == 443
     assert post["_gq_action"] == "published"
+
+
+def test_run_looks_past_existing_reviews_to_publish_new_games(monkeypatch, tmp_path):
+    import reviews.run as review_run
+
+    # Fifteen already-reviewed games sit ahead of the unpublished ones, as in
+    # production where current feed games fill the head of the list.
+    queries = [f"Old Game {i}" for i in range(15)] + [f"New Game {i}" for i in range(6)]
+    seen_limits = []
+
+    def fake_discover(limit=15):
+        seen_limits.append(limit)
+        return queries[:limit]
+
+    class FakePublisher:
+        def publish(self, record):
+            action = "existing" if record["name"].startswith("Old") else "published"
+            return {"_gq_action": action}
+
+    monkeypatch.setattr(review_run, "discover_game_queries", fake_discover)
+    monkeypatch.setattr(review_run, "WordPressPublisher", FakePublisher)
+    monkeypatch.setattr(
+        review_run, "search_game", lambda query: {"id": queries.index(query) + 1}
+    )
+    monkeypatch.setattr(
+        review_run, "fetch_app_details", lambda appid: {"name": queries[appid - 1]}
+    )
+    monkeypatch.setattr(
+        review_run, "fetch_review_summary", lambda appid: {"total_reviews": 10}
+    )
+    monkeypatch.setattr(
+        review_run, "build_review_record", lambda details, summary: {"name": details["name"]}
+    )
+    monkeypatch.setattr(review_run, "STATUS_FILE", tmp_path / "status.json")
+
+    status = review_run.run()
+
+    assert seen_limits == [review_run.CANDIDATE_POOL_SIZE]
+    assert status["existing"] == 15
+    assert status["published"] == review_run.MAX_NEW_REVIEWS_PER_RUN
+    assert status["selected"] == 15 + review_run.MAX_NEW_REVIEWS_PER_RUN

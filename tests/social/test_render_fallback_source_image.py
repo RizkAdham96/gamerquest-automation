@@ -234,6 +234,66 @@ class TestFallbackSourceImage(unittest.TestCase):
         )
 
 
+    def test_refuses_cross_article_images_that_only_match_patch_vocabulary(self):
+        selected = {
+            "source_id": "witcher-patch",
+            "title": "Patch Witcher 3 Remastered : ajustements d'éclairage",
+            "excerpt": (
+                "Le correctif ajuste la luminosité et résout le problème DLSS "
+                "sur la version PC."
+            ),
+            "tags": ["Witcher 3", "Remastered", "Patch", "Éclairage", "CD Projekt Red"],
+            "seo": {"primary_keyword": "patch Witcher 3 Remastered"},
+            "source": {"url": "https://source.example.com/witcher"},
+            "featured_image": {
+                "source_image_url": "https://cdn.example.com/witcher-cover.jpg",
+            },
+        }
+        unrelated = [
+            {
+                "source_id": "grounded",
+                "title": "Grounded 2 : notes de mise à jour et correctifs",
+                "excerpt": "Le patch ajuste la version PC et corrige plusieurs problèmes.",
+                "featured_image": {
+                    "source_image_url": "https://cdn.example.com/grounded-2.jpg",
+                },
+            },
+            {
+                "source_id": "wolverine",
+                "title": "Patch Wolverine : le hotfix expliqué",
+                "excerpt": "La mise à jour corrige la lumière et aide les joueurs.",
+                "featured_image": {
+                    "source_image_url": "https://cdn.example.com/wolverine.jpg",
+                },
+            },
+            {
+                "source_id": "splatoon",
+                "title": "Splatoon Raiders : ajustements et corrections",
+                "excerpt": "La nouvelle version apporte un correctif.",
+                "featured_image": {
+                    "source_image_url": "https://cdn.example.com/splatoon.jpg",
+                },
+            },
+        ]
+        carousel = {
+            "topic": "Patch de Witcher 3 Remastered",
+            "caption": "Le patch corrige l'éclairage et le bug DLSS.",
+            "slides": [
+                {"title": "Le patch qui corrige l'éclairage", "body": "CD Projekt Red ajuste la lumière."},
+                {"title": "Luminosité excessive corrigée", "body": "Le problème DLSS est résolu."},
+                {"title": "DLSS réparé", "body": "Le correctif aide les joueurs PC."},
+            ],
+        }
+
+        with self.assertRaisesRegex(RuntimeError, "three unique relevant images"):
+            render_fallback.resolve_featured_images(
+                "witcher-patch",
+                content_items=[selected, *unrelated],
+                page_fetcher=lambda url: "",
+                carousel=carousel,
+            )
+
+
     def _image_bytes(self, size, color, accent=None):
         image = Image.new("RGB", size, color)
         if accent is not None:

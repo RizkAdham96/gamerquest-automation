@@ -301,16 +301,21 @@ def _terms(item, carousel=None):
     }
 
 
-def _item_relevance_score(item, keywords):
-    """Score another feed item against the selected carousel's named topics."""
-    if not isinstance(item, dict) or not keywords:
-        return 0
+def _identity_terms(item):
+    """Return exact named-topic tokens suitable for cross-article matching.
 
-    parts = [
-        str(item.get("title", "")),
-        str(item.get("excerpt", "")),
-        str(item.get("content", "")),
-    ]
+    Body copy and captions deliberately stay out of this set: generic update
+    vocabulary such as "patch", "version", or "correction" must not authorize
+    artwork from a different game.
+    """
+    if not isinstance(item, dict):
+        return set()
+
+    parts = [str(item.get("title", ""))]
+    tags = item.get("tags")
+    if isinstance(tags, list):
+        parts.extend(str(tag) for tag in tags)
+
     seo = item.get("seo")
     if isinstance(seo, dict):
         parts.append(str(seo.get("primary_keyword", "")))
@@ -318,8 +323,47 @@ def _item_relevance_score(item, keywords):
         if isinstance(secondary, list):
             parts.extend(str(value) for value in secondary)
 
-    haystack = " ".join(parts).lower()
-    return sum(1 for term in keywords if term in haystack)
+    editorial_terms = {
+        "ajustement", "ajustements", "amelioration", "ameliorations",
+        "bug", "bugs", "correctif", "correctifs", "correction", "corrections",
+        "eclairage", "hotfix", "joueur", "joueurs", "lumiere", "mise",
+        "nouvelle", "nouvelles", "patch", "probleme", "problemes",
+        "remastered", "update", "version",
+    }
+    return {
+        token
+        for token in re.findall(r"[a-zà-ÿ0-9]+", " ".join(parts).lower())
+        if (
+            len(token) >= 4
+            and not token.isdigit()
+            and token not in _GENERIC_TOPIC_TERMS
+            and token not in editorial_terms
+        )
+    }
+
+
+def _item_relevance_score(item, identity_terms):
+    """Require two exact named-topic tokens before borrowing article artwork."""
+    if not isinstance(item, dict) or not identity_terms:
+        return 0
+
+    parts = [str(item.get("title", ""))]
+    tags = item.get("tags")
+    if isinstance(tags, list):
+        parts.extend(str(tag) for tag in tags)
+
+    seo = item.get("seo")
+    if isinstance(seo, dict):
+        parts.append(str(seo.get("primary_keyword", "")))
+        secondary = seo.get("secondary_keywords")
+        if isinstance(secondary, list):
+            parts.extend(str(value) for value in secondary)
+
+    candidate_terms = set(
+        re.findall(r"[a-zà-ÿ0-9]+", " ".join(parts).lower())
+    )
+    overlap = identity_terms & candidate_terms
+    return len(overlap) if len(overlap) >= 2 else 0
 
 
 def _canonical_url(url):
@@ -556,6 +600,7 @@ def resolve_featured_images(
         raise RuntimeError("Selected social source was not found in the content feed.")
 
     keywords = _terms(selected_item, carousel=carousel)
+    identity_terms = _identity_terms(selected_item)
     candidates = []
     excluded_visuals = set()
 
@@ -626,7 +671,7 @@ def resolve_featured_images(
     for item in content_items:
         if not isinstance(item, dict) or item is selected_item:
             continue
-        relevance = _item_relevance_score(item, keywords)
+        relevance = _item_relevance_score(item, identity_terms)
         if relevance <= 0:
             continue
         related_items.append((relevance, item))

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04T06:16:04.254427+00:00",
-  "count": 6,
+  "generated_at": "2026-10-04T14:20:06.006873+00:00",
+  "count": 4,
   "articles": [
     {
       "source_id": "2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754",
@@ -69,28 +69,6 @@
       }
     },
     {
-      "source_id": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032",
-      "title": "Warhammer 40,000: Space Marine 2 à -75% sur Steam",
-      "excerpt": "Warhammer 40,000: Space Marine 2 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 59,99 € à 14,99 €.",
-      "content": "<p><strong>Warhammer 40,000: Space Marine 2</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2183900/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/2183900/",
-      "deal": {
-        "game": "Warhammer 40,000: Space Marine 2",
-        "store": "Steam",
-        "original_price": 59.99,
-        "current_price": 14.99,
-        "discount_percent": 75,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032.jpg",
-        "filename": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032.jpg",
-        "alt": "Warhammer 40,000: Space Marine 2 -75% sur Steam - GamerQuest",
-        "caption": "Warhammer 40,000: Space Marine 2 : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Warhammer 40,000: Space Marine 2 sur Steam."
-      }
-    },
-    {
       "source_id": "36db04ab49e2f3a83c71c5270f0a7511f038f3c8cd1721fce80ce26a833e6e92",
       "title": "System Shock 2: 25th Anniversary Remaster est gratuit sur Epic Games Store pendant une durée limitée",
       "excerpt": "System Shock 2: 25th Anniversary Remaster, habituellement proposé à 26,99 €, est actuellement disponible gratuitement sur Epic Games Store.",
@@ -110,28 +88,6 @@
         "alt": "System Shock 2: 25th Anniversary Remaster gratuit sur Epic Games Store - GamerQuest",
         "caption": "System Shock 2: 25th Anniversary Remaster : offre gratuit sur Epic Games Store.",
         "description": "Image GamerQuest générée automatiquement pour l'offre System Shock 2: 25th Anniversary Remaster sur Epic Games Store."
-      }
-    },
-    {
-      "source_id": "9ea344894eb623a19cfd4dee66af22600fc0636e797ef5ffdcba2e91fc3bf39d",
-      "title": "BURIED STARS est gratuit sur Epic Games Store pendant une durée limitée",
-      "excerpt": "BURIED STARS, habituellement proposé à 33,99 €, est actuellement disponible gratuitement sur Epic Games Store.",
-      "content": "<p><strong>BURIED STARS</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 33,99 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>33,99 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>8 octobre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/buried-stars-d7c88c\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.epicgames.com/fr/p/buried-stars-d7c88c",
-      "deal": {
-        "game": "BURIED STARS",
-        "store": "Epic Games Store",
-        "original_price": 33.99,
-        "current_price": 0.0,
-        "discount_percent": 100,
-        "expires_at": "2026-10-08T15:00:00.000Z"
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/9ea344894eb623a19cfd4dee66af22600fc0636e797ef5ffdcba2e91fc3bf39d.jpg",
-        "filename": "9ea344894eb623a19cfd4dee66af22600fc0636e797ef5ffdcba2e91fc3bf39d.jpg",
-        "alt": "BURIED STARS gratuit sur Epic Games Store - GamerQuest",
-        "caption": "BURIED STARS : offre gratuit sur Epic Games Store.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre BURIED STARS sur Epic Games Store."
       }
     }
   ]

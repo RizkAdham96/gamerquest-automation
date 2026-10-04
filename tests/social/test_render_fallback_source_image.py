@@ -350,6 +350,24 @@ class TestFallbackSourceImage(unittest.TestCase):
                 image_fetcher=lambda url: payloads[url],
             )
 
+    def test_rejects_large_but_low_detail_artwork(self):
+        urls = [
+            "https://cdn.example.com/a.jpg",
+            "https://cdn.example.com/b.jpg",
+            "https://cdn.example.com/c.jpg",
+        ]
+        payloads = {
+            urls[0]: self._image_bytes((1400, 900), (20, 24, 30)),
+            urls[1]: self._image_bytes((1400, 900), (35, 39, 45)),
+            urls[2]: self._image_bytes((1400, 900), (50, 54, 60)),
+        }
+
+        with self.assertRaisesRegex(RuntimeError, "low-detail artwork"):
+            render_fallback.validate_source_images(
+                urls,
+                image_fetcher=lambda url: payloads[url],
+            )
+
     def test_accepts_three_large_visually_distinct_images(self):
         urls = [
             "https://cdn.example.com/a.jpg",

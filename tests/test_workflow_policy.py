@@ -100,9 +100,14 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
 
     def test_health_thresholds_match_content_cadence(self):
         text = workflow("content-health.yml")
-        self.assertRegex(text, r'latest_post\(2,\s*"Actualités",\s*14\)')
+        self.assertRegex(text, r'latest_post\("2,3,8,9",\s*"Actualités",\s*14\)')
         self.assertRegex(text, r'latest_post\(5,\s*"Tests & Avis",\s*30\)')
         self.assertIn("max_age_hours", text)
+
+    def test_news_monitors_cover_every_news_category(self):
+        text = workflow("gamerquest.yml")
+        self.assertEqual(text.count("?categories=2,3,8,9&per_page=1"), 2)
+        self.assertNotIn("?categories=2&", text)
 
     def test_production_workflows_skip_pip_self_upgrade(self):
         for name in (

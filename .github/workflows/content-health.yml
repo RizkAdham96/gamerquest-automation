@@ -102,7 +102,9 @@ jobs:
                   )
               return latest
 
-          latest_news = latest_post(2, "Actualités", 14)
+          # The News automation files posts under Actualités (2), Guides (3),
+          # Sélections (8) or Tests & Avis (9); any of them counts as fresh news.
+          latest_news = latest_post("2,3,8,9", "Actualités", 14)
           latest_review = latest_post(5, "Tests & Avis", 30)
 
           homepage = fetch_text("https://gamerquestfr.com/")

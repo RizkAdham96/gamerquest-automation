@@ -8,6 +8,11 @@ from reviews.steam import fetch_app_details, fetch_review_summary, search_game
 from reviews.wordpress import WordPressPublisher
 
 MAX_GAMES_PER_RUN = 15
+# Already-reviewed games and non-game tags stay at the front of the candidate
+# list forever, so the run must look past them (feed tags alone exceed 100)
+# to reach unpublished games and the starter catalog.
+CANDIDATE_POOL_SIZE = 200
+MAX_NEW_REVIEWS_PER_RUN = 3
 STATUS_FILE = Path("reviews-run-status.json")
 
 
@@ -28,8 +33,8 @@ def _write_status(*, selected, published, existing, skipped, errors):
     return payload
 
 
-def run(max_games=MAX_GAMES_PER_RUN):
-    queries = discover_game_queries(limit=max_games)
+def run(max_games=MAX_GAMES_PER_RUN, max_new=MAX_NEW_REVIEWS_PER_RUN):
+    queries = discover_game_queries(limit=max(max_games, CANDIDATE_POOL_SIZE))
     if not queries:
         status = _write_status(
             selected=0,
@@ -47,8 +52,12 @@ def run(max_games=MAX_GAMES_PER_RUN):
     existing = 0
     skipped = 0
     errors = []
+    selected = 0
 
     for query in queries:
+        if published >= max_new:
+            break
+        selected += 1
         print(f"Review candidate: {query}")
         try:
             match = search_game(query)
@@ -84,7 +93,7 @@ def run(max_games=MAX_GAMES_PER_RUN):
             print(f"ERROR: {message}")
 
     status = _write_status(
-        selected=len(queries),
+        selected=selected,
         published=published,
         existing=existing,
         skipped=skipped,
@@ -92,7 +101,7 @@ def run(max_games=MAX_GAMES_PER_RUN):
     )
     print(
         "Tests & Avis run complete: "
-        f"selected={len(queries)}, published={published}, existing={existing}, "
+        f"selected={selected}, published={published}, existing={existing}, "
         f"skipped={skipped}, failed={len(errors)}"
     )
 

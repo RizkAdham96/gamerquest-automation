@@ -1,295 +1,7 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-04T08:47:10.405346+00:00",
+  "updated_at": "2026-10-05T09:36:26.357731+00:00",
   "topics": [
-    {
-      "id": "rss-evidence-of-canceled-grand-theft-auto-5-liberty-city-an-aace7c149e55",
-      "topic": "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online",
-      "detected_at": "2026-09-20T11:48:28.025278+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/evidence-of-canceled-grand-theft-auto-5-liberty-city-and-agent-trevor-dlc-plus-early-version-of-gta6s-map-surface-online/",
-          "title": "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online",
-          "evidence": "<article> <p>As reported by <a href=\"https://www.ign.com/articles/new-gta-5-leak-suggests-rockstar-had-ambitious-city-sized-dlc-plans-that-were-ultimately-scrapped\" target=\"_blank\">IGN</a>, a trove of data from Rockstar has made its way online, with the big ticket items being Grand Theft Auto 5's source code, remnants of canceled GTA5 singleplayer DLC, as well as an early version of GTA6's map that can be loaded into the prior game.</p><p>It's unclear how or why the data is making the rounds now, but the consensus appears to be that it was first extracted from Rockstar in the <a href=\"https://www.pcgamer.com/the-gta-6-leak-was-one-of-the-biggest-ever-and-the-only-winners-were-the-news-writers/\" target=\"_blank\">infamous 2022 Lapsus hack</a> that revealed GTA6 to the world.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/6XuiPl7mTk4\" allowfullscreen></iframe></div></div><p>GTA YouTuber <a href=\"https://www.youtube.com/watch?v=6XuiPl7mTk4\" target=\"_blank\">TJGM</a> has a video and a number of posts on <a href=\"https://x.com/TJGM_\" target=\"_blank\">X</a> covering the <a href"
-        }
-      ],
-      "keywords": [
-        "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online",
-        "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online date de sortie",
-        "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online plateformes",
-        "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online gameplay",
-        "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online guide",
-        "Evidence of canceled Grand Theft Auto 5 Liberty City and 'Agent Trevor' DLC, plus early version of GTA6's map surface online avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-an-ambitious-fanmade-expansion-for-baldur-s-gate-3-is-o-75d6ac9ada41",
-      "topic": "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development",
-      "detected_at": "2026-09-20T11:48:28.025509+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/baldurs-gate/an-ambitious-fanmade-expansion-for-baldurs-gate-3-is-out-after-almost-two-years-in-development/",
-          "title": "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development",
-          "evidence": "<article> <p>Baldur's Gate 3 is pretty great right out of the box, but it could be argued that its second act lacks some variety. If you aren't endlessly dazzled by shadowy forests and J.K. Simmons, you might have wished you could hang out after the family drama in the Shadow-Cursed Lands is sorted and explore some less gloomy vistas before arriving in the game's eponymous metropolis. </p><p>As always, modders have you covered. An ambitious mod for BG3, simply called \"<a href=\"https://www.nexusmods.com/baldursgate3/mods/24689\" target=\"_blank\">Baldur's Gate 3: Act Two Expansion</a>\" just released after \"almost two years in development,\" according to modder SquallyDaBeanz. As the description states, the expansion implements a custom zone called The Chionthar Wilds—\"a whole new region to experience that is similar in scope to the Act 1 Wilderness.\" </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/b48meTdw0OY\" allowfullscreen></iframe></div></div><p>With the mod installed, you can start adventuring in the new region (ideally with a party that's around level 8 or higher) af"
-        }
-      ],
-      "keywords": [
-        "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development",
-        "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development date de sortie",
-        "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development plateformes",
-        "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development gameplay",
-        "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development guide",
-        "An ambitious fanmade expansion for Baldur's Gate 3 is out after almost two years in development avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-japanese-devs-aren-t-facing-the-same-layoff-crisis-beca-352193450b34",
-      "topic": "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert",
-      "detected_at": "2026-09-20T11:48:28.025859+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/japanese-devs-arent-facing-the-same-layoff-crisis-because-their-executives-are-paid-an-order-of-magnitude-less-they-didnt-get-swept-up-in-the-live-service-trend-and-their-teams-are-smaller-says-industry-expert/",
-          "title": "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert",
-          "evidence": "<article> <p>In an interview first published in <a href=\"https://www.magazinesdirect.com/uk/single-issues/edge?utm_campaign=the-game-industry-is-broken-can-we-fix-it&utm_medium=referral&utm_source=knowledge.edge-online.com\" target=\"_blank\">Edge Magazine</a> issue 428 and shared online via its <a href=\"https://knowledge.edge-online.com/p/the-game-industry-is-broken-can-we-fix-it-tim-sweeney-edge-crash\" target=\"_blank\">Knowledge newsletter</a>, former Tencent Games business development director and <a href=\"https://www.pcgamer.com/gaming-industry/this-year-the-game-awards-finally-tackled-the-plague-of-game-industry-layoffs/\" target=\"_blank\">inaugural Game Awards Game Changer Amir Satvat</a> offered his take on why the now-yearslong games industry layoff crisis has been so uneven in its geographic distribution.</p><p>There's been a lot of debate whether the past three years have matched the infamous '83 videogame crash⁠—<a href=\"https://www.pcgamer.com/gaming-industry/the-industrys-in-a-really-horrible-place-brenda-romero-says-we-were-there-in-the-80s-for-the-crash-and-this-is-definitely-crashier/\" target=\"_blank\">Brenda Romero says yes</a>, Tim Cain <a href=\"https://www.pcgamer.com/g"
-        }
-      ],
-      "keywords": [
-        "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert",
-        "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert date de sortie",
-        "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert plateformes",
-        "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert gameplay",
-        "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert guide",
-        "Japanese devs aren't facing the same layoff crisis because their executives are paid an order of magnitude less, 'they didn’t get swept up in the live-service trend,' and their teams are smaller, says industry expert avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-largest-theft-of-labor-in-human-history-court-docs--d96fcb6ea07b",
-      "topic": "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet",
-      "detected_at": "2026-09-20T11:48:28.026188+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/software/ai/the-largest-theft-of-labor-in-human-history-court-docs-reveal-microsoft-exec-predicted-ai-doom-loops-could-hollow-out-the-internet/",
-          "title": "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet",
-          "evidence": "<article> <p>In Dec. 2023, The New York Times filed one of the biggest copyright lawsuits in recent memory against OpenAI and Microsoft, alleging that its AI models heisted ludicrous amounts of journalistic work from the Times. Two days ago, <a href=\"https://cdn.arstechnica.net/wp-content/uploads/2026/07/NYT-v-OpenAI-Memorandum-of-Law-in-Support-of-Motion-for-Sanctions-Against-OpenAI-7-9-26.pdf\" target=\"_blank\">a court filing</a> (hosted and analyzed by <a href=\"https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/\" target=\"_blank\">Ars Technica</a>) was newly unsealed with all sorts of revealing quotes from higher-ups at Microsoft and OpenAI (thanks, <a href=\"https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/\" target=\"_blank\">Tech Crunch</a>).</p><p>Perhaps the most shocking sentiments are from Microsoft's director of applied science, Brent Hecht, who wrote in an internal presentation that Copilot's answer engine would \"hurt the performance of our models and the entire web at the same time.\" </p><p>Internal data from Micros"
-        }
-      ],
-      "keywords": [
-        "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet",
-        "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet date de sortie",
-        "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet plateformes",
-        "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet gameplay",
-        "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet guide",
-        "'The largest theft of labor in human history:' Court docs reveal Microsoft exec predicted AI 'doom loops' could hollow out the internet avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-played-the-adventure-game-so-scandalous-that-it-was-p-59c4d8556d53",
-      "topic": "I played the adventure game so scandalous that it was physically destroyed by UK customs",
-      "detected_at": "2026-09-20T11:48:28.026899+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/adventure/i-played-the-adventure-game-so-scandalous-that-it-was-physically-destroyed-by-uk-customs/",
-          "title": "I played the adventure game so scandalous that it was physically destroyed by UK customs",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Weird Weekend</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/weird-weekend/\" target=\"_blank\">Weird Weekend</a> is our regular Saturday column where we celebrate PC gaming oddities: peculiar games, strange bits of trivia, forgotten history. Pop back every weekend to find out what Jeremy, Josh, Rick and Ted have become obsessed with this time, whether it's the <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/i-embarked-on-a-mission-to-answer-the-most-important-question-in-pc-gaming-how-tall-is-garrett-from-thief/\" target=\"_blank\">canon height of Thief's Garrett</a> or that time someone in the Vatican pirated <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/sports/a-part-of-my-brain-will-always-be-dedicated-to-the-time-someone-in-the-vatican-pirated-football-manager-2013/\" target=\"_blank\">Football Manager</a>.</p></div></div><p>Videogames have been banned and censored for all manner of reasons, and at least one game was so notoriously terrible that it was <a href=\"https://en.wikipedia.org/wik"
-        }
-      ],
-      "keywords": [
-        "I played the adventure game so scandalous that it was physically destroyed by UK customs",
-        "I played the adventure game so scandalous that it was physically destroyed by UK customs date de sortie",
-        "I played the adventure game so scandalous that it was physically destroyed by UK customs plateformes",
-        "I played the adventure game so scandalous that it was physically destroyed by UK customs gameplay",
-        "I played the adventure game so scandalous that it was physically destroyed by UK customs guide",
-        "I played the adventure game so scandalous that it was physically destroyed by UK customs avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-world-of-warcraft-forever-s-convinced-me-that-we-lost-t-feb666536293",
-      "topic": "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design",
-      "detected_at": "2026-09-20T11:48:28.027302+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-convinced-me-that-we-lost-too-much-to-modern-mmo-quest-design/",
-          "title": "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Terminally Online</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PgGhmt5pTtxusaQQX3dHPF\" name=\"logo_terminally\" caption=\"\" alt=\"The Terminally Online logo.\" src=\"https://cdn.mos.cms.futurecdn.net/PgGhmt5pTtxusaQQX3dHPF-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">This is <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/terminally-online/\" target=\"_blank\">Terminally Online</a>:<strong> </strong>PC Gamer's very own MMO column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice.</p><"
-        }
-      ],
-      "keywords": [
-        "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design",
-        "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design date de sortie",
-        "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design plateformes",
-        "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design gameplay",
-        "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design guide",
-        "World of Warcraft: Forever's convinced me that we lost too much to modern MMO quest design avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-it-rules-that-a-27-year-old-rpg-one-of-the-greatest-of--4dce688f4b05",
-      "topic": "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches",
-      "detected_at": "2026-09-20T11:48:28.027535+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rpg/it-rules-that-a-27-year-old-rpg-one-of-the-greatest-of-all-time-is-still-getting-patches/",
-          "title": "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches",
-          "evidence": "<article> <p>A lamentable fact of our hobby is this: time marches on. Because our games have to be rendered in real-time by whatever tech we load them onto, they inevitably end up harder to run as the years wear on, and the gap grows between the tech we <em>have</em> and the tech the games were designed to run on. On PC, the task of keeping those games running tends to end up in the hands of dedicated fans—and god bless them.</p><p>You can't expect devs to maintain games in perpetuity. Unless, I guess, they happen to be the stewards of the Baldur's Gate and Planescape: Torment Enhanced Editions, which are still getting patches almost three decades after the original games released. Most recently (September 15), Planescape got a beta update to its, uh, beta update: a release candidate for an upcoming patch that will bring the game in line with the 2.7 patches some of Beamdog's <a href=\"https://www.pcgamer.com/games/baldurs-gate/beamdog-swaggers-in-says-sorry-im-late-then-surprise-patches-baldurs-gate-1-and-2-enhanced-14-years-after-release/\">other Enhanced Edition games</a> already have.</p><p>As with those other games, the new Planescape beta (itself an addition to <a href=\"https:/"
-        }
-      ],
-      "keywords": [
-        "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches",
-        "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches date de sortie",
-        "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches plateformes",
-        "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches gameplay",
-        "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches guide",
-        "It rules that a 27-year-old RPG, one of the greatest of all time, is still getting patches avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-this-unofficial-engine-patch-for-thief-the-dark-project-422ac561299c",
-      "topic": "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster",
-      "detected_at": "2026-09-20T11:48:28.027821+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/sim/this-unofficial-engine-patch-for-thief-the-dark-project-adds-a-huge-new-feature-that-wont-be-in-nightdives-upcoming-remaster/",
-          "title": "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/uk/thief-the-dark-project/\">Thief: The Dark Project</a> is one of my favourite games of all time, so naturally I am very excited for Nightdive Studios'<a href=\"https://www.pcgamer.com/games/oh-hell-yes-nightdives-next-delicious-remaster-treat-is-thief/\"> upcoming remaster</a>. But it's worth remembering that the community has done an excellent job supporting the game up until this point. Unofficial patches like<a href=\"https://www.systemshock.org/index.php?topic=4128\"> NewDark</a> have ensured that Looking Glass' landmark stealth game can run in high resolutions and with support for widescreen and multi-monitor functionalities for years.</p><p>And if you thought an official remaster might put such efforts to an end, think again. Not to be outdone by Nightdive, NewDark's creator just released a new version of the overhaul which adds a radical new feature to Thief—dynamic shadows.</p><p>Yep, NewDark 1.29 introduces hardware transform & lighting to the Dark Engine, opening the door to GPU-driven effects in Thief's gothic steampunk world. Chief among these is shadows that are dynamically cast by moving objects—guards, doors, even master thi"
-        }
-      ],
-      "keywords": [
-        "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster",
-        "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster date de sortie",
-        "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster plateformes",
-        "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster gameplay",
-        "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster guide",
-        "This unofficial engine patch for Thief: The Dark Project adds a huge new feature that won't be in Nightdive's upcoming remaster avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-cd-projekt-says-abandoning-its-in-house-engine-for-the--6fc5a7c2495a",
-      "topic": "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology'",
-      "detected_at": "2026-09-20T11:48:28.028148+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/the-witcher/cd-projekt-says-abandoning-its-in-house-engine-for-the-witcher-4-had-nothing-to-do-with-cyberpunk-2077s-technical-woes-the-dream-of-the-company-was-actually-never-to-make-technology/",
-          "title": "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology'",
-          "evidence": "<article> <p>We still don't know a huge amount about<a href=\"https://www.pcgamer.com/uk/the-witcher-4/\"> The Witcher 4</a>. But we do know it represents two big changes for the series thus far. The first change is, of course, that Ciri will replace Geralt as the lead character. The second is that CD Projekk will replace its in-house REDengine with Unreal Engine 5.</p><p>There's been considerable speculation as to why CDP is abandoning tech that's delivered some of the most cutting-edge visuals of the last decade, with some fans suggesting that<a href=\"https://www.pcgamer.com/uk/cyberpunk-2077/\"> Cyberpunk 2077</a>'s difficult development and compromised initial release might be a factor. But the studio's co-CEO Michał Nowakowski has formally dismissed this suggestion, stating the decision had more to do with CD Projekt's general ambitions than Cyberpunk specifically.</p><p>Speaking on the<a href=\"https://www.deconstructoroffun.com/blog/why-none-of-us-saw-cyberpunk-coming-apart\" target=\"_blank\"> Deconstructor of Fun</a> podcast (via<a href=\"https://www.gamesradar.com/games/the-witcher/the-witcher-4-abandons-cd-projekt-reds-in-house-tech-for-unreal-engine-5-but-studio-lead-says-its-n"
-        }
-      ],
-      "keywords": [
-        "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology'",
-        "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' date de sortie",
-        "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' plateformes",
-        "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' gameplay",
-        "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' guide",
-        "CD Projekt says abandoning its in-house engine for The Witcher 4 had nothing to do with Cyberpunk 2077's technical woes: 'The dream of the company was actually never to make technology' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-dune-awakening-now-has-a-solo-mode-for-players-put-off--0f406e0b41da",
-      "topic": "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore'",
-      "detected_at": "2026-09-20T11:48:28.028479+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/survival-crafting/dune-awakening-now-has-a-solo-mode-for-players-put-off-by-its-mmo-leanings-while-funcom-has-adjusted-progression-so-you-dont-have-to-lose-things-anymore/",
-          "title": "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore'",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/uk/dune-awakening/\">Dune Awakening</a> was lauded for its survivalist take on Frank Herbert's sci-fi epic when it was released last year, but there's one element of Funcom's sci-fi adventure that's proved consistently controversial, and that's its MMO-adjacent elements. Players seemingly love constructing bases and braving the many dangers lurking in Arrakis' deserts, but are less keen on sharing that experience with other players, especially when the game becomes more competitive in its PvP focussed Deep Desert.</p><p>Now though, in a move that would please Harkonnens galaxy-wide, Funcom has made it so you can keep Arrakis all to yourself. Dune Awakening's long-sought after single-player mode has arrived.<a href=\"https://store.steampowered.com/app/1172710/Dune_Awakening/\"> Update 1.5</a> introduces a tweaked version of Awakening suitable for solo play, while also adjusting Arrakis in a bunch of other ways to make it generally more accessible and less punishing.</p><p>Funcom has changed several core mechanics to make solo mode work, chiefly retooling multiplayer-reliant systems so they can work independently. The player-driven market kn"
-        }
-      ],
-      "keywords": [
-        "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore'",
-        "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore' date de sortie",
-        "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore' plateformes",
-        "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore' gameplay",
-        "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore' guide",
-        "Dune Awakening now has a solo mode for players put off by its MMO leanings, while Funcom has adjusted progression so 'you don't have to lose things anymore' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-vaewolf-s-new-story-trailer-takes-us-down-a-brutal-path-c5b534d00a08",
-      "topic": "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat",
-      "detected_at": "2026-09-20T16:29:24.509166+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/action/vaewolfs-new-story-trailer-takes-us-down-a-brutal-path-of-revenge-and-shows-off-the-frenetic-vampire-and-werewolf-combat/",
-          "title": "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat",
-          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/LapaDbUyezs\" allowfullscreen></iframe></div></div><p>It's always vampires versus werewolves. In games like Skyrim, you can be one or the other, but not both. In Twilight, you had to choose team Jacob or team Edward. Now we're all grown up, it's team Charlie and Carlisle all the way. In Vaewolf, you don't have to choose, you play an elf who's half werewolf and half vampire.</p><p>Vaewolf is an action game where you hack and slash your way to vengeance. The PC Gaming Show Tokyo Direct just debuted a story trailer that gives us a good look at the events that led to our protagonist going down the path of violence.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/y3q7vNa57iQpPTSHdhcAnZ.jpg\" alt=\"A werewolf and a vampiric figure howling. The Vaewolf logo is shown.\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">"
-        }
-      ],
-      "keywords": [
-        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat",
-        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat date de sortie",
-        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat plateformes",
-        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat gameplay",
-        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat guide",
-        "Vaewolf's new story trailer takes us down a brutal path of revenge, and shows off the frenetic vampire and werewolf combat avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-it-s-just-you-and-your-van-in-this-upcoming-open-world--fc0f62a3964b",
-      "topic": "It's just you and your van in this upcoming open-world scavenging game",
-      "detected_at": "2026-09-20T16:29:24.509374+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/adventure/its-just-you-and-your-van-in-this-upcoming-open-world-scavenging-game/",
-          "title": "It's just you and your van in this upcoming open-world scavenging game",
-          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/4UF4lxGqPhI\" allowfullscreen></iframe></div></div><p>Deep down, I know I want to abandon it all and live the life of a nomad. If I didn't have a family and friends to worry about, I'd pack some clothes into a van and drive off, moving from town to town and camping out in the woods. Unfortunately, I have responsibilities and no driver's license, so I can't head off just yet. I can, however, live out the fantasy in Hodka, a new game revealed at the PC Gaming Show Tokyo Direct.</p><p>Hodka is an upcoming game from developer Flazm. In the reveal trailer, we see a dilapidated van cresting a hill next to some stone ruins. The scene is set: this is about you and your trusty home-on-wheels venturing through what remains of this troubled world.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/hrq2PEya2twqN4MYfYKkMb.jpg\" alt=\"A ma"
-        }
-      ],
-      "keywords": [
-        "It's just you and your van in this upcoming open-world scavenging game",
-        "It's just you and your van in this upcoming open-world scavenging game date de sortie",
-        "It's just you and your van in this upcoming open-world scavenging game plateformes",
-        "It's just you and your van in this upcoming open-world scavenging game gameplay",
-        "It's just you and your van in this upcoming open-world scavenging game guide",
-        "It's just you and your van in this upcoming open-world scavenging game avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-neon-abyss-2-has-a-new-final-boss-a-release-date-and-at-89535b5dda9a",
       "topic": "Neon Abyss 2 has a new final boss, a release date, and at least 1 massive fish worth many, many points",
@@ -5998,6 +5710,294 @@
         "Deadlock's new hero Rat King has over 100 voice lines dedicated to throwing rats at you gameplay",
         "Deadlock's new hero Rat King has over 100 voice lines dedicated to throwing rats at you guide",
         "Deadlock's new hero Rat King has over 100 voice lines dedicated to throwing rats at you avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-warhammer-blood-bowl-is-blood-bowl-3-5-rather-than-a-wh-08f5da292e24",
+      "topic": "Warhammer: Blood Bowl is Blood Bowl 3.5 rather than a whole new game, but based on the beta it's definitely an upgrade",
+      "detected_at": "2026-10-05T09:36:26.354119+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/warhammer-blood-bowl-is-blood-bowl-3-5-rather-than-a-whole-new-game-but-based-on-the-beta-its-definitely-an-upgrade/",
+          "title": "Warhammer: Blood Bowl is Blood Bowl 3.5 rather than a whole new game, but based on the beta it's definitely an upgrade",
+          "evidence": "<article> <p>It's a small thing, but being able to save and quit when I'm playing against the AI is a definite improvement in Warhammer: Blood Bowl. Though matches didn't take a huge amount of time in Blood Bowl 3, there were still nights where I'd find myself with 40 minutes before I should really go to bed thinking I can squeeze another game in, and then realizing too late I absolutely cannot.</p><p>A bigger change in Warhammer: Blood Bowl, though one that also makes it easier to squeeze in another match, is Rumble Mode. Based on the tabletop format called Sevens, it's a shrunk-down seven-a-side version of Blood Bowl played on a smaller pitch, inspired by 40K in 40 Minutes and Rugby Sevens. Each half has six turns instead of eight and rerolls cost twice as much, making failure much more common—and since a failed action results in a turnover in Blood Bowl, that speeds up play as well.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:62.50%;\"><img id=\"yPExEKoeFbyvKtpGwYgsNU\" name=\"warhammerbloodbowlbeta1\" alt=\"A"
+        }
+      ],
+      "keywords": [
+        "Warhammer: Blood Bowl is Blood Bowl 3.5 rather than a whole new game, but based on the beta it's definitely an upgrade",
+        "Warhammer: Blood Bowl is Blood Bowl 3.5 rather than a whole new game, but based on the beta it's definitely an upgrade date de sortie",
+        "Warhammer: Blood Bowl is Blood Bowl 3.5 rather than a whole new game, but based on the beta it's definitely an upgrade plateformes",
+        "Warhammer: Blood Bowl is Blood Bowl 3.5 rather than a whole new game, but based on the beta it's definitely an upgrade gameplay",
+        "Warhammer: Blood Bowl is Blood Bowl 3.5 rather than a whole new game, but based on the beta it's definitely an upgrade guide",
+        "Warhammer: Blood Bowl is Blood Bowl 3.5 rather than a whole new game, but based on the beta it's definitely an upgrade avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-it-s-easy-to-forget-now-but-the-first-elder-scrolls-gam-10b7078d4a0c",
+      "topic": "It's easy to forget now, but the first Elder Scrolls game had a rough launch back in the day: 'It was a disaster in a lot of ways and somehow built a billion-dollar franchise'",
+      "detected_at": "2026-10-05T09:36:26.354463+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/its-easy-to-forget-now-but-the-first-elder-scrolls-game-had-a-rough-launch-back-in-the-day-it-was-a-disaster-in-a-lot-of-ways-and-somehow-built-a-billion-dollar-franchise/",
+          "title": "It's easy to forget now, but the first Elder Scrolls game had a rough launch back in the day: 'It was a disaster in a lot of ways and somehow built a billion-dollar franchise'",
+          "evidence": "<article> <p>Given the legacy it created, it's easy to forget The Elder Scrolls wasn't a big deal right out of the gate. The original game in the series, The Elder Scrolls: Arena, wasn't badly received—our reviewer, Andy Butcher, gave it an 87 in <a href=\"https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-arena-review/\">his review</a> at the time—but it didn't set the world on fire immediately.</p><p>In a retrospective on the making of Daggerfall over at <a href=\"https://www.timeextension.com/features/the-making-of-the-elder-scrolls-ii-daggerfall-the-next-thing-i-know-im-building-one-of-the-largest-procedurally-generated-games-ever\">Time Extension</a>, Ted Peterson, designer on both the first two Elder Scrolls games, recalled the trouble Arena had moving copies when it first arrived on shelves in 1994.</p><p>\"Game stores ordered a certain number of copies,\" he said, \"and when we didn't ship on time, they started cancelling. To give you some context of how badly it did, the very, very first game I ever worked on was a retail pack for Terminator 2029, so you had to own the original game. That shipped more copies than Arena did early on. But we were lucky: word of mouth"
+        }
+      ],
+      "keywords": [
+        "It's easy to forget now, but the first Elder Scrolls game had a rough launch back in the day: 'It was a disaster in a lot of ways and somehow built a billion-dollar franchise'",
+        "It's easy to forget now, but the first Elder Scrolls game had a rough launch back in the day: 'It was a disaster in a lot of ways and somehow built a billion-dollar franchise' date de sortie",
+        "It's easy to forget now, but the first Elder Scrolls game had a rough launch back in the day: 'It was a disaster in a lot of ways and somehow built a billion-dollar franchise' plateformes",
+        "It's easy to forget now, but the first Elder Scrolls game had a rough launch back in the day: 'It was a disaster in a lot of ways and somehow built a billion-dollar franchise' gameplay",
+        "It's easy to forget now, but the first Elder Scrolls game had a rough launch back in the day: 'It was a disaster in a lot of ways and somehow built a billion-dollar franchise' guide",
+        "It's easy to forget now, but the first Elder Scrolls game had a rough launch back in the day: 'It was a disaster in a lot of ways and somehow built a billion-dollar franchise' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-garry-newman-responds-to-s-box-criticism-in-lengthy-you-57a3142b052c",
+      "topic": "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn'",
+      "detected_at": "2026-10-05T09:36:26.354715+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/garry-newman-responds-to-s-and-box-criticism-in-lengthy-youtube-comment-i-dont-like-giving-up-on-things-i-am-stubborn/",
+          "title": "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn'",
+          "evidence": "<article> <p>Facepunch founder Garry Newman (Garry's Mod, Rust, s&box) gave an emphatic, extensive mea culpa to the s&box community in a <a href=\"https://youtube.com/watch?v=uN-icULJRDs&lc=UgwbT9wa31ElwqXesCN4AaABAg&si=FdImlglJgjaehxyr\">YouTube comment</a>. Newman was responding to the latest video from <a href=\"https://www.youtube.com/@Eridiium\">Eridium</a>, \"S&box's Free To Play Weekend Isn't Enough,\" a highly critical state-of-the-game from the s&box-focused creator. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/uN-icULJRDs\" allowfullscreen></iframe></div></div><p>Facepunch's recently-released user generated content (UGC) platform has been billed as a Garry's Mod successor in the age of Roblox, but has struggled in its first five months on the market. Eridium's biggest critiques, as I understand them:</p><ul><li><strong>The player character models</strong>, aka \"the citizen,\" even with their <a href=\"https://www.pcgamer.com/software/garry-newman-adds-necks-to-his-neckless-characters-because-the-lack-of-necks-comes-up-consistently-in-our-many-many-many-negative-r"
+        }
+      ],
+      "keywords": [
+        "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn'",
+        "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn' date de sortie",
+        "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn' plateformes",
+        "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn' gameplay",
+        "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn' guide",
+        "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-kingdom-come-deliverance-studio-co-founder-says-a-lot-o-397f7aa74105",
+      "topic": "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one'",
+      "detected_at": "2026-10-05T09:36:26.354994+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/kingdom-come-deliverance-studio-co-founder-says-a-lot-of-rpgs-are-still-games-for-teenagers-and-that-hes-tired-of-all-the-rpgs-where-you-are-this-chosen-one/",
+          "title": "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one'",
+          "evidence": "<article> <p>In a recent interview with PC Gamer's Joshua Wolens, Warhorse Studios co-founder Martin Klima traced the inspirations for Kingdom Come: Deliverance back to boredom with the typical RPG—kill the dark lord, romance a companion or two, and so on. Klima added that this formula is still a mite too widespread even now for his tastes, and wondered if gamers haven't outgrown it by now.</p><p>\"I play a lot of RPGs, it's a genre I really like,\" he said. \"I was really and I still am bored and tired of all the RPGs when you are this chosen one, when you have this grand task of saving the universe .. The games that are these really straightforward power fantasies. It's not that I think it's somehow wrong in principle. There is nothing bad about a good power fantasy. It's just, it's so repetitive.\"</p><p>He likened the typical fantasy roleplaying game to the old idler <a href=\"https://progressquest.com/\" target=\"_blank\">Progress Quest</a>, a satire which lampooned EverQuest and its ilk for being time vampire-Skinner boxes. \"It's really a distillation of what the common RPG is. So I found that there must be many, many people who are really tired of this formula and who want something"
+        }
+      ],
+      "keywords": [
+        "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one'",
+        "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one' date de sortie",
+        "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one' plateformes",
+        "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one' gameplay",
+        "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one' guide",
+        "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-brigador-devs-the-90s-pc-classics-often-taught-really-s-06179f037c23",
+      "topic": "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!'",
+      "detected_at": "2026-10-05T09:36:26.355182+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/brigador-devs-the-90s-pc-classics-often-taught-really-special-things-but-not-because-the-story-said-wow-violence-is-bad/",
+          "title": "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!'",
+          "evidence": "<article> <p>Brigador was a great sleeper hit of mech and simmy gaming, and studio Stellar Jockeys recently released its ambitious follow-up, <a href=\"https://store.steampowered.com/app/903930/Brigador_Killers/\" target=\"_blank\">Brigador Killers</a>, into early access. I spoke to lead developers, brother duo Hugh and Jack Monahan, over the summer. They told me about the <a href=\"https://www.pcgamer.com/games/action/why-do-mech-games-rarely-let-you-leave-the-cockpit-brigador-killers-devs-joke-that-the-feature-added-five-years-of-development-time/\" target=\"_blank\">challenges of adding on-foot gameplay</a>, the importance of <a href=\"https://www.pcgamer.com/games/third-person-shooter/brigador-devs-think-its-crucial-that-their-abrasive-hardcore-mech-sims-arent-for-everyone-i-think-we-make-boy-slop-but-thats-okay/\" target=\"_blank\">not trying to please everyone</a>, as well as why they emulate the \"show, don't tell\" morality and storytelling of '90s PC classics.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-ON92mW\"></div> </div> <script src=\"https://kwizly.com/embed/ON92mW.js\" async></script><div class=\"product\"><a data-dimension112=\"eacfbd6e-c01f-11f1-8d25-738b4487b2"
+        }
+      ],
+      "keywords": [
+        "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!'",
+        "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!' date de sortie",
+        "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!' plateformes",
+        "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!' gameplay",
+        "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!' guide",
+        "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-what-does-your-dream-videogame-concert-look-like-a97eae48e906",
+      "topic": "What does your dream videogame concert look like?",
+      "detected_at": "2026-10-05T09:36:26.355358+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/what-does-your-dream-videogame-concert-look-like/",
+          "title": "What does your dream videogame concert look like?",
+          "evidence": "<article> <p>It feels like the last few years have seen a <em>huge </em>upsurge in videogame concerts, at least over here on British soil anyway. Undertale, The Legend of Zelda, Stardew Valley, The Witcher 3, Sonic, Metaphor: ReFantazio, Final Fantasy. The list goes on and on!</p><p>It's been a heartwarming sight—despite my saltiness at half of them happening in London, a city that is both too far away for a casual evening and also far too London for me to willingly set foot in it more than twice a year—but I still yearn to see more of my favourite songs in a live setting.</p><p>So it got me thinking, what <em>would </em>my ultimate videogame concert actually look like? Well, I'd probably be chucking in a whole lot of Square Enix nonsense a la Distant Worlds—give me Final Fantasy 10, FF12, FF14, and a little bit of FF13 on the side—but I would also <em>kill </em>to hear some Kingdom Hearts stuff with a live orchestra. </p><p>Then I'd probably take a pivot away from JRPGs entirely to hear some songs from my childhood. I continue to be utterly obsessed with the soundtrack from Rare's Kameo: Elements of Power 20 years after I first played it, and it's the kind of music that absolutely"
+        }
+      ],
+      "keywords": [
+        "What does your dream videogame concert look like?",
+        "What does your dream videogame concert look like? date de sortie",
+        "What does your dream videogame concert look like? plateformes",
+        "What does your dream videogame concert look like? gameplay",
+        "What does your dream videogame concert look like? guide",
+        "What does your dream videogame concert look like? avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-runescape-is-getting-a-new-character-type-that-promises-2c97ae6a2d04",
+      "topic": "RuneScape is getting a new character type that promises a fresh start, but existing players are wary of splitting the community up",
+      "detected_at": "2026-10-05T09:36:26.355612+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mmo/runescape-is-getting-a-new-character-type-that-promises-a-fresh-start-but-existing-players-are-wary-of-splitting-the-community-up/",
+          "title": "RuneScape is getting a new character type that promises a fresh start, but existing players are wary of splitting the community up",
+          "evidence": "<article> <p>It's very easy to look at RuneScape Reignited's <a href=\"https://rs.runescape.com/return\" target=\"_blank\">announcement blog</a> or <a href=\"https://www.youtube.com/watch?v=dWx-6WlUXJE\" target=\"_blank\">fancy trailer</a> and assume it's a new upgraded version of the classic game—it certainly walks and talks like one, not dissimilar to the upcoming World of Warcraft: Forever. \"Begin the journey anew with a year of restoration changes paving your path,\" et cetera. But it's actually a new character type in the existing RS3, and existing players aren't all convinced it'll be good for the MMO.</p><p>In fact, some of them have wheeled out the dragon-headed cannons for one of those Falador riots. People have gotten their yuks in: on X, PhosaniNex <a href=\"https://x.com/PhosaniNex/status/2106506904109551922?s=20\" target=\"_blank\">posted</a>, \"All 100 RS3 players in attendance for the final riot to end all riots, what a sight.\"</p><figure><blockquote class=\"reddit-card\" ><a href=\"https://www.reddit.com/r/runescape/comments/1wx741v/nice_little_riot_on_w2_tonight\">Nice little riot on w2 tonight</a><figcaption><cite> from <a href=\"https://www.reddit.com/r/runescape\">r/runescape</a></"
+        }
+      ],
+      "keywords": [
+        "RuneScape is getting a new character type that promises a fresh start, but existing players are wary of splitting the community up",
+        "RuneScape is getting a new character type that promises a fresh start, but existing players are wary of splitting the community up date de sortie",
+        "RuneScape is getting a new character type that promises a fresh start, but existing players are wary of splitting the community up plateformes",
+        "RuneScape is getting a new character type that promises a fresh start, but existing players are wary of splitting the community up gameplay",
+        "RuneScape is getting a new character type that promises a fresh start, but existing players are wary of splitting the community up guide",
+        "RuneScape is getting a new character type that promises a fresh start, but existing players are wary of splitting the community up avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-tonda-ros-creator-of-blue-prince-has-played-ufo-50-for--e3d576bd4942",
+      "topic": "Tonda Ros, creator of Blue Prince, has played UFO 50 for almost 700 hours: 'I think it's easily my favourite game of the last 20 years'",
+      "detected_at": "2026-10-05T09:36:26.356466+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/tonda-ros-creator-of-blue-prince-has-played-ufo-50-for-almost-700-hours-i-think-its-easily-my-favourite-game-of-the-last-20-years/",
+          "title": "Tonda Ros, creator of Blue Prince, has played UFO 50 for almost 700 hours: 'I think it's easily my favourite game of the last 20 years'",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Disk Cleanup</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"DEwkbfkEmfdtjT5P9ybme\" name=\"logo_disk_cleanup\" caption=\"\" alt=\"Disk Cleanup logo\" src=\"https://cdn.mos.cms.futurecdn.net/DEwkbfkEmfdtjT5P9ybme-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/disk-cleanup/\" target=\"_blank\">Disk Cleanup</a>, our regular weekend feature delving into the PCs of PC gaming luminaries. Come back every weekend to read a new interview, digging into the important questions, like \"How tidy is your desktop?\" and \"What game will you never uninstall?\"</p></div></div><p>Tonda Ros was first drawn to PC gaming at seven years old, a"
+        }
+      ],
+      "keywords": [
+        "Tonda Ros, creator of Blue Prince, has played UFO 50 for almost 700 hours: 'I think it's easily my favourite game of the last 20 years'",
+        "Tonda Ros, creator of Blue Prince, has played UFO 50 for almost 700 hours: 'I think it's easily my favourite game of the last 20 years' date de sortie",
+        "Tonda Ros, creator of Blue Prince, has played UFO 50 for almost 700 hours: 'I think it's easily my favourite game of the last 20 years' plateformes",
+        "Tonda Ros, creator of Blue Prince, has played UFO 50 for almost 700 hours: 'I think it's easily my favourite game of the last 20 years' gameplay",
+        "Tonda Ros, creator of Blue Prince, has played UFO 50 for almost 700 hours: 'I think it's easily my favourite game of the last 20 years' guide",
+        "Tonda Ros, creator of Blue Prince, has played UFO 50 for almost 700 hours: 'I think it's easily my favourite game of the last 20 years' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-silent-hill-townfall-is-the-first-horror-game-to-make-m-7b338e766c98",
+      "topic": "Silent Hill: Townfall is the first horror game to make me feel bad for using a shotgun",
+      "detected_at": "2026-10-05T09:36:26.356798+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/silent-hill-townfall-is-the-first-horror-game-to-make-me-feel-bad-for-using-a-shotgun/",
+          "title": "Silent Hill: Townfall is the first horror game to make me feel bad for using a shotgun",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/uk/silent-hill-townfall/\">Silent Hill: Townfall</a> is a suffocating experience, especially if you're like me and love tormenting yourself with stealth, limiting the use of any kind of weapon. I spent almost all of my first playthrough forgoing any pipe or plank, or even pistol in favour of my trusty CRTV and top-notch strategy. But my pacifist run stopped dead in its tracks when I got my hands on the shotgun. </p><p><em><strong>Silent Hill: Townfall spoilers ahead</strong></em></p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.20%;\"><img id=\"inzSULMC4k7x3wWmNkvhA3\" name=\"Silent Hill Townfall screenshots\" alt=\"Silent Hill Townfall screenshots\" src=\"https://cdn.mos.cms.futurecdn.net/inzSULMC4k7x3wWmNkvhA3-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1079\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit:"
+        }
+      ],
+      "keywords": [
+        "Silent Hill: Townfall is the first horror game to make me feel bad for using a shotgun",
+        "Silent Hill: Townfall is the first horror game to make me feel bad for using a shotgun date de sortie",
+        "Silent Hill: Townfall is the first horror game to make me feel bad for using a shotgun plateformes",
+        "Silent Hill: Townfall is the first horror game to make me feel bad for using a shotgun gameplay",
+        "Silent Hill: Townfall is the first horror game to make me feel bad for using a shotgun guide",
+        "Silent Hill: Townfall is the first horror game to make me feel bad for using a shotgun avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-yet-another-free-fan-level-pack-for-quake-has-arrived-a-92af5e136b00",
+      "topic": "Yet another free fan level pack for Quake has arrived, and this one's all about a feature rarely seen in id Software's classic shooter",
+      "detected_at": "2026-10-05T09:36:26.357070+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/yet-another-free-fan-level-pack-for-quake-has-arrived-and-this-ones-all-about-a-feature-rarely-seen-in-id-softwares-classic-shooter/",
+          "title": "Yet another free fan level pack for Quake has arrived, and this one's all about a feature rarely seen in id Software's classic shooter",
+          "evidence": "<article> <p>2026 has been a truly astonishing year for Quake mapping, with both fans and professional game developers delivering some incredible death arenas for id Software's 1996 FPS. We've had the enormous<a href=\"https://www.pcgamer.com/games/fps/quake-modders-banded-together-to-release-the-third-brutalist-map-jam-with-two-campaigns-worth-of-fps-goodness-in-a-megalithic-community-project-more-than-a-year-in-the-making/\"> Quake Brutalist Jam 3</a>,<a href=\"https://www.pcgamer.com/games/fps/the-quake-community-simply-cannot-stop-delivering-having-just-released-a-22-map-deathmatch-jam-to-celebrate-the-shooters-30th-birthday/\"> numerous map packs celebrating Quake's 30 anniversary</a>, and even a new official campaign called<a href=\"https://www.pcgamer.com/games/fps/30-years-after-it-ruined-id-software-quake-gets-another-big-update-while-the-studio-once-again-grapples-with-adversity/\"> Dawn of the Machine</a>.</p><p>You'd think the Quake community would be out of ideas by this point, but if anything, the Quake community is only growing bolder. On Friday, the community released one of its most ambitious map packs yet—a level design extravaganza all about rooftops.</p><p><a href=\"ht"
+        }
+      ],
+      "keywords": [
+        "Yet another free fan level pack for Quake has arrived, and this one's all about a feature rarely seen in id Software's classic shooter",
+        "Yet another free fan level pack for Quake has arrived, and this one's all about a feature rarely seen in id Software's classic shooter date de sortie",
+        "Yet another free fan level pack for Quake has arrived, and this one's all about a feature rarely seen in id Software's classic shooter plateformes",
+        "Yet another free fan level pack for Quake has arrived, and this one's all about a feature rarely seen in id Software's classic shooter gameplay",
+        "Yet another free fan level pack for Quake has arrived, and this one's all about a feature rarely seen in id Software's classic shooter guide",
+        "Yet another free fan level pack for Quake has arrived, and this one's all about a feature rarely seen in id Software's classic shooter avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-grand-theft-auto-6-features-detailed-decapitation-and-f-8ba3c0af217d",
+      "topic": "Grand Theft Auto 6 features 'detailed decapitation' and 'frequent and prominent' drug use, according to hastily deleted PEGI rating",
+      "detected_at": "2026-10-05T09:36:26.357352+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-features-detailed-decapitation-and-frequent-and-prominent-drug-use-according-to-hastily-deleted-pegi-rating/",
+          "title": "Grand Theft Auto 6 features 'detailed decapitation' and 'frequent and prominent' drug use, according to hastily deleted PEGI rating",
+          "evidence": "<article> <p>Age ratings for<a href=\"https://www.pcgamer.com/uk/grand-theft-auto-6/\"> Grand Theft Auto 6</a> have begun rolling in, and unsurprisingly it's a game built for grown-ups, receiving both a Mature rating in the US and an 18+ rating by the ESRB. PEGI went a little further than the other ratings boards when slapping GTA 6 with an 18 certificate, however, going into such specifics about the game's adult content that it inadvertently revealed new mechanics and systems.</p><p>As spotted by<a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-has-detailed-decapitation-and-cocaine-can-be-snorted-directly-from-your-hand-says-uk-ratings-board/\" target=\"_blank\"> GamesRadar+</a>, PEGI's<a href=\"https://pegi.info/search-pegi?q=Grand+theft+auto+vi&op=Search&age%5B%5D=&descriptor%5B%5D=&publisher=&platform%5B%5D=&release_year%5B%5D=&page=1&form_build_id=form-BHKAlfpR8s796UQEe_Xg6-GPAxxHfZFW699NVEo4oLQ&form_id=pegi_search_form\" target=\"_blank\"> rating</a> (which has now been deleted from the organisation's website) stated that Grand Theft Auto 6 \"features strong graphic violence, strong sexual themes, and use of illegal drugs\". In and of itself, this isn't revelatory—althoug"
+        }
+      ],
+      "keywords": [
+        "Grand Theft Auto 6 features 'detailed decapitation' and 'frequent and prominent' drug use, according to hastily deleted PEGI rating",
+        "Grand Theft Auto 6 features 'detailed decapitation' and 'frequent and prominent' drug use, according to hastily deleted PEGI rating date de sortie",
+        "Grand Theft Auto 6 features 'detailed decapitation' and 'frequent and prominent' drug use, according to hastily deleted PEGI rating plateformes",
+        "Grand Theft Auto 6 features 'detailed decapitation' and 'frequent and prominent' drug use, according to hastily deleted PEGI rating gameplay",
+        "Grand Theft Auto 6 features 'detailed decapitation' and 'frequent and prominent' drug use, according to hastily deleted PEGI rating guide",
+        "Grand Theft Auto 6 features 'detailed decapitation' and 'frequent and prominent' drug use, according to hastily deleted PEGI rating avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-an-openai-model-was-caught-trying-to-cheat-at-starcraft-2081f17ec7e3",
+      "topic": "An OpenAI model was caught trying to cheat at StarCraft, and of course it did it by stealing a human's work",
+      "detected_at": "2026-10-05T09:36:26.357626+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/an-openai-model-was-caught-trying-to-cheat-at-starcraft-and-of-course-it-did-it-by-stealing-a-humans-work/",
+          "title": "An OpenAI model was caught trying to cheat at StarCraft, and of course it did it by stealing a human's work",
+          "evidence": "<article> <p>Commercial large-language models—and the companies that create them—have repeatedly been accused of stealing the work of humans. They've been<a href=\"https://www.theguardian.com/books/2026/apr/12/is-ai-the-greatest-art-heist-in-history\" target=\"_blank\"> lambasted for it by artists</a> and<a href=\"https://www.reuters.com/world/us-judge-approves-anthropics-15-billion-settlement-copyright-lawsuit-2026-07-20/\" target=\"_blank\"> sued for it by authors</a>, while senior AI figures have even<a href=\"https://www.pcgamer.com/software/ai/the-largest-theft-of-labor-in-human-history-court-docs-reveal-microsoft-exec-predicted-ai-doom-loops-could-hollow-out-the-internet/\" target=\"_blank\"> admitted in writing</a> to mass-scale labour theft. But I haven't seen an example quite so brazen as an OpenAI model pilfering a human-created bot to try to win a round of StarCraft .</p><p>As reported by<a href=\"https://kotaku.com/openais-gpt-6-astra-gets-frustrated-losing-at-starcraft-and-decides-to-cheat-instead-2000739607\" target=\"_blank\"> Kotaku</a>, the incident occurred during the ongoing botmatch<a href=\"https://starskirmish.com/\" target=\"_blank\"> StarSkirmish</a>, in which human and AI-crea"
+        }
+      ],
+      "keywords": [
+        "An OpenAI model was caught trying to cheat at StarCraft, and of course it did it by stealing a human's work",
+        "An OpenAI model was caught trying to cheat at StarCraft, and of course it did it by stealing a human's work date de sortie",
+        "An OpenAI model was caught trying to cheat at StarCraft, and of course it did it by stealing a human's work plateformes",
+        "An OpenAI model was caught trying to cheat at StarCraft, and of course it did it by stealing a human's work gameplay",
+        "An OpenAI model was caught trying to cheat at StarCraft, and of course it did it by stealing a human's work guide",
+        "An OpenAI model was caught trying to cheat at StarCraft, and of course it did it by stealing a human's work avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

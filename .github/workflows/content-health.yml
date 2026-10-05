@@ -107,7 +107,8 @@ jobs:
           # One News run and two SEO guide runs a day, each started up to several
           # hours late by the scheduler: 24h flags a truly missed day, not jitter.
           latest_news = latest_post("2,3,8,9", "Actualités", 24)
-          latest_review = latest_post(5, "Tests & Avis", 30)
+          # Reviews run once a day and the scheduler has started them 7h late.
+          latest_review = latest_post(5, "Tests & Avis", 36)
 
           homepage = fetch_text("https://gamerquestfr.com/")
           for label, post in (("Actualités", latest_news), ("Tests & Avis", latest_review)):

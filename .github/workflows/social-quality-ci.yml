@@ -50,3 +50,4 @@ jobs:
           python tests/social/test_ai_client.py
           python tests/social/test_run_fresh.py
           python tests/social/test_meta_healthcheck.py
+          python tests/social/test_steam_art.py

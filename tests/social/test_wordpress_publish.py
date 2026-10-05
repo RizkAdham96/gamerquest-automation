@@ -110,7 +110,7 @@ class WordPressPublishPackageTests(unittest.TestCase):
                 )
             self.assertEqual(package["image_urls"], staged["image_urls"])
             self.assertEqual(package["media_ids"], staged["media_ids"])
-            self.assertEqual(package["master_spec_version"], "gamerquest-carousel-v2")
+            self.assertEqual(package["master_spec_version"], "gamerquest-carousel-v3")
             self.assertTrue(ready.exists())
             self.assertTrue(pending.exists())
             upload.assert_called_once()
@@ -124,7 +124,7 @@ class WordPressPublishPackageTests(unittest.TestCase):
             self.assertTrue(recovered["ready"])
             restored = json.loads(restored_ready.read_text())
             self.assertEqual(restored["image_urls"], staged["image_urls"])
-            self.assertEqual(restored["master_spec_version"], "gamerquest-carousel-v2")
+            self.assertEqual(restored["master_spec_version"], "gamerquest-carousel-v3")
 
             with patch("social.wordpress_publish.cleanup_media") as cleanup:
                 result = cleanup_publish_package(

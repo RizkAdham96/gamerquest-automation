@@ -19,10 +19,11 @@ from PIL import Image, ImageDraw
 from social import renderer
 
 
-# The editor approved edge-to-edge artwork on 2026-10-02. Bumping the
-# contract prevents recovery from reusing images rendered in the old,
-# contained-image layout, even when their copy and dimensions are valid.
-MASTER_SPEC_VERSION = "gamerquest-carousel-v2"
+# The editor approved edge-to-edge artwork on 2026-10-02 and, on 2026-10-05,
+# the dark text panel on the cover slide as well. Bumping the contract
+# prevents recovery from reusing images rendered in an older layout, even
+# when their copy and dimensions are valid.
+MASTER_SPEC_VERSION = "gamerquest-carousel-v3"
 MASTER_REFERENCE_POST = "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1"
 MASTER_WIDTH = 1080
 MASTER_HEIGHT = 1920

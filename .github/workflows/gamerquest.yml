@@ -339,14 +339,19 @@ jobs:
           elif automation_outcome == "failure":
               result = "FAILED"
               reason = "automation.py failed before a publishable news item completed."
+          elif stale and generation_status == "draft_created" and wake_outcome != "failure":
+              # The importer has taken up to 45 minutes to pick up a new feed
+              # item, far longer than this step can wait. The run did its job;
+              # Content Health raises the alarm if the post never appears.
+              result = "WAITING_IMPORT"
+              reason = (
+                  f"A draft was created but WordPress has not published it yet; latest "
+                  f"Actualités is {age_hours:.2f} hours old. Content Health will flag it "
+                  f"if the importer does not catch up."
+              )
           elif stale:
               result = "FAILED"
-              if generation_status == "draft_created":
-                  reason = (
-                      f"A draft was created but WordPress still did not publish it after automatic "
-                      f"importer recovery; latest Actualités is {age_hours:.2f} hours old."
-                  )
-              elif generation_status == "rejected":
+              if generation_status == "rejected":
                   reason = (
                       f"No new article was published because the candidate was rejected and the "
                       f"latest Actualités is now {age_hours:.2f} hours old. {generation_reason}"

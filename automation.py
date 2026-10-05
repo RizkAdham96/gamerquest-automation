@@ -90,7 +90,11 @@ GROQ_VERIFICATION_MODEL = "openai/gpt-oss-20b"
 # (draft + factual correction) can fit inside Groq's free-tier TPM window.
 GROQ_DEFAULT_MAX_TOKENS = 1600
 GROQ_GENERATION_MAX_TOKENS = 1700
-GROQ_VERIFICATION_MAX_TOKENS = 1300
+# The editor returns the whole corrected article, and gpt-oss models spend
+# part of this allowance on reasoning before any visible output. At 1300 the
+# reply came back unusable; this still keeps draft + correction inside the
+# 11k run budget and each call under the 6k TPM ceiling.
+GROQ_VERIFICATION_MAX_TOKENS = 2200
 GROQ_BETWEEN_ARTICLES_WAIT_SECONDS = 25
 
 # Retry settings for 429 errors.
@@ -174,12 +178,23 @@ def groq_chat(
                 )
             )
 
-            return (
-                response
-                .choices[0]
-                .message
-                .content
-            )
+            choice = response.choices[0]
+            content = choice.message.content or ""
+            finish_reason = getattr(choice, "finish_reason", None)
+
+            # An empty or cut-off reply otherwise only shows up later as a
+            # confusing parse error.
+            if not content.strip() or finish_reason == "length":
+                usage = getattr(response, "usage", None)
+                print(
+                    "Groq reply incomplete: "
+                    f"model={model} finish_reason={finish_reason} "
+                    f"content_chars={len(content)} "
+                    f"completion_tokens={getattr(usage, 'completion_tokens', 'unknown')} "
+                    f"max_tokens={max_tokens}"
+                )
+
+            return content
 
         except RateLimitError as error:
             error_text = str(error).lower()
@@ -2221,6 +2236,10 @@ CONTENT:
 # PARSE ARTICLE
 # =========================================================
 
+LABEL_PREFIX = r"[ \t]*(?:[#>*_`-]+[ \t]*)*"
+LABEL_SUFFIX = r"[ \t]*[*_]*[ \t]*:[ \t]*[*_]*[ \t]*"
+
+
 def extract_labeled_field(
     text,
     label,
@@ -2234,8 +2253,10 @@ def extract_labeled_field(
     inside SEO_TITLE:.
     """
 
+    # Models sometimes decorate labels as Markdown ("**SEO_TITLE:**",
+    # "## TITLE:"); the decoration is not part of the value.
     start_pattern = (
-        rf"(?mi)^[ \t]*{re.escape(label)}[ \t]*:[ \t]*"
+        rf"(?mi)^{LABEL_PREFIX}{re.escape(label)}{LABEL_SUFFIX}"
     )
 
     start_match = re.search(
@@ -2256,7 +2277,7 @@ def extract_labeled_field(
         ].strip()
 
     end_pattern = (
-        rf"(?mi)^[ \t]*{re.escape(next_label)}[ \t]*:"
+        rf"(?mi)^{LABEL_PREFIX}{re.escape(next_label)}[ \t]*[*_]*[ \t]*:"
     )
 
     end_match = re.search(
@@ -2565,6 +2586,7 @@ CONTENT:
             "keeping the generated article for local safety validation."
         )
         print(f"Editor parse error: {error}")
+        print(f"Editor reply preview: {str(corrected or '')[:300]!r}")
         return article_data
 
 

@@ -765,6 +765,57 @@ def test_source_grounding_blocks_unsupported_negative_multiplayer_claim():
     assert "multiplayer" in reason.lower() or "negative" in reason.lower()
 
 
+def test_parse_article_accepts_markdown_decorated_labels():
+    raw = """**SEO_TITLE:** Test décoré
+**META_DESCRIPTION:** Test description
+**PRIMARY_KEYWORD**: test
+## SECONDARY_KEYWORDS: gaming
+- SEARCH_INTENT: informationnel
+SUGGESTED_SLUG: test
+**TITLE:** Titre
+**EXCERPT:** Test excerpt
+**CATEGORY:** Guides
+**TAGS:** test
+**CONTENT:**
+<p>Un texte correct.</p>
+"""
+
+    parsed = automation.parse_article(raw)
+
+    assert parsed[0] == "Test décoré"
+    assert parsed[2] == "test"
+    assert parsed[6] == "Titre"
+    assert parsed[8] == "Guides"
+    assert parsed[-1] == "<p>Un texte correct.</p>"
+
+
+def test_groq_chat_reports_empty_reply_instead_of_returning_none(monkeypatch, capsys):
+    class Message:
+        content = None
+
+    class Choice:
+        message = Message()
+        finish_reason = "length"
+
+    class Response:
+        choices = [Choice()]
+        usage = None
+
+    class Completions:
+        def create(self, **kwargs):
+            return Response()
+
+    class Client:
+        class chat:
+            completions = Completions()
+
+    monkeypatch.setattr(automation, "GROQ_CLIENT", Client())
+    monkeypatch.setattr(automation, "consume_run_budget", lambda *args, **kwargs: 0)
+
+    assert automation.groq_chat([{"role": "user", "content": "x"}]) == ""
+    assert "Groq reply incomplete" in capsys.readouterr().out
+
+
 def test_parse_article_sanitizes_markdown_bold_from_html():
     raw = """SEO_TITLE: Test
 META_DESCRIPTION: Test description

@@ -182,6 +182,32 @@ class TestCarouselImageSelection(unittest.TestCase):
         )
         self.assertEqual(images, ["https://cdn.example.com/fe-trailer.jpg"])
 
+    def test_roundup_only_borrows_from_games_it_names(self):
+        roundup = {
+            "source_id": "roundup",
+            "title": "Les 7 meilleurs jeux similaires à Silksong pour patienter",
+            "tags": ["Silksong", "Hollow Knight", "Nintendo", "recommandations"],
+        }
+        named = {
+            "source_id": "silksong",
+            "title": "Hollow Knight Silksong : date de sortie du DLC",
+            "tags": ["Silksong", "Hollow Knight"],
+            "featured_image": {"source_image_url": "https://cdn.example.com/silksong.jpg"},
+        }
+        unrelated = {
+            "source_id": "pgw",
+            "title": "Paris Games Week 2026 : le programme Nintendo et les recommandations",
+            "tags": ["Paris Games Week", "Nintendo", "recommandations"],
+            "featured_image": {"source_image_url": "https://cdn.example.com/paris-games-week.jpg"},
+        }
+        images = render_fallback.resolve_featured_images(
+            "roundup",
+            content_items=[roundup, named, unrelated],
+            page_fetcher=lambda url: "",
+            require_three=False,
+        )
+        self.assertEqual(images, ["https://cdn.example.com/silksong.jpg"])
+
     def test_images_needing_heavy_enlargement_are_rejected(self):
         urls = [f"https://cdn.example.com/{name}.jpg" for name in ("a", "b", "c", "d")]
         payloads = {

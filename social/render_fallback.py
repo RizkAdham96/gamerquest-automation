@@ -770,8 +770,16 @@ def resolve_featured_images(
             continue
         # Sharing a platform or publisher tag is not enough to lend artwork to
         # a single-game article: the other article must name the same game.
-        if subject_terms and not subject_terms <= _title_tokens(item):
-            continue
+        if subject_terms:
+            if not subject_terms <= _title_tokens(item):
+                continue
+        else:
+            # A roundup may borrow from an article only when it names that
+            # article's game itself ("jeux similaires à Silksong" and a
+            # Silksong story); a shared platform or month is not a link.
+            other_subject = _subject_terms(item)
+            if not other_subject or not other_subject <= identity_terms:
+                continue
         related_items.append((relevance, item))
 
     related_items.sort(key=lambda pair: pair[0], reverse=True)

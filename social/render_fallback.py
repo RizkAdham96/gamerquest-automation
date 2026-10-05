@@ -10,8 +10,9 @@ from urllib.parse import parse_qsl, urlencode, urljoin, urlparse
 from PIL import Image, ImageOps, ImageStat
 
 from social.render import clean_carousel_copy
-from social.renderer import render_carousel
+from social.renderer import HEIGHT, WIDTH, render_carousel
 from social.sources import get_all_content
+from social.steam_art import steam_screenshots_for_item
 
 
 OUTPUT_FILE = Path("social-output.json")
@@ -20,6 +21,9 @@ OUTPUT_DIR = Path("social-rendered")
 MIN_SOURCE_WIDTH = 900
 MIN_SOURCE_HEIGHT = 500
 MIN_SOURCE_PIXELS = 700_000
+# Artwork is scaled to cover the whole 1080x1920 slide. Beyond this factor the
+# enlargement is visibly blurred or blocky (a 900x500 picture needs 3.8x).
+MAX_SOURCE_UPSCALE = 2.2
 DUPLICATE_HASH_DISTANCE = 7
 
 _BLOCKED_IMAGE_HINTS = (
@@ -65,6 +69,29 @@ def _is_gamerquest_generated_image(url):
         "/generated_news_images/" in path
         or "/generated_images/" in path
     )
+
+
+def _article_card_names(content_items):
+    return {
+        str(item.get("slug", "")).strip().strip("/").lower()
+        for item in content_items or []
+        if isinstance(item, dict) and str(item.get("slug", "")).strip()
+    }
+
+
+def _is_article_card(url, article_cards):
+    """True for a GamerQuest article's featured card served from WordPress.
+
+    The site names each upload after the article slug. GamerQuest pages link
+    to other articles, so scraping one used to pull in the cards of unrelated
+    stories (a Witcher 3 card in a Grounded 2 carousel).
+    """
+    parsed = urlparse(str(url or "").strip())
+    if not (parsed.hostname or "").lower().endswith("gamerquestfr.com"):
+        return False
+    stem = Path(parsed.path).stem.lower()
+    stem = re.sub(r"-\d{2,4}x\d{2,4}$", "", stem)
+    return stem in article_cards
 
 
 def _upgrade_image_url(url):
@@ -323,13 +350,6 @@ def _identity_terms(item):
         if isinstance(secondary, list):
             parts.extend(str(value) for value in secondary)
 
-    editorial_terms = {
-        "ajustement", "ajustements", "amelioration", "ameliorations",
-        "bug", "bugs", "correctif", "correctifs", "correction", "corrections",
-        "eclairage", "hotfix", "joueur", "joueurs", "lumiere", "mise",
-        "nouvelle", "nouvelles", "patch", "probleme", "problemes",
-        "remastered", "update", "version",
-    }
     return {
         token
         for token in re.findall(r"[a-zà-ÿ0-9]+", " ".join(parts).lower())
@@ -337,9 +357,51 @@ def _identity_terms(item):
             len(token) >= 4
             and not token.isdigit()
             and token not in _GENERIC_TOPIC_TERMS
-            and token not in editorial_terms
+            and token not in _EDITORIAL_TERMS
         )
     }
+
+
+_EDITORIAL_TERMS = {
+    "ajustement", "ajustements", "amelioration", "ameliorations",
+    "bug", "bugs", "correctif", "correctifs", "correction", "corrections",
+    "eclairage", "hotfix", "joueur", "joueurs", "lumiere", "mise",
+    "nouvelle", "nouvelles", "patch", "probleme", "problemes",
+    "remastered", "update", "version",
+    "annonce", "annonces", "apercu", "complet", "date", "dates", "demo",
+    "details", "edition", "editions", "equilibrage", "gratuit", "guide",
+    "informations", "infos", "jour", "notes", "prix", "stabilite",
+    "trailer",
+}
+
+
+def _subject_terms(item):
+    """Tokens of the game named before the title's separator, if any.
+
+    "Fire Emblem : Fortune's Weave – date de sortie" is about one game; a
+    roundup such as "Dates de sortie Xbox 2027 : …" or a title with no
+    separator has no single subject and returns an empty set.
+    """
+    if not isinstance(item, dict):
+        return set()
+    title = " ".join(str(item.get("title", "")).split())
+    head = re.split(r"\s[:–—|-]\s", title, maxsplit=1)[0]
+    if head == title:
+        return set()
+    return {
+        token
+        for token in re.findall(r"[a-zà-ÿ0-9]+", head.lower())
+        if (
+            len(token) >= 4
+            and not token.isdigit()
+            and token not in _GENERIC_TOPIC_TERMS
+            and token not in _EDITORIAL_TERMS
+        )
+    }
+
+
+def _title_tokens(item):
+    return set(re.findall(r"[a-zà-ÿ0-9]+", str(item.get("title", "")).lower()))
 
 
 def _item_relevance_score(item, identity_terms):
@@ -509,6 +571,13 @@ def validate_source_images(image_urls, image_fetcher=None, image_payloads=None):
                         f"too small {width}x{height} ({url})"
                     )
                     continue
+                upscale = max(WIDTH / width, HEIGHT / height)
+                if upscale > MAX_SOURCE_UPSCALE:
+                    rejected.append(
+                        f"too small {width}x{height}, would be enlarged "
+                        f"{upscale:.1f}x ({url})"
+                    )
+                    continue
                 if "A" in image.getbands() or "transparency" in image.info:
                     alpha = image.convert("RGBA").getchannel("A")
                     if ImageStat.Stat(alpha).mean[0] < 250:
@@ -562,6 +631,7 @@ def resolve_publishable_images(
     image_fetcher=None,
     image_payloads=None,
     carousel=None,
+    steam_resolver=None,
 ):
     images = resolve_featured_images(
         source_id,
@@ -570,6 +640,7 @@ def resolve_publishable_images(
         max_images=12,
         require_three=True,
         carousel=carousel,
+        steam_resolver=steam_resolver,
     )
     return validate_source_images(
         images,
@@ -585,10 +656,16 @@ def resolve_featured_images(
     max_images=3,
     require_three=True,
     carousel=None,
+    steam_resolver=None,
 ):
     source_id = str(source_id or "").strip()
     if not source_id:
         raise RuntimeError("Fallback render has no selected source_id.")
+
+    # A caller that injects its own page fetcher controls all network access,
+    # so the store lookup only runs by default on the real fetch path.
+    if steam_resolver is None and page_fetcher is None:
+        steam_resolver = steam_screenshots_for_item
 
     if content_items is None:
         content_items = get_all_content()
@@ -607,6 +684,10 @@ def resolve_featured_images(
 
     keywords = _terms(selected_item, carousel=carousel)
     identity_terms = _identity_terms(selected_item)
+    subject_terms = _subject_terms(selected_item)
+    # An article about one game may only take page images that name that
+    # game; the broad copy vocabulary let any "patch" or "DLC" image through.
+    page_keywords = subject_terms or keywords
     candidates = []
     excluded_visuals = set()
 
@@ -634,6 +715,13 @@ def resolve_featured_images(
             if value and not _is_gamerquest_generated_image(value):
                 candidates.append((_upgrade_image_url(value), key, 1000.0))
                 break
+
+    # Official store screenshots of the article's own game: relevant by
+    # construction, full resolution, and free of baked-in logos that the
+    # vertical crop would cut in half. They outrank every other source.
+    if steam_resolver is not None:
+        for position, shot in enumerate(steam_resolver(selected_item)):
+            candidates.append((shot, "steam_screenshot", 2100.0 - position))
 
     source = selected_item.get("source")
     source_urls = []
@@ -680,6 +768,18 @@ def resolve_featured_images(
         relevance = _item_relevance_score(item, identity_terms)
         if relevance <= 0:
             continue
+        # Sharing a platform or publisher tag is not enough to lend artwork to
+        # a single-game article: the other article must name the same game.
+        if subject_terms:
+            if not subject_terms <= _title_tokens(item):
+                continue
+        else:
+            # A roundup may borrow from an article only when it names that
+            # article's game itself ("jeux similaires à Silksong" and a
+            # Silksong story); a shared platform or month is not a link.
+            other_subject = _subject_terms(item)
+            if not other_subject or not other_subject <= identity_terms:
+                continue
         related_items.append((relevance, item))
 
     related_items.sort(key=lambda pair: pair[0], reverse=True)
@@ -707,6 +807,7 @@ def resolve_featured_images(
         if related_source_url:
             source_urls.append(related_source_url)
 
+    article_cards = _article_card_names(content_items)
     fetcher = page_fetcher or _default_page_fetcher
     for source_url in dict.fromkeys(source_urls):
         try:
@@ -716,9 +817,11 @@ def resolve_featured_images(
             for url, alt in parser.images:
                 if _visual_key(url) in excluded_visuals:
                     continue
-                if not _looks_like_content_image(url, alt, keywords):
+                if _is_article_card(url, article_cards):
                     continue
-                score = 1500.0 if url in parser.gallery_images else _score_image(url, alt, keywords)
+                if not _looks_like_content_image(url, alt, page_keywords):
+                    continue
+                score = 1500.0 if url in parser.gallery_images else _score_image(url, alt, page_keywords)
                 candidates.append((url, alt, score))
         except Exception as exc:
             print(

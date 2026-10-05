@@ -47,6 +47,11 @@ BLOCKED_TAGS = {
     "plateforme", "plateformes", "jeux pc", "insomniac", "marvel",
     "mise à jour", "mise a jour", "ubisoft", "jeu vidéo", "jeux vidéo",
     "jeu video", "jeux video", "sorties 2026",
+    # Genre words can exactly match an unrelated Steam game of the same name.
+    "metroidvania", "roguelike", "roguelite", "soulslike", "rpg", "jrpg",
+    "fps", "mmo", "mmorpg", "moba", "battle royale", "survival", "horreur",
+    "horror", "action", "aventure", "adventure", "plateformer", "platformer",
+    "puzzle", "sandbox", "multijoueur", "remastered", "remaster", "remake",
 }
 
 

@@ -28,11 +28,11 @@ def test_two_daily_carousels_fit_even_after_other_lanes_use_their_caps(tmp_path)
 def test_minimum_other_daily_allocations_preserve_full_quality_runs(tmp_path):
     state = tmp_path / "groq.json"
     day = "2026-10-02"
-    for index in range(2):
-        result = groq_budget.reserve_run("news", 11000, f"news-{index}", path=state, day=day)
-        assert result["allowed"] is True
-    result = groq_budget.reserve_run("seo", 10000, "seo", path=state, day=day)
+    result = groq_budget.reserve_run("news", 11000, "news", path=state, day=day)
     assert result["allowed"] is True
+    for index in range(2):
+        result = groq_budget.reserve_run("seo", 10000, f"seo-{index}", path=state, day=day)
+        assert result["allowed"] is True
     for index in range(2):
         result = groq_budget.reserve_run("social", 17000, f"social-{index}", path=state, day=day)
         assert result["allowed"] is True

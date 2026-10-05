@@ -3,10 +3,11 @@ name: GamerQuest Automation
 on:
   workflow_dispatch:
 
-  # Two full-quality News opportunities/day leave priority for carousels.
-  # Each run has enough budget for a full-quality draft + verification while TPM pacing separates calls.
+  # One full-quality News opportunity/day; the second slot's Groq allowance
+  # now funds a second evergreen SEO guide run, which is what earns search traffic.
+  # The run has enough budget for a full-quality draft + verification while TPM pacing separates calls.
   schedule:
-    - cron: "27 0,12 * * *"
+    - cron: "27 0 * * *"
 
 permissions:
   contents: write

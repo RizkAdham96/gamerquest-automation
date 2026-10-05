@@ -6,6 +6,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+from evergreen_topics import discover_evergreen_topics, is_evergreen_topic
 from researcher import PUBLIC_GAMING_FEEDS, extract_feed_entries, fetch_feed
 
 
@@ -102,6 +103,40 @@ def existing_keys(intel: dict, scored: dict, history: dict) -> tuple[set[str], s
     return titles, urls
 
 
+def known_evergreen_keywords(intel: dict, scored: dict, history: dict) -> set[str]:
+    keywords: set[str] = set()
+    for item in intel.get("topics", []):
+        if is_evergreen_topic(item) and item.get("keywords"):
+            keywords.add(normalize(item["keywords"][0]))
+    for item in scored.get("topics", []):
+        if isinstance(item, dict):
+            keywords.add(normalize((item.get("seo") or {}).get("primary_keyword", "")))
+    for item in history.get("published", []):
+        if isinstance(item, dict):
+            keywords.add(normalize(item.get("primary_keyword", "")))
+    keywords.discard("")
+    return keywords
+
+
+def discover_evergreen(intel: dict, scored: dict, history: dict) -> tuple[list[dict], list[str]]:
+    """Evergreen questions are what the scorer can accept; a Steam outage must
+    not stop the publisher-feed refresh, so failures leave the inventory as is."""
+    checked = {
+        normalize(name)
+        for name in intel.get("evergreen_checked_games", [])
+        if normalize(name)
+    }
+    try:
+        fresh = discover_evergreen_topics(
+            known_evergreen_keywords(intel, scored, history),
+            checked,
+        )
+    except Exception as error:
+        print(f"Evergreen topic discovery unavailable: {error}")
+        fresh = []
+    return fresh, sorted(checked)
+
+
 def build_topic(entry: dict, publisher: str) -> dict | None:
     title = re.sub(r"\s+", " ", str(entry.get("title", "") or "")).strip()
     url = str(entry.get("url", "") or "").strip()
@@ -151,6 +186,7 @@ def discover() -> dict:
     history = load_json(INTENT_HISTORY_FILE, {"published": []})
 
     known_titles, known_urls = existing_keys(intel, scored, history)
+    evergreen, checked_games = discover_evergreen(intel, scored, history)
     fresh = []
 
     for feed in PUBLIC_GAMING_FEEDS:
@@ -185,6 +221,7 @@ def discover() -> dict:
         if isinstance(item, dict)
     ]
     topics.extend(fresh)
+    topics.extend(evergreen)
 
     # Keep a bounded durable inventory. Scored IDs remain durable elsewhere.
     if len(topics) > MAX_INTEL_TOPICS:
@@ -193,6 +230,7 @@ def discover() -> dict:
     result = {
         "version": "1.1",
         "updated_at": datetime.now(timezone.utc).isoformat(),
+        "evergreen_checked_games": checked_games,
         "topics": topics,
     }
     save_json(INTEL_FILE, result)
@@ -201,6 +239,9 @@ def discover() -> dict:
     print("GAMERQUEST SEO TOPIC DISCOVERY")
     print("===================================")
     print(f"Added topics: {len(fresh)}")
+    print(f"Added evergreen topics: {len(evergreen)}")
+    for item in evergreen:
+        print(f"+ {item.get('keywords', [''])[0]}")
     print(f"Intel inventory: {len(topics)}")
 
     for index, item in enumerate(fresh, start=1):

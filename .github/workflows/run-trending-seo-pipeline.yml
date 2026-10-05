@@ -3,9 +3,9 @@ name: Run Trending SEO Pipeline
 on:
   workflow_dispatch:
   schedule:
-    # One full-quality SEO opportunity/day. Shared budgeting preserves
+    # Two full-quality SEO guide opportunities/day. Shared budgeting preserves
     # the News/Social reserve without shrinking the SEO generation budget.
-    - cron: "43 2 * * *"
+    - cron: "43 2,14 * * *"
 
 permissions:
   contents: write

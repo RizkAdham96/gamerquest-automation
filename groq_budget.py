@@ -27,10 +27,11 @@ DEFAULT_GLOBAL_DAILY_CEILING = 70_000
 DEFAULT_LANE_CEILINGS = {
     # Give Social the largest allocation: two full-quality 17k windows/day.
     # Other lanes together cannot consume their 34k Social allowance.
-    # News retains its 11k per-run budget; unused allowance is returned.
+    # News keeps one full 11k run/day; the second run's allowance moved to SEO
+    # so evergreen guides get two 10k runs/day. Unused allowance is returned.
     # Prepared-package recovery makes no AI calls. All lane caps sum to 70k.
-    "news": 22_000,
-    "seo": 10_000,
+    "news": 11_000,
+    "seo": 21_000,
     "social": 34_000,
     "manual": 4_000,
 }

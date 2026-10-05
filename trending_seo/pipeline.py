@@ -72,7 +72,12 @@ SEO_INTENT_HISTORY_FILE = (
 PIPELINE_VERSION = "2.0"
 
 MODEL = "openai/gpt-oss-120b"
-SEO_ARTICLE_MAX_TOKENS = 1500
+# Sized for a complete 900-1200 word answer; a 300-400 word page does not
+# compete for a search query. The prompt plus this allowance must stay under
+# the 6000 TPM safety ceiling enforced by consume_run_budget().
+SEO_ARTICLE_MAX_TOKENS = 2800
+STORE_EVIDENCE_ORIGIN = "steam_store_api"
+STORE_EVIDENCE_MAX_CHARS = 2400
 
 # Publish several independent SEO articles per run while preserving
 # the research, image, duplicate-intent and quality gates.
@@ -283,6 +288,15 @@ def find_relevant_source_image(
         return ""
 
     sources = build_featured_image_sources(topic, research_context)
+
+    # Store-generated topics carry the game's own official artwork, which the
+    # page scraper below would discard as an opaque CDN URL.
+    for source in sources:
+        if safe_string(source.get("evidence_origin")) != STORE_EVIDENCE_ORIGIN:
+            continue
+        image_url = safe_string(source.get("image_url"))
+        if image_url.startswith("https://"):
+            return image_url
 
     for source in sources:
         source_url = safe_string(source.get("url"))
@@ -566,8 +580,43 @@ def stop_result(
 
 
 
+def store_research_context(topic: Dict[str, Any]) -> Dict[str, Any] | None:
+    """Evidence pack for topics generated from official store data.
+
+    The store record is the primary source for specifications and game modes,
+    so it needs no publisher-feed discovery or AI claim verification.
+    """
+    evidence = []
+    for source in topic.get("sources", []) if isinstance(topic, dict) else []:
+        if not isinstance(source, dict):
+            continue
+        if safe_string(source.get("evidence_origin")) != STORE_EVIDENCE_ORIGIN:
+            continue
+        text = safe_string(source.get("evidence"))
+        url = safe_string(source.get("url"))
+        if len(text) < 120 or not url:
+            continue
+        evidence.append({
+            "url": url,
+            "title": safe_string(source.get("title")),
+            "text": text,
+            "publisher": "store",
+            "evidence_origin": STORE_EVIDENCE_ORIGIN,
+        })
+    if not evidence:
+        return None
+    return {
+        "research_status": "STORE_DATA_READY",
+        "usable_evidence": evidence,
+        "fact_pack": {"confirmed_facts": [], "blocked_claims": []},
+    }
+
+
 def build_research_context(topic: Dict[str, Any]) -> Dict[str, Any]:
     """Build the existing Researcher V9 evidence pack for one SEO topic."""
+    store_context = store_research_context(topic)
+    if store_context is not None:
+        return store_context
     try:
         return researcher.build_research_record(topic, topic)
     except Exception as error:
@@ -604,10 +653,17 @@ def compact_research_context(context: Dict[str, Any]) -> Dict[str, Any]:
         for item in evidence[:2]:
             if not isinstance(item, dict):
                 continue
+            # Store evidence is a compact list of facts; cutting it at 900
+            # characters would drop the recommended configuration.
+            limit = (
+                STORE_EVIDENCE_MAX_CHARS
+                if safe_string(item.get("evidence_origin")) == STORE_EVIDENCE_ORIGIN
+                else 900
+            )
             sources.append({
                 "url": safe_string(item.get("url")),
                 "title": safe_string(item.get("title")),
-                "text": safe_string(item.get("text"))[:900],
+                "text": safe_string(item.get("text"))[:limit],
             })
     return {
         "confirmed_facts": confirmed[:4] if isinstance(confirmed, list) else [],
@@ -868,6 +924,11 @@ RÈGLES SEO :
 10. L'article doit répondre concrètement aux questions
     qu'un joueur taperait sur Google.
 
+10 bis. Vise 900 à 1200 mots. Couvre complètement le sujet :
+    la réponse directe, le détail point par point, ce que cela
+    implique en pratique pour le joueur, puis une FAQ.
+    N'allonge jamais avec du remplissage ou des répétitions.
+
 11. Crée une meta description utile et naturelle.
 
 12. La meta description doit idéalement rester
@@ -918,6 +979,8 @@ RÈGLES DE RECHERCHE :
 - Pour les dates, prix, plateformes et fonctionnalités précises, utilise uniquement les faits confirmés et les sources ci-dessus.
 - N'invente jamais de fait précis.
 - N'utilise jamais une affirmation bloquée ou non vérifiée comme un fait.
+- Quand une source liste une configuration PC ou des modes de jeu, reprends ces valeurs exactement, sans en ajouter ni en modifier.
+- Si la source ne mentionne pas une fonctionnalité (crossplay, écran partagé, etc.), écris qu'elle n'est pas indiquée sur la fiche officielle ; ne l'affirme pas et ne la nie pas.
 
 IMPORTANT :
 
@@ -1250,6 +1313,7 @@ def wordpress_category_ids_for_brief(
         "guide", "comment", "astuce", "soluce", "walkthrough",
         "probleme", "problème", "erreur", "fix", "où trouver",
         "ou trouver", "obtenir", "débloquer", "debloquer",
+        "configuration pc", "multijoueur", "coop", "crossplay",
     )
     recommendation_markers = (
         "meilleur", "meilleure", "comparatif", "recommand",

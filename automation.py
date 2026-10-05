@@ -265,6 +265,7 @@ from news_quality import (
     has_conflicting_news_claims,
     is_duplicate_news_topic,
     is_exclusive_claim,
+    is_self_promotional_source,
     looks_official,
     looks_trusted_media,
     news_story_angles,
@@ -1624,10 +1625,14 @@ def search_gaming_news():
             )
 
             # Unknown domains need substantial
-            # source content before being accepted.
+            # source content before being accepted,
+            # and must not be a page about themselves.
             if (
                 tier == 3
                 and content_len < 1200
+            ) or is_self_promotional_source(
+                url,
+                title,
             ):
                 print(
                     "Weak source skipped "

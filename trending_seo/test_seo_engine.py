@@ -39,13 +39,13 @@ class TestSEOEngine(unittest.TestCase):
             + paragraph
             + "</p>"
             + "<h2>Pour le combat exigeant</h2><p>"
-            + paragraph * 3
+            + paragraph * 5
             + "</p>"
             + "<h2>Pour l'exploration</h2><p>"
-            + paragraph * 3
+            + paragraph * 5
             + "</p>"
             + "<h2>Pour progresser à son rythme</h2><p>"
-            + paragraph * 3
+            + paragraph * 5
             + "</p>"
         )
 

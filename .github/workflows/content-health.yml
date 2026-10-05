@@ -104,7 +104,9 @@ jobs:
 
           # The News automation files posts under Actualités (2), Guides (3),
           # Sélections (8) or Tests & Avis (9); any of them counts as fresh news.
-          latest_news = latest_post("2,3,8,9", "Actualités", 14)
+          # One News run and two SEO guide runs a day, each started up to several
+          # hours late by the scheduler: 24h flags a truly missed day, not jitter.
+          latest_news = latest_post("2,3,8,9", "Actualités", 24)
           latest_review = latest_post(5, "Tests & Avis", 30)
 
           homepage = fetch_text("https://gamerquestfr.com/")

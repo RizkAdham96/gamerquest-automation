@@ -114,6 +114,24 @@ def source_tier(url):
     return 3
 
 
+def is_self_promotional_source(url, title):
+    """True when an unknown site's page is about the site itself.
+
+    Pages such as "Updates from TheGameArchives: a complete guide" describe
+    their own website, not a game; an article built on one targets a brand
+    keyword no player searches for. A trailing " - Site name" suffix is
+    ignored because ordinary headlines carry it too.
+    """
+    if source_tier(url) != 3:
+        return False
+    label = get_domain(url).split(".")[0]
+    label = re.sub(r"[^a-z0-9]", "", label.lower())
+    if len(label) < 6:
+        return False
+    headline = re.split(r"\s[-|–—]\s(?=[^-|–—]*$)", str(title or ""))[0]
+    return label in re.sub(r"[^a-z0-9]", "", headline.lower())
+
+
 def result_content_length(result):
     content = (
         result.get("raw_content", "")

@@ -408,6 +408,9 @@ def main():
         status = str(topic.get("status", "new")).lower()
         if topic_id and topic_id not in already_scored and status == "new":
             candidates.append(topic)
+    # Publisher headlines pile up faster than they are scored; evergreen
+    # questions must not wait behind that backlog.
+    candidates.sort(key=lambda item: str(item.get("id", "")).startswith("rss-"))
     candidates = candidates[:MAX_TOPICS_PER_RUN]
     if not candidates:
         print("No new Intel topics to analyse.")

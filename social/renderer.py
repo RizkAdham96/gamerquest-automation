@@ -1224,16 +1224,23 @@ def _draw_footer(
 # Kept because existing tests depend on it.
 # =========================================================
 
+# Badge height plus the gap before the cover title.
+COVER_BADGE_BLOCK = 76
+
+
 def _layout_text_settings(
     index,
 ):
     max_width = WIDTH - (SAFE_X * 2)
 
     if index == 1:
+        # The cover copy sits inside the panel, so it wraps at the panel's
+        # inner width; the title is slightly smaller to keep the same number
+        # of lines the copy gate in master_carousel.py allows.
         return {
             "title_y": 1080,
-            "max_width": max_width,
-            "title_size": 64,
+            "max_width": WIDTH - 2 * (SAFE_X + 42),
+            "title_size": 58,
             "body_size": 32,
         }
 
@@ -1264,125 +1271,77 @@ def _render_cover(
     total,
     category,
 ):
-    image = (
-        _draw_brand_logo(
-            image,
-            large=True,
-        )
-    )
+    image = _draw_brand_logo(image, large=True)
+    draw = ImageDraw.Draw(image)
+    _draw_slide_number(draw, index, total)
 
-    draw = ImageDraw.Draw(
-        image
-    )
-
-    _draw_slide_number(
-        draw,
-        index,
-        total,
-    )
-
-    settings = (
-        _layout_text_settings(
-            1
-        )
-    )
-
-    x = SAFE_X
-    y = (
-        settings[
-            "title_y"
-        ]
-    )
-
+    settings = _layout_text_settings(1)
     badge = (
-        slide.get(
-            "label"
-        )
-        or slide.get(
-            "category"
-        )
+        slide.get("label")
+        or slide.get("category")
         or category
         or "NEWS"
     )
+    title = _clean(slide.get("title"))
+    body = _clean(slide.get("body"))
+    title_font = _font(settings["title_size"], bold=True)
+    body_font = _font(settings["body_size"])
+    content_width = settings["max_width"]
 
-    _draw_badge(
-        draw,
-        badge,
-        x,
-        y - 76,
+    title_height = _text_height(
+        draw, title, title_font, content_width, spacing=4, max_lines=4,
+    )
+    body_height = (
+        _text_height(draw, body, body_font, content_width, spacing=8, max_lines=3)
+        if body
+        else 0
     )
 
-    title = _clean(
-        slide.get(
-            "title"
-        )
+    # Same dark panel as the explanation slides: on busy artwork the bottom
+    # gradient alone left the cover copy hard to read.
+    panel_height = 44 + COVER_BADGE_BLOCK + title_height + 52 + body_height + 64
+    panel_height = max(420, min(panel_height, 760))
+    panel_bottom = HEIGHT - 105
+    panel_top = panel_bottom - panel_height
+    image = _draw_panel(
+        image,
+        (SAFE_X, panel_top, WIDTH - SAFE_X, panel_bottom),
     )
+    draw = ImageDraw.Draw(image)
 
-    body = _clean(
-        slide.get(
-            "body"
-        )
-    )
-
-    title_font = _font(
-        settings[
-            "title_size"
-        ],
-        bold=True,
-    )
+    x = SAFE_X + 42
+    y = panel_top + 44
+    _draw_badge(draw, badge, x, y)
+    y += COVER_BADGE_BLOCK
 
     y = _draw_wrapped(
         draw,
         title,
-        (
-            x,
-            y,
-        ),
+        (x, y),
         title_font,
         WHITE,
-        settings[
-            "max_width"
-        ],
+        content_width,
         spacing=4,
         max_lines=4,
     )
 
     # Purple emphasis bar under title.
-    _draw_accent_line(
-        draw,
-        x,
-        y + 17,
-        135,
-    )
-
+    _draw_accent_line(draw, x, y + 17, 135)
     y += 52
 
     if body:
-        y = _draw_wrapped(
+        _draw_wrapped(
             draw,
             body,
-            (
-                x,
-                y,
-            ),
-            _font(
-                settings[
-                    "body_size"
-                ]
-            ),
+            (x, y),
+            body_font,
             MUTED,
-            settings[
-                "max_width"
-            ],
+            content_width,
             spacing=8,
             max_lines=3,
         )
 
-    _draw_footer(
-        draw,
-        index,
-    )
-
+    _draw_footer(draw, index)
     return image
 
 

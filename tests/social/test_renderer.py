@@ -572,5 +572,39 @@ class TestRenderCLI(unittest.TestCase):
         )
 
 
+
+class TestCoverTextPanel(unittest.TestCase):
+    def test_cover_copy_sits_on_the_dark_panel(self):
+        from io import BytesIO
+        from PIL import Image
+        from social import renderer
+
+        buffer = BytesIO()
+        Image.new("RGB", (1080, 1920), (255, 255, 255)).save(buffer, format="PNG")
+        slide = {"title": "Le DLC ultime arrive !", "body": "Une surprise pour les fans."}
+
+        with tempfile.TemporaryDirectory() as directory:
+            path = renderer.render_slide(
+                slide, 1, 3, Path(directory) / "slide-01.png",
+                featured_image=buffer.getvalue(), category="NEWS",
+            )
+            with Image.open(path) as image:
+                rendered = image.convert("RGB")
+
+        # The bottom gradient darkens the whole width; the panel is the extra
+        # darkening that exists only between the side margins.
+        y = 1700
+        inside = rendered.getpixel((renderer.WIDTH - renderer.SAFE_X - 30, y))
+        outside = rendered.getpixel((renderer.SAFE_X // 2, y))
+        self.assertLess(max(inside), min(outside) - 15)
+
+    def test_cover_wraps_inside_the_panel_width(self):
+        from social import renderer
+
+        settings = renderer._layout_text_settings(1)
+        self.assertEqual(
+            settings["max_width"], renderer.WIDTH - 2 * (renderer.SAFE_X + 42)
+        )
+
 if __name__ == "__main__":
     unittest.main()

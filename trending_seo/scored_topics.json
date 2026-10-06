@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-05T09:36:26.780462+00:00",
+  "updated_at": "2026-10-06T09:06:50.247110+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -2200,6 +2200,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Night Plane is a horror game designed to scare me, specifically, because I hate flying—and deer demons"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1091500",
+      "topic": "Configuration PC Cyberpunk 2077 : minimale, recommandée et conseils",
+      "detected_at": "2026-10-06T09:06:49.265612+00:00",
+      "analysed_at": "2026-10-06T09:06:50.246969+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1091500/",
+          "title": "Cyberpunk 2077 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Cyberpunk 2077, consultée le 2026-10-06. Développeur : CD PROJEKT RED. Éditeur : CD PROJEKT RED. Date de sortie sur Steam : 9 déc. 2020. Genres : RPG. Systèmes pris en charge sur Steam : Windows, macOS. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : 64-bit Windows 10 ; Processeur : Core i7-6700 or Ryzen 5 1600 ; Mémoire vive : 12 GB de mémoire ; Graphiques : GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380 ; DirectX : Version 12 ; Espace disque : 70 GB d'espace disque disponible ; Notes supplémentaires : SSD required. Attention: In this game you will encounter a variety of visual effects that may provide seizures or loss of consciousness in a minority of people. If you or someone you know experiences any of the above symptoms while playing, stop and seek medical attention immediately.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : 64-bit Windows 10 ; Processeur : Core i7-12700 or Ryzen 7 7800X3D ; Mémoire vive : 16 GB de mémoire ; Graphiques : GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770 ; DirectX : Version 12 ; Espace disque : 70 GB d'espace disque disponible ; Notes supplémentaires : SSD required..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.1920x1080.jpg?t=1784714077"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Cyberpunk 2077",
+        "secondary_keywords": [
+          "Cyberpunk 2077 PC",
+          "Cyberpunk 2077 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Cyberpunk 2077 : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1091500",
+      "topic": "Cyberpunk 2077 multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-06T09:06:49.265670+00:00",
+      "analysed_at": "2026-10-06T09:06:50.247007+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1091500/",
+          "title": "Cyberpunk 2077 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Cyberpunk 2077, consultée le 2026-10-06. Développeur : CD PROJEKT RED. Éditeur : CD PROJEKT RED. Date de sortie sur Steam : 9 déc. 2020. Genres : RPG. Systèmes pris en charge sur Steam : Windows, macOS. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Taille de texte réglable, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Cyberpunk 2077 est un JDR d'action-aventure en monde ouvert, qui se déroule à Night City, une mégalopole futuriste et sombre, obsédée par le pouvoir, la séduction et les modifications corporelles.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.1920x1080.jpg?t=1784714077"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Cyberpunk 2077 multijoueur",
+        "secondary_keywords": [
+          "Cyberpunk 2077 PC",
+          "Cyberpunk 2077 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Cyberpunk 2077 multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1304930",
+      "topic": "Configuration PC The Outlast Trials : minimale, recommandée et conseils",
+      "detected_at": "2026-10-06T09:06:49.511501+00:00",
+      "analysed_at": "2026-10-06T09:06:50.247022+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1304930/",
+          "title": "The Outlast Trials sur Steam",
+          "evidence": "Données officielles de la fiche Steam de The Outlast Trials, consultée le 2026-10-06. Développeur : Red Barrels. Éditeur : Red Barrels. Date de sortie sur Steam : 5 mars 2024. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-3770 or AMD Ryzen 5 1400 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 650 Ti, 2 GB or Radeon R7 360, 2 GB or Intel Arc A310, 4GB ; DirectX : Version 11 ; Réseau : connexion internet haut débit ; Espace disque : 40 GB d'espace disque disponible ; Notes supplémentaires : Low 720p @ 30 FPS, DX11, Ray Tracing OFF. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : WIndows 10 ; Processeur : Intel Core i7-6700K or AMD Ryzen 5 2600X ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1660, 6 GB or AMD Radeon RX Vega 56, 8 GB or Intel Arc A580, 8GB ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 40 GB d'espace disque disponible ; Notes supplémentaires : High 1080p @ 60 FPS, DX12, Ray Tracing OFF.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/ss_dcf2a8284d687f9319ac91a02b534dc91971754c.1920x1080.jpg?t=1784123708"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc The Outlast Trials",
+        "secondary_keywords": [
+          "The Outlast Trials PC",
+          "The Outlast Trials Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC The Outlast Trials : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1304930",
+      "topic": "The Outlast Trials multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-06T09:06:49.511542+00:00",
+      "analysed_at": "2026-10-06T09:06:50.247036+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1304930/",
+          "title": "The Outlast Trials sur Steam",
+          "evidence": "Données officielles de la fiche Steam de The Outlast Trials, consultée le 2026-10-06. Développeur : Red Barrels. Éditeur : Red Barrels. Date de sortie sur Steam : 5 mars 2024. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Compat. contrôleurs complète, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Red Barrels invites you to experience mind-numbing terror, this time with friends. Whether you go through the trials alone or in teams, if you survive long enough and complete the therapy, Murkoff will happily let you leave… but will you be the same?",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/ss_dcf2a8284d687f9319ac91a02b534dc91971754c.1920x1080.jpg?t=1784123708"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Outlast Trials multijoueur",
+        "secondary_keywords": [
+          "The Outlast Trials PC",
+          "The Outlast Trials Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "The Outlast Trials multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-solarpunk-mmo-loftia-is-launching-into-early-access-nov-16029da83c0f",
+      "topic": "Solarpunk MMO Loftia is launching into early access November 3",
+      "detected_at": "2026-09-20T21:03:42.772799+00:00",
+      "analysed_at": "2026-10-06T09:06:50.247051+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mmo/solarpunk-mmo-loftia-is-launching-into-early-access-november-3/",
+          "title": "Solarpunk MMO Loftia is launching into early access November 3",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/8aWeb-Q4o14\" allowfullscreen></iframe></div></div><p>How come the future in videogames is, more often than not, dark and gloomy? Where's the hope? Where's the optimism? It's all in Loftia, an MMO life sim with a delightfully cheery, eco-friendly aesthetic. And, as was just revealed at the PC Gaming Show Tokyo Direct, you'll be able to get your hands on it November 3.</p><p>For those of you not in the know, Loftia is an eco-optimism life sim MMO that's been in development for the last four years. You and other players inhabiting the world will each get your own floating island to call home, and you've got a bunch of sustainable ways to decorate and power your slice of sanctuary.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/zCeoX9oxkUhUoiFdHDXpyE.jpg\" alt=\"Happy people frolic around a peaceful, natural environment. The"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Solarpunk MMO Loftia is launching into early access November 3",
+        "secondary_keywords": [
+          "Solarpunk MMO Loftia is launching into early access November 3 date de sortie",
+          "Solarpunk MMO Loftia is launching into early access November 3 plateformes",
+          "Solarpunk MMO Loftia is launching into early access November 3 gameplay",
+          "Solarpunk MMO Loftia is launching into early access November 3 guide",
+          "Solarpunk MMO Loftia is launching into early access November 3 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Solarpunk MMO Loftia is launching into early access November 3"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-unlock-your-inner-superman-with-a-new-demo-from-undefea-cab77115161f",
+      "topic": "Unlock your inner Superman with a new demo from Undefeated: Genesis",
+      "detected_at": "2026-09-20T21:03:42.772986+00:00",
+      "analysed_at": "2026-10-06T09:06:50.247065+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/unlock-your-inner-superman-with-a-new-demo-from-undefeated-genesis/",
+          "title": "Unlock your inner Superman with a new demo from Undefeated: Genesis",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/bLsSkfGQwwk\" allowfullscreen></iframe></div></div><p>How cool would it be to wake up on an alien world with super powers? That's basically what happened to Superman himself. Now it's Albert Haltree's turn to fly around and save the day in Undefeated: Genesis, an action RPG with a new demo out now.</p><p>Al woke up one day on the alien world of Voltissia, and, for some unknown reason, he awoke with super powers. In the new trailer debuted at the PC Gaming Show Tokyo Direct, we see Al's powers in full force. He can fly, shoot beams from his eyes, fire magical orbs from his hands, and summon a barrier that reminds me of the AT fields in Neon Genesis Evangelion. All that while in the air, too.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/BkKcKci6oxSfXiRJ7q6Eya.jpg\" alt=\"Anime superheroes show off their powers. The Undefe"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Unlock your inner Superman with a new demo from Undefeated: Genesis",
+        "secondary_keywords": [
+          "Unlock your inner Superman with a new demo from Undefeated: Genesis date de sortie",
+          "Unlock your inner Superman with a new demo from Undefeated: Genesis plateformes",
+          "Unlock your inner Superman with a new demo from Undefeated: Genesis gameplay",
+          "Unlock your inner Superman with a new demo from Undefeated: Genesis guide",
+          "Unlock your inner Superman with a new demo from Undefeated: Genesis avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Unlock your inner Superman with a new demo from Undefeated: Genesis"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-marked-for-mayhem-is-a-4-player-dungeon-crawler-that-wa-9311713def62",
+      "topic": "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck",
+      "detected_at": "2026-09-20T21:03:42.773222+00:00",
+      "analysed_at": "2026-10-06T09:06:50.247094+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/marked-for-mayhem-is-a-4-player-dungeon-crawler-that-wants-you-to-try-to-win-as-a-team-while-also-beating-all-your-teammates-as-a-player-good-luck/",
+          "title": "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/uQpwAnazizE\" allowfullscreen></iframe></div></div><p>Heads up, hotshot: you are being dispatched to a hostile alien planet. You will have to overcome life-or-death challenges that test your wits, physicality, and raw luck. You may die. You will almost certainly be hurt. Also, the whole thing is being televised. How many friends would you like to take with you?</p><p>If you answered three, you're in luck—Marked For Mayhem is a four-player dungeon crawler which just got a world premiere at the PC Gaming Show Tokyo Direct, and I pretty much just gave you its elevator pitch in the opening paragraph. The aim of the game is to venture to planets that would really quite like to kill you and complete bounties, beat foes, take on bosses, and even partake in a few minigames.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/SSvmN24"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck",
+        "secondary_keywords": [
+          "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck date de sortie",
+          "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck plateformes",
+          "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck gameplay",
+          "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck guide",
+          "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Marked For Mayhem is a 4-player dungeon crawler that wants you to try to win as a team while also beating all your teammates as a player—good luck"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-robots-versus-fungi-fps-mycopunk-is-leaving-early-acces-a41262350f1b",
+      "topic": "Robots versus fungi FPS Mycopunk is leaving early access next month",
+      "detected_at": "2026-09-20T21:03:42.773446+00:00",
+      "analysed_at": "2026-10-06T09:06:50.247107+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/robots-versus-fungi-fps-mycopunk-is-leaving-early-access-next-month/",
+          "title": "Robots versus fungi FPS Mycopunk is leaving early access next month",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/nArDNXOz3rM\" allowfullscreen></iframe></div></div><p>Good news co-op fans, Mycopunk just revealed its 1.0 launch date at the PC Gaming Show Tokyo Direct. It's coming October 20, so you only have to wait exactly one month for it. If you're unfamiliar with Pigeons at Play's FPS, let me get you caught up.</p><p>You and your friends play as a squad of robots who get sent to alien planets to kill the fungal monstrosities that are infesting everything. Neat. Each world you arrive on has a mission for you to complete. These can range from simple objectives like clearing an area of enemies, or more complex ones like building railguns to shoot down space ships. You get multiple lives per mission, so you can go solo if your friends are busy, or at least not get annoyed when they croak.</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Robots versus fungi FPS Mycopunk is leaving early access next month",
+        "secondary_keywords": [
+          "Robots versus fungi FPS Mycopunk is leaving early access next month date de sortie",
+          "Robots versus fungi FPS Mycopunk is leaving early access next month plateformes",
+          "Robots versus fungi FPS Mycopunk is leaving early access next month gameplay",
+          "Robots versus fungi FPS Mycopunk is leaving early access next month guide",
+          "Robots versus fungi FPS Mycopunk is leaving early access next month avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Robots versus fungi FPS Mycopunk is leaving early access next month"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

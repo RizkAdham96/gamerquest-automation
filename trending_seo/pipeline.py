@@ -72,7 +72,7 @@ SEO_INTENT_HISTORY_FILE = (
 PIPELINE_VERSION = "2.0"
 
 MODEL = "openai/gpt-oss-120b"
-# Sized for a complete 700-900 word answer; a 300-400 word page does not
+# Sized for a complete 600-800 word answer; a 300-400 word page does not
 # compete for a search query. The prompt plus this allowance must stay under
 # the 6000 TPM safety ceiling enforced by consume_run_budget().
 SEO_ARTICLE_MAX_TOKENS = 3600
@@ -928,7 +928,7 @@ RÈGLES SEO :
 10. L'article doit répondre concrètement aux questions
     qu'un joueur taperait sur Google.
 
-10 bis. Vise 700 à 900 mots. Couvre complètement le sujet :
+10 bis. Écris entre 600 et 800 mots, jamais moins de 500. Couvre complètement le sujet :
     la réponse directe, le détail point par point, ce que cela
     implique en pratique pour le joueur, puis une FAQ.
     N'allonge jamais avec du remplissage ou des répétitions.
@@ -1765,6 +1765,8 @@ def process_seo_topic(
                         [],
                     )
                 )
+                + f" (word count {quality.get('checks', {}).get('word_count', 'unknown')}, "
+                f"minimum {quality.get('checks', {}).get('minimum_word_count', 'unknown')})"
             ),
             topic=topic_name,
         )

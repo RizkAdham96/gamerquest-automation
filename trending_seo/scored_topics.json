@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-06T09:06:50.247110+00:00",
+  "updated_at": "2026-10-06T09:10:53.889055+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -2508,6 +2508,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Robots versus fungi FPS Mycopunk is leaving early access next month"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-489830",
+      "topic": "Configuration PC The Elder Scrolls V: Skyrim Special Edition : minimale, recommandée et conseils",
+      "detected_at": "2026-10-06T09:10:52.513694+00:00",
+      "analysed_at": "2026-10-06T09:10:53.888840+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/489830/",
+          "title": "The Elder Scrolls V: Skyrim Special Edition sur Steam",
+          "evidence": "Données officielles de la fiche Steam de The Elder Scrolls V: Skyrim Special Edition, consultée le 2026-10-06. Développeur : Bethesda Game Studios. Éditeur : Bethesda Softworks. Date de sortie sur Steam : 27 oct. 2016. Genres : RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation *: Windows 7/8.1/10 (version 64-bit) ; Processeur : Intel i5-750/AMD Phenom II X4-945. ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GTX 470 1GB /AMD HD 7870 2GB ; Espace disque : 12 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation *: Windows 7/8.1/10 (version 64-bit) ; Processeur : Intel i5-2400/AMD FX-8320. ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GTX 780 3GB /AMD R9 290 4GB ; Espace disque : 12 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/ss_73c1a0bb7e1720c8a1847186c3ddd837d3ca7a8d.1920x1080.jpg?t=1786648247"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc The Elder Scrolls V: Skyrim Special Edition",
+        "secondary_keywords": [
+          "The Elder Scrolls V: Skyrim Special Edition PC",
+          "The Elder Scrolls V: Skyrim Special Edition Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC The Elder Scrolls V: Skyrim Special Edition : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-489830",
+      "topic": "The Elder Scrolls V: Skyrim Special Edition multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-06T09:10:52.513764+00:00",
+      "analysed_at": "2026-10-06T09:10:53.888887+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/489830/",
+          "title": "The Elder Scrolls V: Skyrim Special Edition sur Steam",
+          "evidence": "Données officielles de la fiche Steam de The Elder Scrolls V: Skyrim Special Edition, consultée le 2026-10-06. Développeur : Bethesda Game Studios. Éditeur : Bethesda Softworks. Date de sortie sur Steam : 27 oct. 2016. Genres : RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Jouable sans saisie en temps imparti, Sauvegarde à tout moment, Son stéréo, Son multicanal, Compat. contrôleurs partielle, Steam Cloud, Remote Play sur téléphone, Remote Play sur tablette, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : Lauréat de plus de 200 récompenses du Jeu de l'année, The Elder Scrolls V: Skyrim Special Edition donne vie jusque dans ses moindres détails à un univers de fantasy épique. La Special Edition contient le jeu et ses extensions acclamés par la critique ainsi que de nouvelles fonctionnalités.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/ss_73c1a0bb7e1720c8a1847186c3ddd837d3ca7a8d.1920x1080.jpg?t=1786648247"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Elder Scrolls V: Skyrim Special Edition multijoueur",
+        "secondary_keywords": [
+          "The Elder Scrolls V: Skyrim Special Edition PC",
+          "The Elder Scrolls V: Skyrim Special Edition Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "The Elder Scrolls V: Skyrim Special Edition multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1326470",
+      "topic": "Configuration PC Sons Of The Forest : minimale, recommandée et conseils",
+      "detected_at": "2026-10-06T09:10:52.842965+00:00",
+      "analysed_at": "2026-10-06T09:10:53.888914+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1326470/",
+          "title": "Sons Of The Forest sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Sons Of The Forest, consultée le 2026-10-06. Développeur : Endnight Games Ltd. Éditeur : Newnight . Date de sortie sur Steam : 22 févr. 2024. Genres : Action, Aventure, Indépendant, Simulation. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : 64-bit Windows 10 ; Processeur : INTEL CORE I5-8400 or AMD RYZEN 3 3300X ; Mémoire vive : 12 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1060 3GB or AMD Radeon RX 570 4GB ; DirectX : Version 11 ; Espace disque : 20 GB d'espace disque disponible ; Notes supplémentaires : SSD (Preferred). Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : 64-bit Windows 10 ; Processeur : INTEL CORE I7-8700K or AMD RYZEN 5 3600X ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GeForce 1080Ti or AMD Radeon RX 5700 XT ; DirectX : Version 11 ; Espace disque : 20 GB d'espace disque disponible ; Notes supplémentaires : SSD (Preferred).",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/ss_e6e3ab1badfb287a77fb6eef7b1589a35371496b.1920x1080.jpg?t=1708624856"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Sons Of The Forest",
+        "secondary_keywords": [
+          "Sons Of The Forest PC",
+          "Sons Of The Forest Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Sons Of The Forest : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1326470",
+      "topic": "Sons Of The Forest multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-06T09:10:52.843021+00:00",
+      "analysed_at": "2026-10-06T09:10:53.888938+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1326470/",
+          "title": "Sons Of The Forest sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Sons Of The Forest, consultée le 2026-10-06. Développeur : Endnight Games Ltd. Éditeur : Newnight . Date de sortie sur Steam : 22 févr. 2024. Genres : Action, Aventure, Indépendant, Simulation. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Succès Steam, Compat. contrôleurs complète, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : En mission sur une île isolée pour retrouver un milliardaire porté disparu, vous découvrez un monde de cauchemar infesté de cannibales. Par vous-même ou avec l'aide d'amis, fabriquez, construisez et luttez pour votre survie dans ce jeu de simulation de survie horrifique.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1326470/ss_e6e3ab1badfb287a77fb6eef7b1589a35371496b.1920x1080.jpg?t=1708624856"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Sons Of The Forest multijoueur",
+        "secondary_keywords": [
+          "Sons Of The Forest PC",
+          "Sons Of The Forest Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Sons Of The Forest multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-memory-is-the-map-in-wane-a-roguelike-where-each-biome--58e60e294a5b",
+      "topic": "Memory is the map in Wane, a roguelike where each biome is a corner of an archaeologist's fading mind",
+      "detected_at": "2026-09-21T05:29:43.432905+00:00",
+      "analysed_at": "2026-10-06T09:10:53.888966+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/roguelike/memory-is-the-map-in-wane-a-roguelike-where-each-biome-is-a-corner-of-an-archaeologists-fading-mind/",
+          "title": "Memory is the map in Wane, a roguelike where each biome is a corner of an archaeologist's fading mind",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Bx0v--MMzDw\" allowfullscreen></iframe></div></div><p>The best art is all about descending into someone's twisted psyche. It doesn't matter who, but the deeper we get into their very being, the better. Now buckle up and prepare for Wane, a roguelike where you quite literally navigate through the deconstructed mind of Declan Wayne, a fading archaeologist.</p><p>We just revealed the game at the PC Gaming Show Tokyo Direct, and it looks like a corker—for any non-Brits, that means it looks really good. \"I used to believe that memory makes a man,\" says Wayne as he narrates over the gorgeous trailer. \"Now I know, it can unmake one, too.\"</p><div class=\"card card--standard card--rows-1 card--align-center\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/XzWz4qcUf4wZMQZoHn3nRe.jpg\" alt=\"A gun-wielder and a magic-user fight off a horde of enemies. The Wane logo is shown.\"></p></div><div class=\"car"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Memory is the map in Wane, a roguelike where each biome is a corner of an archaeologist's fading mind",
+        "secondary_keywords": [
+          "Memory is the map in Wane, a roguelike where each biome is a corner of an archaeologist's fading mind date de sortie",
+          "Memory is the map in Wane, a roguelike where each biome is a corner of an archaeologist's fading mind plateformes",
+          "Memory is the map in Wane, a roguelike where each biome is a corner of an archaeologist's fading mind gameplay",
+          "Memory is the map in Wane, a roguelike where each biome is a corner of an archaeologist's fading mind guide",
+          "Memory is the map in Wane, a roguelike where each biome is a corner of an archaeologist's fading mind avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Memory is the map in Wane, a roguelike where each biome is a corner of an archaeologist's fading mind"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-lemonade-apocalypse-has-3-simple-tasks-for-you-become-a-07f4c70692d4",
+      "topic": "Lemonade Apocalypse has 3 simple tasks for you: Become a lemonade billionaire, 'fuel climate change,' and 'manipulate voters'",
+      "detected_at": "2026-09-21T05:29:43.433129+00:00",
+      "analysed_at": "2026-10-06T09:10:53.888995+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/lemonade-apocalypse-has-3-simple-tasks-for-you-become-a-lemonade-billionaire-fuel-climate-change-and-manipulate-voters/",
+          "title": "Lemonade Apocalypse has 3 simple tasks for you: Become a lemonade billionaire, 'fuel climate change,' and 'manipulate voters'",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/A_yfjCzzSdo\" allowfullscreen></iframe></div></div><p>I'll tell you this right now: I'm already into what Lemonade Apocalypse is putting down. Let me count the reasons. First, its PC Gaming Show Tokyo Direct reveal trailer is a very fun satire of both billionaires and the billionaire-mindset podcast industrial complex. Two, I think it will tickle the parts of my brain that just loves turning numbers into bigger numbers. Three, a lemonade apocalypse sounds much preferable to the various other apocalypses that feel like they're on table for us right now.</p><p>Lemonade Apocalypse is actually a sequel to, uh, a game also called Lemonade Apocalypse. Stay with me. It's an economic simulator and incremental game where the task is to sell your soul for the dollar as quickly and dramatically as you can. \"Build recipes from 70+ ingredients with evolving properties,\" the game's Steam page implores you, right before it also implores you to \"Fuel climate change\" and \"Manipulate voters.\"</p><div class=\"card card--standard card--"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Lemonade Apocalypse has 3 simple tasks for you: Become a lemonade billionaire, 'fuel climate change,' and 'manipulate voters'",
+        "secondary_keywords": [
+          "Lemonade Apocalypse has 3 simple tasks for you: Become a lemonade billionaire, 'fuel climate change,' and 'manipulate voters' date de sortie",
+          "Lemonade Apocalypse has 3 simple tasks for you: Become a lemonade billionaire, 'fuel climate change,' and 'manipulate voters' plateformes",
+          "Lemonade Apocalypse has 3 simple tasks for you: Become a lemonade billionaire, 'fuel climate change,' and 'manipulate voters' gameplay",
+          "Lemonade Apocalypse has 3 simple tasks for you: Become a lemonade billionaire, 'fuel climate change,' and 'manipulate voters' guide",
+          "Lemonade Apocalypse has 3 simple tasks for you: Become a lemonade billionaire, 'fuel climate change,' and 'manipulate voters' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Lemonade Apocalypse has 3 simple tasks for you: Become a lemonade billionaire, 'fuel climate change,' and 'manipulate voters'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-thing-is-that-you-watch-this-disembodied-ai-robot-hand--a22c5670629a",
+      "topic": "Thing, is that you? Watch this disembodied AI robot hand 'walk' like a terrible spider from the depths of my nightmares",
+      "detected_at": "2026-09-21T13:21:33.785718+00:00",
+      "analysed_at": "2026-10-06T09:10:53.889024+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/thing-is-that-you-watch-this-disembodied-ai-robot-hand-walk-like-a-terrible-spider-from-the-depths-of-my-nightmares/",
+          "title": "Thing, is that you? Watch this disembodied AI robot hand 'walk' like a terrible spider from the depths of my nightmares",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/93BLyBPAfYs\" allowfullscreen></iframe></div></div> </article>"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Thing, is that you? Watch this disembodied AI robot hand 'walk' like a terrible spider from the depths of my nightmares",
+        "secondary_keywords": [
+          "Thing, is that you? Watch this disembodied AI robot hand 'walk' like a terrible spider from the depths of my nightmares date de sortie",
+          "Thing, is that you? Watch this disembodied AI robot hand 'walk' like a terrible spider from the depths of my nightmares plateformes",
+          "Thing, is that you? Watch this disembodied AI robot hand 'walk' like a terrible spider from the depths of my nightmares gameplay",
+          "Thing, is that you? Watch this disembodied AI robot hand 'walk' like a terrible spider from the depths of my nightmares guide",
+          "Thing, is that you? Watch this disembodied AI robot hand 'walk' like a terrible spider from the depths of my nightmares avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Thing, is that you? Watch this disembodied AI robot hand 'walk' like a terrible spider from the depths of my nightmares"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-mentally-broke-me-with-a-boulder-1cb867b873b9",
+      "topic": "WoW: Forever mentally broke me with a boulder",
+      "detected_at": "2026-09-21T13:21:33.785991+00:00",
+      "analysed_at": "2026-10-06T09:10:53.889047+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-mentally-broke-me-with-a-boulder/",
+          "title": "WoW: Forever mentally broke me with a boulder",
+          "evidence": "<article> <p>WoW Forever is basically my first time experiencing Blizzard's MMO for a significant amount of time—that level 13 Paladin rotting away on my retail account for the last eight years doesn't count—and you know what? Even as someone who isn't rocking around Azeroth in rose-tinted glasses, I'm having a pretty sweet time.</p><p>I even surprised myself by how endeared I am to all its old-schoolness. I like that there's no globally shared tagging, even if that means you party with a handful of randoms for 10 seconds and never speak to them again. I've even been fine with its archaic gathering quests, where all of its nodes are server-side instead of client-side. Want to go and pick that cactus fruit, but some other player beats you to it? Well, it's gone now. Go and pick another one.</p><p>Well, I was fine with it anyway. That is until I arrived in Orgrimmar, the Horde's capital city. My initial arrival was dizzying, bearing witness to its densely-populated streets and rapid-fire global chat where recruitment messages are quickly buried by folks talking about how many rolls of toilet paper they go through each day. Yeah, I dunno either.</p><figure class=\"van-image-figure inli"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever mentally broke me with a boulder",
+        "secondary_keywords": [
+          "WoW: Forever mentally broke me with a boulder date de sortie",
+          "WoW: Forever mentally broke me with a boulder plateformes",
+          "WoW: Forever mentally broke me with a boulder gameplay",
+          "WoW: Forever mentally broke me with a boulder guide",
+          "WoW: Forever mentally broke me with a boulder avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever mentally broke me with a boulder"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

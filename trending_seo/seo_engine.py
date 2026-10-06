@@ -7,7 +7,9 @@ import unicodedata
 from typing import Any, Dict, List
 
 SEO_ENGINE_VERSION = "2.1"
-MIN_ARTICLE_WORDS = 600
+# 600 proved out of reach for a single-question answer written at low
+# reasoning effort, and forcing it invites padding.
+MIN_ARTICLE_WORDS = 450
 MIN_META_DESCRIPTION_LENGTH = 100
 MAX_META_DESCRIPTION_LENGTH = 180
 

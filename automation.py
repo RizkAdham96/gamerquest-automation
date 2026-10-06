@@ -11,7 +11,12 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup, NavigableString
 from groq import Groq, RateLimitError
-from groq_budget import GroqBudgetExhausted, consume_run_budget
+from groq_budget import (
+    GroqBudgetExhausted,
+    consume_run_budget,
+    remaining_run_budget,
+    run_budget,
+)
 from news_image_generator import generate_news_image
 
 
@@ -73,6 +78,16 @@ MAX_NEWS_CANDIDATE_ATTEMPTS = 12
 MAX_NEWS_ARTICLES_PER_RUN = 3
 
 MIN_SOURCE_TEXT_LENGTH = 250
+
+# A published News page of 87 or 128 words is too thin to rank or to inform.
+# A source this short cannot support a full article, so it is passed over
+# before any AI call; the word floor is the final check on the result.
+MIN_SOURCE_TEXT_FOR_ARTICLE = 900
+MIN_NEWS_ARTICLE_WORDS = 180
+
+# One article costs a draft plus its correction pass. Starting a draft the
+# run cannot also correct only burns tokens: the article is then discarded.
+MIN_TOKENS_TO_START_ARTICLE = 7000
 
 # Keep Groq requests compact enough for the free-tier TPM budget.
 # These are character caps, not token counts. They preserve the useful
@@ -1102,6 +1117,18 @@ def article_data_for_quality_guards(article_data):
             "primary_keyword": article_data[2],
         },
     }
+
+
+def thin_article_rejection(article_data):
+    candidate = article_data_for_quality_guards(article_data)
+    text = re.sub(r"<[^>]+>", " ", str(candidate.get("content", "")))
+    word_count = len(text.split())
+    if word_count < MIN_NEWS_ARTICLE_WORDS:
+        return (
+            f"Article is too thin to publish: {word_count} words "
+            f"(minimum {MIN_NEWS_ARTICLE_WORDS})."
+        )
+    return ""
 
 
 def news_quality_rejection(article_data, existing_articles=None):
@@ -2183,6 +2210,12 @@ Do not keyword-stuff.
 No filler.
 
 No generic conclusion.
+
+LENGTH:
+
+Write at least 250 words in CONTENT, using every relevant
+fact the source provides. Never pad: if the source cannot
+support 250 words, still report only what it says.
 
 
 RETURN EXACTLY:
@@ -3815,6 +3848,24 @@ def main():
                 "Using established secondary source only."
             )
 
+        if len(source_text or "") < MIN_SOURCE_TEXT_FOR_ARTICLE:
+            print("")
+            print(
+                "Source too short to support a full article "
+                f"({len(source_text or '')} characters); trying the next candidate."
+            )
+            continue
+
+        # Production runs always carry a token allocation; without one (tests,
+        # local dry runs) there is nothing to protect.
+        if run_budget() > 0 and remaining_run_budget() < MIN_TOKENS_TO_START_ARTICLE:
+            print("")
+            print(
+                "Stopping before the next draft: the remaining Groq run budget "
+                f"({remaining_run_budget()} tokens) cannot cover a draft and its correction."
+            )
+            break
+
         elapsed = time.monotonic() - run_started
         remaining_budget = MAX_NEWS_RUN_SECONDS - elapsed
         if remaining_budget < MIN_SECONDS_TO_START_AI_CANDIDATE:
@@ -3851,6 +3902,11 @@ def main():
         )
         if not rejection_reason:
             rejection_reason = news_quality_rejection(
+                article_data
+            )
+
+        if not rejection_reason:
+            rejection_reason = thin_article_rejection(
                 article_data
             )
 

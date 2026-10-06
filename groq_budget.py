@@ -86,6 +86,11 @@ def run_budget() -> int:
     return _int_env("GROQ_RUN_TOKEN_BUDGET", 0)
 
 
+def remaining_run_budget() -> int:
+    """Tokens of this run's allocation not yet committed to a call."""
+    return max(0, run_budget() - _LOCAL_RUN_USED)
+
+
 def utc_day() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 

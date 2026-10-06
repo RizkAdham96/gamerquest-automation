@@ -304,6 +304,7 @@ def test_search_collects_fallback_candidates_even_when_first_search_has_results(
 
 
 def test_main_retries_next_candidate_after_source_validation_rejection(monkeypatch):
+    monkeypatch.setattr(automation, "thin_article_rejection", lambda data: "")
     stories = [
         {
             "title": "Bad candidate",
@@ -417,6 +418,7 @@ def test_main_retries_next_candidate_after_source_validation_rejection(monkeypat
 
 
 def test_main_retries_next_candidate_after_quality_guard_rejection(monkeypatch):
+    monkeypatch.setattr(automation, "thin_article_rejection", lambda data: "")
     stories = [
         {
             "title": "Duplicate candidate",
@@ -529,6 +531,7 @@ def test_main_retries_next_candidate_after_quality_guard_rejection(monkeypatch):
 
 
 def test_main_publishes_multiple_quality_candidates_per_run(monkeypatch):
+    monkeypatch.setattr(automation, "thin_article_rejection", lambda data: "")
     stories = [
         {"title": f"Fresh candidate {index}", "url": f"https://example.com/fresh-{index}"}
         for index in range(1, 5)
@@ -837,3 +840,28 @@ CONTENT:
     assert "**" not in content
     assert "Dune : Awakening." in content
     assert content.count("<strong>") == content.count("</strong>")
+
+
+def _article_with_words(count):
+    body = "<p>" + " ".join(["mot"] * count) + "</p>"
+    return ("t", "m", "k", "s", "i", "slug", "Titre", "Extrait", "Actualités", "tag", body)
+
+
+def test_thin_articles_are_rejected_before_publication():
+    reason = automation.thin_article_rejection(_article_with_words(128))
+    assert "128 words" in reason and "minimum 180" in reason
+    assert automation.thin_article_rejection(_article_with_words(260)) == ""
+
+
+def test_remaining_run_budget_tracks_admitted_calls(monkeypatch):
+    import groq_budget
+
+    monkeypatch.setenv("GROQ_RUN_TOKEN_BUDGET", "11000")
+    groq_budget.reset_local_counters()
+    assert groq_budget.remaining_run_budget() == 11000
+    for _call in ("draft", "correction"):
+        groq_budget.consume_run_budget("x" * 3000, 2500, lane="news", sleep_fn=lambda s: None)
+    # One article's draft and correction leave too little for a second draft.
+    assert groq_budget.remaining_run_budget() == 4000
+    assert groq_budget.remaining_run_budget() < automation.MIN_TOKENS_TO_START_ARTICLE
+    groq_budget.reset_local_counters()

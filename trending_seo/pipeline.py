@@ -72,10 +72,14 @@ SEO_INTENT_HISTORY_FILE = (
 PIPELINE_VERSION = "2.0"
 
 MODEL = "openai/gpt-oss-120b"
-# Sized for a complete 900-1200 word answer; a 300-400 word page does not
+# Sized for a complete 700-900 word answer; a 300-400 word page does not
 # compete for a search query. The prompt plus this allowance must stay under
 # the 6000 TPM safety ceiling enforced by consume_run_budget().
-SEO_ARTICLE_MAX_TOKENS = 2800
+SEO_ARTICLE_MAX_TOKENS = 3600
+# gpt-oss reasons before answering and that reasoning counts against the
+# allowance. At the default effort it left too little for the article, the
+# JSON came back cut off and Groq refused it ("Failed to generate JSON").
+SEO_ARTICLE_REASONING_EFFORT = "low"
 STORE_EVIDENCE_ORIGIN = "steam_store_api"
 STORE_EVIDENCE_MAX_CHARS = 2400
 
@@ -924,7 +928,7 @@ RÈGLES SEO :
 10. L'article doit répondre concrètement aux questions
     qu'un joueur taperait sur Google.
 
-10 bis. Vise 900 à 1200 mots. Couvre complètement le sujet :
+10 bis. Vise 700 à 900 mots. Couvre complètement le sujet :
     la réponse directe, le détail point par point, ce que cela
     implique en pratique pour le joueur, puis une FAQ.
     N'allonge jamais avec du remplissage ou des répétitions.
@@ -1095,6 +1099,7 @@ def generate_seo_article(
                     temperature=0.25,
                     max_tokens=SEO_ARTICLE_MAX_TOKENS,
                     response_format={"type": "json_object"},
+                    extra_body={"reasoning_effort": SEO_ARTICLE_REASONING_EFFORT},
                 )
             )
             break

@@ -198,6 +198,32 @@ class TestStoreTopicPipeline(unittest.TestCase):
         self.assertLessEqual(estimate, DEFAULT_TPM_CEILING)
 
 
+class TestArticleGenerationRoom(unittest.TestCase):
+    def test_article_call_limits_reasoning_and_allows_a_full_article(self):
+        captured = {}
+
+        class Completions:
+            def create(self, **kwargs):
+                captured.update(kwargs)
+                raise RuntimeError("stop after capturing the request")
+
+        class FakeGroq:
+            def __init__(self, **kwargs):
+                self.chat = type("Chat", (), {"completions": Completions()})()
+
+        topic = evergreen_topics.build_game_topics("Elden Ring", steam_details())[0]
+        scored = scorer.analyze_topic_locally(topic)
+        with patch.object(pipeline, "Groq", FakeGroq), patch.object(
+            pipeline, "consume_run_budget", lambda *args, **kwargs: 0
+        ), patch.dict("os.environ", {"GROQ_API_KEY": "test-key"}):
+            pipeline.generate_seo_article(
+                build_seo_brief(scored),
+                research_context=pipeline.build_research_context(scored),
+            )
+        self.assertEqual(captured["extra_body"], {"reasoning_effort": "low"})
+        self.assertGreaterEqual(captured["max_tokens"], 3500)
+
+
 class TestScorerOrdering(unittest.TestCase):
     def test_evergreen_topics_are_scored_before_the_feed_backlog(self):
         backlog = [

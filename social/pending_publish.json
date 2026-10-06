@@ -1,0 +1,76 @@
+{
+  "source_id": "59dae103ac8a9a944c75081afb9a90471d8a505a6a2b5cce1d827d1b709bbb3d",
+  "carousel_version": "ec8eccce4588a29b0bdcd5f8332f1c902f19866bded65b9a459f7697e7593594",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    622,
+    623,
+    624
+  ],
+  "prepared_at_utc": "2026-10-06T14:12:15.019020Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "59dae103ac8a9a944c75081afb9a90471d8a505a6a2b5cce1d827d1b709bbb3d",
+    "source_title": "Little Nightmares III : le DLC “The Shores” disponible dès maintenant",
+    "score": 76.5,
+    "idea": {
+      "source_id": "59dae103ac8a9a944c75081afb9a90471d8a505a6a2b5cce1d827d1b709bbb3d",
+      "topic": "Nouveau DLC \"The Shores\" pour Little Nightmares III",
+      "angle": "Mettez en avant les décors aquatiques et le phare inquiétant du DLC, ainsi que les nouveaux défis mortels qui attendent les joueurs.",
+      "format": "did_you_know",
+      "hook": "Saviez‑vous que le DLC \"The Shores\" ajoute un tout nouveau niveau sous‑marin et un phare hanté à explorer ?",
+      "freshness": 9,
+      "click_potential": 8,
+      "curiosity": 7,
+      "shareability": 6,
+      "originality": 7,
+      "gamerquest_relevance": 9,
+      "total_score": 76.5
+    },
+    "carousel": {
+      "topic": "Nouveau DLC \"The Shores\" pour Little Nightmares III",
+      "angle": "Mettez en avant les décors aquatiques et le phare inquiétant du DLC, ainsi que les nouveaux défis mortels qui attendent les joueurs.",
+      "format": "did_you_know",
+      "hook": "Saviez‑vous que le DLC \"The Shores\" ajoute un tout nouveau niveau sous‑marin et un phare hanté à explorer ?",
+      "score": 76.5,
+      "slides": [
+        {
+          "title": "Nouveaux décors aquatiques et un phare",
+          "body": "Le DLC \"The Shores\" ajoute des environnements sous l'eau ainsi qu'un phare inquiétant.",
+          "visual_prompt": "Atmosphère sombre sous l'eau avec un phare abandonné éclairant des ruines, style Little Nightmares III"
+        },
+        {
+          "title": "Défis mortels disponibles",
+          "body": "Le DLC propose des défis mortels dans ces nouveaux décors, accessibles sur toutes les plateformes majeures.",
+          "visual_prompt": "Scène immersive d'un couloir inondé avec des obstacles dangereux, ambiance oppressante"
+        },
+        {
+          "title": "En savoir plus sur le DLC",
+          "body": "Découvrez les nouveaux décors et les défis du DLC \"The Shores\". Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Vue rapprochée du phare éclairé par la lune, avec des vagues qui se brisent autour"
+        }
+      ],
+      "caption": "Découvrez le DLC \"The Shores\" avec ses décors aquatiques et son phare inquiétant.",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "59dae103ac8a9a944c75081afb9a90471d8a505a6a2b5cce1d827d1b709bbb3d"
+    },
+    "caption": "Découvrez le DLC \"The Shores\" avec ses décors aquatiques et son phare inquiétant.",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 2
+  }
+}

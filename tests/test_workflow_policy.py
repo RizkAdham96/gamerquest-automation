@@ -100,8 +100,14 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
 
     def test_health_thresholds_match_content_cadence(self):
         text = workflow("content-health.yml")
-        self.assertRegex(text, r'latest_post\("2,3,8,9",\s*"Actualités",\s*24\)')
+        self.assertRegex(text, r'latest_post\("2,8,9",\s*"News",\s*24\)')
+        self.assertRegex(text, r'latest_post\(3,\s*"SEO",\s*24\)')
         self.assertRegex(text, r'latest_post\(5,\s*"Tests & Avis",\s*36\)')
+        self.assertIn(
+            'for label, post in (("News", latest_news), ("Tests & Avis", latest_review))',
+            text,
+        )
+        self.assertNotIn('latest_post("2,3,8,9", "Actualités", 24)', text)
         self.assertIn("max_age_hours", text)
 
     def test_news_monitors_cover_every_news_category(self):

@@ -1,0 +1,76 @@
+{
+  "source_id": "c481677c3a6808bd705f24a2f418e51459fab5a1ba436aa99c5a06516de7f366",
+  "carousel_version": "cdee7eca07bc8e6d39df3af218226054569d808b0063c0d89d1b8aa9ead992b5",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    636,
+    637,
+    638
+  ],
+  "prepared_at_utc": "2026-10-07T17:34:59.552953Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "c481677c3a6808bd705f24a2f418e51459fab5a1ba436aa99c5a06516de7f366",
+    "source_title": "Sons Of The Forest à -71% sur Steam",
+    "score": 75.0,
+    "idea": {
+      "source_id": "c481677c3a6808bd705f24a2f418e51459fab5a1ba436aa99c5a06516de7f366",
+      "topic": "Promotion de Sons Of The Forest sur Steam",
+      "angle": "Mise en avant de la réduction de 71 % pour attirer les joueurs cherchant des bonnes affaires",
+      "format": "deal_alert",
+      "hook": "Sons Of The Forest à -71 % sur Steam : profitez du prix record de 8,40 € dès maintenant !",
+      "freshness": 9,
+      "click_potential": 9,
+      "curiosity": 5,
+      "shareability": 7,
+      "originality": 6,
+      "gamerquest_relevance": 9,
+      "total_score": 75.0
+    },
+    "carousel": {
+      "topic": "Promotion de Sons Of The Forest sur Steam",
+      "angle": "Mise en avant de la réduction de 71 % pour attirer les joueurs cherchant des bonnes affaires",
+      "format": "deal_alert",
+      "hook": "Sons Of The Forest à -71 % sur Steam : profitez du prix record de 8,40 € dès maintenant !",
+      "score": 75.0,
+      "slides": [
+        {
+          "title": "Sons Of The Forest -71 % !",
+          "body": "Le jeu bénéficie d'une réduction de 71 % sur Steam.",
+          "visual_prompt": "Capture d'écran du jeu Sons Of The Forest dans un décor forestier sombre, ambiance mystérieuse, sans texte ni logos."
+        },
+        {
+          "title": "Prix record : 8,40 €",
+          "body": "Le jeu passe de 28,99 € à 8,40 € grâce à une réduction de 71 % sur Steam.",
+          "visual_prompt": "Vue du magasin Steam montrant le prix barré 28,99 € et le nouveau prix 8,40 €, sans texte supplémentaire."
+        },
+        {
+          "title": "Offre à saisir maintenant",
+          "body": "Lire la suite sur GamerQuest.fr",
+          "visual_prompt": "Scène immersive du jeu montrant un survivant dans la forêt, éclairage dramatique, sans texte ni logos."
+        }
+      ],
+      "caption": "⚡️ Sons Of The Forest à -71 % sur Steam ! Prix de 8,40 €.",
+      "cta": "Cliquez pour en savoir plus !",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "c481677c3a6808bd705f24a2f418e51459fab5a1ba436aa99c5a06516de7f366"
+    },
+    "caption": "⚡️ Sons Of The Forest à -71 % sur Steam ! Prix de 8,40 €.",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Cliquez pour en savoir plus !",
+    "repair_attempts": 1
+  }
+}

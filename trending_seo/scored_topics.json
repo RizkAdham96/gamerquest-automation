@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-06T09:10:53.889055+00:00",
+  "updated_at": "2026-10-07T09:16:08.284026+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -2816,6 +2816,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "WoW: Forever mentally broke me with a boulder"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1057090",
+      "topic": "Configuration PC Ori and the Will of the Wisps : minimale, recommandée et conseils",
+      "detected_at": "2026-10-07T09:16:06.218833+00:00",
+      "analysed_at": "2026-10-07T09:16:08.283845+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1057090/",
+          "title": "Ori and the Will of the Wisps sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Ori and the Will of the Wisps, consultée le 2026-10-07. Développeur : Moon Studios GmbH. Éditeur : Xbox Game Studios. Date de sortie sur Steam : 10 mars 2020. Genres : Action. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation : Windows 10 Version 18362.0 or higher ; Processeur : AMD Athlon X4 | Intel Core i5 4460 ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GTX 950 | AMD R7 370 ; DirectX : Version 11 ; Espace disque : 20 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation : Windows 10 Version 18362.0 or higher ; Processeur : AMD Ryzen 3 | Intel i5 Skylake ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GTX 970 | AMD RX 570 ; DirectX : Version 11 ; Espace disque : 20 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/ss_0cf0ec6681ae5771173790dbc99ddb3bf3b886ad.1920x1080.jpg?t=1759530749"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Ori and the Will of the Wisps",
+        "secondary_keywords": [
+          "Ori and the Will of the Wisps PC",
+          "Ori and the Will of the Wisps Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Ori and the Will of the Wisps : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1057090",
+      "topic": "Ori and the Will of the Wisps multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-07T09:16:06.218881+00:00",
+      "analysed_at": "2026-10-07T09:16:08.283884+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1057090/",
+          "title": "Ori and the Will of the Wisps sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Ori and the Will of the Wisps, consultée le 2026-10-07. Développeur : Moon Studios GmbH. Éditeur : Xbox Game Studios. Date de sortie sur Steam : 10 mars 2020. Genres : Action. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Steam Cloud, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Embarquez pour une nouvelle aventure dans un monde vaste et dépaysant où vous rencontrerez des ennemis gigantesques et des énigmes ardues dans votre quête pour révéler la destinée d'Ori.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/ss_0cf0ec6681ae5771173790dbc99ddb3bf3b886ad.1920x1080.jpg?t=1759530749"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ori and the Will of the Wisps multijoueur",
+        "secondary_keywords": [
+          "Ori and the Will of the Wisps PC",
+          "Ori and the Will of the Wisps Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Ori and the Will of the Wisps multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1174180",
+      "topic": "Configuration PC Red Dead Redemption 2 : minimale, recommandée et conseils",
+      "detected_at": "2026-10-07T09:16:06.501392+00:00",
+      "analysed_at": "2026-10-07T09:16:08.283907+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1174180/",
+          "title": "Red Dead Redemption 2 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Red Dead Redemption 2, consultée le 2026-10-07. Développeur : Rockstar Games. Éditeur : Rockstar Games. Date de sortie sur Steam : 5 déc. 2019. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 - 64-bit ; Processeur : Intel® Core™ i5-2500K / AMD FX-6300 ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB ; Réseau : connexion internet haut débit ; Espace disque : 150 GB d'espace disque disponible ; Carte son : Direct X Compatible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 - 64-bit ; Processeur : Intel® Core™ i7-4770K / AMD Ryzen 5 1500X ; Mémoire vive : 12 GB de mémoire ; Graphiques : Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB ; Réseau : connexion internet haut débit ; Espace disque : 150 GB d'espace disque disponible ; Carte son : Direct X Compatible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.1920x1080.jpg?t=1759502961"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Red Dead Redemption 2",
+        "secondary_keywords": [
+          "Red Dead Redemption 2 PC",
+          "Red Dead Redemption 2 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Red Dead Redemption 2 : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1174180",
+      "topic": "Red Dead Redemption 2 multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-07T09:16:06.501436+00:00",
+      "analysed_at": "2026-10-07T09:16:08.283924+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1174180/",
+          "title": "Red Dead Redemption 2 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Red Dead Redemption 2, consultée le 2026-10-07. Développeur : Rockstar Games. Éditeur : Rockstar Games. Date de sortie sur Steam : 5 déc. 2019. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, PvP, JcJ en ligne, Coopération, Coopération en ligne, Succès Steam, Achats en jeu, Compat. contrôleurs partielle, Remote Play sur téléphone, Remote Play sur tablette. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : Arthur Morgan et la bande de Van der Linde sont des hors-la-loi fugitifs. Les agents fédéraux et les chasseurs de primes sont à leurs trousses et la bande commet méfaits sur méfaits dans les terres sauvages pour survivre.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.1920x1080.jpg?t=1759502961"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Red Dead Redemption 2 multijoueur",
+        "secondary_keywords": [
+          "Red Dead Redemption 2 PC",
+          "Red Dead Redemption 2 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Red Dead Redemption 2 multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-rockstar-asks-modders-to-please-take-its-games-very-ser-b0a3a54c93fe",
+      "topic": "Rockstar asks modders to please take its games very seriously",
+      "detected_at": "2026-09-21T22:13:52.587997+00:00",
+      "analysed_at": "2026-10-07T09:16:08.283945+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-asks-modders-to-please-take-its-games-very-seriously/",
+          "title": "Rockstar asks modders to please take its games very seriously",
+          "evidence": "<article> <h2 id=\"what-happened\">What happened</h2><ul><li>On September 10, <strong>Rockstar Games </strong><a href=\"https://www.rockstargames.com/community-resources/mod-guidelines\"><strong>published new mod guidelines</strong></a> on its website, which it says are intended to \"maintain a fun, creative, and welcoming place for players and content creators.\"</li><li>The guidelines are seem primarily targeted at mods for the FiveM and RedM platforms, which <a href=\"https://www.pcgamer.com/rockstar-buys-the-makers-of-the-gta-online-fivem-mod-it-banned-8-years-ago/\">Rockstar acquired</a>—along with their developers—in 2023.</li><li><strong>Rockstar says mods must \"respect our games\":</strong> As part of its \"right to set limits on how others can use our games and brand,\" the studio says mods can't expand or modify official storylines, missions, and characters, and can't combine settings and characters from different Rockstar franchises.</li><li>Rockstar says <strong>modders can't incorporate other intellectual property</strong> or<strong> </strong>real-world likenesses, and forbids cheat menus or modifications that interfere with its official multiplayer and online services.</li><li>R"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Rockstar asks modders to please take its games very seriously",
+        "secondary_keywords": [
+          "Rockstar asks modders to please take its games very seriously date de sortie",
+          "Rockstar asks modders to please take its games very seriously plateformes",
+          "Rockstar asks modders to please take its games very seriously gameplay",
+          "Rockstar asks modders to please take its games very seriously guide",
+          "Rockstar asks modders to please take its games very seriously avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Rockstar asks modders to please take its games very seriously"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-world-of-warcraft-forever-players-competing-over-enemie-7bec0bfabedd",
+      "topic": "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on'",
+      "detected_at": "2026-09-21T22:13:52.588250+00:00",
+      "analysed_at": "2026-10-07T09:16:08.283972+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-players-competing-over-enemies-is-extremely-important-to-the-experience-blizzard-says-this-is-one-of-those-things-that-we-simply-must-hold-the-line-on/",
+          "title": "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on'",
+          "evidence": "<article> <p>When the gates opened on the <a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a> beta, it was a free-for-all. Everyone fought to be the first to \"tag\" enemies with their attacks so they would count for their quests—a problem that is essentially obsolete in modern WoW.</p><p>My memories of doing this in the real classic WoW came flooding back as I frantically tried to claim enemies before someone else did. But that old frustration also prompted old solutions: Whenever I came across a quest to kill seven wolves or whatever, I invited other players into my group so that everyone got credit.</p><p>This, according to senior game designer Josh Greenfield on <a href=\"https://x.com/AggrendWoW/status/2101711250342453367\">X</a>, is exactly what Blizzard wants to see.</p><p>Greenfield responded to a conversation about whether or not shared enemy kill credit should be a thing in WoW: Forever to say pretty firmly that it's not going to change.</p><p>\"This is one of those things that we simply must hold the line on,\" he wrote. \"I think there are other things we can do to help alleviate some frustration here but shared tagging is not it.\"</p><p"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on'",
+        "secondary_keywords": [
+          "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' date de sortie",
+          "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' plateformes",
+          "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' gameplay",
+          "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' guide",
+          "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wait-how-did-lego-beat-minecraft-to-making-a-city-build-053d2a4effa2",
+      "topic": "Wait, how did Lego beat Minecraft to making a city builder?",
+      "detected_at": "2026-09-21T22:13:52.588527+00:00",
+      "analysed_at": "2026-10-07T09:16:08.284002+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/city-builder/wait-how-did-lego-beat-minecraft-to-making-a-city-builder/",
+          "title": "Wait, how did Lego beat Minecraft to making a city builder?",
+          "evidence": "<article> <p>Lego announced a city builder called <a href=\"https://store.steampowered.com/app/1573550/LEGO_Skylines/\">Lego Skylines</a> last month and we all collectively said: \"<a href=\"https://www.pcgamer.com/games/sim/lego-is-finally-fulfilling-its-destiny-by-making-a-city-builder/\">Oh yeah, duh</a>.\" A landscape of colorful bricks snapping together into a metropolis from the godlike perspective we already view our real life Legos just makes sense. </p><p>Hold on, what about the brand I affectionately refer to as \"digital Legos\"? Minecraft should by rights have spawned a city building spinoff by now. How were Lego and Mojang not competing over this category of PC players years ago?</p><h2 id=\"minecraft-as-a-city-builder\">Minecraft as a city builder:</h2><div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/jsEzdwvDf7rEGSsQ6LmC8n.jpg\" alt=\"Minecraft 1.20 - Steve celebrates his new camel pal\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">It makes sense</h3><div class=\"card__descr"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Wait, how did Lego beat Minecraft to making a city builder?",
+        "secondary_keywords": [
+          "Wait, how did Lego beat Minecraft to making a city builder? date de sortie",
+          "Wait, how did Lego beat Minecraft to making a city builder? plateformes",
+          "Wait, how did Lego beat Minecraft to making a city builder? gameplay",
+          "Wait, how did Lego beat Minecraft to making a city builder? guide",
+          "Wait, how did Lego beat Minecraft to making a city builder? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Wait, how did Lego beat Minecraft to making a city builder?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-bungie-un-cancels-destiny-vaulted-content-is-coming-bac-fa9ca7aa73ab",
+      "topic": "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'",
+      "detected_at": "2026-09-21T22:13:52.588719+00:00",
+      "analysed_at": "2026-10-07T09:16:08.284022+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/bungie-un-cancels-destiny-vaulted-content-is-coming-back-as-new-leadership-promises-destiny-is-foundational-to-our-future/",
+          "title": "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/asnrQ1UoBQM\" allowfullscreen></iframe></div></div><p>Bungie's new leadership duo laid out the \"next chapter of Bungie\" today in a blog post with an accompanying video. The big news is that Bungie has essentially uncanceled Destiny 2, or will at least go the lengths to finally undo its greatest mistake: vaulting a bunch of raids and multiple of its story campaigns. Funnily enough, that work has already begun on the community side with a <a href=\"https://www.pcgamer.com/games/fps/destiny-2-players-are-learning-how-to-crack-into-its-infamous-content-vault-by-tinkering-with-old-builds/\" target=\"_blank\">mod project</a> that makes vaulted content playable through an offline build of Destiny.</p><p>I got off the Destiny train a long time ago, but its \"downward spiral,\" as PCG's Lincoln Carpenter <a href=\"https://www.pcgamer.com/games/fps/destiny-2-hasnt-been-the-game-id-loved-in-years-but-it-still-sucks-to-know-its-ending/\" target=\"_blank\">put it in May</a>, was a series of unforced errors that really began with the widel"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'",
+        "secondary_keywords": [
+          "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' date de sortie",
+          "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' plateformes",
+          "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' gameplay",
+          "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' guide",
+          "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

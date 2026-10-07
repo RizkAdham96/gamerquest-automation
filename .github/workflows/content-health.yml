@@ -102,16 +102,17 @@ jobs:
                   )
               return latest
 
-          # The News automation files posts under Actualités (2), Guides (3),
-          # Sélections (8) or Tests & Avis (9); any of them counts as fresh news.
-          # One News run and two SEO guide runs a day, each started up to several
-          # hours late by the scheduler: 24h flags a truly missed day, not jitter.
-          latest_news = latest_post("2,3,8,9", "Actualités", 24)
+          # Track News and SEO independently. Guides (3) are fresh editorial
+          # content but are not rendered in the homepage Actualités blocks.
+          # News can also be filed under Sélections (8) or Tests & Avis (9).
+          latest_news = latest_post("2,8,9", "News", 24)
+          latest_seo = latest_post(3, "SEO", 24)
           # Reviews run once a day and the scheduler has started them 7h late.
           latest_review = latest_post(5, "Tests & Avis", 36)
 
+          # The homepage contract surfaces News and Reviews, not SEO guides.
           homepage = fetch_text("https://gamerquestfr.com/")
-          for label, post in (("Actualités", latest_news), ("Tests & Avis", latest_review)):
+          for label, post in (("News", latest_news), ("Tests & Avis", latest_review)):
               link = str(post.get("link") or "")
               if not link or link not in homepage:
                   raise SystemExit(

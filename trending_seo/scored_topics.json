@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-07T09:16:08.284026+00:00",
+  "updated_at": "2026-10-07T20:09:27.140275+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -3124,6 +3124,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-866570",
+      "topic": "Configuration PC System Shock 2: 25th Anniversary Remaster : minimale, recommandée et conseils",
+      "detected_at": "2026-10-07T20:09:25.312635+00:00",
+      "analysed_at": "2026-10-07T20:09:27.140093+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/866570/",
+          "title": "System Shock 2: 25th Anniversary Remaster sur Steam",
+          "evidence": "Données officielles de la fiche Steam de System Shock 2: 25th Anniversary Remaster, consultée le 2026-10-07. Développeur : Nightdive Studios, Looking Glass Studios, Irrational Games. Éditeur : Nightdive Studios, Atari. Date de sortie sur Steam : 26 juin 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation *: Windows 7 (64-bit required) ; Processeur : Intel or AMD Dual-Core at 2.0 GHz ; Mémoire vive : 2 GB de mémoire ; Graphiques : GPU with DirectX 11 or Vulkan 1.1 support ; Espace disque : 5 GB d'espace disque disponible ; Carte son : 100% DirectX compatible sound card or onboard sound. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (64-bit required) ; Processeur : Intel Core i5-2300 2.8 GHz/AMD Phenom II X4 945 3.0 GHz or equivalent ; Mémoire vive : 4 GB de mémoire ; Graphiques : GPU with DirectX 11 or Vulkan 1.1 support ; Espace disque : 5 GB d'espace disque disponible ; Carte son : 100% DirectX compatible sound card or onboard sound.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/866570/ss_ba9ae2c702743cdbfd8baa1e67b5ab1f124e254c.1920x1080.jpg?t=1774275928"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc System Shock 2: 25th Anniversary Remaster",
+        "secondary_keywords": [
+          "System Shock 2: 25th Anniversary Remaster PC",
+          "System Shock 2: 25th Anniversary Remaster Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC System Shock 2: 25th Anniversary Remaster : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-866570",
+      "topic": "System Shock 2: 25th Anniversary Remaster multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-07T20:09:25.312727+00:00",
+      "analysed_at": "2026-10-07T20:09:27.140140+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/866570/",
+          "title": "System Shock 2: 25th Anniversary Remaster sur Steam",
+          "evidence": "Données officielles de la fiche Steam de System Shock 2: 25th Anniversary Remaster, consultée le 2026-10-07. Développeur : Nightdive Studios, Looking Glass Studios, Irrational Games. Éditeur : Nightdive Studios, Atari. Date de sortie sur Steam : 26 juin 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Coop en LAN, Multijoueur multiplateforme, Succès Steam, Compat. contrôleurs complète, Sous-titres disponibles, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : System Shock® 2: 25th Anniversary Remaster est une expérience qui a redéfini le genre du FPS et du RPG moderne à travers ses mécaniques de gameplay innovantes. Trouvez le moyen de survivre aux couloirs désolés du Von Braum. Vous avez été entraîné pour ça.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/866570/ss_ba9ae2c702743cdbfd8baa1e67b5ab1f124e254c.1920x1080.jpg?t=1774275928"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "System Shock 2: 25th Anniversary Remaster multijoueur",
+        "secondary_keywords": [
+          "System Shock 2: 25th Anniversary Remaster PC",
+          "System Shock 2: 25th Anniversary Remaster Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "System Shock 2: 25th Anniversary Remaster multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1025960",
+      "topic": "Configuration PC BURIED STARS : minimale, recommandée et conseils",
+      "detected_at": "2026-10-07T20:09:25.712158+00:00",
+      "analysed_at": "2026-10-07T20:09:27.140164+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1025960/",
+          "title": "BURIED STARS sur Steam",
+          "evidence": "Données officielles de la fiche Steam de BURIED STARS, consultée le 2026-10-07. Développeur : LINE Games Corporation. Éditeur : LINE Games Corporation. Date de sortie sur Steam : 29 nov. 2021. Genres : Aventure, Occasionnel. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation : Windows 10 ; Processeur : Intel® Core™ i5-6300U ; Mémoire vive : 4 GB de mémoire ; Graphiques : Intel® HD Graphics 520 ; DirectX : Version 11 ; Espace disque : 10 GB d'espace disque disponible ; Carte son : DirectX Compatible SoundCard or Onboard Chipset ; Notes supplémentaires : DualShock®4, Xbox Controller or Direct Input Compatible Controllers Supported.. La fiche Steam n'indique pas de configuration recommandée.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025960/ss_c0c29c3fa9d022b6fbc9b60bb34c95424d25246f.1920x1080.jpg?t=1789549352"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc BURIED STARS",
+        "secondary_keywords": [
+          "BURIED STARS PC",
+          "BURIED STARS Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC BURIED STARS : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1025960",
+      "topic": "BURIED STARS multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-07T20:09:25.712215+00:00",
+      "analysed_at": "2026-10-07T20:09:27.140185+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1025960/",
+          "title": "BURIED STARS sur Steam",
+          "evidence": "Données officielles de la fiche Steam de BURIED STARS, consultée le 2026-10-07. Développeur : LINE Games Corporation. Éditeur : LINE Games Corporation. Date de sortie sur Steam : 29 nov. 2021. Genres : Aventure, Occasionnel. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : A mystery adventure set at the collapse site of a live survival audition show. Trapped contestants communicate with each other—and the outside world through social media—as they wait for rescue. But as unexpected events unfold, trust begins to crack, and survival becomes far more complicated.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025960/ss_c0c29c3fa9d022b6fbc9b60bb34c95424d25246f.1920x1080.jpg?t=1789549352"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "BURIED STARS multijoueur",
+        "secondary_keywords": [
+          "BURIED STARS PC",
+          "BURIED STARS Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "BURIED STARS multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-open-the-organ-box-in-silent-hill-townfall-3acbf261e608",
+      "topic": "How to open the organ box in Silent Hill Townfall",
+      "detected_at": "2026-09-22T05:23:10.854820+00:00",
+      "analysed_at": "2026-10-07T20:09:27.140208+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/silent-hill/silent-hill-townfall-organ-box/",
+          "title": "How to open the organ box in Silent Hill Townfall",
+          "evidence": "<article> <p>To open the Silent Hill Townfall organ box you'll need to first get the electricity running, and then use the computer to read an email to find the information you need for the code. It's not a hard puzzle but it does involves a few varied steps that can be easy to forget are connected, and it takes little longer than you might expect as a result. Crucially, when I did this puzzle a second time in NG+ it wouldn't let me just use the combination, I had to go through the steps to get it. </p><h3 class=\"article-body__section\" id=\"section-silent-hill-townfall-organ-box-solution\"><span>Silent Hill Townfall organ box solution </span></h3><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"oK3TjVSz4Fw7X3LPde86zJ\" name=\"silent hill townfall organ box puzzle\" alt=\"silent hill townfall organ box puzzle\" src=\"https://cdn.mos.cms.futurecdn.net/oK3TjVSz4Fw7X3LPde86zJ-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></di"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to open the organ box in Silent Hill Townfall",
+        "secondary_keywords": [
+          "How to open the organ box in Silent Hill Townfall date de sortie",
+          "How to open the organ box in Silent Hill Townfall plateformes",
+          "How to open the organ box in Silent Hill Townfall gameplay",
+          "How to open the organ box in Silent Hill Townfall guide",
+          "How to open the organ box in Silent Hill Townfall avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to open the organ box in Silent Hill Townfall"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-open-the-silent-hill-townfall-door-dial-mechanis-0d343a57ab47",
+      "topic": "How to open the Silent Hill Townfall door dial mechanism",
+      "detected_at": "2026-09-22T05:23:10.855027+00:00",
+      "analysed_at": "2026-10-07T20:09:27.140230+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/silent-hill/silent-hill-townfall-door-dial-mechanism-hotel/",
+          "title": "How to open the Silent Hill Townfall door dial mechanism",
+          "evidence": "<article> <p>A strange door dial in Silent Hill Townfall is the first puzzle you'll find as you explore St Amelia and the hotel. The solution is obviously a date, but what? You'll have all the clues, but as it's your first time seeing anything like this in the game it shouldn't be a surprise if you're not sure what's going on. What's the TV showing you? Why is there a menu in the room? Here's what it all means.</p><h2 class=\"article-body__section\" id=\"section-silent-hill-townfall-door-dial-solution\"><span>Silent Hill Townfall door dial solution </span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"JVLcLoBrZqCKv9bHWhwvCP\" name=\"silent hill townfall door dial puzzle\" alt=\"silent hill townfall door dial solution\" src=\"https://cdn.mos.cms.futurecdn.net/JVLcLoBrZqCKv9bHWhwvCP-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\""
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to open the Silent Hill Townfall door dial mechanism",
+        "secondary_keywords": [
+          "How to open the Silent Hill Townfall door dial mechanism date de sortie",
+          "How to open the Silent Hill Townfall door dial mechanism plateformes",
+          "How to open the Silent Hill Townfall door dial mechanism gameplay",
+          "How to open the Silent Hill Townfall door dial mechanism guide",
+          "How to open the Silent Hill Townfall door dial mechanism avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to open the Silent Hill Townfall door dial mechanism"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-long-is-silent-hill-townfall-a871ed2c01c9",
+      "topic": "How long is Silent Hill Townfall?",
+      "detected_at": "2026-09-22T05:23:10.855213+00:00",
+      "analysed_at": "2026-10-07T20:09:27.140250+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/silent-hill/silent-hill-townfall-how-long-length/",
+          "title": "How long is Silent Hill Townfall?",
+          "evidence": "<article> <p>When it comes to how long Silent Hill Townfall is, it all depends on how brave you are, because the length of the game directly relates to how prepared you are to come out of hiding. Stealth plays a big part of the game and probably the biggest factor in how long it takes to complete will be how quickly you can sneak past the various monsters along the way. Having finished it and made a good start on an NG+, I can tell you how long it took me and how it looks generally for completion.</p><h2 class=\"article-body__section\" id=\"section-silent-hill-townfall-length\"><span>Silent Hill Townfall length </span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"BxRmgVbujH4APKdY2SWoWd\" name=\"Silent Hill Townfall\" alt=\"Silent Hill Townfall length\" src=\"https://cdn.mos.cms.futurecdn.net/BxRmgVbujH4APKdY2SWoWd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How long is Silent Hill Townfall?",
+        "secondary_keywords": [
+          "How long is Silent Hill Townfall? date de sortie",
+          "How long is Silent Hill Townfall? plateformes",
+          "How long is Silent Hill Townfall? gameplay",
+          "How long is Silent Hill Townfall? guide",
+          "How long is Silent Hill Townfall? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How long is Silent Hill Townfall?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-silent-hill-townfall-house-tv-location-0b503d34027b",
+      "topic": "silent hill townfall house tv location",
+      "detected_at": "2026-09-22T05:23:10.855389+00:00",
+      "analysed_at": "2026-10-07T20:09:27.140270+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/silent-hill/silent-hill-townfall-house-tv-location/",
+          "title": "silent hill townfall house tv location",
+          "evidence": "<article> <p>You'll need to find a house in Silent Hill Townfall using only images on your CRTV, not that long into the game. It's the first time you'll be introduced to this mechanic, and it's not the easiest set of clues to follow. If you can't work out where your CRTV is directing you, or just can't be bothered, here's where it's sending you and where you need to go. </p><h2 class=\"article-body__section\" id=\"section-silent-hill-townfall-house-location\"><span>Silent Hill Townfall house location </span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"tqevhMH8v7KEusDZ8uRuwL\" name=\"silent hill townfall house tv image\" alt=\"silent hill townfall house tv image\" src=\"https://cdn.mos.cms.futurecdn.net/tqevhMH8v7KEusDZ8uRuwL-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Konami)</spa"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "silent hill townfall house tv location",
+        "secondary_keywords": [
+          "silent hill townfall house tv location date de sortie",
+          "silent hill townfall house tv location plateformes",
+          "silent hill townfall house tv location gameplay",
+          "silent hill townfall house tv location guide",
+          "silent hill townfall house tv location avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "silent hill townfall house tv location"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

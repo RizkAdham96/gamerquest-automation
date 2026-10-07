@@ -1,399 +1,17 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-07T09:16:07.930721+00:00",
+  "updated_at": "2026-10-07T20:09:26.729412+00:00",
   "evergreen_checked_games": [
+    "buried stars",
     "cyberpunk 2077",
     "ori and the will of the wisps",
     "red dead redemption 2",
     "sons of the forest",
+    "system shock 2 25th anniversary remaster",
     "the elder scrolls v skyrim special edition",
     "the outlast trials"
   ],
   "topics": [
-    {
-      "id": "rss-rockstar-asks-modders-to-please-take-its-games-very-ser-b0a3a54c93fe",
-      "topic": "Rockstar asks modders to please take its games very seriously",
-      "detected_at": "2026-09-21T22:13:52.587997+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-asks-modders-to-please-take-its-games-very-seriously/",
-          "title": "Rockstar asks modders to please take its games very seriously",
-          "evidence": "<article> <h2 id=\"what-happened\">What happened</h2><ul><li>On September 10, <strong>Rockstar Games </strong><a href=\"https://www.rockstargames.com/community-resources/mod-guidelines\"><strong>published new mod guidelines</strong></a> on its website, which it says are intended to \"maintain a fun, creative, and welcoming place for players and content creators.\"</li><li>The guidelines are seem primarily targeted at mods for the FiveM and RedM platforms, which <a href=\"https://www.pcgamer.com/rockstar-buys-the-makers-of-the-gta-online-fivem-mod-it-banned-8-years-ago/\">Rockstar acquired</a>—along with their developers—in 2023.</li><li><strong>Rockstar says mods must \"respect our games\":</strong> As part of its \"right to set limits on how others can use our games and brand,\" the studio says mods can't expand or modify official storylines, missions, and characters, and can't combine settings and characters from different Rockstar franchises.</li><li>Rockstar says <strong>modders can't incorporate other intellectual property</strong> or<strong> </strong>real-world likenesses, and forbids cheat menus or modifications that interfere with its official multiplayer and online services.</li><li>R"
-        }
-      ],
-      "keywords": [
-        "Rockstar asks modders to please take its games very seriously",
-        "Rockstar asks modders to please take its games very seriously date de sortie",
-        "Rockstar asks modders to please take its games very seriously plateformes",
-        "Rockstar asks modders to please take its games very seriously gameplay",
-        "Rockstar asks modders to please take its games very seriously guide",
-        "Rockstar asks modders to please take its games very seriously avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-world-of-warcraft-forever-players-competing-over-enemie-7bec0bfabedd",
-      "topic": "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on'",
-      "detected_at": "2026-09-21T22:13:52.588250+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-players-competing-over-enemies-is-extremely-important-to-the-experience-blizzard-says-this-is-one-of-those-things-that-we-simply-must-hold-the-line-on/",
-          "title": "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on'",
-          "evidence": "<article> <p>When the gates opened on the <a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a> beta, it was a free-for-all. Everyone fought to be the first to \"tag\" enemies with their attacks so they would count for their quests—a problem that is essentially obsolete in modern WoW.</p><p>My memories of doing this in the real classic WoW came flooding back as I frantically tried to claim enemies before someone else did. But that old frustration also prompted old solutions: Whenever I came across a quest to kill seven wolves or whatever, I invited other players into my group so that everyone got credit.</p><p>This, according to senior game designer Josh Greenfield on <a href=\"https://x.com/AggrendWoW/status/2101711250342453367\">X</a>, is exactly what Blizzard wants to see.</p><p>Greenfield responded to a conversation about whether or not shared enemy kill credit should be a thing in WoW: Forever to say pretty firmly that it's not going to change.</p><p>\"This is one of those things that we simply must hold the line on,\" he wrote. \"I think there are other things we can do to help alleviate some frustration here but shared tagging is not it.\"</p><p"
-        }
-      ],
-      "keywords": [
-        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on'",
-        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' date de sortie",
-        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' plateformes",
-        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' gameplay",
-        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' guide",
-        "World of Warcraft: Forever players competing over enemies is 'extremely important' to the experience, Blizzard says: 'This is one of those things that we simply must hold the line on' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-wait-how-did-lego-beat-minecraft-to-making-a-city-build-053d2a4effa2",
-      "topic": "Wait, how did Lego beat Minecraft to making a city builder?",
-      "detected_at": "2026-09-21T22:13:52.588527+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/city-builder/wait-how-did-lego-beat-minecraft-to-making-a-city-builder/",
-          "title": "Wait, how did Lego beat Minecraft to making a city builder?",
-          "evidence": "<article> <p>Lego announced a city builder called <a href=\"https://store.steampowered.com/app/1573550/LEGO_Skylines/\">Lego Skylines</a> last month and we all collectively said: \"<a href=\"https://www.pcgamer.com/games/sim/lego-is-finally-fulfilling-its-destiny-by-making-a-city-builder/\">Oh yeah, duh</a>.\" A landscape of colorful bricks snapping together into a metropolis from the godlike perspective we already view our real life Legos just makes sense. </p><p>Hold on, what about the brand I affectionately refer to as \"digital Legos\"? Minecraft should by rights have spawned a city building spinoff by now. How were Lego and Mojang not competing over this category of PC players years ago?</p><h2 id=\"minecraft-as-a-city-builder\">Minecraft as a city builder:</h2><div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/jsEzdwvDf7rEGSsQ6LmC8n.jpg\" alt=\"Minecraft 1.20 - Steve celebrates his new camel pal\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">It makes sense</h3><div class=\"card__descr"
-        }
-      ],
-      "keywords": [
-        "Wait, how did Lego beat Minecraft to making a city builder?",
-        "Wait, how did Lego beat Minecraft to making a city builder? date de sortie",
-        "Wait, how did Lego beat Minecraft to making a city builder? plateformes",
-        "Wait, how did Lego beat Minecraft to making a city builder? gameplay",
-        "Wait, how did Lego beat Minecraft to making a city builder? guide",
-        "Wait, how did Lego beat Minecraft to making a city builder? avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-bungie-un-cancels-destiny-vaulted-content-is-coming-bac-fa9ca7aa73ab",
-      "topic": "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'",
-      "detected_at": "2026-09-21T22:13:52.588719+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/bungie-un-cancels-destiny-vaulted-content-is-coming-back-as-new-leadership-promises-destiny-is-foundational-to-our-future/",
-          "title": "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'",
-          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/asnrQ1UoBQM\" allowfullscreen></iframe></div></div><p>Bungie's new leadership duo laid out the \"next chapter of Bungie\" today in a blog post with an accompanying video. The big news is that Bungie has essentially uncanceled Destiny 2, or will at least go the lengths to finally undo its greatest mistake: vaulting a bunch of raids and multiple of its story campaigns. Funnily enough, that work has already begun on the community side with a <a href=\"https://www.pcgamer.com/games/fps/destiny-2-players-are-learning-how-to-crack-into-its-infamous-content-vault-by-tinkering-with-old-builds/\" target=\"_blank\">mod project</a> that makes vaulted content playable through an offline build of Destiny.</p><p>I got off the Destiny train a long time ago, but its \"downward spiral,\" as PCG's Lincoln Carpenter <a href=\"https://www.pcgamer.com/games/fps/destiny-2-hasnt-been-the-game-id-loved-in-years-but-it-still-sucks-to-know-its-ending/\" target=\"_blank\">put it in May</a>, was a series of unforced errors that really began with the widel"
-        }
-      ],
-      "keywords": [
-        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'",
-        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' date de sortie",
-        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' plateformes",
-        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' gameplay",
-        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' guide",
-        "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-gta-5-has-true-air-travel-now-thanks-to-the-mod-i-just--d37ae31c7746",
-      "topic": "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane",
-      "detected_at": "2026-09-21T22:13:52.588976+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-5-has-true-air-travel-now-thanks-to-the-mod-i-just-installed-but-they-wont-let-me-give-me-my-pals-piggybacks-onto-the-plane/",
-          "title": "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>It might feel minnowish compared to modern open worlds, but Los Santos is still a schlep to get across. Whether you're on a bike, in a car, or hoofing it on-foot, it takes a while to get from the city itself out to the northernmost boonies. Well, no more.</p><p><a href=\"https://www.gta5-mods.com/scripts/flights-v-airports-mod\" target=\"_blank\">Flights V</a> is a mod that turns GTA 5's airports into, ah, airports. That is to say, you can now rock up to a desk in the terminal, pick up a ticket, and jet off (as a passenger) to one of a select few other points on the map: LSI"
-        }
-      ],
-      "keywords": [
-        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane",
-        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane date de sortie",
-        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane plateformes",
-        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane gameplay",
-        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane guide",
-        "GTA 5 has true air travel now thanks to the mod I just installed, but they won't let me give me my pals piggybacks onto the plane avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-oh-good-the-pervert-s-back-1068628e557f",
-      "topic": "Oh good, the pervert's back",
-      "detected_at": "2026-09-21T22:13:52.589307+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/action/oh-good-the-perverts-back/",
-          "title": "Oh good, the pervert's back",
-          "evidence": "<article> <p>While I've been pleased to watch Capcom begin teasing out previews of the expanded monster roster we'll face in Monster Hunter Wilds: Ascendance, its returning Elder Dragons have left me with a persistent feeling that something's still missing—something utterly detestable and unsettlingly phallic.</p><p>Thankfully, that hole in my life has been filled. Over the weekend, <a href=\"https://x.com/monsterhunter/status/2101204647952474400?s=20\" target=\"_blank\">Capcom confirmed</a> that Ascendance will be a homecoming for its most hateful horror: Khezu, the flabbiest, drippiest member of the Flying Wyvern family that for years has given hunters cause to ask \"why is it like that\" and \"how did they manage to make it even worse?\" If you're not already acquainted with its many unpleasant aspects, allow me to introduce you:</p><div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/T5zriyXsngejF5X2Vwn6GT.jpg\" alt=\"Khezu model render in Monster Hunter Wilds.\"></p></div><div class=\"card__content\"><"
-        }
-      ],
-      "keywords": [
-        "Oh good, the pervert's back",
-        "Oh good, the pervert's back date de sortie",
-        "Oh good, the pervert's back plateformes",
-        "Oh good, the pervert's back gameplay",
-        "Oh good, the pervert's back guide",
-        "Oh good, the pervert's back avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-touch-grass-not-when-amd-has-whittled-down-ray-tracing--3f4ca4c353bc",
-      "topic": "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees",
-      "detected_at": "2026-09-21T22:13:52.589532+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/graphics-cards/touch-grass-not-when-amd-has-whittled-down-ray-tracing-memory-usage-by-98-percent-for-these-hardware-sapping-bushes-and-trees/",
-          "title": "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees",
-          "evidence": "<article> <p>As someone who spent a lot of their childhood talking to trees, I'm of the opinion that videogame forestry doesn't need to look any better than <a href=\"https://www.pcgamer.com/alan-wake-2-review/\" target=\"_blank\">Alan Wake 2</a>'s Pacific Northwest woodlands. That hasn't stopped AMD from innovating though; by leveraging 'tetrahedral cages' to help render a vast scene of greenery, researchers at the company say they've managed to cut the potential ray tracing memory usage by 98%.</p><p>Typically, a scene of around 25,000 independently animated plants made of hundreds of thousands of triangles could hoover up 80 GB of GPU memory. Not only that, but it would take a <a href=\"https://www.pcgamer.com/hardware/graphics-cards/amd-radeon-rx-9700-xt-review-asus-prime-oc/\" target=\"_blank\">Radeon RX 9070 XT</a> GPU 300 ms per frame to check which surfaces within a scene are intersecting with a ray (the data structure that organises this information is called a Bounding Volume Hierarchy). In short, using traditional tech to render such a densely populated scene would be slow and choppy.</p><p>Holger Gruen, a Fellow of AMD's Advanced Graphics Program, <a href=\"https://gpuopen.com/l"
-        }
-      ],
-      "keywords": [
-        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees",
-        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees date de sortie",
-        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees plateformes",
-        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees gameplay",
-        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees guide",
-        "Touch grass? Not when AMD has whittled down ray tracing memory usage by 98% for these hardware-sapping bushes and trees avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-alright-wow-forever-gamers-are-we-team-hd-models-or-tea-9d2cf15f9e72",
-      "topic": "Alright WoW: Forever gamers, are we team HD models or team old school models?",
-      "detected_at": "2026-09-21T22:13:52.589663+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/alright-wow-forever-gamers-are-we-team-hd-models-or-team-old-school-models/",
-          "title": "Alright WoW: Forever gamers, are we team HD models or team old school models?",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/uk/world-of-warcraft-forever/\" target=\"_blank\">World of Warcraft: Forever</a> has a nice little toggle that lets you switch between Classic's old-school models and Retail's newer, shinier ones. But which one are you using?</p><p>Personally, I'm sporting the HD models. The big braided mohawk style on trolls just looks <em>so </em>much better. You can see a little comparison of my current Forever Shaman up in the ol' header image; peep how she looks in each style and let me know which one you like more!</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-W0EN7O\"></div> </div> <script src=\"https://kwizly.com/embed/W0EN7O.js\" async></script> </article>"
-        }
-      ],
-      "keywords": [
-        "Alright WoW: Forever gamers, are we team HD models or team old school models?",
-        "Alright WoW: Forever gamers, are we team HD models or team old school models? date de sortie",
-        "Alright WoW: Forever gamers, are we team HD models or team old school models? plateformes",
-        "Alright WoW: Forever gamers, are we team HD models or team old school models? gameplay",
-        "Alright WoW: Forever gamers, are we team HD models or team old school models? guide",
-        "Alright WoW: Forever gamers, are we team HD models or team old school models? avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-wow-forever-has-rendered-me-a-min-maxing-hypocrite-and--5011b274e36f",
-      "topic": "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me",
-      "detected_at": "2026-09-21T22:13:52.589858+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-has-rendered-me-a-min-maxing-hypocrite-and-heres-how-you-can-join-me/",
-          "title": "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me",
-          "evidence": "<article> <h2 id=\"i-swore-i-39-d-never-become-this-evil\">I swore I'd never become this evil</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"HbTTZa4sxmPugVhkyggzeW\" name=\"MoP Remix.png\" alt=\"An image of a Pandaren holding jade lightning in Mists of Pandaria: Remix.\" src=\"https://cdn.mos.cms.futurecdn.net/HbTTZa4sxmPugVhkyggzeW-1920-80.png\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"caption-text\">\"I think there are some genuine wrinkles in MoP: Remix, for sure. I'd like to see the shared XP buff thing return, for example—but the frog farming is only a problem if you view the event as a competitive experience, which it isn't designed to be.\"<em><strong>- </strong></em><a href=\"https://www.pcgamer.com/games/world-of-warcraft/the-hunt-for-the-perfect-grinding-spot-in-mists-of-pandaria-remix-show-us-just-how-incompatible-the-events-silly-fun"
-        }
-      ],
-      "keywords": [
-        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me",
-        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me date de sortie",
-        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me plateformes",
-        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me gameplay",
-        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me guide",
-        "WoW: Forever has rendered me a min-maxing hypocrite, and here's how you can join me avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-m-taking-insomniac-s-wolverine-patch-as-a-sign-this-i-8e0b0d82aa23",
-      "topic": "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get",
-      "detected_at": "2026-09-21T22:13:52.590027+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/im-taking-insomniacs-wolverine-patch-as-a-sign-this-is-as-bad-as-its-going-to-get/",
-          "title": "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get",
-          "evidence": "<article> <p>I'm calling it here—this is as bad as it's gonna get. Insomniac's Wolverine has been getting <a href=\"https://www.pcgamer.com/games/action/wolverine-review-roundup-frankly-were-starting-to-feel-a-little-better-about-the-whole-playstation-5-exclusive-thing/\">slapped around a fair bit</a> because it's perhaps the summit, the zenith—of 'how much handholding can you put in a game before we all get sick of it'. </p><p>And listen, I've actually defended yellow paint on this site before. I am in agreement with most developers that <a href=\"https://www.pcgamer.com/gaming-industry/game-development/the-problem-isnt-necessarily-the-yellow-paint-says-the-witcher-4-design-lead-but-its-overuse-people-see-through-the-smoke-and-mirrors/\">a little guidance is good</a>. Players do need environments that guide them, they do need the occasional bit of direction, and while they're smarter than Insomniac's given them credit for? They are also kind of dumb sometimes. </p><p>But they aren't <em>this dumb. </em>I've seen clips of Wolverine that look ripped straight out of parody videos—Logan does not need a scent trail, red flashing lights, and a snow trail so cleanly placed it might as well h"
-        }
-      ],
-      "keywords": [
-        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get",
-        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get date de sortie",
-        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get plateformes",
-        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get gameplay",
-        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get guide",
-        "I'm taking Insomniac's Wolverine patch as a sign: This is as bad as it's going to get avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-nighthawks-review-3f18ab41f2b4",
-      "topic": "Nighthawks review",
-      "detected_at": "2026-09-22T05:23:09.887244+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rpg/nighthawks-review-a-novel-vampire-rpg-thats-also-a-vampire-novels-worth-of-writing/",
-          "title": "Nighthawks review",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Need to know</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it?: </strong>A novel vampire RPG that's also a vampire novel's worth of great writing.<br><strong>Expect to pay: </strong>TBA<br><strong>Developer: </strong>The Curiosity Engine<br><strong>Publisher: </strong>Wadjet Eye<br><strong>Reviewed on:</strong> Windows 11, Intel Core i9, 32GB RAM, Nvidia RTX 4060<br><strong>Multiplayer?: </strong>No<br><strong>Steam Deck: </strong>Unknown<br><strong>Out:</strong> September 22<br><strong>Link: </strong><a data-analytics-id=\"inline-link\" href=\"https://wadjeteyegames.com/games/nighthawks/\" target=\"_blank\">Official site</a></p></div></div><p>Nighthawks is what you get if you take the masquerade out of Vampire: The Masquerade. It's a world where everyone knows vampires are real and therefore nobody has to bribe the police into pretending exsanguinated bodies aren't constantly turning up in back alleys. </p><p>Instead, you just have to bribe the police into saying somebody else did the exsanguination. Wasn't me, officer, must have been one of the other dozen people dressed entirely in black w"
-        }
-      ],
-      "keywords": [
-        "Nighthawks review",
-        "Nighthawks review date de sortie",
-        "Nighthawks review plateformes",
-        "Nighthawks review gameplay",
-        "Nighthawks review guide",
-        "Nighthawks review avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-should-action-games-let-us-skip-the-action-026357e5974c",
-      "topic": "Should action games let us skip the action?",
-      "detected_at": "2026-09-22T05:23:09.887428+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/should-action-games-let-us-skip-the-action/",
-          "title": "Should action games let us skip the action?",
-          "evidence": "<article> <p>\"We will introduce an additional difficulty level [to The Blood of Dawnwalker], but an easier one, because many people are asking for a more easy difficulty. </p><p>The Story mode which we have right now will be a different difficulty—we will call it Demanding or something like this—and we will add a new Story mode which will be even easier for people who don't want to experience the combat, they just want to learn the story and go through the game without this gameplay challenge.\" (via <a href=\"https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update\">Eurogamer</a>)</p><h2 id=\"wait-does-that-mean-a-combat-skip-option-is-coming\">Wait, does that mean a combat skip option is coming?</h2><p>I spent around 50 hours playing The Blood of Dawnwalker for <a href=\"https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-review/\">my review</a>. I played on the default \"Fair\" difficulty and didn't find it very challenging: as far as modern blockbuster RPGs go it's pretty easy-going (and I speak as someone who is <em>not </em>an apex gamer. Metal Gear Solid 4 is currently kicking my ass. How did I cope with this in 2008?).</p><p>So Rebel Wolves' new \"even easi"
-        }
-      ],
-      "keywords": [
-        "Should action games let us skip the action?",
-        "Should action games let us skip the action? date de sortie",
-        "Should action games let us skip the action? plateformes",
-        "Should action games let us skip the action? gameplay",
-        "Should action games let us skip the action? guide",
-        "Should action games let us skip the action? avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-bungie-unvaulting-destiny-2-content-was-a-studio-saving-aca489dcf4ce",
-      "topic": "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough",
-      "detected_at": "2026-09-22T05:23:09.887833+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/fps/bungie-unvaulting-destiny-2-content-was-a-studio-saving-emergency-decision-because-marathon-updates-were-never-going-to-be-enough/",
-          "title": "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough",
-          "evidence": "<article> <p>Over the past couple of months, my Destiny 2 Fireteam has given me a tour of the Destiny 2 content I missed when I hopped off the train following the pandemic. When you play all the dungeons back-to-back, it's a buffet of delights—a concentrated dose of amazing and frequently obtuse FPS level design that you simply can't find anywhere else. A reminder that Bungie, pre-layoffs, was the very best at what it did. </p><p>And yet, no game has had more caveats in its lifespan. There was always an amazing experience inside Destiny 2 <em>somewhere</em>, but recommending it to any normal person was out of the question. The onboarding for rookies was rough. Hoovering up all the expansions and dungeons was pricey and confusing. And after the release of The Final Shape, Bungie pissed off its player base repeatedly until the game was no longer sustainable. At what point would you ever advise a new player to jump in? </p><p>Still, none of those issues compared to the content vault, first introduced in 2020. In removing entire campaigns from the game, not only did Bungie break players' ability to understand the complete story of Destiny 2, it also raised questions about the ethics of"
-        }
-      ],
-      "keywords": [
-        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough",
-        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough date de sortie",
-        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough plateformes",
-        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough gameplay",
-        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough guide",
-        "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-resident-evil-is-the-best-videogame-movie-because-bryan-6307ca4d0f99",
-      "topic": "Resident Evil is the best videogame movie because Bryan sucks",
-      "detected_at": "2026-09-22T05:23:09.888449+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/resident-evil/resident-evil-is-the-best-videogame-movie-because-bryan-sucks/",
-          "title": "Resident Evil is the best videogame movie because Bryan sucks",
-          "evidence": "<article> <p>My God, they've done it. We're finally in the era when <a href=\"https://www.pcgamer.com/movies-tv/multiple-reviews-call-resident-evil-the-best-videogame-movie-ever/\" target=\"_blank\">videogame movies can actually be <em>good</em></a>. Not just good for a videogame movie, or \"It's good, but here are 50 caveats.\" It's simply brilliant. And Resi's lovably feckless protagonist Bryan is the primary reason. But before I dive in, I need to warn you about something. </p><p>Yep, this is going to be <strong>spoiler city</strong>. Spoilers for days, folks! Spoilers as big as your head—if your head is <em>exceedingly </em>large. So I'm going to give you ample time to stop scrolling. I am here to protect you. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:3840px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"GEsii5PiihBDenqqbrriKQ\" name=\"resi\" alt=\"Resident Evil (2026) trailer still - Austin Abrams pulling on a touque\" src=\"https://cdn.mos.cms.futurecdn.net/GEsii5PiihBDenqqbrriKQ-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"3840\" heig"
-        }
-      ],
-      "keywords": [
-        "Resident Evil is the best videogame movie because Bryan sucks",
-        "Resident Evil is the best videogame movie because Bryan sucks date de sortie",
-        "Resident Evil is the best videogame movie because Bryan sucks plateformes",
-        "Resident Evil is the best videogame movie because Bryan sucks gameplay",
-        "Resident Evil is the best videogame movie because Bryan sucks guide",
-        "Resident Evil is the best videogame movie because Bryan sucks avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-who-the-hell-is-buying-their-server-memory-from-amazon--5f6e78d0ee92",
-      "topic": "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit?",
-      "detected_at": "2026-09-22T05:23:09.888602+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/memory/who-the-hell-is-buying-their-server-memory-from-amazon-also-can-i-interest-you-in-a-usd101-000-kit/",
-          "title": "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit?",
-          "evidence": "<article> <p>This appeared on my X feed this morning and it's been bouncing around in my brain since I saw it. Titled as the \"first $100,000 RAM kit\" it caught my eye. The first thing to note is that this is, inevitably, server grade memory, and 2 TB of the stuff as well.</p><p>It's <a href=\"https://www.amazon.com/16X128GB-DDR5-5600-Compatible-Hypertec-GS680R-G6/dp/B0HK21M7XD?th=1\" target=\"_blank\">DDR5-5600 of ECC RDIMM in a 16-pack kit for precisely $101,451.99 at Amazon</a>, for all you server engineers out there. But the question that has been burning my bonce is who is buying their server farm memory directly from Amazon? But hey, Nemix RAM has been around a while now, and if it really is offering lifetime warranty on your $100k+ purchase that ain't bad. But surely, <em>surely,</em> you're getting a better deal from whoever you deal with, because if you're looking after datacenter hardware you must have been getting your kit from somewhere else originally, right?</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2101658775547494630\"><p lang=\"en\" dir=\"ltr\">First $100,000 "
-        }
-      ],
-      "keywords": [
-        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit?",
-        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit? date de sortie",
-        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit? plateformes",
-        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit? gameplay",
-        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit? guide",
-        "Who the hell is buying their server memory from Amazon?! Also, can I interest you in a $101,000 kit? avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-kojima-says-his-sony-split-was-amicable-and-they-both-s-a4d36ed71928",
-      "topic": "Kojima says his Sony split was amicable and they both still love us very much",
-      "detected_at": "2026-09-22T05:23:09.888774+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/kojima-says-his-sony-split-was-amicable-and-they-both-still-love-us-very-much/",
-          "title": "Kojima says his Sony split was amicable and they both still love us very much",
-          "evidence": "<article> <p>You do not, as a rule, see studios respond to rumours, reports, and speculation, but a recent Bloomberg report that <a href=\"https://www.pcgamer.com/gaming-industry/sony-reportedly-dropped-hideo-kojimas-next-game-because-it-kept-missing-deadlines-was-over-budget-and-would-eventually-come-to-other-platforms/\">Sony dropped Physint</a>, Kojima Productions' upcoming stealth game, because it was overbudget and kept missing deadlines must have rankled the studio a little, because it released the statement above yesterday to quell fears.</p><p>To quell fears of what? Well, mostly that the relationship between Hideo Kojima and Sony has gotten as bad as the relationship between Hideo Kojima and Konami, his erstwhile employer. Sure, says the studio, they might have split on Physint, but it was amicable. They'll probably even still spend Christmas together.</p><p>Meanwhile, <a href=\"https://www.pcgamer.com/gaming-industry/playstation-tried-to-cancel-hideo-kojimas-physint-now-xbox-is-publishing-it/\">Xbox has swooped in</a> for an easy PR win: picking up the cheque for Physint's continued development. All's well that ends well? We'll see.</p><div class=\"product\"><a data-dimension11"
-        }
-      ],
-      "keywords": [
-        "Kojima says his Sony split was amicable and they both still love us very much",
-        "Kojima says his Sony split was amicable and they both still love us very much date de sortie",
-        "Kojima says his Sony split was amicable and they both still love us very much plateformes",
-        "Kojima says his Sony split was amicable and they both still love us very much gameplay",
-        "Kojima says his Sony split was amicable and they both still love us very much guide",
-        "Kojima says his Sony split was amicable and they both still love us very much avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-how-to-open-the-organ-box-in-silent-hill-townfall-3acbf261e608",
       "topic": "How to open the organ box in Silent Hill Townfall",
@@ -5994,6 +5612,386 @@
         "Red Dead Redemption 2 multijoueur",
         "Red Dead Redemption 2 PC",
         "Red Dead Redemption 2 Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "rss-arc-raiders-lead-encourages-players-to-take-a-break-and-ec1680965e4e",
+      "topic": "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content",
+      "detected_at": "2026-10-07T20:09:26.726547+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-lead-says-its-good-to-take-a-break-and-play-some-other-games-if-youre-out-of-content-and-hes-right/",
+          "title": "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content",
+          "evidence": "<article> <p>Arc Raiders is entering a new, hopefully healthier era, both for players and developer Embark Studios. Instead of constantly laying on the gas trying to keep up with player demands, Embark has pumped the brakes a bit to prepare one big update – <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-frozen-trail/\">Arc Raiders' Frozen Trail</a>, out tomorrow, October 8 – and go back to the processes that it used to make this hit extraction shooter in the first place. </p><p>Executive producer Aleksander Grøndal says the dev team is feeling better today, <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-devs-were-super-unhappy-and-super-tired-after-the-shooters-huge-launch-lead-says-causing-embark-to-change-direction-to-avoid-burnout/\"><u>months after becoming \"super unhappy\"</u></a> in the live service content race, and hopes to give players big chunks of content to chew on through this new update schedule. But we will inevitably run out of content again. When we do, let's remember Grøndal's sage advice: \"Take a break and play some other games.\" </p><p>I spoke to Grøndal about what's coming in Frozen Trail and, just as importa"
+        }
+      ],
+      "keywords": [
+        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content",
+        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content date de sortie",
+        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content plateformes",
+        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content gameplay",
+        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content guide",
+        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-troy-baker-says-the-last-of-us-2-s-devastating-final-sc-cb9fe7974dda",
+      "topic": "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game",
+      "detected_at": "2026-10-07T20:09:26.726834+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-last-of-us/the-last-of-us-2s-troy-baker-says-the-endings-devastating-final-conversation-between-joel-and-ellie-was-originally-supposed-to-be-at-the-start-of-the-game/",
+          "title": "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game",
+          "evidence": "<article> <p>The Last of Us 2 has the perfect video game ending for my money. Without spoiling anything in case you've yet to experience this masterpiece of a game, it's bitterly unsatisfying but somehow, thematically and narratively, the only way to wrap up the story in a way that does justice to the characters, who they are, and what they've all been through.</p><p>OK, now I will get into <strong>spoilers</strong>, so again, if somehow The Last of Us 2 has eluded you in the six years it's been out, go play that darned game and come back here when you're done so we can pick up the pieces together.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:3840px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"oanPTgDuFcXBqoh22x7aFZ\" name=\"2X9YgfjnzR9x3CFNYVsDx6.jpg\" alt=\"The Last of Us 2\" src=\"https://cdn.mos.cms.futurecdn.net/oanPTgDuFcXBqoh22x7aFZ-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"3840\" height=\"2160\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span cl"
+        }
+      ],
+      "keywords": [
+        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game",
+        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game date de sortie",
+        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game plateformes",
+        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game gameplay",
+        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game guide",
+        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-carrie-s-mike-flanagan-explains-why-he-chose-to-exclude-3a6f8700af69",
+      "topic": "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene",
+      "detected_at": "2026-10-07T20:09:26.727000+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/horror-shows/carries-mike-flanagan-explains-why-he-chose-to-exclude-one-infamous-scene-i-didnt-have-much-of-a-stomach/",
+          "title": "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene",
+          "evidence": "<article> <p>Mike Flanagan says he opted to skip the infamous pig slaughtering scene in his adaptation of Carrie.</p><p>\"Yeah, I didn't have much of a stomach to watch the pig get slaughtered,\" Flanagan tells GamesRadar+. \"There's so much cruelty in the show, but it was also seeing the lack of horror on Chris's face that became more horrific to me. And seeing how far down that road she'd gone and her kind of fascination with that. Yeah, that was how we decided to approach it. I just felt like we've endured so much and are still going to endure so much on the show that to kind of hold an audience's face to the slaughter of the pig was...\" he suggests, trailing off. \"Plus, I just love how Alison played that.\"</p><p>In the 1974 novel, it's described, though not in explicit detail, that Chris Hargensen and her delinquent sociopath boyfriend Billy Thornton decide to break into a farm while the farmer is away and slaughter a pig for its blood. Why? So they can dump it onto Carrie White's head when she's announced as prom queen. In the 1976 movie, we see Billy (John Travolta) and Chris (Nancy Allen) excitedly kill the pig as it squeals to death.</p><p>In Flanagan's TV adaptation, however,"
+        }
+      ],
+      "keywords": [
+        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene",
+        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene date de sortie",
+        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene plateformes",
+        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene gameplay",
+        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene guide",
+        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-star-wars-zero-company-studio-is-returning-furloughed-d-6efafb8f43a0",
+      "topic": "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\"",
+      "detected_at": "2026-10-07T20:09:26.727169+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/strategy/star-wars-zero-company-studio-is-returning-furloughed-developers-after-the-strategy-rpgs-incredible-response/",
+          "title": "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\"",
+          "evidence": "<article> <p>Star Wars Zero Company developer Bit Reactor is actively \"returning more of our team back to work\" after furloughing staff right before launch due to apparent budget issues. </p><p>In a post on <a href=\"https://bsky.app/profile/bitreactor.com/post/3mxcgabtzjk2b\" target=\"_blank\">Bluesky</a>, Bit Reactor CEO Greg Foertsch confirms the great de-furloughing began this week, which it calls \"an important step in our continued support for Zero Company.\"</p><p>The statement confirms much of <a href=\"https://www.gamesradar.com/games/strategy/star-wars-zero-company-studio-furloughed-staff-right-before-the-strategy-game-launched-due-to-reportedly-running-low-on-money/\">what was reported</a> around the launch. \"Having to ask team members to step away after we navigated unexpected business developments out of our control and so close to launch was an incredibly difficult decision, but one that was necessary to help us eventually bring as many people back as possible,\" Foertsch continues.</p><p>It's unclear how many, if any, developers may be laid off at the end of this return process. Whereas layoffs result in immediate job cuts, a furlough is essentially a period of unpaid absence"
+        }
+      ],
+      "keywords": [
+        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\"",
+        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" date de sortie",
+        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" plateformes",
+        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" gameplay",
+        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" guide",
+        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-grab-these-essential-beginner-board-games-if-you-want-t-2103760239be",
+      "topic": "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year",
+      "detected_at": "2026-10-07T20:09:26.727502+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/board-games/grab-these-essential-beginner-board-games-if-you-want-to-avoid-playing-monopoly-with-your-family-this-year/",
+          "title": "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year",
+          "evidence": "<article> <p>Are you dreading family get-togethers this year because your folks insist on breaking out dusty old board games like Monopoly? Can't face another dinner table meltdown because a sibling got screwed out of Bond Street? It's a special kind of torture, but it's not one you need to suffer.</p><p>There's a whole world of amazing alternatives out there, especially in 2026. As you can probably tell from the explosion of tabletop content on social media or the glut of board game cafes worldwide, it's got a lot more to give. While the sheer amount of options may seem intimidating (particularly when we move toward strategy games), there are some truly excellent beginner board games out there that are perfect for playing with family who've never moved far beyond Clue. </p><p>I spend a lot of my time reporting on and reviewing the <a href=\"https://www.gamesradar.com/best-board-games/\">best board games</a>, so have used that experience to recommend some essential purchases here. These are often called 'gateway' games because they're accessible yet deeper than dusty old classics like Monopoly, and more than a few are on offer right now for Amazon's Big Deal Days. If you want somethi"
+        }
+      ],
+      "keywords": [
+        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year",
+        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year date de sortie",
+        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year plateformes",
+        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year gameplay",
+        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year guide",
+        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-nier-automata-mastermind-yoko-taro-says-he-s-still-maki-0c522d4de627",
+      "topic": "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\"",
+      "detected_at": "2026-10-07T20:09:26.727714+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/nier-automata-mastermind-yoko-taro-says-hes-still-making-games-for-dementia-prevention-and-he-finished-his-masterpiece-years-before-nier-was-even-a-thing/",
+          "title": "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\"",
+          "evidence": "<article> <p>By now, Yoko Taro's become one of the more prolific game developers around, and not just because of the distinctive moon mask he always wears during public appearances. <a href=\"https://www.gamesradar.com/uk/nier-automata/\">Nier: Automata</a> is a genuine worldwide sensation, a spin-off from his Drakengard series, and during a recent conversation he mentioned he's really done all he set out to do in the medium.</p><p>The RPG creator sat down to speak with fellow dev Keisuke Okabe, who directed EnderLilies, for the opening ceremony of The Tenth Mosaic in late September. During their conversation, covered by <a href=\"https://www.4gamer.net/games/529/G052929/20261005007/\" target=\"_blank\">4Gamer</a> and translated by <a href=\"https://automaton-media.com/en/news/yoko-taro-says-he-already-achieved-his-game-development-dreams-with-drakengard-and-now-works-to-prevent-dementia/\" target=\"_blank\">Automaton</a>, Yoko Taro got into his current slate of projects.</p><p>Well, he mentioned there's not a huge amount happening in that area, by choice, because he's quite satisfied with his achievements at the minute. The first Drakengard was a distillation of more or less everything he w"
+        }
+      ],
+      "keywords": [
+        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\"",
+        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" date de sortie",
+        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" plateformes",
+        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" gameplay",
+        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" guide",
+        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-if-you-want-cheap-nerf-guns-take-aim-at-these-excellent-9b88402a43d8",
+      "topic": "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts",
+      "detected_at": "2026-10-07T20:09:26.728005+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/toys-collectibles/if-you-want-cheap-nerf-guns-take-aim-at-these-excellent-blasters-with-massive-discounts/",
+          "title": "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts",
+          "evidence": "<article> <p>Summer may be the preserve of Super Soakers, but Fall is all about Nerf guns. The <a href=\"https://www.gamesradar.com/best-nerf-guns/\">best Nerf blasters</a> come into their own when weather forces play inside, and cool new designs (like the video game-inspired Rebel Ops range that just hit shelves) drop every year to shake things up. Events like Prime Day ensure we don't have to pay through the nose for them, and Amazon has slashed the price for many top toys today. That makes it so much easier to build up an arsenal for less.</p><p>Actually, there are almost too many offers... and not all of them are as good as they say they are. Because I spend a lot of my time writing about toys and tracking sales, I've tried to cut through the noise and bring you what I think are the best savings on Nerf guns for Prime Day. There <em>are </em>other discounts to be had <a href=\"https://www.amazon.com/s?k=nerf+guns&crid=32ZCGP7JEZPJT&sprefix=Nerf%2Caps%2C281&ref=nb_sb_ss_p13n-expert-pd-ops-ranker_ci_hl-bn-left_1_4\" target=\"_blank\"><strong>at Amazon</strong></a>, but I think these rule the roost in terms of value.</p><p>Of all the savings I've seen, the one that stood out to me most "
+        }
+      ],
+      "keywords": [
+        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts",
+        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts date de sortie",
+        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts plateformes",
+        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts gameplay",
+        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts guide",
+        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-new-stealth-rpg-takes-the-blood-of-dawnwalker-s-controv-15a5c11a3b0c",
+      "topic": "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask",
+      "detected_at": "2026-10-07T20:09:26.728209+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/this-stealth-rpg-looks-at-the-blood-of-dawnwalkers-time-limit-discourse-and-says-screw-it-were-going-full-majoras-mask/",
+          "title": "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/the-blood-of-dawnwalker-guide/\">The Blood of Dawnwalker</a> managed to stir up quite a controversy with its time restrictions, but that's not scaring indie developers away from instilling some good ol' FOMO in players – in fact, some are leaning <em>well</em> into it.</p><p>If you're old enough to remember Majora's Mask, one of the <a href=\"https://www.gamesradar.com/best-zelda-games/\">best Zelda games</a> of all time, then you're also (un)lucky enough to have grappled with its three-day cycle. It's stressful, sure, but it's what makes the game as fun and unique as it is – if you ask me, anyway. <br><br>I'm not the only one who thinks so, apparently, as Studio Zubio is cooking up a stealth RPG with a similar feature… Bunderkin: The Ocular Eclipse. You can back it on <a href=\"https://www.kickstarter.com/projects/studiozubio/bunderkin-the-ocular-eclipse/description\" target=\"_blank\">Kickstarter</a> right now, where it's already racked up nearly four times its initial $44,444 goal with nearly $175,000 raised so far. <br><br>So, what <em>is</em> Bunderkin? Well, like I said, it finds players \"trapped in a three-day time loop\" as the ever-"
+        }
+      ],
+      "keywords": [
+        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask",
+        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask date de sortie",
+        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask plateformes",
+        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask gameplay",
+        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask guide",
+        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-gta-6-boss-says-we-have-made-money-matter-more-in-this--cd3d176844bd",
+      "topic": "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games",
+      "detected_at": "2026-10-07T20:09:26.728385+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-boss-says-we-have-made-money-matter-more-in-this-story-than-in-previous-grand-theft-auto-games/",
+          "title": "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games",
+          "evidence": "<article> <p>I don't mean to alarm you, but <a href=\"https://www.gamesradar.com/gta-6-guide/\"><u>GTA 6</u></a> is set to launch <em>next month</em>. There's obviously going to be a lot for fans to discover come release day, but one potential learning curve might come in the form of earning enough in-game cash to keep the narrative flowing.</p><p>Or that's what it sounds like, according to Rockstar North co-studio boss Rob Nelson. Chatting with <a href=\"https://www.ign.com/articles/gta-6-the-big-interview\" target=\"_blank\"><u>IGN in an interview</u></a> from earlier this year that's now been posted in full, the lead discusses the importance of money in GTA 6, and how you <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-will-lock-you-out-of-story-missions-if-youre-too-broke-so-its-good-to-know-the-robbery-mechanics-have-been-massively-expanded/\"><u>won't actually be able to progress through the story if you're broke</u></a>.</p><p>\"We have made money matter more in this story than I think it has in previous GTA games,\" Nelson says. \"There are times when you actually have to go out into the world and make money – whether you're boosting cars and selling them or sticking"
+        }
+      ],
+      "keywords": [
+        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games",
+        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games date de sortie",
+        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games plateformes",
+        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games gameplay",
+        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games guide",
+        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-capcom-enlists-ron-perlman-for-dragon-s-dogma-2-dark-ar-f1397ea0eae0",
+      "topic": "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1",
+      "detected_at": "2026-10-07T20:09:26.728565+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/capcom-enlists-ron-perlman-for-dragons-dogma-2-dark-arisen-promo-hopefully-pays-him-more-than-the-sandwich-and-usd40-he-got-for-fallout/",
+          "title": "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1",
+          "evidence": "<article> <p>Fallout and Hellboy star Ron Perlman is teaming up with Capcom again to introduce you to <a href=\"https://www.gamesradar.com/dragons-dogma-2-guide/\"><u>Dragon's Dogma 2</u></a>: Dark Arisen.</p><p>Despite being best known for his myriad film and TV roles, Perlman is a pretty prolific voice actor, especially in games. His most famous contribution is to the Fallout series, where he serves as the narrator in multiple games, as well as the TV anchor that announces the bombs dropping in Fallout 4. Notably, <a href=\"https://www.gamesradar.com/games/fallout/fallout-narrator-and-hollywood-legend-ron-perlman-says-he-joined-the-rpg-franchise-for-usd40-and-a-sandwich-wondered-why-after-being-informed-there-was-more-than-one-game/\" target=\"_blank\"><u>he had no clue the series would be a success</u></a>, saying that he was caught off guard when he heard there was a sequel coming, as he recalls working on the first entry as \"I did a couple of lines, and, you know, got my $40 and my sandwich and went home.\"</p><p>And while never appearing in a Capcom game, Perlman did appear in 2020's Monster Hunter film, wearing an extremely anime-looking wig that did not suit his demeanor in the sl"
+        }
+      ],
+      "keywords": [
+        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1",
+        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1 date de sortie",
+        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1 plateformes",
+        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1 gameplay",
+        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1 guide",
+        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-hyperx-cloud-iii-is-a-superb-wired-headset-and-a-no-c0b766715463",
+      "topic": "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound",
+      "detected_at": "2026-10-07T20:09:26.729077+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/headsets-headphones/hyperx-cloud-iii-wired-review/",
+          "title": "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound",
+          "evidence": "<article> <p>You've likely seen the HyperX Cloud III before. </p><p>It's a common sight to behold if you've ever spent time hunting through the <a href=\"https://www.gamesradar.com/best-gaming-headsets/\">best gaming headsets</a> on Amazon, which is what led me to finally test it out for myself. I wanted to ensure anyone who didn't take the time to scroll through the second page of Amazon's search results was still getting their money's worth. Just because a headset turns up on page one doesn't necessarily mean it's worth your time and attention, but that <em>does</em> happen to be the case here.<br><br>Its fantastic sound, comfortable fit, and multi-platform prowess make it a worthwhile pickup, and its White-Pink colorway (which I tested below) is perfectly suited for cute and cozy setups. Though if you are debating adding this to your online shopping basket, just make sure it's sporting one of its many, many discounts before you buy. </p><h2 class=\"article-body__section\" id=\"section-key-specs\"><span>Key specs</span></h2><div ><table><tbody><tr><td class=\"firstcol \" ><p><strong>Price</strong></p></td><td ><p> $99.99 / £101.99</p></td></tr><tr><td class=\"firstcol \" ><p><strong>Acoust"
+        }
+      ],
+      "keywords": [
+        "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound",
+        "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound date de sortie",
+        "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound plateformes",
+        "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound gameplay",
+        "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound guide",
+        "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-sony-s-digital-future-is-good-due-to-convenience-and-ga-16cce11acacd",
+      "topic": "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says",
+      "detected_at": "2026-10-07T20:09:26.729315+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/rpg-creator-says-sonys-all-digital-future-is-good-for-devs-as-discs-cant-win-in-terms-of-convenience-and-games-like-gta-6-are-too-big-for-them-anyway/",
+          "title": "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says",
+          "evidence": "<article> <p>Although Sony's decision to <a href=\"https://www.gamesradar.com/platforms/playstation/playstation-is-ending-physical-disc-production-for-new-games-in-2028-as-sony-says-general-preference-for-digital-media-significantly-outpaces-physical-discs/\">end all physical disc production</a> for <a href=\"https://www.gamesradar.com/video-game-release-dates/\">new games</a> on PlayStation consoles in 2028 has proven quite controversial, to say the least, not <em>everyone</em> thinks that a digital-only world would be all bad.</p><p>One such person is Hiroshi Matsuyama, CEO fo CyberConnect 2 – a studio best known for its manga and anime-based fighting games (think Naruto: Ultimate Ninja and the like) as well as its .hack series made in collaboration with the ever-beloved Bandai Namco. <br><br>He makes his stance clear in a new post over on <a href=\"https://x.com/PIROSHI_CC2/status/2105833340968525857\" target=\"_blank\">X</a> (as translated by <a href=\"https://automaton-media.com/en/news/cyberconnect2-ceo-says-the-shift-from-physical-to-digital-only-games-is-nothing-but-a-positive-thing-for-developers/\" target=\"_blank\">Automaton</a>), stating that a complete shift to digital game distri"
+        }
+      ],
+      "keywords": [
+        "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says",
+        "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says date de sortie",
+        "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says plateformes",
+        "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says gameplay",
+        "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says guide",
+        "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-866570",
+      "topic": "Configuration PC System Shock 2: 25th Anniversary Remaster : minimale, recommandée et conseils",
+      "detected_at": "2026-10-07T20:09:25.312635+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/866570/",
+          "title": "System Shock 2: 25th Anniversary Remaster sur Steam",
+          "evidence": "Données officielles de la fiche Steam de System Shock 2: 25th Anniversary Remaster, consultée le 2026-10-07. Développeur : Nightdive Studios, Looking Glass Studios, Irrational Games. Éditeur : Nightdive Studios, Atari. Date de sortie sur Steam : 26 juin 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation *: Windows 7 (64-bit required) ; Processeur : Intel or AMD Dual-Core at 2.0 GHz ; Mémoire vive : 2 GB de mémoire ; Graphiques : GPU with DirectX 11 or Vulkan 1.1 support ; Espace disque : 5 GB d'espace disque disponible ; Carte son : 100% DirectX compatible sound card or onboard sound. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (64-bit required) ; Processeur : Intel Core i5-2300 2.8 GHz/AMD Phenom II X4 945 3.0 GHz or equivalent ; Mémoire vive : 4 GB de mémoire ; Graphiques : GPU with DirectX 11 or Vulkan 1.1 support ; Espace disque : 5 GB d'espace disque disponible ; Carte son : 100% DirectX compatible sound card or onboard sound.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/866570/ss_ba9ae2c702743cdbfd8baa1e67b5ab1f124e254c.1920x1080.jpg?t=1774275928"
+        }
+      ],
+      "keywords": [
+        "configuration pc System Shock 2: 25th Anniversary Remaster",
+        "System Shock 2: 25th Anniversary Remaster PC",
+        "System Shock 2: 25th Anniversary Remaster Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-866570",
+      "topic": "System Shock 2: 25th Anniversary Remaster multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-07T20:09:25.312727+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/866570/",
+          "title": "System Shock 2: 25th Anniversary Remaster sur Steam",
+          "evidence": "Données officielles de la fiche Steam de System Shock 2: 25th Anniversary Remaster, consultée le 2026-10-07. Développeur : Nightdive Studios, Looking Glass Studios, Irrational Games. Éditeur : Nightdive Studios, Atari. Date de sortie sur Steam : 26 juin 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Coop en LAN, Multijoueur multiplateforme, Succès Steam, Compat. contrôleurs complète, Sous-titres disponibles, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : System Shock® 2: 25th Anniversary Remaster est une expérience qui a redéfini le genre du FPS et du RPG moderne à travers ses mécaniques de gameplay innovantes. Trouvez le moyen de survivre aux couloirs désolés du Von Braum. Vous avez été entraîné pour ça.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/866570/ss_ba9ae2c702743cdbfd8baa1e67b5ab1f124e254c.1920x1080.jpg?t=1774275928"
+        }
+      ],
+      "keywords": [
+        "System Shock 2: 25th Anniversary Remaster multijoueur",
+        "System Shock 2: 25th Anniversary Remaster PC",
+        "System Shock 2: 25th Anniversary Remaster Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-1025960",
+      "topic": "Configuration PC BURIED STARS : minimale, recommandée et conseils",
+      "detected_at": "2026-10-07T20:09:25.712158+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1025960/",
+          "title": "BURIED STARS sur Steam",
+          "evidence": "Données officielles de la fiche Steam de BURIED STARS, consultée le 2026-10-07. Développeur : LINE Games Corporation. Éditeur : LINE Games Corporation. Date de sortie sur Steam : 29 nov. 2021. Genres : Aventure, Occasionnel. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation : Windows 10 ; Processeur : Intel® Core™ i5-6300U ; Mémoire vive : 4 GB de mémoire ; Graphiques : Intel® HD Graphics 520 ; DirectX : Version 11 ; Espace disque : 10 GB d'espace disque disponible ; Carte son : DirectX Compatible SoundCard or Onboard Chipset ; Notes supplémentaires : DualShock®4, Xbox Controller or Direct Input Compatible Controllers Supported.. La fiche Steam n'indique pas de configuration recommandée.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025960/ss_c0c29c3fa9d022b6fbc9b60bb34c95424d25246f.1920x1080.jpg?t=1789549352"
+        }
+      ],
+      "keywords": [
+        "configuration pc BURIED STARS",
+        "BURIED STARS PC",
+        "BURIED STARS Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-1025960",
+      "topic": "BURIED STARS multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-07T20:09:25.712215+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1025960/",
+          "title": "BURIED STARS sur Steam",
+          "evidence": "Données officielles de la fiche Steam de BURIED STARS, consultée le 2026-10-07. Développeur : LINE Games Corporation. Éditeur : LINE Games Corporation. Date de sortie sur Steam : 29 nov. 2021. Genres : Aventure, Occasionnel. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : A mystery adventure set at the collapse site of a live survival audition show. Trapped contestants communicate with each other—and the outside world through social media—as they wait for rescue. But as unexpected events unfold, trust begins to crack, and survival becomes far more complicated.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025960/ss_c0c29c3fa9d022b6fbc9b60bb34c95424d25246f.1920x1080.jpg?t=1789549352"
+        }
+      ],
+      "keywords": [
+        "BURIED STARS multijoueur",
+        "BURIED STARS PC",
+        "BURIED STARS Steam"
       ],
       "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
       "status": "new"

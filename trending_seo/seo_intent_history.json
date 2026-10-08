@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-08T09:28:09.991413+00:00",
+  "updated_at": "2026-10-08T20:08:42.551091+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -65,6 +65,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-the-outlast-trials-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 644,
       "published_at": "2026-10-08T09:28:09.991413+00:00"
+    },
+    {
+      "intent_key": "the outlast trials multijoueur",
+      "primary_keyword": "The Outlast Trials multijoueur",
+      "title": "The Outlast Trials multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/the-outlast-trials-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 659,
+      "published_at": "2026-10-08T20:08:42.551091+00:00"
     }
   ]
 }

@@ -1,403 +1,21 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-08T09:28:02.422661+00:00",
+  "updated_at": "2026-10-08T20:08:36.055878+00:00",
   "evergreen_checked_games": [
     "baldur s gate 3",
     "buried stars",
     "cyberpunk 2077",
     "elden ring",
     "ori and the will of the wisps",
+    "out of sight",
     "red dead redemption 2",
     "sons of the forest",
     "system shock 2 25th anniversary remaster",
+    "terrascape",
     "the elder scrolls v skyrim special edition",
     "the outlast trials"
   ],
   "topics": [
-    {
-      "id": "rss-you-ever-notice-how-much-more-crouch-walking-you-do-in--b2ced90c7826",
-      "topic": "You ever notice how much more crouch walking you do in games than real life",
-      "detected_at": "2026-09-22T12:03:03.530271+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/you-ever-notice-how-much-more-crouch-walking-you-do-in-games-than-real-life/",
-          "title": "You ever notice how much more crouch walking you do in games than real life",
-          "evidence": "<article> <p>I feel like I've spent several lifetimes crouch walking around to be sneaky in videogames. It's the default way of saying \"stealth mode.\" Even the mighty Metal Gear series, which originally only had upright running or belly crawling, eventually bent the knee—both of them, in fact.</p><p>Haven you ever tried crouch walking? Like, in real life. Go ahead and do it right now wherever you're reading this: In class, at work, on the bus, on the John, I'll wait. Didn't feel very sneaky, did you?</p><p>I feel like the only games I've ever seen comment on the impracticality were New Vegas and The Outer Worlds 2. In the former, Raul complains about his bad knees sometimes when you stealth while he's following. In the latter, \"bad knees\" is a tradeoff trait you can get where your creaky joints can alert enemies when you drop into a crouch.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2380px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.26%;\"><img id=\"b2YwakZ5hBg8yBvN7HyEhi\" name=\"Metal Gear Solid 5 2.jpg\" alt=\"Snake crouching in MGSV\" src=\"https://cdn.mos."
-        }
-      ],
-      "keywords": [
-        "You ever notice how much more crouch walking you do in games than real life",
-        "You ever notice how much more crouch walking you do in games than real life date de sortie",
-        "You ever notice how much more crouch walking you do in games than real life plateformes",
-        "You ever notice how much more crouch walking you do in games than real life gameplay",
-        "You ever notice how much more crouch walking you do in games than real life guide",
-        "You ever notice how much more crouch walking you do in games than real life avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-sony-inzone-m10s-ii-review-63355939a053",
-      "topic": "Sony Inzone M10S II review",
-      "detected_at": "2026-09-22T12:03:03.530845+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/gaming-monitors/sony-inzone-m10s-ii-review/",
-          "title": "Sony Inzone M10S II review",
-          "evidence": "<article> <div data-widget-type=\"review\" data-widget-title=\"\" data-model-name=\"Sony Inzone M10S II\"></div><p>Until now, every OLED gaming monitor we've reviewed has been rated at 0.03 ms for pixel response. Well, not any more ladies and germs. Give it up for the new <a href=\"https://electronics.sony.com/tv-video/gaming-monitors/all-inzone-monitors/p/sdm27q102-b\" target=\"_blank\">Sony Inzone M10S II</a>, which clocks in at a mere 0.02 ms.</p><p>Is it a bit of a stretch to think the human eye can tell the difference between three one-hundred-thousandths of a second and two one-hundred-thousandths—or 30 microseconds and 20 microseconds, if you prefer. But the point here is what that pixel response spec hints at.</p><p>The Sony Inzone M10S II is unambiguously, unashamedly, unapologetically aimed at fast-paced gaming and esports. Indeed, this monitor has been developed with the help of pro esports outfit, Fnatic.</p><div ><table><caption>Sony Inzone M10S II specs</caption><tbody><tr><td class=\"firstcol \" ><p><strong>Screen size</strong></p></td><td ><p>27-inch</p></td></tr><tr><td class=\"firstcol \" ><p><strong>Resolution</strong></p></td><td ><p>2,560 x 1,440</p></td></tr><tr><td class=\""
-        }
-      ],
-      "keywords": [
-        "Sony Inzone M10S II review",
-        "Sony Inzone M10S II review date de sortie",
-        "Sony Inzone M10S II review plateformes",
-        "Sony Inzone M10S II review gameplay",
-        "Sony Inzone M10S II review guide",
-        "Sony Inzone M10S II review avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-where-can-australians-buy-r18-pc-games-without-a-credit-c52e6b545fe4",
-      "topic": "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam",
-      "detected_at": "2026-09-23T05:12:14.774535+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/software/platforms/how-to-buy-r18-games-without-a-credit-card/",
-          "title": "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam",
-          "evidence": "<article> <p>Valve implemented age verification for Australian Steam users earlier this month, which was inevitable: <a href=\"https://www.pcgamer.com/gaming-industry/steam-now-requires-australian-users-to-have-a-credit-card-to-purchase-r18-games-and-no-a-simple-bank-debit-card-wont-work/\">Australian law demands it</a>. Unfortunately, Valve has opted for the most brute force, user-negligent approach possible. To buy R18+ games on Steam in Australia—to even access their store pages—you need to provide a credit card.</p><p>The problem being that most Australians don't use credit cards. This study of <a href=\"https://www.rba.gov.au/publications/bulletin/2026/may/consumer-payment-behaviour-in-australia.html\">consumer payment behaviour</a> by the Reserve Bank of Australia bears this out: the share of payments made in Australia with credit or card charges in 2025 was 23% (versus debit cards at 49%). </p><p>This is in stark contrast with the US where, according to <a href=\"https://www.bankrate.com/credit-cards/news/credit-card-ownership-usage-statistics/\">Bankrate</a>, 74% of adults own a credit card (and nearly half of those are in debt!). </p><p>I'm not sure if Valve did its research: pe"
-        }
-      ],
-      "keywords": [
-        "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam",
-        "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam date de sortie",
-        "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam plateformes",
-        "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam gameplay",
-        "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam guide",
-        "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-guardians-make-their-own-fate-destiny-2-players-and-cre-76446f5b168b",
-      "topic": "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered'",
-      "detected_at": "2026-09-23T05:12:14.774716+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/guardians-make-their-own-fate-destiny-2-players-and-creators-celebrate-following-bungies-shock-u-turn-as-the-studio-admits-your-voices-mattered/",
-          "title": "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered'",
-          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:563px;\"><p class=\"vanilla-image-block\" style=\"padding-top:85.26%;\"><img id=\"y5hndLQH5xWoKXZY2QA4yc\" name=\"sneaktweet\" alt=\"X post by SneakyBeaver\" src=\"https://cdn.mos.cms.futurecdn.net/y5hndLQH5xWoKXZY2QA4yc-1920-80.png\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"563\" height=\"480\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: SneakyBeaver on X)</span></figcaption></figure> </article>"
-        }
-      ],
-      "keywords": [
-        "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered'",
-        "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered' date de sortie",
-        "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered' plateformes",
-        "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered' gameplay",
-        "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered' guide",
-        "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-vindicated-after-speaking-to-some-pro-counter-strike-pl-947cd4a3103a",
-      "topic": "Vindicated: after speaking to some pro Counter-Strike players I'm sure I was right when I said 360 Hz is the sweet spot for competitive FPS",
-      "detected_at": "2026-09-23T05:12:14.774998+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/gaming-monitors/vindicated-after-speaking-to-some-pro-counter-strike-players-im-sure-i-was-right-when-i-said-360-hz-is-the-sweet-spot-for-competitive-fps/",
-          "title": "Vindicated: after speaking to some pro Counter-Strike players I'm sure I was right when I said 360 Hz is the sweet spot for competitive FPS",
-          "evidence": "<article> <p>A few months ago I made the case that <a href=\"https://www.pcgamer.com/hardware/gaming-monitors/after-gaming-on-pro-level-panels-i-can-tell-you-now-that-360-hz-is-the-sweet-spot-for-gaming-monitors/\" target=\"_blank\">a 360 Hz refresh rate on your monitor is the sweet spot for competitive FPS</a> before diminishing returns kick in. I had nothing but my own testing and a big bottle of 'trust me bro' back then, but I've now spoken to a couple of Counter-Strike 2 pros and I remain convinced I was right.</p><p>At <a href=\"https://www.logitechg.com/en-gb/campaigns/logitechg-play\" target=\"_blank\">Logitech's G Play event</a> (featuring a Counter-Strike 2 tournament) in Warsaw earlier today, I spoke to Oscar Bell, AKA 'Azuwu', and Simon Boije, AKA 'yxngstxr'. Both currently play for <a href=\"https://www.hltv.org/team/6290/luminosity\" target=\"_blank\">Luminosity</a>, a team that particularly tugs at my CS2 heart strings given it was very big circa 2016 when I was still lapping up the tailwinds of CS:GO novelty.</p><p>Regarding refresh rates, Azuwu tells me: \"When I had 240 at home, I didn't even really notice 360. But now I'm 360 I can't go back down, you know, I feel it a lot. So"
-        }
-      ],
-      "keywords": [
-        "Vindicated: after speaking to some pro Counter-Strike players I'm sure I was right when I said 360 Hz is the sweet spot for competitive FPS",
-        "Vindicated: after speaking to some pro Counter-Strike players I'm sure I was right when I said 360 Hz is the sweet spot for competitive FPS date de sortie",
-        "Vindicated: after speaking to some pro Counter-Strike players I'm sure I was right when I said 360 Hz is the sweet spot for competitive FPS plateformes",
-        "Vindicated: after speaking to some pro Counter-Strike players I'm sure I was right when I said 360 Hz is the sweet spot for competitive FPS gameplay",
-        "Vindicated: after speaking to some pro Counter-Strike players I'm sure I was right when I said 360 Hz is the sweet spot for competitive FPS guide",
-        "Vindicated: after speaking to some pro Counter-Strike players I'm sure I was right when I said 360 Hz is the sweet spot for competitive FPS avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-diablo-5-will-take-a-somewhat-different-approach-to-dia-e5add34cd368",
-      "topic": "Diablo 5 will 'take a somewhat different approach' to Diablo 4's monster level scaling so your character feels noticeably stronger as you progress",
-      "detected_at": "2026-09-23T05:12:14.775339+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rpg/diablo-5-will-take-a-somewhat-different-approach-to-diablo-4s-monster-level-scaling-so-your-character-feels-noticeably-stronger-as-you-progress/",
-          "title": "Diablo 5 will 'take a somewhat different approach' to Diablo 4's monster level scaling so your character feels noticeably stronger as you progress",
-          "evidence": "<article> <p>Despite its <a href=\"https://www.pcgamer.com/games/rpg/diablo-5-is-coming-in-2029/\">surprise announcement</a> at BlizzCon earlier this month, Diablo 5 is a whole three years away. Blizzard's brief teaser trailer had zero gameplay in it, which means the action RPG sequel is still mostly a mystery.</p><p>But director Joe Shely helped paint a picture of what the real thing might look like during a recent group interview with PC Gamer.</p><p>One of the somewhat controversial aspects of the last couple Diablo games is how they handle monster difficulty. In Diablo 2, each area has a level range that determines how tough enemies will be compared to your character. Diablo 3 and Diablo 4 ditched this approach for a system that has monsters scale in difficulty as your character levels up.</p><p>In a genre all about the power fantasy of slowly becoming a demon-slaying god, this didn't go over so well with the many players who want those moments where your character feels considerably more powerful than their foes. While this still happens in the newer games, the gap between the strength of your character and the monsters is much smaller until you're decked out in high-level gear."
-        }
-      ],
-      "keywords": [
-        "Diablo 5 will 'take a somewhat different approach' to Diablo 4's monster level scaling so your character feels noticeably stronger as you progress",
-        "Diablo 5 will 'take a somewhat different approach' to Diablo 4's monster level scaling so your character feels noticeably stronger as you progress date de sortie",
-        "Diablo 5 will 'take a somewhat different approach' to Diablo 4's monster level scaling so your character feels noticeably stronger as you progress plateformes",
-        "Diablo 5 will 'take a somewhat different approach' to Diablo 4's monster level scaling so your character feels noticeably stronger as you progress gameplay",
-        "Diablo 5 will 'take a somewhat different approach' to Diablo 4's monster level scaling so your character feels noticeably stronger as you progress guide",
-        "Diablo 5 will 'take a somewhat different approach' to Diablo 4's monster level scaling so your character feels noticeably stronger as you progress avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-world-of-warcraft-forever-players-find-rule-breaking-ne-21b44d6c9fc9",
-      "topic": "World of Warcraft: Forever players find rule-breaking new items that defy 22 years of experience with the classic MMO",
-      "detected_at": "2026-09-23T05:12:14.775669+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-players-find-rule-breaking-new-items-that-defy-22-years-of-experience-with-the-classic-mmo/",
-          "title": "World of Warcraft: Forever players find rule-breaking new items that defy 22 years of experience with the classic MMO",
-          "evidence": "<article> <p>You can play the first several hours of <a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a> and miss a lot of the changes Blizzard slipped into the early leveling experience. There are new quests and NPCs, but they barely stand out if you don't have encyclopedic knowledge of the MMO.</p><p>Now that players have had enough time to hit the beta's level 20 cap, they're starting to find what makes WoW: Forever different from a 1:1 remake of the old game. Items that break rules, like <a href=\"https://www.wowhead.com/forever/news/wow-forever-introduces-new-weapon-effect-to-let-players-mine-without-the-383012\">an axe</a> that lets you mine ore without the mining skill, tease what's in store when the full game is out on November 4.</p><p>That axe, for example, drops off of an enemy in the Deadmines dungeon. You can use it to mine materials 30 times before it presumably breaks. Loot multiple of them and you can circumvent the way professions are usually meant to work in WoW: Most people pick up a gathering profession and use the materials to make gear with a crafting profession. The new axe lets you run<em> two</em> crafting professions—a"
-        }
-      ],
-      "keywords": [
-        "World of Warcraft: Forever players find rule-breaking new items that defy 22 years of experience with the classic MMO",
-        "World of Warcraft: Forever players find rule-breaking new items that defy 22 years of experience with the classic MMO date de sortie",
-        "World of Warcraft: Forever players find rule-breaking new items that defy 22 years of experience with the classic MMO plateformes",
-        "World of Warcraft: Forever players find rule-breaking new items that defy 22 years of experience with the classic MMO gameplay",
-        "World of Warcraft: Forever players find rule-breaking new items that defy 22 years of experience with the classic MMO guide",
-        "World of Warcraft: Forever players find rule-breaking new items that defy 22 years of experience with the classic MMO avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-mythology-of-gabe-newell-now-includes-mongolian-thr-80b8b21be9dd",
-      "topic": "The mythology of Gabe Newell now includes Mongolian throat singing",
-      "detected_at": "2026-09-23T05:12:14.775879+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/the-mythology-of-gabe-newell-now-includes-mongolian-throat-singing/",
-          "title": "The mythology of Gabe Newell now includes Mongolian throat singing",
-          "evidence": "<article> <p>As a college student, Minh \"Gooseman\" Le had a substantial hand in shaping PC gaming history: He co-created Counter-Strike. When Le and his development partner later sold the IP to Valve, the purchase agreement stipulated that the studio would also hire the pair as employees once they completed their degrees. Hired in 2000, Le ultimately spent six years with the company, witnessing impactful moments of Valve history—moments like Gabe Newell's Mongolian throat singing phase.</p><p>In<a href=\"https://www.youtube.com/watch?v=Bq_131WvOUs\" target=\"_blank\"> a YouTube interview</a> with games marketing consultant Joe Henson, Le called the mythologized Valve founder a \"very eccentric\" person with a tendency to \"venture off into interesting hobbies.\" According to Le, one of those ventures involved a hyperfixation with Mongolian-Tuvan throat singing, a distinctive singing style in which a vocalist harmonizes multiple pitches simultaneously through precise muscle control.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Bq_131WvOUs\" allowfullscreen></iframe></div></d"
-        }
-      ],
-      "keywords": [
-        "The mythology of Gabe Newell now includes Mongolian throat singing",
-        "The mythology of Gabe Newell now includes Mongolian throat singing date de sortie",
-        "The mythology of Gabe Newell now includes Mongolian throat singing plateformes",
-        "The mythology of Gabe Newell now includes Mongolian throat singing gameplay",
-        "The mythology of Gabe Newell now includes Mongolian throat singing guide",
-        "The mythology of Gabe Newell now includes Mongolian throat singing avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-before-i-starting-making-church-candles-from-dead-bodie-06253cb35600",
-      "topic": "Before I starting making church candles from dead bodies, vs after",
-      "detected_at": "2026-09-23T05:12:14.776055+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/survival-crafting/before-i-starting-making-church-candles-from-dead-bodies-vs-after/",
-          "title": "Before I starting making church candles from dead bodies, vs after",
-          "evidence": "<article> <p>If you've ever wanted to play a cozy life sim where you craft, farm, build, cook, and complete quests for villagers, and <em>also </em>make products from human corpses, <strong>Graveyard Keeper 2</strong> is out today.</p><p>I'm only about 13 hours into it and it's got that same immediately engrossing crafting loop as the original. Gotta chop wood, gotta mine ores, gotta cook food, gotta level up skills and earn points and unlock new tech. There's so many different crafting benches to manage and so many different disciplines to master that it's compelling as hell, though it does at times feel extremely grindy.</p><p>Most interesting to me is how quickly, once again, I compromised my principles as a nice human being and slid into a dark, steaming lake of moral ambiguity. In the first game it didn't take long for me to start using a counterfeit royal stamp so I could sell the meat I'd harvested from corpses to the local tavern for its meals. It was a great way to efficiently profit off the growing pile of bodies in my graveyard, and it only meant turning the entire town into unknowing cannibals.</p><p>In Graveyard Keeper 2, I've been vigilant for that sort of behavior, p"
-        }
-      ],
-      "keywords": [
-        "Before I starting making church candles from dead bodies, vs after",
-        "Before I starting making church candles from dead bodies, vs after date de sortie",
-        "Before I starting making church candles from dead bodies, vs after plateformes",
-        "Before I starting making church candles from dead bodies, vs after gameplay",
-        "Before I starting making church candles from dead bodies, vs after guide",
-        "Before I starting making church candles from dead bodies, vs after avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-modded-crazy-taxi-into-grand-theft-auto-5-189d97cde166",
-      "topic": "I modded Crazy Taxi into Grand Theft Auto 5",
-      "detected_at": "2026-09-23T05:12:14.776281+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-modded-crazy-taxi-into-grand-theft-auto-5/",
-          "title": "I modded Crazy Taxi into Grand Theft Auto 5",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>Have you heard? <a href=\"https://www.pcgamer.com/games/racing/as-an-og-crazy-taxi-lover-its-new-remake-might-just-not-be-crazy-enough/\">Crazy Taxi is coming back</a>. As a game, yes (with some rather off-putting <a href=\"https://www.pcgamer.com/games/racing/the-new-crazy-taxi-has-a-generative-ai-disclosure-on-its-steam-page-and-people-are-not-happy/\">gen-AI mixed in</a> there), and also as <a href=\"https://www.pcgamer.com/movies-tv/segas-ongoing-effort-to-revive-crazy-taxi-now-appears-to-be-taking-the-form-of-a-movie/\">a movie</a>. You may have heard this. What you have "
-        }
-      ],
-      "keywords": [
-        "I modded Crazy Taxi into Grand Theft Auto 5",
-        "I modded Crazy Taxi into Grand Theft Auto 5 date de sortie",
-        "I modded Crazy Taxi into Grand Theft Auto 5 plateformes",
-        "I modded Crazy Taxi into Grand Theft Auto 5 gameplay",
-        "I modded Crazy Taxi into Grand Theft Auto 5 guide",
-        "I modded Crazy Taxi into Grand Theft Auto 5 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-set-out-to-prove-polling-rate-affects-my-aim-and-inst-5f7f877587d8",
-      "topic": "I set out to prove polling rate affects my aim and instead found my favourite DPI setting",
-      "detected_at": "2026-09-23T05:12:14.776634+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/gaming-mice/i-set-out-to-prove-polling-rate-affects-my-aim-and-instead-found-my-favourite-dpi-setting/",
-          "title": "I set out to prove polling rate affects my aim and instead found my favourite DPI setting",
-          "evidence": "<article> <p>I'm a thoroughly average gamer. And in first-person shooters, I reckon I am ever so slightly above average at aiming—If aim-tester software, Aimlabs, is anything to go by, at least (top 38%, baby). But as a hardware tester, I have access to all kinds of gaming gear, and that includes competitive-level specs. </p><p>I wanted to see if the average gamer would benefit from a better polling rate and, as the average gamer, I thought I was the perfect guinea pig. So, grabbing my <a href=\"https://www.pcgamer.com/hardware/gaming-mice/asus-rog-harpe-ii-extreme-edition-20-review/\" target=\"_blank\">Asus Rog Harpe II Extreme Edition 20</a>, a mouse with a max DPI of 65,000 and a max polling rate of 8,000 Hz, I went through the training software at different polling rates multiple times to see if it would improve my aim. </p><p>If you are unaware of what exactly a polling rate is, it is the rate at which your gaming mouse communicates with your rig. A 125 Hz polling rate gives feedback to your PC every 8 milliseconds, whereas 8,000 Hz gives feedback every 0.125 milliseconds. Generally speaking, the advice for most gamers is to linger at around 1,000 Hz, as responding every milliseco"
-        }
-      ],
-      "keywords": [
-        "I set out to prove polling rate affects my aim and instead found my favourite DPI setting",
-        "I set out to prove polling rate affects my aim and instead found my favourite DPI setting date de sortie",
-        "I set out to prove polling rate affects my aim and instead found my favourite DPI setting plateformes",
-        "I set out to prove polling rate affects my aim and instead found my favourite DPI setting gameplay",
-        "I set out to prove polling rate affects my aim and instead found my favourite DPI setting guide",
-        "I set out to prove polling rate affects my aim and instead found my favourite DPI setting avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-what-the-hell-are-you-guys-doing-8900e0202da5",
-      "topic": "What the hell are you guys doing?",
-      "detected_at": "2026-09-23T05:12:14.776724+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/what-the-hell-are-you-guys-doing/",
-          "title": "What the hell are you guys doing?",
-          "evidence": "Microsoft Asha Sharma and Matt Booty Asha Sharma and Matt Booty Asha Sharma and Matt Booty"
-        }
-      ],
-      "keywords": [
-        "What the hell are you guys doing?",
-        "What the hell are you guys doing? date de sortie",
-        "What the hell are you guys doing? plateformes",
-        "What the hell are you guys doing? gameplay",
-        "What the hell are you guys doing? guide",
-        "What the hell are you guys doing? avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-why-blizzard-vet-rob-pardo-is-going-all-in-on-arkheron--891acc2ba4a9",
-      "topic": "Why Blizzard vet Rob Pardo is going all-in on Arkheron, the PvP dungeon crawler that's like dark-fantasy Backrooms: 'It's very much been an odyssey'",
-      "detected_at": "2026-09-23T05:12:14.777103+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/action/why-blizzard-vet-rob-pardo-is-going-all-in-on-arkheron-the-pvp-dungeon-crawler-thats-like-dark-fantasy-backrooms-its-very-much-been-an-odyssey/",
-          "title": "Why Blizzard vet Rob Pardo is going all-in on Arkheron, the PvP dungeon crawler that's like dark-fantasy Backrooms: 'It's very much been an odyssey'",
-          "evidence": "<article> <p>Arkheron is an enigmatic blend of a fast PvP action game and a dungeon crawler that's all about competing with other players to reach the top of an evolving tower. That enigma element is a key part of Arkheron's core narrative, along with its wild mix of loot-driven action-RPG combat and competitive knockout action that feel equal parts Diablo and Hades. But the developer's lengthy journey to create this quirky, high-stakes mash-up of genres is also something of an enigma, and their concept is steadily building an audience. </p><p>During a recent visit to developer Bonfire Studios ahead of Arkheron's crossplay beta starting on September 25, I spoke with Bonfire Studios CEO Rob Pardo (former Chief Creative Officer of Blizzard Entertainment) about the making of Arkheron. Along with some time diving into the game, we heard from Pardo about the studio's nearly 10-year journey to make a new type of arena PvP dungeon crawler. It's got loot and a large lobby size, but it's very much not trying to be a battle royale Diablo.</p><p>\"I would say the years were absolutely worth it,\" said Rob Pardo, CEO of Bonfire Studios. \"What's always tough is that 20/20 hindsight; you always wi"
-        }
-      ],
-      "keywords": [
-        "Why Blizzard vet Rob Pardo is going all-in on Arkheron, the PvP dungeon crawler that's like dark-fantasy Backrooms: 'It's very much been an odyssey'",
-        "Why Blizzard vet Rob Pardo is going all-in on Arkheron, the PvP dungeon crawler that's like dark-fantasy Backrooms: 'It's very much been an odyssey' date de sortie",
-        "Why Blizzard vet Rob Pardo is going all-in on Arkheron, the PvP dungeon crawler that's like dark-fantasy Backrooms: 'It's very much been an odyssey' plateformes",
-        "Why Blizzard vet Rob Pardo is going all-in on Arkheron, the PvP dungeon crawler that's like dark-fantasy Backrooms: 'It's very much been an odyssey' gameplay",
-        "Why Blizzard vet Rob Pardo is going all-in on Arkheron, the PvP dungeon crawler that's like dark-fantasy Backrooms: 'It's very much been an odyssey' guide",
-        "Why Blizzard vet Rob Pardo is going all-in on Arkheron, the PvP dungeon crawler that's like dark-fantasy Backrooms: 'It's very much been an odyssey' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-xbox-lays-off-268-more-employees-merges-obsidian-into-b-c72954152ba3",
-      "topic": "Xbox lays off 268 more employees, merges Obsidian into Bethesda, and puts Activision in charge of Halo",
-      "detected_at": "2026-09-23T05:12:14.777362+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/xbox-lays-off-268-more-employees-merges-obsidian-into-bethesda-and-puts-activision-in-charge-of-halo/",
-          "title": "Xbox lays off 268 more employees, merges Obsidian into Bethesda, and puts Activision in charge of Halo",
-          "evidence": "<article> <h2 id=\"what-happened\">What happened</h2><ul><li>Xbox executive vice president and chief content officer Matt Booty has <a href=\"https://news.xbox.com/en-us/2026/09/22/continuing-our-reset/\" target=\"_blank\"><strong>announced another round of layoffs</strong></a><strong> and studio reorganizations</strong> as part of the continuing \"reset\" of Microsoft's gaming division</li><li><strong>Xbox has cut an additional 268 employees</strong> \"across Halo Studios, other first-party studios, and the XGS management and central functions layer,\" which Booty says brings the company \"roughly three-quarters of the way\" to completing its downsizing plan that <a href=\"https://www.pcgamer.com/gaming-industry/xbox-is-laying-off-3-200-people-and-dumping-4-studios/\" target=\"_blank\">previously put 1,600 people out of work</a> in June</li><li><strong>Activision is now developing the next Halo game</strong> with \"a new, purpose-built team,\" and will also oversee Rare and Age of Empires developer World's Edge</li><li><strong>Obsidian will be folded into Bethesda</strong>, and will continue its current projects like Grounded and the previously-announced \"new Fallout project made in collaboration w"
-        }
-      ],
-      "keywords": [
-        "Xbox lays off 268 more employees, merges Obsidian into Bethesda, and puts Activision in charge of Halo",
-        "Xbox lays off 268 more employees, merges Obsidian into Bethesda, and puts Activision in charge of Halo date de sortie",
-        "Xbox lays off 268 more employees, merges Obsidian into Bethesda, and puts Activision in charge of Halo plateformes",
-        "Xbox lays off 268 more employees, merges Obsidian into Bethesda, and puts Activision in charge of Halo gameplay",
-        "Xbox lays off 268 more employees, merges Obsidian into Bethesda, and puts Activision in charge of Halo guide",
-        "Xbox lays off 268 more employees, merges Obsidian into Bethesda, and puts Activision in charge of Halo avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-you-can-t-have-everything-in-arc-raiders-reworked-skill-61d6a58161cd",
-      "topic": "You can't have everything in Arc Raiders' reworked skill tree: 'We believe that creates more interesting choices and supports more playstyles'",
-      "detected_at": "2026-09-23T18:22:45.162988+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/third-person-shooter/you-cant-have-everything-in-arc-raiders-reworked-skill-tree-we-believe-that-creates-more-interesting-choices-and-supports-more-playstyles/",
-          "title": "You can't have everything in Arc Raiders' reworked skill tree: 'We believe that creates more interesting choices and supports more playstyles'",
-          "evidence": "<article> <div class=\"product\"><a data-dimension112=\"01c8e482-b6e3-11f1-b005-e1e865def3f5\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:661px;\"><p class=\"vanilla-image-block\" style=\"padding-top:98.94%;\"><img id=\"6offQUY4CXebir2TC27dMd\" name=\"kingdom come 2 square\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"661\" height=\"654\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\"></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/games/new-pc-games-2026/\" target=\"_blank\" data-dimension112=\"01c8e482-b6e3-11f1-b005-e1e865def3f5\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" data-dimension25=\"\"><strong>2026 games</strong></a>: All the upcoming games<br><a href=\"https://www.pcgamer.com/the-best-pc-games/\" target=\"_blank\"><strong>Best PC games</strong></a>: Our all-time favorites<br><a href=\"https://www.pcgamer.com/the-50-best-free-pc-games/\" target=\"_blank\"><strong>Free PC "
-        }
-      ],
-      "keywords": [
-        "You can't have everything in Arc Raiders' reworked skill tree: 'We believe that creates more interesting choices and supports more playstyles'",
-        "You can't have everything in Arc Raiders' reworked skill tree: 'We believe that creates more interesting choices and supports more playstyles' date de sortie",
-        "You can't have everything in Arc Raiders' reworked skill tree: 'We believe that creates more interesting choices and supports more playstyles' plateformes",
-        "You can't have everything in Arc Raiders' reworked skill tree: 'We believe that creates more interesting choices and supports more playstyles' gameplay",
-        "You can't have everything in Arc Raiders' reworked skill tree: 'We believe that creates more interesting choices and supports more playstyles' guide",
-        "You can't have everything in Arc Raiders' reworked skill tree: 'We believe that creates more interesting choices and supports more playstyles' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-arc-raiders-frozen-trail-update-is-bigger-than-anyo-6eab4d5bced0",
-      "topic": "The Arc Raiders Frozen Trail update is bigger than anyone expected: new ARC, gun upgrades, a map, and personal outposts you can decorate",
-      "detected_at": "2026-09-23T18:22:45.163378+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/third-person-shooter/the-arc-raiders-frozen-trail-update-is-bigger-than-anyone-expected-new-arc-gun-upgrades-a-map-and-personal-outposts-you-can-decorate/",
-          "title": "The Arc Raiders Frozen Trail update is bigger than anyone expected: new ARC, gun upgrades, a map, and personal outposts you can decorate",
-          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/GMznEoW78dA\" allowfullscreen></iframe></div></div><h2 id=\"here-39-s-the-big-stuff\">Here's the big stuff</h2><ul><li><strong>Pendola Pass:</strong> A snowy mountain region north of the Rust Belt flanked on all sides by a gigantic Emperor corpse. Embark says Pendola is its \"most ambitious map to date\" and has a unique \"Flash Freeze\" condition that punishes those who stay outside too long.</li><li><strong>New ARC types:</strong> The <strong>Frigate </strong>is a \"massive airborne carrier\" that apparently can't be totally destroyed. Embark framed this as a \"high-stakes challenge for experienced Raiders.\" The <strong>Bully </strong>is a cousin of the Leaper—a four-legged belligerent that uses \"hit-and-run tactics\" to whittle away at raiders. The <strong>Skulker </strong>is a small, ground-level pest that keeps its distance and \"takes pot shots\" at players. The <strong>Hydra </strong>is a stationary turret that can target three players simultaneously.</li><li><strong>Outposts: </strong>Personal spaces outside of Speranz"
-        }
-      ],
-      "keywords": [
-        "The Arc Raiders Frozen Trail update is bigger than anyone expected: new ARC, gun upgrades, a map, and personal outposts you can decorate",
-        "The Arc Raiders Frozen Trail update is bigger than anyone expected: new ARC, gun upgrades, a map, and personal outposts you can decorate date de sortie",
-        "The Arc Raiders Frozen Trail update is bigger than anyone expected: new ARC, gun upgrades, a map, and personal outposts you can decorate plateformes",
-        "The Arc Raiders Frozen Trail update is bigger than anyone expected: new ARC, gun upgrades, a map, and personal outposts you can decorate gameplay",
-        "The Arc Raiders Frozen Trail update is bigger than anyone expected: new ARC, gun upgrades, a map, and personal outposts you can decorate guide",
-        "The Arc Raiders Frozen Trail update is bigger than anyone expected: new ARC, gun upgrades, a map, and personal outposts you can decorate avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-i-put-ufo-sightings-in-grand-theft-auto-5-though-it-did-9f8f03e59597",
       "topic": "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan",
@@ -5990,6 +5608,386 @@
         "Baldur's Gate 3 multijoueur",
         "Baldur's Gate 3 PC",
         "Baldur's Gate 3 Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "rss-live-action-cyberpunk-2077-movie-in-development-with-cd-09351b0c1585",
+      "topic": "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing",
+      "detected_at": "2026-10-08T20:08:36.053328+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/sci-fi-movies/live-action-cyberpunk-2077-movie-in-development-with-cd-projekt-red-co-producing/",
+          "title": "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing",
+          "evidence": "<article> <p>A live-action Cyberpunk 2077 movie is now in development, and CD Projekt Red is co-producing it.</p><p>The film is in development at Paramount Pictures, with the video game studio co-producing alongside Lorenzo di Bonaventura, according to a new report from <a href=\"https://deadline.com/2026/10/paramount-lorenzo-di-bonaventura-cyberpunk-2077-1237150129/\" target=\"_blank\">Deadline</a>. di Bonaventura is best known for producing the live-action Transformers and GI Joe films. No additional details about the film or its plot have been reported.</p><p>CD Projekt Red also co-produced the Cyberpunk: Edgerunners anime series, which was released to wide acclaim in 2022. <a href=\"https://www.gamesradar.com/entertainment/anime-shows/cyberpunk-edgerunners-season-2-release-date-trailer-story/\">Cyberpunk: Edgerunners season 2</a> is set to land via Netflix on October 20 with a whole new cast of characters, who'll hopefully face a <em>bit</em> less tragedy than their predecessors. A new Cyberpunk game is also in development, though very few details have been revealed about it, either.</p><p>While Cyberpunk 2077 brought the setting to a much broader, more mainstream audience, the video"
+        }
+      ],
+      "keywords": [
+        "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing",
+        "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing date de sortie",
+        "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing plateformes",
+        "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing gameplay",
+        "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing guide",
+        "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-naughty-dog-crunch-could-be-grueling-but-the-last-of-us-fa25b5cf43ce",
+      "topic": "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio",
+      "detected_at": "2026-10-08T20:08:36.053517+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-last-of-us/naughty-dog-crunch-could-be-grueling-but-the-last-of-us-and-uncharted-4-artist-defends-the-studio-says-it-wasnt-evil-corporation-demands-horrific-working-hours/",
+          "title": "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio",
+          "evidence": "<article> <p>A number of high-profile game studios are closely associated with crunch culture, and The Last of Us maker Naughty Dog is undoubtedly one of them. I feel confident saying that not only because the studio's reputation for crunch has been well-established through many years of trustworthy reporting, but because <a href=\"https://www.gamesradar.com/the-last-of-us-part-2-studio-admits-we-have-a-reputation-for-crunching-and-pledges-that-its-something-were-not-going-to-do-anymore/\">Naughty Dog representatives have confirmed as much explicitly</a>. As recently as December 2025, reports circulated claiming <a href=\"https://www.gamesradar.com/games/action/naughty-dog-devs-reportedly-in-mandatory-overtime-to-complete-intergalactic-the-heretic-prophet-internal-demo-by-december/\">Naughty Dog employees had been forced into mandatory overtime to complete a demo for Intergalactic: The Heretic Prophet</a>, and in April, <a href=\"https://www.gamesradar.com/games/action/the-last-of-us-led-naughty-dog-to-accept-crunch-is-what-it-takes-to-make-games-at-our-level-former-designer-says-so-intergalactic-the-heretic-prophet-devs-are-probably-deep-in-it/\">former Naughty Dog senior game designer "
+        }
+      ],
+      "keywords": [
+        "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio",
+        "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio date de sortie",
+        "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio plateformes",
+        "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio gameplay",
+        "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio guide",
+        "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-marvel-nycc-2026-live-coverage-news-and-announcements-f-4704ddd58173",
+      "topic": "Marvel NYCC 2026 Live coverage – news and announcements from the Marvel TV and animation panel as it happens",
+      "detected_at": "2026-10-08T20:08:36.053792+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/news/live/marvel-nycc-2026-live-coverage-everything-announced/",
+          "title": "Marvel NYCC 2026 Live coverage – news and announcements from the Marvel TV and animation panel as it happens",
+          "evidence": "<article> <div class=\"live-content\"><p>The Marvel TV and animation panel at New York Comic Con 2026 is almost upon us. While both the Marvel panels at <a href=\"https://www.gamesradar.com/news/live/marvel-sdcc-2026-live-coverage-everything-announced/\">SDCC 2026</a> and <a href=\"https://www.gamesradar.com/news/live/d23-2026-marvel-star-wars-live-coverage-everything-announced/\">D23</a> focused primarily on Marvel's future movies, New York Comic Con has become the traditional home for Marvel TV announcements, and this year is no different.</p><p><a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-release-date-cast-trailer-plot/\">VisionQuest</a> is bound to be a major fixture given it debuts in less than a week, but we're also expecting/hoping for news on <a href=\"https://www.gamesradar.com/entertainment/superhero-shows/daredevil-born-again-season-3-release-date-cast-plot/\">Daredevil: Born Again season 3</a>, <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/x-men-97-season-3-release-date-cast-plot-trailer-news/\">X-Men '97 season 3</a>, Your Friendly Neighborhood Spider-Man season 2… and dare we dream that a brand new Marvel show could be announ"
+        }
+      ],
+      "keywords": [
+        "Marvel NYCC 2026 Live coverage – news and announcements from the Marvel TV and animation panel as it happens",
+        "Marvel NYCC 2026 Live coverage – news and announcements from the Marvel TV and animation panel as it happens date de sortie",
+        "Marvel NYCC 2026 Live coverage – news and announcements from the Marvel TV and animation panel as it happens plateformes",
+        "Marvel NYCC 2026 Live coverage – news and announcements from the Marvel TV and animation panel as it happens gameplay",
+        "Marvel NYCC 2026 Live coverage – news and announcements from the Marvel TV and animation panel as it happens guide",
+        "Marvel NYCC 2026 Live coverage – news and announcements from the Marvel TV and animation panel as it happens avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-5-best-new-shows-and-movies-streaming-this-week-on--e1ee9c177f91",
+      "topic": "The 5 best new shows and movies streaming this week on Netflix, Prime Video, Apple TV and more (October 9-11)",
+      "detected_at": "2026-10-08T20:08:36.054046+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/streaming-services/new-shows-movies-to-stream-netflix-prime-video-apple-tv-october-9-11/",
+          "title": "The 5 best new shows and movies streaming this week on Netflix, Prime Video, Apple TV and more (October 9-11)",
+          "evidence": "<article> <p>Now that spooky season is officially upon us, there's never been a better time to kick back and watch some new streaming hits. Horror maestro Mike Flanagan is starting things off nicely too with a new adaptation of Stephen King's Carrie for Prime Video. Set in the modern day, this reimagines the horror heroine as a teenager struggling in a world of social media. Nothing scarier, right?</p><p>Elsewhere, we've got several new TV shows to sink our teeth into as well, including The Last Airbender sequel Avatar: Seven Havens on Paramount Plus. Netflix has also got a brand-new supernatural thriller to keep you hooked with Below. </p><p>We've also got two new movies to enjoy as well: John Cena's Mattel action-comedy streaming on Apple TV and Ben Affleck's new thriller hitting Netflix. For more on those and everything you need to know about watching them, read on for our ultimate streaming guide.</p><h2 id=\"carrie\">Carrie</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"GWVAwTGsHTzgxSuVsb"
+        }
+      ],
+      "keywords": [
+        "The 5 best new shows and movies streaming this week on Netflix, Prime Video, Apple TV and more (October 9-11)",
+        "The 5 best new shows and movies streaming this week on Netflix, Prime Video, Apple TV and more (October 9-11) date de sortie",
+        "The 5 best new shows and movies streaming this week on Netflix, Prime Video, Apple TV and more (October 9-11) plateformes",
+        "The 5 best new shows and movies streaming this week on Netflix, Prime Video, Apple TV and more (October 9-11) gameplay",
+        "The 5 best new shows and movies streaming this week on Netflix, Prime Video, Apple TV and more (October 9-11) guide",
+        "The 5 best new shows and movies streaming this week on Netflix, Prime Video, Apple TV and more (October 9-11) avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-arc-raiders-frozen-trail-patch-notes-are-full-of-senten-5e86bbaa8244",
+      "topic": "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year",
+      "detected_at": "2026-10-08T20:08:36.054250+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-frozen-trail-patch-notes-are-full-of-sentences-that-players-have-dreamed-of-for-years-you-can-now-open-the-map-while-downed/",
+          "title": "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year",
+          "evidence": "<article> <p>The big <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-frozen-trail/\"><u>Arc Raiders Frozen Trail</u></a> update is finally here, dropping a truckload of wintry content on players and, importantly, unloading the biggest patch notes since the start of the game. We're all going to be busy with the new map, skills, guns, gadgets, and Arc for a good while, but the 2.0 Frozen Trail update is full of tiny yet exciting changes, many of which have been requested by players for nearly a full year. </p><p>You can <a href=\"https://arcraiders.com/news/frozen-trail-2-0-update\" target=\"_blank\"><u>read the full patch notes here</u></a>. I want to focus on some easily missed lines that punch above their weight. Here's an easy crowd pleaser: \"Max Stash Size increased by 2 new levels (328 Max without Expedition bonuses).\" With tons of new items coming into the game, I wouldn't be surprised if Embark is all but forced to further increase stash size in the future. </p><p>This may be a contentious change because it's technically a nerf to a popular strategy, but the Queen and Matriarch have had their loot reallocated once again. \"Moved higher tier loot from the "
+        }
+      ],
+      "keywords": [
+        "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year",
+        "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year date de sortie",
+        "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year plateformes",
+        "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year gameplay",
+        "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year guide",
+        "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-xbox-puts-former-reddit-and-facebook-exec-in-charge-of--12fc0fa3756a",
+      "topic": "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang",
+      "detected_at": "2026-10-08T20:08:36.054384+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/minecraft/xbox-puts-former-reddit-and-facebook-exec-in-charge-of-minecraft-studio-mojang/",
+          "title": "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang",
+          "evidence": "<article> <p>A lot of change is going on in the annals of Xbox right now. The games division of <a href=\"https://www.gamesradar.com/tag/microsoft/\">Microsoft</a> is in the midst of 3,200 layoffs and a complete restructuring, and that includes in senior management. Mojang, the company overseeing <a href=\"https://www.gamesradar.com/uk/games/adventure/minecraft/\">Minecraft</a>, now has a new boss, but their background isn't strictly in game development.</p><p>Asha Sharma, CEO of Xbox, has announced that Maria Angelidou-Smith is taking on the role of Mojang CEO, replacing Kayleen Walters, who's now president of XP. That's apparently another wing of Xbox dedicated to how \"how people experience our franchises beyond the games themselves\" - in other words, TV and movie adaptations and licensing agreements and what not.</p><p>Considering the success of A Minecraft Movie, and the fact she's a named producer on the sequel, it makes sense for Walters to move into that role. It's mentioned Minecraft garnered over 250 licensees in her time there.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocook"
+        }
+      ],
+      "keywords": [
+        "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang",
+        "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang date de sortie",
+        "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang plateformes",
+        "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang gameplay",
+        "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang guide",
+        "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-wow-forever-is-simplifying-blizzard-s-usual-pvp-but-als-4fca550a3b6c",
+      "topic": "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind",
+      "detected_at": "2026-10-08T20:08:36.054578+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-is-simplifying-blizzards-usual-pvp-but-also-adding-a-controversial-weekly-grind-as-mmo-fans-beg-please-dont-do-the-weeklies-thing/",
+          "title": "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-is-a-whole-new-wow-game-launching-in-november-thatll-live-alongside-classic-and-vanilla/\">World of Warcraft: Forever</a> won't be emulating the retail <em>or</em> Classic versions of Blizzard's beloved MMO when it comes to PvP – it's got its own way of approaching it.</p><p>The studio outlines as much in a <a href=\"http://v\" target=\"_blank\">new post</a> about how PvP works in WoW: Forever over on its official website, and it's somehow easier than it was back in the early 2000s but also… a tad grindy? <br><br>Blizzard first describes it bringing \"a refreshed sense of purpose to every match-up\" with an approach that \"gives players more reasons to take part throughout the season while preserving the spirit of competition that defined PvP in the original World of Warcraft.\"</p><p>The developers explain that they \"wanted to keep the design pillar of 'Approachable and Familiar' firmly in view: simplifying the original Honor System while staying true to its roots\" – so, how does it work? <br><br>Well, there are two parts to World of Warcraft: Forever PvP: Honor and Rank Points. Honor is a fo"
+        }
+      ],
+      "keywords": [
+        "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind",
+        "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind date de sortie",
+        "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind plateformes",
+        "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind gameplay",
+        "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind guide",
+        "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-where-to-find-celeste-s-childhood-drawings-in-arc-raide-b32615250751",
+      "topic": "Where to find Celeste's childhood drawings in Arc Raiders",
+      "detected_at": "2026-10-08T20:08:36.054763+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-celestes-childhood-drawings/",
+          "title": "Where to find Celeste's childhood drawings in Arc Raiders",
+          "evidence": "<article> <p>Finding Celeste's childhood drawings in Arc Raiders will take you to three locations in Riven Tides, which is no mean feat given how dangerous the area is. <em>Especially </em>when you don't have a clear idea where you're going or what you're looking for. I've found all the drawing locations already though, so I can point you in the right direction and minimize the wandering about to make it all a lot easier. </p><h2 class=\"article-body__section\" id=\"section-find-young-celeste-s-room-in-hotel-panorama-azzuro\"><span>Find young Celeste's room in Hotel Panorama Azzuro</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"Kpa3hV7vf2Fm8VxwQBe6i4\" name=\"arc raiders Celeste's childhood drawings\" alt=\"arc raiders Find young Celeste's room in Hotel Panorama Azzuro\" src=\"https://cdn.mos.cms.futurecdn.net/Kpa3hV7vf2Fm8VxwQBe6i4-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.fu"
+        }
+      ],
+      "keywords": [
+        "Where to find Celeste's childhood drawings in Arc Raiders",
+        "Where to find Celeste's childhood drawings in Arc Raiders date de sortie",
+        "Where to find Celeste's childhood drawings in Arc Raiders plateformes",
+        "Where to find Celeste's childhood drawings in Arc Raiders gameplay",
+        "Where to find Celeste's childhood drawings in Arc Raiders guide",
+        "Where to find Celeste's childhood drawings in Arc Raiders avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-25-years-after-burnout-star-wars-galactic-racer-boss-sa-48fdd69e0bc5",
+      "topic": "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players",
+      "detected_at": "2026-10-08T20:08:36.054889+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/racing/25-years-after-burnout-star-wars-galactic-racer-studio-lead-says-we-are-asking-way-more-out-of-players-than-weve-ever-done-because-modern-players-are-built-different/",
+          "title": "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players",
+          "evidence": "<article> <p>Star Wars: Galactic Racer studio lead Matt Webster says the new roguelite racer is way more complex than other racers by the same team.</p><p>Star Wars: Galactic Racer is out now, and finally brings the series back to racing after a 24 year gap since the PS2's Racer Revenge. And perhaps more crucially, it's developed by the team at Fuse Games, which was born from multiple members of Criterion Games, making Galactic Racer as much of a homage to Star Wars: Episode 1 Racer as it is to Burnout 3 and Burnout Revenge. </p><p>And while working with a well known and mostly family-friendly IP like Star Wars could've led the devs to perhaps tone things down a little, Galactic Racer is pretty tough. You're moving at super high speeds and even brushing a wall can cause your speeder to blow up. And in the game's campaign, you only have three chances to blow up before you're eliminated and need to restart a run.</p><p>Talking to GamesRadar+ guides editor Will Sawyer – who also wrote our <a href=\"https://www.gamesradar.com/games/racing/star-wars-galactic-racer-review/\"><u>Star Wars: Galactic Racer review</u></a> – Fuse Games CEO Webster spoke about the complexity of the racer, saying"
+        }
+      ],
+      "keywords": [
+        "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players",
+        "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players date de sortie",
+        "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players plateformes",
+        "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players gameplay",
+        "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players guide",
+        "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-atari-800xl-is-officially-getting-its-rumored-micro-f0f2fb8120ea",
+      "topic": "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts",
+      "detected_at": "2026-10-08T20:08:36.055079+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/retro/the-atari-800xl-is-officially-getting-its-rumored-remake-complete-with-cartridge-support-and-it-looks-more-like-the-80s-microcomputer-i-use-to-play-cursed-classics/",
+          "title": "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts",
+          "evidence": "<article> <p>We've known <a href=\"https://www.gamesradar.com/best-retro-consoles/\">retro console</a> maker Retro Games Ltd had something in mind for the Atari 800XL since <a href=\"https://www.gamesradar.com/hardware/retro/ataris-next-retro-console-remake-could-be-the-bigger-version-of-the-8-bit-microcomputer-i-use/\" target=\"_blank\">trademark applications</a> surfaced back in May. Those plans are now official, as the company just announced a remake of the '80s microcomputer with HDMI output, a physical cartridge slot, and a full-sized keyboard. </p><div class=\"fancy-box\"><div class=\"fancy_box-title\">An Atari 8-bit time capsule</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">The Atari 800XL remake will be fantastic for physical collectors, but if you'd rather just embrace plug-and-play convenience, the Atari 400 Mini can already run the same games <a data-analytics-id=\"inline-link\" href=\"https://www.amazon.com/THE400-Mini-Not-Machine-Specific/dp/B0CRYXTL82\" target=\"_blank\">for $88.84</a>. Its size means it naturally lacks a fully functional keyboard and cartridge slot, but it does come with games built in and USB support for ROMs.</p></div></div><p>As someone with a "
+        }
+      ],
+      "keywords": [
+        "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts",
+        "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts date de sortie",
+        "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts plateformes",
+        "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts gameplay",
+        "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts guide",
+        "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-street-fighter-director-says-every-single-cast-member-h-e50b9d7e5009",
+      "topic": "Street Fighter director says every single cast member has a \"love for the franchise\"",
+      "detected_at": "2026-10-08T20:08:36.055200+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/live-action-movies/street-fighter-director-says-every-single-cast-member-has-a-love-for-the-franchise-and-a-very-deep-understanding-of-canon/",
+          "title": "Street Fighter director says every single cast member has a \"love for the franchise\"",
+          "evidence": "<article> <p>In what will be music to the ears of Street Fighter fans worldwide, the director of the upcoming, hard-hitting movie adaptation says everyone on the cast arrived with a serious working knowledge of Capcom's iconic fighting franchise.</p><p>\"Everybody that's in the movie is a fan of the game,\" Kitao Sakurai tells GamesRadar+. \"There was nobody that I cast that was like, 'what's Street Fighter? What are we doing here? Everybody came to the movie out of a love for the franchise and for the game, and with a very deep understanding of like the canon and the lore.</p><p>To that end, Sakurai reveals he would use Ryu actor Andrew Koji as his own built-in loremaster on-set. </p><p>\"Andrew Koji is a huge gamer and oftentimes I would lean on him for canon stuff.\"</p><p>Sakurai adds, \"[Chun-Li actor] Callina [Liang] is a legit gamer. She's younger, so she grew up more on Street Fighter 6 – everybody has different sort of connections to the game, but everybody definitely is coming from a place of loving the game.\"</p><p>That passion for authenticity and harkening back to Street Fighter's quarter-draining '90s heyday in arcades even extends to Sakurai aiming to ape the feel, tone, a"
+        }
+      ],
+      "keywords": [
+        "Street Fighter director says every single cast member has a \"love for the franchise\"",
+        "Street Fighter director says every single cast member has a \"love for the franchise\" date de sortie",
+        "Street Fighter director says every single cast member has a \"love for the franchise\" plateformes",
+        "Street Fighter director says every single cast member has a \"love for the franchise\" gameplay",
+        "Street Fighter director says every single cast member has a \"love for the franchise\" guide",
+        "Street Fighter director says every single cast member has a \"love for the franchise\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-13-hellraiser-revival-easter-eggs-and-references-that-e-2a88f5fde247",
+      "topic": "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed",
+      "detected_at": "2026-10-08T20:08:36.055806+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/horror/hellraiser-revival-easter-eggs/",
+          "title": "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed",
+          "evidence": "<article> <p>As a massive horror fan, I was on the hunt for Clive Barker's Hellraiser: Revival Easter Eggs as soon as I loaded up the game. And, to my Cenobite-obsessed delight, I've found 13 references that made me do a double-take while messing about with the Lament Configuration. </p><p><a href=\"https://www.gamesradar.com/games/survival-horror/clive-barkers-hellraiser-revival-guide\">Clive Barker's Hellraiser: Revival</a> is, of course, set in the Hellraiser universe, which has given us some of the <a href=\"https://www.gamesradar.com/best-horror-movies\">best horror movies</a> of all time and is a staple in '80s horror media, period. So of course there were always going to be nods to the iconic franchise for us to dig into here. However, in between my time gushing over Pinhead voice actor Doug Bradley's being in this title and wincing at all the virtual gore on my screen, I was shocked to find obscure nods to other '80s horror movies, the Hellraiser comics getting some love, and even tributes to iconic metal bands as well. </p><p>Some of the easter eggs I found are really hidden, and some aren't so cut and dry. I'm sure I may have missed a few as well, so feel free to share any yo"
+        }
+      ],
+      "keywords": [
+        "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed",
+        "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed date de sortie",
+        "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed plateformes",
+        "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed gameplay",
+        "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed guide",
+        "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-2526310",
+      "topic": "Configuration PC Out of Sight : minimale, recommandée et conseils",
+      "detected_at": "2026-10-08T20:08:34.720532+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2526310/",
+          "title": "Out of Sight sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Out of Sight, consultée le 2026-10-08. Développeur : The Gang Studio. Éditeur : The Gang Studio. Date de sortie sur Steam : 22 mai 2025. Genres : Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : 4 hardware CPU Threads Intel® Core™ i5 750 or higher ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1060, AMD Radeon RX 470, or better ; DirectX : Version 12 ; Espace disque : 5 GB d'espace disque disponible ; Prise en charge VR: N/A. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2526310/ss_c06175e6e8ba9b529c171f4640713fb72c6d1f85.1920x1080.jpg?t=1789043494"
+        }
+      ],
+      "keywords": [
+        "configuration pc Out of Sight",
+        "Out of Sight PC",
+        "Out of Sight Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-2526310",
+      "topic": "Out of Sight multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-08T20:08:34.720582+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2526310/",
+          "title": "Out of Sight sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Out of Sight, consultée le 2026-10-08. Développeur : The Gang Studio. Éditeur : The Gang Studio. Date de sortie sur Steam : 22 mai 2025. Genres : Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Caméra et confort de vue, Contrôle du volume différencié, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Son stéréo, Options de sous-titres, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Out of Sight est un jeu d'horreur à l'atmosphère profonde qui mélange les perspectives à la première et à la deuxième personne avec un doublage captivant pour vous plonger dans un voyage effrayant et émouvant.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2526310/ss_c06175e6e8ba9b529c171f4640713fb72c6d1f85.1920x1080.jpg?t=1789043494"
+        }
+      ],
+      "keywords": [
+        "Out of Sight multijoueur",
+        "Out of Sight PC",
+        "Out of Sight Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-2290000",
+      "topic": "Configuration PC TerraScape : minimale, recommandée et conseils",
+      "detected_at": "2026-10-08T20:08:35.236843+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2290000/",
+          "title": "TerraScape sur Steam",
+          "evidence": "Données officielles de la fiche Steam de TerraScape, consultée le 2026-10-08. Développeur : Bitfall Studios. Éditeur : Stray Fawn Publishing, Sidekick Publishing. Date de sortie sur Steam : 17 juil. 2024. Genres : Occasionnel, Indépendant, Simulation, Stratégie. Systèmes pris en charge sur Steam : Windows, macOS. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (21H1) or newer x64 ; Processeur : 2 GHz Dual Core + (SSE2, Arm64) ; Mémoire vive : 4 GB de mémoire ; Graphiques : GTX 1060 (dedicated graphics card) ; DirectX : Version 11 ; Espace disque : 2 GB d'espace disque disponible ; Notes supplémentaires : Screen Aspect Ratio: 4:3, 16:9, 16:10 and higher. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (21H1) or newer x64 ; Processeur : 2.8 Ghz Quad Core (SSE2, Arm64) ; Mémoire vive : 16 GB de mémoire ; Graphiques : RTX 2060 or higher ; DirectX : Version 12 ; Espace disque : 2 GB d'espace disque disponible ; Notes supplémentaires : Screen Aspect Ratio: 4:3, 16:9, 16:10 and higher.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290000/ss_53128bd20a6a22f11587189b8a1bf59c960a96c9.1920x1080.jpg?t=1784796390"
+        }
+      ],
+      "keywords": [
+        "configuration pc TerraScape",
+        "TerraScape PC",
+        "TerraScape Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-2290000",
+      "topic": "TerraScape multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-08T20:08:35.236891+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2290000/",
+          "title": "TerraScape sur Steam",
+          "evidence": "Données officielles de la fiche Steam de TerraScape, consultée le 2026-10-08. Développeur : Bitfall Studios. Éditeur : Stray Fawn Publishing, Sidekick Publishing. Date de sortie sur Steam : 17 juil. 2024. Genres : Occasionnel, Indépendant, Simulation, Stratégie. Systèmes pris en charge sur Steam : Windows, macOS. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, PvP, JcJ en ligne, JcJ en LAN, Coopération, Coopération en ligne, Coop en LAN, Succès Steam, Compat. contrôleurs complète, Workshop Steam, Taille de texte réglable, Caméra et confort de vue, Contrôle du volume différencié, Difficulté ajustable, Option souris uniquement, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Son stéréo, Son multicanal, Option tactile uniquement, Steam Cloud, Classements Steam, Éditeur de niveau inclus, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Faites prospérer des royaumes magnifiques en plaçant vos bâtiments de manière stratégique dans ce jeu de construction de ville détendu. Découvrez des combinaisons secrètes, relevez des défis hebdomadaires et explorez des cartes aléatoires dans différents modes solo ou multijoueur.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290000/ss_53128bd20a6a22f11587189b8a1bf59c960a96c9.1920x1080.jpg?t=1784796390"
+        }
+      ],
+      "keywords": [
+        "TerraScape multijoueur",
+        "TerraScape PC",
+        "TerraScape Steam"
       ],
       "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
       "status": "new"

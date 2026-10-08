@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-08T09:28:02.681131+00:00",
+  "updated_at": "2026-10-08T20:08:36.390879+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -3740,6 +3740,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-2526310",
+      "topic": "Configuration PC Out of Sight : minimale, recommandée et conseils",
+      "detected_at": "2026-10-08T20:08:34.720532+00:00",
+      "analysed_at": "2026-10-08T20:08:36.390705+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2526310/",
+          "title": "Out of Sight sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Out of Sight, consultée le 2026-10-08. Développeur : The Gang Studio. Éditeur : The Gang Studio. Date de sortie sur Steam : 22 mai 2025. Genres : Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : 4 hardware CPU Threads Intel® Core™ i5 750 or higher ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1060, AMD Radeon RX 470, or better ; DirectX : Version 12 ; Espace disque : 5 GB d'espace disque disponible ; Prise en charge VR: N/A. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2526310/ss_c06175e6e8ba9b529c171f4640713fb72c6d1f85.1920x1080.jpg?t=1789043494"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Out of Sight",
+        "secondary_keywords": [
+          "Out of Sight PC",
+          "Out of Sight Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Out of Sight : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-2526310",
+      "topic": "Out of Sight multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-08T20:08:34.720582+00:00",
+      "analysed_at": "2026-10-08T20:08:36.390742+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2526310/",
+          "title": "Out of Sight sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Out of Sight, consultée le 2026-10-08. Développeur : The Gang Studio. Éditeur : The Gang Studio. Date de sortie sur Steam : 22 mai 2025. Genres : Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Caméra et confort de vue, Contrôle du volume différencié, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Son stéréo, Options de sous-titres, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Out of Sight est un jeu d'horreur à l'atmosphère profonde qui mélange les perspectives à la première et à la deuxième personne avec un doublage captivant pour vous plonger dans un voyage effrayant et émouvant.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2526310/ss_c06175e6e8ba9b529c171f4640713fb72c6d1f85.1920x1080.jpg?t=1789043494"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Out of Sight multijoueur",
+        "secondary_keywords": [
+          "Out of Sight PC",
+          "Out of Sight Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Out of Sight multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-2290000",
+      "topic": "Configuration PC TerraScape : minimale, recommandée et conseils",
+      "detected_at": "2026-10-08T20:08:35.236843+00:00",
+      "analysed_at": "2026-10-08T20:08:36.390762+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2290000/",
+          "title": "TerraScape sur Steam",
+          "evidence": "Données officielles de la fiche Steam de TerraScape, consultée le 2026-10-08. Développeur : Bitfall Studios. Éditeur : Stray Fawn Publishing, Sidekick Publishing. Date de sortie sur Steam : 17 juil. 2024. Genres : Occasionnel, Indépendant, Simulation, Stratégie. Systèmes pris en charge sur Steam : Windows, macOS. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (21H1) or newer x64 ; Processeur : 2 GHz Dual Core + (SSE2, Arm64) ; Mémoire vive : 4 GB de mémoire ; Graphiques : GTX 1060 (dedicated graphics card) ; DirectX : Version 11 ; Espace disque : 2 GB d'espace disque disponible ; Notes supplémentaires : Screen Aspect Ratio: 4:3, 16:9, 16:10 and higher. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (21H1) or newer x64 ; Processeur : 2.8 Ghz Quad Core (SSE2, Arm64) ; Mémoire vive : 16 GB de mémoire ; Graphiques : RTX 2060 or higher ; DirectX : Version 12 ; Espace disque : 2 GB d'espace disque disponible ; Notes supplémentaires : Screen Aspect Ratio: 4:3, 16:9, 16:10 and higher.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290000/ss_53128bd20a6a22f11587189b8a1bf59c960a96c9.1920x1080.jpg?t=1784796390"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc TerraScape",
+        "secondary_keywords": [
+          "TerraScape PC",
+          "TerraScape Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC TerraScape : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-2290000",
+      "topic": "TerraScape multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-08T20:08:35.236891+00:00",
+      "analysed_at": "2026-10-08T20:08:36.390782+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 84,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2290000/",
+          "title": "TerraScape sur Steam",
+          "evidence": "Données officielles de la fiche Steam de TerraScape, consultée le 2026-10-08. Développeur : Bitfall Studios. Éditeur : Stray Fawn Publishing, Sidekick Publishing. Date de sortie sur Steam : 17 juil. 2024. Genres : Occasionnel, Indépendant, Simulation, Stratégie. Systèmes pris en charge sur Steam : Windows, macOS. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, PvP, JcJ en ligne, JcJ en LAN, Coopération, Coopération en ligne, Coop en LAN, Succès Steam, Compat. contrôleurs complète, Workshop Steam, Taille de texte réglable, Caméra et confort de vue, Contrôle du volume différencié, Difficulté ajustable, Option souris uniquement, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Son stéréo, Son multicanal, Option tactile uniquement, Steam Cloud, Classements Steam, Éditeur de niveau inclus, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Faites prospérer des royaumes magnifiques en plaçant vos bâtiments de manière stratégique dans ce jeu de construction de ville détendu. Découvrez des combinaisons secrètes, relevez des défis hebdomadaires et explorez des cartes aléatoires dans différents modes solo ou multijoueur.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2290000/ss_53128bd20a6a22f11587189b8a1bf59c960a96c9.1920x1080.jpg?t=1784796390"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "TerraScape multijoueur",
+        "secondary_keywords": [
+          "TerraScape PC",
+          "TerraScape Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "TerraScape multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-put-ufo-sightings-in-grand-theft-auto-5-though-it-did-9f8f03e59597",
+      "topic": "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan",
+      "detected_at": "2026-09-23T18:22:45.163693+00:00",
+      "analysed_at": "2026-10-08T20:08:36.390803+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-put-ufo-sightings-in-grand-theft-auto-5-though-it-didnt-quite-go-to-plan/",
+          "title": "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>Every nation has its kooks—excepting of course the Swiss—but there's something utterly American to me about the UFO sighting. It's probably something to do with the sheer size of the place. A tired, potentially hopped-up trucker, trundling across the endless plains of… whatever state has endless plains in it, spying something mysterious and illuminated in the canopy above? That's America to me.</p><p>Also America to me: the Grand Theft Auto videogame series, so it was only natural that I bring real UFO visits to Rockstar's fake LA. I installed <a href=\"https://www.gta5-m"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan",
+        "secondary_keywords": [
+          "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan date de sortie",
+          "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan plateformes",
+          "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan gameplay",
+          "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan guide",
+          "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-producer-behind-cregger-s-resident-evil-film-is-wor-038d60c7e926",
+      "topic": "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing",
+      "detected_at": "2026-09-23T18:22:45.163992+00:00",
+      "analysed_at": "2026-10-08T20:08:36.390824+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/the-producer-behind-creggers-resident-evil-film-is-working-on-an-unnamed-silent-hill-project-and-players-are-asking-for-just-one-thing/",
+          "title": "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing",
+          "evidence": "<article> <p>Like it or not, Zach Cregger's <a href=\"https://www.pcgamer.com/uk/games/horror/resident-evil/\">Resident Evil</a> film has been a critical hit. It reached universal acclaim on metacritic and was a <a href=\"https://www.pcgamer.com/games/resident-evil/resident-evil-is-the-best-videogame-movie-because-bryan-sucks/\">smash hit among the PC Gamer team</a>. I wasn't as fond of it as I hoped to be, but even still I loved the ride and appreciated its faithful adaptation of the videogames. </p><p>After all this time, I never thought a Resident Evil adaptation could be as good as this. Now, its success is mostly thanks to Zach Cregger's genuine admiration and great knowledge of the games, but some accolades also needs to go to Roy Lee, the film's producer and the person who secured the rights to Resident Evil after Cregger expressed interest in it. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"LxenWEzcDqytchxzkibMEg\" name=\"Resident Evil film screenshots\" alt=\"The protagonist holding a gun"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing",
+        "secondary_keywords": [
+          "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing date de sortie",
+          "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing plateformes",
+          "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing gameplay",
+          "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing guide",
+          "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-scariest-part-of-silent-hill-townfall-it-s-not-the--1eed9eb8f4d7",
+      "topic": "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design",
+      "detected_at": "2026-09-23T18:22:45.164460+00:00",
+      "analysed_at": "2026-10-08T20:08:36.390854+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/the-scariest-part-of-silent-hill-townfall-its-not-the-monsters-its-british-interior-design/",
+          "title": "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/games/horror/silent-hill-townfall-review/\">Silent Hill: Townfall</a> has a different kind of resonance if you grew up in the UK. Its Scottish island of St Amelia is already my favourite video game environment of the year for how it evokes the atmosphere and time of a place—specifically 1996—and captures the specific details of small town life. </p><p>From the video rental shop to the bunting sadly hanging from the buildings, it's the kind of run-down fishing town you never normally see in a video game. That's probably because it's not as glamorous as somewhere like Kamurocho in Tokyo (St Amelia regrettably lacks a Sega World) or New York, and not as dreamy as the Stephen King-inflected small town settings of games like Alan Wake or Silent Hill 2. </p><p>Using the Silent Hill franchise as this trojan horse to smuggle in a location that's clearly of interest to the Glasgow-based development team at Screen Burn was a marvellous idea: given the state of the games industry, it's unlikely that anyone will ever again be given the budget or time to craft an authentic British newsagent or storefront for a fish and chip shop. </p><p>Still, as eer"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design",
+        "secondary_keywords": [
+          "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design date de sortie",
+          "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design plateformes",
+          "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design gameplay",
+          "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design guide",
+          "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-razer-chroma-soma-lighting-3ae82b01e199",
+      "topic": "Razer Chroma Soma lighting",
+      "detected_at": "2026-09-23T18:22:45.164567+00:00",
+      "analysed_at": "2026-10-08T20:08:36.390875+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-chairs/razer-chroma-soma-lighting/",
+          "title": "Razer Chroma Soma lighting",
+          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/tpcrHKpD.html\" id=\"tpcrHKpD\" title=\"Razer Soma Chroma gaming chair LEDs\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen></iframe><p>A chair you have to plug into a power source. For why? For the love of RGB of course. Razer's Soma Chroma gaming chair lights up, but does it light you up? <a href=\"https://www.pcgamer.com/hardware/gaming-chairs/razer-soma-chroma-review/\" target=\"_blank\">Check out the review and let us know what you think.</a></p> </article>"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Razer Chroma Soma lighting",
+        "secondary_keywords": [
+          "Razer Chroma Soma lighting date de sortie",
+          "Razer Chroma Soma lighting plateformes",
+          "Razer Chroma Soma lighting gameplay",
+          "Razer Chroma Soma lighting guide",
+          "Razer Chroma Soma lighting avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Razer Chroma Soma lighting"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

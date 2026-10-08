@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T06:34:57.654371+00:00",
+  "generated_at": "2026-10-08T15:50:01.718974+00:00",
   "count": 8,
   "articles": [
     {
@@ -25,28 +25,6 @@
       }
     },
     {
-      "source_id": "5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546",
-      "title": "The Outlast Trials à -90% sur Steam",
-      "excerpt": "The Outlast Trials bénéficie actuellement d'une réduction de 90% sur Steam, passant de 38,99 € à 3,89 €.",
-      "content": "<p><strong>The Outlast Trials</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>38,99 €</strong></li><li>Prix actuel : <strong>3,89 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1304930/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/1304930/",
-      "deal": {
-        "game": "The Outlast Trials",
-        "store": "Steam",
-        "original_price": 38.99,
-        "current_price": 3.89,
-        "discount_percent": 90,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546.jpg",
-        "filename": "5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546.jpg",
-        "alt": "The Outlast Trials -90% sur Steam - GamerQuest",
-        "caption": "The Outlast Trials : offre -90% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre The Outlast Trials sur Steam."
-      }
-    },
-    {
       "source_id": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612",
       "title": "The Elder Scrolls V: Skyrim Special Edition à -90% sur Steam",
       "excerpt": "The Elder Scrolls V: Skyrim Special Edition bénéficie actuellement d'une réduction de 90% sur Steam, passant de 39,99 € à 3,99 €.",
@@ -66,6 +44,28 @@
         "alt": "The Elder Scrolls V: Skyrim Special Edition -90% sur Steam - GamerQuest",
         "caption": "The Elder Scrolls V: Skyrim Special Edition : offre -90% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre The Elder Scrolls V: Skyrim Special Edition sur Steam."
+      }
+    },
+    {
+      "source_id": "5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546",
+      "title": "The Outlast Trials à -90% sur Steam",
+      "excerpt": "The Outlast Trials bénéficie actuellement d'une réduction de 90% sur Steam, passant de 38,99 € à 3,89 €.",
+      "content": "<p><strong>The Outlast Trials</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>38,99 €</strong></li><li>Prix actuel : <strong>3,89 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1304930/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1304930/",
+      "deal": {
+        "game": "The Outlast Trials",
+        "store": "Steam",
+        "original_price": 38.99,
+        "current_price": 3.89,
+        "discount_percent": 90,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546.jpg",
+        "filename": "5fb8a35553ca94f7e8aa5dd5e8b6acec0ddefdd1f712bfb6b4e3e30ca3546546.jpg",
+        "alt": "The Outlast Trials -90% sur Steam - GamerQuest",
+        "caption": "The Outlast Trials : offre -90% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre The Outlast Trials sur Steam."
       }
     },
     {
@@ -135,47 +135,47 @@
       }
     },
     {
-      "source_id": "36db04ab49e2f3a83c71c5270f0a7511f038f3c8cd1721fce80ce26a833e6e92",
-      "title": "System Shock 2: 25th Anniversary Remaster est gratuit sur Epic Games Store pendant une durée limitée",
-      "excerpt": "System Shock 2: 25th Anniversary Remaster, habituellement proposé à 26,99 €, est actuellement disponible gratuitement sur Epic Games Store.",
-      "content": "<p><strong>System Shock 2: 25th Anniversary Remaster</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 26,99 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>26,99 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>8 octobre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/system-shock-2-25th-anniversary-remaster-cb94d9\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.epicgames.com/fr/p/system-shock-2-25th-anniversary-remaster-cb94d9",
+      "source_id": "ff0444c6b0e306af54d8babca98ba3de4f924f964d4e649a0efdcca8332eff7e",
+      "title": "Out of Sight est gratuit sur Epic Games Store pendant une durée limitée",
+      "excerpt": "Out of Sight, habituellement proposé à 13,99 €, est actuellement disponible gratuitement sur Epic Games Store.",
+      "content": "<p><strong>Out of Sight</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 13,99 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>13,99 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>15 octobre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/out-of-sight-b96ca8\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.epicgames.com/fr/p/out-of-sight-b96ca8",
       "deal": {
-        "game": "System Shock 2: 25th Anniversary Remaster",
+        "game": "Out of Sight",
         "store": "Epic Games Store",
-        "original_price": 26.99,
+        "original_price": 13.99,
         "current_price": 0.0,
         "discount_percent": 100,
-        "expires_at": "2026-10-08T15:00:00.000Z"
+        "expires_at": "2026-10-15T15:00:00.000Z"
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/36db04ab49e2f3a83c71c5270f0a7511f038f3c8cd1721fce80ce26a833e6e92.jpg",
-        "filename": "36db04ab49e2f3a83c71c5270f0a7511f038f3c8cd1721fce80ce26a833e6e92.jpg",
-        "alt": "System Shock 2: 25th Anniversary Remaster gratuit sur Epic Games Store - GamerQuest",
-        "caption": "System Shock 2: 25th Anniversary Remaster : offre gratuit sur Epic Games Store.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre System Shock 2: 25th Anniversary Remaster sur Epic Games Store."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/ff0444c6b0e306af54d8babca98ba3de4f924f964d4e649a0efdcca8332eff7e.jpg",
+        "filename": "ff0444c6b0e306af54d8babca98ba3de4f924f964d4e649a0efdcca8332eff7e.jpg",
+        "alt": "Out of Sight gratuit sur Epic Games Store - GamerQuest",
+        "caption": "Out of Sight : offre gratuit sur Epic Games Store.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Out of Sight sur Epic Games Store."
       }
     },
     {
-      "source_id": "9ea344894eb623a19cfd4dee66af22600fc0636e797ef5ffdcba2e91fc3bf39d",
-      "title": "BURIED STARS est gratuit sur Epic Games Store pendant une durée limitée",
-      "excerpt": "BURIED STARS, habituellement proposé à 33,99 €, est actuellement disponible gratuitement sur Epic Games Store.",
-      "content": "<p><strong>BURIED STARS</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 33,99 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>33,99 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>8 octobre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/buried-stars-d7c88c\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.epicgames.com/fr/p/buried-stars-d7c88c",
+      "source_id": "a7cfc4f3be5d3a85fda2383c329abf7334c468127c56b5acbc1981609958622f",
+      "title": "TerraScape est gratuit sur Epic Games Store pendant une durée limitée",
+      "excerpt": "TerraScape, habituellement proposé à 15,29 €, est actuellement disponible gratuitement sur Epic Games Store.",
+      "content": "<p><strong>TerraScape</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 15,29 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>15,29 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>15 octobre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/terrascape-2b12b1\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.epicgames.com/fr/p/terrascape-2b12b1",
       "deal": {
-        "game": "BURIED STARS",
+        "game": "TerraScape",
         "store": "Epic Games Store",
-        "original_price": 33.99,
+        "original_price": 15.29,
         "current_price": 0.0,
         "discount_percent": 100,
-        "expires_at": "2026-10-08T15:00:00.000Z"
+        "expires_at": "2026-10-15T15:00:00.000Z"
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/9ea344894eb623a19cfd4dee66af22600fc0636e797ef5ffdcba2e91fc3bf39d.jpg",
-        "filename": "9ea344894eb623a19cfd4dee66af22600fc0636e797ef5ffdcba2e91fc3bf39d.jpg",
-        "alt": "BURIED STARS gratuit sur Epic Games Store - GamerQuest",
-        "caption": "BURIED STARS : offre gratuit sur Epic Games Store.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre BURIED STARS sur Epic Games Store."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/a7cfc4f3be5d3a85fda2383c329abf7334c468127c56b5acbc1981609958622f.jpg",
+        "filename": "a7cfc4f3be5d3a85fda2383c329abf7334c468127c56b5acbc1981609958622f.jpg",
+        "alt": "TerraScape gratuit sur Epic Games Store - GamerQuest",
+        "caption": "TerraScape : offre gratuit sur Epic Games Store.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre TerraScape sur Epic Games Store."
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-07T20:09:33.490685+00:00",
+  "updated_at": "2026-10-08T09:28:09.991413+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -57,6 +57,14 @@
       "wordpress_url": "https://gamerquestfr.com/cyberpunk-2077-multijoueur-coop-en-ligne-et-modes-de-jeu/",
       "wordpress_post_id": 640,
       "published_at": "2026-10-07T20:09:33.490685+00:00"
+    },
+    {
+      "intent_key": "configuration pc the outlast trials",
+      "primary_keyword": "configuration pc The Outlast Trials",
+      "title": "Configuration PC The Outlast Trials : minimale, recommandée et conseils",
+      "wordpress_url": "https://gamerquestfr.com/configuration-pc-the-outlast-trials-minimale-recommandee-et-conseils/",
+      "wordpress_post_id": 644,
+      "published_at": "2026-10-08T09:28:09.991413+00:00"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-07T20:09:27.140275+00:00",
+  "updated_at": "2026-10-08T09:28:02.681131+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -3432,6 +3432,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "silent hill townfall house tv location"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1245620",
+      "topic": "Configuration PC Elden Ring : minimale, recommandée et conseils",
+      "detected_at": "2026-10-08T09:28:01.482420+00:00",
+      "analysed_at": "2026-10-08T09:28:02.680980+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1245620/",
+          "title": "ELDEN RING sur Steam",
+          "evidence": "Données officielles de la fiche Steam de ELDEN RING, consultée le 2026-10-08. Développeur : FromSoftware, Inc.. Éditeur : FromSoftware, Inc., Bandai Namco Entertainment. Date de sortie sur Steam : 24 févr. 2022. Genres : Action, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : INTEL CORE I5-8400 or AMD RYZEN 3 3300X ; Mémoire vive : 12 GB de mémoire ; Graphiques : NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB ; DirectX : Version 12 ; Espace disque : 60 GB d'espace disque disponible ; Carte son : Windows Compatible Audio Device ; Notes supplémentaires :. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10/11 ; Processeur : INTEL CORE I7-8700K or AMD RYZEN 5 3600X ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB ; DirectX : Version 12 ; Espace disque : 60 GB d'espace disque disponible ; Carte son : Windows Compatible Audio Device ; Notes supplémentaires :.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg?t=1790290043"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Elden Ring",
+        "secondary_keywords": [
+          "Elden Ring PC",
+          "Elden Ring Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Elden Ring : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1245620",
+      "topic": "Elden Ring multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-08T09:28:01.482462+00:00",
+      "analysed_at": "2026-10-08T09:28:02.681038+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1245620/",
+          "title": "ELDEN RING sur Steam",
+          "evidence": "Données officielles de la fiche Steam de ELDEN RING, consultée le 2026-10-08. Développeur : FromSoftware, Inc.. Éditeur : FromSoftware, Inc., Bandai Namco Entertainment. Date de sortie sur Steam : 24 févr. 2022. Genres : Action, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, PvP, JcJ en ligne, Coopération, Coopération en ligne, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Caméra et confort de vue, Contrôle du volume différencié, Jouable sans saisie en temps imparti, Sauvegarde à tout moment, Son stéréo, Son multicanal, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : LE RPG D'ACTION FANTASTIQUE ACCLAMÉ PAR LA CRITIQUE. Levez-vous, Sans-éclat, et puisse la grâce guider vos pas. Brandissez la puissance du Cercle d'Elden. Devenez Seigneur de l'Entre-terre.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg?t=1790290043"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Elden Ring multijoueur",
+        "secondary_keywords": [
+          "Elden Ring PC",
+          "Elden Ring Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Elden Ring multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1086940",
+      "topic": "Configuration PC Baldur's Gate 3 : minimale, recommandée et conseils",
+      "detected_at": "2026-10-08T09:28:01.828230+00:00",
+      "analysed_at": "2026-10-08T09:28:02.681053+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1086940/",
+          "title": "Baldur's Gate 3 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Baldur's Gate 3, consultée le 2026-10-08. Développeur : Larian Studios. Éditeur : Larian Studios. Date de sortie sur Steam : 3 aout 2023. Genres : Aventure, RPG, Stratégie. Systèmes pris en charge sur Steam : Windows, macOS. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 64-bit ; Processeur : Intel I5 4690 / AMD FX 8350 / Snapdragon X Elite ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GTX 970 / RX 480 / Intel Arc A380 / Qualcomm Adreno X1 (4GB+ of VRAM) ; DirectX : Version 11 ; Espace disque : 150 GB d'espace disque disponible ; Notes supplémentaires : SSD required. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 64-bit ; Processeur : Intel i7 8700K / AMD r5 3600 ; Mémoire vive : 16 GB de mémoire ; Graphiques : Nvidia 2060 Super / RX 5700 XT / Intel Arc A580 (8GB+ of VRAM) ; DirectX : Version 11 ; Espace disque : 150 GB d'espace disque disponible ; Notes supplémentaires : SSD required.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg?t=1777363040"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Baldur's Gate 3",
+        "secondary_keywords": [
+          "Baldur's Gate 3 PC",
+          "Baldur's Gate 3 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Baldur's Gate 3 : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1086940",
+      "topic": "Baldur's Gate 3 multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-08T09:28:01.828266+00:00",
+      "analysed_at": "2026-10-08T09:28:02.681067+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1086940/",
+          "title": "Baldur's Gate 3 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Baldur's Gate 3, consultée le 2026-10-08. Développeur : Larian Studios. Éditeur : Larian Studios. Date de sortie sur Steam : 3 aout 2023. Genres : Aventure, RPG, Stratégie. Systèmes pris en charge sur Steam : Windows, macOS. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Coop en LAN, Multijoueur multiplateforme, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Taille de texte réglable, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, Remote Play sur télévision, Remote Play Together, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Constituez votre groupe et retournez aux Royaumes Oubliés dans une histoire d'amitié, de trahison, de sacrifice et de survie, sur fond d'attrait du pouvoir absolu.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg?t=1777363040"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Baldur's Gate 3 multijoueur",
+        "secondary_keywords": [
+          "Baldur's Gate 3 PC",
+          "Baldur's Gate 3 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Baldur's Gate 3 multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-you-ever-notice-how-much-more-crouch-walking-you-do-in--b2ced90c7826",
+      "topic": "You ever notice how much more crouch walking you do in games than real life",
+      "detected_at": "2026-09-22T12:03:03.530271+00:00",
+      "analysed_at": "2026-10-08T09:28:02.681081+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/you-ever-notice-how-much-more-crouch-walking-you-do-in-games-than-real-life/",
+          "title": "You ever notice how much more crouch walking you do in games than real life",
+          "evidence": "<article> <p>I feel like I've spent several lifetimes crouch walking around to be sneaky in videogames. It's the default way of saying \"stealth mode.\" Even the mighty Metal Gear series, which originally only had upright running or belly crawling, eventually bent the knee—both of them, in fact.</p><p>Haven you ever tried crouch walking? Like, in real life. Go ahead and do it right now wherever you're reading this: In class, at work, on the bus, on the John, I'll wait. Didn't feel very sneaky, did you?</p><p>I feel like the only games I've ever seen comment on the impracticality were New Vegas and The Outer Worlds 2. In the former, Raul complains about his bad knees sometimes when you stealth while he's following. In the latter, \"bad knees\" is a tradeoff trait you can get where your creaky joints can alert enemies when you drop into a crouch.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2380px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.26%;\"><img id=\"b2YwakZ5hBg8yBvN7HyEhi\" name=\"Metal Gear Solid 5 2.jpg\" alt=\"Snake crouching in MGSV\" src=\"https://cdn.mos."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "You ever notice how much more crouch walking you do in games than real life",
+        "secondary_keywords": [
+          "You ever notice how much more crouch walking you do in games than real life date de sortie",
+          "You ever notice how much more crouch walking you do in games than real life plateformes",
+          "You ever notice how much more crouch walking you do in games than real life gameplay",
+          "You ever notice how much more crouch walking you do in games than real life guide",
+          "You ever notice how much more crouch walking you do in games than real life avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "You ever notice how much more crouch walking you do in games than real life"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-sony-inzone-m10s-ii-review-63355939a053",
+      "topic": "Sony Inzone M10S II review",
+      "detected_at": "2026-09-22T12:03:03.530845+00:00",
+      "analysed_at": "2026-10-08T09:28:02.681093+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-monitors/sony-inzone-m10s-ii-review/",
+          "title": "Sony Inzone M10S II review",
+          "evidence": "<article> <div data-widget-type=\"review\" data-widget-title=\"\" data-model-name=\"Sony Inzone M10S II\"></div><p>Until now, every OLED gaming monitor we've reviewed has been rated at 0.03 ms for pixel response. Well, not any more ladies and germs. Give it up for the new <a href=\"https://electronics.sony.com/tv-video/gaming-monitors/all-inzone-monitors/p/sdm27q102-b\" target=\"_blank\">Sony Inzone M10S II</a>, which clocks in at a mere 0.02 ms.</p><p>Is it a bit of a stretch to think the human eye can tell the difference between three one-hundred-thousandths of a second and two one-hundred-thousandths—or 30 microseconds and 20 microseconds, if you prefer. But the point here is what that pixel response spec hints at.</p><p>The Sony Inzone M10S II is unambiguously, unashamedly, unapologetically aimed at fast-paced gaming and esports. Indeed, this monitor has been developed with the help of pro esports outfit, Fnatic.</p><div ><table><caption>Sony Inzone M10S II specs</caption><tbody><tr><td class=\"firstcol \" ><p><strong>Screen size</strong></p></td><td ><p>27-inch</p></td></tr><tr><td class=\"firstcol \" ><p><strong>Resolution</strong></p></td><td ><p>2,560 x 1,440</p></td></tr><tr><td class=\""
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Sony Inzone M10S II review",
+        "secondary_keywords": [
+          "Sony Inzone M10S II review date de sortie",
+          "Sony Inzone M10S II review plateformes",
+          "Sony Inzone M10S II review gameplay",
+          "Sony Inzone M10S II review guide",
+          "Sony Inzone M10S II review avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Sony Inzone M10S II review"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-where-can-australians-buy-r18-pc-games-without-a-credit-c52e6b545fe4",
+      "topic": "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam",
+      "detected_at": "2026-09-23T05:12:14.774535+00:00",
+      "analysed_at": "2026-10-08T09:28:02.681109+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/platforms/how-to-buy-r18-games-without-a-credit-card/",
+          "title": "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam",
+          "evidence": "<article> <p>Valve implemented age verification for Australian Steam users earlier this month, which was inevitable: <a href=\"https://www.pcgamer.com/gaming-industry/steam-now-requires-australian-users-to-have-a-credit-card-to-purchase-r18-games-and-no-a-simple-bank-debit-card-wont-work/\">Australian law demands it</a>. Unfortunately, Valve has opted for the most brute force, user-negligent approach possible. To buy R18+ games on Steam in Australia—to even access their store pages—you need to provide a credit card.</p><p>The problem being that most Australians don't use credit cards. This study of <a href=\"https://www.rba.gov.au/publications/bulletin/2026/may/consumer-payment-behaviour-in-australia.html\">consumer payment behaviour</a> by the Reserve Bank of Australia bears this out: the share of payments made in Australia with credit or card charges in 2025 was 23% (versus debit cards at 49%). </p><p>This is in stark contrast with the US where, according to <a href=\"https://www.bankrate.com/credit-cards/news/credit-card-ownership-usage-statistics/\">Bankrate</a>, 74% of adults own a credit card (and nearly half of those are in debt!). </p><p>I'm not sure if Valve did its research: pe"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam",
+        "secondary_keywords": [
+          "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam date de sortie",
+          "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam plateformes",
+          "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam gameplay",
+          "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam guide",
+          "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Where can Australians buy R18+ PC games without a credit card? Pretty much everywhere but Steam"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-guardians-make-their-own-fate-destiny-2-players-and-cre-76446f5b168b",
+      "topic": "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered'",
+      "detected_at": "2026-09-23T05:12:14.774716+00:00",
+      "analysed_at": "2026-10-08T09:28:02.681128+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/guardians-make-their-own-fate-destiny-2-players-and-creators-celebrate-following-bungies-shock-u-turn-as-the-studio-admits-your-voices-mattered/",
+          "title": "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered'",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:563px;\"><p class=\"vanilla-image-block\" style=\"padding-top:85.26%;\"><img id=\"y5hndLQH5xWoKXZY2QA4yc\" name=\"sneaktweet\" alt=\"X post by SneakyBeaver\" src=\"https://cdn.mos.cms.futurecdn.net/y5hndLQH5xWoKXZY2QA4yc-1920-80.png\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"563\" height=\"480\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: SneakyBeaver on X)</span></figcaption></figure> </article>"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered'",
+        "secondary_keywords": [
+          "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered' date de sortie",
+          "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered' plateformes",
+          "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered' gameplay",
+          "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered' guide",
+          "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'Guardians make their own fate.' Destiny 2 players and creators celebrate following Bungie's shock U-turn, as the studio admits: 'Your voices mattered'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

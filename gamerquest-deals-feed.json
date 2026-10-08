@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T21:31:26.357547+00:00",
-  "count": 6,
+  "generated_at": "2026-10-08T06:34:57.654371+00:00",
+  "count": 8,
   "articles": [
     {
       "source_id": "2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754",
@@ -88,6 +88,50 @@
         "alt": "Sons Of The Forest -71% sur Steam - GamerQuest",
         "caption": "Sons Of The Forest : offre -71% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Sons Of The Forest sur Steam."
+      }
+    },
+    {
+      "source_id": "bedefc3fde5a894c7231ade7fc1b779f6592a1ce81157092f3525fbfe2330eb4",
+      "title": "Ori and the Will of the Wisps à -90% sur Steam",
+      "excerpt": "Ori and the Will of the Wisps bénéficie actuellement d'une réduction de 90% sur Steam, passant de 29,99 € à 2,99 €.",
+      "content": "<p><strong>Ori and the Will of the Wisps</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>29,99 €</strong></li><li>Prix actuel : <strong>2,99 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1057090/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1057090/",
+      "deal": {
+        "game": "Ori and the Will of the Wisps",
+        "store": "Steam",
+        "original_price": 29.99,
+        "current_price": 2.99,
+        "discount_percent": 90,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/bedefc3fde5a894c7231ade7fc1b779f6592a1ce81157092f3525fbfe2330eb4.jpg",
+        "filename": "bedefc3fde5a894c7231ade7fc1b779f6592a1ce81157092f3525fbfe2330eb4.jpg",
+        "alt": "Ori and the Will of the Wisps -90% sur Steam - GamerQuest",
+        "caption": "Ori and the Will of the Wisps : offre -90% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Ori and the Will of the Wisps sur Steam."
+      }
+    },
+    {
+      "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
+      "title": "Red Dead Redemption 2 à -75% sur Steam",
+      "excerpt": "Red Dead Redemption 2 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 59,99 € à 14,99 €.",
+      "content": "<p><strong>Red Dead Redemption 2</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1174180/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1174180/",
+      "deal": {
+        "game": "Red Dead Redemption 2",
+        "store": "Steam",
+        "original_price": 59.99,
+        "current_price": 14.99,
+        "discount_percent": 75,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
+        "filename": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
+        "alt": "Red Dead Redemption 2 -75% sur Steam - GamerQuest",
+        "caption": "Red Dead Redemption 2 : offre -75% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Red Dead Redemption 2 sur Steam."
       }
     },
     {

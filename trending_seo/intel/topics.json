@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-09T09:38:25.372129+00:00",
+  "updated_at": "2026-10-09T19:46:15.284695+00:00",
   "evergreen_checked_games": [
     "baldur s gate 3",
     "buried stars",
@@ -8,6 +8,8 @@
     "cyberpunk 2077",
     "elden ring",
     "hades",
+    "hades ii",
+    "helldivers 2",
     "ori and the will of the wisps",
     "out of sight",
     "red dead redemption 2",
@@ -18,390 +20,6 @@
     "the outlast trials"
   ],
   "topics": [
-    {
-      "id": "rss-my-first-mmo-character-2-joshua-wolens-1954acc3245f",
-      "topic": "My first MMO character #2: Joshua Wolens",
-      "detected_at": "2026-09-24T07:49:15.021512+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/my-first-mmo-character-2-joshua-wolens/",
-          "title": "My first MMO character #2: Joshua Wolens",
-          "evidence": "<article> <p>My first MMO character was... </p><p><strong>Karokan, Half-elf Something</strong></p><p><strong>Born: </strong>1999</p><p><strong>Game: </strong>EverQuest</p><p>Karokan's is a simple tale. When I was six years old, I saw my dad having a good time in a then-new release called EverQuest. Obviously, I wanted in on that, and badgered pops into helping me make a character.</p><p>My dad played a gnome magician, but I was revulsed by the idea of being as short in the game as I then was in real life. Also, magicianry sounded complicated. I settled on a half-elf whose class I no longer remember, and came up with a basically random series of syllables to serve as a name.</p><p>And then! I went nowhere. I was <em>terrified</em>. I wasn't so much scared of dying (though I was a bit scared of dying) but of getting lost. EverQuest felt impossibly vast, and I knew for sure that the second I stepped out of Freeport I'd never be able to find my way back. So I spent Karokan's life just outside the city gates, fighting orcs and rats, and never venturing further. It was a simple life, but a happy one.</p><p><a href=\"https://www.pcgamer.com/games/mmo/a-tribute-to-pc-gamers-first-mmo-charac"
-        }
-      ],
-      "keywords": [
-        "My first MMO character #2: Joshua Wolens",
-        "My first MMO character #2: Joshua Wolens date de sortie",
-        "My first MMO character #2: Joshua Wolens plateformes",
-        "My first MMO character #2: Joshua Wolens gameplay",
-        "My first MMO character #2: Joshua Wolens guide",
-        "My first MMO character #2: Joshua Wolens avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-steam-game-disables-mods-after-facing-its-second-worksh-975833a47cb6",
-      "topic": "Steam game disables mods after facing its second Workshop malware outbreak this year",
-      "detected_at": "2026-09-24T07:49:15.021753+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/sim/steam-game-disables-mods-after-facing-its-second-workshop-malware-outbreak-this-year/",
-          "title": "Steam game disables mods after facing its second Workshop malware outbreak this year",
-          "evidence": "<article> <h2 id=\"what-happened\">What happened</h2><ul><li>On September 22, Studio Minus—the developer of ragdoll torture sandbox People Playground—<a href=\"https://store.steampowered.com/news/app/1118200/view/717916455762396045?l=english\" target=\"_blank\">posted a Steam news update</a> saying it had <strong>disabled the game's Steam Workshop support</strong> \"due to yet another malicious mod,\" which the developer said was \"especially bad\"</li><li>The developer has since <strong>released a new build of People Playground that prevents mods from running</strong>, <a href=\"https://discord.com/channels/779898133064056862/931579024432562226/1552279775249170563\" target=\"_blank\">saying on its Discord</a> that Workshop and mod support will only return if \"mods are fundamentally safe to run,\" which \"might never happen\"</li><li>A redditor who <a href=\"https://www.reddit.com/r/peopleplayground/comments/1wmn16s/fps_new_virus_full_breakdown/\" target=\"_blank\">inspected the malicious Workshop mod</a> claims <strong>the mod hijacks the user's Steam account to republish itself on the Workshop along with the user's personal information</strong>, destroys files for People Playground and other installe"
-        }
-      ],
-      "keywords": [
-        "Steam game disables mods after facing its second Workshop malware outbreak this year",
-        "Steam game disables mods after facing its second Workshop malware outbreak this year date de sortie",
-        "Steam game disables mods after facing its second Workshop malware outbreak this year plateformes",
-        "Steam game disables mods after facing its second Workshop malware outbreak this year gameplay",
-        "Steam game disables mods after facing its second Workshop malware outbreak this year guide",
-        "Steam game disables mods after facing its second Workshop malware outbreak this year avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-world-of-warcraft-forever-dev-addresses-the-debate-over-881f62b2a194",
-      "topic": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
-      "detected_at": "2026-09-24T07:49:15.021915+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-dev-addresses-the-debate-over-who-its-made-for-i-did-not-spend-the-last-year-of-my-life-relearning-and-mastering-how-to-do-things-like-we-did-it-20-years-ago-for-retail-players/",
-          "title": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
-          "evidence": "<article> <div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-Xj2VxX\"></div> </div> <script src=\"https://kwizly.com/embed/Xj2VxX.js\" async></script><div class=\"product\"><a data-dimension112=\"04d63578-b79a-11f1-bbfe-63e23dd6ade1\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:661px;\"><p class=\"vanilla-image-block\" style=\"padding-top:98.94%;\"><img id=\"6offQUY4CXebir2TC27dMd\" name=\"kingdom come 2 square\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"661\" height=\"654\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\"></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/games/new-pc-games-2026/\" target=\"_blank\" data-dimension112=\"04d63578-b79a-11f1-bbfe-63e23dd6ade1\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" data-dimension25=\"\"><strong>2026 games</strong></a>: All the upcoming games<br><a href=\"https://www.pcgamer.com/the-best-pc-games/\" target=\"_blank\"><stro"
-        }
-      ],
-      "keywords": [
-        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
-        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' date de sortie",
-        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' plateformes",
-        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' gameplay",
-        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' guide",
-        "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-apologize-in-advance-for-this-but-introducing-drillpo-296dd488285d",
-      "topic": "I apologize in advance for this, but: Introducing Drillposting",
-      "detected_at": "2026-09-24T07:49:15.022339+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/i-apologize-in-advance-for-this-but-introducing-drillposting/",
-          "title": "I apologize in advance for this, but: Introducing Drillposting",
-          "evidence": "<article> <p>The study of philosophy is powerful because you can map its insights onto any aspect of life today, just as you could a hundred or a thousand years ago. French philosopher Descartes, for example, pioneered the theory of mind-body dualism, writing \"I have a clear and distinct idea of myself, in so far as I am simply a thinking, non-extended thing... and on the other hand I have a distinct idea of body... accordingly, it is certain that I am really distinct from my body, and can exist without it.\" Descartes was born about 300 years too early to experience jetlag, but he was definitely onto something. </p><p>After flying home from Japan, where I spent a few days shooting for the <a href=\"https://www.pcgamer.com/gaming-industry/events-conferences/everything-announced-at-the-pc-gaming-show-tokyo-direct-2026/\" target=\"_blank\">PC Gaming Show Tokyo Direct</a>, I found my separated body and mind capable of little in the way of cogent thought. All I could think of yesterday was a single idea: Drillposting.</p><p>It's thanks to the preeminent philosopher of the 21st century that we're all now familiar with wisdom like \"theres actually zero difference between good & bad things,\" b"
-        }
-      ],
-      "keywords": [
-        "I apologize in advance for this, but: Introducing Drillposting",
-        "I apologize in advance for this, but: Introducing Drillposting date de sortie",
-        "I apologize in advance for this, but: Introducing Drillposting plateformes",
-        "I apologize in advance for this, but: Introducing Drillposting gameplay",
-        "I apologize in advance for this, but: Introducing Drillposting guide",
-        "I apologize in advance for this, but: Introducing Drillposting avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-shoot-the-tires-please-86f1c317ade4",
-      "topic": "Shoot the tires, please",
-      "detected_at": "2026-09-24T07:49:15.022453+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/fps/shoot-the-tires-please/",
-          "title": "Shoot the tires, please",
-          "evidence": "<article> <p>Humvees are a nasty threat in Wardogs. They're fast, have thick enough armor to withstand multiple RPGs, and usually come with a machinegun nest that can easily mow down a squad of infantry in a single reload. But they have a pretty huge weakness that, two weeks in, many players in my matches are unaware of:</p><p><strong>Shoot the tires.</strong> Like, with anything.</p><p>Popping just one tire will cut the Humvees max speed by over half, and popping two will slow it to a crawl. This won't destroy the vehicle or even interrupt the gunner, but it will make it easier to get an unarmored angle on the gun nest and force the driver to make a tough choice: limp out of danger or go for a very risky repair.</p><p>As YouTuber <a href=\"https://www.youtube.com/watch?v=LB89XeQqEiU\" target=\"_blank\">Min Max Lab helpfully tested</a>, <strong>it takes just eight 5.56 bullets (the ammo used by Wardogs' free starter rifle) to pop a tire</strong>, so even a single soldier can deal enough damage to ruin a driver's day. I haven't managed to ruin two tires by myself, but popping one is often enough to convince the Humvee to disengage for repairs.</p><p>Be sure to watch that whole video bel"
-        }
-      ],
-      "keywords": [
-        "Shoot the tires, please",
-        "Shoot the tires, please date de sortie",
-        "Shoot the tires, please plateformes",
-        "Shoot the tires, please gameplay",
-        "Shoot the tires, please guide",
-        "Shoot the tires, please avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-sometimes-it-s-fun-to-hit-a-scorpion-with-a-club-for-38-5cdac91f6d44",
-      "topic": "Sometimes it's fun to hit a scorpion with a club for 38 seconds",
-      "detected_at": "2026-09-24T07:49:15.022688+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/sometimes-its-fun-to-hit-a-scorpion-with-a-club-for-38-seconds/",
-          "title": "Sometimes it's fun to hit a scorpion with a club for 38 seconds",
-          "evidence": "<article> <p>Like many others who carry the spiritual stain of prior MMO contact, I've been spending some time in the WoW: Forever beta. After piloting a freshly-minted orc through the introductory quests in the Valley of Trials, I emerged into the wider Durotar scrubland where I soon entered into combat with a hostile scorpion that had strayed too close to the road I was following to Razor Hill.</p><p>For the next 38 consecutive seconds, I did nothing but watch my orc slowly bludgeon that scorpion to death with a wooden club. And reader, I say this with full sincerity: Those were 38 seconds of peak gaming.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1080px;\"><p class=\"vanilla-image-block\" style=\"padding-top:27.78%;\"><img id=\"BHE7sSp3aWdV6amwPaKaFH\" name=\"scorpidfight_long\" alt=\"A distant shot of an orc fighting a scorpion in World of Warcraft: Forever.\" src=\"https://cdn.mos.cms.futurecdn.net/BHE7sSp3aWdV6amwPaKaFH-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1080\" height=\"300\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption item"
-        }
-      ],
-      "keywords": [
-        "Sometimes it's fun to hit a scorpion with a club for 38 seconds",
-        "Sometimes it's fun to hit a scorpion with a club for 38 seconds date de sortie",
-        "Sometimes it's fun to hit a scorpion with a club for 38 seconds plateformes",
-        "Sometimes it's fun to hit a scorpion with a club for 38 seconds gameplay",
-        "Sometimes it's fun to hit a scorpion with a club for 38 seconds guide",
-        "Sometimes it's fun to hit a scorpion with a club for 38 seconds avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-tim-cain-among-other-things-that-steve-jackson-games-di-0fe5cb34544f",
-      "topic": "Tim Cain: 'Among other things that Steve Jackson Games didn't like about Fallout was Vault Boy'",
-      "detected_at": "2026-09-25T08:11:16.762870+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/fallout/tim-cain-among-other-things-that-steve-jackson-games-didnt-like-about-fallout-was-vault-boy/",
-          "title": "Tim Cain: 'Among other things that Steve Jackson Games didn't like about Fallout was Vault Boy'",
-          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Fo_ebXv5EUY\" allowfullscreen></iframe></div></div><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-ON92mW\"></div> </div> <script src=\"https://kwizly.com/embed/ON92mW.js\" async></script><div class=\"product\"><a data-dimension112=\"f537b59e-b8a0-11f1-8b39-43401f548aea\" data-action=\"Deal Block\" data-label=\"Fallout 4 cheats\" data-dimension48=\"Fallout 4 cheats\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:366px;\"><p class=\"vanilla-image-block\" style=\"padding-top:100.00%;\"><img id=\"afZYAs9fTHP3qxTNcvkXcF\" name=\"skyrim-ae-square\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/afZYAs9fTHP3qxTNcvkXcF-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"366\" height=\"366\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\"></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/fallout-4-cheats-and-console-commands-can-turn-you-into-a-superhero/\" target=\"_blank\" data-dimension112=\"f537b59"
-        }
-      ],
-      "keywords": [
-        "Tim Cain: 'Among other things that Steve Jackson Games didn't like about Fallout was Vault Boy'",
-        "Tim Cain: 'Among other things that Steve Jackson Games didn't like about Fallout was Vault Boy' date de sortie",
-        "Tim Cain: 'Among other things that Steve Jackson Games didn't like about Fallout was Vault Boy' plateformes",
-        "Tim Cain: 'Among other things that Steve Jackson Games didn't like about Fallout was Vault Boy' gameplay",
-        "Tim Cain: 'Among other things that Steve Jackson Games didn't like about Fallout was Vault Boy' guide",
-        "Tim Cain: 'Among other things that Steve Jackson Games didn't like about Fallout was Vault Boy' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-this-chill-procgen-driving-game-has-a-very-clever-ui-fe-9c2cd82195ad",
-      "topic": "This chill procgen driving game has a very clever UI feature",
-      "detected_at": "2026-09-25T08:11:16.763096+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/this-chill-procgen-driving-game-has-a-very-clever-ui-feature/",
-          "title": "This chill procgen driving game has a very clever UI feature",
-          "evidence": "<article> <p><a href=\"https://store.steampowered.com/app/3431300/Slow_Roads/\" target=\"_blank\">Slow Roads</a> is a zen game about driving cars on endless procedurally generated tracks. It is <em>much</em>, <em>much </em>prettier and more enveloping than you'd expect from a game with procgen at its heart. I was surprised: I'd like to write more about it soon. You should definitely try out the demo.</p><p>That aside, I was pretty impressed by Slow Roads' answer to the now ubiquitous driving line in modern car games. You know how, in Forza for instance, there's always a distracting blue or red line on the road, which—depending on your pedantry level, and mine is high—kinda detracts from the immersion? You can toggle these off, of course, but it'd be nice if there was a more elegant answer to the big, loud, shining, sparkling race line.</p><p>Below is Slow Roads' answer. Maybe another game has done this and I haven't seen it. If so, do let me know?</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1280px;\"><p class=\"vanilla-image-block\" style=\"padding-top:62.50%;\"><img id=\"pe"
-        }
-      ],
-      "keywords": [
-        "This chill procgen driving game has a very clever UI feature",
-        "This chill procgen driving game has a very clever UI feature date de sortie",
-        "This chill procgen driving game has a very clever UI feature plateformes",
-        "This chill procgen driving game has a very clever UI feature gameplay",
-        "This chill procgen driving game has a very clever UI feature guide",
-        "This chill procgen driving game has a very clever UI feature avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-it-s-tough-to-stand-out-in-today-s-games-industry-but-s-cd360152416b",
-      "topic": "It's tough to stand out in today's games industry, but 'sorta like Helldivers 2 except dog people' worked on me",
-      "detected_at": "2026-09-25T08:11:16.763280+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/third-person-shooter/its-tough-to-stand-out-in-todays-games-industry-but-sorta-like-helldivers-2-except-dog-people-worked-on-me/",
-          "title": "It's tough to stand out in today's games industry, but 'sorta like Helldivers 2 except dog people' worked on me",
-          "evidence": "<article> <p>Here are some reasons to try the <a href=\"https://store.steampowered.com/news/app/2440760/view/684139458559214563\" target=\"_blank\">Gravhounds open playtest</a> on Steam:</p><ul><li>It's free for the next few days and seems well put-together for a playtest of an unreleased early access game</li><li>It's a co-op wave shooter and those are basically always fun to muck around in with friends, at least for a bit</li><li>The movement feels good, especially gliding across networks of buildable cables</li><li>There's a light resource mining and tower defense element that has potential</li><li>You collect resources by hucking them across the map with a gravity gun, which is satisfying (just don't do it with explosive materials, I learned)</li><li>It doesn't <em>really</em> play like Helldivers 2, it just replicates the home base spaceship setup, but it's a good format, and the shooting is fun</li></ul><p>Also, you may have noticed that the characters are dogs with people bodies. </p><p>Is that also a reason to try it? It did catch my attention, mainly because I find these particular dog people a bit unsettling. I felt the same way about Fox in the <a href=\"https://www.youtube.c"
-        }
-      ],
-      "keywords": [
-        "It's tough to stand out in today's games industry, but 'sorta like Helldivers 2 except dog people' worked on me",
-        "It's tough to stand out in today's games industry, but 'sorta like Helldivers 2 except dog people' worked on me date de sortie",
-        "It's tough to stand out in today's games industry, but 'sorta like Helldivers 2 except dog people' worked on me plateformes",
-        "It's tough to stand out in today's games industry, but 'sorta like Helldivers 2 except dog people' worked on me gameplay",
-        "It's tough to stand out in today's games industry, but 'sorta like Helldivers 2 except dog people' worked on me guide",
-        "It's tough to stand out in today's games industry, but 'sorta like Helldivers 2 except dog people' worked on me avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-14-days-in-dragon-shelter-a-play-by-play-of-my-first-se-06c0b6ba49cc",
-      "topic": "14 days in Dragon Shelter: A play by play of my first season in the Stardew-style farm sim where dragons help bake pies",
-      "detected_at": "2026-09-25T08:11:16.763881+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/life-sim/14-days-in-dragon-shelter-a-play-by-play-of-my-first-season-in-the-stardew-style-farm-sim-where-dragons-help-bake-pies/",
-          "title": "14 days in Dragon Shelter: A play by play of my first season in the Stardew-style farm sim where dragons help bake pies",
-          "evidence": "<article> <h2 class=\"article-body__section\" id=\"section-day-1-anybody-home\"><span>Day 1: Anybody home?</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"96NU6Laa9y9gmcWkfJXaqT\" name=\"Desktop Screenshot 2026.09.24 - 13.10.11.11\" alt=\"Dragon Shelter - A player character stands on a dirt path to an overgrown farm\" src=\"https://cdn.mos.cms.futurecdn.net/96NU6Laa9y9gmcWkfJXaqT-1920-80.png\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/96NU6Laa9y9gmcWkfJXaqT-1920-80.png' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Wild Forest Studio)</span></figcaption></figure><p>I arrive at my grandpa's overgrown old cottage alone. Where's he run off to? Apparently I don't know. There's only enough time on day one to read several"
-        }
-      ],
-      "keywords": [
-        "14 days in Dragon Shelter: A play by play of my first season in the Stardew-style farm sim where dragons help bake pies",
-        "14 days in Dragon Shelter: A play by play of my first season in the Stardew-style farm sim where dragons help bake pies date de sortie",
-        "14 days in Dragon Shelter: A play by play of my first season in the Stardew-style farm sim where dragons help bake pies plateformes",
-        "14 days in Dragon Shelter: A play by play of my first season in the Stardew-style farm sim where dragons help bake pies gameplay",
-        "14 days in Dragon Shelter: A play by play of my first season in the Stardew-style farm sim where dragons help bake pies guide",
-        "14 days in Dragon Shelter: A play by play of my first season in the Stardew-style farm sim where dragons help bake pies avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-experimental-rpg-developer-summer-eternal-we-re-giving--a3b9d28f59aa",
-      "topic": "Experimental RPG developer Summer Eternal: 'We're giving away 5% of our studio to you, the Players' in order to 'mend the trust broken in this industry a thousand times over'",
-      "detected_at": "2026-09-25T08:11:16.764091+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/experimental-rpg-developer-summer-eternal-were-giving-away-5-percent-of-our-studio-to-you-the-players-in-order-to-mend-the-trust-broken-in-this-industry-a-thousand-times-over/",
-          "title": "Experimental RPG developer Summer Eternal: 'We're giving away 5% of our studio to you, the Players' in order to 'mend the trust broken in this industry a thousand times over'",
-          "evidence": "<article> <p>Summer Eternal is an RPG studio co-founded by ex-ZA/UM designers Argo Tuulik and Dora Klindžić, as well as developer/organizer Aleksandar Gavrilović (quoted above). Given the former two developers' experience working on a <a href=\"https://www.pcgamer.com/gaming-industry/game-development/for-a-while-it-seemed-like-miracles-were-possible-and-with-them-redemption-a-follow-up-to-the-legendary-disco-elysium-might-have-been-ready-to-play-within-the-next-yearzaums-devs-loved-it-management-canceled-it-and-laid-off-the-team/\" target=\"_blank\">canceled Disco Elysium expansion</a>, it makes sense they'd want to try something radically different for their new studio's financing and governance.</p><p>Worker-owned cooperatives are rare but not unheard-of in games, but Summer Eternal is also looking to offer ownership stakes (and profit sharing) to its freelancers and customers. Crucially, it's not in the form of \"walkin' around money\" for the latter group. Instead, Summer Eternal wants to offer players a democratic say in the studio's direction, backed up by control of 5% of the profits.</p><p>It reminds me of the EVE Online Council of Stellar Management or Old School RuneScape's pla"
-        }
-      ],
-      "keywords": [
-        "Experimental RPG developer Summer Eternal: 'We're giving away 5% of our studio to you, the Players' in order to 'mend the trust broken in this industry a thousand times over'",
-        "Experimental RPG developer Summer Eternal: 'We're giving away 5% of our studio to you, the Players' in order to 'mend the trust broken in this industry a thousand times over' date de sortie",
-        "Experimental RPG developer Summer Eternal: 'We're giving away 5% of our studio to you, the Players' in order to 'mend the trust broken in this industry a thousand times over' plateformes",
-        "Experimental RPG developer Summer Eternal: 'We're giving away 5% of our studio to you, the Players' in order to 'mend the trust broken in this industry a thousand times over' gameplay",
-        "Experimental RPG developer Summer Eternal: 'We're giving away 5% of our studio to you, the Players' in order to 'mend the trust broken in this industry a thousand times over' guide",
-        "Experimental RPG developer Summer Eternal: 'We're giving away 5% of our studio to you, the Players' in order to 'mend the trust broken in this industry a thousand times over' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-hooked-on-the-brothers-71b068b9e24f",
-      "topic": "Hooked on the brothers",
-      "detected_at": "2026-09-25T08:11:16.764188+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/hooked-on-the-brothers/",
-          "title": "Hooked on the brothers",
-          "evidence": "<article> <p><strong>Spotted in Tokyo: </strong>It appears that brothers Mario Mario and Luigi Mario are getting lit at this barbershop I passed in Harajuku. Really puts the Super Mario Bros. Super Show's <a href=\"https://www.youtube.com/watch?v=BkWYP95WbbY\" target=\"_blank\">\"hooked on the brothers\"</a> in a different light. Do you think anyone from Nintendo's ever stopped by Mr. Brothers for a haircut?</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2149px;\"><p class=\"vanilla-image-block\" style=\"padding-top:110.38%;\"><img id=\"SXz7RVwZpFT779SoXDKw6n\" name=\"mrbrothers\" alt=\"Mr. Brothers Cut Club\" src=\"https://cdn.mos.cms.futurecdn.net/SXz7RVwZpFT779SoXDKw6n-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"2149\" height=\"2372\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Wes Fenlon)</span></figcaption></figure> </article>"
-        }
-      ],
-      "keywords": [
-        "Hooked on the brothers",
-        "Hooked on the brothers date de sortie",
-        "Hooked on the brothers plateformes",
-        "Hooked on the brothers gameplay",
-        "Hooked on the brothers guide",
-        "Hooked on the brothers avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-call-of-duty-cosmetic-toggle-will-cleanse-warzone-of-it-41fa63a87063",
-      "topic": "Call of Duty 'cosmetic toggle' will cleanse Warzone of its Party City aesthetic",
-      "detected_at": "2026-09-25T08:11:16.764305+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-cosmetic-toggle-will-cleanse-warzone-of-its-party-city-aesthetic/",
-          "title": "Call of Duty 'cosmetic toggle' will cleanse Warzone of its Party City aesthetic",
-          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/k4XwdJk7.html\" id=\"k4XwdJk7\" title=\"MW4 cosmetic toggle.mp4\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen></iframe><h2 id=\"warzone-is-trying-something-new\">Warzone is trying something new</h2><ul><li>In Warzone, a \"cosmetic toggle\" that will disable legacy character skins at a client level</li><li>With this toggle, players will instead see operators from Modern Warfare 4, making the game stylistically cohesive</li><li>This toggle only exists within Warzone, as Modern Warfare 4 itself won't carry forward any cosmetics from past games.</li></ul><p>This time last year, Call of Duty had to look itself in the mirror and admit that all the <a href=\"https://www.pcgamer.com/games/fps/activision-finally-acknowledges-call-of-duty-skins-problem-decides-cosmetics-wont-carry-forward-in-black-ops-7-some-of-you-have-said-weve-drifted-from-what-made-call-of-duty-unique-in-the-first-place-that-feedback-hits-home/\">ugly crossover skins</a> had gotten out of hand. The company committed to a clean break with Black Ops 7: No old skins would carry forward, and future cosmetics would have to fit the Black Ops uni"
-        }
-      ],
-      "keywords": [
-        "Call of Duty 'cosmetic toggle' will cleanse Warzone of its Party City aesthetic",
-        "Call of Duty 'cosmetic toggle' will cleanse Warzone of its Party City aesthetic date de sortie",
-        "Call of Duty 'cosmetic toggle' will cleanse Warzone of its Party City aesthetic plateformes",
-        "Call of Duty 'cosmetic toggle' will cleanse Warzone of its Party City aesthetic gameplay",
-        "Call of Duty 'cosmetic toggle' will cleanse Warzone of its Party City aesthetic guide",
-        "Call of Duty 'cosmetic toggle' will cleanse Warzone of its Party City aesthetic avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-cool-demo-alert-be-a-cyberpunk-shopkeeper-in-probably-s-8eadcd93b013",
-      "topic": "Cool demo alert: be a cyberpunk shopkeeper in Probably Stolen",
-      "detected_at": "2026-09-25T08:11:16.764369+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/sim/cool-demo-alert-be-a-cyberpunk-shopkeeper-in-probably-stolen/",
-          "title": "Cool demo alert: be a cyberpunk shopkeeper in Probably Stolen",
-          "evidence": "<article> <p><strong>Just a quick alert to let you know about the excellent demo for Probably Stolen</strong>, where you're a cyberpunk shopkeeper who can deal in rat meat, counterfeit cigarettes, and contraband weapons. <a href=\"https://store.steampowered.com/app/4349200/Probably_Stolen_Demo/#app_reviews_hash\" target=\"_blank\">Check it out on Steam</a>. The sim is due out next month but the demo is surprisingly hefty!</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/8Ef6Pkrsu04\" allowfullscreen></iframe></div></div> </article>"
-        }
-      ],
-      "keywords": [
-        "Cool demo alert: be a cyberpunk shopkeeper in Probably Stolen",
-        "Cool demo alert: be a cyberpunk shopkeeper in Probably Stolen date de sortie",
-        "Cool demo alert: be a cyberpunk shopkeeper in Probably Stolen plateformes",
-        "Cool demo alert: be a cyberpunk shopkeeper in Probably Stolen gameplay",
-        "Cool demo alert: be a cyberpunk shopkeeper in Probably Stolen guide",
-        "Cool demo alert: be a cyberpunk shopkeeper in Probably Stolen avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-8-strong-elder-scrolls-opinions-with-over-2-500-combine-bfbd14622e0c",
-      "topic": "8 strong Elder Scrolls opinions: With over 2,500 combined hours (and not all as stealth archers), we shout at each other about Skyrim, Morrowind, and Oblivion",
-      "detected_at": "2026-09-25T08:11:16.764816+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/the-elder-scrolls/8-strong-elder-scrolls-opinions-with-over-2-500-combined-hours-and-not-all-as-stealth-archers-we-shout-at-each-other-about-skyrim-morrowind-and-oblivion/",
-          "title": "8 strong Elder Scrolls opinions: With over 2,500 combined hours (and not all as stealth archers), we shout at each other about Skyrim, Morrowind, and Oblivion",
-          "evidence": "<article> <p>We've become the Nerevarine and defeated Dagoth Ur. We've foiled Mehrunes Dagon and closed the Oblivion gates. We've destroyed Alduin and absorbed his soul. We've bought horse armor, stolen an Elder Scroll, and even once pickpocked a note from the butt of a fully-dressed assassin <a href=\"https://www.pcgamer.com/great-moments-in-pc-gaming-pickpocketing-a-note-from-an-assassins-butt-without-him-noticing/\" target=\"_blank\">without him noticing</a>.</p><p>In other words, we've done it all, and with a combined 2,500+ hours across the series, five PC Gamer editors have come together to say few things about the past and future of The Elder Scrolls series.</p><p>Below, we've shouted some of our strongest opinions about TES—and don't worry, Dragonborn, we've left some room for you to <em>Fus-Ro-Dah</em> yourself. After each opinion, you can click a button to tell us if you agree or disagree with our scalding hot takes. </p><h4 class=\"article-body__section\" id=\"section-the-elder-scrolls-should-be-an-rpg-again\"><span>The Elder Scrolls should be an RPG again</span></h4><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><"
-        }
-      ],
-      "keywords": [
-        "8 strong Elder Scrolls opinions: With over 2,500 combined hours (and not all as stealth archers), we shout at each other about Skyrim, Morrowind, and Oblivion",
-        "8 strong Elder Scrolls opinions: With over 2,500 combined hours (and not all as stealth archers), we shout at each other about Skyrim, Morrowind, and Oblivion date de sortie",
-        "8 strong Elder Scrolls opinions: With over 2,500 combined hours (and not all as stealth archers), we shout at each other about Skyrim, Morrowind, and Oblivion plateformes",
-        "8 strong Elder Scrolls opinions: With over 2,500 combined hours (and not all as stealth archers), we shout at each other about Skyrim, Morrowind, and Oblivion gameplay",
-        "8 strong Elder Scrolls opinions: With over 2,500 combined hours (and not all as stealth archers), we shout at each other about Skyrim, Morrowind, and Oblivion guide",
-        "8 strong Elder Scrolls opinions: With over 2,500 combined hours (and not all as stealth archers), we shout at each other about Skyrim, Morrowind, and Oblivion avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-best-valheim-mods-for-no-nonsense-crafting-portable-247e75414aae",
-      "topic": "The best Valheim mods for no-nonsense crafting, portable building plans, and more RNG sightseeing",
-      "detected_at": "2026-09-25T08:11:16.765333+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/survival-crafting/best-valheim-mods/",
-          "title": "The best Valheim mods for no-nonsense crafting, portable building plans, and more RNG sightseeing",
-          "evidence": "<article> <p>It wasn't a long wait for some of my favorite Valheim mods to start working again after the 1.0 launch, and just as I expected, there were plenty of new fan-made features to tinker with. I'm still digging through the sea of new creations, but here's a list of some of the best Valheim mods I've found so far—along with advice on your mod manager options. </p><h2 class=\"article-body__section\" id=\"section-valheim-mod-managers-and-required-mods\"><span>Valheim mod managers and required mods</span></h2><section class=\"article__schema-question\"><h3>Gale Mod Manager or R2ModMan</h3><article class=\"article__schema-answer\"><p>\"Which mod manager do I use?\" is an eternal dilemma, but I've been using Gale to mod Valheim since it works with both Thunderstore and Hexium downloads. If you're already using Thunderstore and don't feel like swapping, that should be just fine for the one site, but I like that Gale is lightweight with extended compatibility. </p><ul><li><strong>Gale Mod Manager</strong> | <a href=\"https://github.com/Kesomannen/gale\">GitHub</a> | <a href=\"https://thunderstore.io/c/lethal-company/p/Kesomannen/GaleModManager/\">Thunderstore</a></li><li><strong>R2ModMan</strong>"
-        }
-      ],
-      "keywords": [
-        "The best Valheim mods for no-nonsense crafting, portable building plans, and more RNG sightseeing",
-        "The best Valheim mods for no-nonsense crafting, portable building plans, and more RNG sightseeing date de sortie",
-        "The best Valheim mods for no-nonsense crafting, portable building plans, and more RNG sightseeing plateformes",
-        "The best Valheim mods for no-nonsense crafting, portable building plans, and more RNG sightseeing gameplay",
-        "The best Valheim mods for no-nonsense crafting, portable building plans, and more RNG sightseeing guide",
-        "The best Valheim mods for no-nonsense crafting, portable building plans, and more RNG sightseeing avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-thief-2-remastered-should-be-thief-2-gold-5c57ce4bca3a",
       "topic": "Thief 2 Remastered should be Thief 2 Gold",
@@ -5986,6 +5604,386 @@
         "Hades multijoueur",
         "Hades PC",
         "Hades Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "rss-leisure-suit-larry-is-about-to-take-his-final-bow-1bfb2364c609",
+      "topic": "Leisure Suit Larry is about to take his final bow",
+      "detected_at": "2026-10-09T19:46:15.277976+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/adventure/leisure-suit-larry-is-about-to-take-his-final-bow/",
+          "title": "Leisure Suit Larry is about to take his final bow",
+          "evidence": "<article> <p>2018's <a href=\"https://www.pcgamer.com/leisure-suit-larry-wet-dreams-won-t-dry/\" target=\"_blank\">Leisure Suit Larry: Wet Dreams Don't Dry</a> was a genuinely pleasant surprise, in that it's actually good—quite a contrast to the preceding games in the series, Magna Cum Laude and Box Office Bust, which were decidedly <em>not </em>good. A sequel followed, <a href=\"https://www.pcgamer.com/leisure-suit-larry-is-coming-again-in-wet-dreams-dry-twice/\" target=\"_blank\">Wet Dreams Dry Twice</a>, and once again it was pretty good stuff—not hugely innovative or high art, but a genuine Leisure Suit Larry experience that manages to avoid embarrassing itself (though it embarrasses Larry himself plenty).</p><p>Both of them, sadly, are soon going away for good. An <a href=\"https://store.steampowered.com/news/app/765870/view/707785259656152016\" target=\"_blank\">announcement</a> on Steam from publisher Assemble Entertainment says both games are being removed from the store on October 23. Ahead of that, they're being offered seriously cheap: 95% off the regular price, dropping them to less than $2 each.</p><p>The removal of the Wet Dreams duo effectively puts a pin in a process than began"
+        }
+      ],
+      "keywords": [
+        "Leisure Suit Larry is about to take his final bow",
+        "Leisure Suit Larry is about to take his final bow date de sortie",
+        "Leisure Suit Larry is about to take his final bow plateformes",
+        "Leisure Suit Larry is about to take his final bow gameplay",
+        "Leisure Suit Larry is about to take his final bow guide",
+        "Leisure Suit Larry is about to take his final bow avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-i-might-finally-have-gone-too-far-with-a-gta-5-mod-that-440203a80784",
+      "topic": "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2",
+      "detected_at": "2026-10-09T19:46:15.278261+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-might-finally-have-gone-too-far-with-a-gta-5-mod-that-imports-most-of-doom-2/",
+          "title": "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>I really don't know how to build up to this one. Grand Theft Auto 5 is Doom now, okay? I put in a mod that imports DOOM2.wad into GTA 5 and now that's what the game is. There are demons. The game is first person. I have a minigun and a BFG. That's the truth of the matter and we're all just going to have to find some way to live with it.</p><p>The mod is <a href=\"https://www.gta5-mods.com/scripts/doomii_hellonearth_gta5_v1-0\" target=\"_blank\">Doom 2 in GTA 5 Hell On Earth</a> (D2IGTA5HOE), and it does all those things I said. Hit F9 and the game you are playing shifts from"
+        }
+      ],
+      "keywords": [
+        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2",
+        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 date de sortie",
+        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 plateformes",
+        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 gameplay",
+        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 guide",
+        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-wardogs-will-bribe-players-with-cash-and-xp-to-pick-blu-48c37364a245",
+      "topic": "Wardogs will bribe players with cash and XP to pick Blue team in Season 2",
+      "detected_at": "2026-10-09T19:46:15.278491+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/wardogs-will-bribe-players-with-cash-and-xp-to-pick-blue-team-in-season-2/",
+          "title": "Wardogs will bribe players with cash and XP to pick Blue team in Season 2",
+          "evidence": "<article> <div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/quGfuiKE7kHW9W8XDcB8yS.jpg\" alt=\"wardogs blue team\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Blue team reinforcements</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><ul><li>\"Lonestar cash and XP bonus. Season 2 only. New Bakurani spawn.\" </li><li>\"We're looking at how we can help the win rate of a certain team.\" -Bulkhead CEO Joe Brammer (via <a href=\"https://youtu.be/J2VxjMnMDw4\" target=\"_blank\">\"Road to Season 2\" devlog</a>)</li></ul></div></div></div></div><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/J2VxjMnMDw4\" allowfullscreen></iframe></div></div><p>Bulkhead wants to boost one team's win rate, and it's willing to bribe its players (with in-game cash) to do it. Despite all three teams starting on equal grounds, many <a href=\"https://www.pcgamer.com/games/fps/wardogs-p"
+        }
+      ],
+      "keywords": [
+        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2",
+        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 date de sortie",
+        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 plateformes",
+        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 gameplay",
+        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 guide",
+        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-i-was-nice-to-you-three-times-in-a-row-so-can-i-have-on-1bfbf8a2c679",
+      "topic": "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances",
+      "detected_at": "2026-10-09T19:46:15.278686+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/life-sim/i-was-nice-to-you-three-times-in-a-row-so-can-i-have-one-sex-please-why-nivalis-nights-intentionally-avoided-transactional-romances/",
+          "title": "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/nivalis-nights/\">Nivalis Nights</a> is mostly a story-heavy shop simulation but it does also have a sprinkle of relationship building. Conversations with characters can affect four different attitudes towards you: friendly, combative, romantic, and savvy. Dialogue options aren't clearly marked though, so you don't always know if you're about to piss someone off or say something they'll perceive as flirtatious.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"WMicmi9VPQou9JE7XCguai\" name=\"20261008163443_1\" alt=\"Nivalis Nights - Lois offers to pla co-op games together and the player has the option to say they'd rather do something in the real world.\" src=\"https://cdn.mos.cms.futurecdn.net/WMicmi9VPQou9JE7XCguai-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/WMicmi9VPQou9JE7XCguai-1920-80.jpg' target='_blank' class='expand-bu"
+        }
+      ],
+      "keywords": [
+        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances",
+        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances date de sortie",
+        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances plateformes",
+        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances gameplay",
+        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances guide",
+        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-worldwide-pc-shipments-have-plummeted-by-over-20-to-the-6afefaf216a1",
+      "topic": "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one",
+      "detected_at": "2026-10-09T19:46:15.279016+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/worldwide-pc-shipments-have-plummeted-by-over-20-percent-to-the-surprise-of-absolutely-no-one/",
+          "title": "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one",
+          "evidence": "<article> <p>IDC Research has <a href=\"https://www.idc.com/resource-center/press-releases/idc-pc-tracker-3q26/\" target=\"_blank\">released its figures</a> regarding worldwide PC shipments in the third quarter of 2026, and would you believe it, they've dropped considerably. Looking at the year-over-year numbers, the shipped units dropped from 78.5 million in Q3 2025, to 62.7 million in Q3 of this year. That's a 20.1% plummet, for percentage fans.</p><p>But why, I hear you asking. Actually, I don't. The <a href=\"https://www.pcgamer.com/hardware/memory/ram-and-storage-is-ridiculously-expensive-right-now-because-of-drumroll-ai-of-course-and-theres-little-reason-to-think-prices-will-drop-any-time-soon/\" target=\"_blank\">memory and supply chain crisis, driven by AI server demand</a> is pinpointed by the IDC as the primary driver of the decline, which will come as no surprise to those of us in non-rock-based abodes.</p><p>However, it's worth looking a bit deeper into exactly what's happened here. The \"pull-in\" of stock created by vendors buying up supply in the first half of this year (in anticipation of the forecasted price hikes) has essentially borrowed volume from the second half, accord"
+        }
+      ],
+      "keywords": [
+        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one",
+        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one date de sortie",
+        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one plateformes",
+        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one gameplay",
+        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one guide",
+        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-valve-is-telling-devs-how-well-their-games-actually-run-30455c8a892f",
+      "topic": "Valve is telling devs how well their games actually run on Steam Deck with real world data",
+      "detected_at": "2026-10-09T19:46:15.279241+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/valve-is-telling-devs-how-well-their-games-actually-run-on-steam-deck-with-real-world-data/",
+          "title": "Valve is telling devs how well their games actually run on Steam Deck with real world data",
+          "evidence": "<article> <p>Have you ever clicked on a Steam Deck Verified game, attempted to boot it up, and realised it probably shouldn't have been verified? Well, Steam's new system should help developers give a more accurate understanding of how their games run on the Steam Deck. </p><p>As of <a href=\"https://store.steampowered.com/news/group/4145017?emclan=103582791433666425&emgid=676258795703239816\" target=\"_blank\">October 1</a> (via <a href=\"https://www.techpowerup.com/353411/steam-gives-devs-even-more-fps-data-for-performance-optimization\" target=\"_blank\">TechPowerUp</a>), Valve has given developers access to frame rate data as reported by Steam Deck users. A developer can see the frame rate that users are playing at as a percentage of sessions, meaning they can see if it runs well (at the Steam Deck's usual 60/90 fps cap) or not (users are generally lowering the fps limit).</p><p>That does mean it's only data willingly shared, and there are some caveats. The LCD Steam Deck has a max refresh rate of 60, while the OLED model goes up to 90. As games are often capped for fps to save resources, that will shape the stats somewhat. In addition, it can't guarantee how Steam Deck owners use thei"
+        }
+      ],
+      "keywords": [
+        "Valve is telling devs how well their games actually run on Steam Deck with real world data",
+        "Valve is telling devs how well their games actually run on Steam Deck with real world data date de sortie",
+        "Valve is telling devs how well their games actually run on Steam Deck with real world data plateformes",
+        "Valve is telling devs how well their games actually run on Steam Deck with real world data gameplay",
+        "Valve is telling devs how well their games actually run on Steam Deck with real world data guide",
+        "Valve is telling devs how well their games actually run on Steam Deck with real world data avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-wow-forever-dev-says-there-s-a-real-longing-for-that-sl-3e59bb82e4e8",
+      "topic": "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature'",
+      "detected_at": "2026-10-09T19:46:15.279547+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-dev-says-theres-a-real-longing-for-that-slower-more-deliberate-pace-in-mmos-a-deliberate-pushback-on-this-go-go-go-nature/",
+          "title": "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature'",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a> has me in a chokehold, and it's partially because—well, it's relaxing. As my colleague at PC Gamer so succinctly put it: <a href=\"https://www.pcgamer.com/games/world-of-warcraft/sometimes-its-fun-to-hit-a-scorpion-with-a-club-for-38-seconds/\">\"Sometimes it's fun to hit a scorpion with a club for 38 seconds.\"</a> Despite aping an era seen as more 'hardcore' to some players, Forever's lack of blaring and annoying seasonal grist is honestly refreshing.</p><p>Speaking with associate production director Clay Stone about why I'm certainly not the only one feeling that way (given the success of Classic, Season of Discovery, and now Forever's beta), he says it's a question Blizzard's been considering \"for a little while.</p><p>\"We saw, certainly with the success of Classic and the response to that, it was more than just a nostalgic experience for some people. The fact that they didn't leave, you know? They didn't just play for a month. They fell in love with it all over again. Then we saw it again a lot with Hardcore in 2023. All of a sudden, now you had a whole bunch of people who'd ne"
+        }
+      ],
+      "keywords": [
+        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature'",
+        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' date de sortie",
+        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' plateformes",
+        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' gameplay",
+        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' guide",
+        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-motion-blur-is-the-worst-effect-in-games-confirmed-462e7b77ae3d",
+      "topic": "Motion blur is the worst effect in games (confirmed)",
+      "detected_at": "2026-10-09T19:46:15.283569+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/motion-blur-is-the-worst-effect-in-games-confirmed/",
+          "title": "Motion blur is the worst effect in games (confirmed)",
+          "evidence": "<article> <p>We've been running a knockout tournament that puts graphical effects in games against one another in a fierce battle of public opinion. Each round saw two effects go head to head, and only one made it out to fight another day. We whittled it down to just two effects, chromatic aberration and motion blur, and after 7,000 votes cast across the tournament, we can finally declare the effect that sucks the most with near-scientific certainty:</p><p>It's motion blur. By an absolute landslide.</p><div class=\"vizualizer-embed\"><style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');#fv-chart-1791557603133-6zzwcxp4g *, #fv-chart-1791557603133-6zzwcxp4g *:before, #fv-chart-1791557603133-6zzwcxp4g *:after, #fv-chart-1791557603133-6zzwcxp4g-slideshow *, #fv-chart-1791557603133-6zzwcxp4g-slideshow *:before, #fv-chart-1791557603133-6zzwcxp4g-slideshow *:after {box-sizing: border-box !important; margin: 0; padding: 0; border: 0;font-size: 100%; font: inherit; vertical-align: baseline;}#fv-chart-1791557603133-6zzwcxp4g, #fv-chart-1791557603133-6zzwcxp4g-"
+        }
+      ],
+      "keywords": [
+        "Motion blur is the worst effect in games (confirmed)",
+        "Motion blur is the worst effect in games (confirmed) date de sortie",
+        "Motion blur is the worst effect in games (confirmed) plateformes",
+        "Motion blur is the worst effect in games (confirmed) gameplay",
+        "Motion blur is the worst effect in games (confirmed) guide",
+        "Motion blur is the worst effect in games (confirmed) avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-when-the-weather-turns-foul-in-arc-raiders-pendola-pass-e1eac5bfd0d6",
+      "topic": "When the weather turns foul in Arc Raiders' Pendola Pass, take a trip to a Storm Hut—they're some of the best loot spots I've found",
+      "detected_at": "2026-10-09T19:46:15.283832+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/when-the-weather-turns-foul-in-arc-raiders-pendola-pass-take-a-trip-to-a-storm-hut-theyre-some-of-the-best-loot-spots-ive-found/",
+          "title": "When the weather turns foul in Arc Raiders' Pendola Pass, take a trip to a Storm Hut—they're some of the best loot spots I've found",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/arc-raiders/\" target=\"_blank\">Arc Raiders</a>' Pendola Pass is packed to the gills with loot. No matter where you search, you're likely to come away with some rare items, whether you're smashing open iced up doors to get into sealed rooms, or climbing into hard-to-access spots with the Grappling Hook and yoinking everything not nailed down.</p><p>But some of the best loot spots I've found are the Storm Huts. Pendola Pass has a special weather condition called Flash Freeze where a snow storm randomly moves in and you start taking damage after a while, similar to the previous Cold Snap map condition. You'll also hear an emergency broadcast over loudspeakers explaining that the temperature outside is deadly, and special shelters are being opened up.</p><figure role=\"gallery\"><figure><img src=\"https://cdn.mos.cms.futurecdn.net/xwwqzq8A4b3KqFsSypKSaH-1920-80.jpg\" alt=\"Arc Raiders Storm Hut on map\" /><figcaption>Storm Huts only open and appear as map icons when the Flash Freeze hits<small role=\"credit\">Embark Studios</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/rzYwNVB7UKeNDqYtvk9JfH-1920-80.jpg\" alt=\"Arc R"
+        }
+      ],
+      "keywords": [
+        "When the weather turns foul in Arc Raiders' Pendola Pass, take a trip to a Storm Hut—they're some of the best loot spots I've found",
+        "When the weather turns foul in Arc Raiders' Pendola Pass, take a trip to a Storm Hut—they're some of the best loot spots I've found date de sortie",
+        "When the weather turns foul in Arc Raiders' Pendola Pass, take a trip to a Storm Hut—they're some of the best loot spots I've found plateformes",
+        "When the weather turns foul in Arc Raiders' Pendola Pass, take a trip to a Storm Hut—they're some of the best loot spots I've found gameplay",
+        "When the weather turns foul in Arc Raiders' Pendola Pass, take a trip to a Storm Hut—they're some of the best loot spots I've found guide",
+        "When the weather turns foul in Arc Raiders' Pendola Pass, take a trip to a Storm Hut—they're some of the best loot spots I've found avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-counter-strike-2-player-dedicates-master-s-thesis-to-ro-40e9d52a385c",
+      "topic": "Counter-Strike 2 player dedicates Master's thesis to rooting out cheaters, creates grade A player tracking system",
+      "detected_at": "2026-10-09T19:46:15.284134+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/counter-strike-2-player-dedicates-masters-thesis-to-rooting-out-cheaters-creates-grade-a-player-tracking-system/",
+          "title": "Counter-Strike 2 player dedicates Master's thesis to rooting out cheaters, creates grade A player tracking system",
+          "evidence": "<article> <p>Cheating: it's why we can't have nice things. Whether your online shooter of choice is beset by players targeting you through walls, or you're a Linux user who would definitely be playing more games <a href=\"https://www.pcgamer.com/software/linux/2025-might-have-been-the-year-for-linux-gaming-but-theres-still-a-way-to-go-until-i-switch-from-windows/\" target=\"_blank\">were it not for kernel-level anti-cheat systems</a>, the actions of a few spoil the fun for many. Banning cheating players is the obvious thing to do, but what's to stop bad eggs making fresh accounts?</p><p>A student at the Norwegian University of Science and Technology has a few ideas. Named Christopher B. Didriksen, the student even based his Master's thesis on one possible biometric-based solution. <a href=\"https://www.reddit.com/r/cs2/comments/1wxh5mp/i_found_a_way_to_make_bans_follow_players_instead/?share_id=KJc9QD0Ca5FaXr3UQdwcS&utm_content=1&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1\" target=\"_blank\">Sharing some of his research findings on Reddit</a>, Didriksen explained that players in <a href=\"https://www.pcgamer.com/counter-strike-2/\" target=\"_blank\">Counter-Strike 2</a> can"
+        }
+      ],
+      "keywords": [
+        "Counter-Strike 2 player dedicates Master's thesis to rooting out cheaters, creates grade A player tracking system",
+        "Counter-Strike 2 player dedicates Master's thesis to rooting out cheaters, creates grade A player tracking system date de sortie",
+        "Counter-Strike 2 player dedicates Master's thesis to rooting out cheaters, creates grade A player tracking system plateformes",
+        "Counter-Strike 2 player dedicates Master's thesis to rooting out cheaters, creates grade A player tracking system gameplay",
+        "Counter-Strike 2 player dedicates Master's thesis to rooting out cheaters, creates grade A player tracking system guide",
+        "Counter-Strike 2 player dedicates Master's thesis to rooting out cheaters, creates grade A player tracking system avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-how-to-get-planks-and-sheet-metal-in-arc-raiders-f17ac4498720",
+      "topic": "How to get planks and sheet metal in Arc Raiders",
+      "detected_at": "2026-10-09T19:46:15.284411+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-planks-sheet-metal-location/",
+          "title": "How to get planks and sheet metal in Arc Raiders",
+          "evidence": "<article> <figure role=\"gallery\"><figure><img src=\"https://cdn.mos.cms.futurecdn.net/nMov6eDozMBqGUoZnsmBtG-1920-80.jpg\" alt=\"Arc Raiders planks and sheet metal - Celeste\" /><figcaption>The easiest way to get both is to buy them from Celeste<small role=\"credit\">Embark Studios</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/xrfK8xfKw9zTVieEDZS2sG-1920-80.jpg\" alt=\"Arc Raiders planks and sheet metal - Drawer\" /><figcaption>Looting drawers and cupboards in residential areas like Pendola Pass's Old Town is good for planks<small role=\"credit\">Embark Studios</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/B7qDzn6enRyzpMDzspebsG-1920-80.jpg\" alt=\"Arc Raiders planks and sheet metal - Yellow drawer\" /><figcaption>These yellow drawers in Stella Montis' Assembly area seem to be a guaranteed sheet metal drop<small role=\"credit\">Embark Studios</small></figcaption></figure></figure><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">🛠️ You can buy planks and sheet metal from Celeste.</p><p class=\"fancy-box__body-text\">🛠️ Or find them in residential/old worl"
+        }
+      ],
+      "keywords": [
+        "How to get planks and sheet metal in Arc Raiders",
+        "How to get planks and sheet metal in Arc Raiders date de sortie",
+        "How to get planks and sheet metal in Arc Raiders plateformes",
+        "How to get planks and sheet metal in Arc Raiders gameplay",
+        "How to get planks and sheet metal in Arc Raiders guide",
+        "How to get planks and sheet metal in Arc Raiders avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-does-razer-s-perfect-180-insta-turning-mouse-feature-co-ff0bde9505df",
+      "topic": "Does Razer's 'Perfect 180' insta-turning mouse feature count as cheating? You decide",
+      "detected_at": "2026-10-09T19:46:15.284609+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-mice/does-razers-perfect-180-insta-turning-mouse-feature-count-as-cheating-you-decide/",
+          "title": "Does Razer's 'Perfect 180' insta-turning mouse feature count as cheating? You decide",
+          "evidence": "<article> <p>Razer's new <a href=\"https://www.pcgamer.com/hardware/gaming-mice/new-razer-basilisk-v4-executes-perfect-180-degree-turns-at-the-click-of-a-button-all-while-looking-like-a-power-rangers-foot/\" target=\"_blank\">Basilisk V4 Pro</a> and V4 HyperSpeed gaming mice are here, and with them comes a controversial new software feature: Perfect 180, an option that allows you to assign a quick 180 degree turn to a mouse button. Which, as Razer puts it, 'gives competitive FPS players the edge to react to threats from any direction.'</p><p>The feature is said to be <a href=\"https://www.gamespress.com/en-GB/THE-APEX-RETURNS-RAZER-UNVEILS-THE-BASILISK-V4-LINE#:~:text=Perform%20instant%20180%2Ddegree%20turns%20on%20any%20map%20with%20Perfect%20180\" target=\"_blank\">designed for low-sensitivity players</a>, who would otherwise struggle to turn around to face a threat behind them at speed. By the looks of the Synapse screenshots, Perfect 180 can be configured for specific games—and allows the player to spin in either direction, with the option to tweak the count configuration.</p><iframe src=\"https://content.jwplatform.com/players/6bKBCXNt.html\" id=\"6bKBCXNt\" title=\"Perfect-180 Marvel-riva"
+        }
+      ],
+      "keywords": [
+        "Does Razer's 'Perfect 180' insta-turning mouse feature count as cheating? You decide",
+        "Does Razer's 'Perfect 180' insta-turning mouse feature count as cheating? You decide date de sortie",
+        "Does Razer's 'Perfect 180' insta-turning mouse feature count as cheating? You decide plateformes",
+        "Does Razer's 'Perfect 180' insta-turning mouse feature count as cheating? You decide gameplay",
+        "Does Razer's 'Perfect 180' insta-turning mouse feature count as cheating? You decide guide",
+        "Does Razer's 'Perfect 180' insta-turning mouse feature count as cheating? You decide avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-1145350",
+      "topic": "Configuration PC Hades II : minimale, recommandée et conseils",
+      "detected_at": "2026-10-09T19:46:14.813010+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1145350/",
+          "title": "Hades II sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hades II, consultée le 2026-10-09. Développeur : Supergiant Games. Éditeur : Supergiant Games. Date de sortie sur Steam : 25 sept. 2025. Genres : Action, Indépendant, RPG. Systèmes pris en charge sur Steam : Windows, macOS. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 64-bit ; Processeur : Dual Core 2.4 GHz ; Mémoire vive : 8 GB de mémoire ; Graphiques : GeForce GTX 950, Radeon R7 360, or Intel HD Graphics 630 ; Espace disque : 11 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 64-bit ; Processeur : Quad Core 2.4ghz ; Mémoire vive : 16 GB de mémoire ; Graphiques : GeForce RTX 2060, Radeon RX 5600 XT, or Intel Arc A580 ; Espace disque : 11 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_ef0f63061d0a0a9a7e46f3b84f125d25330e8f19.1920x1080.jpg?t=1779901265"
+        }
+      ],
+      "keywords": [
+        "configuration pc Hades II",
+        "Hades II PC",
+        "Hades II Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-1145350",
+      "topic": "Hades II multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-09T19:46:14.813065+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1145350/",
+          "title": "Hades II sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hades II, consultée le 2026-10-09. Développeur : Supergiant Games. Éditeur : Supergiant Games. Date de sortie sur Steam : 25 sept. 2025. Genres : Action, Indépendant, RPG. Systèmes pris en charge sur Steam : Windows, macOS. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Sous-titres disponibles, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Frayez-vous un chemin vers et au-delà des Enfers et affrontez le Titan du Temps dans ce deuxième volet ensorcelant du dungeon crawler de type rogue-like multiprimé.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_ef0f63061d0a0a9a7e46f3b84f125d25330e8f19.1920x1080.jpg?t=1779901265"
+        }
+      ],
+      "keywords": [
+        "Hades II multijoueur",
+        "Hades II PC",
+        "Hades II Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-553850",
+      "topic": "Configuration PC Helldivers 2 : minimale, recommandée et conseils",
+      "detected_at": "2026-10-09T19:46:15.111694+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/553850/",
+          "title": "HELLDIVERS™ 2 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de HELLDIVERS™ 2, consultée le 2026-10-09. Développeur : Arrowhead Game Studios. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 8 févr. 2024. Genres : Action. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-4790K or AMD Ryzen 5 1500X ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 470 ; Espace disque : 135 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-9700K or AMD Ryzen 7 3700X ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GeForce RTX 2060 or AMD Radeon RX 6600XT ; Espace disque : 40 GB d'espace disque disponible ; Notes supplémentaires : SSD Recommended.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/aed08979e15f54798f287dd8820fb5838476b5fa/ss_aed08979e15f54798f287dd8820fb5838476b5fa.1920x1080.jpg?t=1789585784"
+        }
+      ],
+      "keywords": [
+        "configuration pc Helldivers 2",
+        "Helldivers 2 PC",
+        "Helldivers 2 Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-553850",
+      "topic": "Helldivers 2 multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-09T19:46:15.111748+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/553850/",
+          "title": "HELLDIVERS™ 2 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de HELLDIVERS™ 2, consultée le 2026-10-09. Développeur : Arrowhead Game Studios. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 8 févr. 2024. Genres : Action. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Multijoueur, Coopération, Coopération en ligne, Succès Steam, Achats en jeu, Taille de texte réglable, Caméra et confort de vue, Conversion de la parole en texte (chat), Conversion du texte en parole (chat), Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Menus de jeu narrés, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Son stéréo, Options de sous-titres, Son multicanal, Compat. contrôleurs partielle, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : La dernière ligne d'attaque de la galaxie. Engagez-vous chez les Helldivers et rejoignez le combat pour la liberté à travers une galaxie hostile dans ce jeu de tir à la troisième personne féroce et frénétique.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/aed08979e15f54798f287dd8820fb5838476b5fa/ss_aed08979e15f54798f287dd8820fb5838476b5fa.1920x1080.jpg?t=1789585784"
+        }
+      ],
+      "keywords": [
+        "Helldivers 2 multijoueur",
+        "Helldivers 2 PC",
+        "Helldivers 2 Steam"
       ],
       "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
       "status": "new"

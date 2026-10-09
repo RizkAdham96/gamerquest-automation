@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-09T09:38:25.644941+00:00",
+  "updated_at": "2026-10-09T19:46:15.722254+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -4356,6 +4356,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "I apologize in advance for this, but: Introducing Drillposting"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1145350",
+      "topic": "Configuration PC Hades II : minimale, recommandée et conseils",
+      "detected_at": "2026-10-09T19:46:14.813010+00:00",
+      "analysed_at": "2026-10-09T19:46:15.722015+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1145350/",
+          "title": "Hades II sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hades II, consultée le 2026-10-09. Développeur : Supergiant Games. Éditeur : Supergiant Games. Date de sortie sur Steam : 25 sept. 2025. Genres : Action, Indépendant, RPG. Systèmes pris en charge sur Steam : Windows, macOS. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 64-bit ; Processeur : Dual Core 2.4 GHz ; Mémoire vive : 8 GB de mémoire ; Graphiques : GeForce GTX 950, Radeon R7 360, or Intel HD Graphics 630 ; Espace disque : 11 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 64-bit ; Processeur : Quad Core 2.4ghz ; Mémoire vive : 16 GB de mémoire ; Graphiques : GeForce RTX 2060, Radeon RX 5600 XT, or Intel Arc A580 ; Espace disque : 11 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_ef0f63061d0a0a9a7e46f3b84f125d25330e8f19.1920x1080.jpg?t=1779901265"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Hades II",
+        "secondary_keywords": [
+          "Hades II PC",
+          "Hades II Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Hades II : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1145350",
+      "topic": "Hades II multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-09T19:46:14.813065+00:00",
+      "analysed_at": "2026-10-09T19:46:15.722068+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1145350/",
+          "title": "Hades II sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hades II, consultée le 2026-10-09. Développeur : Supergiant Games. Éditeur : Supergiant Games. Date de sortie sur Steam : 25 sept. 2025. Genres : Action, Indépendant, RPG. Systèmes pris en charge sur Steam : Windows, macOS. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Sous-titres disponibles, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Frayez-vous un chemin vers et au-delà des Enfers et affrontez le Titan du Temps dans ce deuxième volet ensorcelant du dungeon crawler de type rogue-like multiprimé.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_ef0f63061d0a0a9a7e46f3b84f125d25330e8f19.1920x1080.jpg?t=1779901265"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Hades II multijoueur",
+        "secondary_keywords": [
+          "Hades II PC",
+          "Hades II Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Hades II multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-553850",
+      "topic": "Configuration PC Helldivers 2 : minimale, recommandée et conseils",
+      "detected_at": "2026-10-09T19:46:15.111694+00:00",
+      "analysed_at": "2026-10-09T19:46:15.722095+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/553850/",
+          "title": "HELLDIVERS™ 2 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de HELLDIVERS™ 2, consultée le 2026-10-09. Développeur : Arrowhead Game Studios. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 8 févr. 2024. Genres : Action. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-4790K or AMD Ryzen 5 1500X ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 470 ; Espace disque : 135 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-9700K or AMD Ryzen 7 3700X ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GeForce RTX 2060 or AMD Radeon RX 6600XT ; Espace disque : 40 GB d'espace disque disponible ; Notes supplémentaires : SSD Recommended.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/aed08979e15f54798f287dd8820fb5838476b5fa/ss_aed08979e15f54798f287dd8820fb5838476b5fa.1920x1080.jpg?t=1789585784"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Helldivers 2",
+        "secondary_keywords": [
+          "Helldivers 2 PC",
+          "Helldivers 2 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Helldivers 2 : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-553850",
+      "topic": "Helldivers 2 multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-09T19:46:15.111748+00:00",
+      "analysed_at": "2026-10-09T19:46:15.722119+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/553850/",
+          "title": "HELLDIVERS™ 2 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de HELLDIVERS™ 2, consultée le 2026-10-09. Développeur : Arrowhead Game Studios. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 8 févr. 2024. Genres : Action. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Multijoueur, Coopération, Coopération en ligne, Succès Steam, Achats en jeu, Taille de texte réglable, Caméra et confort de vue, Conversion de la parole en texte (chat), Conversion du texte en parole (chat), Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Menus de jeu narrés, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Son stéréo, Options de sous-titres, Son multicanal, Compat. contrôleurs partielle, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : La dernière ligne d'attaque de la galaxie. Engagez-vous chez les Helldivers et rejoignez le combat pour la liberté à travers une galaxie hostile dans ce jeu de tir à la troisième personne féroce et frénétique.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/aed08979e15f54798f287dd8820fb5838476b5fa/ss_aed08979e15f54798f287dd8820fb5838476b5fa.1920x1080.jpg?t=1789585784"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Helldivers 2 multijoueur",
+        "secondary_keywords": [
+          "Helldivers 2 PC",
+          "Helldivers 2 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Helldivers 2 multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-thief-2-remastered-should-be-thief-2-gold-5c57ce4bca3a",
+      "topic": "Thief 2 Remastered should be Thief 2 Gold",
+      "detected_at": "2026-09-25T08:11:16.765428+00:00",
+      "analysed_at": "2026-10-09T19:46:15.722166+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/thief-2-remastered-should-be-thief-2-gold/",
+          "title": "Thief 2 Remastered should be Thief 2 Gold",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"fSWLxjypqpeEJGr48DE9cc\" name=\"Thief\" alt=\"Garret from Thief.\" src=\"https://cdn.mos.cms.futurecdn.net/fSWLxjypqpeEJGr48DE9cc-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Nightdive)</span></figcaption></figure><p><a href=\"https://www.pcgamer.com/games/sim/we-just-saw-a-big-chunk-of-thief-remastered-gameplay-and-im-more-desperate-than-ever-to-play/\" target=\"_blank\">Nightdive's Thief remaster</a> is looking like the exact sort of well-judged but deceptively transformative treatment the classic deserves. It is one of my most anticipated games. But I'm already looking ahead.</p><p>We know Thief Remastered is coming with a Nightdive-developed expansion campaign, <a href=\"https://www.pcgamer.com/games/fps/nightdive-officially-conf"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Thief 2 Remastered should be Thief 2 Gold",
+        "secondary_keywords": [
+          "Thief 2 Remastered should be Thief 2 Gold date de sortie",
+          "Thief 2 Remastered should be Thief 2 Gold plateformes",
+          "Thief 2 Remastered should be Thief 2 Gold gameplay",
+          "Thief 2 Remastered should be Thief 2 Gold guide",
+          "Thief 2 Remastered should be Thief 2 Gold avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Thief 2 Remastered should be Thief 2 Gold"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-my-first-mmo-character-5-fraser-brown-72b115027a51",
+      "topic": "My first MMO character #5: Fraser Brown",
+      "detected_at": "2026-09-25T08:11:16.765492+00:00",
+      "analysed_at": "2026-10-09T19:46:15.722193+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/my-first-mmo-character-5-fraser-brown/",
+          "title": "My first MMO character #5: Fraser Brown",
+          "evidence": "<article> <p>My first MMO character was... </p><p><strong>Zarwulf, Orc Hunter</strong></p><p><strong>Born: </strong>2004</p><p><strong>Game: </strong>World of Warcraft</p><p>Zarwulf was not my first MMO character, but I'm far too addled to remember anything about playing Ultima Online in 1998, or pretty much anything about my childhood. I do remember a wee bit about what I was doing at university, though, and that was mostly playing World of Warcraft, Star Wars Galaxies and Guild Wars. </p><p>My buddy Zarwulf had a big sword, an impressive grimace, and probably a pet wolf. And he still exists, frozen in time—a situation I'm not going to remedy by playing him again. Better to leave the past in the past. In a way, he lives on in Guild Wars 2, where I sometimes muck around as a Daredevil with the same name. </p><p><a href=\"https://www.pcgamer.com/games/mmo/a-tribute-to-pc-gamers-first-mmo-characters-may-they-never-be-forgotten/\" target=\"_blank\"><em>(Read the full article here)</em></a></p> </article>"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "My first MMO character #5: Fraser Brown",
+        "secondary_keywords": [
+          "My first MMO character #5: Fraser Brown date de sortie",
+          "My first MMO character #5: Fraser Brown plateformes",
+          "My first MMO character #5: Fraser Brown gameplay",
+          "My first MMO character #5: Fraser Brown guide",
+          "My first MMO character #5: Fraser Brown avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "My first MMO character #5: Fraser Brown"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-drop-everything-and-grab-the-popcorn-majuular-s-4-5-hou-b3af1c471a45",
+      "topic": "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend",
+      "detected_at": "2026-09-26T08:00:08.701663+00:00",
+      "analysed_at": "2026-10-09T19:46:15.722221+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/drop-everything-and-grab-the-popcorn-majuulars-4-5-hour-documentary-on-ultima-online-is-here-to-devour-your-weekend/",
+          "title": "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/35SKawn2SDI\" allowfullscreen></iframe></div></div><p>I'll make this quick: Whatever you had planned for the weekend, you've got to carve four-and-a-half hours out for a last-minute swerve into the late '90s. Six months in the making, YouTube essayist Majuular is back with the (I believe) penultimate video in his multi-year Ultima series. \"This one was a doozy,\" he wrote in the comments. It's Ultima Online.</p><p>\"From its unlikely formation at the behest of Richard Garriott and Starr Long, to its tempering at the hands of Raph Koster and his team of Multi-User Dungeon enthusiasts, to its changing identity in the face of competition, to its incalculable influence, this is the story of Ultima Online,\" the description reads. If you get the Ultima Online bug after watching the documentary, good news: it's still very much playable on both official servers and fan ones. Majuular highlighted the server he played on, <a href=\"https://uo.mysterious-castle.com/\" target=\"_blank\">In Mani Ylem</a>, which aims to recapture the "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend",
+        "secondary_keywords": [
+          "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend date de sortie",
+          "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend plateformes",
+          "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend gameplay",
+          "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend guide",
+          "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Drop everything and grab the popcorn: Majuular's 4.5-hour documentary on Ultima Online is here to devour your weekend"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-a-running-tally-of-the-most-ridiculous-things-ai-bigwig-65fa5fbe29ff",
+      "topic": "A running tally of the most ridiculous things AI bigwigs have said so far",
+      "detected_at": "2026-09-26T08:00:08.702105+00:00",
+      "analysed_at": "2026-10-09T19:46:15.722246+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/live/news/what-are-the-ai-guys-saying-now/",
+          "title": "A running tally of the most ridiculous things AI bigwigs have said so far",
+          "evidence": "<article> <div class=\"live-content\"><p>If there's anything the leaders of the AI era love more than watching the billion-dollar valuations of their companies tick up, it's warning us that the software making them rich might just destroy the world. </p><p>AI is going to kill us all. <em>Now, can we have more money for data centers, please?</em></p><p>Their next favorite activity? Coming up with trendy phrases that either explain how toooootally smart the next upcoming AI model will be or justify why their previous claims of imminent AI sentience haven't quite arrived on schedule.</p><p>These buzzwords and prognostications are hard to keep track of and even harder to parse. With new whoppers arriving every week, we're spinning up a running log that we can reference whenever we need to recall how often AI thought leaders contradict themselves and each other, and how constantly they move the goal posts.</p><p>We'll update this blog whenever we notice a particularly absurd, empty, or unbelievable remark from an industry whose astronomical valuation is entirely down to the dubious claim that large language models are both going to destroy and save humanity. We're starting with just the l"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "A running tally of the most ridiculous things AI bigwigs have said so far",
+        "secondary_keywords": [
+          "A running tally of the most ridiculous things AI bigwigs have said so far date de sortie",
+          "A running tally of the most ridiculous things AI bigwigs have said so far plateformes",
+          "A running tally of the most ridiculous things AI bigwigs have said so far gameplay",
+          "A running tally of the most ridiculous things AI bigwigs have said so far guide",
+          "A running tally of the most ridiculous things AI bigwigs have said so far avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "A running tally of the most ridiculous things AI bigwigs have said so far"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

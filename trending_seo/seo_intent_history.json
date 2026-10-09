@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-09T09:38:31.899733+00:00",
+  "updated_at": "2026-10-09T19:46:22.039409+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -81,6 +81,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-the-elder-scrolls-v-skyrim-special-edition-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 665,
       "published_at": "2026-10-09T09:38:31.899733+00:00"
+    },
+    {
+      "intent_key": "the elder scrolls v skyrim special edition multijoueur",
+      "primary_keyword": "The Elder Scrolls V: Skyrim Special Edition multijoueur",
+      "title": "The Elder Scrolls V: Skyrim Special Edition multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/the-elder-scrolls-v-skyrim-special-edition-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 673,
+      "published_at": "2026-10-09T19:46:22.039409+00:00"
     }
   ]
 }

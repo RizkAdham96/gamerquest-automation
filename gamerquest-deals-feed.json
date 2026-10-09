@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08T21:28:14.236509+00:00",
-  "count": 4,
+  "generated_at": "2026-10-09T06:37:05.382114+00:00",
+  "count": 3,
   "articles": [
     {
       "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
@@ -22,28 +22,6 @@
         "alt": "Red Dead Redemption 2 -75% sur Steam - GamerQuest",
         "caption": "Red Dead Redemption 2 : offre -75% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Red Dead Redemption 2 sur Steam."
-      }
-    },
-    {
-      "source_id": "5696365eab440026e3aab3b803669532cb651ead7462ccf5a0bda73af1aacda8",
-      "title": "Hell is Us à -70% sur Steam",
-      "excerpt": "Hell is Us bénéficie actuellement d'une réduction de 70% sur Steam, passant de 49,99 € à 14,99 €.",
-      "content": "<p><strong>Hell is Us</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>49,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1620730/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/1620730/",
-      "deal": {
-        "game": "Hell is Us",
-        "store": "Steam",
-        "original_price": 49.99,
-        "current_price": 14.99,
-        "discount_percent": 70,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/5696365eab440026e3aab3b803669532cb651ead7462ccf5a0bda73af1aacda8.jpg",
-        "filename": "5696365eab440026e3aab3b803669532cb651ead7462ccf5a0bda73af1aacda8.jpg",
-        "alt": "Hell is Us -70% sur Steam - GamerQuest",
-        "caption": "Hell is Us : offre -70% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Hell is Us sur Steam."
       }
     },
     {

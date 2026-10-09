@@ -210,16 +210,12 @@ class WordPressPublishPackageTests(unittest.TestCase):
                     )
                 upload.assert_not_called()
 
-    def test_social_schedule_is_two_posts_every_day(self):
-        self.assertEqual(config.POSTS_PER_DAY, 2)
-        self.assertEqual(config.POSTS_PER_WEEK, 14)
-
-        main_workflow = Path(".github/workflows/social-test.yml").read_text(encoding="utf-8")
-        self.assertIn('cron: "30 12,18 * * *"', main_workflow)
-        self.assertIn('timezone: "Europe/Paris"', main_workflow)
-        recovery = Path(".github/workflows/social-publish-recovery.yml").read_text(encoding="utf-8")
-        self.assertIn('cron: "15 13,19 * * *"', recovery)
-        self.assertIn('timezone: "Europe/Paris"', recovery)
+    def test_carousels_are_no_longer_scheduled(self):
+        # Reels replaced the scheduled carousels; both workflows are manual.
+        for name in ("social-test.yml", "social-publish-recovery.yml"):
+            text = Path(".github/workflows", name).read_text(encoding="utf-8")
+            self.assertNotIn("- cron:", text, name)
+            self.assertIn("workflow_dispatch:", text, name)
 
         sunday_path = Path(".github/workflows/social-sunday.yml")
         self.assertFalse(

@@ -1,0 +1,76 @@
+{
+  "source_id": "46cf2e743552d7a456afc9c81ff5c871f25bb49066bb6b194063839e2fb2ee06",
+  "carousel_version": "a1213c40d0f0d7ff5fc4ced73e90c6aad48667186a19c4ba968d755232b9974b",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    674,
+    675,
+    676
+  ],
+  "prepared_at_utc": "2026-10-09T21:08:30.684651Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "46cf2e743552d7a456afc9c81ff5c871f25bb49066bb6b194063839e2fb2ee06",
+    "source_title": "Aion 2 : date de sortie, plateformes, gameplay et multijoueur",
+    "score": 84.0,
+    "idea": {
+      "source_id": "46cf2e743552d7a456afc9c81ff5c871f25bb49066bb6b194063839e2fb2ee06",
+      "topic": "Aion 2 – nouveau MMORPG aérien et terrestre",
+      "angle": "Mettez en avant le gameplay hybride qui combine combats aériens et terrestres ainsi que les modes multijoueur, pour attirer les fans de MMO cherchant une expérience innovante.",
+      "format": "did_you_know",
+      "hook": "Saviez‑vous que le prochain Aion 2 vous permettra de combattre à la fois dans les airs et sur le sol ? Découvrez comment ces deux univers se rejoignent dans le nouveau MMO de NCSoft.",
+      "freshness": 9,
+      "click_potential": 8,
+      "curiosity": 9,
+      "shareability": 7,
+      "originality": 8,
+      "gamerquest_relevance": 10,
+      "total_score": 84.0
+    },
+    "carousel": {
+      "topic": "Aion 2 – nouveau MMORPG aérien et terrestre",
+      "angle": "Mettez en avant le gameplay hybride qui combine combats aériens et terrestres ainsi que les modes multijoueur, pour attirer les fans de MMO cherchant une expérience innovante.",
+      "format": "did_you_know",
+      "hook": "Saviez‑vous que le prochain Aion 2 vous permettra de combattre à la fois dans les airs et sur le sol ? Découvrez comment ces deux univers se rejoignent dans le nouveau MMO de NCSoft.",
+      "score": 84.0,
+      "slides": [
+        {
+          "title": "Combat aérien et terrestre réunis",
+          "body": "Saviez‑vous que le prochain Aion 2 vous permettra de combattre dans les airs et sur le sol ?",
+          "visual_prompt": "Un personnage de MMO en armure, d'abord planant sur une créature volante au-dessus des nuages, puis atterrissant sur un champ de bataille terrestre, style fantasy réaliste."
+        },
+        {
+          "title": "Gameplay hybride et modes multijoueur",
+          "body": "Aion 2 arrive sur PC en septembre/octobre 2026 et propose des combats aériens et terrestres ainsi que plusieurs modes multijoueur.",
+          "visual_prompt": "Vue divisée montrant d'un côté un combat aérien dynamique avec des dragons, de l'autre un affrontement au sol avec des guerriers, ambiance MMO immersive."
+        },
+        {
+          "title": "Découvrez plus d’informations",
+          "body": "Le nouveau MMO de NCSoft offre différents modes multijoueur pour explorer ces deux univers. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Groupe de joueurs en tenues variées réunis autour d'une carte du monde, illustrant des icônes de combat aérien et terrestre, ambiance collaborative."
+        }
+      ],
+      "caption": "Aion 2 propose un gameplay combinant combats aériens et terrestres ainsi que plusieurs modes multijoueur sur PC en 2026.",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "46cf2e743552d7a456afc9c81ff5c871f25bb49066bb6b194063839e2fb2ee06"
+    },
+    "caption": "Aion 2 propose un gameplay combinant combats aériens et terrestres ainsi que plusieurs modes multijoueur sur PC en 2026.",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 1
+  }
+}

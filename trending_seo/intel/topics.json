@@ -1,11 +1,13 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-08T20:08:36.055878+00:00",
+  "updated_at": "2026-10-09T09:38:25.372129+00:00",
   "evergreen_checked_games": [
     "baldur s gate 3",
     "buried stars",
+    "clair obscur expedition 33",
     "cyberpunk 2077",
     "elden ring",
+    "hades",
     "ori and the will of the wisps",
     "out of sight",
     "red dead redemption 2",
@@ -16,390 +18,6 @@
     "the outlast trials"
   ],
   "topics": [
-    {
-      "id": "rss-i-put-ufo-sightings-in-grand-theft-auto-5-though-it-did-9f8f03e59597",
-      "topic": "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan",
-      "detected_at": "2026-09-23T18:22:45.163693+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-put-ufo-sightings-in-grand-theft-auto-5-though-it-didnt-quite-go-to-plan/",
-          "title": "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>Every nation has its kooks—excepting of course the Swiss—but there's something utterly American to me about the UFO sighting. It's probably something to do with the sheer size of the place. A tired, potentially hopped-up trucker, trundling across the endless plains of… whatever state has endless plains in it, spying something mysterious and illuminated in the canopy above? That's America to me.</p><p>Also America to me: the Grand Theft Auto videogame series, so it was only natural that I bring real UFO visits to Rockstar's fake LA. I installed <a href=\"https://www.gta5-m"
-        }
-      ],
-      "keywords": [
-        "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan",
-        "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan date de sortie",
-        "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan plateformes",
-        "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan gameplay",
-        "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan guide",
-        "I put UFO sightings in Grand Theft Auto 5, though it didn't quite go to plan avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-producer-behind-cregger-s-resident-evil-film-is-wor-038d60c7e926",
-      "topic": "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing",
-      "detected_at": "2026-09-23T18:22:45.163992+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/horror/the-producer-behind-creggers-resident-evil-film-is-working-on-an-unnamed-silent-hill-project-and-players-are-asking-for-just-one-thing/",
-          "title": "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing",
-          "evidence": "<article> <p>Like it or not, Zach Cregger's <a href=\"https://www.pcgamer.com/uk/games/horror/resident-evil/\">Resident Evil</a> film has been a critical hit. It reached universal acclaim on metacritic and was a <a href=\"https://www.pcgamer.com/games/resident-evil/resident-evil-is-the-best-videogame-movie-because-bryan-sucks/\">smash hit among the PC Gamer team</a>. I wasn't as fond of it as I hoped to be, but even still I loved the ride and appreciated its faithful adaptation of the videogames. </p><p>After all this time, I never thought a Resident Evil adaptation could be as good as this. Now, its success is mostly thanks to Zach Cregger's genuine admiration and great knowledge of the games, but some accolades also needs to go to Roy Lee, the film's producer and the person who secured the rights to Resident Evil after Cregger expressed interest in it. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"LxenWEzcDqytchxzkibMEg\" name=\"Resident Evil film screenshots\" alt=\"The protagonist holding a gun"
-        }
-      ],
-      "keywords": [
-        "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing",
-        "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing date de sortie",
-        "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing plateformes",
-        "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing gameplay",
-        "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing guide",
-        "The producer behind Cregger's Resident Evil film is working on an unnamed Silent Hill project and players are asking for just one thing avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-scariest-part-of-silent-hill-townfall-it-s-not-the--1eed9eb8f4d7",
-      "topic": "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design",
-      "detected_at": "2026-09-23T18:22:45.164460+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/horror/the-scariest-part-of-silent-hill-townfall-its-not-the-monsters-its-british-interior-design/",
-          "title": "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/games/horror/silent-hill-townfall-review/\">Silent Hill: Townfall</a> has a different kind of resonance if you grew up in the UK. Its Scottish island of St Amelia is already my favourite video game environment of the year for how it evokes the atmosphere and time of a place—specifically 1996—and captures the specific details of small town life. </p><p>From the video rental shop to the bunting sadly hanging from the buildings, it's the kind of run-down fishing town you never normally see in a video game. That's probably because it's not as glamorous as somewhere like Kamurocho in Tokyo (St Amelia regrettably lacks a Sega World) or New York, and not as dreamy as the Stephen King-inflected small town settings of games like Alan Wake or Silent Hill 2. </p><p>Using the Silent Hill franchise as this trojan horse to smuggle in a location that's clearly of interest to the Glasgow-based development team at Screen Burn was a marvellous idea: given the state of the games industry, it's unlikely that anyone will ever again be given the budget or time to craft an authentic British newsagent or storefront for a fish and chip shop. </p><p>Still, as eer"
-        }
-      ],
-      "keywords": [
-        "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design",
-        "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design date de sortie",
-        "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design plateformes",
-        "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design gameplay",
-        "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design guide",
-        "The scariest part of Silent Hill: Townfall? It's not the monsters—it's British interior design avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-razer-chroma-soma-lighting-3ae82b01e199",
-      "topic": "Razer Chroma Soma lighting",
-      "detected_at": "2026-09-23T18:22:45.164567+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/gaming-chairs/razer-chroma-soma-lighting/",
-          "title": "Razer Chroma Soma lighting",
-          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/tpcrHKpD.html\" id=\"tpcrHKpD\" title=\"Razer Soma Chroma gaming chair LEDs\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen></iframe><p>A chair you have to plug into a power source. For why? For the love of RGB of course. Razer's Soma Chroma gaming chair lights up, but does it light you up? <a href=\"https://www.pcgamer.com/hardware/gaming-chairs/razer-soma-chroma-review/\" target=\"_blank\">Check out the review and let us know what you think.</a></p> </article>"
-        }
-      ],
-      "keywords": [
-        "Razer Chroma Soma lighting",
-        "Razer Chroma Soma lighting date de sortie",
-        "Razer Chroma Soma lighting plateformes",
-        "Razer Chroma Soma lighting gameplay",
-        "Razer Chroma Soma lighting guide",
-        "Razer Chroma Soma lighting avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-razer-soma-chroma-gaming-chair-review-5e1f2cba0988",
-      "topic": "Razer Soma Chroma gaming chair review",
-      "detected_at": "2026-09-23T18:22:45.165033+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/gaming-chairs/razer-soma-chroma-review/",
-          "title": "Razer Soma Chroma gaming chair review",
-          "evidence": "<article> <p>Picture the scene. It’s Christmas morning, the sky is still dark, and Santa is heaving his gigantic ass through your central heating ducts. He emerges into the living room; perhaps he oozes like toothpaste, or pops out fully formed like a jelly from a mould. We’ll never know. He looks around, picks a bit of fluff out of his ear, and sees what he’s looking for: there, in the corner of the room it sits, lit up like... well, a Christmas tree. Only it’s not a spruce or fir, but a chair.</p><p>Razer has reinvented the Christmas tree as something you can sit on, and its name is the Soma Chroma. Yes, literature fans, it’s got the same name as the drug used by the totalitarian state in Aldus Huxley’s Brave New World that keeps citizens perpetually happy, docile, and compliant. Perhaps it is therefore a metaphor for videogames, which famously leave their participants meek and submissive. Or maybe not.</p><p>The RGB strips are only at the very top, at the sides of your head if you’re tall enough, but something about their shape distinctly recalls the angles of a Nordmann (or one of those car air fresheners that dangle from the rear-view mirror), as do the harder edges you’ll fin"
-        }
-      ],
-      "keywords": [
-        "Razer Soma Chroma gaming chair review",
-        "Razer Soma Chroma gaming chair review date de sortie",
-        "Razer Soma Chroma gaming chair review plateformes",
-        "Razer Soma Chroma gaming chair review gameplay",
-        "Razer Soma Chroma gaming chair review guide",
-        "Razer Soma Chroma gaming chair review avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-thought-from-logitech-s-new-pro-products-i-d-be-most--71e36f4ea87c",
-      "topic": "I thought from Logitech's new Pro products I'd be most excited about the Superstrike, but after using them it's actually the keyboard and mouse pad that have me grinning",
-      "detected_at": "2026-09-23T18:22:45.165457+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/i-thought-from-logitechs-new-pro-products-id-be-most-excited-about-the-superstrike-but-after-using-them-its-actually-the-keyboard-and-mouse-pad-that-have-me-grinning/",
-          "title": "I thought from Logitech's new Pro products I'd be most excited about the Superstrike, but after using them it's actually the keyboard and mouse pad that have me grinning",
-          "evidence": "<article> <div class=\"card card--standard card--rows-2 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/XGWp97CQYuQvUQ6nGZTo9J.jpg\" alt=\"A Logitech G Pro X3 Superstrike gaming mouse on a wooden desk.\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Pro X3 Superstrike</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><ul><li>Analogue switches</li><li>135-hour battery life</li><li>Refined balance</li><li>$200</li></ul></div></div></div></div><div class=\"card card--standard card--rows-2 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/64iFdBgPJpm4oXrudMbR78.jpg\" alt=\"A Logitech G Pro X2 Rapid gaming keyboard\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Pro X2 Rapid</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><ul><li>Hall effect</li><li>Creamy sound</li><li>Big wrist rest</li><li>$230</li></ul></div></div></d"
-        }
-      ],
-      "keywords": [
-        "I thought from Logitech's new Pro products I'd be most excited about the Superstrike, but after using them it's actually the keyboard and mouse pad that have me grinning",
-        "I thought from Logitech's new Pro products I'd be most excited about the Superstrike, but after using them it's actually the keyboard and mouse pad that have me grinning date de sortie",
-        "I thought from Logitech's new Pro products I'd be most excited about the Superstrike, but after using them it's actually the keyboard and mouse pad that have me grinning plateformes",
-        "I thought from Logitech's new Pro products I'd be most excited about the Superstrike, but after using them it's actually the keyboard and mouse pad that have me grinning gameplay",
-        "I thought from Logitech's new Pro products I'd be most excited about the Superstrike, but after using them it's actually the keyboard and mouse pad that have me grinning guide",
-        "I thought from Logitech's new Pro products I'd be most excited about the Superstrike, but after using them it's actually the keyboard and mouse pad that have me grinning avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-sorry-early-adopters-logitech-is-releasing-an-improved--a7a7a916160f",
-      "topic": "Sorry early adopters, Logitech is releasing an improved Superstrike making the original all but obsolete just months after launch",
-      "detected_at": "2026-09-23T18:22:45.168069+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/gaming-mice/sorry-early-adopters-logitech-is-releasing-an-improved-superstrike-making-the-original-all-but-obsolete-just-months-after-launch/",
-          "title": "Sorry early adopters, Logitech is releasing an improved Superstrike making the original all but obsolete just months after launch",
-          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/8IyZlxCj.html\" id=\"8IyZlxCj\" title=\"Superstrike-x3-thoughts\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen></iframe><p>It's fair to say I was pretty taken by the <a href=\"https://www.pcgamer.com/hardware/gaming-mice/logitech-g-pro-x2-superstrike-review/\" target=\"_blank\">G Pro X2 Superstrike</a> when Logitech launched it earlier this year. It was the first mouse I'd seen in a long time that did something genuinely revolutionary. But, just seven months later, it is being rendered all but obsolete by the new G Pro X3 Superstrike.</p><p>The revolutionary part of the original was that it made its switches analogue and paired this with haptic feedback to replicate the feeling of a click. This allows for adjustable actuation, meaning you can set it low for less time between deciding to click and actually clicking, and the haptics make sure you feel the click exactly when you should, whenever it's set to actuate.</p><p>That being said, it's far from a perfect mouse. I was thoroughly enamoured by it during my testing, and I still think it deserves a heck of a lot of credit for that revolutionary tech"
-        }
-      ],
-      "keywords": [
-        "Sorry early adopters, Logitech is releasing an improved Superstrike making the original all but obsolete just months after launch",
-        "Sorry early adopters, Logitech is releasing an improved Superstrike making the original all but obsolete just months after launch date de sortie",
-        "Sorry early adopters, Logitech is releasing an improved Superstrike making the original all but obsolete just months after launch plateformes",
-        "Sorry early adopters, Logitech is releasing an improved Superstrike making the original all but obsolete just months after launch gameplay",
-        "Sorry early adopters, Logitech is releasing an improved Superstrike making the original all but obsolete just months after launch guide",
-        "Sorry early adopters, Logitech is releasing an improved Superstrike making the original all but obsolete just months after launch avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-my-first-mmo-character-1-harvey-randall-c5cb5253356c",
-      "topic": "My first MMO character #1: Harvey Randall",
-      "detected_at": "2026-09-23T18:22:45.168238+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/my-first-mmo-character-1-harvey-randall/",
-          "title": "My first MMO character #1: Harvey Randall",
-          "evidence": "<article> <p>My first character was... </p><p><strong>Leetman, Human Rogue</strong></p><p><strong>Born: </strong>~2004-2006</p><p><strong>Game: </strong>World of Warcraft</p><p>My first ever character was in World of Warcraft, after—as my bio states—I pretty much begged my parents to give me a WoW subscription, and was rewarded for my articulation with a proper WoW account and a life-changingly debilitating enthusiasm for videogames. And while I did technically have a Runescape character before this, I can't remember 'em, so Leetman is here.</p><p>I was not a good rogue. In my defense, I was 10 years old—but I didn't level my poisons, I didn't reach level cap, and the height of my career was spent futzing around Un'Goro Crater. I <em>did, </em>however, manage to get the gold for a mount, which made me feel pretty swanky. That was a big deal back in the day.</p><p>Leetman would eventually be traded out for the troll shaman Earthborn when The Burning Crusade rolled around, but I shall remember him fondly. Perhaps his reticence to use poison was merely a question of honour—but he's deleted, now, so we shall never know.</p><p><a href=\"https://www.pcgamer.com/games/mmo/a-tribute-to-pc-g"
-        }
-      ],
-      "keywords": [
-        "My first MMO character #1: Harvey Randall",
-        "My first MMO character #1: Harvey Randall date de sortie",
-        "My first MMO character #1: Harvey Randall plateformes",
-        "My first MMO character #1: Harvey Randall gameplay",
-        "My first MMO character #1: Harvey Randall guide",
-        "My first MMO character #1: Harvey Randall avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-wistful-about-myst-vi-005649591018",
-      "topic": "Wistful about Myst VI",
-      "detected_at": "2026-09-23T18:22:45.168316+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/wistful-about-myst-vi/",
-          "title": "Wistful about Myst VI",
-          "evidence": "<article> <p><strong>Wistful about Myst VI</strong>. Two months after Cyan posted the 3-minute glimpse of its cancelled Myst project, it still stings to think that I won't see a full performance from Noshir Dalal, the actor who performs the angry, Lex Luthor-style megalomaniac character seen in the trailer. </p><p>Not nearly enough Andrew Ryans in gaming lately. Let alone ones who are relentlessly in pursuit of a book. Venture capital funding won't let us have anything nice.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/ZvNGt02yZNc\" allowfullscreen></iframe></div></div> </article>"
-        }
-      ],
-      "keywords": [
-        "Wistful about Myst VI",
-        "Wistful about Myst VI date de sortie",
-        "Wistful about Myst VI plateformes",
-        "Wistful about Myst VI gameplay",
-        "Wistful about Myst VI guide",
-        "Wistful about Myst VI avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-valve-offers-cs2-players-eggs-ebd589de60e5",
-      "topic": "Valve offers CS2 players eggs",
-      "detected_at": "2026-09-23T18:22:45.168384+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/fps/valve-offers-cs2-players-eggs/",
-          "title": "Valve offers CS2 players eggs",
-          "evidence": "<article> <p>CS2 players begging for an anticheat overhaul. </p><p><a href=\"https://www.pcgamer.com/games/fps/valve-shadow-dropped-chicken-pets-into-cs2/\" target=\"_blank\">Valve</a>:</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:610px;\"><p class=\"vanilla-image-block\" style=\"padding-top:53.61%;\"><img id=\"x47Kw4d2ZuzxVVJbmBvNHF\" name=\"Danny DeVito egg meme\" alt=\"Danny DeVito egg meme\" src=\"https://cdn.mos.cms.futurecdn.net/x47Kw4d2ZuzxVVJbmBvNHF-1920-80.png\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"610\" height=\"327\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: FX Productions)</span></figcaption></figure> </article>"
-        }
-      ],
-      "keywords": [
-        "Valve offers CS2 players eggs",
-        "Valve offers CS2 players eggs date de sortie",
-        "Valve offers CS2 players eggs plateformes",
-        "Valve offers CS2 players eggs gameplay",
-        "Valve offers CS2 players eggs guide",
-        "Valve offers CS2 players eggs avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-micropost-i-use-my-ring-finger-for-right-mouse-button-a-11e45514c370",
-      "topic": "Micropost: I use my ring finger for right mouse button. Am I okay?",
-      "detected_at": "2026-09-24T07:49:15.019616+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/micropost-i-use-my-ring-finger-for-right-mouse-button-am-i-okay/",
-          "title": "Micropost: I use my ring finger for right mouse button. Am I okay?",
-          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"ZwbYyM9rQSi8Wt9xSUM8fX\" name=\"IMG_8046\" alt=\"Jacob Ridley holding a gaming mouse the correct and very normal way.\" src=\"https://cdn.mos.cms.futurecdn.net/ZwbYyM9rQSi8Wt9xSUM8fX-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p>Some say I hold my mouse weird. I rest my middle finger on the scroll wheel, and I solely use it for the scroll wheel. I use my ring finger for the right mouse button. But I don't think it's weird. It's elite. It's finesse. It's elegance. </p><p>You wouldn't get it.</p> </article>"
-        }
-      ],
-      "keywords": [
-        "Micropost: I use my ring finger for right mouse button. Am I okay?",
-        "Micropost: I use my ring finger for right mouse button. Am I okay? date de sortie",
-        "Micropost: I use my ring finger for right mouse button. Am I okay? plateformes",
-        "Micropost: I use my ring finger for right mouse button. Am I okay? gameplay",
-        "Micropost: I use my ring finger for right mouse button. Am I okay? guide",
-        "Micropost: I use my ring finger for right mouse button. Am I okay? avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-industrial-revolution-is-the-reason-rpgs-have-area--d2c9c97c0095",
-      "topic": "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™",
-      "detected_at": "2026-09-24T07:49:15.020310+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rpg/the-industrial-revolution-is-the-reason-rpgs-have-area-of-effect-spells-a-pc-gamer-causality-chaintm/",
-          "title": "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™",
-          "evidence": "<article> <p><em>Causality Chain is a series at PC Gamer exploring the unlikely links between history, culture, and videogames.</em></p><p>Every time you cast a meteor spell in Diablo 2 or a cloud of daggers in Baldur's Gate 3, you are taking part in a chain of history—a causality chain, if you will—that dates back to the 18th century, when nobody had thought about taking a \"warlock dip\" since the Salem witch trials. And at that time, it had a very different meaning.</p><p>Today we trace the arc of history from the death of the agrarian period, all the way forward to that time you managed to set fire to five goblins at once and felt quite good about how clever you were. We chart the curious contours of cause and effect, and then we put our chins into our hands and we say, \"Hmmm. Yes. This is good.\"</p><p>Join us as we tip the dominoes that link the past to the present, then watch the huge and intricate Rube Goldberg machine known as \"history\" fall over into a heap of discarded playing pieces.</p><h2 id=\"the-industrial-revolution-area-of-effect-spells-in-rpgs\">The industrial revolution 🔗 Area-of-effect spells in RPGs</h2><h3 class=\"article-body__section\" id=\"section-rise-of-industry"
-        }
-      ],
-      "keywords": [
-        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™",
-        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™ date de sortie",
-        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™ plateformes",
-        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™ gameplay",
-        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™ guide",
-        "The Industrial Revolution is the reason RPGs have area-of-effect spells: A PC Gamer Causality Chain™ avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-quake-champions-takes-a-shower-shedding-all-its-2017-li-28855a18cf6b",
-      "topic": "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game",
-      "detected_at": "2026-09-24T07:49:15.020556+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/fps/quake-champions-takes-a-shower-shedding-all-its-2017-live-service-grime-and-becoming-a-usd10-game/",
-          "title": "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game",
-          "evidence": "<article> <div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/htq9zhXTVc6938Mzz4Hj9L.jpg\" alt=\"\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Behold, some wild Quake Champions patch notes</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><ul><li>Removed Battle Pass </li><li>Removed Weekly / Event Challenges </li><li>Removed the Store </li><li>Removed Platinum and Shard Currencies </li><li>Removed Loot Boxes </li><li>Removed Daily Login Rewards </li><li>Removed Champion Progression (the shard reward path) </li><li>Most Vanity Content is now Available to All Users</li></ul></div><div class=\"card__description\"><p>\"Today’s update marks a new chapter for Quake Champions as we transition the game from a free-to-play service to a paid application on Steam,\" the <a href=\"https://store.steampowered.com/news/app/611500/view/692020757910258707\">update</a> reads. \"Quake Champions is now available for one low price on Steam. No additional content updates are planned "
-        }
-      ],
-      "keywords": [
-        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game",
-        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game date de sortie",
-        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game plateformes",
-        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game gameplay",
-        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game guide",
-        "Quake Champions takes a shower, shedding all its 2017 live-service grime and becoming a $10 game avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-microsoft-s-approach-to-age-verification-in-australia-i-7ba3089ff907",
-      "topic": "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss",
-      "detected_at": "2026-09-24T07:49:15.020764+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/microsofts-approach-to-age-verification-in-australia-is-further-proof-that-valve-is-taking-the-everloving-piss/",
-          "title": "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss",
-          "evidence": "<article> <p>Many are justifiably annoyed about Steam's <a href=\"https://www.pcgamer.com/gaming-industry/steam-now-requires-australian-users-to-have-a-credit-card-to-purchase-r18-games-and-no-a-simple-bank-debit-card-wont-work/\">new age verification requirements</a> in Australia. Whereas most platforms and shopfronts offer several ways to verify one's age, Valve offers only one, and it's amusingly ill-suited to the Australian market. To prove that you're over 18 years old and thus, legally allowed to purchase games like Metal Gear Solid 4, Doom Eternal or Rimworld, you need to provide details for an active credit card. </p><p>The problem? <a href=\"https://www.rba.gov.au/publications/bulletin/2026/may/consumer-payment-behaviour-in-australia.html\">Very few Australians</a> use credit cards.</p><p>Even if you opened your Steam account as far back as 2003 and own a handful of R18+ games already, Steam will still require that credit card. </p><p>I don't want to big up Microsoft for doing slightly more than the bare minimum, but an email I received overnight does at least cast renewed light on how terrible Valve's approach is. An email from Microsoft regarding my \"Microsoft Age Verificati"
-        }
-      ],
-      "keywords": [
-        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss",
-        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss date de sortie",
-        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss plateformes",
-        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss gameplay",
-        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss guide",
-        "Microsoft's approach to age verification in Australia is further proof that Valve is taking the everloving piss avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-world-of-warcraft-forever-s-first-patch-will-bring-back-8fd6f3d0d784",
-      "topic": "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms",
-      "detected_at": "2026-09-24T07:49:15.021010+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-first-patch-will-bring-back-the-number-one-thing-seasoned-players-missed-from-the-mmos-past-storms/",
-          "title": "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms",
-          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/grhjK8xH3H4\" allowfullscreen></iframe></div></div><p>If there's one thing that Blizzard nailed with <a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a>, it's the atmosphere. There's nothing quite like walking under the moonlight in Tirisfal Glades listening to distant howls and flapping wings on the way to your next quest. But many players familiar with the era of WoW it's based on felt like it was missing something.</p><p>\"I miss running through Dun Morogh hearing the iconic music with a massive snowstorm lowering my view distance on my Dwarf hunter, picking up quests from the dwarf next to the fire [and] restoring my inventory,\" Reddit user <a href=\"https://www.reddit.com/r/wow/comments/1wn6tyh/day_1_asking_blizzard_to_bring_back_the_weather/\">Darthbobz</a> wrote in a post pleading Blizzard to bring WoW's old weather effects to WoW: Forever.</p><p>It's not that it doesn't rain or snow in WoW: Forever, it's that it doesn't rain and snow <em>enough</em>. People like Darthbobz"
-        }
-      ],
-      "keywords": [
-        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms",
-        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms date de sortie",
-        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms plateformes",
-        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms gameplay",
-        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms guide",
-        "World of Warcraft: Forever's first patch will bring back the number one thing seasoned players missed from the MMO's past: storms avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-halo-needed-to-change-but-activision-faces-a-huge-chall-ecc82aa117be",
-      "topic": "Halo needed to change, but Activision faces a huge challenge to fix it",
-      "detected_at": "2026-09-24T07:49:15.021394+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/halo/halo-needed-to-change-but-activision-faces-a-huge-challenge-to-fix-it/",
-          "title": "Halo needed to change, but Activision faces a huge challenge to fix it",
-          "evidence": "<article> <p>Microsoft has given up on Halo Studios, the team it formed and recently renamed for the express purpose of making new Halo games. Another victim of the <a href=\"https://www.pcgamer.com/gaming-industry/xbox-is-laying-off-3-200-people-and-dumping-4-studios/\">Xbox Reset</a>, the studio has been slashed down to its bones as part of another (but not final)<a href=\"https://www.pcgamer.com/gaming-industry/xbox-lays-off-268-more-employees-merges-obsidian-into-bethesda-and-puts-activision-in-charge-of-halo/\"> wave of layoffs</a>, and what's left of Halo Studios will now oversee the franchise in nebulous-sounding ways. Indeed: <em>Halo Studios is no longer making Halo</em>.</p><p>Now Activision is in charge, and as both a Halo and Call of Duty fan, the pairing isn't exciting.</p><p>Though I've been a vocal critic of Halo Studios' take on Halo over the years (\"Halo Studios has no discernably new take on Bungie's landmark FPS\" -Me, 2026), Halo Infinite eventually grew into a strong multiplayer FPS that I sunk hundreds of hours into, and<a href=\"https://www.pcgamer.com/games/halo/halo-campaign-evolved-review/\"> Halo: Campaign Evolved</a> was the team's best effort yet to embrace th"
-        }
-      ],
-      "keywords": [
-        "Halo needed to change, but Activision faces a huge challenge to fix it",
-        "Halo needed to change, but Activision faces a huge challenge to fix it date de sortie",
-        "Halo needed to change, but Activision faces a huge challenge to fix it plateformes",
-        "Halo needed to change, but Activision faces a huge challenge to fix it gameplay",
-        "Halo needed to change, but Activision faces a huge challenge to fix it guide",
-        "Halo needed to change, but Activision faces a huge challenge to fix it avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-my-first-mmo-character-2-joshua-wolens-1954acc3245f",
       "topic": "My first MMO character #2: Joshua Wolens",
@@ -5988,6 +5606,386 @@
         "TerraScape multijoueur",
         "TerraScape PC",
         "TerraScape Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "rss-marvel-s-new-tv-show-might-be-an-agents-of-s-h-i-e-l-d--ee2f050bc138",
+      "topic": "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message",
+      "detected_at": "2026-10-09T09:38:25.370557+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/marvels-new-tv-show-might-be-an-agents-of-s-h-i-e-l-d-revival-as-phil-coulson-star-clark-gregg-shares-cryptic-message/",
+          "title": "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message",
+          "evidence": "<article> <p>Marvel's <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/marvel-zodiac-officially-confirmed/\">new series Zodiac has been announced</a>, and fans already have a theory that it's linked to Agents of S.H.I.E.L.D. This comes after Phil Coulson star Clark Gregg shared the announcement to his <a href=\"https://www.instagram.com/clarkgregg/?hl=en\" target=\"_blank\">Instagram </a>account, sparking rumors.</p><p>This was coupled with Marvel TV head Brad Winderbaum's comments on the new \"spy thriller\" at <a href=\"https://www.gamesradar.com/news/live/marvel-nycc-2026-live-coverage-everything-announced/\">Marvel's New York Comic Con panel</a>. \"For anyone who knows the comics, if you look closely at this title design, you’ll see a few clues about where we’re going,\" he told audiences. \"I can’t tell you anything else about it yet because it’s a secret. We're going to start casting it in a couple weeks\"</p><p>Eagle-eyed fans have been pouring over the logo and think they've spotted the S.H.I.E.L.D. logo on the A. \"This is definitely the SHIELD logo on the A right? Right?? AoS revival???,\" one user wrote on <a href=\"https://www.reddit.com/r/marvelstudios/comments/1x11vl"
+        }
+      ],
+      "keywords": [
+        "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message",
+        "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message date de sortie",
+        "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message plateformes",
+        "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message gameplay",
+        "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message guide",
+        "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-avatar-seven-havens-review-juicy-narrative-threads-let--88b095934599",
+      "topic": "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\"",
+      "detected_at": "2026-10-09T09:38:25.370770+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/animation-shows/avatar-seven-havens-season-1-review/",
+          "title": "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\"",
+          "evidence": "<article> <p>On paper, Avatar: Seven Havens is absolute catnip for me. Picking up at some point long after Legend of Korra, the world has been reduced to seven havens (get it?) following a mysterious cataclysm that the remaining people blame the previous Avatar for causing. Heady stuff! In practice, however, this juicy plot and narrative threads are let down by inconsistent animation and hard-to-follow action.</p><p><em>Note: spoilers for the end of episode 1 follow.</em></p><p>The new show follows Pavi and Nisha, long-lost twins who also happen to both(?) be the Avatar(s) somehow. From every in-universe source as well as everything we as viewers know, if true double Avatars would be a first. The mystery of how that's possible, what happened to them and the world at large, and the struggles of the city of Ellora to survive is the driving force behind the new animated show's first season.</p><h2 id=\"new-faces-new-places\">New faces, new places</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"io6"
+        }
+      ],
+      "keywords": [
+        "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\"",
+        "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\" date de sortie",
+        "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\" plateformes",
+        "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\" gameplay",
+        "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\" guide",
+        "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-nintendo-switch-2-is-currently-going-cheap-at-jb-hi-fi--dec10db31eb5",
+      "topic": "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything",
+      "detected_at": "2026-10-09T09:38:25.370871+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/platforms/nintendo-switch-2/nintendo-switch-2-is-currently-going-cheap-at-jb-hi-fi-despite-everything/",
+          "title": "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything",
+          "evidence": "<article> <p>It's 2026 and everything costs a fortune. Thanks to the AI industry's greedy appetite for memory, consoles are nowadays much more expensive than they were at launch. The Nintendo Switch 2 is no exception: when it launched last year it cost AU$699.95, but since September that RRP has increased to AU$769.95.</p><p>Not good! So when a console receives a discount it's definitely worth drawing attention to. JB Hi-Fi is currently offering the <a href=\"https://www.jbhifi.com.au/products/nintendo-switch-2-console\" target=\"_blank\" rel=\"sponsored\">Nintendo Switch 2 for AU$699</a>, which is a saving of AU$70.</p><p>Yes, I realise the irony here: that discount, generous though it may be, simply discounts the Switch 2 to its launch RRP. But hey, it's better than nothing.</p><p></p><div class=\"product\"><a data-dimension112=\"688db78a-c38e-11f1-aaf3-558059bc8cb2\" data-action=\"Deal Block\" data-label=\"Switch 2\" data-dimension48=\"Switch 2\" data-dimension25=\"$699\" href=\"https://www.jbhifi.com.au/products/nintendo-switch-2-console\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1500px;\""
+        }
+      ],
+      "keywords": [
+        "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything",
+        "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything date de sortie",
+        "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything plateformes",
+        "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything gameplay",
+        "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything guide",
+        "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-after-3-hours-phantom-blade-zero-is-a-wuxia-flavored-re-e71aea52af73",
+      "topic": "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist",
+      "detected_at": "2026-10-09T09:38:25.371089+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/after-3-hours-phantom-blade-zero-is-a-wuxia-flavored-rewarding-action-rpg-with-a-fresh-soulslike-twist/",
+          "title": "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist",
+          "evidence": "<article> <p>The clash of blades pulses through my being. My hulking opponent repeatedly swings a rusty greatsword with menacing purpose, demanding I dodge or parry with perfect timing to avoid calamitous damage. It's a challenge I relish, stepping to this monstrous humanoid and returning strikes when the gaps emerge.</p><p>The blows are dramatic and satisfying, and the victory is mine. <a href=\"https://www.gamesradar.com/uk/phantom-blade-zero/\"><u>Phantom Blade Zero</u></a> is without a doubt one of the most enjoyable action-RPGs I've sampled this year.</p><h2 id=\"got-soul-but-a-soulslike\">Got Soul but a Soulslike?</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"jfNjFi98pHT32o5qRaH275\" name=\"PR_phantom_blade_zero_3\" alt=\"A glowing enemy fights Souls on a bridge in Phantom Blade Zero in the middle of a storm, with rain and wind whipping by\" src=\"https://cdn.mos.cms.futurecdn.net/jfNjFi98pHT32o5qRaH275-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" e"
+        }
+      ],
+      "keywords": [
+        "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist",
+        "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist date de sortie",
+        "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist plateformes",
+        "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist gameplay",
+        "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist guide",
+        "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-final-fantasy-7-revelation-boss-doesn-t-want-to-hear-yo-680fc5835a69",
+      "topic": "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse",
+      "detected_at": "2026-10-09T09:38:25.371201+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/final-fantasy/final-fantasy-7-revelation-boss-doesnt-want-to-hear-your-rebirth-mini-game-discourse-i-dont-think-that-discussion-really-gets-to-the-heart-of-the-matter/",
+          "title": "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse",
+          "evidence": "<article> <p>Final Fantasy 7 Rebirth takes a lot of flak for the amount of mini-games it has that distract you from the main objective. Queen's Blood, Fort Condor, Chocobo Racing, Galactic Survivors, Pirate's Rampage, Queen's Blood... oh, <em>god</em>, Queen's Blood. (I suck at Queen's Blood because I lack the attention span to learn.)</p><p>Anyway, I don't much care for all of Final Fantasy Rebirth's mini-games, but I'm not upset that they exist. Even in the rare occasion I'm forced to interact with them, it's usually a nice, brief break from the main quest that makes me slow down and appreciate the depth of the game's world. That's just me, and there are plenty of JRPG fans who are vocally against the amount of mini-games in Rebirth, and indeed, the conversation has grown loud enough that it's officially become capital-D Discourse. <a href=\"https://www.gamesradar.com/final-fantasy-7-revelation-guide/\">Final Fantasy 7 Revelation</a> director Naoki Hamaguchi, who also helmed Rebirth, isn't having any of it.</p><p>\"I often see debates about whether it's better to have more minigames or fewer,\" says Hamaguchi in the latest issue of <a href=\"https://www.magazinesdirect.com/us/edge-sub"
+        }
+      ],
+      "keywords": [
+        "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse",
+        "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse date de sortie",
+        "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse plateformes",
+        "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse gameplay",
+        "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse guide",
+        "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-arc-raiders-tracks-of-the-beast-guide-and-walkthrough-41df9f879cb6",
+      "topic": "Arc Raiders Tracks of the Beast guide and walkthrough",
+      "detected_at": "2026-10-09T09:38:25.371364+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-tracks-of-the-beast/",
+          "title": "Arc Raiders Tracks of the Beast guide and walkthrough",
+          "evidence": "<article> <p>Tracks of the Beast is a potentially dangerous Arc Raiders mission that brings you into contact with the Bully and Skulker ARCs. You don't <em>have</em> to fight them, but there are some optional objectives you can complete if you do. <br><br>Once you complete the <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-exploring-pendola-pass/\"><u>Exploring Pendoloa Pass</u></a> quest, you’ll be given this, which asks you to find a train station and ping a Bully and a Skulker. If you can manage to do it all in one round, there are even optional tasks for you to tackle which grant you bonus rewards. If you’re ready for a possible fight or two with these new ARC units, here’s how to finish this.</p><h2 class=\"article-body__section\" id=\"section-how-to-complete-tracks-of-the-beast\"><span>How to complete Tracks of the Beast</span></h2><p>Here are all the tasks you must complete in one round for the Tracks of the Beast quests in Arc Raiders:</p><ul><li>On Pendola Pass, head to the Northern Tracks</li><li>Find the destroyed station at the end of the tracks</li><li>Ping a Bully</li><li>Ping a Skulker</li><li>(Optional) Destroy 3 Skulkers</li><li>(Optional) De"
+        }
+      ],
+      "keywords": [
+        "Arc Raiders Tracks of the Beast guide and walkthrough",
+        "Arc Raiders Tracks of the Beast guide and walkthrough date de sortie",
+        "Arc Raiders Tracks of the Beast guide and walkthrough plateformes",
+        "Arc Raiders Tracks of the Beast guide and walkthrough gameplay",
+        "Arc Raiders Tracks of the Beast guide and walkthrough guide",
+        "Arc Raiders Tracks of the Beast guide and walkthrough avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-visionquest-first-reactions-call-it-a-near-perfect-conc-a1fdef2bc169",
+      "topic": "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\"",
+      "detected_at": "2026-10-09T09:38:25.371468+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-first-reactions-call-the-marvel-show-a-near-perfect-conclusion-and-a-genuine-love-letter-to-wandavision-fans/",
+          "title": "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\"",
+          "evidence": "<article> <p>We're days away from reuniting with everyone's favorite synthezoid, or a version of him, in <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-release-date-cast-trailer-plot/\" target=\"_blank\">VisionQuest</a>, and the hype is building, with social media reactions appearing online. </p><p>The first episode was shown today at New York Comic Con, and fans are liking what they see so far. <a href=\"https://x.com/sagesurge/status/2108315607074583031?s=20\">@sagesurge</a> said, \"They showed the first epsiode of Vision Quest and it was interesting. It's incredibly smart, stylish, funny, and full of philosophy. I'm just waiting for James Spader to go FULL Ultron.\" <a href=\"https://x.com/arkh4m_/status/2108315443014377748?s=20\" target=\"_blank\">@arkh4m</a> also added that \"We just saw the premiere for Vision Quest. And I really liked it, fascinating premiere. White Vision trying to get in touch with the emotions of Vision and from WandaVision. Great connector to the other two.\" </p><p><a href=\"https://x.com/demetherself/status/2108315298398953716?s=20\" target=\"_blank\">@demetherself</a> wrote, \"VisionQuest is a worthy successor to WandaVision, and it feels"
+        }
+      ],
+      "keywords": [
+        "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\"",
+        "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\" date de sortie",
+        "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\" plateformes",
+        "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\" gameplay",
+        "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\" guide",
+        "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-marvel-officially-confirms-daredevil-born-again-will-en-229dbb95f931",
+      "topic": "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con",
+      "detected_at": "2026-10-09T09:38:25.371566+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/charlie-cox-says-you-dont-want-to-invite-the-wrath-of-the-save-daredevil-people-as-marvel-officially-confirms-daredevil-born-again-will-end-with-season-3/",
+          "title": "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con",
+          "evidence": "<article> <p>Fans of the Man Without Fear had their worst ones realized last month when it was announced that <a href=\"https://www.gamesradar.com/entertainment/superhero-shows/daredevil-born-again-season-3-release-date-cast-plot/\">Daredevil: Born Again season 3</a> would end after its third season. It comes as no surprise, then, that Charlie Cox hanging up his horns as Matthew Murdock for what might be the final time was a topic of discussion at today's Marvel Television panel at NYCC, along with some new footage for the vigilante's swansong.</p><p>The last time we saw the hero of Hell's Kitchen, he was thrown behind bars after confessing he was Daredevil to bring down Wilson Fisk (Vincent D'Onofrio) at <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/daredevil-born-again-season-2-ending-explained-who-dies/\">the end of Daredevil: Born Again season 2</a>. At the New York Comic Con, we got a glimpse of how he's handling things in some exciting new footage. Would you believe it? Matthew Murdock is punching people. Again. </p><p>The footage begins with the worst-kept secret in the MCU as Jessica Jones (Krysten Ritter), Luke Cage (Mike Colter), and the former(?) Iron Fi"
+        }
+      ],
+      "keywords": [
+        "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con",
+        "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con date de sortie",
+        "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con plateformes",
+        "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con gameplay",
+        "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con guide",
+        "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-arc-raiders-home-to-roost-guide-and-walkthrough-c33b9d196363",
+      "topic": "Arc Raiders Home to Roost guide and walkthrough",
+      "detected_at": "2026-10-09T09:38:25.371728+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-home-to-roost/",
+          "title": "Arc Raiders Home to Roost guide and walkthrough",
+          "evidence": "<article> <p>The Home To Roost quest in Arc Raiders takes place on Blue Gate and you'll <strong>need a Blue Gate Confiscation Room Key</strong> to finish it. Like <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-exploring-pendola-pass/\">Exploring Pendoloa Pass</a> this is a multi-step quest where no one part of it is hard, there's just a lot of it all stacked up to get through. While you're here you can also try to look for the <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-ruined-homestead-farmland-house/\">Ruined Homestead</a> for the Outpost project.</p><h2 class=\"article-body__section\" id=\"section-how-to-complete-home-to-roost\"><span>How to complete Home To Roost</span></h2><p>These are all the tasks you must complete to finish the Home To Roost quest in Arc Raiders:</p><ol start=\"1\"><li>Reach the back of the Blue Gate tunnels</li><li>Scan any Android at the back of the tunnels</li><li>Reach the MANTIKOR locker room</li><li>Search for any clues in the locker room</li><li>Read the last vehicle’s weighing logs</li><li>Enter the Confiscation Room</li><li>Transmit MANTIKOR security’s last recordings to Shani</li></ol><p>Let's wor"
+        }
+      ],
+      "keywords": [
+        "Arc Raiders Home to Roost guide and walkthrough",
+        "Arc Raiders Home to Roost guide and walkthrough date de sortie",
+        "Arc Raiders Home to Roost guide and walkthrough plateformes",
+        "Arc Raiders Home to Roost guide and walkthrough gameplay",
+        "Arc Raiders Home to Roost guide and walkthrough guide",
+        "Arc Raiders Home to Roost guide and walkthrough avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-arc-raiders-exploring-pendola-pass-guide-and-walkthroug-873bda57ddda",
+      "topic": "Arc Raiders Exploring Pendola Pass guide and walkthrough",
+      "detected_at": "2026-10-09T09:38:25.371861+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-exploring-pendola-pass/",
+          "title": "Arc Raiders Exploring Pendola Pass guide and walkthrough",
+          "evidence": "<article> <p>This walkthrough will help you complete the Exploring Pendola Pass quest in Arc Raiders step by step. It's a collection a few basic tasks that can quickly become overwhelming as you freeze your butt off outside and get absolutely decimated by the new Bully enemy. Save yourself the pain and use what I've learned to clear it all quick and easy. The <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-sizing-things-up-emperors-leg/\">Arc Raiders Sizing Things Up</a> quest also takes place here, so there's some scope for multitasking. </p><h2 class=\"article-body__section\" id=\"section-how-to-complete-exploring-pendola-pass-in-arc-raiders\"><span>How to complete Exploring Pendola Pass in Arc Raiders</span></h2><p>There are four tasks to complete in the Exploring Pendola Pass quest. Luckily, they don’t all have to be done in one round, or in any order:</p><ol start=\"1\"><li><strong>Destroy 20 ARC enemies</strong></li><li><strong>Search the control room at the Cielo Sereno Observatory for power</strong></li><li><strong>Use 1 Wire to patch into the antenna on top of the tallest tower in the Railyard</strong></li><li><strong>Search 3 containers inside the Comm"
+        }
+      ],
+      "keywords": [
+        "Arc Raiders Exploring Pendola Pass guide and walkthrough",
+        "Arc Raiders Exploring Pendola Pass guide and walkthrough date de sortie",
+        "Arc Raiders Exploring Pendola Pass guide and walkthrough plateformes",
+        "Arc Raiders Exploring Pendola Pass guide and walkthrough gameplay",
+        "Arc Raiders Exploring Pendola Pass guide and walkthrough guide",
+        "Arc Raiders Exploring Pendola Pass guide and walkthrough avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-your-friendly-neighborhood-spider-man-season-2-confirms-112cd67616bf",
+      "topic": "Your Friendly Neighborhood Spider-Man season 2 confirms Venom, and a new release date",
+      "detected_at": "2026-10-09T09:38:25.371962+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/your-friendly-neighborhood-spider-man-season-2-confirms-venom-and-a-new-release-date/",
+          "title": "Your Friendly Neighborhood Spider-Man season 2 confirms Venom, and a new release date",
+          "evidence": "<article> <p>If you're still feeling starved for Spidey-related action after <a href=\"https://www.gamesradar.com/entertainment/marvel-movies/spider-man-brand-new-day-has-finally-topped-star-wars-the-force-awakens-to-become-the-highest-grossing-movie-ever-at-the-domestic-box-office/\">the record-breaking Spider-Man: Brand New Day</a>, worry not. NYCC has confirmed when to expect season 2 of Your Friendly Neighborhood Spider-Man and who he'll face. </p><p>As the brand-new poster below reveals, Spidey will be back in action on Disney Plus on <strong>January 13, 2027</strong>. He'll also be going another round with the symbiotes and get a fancy, fresh suit for his troubles. Of course, it won't stay on him for long, since it's a living parasite that ends up finding a far more troubled host. </p><p>The poor fella in question is Mr. Eddie Brock, who will eventually become Venom and will be voiced by longtime Spidey vocal artist Josh Keaton, who voiced the webslinger in The Spectacular Spider-Man and Electro in the 2018 Spider-Man game. With such a legendary foe, Spidey will need extra webbing, which, in this case, will come from Gwen Stacy, aka Spider-Gwen, who is also set to make an appea"
+        }
+      ],
+      "keywords": [
+        "Your Friendly Neighborhood Spider-Man season 2 confirms Venom, and a new release date",
+        "Your Friendly Neighborhood Spider-Man season 2 confirms Venom, and a new release date date de sortie",
+        "Your Friendly Neighborhood Spider-Man season 2 confirms Venom, and a new release date plateformes",
+        "Your Friendly Neighborhood Spider-Man season 2 confirms Venom, and a new release date gameplay",
+        "Your Friendly Neighborhood Spider-Man season 2 confirms Venom, and a new release date guide",
+        "Your Friendly Neighborhood Spider-Man season 2 confirms Venom, and a new release date avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-marvel-zombies-is-returning-for-three-specials-about-th-da52f3d9eda5",
+      "topic": "Marvel Zombies is returning for three specials about the Winter Soldier, Moon Knight, and a Guardian of the Galaxy",
+      "detected_at": "2026-10-09T09:38:25.372071+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/marvel-zombies-is-returning-for-three-specials-focusing-on-the-winter-soldier-moon-knight-and-a-guardian-of-the-galaxy/",
+          "title": "Marvel Zombies is returning for three specials about the Winter Soldier, Moon Knight, and a Guardian of the Galaxy",
+          "evidence": "<article> <p>The Marvel Television panel at NYCC today is drawing a lot of moaning and groaning, but in the best way possible. Shuffling back onto screens in animated form for a second season is <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/marvel-zombies-review-disney-plus-mcu/\">Marvel Zombies</a>, but it's been revealed it won't be a follow-up to the original What If...? spin-off. </p><p>Instead, we're getting not one, not two, but three downright rotten specials set in the undead universe, just scheduled for the next three years. Kicking off in Halloween 2027, we'll be seeing how Bucky Barnes handles the flesh-munching horde in Marvel Zombies: The Winter Soldier. Then, in 2028, the undead army will go up against Moon Knight in Marvel Zombies: The Fist of Khonshu, followed by Marvel Zombies: The Last Guardian in 2029. </p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2108294442054500726\"><p lang=\"en\" dir=\"ltr\">Starting Halloween 2027, Marvel Animation’s #MarvelZombies returns with all-new specials on Disney+: 🧟 The Winter Soldier 2027🧟 The Fist of Khon"
+        }
+      ],
+      "keywords": [
+        "Marvel Zombies is returning for three specials about the Winter Soldier, Moon Knight, and a Guardian of the Galaxy",
+        "Marvel Zombies is returning for three specials about the Winter Soldier, Moon Knight, and a Guardian of the Galaxy date de sortie",
+        "Marvel Zombies is returning for three specials about the Winter Soldier, Moon Knight, and a Guardian of the Galaxy plateformes",
+        "Marvel Zombies is returning for three specials about the Winter Soldier, Moon Knight, and a Guardian of the Galaxy gameplay",
+        "Marvel Zombies is returning for three specials about the Winter Soldier, Moon Knight, and a Guardian of the Galaxy guide",
+        "Marvel Zombies is returning for three specials about the Winter Soldier, Moon Knight, and a Guardian of the Galaxy avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-1903340",
+      "topic": "Configuration PC Clair Obscur: Expedition 33 : minimale, recommandée et conseils",
+      "detected_at": "2026-10-09T09:38:24.419924+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1903340/",
+          "title": "Clair Obscur: Expedition 33 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Clair Obscur: Expedition 33, consultée le 2026-10-09. Développeur : Sandfall Interactive. Éditeur : Kepler Interactive. Date de sortie sur Steam : 24 avr. 2025. Genres : Action, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-8700K / AMD Ryzen 5 1600X ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1060 6 GB / AMD Radeon RX 5600 XT 6 GB / Intel Arc A380 6 GB ; DirectX : Version 12 ; Espace disque : 55 GB d'espace disque disponible ; Notes supplémentaires : Disque SSD requis. Les spécifications minimales permettent un gameplay en 1080p à 30FPS avec des paramètres faibles.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 11 ; Processeur : Intel Core i7-12700K / AMD Ryzen 7 5800X ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GeForce RTX 3060 Ti 8 GB / AMD Radeon RX 6800 XT 16 GB ; DirectX : Version 12 ; Espace disque : 55 GB d'espace disque disponible ; Notes supplémentaires : Disque SSD requis. Les spécifications recommandées permettent un gameplay en 1080p à 60FPS avec des paramètres élevés..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/ss_483a27df5072beb3a4650634a764bda750fbcb82.1920x1080.jpg?t=1782830877"
+        }
+      ],
+      "keywords": [
+        "configuration pc Clair Obscur: Expedition 33",
+        "Clair Obscur: Expedition 33 PC",
+        "Clair Obscur: Expedition 33 Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-1903340",
+      "topic": "Clair Obscur: Expedition 33 multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-09T09:38:24.419969+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1903340/",
+          "title": "Clair Obscur: Expedition 33 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Clair Obscur: Expedition 33, consultée le 2026-10-09. Développeur : Sandfall Interactive. Éditeur : Kepler Interactive. Date de sortie sur Steam : 24 avr. 2025. Genres : Action, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Taille de texte réglable, Contrôle du volume différencié, Difficulté ajustable, Manette recommandée, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : À la tête de l'Expédition 33, partez éliminer la Peintresse pour que plus jamais elle ne peigne la mort. Explorez un monde rappelant la France de la Belle Époque et affrontez des ennemis uniques dans ce RPG au tour par tour avec mécaniques de temps réel.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/ss_483a27df5072beb3a4650634a764bda750fbcb82.1920x1080.jpg?t=1782830877"
+        }
+      ],
+      "keywords": [
+        "Clair Obscur: Expedition 33 multijoueur",
+        "Clair Obscur: Expedition 33 PC",
+        "Clair Obscur: Expedition 33 Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-1145360",
+      "topic": "Configuration PC Hades : minimale, recommandée et conseils",
+      "detected_at": "2026-10-09T09:38:24.734567+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1145360/",
+          "title": "Hades sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hades, consultée le 2026-10-09. Développeur : Supergiant Games. Éditeur : Supergiant Games. Date de sortie sur Steam : 17 sept. 2020. Genres : Action, Indépendant, RPG. Systèmes pris en charge sur Steam : Windows, macOS. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 SP1 ; Processeur : Dual Core 2.4 GHz ; Mémoire vive : 4 GB de mémoire ; Graphiques : 1GB VRAM / DirectX 10+ support ; Espace disque : 15 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation *: Windows 7 SP1 ; Processeur : Dual Core 3.0 GHz+ ; Mémoire vive : 8 GB de mémoire ; Graphiques : 2GB VRAM / DirectX 10+ support ; Espace disque : 20 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.1920x1080.jpg?t=1758127023"
+        }
+      ],
+      "keywords": [
+        "configuration pc Hades",
+        "Hades PC",
+        "Hades Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-1145360",
+      "topic": "Hades multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-09T09:38:24.734603+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1145360/",
+          "title": "Hades sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hades, consultée le 2026-10-09. Développeur : Supergiant Games. Éditeur : Supergiant Games. Date de sortie sur Steam : 17 sept. 2020. Genres : Action, Indépendant, RPG. Systèmes pris en charge sur Steam : Windows, macOS. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Sous-titres disponibles, Steam Cloud, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Défiez le dieu des morts et frayez-vous un chemin hors des Enfers dans ce rogue-like en mode dungeon crawler développé par les créateurs de Bastion, Transistor et Pyre.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.1920x1080.jpg?t=1758127023"
+        }
+      ],
+      "keywords": [
+        "Hades multijoueur",
+        "Hades PC",
+        "Hades Steam"
       ],
       "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
       "status": "new"

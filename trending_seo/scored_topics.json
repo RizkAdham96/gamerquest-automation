@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-08T20:08:36.390879+00:00",
+  "updated_at": "2026-10-09T09:38:25.644941+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -4048,6 +4048,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Razer Chroma Soma lighting"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1903340",
+      "topic": "Configuration PC Clair Obscur: Expedition 33 : minimale, recommandée et conseils",
+      "detected_at": "2026-10-09T09:38:24.419924+00:00",
+      "analysed_at": "2026-10-09T09:38:25.644794+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1903340/",
+          "title": "Clair Obscur: Expedition 33 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Clair Obscur: Expedition 33, consultée le 2026-10-09. Développeur : Sandfall Interactive. Éditeur : Kepler Interactive. Date de sortie sur Steam : 24 avr. 2025. Genres : Action, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-8700K / AMD Ryzen 5 1600X ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1060 6 GB / AMD Radeon RX 5600 XT 6 GB / Intel Arc A380 6 GB ; DirectX : Version 12 ; Espace disque : 55 GB d'espace disque disponible ; Notes supplémentaires : Disque SSD requis. Les spécifications minimales permettent un gameplay en 1080p à 30FPS avec des paramètres faibles.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 11 ; Processeur : Intel Core i7-12700K / AMD Ryzen 7 5800X ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GeForce RTX 3060 Ti 8 GB / AMD Radeon RX 6800 XT 16 GB ; DirectX : Version 12 ; Espace disque : 55 GB d'espace disque disponible ; Notes supplémentaires : Disque SSD requis. Les spécifications recommandées permettent un gameplay en 1080p à 60FPS avec des paramètres élevés..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/ss_483a27df5072beb3a4650634a764bda750fbcb82.1920x1080.jpg?t=1782830877"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Clair Obscur: Expedition 33",
+        "secondary_keywords": [
+          "Clair Obscur: Expedition 33 PC",
+          "Clair Obscur: Expedition 33 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Clair Obscur: Expedition 33 : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1903340",
+      "topic": "Clair Obscur: Expedition 33 multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-09T09:38:24.419969+00:00",
+      "analysed_at": "2026-10-09T09:38:25.644830+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1903340/",
+          "title": "Clair Obscur: Expedition 33 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Clair Obscur: Expedition 33, consultée le 2026-10-09. Développeur : Sandfall Interactive. Éditeur : Kepler Interactive. Date de sortie sur Steam : 24 avr. 2025. Genres : Action, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Taille de texte réglable, Contrôle du volume différencié, Difficulté ajustable, Manette recommandée, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : À la tête de l'Expédition 33, partez éliminer la Peintresse pour que plus jamais elle ne peigne la mort. Explorez un monde rappelant la France de la Belle Époque et affrontez des ennemis uniques dans ce RPG au tour par tour avec mécaniques de temps réel.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/ss_483a27df5072beb3a4650634a764bda750fbcb82.1920x1080.jpg?t=1782830877"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Clair Obscur: Expedition 33 multijoueur",
+        "secondary_keywords": [
+          "Clair Obscur: Expedition 33 PC",
+          "Clair Obscur: Expedition 33 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Clair Obscur: Expedition 33 multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1145360",
+      "topic": "Configuration PC Hades : minimale, recommandée et conseils",
+      "detected_at": "2026-10-09T09:38:24.734567+00:00",
+      "analysed_at": "2026-10-09T09:38:25.644845+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1145360/",
+          "title": "Hades sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hades, consultée le 2026-10-09. Développeur : Supergiant Games. Éditeur : Supergiant Games. Date de sortie sur Steam : 17 sept. 2020. Genres : Action, Indépendant, RPG. Systèmes pris en charge sur Steam : Windows, macOS. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 SP1 ; Processeur : Dual Core 2.4 GHz ; Mémoire vive : 4 GB de mémoire ; Graphiques : 1GB VRAM / DirectX 10+ support ; Espace disque : 15 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation *: Windows 7 SP1 ; Processeur : Dual Core 3.0 GHz+ ; Mémoire vive : 8 GB de mémoire ; Graphiques : 2GB VRAM / DirectX 10+ support ; Espace disque : 20 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.1920x1080.jpg?t=1758127023"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Hades",
+        "secondary_keywords": [
+          "Hades PC",
+          "Hades Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Hades : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1145360",
+      "topic": "Hades multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-09T09:38:24.734603+00:00",
+      "analysed_at": "2026-10-09T09:38:25.644858+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 84,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1145360/",
+          "title": "Hades sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hades, consultée le 2026-10-09. Développeur : Supergiant Games. Éditeur : Supergiant Games. Date de sortie sur Steam : 17 sept. 2020. Genres : Action, Indépendant, RPG. Systèmes pris en charge sur Steam : Windows, macOS. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Sous-titres disponibles, Steam Cloud, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Défiez le dieu des morts et frayez-vous un chemin hors des Enfers dans ce rogue-like en mode dungeon crawler développé par les créateurs de Bastion, Transistor et Pyre.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.1920x1080.jpg?t=1758127023"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Hades multijoueur",
+        "secondary_keywords": [
+          "Hades PC",
+          "Hades Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Hades multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-my-first-mmo-character-2-joshua-wolens-1954acc3245f",
+      "topic": "My first MMO character #2: Joshua Wolens",
+      "detected_at": "2026-09-24T07:49:15.021512+00:00",
+      "analysed_at": "2026-10-09T09:38:25.644872+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/my-first-mmo-character-2-joshua-wolens/",
+          "title": "My first MMO character #2: Joshua Wolens",
+          "evidence": "<article> <p>My first MMO character was... </p><p><strong>Karokan, Half-elf Something</strong></p><p><strong>Born: </strong>1999</p><p><strong>Game: </strong>EverQuest</p><p>Karokan's is a simple tale. When I was six years old, I saw my dad having a good time in a then-new release called EverQuest. Obviously, I wanted in on that, and badgered pops into helping me make a character.</p><p>My dad played a gnome magician, but I was revulsed by the idea of being as short in the game as I then was in real life. Also, magicianry sounded complicated. I settled on a half-elf whose class I no longer remember, and came up with a basically random series of syllables to serve as a name.</p><p>And then! I went nowhere. I was <em>terrified</em>. I wasn't so much scared of dying (though I was a bit scared of dying) but of getting lost. EverQuest felt impossibly vast, and I knew for sure that the second I stepped out of Freeport I'd never be able to find my way back. So I spent Karokan's life just outside the city gates, fighting orcs and rats, and never venturing further. It was a simple life, but a happy one.</p><p><a href=\"https://www.pcgamer.com/games/mmo/a-tribute-to-pc-gamers-first-mmo-charac"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "My first MMO character #2: Joshua Wolens",
+        "secondary_keywords": [
+          "My first MMO character #2: Joshua Wolens date de sortie",
+          "My first MMO character #2: Joshua Wolens plateformes",
+          "My first MMO character #2: Joshua Wolens gameplay",
+          "My first MMO character #2: Joshua Wolens guide",
+          "My first MMO character #2: Joshua Wolens avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "My first MMO character #2: Joshua Wolens"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-steam-game-disables-mods-after-facing-its-second-worksh-975833a47cb6",
+      "topic": "Steam game disables mods after facing its second Workshop malware outbreak this year",
+      "detected_at": "2026-09-24T07:49:15.021753+00:00",
+      "analysed_at": "2026-10-09T09:38:25.644887+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/steam-game-disables-mods-after-facing-its-second-workshop-malware-outbreak-this-year/",
+          "title": "Steam game disables mods after facing its second Workshop malware outbreak this year",
+          "evidence": "<article> <h2 id=\"what-happened\">What happened</h2><ul><li>On September 22, Studio Minus—the developer of ragdoll torture sandbox People Playground—<a href=\"https://store.steampowered.com/news/app/1118200/view/717916455762396045?l=english\" target=\"_blank\">posted a Steam news update</a> saying it had <strong>disabled the game's Steam Workshop support</strong> \"due to yet another malicious mod,\" which the developer said was \"especially bad\"</li><li>The developer has since <strong>released a new build of People Playground that prevents mods from running</strong>, <a href=\"https://discord.com/channels/779898133064056862/931579024432562226/1552279775249170563\" target=\"_blank\">saying on its Discord</a> that Workshop and mod support will only return if \"mods are fundamentally safe to run,\" which \"might never happen\"</li><li>A redditor who <a href=\"https://www.reddit.com/r/peopleplayground/comments/1wmn16s/fps_new_virus_full_breakdown/\" target=\"_blank\">inspected the malicious Workshop mod</a> claims <strong>the mod hijacks the user's Steam account to republish itself on the Workshop along with the user's personal information</strong>, destroys files for People Playground and other installe"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Steam game disables mods after facing its second Workshop malware outbreak this year",
+        "secondary_keywords": [
+          "Steam game disables mods after facing its second Workshop malware outbreak this year date de sortie",
+          "Steam game disables mods after facing its second Workshop malware outbreak this year plateformes",
+          "Steam game disables mods after facing its second Workshop malware outbreak this year gameplay",
+          "Steam game disables mods after facing its second Workshop malware outbreak this year guide",
+          "Steam game disables mods after facing its second Workshop malware outbreak this year avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Steam game disables mods after facing its second Workshop malware outbreak this year"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-world-of-warcraft-forever-dev-addresses-the-debate-over-881f62b2a194",
+      "topic": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
+      "detected_at": "2026-09-24T07:49:15.021915+00:00",
+      "analysed_at": "2026-10-09T09:38:25.644925+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-dev-addresses-the-debate-over-who-its-made-for-i-did-not-spend-the-last-year-of-my-life-relearning-and-mastering-how-to-do-things-like-we-did-it-20-years-ago-for-retail-players/",
+          "title": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
+          "evidence": "<article> <div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-Xj2VxX\"></div> </div> <script src=\"https://kwizly.com/embed/Xj2VxX.js\" async></script><div class=\"product\"><a data-dimension112=\"04d63578-b79a-11f1-bbfe-63e23dd6ade1\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:661px;\"><p class=\"vanilla-image-block\" style=\"padding-top:98.94%;\"><img id=\"6offQUY4CXebir2TC27dMd\" name=\"kingdom come 2 square\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"661\" height=\"654\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\"></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/games/new-pc-games-2026/\" target=\"_blank\" data-dimension112=\"04d63578-b79a-11f1-bbfe-63e23dd6ade1\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" data-dimension25=\"\"><strong>2026 games</strong></a>: All the upcoming games<br><a href=\"https://www.pcgamer.com/the-best-pc-games/\" target=\"_blank\"><stro"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'",
+        "secondary_keywords": [
+          "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' date de sortie",
+          "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' plateformes",
+          "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' gameplay",
+          "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' guide",
+          "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "World of Warcraft: Forever dev addresses the debate over who it's made for: 'I did not spend the last year of my life relearning and mastering how to do things like we did it 20+ years ago for retail players'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-apologize-in-advance-for-this-but-introducing-drillpo-296dd488285d",
+      "topic": "I apologize in advance for this, but: Introducing Drillposting",
+      "detected_at": "2026-09-24T07:49:15.022339+00:00",
+      "analysed_at": "2026-10-09T09:38:25.644938+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/i-apologize-in-advance-for-this-but-introducing-drillposting/",
+          "title": "I apologize in advance for this, but: Introducing Drillposting",
+          "evidence": "<article> <p>The study of philosophy is powerful because you can map its insights onto any aspect of life today, just as you could a hundred or a thousand years ago. French philosopher Descartes, for example, pioneered the theory of mind-body dualism, writing \"I have a clear and distinct idea of myself, in so far as I am simply a thinking, non-extended thing... and on the other hand I have a distinct idea of body... accordingly, it is certain that I am really distinct from my body, and can exist without it.\" Descartes was born about 300 years too early to experience jetlag, but he was definitely onto something. </p><p>After flying home from Japan, where I spent a few days shooting for the <a href=\"https://www.pcgamer.com/gaming-industry/events-conferences/everything-announced-at-the-pc-gaming-show-tokyo-direct-2026/\" target=\"_blank\">PC Gaming Show Tokyo Direct</a>, I found my separated body and mind capable of little in the way of cogent thought. All I could think of yesterday was a single idea: Drillposting.</p><p>It's thanks to the preeminent philosopher of the 21st century that we're all now familiar with wisdom like \"theres actually zero difference between good & bad things,\" b"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I apologize in advance for this, but: Introducing Drillposting",
+        "secondary_keywords": [
+          "I apologize in advance for this, but: Introducing Drillposting date de sortie",
+          "I apologize in advance for this, but: Introducing Drillposting plateformes",
+          "I apologize in advance for this, but: Introducing Drillposting gameplay",
+          "I apologize in advance for this, but: Introducing Drillposting guide",
+          "I apologize in advance for this, but: Introducing Drillposting avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I apologize in advance for this, but: Introducing Drillposting"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

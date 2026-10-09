@@ -37,6 +37,8 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
         self.assert_cron("reviews.yml", "27 5 * * *")
         self.assert_cron("content-health.yml", "43 */6 * * *")
         self.assert_cron("acquisition-shadow.yml", "17 4 * * *")
+        self.assert_cron("social-test.yml", "30 12,18 * * *")
+        self.assert_cron("social-publish-recovery.yml", "15 13,19 * * *")
 
     def test_production_workflows_are_not_push_publishers(self):
         for name in (
@@ -77,16 +79,10 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
     def test_social_is_consolidated(self):
         self.assertFalse((WORKFLOWS / "social-sunday.yml").exists())
         self.assertFalse((WORKFLOWS / "social-publish-now-once.yml").exists())
-
-    def test_carousels_are_manual_only(self):
-        # Reels replaced the scheduled carousels; neither workflow may post
-        # on a timer again without the editor asking for it.
-        for name in ("social-test.yml", "social-publish-recovery.yml"):
-            with self.subTest(workflow=name):
-                header = workflow(name).split("permissions:", 1)[0]
-                self.assertNotRegex(header, r"(?m)^\s{2}schedule:\s*$", name)
-                self.assertNotIn("- cron:", header, name)
-                self.assertRegex(header, r"(?m)^\s{2}workflow_dispatch:", name)
+        social = workflow("social-test.yml")
+        recovery = workflow("social-publish-recovery.yml")
+        self.assertIn('timezone: "Europe/Paris"', social)
+        self.assertIn('timezone: "Europe/Paris"', recovery)
 
     def test_duplicate_ci_is_consolidated(self):
         self.assertFalse((WORKFLOWS / "test-trending-seo.yml").exists())

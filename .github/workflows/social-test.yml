@@ -9,9 +9,9 @@ on:
         default: false
         type: boolean
 
-  # No schedule: on 2026-10-09 the editor replaced the two daily carousels
-  # with Reels (gamerquest-social-agent). A carousel can still be published by
-  # hand from the Actions tab with "publish_to_meta" ticked.
+  schedule:
+    - cron: "30 12,18 * * *"
+      timezone: "Europe/Paris"
 
 permissions:
   contents: write

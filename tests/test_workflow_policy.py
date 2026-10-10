@@ -110,9 +110,10 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
         self.assertNotIn('latest_post("2,3,8,9", "Actualités", 24)', text)
         self.assertIn("max_age_hours", text)
 
-    def test_news_monitors_cover_every_news_category(self):
+    def test_news_monitors_exclude_seo_guides_from_news_freshness(self):
         text = workflow("gamerquest.yml")
-        self.assertEqual(text.count("?categories=2,3,8,9&per_page=1"), 2)
+        self.assertEqual(text.count("?categories=2,8,9&per_page=1"), 2)
+        self.assertNotIn("?categories=2,3,8,9&per_page=1", text)
         self.assertNotIn("?categories=2&", text)
 
     def test_production_workflows_skip_pip_self_upgrade(self):

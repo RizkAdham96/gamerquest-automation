@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-10T09:00:27.152705+00:00",
+  "updated_at": "2026-10-10T18:51:37.276952+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -4972,6 +4972,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "The Elder Scrolls Online's devs are pushing through hard times after layoffs and delays: 'We didn't want to rush to just hit a date'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1158310",
+      "topic": "Configuration PC Crusader Kings III : minimale, recommandée et conseils",
+      "detected_at": "2026-10-10T18:51:36.037808+00:00",
+      "analysed_at": "2026-10-10T18:51:37.276739+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1158310/",
+          "title": "Crusader Kings III sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Crusader Kings III, consultée le 2026-10-10. Développeur : Paradox Development Studio. Éditeur : Paradox Interactive. Date de sortie sur Steam : 1 sept. 2020. Genres : RPG, Simulation, Stratégie. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows® 10 Home 64 bit ; Processeur : Intel Core i5-750 | AMD FX 4300 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 660 | AMD Radeon HD 7870 | Intel Arc A310 | Intel Iris Plus G7 | AMD Radeon Vega 11 ; Espace disque : 20 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows® 10 Home 64 bit or Windows® 11 ; Processeur : Intel Core i5-8400 | AMD Ryzen 5 1600X ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 970 | AMD Radeon RX 480 | Intel Arc A580 ; Espace disque : 20 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/ba7f77f7eb96d48f267e970583ddaa32b3b5eb98/ss_ba7f77f7eb96d48f267e970583ddaa32b3b5eb98.1920x1080.jpg?t=1791471575"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Crusader Kings III",
+        "secondary_keywords": [
+          "Crusader Kings III PC",
+          "Crusader Kings III Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Crusader Kings III : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1158310",
+      "topic": "Crusader Kings III multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-10T18:51:36.037873+00:00",
+      "analysed_at": "2026-10-10T18:51:37.276786+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1158310/",
+          "title": "Crusader Kings III sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Crusader Kings III, consultée le 2026-10-10. Développeur : Paradox Development Studio. Éditeur : Paradox Interactive. Date de sortie sur Steam : 1 sept. 2020. Genres : RPG, Simulation, Stratégie. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, PvP, JcJ en ligne, Succès Steam, Cartes à échanger Steam, Workshop Steam, Taille de texte réglable, Caméra et confort de vue, Contrôle du volume différencié, Difficulté ajustable, Option souris uniquement, #category_playable_at_your_own_pace, Jouable sans saisie en temps imparti, Sauvegarde à tout moment, Steam Cloud, Remote Play sur tablette, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : Aimez, luttez, planifiez et atteignez la grandeur. Déterminez l'héritage de votre maison noble dans le jeu de grande stratégie tentaculaire de Crusader Kings III. La mort n'est qu'un début quand vous guidez votre dynastie dans cette riche simulation médiévale plus grande que nature.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/ba7f77f7eb96d48f267e970583ddaa32b3b5eb98/ss_ba7f77f7eb96d48f267e970583ddaa32b3b5eb98.1920x1080.jpg?t=1791471575"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Crusader Kings III multijoueur",
+        "secondary_keywords": [
+          "Crusader Kings III PC",
+          "Crusader Kings III Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Crusader Kings III multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1693980",
+      "topic": "Configuration PC Dead Space : minimale, recommandée et conseils",
+      "detected_at": "2026-10-10T18:51:36.563735+00:00",
+      "analysed_at": "2026-10-10T18:51:37.276813+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1693980/",
+          "title": "Dead Space sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Dead Space, consultée le 2026-10-10. Développeur : Motive. Éditeur : Electronic Arts. Date de sortie sur Steam : 27 janv. 2023. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Window 10 64-bit + ; Processeur : Ryzen 5 2600x, Core i5 8600 ; Mémoire vive : 16 GB de mémoire ; Graphiques : AMD RX 5700, GTX 1070 ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 50 GB d'espace disque disponible ; Notes supplémentaires : 50GB SATA SSD. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Window 10 64-bit + ; Processeur : Ryzen 5 5600X,Core i5 11600K ; Mémoire vive : 16 GB de mémoire ; Graphiques : Radeon RX 6700 XT, Geforce RTX 2070 ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 50 GB d'espace disque disponible ; Notes supplémentaires : 50GB SSD PCIe compatible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/ss_b4b02766216117747640523bb6e258d44053e355.1920x1080.jpg?t=1777396576"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Dead Space",
+        "secondary_keywords": [
+          "Dead Space PC",
+          "Dead Space Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Dead Space : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1693980",
+      "topic": "Dead Space multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-10T18:51:36.563805+00:00",
+      "analysed_at": "2026-10-10T18:51:37.276837+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1693980/",
+          "title": "Dead Space sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Dead Space, consultée le 2026-10-10. Développeur : Motive. Éditeur : Electronic Arts. Date de sortie sur Steam : 27 janv. 2023. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Option clavier uniquement, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Le grand classique du genre « survival horror » de science-fiction est de retour. Le jeu a été réadapté pour vous offrir une expérience plus immersive grâce à des améliorations en matière de graphismes, d’ambiance sonore et de jouabilité tout en restant fidèle à la vision palpitante du jeu original.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/ss_b4b02766216117747640523bb6e258d44053e355.1920x1080.jpg?t=1777396576"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dead Space multijoueur",
+        "secondary_keywords": [
+          "Dead Space PC",
+          "Dead Space Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Dead Space multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-shadow-the-hedgehog-is-supposed-to-be-dead-61a5fad68e33",
+      "topic": "Shadow the Hedgehog is supposed to be dead",
+      "detected_at": "2026-09-28T08:57:42.661385+00:00",
+      "analysed_at": "2026-10-10T18:51:37.276861+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/shadow-the-hedgehog-is-supposed-to-be-dead/",
+          "title": "Shadow the Hedgehog is supposed to be dead",
+          "evidence": "<article> <p>It's hard to imagine Sonic the Hedgehog without his Jungian counterpart: the gun-toting, swear-uttering Shadow the Hedgehog. But Shadow is a relatively late addition to the series' extensive roster of anthropomorphic animals, debuting long after the Genesis days in Sonic Adventure 2—more than that, he was never supposed to stick around.</p><p>According to a report from <a href=\"https://onemoregame.ph/2026/09/sonic-35th-anniversary-interview-iizuka/\" target=\"_blank\">One More Game</a>, Sonic honcho Takashi Iizuka said at the recent Tokyo Game Show that Shadow's popularity was a big surprise to Sonic Team when SA2 came out. \"If you have played Sonic Adventure 2, people may know that Shadow basically sort of died at the end of that game,\" he said.</p><p>\"We were originally intending to just kind of 'die the character out' (kill him off), but the character Shadow was just so very popular that we decided to revive him in Sonic Heroes.“ He also noted that Shadow is his personal favorite character, and he wants to give him more of a spotlight in the future.</p><p>Not that Shadow has ever gone completely by the wayside. He's one of the only Sonic characters other than, well, So"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Shadow the Hedgehog is supposed to be dead",
+        "secondary_keywords": [
+          "Shadow the Hedgehog is supposed to be dead date de sortie",
+          "Shadow the Hedgehog is supposed to be dead plateformes",
+          "Shadow the Hedgehog is supposed to be dead gameplay",
+          "Shadow the Hedgehog is supposed to be dead guide",
+          "Shadow the Hedgehog is supposed to be dead avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Shadow the Hedgehog is supposed to be dead"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-latest-xbox-layoffs-reportedly-devastated-age-of-empire-e194f3c9f0a9",
+      "topic": "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game",
+      "detected_at": "2026-09-28T08:57:42.661532+00:00",
+      "analysed_at": "2026-10-10T18:51:37.276890+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/latest-xbox-layoffs-reportedly-devastated-age-of-empires-developer-and-canceled-its-next-game/",
+          "title": "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game",
+          "evidence": "<article> <p>The latest stage of Xbox's delicately named \"<a href=\"https://news.xbox.com/en-us/2026/09/22/continuing-our-reset/\" target=\"_blank\">reset</a>\" arrived <a href=\"https://www.pcgamer.com/gaming-industry/xbox-lays-off-268-more-employees-merges-obsidian-into-bethesda-and-puts-activision-in-charge-of-halo/\">last Tuesday</a>—but its impact on World's Edge Studio, the developer now behind the Age of Empires series, was only briefly mentioned in Xbox CCO Matt Booty's announcement. On sites like resetera and LinkedIn, former employees of the RTS developer have shared that it was hit especially hard.</p><p>\"What a morning,\" said former World's Edge creative director Adam Isgreen <a href=\"https://www.resetera.com/threads/xbox-continuing-our-reset-rare-worlds-edge-under-activision-obsidian-under-bethesda-playground-turn-10-merge-ninja-theory-shuttering.1639822/page-17#post-160889011\" target=\"_blank\">on resetera</a>, posting under the verified account name Tempus Chaoti. \"FYI World's Edge was not spared completely—just under half the studio was let go—myself included. Been fun, y'all!\" This is in addition to the studio now answering to Activision alongside Sea of Thieves developer R"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game",
+        "secondary_keywords": [
+          "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game date de sortie",
+          "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game plateformes",
+          "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game gameplay",
+          "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game guide",
+          "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-william-pugh-co-designer-of-the-stanley-parable-has-ove-02888f0825a2",
+      "topic": "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer'",
+      "detected_at": "2026-09-28T08:57:42.662094+00:00",
+      "analysed_at": "2026-10-10T18:51:37.276921+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/william-pugh-co-designer-of-the-stanley-parable-has-over-1-600-hours-in-dota-2-its-not-a-game-made-of-love-its-a-game-fuelled-by-hate-and-a-desire-to-conquer/",
+          "title": "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer'",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Disk Cleanup</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"DEwkbfkEmfdtjT5P9ybme\" name=\"logo_disk_cleanup\" caption=\"\" alt=\"Disk Cleanup logo\" src=\"https://cdn.mos.cms.futurecdn.net/DEwkbfkEmfdtjT5P9ybme-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/disk-cleanup/\" target=\"_blank\">Disk Cleanup</a>, our regular weekend feature delving into the PCs of PC gaming luminaries. Come back every weekend to read a new interview, digging into the important questions, like \"How tidy is your desktop?\" and \"What game will you never uninstall?\"</p></div></div><p>William Pugh grew up on a diet of shareware Mac titles like "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer'",
+        "secondary_keywords": [
+          "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer' date de sortie",
+          "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer' plateformes",
+          "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer' gameplay",
+          "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer' guide",
+          "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-lords-of-the-end-times-greatest-fantasy-is-letting-us-r-9c9aad6d0a77",
+      "topic": "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history",
+      "detected_at": "2026-09-28T08:57:42.662420+00:00",
+      "analysed_at": "2026-10-10T18:51:37.276947+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/lords-of-the-end-times-greatest-fantasy-is-letting-us-rewrite-the-most-hated-lore-in-warhammers-history/",
+          "title": "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Play This Right Now</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">Welcome to Play This Right Now, the site version of our weekly newsletter in which we celebrate a new game, update, or DLC that we think is well worth checking out. You can <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/newsletter/\" target=\"_blank\">subscribe to the newsletter</a> at the link if you want to get our thoughts about a new videogame happening direct to your inbox every Thursday.</p></div></div><p>If you told me 10 years back, when I started playing <a href=\"https://www.pcgamer.com/total-war-warhammer-3/\" target=\"_blank\">Total War: Warhammer</a> as a brighter-eyed and bushier-tailed strategy gamer, that we'd eventually reach The End Times period, I wouldn't have believed you. But here we are: three games, 110 legendary lords and factions later, Immortal Empires has successfully sliced and diced the best bits of Warhammer Fantasy and chucked them in a big cooking pot of delicious fantasy goodness.</p><p>It's both the biggest and best Total War campaign Creative Assembly has ever attempted and you can now play "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history",
+        "secondary_keywords": [
+          "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history date de sortie",
+          "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history plateformes",
+          "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history gameplay",
+          "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history guide",
+          "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

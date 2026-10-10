@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-10T09:00:33.253626+00:00",
+  "updated_at": "2026-10-10T18:51:43.236738+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -97,6 +97,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-sons-of-the-forest-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 678,
       "published_at": "2026-10-10T09:00:33.253626+00:00"
+    },
+    {
+      "intent_key": "sons of the forest multijoueur",
+      "primary_keyword": "Sons Of The Forest multijoueur",
+      "title": "Sons Of The Forest multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/sons-of-the-forest-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 691,
+      "published_at": "2026-10-10T18:51:43.236738+00:00"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T06:19:23.569246+00:00",
-  "count": 3,
+  "generated_at": "2026-10-10T14:40:29.417651+00:00",
+  "count": 4,
   "articles": [
     {
       "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
@@ -22,6 +22,28 @@
         "alt": "Red Dead Redemption 2 -75% sur Steam - GamerQuest",
         "caption": "Red Dead Redemption 2 : offre -75% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Red Dead Redemption 2 sur Steam."
+      }
+    },
+    {
+      "source_id": "ae9d5af1f1fce6f6e075a0d8d5564df565c9d042e0158c0995caf9fea753c73e",
+      "title": "Crusader Kings III à -70% sur Steam",
+      "excerpt": "Crusader Kings III bénéficie actuellement d'une réduction de 70% sur Steam, passant de 49,99 € à 14,99 €.",
+      "content": "<p><strong>Crusader Kings III</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>49,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1158310/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1158310/",
+      "deal": {
+        "game": "Crusader Kings III",
+        "store": "Steam",
+        "original_price": 49.99,
+        "current_price": 14.99,
+        "discount_percent": 70,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/ae9d5af1f1fce6f6e075a0d8d5564df565c9d042e0158c0995caf9fea753c73e.jpg",
+        "filename": "ae9d5af1f1fce6f6e075a0d8d5564df565c9d042e0158c0995caf9fea753c73e.jpg",
+        "alt": "Crusader Kings III -70% sur Steam - GamerQuest",
+        "caption": "Crusader Kings III : offre -70% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Crusader Kings III sur Steam."
       }
     },
     {

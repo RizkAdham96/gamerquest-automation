@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T20:17:48.996382+00:00",
-  "count": 3,
+  "generated_at": "2026-10-10T23:47:35.601523+00:00",
+  "count": 4,
   "articles": [
     {
       "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
@@ -22,6 +22,28 @@
         "alt": "Red Dead Redemption 2 -75% sur Steam - GamerQuest",
         "caption": "Red Dead Redemption 2 : offre -75% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Red Dead Redemption 2 sur Steam."
+      }
+    },
+    {
+      "source_id": "7c1fdc5e953c0b774bf844c36ff2cad210085e620de586f47f0ecc8f8388f786",
+      "title": "Sifu à -75% sur Steam",
+      "excerpt": "Sifu bénéficie actuellement d'une réduction de 75% sur Steam, passant de 39,99 € à 9,99 €.",
+      "content": "<p><strong>Sifu</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>9,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2138710/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/2138710/",
+      "deal": {
+        "game": "Sifu",
+        "store": "Steam",
+        "original_price": 39.99,
+        "current_price": 9.99,
+        "discount_percent": 75,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/7c1fdc5e953c0b774bf844c36ff2cad210085e620de586f47f0ecc8f8388f786.jpg",
+        "filename": "7c1fdc5e953c0b774bf844c36ff2cad210085e620de586f47f0ecc8f8388f786.jpg",
+        "alt": "Sifu -75% sur Steam - GamerQuest",
+        "caption": "Sifu : offre -75% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Sifu sur Steam."
       }
     },
     {

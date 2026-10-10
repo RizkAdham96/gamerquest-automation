@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-09T19:46:15.722254+00:00",
+  "updated_at": "2026-10-10T09:00:27.152705+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -4664,6 +4664,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "A running tally of the most ridiculous things AI bigwigs have said so far"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-2050650",
+      "topic": "Configuration PC Resident Evil 4 : minimale, recommandée et conseils",
+      "detected_at": "2026-10-10T09:00:26.213021+00:00",
+      "analysed_at": "2026-10-10T09:00:27.152573+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2050650/",
+          "title": "Resident Evil 4 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Resident Evil 4, consultée le 2026-10-10. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 23 mars 2023. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (64 bit) ; Processeur : AMD Ryzen 3 1200 / Intel Core i5-7500 ; Mémoire vive : 8 GB de mémoire ; Graphiques : AMD Radeon RX 560 with 4GB VRAM / NVIDIA GeForce GTX 1050 Ti with 4GB VRAM ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Notes supplémentaires : Performances visées (avec les réglages \"Performances\") : 1080p/45 fps - Des baisses de frame rate peuvent survenir dans les scènes les plus exigeantes graphiquement. - AMD Radeon RX 6700 XT ou NVIDIA GeForce RTX 2060 sont nécessaires pour bénéficier du ray tracing.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (64 bit)/Windows 11 (64 bit) ; Processeur : AMD Ryzen 5 3600 / Intel Core i7 8700 ; Mémoire vive : 16 GB de mémoire ; Graphiques : AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070 ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Notes supplémentaires : Performances visées : 1080p/60 fps - Des baisses de frame rate peuvent survenir dans les scènes les plus exigeantes graphiquement. - AMD Radeon RX 6700 XT ou NVIDIA GeForce RTX 2070 sont nécessaires pour bénéficier du ray tracing..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_59d1b19964cc532213df92c8287b75a0bffeb33c.1920x1080.jpg?t=1772502922"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Resident Evil 4",
+        "secondary_keywords": [
+          "Resident Evil 4 PC",
+          "Resident Evil 4 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Resident Evil 4 : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-2050650",
+      "topic": "Resident Evil 4 multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-10T09:00:26.213061+00:00",
+      "analysed_at": "2026-10-10T09:00:27.152608+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2050650/",
+          "title": "Resident Evil 4 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Resident Evil 4, consultée le 2026-10-10. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 23 mars 2023. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Steam Cloud, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : La survie n'est que le début. Avec un gameplay modernisé, une histoire revisitée et des graphismes ultra détaillés, Resident Evil 4 signe la renaissance d'un monstre de l'industrie. Replongez dans le cauchemar qui a révolutionné les jeux d'horreur et de survie.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_59d1b19964cc532213df92c8287b75a0bffeb33c.1920x1080.jpg?t=1772502922"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Resident Evil 4 multijoueur",
+        "secondary_keywords": [
+          "Resident Evil 4 PC",
+          "Resident Evil 4 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Resident Evil 4 multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1196590",
+      "topic": "Configuration PC Resident Evil Village : minimale, recommandée et conseils",
+      "detected_at": "2026-10-10T09:00:26.639772+00:00",
+      "analysed_at": "2026-10-10T09:00:27.152623+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1196590/",
+          "title": "Resident Evil Village sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Resident Evil Village, consultée le 2026-10-10. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 6 mai 2021. Genres : Action. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (64 bit) ; Processeur : AMD Ryzen 3 1200 ／ Intel Core i5-7500 ; Mémoire vive : 8 GB de mémoire ; Graphiques : AMD Radeon RX 560 with 4GB VRAM ／ NVIDIA GeForce GTX 1050 Ti with 4GB VRAM ; DirectX : Version 12 ; Notes supplémentaires : Performances visées (avec les réglages \"Performances\") : 1080p/60 fps - Des baisses de frame rate peuvent survenir dans les scènes les plus exigeantes graphiquement. - AMD Radeon RX 6700 XT ou NVIDIA GeForce RTX 2060 sont nécessaires pour bénéficier du ray tracing.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (64 bit)/Windows 11 (64 bit) ; Processeur : AMD Ryzen 5 3600 ／ Intel Core i7 8700 ; Mémoire vive : 16 GB de mémoire ; Graphiques : AMD Radeon RX 5700 ／ NVIDIA GeForce GTX 1070 ; DirectX : Version 12 ; Notes supplémentaires : Performances visées : 1080p/60 fps - Des baisses de frame rate peuvent survenir dans les scènes les plus exigeantes graphiquement. - AMD Radeon RX 6700 XT ou NVIDIA GeForce RTX 2070 sont nécessaires pour bénéficier du ray tracing..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_d25704b01be292d1337df4fea0fba2aab322b58a.1920x1080.jpg?t=1776927117"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Resident Evil Village",
+        "secondary_keywords": [
+          "Resident Evil Village PC",
+          "Resident Evil Village Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Resident Evil Village : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1196590",
+      "topic": "Resident Evil Village multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-10T09:00:26.639812+00:00",
+      "analysed_at": "2026-10-10T09:00:27.152636+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1196590/",
+          "title": "Resident Evil Village sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Resident Evil Village, consultée le 2026-10-10. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 6 mai 2021. Genres : Action. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Steam Cloud, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Survie et épouvante atteignent des sommets dans le 8e titre de la franchise Resident Evil : Resident Evil Village. Graphismes ultra-détaillés, action intense en vue subjective et récit palpitant : la peur n'a jamais été aussi palpable.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_d25704b01be292d1337df4fea0fba2aab322b58a.1920x1080.jpg?t=1776927117"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Resident Evil Village multijoueur",
+        "secondary_keywords": [
+          "Resident Evil Village PC",
+          "Resident Evil Village Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Resident Evil Village multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-former-elder-scrolls-designer-kurt-kuhlmann-on-fallout--cd03dffdedcb",
+      "topic": "Former Elder Scrolls designer Kurt Kuhlmann on Fallout: New Vegas diehards: 'I don't know that Todd wanted to create that situation again for The Elder Scrolls'",
+      "detected_at": "2026-09-27T08:33:45.693438+00:00",
+      "analysed_at": "2026-10-10T09:00:27.152656+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/former-elder-scrolls-designer-kurt-kuhlmann-on-fallout-new-vegas-diehards-i-dont-know-that-todd-wanted-to-create-that-situation-again-for-the-elder-scrolls/",
+          "title": "Former Elder Scrolls designer Kurt Kuhlmann on Fallout: New Vegas diehards: 'I don't know that Todd wanted to create that situation again for The Elder Scrolls'",
+          "evidence": "<article> <p>I want to establish my old school RPG sicko bona fides really quick: My favorite Fallout games are 1 and New Vegas. My least favorite is 3 (4 is better than it gets credit for in critical circles). I really did not like Starfield and did not make it past the first planet. Obsidian is one of my favorites to ever do it. Troika Games forever.</p><p>With that out of the way, it is <em>deranged</em> how a lot of fans talk online about Bethesda as a studio, and Todd Howard as a guy. I have no doubt as to the accuracy of Kuhlmann's assessment of his former boss. </p><p>And I don't blame Howard one bit for being protective of the series in this way⁠. It's pretty relatable, and I'm sure it wasn't the only consideration around avoiding mainline-style spinoffs, as Kuhlmann's thoughts on ESO indicate.</p><p>Reading this in bad faith, you could parse it as an admission of weakness or insecurity, but I don't see it that way. I've spoken to senior Bethesda devs myself and watched them in other interviews: They're proud of their own work, speak positively of New Vegas, and seem to respect their peers at Obsidian. I think it's YouTubers impugning their character or calling for their co"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Former Elder Scrolls designer Kurt Kuhlmann on Fallout: New Vegas diehards: 'I don't know that Todd wanted to create that situation again for The Elder Scrolls'",
+        "secondary_keywords": [
+          "Former Elder Scrolls designer Kurt Kuhlmann on Fallout: New Vegas diehards: 'I don't know that Todd wanted to create that situation again for The Elder Scrolls' date de sortie",
+          "Former Elder Scrolls designer Kurt Kuhlmann on Fallout: New Vegas diehards: 'I don't know that Todd wanted to create that situation again for The Elder Scrolls' plateformes",
+          "Former Elder Scrolls designer Kurt Kuhlmann on Fallout: New Vegas diehards: 'I don't know that Todd wanted to create that situation again for The Elder Scrolls' gameplay",
+          "Former Elder Scrolls designer Kurt Kuhlmann on Fallout: New Vegas diehards: 'I don't know that Todd wanted to create that situation again for The Elder Scrolls' guide",
+          "Former Elder Scrolls designer Kurt Kuhlmann on Fallout: New Vegas diehards: 'I don't know that Todd wanted to create that situation again for The Elder Scrolls' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Former Elder Scrolls designer Kurt Kuhlmann on Fallout: New Vegas diehards: 'I don't know that Todd wanted to create that situation again for The Elder Scrolls'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-saw-the-future-and-it-literally-stinks-e5bec94fb419",
+      "topic": "I saw the future and it literally stinks",
+      "detected_at": "2026-09-27T08:33:45.693742+00:00",
+      "analysed_at": "2026-10-10T09:00:27.152671+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/i-saw-the-future-and-it-literally-stinks/",
+          "title": "I saw the future and it literally stinks",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Weird Weekend</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/weird-weekend/\" target=\"_blank\">Weird Weekend</a> is our regular Saturday column where we celebrate PC gaming oddities: peculiar games, strange bits of trivia, forgotten history. Pop back every weekend to find out what Jeremy, Josh and Rick have become obsessed with this time, whether it's the <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/i-embarked-on-a-mission-to-answer-the-most-important-question-in-pc-gaming-how-tall-is-garrett-from-thief/\" target=\"_blank\">canon height of Thief's Garrett</a> or that time someone in the Vatican pirated <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/sports/a-part-of-my-brain-will-always-be-dedicated-to-the-time-someone-in-the-vatican-pirated-football-manager-2013/\" target=\"_blank\">Football Manager</a>.</p></div></div><p>PC gaming, as a hobby, is a vast desert of inessentials. You want lights on your keyboard? Lights on your RAM? A graphics card that emits cherry vapour and has an anime lad"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I saw the future and it literally stinks",
+        "secondary_keywords": [
+          "I saw the future and it literally stinks date de sortie",
+          "I saw the future and it literally stinks plateformes",
+          "I saw the future and it literally stinks gameplay",
+          "I saw the future and it literally stinks guide",
+          "I saw the future and it literally stinks avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I saw the future and it literally stinks"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-what-s-the-weirdest-thing-that-happened-to-you-in-a-tab-2c3308789d79",
+      "topic": "What's the weirdest thing that happened to you in a tabletop RPG?",
+      "detected_at": "2026-09-27T08:33:45.693959+00:00",
+      "analysed_at": "2026-10-10T09:00:27.152685+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/whats-the-weirdest-thing-that-happened-to-you-in-a-tabletop-rpg/",
+          "title": "What's the weirdest thing that happened to you in a tabletop RPG?",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Dungeon Master</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"ckZUwfxbakq5yXMJMfSmBW\" name=\"logo_dungeon\" caption=\"\" alt=\"The Dungeon Master column logo\" src=\"https://cdn.mos.cms.futurecdn.net/ckZUwfxbakq5yXMJMfSmBW-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/dungeon-master-column/\" target=\"_blank\">Dungeon Master</a>, PC Gamer's regular RPG column, where Online Editor Fraser Brown delves into PC gaming's most beloved and enduring genre. Grab a seat in our badly-lit tavern and please ignore the goblin puke.</p></div></div><p>CRPGs like <a href=\"https://www.pcgamer.com/disco-elysium-review/\" target=\"_blank"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "What's the weirdest thing that happened to you in a tabletop RPG?",
+        "secondary_keywords": [
+          "What's the weirdest thing that happened to you in a tabletop RPG? date de sortie",
+          "What's the weirdest thing that happened to you in a tabletop RPG? plateformes",
+          "What's the weirdest thing that happened to you in a tabletop RPG? gameplay",
+          "What's the weirdest thing that happened to you in a tabletop RPG? guide",
+          "What's the weirdest thing that happened to you in a tabletop RPG? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "What's the weirdest thing that happened to you in a tabletop RPG?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-elder-scrolls-online-s-devs-are-pushing-through-har-10efccf38caa",
+      "topic": "The Elder Scrolls Online's devs are pushing through hard times after layoffs and delays: 'We didn't want to rush to just hit a date'",
+      "detected_at": "2026-09-27T08:33:45.694315+00:00",
+      "analysed_at": "2026-10-10T09:00:27.152702+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mmo/the-elder-scrolls-onlines-devs-are-pushing-through-hard-times-after-layoffs-and-delays-we-didnt-want-to-rush-to-just-hit-a-date/",
+          "title": "The Elder Scrolls Online's devs are pushing through hard times after layoffs and delays: 'We didn't want to rush to just hit a date'",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Terminally Online</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PgGhmt5pTtxusaQQX3dHPF\" name=\"logo_terminally\" caption=\"\" alt=\"The Terminally Online logo.\" src=\"https://cdn.mos.cms.futurecdn.net/PgGhmt5pTtxusaQQX3dHPF-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">This is <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/terminally-online/\" target=\"_blank\">Terminally Online</a>:<strong> </strong>PC Gamer's very own MMO column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice.</p><"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Elder Scrolls Online's devs are pushing through hard times after layoffs and delays: 'We didn't want to rush to just hit a date'",
+        "secondary_keywords": [
+          "The Elder Scrolls Online's devs are pushing through hard times after layoffs and delays: 'We didn't want to rush to just hit a date' date de sortie",
+          "The Elder Scrolls Online's devs are pushing through hard times after layoffs and delays: 'We didn't want to rush to just hit a date' plateformes",
+          "The Elder Scrolls Online's devs are pushing through hard times after layoffs and delays: 'We didn't want to rush to just hit a date' gameplay",
+          "The Elder Scrolls Online's devs are pushing through hard times after layoffs and delays: 'We didn't want to rush to just hit a date' guide",
+          "The Elder Scrolls Online's devs are pushing through hard times after layoffs and delays: 'We didn't want to rush to just hit a date' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Elder Scrolls Online's devs are pushing through hard times after layoffs and delays: 'We didn't want to rush to just hit a date'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

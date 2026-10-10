@@ -1,0 +1,84 @@
+{
+  "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
+  "carousel_version": "46f5a243b7f77d0f1639a75cbc4cd18288940337b08eef2c4199e499a4ba4e52",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    687,
+    688,
+    689
+  ],
+  "prepared_at_utc": "2026-10-10T15:58:22.407838Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
+    "source_title": "Red Dead Redemption 2 à -75% sur Steam",
+    "score": 74.5,
+    "idea": {
+      "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
+      "topic": "Promotion Red Dead Redemption 2 sur Steam",
+      "angle": "Réduction exceptionnelle de 75 % et incitation à profiter de l’offre maintenant",
+      "format": "deal_alert",
+      "hook": "Red Dead Redemption 2 à -75 % sur Steam ! Le western légendaire à prix mini, seulement 14,99 € !",
+      "freshness": 9,
+      "click_potential": 9,
+      "curiosity": 6,
+      "shareability": 7,
+      "originality": 5,
+      "gamerquest_relevance": 9,
+      "total_score": 74.5
+    },
+    "carousel": {
+      "topic": "Promotion Red Dead Redemption 2 sur Steam",
+      "angle": "Réduction exceptionnelle de 75 % et incitation à profiter de l’offre maintenant",
+      "format": "deal_alert",
+      "hook": "Red Dead Redemption 2 à -75 % sur Steam ! Le western légendaire à prix mini, seulement 14,99 € !",
+      "score": 74.5,
+      "slides": [
+        {
+          "title": "Red Dead à -75 % !",
+          "body": "Le western légendaire à prix mini, découvrez le prix choc.",
+          "visual_prompt": "Scène de cowboy dans un paysage western, ambiance poussiéreuse, coucher de soleil, style réaliste"
+        },
+        {
+          "title": "Prix actuel : 14,99 €",
+          "body": "Red Dead Redemption 2 passe de 59,99 € à 14,99 € grâce à une réduction de 75 % sur Steam.",
+          "visual_prompt": "Capture d'écran du jeu montrant le personnage principal à cheval, arrière‑plan de montagne, lumière dorée"
+        },
+        {
+          "title": "Offre disponible maintenant",
+          "body": "Profitez de cette remise exceptionnelle dès aujourd'hui. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Vue rapprochée d'une poignée de revolver posée sur un vieux coffre en bois, ambiance western"
+        }
+      ],
+      "caption": "⚡️ Red Dead Redemption 2 à -75 % sur Steam ! Le western épique à prix imbattable, seulement 14,99 €. Ne laissez pas passer cette occasion.",
+      "cta": "Cliquez pour en savoir plus",
+      "hashtags": [
+        "#GamerQuest",
+        "#RedDeadRedemption2",
+        "#SteamDeal",
+        "#JeuxVideo",
+        "#Promotion"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198"
+    },
+    "caption": "⚡️ Red Dead Redemption 2 à -75 % sur Steam ! Le western épique à prix imbattable, seulement 14,99 €. Ne laissez pas passer cette occasion.",
+    "hashtags": [
+      "#GamerQuest",
+      "#RedDeadRedemption2",
+      "#SteamDeal",
+      "#JeuxVideo",
+      "#Promotion"
+    ],
+    "cta": "Cliquez pour en savoir plus",
+    "repair_attempts": 0
+  }
+}

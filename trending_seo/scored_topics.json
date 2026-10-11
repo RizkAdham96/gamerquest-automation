@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-11T09:18:35.255314+00:00",
+  "updated_at": "2026-10-11T19:10:31.299245+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -5588,6 +5588,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "American Truck Simulator adds DLC where you don't have to drive a truck, sets a new Steam record"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-582010",
+      "topic": "Configuration PC Monster Hunter: World : minimale, recommandée et conseils",
+      "detected_at": "2026-10-11T19:10:29.756321+00:00",
+      "analysed_at": "2026-10-11T19:10:31.299111+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/582010/",
+          "title": "Monster Hunter: World sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Monster Hunter: World, consultée le 2026-10-11. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 8 aout 2018. Genres : Action. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (64-bit) ; Processeur : Intel®Core™ i5 4460 ou Core™ i3 9100F ou AMD FX™-6300 ou Ryzen™ 3 3200G ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 760 / NVIDIA GeForce GTX 1050 / AMD Radeon R7 260x / AMD Radeon RX 560 ; DirectX : Version 11 ; Réseau : connexion internet haut débit ; Espace disque : 52 GB d'espace disque disponible ; Carte son : DirectSound ; Notes supplémentaires : Il est possible de jouer en 1080p/30 fps avec les paramètres graphiques sur \"Minimum\". Un processeur et système d'exploitation 64 bits sont requis.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (64-bit) / Windows 11 ; Processeur : Intel Core i7-3770 / Intel Core i3-8350 / Intel Core i3-9350F / AMD Ryzen 5 1500X / AMD Ryzen 5 3400G ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1060 (VRAM 3GB) / NVIDIA GeForce GTX 1650 / AMD Radeon RX 480 / AMD Radeon RX 570 ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 52 GB d'espace disque disponible ; Carte son : DirectSound ; Notes supplémentaires : - Cette configuration permet de jouer en 1080p/30 ips avec les paramètres graphiques réglés sur \"Élevé\". - Un processeur et un système d'exploitation 64 bits sont requis. - Windows 10 (version 1809 ou ultérieure) et un GPU (carte graphique) doté de 4 Go de VRAM sont requis pour utiliser l'API DirectX 12. * Si vous utilisez Windows 11, assurez-vous que votre système répond à la configuration requise pour Windows 11..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_a262c53b8629de7c6547933dc0b49d31f4e1b1f1.1920x1080.jpg?t=1791439347"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Monster Hunter: World",
+        "secondary_keywords": [
+          "Monster Hunter: World PC",
+          "Monster Hunter: World Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Monster Hunter: World : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-582010",
+      "topic": "Monster Hunter: World multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-11T19:10:29.756407+00:00",
+      "analysed_at": "2026-10-11T19:10:31.299147+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/582010/",
+          "title": "Monster Hunter: World sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Monster Hunter: World, consultée le 2026-10-11. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 8 aout 2018. Genres : Action. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Succès Steam, Cartes à échanger Steam, Taille de texte réglable, Caméra et confort de vue, Contrôle du volume différencié, Option clavier uniquement, Son stéréo, Son multicanal, Compat. contrôleurs partielle, Steam Cloud, Statistiques, Classements Steam, Remote Play sur tablette, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : Bienvenue dans le Nouveau Monde ! \"Monster Hunter: World\" offre une dimension de jeu et une liberté sans commune mesure avec les précédents épisodes. Les chasseurs pourront utiliser un arsenal varié pour chasser un bestiaire unique dans un monde fabuleux !",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_a262c53b8629de7c6547933dc0b49d31f4e1b1f1.1920x1080.jpg?t=1791439347"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Monster Hunter: World multijoueur",
+        "secondary_keywords": [
+          "Monster Hunter: World PC",
+          "Monster Hunter: World Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Monster Hunter: World multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-275850",
+      "topic": "Configuration PC No Man's Sky : minimale, recommandée et conseils",
+      "detected_at": "2026-10-11T19:10:30.257136+00:00",
+      "analysed_at": "2026-10-11T19:10:31.299162+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/275850/",
+          "title": "No Man's Sky sur Steam",
+          "evidence": "Données officielles de la fiche Steam de No Man's Sky, consultée le 2026-10-11. Développeur : Hello Games. Éditeur : Hello Games. Date de sortie sur Steam : 12 aout 2016. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows, macOS. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10/11 (64-bit versions) ; Processeur : Intel Core i3 ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GTX 1060 3GB, AMD RX 470 4GB, Intel UHD graphics 630 ; Espace disque : 15 GB d'espace disque disponible ; Prise en charge VR: SteamVR. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/6c2ddcffe192b0e155a69aa2a1dd3f33b863033d/ss_6c2ddcffe192b0e155a69aa2a1dd3f33b863033d.1920x1080.jpg?t=1789479023"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc No Man's Sky",
+        "secondary_keywords": [
+          "No Man's Sky PC",
+          "No Man's Sky Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC No Man's Sky : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-275850",
+      "topic": "No Man's Sky multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-11T19:10:30.257174+00:00",
+      "analysed_at": "2026-10-11T19:10:31.299175+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/275850/",
+          "title": "No Man's Sky sur Steam",
+          "evidence": "Données officielles de la fiche Steam de No Man's Sky, consultée le 2026-10-11. Développeur : Hello Games. Éditeur : Hello Games. Date de sortie sur Steam : 12 aout 2016. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows, macOS. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, PvP, JcJ en ligne, Coopération, Coopération en ligne, Multijoueur multiplateforme, Succès Steam, Compat. contrôleurs complète, Prise en charge des contrôleurs suivis, VR prise en charge, Cartes à échanger Steam, Taille de texte réglable, Caméra et confort de vue, Conversion de la parole en texte (chat), Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Prise en charge de l'API Steam Input, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, Remote Play sur tablette, Remote Play sur télévision, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : No Man's Sky est un jeu de science-fiction sur l'exploration et la survie dans un univers infini généré de manière dynamique.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/6c2ddcffe192b0e155a69aa2a1dd3f33b863033d/ss_6c2ddcffe192b0e155a69aa2a1dd3f33b863033d.1920x1080.jpg?t=1789479023"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "No Man's Sky multijoueur",
+        "secondary_keywords": [
+          "No Man's Sky PC",
+          "No Man's Sky Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "No Man's Sky multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-clair-obscur-expedition-33-broke-t-pain-with-its-too-sa-5663e8f06b48",
+      "topic": "Clair Obscur: Expedition 33 \"broke\" T-Pain with its \"too sad\" intro: \"It gets worse? Absolutely not\"",
+      "detected_at": "2026-10-01T09:25:32.637122+00:00",
+      "analysed_at": "2026-10-11T19:10:31.299195+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/clair-obscur-expedition-33-broke-t-pain-with-its-too-sad-intro-it-gets-worse-absolutely-not/",
+          "title": "Clair Obscur: Expedition 33 \"broke\" T-Pain with its \"too sad\" intro: \"It gets worse? Absolutely not\"",
+          "evidence": "<article> <p>Some people just aren't built to endure the kind of bleak, unrelenting tragedy that often exists at the bottom of a great story's emotional arc. Rapper T-Pain may just have that affliction, having recently started Clair Obscur: Expedition 33 on his Nappy Boy Gaming YouTube channel and noped out after its notoriously sad opening sequence.</p><p><strong>*Spoilers for Clair Obscur: Expedition 33 below. Turn back if you haven't played through the prologue yet.*</strong></p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"EGUF7wspFYbgnXiZ3d8zL5\" name=\"Clair Obscur_ Expedition 33 _ Thank You Update Trailer 1-6 screenshot\" alt=\"Clair Obscur: Expedition 33 close-up of green eyes\" src=\"https://cdn.mos.cms.futurecdn.net/EGUF7wspFYbgnXiZ3d8zL5-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Imag"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Clair Obscur: Expedition 33 \"broke\" T-Pain with its \"too sad\" intro: \"It gets worse? Absolutely not\"",
+        "secondary_keywords": [
+          "Clair Obscur: Expedition 33 \"broke\" T-Pain with its \"too sad\" intro: \"It gets worse? Absolutely not\" date de sortie",
+          "Clair Obscur: Expedition 33 \"broke\" T-Pain with its \"too sad\" intro: \"It gets worse? Absolutely not\" plateformes",
+          "Clair Obscur: Expedition 33 \"broke\" T-Pain with its \"too sad\" intro: \"It gets worse? Absolutely not\" gameplay",
+          "Clair Obscur: Expedition 33 \"broke\" T-Pain with its \"too sad\" intro: \"It gets worse? Absolutely not\" guide",
+          "Clair Obscur: Expedition 33 \"broke\" T-Pain with its \"too sad\" intro: \"It gets worse? Absolutely not\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Clair Obscur: Expedition 33 \"broke\" T-Pain with its \"too sad\" intro: \"It gets worse? Absolutely not\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-final-fantasy-11-finally-follows-in-final-fantasy-14-s--e410beac4863",
+      "topic": "Final Fantasy 11 finally follows in Final Fantasy 14's free trial footstep",
+      "detected_at": "2026-10-01T09:25:32.637325+00:00",
+      "analysed_at": "2026-10-11T19:10:31.299210+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/mmo/final-fantasy-11-finally-follows-in-final-fantasy-14s-free-trial-footsteps-offering-new-players-a-chance-to-try-the-critically-acclaimed-mmorpg-with-no-restrictions-on-playtime/",
+          "title": "Final Fantasy 11 finally follows in Final Fantasy 14's free trial footstep",
+          "evidence": "<article> <p>Have you heard of the critically acclaimed MMORPG Final Fantasy 11? It now has an expanded free trial which you can play up to level 75 for free with no restrictions on playtime. Yes, devotees of Final Fantasy 14 have had good times with their own free trial memes over the years, but Square Enix's older MMO is finally bulking up its own trial in an effort to get more players in the door.</p><p>There is no longer any time limit on Final Fantasy 11's free trial. Previously, players would be locked out after two weeks and forced to upgrade to the full game. Additionally, the level cap on the trial is now 75, up from the previous cap of 50. These changes were first announced earlier this year, and have just gone live as of today's update.</p><p>Notably, the trial still only includes the base game, with no expansion content, and there are some key restrictions on access to social features. Notably, trial players can't access the auction house, trade with other people, or carry more than 100,000 gil, all of which are presumably meant to limit gold farming activity.</p><p>Trial players also aren't allowed to start parties, but they can join parties started by owners of the fu"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Final Fantasy 11 finally follows in Final Fantasy 14's free trial footstep",
+        "secondary_keywords": [
+          "Final Fantasy 11 finally follows in Final Fantasy 14's free trial footstep date de sortie",
+          "Final Fantasy 11 finally follows in Final Fantasy 14's free trial footstep plateformes",
+          "Final Fantasy 11 finally follows in Final Fantasy 14's free trial footstep gameplay",
+          "Final Fantasy 11 finally follows in Final Fantasy 14's free trial footstep guide",
+          "Final Fantasy 11 finally follows in Final Fantasy 14's free trial footstep avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Final Fantasy 11 finally follows in Final Fantasy 14's free trial footstep"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-warlock-boss-says-don-t-expect-a-baldur-s-gate-3-style--c58d83e1e937",
+      "topic": "Warlock boss says don't expect a Baldur's Gate 3-style fluid story, main story beats are \"written\"",
+      "detected_at": "2026-10-01T09:25:32.637491+00:00",
+      "analysed_at": "2026-10-11T19:10:31.299227+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/open-world/warlock-boss-says-dont-expect-a-baldurs-gate-3-style-fluid-story-the-main-narrative-moments-youre-going-to-go-through-are-written-down/",
+          "title": "Warlock boss says don't expect a Baldur's Gate 3-style fluid story, main story beats are \"written\"",
+          "evidence": "<article> <p>Despite having little association with each other beyond sharing the D&D universe, Invoke's Warlock: Dungeons and Dragons is drawing plenty of comparisons to Larian's 2023 opus, <a href=\"https://www.gamesradar.com/baldurs-gate-3-guide/\">Baldur's Gate 3</a>. It's hard to blame anyone for anchoring the shiny new open-world D&D game to the 2023 GOTY considering just how much the latter dominated and continues to influence the conversation around RPG design, but mechanically and narratively, the fundamentals of the two games are very different.</p><p>Talking to <a href=\"https://www.eurogamer.net/warlock-dungeons-dragons-gamescom-preview\" target=\"_blank\">Eurogamer</a>, Invoke general manager Dominique Guay is keen to make that narrative distinction very clear, contrasting the fluid, branching plot of Baldur's Gate 3 with the comparatively linear Warlock.</p><p>\"We're being very clear on that,\" says Guay. \"Kaatri is a written character, so it's not like you can play evil or good Kaatri. Nothing like that. The main narrative moments you're going to go through are written down, and you're going to go through the same moment as someone else.\" </p><p>Another big difference is Wa"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Warlock boss says don't expect a Baldur's Gate 3-style fluid story, main story beats are \"written\"",
+        "secondary_keywords": [
+          "Warlock boss says don't expect a Baldur's Gate 3-style fluid story, main story beats are \"written\" date de sortie",
+          "Warlock boss says don't expect a Baldur's Gate 3-style fluid story, main story beats are \"written\" plateformes",
+          "Warlock boss says don't expect a Baldur's Gate 3-style fluid story, main story beats are \"written\" gameplay",
+          "Warlock boss says don't expect a Baldur's Gate 3-style fluid story, main story beats are \"written\" guide",
+          "Warlock boss says don't expect a Baldur's Gate 3-style fluid story, main story beats are \"written\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Warlock boss says don't expect a Baldur's Gate 3-style fluid story, main story beats are \"written\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-mcu-x-men-actor-says-d23-casting-reveal-was-a-nightmare-e959a4a50b65",
+      "topic": "MCU X-Men actor says D23 casting reveal was a \"nightmare\" because people \"didn't know who I was\"",
+      "detected_at": "2026-10-01T09:25:32.637678+00:00",
+      "analysed_at": "2026-10-11T19:10:31.299242+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-movies/mcu-x-men-actor-says-his-d23-casting-reveal-was-a-nightmare-because-people-didnt-know-who-i-was/",
+          "title": "MCU X-Men actor says D23 casting reveal was a \"nightmare\" because people \"didn't know who I was\"",
+          "evidence": "<article> <p>Christopher Abbott says his X-Men casting reveal felt like more of a nightmare because the crowd at D23 didn't seem to recognize him.</p><p>\"I think I started walking out pretty enthusiastically, and then I kind of felt like a lot of people there didn't know who I was, so then my energy shifted within the split second,\" Abbott told <a href=\"https://www.thecut.com/article/ryan-mcginley-photoshoot-at-the-russian-and-turkish-baths.html?utm_source=twitter&utm_medium=s1&utm_campaign=nym&utm_content=\" target=\"_blank\">The Cut</a>. \"I was a little bit more humble about it.\"</p><p>Abbott is set to play a younger Professor Charles Xavier in the MCU's upcoming X-Men movie, being much, much younger than Sir Patrick Stewart was when he originated the role back in 2000. Some, but not all, of the cast was revealed during Marvel's D23 panel over the summer.</p><p>Abbott is perhaps best known for his role as Charlie on the hit HBO show Girls, and to his credit... the people seated for the Marvel panel at D23 don't necessarily seem like huge Girls fans. He was also in the 2025 Wolfman remake with Julia Garner, starred in the Oscar-winning Poor Things, and played The Foreigner in Kraven "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "MCU X-Men actor says D23 casting reveal was a \"nightmare\" because people \"didn't know who I was\"",
+        "secondary_keywords": [
+          "MCU X-Men actor says D23 casting reveal was a \"nightmare\" because people \"didn't know who I was\" date de sortie",
+          "MCU X-Men actor says D23 casting reveal was a \"nightmare\" because people \"didn't know who I was\" plateformes",
+          "MCU X-Men actor says D23 casting reveal was a \"nightmare\" because people \"didn't know who I was\" gameplay",
+          "MCU X-Men actor says D23 casting reveal was a \"nightmare\" because people \"didn't know who I was\" guide",
+          "MCU X-Men actor says D23 casting reveal was a \"nightmare\" because people \"didn't know who I was\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "MCU X-Men actor says D23 casting reveal was a \"nightmare\" because people \"didn't know who I was\""
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

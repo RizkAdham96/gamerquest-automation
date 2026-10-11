@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-11T09:18:41.284473+00:00",
+  "updated_at": "2026-10-11T19:10:36.927602+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -113,6 +113,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-ori-and-the-will-of-the-wisps-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 698,
       "published_at": "2026-10-11T09:18:41.284473+00:00"
+    },
+    {
+      "intent_key": "ori and the will of wisps multijoueur",
+      "primary_keyword": "Ori and the Will of the Wisps multijoueur",
+      "title": "Ori and the Will of the Wisps multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/ori-and-the-will-of-the-wisps-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 709,
+      "published_at": "2026-10-11T19:10:36.927602+00:00"
     }
   ]
 }

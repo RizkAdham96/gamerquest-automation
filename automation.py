@@ -1937,19 +1937,26 @@ def extract_page(story):
         "Fetching selected page directly..."
     )
 
-    response = requests.get(
-        story["url"],
-        timeout=30,
-        headers={
-            "User-Agent": (
-                "Mozilla/5.0 "
-                "(compatible; "
-                "GamerQuestFR/1.0)"
-            )
-        },
-    )
+    try:
+        response = requests.get(
+            story["url"],
+            timeout=30,
+            headers={
+                "User-Agent": (
+                    "Mozilla/5.0 "
+                    "(compatible; "
+                    "GamerQuestFR/1.0)"
+                )
+            },
+        )
 
-    response.raise_for_status()
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        print(
+            "Source fetch failed; "
+            f"trying the next candidate: {exc}"
+        )
+        return ""
 
     soup = BeautifulSoup(
         response.text,

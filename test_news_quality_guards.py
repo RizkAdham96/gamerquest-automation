@@ -642,6 +642,28 @@ def test_source_validation_is_local_and_does_not_call_groq(monkeypatch):
     assert reason == "Source validation passed."
 
 
+def test_extract_page_skips_inaccessible_source(monkeypatch, capsys):
+    class ForbiddenResponse:
+        text = ""
+
+        def raise_for_status(self):
+            raise automation.requests.HTTPError("403 Client Error: Forbidden")
+
+    monkeypatch.setattr(
+        automation.requests,
+        "get",
+        lambda *args, **kwargs: ForbiddenResponse(),
+    )
+
+    source_text = automation.extract_page({
+        "title": "Blocked source",
+        "url": "https://example.com/blocked",
+    })
+
+    assert source_text == ""
+    assert "Source fetch failed" in capsys.readouterr().out
+
+
 def test_final_editor_parse_failure_keeps_generated_article_for_local_guards(monkeypatch):
     article_data = (
         "SEO title",

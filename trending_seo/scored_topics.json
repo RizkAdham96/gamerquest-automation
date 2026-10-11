@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-10T18:51:37.276952+00:00",
+  "updated_at": "2026-10-11T09:18:35.255314+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -5280,6 +5280,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-374320",
+      "topic": "Configuration PC Dark Souls III : minimale, recommandée et conseils",
+      "detected_at": "2026-10-11T09:18:34.140816+00:00",
+      "analysed_at": "2026-10-11T09:18:35.255098+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/374320/",
+          "title": "DARK SOULS™ III sur Steam",
+          "evidence": "Données officielles de la fiche Steam de DARK SOULS™ III, consultée le 2026-10-11. Développeur : FromSoftware, Inc.. Éditeur : FromSoftware, Inc., Bandai Namco Entertainment. Date de sortie sur Steam : 11 avr. 2016. Genres : Action. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit ; Processeur : Intel Core i3-2100 / AMD® FX-6300 ; Mémoire vive : 4 GB de mémoire ; Graphiques : NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950 ; DirectX : Version 11 ; Réseau : connexion internet haut débit ; Espace disque : 25 GB d'espace disque disponible ; Carte son : DirectX 11 sound device ; Notes supplémentaires : Internet connection required for online play and product activation. Configuration PC Recommandée : ; Système d'exploitation *: Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit ; Processeur : Intel Core i7-3770 / AMD® FX-8350 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA® GeForce GTX 970 / ATI Radeon R9 series ; DirectX : Version 11 ; Réseau : connexion internet haut débit ; Espace disque : 25 GB d'espace disque disponible ; Carte son : DirectX 11 sound device ; Notes supplémentaires : Internet connection required for online play and product activation.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.1920x1080.jpg?t=1748630784"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Dark Souls III",
+        "secondary_keywords": [
+          "Dark Souls III PC",
+          "Dark Souls III Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Dark Souls III : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-374320",
+      "topic": "Dark Souls III multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-11T09:18:34.140874+00:00",
+      "analysed_at": "2026-10-11T09:18:35.255145+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/374320/",
+          "title": "DARK SOULS™ III sur Steam",
+          "evidence": "Données officielles de la fiche Steam de DARK SOULS™ III, consultée le 2026-10-11. Développeur : FromSoftware, Inc.. Éditeur : FromSoftware, Inc., Bandai Namco Entertainment. Date de sortie sur Steam : 11 avr. 2016. Genres : Action. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Caméra et confort de vue, Contrôle du volume différencié, Jouable sans saisie en temps imparti, Sauvegarde à tout moment, Son stéréo, Son multicanal, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Dark Souls repousse une fois de plus ses limites avec un nouveau chapitre ambitieux de la série légendaire et encensée par la critique. Préparez-vous à embrasser les ténèbres !",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.1920x1080.jpg?t=1748630784"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dark Souls III multijoueur",
+        "secondary_keywords": [
+          "Dark Souls III PC",
+          "Dark Souls III Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Dark Souls III multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-2246340",
+      "topic": "Configuration PC Monster Hunter Wilds : minimale, recommandée et conseils",
+      "detected_at": "2026-10-11T09:18:34.604933+00:00",
+      "analysed_at": "2026-10-11T09:18:35.255177+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2246340/",
+          "title": "Monster Hunter Wilds sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Monster Hunter Wilds, consultée le 2026-10-11. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 27 févr. 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows®10 (64 bits requis)/Windows®11 (64 bits requis) ; Processeur : Intel® Core™ i5-10400 or Intel® Core™ i3-12100 or AMD Ryzen™ 5 3600 ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA® GeForce® GTX 1660(VRAM 6GB) or AMD Radeon™ RX 5500 XT(VRAM 8GB) ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 75 GB d'espace disque disponible ; Notes supplémentaires : SSD requis. Performances visées : 1080p (upscalé depuis une résolution native 720p) / 30 fps avec les paramètres graphiques sur \"Très bas\". DirectStorage pris en charge.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows®10 (64 bits requis)/Windows®11 (64 bits requis) ; Processeur : Intel® Core™ i5-10400 or Intel® Core™ i3-12100 or AMD Ryzen™ 5 3600 ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA® GeForce® RTX 2060 Super(VRAM 8GB) or AMD Radeon™ RX 6600(VRAM 8GB) ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 75 GB d'espace disque disponible ; Notes supplémentaires : SSD requis. Performances visées : 1080p/60 fps (avec Frame Generation activé) avec les paramètres graphiques sur \"Moyen\". DirectStorage pris en charge..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.1920x1080.jpg?t=1787549555"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Monster Hunter Wilds",
+        "secondary_keywords": [
+          "Monster Hunter Wilds PC",
+          "Monster Hunter Wilds Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Monster Hunter Wilds : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-2246340",
+      "topic": "Monster Hunter Wilds multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-11T09:18:34.604993+00:00",
+      "analysed_at": "2026-10-11T09:18:35.255204+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2246340/",
+          "title": "Monster Hunter Wilds sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Monster Hunter Wilds, consultée le 2026-10-11. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 27 févr. 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Multijoueur multiplateforme, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Taille de texte réglable, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Option clavier uniquement, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge de l'API Steam Input, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Arpentez des environnements qui se transforment radicalement d'un moment à l'autre sous l'effet de la force indomptable d'une nature sans cesse déchaînée. Plongez dans une histoire de monstres et d'humains luttant pour vivre en harmonie dans un monde de dualités.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.1920x1080.jpg?t=1787549555"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Monster Hunter Wilds multijoueur",
+        "secondary_keywords": [
+          "Monster Hunter Wilds PC",
+          "Monster Hunter Wilds Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Monster Hunter Wilds multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-should-you-eat-the-mold-in-control-resonant-11dff98fdbdc",
+      "topic": "Should you eat the Mold in Control Resonant?",
+      "detected_at": "2026-09-29T09:03:16.608383+00:00",
+      "analysed_at": "2026-10-11T09:18:35.255230+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/control-resonant-eat-the-mold/",
+          "title": "Should you eat the Mold in Control Resonant?",
+          "evidence": "<article> <p>To eat the Mold in Control Resonant is a strange choice, but one that is nonetheless provided when you're hunting down the Resonant Boss Fight in The Park. Characters have been repeatedly telling Dylan not to eat the Mold up until this point, but they've not been especially clear about the perils or consequences of doing so, which begs the question... what happens when you do eat it? I'll explain below.</p><p><strong>Warning: The following guide contains spoilers for The Park Resonant questline.</strong></p><h2 class=\"article-body__section\" id=\"section-what-happens-if-you-eat-the-mold-in-control-resonant\"><span>What happens if you eat the Mold in Control Resonant?</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"TuaZvHU9vnQsjHrcNCNYwE\" name=\"Eat the Mold (2)\" alt=\"Eating the Mold in Control Resonant\" src=\"https://cdn.mos.cms.futurecdn.net/TuaZvHU9vnQsjHrcNCNYwE-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"i"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Should you eat the Mold in Control Resonant?",
+        "secondary_keywords": [
+          "Should you eat the Mold in Control Resonant? date de sortie",
+          "Should you eat the Mold in Control Resonant? plateformes",
+          "Should you eat the Mold in Control Resonant? gameplay",
+          "Should you eat the Mold in Control Resonant? guide",
+          "Should you eat the Mold in Control Resonant? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Should you eat the Mold in Control Resonant?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-turtle-beach-s-new-switch-2-animal-crossing-accessories-e5127c1c8d5e",
+      "topic": "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included)",
+      "detected_at": "2026-09-29T09:03:16.608775+00:00",
+      "analysed_at": "2026-10-11T09:18:35.255258+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/accessories/turtle-beachs-new-switch-2-animal-crossing-accessories-are-so-stellar-that-they-literally-light-up-case-included/",
+          "title": "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included)",
+          "evidence": "<article> <p>Turtle Beach's new Animal Crossing accessories are an adorable, stellar spectacle. The brand has added not one controller to its repertoire, but two new gamepad designs available for <a href=\"https://www.amazon.com/Wireless-Controller-Crossing-Nintendo-Gaming-Console/dp/B0HCY9FTLP/\" target=\"_blank\">$49.88 each (via Amazon)</a> to its Rematch line-up. They're both cute enough as is, but they each reveal a cute secret pattern once illuminated, including a starry night sky twinkling above the iconic K.K. Slider while he's strumming away. <br><br>The brand has also unveiled a pair of cases, and the K.K. Slider one even matches the dazzling display of its controller counterpart. I fully expected the cases just to be a simple copy-and-paste job, and that is what you'll find with the Timmy Tommy version. However, the glow-in-the-dark K.K Slider model goes the extra mile, and together, they're some of the <a href=\"https://www.gamesradar.com/hardware/accessories/the-best-nintendo-switch-2-accessories/\">best Switch 2 accessories</a> I've seen inspired by New Horizons.</p> <div class=\"featured_product_block featured_block_versus\" data-id=\"8747bf7a-bb48-11f1-be1f-31d776ee95e1\"> <a"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included)",
+        "secondary_keywords": [
+          "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included) date de sortie",
+          "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included) plateformes",
+          "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included) gameplay",
+          "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included) guide",
+          "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included) avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Turtle Beach's new Switch 2 Animal Crossing accessories are so stellar that they literally light up (case included)"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-another-steam-page-is-going-algorithmic-as-valve-aims-t-3f1c9b6975ed",
+      "topic": "Another Steam page is going algorithmic as Valve aims to show \"10x more games to customers\"",
+      "detected_at": "2026-09-30T09:00:24.672550+00:00",
+      "analysed_at": "2026-10-11T09:18:35.255283+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/platforms/pc-gaming/another-steam-page-is-being-turned-into-an-algorithm-as-valve-aims-to-show-10x-more-games-to-customers/",
+          "title": "Another Steam page is going algorithmic as Valve aims to show \"10x more games to customers\"",
+          "evidence": "<article> <p>Steam is making a big change to one of its promotional pages, opting for an algorithm-based showcase of games instead of the current \"manual calendar-based approach.\"</p><p>Steam has been gradually moving toward personalized algorithms to recommend games for years now, and in early 2027, the Discounts & Events page, which as the name implies shows you themed sales and discounted games, is joining the club. In its <a href=\"https://steamcommunity.com/groups/steamworks/announcements/detail/676258795703240952\" target=\"_blank\">announcement</a>, Valve says the goal is to get more discounted games in front of Steam users.</p><p>\"Currently, the Discounts & Events section on Steam is made up of curated placements that are either scheduled directly by partners via Steamworks, or by us here on the Steam team,\" Valve says. \"By moving away from that approach, more discounted games or sale events will have the chance to be visible on the homepage and elsewhere on Steam, rather than be limited by a small, fixed number of slots.\"</p><p>Valve says it's been experimenting with Steam's discovery features for a few months now and, in testing the algorithmic model with the Discounts & Even"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Another Steam page is going algorithmic as Valve aims to show \"10x more games to customers\"",
+        "secondary_keywords": [
+          "Another Steam page is going algorithmic as Valve aims to show \"10x more games to customers\" date de sortie",
+          "Another Steam page is going algorithmic as Valve aims to show \"10x more games to customers\" plateformes",
+          "Another Steam page is going algorithmic as Valve aims to show \"10x more games to customers\" gameplay",
+          "Another Steam page is going algorithmic as Valve aims to show \"10x more games to customers\" guide",
+          "Another Steam page is going algorithmic as Valve aims to show \"10x more games to customers\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Another Steam page is going algorithmic as Valve aims to show \"10x more games to customers\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-american-truck-simulator-adds-dlc-where-you-don-t-have--a0a805e882b6",
+      "topic": "American Truck Simulator adds DLC where you don't have to drive a truck, sets a new Steam record",
+      "detected_at": "2026-09-30T09:00:24.672765+00:00",
+      "analysed_at": "2026-10-11T09:18:35.255309+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/simulation/american-truck-simulator-adds-dlc-where-you-dont-have-to-drive-a-truck-suddenly-sets-a-new-all-time-steam-player-record/",
+          "title": "American Truck Simulator adds DLC where you don't have to drive a truck, sets a new Steam record",
+          "evidence": "<article> <p>There are few video game titles as descriptive as American Truck Simulator. You drive a simulated truck across America. Boom, branding perfection. It might seem like a betrayal of that core concept to release an expansion that lets you trade in the 18-wheelers for normal consumer cars, but that's exactly what the newly released Road Trip DLC is all about. Judging by the new all-time Steam player record the game just set, fans have been ready for the ride.</p><p>\"American Truck Simulator's all time concurrent player record has been broken,\" developer SCS Software exclaims in a <a href=\"https://bsky.app/profile/scssoft.com/post/3mwodvquic22v\" target=\"_blank\">Bluesky post</a>. \"Over 20,000 of you are currently in-game, either behind the wheel of a truck or hitting the road with our Road Trip: Ford DLC! We cannot thank you enough for your support over the years.\"</p><p>As <a href=\"https://steamdb.info/app/270880/charts/\" target=\"_blank\">SteamDB</a> shows, American Truck Simulator hit an all-time concurrent player peak of 21,318. That's the biggest concurrent player count since 2016, when the game first launched to 19,138 players. Those numbers might seem pitiful next to th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "American Truck Simulator adds DLC where you don't have to drive a truck, sets a new Steam record",
+        "secondary_keywords": [
+          "American Truck Simulator adds DLC where you don't have to drive a truck, sets a new Steam record date de sortie",
+          "American Truck Simulator adds DLC where you don't have to drive a truck, sets a new Steam record plateformes",
+          "American Truck Simulator adds DLC where you don't have to drive a truck, sets a new Steam record gameplay",
+          "American Truck Simulator adds DLC where you don't have to drive a truck, sets a new Steam record guide",
+          "American Truck Simulator adds DLC where you don't have to drive a truck, sets a new Steam record avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "American Truck Simulator adds DLC where you don't have to drive a truck, sets a new Steam record"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,414 +1,34 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-10T18:51:36.850938+00:00",
+  "updated_at": "2026-10-11T09:18:34.821850+00:00",
   "evergreen_checked_games": [
     "baldur s gate 3",
     "buried stars",
     "clair obscur expedition 33",
     "crusader kings iii",
     "cyberpunk 2077",
+    "dark souls iii",
     "dead space",
     "elden ring",
     "hades",
     "hades ii",
     "helldivers 2",
     "hogwarts legacy",
+    "monster hunter wilds",
     "ori and the will of the wisps",
     "out of sight",
     "red dead redemption 2",
     "resident evil 4",
     "resident evil village",
+    "sekiro shadows die twice",
     "sons of the forest",
     "system shock 2 25th anniversary remaster",
     "terrascape",
     "the elder scrolls v skyrim special edition",
-    "the outlast trials"
+    "the outlast trials",
+    "the witcher 3 wild hunt"
   ],
   "topics": [
-    {
-      "id": "rss-shadow-the-hedgehog-is-supposed-to-be-dead-61a5fad68e33",
-      "topic": "Shadow the Hedgehog is supposed to be dead",
-      "detected_at": "2026-09-28T08:57:42.661385+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/action/shadow-the-hedgehog-is-supposed-to-be-dead/",
-          "title": "Shadow the Hedgehog is supposed to be dead",
-          "evidence": "<article> <p>It's hard to imagine Sonic the Hedgehog without his Jungian counterpart: the gun-toting, swear-uttering Shadow the Hedgehog. But Shadow is a relatively late addition to the series' extensive roster of anthropomorphic animals, debuting long after the Genesis days in Sonic Adventure 2—more than that, he was never supposed to stick around.</p><p>According to a report from <a href=\"https://onemoregame.ph/2026/09/sonic-35th-anniversary-interview-iizuka/\" target=\"_blank\">One More Game</a>, Sonic honcho Takashi Iizuka said at the recent Tokyo Game Show that Shadow's popularity was a big surprise to Sonic Team when SA2 came out. \"If you have played Sonic Adventure 2, people may know that Shadow basically sort of died at the end of that game,\" he said.</p><p>\"We were originally intending to just kind of 'die the character out' (kill him off), but the character Shadow was just so very popular that we decided to revive him in Sonic Heroes.“ He also noted that Shadow is his personal favorite character, and he wants to give him more of a spotlight in the future.</p><p>Not that Shadow has ever gone completely by the wayside. He's one of the only Sonic characters other than, well, So"
-        }
-      ],
-      "keywords": [
-        "Shadow the Hedgehog is supposed to be dead",
-        "Shadow the Hedgehog is supposed to be dead date de sortie",
-        "Shadow the Hedgehog is supposed to be dead plateformes",
-        "Shadow the Hedgehog is supposed to be dead gameplay",
-        "Shadow the Hedgehog is supposed to be dead guide",
-        "Shadow the Hedgehog is supposed to be dead avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-latest-xbox-layoffs-reportedly-devastated-age-of-empire-e194f3c9f0a9",
-      "topic": "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game",
-      "detected_at": "2026-09-28T08:57:42.661532+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/latest-xbox-layoffs-reportedly-devastated-age-of-empires-developer-and-canceled-its-next-game/",
-          "title": "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game",
-          "evidence": "<article> <p>The latest stage of Xbox's delicately named \"<a href=\"https://news.xbox.com/en-us/2026/09/22/continuing-our-reset/\" target=\"_blank\">reset</a>\" arrived <a href=\"https://www.pcgamer.com/gaming-industry/xbox-lays-off-268-more-employees-merges-obsidian-into-bethesda-and-puts-activision-in-charge-of-halo/\">last Tuesday</a>—but its impact on World's Edge Studio, the developer now behind the Age of Empires series, was only briefly mentioned in Xbox CCO Matt Booty's announcement. On sites like resetera and LinkedIn, former employees of the RTS developer have shared that it was hit especially hard.</p><p>\"What a morning,\" said former World's Edge creative director Adam Isgreen <a href=\"https://www.resetera.com/threads/xbox-continuing-our-reset-rare-worlds-edge-under-activision-obsidian-under-bethesda-playground-turn-10-merge-ninja-theory-shuttering.1639822/page-17#post-160889011\" target=\"_blank\">on resetera</a>, posting under the verified account name Tempus Chaoti. \"FYI World's Edge was not spared completely—just under half the studio was let go—myself included. Been fun, y'all!\" This is in addition to the studio now answering to Activision alongside Sea of Thieves developer R"
-        }
-      ],
-      "keywords": [
-        "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game",
-        "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game date de sortie",
-        "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game plateformes",
-        "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game gameplay",
-        "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game guide",
-        "Latest Xbox layoffs reportedly devastated Age of Empires developer and canceled its next game avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-william-pugh-co-designer-of-the-stanley-parable-has-ove-02888f0825a2",
-      "topic": "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer'",
-      "detected_at": "2026-09-28T08:57:42.662094+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/william-pugh-co-designer-of-the-stanley-parable-has-over-1-600-hours-in-dota-2-its-not-a-game-made-of-love-its-a-game-fuelled-by-hate-and-a-desire-to-conquer/",
-          "title": "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer'",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Disk Cleanup</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"DEwkbfkEmfdtjT5P9ybme\" name=\"logo_disk_cleanup\" caption=\"\" alt=\"Disk Cleanup logo\" src=\"https://cdn.mos.cms.futurecdn.net/DEwkbfkEmfdtjT5P9ybme-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/disk-cleanup/\" target=\"_blank\">Disk Cleanup</a>, our regular weekend feature delving into the PCs of PC gaming luminaries. Come back every weekend to read a new interview, digging into the important questions, like \"How tidy is your desktop?\" and \"What game will you never uninstall?\"</p></div></div><p>William Pugh grew up on a diet of shareware Mac titles like "
-        }
-      ],
-      "keywords": [
-        "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer'",
-        "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer' date de sortie",
-        "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer' plateformes",
-        "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer' gameplay",
-        "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer' guide",
-        "William Pugh, co-designer of The Stanley Parable, has over 1,600 hours in Dota 2: 'It's not a game made of love. It's a game fuelled by hate and a desire to conquer' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-lords-of-the-end-times-greatest-fantasy-is-letting-us-r-9c9aad6d0a77",
-      "topic": "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history",
-      "detected_at": "2026-09-28T08:57:42.662420+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/strategy/lords-of-the-end-times-greatest-fantasy-is-letting-us-rewrite-the-most-hated-lore-in-warhammers-history/",
-          "title": "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Play This Right Now</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">Welcome to Play This Right Now, the site version of our weekly newsletter in which we celebrate a new game, update, or DLC that we think is well worth checking out. You can <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/newsletter/\" target=\"_blank\">subscribe to the newsletter</a> at the link if you want to get our thoughts about a new videogame happening direct to your inbox every Thursday.</p></div></div><p>If you told me 10 years back, when I started playing <a href=\"https://www.pcgamer.com/total-war-warhammer-3/\" target=\"_blank\">Total War: Warhammer</a> as a brighter-eyed and bushier-tailed strategy gamer, that we'd eventually reach The End Times period, I wouldn't have believed you. But here we are: three games, 110 legendary lords and factions later, Immortal Empires has successfully sliced and diced the best bits of Warhammer Fantasy and chucked them in a big cooking pot of delicious fantasy goodness.</p><p>It's both the biggest and best Total War campaign Creative Assembly has ever attempted and you can now play "
-        }
-      ],
-      "keywords": [
-        "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history",
-        "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history date de sortie",
-        "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history plateformes",
-        "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history gameplay",
-        "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history guide",
-        "Lords of the End Times' greatest fantasy is letting us rewrite the most hated lore in Warhammer's history avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-this-ambitious-half-life-2-mod-asks-what-if-iron-lung-h-464e9eff8b3c",
-      "topic": "This ambitious Half-Life 2 mod asks: what if Iron Lung had a submarine and an airship?",
-      "detected_at": "2026-09-28T08:57:42.662598+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/horror/this-ambitious-half-life-2-mod-asks-what-if-iron-lung-had-a-submarine-and-an-airship/",
-          "title": "This ambitious Half-Life 2 mod asks: what if Iron Lung had a submarine and an airship?",
-          "evidence": "<article> <p>Like many people, I'm a big fan of quickfire submarine horror adventure<a href=\"https://www.pcgamer.com/uk/iron-lung/\"> Iron Lung</a>. Yet despite receiving rave reviews and spawning a film adaptation by Markiplier, surprisingly few games have picked up its baton of vehicular terror. There are other submarine horror games like<a href=\"https://www.pcgamer.com/uk/barotrauma/\"> Barotrauma</a>, as well as job-based horror games like<a href=\"https://store.steampowered.com/app/1699480/KLETKA/\"> Klekta</a> and<a href=\"https://store.steampowered.com/app/3722330/Shift_At_Midnight/\"> Shift at Midnight</a>. But the former has quite a different vibe, while the latter pair seem more inspired by<a href=\"https://www.pcgamer.com/uk/lethal-company/\"> Lethal Company</a> than David Szymanski's 2022 horror.</p><p>Which is why I'm so intrigued by<a href=\"https://www.moddb.com/mods/the-temple-standalone\" target=\"_blank\"> The Temple</a>, an upcoming<a href=\"https://www.pcgamer.com/uk/half-life-2/\"> Half-Life 2</a> total conversion that likewise lets players pilot a terror submarine. But the temple ups the ante by adapting the scares into two other forms of transportation, taking players out "
-        }
-      ],
-      "keywords": [
-        "This ambitious Half-Life 2 mod asks: what if Iron Lung had a submarine and an airship?",
-        "This ambitious Half-Life 2 mod asks: what if Iron Lung had a submarine and an airship? date de sortie",
-        "This ambitious Half-Life 2 mod asks: what if Iron Lung had a submarine and an airship? plateformes",
-        "This ambitious Half-Life 2 mod asks: what if Iron Lung had a submarine and an airship? gameplay",
-        "This ambitious Half-Life 2 mod asks: what if Iron Lung had a submarine and an airship? guide",
-        "This ambitious Half-Life 2 mod asks: what if Iron Lung had a submarine and an airship? avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-spiritual-successor-to-classic-jrpg-wild-arms-has-s-9b6434bce7e2",
-      "topic": "The spiritual successor to classic JRPG Wild Arms has seemingly been cancelled, four years after its Kickstarter raised nearly $3 million",
-      "detected_at": "2026-09-28T08:57:42.662798+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rpg/the-spiritual-successor-to-classic-jrpg-wild-arms-has-seemingly-been-cancelled-four-years-after-its-kickstarter-raised-nearly-usd3-million/",
-          "title": "The spiritual successor to classic JRPG Wild Arms has seemingly been cancelled, four years after its Kickstarter raised nearly $3 million",
-          "evidence": "<article> <p>Armed Fantasia— which was a spiritual successor to the popular JRPG series Wild Arms and <em>not </em>a first-person shooter starring Mickey Mouse—has been cancelled four years after its Kickstarter campaign raised almost $3 million.</p><p>As reported by<a href=\"https://www.rockpapershotgun.com/colourful-jrpg-armed-fantasia-has-been-cancelled-four-years-after-a-successful-kickstarter-campaign-descended-into-delays-and-lawsuits\"> Rock Paper Shotgun</a>, Armed Fantasia is one of several titles for which Digital Bros—the parent company of 505 Games—has decided to \"discontinue development of\" as revealed in its<a href=\"https://digitalbros-com.b-cdn.net/wp-content/uploads/2026/09/2026.09.24-The-BoD-approves-the-Draft-Financial-Statements-as-of-June-30-2026-2.pdf\" target=\"_blank\"> most recent financial statement</a>.</p><p>The project was headed by Akifumi Kaneko, who was the lead designer on the original Wild Arms and served in the same role through to Wild Arms 4. It was formally revealed alongside its<a href=\"https://www.kickstarter.com/projects/doublekickstarter/armed-fantasia-and-penny-blood/posts/4631333\" target=\"_blank\"> Kickstater campaign</a> back in 2022. </p><p>Un"
-        }
-      ],
-      "keywords": [
-        "The spiritual successor to classic JRPG Wild Arms has seemingly been cancelled, four years after its Kickstarter raised nearly $3 million",
-        "The spiritual successor to classic JRPG Wild Arms has seemingly been cancelled, four years after its Kickstarter raised nearly $3 million date de sortie",
-        "The spiritual successor to classic JRPG Wild Arms has seemingly been cancelled, four years after its Kickstarter raised nearly $3 million plateformes",
-        "The spiritual successor to classic JRPG Wild Arms has seemingly been cancelled, four years after its Kickstarter raised nearly $3 million gameplay",
-        "The spiritual successor to classic JRPG Wild Arms has seemingly been cancelled, four years after its Kickstarter raised nearly $3 million guide",
-        "The spiritual successor to classic JRPG Wild Arms has seemingly been cancelled, four years after its Kickstarter raised nearly $3 million avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-diablo-4-seasons-will-continue-even-after-diablo-5-laun-023cc4ca687c",
-      "topic": "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms",
-      "detected_at": "2026-09-29T09:03:16.605701+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/diablo/diablo-4-seasons-will-continue-after-diablo-5-launches-similar-to-diablo-2-and-3-blizzard-confirms/",
-          "title": "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms",
-          "evidence": "<article> <p>With the surprise announcement of <a href=\"https://www.gamesradar.com/games/diablo/diablo-5-guide/\">Diablo 5</a> at <a href=\"https://www.gamesradar.com/news/live/blizzcon-2026-everything-announced/\">BlizzCon 2026</a>, some fans of the series are left with a bittersweet feeling. Sure, a new game sounds great, and with <a href=\"https://www.gamesradar.com/games/diablo/diablo-4s-nostalgic-new-season-has-convinced-me-that-we-need-a-diablo-1-remake-more-than-diablo-5/\">Diablo 5 looking like the darkest entry in the series since OG Diablo</a>, it <em>does </em>look great. But what does that mean for Diablo 4, which is only three years old? Well, <a href=\"https://www.gamesradar.com/games/diablo/diablo-4-lord-of-hatred-is-the-games-final-expansion-as-blizzard-focuses-on-getting-to-diablo-5/\">Blizzard itself has confirmed it means no more Diablo 4 expansions</a>, but the developer has made it clear seasonal updates will continue despite Diablo 5 being the apparent main focus within Blizzard's Diablo team. But with Diablo 4 seasons being as meaty as they are these days, <a href=\"https://www.gamesradar.com/games/diablo/almost-all-of-diablo-1-has-been-recreated-in-a-new-diablo-4-ac"
-        }
-      ],
-      "keywords": [
-        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms",
-        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms date de sortie",
-        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms plateformes",
-        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms gameplay",
-        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms guide",
-        "Diablo 4 seasons will continue even after Diablo 5 launches, Blizzard confirms avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-cyberpunk-2077-dev-doesn-t-think-phantom-liberty-s-succ-9aee33fbf9dd",
-      "topic": "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game",
-      "detected_at": "2026-09-29T09:03:16.605921+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/cyberpunk/cyberpunk-2077-designer-doesnt-think-phantom-libertys-success-erases-the-terrible-launch-of-the-base-game/",
-          "title": "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game",
-          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/cyberpunk-2077-guide/\">Cyberpunk 2077</a>'s redemption arc is long complete, 2023's acclaimed <a href=\"https://www.gamesradar.com/uk/cyberpunk-2077-phantom-liberty/\">Phantom Liberty</a> expansion cementing the RPG's legacy as one of this generation's all-time greats. Even as I sit here in 2026 writing this, it's still jarring to talk about Cyberpunk 2077 in such a uniformly positive light, and that's because I was doing this exact same job back in December 2020 when the game finally launched after multiple delays... and got absolutely dragged through the mud. We have a curated list of the <a href=\"https://www.gamesradar.com/cyberpunk-2077-bugs/\">best Cyberpunk 2077 bugs</a> we could find at the time, if that gives you an idea of the state of the game at launch.</p><p>Shortly after launch, developer CD Projekt Red began rapid firing patches and updates at Cyberpunk 2077 in an effort to address widespread performance and technical issues, culminating in the massive <a href=\"https://www.gamesradar.com/five-reasons-i-am-redownloading-cyberpunk-2077-for-patch-15/\">1.5 \"next-gen\" update</a> that really marked a turning point in the game's "
-        }
-      ],
-      "keywords": [
-        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game",
-        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game date de sortie",
-        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game plateformes",
-        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game gameplay",
-        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game guide",
-        "Cyberpunk 2077 dev doesn't think Phantom Liberty's success \"erases\" the launch of the base game avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-amid-ps5-pro-shortage-sony-implements-a-lottery-system--bd988c0e9096",
-      "topic": "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime",
-      "detected_at": "2026-09-29T09:03:16.606136+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/amid-ps5-pro-shortage-sony-implements-a-lottery-system-in-japan-that-requires-60-hours-of-playtime/",
-          "title": "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime",
-          "evidence": "<article> <p>Since the RAM shortage <a href=\"https://www.gamesradar.com/hardware/ram-shortage-shoves-ps5-xbox-and-nintendos-us-sales-to-a-july-low-not-seen-since-2020-as-price-concerns-linger-analyst-says/\">seems to be neverending</a>, PlayStation has had no choice but to separate the Real Gamers from the boys while preparing its PS5 Pro lottery system in Japan. Anyone who participates will be required to have at least 60 hours of playtime on their Sony account since 2024.</p><p>Video game industry update account <a href=\"https://x.com/Genki_JPN/status/2104395673944932371\" target=\"_blank\">Genki translates</a> a Japanese <a href=\"https://www.playstation.com/ja-jp/local/campaigns/ps5-pro-register-to-buy/\" target=\"_blank\">PlayStation blog</a> that went live on September 27, explaining that \"PS5 Pro is also facing stock shortages in Japan.\" The latest <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> reveal in August <a href=\"https://www.gamesradar.com/games/grand-theft-auto/ps5-pros-all-but-vanish-after-gta-6-reveal-going-for-up-to-usd1-300-at-the-few-stores-with-stock/\">decimated PS5 Pro stock here in the US</a>, and scalpers worldwide are responding by pricing the upgraded"
-        }
-      ],
-      "keywords": [
-        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime",
-        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime date de sortie",
-        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime plateformes",
-        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime gameplay",
-        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime guide",
-        "Amid PS5 Pro shortage, Sony implements a lottery system in Japan that requires 60 hours of playtime avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-ps5-emulator-updates-have-6-games-fully-playable-at-60--755eef1afb00",
-      "topic": "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind",
-      "detected_at": "2026-09-29T09:03:16.606396+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/ps5-emulator-updates-have-6-games-fully-playable-at-60-fps-and-demons-souls-isnt-far-behind/",
-          "title": "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind",
-          "evidence": "<article> <p>PS5 emulators are already making massive strides in compatibility and performance. A series of recent updates to major PS5 emulation projects have seen more and more games categorized as playable, even including notable AAA releases like Demon's Souls and Astro Bot.</p><p><a href=\"https://sharpemu.app/\" target=\"_blank\">SharpEmu</a> and <a href=\"https://kytyps5.github.io/\" target=\"_blank\">KytyPS5</a> are arguably the two most notable PS5 emulator projects, and they both keep full compatibility lists of tested titles at their respective sites. Take note right now: neither emulator is yet a truly viable way to play PS5 games. You will experience bugs, visual glitches, and performance issues even in the tiny handful of games that actually boot right now.</p><p>But the mere fact that PS5 emulation is even at the fringe of viability right now is, frankly, mind-blowing. A SharpEmu dev who goes by Scarecrow <a href=\"https://x.com/CursedIfElse/status/2103612440143339874\" target=\"_blank\">tweets</a> that \"out of 55 tested games, 12 can now reach in-game, and 6 of them are fully playable at 60 FPS,\" as of the latest update. The titles here are mostly small indie projects and retro"
-        }
-      ],
-      "keywords": [
-        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind",
-        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind date de sortie",
-        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind plateformes",
-        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind gameplay",
-        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind guide",
-        "PS5 emulator updates have 6 games \"fully playable at 60 FPS,\" and Demon's Souls isn't far behind avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-path-of-exile-co-creator-is-tentatively-hopeful-diablo--2293655d364a",
-      "topic": "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing",
-      "detected_at": "2026-09-29T09:03:16.606752+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/diablo/path-of-exile-co-creator-is-tentatively-hopeful-diablo-5-will-stick-the-landing/",
-          "title": "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing",
-          "evidence": "<article> <p>We haven't seen much of <a href=\"https://www.gamesradar.com/games/diablo/diablo-5-guide/\">Diablo 5</a> yet beyond the cinematic announcement we got at <a href=\"https://www.gamesradar.com/news/live/blizzcon-2026-everything-announced/\">BlizzCon 2026</a>, but Blizzard has been leaving a trail of breadcrumbs indicating a dramatic departure from previous entries in the series, and in other cases, a return to its roots. I've written at some length about how <a href=\"https://www.gamesradar.com/games/diablo/diablo-5-is-blizzards-darkest-arpg-yet-and-thats-the-best-way-to-honor-the-game-that-changed-my-life-30-years-ago/\">Blizzard is doubling down on the Diablo series' trademark darkness and why that's the best way to pay tribute to the original 1996 action RPG</a>, and now Path of Exile co-creator Chris Wilson is pointing out a few more clues that seem to suggest Diablo 5 is taking inspiration from its early forbearers.</p><p>Of course, Path of Exile wouldn't exist without Diablo 1 and 2, so Wilson has a thoroughly documented obsession with those iconic ARPGs. He's also been outspoken about not having clicked with Diablo 3 and 4 for various reasons, and in a new video, he expl"
-        }
-      ],
-      "keywords": [
-        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing",
-        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing date de sortie",
-        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing plateformes",
-        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing gameplay",
-        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing guide",
-        "Path of Exile co-creator is \"tentatively hopeful\" Diablo 5 will stick the landing avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-witcher-3-remaster-overhauls-skill-trees-adds-new-q-7814114d6118",
-      "topic": "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals",
-      "detected_at": "2026-09-29T09:03:16.606932+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/the-witcher/the-witcher-3-remaster-overhauls-skill-trees-adds-new-quest-markers-brings-a-mode-to-reduce-cognitive-load-and-more-cd-projekt-red-reveals-in-patch-notes/",
-          "title": "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals",
-          "evidence": "<article> <p>The remaster of <a href=\"https://www.gamesradar.com/uk/the-witcher-3-wild-hunt/\">The Witcher 3</a>: Wild Hunt comes out tomorrow, and CD Projekt Red has released a <a href=\"https://www.thewitcher.com/es/en/news/52041/see-whats-new-in-the-witcher-3-wild-hunt-remastered\" target=\"_blank\">list of the most notable changes</a> you'll find in the mammoth RPG. You've got plenty of audio and visual improvements, of course, but there are some deeper tweaks to be mindful of, too.</p><p>One such example is in the skill trees. \"Skills are now organized into a skill tree and each skill has three ranks,\" read the notes. \"Unlocking new skills now requires having the necessary prerequisite skills rather than spending a set number of skill points.\"</p><p>Your existing skill points will be reset if you're importing a save file, so be wary of that, and several of the skills have been renamed to be more appropriate to what they represent. No examples are given, so it'll be worth scanning through to re-orientate yourself across your entire build.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-no"
-        }
-      ],
-      "keywords": [
-        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals",
-        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals date de sortie",
-        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals plateformes",
-        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals gameplay",
-        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals guide",
-        "The Witcher 3 Remaster overhauls skill trees, adds new quest markers, and more, CDPR reveals avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-ps5-survival-horror-everyone-thought-hideo-kojima-was-w-b3da1a920e84",
-      "topic": "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store",
-      "detected_at": "2026-09-29T09:03:16.607191+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/survival-horror/after-5-controversial-years-ps5-survival-horror-everyone-thought-hideo-kojima-was-working-on-returns-to-the-playstation-store-with-death-stranding-references-intact/",
-          "title": "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store",
-          "evidence": "<article> <p>Strange things are happening to a strange game – Abandoned, the survival horror shooter indie studio Blue Box Game first announced in 2021 and initially planned to release that same year, is suddenly back on the PlayStation store after the PS5-exclusive was previously taken down, and then added back, and taken down, and… </p><p>Some people think of Abandoned as <a href=\"https://www.youtube.com/watch?v=RyqwKO8qjtM\" target=\"_blank\"><u>\"The Survival Horror Game That Never Existed,\"</u></a> because, well, it doesn't exist. Blue Box <a href=\"https://x.com/BBGameStudios/status/1509591396084326413\" target=\"_blank\"><u>delayed the game indefinitely in 2022</u></a>, saying, \"We will continue to work on the game and we will notify you when we are ready.\" That hasn't happened yet. So, while the game's latest <a href=\"https://store.playstation.com/en-us/concept/10002968\" target=\"_blank\"><u>PlayStation store listing</u></a> carries what should be an intriguing 2027 release window, its game description is still too sparse to inspire new confidence: \"Abandoned is a horror survival shooter with the focus on realism.\" </p><p>All Abandoned is really doing <a href=\"https://www.reddit.com/"
-        }
-      ],
-      "keywords": [
-        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store",
-        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store date de sortie",
-        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store plateformes",
-        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store gameplay",
-        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store guide",
-        "PS5 survival horror everyone thought Hideo Kojima was working on returns to the PlayStation Store avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-doctors-find-that-vr-headsets-can-lower-blood-pressure--59a80303e0fa",
-      "topic": "Doctors find that VR headsets can lower blood pressure and stress levels in an ER",
-      "detected_at": "2026-09-29T09:03:16.607540+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/hardware/vr/doctors-experimented-with-gaming-vr-headsets-in-an-er-finding-that-a-few-minutes-in-a-peaceful-virtual-forest-while-listening-to-mozart-can-help-lower-blood-pressure-and-anxiety-for-patients/",
-          "title": "Doctors find that VR headsets can lower blood pressure and stress levels in an ER",
-          "evidence": "<article> <p>Doctors might have just discovered a new use for <a href=\"https://www.gamesradar.com/the-best-vr-headset\">VR headsets</a> normally used for gaming - and to think people complain about this hardware causing motion sickness. In a small independent study, emergency medicine specialists at Ankaha Bilkent City Hospital in Ankara, Turkey, have found that a combination of peaceful VR environments and classical music can lower blood pressure and stress levels more quickly than regular medication. </p><p>\"Patients who arrive in the emergency department with markedly elevated blood pressure—readings of 180 mmHg or higher on the top number, or 110 mmHg or higher on the bottom number—are extremely common\", said Dr. Safa Dönmez, an associate professor of emergency medicine at the University of Health Sciences in Ankara.</p><p>\"The emergency department environment itself—the noise, the bright lights, the uncertainty—can make that worse. This made me wonder: if we could help patients feel calmer, could we also help their blood pressure come down faster?\"</p><p>This led him and his colleagues, including Dr Kadir Yenal, to create and publish a study surrounding the use of VR in this sp"
-        }
-      ],
-      "keywords": [
-        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER",
-        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER date de sortie",
-        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER plateformes",
-        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER gameplay",
-        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER guide",
-        "Doctors find that VR headsets can lower blood pressure and stress levels in an ER avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-gta-6-fans-replicate-the-400-collector-s-box-statue-and-01296567d94d",
-      "topic": "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home",
-      "detected_at": "2026-09-29T09:03:16.607767+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-fans-replicate-the-usd400-collectors-box-statue-and-you-can-now-3d-print-your-own-ugly-gator-at-home/",
-          "title": "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home",
-          "evidence": "<article> <p>Rather than pay $400 for the <a href=\"https://www.gamesradar.com/gta-6-guide/\"><u>GTA 6</u></a> Collector's Box to get it, fans are now downloading and 3D printing the ugly alligator figure included in the bundle. </p><p><a href=\"https://www.gamesradar.com/uk/tag/rockstar-games/\"><u>Rockstar Games</u></a> releases are usually pretty popular, and there's no doubt that it'll sell a ton of copies the second it releases GTA 6 (or anything else) to the public. And with that sort of guaranteed success, it probably makes sense to drop an expensive collector's edition of the game for those who really want to go all-out for it, but uhh… a $400 box that doesn't include the game is probably not the most appealing prospect for many. So much so that scalpers were struggling to get one over on people at first, with the <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-scalpers-are-already-trying-to-resell-rockstars-usd400-collectors-box-for-upwards-of-usd1-500-even-though-its-still-in-stock/\"><u>box remaining in stock for a decent amount of time</u></a>.</p><p>And I can't really say I blame them. It's one thing to drop a massively expensive collector's edition, it's a"
-        }
-      ],
-      "keywords": [
-        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home",
-        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home date de sortie",
-        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home plateformes",
-        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home gameplay",
-        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home guide",
-        "GTA 6 fans replicate the $400 Collector's Box statue, and you can now 3D print your own ugly gator at home avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-argos-is-already-the-best-place-to-buy-a-switch-2-in-th-1c91d62000fe",
-      "topic": "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings",
-      "detected_at": "2026-09-29T09:03:16.608088+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/hardware/argos-is-already-the-best-place-to-buy-a-switch-2-in-the-uk-and-this-offer-just-sweetens-the-savings/",
-          "title": "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings",
-          "evidence": "<article> <p>Argos is already at the top of my list for UK retailer recommendations if you were to ask me, \"Where should I order my Nintendo Switch 2 from?\" This new limited-time offer just sweetens the deal.</p><p>From today, you can pick up either Pokemon Pokopia, Star Fox, Metroid Prime 4 Beyond, or Cyberpunk 2077 Ultimate Edition for just<a href=\"https://www.argos.co.uk/product/7624867/specialoffers/E49847?\" target=\"_blank\"> £20 (via Argos)</a>, so long as you order it alongside the Switch 2. With titles like Pokopia typically still found between £54 and its full price, this is one of the single <a href=\"https://www.gamesradar.com/cheap-nintendo-switch-bundles-compared/\">best Nintendo Switch bundle deals</a> available today, as no matter what you pick, you're getting the console and a physical game for £374.99. Sounds yummy to me!</p><div class=\"product\"><a data-dimension112=\"dc398866-bb3d-11f1-bedb-0b998b55e2e2\" data-action=\"Deal Block\" data-label=\"Buy Nintendo Switch 2 Console and add a selected game for just £20\" data-dimension48=\"Buy Nintendo Switch 2 Console and add a selected game for just £20\" data-dimension25=\"£374.99\" href=\"https://www.argos.co.uk/product/7624867/speci"
-        }
-      ],
-      "keywords": [
-        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings",
-        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings date de sortie",
-        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings plateformes",
-        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings gameplay",
-        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings guide",
-        "Argos is already the best place to buy a Switch 2 in the UK, and this offer just sweetens the savings avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-should-you-eat-the-mold-in-control-resonant-11dff98fdbdc",
       "topic": "Should you eat the Mold in Control Resonant?",
@@ -5981,6 +5601,386 @@
         "Dead Space multijoueur",
         "Dead Space PC",
         "Dead Space Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "rss-gta-6-leaker-threatens-to-upload-a-build-with-full-stor-c3e1a41d9804",
+      "topic": "GTA 6 leaker threatens to upload a build with 'full story mode'",
+      "detected_at": "2026-10-11T09:18:34.817551+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-leaker-threatens-to-upload-a-build-with-full-story-mode/",
+          "title": "GTA 6 leaker threatens to upload a build with 'full story mode'",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/games/grand-theft-auto/who-is-cyberleek-what-we-know-about-the-gta-6-leaker/\">Cyberleek</a> has been uploading footage of Grand Theft Auto 6 since August, most recently a <a href=\"https://www.pcgamer.com/games/grand-theft-auto/jason-may-or-may-not-appear-fully-nude-in-gta-6-but-either-way-weve-now-seen-his-dong/\">25-minute video featuring co-protagonist Jason totally nude</a>. Given that GTA 6's November 19 release is just over a month away, on console at least, it seems natural that interest in these kinds of leaks would wane. Cyberleek has found a new way of generating hype: promising to leak a build of the game if their memecoin's marketcap goes up another $26 million or so.</p><p>\"Here's the deal, nice and clean. CYBERLEEK hits 30 million marketcap, the build goes out – full story mode, played to the end, credits and all. Don't believe it has full story mode? Ask for what you want to see, and it gets provided. Take-Two gets one way out: physical disks and a public apology. They can take it at any moment. Or they can gamble that CL is bluffing. Everyone knows which one they'll pick.\"</p><p>The other half of the deal suggests that pub"
+        }
+      ],
+      "keywords": [
+        "GTA 6 leaker threatens to upload a build with 'full story mode'",
+        "GTA 6 leaker threatens to upload a build with 'full story mode' date de sortie",
+        "GTA 6 leaker threatens to upload a build with 'full story mode' plateformes",
+        "GTA 6 leaker threatens to upload a build with 'full story mode' gameplay",
+        "GTA 6 leaker threatens to upload a build with 'full story mode' guide",
+        "GTA 6 leaker threatens to upload a build with 'full story mode' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-squadron-42-has-a-steam-page-148285c798fa",
+      "topic": "Squadron 42 has a Steam page",
+      "detected_at": "2026-10-11T09:18:34.817759+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/squadron-42-has-a-steam-page/",
+          "title": "Squadron 42 has a Steam page",
+          "evidence": "<article> <p>In August, game director Chris Roberts said that Star Citizen's singleplayer component, Squadron 42, was being <a href=\"https://www.pcgamer.com/games/fps/star-citizens-squadron-42-delayed-again-this-time-to-avoid-the-attention-buzz-saw-of-gta-6-says-chris-roberts/\">delayed out of 2026 to avoid clashing with Grand Theft Auto 6</a>. There was a certain amount of skepticism about the reason for the delay, thanks in part to a recent <a href=\"https://www.pcgamer.com/games/mmo/star-citizen-has-a-disastrously-laggy-stream-with-horrendous-vibes-which-isnt-a-great-look-when-youre-past-usd1-billion-in-funding/\">Star Citizen livestream being declared a disaster</a>, but also because, well. These games have had so many release dates the changes have <a href=\"https://starcitizen.tools/Release_date\">their own wiki page</a>.</p><p>There's something concrete about having Squadron 42 getting a Steam page though, with system requirements and everything. Those system requirements are charmingly old-fashioned, with no mention of ray tracing-capable GPUs or DirectX 12. Although the install size of 150GB is still pretty hefty. (<a href=\"https://www.pcgamer.com/games/final-fantasy/final-fant"
+        }
+      ],
+      "keywords": [
+        "Squadron 42 has a Steam page",
+        "Squadron 42 has a Steam page date de sortie",
+        "Squadron 42 has a Steam page plateformes",
+        "Squadron 42 has a Steam page gameplay",
+        "Squadron 42 has a Steam page guide",
+        "Squadron 42 has a Steam page avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-vampire-games-on-steam-are-a-recession-indicator-and-i--af5583a08376",
+      "topic": "Vampire games on Steam are a recession indicator and I have the charts to prove it",
+      "detected_at": "2026-10-11T09:18:34.818771+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/vampire-games-on-steam-are-a-recession-indicator-and-i-have-the-charts-to-prove-it/",
+          "title": "Vampire games on Steam are a recession indicator and I have the charts to prove it",
+          "evidence": "<article> <p>Despite what the GDP tells me, the economy in the real world doesn't feel like it's doing too hot for the average joe. But during the recent years' descent into compounding supply crises and mass layoffs affecting thousands of workers at once, I've noticed another trend: Sure does seem like there are a lot of vampire games in the mix lately.</p><p>I started to sense an uptick after Arkane's ill-fated Redfall in 2023. There was Vampire Survivors and V Rising—and Nighthawks, Moonlight Peaks, Blood of Dawnwalker, and more. Given current circumstances, you might think I'm just primed to notice nightmarish aristocrats bleeding us alive to sustain themselves. But after too many hours of spreadsheet data entry, I'm convinced devs really <em>have </em>been dabbling more heavily in Draculas as the economy feels increasingly dire.<br><br>Vampire games on Steam are a recession indicator. And I have the charts to prove it.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.21%;\"><img id=\"FFY9R7fKJAew58Lp52P7y6"
+        }
+      ],
+      "keywords": [
+        "Vampire games on Steam are a recession indicator and I have the charts to prove it",
+        "Vampire games on Steam are a recession indicator and I have the charts to prove it date de sortie",
+        "Vampire games on Steam are a recession indicator and I have the charts to prove it plateformes",
+        "Vampire games on Steam are a recession indicator and I have the charts to prove it gameplay",
+        "Vampire games on Steam are a recession indicator and I have the charts to prove it guide",
+        "Vampire games on Steam are a recession indicator and I have the charts to prove it avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-a-great-indie-studio-is-making-a-sequel-to-one-of-my-fa-0ec5915cab04",
+      "topic": "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending'",
+      "detected_at": "2026-10-11T09:18:34.819219+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/adventure/a-great-indie-studio-is-making-a-sequel-to-one-of-my-favorite-adventures-17-years-later-for-one-simple-reason-were-not-getting-any-younger-and-the-world-seems-to-be-ending/",
+          "title": "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending'",
+          "evidence": "<article> <p>I just made a noise like air being slowly released from a <a href=\"https://www.youtube.com/shorts/Vr18dPC2hfs\" target=\"_blank\">balloon</a>.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/ZqcglWA1pDo\" allowfullscreen></iframe></div></div><p>It's been 17 years since the original <a href=\"https://www.pcgamer.com/machinarium/\" target=\"_blank\">Machinarium</a>, a wordless tale of love in a crumbling city of robots. Amanita Design has put out some great games over that span—<a href=\"https://www.pcgamer.com/botanicula-review/\" target=\"_blank\">Botanicula</a>, <a href=\"https://www.pcgamer.com/chuchel-reivew/\" target=\"_blank\">Chuchel</a>, <a href=\"https://www.pcgamer.com/creaks/\" target=\"_blank\">Creaks</a>, <a href=\"https://www.pcgamer.com/phonopolis/\" target=\"_blank\">Phonopolis</a>—but hasn't breathed even a hint that more Machinarium might be on the way. So why now? </p><p>\"We're not getting any younger, and the world seems to be ending, so if we were ever going to make Machinarium 2, now is the right time,\" Amanita CEO and designer Jakub Dvorský said—a bit dark, "
+        }
+      ],
+      "keywords": [
+        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending'",
+        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending' date de sortie",
+        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending' plateformes",
+        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending' gameplay",
+        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending' guide",
+        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-subnautica-2-fans-can-finally-hunt-and-kill-those-pesky-2510d613a27d",
+      "topic": "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC",
+      "detected_at": "2026-10-11T09:18:34.819480+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/adventure/subnautica-2-fans-can-finally-hunt-and-kill-those-pesky-nibbler-mangos-in-dave-the-divers-crossover-dlc/",
+          "title": "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC",
+          "evidence": "<article> <p>It took a while but there's finally an official way to hunt and kill some of Subnautica 2's most annoying sea creatures. The only catch is, you'll have to do it in Dave the Diver DLC—though as catches go, that's a pretty fun one.</p><p>The crossover was announced today at the Triple-I Initiative showcase. Coming in early 2027, the <a href=\"https://store.steampowered.com/app/5246570/DAVE_THE_DIVER__Subnautica_2_Content_Pack/\">Dave the Diver X Subnautica 2 content pack</a> will suck Dave into the alien waters of Unknown Worlds' survival game where he can mine resources, hunt fish, and—one would hope—discover some tasty new sushi recipes for Bancho to cook up. Here's the trailer:</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Rp4KqJEnr_U\" allowfullscreen></iframe></div></div><p>What caught my eye even more than the glimpse of a massive and intimidating boss at the end of the trailer were those pesky Nibbler Mangos, which start biting you the second you dive into Subnautica 2 and never really stop. Players having no way to kill large enemies in Subnautica 2 h"
+        }
+      ],
+      "keywords": [
+        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC",
+        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC date de sortie",
+        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC plateformes",
+        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC gameplay",
+        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC guide",
+        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-i-have-added-roving-bands-of-militant-furries-to-grand--d159eb06c8d0",
+      "topic": "I have added roving bands of militant furries to Grand Theft Auto 5",
+      "detected_at": "2026-10-11T09:18:34.819765+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-have-added-roving-bands-of-militant-furries-to-grand-theft-auto-5/",
+          "title": "I have added roving bands of militant furries to Grand Theft Auto 5",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>Let's get one thing out of the way: I think we, as a society, as a people, are generally fine with furries at this point. The phenomenon of ragging on furry subculture has been, gladly, consigned to the dustbin of history. It's a 2010 disease from which we have convalesced. Let nothing I write from here on be taken as a slight against them.</p><p>That being said, it is very funny to give someone in a fursuit a gun and a military objective.</p><p>I have installed, well, two mods actually. The first, preliminary mod is <a href=\"https://www.gta5-mods.com/scripts/gang-and-tu"
+        }
+      ],
+      "keywords": [
+        "I have added roving bands of militant furries to Grand Theft Auto 5",
+        "I have added roving bands of militant furries to Grand Theft Auto 5 date de sortie",
+        "I have added roving bands of militant furries to Grand Theft Auto 5 plateformes",
+        "I have added roving bands of militant furries to Grand Theft Auto 5 gameplay",
+        "I have added roving bands of militant furries to Grand Theft Auto 5 guide",
+        "I have added roving bands of militant furries to Grand Theft Auto 5 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-amazon-is-roasting-users-with-their-own-shopping-habits-ba4aed02a981",
+      "topic": "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us",
+      "detected_at": "2026-10-11T09:18:34.820004+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/amazon-is-roasting-users-with-their-own-shopping-habits-but-it-dont-have-nothin-on-us/",
+          "title": "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us",
+          "evidence": "<article> <p>If you've got an Amazon account, then you likely already realise Jeff Bezos' corporate empire is hoovering up your data so it can better sell to you. What's surprising is when Amazon actually offers a peek behind that vast curtain of data, revealing what it's learnt about you and potentially reading you for filth in the process.</p><p>Amazon's 'About You' feature rolled out back in May. It gained more attention this week after <a href=\"https://www.threads.com/@fangirlinmegan/post/DeIYWsRkUne?xmt=AQG0G8m600EHL1Q7k2TCNnRSWwauRGz2IHv3frfn0DKusx0\" target=\"_blank\">one Threads user's viral post</a> appeared to show that, based on her 'Product Preferences,' Amazon thought she had \"flat buttocks.\" They weren't the only ones left \"literally speechless,\" as another user shared that Amazon had noted they do \"<a href=\"https://www.threads.com/@cherieish/post/DeIm17TGj4v?xmt=AQG0Sibre9Tz_ewW5Xe0oU1f4YUaA9KzLPIS4YOuJIpxfrw\" target=\"_blank\">not trust people easily</a>.\" A Reddit user posted that Amazon had noted they apparently get \"<a href=\"https://www.reddit.com/r/AmazonVine/comments/1txgbn4/have_you_checked_out_your_about_you_on_amazon_yet/\" target=\"_blank\">a tired gray cast from l"
+        }
+      ],
+      "keywords": [
+        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us",
+        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us date de sortie",
+        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us plateformes",
+        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us gameplay",
+        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us guide",
+        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-crowning-the-best-fps-mode-of-all-time-through-1v1-comb-7f71e5a96508",
+      "topic": "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2)",
+      "detected_at": "2026-10-11T09:18:34.820389+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/crowning-the-best-fps-mode-of-all-time-through-1v1-combat-round-2/",
+          "title": "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2)",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">FOV 90</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"cTeZTtGXV6uYdPks5D77R7\" name=\"pcg_logo_fov90\" caption=\"\" alt=\"FOV 90 column\" src=\"https://cdn.mos.cms.futurecdn.net/cTeZTtGXV6uYdPks5D77R7-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to FOV 90, an FPS column from staff writer Morgan Park. Every other week, I cover topics relevant to first-person shooter enjoyers, spanning everything from multiplayer and singleplayer to the old and the new.</p></div></div><p>Welcome back to another special community tournament edition of FOV 90, the only FPS column that I'm aware of.</p><p>Last week, we started the work of determining <a href=\"https://www.pcgamer.com/games/fps/making-our-favo"
+        }
+      ],
+      "keywords": [
+        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2)",
+        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2) date de sortie",
+        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2) plateformes",
+        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2) gameplay",
+        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2) guide",
+        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2) avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-as-it-lays-off-developers-and-closes-studios-xbox-launc-55543c784c0a",
+      "topic": "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves'",
+      "detected_at": "2026-10-11T09:18:34.820679+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/as-it-lays-off-developers-and-closes-studios-xbox-gets-into-the-movie-business/",
+          "title": "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves'",
+          "evidence": "<article> <p>More big news out of Xbox today: A new division called Xbox XP will take the lead on \"film and television, consumer products, strategic partnerships, and live experiences.\"</p><p>As detailed on today's <a href=\"https://news.xbox.com/en-us/2026/10/08/introducing-xp/\" target=\"_blank\">announcement</a>, here's what that breaks down to:</p><ul><li><em><strong>XBOX PICTURES</strong></em><em>: Bringing our worlds and characters to new audiences through film, television, and other forms of linear storytelling.</em></li><li><em><strong>XBOX PRODUCTS</strong></em><em>: Creating products that are authentic to the fandom that allow fans to celebrate and express the franchises they love.</em></li><li><em><strong>XBOX PLACES</strong></em><em>: Bringing communities together through live events, immersive experiences, attractions, broadcasts, and destinations.</em></li><li><em><strong>XBOX PARTNERSHIPS</strong></em><em>: Working with creators, brands, and communities to develop new experiences, sponsorships, and brand partnerships.</em></li></ul><p>Xbox XP will be headed by Kayleen Walters, who previously spent a couple years as president of Minecraft studio Mojang and before that spe"
+        }
+      ],
+      "keywords": [
+        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves'",
+        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' date de sortie",
+        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' plateformes",
+        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' gameplay",
+        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' guide",
+        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-all-hail-the-long-steam-machine-pimax-s-new-steamos-rea-e0f56e4a41b4",
+      "topic": "All hail the long steam machine, Pimax's new SteamOS-ready mini PC",
+      "detected_at": "2026-10-11T09:18:34.820993+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/steam-machines/all-hail-the-long-steam-machine-pimaxs-new-steamos-ready-mini-pc/",
+          "title": "All hail the long steam machine, Pimax's new SteamOS-ready mini PC",
+          "evidence": "<article> <p>You could say Pimax is copying Valve's homework with its new mini PC, the Spation. Though the <a href=\"https://www.pcgamer.com/hardware/gaming-pcs/steam-machine-review-2026/\" target=\"_blank\">Steam Machine</a> is merely a black box, so you could say it also copied any number of other miscellaneous black rectangles itself; the Xbox Series X among them. Nevertheless, this is one similar-looking living room machine, and Pimax is even pitching it with SteamOS.</p><p>Pimax's machine is a mini PC with a whole bunch of power behind it. Pimax says it comes with either an <a href=\"https://www.pcgamer.com/hardware/graphics-cards/amd-radeon-rx-9700-xt-review-asus-prime-oc/\" target=\"_blank\">RX 9070 XT</a> or <a href=\"https://www.pcgamer.com/hardware/graphics-cards/pny-geforce-rtx-5070-ti-16-gb-oc-review/\" target=\"_blank\">RTX 5070 Ti</a>, and a <a href=\"https://www.pcgamer.com/hardware/processors/amd-ryzen-7-9800x3d-review/\" target=\"_blank\">Ryzen 7 9800X3D</a>. </p><p>It packs in 32 GB of DDR5, a 1 TB SSD, and a 1000 W SFX PSU. It also supports Wi-Fi 7, Bluetooth 5.4, and comes with 2x DisplayPort 2.1, 1x HDMI 2.1, 1x USB4, and 6x USB 3.2 Gen 2 ports. </p><div style=\"min-height: 250"
+        }
+      ],
+      "keywords": [
+        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC",
+        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC date de sortie",
+        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC plateformes",
+        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC gameplay",
+        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC guide",
+        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-pimax-says-i-ll-have-what-valve-s-having-as-it-announce-1ef6358bec5f",
+      "topic": "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine",
+      "detected_at": "2026-10-11T09:18:34.821481+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/vr-hardware/pimax-says-ill-have-what-valves-having-as-it-announces-new-wireless-vr-headset-foveated-streaming-updated-controllers-and-long-steam-machine/",
+          "title": "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine",
+          "evidence": "<article> <p>Known for its many variants of VR headset, Pimax is back with yet more new products. This time, it seems to be following Valve's recent example, with a wireless VR headset, foveated streaming, ringfree VR controllers, and a very long Steam Machine.</p><p>Let's start with the VR headset, as Pimax isn't playing around when it comes to wireless capabilities on this thing. It's called the Crystal Pro, and it's totally wireless. Included in the box is a Wi-Fi 6E adapter, much like the <a href=\"https://www.pcgamer.com/hardware/vr-hardware/valve-steam-frame-review/\" target=\"_blank\">Steam Frame</a>, which hooks it up to a nearby gaming PC; however, Pimax is going one step further with an optional wireless streaming kit, 60G AirLink, that uses 60 GHz 2x2 MIMO for a higher-bandwidth, more robust connection.</p><p>\"What if you could cut the cable and still send the image with no visual compression. That question is the reason this headset exists,\" Jaap Grolleman says in a <a href=\"https://www.youtube.com/watch?v=lhJ5d1qS5cM\" target=\"_blank\">prerecorded launch video</a>.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" da"
+        }
+      ],
+      "keywords": [
+        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine",
+        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine date de sortie",
+        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine plateformes",
+        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine gameplay",
+        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine guide",
+        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-how-to-complete-boarding-the-frigate-in-arc-raiders-fcace8bd1066",
+      "topic": "How to complete Boarding the Frigate in Arc Raiders",
+      "detected_at": "2026-10-11T09:18:34.821778+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-boarding-the-frigate-walkthrough/",
+          "title": "How to complete Boarding the Frigate in Arc Raiders",
+          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/kCmrGspS.html\" id=\"kCmrGspS\" title=\"Arc Raiders - Boarding Frigate\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen></iframe><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">⚡Climb onto one of the drones the frigate spits out and interact to disrupt it.</p><p class=\"fancy-box__body-text\">⚡Ride it up to the Arc Frigate.</p><p class=\"fancy-box__body-text\">⚡Damage a Rocketeer, Vaporizer, and Hydra turret to complete the quest.</p></div></div><p><a href=\"https://www.pcgamer.com/arc-raiders/\" target=\"_blank\">Arc Raiders</a>' new Boarding the Frigate quest is about finding a way up onto the giant flying Arc fortress during the new Arc Frigate map modifier. Since this is a colossal arc event, you'll want to bring plenty of ammo and healing. A Grappling or Snap Hook will come in handy, too.</p><p>You can get onto the frigate (as shown in the video) by finding one of the circular Arc drones that it spits out when it arrives on the map, climbing or grappling on top of it, and then interacting with it to disrupt the drone. This"
+        }
+      ],
+      "keywords": [
+        "How to complete Boarding the Frigate in Arc Raiders",
+        "How to complete Boarding the Frigate in Arc Raiders date de sortie",
+        "How to complete Boarding the Frigate in Arc Raiders plateformes",
+        "How to complete Boarding the Frigate in Arc Raiders gameplay",
+        "How to complete Boarding the Frigate in Arc Raiders guide",
+        "How to complete Boarding the Frigate in Arc Raiders avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-374320",
+      "topic": "Configuration PC Dark Souls III : minimale, recommandée et conseils",
+      "detected_at": "2026-10-11T09:18:34.140816+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/374320/",
+          "title": "DARK SOULS™ III sur Steam",
+          "evidence": "Données officielles de la fiche Steam de DARK SOULS™ III, consultée le 2026-10-11. Développeur : FromSoftware, Inc.. Éditeur : FromSoftware, Inc., Bandai Namco Entertainment. Date de sortie sur Steam : 11 avr. 2016. Genres : Action. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit ; Processeur : Intel Core i3-2100 / AMD® FX-6300 ; Mémoire vive : 4 GB de mémoire ; Graphiques : NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950 ; DirectX : Version 11 ; Réseau : connexion internet haut débit ; Espace disque : 25 GB d'espace disque disponible ; Carte son : DirectX 11 sound device ; Notes supplémentaires : Internet connection required for online play and product activation. Configuration PC Recommandée : ; Système d'exploitation *: Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit ; Processeur : Intel Core i7-3770 / AMD® FX-8350 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA® GeForce GTX 970 / ATI Radeon R9 series ; DirectX : Version 11 ; Réseau : connexion internet haut débit ; Espace disque : 25 GB d'espace disque disponible ; Carte son : DirectX 11 sound device ; Notes supplémentaires : Internet connection required for online play and product activation.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.1920x1080.jpg?t=1748630784"
+        }
+      ],
+      "keywords": [
+        "configuration pc Dark Souls III",
+        "Dark Souls III PC",
+        "Dark Souls III Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-374320",
+      "topic": "Dark Souls III multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-11T09:18:34.140874+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/374320/",
+          "title": "DARK SOULS™ III sur Steam",
+          "evidence": "Données officielles de la fiche Steam de DARK SOULS™ III, consultée le 2026-10-11. Développeur : FromSoftware, Inc.. Éditeur : FromSoftware, Inc., Bandai Namco Entertainment. Date de sortie sur Steam : 11 avr. 2016. Genres : Action. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Caméra et confort de vue, Contrôle du volume différencié, Jouable sans saisie en temps imparti, Sauvegarde à tout moment, Son stéréo, Son multicanal, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Dark Souls repousse une fois de plus ses limites avec un nouveau chapitre ambitieux de la série légendaire et encensée par la critique. Préparez-vous à embrasser les ténèbres !",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.1920x1080.jpg?t=1748630784"
+        }
+      ],
+      "keywords": [
+        "Dark Souls III multijoueur",
+        "Dark Souls III PC",
+        "Dark Souls III Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-2246340",
+      "topic": "Configuration PC Monster Hunter Wilds : minimale, recommandée et conseils",
+      "detected_at": "2026-10-11T09:18:34.604933+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2246340/",
+          "title": "Monster Hunter Wilds sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Monster Hunter Wilds, consultée le 2026-10-11. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 27 févr. 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows®10 (64 bits requis)/Windows®11 (64 bits requis) ; Processeur : Intel® Core™ i5-10400 or Intel® Core™ i3-12100 or AMD Ryzen™ 5 3600 ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA® GeForce® GTX 1660(VRAM 6GB) or AMD Radeon™ RX 5500 XT(VRAM 8GB) ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 75 GB d'espace disque disponible ; Notes supplémentaires : SSD requis. Performances visées : 1080p (upscalé depuis une résolution native 720p) / 30 fps avec les paramètres graphiques sur \"Très bas\". DirectStorage pris en charge.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows®10 (64 bits requis)/Windows®11 (64 bits requis) ; Processeur : Intel® Core™ i5-10400 or Intel® Core™ i3-12100 or AMD Ryzen™ 5 3600 ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA® GeForce® RTX 2060 Super(VRAM 8GB) or AMD Radeon™ RX 6600(VRAM 8GB) ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 75 GB d'espace disque disponible ; Notes supplémentaires : SSD requis. Performances visées : 1080p/60 fps (avec Frame Generation activé) avec les paramètres graphiques sur \"Moyen\". DirectStorage pris en charge..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.1920x1080.jpg?t=1787549555"
+        }
+      ],
+      "keywords": [
+        "configuration pc Monster Hunter Wilds",
+        "Monster Hunter Wilds PC",
+        "Monster Hunter Wilds Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-2246340",
+      "topic": "Monster Hunter Wilds multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-11T09:18:34.604993+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2246340/",
+          "title": "Monster Hunter Wilds sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Monster Hunter Wilds, consultée le 2026-10-11. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 27 févr. 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Multijoueur multiplateforme, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Taille de texte réglable, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Option clavier uniquement, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge de l'API Steam Input, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Arpentez des environnements qui se transforment radicalement d'un moment à l'autre sous l'effet de la force indomptable d'une nature sans cesse déchaînée. Plongez dans une histoire de monstres et d'humains luttant pour vivre en harmonie dans un monde de dualités.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.1920x1080.jpg?t=1787549555"
+        }
+      ],
+      "keywords": [
+        "Monster Hunter Wilds multijoueur",
+        "Monster Hunter Wilds PC",
+        "Monster Hunter Wilds Steam"
       ],
       "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
       "status": "new"

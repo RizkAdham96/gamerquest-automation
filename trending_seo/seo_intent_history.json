@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-12T09:45:36.090864+00:00",
+  "updated_at": "2026-10-12T22:14:53.565029+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -129,6 +129,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-red-dead-redemption-2-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 714,
       "published_at": "2026-10-12T09:45:36.090864+00:00"
+    },
+    {
+      "intent_key": "red dead redemption 2 multijoueur",
+      "primary_keyword": "Red Dead Redemption 2 multijoueur",
+      "title": "Red Dead Redemption 2 multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/red-dead-redemption-2-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 725,
+      "published_at": "2026-10-12T22:14:53.565029+00:00"
     }
   ]
 }

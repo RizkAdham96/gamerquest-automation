@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-12T09:45:30.636333+00:00",
+  "updated_at": "2026-10-12T22:14:48.050168+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -6204,6 +6204,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Castlevania: Belmont's Curse still isn't getting a native Switch 2 version, but at least it runs at 60fps on the console"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-367520",
+      "topic": "Configuration PC Hollow Knight : minimale, recommandée et conseils",
+      "detected_at": "2026-10-12T22:14:47.285104+00:00",
+      "analysed_at": "2026-10-12T22:14:48.049990+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/367520/",
+          "title": "Hollow Knight sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hollow Knight, consultée le 2026-10-12. Développeur : Team Cherry. Éditeur : Team Cherry. Date de sortie sur Steam : 24 févr. 2017. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 version 21H1 (build 19043) or newer ; Processeur : Intel Core i3-3240, AMD FX-4300 ; Mémoire vive : 4 GB de mémoire ; Graphiques : GeForce GTX 560 Ti (1GB), Radeon HD 7750 (1GB) ; DirectX : Version 10 ; Espace disque : 9 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 version 21H1 (build 19043) or newer ; Processeur : Intel Core i5-3470 ; Mémoire vive : 8 GB de mémoire ; Graphiques : GeForce GTX 1050 (2GB), Radeon R9 380 (2GB) ; DirectX : Version 10 ; Espace disque : 9 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.1920x1080.jpg?t=1776125684"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Hollow Knight",
+        "secondary_keywords": [
+          "Hollow Knight PC",
+          "Hollow Knight Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Hollow Knight : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-367520",
+      "topic": "Hollow Knight multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-12T22:14:47.285155+00:00",
+      "analysed_at": "2026-10-12T22:14:48.050028+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/367520/",
+          "title": "Hollow Knight sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hollow Knight, consultée le 2026-10-12. Développeur : Team Cherry. Éditeur : Team Cherry. Date de sortie sur Steam : 24 févr. 2017. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Steam Cloud, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Choisissez votre destin dans Hollow Knight ! Une aventure épique et pleine d’action, qui vous plongera dans un vaste royaume en ruine peuplé d’insectes et de héros. Dans un monde en 2D classique, dessiné à la main.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.1920x1080.jpg?t=1776125684"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Hollow Knight multijoueur",
+        "secondary_keywords": [
+          "Hollow Knight PC",
+          "Hollow Knight Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Hollow Knight multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1030300",
+      "topic": "Configuration PC Hollow Knight: Silksong : minimale, recommandée et conseils",
+      "detected_at": "2026-10-12T22:14:47.603139+00:00",
+      "analysed_at": "2026-10-12T22:14:48.050052+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1030300/",
+          "title": "Hollow Knight: Silksong sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hollow Knight: Silksong, consultée le 2026-10-12. Développeur : Team Cherry. Éditeur : Team Cherry. Date de sortie sur Steam : 4 sept. 2025. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 version 21H1 (build 19043) or newer ; Processeur : Intel Core i3-3240, AMD FX-4300 ; Mémoire vive : 4 GB de mémoire ; Graphiques : GeForce GTX 560 Ti (1GB), Radeon HD 7750 (1GB) ; DirectX : Version 10 ; Espace disque : 8 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 version 21H1 (build 19043) or newer ; Processeur : Intel Core i5-3470 ; Mémoire vive : 8 GB de mémoire ; Graphiques : GeForce GTX 1050 (2GB), Radeon R9 380 (2GB) ; DirectX : Version 10 ; Espace disque : 8 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/26950369fe4b03c2268620eb9815c8a246aa0b06/ss_26950369fe4b03c2268620eb9815c8a246aa0b06.1920x1080.jpg?t=1776125736"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Hollow Knight: Silksong",
+        "secondary_keywords": [
+          "Hollow Knight: Silksong PC",
+          "Hollow Knight: Silksong Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Hollow Knight: Silksong : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1030300",
+      "topic": "Hollow Knight: Silksong multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-12T22:14:47.603180+00:00",
+      "analysed_at": "2026-10-12T22:14:48.050071+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1030300/",
+          "title": "Hollow Knight: Silksong sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Hollow Knight: Silksong, consultée le 2026-10-12. Développeur : Team Cherry. Éditeur : Team Cherry. Date de sortie sur Steam : 4 sept. 2025. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Caméra et confort de vue, Manette recommandée, Option clavier uniquement, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Son stéréo, Steam Cloud, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Découvrez un vaste royaume maudit dans Hollow Knight: Silksong ! Explorez, combattez et survivez tout en grimpant jusqu'au sommet de terres maudites par la soie et les mélodies.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/26950369fe4b03c2268620eb9815c8a246aa0b06/ss_26950369fe4b03c2268620eb9815c8a246aa0b06.1920x1080.jpg?t=1776125736"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Hollow Knight: Silksong multijoueur",
+        "secondary_keywords": [
+          "Hollow Knight: Silksong PC",
+          "Hollow Knight: Silksong Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Hollow Knight: Silksong multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-added-october-appropriate-zombies-to-grand-theft-auto-c7aee8a016e6",
+      "topic": "I added October-appropriate zombies to Grand Theft Auto 5",
+      "detected_at": "2026-10-03T08:33:26.641174+00:00",
+      "analysed_at": "2026-10-12T22:14:48.050090+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-added-october-appropriate-zombies-to-grand-theft-auto-5/",
+          "title": "I added October-appropriate zombies to Grand Theft Auto 5",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>There is no more room in hell—the dead are at the beach. Grand Theft Auto 5, already burdened and bedraggled by the parade of mods I have inflicted on it, must now contend with a new disorder: revenants from beyond the veil.</p><p>I have installed <a href=\"https://www.gta5-mods.com/scripts/zombieinfection\">ZombieInfection</a>, which adds zombie and, indeed, infection. In any given populated space, you will look about yourself to notice that some of Los Santos' denizens are more bloody and shambling than usual. This is because they have been rejected by the grave.</p><p>W"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I added October-appropriate zombies to Grand Theft Auto 5",
+        "secondary_keywords": [
+          "I added October-appropriate zombies to Grand Theft Auto 5 date de sortie",
+          "I added October-appropriate zombies to Grand Theft Auto 5 plateformes",
+          "I added October-appropriate zombies to Grand Theft Auto 5 gameplay",
+          "I added October-appropriate zombies to Grand Theft Auto 5 guide",
+          "I added October-appropriate zombies to Grand Theft Auto 5 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I added October-appropriate zombies to Grand Theft Auto 5"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-upcoming-sim-about-making-games-is-so-deep-your-in--5ca6ce8dc344",
+      "topic": "The upcoming sim about making games is so deep your in-game game can even get cyberleeked",
+      "detected_at": "2026-10-03T08:33:26.641650+00:00",
+      "analysed_at": "2026-10-12T22:14:48.050111+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/the-upcoming-sim-about-making-games-is-so-deep-your-in-game-game-can-even-get-cyberleeked/",
+          "title": "The upcoming sim about making games is so deep your in-game game can even get cyberleeked",
+          "evidence": "<article> <p>Of all the games on the horizon, the one I may be most looking forward to <a href=\"https://store.steampowered.com/app/2365790/Lets_Build_a_Dungeon/\" target=\"_blank\">Let's Build a Dungeon</a>. It's a sim from Springloaded, makers of Let's Build a Zoo and the upcoming <a href=\"https://store.steampowered.com/app/4734550/RollerCoaster_Tycoon_Wonderworks/\" target=\"_blank\">RollerCoaster Tycoon Wonderworks</a>, and the premise is one we've all mulled at one point or another: what if I could make my own videogame?</p><p>And in Let's Build a Dungeon, you can. Dig dungeons, populate them with monsters and traps and loot, design quests, and watch simulated players play your game. You'll even be able to let <em>real</em> players play the game you make.</p><p>But there's also the simulation surrounding the game you're building. The development studio you've founded. The devs you hire. You'll have to deal with investors, finances, the public, the press (like me!), crunch, gaming conventions, hackers, and even text messages from your mom.</p><iframe src=\"https://content.jwplatform.com/players/11x28pbt.html\" id=\"11x28pbt\" title=\"Let’s Build A Dungeon Trailer – PC Gaming Show: Most Wan"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The upcoming sim about making games is so deep your in-game game can even get cyberleeked",
+        "secondary_keywords": [
+          "The upcoming sim about making games is so deep your in-game game can even get cyberleeked date de sortie",
+          "The upcoming sim about making games is so deep your in-game game can even get cyberleeked plateformes",
+          "The upcoming sim about making games is so deep your in-game game can even get cyberleeked gameplay",
+          "The upcoming sim about making games is so deep your in-game game can even get cyberleeked guide",
+          "The upcoming sim about making games is so deep your in-game game can even get cyberleeked avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The upcoming sim about making games is so deep your in-game game can even get cyberleeked"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gta-6-won-t-be-letting-up-on-the-satire-if-you-are-goin-9ec07d3dc432",
+      "topic": "GTA 6 won't be letting up on the satire: 'If you are going to put all this effort into creating a version of today's world, it has to be more over the top, more insane, more in your face'",
+      "detected_at": "2026-10-04T08:47:10.401816+00:00",
+      "analysed_at": "2026-10-12T22:14:48.050141+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-wont-be-letting-up-on-the-satire-if-you-are-going-to-put-all-this-effort-into-creating-a-version-of-todays-world-it-has-to-be-more-over-the-top-more-insane-more-in-your-face/",
+          "title": "GTA 6 won't be letting up on the satire: 'If you are going to put all this effort into creating a version of today's world, it has to be more over the top, more insane, more in your face'",
+          "evidence": "<article> <p>The promotional blitz for Grand Theft Auto 6 continues rolling out, with the latest example being a cover feature in <a href=\"https://www.instagram.com/lovemagazine/\">Love</a>, a fashion magazine that only publishes two issues a year. I guess you've got to reach the <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-marketing-stunt-reveals-none-of-our-uk-editors-have-heard-of-the-miami-heat/\">people who don't know what the Miami Heat is</a> somehow.</p><p>One of the things the feature focuses on is the satirical side of Grand Theft Auto, mentioning that in GTA 6, alongside radio talk shows and ads, you might overhear a robovoiced phonecall for a political campaign. The world will be full of real-world details, but amplified.</p><p>\"It needs to wash over you when you're sprinting down the busiest street in the city, hearing snatches of a hundred different conversations as you go,\" according to James Horton, whose job title is writing director: open world. \"If you shift your focus onto something new, it's going to fill the frame, and it's going to push back.\"</p><p>\"If you are going to put all this effort into creating a version of today's world, it has to be "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GTA 6 won't be letting up on the satire: 'If you are going to put all this effort into creating a version of today's world, it has to be more over the top, more insane, more in your face'",
+        "secondary_keywords": [
+          "GTA 6 won't be letting up on the satire: 'If you are going to put all this effort into creating a version of today's world, it has to be more over the top, more insane, more in your face' date de sortie",
+          "GTA 6 won't be letting up on the satire: 'If you are going to put all this effort into creating a version of today's world, it has to be more over the top, more insane, more in your face' plateformes",
+          "GTA 6 won't be letting up on the satire: 'If you are going to put all this effort into creating a version of today's world, it has to be more over the top, more insane, more in your face' gameplay",
+          "GTA 6 won't be letting up on the satire: 'If you are going to put all this effort into creating a version of today's world, it has to be more over the top, more insane, more in your face' guide",
+          "GTA 6 won't be letting up on the satire: 'If you are going to put all this effort into creating a version of today's world, it has to be more over the top, more insane, more in your face' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GTA 6 won't be letting up on the satire: 'If you are going to put all this effort into creating a version of today's world, it has to be more over the top, more insane, more in your face'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-one-of-the-most-popular-total-war-warhammer-3-mods-was--b9dc8d9e1a84",
+      "topic": "One of the most popular Total War: Warhammer 3 mods was 'deliberately corrupted' by its creator to sabotage AI-made copies",
+      "detected_at": "2026-10-04T08:47:10.402193+00:00",
+      "analysed_at": "2026-10-12T22:14:48.050164+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/one-of-the-most-popular-total-war-warhammer-3-mods-was-deliberately-corrupted-by-its-creator-to-sabotage-ai-made-copies/",
+          "title": "One of the most popular Total War: Warhammer 3 mods was 'deliberately corrupted' by its creator to sabotage AI-made copies",
+          "evidence": "<article> <p>Total War: Warhammer 3's Lords of the End Times expansion is huge, which is great for us but not so great for all the modders who need to update their work to be compatible with it. <a href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=2792731173\">SFO Grimhammer 3</a>, a popular total overhaul mod, isn't currently compatible with Total War: Warhammer 3 version 9.0, but its creators are working hard to get it there.</p><p>It must be galling then to see someone vibe-coding your mod to be compatible with the update, then reuploading it as their own—just another of the AI-coded submods of your work plastered across the Steam Workshop, usually with some ugly AI-generated artwork as the cherry on top.</p><p>\"Due to the growing number of unauthorized reuploads of SFO: Grimhammer III,\" Venris, the mod's creator, posted on <a href=\"https://www.patreon.com/venris/posts/statement-about-171191682\">Patreon</a>, \"and more importantly, the use of AI in the process, I have deliberately corrupted the mod to prevent it from functioning with such unauthorized uploads. If this situation continues to escalate, I will make SFO: Grimhammer III private.</p><p>\"SFO: Grimhammer is the"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "One of the most popular Total War: Warhammer 3 mods was 'deliberately corrupted' by its creator to sabotage AI-made copies",
+        "secondary_keywords": [
+          "One of the most popular Total War: Warhammer 3 mods was 'deliberately corrupted' by its creator to sabotage AI-made copies date de sortie",
+          "One of the most popular Total War: Warhammer 3 mods was 'deliberately corrupted' by its creator to sabotage AI-made copies plateformes",
+          "One of the most popular Total War: Warhammer 3 mods was 'deliberately corrupted' by its creator to sabotage AI-made copies gameplay",
+          "One of the most popular Total War: Warhammer 3 mods was 'deliberately corrupted' by its creator to sabotage AI-made copies guide",
+          "One of the most popular Total War: Warhammer 3 mods was 'deliberately corrupted' by its creator to sabotage AI-made copies avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "One of the most popular Total War: Warhammer 3 mods was 'deliberately corrupted' by its creator to sabotage AI-made copies"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

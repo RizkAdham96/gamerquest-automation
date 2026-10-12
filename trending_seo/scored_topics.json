@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-11T19:10:31.299245+00:00",
+  "updated_at": "2026-10-12T09:45:30.636333+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -5896,6 +5896,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "MCU X-Men actor says D23 casting reveal was a \"nightmare\" because people \"didn't know who I was\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-2138710",
+      "topic": "Configuration PC Sifu : minimale, recommandée et conseils",
+      "detected_at": "2026-10-12T09:45:29.652236+00:00",
+      "analysed_at": "2026-10-12T09:45:30.636173+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2138710/",
+          "title": "Sifu sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Sifu, consultée le 2026-10-12. Développeur : Sloclap. Éditeur : Sloclap, Kepler Interactive. Date de sortie sur Steam : 28 mars 2023. Genres : Action, Indépendant. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation *: Windows 8.1 ; Processeur : AMD FX-4350 or Intel Core i5-3470 or equivalent ; Mémoire vive : 8 GB de mémoire ; Graphiques : Radeon R7 250 or GeForce GT 640 or equivalent ; DirectX : Version 11 ; Espace disque : 22 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : AMD FX-9590 or Intel Core i7-6700K or equivalent ; Mémoire vive : 10 GB de mémoire ; Graphiques : GeForce GTX 970 or Radeon R9 390X or equivalent ; DirectX : Version 12 ; Espace disque : 22 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/ss_9be1654f96e9fd6517fbe9107d76da245cbfaeb9.1920x1080.jpg?t=1782742326"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Sifu",
+        "secondary_keywords": [
+          "Sifu PC",
+          "Sifu Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Sifu : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-2138710",
+      "topic": "Sifu multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-12T09:45:29.652282+00:00",
+      "analysed_at": "2026-10-12T09:45:30.636209+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 84,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2138710/",
+          "title": "Sifu sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Sifu, consultée le 2026-10-12. Développeur : Sloclap. Éditeur : Sloclap, Kepler Interactive. Date de sortie sur Steam : 28 mars 2023. Genres : Action, Indépendant. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Sifu est un jeu de combat réaliste à la troisième personne, avec des mécaniques pointues de kung-fu et une action digne des films d'arts martiaux qui vous entraîne dans une quête de vengeance.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/ss_9be1654f96e9fd6517fbe9107d76da245cbfaeb9.1920x1080.jpg?t=1782742326"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Sifu multijoueur",
+        "secondary_keywords": [
+          "Sifu PC",
+          "Sifu Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Sifu multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-413150",
+      "topic": "Configuration PC Stardew Valley : minimale, recommandée et conseils",
+      "detected_at": "2026-10-12T09:45:30.006665+00:00",
+      "analysed_at": "2026-10-12T09:45:30.636228+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/413150/",
+          "title": "Stardew Valley sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Stardew Valley, consultée le 2026-10-12. Développeur : ConcernedApe. Éditeur : ConcernedApe. Date de sortie sur Steam : 26 févr. 2016. Genres : Indépendant, RPG, Simulation. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimale : ; Système d'exploitation *: Windows Vista or greater ; Processeur : 2 Ghz ; Mémoire vive : 2 GB de mémoire ; Graphiques : 256 mb video memory, shader model 3.0+ ; DirectX : Version 10 ; Espace disque : 500 MB d'espace disque disponible. La fiche Steam n'indique pas de configuration recommandée.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1786554168"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Stardew Valley",
+        "secondary_keywords": [
+          "Stardew Valley PC",
+          "Stardew Valley Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Stardew Valley : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-413150",
+      "topic": "Stardew Valley multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-12T09:45:30.006711+00:00",
+      "analysed_at": "2026-10-12T09:45:30.636245+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/413150/",
+          "title": "Stardew Valley sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Stardew Valley, consultée le 2026-10-12. Développeur : ConcernedApe. Éditeur : ConcernedApe. Date de sortie sur Steam : 26 févr. 2016. Genres : Indépendant, RPG, Simulation. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Coop en LAN, Coop locale et écran partagé, Écran partagé, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Steam Cloud, Remote Play sur téléphone, Remote Play sur tablette, Remote Play Together, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1786554168"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Stardew Valley multijoueur",
+        "secondary_keywords": [
+          "Stardew Valley PC",
+          "Stardew Valley Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Stardew Valley multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-xbox-ceo-says-working-with-playstation-is-on-the-table--7fc035547780",
+      "topic": "Xbox CEO says working with PlayStation is on the table even after Kojima's Physint swaps publishers",
+      "detected_at": "2026-10-02T09:01:05.938283+00:00",
+      "analysed_at": "2026-10-12T09:45:30.636268+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/xbox-ceo-says-working-with-playstation-is-on-the-table-even-after-hideo-kojimas-metal-gear-successor-physint-swaps-publishers-competition-and-collaboration-can-coexist/",
+          "title": "Xbox CEO says working with PlayStation is on the table even after Kojima's Physint swaps publishers",
+          "evidence": "<article> <p>PlayStation and Xbox are both pulling back from multiplatform releases and <a href=\"https://www.gamesradar.com/games/action/gears-of-war-e-day-and-clockwork-revolution-are-not-timed-exclusives-xbox-says-but-everything-already-announced-for-multiplatform-releases-will-stick-to-that-plan/\">reemphasizing exclusive games</a>. At the same time, Sony recently dropped Hideo Kojima's Metal Gear successor, <a href=\"https://www.gamesradar.com/physint-guide/\">Physint</a>, leaving <a href=\"https://www.gamesradar.com/games/action/physint-goes-from-playstation-to-xbox-as-sony-unexpectedly-drops-hideo-kojimas-metal-gear-solid-spiritual-successor/\">Microsoft to pick up the project</a>. The console warriors might be drawing battle lines, but Xbox CEO Asha Sharma says the publisher's collaborations with PlayStation will continue.</p><p>Xbox still has several ongoing projects with PlayStation. <a href=\"https://www.gamesradar.com/forza-horizon-6-guide/\">Forza Horizon 6</a> and <a href=\"https://www.gamesradar.com/fable-4-release-date-news-rumours/\">Fable</a> are both set to come to PS5, and franchises like Call of Duty and Minecraft remain multiplatform affairs. As Sharma tells the <a href"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Xbox CEO says working with PlayStation is on the table even after Kojima's Physint swaps publishers",
+        "secondary_keywords": [
+          "Xbox CEO says working with PlayStation is on the table even after Kojima's Physint swaps publishers date de sortie",
+          "Xbox CEO says working with PlayStation is on the table even after Kojima's Physint swaps publishers plateformes",
+          "Xbox CEO says working with PlayStation is on the table even after Kojima's Physint swaps publishers gameplay",
+          "Xbox CEO says working with PlayStation is on the table even after Kojima's Physint swaps publishers guide",
+          "Xbox CEO says working with PlayStation is on the table even after Kojima's Physint swaps publishers avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Xbox CEO says working with PlayStation is on the table even after Kojima's Physint swaps publishers"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-elder-scrolls-online-to-undergo-renaissance-as-devs-bc8ecb077e74",
+      "topic": "The Elder Scrolls Online to undergo \"renaissance\" as devs change what's \"been going for 12 years\"",
+      "detected_at": "2026-10-02T09:01:05.938544+00:00",
+      "analysed_at": "2026-10-12T09:45:30.636289+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-elder-scrolls/the-elder-scrolls-online-is-undergoing-a-renaissance-as-the-mmos-devs-say-they-saw-whats-been-going-for-12-years-and-decided-to-make-some-changes/",
+          "title": "The Elder Scrolls Online to undergo \"renaissance\" as devs change what's \"been going for 12 years\"",
+          "evidence": "<article> <p>The Elder Scrolls Online is changing as ZeniMax Online Studios moves the MMO further away from its old annual DLC formula toward new content drops that incorporate a greater variety of playstyles – a \"renaissance\" of sorts, if you will.</p><p>It's no secret that The Elder Scrolls Online has suffered a difficult year following <a href=\"https://www.gamesradar.com/games/microsoft-is-cutting-3-200-xbox-employees-and-half-of-them-will-be-eliminated-today-in-the-most-significant-restructure-in-xbox-history/\">Microsoft's plan to cut over 3,200 employees at Xbox</a>, with Bethesda's <a href=\"https://www.gamesradar.com/games/the-elder-scrolls/fallout-and-elder-scrolls-union-says-bethesda-layoffs-didnt-hurt-microsofts-14-layers-of-management-we-lost-dozens-of-programmers-artists-designers-and-testers/\">union representatives</a> reporting a loss of \"dozens of programmers, artists, designers and testers.\" <br><br>Its remaining developers are pushing on with work on the MMO, however, with game director Nick Giacomini having said that it's <a href=\"https://www.gamesradar.com/games/the-elder-scrolls/after-12-years-and-heavy-layoffs-new-elder-scrolls-online-lead-says-the-mmo-is-here-t"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Elder Scrolls Online to undergo \"renaissance\" as devs change what's \"been going for 12 years\"",
+        "secondary_keywords": [
+          "The Elder Scrolls Online to undergo \"renaissance\" as devs change what's \"been going for 12 years\" date de sortie",
+          "The Elder Scrolls Online to undergo \"renaissance\" as devs change what's \"been going for 12 years\" plateformes",
+          "The Elder Scrolls Online to undergo \"renaissance\" as devs change what's \"been going for 12 years\" gameplay",
+          "The Elder Scrolls Online to undergo \"renaissance\" as devs change what's \"been going for 12 years\" guide",
+          "The Elder Scrolls Online to undergo \"renaissance\" as devs change what's \"been going for 12 years\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Elder Scrolls Online to undergo \"renaissance\" as devs change what's \"been going for 12 years\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-a-broken-diablo-4-charm-is-dominating-season-15-but-the-993c950c8482",
+      "topic": "A broken Diablo 4 charm is dominating Season 15, but the devs have \"decided not to make changes\"",
+      "detected_at": "2026-10-02T09:01:05.938750+00:00",
+      "analysed_at": "2026-10-12T09:45:30.636310+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/a-broken-diablo-4-charm-is-dominating-season-15-but-blizzard-has-decided-not-to-make-changes-to-it-for-now/",
+          "title": "A broken Diablo 4 charm is dominating Season 15, but the devs have \"decided not to make changes\"",
+          "evidence": "<article> <p>It's a day ending in 'Y', thus <a href=\"https://www.gamesradar.com/uk/tag/blizzard-entertainment/\">Blizzard</a> is having to navigate some balancing problems in <a href=\"https://www.gamesradar.com/uk/diablo-4/\">Diablo 4</a>. In this instance, though, the devs have made the rare choice of just embracing what's going on, maintaining an unintended change from the Hellfire Torch in Season 15.</p><p>The Hellfire Torch is a new Unique Charm that came with the current season. Between serving as a Set Charm and a number of powerful bonuses, it's a particularly worthwhile bit of equipment that was even better than Blizzard bargained for.</p><p>In execution, players found they could get the bonuses of having three Unique Charms and a complete five-set of them at once through the Sea of the Golden Epiphany and the Seal of the Diamond Mind. This has rippled through the community pretty heavily, leading it to be a <a href=\"https://www.youtube.com/watch?v=JV4c99LEuCw\" target=\"_blank\">dominant force in the action-RPG's landscape</a>. As such, players have been quick to feed this back to Blizzard, who're just rolling with it for now.</p><div class=\"youtube-video\" data-nosnippet ><div "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "A broken Diablo 4 charm is dominating Season 15, but the devs have \"decided not to make changes\"",
+        "secondary_keywords": [
+          "A broken Diablo 4 charm is dominating Season 15, but the devs have \"decided not to make changes\" date de sortie",
+          "A broken Diablo 4 charm is dominating Season 15, but the devs have \"decided not to make changes\" plateformes",
+          "A broken Diablo 4 charm is dominating Season 15, but the devs have \"decided not to make changes\" gameplay",
+          "A broken Diablo 4 charm is dominating Season 15, but the devs have \"decided not to make changes\" guide",
+          "A broken Diablo 4 charm is dominating Season 15, but the devs have \"decided not to make changes\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "A broken Diablo 4 charm is dominating Season 15, but the devs have \"decided not to make changes\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-castlevania-belmont-s-curse-still-isn-t-getting-a-nativ-cc58410c07db",
+      "topic": "Castlevania: Belmont's Curse still isn't getting a native Switch 2 version, but at least it runs at 60fps on the console",
+      "detected_at": "2026-10-02T09:01:05.938934+00:00",
+      "analysed_at": "2026-10-12T09:45:30.636329+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/castlevania-belmonts-curse-still-isnt-getting-a-native-switch-2-version-but-at-least-it-runs-at-60fps-on-the-console/",
+          "title": "Castlevania: Belmont's Curse still isn't getting a native Switch 2 version, but at least it runs at 60fps on the console",
+          "evidence": "<article> <p>After months of fans begging for a native Switch 2 version, Castlevania: Belmont's Curse has been confirmed to be running at 60fps on the console. </p><p>I don't know how everyone else feels about it, but Metroidvanias are a handheld game for me. While some of the best Metroidvania games have been exclusive to consoles, there's something about exploration on that scale that feels perfect for playing on a handheld. </p><p>So it was especially disappointing to hear that Castlevania: Belmont's Curse wouldn't be arriving on Switch 2, as the choice would be picking a hindered 30fps version on the original Switch or playing on a TV (or a Steam Deck, I guess, but still). The lack of a Switch 2 version has<a href=\"https://www.reddit.com/r/castlevania/comments/1wbqxum/nintendo_castlevania_fans_still_no_switch_2/\" target=\"_blank\"><u> been a hot topic</u></a> in the community since its announcement, but it looks like we might not need one.</p><p>As spotted by <a href=\"https://nintendoeverything.com/castlevania-belmonts-curse-supports-60-fps-on-nintendo-switch-2/\" target=\"_blank\"><u>Nintendo Everything</u></a>, despite Konami not saying so before, the Castlevania: <a href=\"https:/"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Castlevania: Belmont's Curse still isn't getting a native Switch 2 version, but at least it runs at 60fps on the console",
+        "secondary_keywords": [
+          "Castlevania: Belmont's Curse still isn't getting a native Switch 2 version, but at least it runs at 60fps on the console date de sortie",
+          "Castlevania: Belmont's Curse still isn't getting a native Switch 2 version, but at least it runs at 60fps on the console plateformes",
+          "Castlevania: Belmont's Curse still isn't getting a native Switch 2 version, but at least it runs at 60fps on the console gameplay",
+          "Castlevania: Belmont's Curse still isn't getting a native Switch 2 version, but at least it runs at 60fps on the console guide",
+          "Castlevania: Belmont's Curse still isn't getting a native Switch 2 version, but at least it runs at 60fps on the console avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Castlevania: Belmont's Curse still isn't getting a native Switch 2 version, but at least it runs at 60fps on the console"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

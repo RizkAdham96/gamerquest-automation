@@ -436,5 +436,24 @@
       "published_at_utc": "2026-10-11T20:29:23.369936Z",
       "carousel_version": "1b7fd0f59f89da44a735e3115c00c3dbc79739b0b9905c7d33f388cf0d3754af"
     }
+  },
+  "ff0444c6b0e306af54d8babca98ba3de4f924f964d4e649a0efdcca8332eff7e": {
+    "instagram": {
+      "published": true,
+      "post_id": "17893572987438162",
+      "updated_at_utc": "2026-10-12T19:58:04.719243Z",
+      "published_at_utc": "2026-10-12T19:58:04.719243Z",
+      "carousel_version": "d4364a2d2b9c52382a2a59ba1f2b14f79b040c97bd9cb1225089e1bb3404fe37",
+      "permalink": "https://www.instagram.com/p/DeaCbIwGCug/",
+      "child_count": 3,
+      "verified_at_utc": "2026-10-12T19:58:19.843669+00:00"
+    },
+    "facebook": {
+      "published": true,
+      "post_id": "1303389956186440_122122205037446919",
+      "updated_at_utc": "2026-10-12T19:58:19.155804Z",
+      "published_at_utc": "2026-10-12T19:58:19.155804Z",
+      "carousel_version": "d4364a2d2b9c52382a2a59ba1f2b14f79b040c97bd9cb1225089e1bb3404fe37"
+    }
   }
 }

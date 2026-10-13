@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-12T22:14:48.050168+00:00",
+  "updated_at": "2026-10-13T09:44:42.796318+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -6512,6 +6512,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "One of the most popular Total War: Warhammer 3 mods was 'deliberately corrupted' by its creator to sabotage AI-made copies"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-976730",
+      "topic": "Configuration PC Halo: The Master Chief Collection : minimale, recommandée et conseils",
+      "detected_at": "2026-10-13T09:44:41.521095+00:00",
+      "analysed_at": "2026-10-13T09:44:42.796058+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/976730/",
+          "title": "Halo: The Master Chief Collection sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Halo: The Master Chief Collection, consultée le 2026-10-13. Développeur : 343 Industries, Splash Damage, Ruffian Games, Bungie, Saber Interactive. Éditeur : Xbox Game Studios. Date de sortie sur Steam : 3 déc. 2019. Genres : Action. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation *: Windows 7 ; Processeur : AMD Phenom II X4 960T ; Intel i3550 ; Graphiques : AMD HD 6850 ; NVIDIA GeForce GTS 450 ; DirectX : Version 11 ; Réseau : connexion internet haut débit ; Espace disque : 43 GB d'espace disque disponible ; Notes supplémentaires : Direct3D feature Level 11.1. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/ss_ce40a85f9f7f3fa0f620a87f8919f3212ab8e46e.1920x1080.jpg?t=1791569963"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Halo: The Master Chief Collection",
+        "secondary_keywords": [
+          "Halo: The Master Chief Collection PC",
+          "Halo: The Master Chief Collection Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Halo: The Master Chief Collection : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-976730",
+      "topic": "Halo: The Master Chief Collection multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-13T09:44:41.521178+00:00",
+      "analysed_at": "2026-10-13T09:44:42.796110+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/976730/",
+          "title": "Halo: The Master Chief Collection sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Halo: The Master Chief Collection, consultée le 2026-10-13. Développeur : 343 Industries, Splash Damage, Ruffian Games, Bungie, Saber Interactive. Éditeur : Xbox Game Studios. Date de sortie sur Steam : 3 déc. 2019. Genres : Action. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, PvP, JcJ en ligne, JcJ en LAN, Coopération, Coopération en ligne, Coop en LAN, Multijoueur multiplateforme, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Workshop Steam, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Le parcours emblématique du Major comprend six jeux, conçus pour PC et regroupés au sein d'une seule et même interface globale. Que vous soyez fan de la première heure ou que vous découvriez le Spartan 117 pour la première fois, La collection le Major constitue l'expérience Halo ultime.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/ss_ce40a85f9f7f3fa0f620a87f8919f3212ab8e46e.1920x1080.jpg?t=1791569963"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Halo: The Master Chief Collection multijoueur",
+        "secondary_keywords": [
+          "Halo: The Master Chief Collection PC",
+          "Halo: The Master Chief Collection Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Halo: The Master Chief Collection multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1593500",
+      "topic": "Configuration PC God of War : minimale, recommandée et conseils",
+      "detected_at": "2026-10-13T09:44:41.796480+00:00",
+      "analysed_at": "2026-10-13T09:44:42.796158+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1593500/",
+          "title": "God of War sur Steam",
+          "evidence": "Données officielles de la fiche Steam de God of War, consultée le 2026-10-13. Développeur : Santa Monica Studio, Jetpack Interactive. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 14 janv. 2022. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel i5-2500k (4 core 3.3 GHz) or AMD Ryzen 3 1200 (4 core 3.1 GHz) ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GTX 960 (4 GB) or AMD R9 290X (4 GB) ; DirectX : Version 11 ; Espace disque : 70 GB d'espace disque disponible ; Notes supplémentaires : DirectX feature level 11_1 required. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel i5-6600k (4 core 3.5 GHz) or AMD Ryzen 5 2400 G (4 core 3.6 GHz) ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GTX 1060 (6 GB) or AMD RX 570 (4 GB) ; DirectX : Version 11 ; Espace disque : 70 GB d'espace disque disponible ; Notes supplémentaires : DirectX feature level 11_1 required.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/ss_6eccc970b5de2943546d93d319be1b5c0618f21b.1920x1080.jpg?t=1763059412"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc God of War",
+        "secondary_keywords": [
+          "God of War PC",
+          "God of War Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC God of War : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1593500",
+      "topic": "God of War multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-13T09:44:41.796544+00:00",
+      "analysed_at": "2026-10-13T09:44:42.796182+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1593500/",
+          "title": "God of War sur Steam",
+          "evidence": "Données officielles de la fiche Steam de God of War, consultée le 2026-10-13. Développeur : Santa Monica Studio, Jetpack Interactive. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 14 janv. 2022. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Taille de texte réglable, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Option clavier uniquement, Menus de jeu narrés, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Sa vengeance contre les dieux de l'Olympe étant bien derrière lui, Kratos vit désormais comme un simple habitant du royaume des dieux (et des monstres) nordiques. C'est dans ce monde inhospitalier et cruel qu'il doit combattre pour sa survie... et apprendre à son fils à en faire de même.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/ss_6eccc970b5de2943546d93d319be1b5c0618f21b.1920x1080.jpg?t=1763059412"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "God of War multijoueur",
+        "secondary_keywords": [
+          "God of War PC",
+          "God of War Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "God of War multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-garry-newman-responds-to-s-box-criticism-in-lengthy-you-57a3142b052c",
+      "topic": "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn'",
+      "detected_at": "2026-10-05T09:36:26.354715+00:00",
+      "analysed_at": "2026-10-13T09:44:42.796220+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/garry-newman-responds-to-s-and-box-criticism-in-lengthy-youtube-comment-i-dont-like-giving-up-on-things-i-am-stubborn/",
+          "title": "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn'",
+          "evidence": "<article> <p>Facepunch founder Garry Newman (Garry's Mod, Rust, s&box) gave an emphatic, extensive mea culpa to the s&box community in a <a href=\"https://youtube.com/watch?v=uN-icULJRDs&lc=UgwbT9wa31ElwqXesCN4AaABAg&si=FdImlglJgjaehxyr\">YouTube comment</a>. Newman was responding to the latest video from <a href=\"https://www.youtube.com/@Eridiium\">Eridium</a>, \"S&box's Free To Play Weekend Isn't Enough,\" a highly critical state-of-the-game from the s&box-focused creator. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/uN-icULJRDs\" allowfullscreen></iframe></div></div><p>Facepunch's recently-released user generated content (UGC) platform has been billed as a Garry's Mod successor in the age of Roblox, but has struggled in its first five months on the market. Eridium's biggest critiques, as I understand them:</p><ul><li><strong>The player character models</strong>, aka \"the citizen,\" even with their <a href=\"https://www.pcgamer.com/software/garry-newman-adds-necks-to-his-neckless-characters-because-the-lack-of-necks-comes-up-consistently-in-our-many-many-many-negative-r"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn'",
+        "secondary_keywords": [
+          "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn' date de sortie",
+          "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn' plateformes",
+          "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn' gameplay",
+          "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn' guide",
+          "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Garry Newman responds to s&box criticism in lengthy YouTube comment: 'I don't like giving up on things, I am stubborn'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-kingdom-come-deliverance-studio-co-founder-says-a-lot-o-397f7aa74105",
+      "topic": "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one'",
+      "detected_at": "2026-10-05T09:36:26.354994+00:00",
+      "analysed_at": "2026-10-13T09:44:42.796261+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/kingdom-come-deliverance-studio-co-founder-says-a-lot-of-rpgs-are-still-games-for-teenagers-and-that-hes-tired-of-all-the-rpgs-where-you-are-this-chosen-one/",
+          "title": "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one'",
+          "evidence": "<article> <p>In a recent interview with PC Gamer's Joshua Wolens, Warhorse Studios co-founder Martin Klima traced the inspirations for Kingdom Come: Deliverance back to boredom with the typical RPG—kill the dark lord, romance a companion or two, and so on. Klima added that this formula is still a mite too widespread even now for his tastes, and wondered if gamers haven't outgrown it by now.</p><p>\"I play a lot of RPGs, it's a genre I really like,\" he said. \"I was really and I still am bored and tired of all the RPGs when you are this chosen one, when you have this grand task of saving the universe .. The games that are these really straightforward power fantasies. It's not that I think it's somehow wrong in principle. There is nothing bad about a good power fantasy. It's just, it's so repetitive.\"</p><p>He likened the typical fantasy roleplaying game to the old idler <a href=\"https://progressquest.com/\" target=\"_blank\">Progress Quest</a>, a satire which lampooned EverQuest and its ilk for being time vampire-Skinner boxes. \"It's really a distillation of what the common RPG is. So I found that there must be many, many people who are really tired of this formula and who want something"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one'",
+        "secondary_keywords": [
+          "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one' date de sortie",
+          "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one' plateformes",
+          "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one' gameplay",
+          "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one' guide",
+          "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Kingdom Come: Deliverance studio co-founder says a lot of RPGs are 'still games for teenagers,' and that he's 'tired of all the RPGs where you are this chosen one'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-brigador-devs-the-90s-pc-classics-often-taught-really-s-06179f037c23",
+      "topic": "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!'",
+      "detected_at": "2026-10-05T09:36:26.355182+00:00",
+      "analysed_at": "2026-10-13T09:44:42.796289+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/brigador-devs-the-90s-pc-classics-often-taught-really-special-things-but-not-because-the-story-said-wow-violence-is-bad/",
+          "title": "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!'",
+          "evidence": "<article> <p>Brigador was a great sleeper hit of mech and simmy gaming, and studio Stellar Jockeys recently released its ambitious follow-up, <a href=\"https://store.steampowered.com/app/903930/Brigador_Killers/\" target=\"_blank\">Brigador Killers</a>, into early access. I spoke to lead developers, brother duo Hugh and Jack Monahan, over the summer. They told me about the <a href=\"https://www.pcgamer.com/games/action/why-do-mech-games-rarely-let-you-leave-the-cockpit-brigador-killers-devs-joke-that-the-feature-added-five-years-of-development-time/\" target=\"_blank\">challenges of adding on-foot gameplay</a>, the importance of <a href=\"https://www.pcgamer.com/games/third-person-shooter/brigador-devs-think-its-crucial-that-their-abrasive-hardcore-mech-sims-arent-for-everyone-i-think-we-make-boy-slop-but-thats-okay/\" target=\"_blank\">not trying to please everyone</a>, as well as why they emulate the \"show, don't tell\" morality and storytelling of '90s PC classics.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-ON92mW\"></div> </div> <script src=\"https://kwizly.com/embed/ON92mW.js\" async></script><div class=\"product\"><a data-dimension112=\"eacfbd6e-c01f-11f1-8d25-738b4487b2"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!'",
+        "secondary_keywords": [
+          "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!' date de sortie",
+          "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!' plateformes",
+          "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!' gameplay",
+          "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!' guide",
+          "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Brigador devs: 'The '90s PC classics often taught really special things, but not because the story said, Wow, violence is bad!'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-what-does-your-dream-videogame-concert-look-like-a97eae48e906",
+      "topic": "What does your dream videogame concert look like?",
+      "detected_at": "2026-10-05T09:36:26.355358+00:00",
+      "analysed_at": "2026-10-13T09:44:42.796312+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/what-does-your-dream-videogame-concert-look-like/",
+          "title": "What does your dream videogame concert look like?",
+          "evidence": "<article> <p>It feels like the last few years have seen a <em>huge </em>upsurge in videogame concerts, at least over here on British soil anyway. Undertale, The Legend of Zelda, Stardew Valley, The Witcher 3, Sonic, Metaphor: ReFantazio, Final Fantasy. The list goes on and on!</p><p>It's been a heartwarming sight—despite my saltiness at half of them happening in London, a city that is both too far away for a casual evening and also far too London for me to willingly set foot in it more than twice a year—but I still yearn to see more of my favourite songs in a live setting.</p><p>So it got me thinking, what <em>would </em>my ultimate videogame concert actually look like? Well, I'd probably be chucking in a whole lot of Square Enix nonsense a la Distant Worlds—give me Final Fantasy 10, FF12, FF14, and a little bit of FF13 on the side—but I would also <em>kill </em>to hear some Kingdom Hearts stuff with a live orchestra. </p><p>Then I'd probably take a pivot away from JRPGs entirely to hear some songs from my childhood. I continue to be utterly obsessed with the soundtrack from Rare's Kameo: Elements of Power 20 years after I first played it, and it's the kind of music that absolutely"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "What does your dream videogame concert look like?",
+        "secondary_keywords": [
+          "What does your dream videogame concert look like? date de sortie",
+          "What does your dream videogame concert look like? plateformes",
+          "What does your dream videogame concert look like? gameplay",
+          "What does your dream videogame concert look like? guide",
+          "What does your dream videogame concert look like? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "What does your dream videogame concert look like?"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

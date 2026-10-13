@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-13T09:44:42.796318+00:00",
+  "updated_at": "2026-10-13T20:22:00.442408+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -6820,6 +6820,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "What does your dream videogame concert look like?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-2322010",
+      "topic": "Configuration PC God of War Ragnarök : minimale, recommandée et conseils",
+      "detected_at": "2026-10-13T20:21:59.358569+00:00",
+      "analysed_at": "2026-10-13T20:22:00.442152+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2322010/",
+          "title": "God of War Ragnarök sur Steam",
+          "evidence": "Données officielles de la fiche Steam de God of War Ragnarök, consultée le 2026-10-13. Développeur : Santa Monica Studio, Jetpack Interactive. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 19 sept. 2024. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 20H1 ; Processeur : Intel i5-4670k or AMD Ryzen 3 1200 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GTX 1060 (6GB) or AMD RX 5500 XT (8GB) or Intel Arc A750 ; DirectX : Version 12 ; Espace disque : 190 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 20H1 ; Processeur : Intel i5-8600 or AMD Ryzen 5 3600 ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA RTX 2060 Super or AMD RX 5700 or Intel Arc A770 ; DirectX : Version 12 ; Espace disque : 190 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/ss_7c59382e67eadf779e0e15c3837ee91158237f11.1920x1080.jpg?t=1776465233"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc God of War Ragnarök",
+        "secondary_keywords": [
+          "God of War Ragnarök PC",
+          "God of War Ragnarök Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC God of War Ragnarök : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-2322010",
+      "topic": "God of War Ragnarök multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-13T20:21:59.358628+00:00",
+      "analysed_at": "2026-10-13T20:22:00.442204+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2322010/",
+          "title": "God of War Ragnarök sur Steam",
+          "evidence": "Données officielles de la fiche Steam de God of War Ragnarök, consultée le 2026-10-13. Développeur : Santa Monica Studio, Jetpack Interactive. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 19 sept. 2024. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Taille de texte réglable, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Menus de jeu narrés, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Prise en charge de l'API Steam Input, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Kratos et Atreus partent en quête de réponses avant l'arrivée du Ragnarök, désormais sur PC.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/ss_7c59382e67eadf779e0e15c3837ee91158237f11.1920x1080.jpg?t=1776465233"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "God of War Ragnarök multijoueur",
+        "secondary_keywords": [
+          "God of War Ragnarök PC",
+          "God of War Ragnarök Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "God of War Ragnarök multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1817070",
+      "topic": "Configuration PC Marvel's Spider-Man Remastered : minimale, recommandée et conseils",
+      "detected_at": "2026-10-13T20:21:59.668772+00:00",
+      "analysed_at": "2026-10-13T20:22:00.442232+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1817070/",
+          "title": "Marvel’s Spider-Man Remastered sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Marvel’s Spider-Man Remastered, consultée le 2026-10-13. Développeur : Insomniac Games, Nixxes Software. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 12 aout 2022. Genres : Action, Aventure, Occasionnel. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 64-bit ; Processeur : Intel Core i3-4160, 3.6 GHz or AMD equivalent ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GTX 950 or AMD Radeon RX 470 ; DirectX : Version 12 ; Espace disque : 75 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 64-bit ; Processeur : Intel Core i5-4670, 3.4 Ghz or AMD Ryzen5 1600, 3.2 Ghz ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GTX 1060 6GB or AMD Radeon RX 580 8GB ; DirectX : Version 12 ; Espace disque : 75 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/ss_dfe778bf6d66e952e4acd4e1f926f7615b609ddf.1920x1080.jpg?t=1787838689"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Marvel's Spider-Man Remastered",
+        "secondary_keywords": [
+          "Marvel's Spider-Man Remastered PC",
+          "Marvel's Spider-Man Remastered Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Marvel's Spider-Man Remastered : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1817070",
+      "topic": "Marvel's Spider-Man Remastered multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-13T20:21:59.668839+00:00",
+      "analysed_at": "2026-10-13T20:22:00.442286+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1817070/",
+          "title": "Marvel’s Spider-Man Remastered sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Marvel’s Spider-Man Remastered, consultée le 2026-10-13. Développeur : Insomniac Games, Nixxes Software. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 12 aout 2022. Genres : Action, Aventure, Occasionnel. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Taille de texte réglable, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Prise en charge de l'API Steam Input, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Dans Marvel’s Spider-Man Remastered, les mondes de Peter Parker et de Spider-Man entrent en collision dans une histoire originale et riche en action. Incarnez un Peter Parker aguerri combattant le crime contre des ennemis emblématiques dans le New York de Marvel.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/ss_dfe778bf6d66e952e4acd4e1f926f7615b609ddf.1920x1080.jpg?t=1787838689"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Marvel's Spider-Man Remastered multijoueur",
+        "secondary_keywords": [
+          "Marvel's Spider-Man Remastered PC",
+          "Marvel's Spider-Man Remastered Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Marvel's Spider-Man Remastered multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-developer-gets-a-little-too-silly-recommends-deadly-psy-ccdee6817061",
+      "topic": "Developer gets a little too silly, recommends deadly psychoactive ingredient in its bad boy-themed cocktail",
+      "detected_at": "2026-10-06T09:06:49.929629+00:00",
+      "analysed_at": "2026-10-13T20:22:00.442320+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/adventure/developer-gets-a-little-too-silly-recommends-deadly-psychoactive-ingredient-in-its-bad-boy-themed-cocktail/",
+          "title": "Developer gets a little too silly, recommends deadly psychoactive ingredient in its bad boy-themed cocktail",
+          "evidence": "<article> <p>Fun, thematic videogame recipes are not new. Suggesting dangerous and potentially lethal ingredients, however? Well, Love and Deepspace might just be the first game to make such a bold move.</p><p>Yes, Infold's hunky dating gacha recently posted to X with a handful of fun cocktails themed around the male suitors you can romance. Something worth noting here is that each one has a signature flower associated with them—childhood friend Caleb is the crabapple blossom, Xavier has the forget-me-not, and doctor Zayne is the jasmine. These are not the flowers that are the issue.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2104783385151656092\"><p lang=\"en\" dir=\"ltr\">Shake, swirl... and take a sip! One taste of this Special Blend🍸️ and you won't forget it.Exotic Fruits picked together are blended into a taste of happiness.A little of this, a little of that, and one last must-have ingredient...?🍸️What secret ingredient would you add to this Special Blend made just for him?🎁Feel free to post with the hashtag #SleeplessBanquet or share in the comments. You can share te"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Developer gets a little too silly, recommends deadly psychoactive ingredient in its bad boy-themed cocktail",
+        "secondary_keywords": [
+          "Developer gets a little too silly, recommends deadly psychoactive ingredient in its bad boy-themed cocktail date de sortie",
+          "Developer gets a little too silly, recommends deadly psychoactive ingredient in its bad boy-themed cocktail plateformes",
+          "Developer gets a little too silly, recommends deadly psychoactive ingredient in its bad boy-themed cocktail gameplay",
+          "Developer gets a little too silly, recommends deadly psychoactive ingredient in its bad boy-themed cocktail guide",
+          "Developer gets a little too silly, recommends deadly psychoactive ingredient in its bad boy-themed cocktail avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Developer gets a little too silly, recommends deadly psychoactive ingredient in its bad boy-themed cocktail"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-runescape-dev-apologises-after-runefest-debut-of-an-ai--b7de0f3ac1cf",
+      "topic": "RuneScape dev apologises after RuneFest debut of an AI-generated six-fingered character: 'That's pretty hard to explain away'",
+      "detected_at": "2026-10-06T09:06:49.929778+00:00",
+      "analysed_at": "2026-10-13T20:22:00.442349+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mmo/runescape-dev-apologises-after-runefest-debut-of-an-ai-generated-six-fingered-character-thats-pretty-hard-to-explain-away/",
+          "title": "RuneScape dev apologises after RuneFest debut of an AI-generated six-fingered character: 'That's pretty hard to explain away'",
+          "evidence": "<article> <p>RuneScape developer Jagex descended upon Birmingham (the British one, not the Alabama one) over the weekend with its annual RuneFest. As part of its RuneScape keynote, it showed off a trailer for its upcoming Dragon Slayer 2 quest which, er, featured a player character with six fingers and a bizarre sneaker-like sole on their very <em>not-</em>sneaker armoured shoes.</p><p>It didn't take long for posts on social media to point out what was undeniably generative AI, and an incident which, unfortunately for Jagex, came very swiftly after <em>another </em>genAI controversy surrounding <a href=\"https://x.com/100Thieves/status/2105359045574131722?s=20\" target=\"_blank\">its clothing collaboration with 100 Thieves</a> just days before. </p><p>Despite the trailer being for RS3, Old School RuneScape's Alec 'Mod Sween' Sween took the lead on<a href=\"https://www.reddit.com/r/2007scape/comments/1wxfyzp/runescapes_position_on_gen_ai/\" target=\"_blank\"> releasing a statement</a> on the 2007scape subreddit addressing the situation. \"We're aware of the concerns raised about the Dragon Slayer 2 trailer and have taken it down, while we investigate this urgently,\" he wrote. \"This trailer w"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "RuneScape dev apologises after RuneFest debut of an AI-generated six-fingered character: 'That's pretty hard to explain away'",
+        "secondary_keywords": [
+          "RuneScape dev apologises after RuneFest debut of an AI-generated six-fingered character: 'That's pretty hard to explain away' date de sortie",
+          "RuneScape dev apologises after RuneFest debut of an AI-generated six-fingered character: 'That's pretty hard to explain away' plateformes",
+          "RuneScape dev apologises after RuneFest debut of an AI-generated six-fingered character: 'That's pretty hard to explain away' gameplay",
+          "RuneScape dev apologises after RuneFest debut of an AI-generated six-fingered character: 'That's pretty hard to explain away' guide",
+          "RuneScape dev apologises after RuneFest debut of an AI-generated six-fingered character: 'That's pretty hard to explain away' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "RuneScape dev apologises after RuneFest debut of an AI-generated six-fingered character: 'That's pretty hard to explain away'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-arc-raiders-is-looking-for-more-ways-to-integrate-real--c039ad0f48ba",
+      "topic": "Arc Raiders is looking for 'more ways to integrate real human performances' starting with Celeste's visual overhaul for Frozen Trail",
+      "detected_at": "2026-10-06T09:06:49.929980+00:00",
+      "analysed_at": "2026-10-13T20:22:00.442376+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-is-looking-for-more-ways-to-integrate-real-human-performances-starting-with-celestes-visual-overhaul-for-frozen-trail/",
+          "title": "Arc Raiders is looking for 'more ways to integrate real human performances' starting with Celeste's visual overhaul for Frozen Trail",
+          "evidence": "<article> <p>Embark is doing some monumental spring cleaning in the lead up to its major <a href=\"https://www.pcgamer.com/uk/arc-raiders/\">Arc Raiders</a>' update <a href=\"https://www.pcgamer.com/uk/arc-raiders/\">Frozen Trail</a>. There's been an overhaul to its <a href=\"https://www.pcgamer.com/games/third-person-shooter/arc-raiders-is-taking-no-prisoners-when-it-comes-to-cheaters-with-permanent-bans-becoming-the-new-normal-no-warnings-no-second-chances/\">anticheat approach</a>, the news of a <a href=\"https://www.pcgamer.com/games/third-person-shooter/arc-raiders-is-finally-testing-a-pve-only-mode-we-cant-ignore-what-the-data-is-telling-us/\">potential PvE test</a>, and a change to <a href=\"https://www.pcgamer.com/games/third-person-shooter/arc-raiders-is-messing-with-your-loot-hotspots-to-make-games-more-exciting/\">loot hotspots</a>. But amid all of this, we're also getting a rework to one of Speranza's most important residents: Celeste. </p><p>Diana Gardner has been the voice of Celeste, Speranza's de facto leader, since the beginning, but Stefan Strandberg, the chief creative officer at Embark, explained in a <a href=\"https://arcraiders.com/news/celeste-capture-upgrade\" target=\"_"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Arc Raiders is looking for 'more ways to integrate real human performances' starting with Celeste's visual overhaul for Frozen Trail",
+        "secondary_keywords": [
+          "Arc Raiders is looking for 'more ways to integrate real human performances' starting with Celeste's visual overhaul for Frozen Trail date de sortie",
+          "Arc Raiders is looking for 'more ways to integrate real human performances' starting with Celeste's visual overhaul for Frozen Trail plateformes",
+          "Arc Raiders is looking for 'more ways to integrate real human performances' starting with Celeste's visual overhaul for Frozen Trail gameplay",
+          "Arc Raiders is looking for 'more ways to integrate real human performances' starting with Celeste's visual overhaul for Frozen Trail guide",
+          "Arc Raiders is looking for 'more ways to integrate real human performances' starting with Celeste's visual overhaul for Frozen Trail avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Arc Raiders is looking for 'more ways to integrate real human performances' starting with Celeste's visual overhaul for Frozen Trail"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-dungeons-dragons-world-of-warcraft-is-already-a-slam-du-e88245cfb4a8",
+      "topic": "Dungeons & Dragons: World of Warcraft is already a slam dunk, but it's how it captures the spirit of the MMO that makes it stand out",
+      "detected_at": "2026-10-06T09:06:49.930215+00:00",
+      "analysed_at": "2026-10-13T20:22:00.442403+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/dungeons-and-dragons-world-of-warcraft-is-already-a-slam-dunk-but-its-how-it-captures-the-spirit-of-the-mmo-that-makes-it-stand-out/",
+          "title": "Dungeons & Dragons: World of Warcraft is already a slam dunk, but it's how it captures the spirit of the MMO that makes it stand out",
+          "evidence": "<article> <p>Despite the immense volume of similarities between Dungeons & Dragons and World of Warcraft, the team working on the upcoming <a href=\"https://www.dungeonsanddragons.com/world-of-warcraft/\" target=\"_blank\">collab rulebook</a> knows that you can't translate everything 1:1. Half of the MMO is about fighting the same bosses over and over until you finally get a good piece of loot. The grind isn't made for tabletop players.</p><p>During a recent presentation attended by PC Gamer, principal game designer and project lead James Wyatt says <a href=\"https://www.pcgamer.com/games/world-of-warcraft/a-crossover-between-dungeons-and-dragons-and-world-of-warcraft-has-leaked/\">D&D: WoW</a> is more about \"paraphrasing\" the MMO within the framework of the tabletop game rather than trying to emulate its mechanics. The entire world of Azeroth and the MMO's many expansions (up to Midnight) are fair game for players—the book opens with a big temporal hand-wave from time dragon Chromie—but the smallest details have been shuffled around to fit the format.</p><p>Popular dungeons from WoW's past, like the Deadmines, are mostly intact, save for a few alternate routes to accommodate parties who"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dungeons & Dragons: World of Warcraft is already a slam dunk, but it's how it captures the spirit of the MMO that makes it stand out",
+        "secondary_keywords": [
+          "Dungeons & Dragons: World of Warcraft is already a slam dunk, but it's how it captures the spirit of the MMO that makes it stand out date de sortie",
+          "Dungeons & Dragons: World of Warcraft is already a slam dunk, but it's how it captures the spirit of the MMO that makes it stand out plateformes",
+          "Dungeons & Dragons: World of Warcraft is already a slam dunk, but it's how it captures the spirit of the MMO that makes it stand out gameplay",
+          "Dungeons & Dragons: World of Warcraft is already a slam dunk, but it's how it captures the spirit of the MMO that makes it stand out guide",
+          "Dungeons & Dragons: World of Warcraft is already a slam dunk, but it's how it captures the spirit of the MMO that makes it stand out avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Dungeons & Dragons: World of Warcraft is already a slam dunk, but it's how it captures the spirit of the MMO that makes it stand out"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-13T09:44:48.661448+00:00",
+  "updated_at": "2026-10-13T20:22:05.802471+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -145,6 +145,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-system-shock-2-25th-anniversary-remaster-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 729,
       "published_at": "2026-10-13T09:44:48.661448+00:00"
+    },
+    {
+      "intent_key": "system shock 2 25th anniversary remaster multijoueur",
+      "primary_keyword": "System Shock 2: 25th Anniversary Remaster multijoueur",
+      "title": "System Shock 2: 25th Anniversary Remaster multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/system-shock-2-25th-anniversary-remaster-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 740,
+      "published_at": "2026-10-13T20:22:05.802471+00:00"
     }
   ]
 }

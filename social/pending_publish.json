@@ -1,0 +1,84 @@
+{
+  "source_id": "b07c995fa3cd0d89686d4577cdd81f26c017e563306639098af0186a465f8129",
+  "carousel_version": "8093948e01339dbd96fb182400535b0d6e72074d06eb99251ff4808780d9821f",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    754,
+    755,
+    756
+  ],
+  "prepared_at_utc": "2026-10-14T20:18:41.281708Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "b07c995fa3cd0d89686d4577cdd81f26c017e563306639098af0186a465f8129",
+    "source_title": "Neon Abyss 2 : date de sortie, plateformes et nouveautés Game Pass annoncées au Tokyo PC Gaming Show",
+    "score": 85.5,
+    "idea": {
+      "source_id": "b07c995fa3cd0d89686d4577cdd81f26c017e563306639098af0186a465f8129",
+      "topic": "Neon Abyss 2 sur Xbox Game Pass",
+      "angle": "Les nouveautés du trailer présenté au Tokyo PC Gaming Show et la date de sortie sur Game Pass",
+      "format": "breaking_news",
+      "hook": "Neon Abyss 2 arrive le 8 octobre 2026 sur Xbox Game Pass : nouveau boss final et surprises exclusives révélées au Tokyo PC Gaming Show.",
+      "freshness": 10,
+      "click_potential": 9,
+      "curiosity": 8,
+      "shareability": 7,
+      "originality": 8,
+      "gamerquest_relevance": 9,
+      "total_score": 85.5
+    },
+    "carousel": {
+      "topic": "Neon Abyss 2 sur Xbox Game Pass",
+      "angle": "Les nouveautés du trailer présenté au Tokyo PC Gaming Show et la date de sortie sur Game Pass",
+      "format": "breaking_news",
+      "hook": "Neon Abyss 2 arrive le 8 octobre 2026 sur Xbox Game Pass : nouveau boss final et surprises exclusives révélées au Tokyo PC Gaming Show.",
+      "score": 85.5,
+      "slides": [
+        {
+          "title": "Neon Abyss 2 arrive sur Game Pass",
+          "body": "Un nouveau boss final et des surprises vous attendent. Découvrez le trailer du Tokyo PC Gaming Show.",
+          "visual_prompt": "dark neon‑lit dungeon corridor with a looming, shadowy boss silhouette, futuristic arcade atmosphere"
+        },
+        {
+          "title": "Sortie le 8 octobre 2026 sur Xbox Game Pass",
+          "body": "Le trailer présenté au Tokyo PC Gaming Show confirme la date de sortie et révèle un boss final inédit ainsi d’autres surprises exclusives.",
+          "visual_prompt": "futuristic neon city skyline at night, with glowing Xbox Game Pass logo subtly integrated"
+        },
+        {
+          "title": "Encore plus de révélations au Tokyo PC Gaming Show",
+          "body": "Le trailer dévoile d’autres nouveautés réservées aux abonnés Game Pass. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "stylized neon arcade hallway with abstract game‑pass symbols and subtle hints of upcoming content"
+        }
+      ],
+      "caption": "Neon Abyss 2 s’apprête à transformer votre expérience Game Pass avec un nouveau boss final et des surprises inédites. 🚀",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#NeonAbyss2",
+        "#XboxGamePass",
+        "#TokyoPCGamingShow",
+        "#GamerQuest",
+        "#ActualitésJeux"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "b07c995fa3cd0d89686d4577cdd81f26c017e563306639098af0186a465f8129"
+    },
+    "caption": "Neon Abyss 2 s’apprête à transformer votre expérience Game Pass avec un nouveau boss final et des surprises inédites. 🚀",
+    "hashtags": [
+      "#NeonAbyss2",
+      "#XboxGamePass",
+      "#TokyoPCGamingShow",
+      "#GamerQuest",
+      "#ActualitésJeux"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 0
+  }
+}

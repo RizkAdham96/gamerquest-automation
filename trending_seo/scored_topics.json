@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-13T20:22:00.442408+00:00",
+  "updated_at": "2026-10-14T08:01:42.115112+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -7128,6 +7128,316 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Dungeons & Dragons: World of Warcraft is already a slam dunk, but it's how it captures the spirit of the MMO that makes it stand out"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-2215430",
+      "topic": "Configuration PC Ghost of Tsushima DIRECTOR'S CUT : minimale, recommandée et conseils",
+      "detected_at": "2026-10-14T08:01:41.489580+00:00",
+      "analysed_at": "2026-10-14T08:01:42.114883+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2215430/",
+          "title": "Ghost of Tsushima DIRECTOR'S CUT sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Ghost of Tsushima DIRECTOR'S CUT, consultée le 2026-10-14. Développeur : Sucker Punch Productions, Nixxes Software. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 16 mai 2024. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i3-7100 or AMD Ryzen 3 1200 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 960 or AMD Radeon RX 5500 XT ; Espace disque : 75 GB d'espace disque disponible ; Notes supplémentaires : SSD Recommended. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i5-8600 or AMD Ryzen 5 3600 ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GeForce RTX 2060 or AMD Radeon RX 5600 XT ; Espace disque : 75 GB d'espace disque disponible ; Notes supplémentaires : SSD Required.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/ss_51eb1a47a41271abb0aa781de576f704d95b601b.1920x1080.jpg?t=1763409398"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Ghost of Tsushima DIRECTOR'S CUT",
+        "secondary_keywords": [
+          "Ghost of Tsushima DIRECTOR'S CUT PC",
+          "Ghost of Tsushima DIRECTOR'S CUT Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Ghost of Tsushima DIRECTOR'S CUT : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-2215430",
+      "topic": "Ghost of Tsushima DIRECTOR'S CUT multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-14T08:01:41.489643+00:00",
+      "analysed_at": "2026-10-14T08:01:42.114932+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2215430/",
+          "title": "Ghost of Tsushima DIRECTOR'S CUT sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Ghost of Tsushima DIRECTOR'S CUT, consultée le 2026-10-14. Développeur : Sucker Punch Productions, Nixxes Software. Éditeur : PlayStation Publishing LLC. Date de sortie sur Steam : 16 mai 2024. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, PvP, JcJ en ligne, Coopération, Coopération en ligne, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Taille de texte réglable, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Prise en charge de l'API Steam Input, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Une tempête approche. Découvrez l'édition complète de Ghost of Tsushima DIRECTOR'S CUT sur PC. Tracez votre propre voie dans ce jeu d'action-aventure en monde ouvert et découvrez tous ses secrets. Un titre Sucker Punch Productions, Nixxes Software et PlayStation Studios.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/ss_51eb1a47a41271abb0aa781de576f704d95b601b.1920x1080.jpg?t=1763409398"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ghost of Tsushima DIRECTOR'S CUT multijoueur",
+        "secondary_keywords": [
+          "Ghost of Tsushima DIRECTOR'S CUT PC",
+          "Ghost of Tsushima DIRECTOR'S CUT Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Ghost of Tsushima DIRECTOR'S CUT multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-mike-flanagan-changed-infamous-period-scene-in-carrie-b-17eb136ca882",
+      "topic": "Mike Flanagan changed infamous period scene in Carrie because of \"the normalization of cruelty\"",
+      "detected_at": "2026-10-06T09:10:53.460619+00:00",
+      "analysed_at": "2026-10-14T08:01:42.114968+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/horror-shows/mike-flanagan-changed-the-infamous-period-scene-in-his-version-of-carrie-because-we-needed-to-talk-about-the-normalization-of-cruelty/",
+          "title": "Mike Flanagan changed infamous period scene in Carrie because of \"the normalization of cruelty\"",
+          "evidence": "<article> <p>When adapting the 1974 Stephen King story for the digital age, Mike Flanagan says it was important to go all in on how social media and cell phones would only add to the cruelty Carrie faces at the hands of her bullies.</p><p> \"Yeah, we talked a lot about how it changed when there were phones in people's hands, that scene especially. And in every other version, that's the first scene,\" Flanagan tells GamesRadar+. \"And so one of the first things we kind of started to play with was, I think that's the end of the pilot, and I think we're gonna walk us into that. It's so tough to even imagine doing any story, any serious story about the modern teenage experience without engaging with the topic of social media because it is so ingrained in their day-to-day lives.\"</p><p>In the trailer for Carrie, we see the infamous scene –<strong> </strong>where Carrie gets her first period but has no idea what menstruation is, so she naturally believes she's dying. Instead of helping her, the girls in her gym class pelt her with sanitary napkins and tampons. In Flanagan's version of the story, the year is 2025... and the girls whip out their cell phones and film the ordeal, in addition to"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Mike Flanagan changed infamous period scene in Carrie because of \"the normalization of cruelty\"",
+        "secondary_keywords": [
+          "Mike Flanagan changed infamous period scene in Carrie because of \"the normalization of cruelty\" date de sortie",
+          "Mike Flanagan changed infamous period scene in Carrie because of \"the normalization of cruelty\" plateformes",
+          "Mike Flanagan changed infamous period scene in Carrie because of \"the normalization of cruelty\" gameplay",
+          "Mike Flanagan changed infamous period scene in Carrie because of \"the normalization of cruelty\" guide",
+          "Mike Flanagan changed infamous period scene in Carrie because of \"the normalization of cruelty\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Mike Flanagan changed infamous period scene in Carrie because of \"the normalization of cruelty\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-carrie-stars-want-to-create-a-version-of-mother-daughte-8c7473cbbe68",
+      "topic": "Carrie stars want to create a version of mother-daughter relationship that we've never seen before",
+      "detected_at": "2026-10-06T09:10:53.460859+00:00",
+      "analysed_at": "2026-10-14T08:01:42.115001+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/horror-shows/carrie-stars-want-to-create-a-version-of-the-mother-daughter-relationship-that-weve-never-seen-before-they-love-each-other/",
+          "title": "Carrie stars want to create a version of mother-daughter relationship that we've never seen before",
+          "evidence": "<article> <p>Summer H. Howell and Samantha Sloyan play a version of Carrie and Margaret White that we've never seen before in Mike Flanagan's upcoming take on the 1974 novel by Stephen King.</p><p>\"I don't know if I was surprised,\" Howell tells GamesRadar+ when asked if the changes to the original story shocked her. \"I mean, I hadn't really heard of Carrie before, which I know, shocking. I've worked in horror since I was eight, so you'd think I would've, but no. So I kinda went into it knowing it had been made, asking, 'Why are we doing it again?' like everybody. But then reading the scenes and the scripts and seeing the humanity that Mike writes into these characters is just beautiful, and it made me want to be her so bad.\"</p><p>We all know the story: a bullied teenage girl named Carrie White has an abusive mother, a terrible time at school, and secret telekinetic powers. When Carrie kills her classmates after they outright humiliate her at prom, she ends up killing her mother in the process.</p><p>Flanagan's story (though we won't tell you how it ends) depicts Carrie and Margaret's relationship in a way that is much more humane and believable (not that abusive dynamics between p"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Carrie stars want to create a version of mother-daughter relationship that we've never seen before",
+        "secondary_keywords": [
+          "Carrie stars want to create a version of mother-daughter relationship that we've never seen before date de sortie",
+          "Carrie stars want to create a version of mother-daughter relationship that we've never seen before plateformes",
+          "Carrie stars want to create a version of mother-daughter relationship that we've never seen before gameplay",
+          "Carrie stars want to create a version of mother-daughter relationship that we've never seen before guide",
+          "Carrie stars want to create a version of mother-daughter relationship that we've never seen before avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Carrie stars want to create a version of mother-daughter relationship that we've never seen before"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-final-fantasy-7-revelation-ditching-ps5-exclusivity-was-3215aa395675",
+      "topic": "Final Fantasy 7 Revelation ditching PS5 exclusivity was \"inevitable,\" Naoki Hamaguchi says",
+      "detected_at": "2026-10-06T09:10:53.461029+00:00",
+      "analysed_at": "2026-10-14T08:01:42.115027+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/final-fantasy/final-fantasy-7-revelation-ditching-ps5-exclusivity-was-inevitable-naoki-hamaguchi-says-because-players-are-no-longer-tied-to-a-single-piece-of-hardware/",
+          "title": "Final Fantasy 7 Revelation ditching PS5 exclusivity was \"inevitable,\" Naoki Hamaguchi says",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/final-fantasy-7-revelation-guide/\">Final Fantasy 7 Revelation</a> marks a significant first for the remake series: it'll be the only entry available across multiple platforms on launch day. Remake and Rebirth both released as PlayStation exclusives, and took years to hit PC, Xbox, and Nintendo Switch, but Revelation will be available for all players on day one. The change in approach, director Naoki Hamaguchi says, is simply a response to the reality of today's gaming landscape.</p><p>The multiplatform release is \"an inevitable outcome of the changing environment surrounding today's players,\" as Hamaguchi explains in <a href=\"https://www.magazinesdirect.com/us/edge-subscription/dp/39f150bb\" target=\"_blank\">Edge Magazine</a> issue #429. Now, players \"are no longer tied to a single piece of hardware,\" and enjoy their games on TVs, desktops, and handheld devices alike.</p><p>\"I believe that what will be important in future triple-A game development is not how high-performance an environment we can use,\" Hamaguchi says, \"but rather how widely we can deliver the core of the same experience across different environments.\" In other words, g"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Final Fantasy 7 Revelation ditching PS5 exclusivity was \"inevitable,\" Naoki Hamaguchi says",
+        "secondary_keywords": [
+          "Final Fantasy 7 Revelation ditching PS5 exclusivity was \"inevitable,\" Naoki Hamaguchi says date de sortie",
+          "Final Fantasy 7 Revelation ditching PS5 exclusivity was \"inevitable,\" Naoki Hamaguchi says plateformes",
+          "Final Fantasy 7 Revelation ditching PS5 exclusivity was \"inevitable,\" Naoki Hamaguchi says gameplay",
+          "Final Fantasy 7 Revelation ditching PS5 exclusivity was \"inevitable,\" Naoki Hamaguchi says guide",
+          "Final Fantasy 7 Revelation ditching PS5 exclusivity was \"inevitable,\" Naoki Hamaguchi says avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Final Fantasy 7 Revelation ditching PS5 exclusivity was \"inevitable,\" Naoki Hamaguchi says"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ex-playstation-boss-says-sony-killing-discs-raises-the--837c44106030",
+      "topic": "Ex-PlayStation boss says Sony killing discs raises the \"insidious\" discussion of game ownership",
+      "detected_at": "2026-10-06T09:10:53.461239+00:00",
+      "analysed_at": "2026-10-14T08:01:42.115054+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/if-you-dont-own-it-then-what-are-you-buying-ex-playstation-boss-says-sony-killing-discs-raises-the-insidious-discussion-of-game-ownership/",
+          "title": "Ex-PlayStation boss says Sony killing discs raises the \"insidious\" discussion of game ownership",
+          "evidence": "<article> <p>Shawn Layden joined Sony in 1987, eventually taking on leadership roles at the company's burgeoning video game development studios that led to him becoming chairman of Sony Interactive Entertainment Worldwide Studios, a position he retired from in 2019. He knows what it's taken to build the PlayStation brand, and his feelings about the <a href=\"https://www.gamesradar.com/platforms/playstation/playstation-is-ending-physical-disc-production-for-new-games-in-2028-as-sony-says-general-preference-for-digital-media-significantly-outpaces-physical-discs/\">company's decision to end physical discs</a> hold more weight than most.</p><p>Layden understands the convenience of digital games, as he explains in an interview for <a href=\"https://www.youtube.com/watch?v=rUwPH-s8TVw\" target=\"_blank\">The Expansion Pass podcast</a>. But if a rough estimate suggests that 80% of people download games and 20% buy them physically, then Layden says \"that's a super important 20%.\" These are the most \"faithful of the faithful\" players, who'll show up to buy multiple copies of an individual game to keep in their collection.</p><p>For that reason, Layden says, \"I don't agree with that decision.\" He"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ex-PlayStation boss says Sony killing discs raises the \"insidious\" discussion of game ownership",
+        "secondary_keywords": [
+          "Ex-PlayStation boss says Sony killing discs raises the \"insidious\" discussion of game ownership date de sortie",
+          "Ex-PlayStation boss says Sony killing discs raises the \"insidious\" discussion of game ownership plateformes",
+          "Ex-PlayStation boss says Sony killing discs raises the \"insidious\" discussion of game ownership gameplay",
+          "Ex-PlayStation boss says Sony killing discs raises the \"insidious\" discussion of game ownership guide",
+          "Ex-PlayStation boss says Sony killing discs raises the \"insidious\" discussion of game ownership avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ex-PlayStation boss says Sony killing discs raises the \"insidious\" discussion of game ownership"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-this-jrpg-sounded-great-but-then-i-learned-how-it-was-m-b957eaa3c4a1",
+      "topic": "This JRPG sounded great, but then I learned how it was made, and now it sounds impossible",
+      "detected_at": "2026-10-06T09:10:53.461443+00:00",
+      "analysed_at": "2026-10-14T08:01:42.115082+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/jrpg/gods-strongest-programmer-this-jrpg-sounded-great-but-then-i-learned-how-it-was-made-and-now-it-sounds-impossible/",
+          "title": "This JRPG sounded great, but then I learned how it was made, and now it sounds impossible",
+          "evidence": "<article> <p>Lie of Caelum: Spirit recently bagged more than $100,000 in extra Kickstarter funds on the back of stellar art and music, and the promise of a \"PSX-style sci-fi mecha JRPG\" that was \"inspired by Xenogears and Phantasy Star.\" This all sounds well and good, but my gast wasn't truly flabbered until I learned that this 3D mech game was made in RPG Maker.</p><p>I don't know if you've ever played an RPG Maker game, but they don't normally look like this: </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/cMq2gy_u3Os\" allowfullscreen></iframe></div></div><p>Already listed <a href=\"https://store.steampowered.com/app/2974510/Lie_of_Caelum_Spirit/\" target=\"_blank\">on Steam</a>, Lie of Caelum: Spirit was made with <a href=\"https://store.steampowered.com/app/1096900/RPG_Maker_MZ/\" target=\"_blank\">RPG Maker MZ</a>, the 2020 version of the storied game maker. Exactly <em>how</em> it was made, I couldn't tell you. I'm right alongside this Twitter user <a href=\"https://x.com/DevCalled1213/status/2102633706787897585\" target=\"_blank\">reacting</a> to the news: \"3D mech combat "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "This JRPG sounded great, but then I learned how it was made, and now it sounds impossible",
+        "secondary_keywords": [
+          "This JRPG sounded great, but then I learned how it was made, and now it sounds impossible date de sortie",
+          "This JRPG sounded great, but then I learned how it was made, and now it sounds impossible plateformes",
+          "This JRPG sounded great, but then I learned how it was made, and now it sounds impossible gameplay",
+          "This JRPG sounded great, but then I learned how it was made, and now it sounds impossible guide",
+          "This JRPG sounded great, but then I learned how it was made, and now it sounds impossible avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "This JRPG sounded great, but then I learned how it was made, and now it sounds impossible"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gta-6-story-lead-says-rockstar-didn-t-want-to-make-a-st-b99734a721df",
+      "topic": "GTA 6 story lead says Rockstar didn't want to make a \"statement\" with Jason's ex-military background",
+      "detected_at": "2026-10-06T09:10:53.461659+00:00",
+      "analysed_at": "2026-10-14T08:01:42.115107+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-story-lead-insists-rockstar-didnt-want-to-make-any-kind-of-statement-with-jasons-ex-military-background/",
+          "title": "GTA 6 story lead says Rockstar didn't want to make a \"statement\" with Jason's ex-military background",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/gta-6-guide/\"><u>GTA 6</u></a> protagonist Jason might be a former army man, but the game's narrative lead insists that doesn't mean Rockstar was trying to make \"a statement\" with his backstory. </p><p>Rockstar <a href=\"https://www.rockstargames.com/VI/only-in-leonida\" target=\"_blank\"><u>previously introduced Jason</u></a> as a man who \"grew up around grifters and crooks\" and spent \"a stint in the Army trying to shake off his troubled teens\" before returning to \"doing what he knows best, working for local drug runners.\" Then, of course, he meets fellow GTA 6 protagonist Lucia, which \"could be the best or worst thing to ever happen to him\" – a slightly ominous descriptor we'll have to wait and see the outcome of next month.</p><p>Concerns for Jason and Lucia's happy ending aside, during a new interview with Love magazine, Rupert Humphries, GTA 6's senior vice president of narrative, is asked about Jason's backstory. Specifically, could it be interpreted as a class story, considering his time in the army, and how consciously has Rockstar written failed social mobility as an aspect of his tale? </p><p>\"We didn't want to make any kind of"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GTA 6 story lead says Rockstar didn't want to make a \"statement\" with Jason's ex-military background",
+        "secondary_keywords": [
+          "GTA 6 story lead says Rockstar didn't want to make a \"statement\" with Jason's ex-military background date de sortie",
+          "GTA 6 story lead says Rockstar didn't want to make a \"statement\" with Jason's ex-military background plateformes",
+          "GTA 6 story lead says Rockstar didn't want to make a \"statement\" with Jason's ex-military background gameplay",
+          "GTA 6 story lead says Rockstar didn't want to make a \"statement\" with Jason's ex-military background guide",
+          "GTA 6 story lead says Rockstar didn't want to make a \"statement\" with Jason's ex-military background avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GTA 6 story lead says Rockstar didn't want to make a \"statement\" with Jason's ex-military background"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-14T08:01:42.115112+00:00",
+  "updated_at": "2026-10-14T18:54:19.260136+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -7438,6 +7438,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "GTA 6 story lead says Rockstar didn't want to make a \"statement\" with Jason's ex-military background"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-psa-star-wars-galactic-racer-pilots-put-some-points-in--8e93b6caba27",
+      "topic": "PSA: Star Wars Galactic Racer pilots, put some points in resilience before you hit the acid planet",
+      "detected_at": "2026-10-07T09:16:06.871162+00:00",
+      "analysed_at": "2026-10-14T18:54:19.259612+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/racing/psa-star-wars-galactic-racer-pilots-put-some-points-in-resilience-before-you-hit-the-acid-planet/",
+          "title": "PSA: Star Wars Galactic Racer pilots, put some points in resilience before you hit the acid planet",
+          "evidence": "<article> <p>The multiplayer tour mode in Galactic Racer lets you upgrade a speeder over the course of six races while other players manically shunt you into the wall on every track. It's a best-of-both-worlds mode that adds a little of the campaign's run-based progression to a multiplayer tournament.</p><p>But since you only get one race on each planet, you might be blindsided by Sentinel I. Locations in Galactic Racer tend to follow the Star Wars pattern of single-environment worlds—the desert planet, the jungle planet—and good old Sentinel I is apparently the galaxy's planet of burning piss.</p><p>Veer a little off-track on Sentinel I and you'll hit boiling yellow acid that quickly tanks your ramjet boost. It's a bad time. While it's normally tempting to throw your precious upgrade points into afterburner and ramjet to get your speed as high as possible, and battery if you've got a decent ability you need more energy for, make sure to put some points in resilience before you get to Sentinel 1 so you aren't instantly tanked the screwed you skim over one of its scenic acid rivers.</p><p>It'll come in handy later on as well, because the climactic race of each tour on Derven Acos is"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "PSA: Star Wars Galactic Racer pilots, put some points in resilience before you hit the acid planet",
+        "secondary_keywords": [
+          "PSA: Star Wars Galactic Racer pilots, put some points in resilience before you hit the acid planet date de sortie",
+          "PSA: Star Wars Galactic Racer pilots, put some points in resilience before you hit the acid planet plateformes",
+          "PSA: Star Wars Galactic Racer pilots, put some points in resilience before you hit the acid planet gameplay",
+          "PSA: Star Wars Galactic Racer pilots, put some points in resilience before you hit the acid planet guide",
+          "PSA: Star Wars Galactic Racer pilots, put some points in resilience before you hit the acid planet avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "PSA: Star Wars Galactic Racer pilots, put some points in resilience before you hit the acid planet"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-my-most-played-album-of-2026-sorry-mitski-it-s-final-fa-1966952b0baa",
+      "topic": "My most-played album of 2026? Sorry, Mitski—it's Final Fantasy 10: House Grooves, a real thing that exists",
+      "detected_at": "2026-10-07T09:16:06.871388+00:00",
+      "analysed_at": "2026-10-14T18:54:19.259725+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/final-fantasy/my-most-played-album-of-2026-sorry-mitski-its-final-fantasy-10-house-grooves-a-real-thing-that-exists/",
+          "title": "My most-played album of 2026? Sorry, Mitski—it's Final Fantasy 10: House Grooves, a real thing that exists",
+          "evidence": "<article> <p>Final Fantasy music is presumably so profitable for Square Enix that there are always new ways to slice the pie, whether we're talking piano covers, guitar versions, or expensive anniversary vinyl releases of its classic RPG soundtracks. </p><p>Final Fantasy 10 is getting one of the latter next month to mark its 25th anniversary. And as someone who once spent a lot of my meagre convenience store salary importing the CD collection from Play Asia back in the day, it's undeniably a gorgeous sight:</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1280px;\"><p class=\"vanilla-image-block\" style=\"padding-top:60.00%;\"><img id=\"qAhNYp6hCCUFKLwLyVTXm3\" name=\"SQEX-11235-6_FF10LP_BS_0410_t__04018\" alt=\"Final Fantasy X vinyl album\" src=\"https://cdn.mos.cms.futurecdn.net/qAhNYp6hCCUFKLwLyVTXm3-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"1280\" height=\"768\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/qAhNYp6hCCUFKLwLyVTXm3-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "My most-played album of 2026? Sorry, Mitski—it's Final Fantasy 10: House Grooves, a real thing that exists",
+        "secondary_keywords": [
+          "My most-played album of 2026? Sorry, Mitski—it's Final Fantasy 10: House Grooves, a real thing that exists date de sortie",
+          "My most-played album of 2026? Sorry, Mitski—it's Final Fantasy 10: House Grooves, a real thing that exists plateformes",
+          "My most-played album of 2026? Sorry, Mitski—it's Final Fantasy 10: House Grooves, a real thing that exists gameplay",
+          "My most-played album of 2026? Sorry, Mitski—it's Final Fantasy 10: House Grooves, a real thing that exists guide",
+          "My most-played album of 2026? Sorry, Mitski—it's Final Fantasy 10: House Grooves, a real thing that exists avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "My most-played album of 2026? Sorry, Mitski—it's Final Fantasy 10: House Grooves, a real thing that exists"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-please-give-novus-one-more-chance-an-11-year-old-early--41dd426ad404",
+      "topic": "'Please give Novus one more chance': An 11-year-old early access survival game just got its first update since 2018",
+      "detected_at": "2026-10-07T09:16:06.871654+00:00",
+      "analysed_at": "2026-10-14T18:54:19.259789+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/survival-crafting/please-give-novus-one-more-chance-an-11-year-old-early-access-survival-game-just-got-its-first-update-since-2018/",
+          "title": "'Please give Novus one more chance': An 11-year-old early access survival game just got its first update since 2018",
+          "evidence": "<article> <h2 id=\"what-happened\">What happened?</h2><ul><li>Early access survival game <strong>Novus Inceptio</strong> got a major update this week</li><li>It's the game's <strong>first update since 2018</strong></li><li>The game entered early access in <strong>October 2015</strong> (and is still in early access)</li><li>The solo dev says \"the energy and the will to finish the project are back\"</li><li>The map has gone <strong>from 9 km² to 64 km²</strong> of \"pure wilderness\"</li><li>Combat has been rebuilt</li><li>It's now singleplayer but there are <strong>plans for co-op</strong></li></ul><p><em>Responses have been edited for length and clarity.</em></p><h2 id=\"pc-gamer-why-did-development-stop-for-so-long\">PC Gamer: Why did development stop for so long?</h2><p><strong>Martin Markus Mastný: </strong>I jumped into Unity head first, learned C# and learned how to work with Unity. That went on from 2013 until the early access release on October 5, 2015: learning, making the game, trying things. The whole time I had this strong idea and excitement that one day it would be an MMORPG. I built the server layer and databases and connected it all to Unity.</p><p>Then Steam slapped me in "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'Please give Novus one more chance': An 11-year-old early access survival game just got its first update since 2018",
+        "secondary_keywords": [
+          "'Please give Novus one more chance': An 11-year-old early access survival game just got its first update since 2018 date de sortie",
+          "'Please give Novus one more chance': An 11-year-old early access survival game just got its first update since 2018 plateformes",
+          "'Please give Novus one more chance': An 11-year-old early access survival game just got its first update since 2018 gameplay",
+          "'Please give Novus one more chance': An 11-year-old early access survival game just got its first update since 2018 guide",
+          "'Please give Novus one more chance': An 11-year-old early access survival game just got its first update since 2018 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'Please give Novus one more chance': An 11-year-old early access survival game just got its first update since 2018"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-pc-gamer-mysteries-case-1-a-slice-of-death-why-is-t-8583faaa72b7",
+      "topic": "The PC Gamer Mysteries, Case #1: \"A Slice of Death\": Why is there a dead golfer hidden in Golden Tee '99?",
+      "detected_at": "2026-10-07T09:16:06.872153+00:00",
+      "analysed_at": "2026-10-14T18:54:19.259861+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sports/the-pc-gamer-mysteries-case-1-a-slice-of-death-why-is-there-a-dead-golfer-hidden-in-golden-tee-99/",
+          "title": "The PC Gamer Mysteries, Case #1: \"A Slice of Death\": Why is there a dead golfer hidden in Golden Tee '99?",
+          "evidence": "<article> <p>\"Golden Tee '99, hole seven, Aspen Lake: There's a dead body about 180 yards out, a little bit to the right in the woods there,\" says Keith of Keith's Arcade, a YouTube channel not typically devoted to cold case homicides. But as they say in golf, you've got to play it as it lies, and in November 2012 Keith stumbled upon a body lying motionless just off the green of the otherwise picturesque, forested course in northern Colorado. It was his responsibility to tell the world what he'd found.</p><p>\"There you go. There you go,\" Keith repeats, clearly in shock. \"Dead body in the woods, about 180 yards from the tee off point. Hole seven, Aspen Lake, Golden Tee '99. Thanks for watching.\" </p><figure class=\"van-image-figure pull-right inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:311px;\"><p class=\"vanilla-image-block\" style=\"padding-top:100.00%;\"><img id=\"t3NhD4KoraJZM4JzRtTP8g\" name=\"Golden Tee 99 body enhance\" alt=\"Golden Tee '99's dead body, zoomed in\" src=\"https://cdn.mos.cms.futurecdn.net/t3NhD4KoraJZM4JzRtTP8g-1920-80.jpg\" mos=\"\" align=\"right\" fullscreen=\"\" width=\"311\" height=\"311\" attribu"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The PC Gamer Mysteries, Case #1: \"A Slice of Death\": Why is there a dead golfer hidden in Golden Tee '99?",
+        "secondary_keywords": [
+          "The PC Gamer Mysteries, Case #1: \"A Slice of Death\": Why is there a dead golfer hidden in Golden Tee '99? date de sortie",
+          "The PC Gamer Mysteries, Case #1: \"A Slice of Death\": Why is there a dead golfer hidden in Golden Tee '99? plateformes",
+          "The PC Gamer Mysteries, Case #1: \"A Slice of Death\": Why is there a dead golfer hidden in Golden Tee '99? gameplay",
+          "The PC Gamer Mysteries, Case #1: \"A Slice of Death\": Why is there a dead golfer hidden in Golden Tee '99? guide",
+          "The PC Gamer Mysteries, Case #1: \"A Slice of Death\": Why is there a dead golfer hidden in Golden Tee '99? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The PC Gamer Mysteries, Case #1: \"A Slice of Death\": Why is there a dead golfer hidden in Golden Tee '99?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gears-of-war-e-day-review-terrific-shooting-buoys-a-slu-e8115d8a59f8",
+      "topic": "Gears of War: E-Day review — terrific shooting buoys a sluggish campaign",
+      "detected_at": "2026-10-07T09:16:06.872735+00:00",
+      "analysed_at": "2026-10-14T18:54:19.259936+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/gears-of-war-e-day-review/",
+          "title": "Gears of War: E-Day review — terrific shooting buoys a sluggish campaign",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Need to know</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it?</strong> A prequel to the classic third-person cover shooters<br><strong>Release date:</strong> October 6, 2026<br><strong>Expect to pay: </strong>$70/£60<br><strong>Developer:</strong> The Coalition<br><strong>Publisher:</strong> Xbox Game Studios<br><strong>Reviewed on:</strong> <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/hardware/gaming-laptops/asus-rog-zephyrus-g14-2025-review/\">Asus ROG Zephyrus G14</a><br><strong>Steam Deck:</strong> TBA<br><strong>Link:</strong> <a data-analytics-id=\"inline-link\" href=\"https://www.xbox.com/en-US/games/gears-of-war-eday\" target=\"_blank\">Official site</a></p></div></div><p>What's the most stunning revelation in this Gears of War prequel? Marcus Fenix used to have a <em>jump button.</em> Yes, the king of cover-based shooting, a man more rooted to the ground than a scarecrow, spent his youth <em>jumping </em>to some bits of cover. So E-Day contains at least one literal leap forward for the franchise. Shame it's trapped in a slog of a campaign that's otherwise anything"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Gears of War: E-Day review — terrific shooting buoys a sluggish campaign",
+        "secondary_keywords": [
+          "Gears of War: E-Day review — terrific shooting buoys a sluggish campaign date de sortie",
+          "Gears of War: E-Day review — terrific shooting buoys a sluggish campaign plateformes",
+          "Gears of War: E-Day review — terrific shooting buoys a sluggish campaign gameplay",
+          "Gears of War: E-Day review — terrific shooting buoys a sluggish campaign guide",
+          "Gears of War: E-Day review — terrific shooting buoys a sluggish campaign avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Gears of War: E-Day review — terrific shooting buoys a sluggish campaign"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-ve-added-scams-to-gta-5-but-i-might-have-scammed-myse-ae48ff375095",
+      "topic": "I've added scams to GTA 5, but I might have scammed myself",
+      "detected_at": "2026-10-07T09:16:06.872917+00:00",
+      "analysed_at": "2026-10-14T18:54:19.259996+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/ive-added-scams-to-gta-5-but-i-might-have-scammed-myself/",
+          "title": "I've added scams to GTA 5, but I might have scammed myself",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>A shift in the fabric of reality: I launch Grand Theft Auto 5 and, following the now-customary hitch-and-stutter loading screen that can last anywhere from 10 seconds to five minutes, Franklin spawns into his familiar void apartment. Within seconds, he begins plummeting, screaming.</p><p>All of this is fine and normal.</p><p>But something new: Franklin carries a duffel bag with him into the abyss now, and I am unsure as to why. My guess is that it is a byproduct of my newly installed mod, <a href=\"https://www.gta5-mods.com/scripts/scamv\" target=\"_blank\">ScamV</a>, which "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I've added scams to GTA 5, but I might have scammed myself",
+        "secondary_keywords": [
+          "I've added scams to GTA 5, but I might have scammed myself date de sortie",
+          "I've added scams to GTA 5, but I might have scammed myself plateformes",
+          "I've added scams to GTA 5, but I might have scammed myself gameplay",
+          "I've added scams to GTA 5, but I might have scammed myself guide",
+          "I've added scams to GTA 5, but I might have scammed myself avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I've added scams to GTA 5, but I might have scammed myself"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-warhorse-co-founder-believes-ai-is-not-a-get-out-of-jai-ea7e01655096",
+      "topic": "Warhorse co-founder believes 'AI is not a get out of jail free card' and that execs have a 'simplified mental model' of what it means for games",
+      "detected_at": "2026-10-07T09:16:06.873123+00:00",
+      "analysed_at": "2026-10-14T18:54:19.260057+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/warhorse-co-founder-believes-ai-is-not-a-get-out-of-jail-free-card-and-that-execs-have-a-simplified-mental-model-of-what-it-means-for-games/",
+          "title": "Warhorse co-founder believes 'AI is not a get out of jail free card' and that execs have a 'simplified mental model' of what it means for games",
+          "evidence": "<article> <p>Few things are constant in life, but the reminder that AI is wriggling its way into just about every facet of life is unfortunately pervasive. Take games for example, it's wormed its way into <a href=\"https://www.pcgamer.com/software/ai/electronic-arts-admits-to-using-ai-voices-in-nhl-27-this-process-allows-us-to-bring-more-variety-to-the-game/\">voice acting</a>, <a href=\"https://www.pcgamer.com/gaming-industry/arc-raiders-use-of-ai-highlights-the-tension-and-confusion-over-where-machine-learning-ends-and-generative-ai-begins/\">voice acting</a>, and more voice acting. But aside from giving players a plethora of <a href=\"https://www.pcgamer.com/games/fps/marathons-aura-farming-npcs-show-just-how-bland-and-lifeless-arc-raiders-ai-voiced-characters-really-are/\">dull and generic quips</a> it's also been cited as <a href=\"https://www.pcgamer.com/gaming-industry/microsofts-200-laid-off-king-devs-are-reportedly-being-replaced-by-ai-they-helped-build-while-its-absolute-s-show-hr-department-looks-away-and-whistles/\">one of the reasons</a> behind the seemingly neverending string of layoffs in the industry. </p><p>The thought process is 'why pay humans to do work when you can pay"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Warhorse co-founder believes 'AI is not a get out of jail free card' and that execs have a 'simplified mental model' of what it means for games",
+        "secondary_keywords": [
+          "Warhorse co-founder believes 'AI is not a get out of jail free card' and that execs have a 'simplified mental model' of what it means for games date de sortie",
+          "Warhorse co-founder believes 'AI is not a get out of jail free card' and that execs have a 'simplified mental model' of what it means for games plateformes",
+          "Warhorse co-founder believes 'AI is not a get out of jail free card' and that execs have a 'simplified mental model' of what it means for games gameplay",
+          "Warhorse co-founder believes 'AI is not a get out of jail free card' and that execs have a 'simplified mental model' of what it means for games guide",
+          "Warhorse co-founder believes 'AI is not a get out of jail free card' and that execs have a 'simplified mental model' of what it means for games avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Warhorse co-founder believes 'AI is not a get out of jail free card' and that execs have a 'simplified mental model' of what it means for games"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gundam-rogue-orbit-gave-me-a-sick-whip-sword-but-held-b-48ad2359789e",
+      "topic": "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game",
+      "detected_at": "2026-10-07T09:16:06.873386+00:00",
+      "analysed_at": "2026-10-14T18:54:19.260121+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/gundam-rogue-orbit-gave-me-a-sick-whip-sword-but-held-back-the-one-thing-i-want-most-in-a-mech-game/",
+          "title": "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game",
+          "evidence": "<article> <p>I didn't know I could have an entitled opinion about giant anime robots until I played a preview of Gundam Rogue Orbit, but it turns out I can. I'm mad because they gave me a Gundam with a whip sword straight out of Bloodborne (if Gundam hadn't actually gotten there first in the mid-'90s).</p><p>To be clear, I'm not mad at the whip sword itself. I'm <em>ecstatic</em> about the whip sword. It's exactly the kind of esoteric weapon that suggests Rogue Orbit has a real shot at being the kind of action game that I want out of Gundam—one with a bit more melee crunch and nuance than they tend to offer. But I can't help but look this gift sword in the mouth, because months after revealing the game, the Gundam team are still holding back hands-on with the bit I want to see most: a damn customization screen.</p><p>Why couldn't <em>I</em> look through a short list of weapons whitelisted for the demo build and have a chance to think: \"Whip sword? Yes, I'll be having some of that.\" The fact that you can customize your mech in Rogue Orbit isn't secret: there's a screenshot of the menu on the freaking Steam page! Here's what it looks like:</p><figure role=\"gallery\"><figure><img src=\""
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game",
+        "secondary_keywords": [
+          "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game date de sortie",
+          "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game plateformes",
+          "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game gameplay",
+          "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game guide",
+          "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

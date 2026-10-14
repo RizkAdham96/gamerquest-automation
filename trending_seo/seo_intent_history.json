@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-14T08:01:47.692647+00:00",
+  "updated_at": "2026-10-14T18:54:25.441575+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -161,6 +161,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-buried-stars-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 742,
       "published_at": "2026-10-14T08:01:47.692647+00:00"
+    },
+    {
+      "intent_key": "buried stars multijoueur",
+      "primary_keyword": "BURIED STARS multijoueur",
+      "title": "BURIED STARS multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/buried-stars-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 753,
+      "published_at": "2026-10-14T18:54:25.441575+00:00"
     }
   ]
 }

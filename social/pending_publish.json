@@ -1,0 +1,82 @@
+{
+  "source_id": "5aa76a8127e5831cf96791e96a950e5e1bbe125fbff966e92afc334266692631",
+  "carousel_version": "03278941731545b2c6cf1da2b3cbea90e847cfc5659d6537b7e339b726d0343c",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    765,
+    766,
+    767
+  ],
+  "prepared_at_utc": "2026-10-15T15:21:02.766620Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "5aa76a8127e5831cf96791e96a950e5e1bbe125fbff966e92afc334266692631",
+    "source_title": "Terranigma : date de sortie, plateformes, prix et éditions physiques",
+    "score": 72.5,
+    "idea": {
+      "source_id": "5aa76a8127e5831cf96791e96a950e5e1bbe125fbff966e92afc334266692631",
+      "topic": "Terranigma – sortie 14 janvier 2027",
+      "angle": "Annonce officielle de la date de sortie, des plateformes et des éditions physiques (Standard, SteelBook, Gaia) avec les prix détaillés.",
+      "format": "breaking_news",
+      "hook": "Terranigma débarque enfin en 2027 ! Découvrez quand et où l'acheter, ainsi que les éditions collector à ne pas manquer.",
+      "freshness": 9,
+      "click_potential": 8,
+      "curiosity": 7,
+      "shareability": 6,
+      "originality": 5,
+      "gamerquest_relevance": 9,
+      "total_score": 72.5
+    },
+    "carousel": {
+      "topic": "Terranigma – sortie 14 janvier 2027",
+      "angle": "Annonce officielle de la date de sortie, des plateformes et des éditions physiques (Standard, SteelBook, Gaia) avec les prix détaillés.",
+      "format": "breaking_news",
+      "hook": "Terranigma débarque enfin en 2027 ! Découvrez quand et où l'acheter, ainsi que les éditions collector à ne pas manquer.",
+      "score": 72.5,
+      "slides": [
+        {
+          "title": "Terranigma arrive en 2027 !",
+          "body": "La date officielle vient d’être annoncée. Découvrez quand le jeu sera disponible.",
+          "visual_prompt": "Concept art du jeu Terranigma avec un fond futuriste, mettant en avant la couverture du jeu sans texte."
+        },
+        {
+          "title": "14 janvier 2027 – plateformes et éditions",
+          "body": "Terranigma sort le 14 janvier 2027 sur PS5, Xbox Series, Switch 2, Switch et PC. Disponible en éditions Standard, SteelBook et Gaia.",
+          "visual_prompt": "Montage montrant les consoles PS5, Xbox Series, Switch 2, Switch et un PC, entourées des trois boîtes d’édition de Terranigma."
+        },
+        {
+          "title": "Plus de détails sur GamerQuest.fr",
+          "body": "Retrouvez les prix exacts et les contenus exclusifs de chaque édition sur notre site.",
+          "visual_prompt": "Capture d’écran stylisée d’une page web avec le logo de GamerQuest et un aperçu de la fiche produit de Terranigma, sans texte intégré."
+        }
+      ],
+      "caption": "Terranigma revient enfin ! 📅 Découvrez la date, les plateformes et les éditions collector disponibles.",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#Terranigma",
+        "#Sortie2027",
+        "#GamingNews",
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "5aa76a8127e5831cf96791e96a950e5e1bbe125fbff966e92afc334266692631"
+    },
+    "caption": "Terranigma revient enfin ! 📅 Découvrez la date, les plateformes et les éditions collector disponibles.",
+    "hashtags": [
+      "#Terranigma",
+      "#Sortie2027",
+      "#GamingNews",
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 0
+  }
+}

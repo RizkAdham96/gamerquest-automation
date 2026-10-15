@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-14T18:54:19.260136+00:00",
+  "updated_at": "2026-10-15T07:43:54.052217+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -7750,6 +7750,316 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Gundam Rogue Orbit gave me a sick whip sword, but held back the one thing I want most in a mech game"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-2183900",
+      "topic": "Configuration PC Warhammer 40,000: Space Marine 2 : minimale, recommandée et conseils",
+      "detected_at": "2026-10-15T07:43:52.695038+00:00",
+      "analysed_at": "2026-10-15T07:43:54.051996+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2183900/",
+          "title": "Warhammer 40,000: Space Marine 2 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Warhammer 40,000: Space Marine 2, consultée le 2026-10-15. Développeur : Saber Interactive. Éditeur : Focus Entertainment. Date de sortie sur Steam : 9 sept. 2024. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (1903 min)/11 64-bit ; Processeur : AMD Ryzen 5 2600X / Intel Core i5-8600K ; Mémoire vive : 8 GB de mémoire ; Graphiques : 6 GB VRAM, AMD Radeon RX 580 / Nvidia GeForce GTX 1060 ; DirectX : Version 12 ; Espace disque : 75 GB d'espace disque disponible ; Notes supplémentaires : SSD required. 30 FPS in 1920x1080 with \"Low\" preset.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (1903 min)/11 64-bit ; Processeur : AMD Ryzen 7 5800X / Intel Core i7-12700 ; Mémoire vive : 16 GB de mémoire ; Graphiques : 8 GB VRAM, AMD Radeon RX 6800 XT / Nvidia GeForce RTX 3070 ; DirectX : Version 12 ; Espace disque : 75 GB d'espace disque disponible ; Notes supplémentaires : SSD required. 60 FPS in 1920x1080 with the \"Ultra\" preset..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/dc44e5e39009e9eeba59344d1b0bcf3eacf1e663/ss_dc44e5e39009e9eeba59344d1b0bcf3eacf1e663.1920x1080.jpg?t=1790874369"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Warhammer 40,000: Space Marine 2",
+        "secondary_keywords": [
+          "Warhammer 40,000: Space Marine 2 PC",
+          "Warhammer 40,000: Space Marine 2 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Warhammer 40,000: Space Marine 2 : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-2183900",
+      "topic": "Warhammer 40,000: Space Marine 2 multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-15T07:43:52.695110+00:00",
+      "analysed_at": "2026-10-15T07:43:54.052045+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2183900/",
+          "title": "Warhammer 40,000: Space Marine 2 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Warhammer 40,000: Space Marine 2, consultée le 2026-10-15. Développeur : Saber Interactive. Éditeur : Focus Entertainment. Date de sortie sur Steam : 9 sept. 2024. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, PvP, JcJ en ligne, Coopération, Coopération en ligne, Multijoueur multiplateforme, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Taille de texte réglable, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Devenez un Space Marine, véritable incarnation de puissance surhumaine. Massacrez les nuées tyranides grâce à vos talents mortels et à votre armement. Défendez l’Imperium seul ou à plusieurs au cœur de combats spectaculaires à la troisième personne.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/dc44e5e39009e9eeba59344d1b0bcf3eacf1e663/ss_dc44e5e39009e9eeba59344d1b0bcf3eacf1e663.1920x1080.jpg?t=1790874369"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Warhammer 40,000: Space Marine 2 multijoueur",
+        "secondary_keywords": [
+          "Warhammer 40,000: Space Marine 2 PC",
+          "Warhammer 40,000: Space Marine 2 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Warhammer 40,000: Space Marine 2 multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-arc-raiders-lead-encourages-players-to-take-a-break-and-ec1680965e4e",
+      "topic": "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content",
+      "detected_at": "2026-10-07T20:09:26.726547+00:00",
+      "analysed_at": "2026-10-15T07:43:54.052079+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-lead-says-its-good-to-take-a-break-and-play-some-other-games-if-youre-out-of-content-and-hes-right/",
+          "title": "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content",
+          "evidence": "<article> <p>Arc Raiders is entering a new, hopefully healthier era, both for players and developer Embark Studios. Instead of constantly laying on the gas trying to keep up with player demands, Embark has pumped the brakes a bit to prepare one big update – <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-frozen-trail/\">Arc Raiders' Frozen Trail</a>, out tomorrow, October 8 – and go back to the processes that it used to make this hit extraction shooter in the first place. </p><p>Executive producer Aleksander Grøndal says the dev team is feeling better today, <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-devs-were-super-unhappy-and-super-tired-after-the-shooters-huge-launch-lead-says-causing-embark-to-change-direction-to-avoid-burnout/\"><u>months after becoming \"super unhappy\"</u></a> in the live service content race, and hopes to give players big chunks of content to chew on through this new update schedule. But we will inevitably run out of content again. When we do, let's remember Grøndal's sage advice: \"Take a break and play some other games.\" </p><p>I spoke to Grøndal about what's coming in Frozen Trail and, just as importa"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content",
+        "secondary_keywords": [
+          "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content date de sortie",
+          "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content plateformes",
+          "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content gameplay",
+          "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content guide",
+          "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-troy-baker-says-the-last-of-us-2-s-devastating-final-sc-cb9fe7974dda",
+      "topic": "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game",
+      "detected_at": "2026-10-07T20:09:26.726834+00:00",
+      "analysed_at": "2026-10-15T07:43:54.052108+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-last-of-us/the-last-of-us-2s-troy-baker-says-the-endings-devastating-final-conversation-between-joel-and-ellie-was-originally-supposed-to-be-at-the-start-of-the-game/",
+          "title": "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game",
+          "evidence": "<article> <p>The Last of Us 2 has the perfect video game ending for my money. Without spoiling anything in case you've yet to experience this masterpiece of a game, it's bitterly unsatisfying but somehow, thematically and narratively, the only way to wrap up the story in a way that does justice to the characters, who they are, and what they've all been through.</p><p>OK, now I will get into <strong>spoilers</strong>, so again, if somehow The Last of Us 2 has eluded you in the six years it's been out, go play that darned game and come back here when you're done so we can pick up the pieces together.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:3840px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"oanPTgDuFcXBqoh22x7aFZ\" name=\"2X9YgfjnzR9x3CFNYVsDx6.jpg\" alt=\"The Last of Us 2\" src=\"https://cdn.mos.cms.futurecdn.net/oanPTgDuFcXBqoh22x7aFZ-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"3840\" height=\"2160\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span cl"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game",
+        "secondary_keywords": [
+          "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game date de sortie",
+          "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game plateformes",
+          "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game gameplay",
+          "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game guide",
+          "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-carrie-s-mike-flanagan-explains-why-he-chose-to-exclude-3a6f8700af69",
+      "topic": "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene",
+      "detected_at": "2026-10-07T20:09:26.727000+00:00",
+      "analysed_at": "2026-10-15T07:43:54.052136+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/horror-shows/carries-mike-flanagan-explains-why-he-chose-to-exclude-one-infamous-scene-i-didnt-have-much-of-a-stomach/",
+          "title": "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene",
+          "evidence": "<article> <p>Mike Flanagan says he opted to skip the infamous pig slaughtering scene in his adaptation of Carrie.</p><p>\"Yeah, I didn't have much of a stomach to watch the pig get slaughtered,\" Flanagan tells GamesRadar+. \"There's so much cruelty in the show, but it was also seeing the lack of horror on Chris's face that became more horrific to me. And seeing how far down that road she'd gone and her kind of fascination with that. Yeah, that was how we decided to approach it. I just felt like we've endured so much and are still going to endure so much on the show that to kind of hold an audience's face to the slaughter of the pig was...\" he suggests, trailing off. \"Plus, I just love how Alison played that.\"</p><p>In the 1974 novel, it's described, though not in explicit detail, that Chris Hargensen and her delinquent sociopath boyfriend Billy Thornton decide to break into a farm while the farmer is away and slaughter a pig for its blood. Why? So they can dump it onto Carrie White's head when she's announced as prom queen. In the 1976 movie, we see Billy (John Travolta) and Chris (Nancy Allen) excitedly kill the pig as it squeals to death.</p><p>In Flanagan's TV adaptation, however,"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene",
+        "secondary_keywords": [
+          "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene date de sortie",
+          "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene plateformes",
+          "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene gameplay",
+          "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene guide",
+          "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-star-wars-zero-company-studio-is-returning-furloughed-d-6efafb8f43a0",
+      "topic": "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\"",
+      "detected_at": "2026-10-07T20:09:26.727169+00:00",
+      "analysed_at": "2026-10-15T07:43:54.052162+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/strategy/star-wars-zero-company-studio-is-returning-furloughed-developers-after-the-strategy-rpgs-incredible-response/",
+          "title": "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\"",
+          "evidence": "<article> <p>Star Wars Zero Company developer Bit Reactor is actively \"returning more of our team back to work\" after furloughing staff right before launch due to apparent budget issues. </p><p>In a post on <a href=\"https://bsky.app/profile/bitreactor.com/post/3mxcgabtzjk2b\" target=\"_blank\">Bluesky</a>, Bit Reactor CEO Greg Foertsch confirms the great de-furloughing began this week, which it calls \"an important step in our continued support for Zero Company.\"</p><p>The statement confirms much of <a href=\"https://www.gamesradar.com/games/strategy/star-wars-zero-company-studio-furloughed-staff-right-before-the-strategy-game-launched-due-to-reportedly-running-low-on-money/\">what was reported</a> around the launch. \"Having to ask team members to step away after we navigated unexpected business developments out of our control and so close to launch was an incredibly difficult decision, but one that was necessary to help us eventually bring as many people back as possible,\" Foertsch continues.</p><p>It's unclear how many, if any, developers may be laid off at the end of this return process. Whereas layoffs result in immediate job cuts, a furlough is essentially a period of unpaid absence"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\"",
+        "secondary_keywords": [
+          "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" date de sortie",
+          "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" plateformes",
+          "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" gameplay",
+          "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" guide",
+          "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-grab-these-essential-beginner-board-games-if-you-want-t-2103760239be",
+      "topic": "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year",
+      "detected_at": "2026-10-07T20:09:26.727502+00:00",
+      "analysed_at": "2026-10-15T07:43:54.052187+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/board-games/grab-these-essential-beginner-board-games-if-you-want-to-avoid-playing-monopoly-with-your-family-this-year/",
+          "title": "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year",
+          "evidence": "<article> <p>Are you dreading family get-togethers this year because your folks insist on breaking out dusty old board games like Monopoly? Can't face another dinner table meltdown because a sibling got screwed out of Bond Street? It's a special kind of torture, but it's not one you need to suffer.</p><p>There's a whole world of amazing alternatives out there, especially in 2026. As you can probably tell from the explosion of tabletop content on social media or the glut of board game cafes worldwide, it's got a lot more to give. While the sheer amount of options may seem intimidating (particularly when we move toward strategy games), there are some truly excellent beginner board games out there that are perfect for playing with family who've never moved far beyond Clue. </p><p>I spend a lot of my time reporting on and reviewing the <a href=\"https://www.gamesradar.com/best-board-games/\">best board games</a>, so have used that experience to recommend some essential purchases here. These are often called 'gateway' games because they're accessible yet deeper than dusty old classics like Monopoly, and more than a few are on offer right now for Amazon's Big Deal Days. If you want somethi"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year",
+        "secondary_keywords": [
+          "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year date de sortie",
+          "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year plateformes",
+          "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year gameplay",
+          "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year guide",
+          "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-nier-automata-mastermind-yoko-taro-says-he-s-still-maki-0c522d4de627",
+      "topic": "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\"",
+      "detected_at": "2026-10-07T20:09:26.727714+00:00",
+      "analysed_at": "2026-10-15T07:43:54.052212+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/nier-automata-mastermind-yoko-taro-says-hes-still-making-games-for-dementia-prevention-and-he-finished-his-masterpiece-years-before-nier-was-even-a-thing/",
+          "title": "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\"",
+          "evidence": "<article> <p>By now, Yoko Taro's become one of the more prolific game developers around, and not just because of the distinctive moon mask he always wears during public appearances. <a href=\"https://www.gamesradar.com/uk/nier-automata/\">Nier: Automata</a> is a genuine worldwide sensation, a spin-off from his Drakengard series, and during a recent conversation he mentioned he's really done all he set out to do in the medium.</p><p>The RPG creator sat down to speak with fellow dev Keisuke Okabe, who directed EnderLilies, for the opening ceremony of The Tenth Mosaic in late September. During their conversation, covered by <a href=\"https://www.4gamer.net/games/529/G052929/20261005007/\" target=\"_blank\">4Gamer</a> and translated by <a href=\"https://automaton-media.com/en/news/yoko-taro-says-he-already-achieved-his-game-development-dreams-with-drakengard-and-now-works-to-prevent-dementia/\" target=\"_blank\">Automaton</a>, Yoko Taro got into his current slate of projects.</p><p>Well, he mentioned there's not a huge amount happening in that area, by choice, because he's quite satisfied with his achievements at the minute. The first Drakengard was a distillation of more or less everything he w"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\"",
+        "secondary_keywords": [
+          "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" date de sortie",
+          "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" plateformes",
+          "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" gameplay",
+          "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" guide",
+          "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\""
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

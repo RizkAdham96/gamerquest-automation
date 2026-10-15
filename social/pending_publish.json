@@ -1,0 +1,76 @@
+{
+  "source_id": "328162811d854f8ee77d57aa3385ac8c1691480f05841c440267a415aa266402",
+  "carousel_version": "8b570df55fbe8ea2217a0b1cda98eda7ab2d62b916dd549681f054c30cb5c638",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    770,
+    771,
+    772
+  ],
+  "prepared_at_utc": "2026-10-15T20:05:08.794863Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "328162811d854f8ee77d57aa3385ac8c1691480f05841c440267a415aa266402",
+    "source_title": "Halo: The Master Chief Collection à -75% sur Steam",
+    "score": 74.5,
+    "idea": {
+      "source_id": "328162811d854f8ee77d57aa3385ac8c1691480f05841c440267a415aa266402",
+      "topic": "Promotion exceptionnelle sur Halo: The Master Chief Collection",
+      "angle": "Profitez d’une réduction de 75 % sur Steam, le prix passe de 39,99 € à seulement 9,99 €.",
+      "format": "deal_alert",
+      "hook": "🔥 Offre flash : Halo MCC à -75 % – saisissez votre copie pour moins de 10 € !",
+      "freshness": 9,
+      "click_potential": 9,
+      "curiosity": 6,
+      "shareability": 7,
+      "originality": 5,
+      "gamerquest_relevance": 9,
+      "total_score": 74.5
+    },
+    "carousel": {
+      "topic": "Promotion exceptionnelle sur Halo: The Master Chief Collection",
+      "angle": "Profitez d’une réduction de 75 % sur Steam, le prix passe de 39,99 € à seulement 9,99 €.",
+      "format": "deal_alert",
+      "hook": "🔥 Offre flash : Halo MCC à -75 % – saisissez votre copie pour moins de 10 € !",
+      "score": 74.5,
+      "slides": [
+        {
+          "title": "🔥 Offre flash : Halo MCC à -75 % !",
+          "body": "Une réduction exceptionnelle vous attend. Découvrez le prix choc !",
+          "visual_prompt": "A dynamic image of the Halo Master Chief helmet with a bold discount badge, set against a dark sci‑fi background."
+        },
+        {
+          "title": "Prix passé de 39,99 € à 9,99 €",
+          "body": "Halo: The Master Chief Collection bénéficie d’une réduction de 75 % sur Steam, le tarif chute à seulement 9,99 €.",
+          "visual_prompt": "Close‑up of the Halo: The Master Chief Collection cover art with a price tag showing 9,99 €."
+        },
+        {
+          "title": "Disponible dès maintenant sur Steam",
+          "body": "Ajoutez la collection à votre bibliothèque. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Steam storefront screenshot style showing the Halo: The Master Chief Collection listing with the discounted price."
+        }
+      ],
+      "caption": "Réduction de 75 % sur Halo: The Master Chief Collection disponible sur Steam.",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "328162811d854f8ee77d57aa3385ac8c1691480f05841c440267a415aa266402"
+    },
+    "caption": "Réduction de 75 % sur Halo: The Master Chief Collection disponible sur Steam.",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 2
+  }
+}

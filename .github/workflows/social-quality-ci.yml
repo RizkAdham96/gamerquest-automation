@@ -5,8 +5,6 @@ on:
     paths:
       - "social/**"
       - "tests/social/**"
-      - ".github/workflows/social-test.yml"
-      - ".github/workflows/social-publish-recovery.yml"
       - ".github/workflows/social-quality-ci.yml"
   push:
     branches:
@@ -14,8 +12,6 @@ on:
     paths:
       - "social/**"
       - "tests/social/**"
-      - ".github/workflows/social-test.yml"
-      - ".github/workflows/social-publish-recovery.yml"
       - ".github/workflows/social-quality-ci.yml"
   workflow_dispatch:
 

@@ -37,6 +37,8 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
         self.assert_cron("reviews.yml", "27 5 * * *")
         self.assert_cron("content-health.yml", "43 */6 * * *")
         self.assert_cron("acquisition-shadow.yml", "17 4 * * *")
+        self.assert_cron("social-test.yml", "30 12,18 * * *")
+        self.assert_cron("social-publish-recovery.yml", "15 13,19 * * *")
 
     def test_production_workflows_are_not_push_publishers(self):
         for name in (
@@ -46,6 +48,8 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
             "reviews.yml",
             "content-health.yml",
             "acquisition-shadow.yml",
+            "social-test.yml",
+            "social-publish-recovery.yml",
         ):
             with self.subTest(workflow=name):
                 self.assert_no_push_trigger(name)
@@ -57,6 +61,8 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
             "test-deals.yml",
             "reviews.yml",
             "acquisition-shadow.yml",
+            "social-test.yml",
+            "social-publish-recovery.yml",
         ):
             with self.subTest(workflow=name):
                 self.assert_no_regression_suite(name)
@@ -70,20 +76,13 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
         self.assertEqual(text.count("python -m deals.build_feed"), 1)
         self.assertEqual(text.count("python -m deals.publish_wordpress"), 1)
 
-    def test_carousel_automation_is_removed(self):
-        # The editor replaced Instagram carousels with Reels
-        # (gamerquest-social-agent) on 2026-10-15; no workflow may post them.
-        for name in (
-            "social-test.yml",
-            "social-publish-recovery.yml",
-            "social-sunday.yml",
-            "social-publish-now-once.yml",
-        ):
-            with self.subTest(workflow=name):
-                self.assertFalse((WORKFLOWS / name).exists(), name)
-        for path in WORKFLOWS.glob("*.yml"):
-            with self.subTest(workflow=path.name):
-                self.assertNotIn("social.publish_run", path.read_text(encoding="utf-8"))
+    def test_social_is_consolidated(self):
+        self.assertFalse((WORKFLOWS / "social-sunday.yml").exists())
+        self.assertFalse((WORKFLOWS / "social-publish-now-once.yml").exists())
+        social = workflow("social-test.yml")
+        recovery = workflow("social-publish-recovery.yml")
+        self.assertIn('timezone: "Europe/Paris"', social)
+        self.assertIn('timezone: "Europe/Paris"', recovery)
 
     def test_duplicate_ci_is_consolidated(self):
         self.assertFalse((WORKFLOWS / "test-trending-seo.yml").exists())
@@ -124,6 +123,7 @@ class BalancedAutomationPolicyTests(unittest.TestCase):
             "test-deals.yml",
             "reviews.yml",
             "acquisition-shadow.yml",
+            "social-test.yml",
         ):
             with self.subTest(workflow=name):
                 self.assertNotIn("pip install --upgrade pip", workflow(name))

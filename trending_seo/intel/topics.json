@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-15T07:43:53.618276+00:00",
+  "updated_at": "2026-10-15T18:39:49.522280+00:00",
   "evergreen_checked_games": [
     "baldur s gate 3",
     "buried stars",
@@ -41,292 +41,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "evg-config-1174180",
-      "topic": "Configuration PC Red Dead Redemption 2 : minimale, recommandée et conseils",
-      "detected_at": "2026-10-07T09:16:06.501392+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1174180/",
-          "title": "Red Dead Redemption 2 sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Red Dead Redemption 2, consultée le 2026-10-07. Développeur : Rockstar Games. Éditeur : Rockstar Games. Date de sortie sur Steam : 5 déc. 2019. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 - 64-bit ; Processeur : Intel® Core™ i5-2500K / AMD FX-6300 ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB ; Réseau : connexion internet haut débit ; Espace disque : 150 GB d'espace disque disponible ; Carte son : Direct X Compatible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 - 64-bit ; Processeur : Intel® Core™ i7-4770K / AMD Ryzen 5 1500X ; Mémoire vive : 12 GB de mémoire ; Graphiques : Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB ; Réseau : connexion internet haut débit ; Espace disque : 150 GB d'espace disque disponible ; Carte son : Direct X Compatible.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.1920x1080.jpg?t=1759502961"
-        }
-      ],
-      "keywords": [
-        "configuration pc Red Dead Redemption 2",
-        "Red Dead Redemption 2 PC",
-        "Red Dead Redemption 2 Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-1174180",
-      "topic": "Red Dead Redemption 2 multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-07T09:16:06.501436+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1174180/",
-          "title": "Red Dead Redemption 2 sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Red Dead Redemption 2, consultée le 2026-10-07. Développeur : Rockstar Games. Éditeur : Rockstar Games. Date de sortie sur Steam : 5 déc. 2019. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, PvP, JcJ en ligne, Coopération, Coopération en ligne, Succès Steam, Achats en jeu, Compat. contrôleurs partielle, Remote Play sur téléphone, Remote Play sur tablette. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : Arthur Morgan et la bande de Van der Linde sont des hors-la-loi fugitifs. Les agents fédéraux et les chasseurs de primes sont à leurs trousses et la bande commet méfaits sur méfaits dans les terres sauvages pour survivre.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.1920x1080.jpg?t=1759502961"
-        }
-      ],
-      "keywords": [
-        "Red Dead Redemption 2 multijoueur",
-        "Red Dead Redemption 2 PC",
-        "Red Dead Redemption 2 Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "rss-arc-raiders-lead-encourages-players-to-take-a-break-and-ec1680965e4e",
-      "topic": "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content",
-      "detected_at": "2026-10-07T20:09:26.726547+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-lead-says-its-good-to-take-a-break-and-play-some-other-games-if-youre-out-of-content-and-hes-right/",
-          "title": "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content",
-          "evidence": "<article> <p>Arc Raiders is entering a new, hopefully healthier era, both for players and developer Embark Studios. Instead of constantly laying on the gas trying to keep up with player demands, Embark has pumped the brakes a bit to prepare one big update – <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-frozen-trail/\">Arc Raiders' Frozen Trail</a>, out tomorrow, October 8 – and go back to the processes that it used to make this hit extraction shooter in the first place. </p><p>Executive producer Aleksander Grøndal says the dev team is feeling better today, <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-devs-were-super-unhappy-and-super-tired-after-the-shooters-huge-launch-lead-says-causing-embark-to-change-direction-to-avoid-burnout/\"><u>months after becoming \"super unhappy\"</u></a> in the live service content race, and hopes to give players big chunks of content to chew on through this new update schedule. But we will inevitably run out of content again. When we do, let's remember Grøndal's sage advice: \"Take a break and play some other games.\" </p><p>I spoke to Grøndal about what's coming in Frozen Trail and, just as importa"
-        }
-      ],
-      "keywords": [
-        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content",
-        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content date de sortie",
-        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content plateformes",
-        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content gameplay",
-        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content guide",
-        "Arc Raiders lead encourages players to \"take a break and play some other games\" if out of content avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-troy-baker-says-the-last-of-us-2-s-devastating-final-sc-cb9fe7974dda",
-      "topic": "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game",
-      "detected_at": "2026-10-07T20:09:26.726834+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/the-last-of-us/the-last-of-us-2s-troy-baker-says-the-endings-devastating-final-conversation-between-joel-and-ellie-was-originally-supposed-to-be-at-the-start-of-the-game/",
-          "title": "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game",
-          "evidence": "<article> <p>The Last of Us 2 has the perfect video game ending for my money. Without spoiling anything in case you've yet to experience this masterpiece of a game, it's bitterly unsatisfying but somehow, thematically and narratively, the only way to wrap up the story in a way that does justice to the characters, who they are, and what they've all been through.</p><p>OK, now I will get into <strong>spoilers</strong>, so again, if somehow The Last of Us 2 has eluded you in the six years it's been out, go play that darned game and come back here when you're done so we can pick up the pieces together.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:3840px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"oanPTgDuFcXBqoh22x7aFZ\" name=\"2X9YgfjnzR9x3CFNYVsDx6.jpg\" alt=\"The Last of Us 2\" src=\"https://cdn.mos.cms.futurecdn.net/oanPTgDuFcXBqoh22x7aFZ-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"3840\" height=\"2160\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span cl"
-        }
-      ],
-      "keywords": [
-        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game",
-        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game date de sortie",
-        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game plateformes",
-        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game gameplay",
-        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game guide",
-        "Troy Baker says The Last of Us 2's devastating final scene was originally at the start of the game avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-carrie-s-mike-flanagan-explains-why-he-chose-to-exclude-3a6f8700af69",
-      "topic": "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene",
-      "detected_at": "2026-10-07T20:09:26.727000+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/entertainment/horror-shows/carries-mike-flanagan-explains-why-he-chose-to-exclude-one-infamous-scene-i-didnt-have-much-of-a-stomach/",
-          "title": "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene",
-          "evidence": "<article> <p>Mike Flanagan says he opted to skip the infamous pig slaughtering scene in his adaptation of Carrie.</p><p>\"Yeah, I didn't have much of a stomach to watch the pig get slaughtered,\" Flanagan tells GamesRadar+. \"There's so much cruelty in the show, but it was also seeing the lack of horror on Chris's face that became more horrific to me. And seeing how far down that road she'd gone and her kind of fascination with that. Yeah, that was how we decided to approach it. I just felt like we've endured so much and are still going to endure so much on the show that to kind of hold an audience's face to the slaughter of the pig was...\" he suggests, trailing off. \"Plus, I just love how Alison played that.\"</p><p>In the 1974 novel, it's described, though not in explicit detail, that Chris Hargensen and her delinquent sociopath boyfriend Billy Thornton decide to break into a farm while the farmer is away and slaughter a pig for its blood. Why? So they can dump it onto Carrie White's head when she's announced as prom queen. In the 1976 movie, we see Billy (John Travolta) and Chris (Nancy Allen) excitedly kill the pig as it squeals to death.</p><p>In Flanagan's TV adaptation, however,"
-        }
-      ],
-      "keywords": [
-        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene",
-        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene date de sortie",
-        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene plateformes",
-        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene gameplay",
-        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene guide",
-        "Carrie's Mike Flanagan explains why he chose to exclude one infamous scene avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-star-wars-zero-company-studio-is-returning-furloughed-d-6efafb8f43a0",
-      "topic": "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\"",
-      "detected_at": "2026-10-07T20:09:26.727169+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/strategy/star-wars-zero-company-studio-is-returning-furloughed-developers-after-the-strategy-rpgs-incredible-response/",
-          "title": "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\"",
-          "evidence": "<article> <p>Star Wars Zero Company developer Bit Reactor is actively \"returning more of our team back to work\" after furloughing staff right before launch due to apparent budget issues. </p><p>In a post on <a href=\"https://bsky.app/profile/bitreactor.com/post/3mxcgabtzjk2b\" target=\"_blank\">Bluesky</a>, Bit Reactor CEO Greg Foertsch confirms the great de-furloughing began this week, which it calls \"an important step in our continued support for Zero Company.\"</p><p>The statement confirms much of <a href=\"https://www.gamesradar.com/games/strategy/star-wars-zero-company-studio-furloughed-staff-right-before-the-strategy-game-launched-due-to-reportedly-running-low-on-money/\">what was reported</a> around the launch. \"Having to ask team members to step away after we navigated unexpected business developments out of our control and so close to launch was an incredibly difficult decision, but one that was necessary to help us eventually bring as many people back as possible,\" Foertsch continues.</p><p>It's unclear how many, if any, developers may be laid off at the end of this return process. Whereas layoffs result in immediate job cuts, a furlough is essentially a period of unpaid absence"
-        }
-      ],
-      "keywords": [
-        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\"",
-        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" date de sortie",
-        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" plateformes",
-        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" gameplay",
-        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" guide",
-        "Star Wars Zero Company studio is \"returning\" furloughed developers after \"incredible response\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-grab-these-essential-beginner-board-games-if-you-want-t-2103760239be",
-      "topic": "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year",
-      "detected_at": "2026-10-07T20:09:26.727502+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/board-games/grab-these-essential-beginner-board-games-if-you-want-to-avoid-playing-monopoly-with-your-family-this-year/",
-          "title": "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year",
-          "evidence": "<article> <p>Are you dreading family get-togethers this year because your folks insist on breaking out dusty old board games like Monopoly? Can't face another dinner table meltdown because a sibling got screwed out of Bond Street? It's a special kind of torture, but it's not one you need to suffer.</p><p>There's a whole world of amazing alternatives out there, especially in 2026. As you can probably tell from the explosion of tabletop content on social media or the glut of board game cafes worldwide, it's got a lot more to give. While the sheer amount of options may seem intimidating (particularly when we move toward strategy games), there are some truly excellent beginner board games out there that are perfect for playing with family who've never moved far beyond Clue. </p><p>I spend a lot of my time reporting on and reviewing the <a href=\"https://www.gamesradar.com/best-board-games/\">best board games</a>, so have used that experience to recommend some essential purchases here. These are often called 'gateway' games because they're accessible yet deeper than dusty old classics like Monopoly, and more than a few are on offer right now for Amazon's Big Deal Days. If you want somethi"
-        }
-      ],
-      "keywords": [
-        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year",
-        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year date de sortie",
-        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year plateformes",
-        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year gameplay",
-        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year guide",
-        "Grab these essential beginner board games if you want to avoid playing Monopoly with your family this year avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-nier-automata-mastermind-yoko-taro-says-he-s-still-maki-0c522d4de627",
-      "topic": "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\"",
-      "detected_at": "2026-10-07T20:09:26.727714+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/action-rpg/nier-automata-mastermind-yoko-taro-says-hes-still-making-games-for-dementia-prevention-and-he-finished-his-masterpiece-years-before-nier-was-even-a-thing/",
-          "title": "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\"",
-          "evidence": "<article> <p>By now, Yoko Taro's become one of the more prolific game developers around, and not just because of the distinctive moon mask he always wears during public appearances. <a href=\"https://www.gamesradar.com/uk/nier-automata/\">Nier: Automata</a> is a genuine worldwide sensation, a spin-off from his Drakengard series, and during a recent conversation he mentioned he's really done all he set out to do in the medium.</p><p>The RPG creator sat down to speak with fellow dev Keisuke Okabe, who directed EnderLilies, for the opening ceremony of The Tenth Mosaic in late September. During their conversation, covered by <a href=\"https://www.4gamer.net/games/529/G052929/20261005007/\" target=\"_blank\">4Gamer</a> and translated by <a href=\"https://automaton-media.com/en/news/yoko-taro-says-he-already-achieved-his-game-development-dreams-with-drakengard-and-now-works-to-prevent-dementia/\" target=\"_blank\">Automaton</a>, Yoko Taro got into his current slate of projects.</p><p>Well, he mentioned there's not a huge amount happening in that area, by choice, because he's quite satisfied with his achievements at the minute. The first Drakengard was a distillation of more or less everything he w"
-        }
-      ],
-      "keywords": [
-        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\"",
-        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" date de sortie",
-        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" plateformes",
-        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" gameplay",
-        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" guide",
-        "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-if-you-want-cheap-nerf-guns-take-aim-at-these-excellent-9b88402a43d8",
-      "topic": "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts",
-      "detected_at": "2026-10-07T20:09:26.728005+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/toys-collectibles/if-you-want-cheap-nerf-guns-take-aim-at-these-excellent-blasters-with-massive-discounts/",
-          "title": "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts",
-          "evidence": "<article> <p>Summer may be the preserve of Super Soakers, but Fall is all about Nerf guns. The <a href=\"https://www.gamesradar.com/best-nerf-guns/\">best Nerf blasters</a> come into their own when weather forces play inside, and cool new designs (like the video game-inspired Rebel Ops range that just hit shelves) drop every year to shake things up. Events like Prime Day ensure we don't have to pay through the nose for them, and Amazon has slashed the price for many top toys today. That makes it so much easier to build up an arsenal for less.</p><p>Actually, there are almost too many offers... and not all of them are as good as they say they are. Because I spend a lot of my time writing about toys and tracking sales, I've tried to cut through the noise and bring you what I think are the best savings on Nerf guns for Prime Day. There <em>are </em>other discounts to be had <a href=\"https://www.amazon.com/s?k=nerf+guns&crid=32ZCGP7JEZPJT&sprefix=Nerf%2Caps%2C281&ref=nb_sb_ss_p13n-expert-pd-ops-ranker_ci_hl-bn-left_1_4\" target=\"_blank\"><strong>at Amazon</strong></a>, but I think these rule the roost in terms of value.</p><p>Of all the savings I've seen, the one that stood out to me most "
-        }
-      ],
-      "keywords": [
-        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts",
-        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts date de sortie",
-        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts plateformes",
-        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts gameplay",
-        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts guide",
-        "If you want cheap Nerf guns, take aim at these excellent blasters with massive discounts avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-new-stealth-rpg-takes-the-blood-of-dawnwalker-s-controv-15a5c11a3b0c",
-      "topic": "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask",
-      "detected_at": "2026-10-07T20:09:26.728209+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/rpg/this-stealth-rpg-looks-at-the-blood-of-dawnwalkers-time-limit-discourse-and-says-screw-it-were-going-full-majoras-mask/",
-          "title": "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask",
-          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/the-blood-of-dawnwalker-guide/\">The Blood of Dawnwalker</a> managed to stir up quite a controversy with its time restrictions, but that's not scaring indie developers away from instilling some good ol' FOMO in players – in fact, some are leaning <em>well</em> into it.</p><p>If you're old enough to remember Majora's Mask, one of the <a href=\"https://www.gamesradar.com/best-zelda-games/\">best Zelda games</a> of all time, then you're also (un)lucky enough to have grappled with its three-day cycle. It's stressful, sure, but it's what makes the game as fun and unique as it is – if you ask me, anyway. <br><br>I'm not the only one who thinks so, apparently, as Studio Zubio is cooking up a stealth RPG with a similar feature… Bunderkin: The Ocular Eclipse. You can back it on <a href=\"https://www.kickstarter.com/projects/studiozubio/bunderkin-the-ocular-eclipse/description\" target=\"_blank\">Kickstarter</a> right now, where it's already racked up nearly four times its initial $44,444 goal with nearly $175,000 raised so far. <br><br>So, what <em>is</em> Bunderkin? Well, like I said, it finds players \"trapped in a three-day time loop\" as the ever-"
-        }
-      ],
-      "keywords": [
-        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask",
-        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask date de sortie",
-        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask plateformes",
-        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask gameplay",
-        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask guide",
-        "New stealth RPG takes The Blood of Dawnwalker's controversial time limit and goes full Majora's Mask avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-gta-6-boss-says-we-have-made-money-matter-more-in-this--cd3d176844bd",
-      "topic": "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games",
-      "detected_at": "2026-10-07T20:09:26.728385+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-boss-says-we-have-made-money-matter-more-in-this-story-than-in-previous-grand-theft-auto-games/",
-          "title": "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games",
-          "evidence": "<article> <p>I don't mean to alarm you, but <a href=\"https://www.gamesradar.com/gta-6-guide/\"><u>GTA 6</u></a> is set to launch <em>next month</em>. There's obviously going to be a lot for fans to discover come release day, but one potential learning curve might come in the form of earning enough in-game cash to keep the narrative flowing.</p><p>Or that's what it sounds like, according to Rockstar North co-studio boss Rob Nelson. Chatting with <a href=\"https://www.ign.com/articles/gta-6-the-big-interview\" target=\"_blank\"><u>IGN in an interview</u></a> from earlier this year that's now been posted in full, the lead discusses the importance of money in GTA 6, and how you <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-will-lock-you-out-of-story-missions-if-youre-too-broke-so-its-good-to-know-the-robbery-mechanics-have-been-massively-expanded/\"><u>won't actually be able to progress through the story if you're broke</u></a>.</p><p>\"We have made money matter more in this story than I think it has in previous GTA games,\" Nelson says. \"There are times when you actually have to go out into the world and make money – whether you're boosting cars and selling them or sticking"
-        }
-      ],
-      "keywords": [
-        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games",
-        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games date de sortie",
-        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games plateformes",
-        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games gameplay",
-        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games guide",
-        "GTA 6 boss says \"we have made money matter more in this story\" than previous Grand Theft Auto games avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-capcom-enlists-ron-perlman-for-dragon-s-dogma-2-dark-ar-f1397ea0eae0",
-      "topic": "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1",
-      "detected_at": "2026-10-07T20:09:26.728565+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/rpg/capcom-enlists-ron-perlman-for-dragons-dogma-2-dark-arisen-promo-hopefully-pays-him-more-than-the-sandwich-and-usd40-he-got-for-fallout/",
-          "title": "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1",
-          "evidence": "<article> <p>Fallout and Hellboy star Ron Perlman is teaming up with Capcom again to introduce you to <a href=\"https://www.gamesradar.com/dragons-dogma-2-guide/\"><u>Dragon's Dogma 2</u></a>: Dark Arisen.</p><p>Despite being best known for his myriad film and TV roles, Perlman is a pretty prolific voice actor, especially in games. His most famous contribution is to the Fallout series, where he serves as the narrator in multiple games, as well as the TV anchor that announces the bombs dropping in Fallout 4. Notably, <a href=\"https://www.gamesradar.com/games/fallout/fallout-narrator-and-hollywood-legend-ron-perlman-says-he-joined-the-rpg-franchise-for-usd40-and-a-sandwich-wondered-why-after-being-informed-there-was-more-than-one-game/\" target=\"_blank\"><u>he had no clue the series would be a success</u></a>, saying that he was caught off guard when he heard there was a sequel coming, as he recalls working on the first entry as \"I did a couple of lines, and, you know, got my $40 and my sandwich and went home.\"</p><p>And while never appearing in a Capcom game, Perlman did appear in 2020's Monster Hunter film, wearing an extremely anime-looking wig that did not suit his demeanor in the sl"
-        }
-      ],
-      "keywords": [
-        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1",
-        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1 date de sortie",
-        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1 plateformes",
-        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1 gameplay",
-        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1 guide",
-        "Capcom enlists Ron Perlman for Dragon's Dogma 2: Dark Arisen, hopefully pays him more than he got for Fallout 1 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-the-hyperx-cloud-iii-is-a-superb-wired-headset-and-a-no-c0b766715463",
       "topic": "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound",
@@ -5981,6 +5695,294 @@
         "Warhammer 40,000: Space Marine 2 Steam"
       ],
       "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-5-best-new-shows-and-movies-streaming-this-week-on--984b1833af4f",
+      "topic": "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18)",
+      "detected_at": "2026-10-15T18:39:49.520660+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/streaming-services/new-shows-movies-to-stream-disney-plus-netflix-prime-video-apple-tv-october-16-18/",
+          "title": "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18)",
+          "evidence": "<article> <p>Looking for what to stream this weekend? Then you've come to the right place. We've searched the most popular streaming services to bring you our bespoke list of the titles worth watching this weekend, so you can kick back and relax with the most exciting new releases. </p><p>Below, you'll find everything from the latest <a href=\"https://www.gamesradar.com/marvel-phase-6-movies-shows/\">Marvel Phase 6</a> release to a heart-breaking tale of loss and love. So, whatever you're in the mood for this weekend, we've got you covered. Our recommendations this week cover Disney Plus, Apple TV, Netflix, and more. </p><p>As the weather gets colder, a night in front of the TV has never looked so inviting. We've even got a seasonally appropriate horror show to check out, too. So, for our top picks of the weekend, head on down. Happy streaming!</p><h2 id=\"visionquest\">VisionQuest</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"j5qrkHwKj8Dprkq3GSzYnH\" name=\"VisionQuest\" alt=\"Vision (Paul Bettany"
+        }
+      ],
+      "keywords": [
+        "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18)",
+        "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18) date de sortie",
+        "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18) plateformes",
+        "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18) gameplay",
+        "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18) guide",
+        "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18) avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-zelda-doesn-t-rate-against-gta-6-and-cod-as-the-biggest-0b5e750d06c9",
+      "topic": "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says",
+      "detected_at": "2026-10-15T18:39:49.520803+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/call-of-duty/zelda-ocarina-of-time-remake-doesnt-even-rate-against-gta-6-and-call-of-duty-modern-warfare-4-as-the-biggest-games-of-the-year-activision-exec-says/",
+          "title": "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/the-legend-of-zelda-ocarina-of-time-remake-guide/\">The Legend of Zelda: Ocarina of Time remake</a> is generating a massive amount of buzz, but given the proximity of its November 5 release date to the launch of <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>. it's difficult not to compare the games. But according to Tyler Bahl, Activision's chief marketing officer, GTA and <a href=\"https://www.gamesradar.com/games/call-of-duty-modern-warfare-4-guide/\">Call of Duty: Modern Warfare 4</a> make up the <em>real</em> one-two punch of 2026.</p><p>\"Well, no offense to Zelda, but I think these are the two biggest games of the year,\" Bahl tells <a href=\"https://www.youtube.com/watch?v=wTg-2jEpvz0\" target=\"_blank\">The Game Business</a>. There's no denying that GTA 6 is <em>the</em> biggest game of the year, but how do Zelda and Call of Duty compare?</p><p>Mat Piscatella of analyst group Circana <a href=\"https://bsky.app/profile/matpiscatella.bsky.social/post/3mxwcdlcsms2f\" target=\"_blank\">notes</a> that purchase intent for Modern Warfare 4 is sitting around 15%, meaning that the group figures about 15% of console and PC players in t"
+        }
+      ],
+      "keywords": [
+        "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says",
+        "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says date de sortie",
+        "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says plateformes",
+        "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says gameplay",
+        "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says guide",
+        "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-ghost-of-yotei-dlc-isn-t-great-but-it-s-a-good-remi-f12c7c90c405",
+      "topic": "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is",
+      "detected_at": "2026-10-15T18:39:49.520975+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/open-world/the-ghost-of-yotei-dlc-isnt-great-but-its-a-good-reminder-of-why-the-main-game-is/",
+          "title": "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is",
+          "evidence": "<article> <p>At the risk of repeating myself, Ghost of Yotei is perhaps <a href=\"https://www.gamesradar.com/games/open-world/i-had-more-fun-exploring-ghost-of-yotei-than-i-have-in-any-other-open-world-game-not-just-this-year-but-ever/\">my favorite video game of 2025</a>. I absolutely inhaled the entire game before it was even released, got the Platinum trophy (<a href=\"https://www.gamesradar.com/games/open-world/after-70-hours-with-ghost-of-yotei-before-the-game-even-launched-i-couldnt-help-but-come-back-for-more-and-thats-why-its-my-only-platinum-trophy-of-2025/\">my very first</a>) soon after, and generally spent dozens upon dozens of hours wandering the beautiful vistas of Yotei as Atsu. Despite all of this, the recent Ghost of Yotei DLC has done absolutely nothing for me – except remind me why I loved Ghost of Yotei in the first place.</p><p>When Ghost of Yotei Complete Edition was <a href=\"https://www.gamesradar.com/games/open-world/ghost-of-yotei-complete-edition-launches-on-disc-alongside-echoes-of-sekigahara-dlc-a-full-on-narrative-expansion-with-a-new-location/\">first announced back in August</a>, the idea of an entirely new narrative expansion – Ghost of Yotei: Echoes of S"
+        }
+      ],
+      "keywords": [
+        "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is",
+        "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is date de sortie",
+        "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is plateformes",
+        "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is gameplay",
+        "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is guide",
+        "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-konami-takes-emergency-action-as-yu-gi-oh-hits-a-rare-l-b1b19216fe3a",
+      "topic": "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\"",
+      "detected_at": "2026-10-15T18:39:49.521132+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/tabletop-gaming/konami-takes-emergency-action-as-yu-gi-oh-hits-a-rare-low-new-ban-list-sees-34-newly-forbidden-cards-and-8-limited-cards/",
+          "title": "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\"",
+          "evidence": "<article> <p>With the Yu-Gi-Oh TCG in bad shape in the mainstay advanced format, operator Konami has put together an emergency ban list that's expected to be nuclear. </p><p>\"Forbidden & Limited list updates are coming, to prep for Magnificent Maestros!\" <a href=\"https://x.com/YuGiOhCardEU/status/2110453083943657746\" target=\"_blank\"><u>reads a post</u></a> from the official Yu-Gi-Oh Konami Europe Twitter account. \"With 34 newly Forbidden cards and 8 Limited cards, we’re revealing the list in 5 parts at YCS Houston – 1 on Friday, 2 each on Saturday and Sunday!\"</p><p>Magnificent Maestros is a new Yu-Gi-Oh holiday set scheduled to launch on November 13, featuring \"re-imagined cards based on characters from the TV series: Seto Kaiba, Zane Truesdale, Jack Atlas, Kite Tenjo, Yuto/Yugo/Yuri, and Varis.\" </p><p>With everything from Blue-Eyes fan service to full-art collector pieces, this is the type of product that would normally excite a range of Yu-Gi-Oh players, but many people currently find the game so tiresome that the response has been blunted. Magnificent Maestros also contains plenty of powerful cards relevant to top decks, and the latest ban list did very little to adjust the lo"
+        }
+      ],
+      "keywords": [
+        "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\"",
+        "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\" date de sortie",
+        "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\" plateformes",
+        "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\" gameplay",
+        "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\" guide",
+        "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-diablo-5-has-officially-started-filming-cinematics-for--eec77f92d1ea",
+      "topic": "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG",
+      "detected_at": "2026-10-15T18:39:49.521238+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/diablo-5-has-officially-started-filming-cinematics-for-blizzards-upcoming-action-rpg/",
+          "title": "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG",
+          "evidence": "<article> <p>We know development on <a href=\"https://www.gamesradar.com/games/diablo/diablo-5-guide/\">Diablo 5</a> is well underway, since the sequel was announced at this year's BlizzCon with a snazzy trailer. How far along is another question, since no gameplay was shown; however, production on the action-RPG's cinematics is now in motion.</p><p>We know this thanks to Neil David Carter, the cinematics director for the Diablo series at <a href=\"https://www.gamesradar.com/uk/tag/blizzard-entertainment/\">Blizzard</a>. He posted <a href=\"https://x.com/neildavidcarter/status/2110464077676085720\" target=\"_blank\">an image on Twitter</a> of an empty soundstage, ready for production crew and actors to start putting scenes together.</p><p>\"First shoot Diablo 5,\" he says in the caption. Nothing else is said, but he wouldn't be at liberty to discuss any of the finer details right now. And I imagine a lot of material will still be in flux, too.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2110464077676085720\"><p lang=\"en\" dir=\"ltr\">First shoot #Diablo5 https://t.co/3SDU51n3ch<a hr"
+        }
+      ],
+      "keywords": [
+        "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG",
+        "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG date de sortie",
+        "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG plateformes",
+        "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG gameplay",
+        "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG guide",
+        "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-despite-controversy-world-of-warcraft-forever-s-30-skyb-dcfdee2ea8e6",
+      "topic": "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular",
+      "detected_at": "2026-10-15T18:39:49.521368+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/despite-controversy-world-of-warcraft-forevers-usd30-skyborne-race-is-one-of-the-betas-most-popular-among-both-horde-and-alliance-players/",
+          "title": "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-is-a-whole-new-wow-game-launching-in-november-thatll-live-alongside-classic-and-vanilla/\">World of Warcraft: Forever</a> hasn't come without its controversies, with the most notable of all perhaps surrounding <a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-has-a-new-race-you-cant-get-without-paying-usd30-and-its-not-the-first-impression-fans-were-hoping-for-they-are-just-blue-elves/\">the new Skyborne race</a> – but the Beta proves it's not <em>that</em> unpopular.</p><p>The WoW: Forever Beta has been underway for nearly a month now, giving fan-led projects like <a href=\"http://classic.io\" target=\"_blank\">Classic.io</a>, which collects player data from the game, a chance to bloom. <br><br>So, what do the numbers on the site tell us so far, then? Well, perhaps most interestingly, the Skyborne aren't even the least popular race. In fact, the Alliance-aligned Skyborne are the fourth <em>most</em> popular race, with their Horde-aligned counterpart following close behind.</p><p>They've got the Night Elves, Dwarves, Gnomes, Tauren, and Trolls beat, too. "
+        }
+      ],
+      "keywords": [
+        "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular",
+        "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular date de sortie",
+        "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular plateformes",
+        "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular gameplay",
+        "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular guide",
+        "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-shigaku-codes-october-2026-and-how-to-redeem-them-for-f-93c6d7e171d7",
+      "topic": "Shigaku codes (October 2026) and how to redeem them for free Rerolls and Cash",
+      "detected_at": "2026-10-15T18:39:49.521504+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/shigaku-codes/",
+          "title": "Shigaku codes (October 2026) and how to redeem them for free Rerolls and Cash",
+          "evidence": "<article> <p>Shigaku codes will give you more opportunities to rise to the top of the class, as you go about your day in this Japanese school life simulation. Of course, it's not all about homework and tests, as you'll also need to hone your fighting skills to deal with threats across the schoolyard.<br><br>The promos available unlock a large number of free rerolls, which is handy as you'll need to them to modify everything from your abilities to your appearance, and even your name, while also giving some cash to spend in this slice of life <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> experience. If you're ready to attend class, then these are the codes for Shigaku and how to redeem them.<br><br><em>If you're looking for promos with a more general use in all experiences, then we've got the latest information on the </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em>.</em></p><h2 class=\"article-body__section\" id=\"section-all-shigaku-codes\"><span>All Shigaku codes</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-"
+        }
+      ],
+      "keywords": [
+        "Shigaku codes (October 2026) and how to redeem them for free Rerolls and Cash",
+        "Shigaku codes (October 2026) and how to redeem them for free Rerolls and Cash date de sortie",
+        "Shigaku codes (October 2026) and how to redeem them for free Rerolls and Cash plateformes",
+        "Shigaku codes (October 2026) and how to redeem them for free Rerolls and Cash gameplay",
+        "Shigaku codes (October 2026) and how to redeem them for free Rerolls and Cash guide",
+        "Shigaku codes (October 2026) and how to redeem them for free Rerolls and Cash avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-street-fighter-movie-review-this-reboot-is-far-from-a-p-b787d7425ae4",
+      "topic": "Street Fighter movie review: \"This reboot is far from a perfect knockout\"",
+      "detected_at": "2026-10-15T18:39:49.521688+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/live-action-movies/street-fighter-movie-review/",
+          "title": "Street Fighter movie review: \"This reboot is far from a perfect knockout\"",
+          "evidence": "<article> <p>Capcom's had a helluva year. Resident Evil: Requiem, Pragmata, and Onimusha: The Way of the Sword are some of the best games released these past few months, and that's not to mention the latest, apparently greatest, Monster Hunter Stories instalment. Then, of course, there's Zack Cregger's brilliant Resident Evil, which set a new standard for video game adaptations at the theater.</p><p>But not everyone's perfect, not even Capcom. The latest attempt at bringing <a href=\"https://www.gamesradar.com/entertainment/street-fighter-movie-release-date-cast-plot-trailer-news/\">Street Fighter</a> to the multiplex is an overstuffed miss – a hyper-edited, dick-joke-filled, tonally inconsistent movie that ends halfway through its own story. But rather than leaving you wanting more, you're left with a headache, caused by too many booming needle-drops and too few satisfying uppercuts. The character roster – full of hilarious wigs – is simply overstuffed, with four primary protagonists all given too little screen time.</p><p>First, there's Ken Masters, a once-respected fighter now doing adverts for Duracell and taking on novelty fights with polar bears. Ken's rich, jacked, and looks l"
+        }
+      ],
+      "keywords": [
+        "Street Fighter movie review: \"This reboot is far from a perfect knockout\"",
+        "Street Fighter movie review: \"This reboot is far from a perfect knockout\" date de sortie",
+        "Street Fighter movie review: \"This reboot is far from a perfect knockout\" plateformes",
+        "Street Fighter movie review: \"This reboot is far from a perfect knockout\" gameplay",
+        "Street Fighter movie review: \"This reboot is far from a perfect knockout\" guide",
+        "Street Fighter movie review: \"This reboot is far from a perfect knockout\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-modern-day-d-d-horror-adventure-feels-like-resident-evi-32cafe7cd312",
+      "topic": "Modern-day D&D horror adventure feels like Resident Evil mixed with Control, and it's perfect for Halloween",
+      "detected_at": "2026-10-15T18:39:49.521831+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/tabletop-gaming/modern-day-d-and-d-horror-adventure-feels-like-resident-evil-mixed-with-control-and-its-perfect-for-halloween/",
+          "title": "Modern-day D&D horror adventure feels like Resident Evil mixed with Control, and it's perfect for Halloween",
+          "evidence": "<article> <p>Hacking terminals or avoiding killer robots with implanted memories in a ruined office building doesn't scream D&D, but that's why Project_Lamordia is so fascinating. </p><p>Teased earlier this month with an eerie trailer that felt equal parts Resident Evil and Control, it's a short digital adventure book available now <a href=\"https://marketplace.dndbeyond.com/category/66W3ADY?pid=DB66W3ADY\">via D&D Beyond</a> that takes place in a modern setting. This isn't your usual swords and sorcery quest; it's survival horror set in a world of heartless corporations and science gone wrong. </p><p>Project_Lamordia combines a present-day setting guide with three one-shot adventures that tip players headfirst into Mordenheim Kinetics, a morally-compromised company which promises longevity through tech. Here, the super-rich can upload their consciousness into robot-bodies via ethically dodgy practices… and of course, it's all gone wrong. We're now stuck in the middle of this horror show, and our job is to escape. </p><div class=\"fancy-box\"><div class=\"fancy_box-title\">Classical roots</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wra"
+        }
+      ],
+      "keywords": [
+        "Modern-day D&D horror adventure feels like Resident Evil mixed with Control, and it's perfect for Halloween",
+        "Modern-day D&D horror adventure feels like Resident Evil mixed with Control, and it's perfect for Halloween date de sortie",
+        "Modern-day D&D horror adventure feels like Resident Evil mixed with Control, and it's perfect for Halloween plateformes",
+        "Modern-day D&D horror adventure feels like Resident Evil mixed with Control, and it's perfect for Halloween gameplay",
+        "Modern-day D&D horror adventure feels like Resident Evil mixed with Control, and it's perfect for Halloween guide",
+        "Modern-day D&D horror adventure feels like Resident Evil mixed with Control, and it's perfect for Halloween avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-accused-of-using-ai-in-world-of-warcraft-forever-videos-3dbec3351cad",
+      "topic": "Accused of using AI in World of Warcraft: Forever videos, Blizzard employee says \"hell nah\"",
+      "detected_at": "2026-10-15T18:39:49.521953+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/accused-of-using-ai-in-world-of-warcraft-forever-videos-blizzard-employee-says-hell-nah-we-have-real-team-members/",
+          "title": "Accused of using AI in World of Warcraft: Forever videos, Blizzard employee says \"hell nah\"",
+          "evidence": "<article> <p>On the journey to the big <a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-is-a-whole-new-wow-game-launching-in-november-thatll-live-alongside-classic-and-vanilla/\">World of Warcraft: Forever</a> release next month, Blizzard has been working hard on social media advertisements for the new MMO – advertisements it assures fans do <em>not</em> contain any generative AI content.</p><p>The company's digital marketing manager confirms as much on <a href=\"https://x.com/Thyst03/status/2110443733695213867\" target=\"_blank\">X</a>, explaining that they've seen some of the controversy the WoW: Forever ads have sparked online, with allegations of gen AI use – but it's all unfounded.<br><br>\"Not seeing much discourse here on X, but there have been comments on whether or not we use AI in these videos,\" they write. \"That's a big hell nah.\" Why would they, when they have real creatives at hand?</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2110443733695213867\"><p lang=\"en\" dir=\"ltr\">Not seeing much discourse here on X, but there have been "
+        }
+      ],
+      "keywords": [
+        "Accused of using AI in World of Warcraft: Forever videos, Blizzard employee says \"hell nah\"",
+        "Accused of using AI in World of Warcraft: Forever videos, Blizzard employee says \"hell nah\" date de sortie",
+        "Accused of using AI in World of Warcraft: Forever videos, Blizzard employee says \"hell nah\" plateformes",
+        "Accused of using AI in World of Warcraft: Forever videos, Blizzard employee says \"hell nah\" gameplay",
+        "Accused of using AI in World of Warcraft: Forever videos, Blizzard employee says \"hell nah\" guide",
+        "Accused of using AI in World of Warcraft: Forever videos, Blizzard employee says \"hell nah\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-this-zelda-grip-case-is-enough-to-make-me-forget-the-pa-a84621f47bc3",
+      "topic": "This Zelda grip case is enough to make me forget the pain of not getting my hands on the new 40th Anniversary Switch 2",
+      "detected_at": "2026-10-15T18:39:49.522096+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/accessories/this-legend-of-zelda-inspired-grip-case-is-enough-to-make-me-forget-the-pain-of-not-getting-my-hands-on-the-new-40th-anniversary-switch-2/",
+          "title": "This Zelda grip case is enough to make me forget the pain of not getting my hands on the new 40th Anniversary Switch 2",
+          "evidence": "<article> <p>Despite the restocks kicking around UK retailers today and my eternal yearning for the stunning <a href=\"https://www.gamesradar.com/hardware/quick-legend-of-zelda-switch-2-stock-is-back-on-the-shelves-but-these-consoles-are-moving-fast/\">40th Anniversary Switch 2</a>, I've simply not got the budget for it. That's left me with some Biggoron-sized FOMO, but there are, at least, brands like Skull & Co busy preparing Zelda-inspired Switch 2 accessories for those with fewer rupees to spare.<br><br>The brand (also known as Savage Raven) has listed pre-orders for a new Legend of Zelda Limited Edition version of its FissionGrip case, which sports a strikingly similar green and gold color palette to Ninty's new shiny console. The accessory isn't an exact match, as it actually adds ergonomic handles into the mix, but I'd much sooner find the budget for its <a href=\"https://www.savage-raven.com/products/savage-raven-by-skull-co-fissiongrip-revolutionary-split-grip-design-for-switch2?variant=67683275473188\" target=\"_blank\">$55.99</a> cost (now $32.99) than the $519.99 Nintendo is asking for.</p> <div class=\"featured_product_block featured_block_horizontal\" data-id=\"92fa34cc-c897-1"
+        }
+      ],
+      "keywords": [
+        "This Zelda grip case is enough to make me forget the pain of not getting my hands on the new 40th Anniversary Switch 2",
+        "This Zelda grip case is enough to make me forget the pain of not getting my hands on the new 40th Anniversary Switch 2 date de sortie",
+        "This Zelda grip case is enough to make me forget the pain of not getting my hands on the new 40th Anniversary Switch 2 plateformes",
+        "This Zelda grip case is enough to make me forget the pain of not getting my hands on the new 40th Anniversary Switch 2 gameplay",
+        "This Zelda grip case is enough to make me forget the pain of not getting my hands on the new 40th Anniversary Switch 2 guide",
+        "This Zelda grip case is enough to make me forget the pain of not getting my hands on the new 40th Anniversary Switch 2 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-project-hadar-is-cdpr-s-biggest-undertaking-yet-but-dev-51a92e8b2b39",
+      "topic": "Project Hadar is CDPR's \"biggest undertaking yet,\" but devs are nearly done with world building",
+      "detected_at": "2026-10-15T18:39:49.522214+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/on-top-of-the-witcher-4-and-cyberpunk-2-cd-projekt-red-boss-says-project-hadar-is-the-studios-biggest-undertaking-to-date-and-theyve-finally-finished-building-its-world/",
+          "title": "Project Hadar is CDPR's \"biggest undertaking yet,\" but devs are nearly done with world building",
+          "evidence": "<article> <p>The ever-mysterious new Project Hadar – an IP that CD Projekt Red had first <a href=\"https://www.gamesradar.com/cd-projekt-working-on-a-new-ip/\">unveiled back in 2022</a> – is apparently well underway, with lead developers implying that the world-building stage is just about complete… and then some.</p><p>We've not heard much about Project Hadar over the past four years, really. Sure, last month <a href=\"https://www.gamesradar.com/games/open-world/cd-projekt-red-wants-to-hire-50-more-devs-for-its-secret-project-hadar-by-the-end-of-this-year-as-it-starts-gameplay-prototyping/\">CD Projekt Red was searching to hire 50 more devs</a> for the secret \"by the end of this year,\" but nothing concrete has really come up – no story, world, or character information. <br><br>But it's chugging along nicely, and joint studio CEO Michał Nowakowski tells <a href=\"https://biznes.pap.pl/wiadomosci/firmy/cd-projekt-red-zadowolony-ze-sprzedazy-wiedzmina-3-wizja-swiata-w-projekcie-hadar\" target=\"_blank\">PAP Biznes</a> as much (as machine-translated via both DeepL and Google).</p><p>The lead first describes just how big Project Hadar is – so big, in fact, it's somehow even more massive than t"
+        }
+      ],
+      "keywords": [
+        "Project Hadar is CDPR's \"biggest undertaking yet,\" but devs are nearly done with world building",
+        "Project Hadar is CDPR's \"biggest undertaking yet,\" but devs are nearly done with world building date de sortie",
+        "Project Hadar is CDPR's \"biggest undertaking yet,\" but devs are nearly done with world building plateformes",
+        "Project Hadar is CDPR's \"biggest undertaking yet,\" but devs are nearly done with world building gameplay",
+        "Project Hadar is CDPR's \"biggest undertaking yet,\" but devs are nearly done with world building guide",
+        "Project Hadar is CDPR's \"biggest undertaking yet,\" but devs are nearly done with world building avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"
     }
   ]

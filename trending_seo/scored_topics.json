@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-15T07:43:54.052217+00:00",
+  "updated_at": "2026-10-15T18:39:49.778240+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -8060,6 +8060,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Nier: Automata mastermind Yoko Taro says he's still making games for \"dementia prevention\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-hyperx-cloud-iii-is-a-superb-wired-headset-and-a-no-c0b766715463",
+      "topic": "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound",
+      "detected_at": "2026-10-07T20:09:26.729077+00:00",
+      "analysed_at": "2026-10-15T18:39:49.778116+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/headsets-headphones/hyperx-cloud-iii-wired-review/",
+          "title": "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound",
+          "evidence": "<article> <p>You've likely seen the HyperX Cloud III before. </p><p>It's a common sight to behold if you've ever spent time hunting through the <a href=\"https://www.gamesradar.com/best-gaming-headsets/\">best gaming headsets</a> on Amazon, which is what led me to finally test it out for myself. I wanted to ensure anyone who didn't take the time to scroll through the second page of Amazon's search results was still getting their money's worth. Just because a headset turns up on page one doesn't necessarily mean it's worth your time and attention, but that <em>does</em> happen to be the case here.<br><br>Its fantastic sound, comfortable fit, and multi-platform prowess make it a worthwhile pickup, and its White-Pink colorway (which I tested below) is perfectly suited for cute and cozy setups. Though if you are debating adding this to your online shopping basket, just make sure it's sporting one of its many, many discounts before you buy. </p><h2 class=\"article-body__section\" id=\"section-key-specs\"><span>Key specs</span></h2><div ><table><tbody><tr><td class=\"firstcol \" ><p><strong>Price</strong></p></td><td ><p> $99.99 / £101.99</p></td></tr><tr><td class=\"firstcol \" ><p><strong>Acoust"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound",
+        "secondary_keywords": [
+          "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound date de sortie",
+          "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound plateformes",
+          "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound gameplay",
+          "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound guide",
+          "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The HyperX Cloud III is a superb wired headset, and a no-brainer purchase when discounts are inbound"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-sony-s-digital-future-is-good-due-to-convenience-and-ga-16cce11acacd",
+      "topic": "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says",
+      "detected_at": "2026-10-07T20:09:26.729315+00:00",
+      "analysed_at": "2026-10-15T18:39:49.778151+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/rpg-creator-says-sonys-all-digital-future-is-good-for-devs-as-discs-cant-win-in-terms-of-convenience-and-games-like-gta-6-are-too-big-for-them-anyway/",
+          "title": "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says",
+          "evidence": "<article> <p>Although Sony's decision to <a href=\"https://www.gamesradar.com/platforms/playstation/playstation-is-ending-physical-disc-production-for-new-games-in-2028-as-sony-says-general-preference-for-digital-media-significantly-outpaces-physical-discs/\">end all physical disc production</a> for <a href=\"https://www.gamesradar.com/video-game-release-dates/\">new games</a> on PlayStation consoles in 2028 has proven quite controversial, to say the least, not <em>everyone</em> thinks that a digital-only world would be all bad.</p><p>One such person is Hiroshi Matsuyama, CEO fo CyberConnect 2 – a studio best known for its manga and anime-based fighting games (think Naruto: Ultimate Ninja and the like) as well as its .hack series made in collaboration with the ever-beloved Bandai Namco. <br><br>He makes his stance clear in a new post over on <a href=\"https://x.com/PIROSHI_CC2/status/2105833340968525857\" target=\"_blank\">X</a> (as translated by <a href=\"https://automaton-media.com/en/news/cyberconnect2-ceo-says-the-shift-from-physical-to-digital-only-games-is-nothing-but-a-positive-thing-for-developers/\" target=\"_blank\">Automaton</a>), stating that a complete shift to digital game distri"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says",
+        "secondary_keywords": [
+          "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says date de sortie",
+          "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says plateformes",
+          "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says gameplay",
+          "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says guide",
+          "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Sony's digital future is good due to \"convenience\" and games like GTA 6 being \"too big,\" dev says"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-clayface-star-says-his-dcu-villain-is-so-overpowered-co-aa5831e9d980",
+      "topic": "Clayface star says his DCU villain is \"so overpowered comparative to Batman\" and could definitely take him out",
+      "detected_at": "2026-10-08T09:28:02.421081+00:00",
+      "analysed_at": "2026-10-15T18:39:49.778170+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/clayface-star-says-his-dcu-villain-is-so-overpowered-comparative-to-batman-and-could-definitely-take-him-out/",
+          "title": "Clayface star says his DCU villain is \"so overpowered comparative to Batman\" and could definitely take him out",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/dc-movies/clayface-release-date-plot-cast-news/\">Clayface </a>actor Tom Rhys Harries has teased how powerful his new DCU villain really is. The new movie details the origin story of Matt Hagen, an actor who resorts to extreme measures after he's become disfigured to return to his former glory. </p><p>However, his treatment sparks an extreme transformation, turning him into a shapeshifting clay monster. In the DC comics, he's a Batman villain, and Harries thinks he would have a very good shot at taking down the Caped Crusder. </p><p>\"Yeah I could take Batman out,\" he told told<a href=\"https://www.awin1.com/awclick.php?awinmid=2961&awinaffid=103504&clickref=grd-gb-2418078962601495552&p=https%3A%2F%2Fwww.magazinesdirect.com%2Fuk%2Fsfx-410-premium%2Fdp%2F3c51e85e\" target=\"_blank\"> SFX magazine</a> in the new issue. \"Clayface is so overpowered comparative to Batman. I can become anyone. I can become anything. Once Matt gains control over his powers then you're in a space where you're like, 'What do you want to use these for'.\"</p><p>His comments follow on from the director James Watkins sharing his vision for creating Gotham"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Clayface star says his DCU villain is \"so overpowered comparative to Batman\" and could definitely take him out",
+        "secondary_keywords": [
+          "Clayface star says his DCU villain is \"so overpowered comparative to Batman\" and could definitely take him out date de sortie",
+          "Clayface star says his DCU villain is \"so overpowered comparative to Batman\" and could definitely take him out plateformes",
+          "Clayface star says his DCU villain is \"so overpowered comparative to Batman\" and could definitely take him out gameplay",
+          "Clayface star says his DCU villain is \"so overpowered comparative to Batman\" and could definitely take him out guide",
+          "Clayface star says his DCU villain is \"so overpowered comparative to Batman\" and could definitely take him out avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Clayface star says his DCU villain is \"so overpowered comparative to Batman\" and could definitely take him out"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-a-new-ultima-rpg-is-on-the-table-now-that-the-series-cr-1ec9ea902481",
+      "topic": "A new Ultima RPG is on the table now that the series' creator is getting back the rights from EA",
+      "detected_at": "2026-10-08T09:28:02.421223+00:00",
+      "analysed_at": "2026-10-15T18:39:49.778185+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/i-never-thought-wed-get-a-new-ultima-rpg-but-now-that-series-creator-richard-garriott-is-getting-back-the-rights-from-ea-everythings-on-the-table/",
+          "title": "A new Ultima RPG is on the table now that the series' creator is getting back the rights from EA",
+          "evidence": "<article> <p>Ultima is a foundational RPG series that's long been left in the past by rights holder EA, but according to series creator Richard Garriott, that could all be changing as early as next year.</p><p>Garriott sold Origin Systems, the studio he co-founded with his brother and father, to EA back in 1992 along with the rights to the Ultima IP. He would continue working there for years to come, directing several Ultima RPGs and serving as producer on the seminal MMORPG, Ultima Online. In 1999, EA canceled all of Origin's in-development projects partly due to poor reception to Ultima IX: Ascension, and Garriott left the company shortly after that. After a few years maintaining Ultima Online and working on another online Ultima game that would eventually be canceled, Origin was shut down by EA in 2004. 22 years later, Garriott says he'll soon own the rights to the series once again.</p><p>\"There's a really weird United States copyright law that says, if you are the original holder of a copyright and you assign it or sell it to any publisher or any other entity, after 35 years you can just take it back,\" Garriott tells <a href=\"https://www.youtube.com/watch?v=2El7VtPuSzs\">Jesse "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "A new Ultima RPG is on the table now that the series' creator is getting back the rights from EA",
+        "secondary_keywords": [
+          "A new Ultima RPG is on the table now that the series' creator is getting back the rights from EA date de sortie",
+          "A new Ultima RPG is on the table now that the series' creator is getting back the rights from EA plateformes",
+          "A new Ultima RPG is on the table now that the series' creator is getting back the rights from EA gameplay",
+          "A new Ultima RPG is on the table now that the series' creator is getting back the rights from EA guide",
+          "A new Ultima RPG is on the table now that the series' creator is getting back the rights from EA avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "A new Ultima RPG is on the table now that the series' creator is getting back the rights from EA"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-carrie-stars-matthew-lillard-and-amber-midthunder-say-t-70fd0748f396",
+      "topic": "Carrie stars Matthew Lillard and Amber Midthunder say the fate of their characters makes sense",
+      "detected_at": "2026-10-08T09:28:02.421352+00:00",
+      "analysed_at": "2026-10-15T18:39:49.778199+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/horror-shows/carrie-stars-matthew-lillard-and-amber-midthunder-say-the-fate-of-their-characters-makes-perfect-sense-in-mike-flanagan-we-trust/",
+          "title": "Carrie stars Matthew Lillard and Amber Midthunder say the fate of their characters makes sense",
+          "evidence": "<article> <p>Unlike other actors in past Carrie adaptations, Matthew Lillard and Amber Midthunder aren't too pressed about the fate of their characters in Mike Flanagan's new version of the 1974 Stephen King story.</p><p><strong>Warning: spoilers for Carrie episode 8 ahead!</strong></p><p>\"First and foremost, in Mike Flanagan, we trust,\" Lillard tells GamesRadar+. \"Like, if you ask him, he will have a reason. But I do think that it lends to the tragedy. [Carrie] is so overwhelmed. If you would think she could make choices, we probably would have lived. But she loses her control, which brings ultimate destruction of the entire town.\"</p><p>Lillard plays Henry Grayle, Ewen High's well-meaning principal who finds himself a bit in over his head when Carrie White becomes the new kid at school. Grayle soon realizes that Margaret White is no ordinary mother, and that Chris Hargensen is no ordinary teenage bully. </p><p>In the book, Grayle does not attend prom but presumably retires from education following the massacre. In the 1976 movie, Grayle (renamed Principal Morton) is electrocuted on stage at prom. He suffers the same fate in the 2002 remake. In Flanagan's version, the electrocutio"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Carrie stars Matthew Lillard and Amber Midthunder say the fate of their characters makes sense",
+        "secondary_keywords": [
+          "Carrie stars Matthew Lillard and Amber Midthunder say the fate of their characters makes sense date de sortie",
+          "Carrie stars Matthew Lillard and Amber Midthunder say the fate of their characters makes sense plateformes",
+          "Carrie stars Matthew Lillard and Amber Midthunder say the fate of their characters makes sense gameplay",
+          "Carrie stars Matthew Lillard and Amber Midthunder say the fate of their characters makes sense guide",
+          "Carrie stars Matthew Lillard and Amber Midthunder say the fate of their characters makes sense avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Carrie stars Matthew Lillard and Amber Midthunder say the fate of their characters makes sense"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-hideo-kojima-shares-native-pc-port-of-p-t-leaving-the-m-454eb0b66802",
+      "topic": "Hideo Kojima shares native PC port of P.T., leaving the modder who made it \"speechless\"",
+      "detected_at": "2026-10-08T09:28:02.421499+00:00",
+      "analysed_at": "2026-10-15T18:39:49.778212+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/silent-hill/hideo-kojima-shares-native-pc-port-of-p-t-leaving-the-modder-who-made-it-speechless/",
+          "title": "Hideo Kojima shares native PC port of P.T., leaving the modder who made it \"speechless\"",
+          "evidence": "<article> <p>P.T., the \"playable teaser\" meant to introduce the world to Hideo Kojima's Silent Hills, has been effectively inaccessible since Konami delisted it in 2015. Modder LoreanXavier has created a native PC port of the game that aims to make it playable for modern gamers, and even Hideo Kojima is taking notice.</p><p>An article from GameRant covered this PC port of PT a few days ago, which was soon <a href=\"https://x.com/GameRant/status/2106942531493662777/retweets\" target=\"_blank\">retweeted</a> by Kojima himself – on both his English and Japanese Twitter accounts, even. Kojima constantly retweets fanart and other community celebrations of his games, even those still owned by Konami, but it is unusual to see him acknowledge this kind of port on social media.</p><p>\"The GOAT himself acknowledged my port,\" LoreanXavier says on <a href=\"https://x.com/smokisevdalisi/status/2107122805862957081\" target=\"_blank\">Twitter</a> (via <a href=\"https://www.ign.com/articles/hideo-kojima-acknowledges-fan-made-pt-port-that-runs-natively-on-pc\" target=\"_blank\">IGN</a>). \"I am speechless.\" He adds that seeing Kojima \"notice something I’ve poured so much time and passion into genuinely means th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Hideo Kojima shares native PC port of P.T., leaving the modder who made it \"speechless\"",
+        "secondary_keywords": [
+          "Hideo Kojima shares native PC port of P.T., leaving the modder who made it \"speechless\" date de sortie",
+          "Hideo Kojima shares native PC port of P.T., leaving the modder who made it \"speechless\" plateformes",
+          "Hideo Kojima shares native PC port of P.T., leaving the modder who made it \"speechless\" gameplay",
+          "Hideo Kojima shares native PC port of P.T., leaving the modder who made it \"speechless\" guide",
+          "Hideo Kojima shares native PC port of P.T., leaving the modder who made it \"speechless\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Hideo Kojima shares native PC port of P.T., leaving the modder who made it \"speechless\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-arc-raiders-lead-says-steam-player-count-discourse-does-e0f5490b6108",
+      "topic": "Arc Raiders lead says Steam player count discourse doesn't feel great, but Embark \"accepted\" it",
+      "detected_at": "2026-10-08T09:28:02.421658+00:00",
+      "analysed_at": "2026-10-15T18:39:49.778225+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-lead-says-steam-player-count-discourse-doesnt-feel-great-but-embark-accepted-the-fact-that-we-would-have-less-players/",
+          "title": "Arc Raiders lead says Steam player count discourse doesn't feel great, but Embark \"accepted\" it",
+          "evidence": "<article> <p>Ahead of <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-frozen-trail/\">Arc Raiders' Frozen Trail</a> update, a veritable relaunch following several quiet months, developer Embark Studios anticipated a decline in concurrent and daily players and chose to go all-in anyway, even if it meant weathering a few months of Steam CCU discourse. </p><p>Speaking with GamesRadar+, Arc Raiders executive producer Aleksander Grøndal examines the conversations around the game's player count, which has unsurprisingly declined after a huge launch. This year, Arc Raiders joined the <a href=\"https://www.gamesradar.com/games/survival/people-dont-understand-steam-player-numbers-palworld-lead-says-poor-marathon-and-stuff-are-getting-dragged-through-the-mud-im-sure-our-days-coming/\">ever-growing list of games regularly put under the microscope of Steam Charts</a>, which, he says, certainly doesn't feel great even when your game is a proven success. </p><p>\"Of course, as developers we look at all our numbers and discuss what we want to do, what are the things we can look into, what are some of the challenges we're facing,\" Grøndal says. \"We're constantly doing that. "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Arc Raiders lead says Steam player count discourse doesn't feel great, but Embark \"accepted\" it",
+        "secondary_keywords": [
+          "Arc Raiders lead says Steam player count discourse doesn't feel great, but Embark \"accepted\" it date de sortie",
+          "Arc Raiders lead says Steam player count discourse doesn't feel great, but Embark \"accepted\" it plateformes",
+          "Arc Raiders lead says Steam player count discourse doesn't feel great, but Embark \"accepted\" it gameplay",
+          "Arc Raiders lead says Steam player count discourse doesn't feel great, but Embark \"accepted\" it guide",
+          "Arc Raiders lead says Steam player count discourse doesn't feel great, but Embark \"accepted\" it avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Arc Raiders lead says Steam player count discourse doesn't feel great, but Embark \"accepted\" it"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-tomb-raider-legacy-of-atlantis-devs-are-cutting-back-on-170f42440452",
+      "topic": "Tomb Raider: Legacy of Atlantis devs are cutting back on modern hand holding",
+      "detected_at": "2026-10-08T09:28:02.421779+00:00",
+      "analysed_at": "2026-10-15T18:39:49.778238+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/tomb-raider/tomb-raider-legacy-of-atlantis-devs-are-cutting-back-on-modern-hand-holding-get-on-your-own-get-lost-then-find-your-way-back/",
+          "title": "Tomb Raider: Legacy of Atlantis devs are cutting back on modern hand holding",
+          "evidence": "<article> <p>The original Tomb Raider is often obtuse and obscure, challenging you to climb your way through intricate levels inch by inch. Later games in the series would gradually become more friendly, offering clearly marked pathways and handholds to prevent players from ever getting lost. For Tomb Raider: Legacy of Atlantis, the developers want to make sure those stretches of isolation and exploration are front and center once again.</p><p>\"We celebrate those moments to say, 'Hey, let's not hold your hand. Let's let you go out there and hunt around, maybe find some stuff that you weren't expecting to find,'\" Jeff Adams, experience director at Crystal Dynamics, says in <a href=\"https://www.magazinesdirect.com/us/edge-subscription/dp/39f150bb\" target=\"_blank\">Edge Magazine</a> issue #429. \"That's the idea, to have that sense of 'be adventurous, go out, explore, get on your own, get lost, then find your way back.' And that gives a lot of reward just by traversing the world.\"</p><p>The <a href=\"https://www.gamesradar.com/games/tomb-raider/tomb-raider-legacy-of-atlantis-is-a-gorgeous-revival-of-the-originals-puzzle-driven-spirit-but-im-glad-its-been-delayed/\">puzzle-driven spirit of"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Tomb Raider: Legacy of Atlantis devs are cutting back on modern hand holding",
+        "secondary_keywords": [
+          "Tomb Raider: Legacy of Atlantis devs are cutting back on modern hand holding date de sortie",
+          "Tomb Raider: Legacy of Atlantis devs are cutting back on modern hand holding plateformes",
+          "Tomb Raider: Legacy of Atlantis devs are cutting back on modern hand holding gameplay",
+          "Tomb Raider: Legacy of Atlantis devs are cutting back on modern hand holding guide",
+          "Tomb Raider: Legacy of Atlantis devs are cutting back on modern hand holding avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Tomb Raider: Legacy of Atlantis devs are cutting back on modern hand holding"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

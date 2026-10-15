@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-15T07:44:00.994068+00:00",
+  "updated_at": "2026-10-15T18:39:56.110202+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -177,6 +177,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-elden-ring-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 758,
       "published_at": "2026-10-15T07:44:00.994068+00:00"
+    },
+    {
+      "intent_key": "elden ring multijoueur",
+      "primary_keyword": "Elden Ring multijoueur",
+      "title": "Elden Ring multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/elden-ring-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 769,
+      "published_at": "2026-10-15T18:39:56.110202+00:00"
     }
   ]
 }

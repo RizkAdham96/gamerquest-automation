@@ -1,0 +1,151 @@
+name: GamerQuest Social Publish Recovery
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Primary carousels run daily at 12:30 and 18:30 Europe/Paris.
+    # Recovery waits 45 minutes and retries only the already-prepared carousel.
+    - cron: "15 13,19 * * *"
+      timezone: "Europe/Paris"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gamerquest-repo-write-global
+  cancel-in-progress: false
+
+jobs:
+  recovery-check:
+    runs-on: ubuntu-latest
+    outputs:
+      should_recover: ${{ steps.guard.outputs.should_recover }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Check for a pending WordPress Meta package
+        id: guard
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          pending_path = Path("social/pending_publish.json")
+          should_recover = False
+          reason = "no pending WordPress carousel"
+          if pending_path.exists():
+              try:
+                  payload = json.loads(pending_path.read_text(encoding="utf-8"))
+                  urls = payload.get("image_urls", []) if isinstance(payload, dict) else []
+                  media_ids = payload.get("media_ids", []) if isinstance(payload, dict) else []
+                  should_recover = (
+                      isinstance(payload, dict)
+                      and bool(str(payload.get("source_id", "")).strip())
+                      and bool(str(payload.get("carousel_version", "")).strip())
+                      and len(urls) == 3
+                      and len(set(urls)) == 3
+                      and len(media_ids) == 3
+                  )
+                  reason = "valid pending WordPress carousel" if should_recover else "pending WordPress manifest is invalid"
+              except Exception as exc:
+                  reason = f"pending WordPress manifest unreadable: {exc}"
+
+          print(f"Recovery required: {should_recover}; reason={reason}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"should_recover={'true' if should_recover else 'false'}\n")
+              output.write(f"reason={reason.replace(chr(10), ' ')}\n")
+          PY
+
+  recover-social-publish:
+    needs: recovery-check
+    if: ${{ needs.recovery-check.outputs.should_recover == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install recovery dependencies
+        run: python -m pip install requests
+
+      - name: Meta publishing preflight
+        id: meta_preflight
+        env:
+          PYTHONPATH: .
+          META_FB_PAGE_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_GRAPH_API_VERSION: v26.0
+        run: python -m social.meta_healthcheck
+
+      - name: Restore latest prepared unpublished carousel
+        id: recovery_package
+        env:
+          PYTHONPATH: .
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF_NAME: main
+        run: python -m social.recover_prepared_publish
+
+      - name: No prepared carousel requires recovery
+        if: ${{ steps.recovery_package.outputs.ready != 'true' }}
+        run: |
+          echo "Social recovery skipped safely."
+          echo "Reason: ${{ steps.recovery_package.outputs.reason }}"
+
+      - name: Retry Meta publish from pending WordPress carousel
+        id: meta_publish
+        if: ${{ steps.recovery_package.outputs.ready == 'true' }}
+        env:
+          PYTHONPATH: .
+          META_IG_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+          META_FB_PAGE_ACCESS_TOKEN: ${{ secrets.META_FB_PAGE_ACCESS_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_GRAPH_API_VERSION: v26.0
+        run: python -m social.publish_run_facebook_login
+
+      - name: Clean recovered WordPress carousel media
+        id: wordpress_cleanup
+        if: ${{ steps.meta_publish.outcome == 'success' }}
+        env:
+          PYTHONPATH: .
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: python -m social.wordpress_publish cleanup
+
+      - name: Commit Meta publish history
+        if: ${{ always() && steps.recovery_package.outputs.ready == 'true' }}
+        shell: bash
+        run: |
+          git config user.name "GamerQuest Social Bot"
+          git config user.email "actions@github.com"
+          git add -A social/publish_history.json social/pending_publish.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "social: update Meta publish state (recovery)"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+
+      - name: Report recovery result
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          echo "## GamerQuest Social recovery" >> "${GITHUB_STEP_SUMMARY}"
+          echo "Prepared package: ${{ steps.recovery_package.outputs.ready }}" >> "${GITHUB_STEP_SUMMARY}"
+          echo "Reason: ${{ steps.recovery_package.outputs.reason }}" >> "${GITHUB_STEP_SUMMARY}"
+          echo "Meta preflight: ${{ steps.meta_preflight.outcome }}" >> "${GITHUB_STEP_SUMMARY}"
+          echo "Meta publish: ${{ steps.meta_publish.outcome }}" >> "${GITHUB_STEP_SUMMARY}"
+          echo "WordPress cleanup: ${{ steps.wordpress_cleanup.outcome }}" >> "${GITHUB_STEP_SUMMARY}"

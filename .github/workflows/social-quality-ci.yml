@@ -5,6 +5,8 @@ on:
     paths:
       - "social/**"
       - "tests/social/**"
+      - ".github/workflows/social-test.yml"
+      - ".github/workflows/social-publish-recovery.yml"
       - ".github/workflows/social-quality-ci.yml"
   push:
     branches:
@@ -12,6 +14,8 @@ on:
     paths:
       - "social/**"
       - "tests/social/**"
+      - ".github/workflows/social-test.yml"
+      - ".github/workflows/social-publish-recovery.yml"
       - ".github/workflows/social-quality-ci.yml"
   workflow_dispatch:
 
@@ -42,6 +46,7 @@ jobs:
           python tests/social/test_render_fallback_source_image.py
           python tests/social/test_publication_budget.py
           python tests/social/test_publication_verification.py
+          python tests/social/test_production_result.py
           python tests/social/test_ai_client.py
           python tests/social/test_run_fresh.py
           python tests/social/test_meta_healthcheck.py

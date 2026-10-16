@@ -1,0 +1,76 @@
+{
+  "source_id": "12d9eee5740d7f20ba114a8dba26ede5e297aae36dfd73dd24340722041cda93",
+  "carousel_version": "85e36b6ae0bfef5f6db6742ec88b08d04a2cab9ed55b7e54b240ea1b89e559b7",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    785,
+    786,
+    787
+  ],
+  "prepared_at_utc": "2026-10-16T19:45:09.541469Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "12d9eee5740d7f20ba114a8dba26ede5e297aae36dfd73dd24340722041cda93",
+    "source_title": "Bad Cheese est gratuit sur Epic Games Store pendant une durée limitée",
+    "score": 73.5,
+    "idea": {
+      "source_id": "12d9eee5740d7f20ba114a8dba26ede5e297aae36dfd73dd24340722041cda93",
+      "topic": "Bad Cheese gratuit sur Epic Games Store",
+      "angle": "Profitez de Bad Cheese gratuitement pendant la période limitée sur Epic Games Store",
+      "format": "free_game",
+      "hook": "Téléchargez dès maintenant ce jeu habituellement payant sans dépenser un centime",
+      "freshness": 7,
+      "click_potential": 9,
+      "curiosity": 8,
+      "shareability": 7,
+      "originality": 6,
+      "gamerquest_relevance": 7,
+      "total_score": 73.5
+    },
+    "carousel": {
+      "topic": "Bad Cheese gratuit sur Epic Games Store",
+      "angle": "Profitez de Bad Cheese gratuitement pendant la période limitée sur Epic Games Store",
+      "format": "free_game",
+      "hook": "Téléchargez dès maintenant ce jeu habituellement payant sans dépenser un centime",
+      "score": 73.5,
+      "slides": [
+        {
+          "title": "Bad Cheese gratuit !",
+          "body": "Un jeu habituellement payant offert sans frais — à découvrir maintenant.",
+          "visual_prompt": "A vibrant illustration of a cartoon cheese character holding a game controller, with a subtle Epic Games Store background, bright colors, no text."
+        },
+        {
+          "title": "Habituellement à 11,69 €",
+          "body": "Bad Cheese, normalement vendu 11,69 €, est disponible gratuitement sur Epic Games Store.",
+          "visual_prompt": "Close‑up of the Bad Cheese game cover showing the cheese mascot and game title, placed on a digital storefront shelf, no logos or text."
+        },
+        {
+          "title": "Offre disponible maintenant",
+          "body": "Profitez de cette gratuité sur Epic Games Store. Plus d’infos sur GamerQuest.fr.",
+          "visual_prompt": "A simple graphic showing the Epic Games Store interface with a highlighted free badge, without any embedded text."
+        }
+      ],
+      "caption": "Bad Cheese est gratuit sur Epic Games Store ! Disponible dès maintenant.",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "12d9eee5740d7f20ba114a8dba26ede5e297aae36dfd73dd24340722041cda93"
+    },
+    "caption": "Bad Cheese est gratuit sur Epic Games Store ! Disponible dès maintenant.",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 2
+  }
+}

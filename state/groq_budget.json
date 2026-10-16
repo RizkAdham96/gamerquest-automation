@@ -1,10 +1,10 @@
 {
   "date_utc": "2026-10-16",
-  "global_reserved": 32049,
+  "global_reserved": 27927,
   "lanes": {
     "news": 9561,
     "seo": 5488,
-    "social": 17000,
+    "social": 12878,
     "manual": 0
   },
   "reservations": [
@@ -25,8 +25,9 @@
     {
       "id": "38920168838-1-social",
       "lane": "social",
-      "tokens": 17000,
-      "reserved_at": "2026-10-16T14:59:07.718192+00:00"
+      "tokens": 12878,
+      "reserved_at": "2026-10-16T14:59:07.718192+00:00",
+      "reconciled_at": "2026-10-16T15:03:53.032387+00:00"
     }
   ]
 }

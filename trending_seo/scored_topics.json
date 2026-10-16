@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-15T18:39:49.778240+00:00",
+  "updated_at": "2026-10-16T07:31:34.164930+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -8372,6 +8372,316 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Tomb Raider: Legacy of Atlantis devs are cutting back on modern hand holding"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-3094480",
+      "topic": "Configuration PC Bad Cheese : minimale, recommandée et conseils",
+      "detected_at": "2026-10-16T07:31:33.008518+00:00",
+      "analysed_at": "2026-10-16T07:31:34.164770+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/3094480/",
+          "title": "Bad Cheese sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Bad Cheese, consultée le 2026-10-16. Développeur : Simon Lukasik. Éditeur : Feardemic. Date de sortie sur Steam : 1 sept. 2025. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation : Windows 10 ; Processeur : Intel i3 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1660 ; Espace disque : 5 GB d'espace disque disponible. La fiche Steam n'indique pas de configuration recommandée.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094480/2f7c8b8ed823a7d68eb0a2d449cf83b1b10ae2cc/ss_2f7c8b8ed823a7d68eb0a2d449cf83b1b10ae2cc.1920x1080.jpg?t=1778532201"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Bad Cheese",
+        "secondary_keywords": [
+          "Bad Cheese PC",
+          "Bad Cheese Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Bad Cheese : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-3094480",
+      "topic": "Bad Cheese multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-16T07:31:33.008560+00:00",
+      "analysed_at": "2026-10-16T07:31:34.164805+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/3094480/",
+          "title": "Bad Cheese sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Bad Cheese, consultée le 2026-10-16. Développeur : Simon Lukasik. Éditeur : Feardemic. Date de sortie sur Steam : 1 sept. 2025. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Bad Cheese est un jeu d'horreur psychologique inspiré par le charme étrange des animations des années 20. Incarnez une petite souris qui passe le week-end chez elle, accompagnée d'un père instable alors que maman est absente. Soyez sage pour que PAPA NE SE FÂCHE PAS.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094480/2f7c8b8ed823a7d68eb0a2d449cf83b1b10ae2cc/ss_2f7c8b8ed823a7d68eb0a2d449cf83b1b10ae2cc.1920x1080.jpg?t=1778532201"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Bad Cheese multijoueur",
+        "secondary_keywords": [
+          "Bad Cheese PC",
+          "Bad Cheese Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Bad Cheese multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ahead-of-visionquest-premiere-marvel-releases-first-thr-c05075066ff8",
+      "topic": "Ahead of VisionQuest premiere, Marvel releases first three WandaVision episodes for free on YouTube",
+      "detected_at": "2026-10-08T09:28:02.422152+00:00",
+      "analysed_at": "2026-10-16T07:31:34.164824+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-showrunner-says-theyve-purposely-kept-one-chilling-and-heartbreaking-character-out-of-promo-for-the-show-i-cant-wait-for-everyone-to-see-it/",
+          "title": "Ahead of VisionQuest premiere, Marvel releases first three WandaVision episodes for free on YouTube",
+          "evidence": "<article> <p>VisionQuest showrunner Terry Matalas says Jocasta, an android known in the Marvel comics for her relationship with Ultron, has been purposely left out of promo for the upcoming Disney Plus show.</p><p>\"T'Nia Miller,\" Matalas tells <a href=\"https://collider.com/visionquest-new-image-tnia-miller-jocasta/?utm_campaign=TrueAnthem-C&utm_medium=Social-Distribution&utm_source=Twitter\" target=\"_blank\">Collider</a>. \"We have purposely kept her character out of a lot of the promotion of the show because T'Nia's performance is revelatory. Chilling, nuanced, and even a little heartbreaking. I can't wait for everyone to see it.\"</p><p>Jocasta made her first appearance in The Avengers #162 back in 1977. Ultron created Jocasta with the intention of making her his wife, and even stole the life force from Janet van Dyne aka the Wasp, to try and make it happen. </p><p>Upon realizing Janet would have to die in order for her to live, Jocasta told the Avengers, who promptly defeated him. Though she's programmed to be loyal to Ultron, she eventually betrays him and becomes an unofficial member of the Avengers. </p><p>Over the years, Jocasta has been included in several \"comic book character"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ahead of VisionQuest premiere, Marvel releases first three WandaVision episodes for free on YouTube",
+        "secondary_keywords": [
+          "Ahead of VisionQuest premiere, Marvel releases first three WandaVision episodes for free on YouTube date de sortie",
+          "Ahead of VisionQuest premiere, Marvel releases first three WandaVision episodes for free on YouTube plateformes",
+          "Ahead of VisionQuest premiere, Marvel releases first three WandaVision episodes for free on YouTube gameplay",
+          "Ahead of VisionQuest premiere, Marvel releases first three WandaVision episodes for free on YouTube guide",
+          "Ahead of VisionQuest premiere, Marvel releases first three WandaVision episodes for free on YouTube avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ahead of VisionQuest premiere, Marvel releases first three WandaVision episodes for free on YouTube"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-these-star-wars-helmets-are-so-good-it-s-like-they-were-9eb742c3a8be",
+      "topic": "These Star Wars helmets are so good it's like they were stolen from a movie set, and they just got a massive price cut",
+      "detected_at": "2026-10-08T09:28:02.422383+00:00",
+      "analysed_at": "2026-10-16T07:31:34.164843+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/toys-collectibles/these-star-wars-helmets-are-so-good-its-like-they-were-stolen-from-a-movie-set-and-they-just-got-a-massive-price-cut/",
+          "title": "These Star Wars helmets are so good it's like they were stolen from a movie set, and they just got a massive price cut",
+          "evidence": "<article> <p>If someone asks me about the best Star Wars collectibles, I always point them toward Hasbro's Black Series range. No matter whether it's absurdly detailed action figures, or lightsaber replicas, I've got no problem with singing their praises. However, I think the Black Series helmets are some of the best merch from a galaxy far, far away - period.</p><p>Besides looking like the spitting image of their on-screen counterpart, these props are incredibly well made. Actually, they look as though they've been stolen from a movie set or the Lucasfilm archive. These Star Wars collectibles don't have a collector's edition price, though... especially not with Prime Day throwing around discounts like blaster fire.</p><p>The sales event has slashed the cost of many Star Wars Black Series helmets, and while not all of the savings are worthwhile, plenty took me aback. That's why I've gathered up the best and most eye-catching offers here.</p><div class=\"product\"><a data-dimension112=\"8df468a2-c262-11f1-a46c-3def3a2f0ffc\" data-action=\"Deal Block\" data-label=\"Black Series Imperial Stormtrooper Premium Electronic Helmet\" data-dimension48=\"Black Series Imperial Stormtrooper Premium Elec"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "These Star Wars helmets are so good it's like they were stolen from a movie set, and they just got a massive price cut",
+        "secondary_keywords": [
+          "These Star Wars helmets are so good it's like they were stolen from a movie set, and they just got a massive price cut date de sortie",
+          "These Star Wars helmets are so good it's like they were stolen from a movie set, and they just got a massive price cut plateformes",
+          "These Star Wars helmets are so good it's like they were stolen from a movie set, and they just got a massive price cut gameplay",
+          "These Star Wars helmets are so good it's like they were stolen from a movie set, and they just got a massive price cut guide",
+          "These Star Wars helmets are so good it's like they were stolen from a movie set, and they just got a massive price cut avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "These Star Wars helmets are so good it's like they were stolen from a movie set, and they just got a massive price cut"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-hideo-kojima-wrote-higgs-just-for-troy-baker-and-it-s-o-8dacc25195fd",
+      "topic": "Hideo Kojima wrote Higgs just for Troy Baker, and it's \"one of the kindest things\" he's ever done",
+      "detected_at": "2026-10-08T09:28:02.422489+00:00",
+      "analysed_at": "2026-10-16T07:31:34.164879+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/open-world/hideo-kojima-writing-a-whole-death-stranding-character-just-for-him-is-one-of-the-kindest-things-hes-ever-done-says-higgs-actor-troy-baker/",
+          "title": "Hideo Kojima wrote Higgs just for Troy Baker, and it's \"one of the kindest things\" he's ever done",
+          "evidence": "<article> <p>At this point, it'd almost be easier to name the blockbuster game franchise Troy Baker hasn't been a part of. <a href=\"https://www.gamesradar.com/uk/games/action/the-last-of-us/\">The Last of Us</a>, BioShock: Infinite, Final Fantasy 13, Mass Effect 3; he gets around. He's so prolific that creators have specifically sought him out for certain roles, like Hideo Kojima, who created a part in <a href=\"https://www.gamesradar.com/uk/death-stranding-2/\">Death Stranding</a> for the performer.</p><p>In a <a href=\"https://www.youtube.com/watch?v=F2mc3qJCsZI\" target=\"_blank\">PartyChat interview</a> going through his career, Baker touches on his performance as Higgs in the Death Stranding games, a villain who wants to kill what remains of mankind in the dystopian sci-fi epics. \"One of the kindest things that Hideo Kojima has ever done is say, 'Hey, I wrote this part for you,' and he held up to his end of the deal,\" Baker says.</p><p>Higgs is a pretty massive character. He leads a cult dedicated to finishing the genocide of the human race, and he's relentless in his pursuit of the protagonist Sam Porter, portrayed by Norman Reedus.</p><div class=\"youtube-video\" data-nosnippet ><div"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Hideo Kojima wrote Higgs just for Troy Baker, and it's \"one of the kindest things\" he's ever done",
+        "secondary_keywords": [
+          "Hideo Kojima wrote Higgs just for Troy Baker, and it's \"one of the kindest things\" he's ever done date de sortie",
+          "Hideo Kojima wrote Higgs just for Troy Baker, and it's \"one of the kindest things\" he's ever done plateformes",
+          "Hideo Kojima wrote Higgs just for Troy Baker, and it's \"one of the kindest things\" he's ever done gameplay",
+          "Hideo Kojima wrote Higgs just for Troy Baker, and it's \"one of the kindest things\" he's ever done guide",
+          "Hideo Kojima wrote Higgs just for Troy Baker, and it's \"one of the kindest things\" he's ever done avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Hideo Kojima wrote Higgs just for Troy Baker, and it's \"one of the kindest things\" he's ever done"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-star-wars-galactic-racer-introduces-the-best-glup-shitt-c9b4952282c1",
+      "topic": "Star Wars Galactic Racer introduces \"the best Glup Shitto ever,\" fans say",
+      "detected_at": "2026-10-08T09:28:02.422622+00:00",
+      "analysed_at": "2026-10-16T07:31:34.164898+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/racing/star-wars-galactic-racer-introduces-the-best-glup-shitto-ever-an-annoying-little-dude-wholl-blow-up-your-vehicle-for-fun-and-fans-love-him-george-lucas-would-shed-a-tear/",
+          "title": "Star Wars Galactic Racer introduces \"the best Glup Shitto ever,\" fans say",
+          "evidence": "<article> <p>The hierarchy of power in the Glup Shittoverse is about to change as Star Wars: Galactic Racer's Biddy Blas is proving to be an incredibly obnoxious fan favorite. </p><p>Even as someone who saw The Rise of Skywalker and had my interest in anything Star Wars immediately leave my body due to how bad it was… I still love all of the little freaks found in the world. The Salacious B Crumb, Sy Snootles, Klaud. And thanks to the joys of podracing, Star Wars: Galactic Racer is prime Glup Shitto territory, with one of the all-time greats – racing legend Ben Quadinaros – returning to the fray. </p><p>However, even with the return of the most beloved and iconic Star Wars character ever conceived, a new contender to the throne has emerged in the form of an original character built specifically for Galactic Racer, Biddy Blas. Now, Mr. Blas has the appearance of a stout little guy with an alligator face wearing a sick racing helmet, which is already a banger, but his true claim to being peak comes when he speaks. </p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/210751316129"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Star Wars Galactic Racer introduces \"the best Glup Shitto ever,\" fans say",
+        "secondary_keywords": [
+          "Star Wars Galactic Racer introduces \"the best Glup Shitto ever,\" fans say date de sortie",
+          "Star Wars Galactic Racer introduces \"the best Glup Shitto ever,\" fans say plateformes",
+          "Star Wars Galactic Racer introduces \"the best Glup Shitto ever,\" fans say gameplay",
+          "Star Wars Galactic Racer introduces \"the best Glup Shitto ever,\" fans say guide",
+          "Star Wars Galactic Racer introduces \"the best Glup Shitto ever,\" fans say avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Star Wars Galactic Racer introduces \"the best Glup Shitto ever,\" fans say"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-live-action-cyberpunk-2077-movie-in-development-with-cd-09351b0c1585",
+      "topic": "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing",
+      "detected_at": "2026-10-08T20:08:36.053328+00:00",
+      "analysed_at": "2026-10-16T07:31:34.164912+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/sci-fi-movies/live-action-cyberpunk-2077-movie-in-development-with-cd-projekt-red-co-producing/",
+          "title": "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing",
+          "evidence": "<article> <p>A live-action Cyberpunk 2077 movie is now in development, and CD Projekt Red is co-producing it.</p><p>The film is in development at Paramount Pictures, with the video game studio co-producing alongside Lorenzo di Bonaventura, according to a new report from <a href=\"https://deadline.com/2026/10/paramount-lorenzo-di-bonaventura-cyberpunk-2077-1237150129/\" target=\"_blank\">Deadline</a>. di Bonaventura is best known for producing the live-action Transformers and GI Joe films. No additional details about the film or its plot have been reported.</p><p>CD Projekt Red also co-produced the Cyberpunk: Edgerunners anime series, which was released to wide acclaim in 2022. <a href=\"https://www.gamesradar.com/entertainment/anime-shows/cyberpunk-edgerunners-season-2-release-date-trailer-story/\">Cyberpunk: Edgerunners season 2</a> is set to land via Netflix on October 20 with a whole new cast of characters, who'll hopefully face a <em>bit</em> less tragedy than their predecessors. A new Cyberpunk game is also in development, though very few details have been revealed about it, either.</p><p>While Cyberpunk 2077 brought the setting to a much broader, more mainstream audience, the video"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing",
+        "secondary_keywords": [
+          "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing date de sortie",
+          "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing plateformes",
+          "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing gameplay",
+          "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing guide",
+          "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Live-action Cyberpunk 2077 movie in development with CD Projekt Red co-producing"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-naughty-dog-crunch-could-be-grueling-but-the-last-of-us-fa25b5cf43ce",
+      "topic": "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio",
+      "detected_at": "2026-10-08T20:08:36.053517+00:00",
+      "analysed_at": "2026-10-16T07:31:34.164928+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-last-of-us/naughty-dog-crunch-could-be-grueling-but-the-last-of-us-and-uncharted-4-artist-defends-the-studio-says-it-wasnt-evil-corporation-demands-horrific-working-hours/",
+          "title": "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio",
+          "evidence": "<article> <p>A number of high-profile game studios are closely associated with crunch culture, and The Last of Us maker Naughty Dog is undoubtedly one of them. I feel confident saying that not only because the studio's reputation for crunch has been well-established through many years of trustworthy reporting, but because <a href=\"https://www.gamesradar.com/the-last-of-us-part-2-studio-admits-we-have-a-reputation-for-crunching-and-pledges-that-its-something-were-not-going-to-do-anymore/\">Naughty Dog representatives have confirmed as much explicitly</a>. As recently as December 2025, reports circulated claiming <a href=\"https://www.gamesradar.com/games/action/naughty-dog-devs-reportedly-in-mandatory-overtime-to-complete-intergalactic-the-heretic-prophet-internal-demo-by-december/\">Naughty Dog employees had been forced into mandatory overtime to complete a demo for Intergalactic: The Heretic Prophet</a>, and in April, <a href=\"https://www.gamesradar.com/games/action/the-last-of-us-led-naughty-dog-to-accept-crunch-is-what-it-takes-to-make-games-at-our-level-former-designer-says-so-intergalactic-the-heretic-prophet-devs-are-probably-deep-in-it/\">former Naughty Dog senior game designer "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio",
+        "secondary_keywords": [
+          "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio date de sortie",
+          "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio plateformes",
+          "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio gameplay",
+          "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio guide",
+          "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

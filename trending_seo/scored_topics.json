@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-16T07:31:34.164930+00:00",
+  "updated_at": "2026-10-16T18:21:39.461159+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -8682,6 +8682,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Naughty Dog crunch could be \"grueling\" but The Last of Us and Uncharted 4 artist defends the studio"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-arc-raiders-frozen-trail-patch-notes-are-full-of-senten-5e86bbaa8244",
+      "topic": "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year",
+      "detected_at": "2026-10-08T20:08:36.054250+00:00",
+      "analysed_at": "2026-10-16T18:21:39.460924+00:00",
+      "scores": {
+        "durability": 12,
+        "search_intent": 15,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 65,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-frozen-trail-patch-notes-are-full-of-sentences-that-players-have-dreamed-of-for-years-you-can-now-open-the-map-while-downed/",
+          "title": "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year",
+          "evidence": "<article> <p>The big <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-frozen-trail/\"><u>Arc Raiders Frozen Trail</u></a> update is finally here, dropping a truckload of wintry content on players and, importantly, unloading the biggest patch notes since the start of the game. We're all going to be busy with the new map, skills, guns, gadgets, and Arc for a good while, but the 2.0 Frozen Trail update is full of tiny yet exciting changes, many of which have been requested by players for nearly a full year. </p><p>You can <a href=\"https://arcraiders.com/news/frozen-trail-2-0-update\" target=\"_blank\"><u>read the full patch notes here</u></a>. I want to focus on some easily missed lines that punch above their weight. Here's an easy crowd pleaser: \"Max Stash Size increased by 2 new levels (328 Max without Expedition bonuses).\" With tons of new items coming into the game, I wouldn't be surprised if Embark is all but forced to further increase stash size in the future. </p><p>This may be a contentious change because it's technically a nerf to a popular strategy, but the Queen and Matriarch have had their loot reallocated once again. \"Moved higher tier loot from the "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year",
+        "secondary_keywords": [
+          "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year date de sortie",
+          "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year plateformes",
+          "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year gameplay",
+          "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year guide",
+          "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Arc Raiders Frozen Trail patch notes are full of sentences that players have dreamed of for a year"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-xbox-puts-former-reddit-and-facebook-exec-in-charge-of--12fc0fa3756a",
+      "topic": "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang",
+      "detected_at": "2026-10-08T20:08:36.054384+00:00",
+      "analysed_at": "2026-10-16T18:21:39.460976+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/minecraft/xbox-puts-former-reddit-and-facebook-exec-in-charge-of-minecraft-studio-mojang/",
+          "title": "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang",
+          "evidence": "<article> <p>A lot of change is going on in the annals of Xbox right now. The games division of <a href=\"https://www.gamesradar.com/tag/microsoft/\">Microsoft</a> is in the midst of 3,200 layoffs and a complete restructuring, and that includes in senior management. Mojang, the company overseeing <a href=\"https://www.gamesradar.com/uk/games/adventure/minecraft/\">Minecraft</a>, now has a new boss, but their background isn't strictly in game development.</p><p>Asha Sharma, CEO of Xbox, has announced that Maria Angelidou-Smith is taking on the role of Mojang CEO, replacing Kayleen Walters, who's now president of XP. That's apparently another wing of Xbox dedicated to how \"how people experience our franchises beyond the games themselves\" - in other words, TV and movie adaptations and licensing agreements and what not.</p><p>Considering the success of A Minecraft Movie, and the fact she's a named producer on the sequel, it makes sense for Walters to move into that role. It's mentioned Minecraft garnered over 250 licensees in her time there.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocook"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang",
+        "secondary_keywords": [
+          "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang date de sortie",
+          "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang plateformes",
+          "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang gameplay",
+          "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang guide",
+          "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Xbox puts former Reddit and Facebook exec in charge of Minecraft studio Mojang"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-is-simplifying-blizzard-s-usual-pvp-but-als-4fca550a3b6c",
+      "topic": "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind",
+      "detected_at": "2026-10-08T20:08:36.054578+00:00",
+      "analysed_at": "2026-10-16T18:21:39.461012+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-is-simplifying-blizzards-usual-pvp-but-also-adding-a-controversial-weekly-grind-as-mmo-fans-beg-please-dont-do-the-weeklies-thing/",
+          "title": "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-is-a-whole-new-wow-game-launching-in-november-thatll-live-alongside-classic-and-vanilla/\">World of Warcraft: Forever</a> won't be emulating the retail <em>or</em> Classic versions of Blizzard's beloved MMO when it comes to PvP – it's got its own way of approaching it.</p><p>The studio outlines as much in a <a href=\"http://v\" target=\"_blank\">new post</a> about how PvP works in WoW: Forever over on its official website, and it's somehow easier than it was back in the early 2000s but also… a tad grindy? <br><br>Blizzard first describes it bringing \"a refreshed sense of purpose to every match-up\" with an approach that \"gives players more reasons to take part throughout the season while preserving the spirit of competition that defined PvP in the original World of Warcraft.\"</p><p>The developers explain that they \"wanted to keep the design pillar of 'Approachable and Familiar' firmly in view: simplifying the original Honor System while staying true to its roots\" – so, how does it work? <br><br>Well, there are two parts to World of Warcraft: Forever PvP: Honor and Rank Points. Honor is a fo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind",
+        "secondary_keywords": [
+          "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind date de sortie",
+          "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind plateformes",
+          "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind gameplay",
+          "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind guide",
+          "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever is \"simplifying\" Blizzard's usual PvP but also adding a controversial weekly grind"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-where-to-find-celeste-s-childhood-drawings-in-arc-raide-b32615250751",
+      "topic": "Where to find Celeste's childhood drawings in Arc Raiders",
+      "detected_at": "2026-10-08T20:08:36.054763+00:00",
+      "analysed_at": "2026-10-16T18:21:39.461037+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-celestes-childhood-drawings/",
+          "title": "Where to find Celeste's childhood drawings in Arc Raiders",
+          "evidence": "<article> <p>Finding Celeste's childhood drawings in Arc Raiders will take you to three locations in Riven Tides, which is no mean feat given how dangerous the area is. <em>Especially </em>when you don't have a clear idea where you're going or what you're looking for. I've found all the drawing locations already though, so I can point you in the right direction and minimize the wandering about to make it all a lot easier. </p><h2 class=\"article-body__section\" id=\"section-find-young-celeste-s-room-in-hotel-panorama-azzuro\"><span>Find young Celeste's room in Hotel Panorama Azzuro</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"Kpa3hV7vf2Fm8VxwQBe6i4\" name=\"arc raiders Celeste's childhood drawings\" alt=\"arc raiders Find young Celeste's room in Hotel Panorama Azzuro\" src=\"https://cdn.mos.cms.futurecdn.net/Kpa3hV7vf2Fm8VxwQBe6i4-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.fu"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Where to find Celeste's childhood drawings in Arc Raiders",
+        "secondary_keywords": [
+          "Where to find Celeste's childhood drawings in Arc Raiders date de sortie",
+          "Where to find Celeste's childhood drawings in Arc Raiders plateformes",
+          "Where to find Celeste's childhood drawings in Arc Raiders gameplay",
+          "Where to find Celeste's childhood drawings in Arc Raiders guide",
+          "Where to find Celeste's childhood drawings in Arc Raiders avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Where to find Celeste's childhood drawings in Arc Raiders"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-25-years-after-burnout-star-wars-galactic-racer-boss-sa-48fdd69e0bc5",
+      "topic": "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players",
+      "detected_at": "2026-10-08T20:08:36.054889+00:00",
+      "analysed_at": "2026-10-16T18:21:39.461064+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/racing/25-years-after-burnout-star-wars-galactic-racer-studio-lead-says-we-are-asking-way-more-out-of-players-than-weve-ever-done-because-modern-players-are-built-different/",
+          "title": "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players",
+          "evidence": "<article> <p>Star Wars: Galactic Racer studio lead Matt Webster says the new roguelite racer is way more complex than other racers by the same team.</p><p>Star Wars: Galactic Racer is out now, and finally brings the series back to racing after a 24 year gap since the PS2's Racer Revenge. And perhaps more crucially, it's developed by the team at Fuse Games, which was born from multiple members of Criterion Games, making Galactic Racer as much of a homage to Star Wars: Episode 1 Racer as it is to Burnout 3 and Burnout Revenge. </p><p>And while working with a well known and mostly family-friendly IP like Star Wars could've led the devs to perhaps tone things down a little, Galactic Racer is pretty tough. You're moving at super high speeds and even brushing a wall can cause your speeder to blow up. And in the game's campaign, you only have three chances to blow up before you're eliminated and need to restart a run.</p><p>Talking to GamesRadar+ guides editor Will Sawyer – who also wrote our <a href=\"https://www.gamesradar.com/games/racing/star-wars-galactic-racer-review/\"><u>Star Wars: Galactic Racer review</u></a> – Fuse Games CEO Webster spoke about the complexity of the racer, saying"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players",
+        "secondary_keywords": [
+          "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players date de sortie",
+          "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players plateformes",
+          "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players gameplay",
+          "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players guide",
+          "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "25 years after Burnout, Star Wars: Galactic Racer boss says \"we are asking way more\" from players"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-atari-800xl-is-officially-getting-its-rumored-micro-f0f2fb8120ea",
+      "topic": "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts",
+      "detected_at": "2026-10-08T20:08:36.055079+00:00",
+      "analysed_at": "2026-10-16T18:21:39.461088+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/retro/the-atari-800xl-is-officially-getting-its-rumored-remake-complete-with-cartridge-support-and-it-looks-more-like-the-80s-microcomputer-i-use-to-play-cursed-classics/",
+          "title": "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts",
+          "evidence": "<article> <p>We've known <a href=\"https://www.gamesradar.com/best-retro-consoles/\">retro console</a> maker Retro Games Ltd had something in mind for the Atari 800XL since <a href=\"https://www.gamesradar.com/hardware/retro/ataris-next-retro-console-remake-could-be-the-bigger-version-of-the-8-bit-microcomputer-i-use/\" target=\"_blank\">trademark applications</a> surfaced back in May. Those plans are now official, as the company just announced a remake of the '80s microcomputer with HDMI output, a physical cartridge slot, and a full-sized keyboard. </p><div class=\"fancy-box\"><div class=\"fancy_box-title\">An Atari 8-bit time capsule</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">The Atari 800XL remake will be fantastic for physical collectors, but if you'd rather just embrace plug-and-play convenience, the Atari 400 Mini can already run the same games <a data-analytics-id=\"inline-link\" href=\"https://www.amazon.com/THE400-Mini-Not-Machine-Specific/dp/B0CRYXTL82\" target=\"_blank\">for $88.84</a>. Its size means it naturally lacks a fully functional keyboard and cartridge slot, but it does come with games built in and USB support for ROMs.</p></div></div><p>As someone with a "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts",
+        "secondary_keywords": [
+          "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts date de sortie",
+          "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts plateformes",
+          "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts gameplay",
+          "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts guide",
+          "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Atari 800XL is officially getting its rumored microcomputer remake that runs original carts"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-street-fighter-director-says-every-single-cast-member-h-e50b9d7e5009",
+      "topic": "Street Fighter director says every single cast member has a \"love for the franchise\"",
+      "detected_at": "2026-10-08T20:08:36.055200+00:00",
+      "analysed_at": "2026-10-16T18:21:39.461112+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/live-action-movies/street-fighter-director-says-every-single-cast-member-has-a-love-for-the-franchise-and-a-very-deep-understanding-of-canon/",
+          "title": "Street Fighter director says every single cast member has a \"love for the franchise\"",
+          "evidence": "<article> <p>In what will be music to the ears of Street Fighter fans worldwide, the director of the upcoming, hard-hitting movie adaptation says everyone on the cast arrived with a serious working knowledge of Capcom's iconic fighting franchise.</p><p>\"Everybody that's in the movie is a fan of the game,\" Kitao Sakurai tells GamesRadar+. \"There was nobody that I cast that was like, 'what's Street Fighter? What are we doing here? Everybody came to the movie out of a love for the franchise and for the game, and with a very deep understanding of like the canon and the lore.</p><p>To that end, Sakurai reveals he would use Ryu actor Andrew Koji as his own built-in loremaster on-set. </p><p>\"Andrew Koji is a huge gamer and oftentimes I would lean on him for canon stuff.\"</p><p>Sakurai adds, \"[Chun-Li actor] Callina [Liang] is a legit gamer. She's younger, so she grew up more on Street Fighter 6 – everybody has different sort of connections to the game, but everybody definitely is coming from a place of loving the game.\"</p><p>That passion for authenticity and harkening back to Street Fighter's quarter-draining '90s heyday in arcades even extends to Sakurai aiming to ape the feel, tone, a"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Street Fighter director says every single cast member has a \"love for the franchise\"",
+        "secondary_keywords": [
+          "Street Fighter director says every single cast member has a \"love for the franchise\" date de sortie",
+          "Street Fighter director says every single cast member has a \"love for the franchise\" plateformes",
+          "Street Fighter director says every single cast member has a \"love for the franchise\" gameplay",
+          "Street Fighter director says every single cast member has a \"love for the franchise\" guide",
+          "Street Fighter director says every single cast member has a \"love for the franchise\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Street Fighter director says every single cast member has a \"love for the franchise\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-13-hellraiser-revival-easter-eggs-and-references-that-e-2a88f5fde247",
+      "topic": "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed",
+      "detected_at": "2026-10-08T20:08:36.055806+00:00",
+      "analysed_at": "2026-10-16T18:21:39.461154+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/horror/hellraiser-revival-easter-eggs/",
+          "title": "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed",
+          "evidence": "<article> <p>As a massive horror fan, I was on the hunt for Clive Barker's Hellraiser: Revival Easter Eggs as soon as I loaded up the game. And, to my Cenobite-obsessed delight, I've found 13 references that made me do a double-take while messing about with the Lament Configuration. </p><p><a href=\"https://www.gamesradar.com/games/survival-horror/clive-barkers-hellraiser-revival-guide\">Clive Barker's Hellraiser: Revival</a> is, of course, set in the Hellraiser universe, which has given us some of the <a href=\"https://www.gamesradar.com/best-horror-movies\">best horror movies</a> of all time and is a staple in '80s horror media, period. So of course there were always going to be nods to the iconic franchise for us to dig into here. However, in between my time gushing over Pinhead voice actor Doug Bradley's being in this title and wincing at all the virtual gore on my screen, I was shocked to find obscure nods to other '80s horror movies, the Hellraiser comics getting some love, and even tributes to iconic metal bands as well. </p><p>Some of the easter eggs I found are really hidden, and some aren't so cut and dry. I'm sure I may have missed a few as well, so feel free to share any yo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed",
+        "secondary_keywords": [
+          "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed date de sortie",
+          "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed plateformes",
+          "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed gameplay",
+          "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed guide",
+          "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-16T07:31:40.905238+00:00",
+  "updated_at": "2026-10-16T18:21:45.701896+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -193,6 +193,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-baldurs-gate-3-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 778,
       "published_at": "2026-10-16T07:31:40.905238+00:00"
+    },
+    {
+      "intent_key": "baldur s gate 3 multijoueur",
+      "primary_keyword": "Baldur's Gate 3 multijoueur",
+      "title": "Baldur's Gate 3 multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/baldurs-gate-3-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 784,
+      "published_at": "2026-10-16T18:21:45.701896+00:00"
     }
   ]
 }

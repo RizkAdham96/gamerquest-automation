@@ -423,6 +423,7 @@ def run():
                 carousel_package,
                 exact_content,
                 claims,
+                fact_check_reason=reason,
             )
         )
 

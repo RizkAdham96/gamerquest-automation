@@ -875,6 +875,37 @@ def test_thin_articles_are_rejected_before_publication():
     assert automation.thin_article_rejection(_article_with_words(260)) == ""
 
 
+def test_final_editor_thin_result_keeps_complete_generated_article(monkeypatch):
+    original = _article_with_words(260)
+    thin_content = "<p>" + " ".join(["mot"] * 31) + "</p>"
+    corrected = """SEO_TITLE: Titre SEO
+META_DESCRIPTION: Description
+PRIMARY_KEYWORD: mot-clé
+SECONDARY_KEYWORDS: gaming
+SEARCH_INTENT: News
+SUGGESTED_SLUG: titre
+TITLE: Titre
+EXCERPT: Extrait
+CATEGORY: Actualités
+TAGS: gaming
+CONTENT:
+""" + thin_content
+
+    monkeypatch.setattr(
+        automation,
+        "groq_chat",
+        lambda *args, **kwargs: corrected,
+    )
+
+    result = automation.verify_and_correct_article(
+        original,
+        "Source vérifiée " * 200,
+        "",
+    )
+
+    assert result == original
+
+
 def test_remaining_run_budget_tracks_admitted_calls(monkeypatch):
     import groq_budget
 

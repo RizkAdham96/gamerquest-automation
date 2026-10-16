@@ -2611,7 +2611,7 @@ CONTENT:
     )
 
     try:
-        return parse_article(
+        corrected_article = parse_article(
             corrected
         )
     except RuntimeError as error:
@@ -2628,6 +2628,26 @@ CONTENT:
         print(f"Editor parse error: {error}")
         print(f"Editor reply preview: {str(corrected or '')[:300]!r}")
         return article_data
+
+    # A length-truncated editor reply can still contain every required label,
+    # so parsing alone is not enough to prove that the correction is usable.
+    # Never replace a complete generated article with a thinner partial edit.
+    # The original article still passes all local grounding and quality guards
+    # in main() before it can reach the feed.
+    corrected_thin_reason = thin_article_rejection(corrected_article)
+    original_thin_reason = thin_article_rejection(article_data)
+
+    if corrected_thin_reason and not original_thin_reason:
+        print("")
+        print(
+            "Final Groq editor returned a truncated or abnormally thin "
+            "article; keeping the complete generated article for local "
+            "safety validation."
+        )
+        print(f"Editor quality warning: {corrected_thin_reason}")
+        return article_data
+
+    return corrected_article
 
 
 

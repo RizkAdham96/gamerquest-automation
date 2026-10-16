@@ -623,6 +623,57 @@ class TestSocialAIRunner(unittest.TestCase):
     @patch(
         "social.idea_generator.call_grok"
     )
+    def test_repair_prompt_includes_fact_check_reason(
+        self,
+        mock_call,
+    ):
+        mock_call.return_value = json.dumps(
+            {
+                "slides": three_slides(),
+                "caption": "Caption",
+                "cta": "Lire la suite sur GamerQuest.fr",
+                "hashtags": ["#GamerQuest"],
+            }
+        )
+
+        reason = (
+            "The caption claim that the game will transform "
+            "tactical sessions is unsupported by the source."
+        )
+
+        idea_generator.repair_carousel(
+            {
+                "topic": "Game",
+                "slides": three_slides(),
+                "caption": "Le jeu transformera vos sessions tactiques.",
+                "cta": "Lire la suite sur GamerQuest.fr",
+                "hashtags": [],
+            },
+            [
+                {
+                    "title": "Game",
+                    "excerpt": "Le jeu sort le 8 avril 2027.",
+                    "source_type": "news",
+                }
+            ],
+            [],
+            fact_check_reason=reason,
+        )
+
+        prompt = mock_call.call_args[0][0]
+
+        self.assertIn(
+            "FACT-CHECK REASON:",
+            prompt,
+        )
+        self.assertIn(
+            reason,
+            prompt,
+        )
+
+    @patch(
+        "social.idea_generator.call_grok"
+    )
     def test_repair_carousel_rejects_five_slides(
         self,
         mock_call,

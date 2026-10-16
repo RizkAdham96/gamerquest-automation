@@ -1026,6 +1026,7 @@ def repair_carousel(
     idea,
     content,
     unsupported_claims,
+    fact_check_reason="",
 ):
     exact_content = (
         _exact_source_content(
@@ -1074,6 +1075,12 @@ UNSUPPORTED CLAIMS:
 {json.dumps(
     unsupported_claims,
     ensure_ascii=False
+)}
+
+FACT-CHECK REASON:
+{_clean_text(
+    fact_check_reason,
+    700,
 )}
 
 RULES:

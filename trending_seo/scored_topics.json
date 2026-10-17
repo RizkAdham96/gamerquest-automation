@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-17T07:11:48.346234+00:00",
+  "updated_at": "2026-10-17T17:32:44.334098+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -9306,6 +9306,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-leisure-suit-larry-is-about-to-take-his-final-bow-1bfb2364c609",
+      "topic": "Leisure Suit Larry is about to take his final bow",
+      "detected_at": "2026-10-09T19:46:15.277976+00:00",
+      "analysed_at": "2026-10-17T17:32:44.333878+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/adventure/leisure-suit-larry-is-about-to-take-his-final-bow/",
+          "title": "Leisure Suit Larry is about to take his final bow",
+          "evidence": "<article> <p>2018's <a href=\"https://www.pcgamer.com/leisure-suit-larry-wet-dreams-won-t-dry/\" target=\"_blank\">Leisure Suit Larry: Wet Dreams Don't Dry</a> was a genuinely pleasant surprise, in that it's actually good—quite a contrast to the preceding games in the series, Magna Cum Laude and Box Office Bust, which were decidedly <em>not </em>good. A sequel followed, <a href=\"https://www.pcgamer.com/leisure-suit-larry-is-coming-again-in-wet-dreams-dry-twice/\" target=\"_blank\">Wet Dreams Dry Twice</a>, and once again it was pretty good stuff—not hugely innovative or high art, but a genuine Leisure Suit Larry experience that manages to avoid embarrassing itself (though it embarrasses Larry himself plenty).</p><p>Both of them, sadly, are soon going away for good. An <a href=\"https://store.steampowered.com/news/app/765870/view/707785259656152016\" target=\"_blank\">announcement</a> on Steam from publisher Assemble Entertainment says both games are being removed from the store on October 23. Ahead of that, they're being offered seriously cheap: 95% off the regular price, dropping them to less than $2 each.</p><p>The removal of the Wet Dreams duo effectively puts a pin in a process than began"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Leisure Suit Larry is about to take his final bow",
+        "secondary_keywords": [
+          "Leisure Suit Larry is about to take his final bow date de sortie",
+          "Leisure Suit Larry is about to take his final bow plateformes",
+          "Leisure Suit Larry is about to take his final bow gameplay",
+          "Leisure Suit Larry is about to take his final bow guide",
+          "Leisure Suit Larry is about to take his final bow avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Leisure Suit Larry is about to take his final bow"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-might-finally-have-gone-too-far-with-a-gta-5-mod-that-440203a80784",
+      "topic": "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2",
+      "detected_at": "2026-10-09T19:46:15.278261+00:00",
+      "analysed_at": "2026-10-17T17:32:44.333930+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-might-finally-have-gone-too-far-with-a-gta-5-mod-that-imports-most-of-doom-2/",
+          "title": "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>I really don't know how to build up to this one. Grand Theft Auto 5 is Doom now, okay? I put in a mod that imports DOOM2.wad into GTA 5 and now that's what the game is. There are demons. The game is first person. I have a minigun and a BFG. That's the truth of the matter and we're all just going to have to find some way to live with it.</p><p>The mod is <a href=\"https://www.gta5-mods.com/scripts/doomii_hellonearth_gta5_v1-0\" target=\"_blank\">Doom 2 in GTA 5 Hell On Earth</a> (D2IGTA5HOE), and it does all those things I said. Hit F9 and the game you are playing shifts from"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2",
+        "secondary_keywords": [
+          "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 date de sortie",
+          "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 plateformes",
+          "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 gameplay",
+          "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 guide",
+          "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wardogs-will-bribe-players-with-cash-and-xp-to-pick-blu-48c37364a245",
+      "topic": "Wardogs will bribe players with cash and XP to pick Blue team in Season 2",
+      "detected_at": "2026-10-09T19:46:15.278491+00:00",
+      "analysed_at": "2026-10-17T17:32:44.333961+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/wardogs-will-bribe-players-with-cash-and-xp-to-pick-blue-team-in-season-2/",
+          "title": "Wardogs will bribe players with cash and XP to pick Blue team in Season 2",
+          "evidence": "<article> <div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/quGfuiKE7kHW9W8XDcB8yS.jpg\" alt=\"wardogs blue team\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Blue team reinforcements</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><ul><li>\"Lonestar cash and XP bonus. Season 2 only. New Bakurani spawn.\" </li><li>\"We're looking at how we can help the win rate of a certain team.\" -Bulkhead CEO Joe Brammer (via <a href=\"https://youtu.be/J2VxjMnMDw4\" target=\"_blank\">\"Road to Season 2\" devlog</a>)</li></ul></div></div></div></div><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/J2VxjMnMDw4\" allowfullscreen></iframe></div></div><p>Bulkhead wants to boost one team's win rate, and it's willing to bribe its players (with in-game cash) to do it. Despite all three teams starting on equal grounds, many <a href=\"https://www.pcgamer.com/games/fps/wardogs-p"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Wardogs will bribe players with cash and XP to pick Blue team in Season 2",
+        "secondary_keywords": [
+          "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 date de sortie",
+          "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 plateformes",
+          "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 gameplay",
+          "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 guide",
+          "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Wardogs will bribe players with cash and XP to pick Blue team in Season 2"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-was-nice-to-you-three-times-in-a-row-so-can-i-have-on-1bfbf8a2c679",
+      "topic": "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances",
+      "detected_at": "2026-10-09T19:46:15.278686+00:00",
+      "analysed_at": "2026-10-17T17:32:44.333990+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/life-sim/i-was-nice-to-you-three-times-in-a-row-so-can-i-have-one-sex-please-why-nivalis-nights-intentionally-avoided-transactional-romances/",
+          "title": "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/nivalis-nights/\">Nivalis Nights</a> is mostly a story-heavy shop simulation but it does also have a sprinkle of relationship building. Conversations with characters can affect four different attitudes towards you: friendly, combative, romantic, and savvy. Dialogue options aren't clearly marked though, so you don't always know if you're about to piss someone off or say something they'll perceive as flirtatious.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"WMicmi9VPQou9JE7XCguai\" name=\"20261008163443_1\" alt=\"Nivalis Nights - Lois offers to pla co-op games together and the player has the option to say they'd rather do something in the real world.\" src=\"https://cdn.mos.cms.futurecdn.net/WMicmi9VPQou9JE7XCguai-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/WMicmi9VPQou9JE7XCguai-1920-80.jpg' target='_blank' class='expand-bu"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances",
+        "secondary_keywords": [
+          "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances date de sortie",
+          "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances plateformes",
+          "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances gameplay",
+          "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances guide",
+          "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-worldwide-pc-shipments-have-plummeted-by-over-20-to-the-6afefaf216a1",
+      "topic": "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one",
+      "detected_at": "2026-10-09T19:46:15.279016+00:00",
+      "analysed_at": "2026-10-17T17:32:44.334017+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/worldwide-pc-shipments-have-plummeted-by-over-20-percent-to-the-surprise-of-absolutely-no-one/",
+          "title": "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one",
+          "evidence": "<article> <p>IDC Research has <a href=\"https://www.idc.com/resource-center/press-releases/idc-pc-tracker-3q26/\" target=\"_blank\">released its figures</a> regarding worldwide PC shipments in the third quarter of 2026, and would you believe it, they've dropped considerably. Looking at the year-over-year numbers, the shipped units dropped from 78.5 million in Q3 2025, to 62.7 million in Q3 of this year. That's a 20.1% plummet, for percentage fans.</p><p>But why, I hear you asking. Actually, I don't. The <a href=\"https://www.pcgamer.com/hardware/memory/ram-and-storage-is-ridiculously-expensive-right-now-because-of-drumroll-ai-of-course-and-theres-little-reason-to-think-prices-will-drop-any-time-soon/\" target=\"_blank\">memory and supply chain crisis, driven by AI server demand</a> is pinpointed by the IDC as the primary driver of the decline, which will come as no surprise to those of us in non-rock-based abodes.</p><p>However, it's worth looking a bit deeper into exactly what's happened here. The \"pull-in\" of stock created by vendors buying up supply in the first half of this year (in anticipation of the forecasted price hikes) has essentially borrowed volume from the second half, accord"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one",
+        "secondary_keywords": [
+          "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one date de sortie",
+          "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one plateformes",
+          "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one gameplay",
+          "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one guide",
+          "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-valve-is-telling-devs-how-well-their-games-actually-run-30455c8a892f",
+      "topic": "Valve is telling devs how well their games actually run on Steam Deck with real world data",
+      "detected_at": "2026-10-09T19:46:15.279241+00:00",
+      "analysed_at": "2026-10-17T17:32:44.334041+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/valve-is-telling-devs-how-well-their-games-actually-run-on-steam-deck-with-real-world-data/",
+          "title": "Valve is telling devs how well their games actually run on Steam Deck with real world data",
+          "evidence": "<article> <p>Have you ever clicked on a Steam Deck Verified game, attempted to boot it up, and realised it probably shouldn't have been verified? Well, Steam's new system should help developers give a more accurate understanding of how their games run on the Steam Deck. </p><p>As of <a href=\"https://store.steampowered.com/news/group/4145017?emclan=103582791433666425&emgid=676258795703239816\" target=\"_blank\">October 1</a> (via <a href=\"https://www.techpowerup.com/353411/steam-gives-devs-even-more-fps-data-for-performance-optimization\" target=\"_blank\">TechPowerUp</a>), Valve has given developers access to frame rate data as reported by Steam Deck users. A developer can see the frame rate that users are playing at as a percentage of sessions, meaning they can see if it runs well (at the Steam Deck's usual 60/90 fps cap) or not (users are generally lowering the fps limit).</p><p>That does mean it's only data willingly shared, and there are some caveats. The LCD Steam Deck has a max refresh rate of 60, while the OLED model goes up to 90. As games are often capped for fps to save resources, that will shape the stats somewhat. In addition, it can't guarantee how Steam Deck owners use thei"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Valve is telling devs how well their games actually run on Steam Deck with real world data",
+        "secondary_keywords": [
+          "Valve is telling devs how well their games actually run on Steam Deck with real world data date de sortie",
+          "Valve is telling devs how well their games actually run on Steam Deck with real world data plateformes",
+          "Valve is telling devs how well their games actually run on Steam Deck with real world data gameplay",
+          "Valve is telling devs how well their games actually run on Steam Deck with real world data guide",
+          "Valve is telling devs how well their games actually run on Steam Deck with real world data avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Valve is telling devs how well their games actually run on Steam Deck with real world data"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-dev-says-there-s-a-real-longing-for-that-sl-3e59bb82e4e8",
+      "topic": "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature'",
+      "detected_at": "2026-10-09T19:46:15.279547+00:00",
+      "analysed_at": "2026-10-17T17:32:44.334071+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-dev-says-theres-a-real-longing-for-that-slower-more-deliberate-pace-in-mmos-a-deliberate-pushback-on-this-go-go-go-nature/",
+          "title": "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature'",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a> has me in a chokehold, and it's partially because—well, it's relaxing. As my colleague at PC Gamer so succinctly put it: <a href=\"https://www.pcgamer.com/games/world-of-warcraft/sometimes-its-fun-to-hit-a-scorpion-with-a-club-for-38-seconds/\">\"Sometimes it's fun to hit a scorpion with a club for 38 seconds.\"</a> Despite aping an era seen as more 'hardcore' to some players, Forever's lack of blaring and annoying seasonal grist is honestly refreshing.</p><p>Speaking with associate production director Clay Stone about why I'm certainly not the only one feeling that way (given the success of Classic, Season of Discovery, and now Forever's beta), he says it's a question Blizzard's been considering \"for a little while.</p><p>\"We saw, certainly with the success of Classic and the response to that, it was more than just a nostalgic experience for some people. The fact that they didn't leave, you know? They didn't just play for a month. They fell in love with it all over again. Then we saw it again a lot with Hardcore in 2023. All of a sudden, now you had a whole bunch of people who'd ne"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature'",
+        "secondary_keywords": [
+          "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' date de sortie",
+          "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' plateformes",
+          "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' gameplay",
+          "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' guide",
+          "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-motion-blur-is-the-worst-effect-in-games-confirmed-462e7b77ae3d",
+      "topic": "Motion blur is the worst effect in games (confirmed)",
+      "detected_at": "2026-10-09T19:46:15.283569+00:00",
+      "analysed_at": "2026-10-17T17:32:44.334093+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/motion-blur-is-the-worst-effect-in-games-confirmed/",
+          "title": "Motion blur is the worst effect in games (confirmed)",
+          "evidence": "<article> <p>We've been running a knockout tournament that puts graphical effects in games against one another in a fierce battle of public opinion. Each round saw two effects go head to head, and only one made it out to fight another day. We whittled it down to just two effects, chromatic aberration and motion blur, and after 7,000 votes cast across the tournament, we can finally declare the effect that sucks the most with near-scientific certainty:</p><p>It's motion blur. By an absolute landslide.</p><div class=\"vizualizer-embed\"><style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');#fv-chart-1791557603133-6zzwcxp4g *, #fv-chart-1791557603133-6zzwcxp4g *:before, #fv-chart-1791557603133-6zzwcxp4g *:after, #fv-chart-1791557603133-6zzwcxp4g-slideshow *, #fv-chart-1791557603133-6zzwcxp4g-slideshow *:before, #fv-chart-1791557603133-6zzwcxp4g-slideshow *:after {box-sizing: border-box !important; margin: 0; padding: 0; border: 0;font-size: 100%; font: inherit; vertical-align: baseline;}#fv-chart-1791557603133-6zzwcxp4g, #fv-chart-1791557603133-6zzwcxp4g-"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Motion blur is the worst effect in games (confirmed)",
+        "secondary_keywords": [
+          "Motion blur is the worst effect in games (confirmed) date de sortie",
+          "Motion blur is the worst effect in games (confirmed) plateformes",
+          "Motion blur is the worst effect in games (confirmed) gameplay",
+          "Motion blur is the worst effect in games (confirmed) guide",
+          "Motion blur is the worst effect in games (confirmed) avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Motion blur is the worst effect in games (confirmed)"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

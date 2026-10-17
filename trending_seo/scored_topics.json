@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-16T18:21:39.461159+00:00",
+  "updated_at": "2026-10-17T07:11:48.346234+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -8994,6 +8994,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "13 Hellraiser: Revival Easter Eggs and references that even hardcore horror fans may have missed"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-marvel-s-new-tv-show-might-be-an-agents-of-s-h-i-e-l-d--ee2f050bc138",
+      "topic": "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message",
+      "detected_at": "2026-10-09T09:38:25.370557+00:00",
+      "analysed_at": "2026-10-17T07:11:48.346013+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/marvels-new-tv-show-might-be-an-agents-of-s-h-i-e-l-d-revival-as-phil-coulson-star-clark-gregg-shares-cryptic-message/",
+          "title": "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message",
+          "evidence": "<article> <p>Marvel's <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/marvel-zodiac-officially-confirmed/\">new series Zodiac has been announced</a>, and fans already have a theory that it's linked to Agents of S.H.I.E.L.D. This comes after Phil Coulson star Clark Gregg shared the announcement to his <a href=\"https://www.instagram.com/clarkgregg/?hl=en\" target=\"_blank\">Instagram </a>account, sparking rumors.</p><p>This was coupled with Marvel TV head Brad Winderbaum's comments on the new \"spy thriller\" at <a href=\"https://www.gamesradar.com/news/live/marvel-nycc-2026-live-coverage-everything-announced/\">Marvel's New York Comic Con panel</a>. \"For anyone who knows the comics, if you look closely at this title design, you’ll see a few clues about where we’re going,\" he told audiences. \"I can’t tell you anything else about it yet because it’s a secret. We're going to start casting it in a couple weeks\"</p><p>Eagle-eyed fans have been pouring over the logo and think they've spotted the S.H.I.E.L.D. logo on the A. \"This is definitely the SHIELD logo on the A right? Right?? AoS revival???,\" one user wrote on <a href=\"https://www.reddit.com/r/marvelstudios/comments/1x11vl"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message",
+        "secondary_keywords": [
+          "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message date de sortie",
+          "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message plateformes",
+          "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message gameplay",
+          "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message guide",
+          "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Marvel's new TV show might be an Agents of S.H.I.E.L.D. revival as Phil Coulson star Clark Gregg shares cryptic message"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-avatar-seven-havens-review-juicy-narrative-threads-let--88b095934599",
+      "topic": "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\"",
+      "detected_at": "2026-10-09T09:38:25.370770+00:00",
+      "analysed_at": "2026-10-17T07:11:48.346064+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/animation-shows/avatar-seven-havens-season-1-review/",
+          "title": "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\"",
+          "evidence": "<article> <p>On paper, Avatar: Seven Havens is absolute catnip for me. Picking up at some point long after Legend of Korra, the world has been reduced to seven havens (get it?) following a mysterious cataclysm that the remaining people blame the previous Avatar for causing. Heady stuff! In practice, however, this juicy plot and narrative threads are let down by inconsistent animation and hard-to-follow action.</p><p><em>Note: spoilers for the end of episode 1 follow.</em></p><p>The new show follows Pavi and Nisha, long-lost twins who also happen to both(?) be the Avatar(s) somehow. From every in-universe source as well as everything we as viewers know, if true double Avatars would be a first. The mystery of how that's possible, what happened to them and the world at large, and the struggles of the city of Ellora to survive is the driving force behind the new animated show's first season.</p><h2 id=\"new-faces-new-places\">New faces, new places</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"io6"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\"",
+        "secondary_keywords": [
+          "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\" date de sortie",
+          "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\" plateformes",
+          "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\" gameplay",
+          "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\" guide",
+          "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Avatar: Seven Havens review: \"Juicy narrative threads let down by inconsistent animation and hard-to-follow action\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-nintendo-switch-2-is-currently-going-cheap-at-jb-hi-fi--dec10db31eb5",
+      "topic": "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything",
+      "detected_at": "2026-10-09T09:38:25.370871+00:00",
+      "analysed_at": "2026-10-17T07:11:48.346094+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/platforms/nintendo-switch-2/nintendo-switch-2-is-currently-going-cheap-at-jb-hi-fi-despite-everything/",
+          "title": "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything",
+          "evidence": "<article> <p>It's 2026 and everything costs a fortune. Thanks to the AI industry's greedy appetite for memory, consoles are nowadays much more expensive than they were at launch. The Nintendo Switch 2 is no exception: when it launched last year it cost AU$699.95, but since September that RRP has increased to AU$769.95.</p><p>Not good! So when a console receives a discount it's definitely worth drawing attention to. JB Hi-Fi is currently offering the <a href=\"https://www.jbhifi.com.au/products/nintendo-switch-2-console\" target=\"_blank\" rel=\"sponsored\">Nintendo Switch 2 for AU$699</a>, which is a saving of AU$70.</p><p>Yes, I realise the irony here: that discount, generous though it may be, simply discounts the Switch 2 to its launch RRP. But hey, it's better than nothing.</p><p></p><div class=\"product\"><a data-dimension112=\"688db78a-c38e-11f1-aaf3-558059bc8cb2\" data-action=\"Deal Block\" data-label=\"Switch 2\" data-dimension48=\"Switch 2\" data-dimension25=\"$699\" href=\"https://www.jbhifi.com.au/products/nintendo-switch-2-console\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1500px;\""
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything",
+        "secondary_keywords": [
+          "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything date de sortie",
+          "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything plateformes",
+          "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything gameplay",
+          "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything guide",
+          "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Nintendo Switch 2 is currently going cheap at JB Hi-Fi, despite everything"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-after-3-hours-phantom-blade-zero-is-a-wuxia-flavored-re-e71aea52af73",
+      "topic": "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist",
+      "detected_at": "2026-10-09T09:38:25.371089+00:00",
+      "analysed_at": "2026-10-17T07:11:48.346122+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/after-3-hours-phantom-blade-zero-is-a-wuxia-flavored-rewarding-action-rpg-with-a-fresh-soulslike-twist/",
+          "title": "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist",
+          "evidence": "<article> <p>The clash of blades pulses through my being. My hulking opponent repeatedly swings a rusty greatsword with menacing purpose, demanding I dodge or parry with perfect timing to avoid calamitous damage. It's a challenge I relish, stepping to this monstrous humanoid and returning strikes when the gaps emerge.</p><p>The blows are dramatic and satisfying, and the victory is mine. <a href=\"https://www.gamesradar.com/uk/phantom-blade-zero/\"><u>Phantom Blade Zero</u></a> is without a doubt one of the most enjoyable action-RPGs I've sampled this year.</p><h2 id=\"got-soul-but-a-soulslike\">Got Soul but a Soulslike?</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"jfNjFi98pHT32o5qRaH275\" name=\"PR_phantom_blade_zero_3\" alt=\"A glowing enemy fights Souls on a bridge in Phantom Blade Zero in the middle of a storm, with rain and wind whipping by\" src=\"https://cdn.mos.cms.futurecdn.net/jfNjFi98pHT32o5qRaH275-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" e"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist",
+        "secondary_keywords": [
+          "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist date de sortie",
+          "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist plateformes",
+          "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist gameplay",
+          "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist guide",
+          "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "After 3 hours, Phantom Blade Zero is a wuxia-flavored, rewarding action-RPG with a fresh Soulslike twist"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-final-fantasy-7-revelation-boss-doesn-t-want-to-hear-yo-680fc5835a69",
+      "topic": "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse",
+      "detected_at": "2026-10-09T09:38:25.371201+00:00",
+      "analysed_at": "2026-10-17T07:11:48.346147+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/final-fantasy/final-fantasy-7-revelation-boss-doesnt-want-to-hear-your-rebirth-mini-game-discourse-i-dont-think-that-discussion-really-gets-to-the-heart-of-the-matter/",
+          "title": "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse",
+          "evidence": "<article> <p>Final Fantasy 7 Rebirth takes a lot of flak for the amount of mini-games it has that distract you from the main objective. Queen's Blood, Fort Condor, Chocobo Racing, Galactic Survivors, Pirate's Rampage, Queen's Blood... oh, <em>god</em>, Queen's Blood. (I suck at Queen's Blood because I lack the attention span to learn.)</p><p>Anyway, I don't much care for all of Final Fantasy Rebirth's mini-games, but I'm not upset that they exist. Even in the rare occasion I'm forced to interact with them, it's usually a nice, brief break from the main quest that makes me slow down and appreciate the depth of the game's world. That's just me, and there are plenty of JRPG fans who are vocally against the amount of mini-games in Rebirth, and indeed, the conversation has grown loud enough that it's officially become capital-D Discourse. <a href=\"https://www.gamesradar.com/final-fantasy-7-revelation-guide/\">Final Fantasy 7 Revelation</a> director Naoki Hamaguchi, who also helmed Rebirth, isn't having any of it.</p><p>\"I often see debates about whether it's better to have more minigames or fewer,\" says Hamaguchi in the latest issue of <a href=\"https://www.magazinesdirect.com/us/edge-sub"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse",
+        "secondary_keywords": [
+          "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse date de sortie",
+          "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse plateformes",
+          "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse gameplay",
+          "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse guide",
+          "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Final Fantasy 7 Revelation boss doesn't want to hear your Rebirth mini-game discourse"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-arc-raiders-tracks-of-the-beast-guide-and-walkthrough-41df9f879cb6",
+      "topic": "Arc Raiders Tracks of the Beast guide and walkthrough",
+      "detected_at": "2026-10-09T09:38:25.371364+00:00",
+      "analysed_at": "2026-10-17T07:11:48.346175+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-tracks-of-the-beast/",
+          "title": "Arc Raiders Tracks of the Beast guide and walkthrough",
+          "evidence": "<article> <p>Tracks of the Beast is a potentially dangerous Arc Raiders mission that brings you into contact with the Bully and Skulker ARCs. You don't <em>have</em> to fight them, but there are some optional objectives you can complete if you do. <br><br>Once you complete the <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-exploring-pendola-pass/\"><u>Exploring Pendoloa Pass</u></a> quest, you’ll be given this, which asks you to find a train station and ping a Bully and a Skulker. If you can manage to do it all in one round, there are even optional tasks for you to tackle which grant you bonus rewards. If you’re ready for a possible fight or two with these new ARC units, here’s how to finish this.</p><h2 class=\"article-body__section\" id=\"section-how-to-complete-tracks-of-the-beast\"><span>How to complete Tracks of the Beast</span></h2><p>Here are all the tasks you must complete in one round for the Tracks of the Beast quests in Arc Raiders:</p><ul><li>On Pendola Pass, head to the Northern Tracks</li><li>Find the destroyed station at the end of the tracks</li><li>Ping a Bully</li><li>Ping a Skulker</li><li>(Optional) Destroy 3 Skulkers</li><li>(Optional) De"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Arc Raiders Tracks of the Beast guide and walkthrough",
+        "secondary_keywords": [
+          "Arc Raiders Tracks of the Beast guide and walkthrough date de sortie",
+          "Arc Raiders Tracks of the Beast guide and walkthrough plateformes",
+          "Arc Raiders Tracks of the Beast guide and walkthrough gameplay",
+          "Arc Raiders Tracks of the Beast guide and walkthrough guide",
+          "Arc Raiders Tracks of the Beast guide and walkthrough avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Arc Raiders Tracks of the Beast guide and walkthrough"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-visionquest-first-reactions-call-it-a-near-perfect-conc-a1fdef2bc169",
+      "topic": "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\"",
+      "detected_at": "2026-10-09T09:38:25.371468+00:00",
+      "analysed_at": "2026-10-17T07:11:48.346202+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-first-reactions-call-the-marvel-show-a-near-perfect-conclusion-and-a-genuine-love-letter-to-wandavision-fans/",
+          "title": "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\"",
+          "evidence": "<article> <p>We're days away from reuniting with everyone's favorite synthezoid, or a version of him, in <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-release-date-cast-trailer-plot/\" target=\"_blank\">VisionQuest</a>, and the hype is building, with social media reactions appearing online. </p><p>The first episode was shown today at New York Comic Con, and fans are liking what they see so far. <a href=\"https://x.com/sagesurge/status/2108315607074583031?s=20\">@sagesurge</a> said, \"They showed the first epsiode of Vision Quest and it was interesting. It's incredibly smart, stylish, funny, and full of philosophy. I'm just waiting for James Spader to go FULL Ultron.\" <a href=\"https://x.com/arkh4m_/status/2108315443014377748?s=20\" target=\"_blank\">@arkh4m</a> also added that \"We just saw the premiere for Vision Quest. And I really liked it, fascinating premiere. White Vision trying to get in touch with the emotions of Vision and from WandaVision. Great connector to the other two.\" </p><p><a href=\"https://x.com/demetherself/status/2108315298398953716?s=20\" target=\"_blank\">@demetherself</a> wrote, \"VisionQuest is a worthy successor to WandaVision, and it feels"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\"",
+        "secondary_keywords": [
+          "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\" date de sortie",
+          "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\" plateformes",
+          "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\" gameplay",
+          "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\" guide",
+          "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "VisionQuest first reactions call it a \"near-perfect conclusion\" and a \"genuine love letter to WandaVision fans\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-marvel-officially-confirms-daredevil-born-again-will-en-229dbb95f931",
+      "topic": "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con",
+      "detected_at": "2026-10-09T09:38:25.371566+00:00",
+      "analysed_at": "2026-10-17T07:11:48.346229+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/charlie-cox-says-you-dont-want-to-invite-the-wrath-of-the-save-daredevil-people-as-marvel-officially-confirms-daredevil-born-again-will-end-with-season-3/",
+          "title": "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con",
+          "evidence": "<article> <p>Fans of the Man Without Fear had their worst ones realized last month when it was announced that <a href=\"https://www.gamesradar.com/entertainment/superhero-shows/daredevil-born-again-season-3-release-date-cast-plot/\">Daredevil: Born Again season 3</a> would end after its third season. It comes as no surprise, then, that Charlie Cox hanging up his horns as Matthew Murdock for what might be the final time was a topic of discussion at today's Marvel Television panel at NYCC, along with some new footage for the vigilante's swansong.</p><p>The last time we saw the hero of Hell's Kitchen, he was thrown behind bars after confessing he was Daredevil to bring down Wilson Fisk (Vincent D'Onofrio) at <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/daredevil-born-again-season-2-ending-explained-who-dies/\">the end of Daredevil: Born Again season 2</a>. At the New York Comic Con, we got a glimpse of how he's handling things in some exciting new footage. Would you believe it? Matthew Murdock is punching people. Again. </p><p>The footage begins with the worst-kept secret in the MCU as Jessica Jones (Krysten Ritter), Luke Cage (Mike Colter), and the former(?) Iron Fi"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con",
+        "secondary_keywords": [
+          "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con date de sortie",
+          "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con plateformes",
+          "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con gameplay",
+          "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con guide",
+          "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Marvel officially confirms Daredevil: Born Again will end with season 3 at New York Comic Con"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-16T18:21:45.701896+00:00",
+  "updated_at": "2026-10-17T07:11:54.409797+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -201,6 +201,14 @@
       "wordpress_url": "https://gamerquestfr.com/baldurs-gate-3-multijoueur-coop-en-ligne-et-modes-de-jeu/",
       "wordpress_post_id": 784,
       "published_at": "2026-10-16T18:21:45.701896+00:00"
+    },
+    {
+      "intent_key": "configuration pc out of sight",
+      "primary_keyword": "configuration pc Out of Sight",
+      "title": "Configuration PC Out of Sight : minimale, recommandée et conseils",
+      "wordpress_url": "https://gamerquestfr.com/configuration-pc-out-of-sight-minimale-recommandee-et-conseils/",
+      "wordpress_post_id": 791,
+      "published_at": "2026-10-17T07:11:54.409797+00:00"
     }
   ]
 }

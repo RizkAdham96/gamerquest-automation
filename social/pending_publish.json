@@ -1,0 +1,76 @@
+{
+  "source_id": "7a5a7df7b05ab2cb1fe947bde7d9a6b43b7b2cbd2a5b3b491b560399940202dc",
+  "carousel_version": "235f86a1818b800fd8c3cdfb299e58c88c814d959e99b4516fce81e5d32e7c5e",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    804,
+    805,
+    806
+  ],
+  "prepared_at_utc": "2026-10-18T14:10:44.676159Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "7a5a7df7b05ab2cb1fe947bde7d9a6b43b7b2cbd2a5b3b491b560399940202dc",
+    "source_title": "Calendrier des sorties Nintendo Switch 2 2026 : dates officielles",
+    "score": 82.5,
+    "idea": {
+      "source_id": "7a5a7df7b05ab2cb1fe947bde7d9a6b43b7b2cbd2a5b3b491b560399940202dc",
+      "topic": "Calendrier officiel des sorties Nintendo Switch 2 2026",
+      "angle": "Toutes les dates de lancement, plateformes et brèves descriptions des jeux annoncés pour la nouvelle console.",
+      "format": "upcoming_games",
+      "hook": "Ne manquez aucune sortie : le guide complet des jeux Switch 2 2026 en un seul carrousel.",
+      "freshness": 10,
+      "click_potential": 9,
+      "curiosity": 8,
+      "shareability": 7,
+      "originality": 6,
+      "gamerquest_relevance": 10,
+      "total_score": 82.5
+    },
+    "carousel": {
+      "topic": "Calendrier officiel des sorties Nintendo Switch 2 2026",
+      "angle": "Toutes les dates de lancement, plateformes et brèves descriptions des jeux annoncés pour la nouvelle console.",
+      "format": "upcoming_games",
+      "hook": "Ne manquez aucune sortie : le guide complet des jeux Switch 2 2026 en un seul carrousel.",
+      "score": 82.5,
+      "slides": [
+        {
+          "title": "Calendrier des sorties Nintendo Switch 2 2026",
+          "body": "Découvrez les dates annoncées pour les jeux prévus en 2026.",
+          "visual_prompt": "Illustration d'une console Nintendo Switch 2 avec un calendrier montrant quelques dates et icônes de jeux."
+        },
+        {
+          "title": "Dates clés et plateformes",
+          "body": "Le guide présente les lancements prévus avec une brève description de chaque titre.",
+          "visual_prompt": "Tableau simplifié affichant des cases de dates, plateformes et petites icônes de jeux."
+        },
+        {
+          "title": "En savoir plus",
+          "body": "Accédez au calendrier complet et aux détails des jeux annoncés sur GamerQuest.fr.",
+          "visual_prompt": "Capture d'écran stylisée d'une page web montrant le calendrier des sorties Nintendo Switch 2."
+        }
+      ],
+      "caption": "📅 Vous cherchez les sorties Nintendo Switch 2 de 2026 ? Ce carrousel vous donne un aperçu des dates annoncées. 🔎",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "7a5a7df7b05ab2cb1fe947bde7d9a6b43b7b2cbd2a5b3b491b560399940202dc"
+    },
+    "caption": "📅 Vous cherchez les sorties Nintendo Switch 2 de 2026 ? Ce carrousel vous donne un aperçu des dates annoncées. 🔎",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 1
+  }
+}

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-18T07:25:37.955159+00:00",
+  "updated_at": "2026-10-18T17:33:15.233992+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -9930,6 +9930,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Don't worry, Valve: I've got your next Deadlock character concepts sorted"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-complete-tracks-of-the-beast-in-arc-raiders-e456840cde4a",
+      "topic": "How to complete Tracks of the Beast in Arc Raiders",
+      "detected_at": "2026-10-10T09:00:26.886249+00:00",
+      "analysed_at": "2026-10-18T17:33:15.233751+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-tracks-of-the-beast-walkthrough/",
+          "title": "How to complete Tracks of the Beast in Arc Raiders",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1321px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"3ytGecAWWfAH9FCKrjnHZ8\" name=\"arc-raiders-tracks-of-the-beast-2\" alt=\"Arc Raiders Tracks of the Beast - Almatera Station\" src=\"https://cdn.mos.cms.futurecdn.net/3ytGecAWWfAH9FCKrjnHZ8-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"1321\" height=\"743\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/3ytGecAWWfAH9FCKrjnHZ8-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"caption-text\">Head to the north of Pendola Pass then go south along the tracks to Almatera Station </span><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Embark Studios)</span></figcaption></figure><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">⚡ Head to the northern tracks in north Pendola Pass.</p><"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to complete Tracks of the Beast in Arc Raiders",
+        "secondary_keywords": [
+          "How to complete Tracks of the Beast in Arc Raiders date de sortie",
+          "How to complete Tracks of the Beast in Arc Raiders plateformes",
+          "How to complete Tracks of the Beast in Arc Raiders gameplay",
+          "How to complete Tracks of the Beast in Arc Raiders guide",
+          "How to complete Tracks of the Beast in Arc Raiders avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to complete Tracks of the Beast in Arc Raiders"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-new-razer-basilisk-v4-executes-perfect-180-degree-turns-e1327a7c24db",
+      "topic": "New Razer Basilisk V4 executes perfect 180 degree turns at the click of a button, all while looking like a Power Ranger's foot",
+      "detected_at": "2026-10-10T09:00:26.886380+00:00",
+      "analysed_at": "2026-10-18T17:33:15.233808+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-mice/new-razer-basilisk-v4-executes-perfect-180-degree-turns-at-the-click-of-a-button-all-while-looking-like-a-power-rangers-foot/",
+          "title": "New Razer Basilisk V4 executes perfect 180 degree turns at the click of a button, all while looking like a Power Ranger's foot",
+          "evidence": "<article> <p>I'm a sucker for an ergonomically shaped mouse, particularly those with a futuristic design. Which is why I was pleased to have a mess around with the now-announced Razer Basilisk V4 at Gamescom a few months back. It's on the larger side for a gaming rodent, and comes in two flavours: the <a href=\"https://www.razer.com/gaming-mice/razer-basilisk-v4-pro\" target=\"_blank\">Basilisk V4 Pro</a> and the <a href=\"https://www.razer.com/gaming-mice/razer-basilisk-v4-hyperspeed\" target=\"_blank\">Basilisk V4 HyperSpeed</a>.</p><p>Those familiar with Razer's naming schemes will likely deduce that the HyperSpeed is the more reasonably-priced version, coming in at $110, while the Pro version has a $170 MSRP. </p><p>The Pro gets a 50K optical sensor with 930 IPS tracking speed and 90G acceleration, alongside Frame Sync to match sensor scanning with the polling rate, while the HyperSpeed uses a 33K, 500 IPS unit. </p><p>Both also support 8K polling in both wired and wireless modes.</p><p>Both mice feature four side buttons, one of which can be configured within Razer's Synapse software to enable a \"<a href=\"https://www.razer.com/gaming-mice/razer-basilisk-v4-pro#:~:text=Mouse%20Button%2"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "New Razer Basilisk V4 executes perfect 180 degree turns at the click of a button, all while looking like a Power Ranger's foot",
+        "secondary_keywords": [
+          "New Razer Basilisk V4 executes perfect 180 degree turns at the click of a button, all while looking like a Power Ranger's foot date de sortie",
+          "New Razer Basilisk V4 executes perfect 180 degree turns at the click of a button, all while looking like a Power Ranger's foot plateformes",
+          "New Razer Basilisk V4 executes perfect 180 degree turns at the click of a button, all while looking like a Power Ranger's foot gameplay",
+          "New Razer Basilisk V4 executes perfect 180 degree turns at the click of a button, all while looking like a Power Ranger's foot guide",
+          "New Razer Basilisk V4 executes perfect 180 degree turns at the click of a button, all while looking like a Power Ranger's foot avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "New Razer Basilisk V4 executes perfect 180 degree turns at the click of a button, all while looking like a Power Ranger's foot"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-complete-to-the-skies-in-arc-raiders-070b9c9a4507",
+      "topic": "How to complete To the Skies in Arc Raiders",
+      "detected_at": "2026-10-10T09:00:26.886544+00:00",
+      "analysed_at": "2026-10-18T17:33:15.233840+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-to-the-skies-walkthrough/",
+          "title": "How to complete To the Skies in Arc Raiders",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"W8UqPYXBcMpgwCTVxBz8aM\" name=\"arc-raiders-to-the-skies-1\" alt=\"Arc Raiders To the Skies - Courier\" src=\"https://cdn.mos.cms.futurecdn.net/W8UqPYXBcMpgwCTVxBz8aM-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/W8UqPYXBcMpgwCTVxBz8aM-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"caption-text\">Your first step is scanning a crashed Arc Probe and Courier </span><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Embark Studios)</span></figcaption></figure><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">⚡ You'll need Arc Performance Steel, Pop Trigger, Arc Thermo Lining, and Arc Synthetic Resin.</p><p clas"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to complete To the Skies in Arc Raiders",
+        "secondary_keywords": [
+          "How to complete To the Skies in Arc Raiders date de sortie",
+          "How to complete To the Skies in Arc Raiders plateformes",
+          "How to complete To the Skies in Arc Raiders gameplay",
+          "How to complete To the Skies in Arc Raiders guide",
+          "How to complete To the Skies in Arc Raiders avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to complete To the Skies in Arc Raiders"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-s-list-of-changes-snowballed-as-blizzard-go-ce56a223abd6",
+      "topic": "WoW: Forever's list of changes snowballed as Blizzard got more excited, says dev: 'Our original pitch internally was: We'll do 4 new dungeons'",
+      "detected_at": "2026-10-10T09:00:26.886673+00:00",
+      "analysed_at": "2026-10-18T17:33:15.233872+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-list-of-changes-snowballed-as-blizzard-got-more-excited-says-dev-our-original-pitch-internally-was-well-do-4-new-dungeons/",
+          "title": "WoW: Forever's list of changes snowballed as Blizzard got more excited, says dev: 'Our original pitch internally was: We'll do 4 new dungeons'",
+          "evidence": "<article> <p>Questing through the <a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a> beta, I've been impressed by just how much has been layered on top of the game's Classic world—new quests and new dungeons, designed to slot in seamlessly to the more oldschool playstyle without causing too much friction. It's an impressive magic trick, and one I'm really excited to get stuck into properly come November.</p><p>Talking to associate production director Clay Stone, Forever initially had far more humble beginnings: \"It's been an evolution, and I think that's probably pretty clear from all the classic titles we've done so far in the level of experimentation and breaking away from #NoChanges at the beginning.\" </p><p>While Mists of Pandaria Classic and Wrath of the Lich King Classic added small changes and adjustments, Stone says the ball really got rolling with Hardcore and Season of Discovery: </p><p>\"Obviously, with that, it was a wonderful testing ground for us to be able to see what the limits were and what what players would accept as [something that] does or does not fit into the space, how classes could function, and certainly for us as a "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever's list of changes snowballed as Blizzard got more excited, says dev: 'Our original pitch internally was: We'll do 4 new dungeons'",
+        "secondary_keywords": [
+          "WoW: Forever's list of changes snowballed as Blizzard got more excited, says dev: 'Our original pitch internally was: We'll do 4 new dungeons' date de sortie",
+          "WoW: Forever's list of changes snowballed as Blizzard got more excited, says dev: 'Our original pitch internally was: We'll do 4 new dungeons' plateformes",
+          "WoW: Forever's list of changes snowballed as Blizzard got more excited, says dev: 'Our original pitch internally was: We'll do 4 new dungeons' gameplay",
+          "WoW: Forever's list of changes snowballed as Blizzard got more excited, says dev: 'Our original pitch internally was: We'll do 4 new dungeons' guide",
+          "WoW: Forever's list of changes snowballed as Blizzard got more excited, says dev: 'Our original pitch internally was: We'll do 4 new dungeons' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever's list of changes snowballed as Blizzard got more excited, says dev: 'Our original pitch internally was: We'll do 4 new dungeons'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-intel-to-release-new-cpus-on-old-socket-in-early-2027-s-bfbf660513a3",
+      "topic": "Intel to release new CPUs on old socket in early 2027 says Gigabyte - memory crisis making DDR4 desirable again",
+      "detected_at": "2026-10-10T09:00:26.886816+00:00",
+      "analysed_at": "2026-10-18T17:33:15.233901+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/processors/intel-to-release-new-cpus-on-old-socket-in-early-2027-says-gigabyte-memory-crisis-making-ddr4-desirable-again/",
+          "title": "Intel to release new CPUs on old socket in early 2027 says Gigabyte - memory crisis making DDR4 desirable again",
+          "evidence": "<article> <p>Gigabyte is readying its B760 and H610 motherboards for new LGA1700 processors. Wait, what year is it?</p><p>\"Built on socket LGA1700 and expected to launch in early 2027,\" Gigabyte says in a <a href=\"https://www.gigabyte.com/press/news/2460\" target=\"_blank\">post</a> on its website, \"the new processors bring fresh performance to an established platform, and Gigabyte users can be ready from day one.\"</p><p>These are <em>new </em>LGA1700 chips. We're talking about fresh spins on Raptor Lake and Alder Lake here, which previously made up the 12th/13th/14th Gen, and were last released as a <a href=\"https://www.pcgamer.com/intel-core-i9-14900k-review-performance-benchmarks/\" target=\"_blank\">major launch in 2023</a>. That's a long time ago in CPU land. We've had two consecutive launches since, in Arrow Lake and the Arrow Lake refresh, neither of which dented AMD's stranglehold on the enthusiast market with its X3D chips.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-eGbQVX\"></div> </div> <script src=\"https://kwizly.com/embed/eGbQVX.js\" async></script><p>So what chance do these old chips have of selling anything? Quite a good one, actually, as these old ch"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Intel to release new CPUs on old socket in early 2027 says Gigabyte - memory crisis making DDR4 desirable again",
+        "secondary_keywords": [
+          "Intel to release new CPUs on old socket in early 2027 says Gigabyte - memory crisis making DDR4 desirable again date de sortie",
+          "Intel to release new CPUs on old socket in early 2027 says Gigabyte - memory crisis making DDR4 desirable again plateformes",
+          "Intel to release new CPUs on old socket in early 2027 says Gigabyte - memory crisis making DDR4 desirable again gameplay",
+          "Intel to release new CPUs on old socket in early 2027 says Gigabyte - memory crisis making DDR4 desirable again guide",
+          "Intel to release new CPUs on old socket in early 2027 says Gigabyte - memory crisis making DDR4 desirable again avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Intel to release new CPUs on old socket in early 2027 says Gigabyte - memory crisis making DDR4 desirable again"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-peter-molyneux-explains-the-origin-story-of-black-white-e18b0e8bc757",
+      "topic": "Peter Molyneux explains the origin story of Black & White's famous creatures: 'It was originally a monster. It wasn't a cute creature'",
+      "detected_at": "2026-10-10T09:00:26.886935+00:00",
+      "analysed_at": "2026-10-18T17:33:15.233928+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/peter-molyneux-explains-the-origin-story-of-black-and-whites-famous-creatures-it-was-originally-a-monster-it-wasnt-a-cute-creature/",
+          "title": "Peter Molyneux explains the origin story of Black & White's famous creatures: 'It was originally a monster. It wasn't a cute creature'",
+          "evidence": "<article> <p>Recently, I travelled to Guildford to interview Peter Molyneux, the father of the god game genre, about his final game, <a href=\"https://www.pcgamer.com/uk/masters-of-albion/\">Masters of Albion</a>, which just got <a href=\"https://www.pcgamer.com/games/strategy/masters-of-albion-peter-molyneuxs-final-game-just-got-a-huge-update-and-vigorous-lips-pursed-nodding-of-approval-suddenly-the-old-god-game-magic-is-back/\">a major, game-changing update</a>.</p><p>I've been a long-term fan of Molyneux's games, though, stretching all the way back to Theme Park, so I also took this opportunity to also ask the legendary game dev about, arguably, his most famous god game creation to date, <a href=\"https://www.pcgamer.com/uk/black-and-white/\">Black & White</a>.</p><p>And, specifically, I wanted to know where the origin of Black & White's most famous creations came from: the titanic animal creatures that you, as god, nurture in the game and use as an instrument of your will. And, well, the story of how these creatures came to be is interesting.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsette"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Peter Molyneux explains the origin story of Black & White's famous creatures: 'It was originally a monster. It wasn't a cute creature'",
+        "secondary_keywords": [
+          "Peter Molyneux explains the origin story of Black & White's famous creatures: 'It was originally a monster. It wasn't a cute creature' date de sortie",
+          "Peter Molyneux explains the origin story of Black & White's famous creatures: 'It was originally a monster. It wasn't a cute creature' plateformes",
+          "Peter Molyneux explains the origin story of Black & White's famous creatures: 'It was originally a monster. It wasn't a cute creature' gameplay",
+          "Peter Molyneux explains the origin story of Black & White's famous creatures: 'It was originally a monster. It wasn't a cute creature' guide",
+          "Peter Molyneux explains the origin story of Black & White's famous creatures: 'It was originally a monster. It wasn't a cute creature' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Peter Molyneux explains the origin story of Black & White's famous creatures: 'It was originally a monster. It wasn't a cute creature'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-why-a-21-year-old-coder-finally-ported-the-real-p-t-to--f63cf2c52a27",
+      "topic": "Why a 21-year-old coder finally ported the real P.T. to PC: 'That something so influential could eventually become unplayable never sat right with me'",
+      "detected_at": "2026-10-10T09:00:26.887122+00:00",
+      "analysed_at": "2026-10-18T17:33:15.233958+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/why-a-21-year-old-coder-finally-ported-the-real-p-t-to-pc-that-something-so-influential-could-eventually-become-unplayable-never-sat-right-with-me/",
+          "title": "Why a 21-year-old coder finally ported the real P.T. to PC: 'That something so influential could eventually become unplayable never sat right with me'",
+          "evidence": "<article> <p>One of the most beloved horror games (demos?) of all time is finally free from the shackles of the PS4. Hideo Kojima's P.T. has been <a href=\"https://github.com/LoreanXavier/pt-pc\">natively ported to PC</a> by programmer Lorean Xavier, who made the project public this week. Not an emulator nor a remake, the native PC client does not contain any copyrighted materials—it requires a dumped copy of P.T. to function—but instead translates the original code into something that'll run on Windows and Linux. </p><p>That distinction not only sidesteps potential corporate scrutiny, but also allows Xavier to add modern graphical features and mod support to the PC version. It's an impressive effort that, according to the creator, has been in the works since 2024.</p><p>\"I wanted to make the version of P.T. that my younger self always wished existed,\" Xavier, 21, told PC Gamer over email. \"My attachment to the game goes all the way back to my childhood. I remember watching videos of it on my phone, wishing I could experience it myself. I didn't have a PS4, so playing the original was never really an option for me. I never imagined back then that I'd eventually be the one bringing it"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Why a 21-year-old coder finally ported the real P.T. to PC: 'That something so influential could eventually become unplayable never sat right with me'",
+        "secondary_keywords": [
+          "Why a 21-year-old coder finally ported the real P.T. to PC: 'That something so influential could eventually become unplayable never sat right with me' date de sortie",
+          "Why a 21-year-old coder finally ported the real P.T. to PC: 'That something so influential could eventually become unplayable never sat right with me' plateformes",
+          "Why a 21-year-old coder finally ported the real P.T. to PC: 'That something so influential could eventually become unplayable never sat right with me' gameplay",
+          "Why a 21-year-old coder finally ported the real P.T. to PC: 'That something so influential could eventually become unplayable never sat right with me' guide",
+          "Why a 21-year-old coder finally ported the real P.T. to PC: 'That something so influential could eventually become unplayable never sat right with me' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Why a 21-year-old coder finally ported the real P.T. to PC: 'That something so influential could eventually become unplayable never sat right with me'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-blizzard-refuses-to-let-world-of-warcraft-forever-s-dun-eca4050ce2e6",
+      "topic": "Blizzard refuses to let World of Warcraft: Forever's dungeons become the fastest way to grind XP: 'We need to hold firm on these balance adjustments'",
+      "detected_at": "2026-10-10T09:00:26.887215+00:00",
+      "analysed_at": "2026-10-18T17:33:15.233987+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/blizzard-refuses-to-let-world-of-warcraft-forevers-dungeons-become-the-fastest-way-to-grind-xp-we-need-to-hold-firm-on-these-balance-adjustments/",
+          "title": "Blizzard refuses to let World of Warcraft: Forever's dungeons become the fastest way to grind XP: 'We need to hold firm on these balance adjustments'",
+          "evidence": "<article> <div class=\"product\"><a data-dimension112=\"8332d9bc-c35c-11f1-8c47-a7703586abad\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:661px;\"><p class=\"vanilla-image-block\" style=\"padding-top:98.94%;\"><img id=\"6offQUY4CXebir2TC27dMd\" name=\"kingdom come 2 square\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"661\" height=\"654\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\"></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/games/new-pc-games-2026/\" target=\"_blank\" data-dimension112=\"8332d9bc-c35c-11f1-8c47-a7703586abad\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" data-dimension25=\"\"><strong>2026 games</strong></a>: All the upcoming games<br><a href=\"https://www.pcgamer.com/the-best-pc-games/\" target=\"_blank\"><strong>Best PC games</strong></a>: Our all-time favorites<br><a href=\"https://www.pcgamer.com/the-50-best-free-pc-games/\" target=\"_blank\"><strong>Free PC "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Blizzard refuses to let World of Warcraft: Forever's dungeons become the fastest way to grind XP: 'We need to hold firm on these balance adjustments'",
+        "secondary_keywords": [
+          "Blizzard refuses to let World of Warcraft: Forever's dungeons become the fastest way to grind XP: 'We need to hold firm on these balance adjustments' date de sortie",
+          "Blizzard refuses to let World of Warcraft: Forever's dungeons become the fastest way to grind XP: 'We need to hold firm on these balance adjustments' plateformes",
+          "Blizzard refuses to let World of Warcraft: Forever's dungeons become the fastest way to grind XP: 'We need to hold firm on these balance adjustments' gameplay",
+          "Blizzard refuses to let World of Warcraft: Forever's dungeons become the fastest way to grind XP: 'We need to hold firm on these balance adjustments' guide",
+          "Blizzard refuses to let World of Warcraft: Forever's dungeons become the fastest way to grind XP: 'We need to hold firm on these balance adjustments' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Blizzard refuses to let World of Warcraft: Forever's dungeons become the fastest way to grind XP: 'We need to hold firm on these balance adjustments'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

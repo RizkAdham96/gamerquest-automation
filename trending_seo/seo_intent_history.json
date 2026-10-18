@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-18T07:25:45.199123+00:00",
+  "updated_at": "2026-10-18T17:33:21.092758+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -225,6 +225,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-terrascape-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 803,
       "published_at": "2026-10-18T07:25:45.199123+00:00"
+    },
+    {
+      "intent_key": "configuration pc clair obscur expedition 33",
+      "primary_keyword": "configuration pc Clair Obscur: Expedition 33",
+      "title": "Configuration PC Clair Obscur: Expedition 33 : minimale, recommandée et conseils",
+      "wordpress_url": "https://gamerquestfr.com/configuration-pc-clair-obscur-expedition-33-minimale-recommandee-et-conseils/",
+      "wordpress_post_id": 808,
+      "published_at": "2026-10-18T17:33:21.092758+00:00"
     }
   ]
 }

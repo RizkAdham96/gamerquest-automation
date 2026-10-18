@@ -1,0 +1,76 @@
+{
+  "source_id": "23030c7268b264e44e9222e9d2640809eeaeb1fa069ce88eee8e97077f494b2a",
+  "carousel_version": "a9151dd11243179e20945a55075cc4283825eea7f73f69a98c266499addf3b0b",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    809,
+    810,
+    811
+  ],
+  "prepared_at_utc": "2026-10-18T18:53:43.204437Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "23030c7268b264e44e9222e9d2640809eeaeb1fa069ce88eee8e97077f494b2a",
+    "source_title": "Splatoon Raiders : aucune DLC prévue – le développeur ferme la porte aux extensions",
+    "score": 72.5,
+    "idea": {
+      "source_id": "23030c7268b264e44e9222e9d2640809eeaeb1fa069ce88eee8e97077f494b2a",
+      "topic": "Splatoon Raiders : aucune DLC prévue",
+      "angle": "Le développeur ferme la porte aux extensions, seules des corrections de bugs seront apportées.",
+      "format": "breaking_news",
+      "hook": "Pas de DLC, pas de nouvelles armes : préparez votre équipe pour le mode compétitif dès maintenant !",
+      "freshness": 9,
+      "click_potential": 8,
+      "curiosity": 7,
+      "shareability": 6,
+      "originality": 5,
+      "gamerquest_relevance": 9,
+      "total_score": 72.5
+    },
+    "carousel": {
+      "topic": "Splatoon Raiders : aucune DLC prévue",
+      "angle": "Le développeur ferme la porte aux extensions, seules des corrections de bugs seront apportées.",
+      "format": "breaking_news",
+      "hook": "Pas de DLC, pas de nouvelles armes : préparez votre équipe pour le mode compétitif dès maintenant !",
+      "score": 72.5,
+      "slides": [
+        {
+          "title": "Pas de DLC prévu",
+          "body": "Le développeur ferme la porte aux extensions : préparez votre équipe dès maintenant !",
+          "visual_prompt": "Vue dynamique d'une équipe de joueurs en plein combat compétitif dans Splatoon Raiders, avec des couleurs vives et des éclaboussures d'encre, sans texte ni logos."
+        },
+        {
+          "title": "Aucun DLC prévu",
+          "body": "Le producteur Seita Inoue confirme que Splatoon Raiders ne recevra aucune extension ni nouveau contenu, seules des corrections de bugs sont prévues.",
+          "visual_prompt": "Portrait du producteur Seita Inoue en studio, entouré de consoles Switch 2 et de l'interface du jeu, ambiance professionnelle."
+        },
+        {
+          "title": "Seules des corrections de bugs",
+          "body": "Aucun rééquilibrage annoncé ; les futures mises à jour se limiteront à corriger les bugs existants. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Capture d'écran du menu de mise à jour du jeu montrant une liste de correctifs techniques, avec des icônes de bug et de réglage, sans texte ajouté."
+        }
+      ],
+      "caption": "Splatoon Raiders reste tel quel : aucune DLC, seulement des correctifs. Êtes‑vous prêts à relever le défi ?",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "23030c7268b264e44e9222e9d2640809eeaeb1fa069ce88eee8e97077f494b2a"
+    },
+    "caption": "Splatoon Raiders reste tel quel : aucune DLC, seulement des correctifs. Êtes‑vous prêts à relever le défi ?",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 1
+  }
+}

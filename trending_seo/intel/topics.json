@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-17T17:32:43.908325+00:00",
+  "updated_at": "2026-10-18T07:25:37.325501+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -44,290 +44,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "evg-config-1903340",
-      "topic": "Configuration PC Clair Obscur: Expedition 33 : minimale, recommandée et conseils",
-      "detected_at": "2026-10-09T09:38:24.419924+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1903340/",
-          "title": "Clair Obscur: Expedition 33 sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Clair Obscur: Expedition 33, consultée le 2026-10-09. Développeur : Sandfall Interactive. Éditeur : Kepler Interactive. Date de sortie sur Steam : 24 avr. 2025. Genres : Action, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-8700K / AMD Ryzen 5 1600X ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1060 6 GB / AMD Radeon RX 5600 XT 6 GB / Intel Arc A380 6 GB ; DirectX : Version 12 ; Espace disque : 55 GB d'espace disque disponible ; Notes supplémentaires : Disque SSD requis. Les spécifications minimales permettent un gameplay en 1080p à 30FPS avec des paramètres faibles.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 11 ; Processeur : Intel Core i7-12700K / AMD Ryzen 7 5800X ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GeForce RTX 3060 Ti 8 GB / AMD Radeon RX 6800 XT 16 GB ; DirectX : Version 12 ; Espace disque : 55 GB d'espace disque disponible ; Notes supplémentaires : Disque SSD requis. Les spécifications recommandées permettent un gameplay en 1080p à 60FPS avec des paramètres élevés..",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/ss_483a27df5072beb3a4650634a764bda750fbcb82.1920x1080.jpg?t=1782830877"
-        }
-      ],
-      "keywords": [
-        "configuration pc Clair Obscur: Expedition 33",
-        "Clair Obscur: Expedition 33 PC",
-        "Clair Obscur: Expedition 33 Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-1903340",
-      "topic": "Clair Obscur: Expedition 33 multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-09T09:38:24.419969+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1903340/",
-          "title": "Clair Obscur: Expedition 33 sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Clair Obscur: Expedition 33, consultée le 2026-10-09. Développeur : Sandfall Interactive. Éditeur : Kepler Interactive. Date de sortie sur Steam : 24 avr. 2025. Genres : Action, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Taille de texte réglable, Contrôle du volume différencié, Difficulté ajustable, Manette recommandée, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : À la tête de l'Expédition 33, partez éliminer la Peintresse pour que plus jamais elle ne peigne la mort. Explorez un monde rappelant la France de la Belle Époque et affrontez des ennemis uniques dans ce RPG au tour par tour avec mécaniques de temps réel.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/ss_483a27df5072beb3a4650634a764bda750fbcb82.1920x1080.jpg?t=1782830877"
-        }
-      ],
-      "keywords": [
-        "Clair Obscur: Expedition 33 multijoueur",
-        "Clair Obscur: Expedition 33 PC",
-        "Clair Obscur: Expedition 33 Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-config-1145360",
-      "topic": "Configuration PC Hades : minimale, recommandée et conseils",
-      "detected_at": "2026-10-09T09:38:24.734567+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1145360/",
-          "title": "Hades sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Hades, consultée le 2026-10-09. Développeur : Supergiant Games. Éditeur : Supergiant Games. Date de sortie sur Steam : 17 sept. 2020. Genres : Action, Indépendant, RPG. Systèmes pris en charge sur Steam : Windows, macOS. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 SP1 ; Processeur : Dual Core 2.4 GHz ; Mémoire vive : 4 GB de mémoire ; Graphiques : 1GB VRAM / DirectX 10+ support ; Espace disque : 15 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation *: Windows 7 SP1 ; Processeur : Dual Core 3.0 GHz+ ; Mémoire vive : 8 GB de mémoire ; Graphiques : 2GB VRAM / DirectX 10+ support ; Espace disque : 20 GB d'espace disque disponible.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.1920x1080.jpg?t=1758127023"
-        }
-      ],
-      "keywords": [
-        "configuration pc Hades",
-        "Hades PC",
-        "Hades Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-1145360",
-      "topic": "Hades multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-09T09:38:24.734603+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1145360/",
-          "title": "Hades sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Hades, consultée le 2026-10-09. Développeur : Supergiant Games. Éditeur : Supergiant Games. Date de sortie sur Steam : 17 sept. 2020. Genres : Action, Indépendant, RPG. Systèmes pris en charge sur Steam : Windows, macOS. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Sous-titres disponibles, Steam Cloud, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Défiez le dieu des morts et frayez-vous un chemin hors des Enfers dans ce rogue-like en mode dungeon crawler développé par les créateurs de Bastion, Transistor et Pyre.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.1920x1080.jpg?t=1758127023"
-        }
-      ],
-      "keywords": [
-        "Hades multijoueur",
-        "Hades PC",
-        "Hades Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "rss-leisure-suit-larry-is-about-to-take-his-final-bow-1bfb2364c609",
-      "topic": "Leisure Suit Larry is about to take his final bow",
-      "detected_at": "2026-10-09T19:46:15.277976+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/adventure/leisure-suit-larry-is-about-to-take-his-final-bow/",
-          "title": "Leisure Suit Larry is about to take his final bow",
-          "evidence": "<article> <p>2018's <a href=\"https://www.pcgamer.com/leisure-suit-larry-wet-dreams-won-t-dry/\" target=\"_blank\">Leisure Suit Larry: Wet Dreams Don't Dry</a> was a genuinely pleasant surprise, in that it's actually good—quite a contrast to the preceding games in the series, Magna Cum Laude and Box Office Bust, which were decidedly <em>not </em>good. A sequel followed, <a href=\"https://www.pcgamer.com/leisure-suit-larry-is-coming-again-in-wet-dreams-dry-twice/\" target=\"_blank\">Wet Dreams Dry Twice</a>, and once again it was pretty good stuff—not hugely innovative or high art, but a genuine Leisure Suit Larry experience that manages to avoid embarrassing itself (though it embarrasses Larry himself plenty).</p><p>Both of them, sadly, are soon going away for good. An <a href=\"https://store.steampowered.com/news/app/765870/view/707785259656152016\" target=\"_blank\">announcement</a> on Steam from publisher Assemble Entertainment says both games are being removed from the store on October 23. Ahead of that, they're being offered seriously cheap: 95% off the regular price, dropping them to less than $2 each.</p><p>The removal of the Wet Dreams duo effectively puts a pin in a process than began"
-        }
-      ],
-      "keywords": [
-        "Leisure Suit Larry is about to take his final bow",
-        "Leisure Suit Larry is about to take his final bow date de sortie",
-        "Leisure Suit Larry is about to take his final bow plateformes",
-        "Leisure Suit Larry is about to take his final bow gameplay",
-        "Leisure Suit Larry is about to take his final bow guide",
-        "Leisure Suit Larry is about to take his final bow avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-might-finally-have-gone-too-far-with-a-gta-5-mod-that-440203a80784",
-      "topic": "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2",
-      "detected_at": "2026-10-09T19:46:15.278261+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-might-finally-have-gone-too-far-with-a-gta-5-mod-that-imports-most-of-doom-2/",
-          "title": "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>I really don't know how to build up to this one. Grand Theft Auto 5 is Doom now, okay? I put in a mod that imports DOOM2.wad into GTA 5 and now that's what the game is. There are demons. The game is first person. I have a minigun and a BFG. That's the truth of the matter and we're all just going to have to find some way to live with it.</p><p>The mod is <a href=\"https://www.gta5-mods.com/scripts/doomii_hellonearth_gta5_v1-0\" target=\"_blank\">Doom 2 in GTA 5 Hell On Earth</a> (D2IGTA5HOE), and it does all those things I said. Hit F9 and the game you are playing shifts from"
-        }
-      ],
-      "keywords": [
-        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2",
-        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 date de sortie",
-        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 plateformes",
-        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 gameplay",
-        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 guide",
-        "I might finally have gone too far with a GTA 5 mod that imports most of Doom 2 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-wardogs-will-bribe-players-with-cash-and-xp-to-pick-blu-48c37364a245",
-      "topic": "Wardogs will bribe players with cash and XP to pick Blue team in Season 2",
-      "detected_at": "2026-10-09T19:46:15.278491+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/fps/wardogs-will-bribe-players-with-cash-and-xp-to-pick-blue-team-in-season-2/",
-          "title": "Wardogs will bribe players with cash and XP to pick Blue team in Season 2",
-          "evidence": "<article> <div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/quGfuiKE7kHW9W8XDcB8yS.jpg\" alt=\"wardogs blue team\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Blue team reinforcements</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><ul><li>\"Lonestar cash and XP bonus. Season 2 only. New Bakurani spawn.\" </li><li>\"We're looking at how we can help the win rate of a certain team.\" -Bulkhead CEO Joe Brammer (via <a href=\"https://youtu.be/J2VxjMnMDw4\" target=\"_blank\">\"Road to Season 2\" devlog</a>)</li></ul></div></div></div></div><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/J2VxjMnMDw4\" allowfullscreen></iframe></div></div><p>Bulkhead wants to boost one team's win rate, and it's willing to bribe its players (with in-game cash) to do it. Despite all three teams starting on equal grounds, many <a href=\"https://www.pcgamer.com/games/fps/wardogs-p"
-        }
-      ],
-      "keywords": [
-        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2",
-        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 date de sortie",
-        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 plateformes",
-        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 gameplay",
-        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 guide",
-        "Wardogs will bribe players with cash and XP to pick Blue team in Season 2 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-was-nice-to-you-three-times-in-a-row-so-can-i-have-on-1bfbf8a2c679",
-      "topic": "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances",
-      "detected_at": "2026-10-09T19:46:15.278686+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/life-sim/i-was-nice-to-you-three-times-in-a-row-so-can-i-have-one-sex-please-why-nivalis-nights-intentionally-avoided-transactional-romances/",
-          "title": "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/nivalis-nights/\">Nivalis Nights</a> is mostly a story-heavy shop simulation but it does also have a sprinkle of relationship building. Conversations with characters can affect four different attitudes towards you: friendly, combative, romantic, and savvy. Dialogue options aren't clearly marked though, so you don't always know if you're about to piss someone off or say something they'll perceive as flirtatious.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"WMicmi9VPQou9JE7XCguai\" name=\"20261008163443_1\" alt=\"Nivalis Nights - Lois offers to pla co-op games together and the player has the option to say they'd rather do something in the real world.\" src=\"https://cdn.mos.cms.futurecdn.net/WMicmi9VPQou9JE7XCguai-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/WMicmi9VPQou9JE7XCguai-1920-80.jpg' target='_blank' class='expand-bu"
-        }
-      ],
-      "keywords": [
-        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances",
-        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances date de sortie",
-        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances plateformes",
-        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances gameplay",
-        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances guide",
-        "'I was nice to you three times in a row, so can I have one sex please?': Why Nivalis Nights intentionally avoided transactional romances avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-worldwide-pc-shipments-have-plummeted-by-over-20-to-the-6afefaf216a1",
-      "topic": "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one",
-      "detected_at": "2026-10-09T19:46:15.279016+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/worldwide-pc-shipments-have-plummeted-by-over-20-percent-to-the-surprise-of-absolutely-no-one/",
-          "title": "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one",
-          "evidence": "<article> <p>IDC Research has <a href=\"https://www.idc.com/resource-center/press-releases/idc-pc-tracker-3q26/\" target=\"_blank\">released its figures</a> regarding worldwide PC shipments in the third quarter of 2026, and would you believe it, they've dropped considerably. Looking at the year-over-year numbers, the shipped units dropped from 78.5 million in Q3 2025, to 62.7 million in Q3 of this year. That's a 20.1% plummet, for percentage fans.</p><p>But why, I hear you asking. Actually, I don't. The <a href=\"https://www.pcgamer.com/hardware/memory/ram-and-storage-is-ridiculously-expensive-right-now-because-of-drumroll-ai-of-course-and-theres-little-reason-to-think-prices-will-drop-any-time-soon/\" target=\"_blank\">memory and supply chain crisis, driven by AI server demand</a> is pinpointed by the IDC as the primary driver of the decline, which will come as no surprise to those of us in non-rock-based abodes.</p><p>However, it's worth looking a bit deeper into exactly what's happened here. The \"pull-in\" of stock created by vendors buying up supply in the first half of this year (in anticipation of the forecasted price hikes) has essentially borrowed volume from the second half, accord"
-        }
-      ],
-      "keywords": [
-        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one",
-        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one date de sortie",
-        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one plateformes",
-        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one gameplay",
-        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one guide",
-        "Worldwide PC shipments have plummeted by over 20%, to the surprise of absolutely no one avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-valve-is-telling-devs-how-well-their-games-actually-run-30455c8a892f",
-      "topic": "Valve is telling devs how well their games actually run on Steam Deck with real world data",
-      "detected_at": "2026-10-09T19:46:15.279241+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/valve-is-telling-devs-how-well-their-games-actually-run-on-steam-deck-with-real-world-data/",
-          "title": "Valve is telling devs how well their games actually run on Steam Deck with real world data",
-          "evidence": "<article> <p>Have you ever clicked on a Steam Deck Verified game, attempted to boot it up, and realised it probably shouldn't have been verified? Well, Steam's new system should help developers give a more accurate understanding of how their games run on the Steam Deck. </p><p>As of <a href=\"https://store.steampowered.com/news/group/4145017?emclan=103582791433666425&emgid=676258795703239816\" target=\"_blank\">October 1</a> (via <a href=\"https://www.techpowerup.com/353411/steam-gives-devs-even-more-fps-data-for-performance-optimization\" target=\"_blank\">TechPowerUp</a>), Valve has given developers access to frame rate data as reported by Steam Deck users. A developer can see the frame rate that users are playing at as a percentage of sessions, meaning they can see if it runs well (at the Steam Deck's usual 60/90 fps cap) or not (users are generally lowering the fps limit).</p><p>That does mean it's only data willingly shared, and there are some caveats. The LCD Steam Deck has a max refresh rate of 60, while the OLED model goes up to 90. As games are often capped for fps to save resources, that will shape the stats somewhat. In addition, it can't guarantee how Steam Deck owners use thei"
-        }
-      ],
-      "keywords": [
-        "Valve is telling devs how well their games actually run on Steam Deck with real world data",
-        "Valve is telling devs how well their games actually run on Steam Deck with real world data date de sortie",
-        "Valve is telling devs how well their games actually run on Steam Deck with real world data plateformes",
-        "Valve is telling devs how well their games actually run on Steam Deck with real world data gameplay",
-        "Valve is telling devs how well their games actually run on Steam Deck with real world data guide",
-        "Valve is telling devs how well their games actually run on Steam Deck with real world data avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-wow-forever-dev-says-there-s-a-real-longing-for-that-sl-3e59bb82e4e8",
-      "topic": "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature'",
-      "detected_at": "2026-10-09T19:46:15.279547+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-dev-says-theres-a-real-longing-for-that-slower-more-deliberate-pace-in-mmos-a-deliberate-pushback-on-this-go-go-go-nature/",
-          "title": "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature'",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a> has me in a chokehold, and it's partially because—well, it's relaxing. As my colleague at PC Gamer so succinctly put it: <a href=\"https://www.pcgamer.com/games/world-of-warcraft/sometimes-its-fun-to-hit-a-scorpion-with-a-club-for-38-seconds/\">\"Sometimes it's fun to hit a scorpion with a club for 38 seconds.\"</a> Despite aping an era seen as more 'hardcore' to some players, Forever's lack of blaring and annoying seasonal grist is honestly refreshing.</p><p>Speaking with associate production director Clay Stone about why I'm certainly not the only one feeling that way (given the success of Classic, Season of Discovery, and now Forever's beta), he says it's a question Blizzard's been considering \"for a little while.</p><p>\"We saw, certainly with the success of Classic and the response to that, it was more than just a nostalgic experience for some people. The fact that they didn't leave, you know? They didn't just play for a month. They fell in love with it all over again. Then we saw it again a lot with Hardcore in 2023. All of a sudden, now you had a whole bunch of people who'd ne"
-        }
-      ],
-      "keywords": [
-        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature'",
-        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' date de sortie",
-        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' plateformes",
-        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' gameplay",
-        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' guide",
-        "WoW: Forever dev says 'there's a real longing for that slower, more deliberate pace' in MMOs: 'A deliberate pushback on this go go go nature' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-motion-blur-is-the-worst-effect-in-games-confirmed-462e7b77ae3d",
-      "topic": "Motion blur is the worst effect in games (confirmed)",
-      "detected_at": "2026-10-09T19:46:15.283569+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/motion-blur-is-the-worst-effect-in-games-confirmed/",
-          "title": "Motion blur is the worst effect in games (confirmed)",
-          "evidence": "<article> <p>We've been running a knockout tournament that puts graphical effects in games against one another in a fierce battle of public opinion. Each round saw two effects go head to head, and only one made it out to fight another day. We whittled it down to just two effects, chromatic aberration and motion blur, and after 7,000 votes cast across the tournament, we can finally declare the effect that sucks the most with near-scientific certainty:</p><p>It's motion blur. By an absolute landslide.</p><div class=\"vizualizer-embed\"><style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');#fv-chart-1791557603133-6zzwcxp4g *, #fv-chart-1791557603133-6zzwcxp4g *:before, #fv-chart-1791557603133-6zzwcxp4g *:after, #fv-chart-1791557603133-6zzwcxp4g-slideshow *, #fv-chart-1791557603133-6zzwcxp4g-slideshow *:before, #fv-chart-1791557603133-6zzwcxp4g-slideshow *:after {box-sizing: border-box !important; margin: 0; padding: 0; border: 0;font-size: 100%; font: inherit; vertical-align: baseline;}#fv-chart-1791557603133-6zzwcxp4g, #fv-chart-1791557603133-6zzwcxp4g-"
-        }
-      ],
-      "keywords": [
-        "Motion blur is the worst effect in games (confirmed)",
-        "Motion blur is the worst effect in games (confirmed) date de sortie",
-        "Motion blur is the worst effect in games (confirmed) plateformes",
-        "Motion blur is the worst effect in games (confirmed) gameplay",
-        "Motion blur is the worst effect in games (confirmed) guide",
-        "Motion blur is the worst effect in games (confirmed) avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-when-the-weather-turns-foul-in-arc-raiders-pendola-pass-e1eac5bfd0d6",
       "topic": "When the weather turns foul in Arc Raiders' Pendola Pass, take a trip to a Storm Hut—they're some of the best loot spots I've found",
@@ -5994,6 +5710,294 @@
         "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\" gameplay",
         "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\" guide",
         "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-all-ghost-driver-codes-october-2026-and-how-to-redeem-t-63edadfa6e7e",
+      "topic": "All Ghost Driver codes (October 2026) and how to redeem them for free cash",
+      "detected_at": "2026-10-18T07:25:37.323106+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/racing/ghost-driver-codes/",
+          "title": "All Ghost Driver codes (October 2026) and how to redeem them for free cash",
+          "evidence": "<article> <p>With Ghost Driver codes, you add some extra cash to your bank balance, which is essential whether you're buying your first car or upgrading to a faster model. If you want to hit your daily quests and level up fast, you need the fastest car you can buy, so the more funds the better.<br><br>Luckily, there are frequent Ghost Driver codes that pay out free cash - and lots of it. With some of the rarest cars in this <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> racing game costing in the millions, even with these free codes it could take a while to save up, so you'll need to carefully consider whether to spend or save, but whichever you choose, don't miss any of the promos below.<br><br><em>If you're after some more general avatar rewards to use in all of your experiences, then we've got the current </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em> covered too.</em></p><h2 class=\"article-body__section\" id=\"section-all-ghost-driver-codes\"><span>All Ghost Driver codes</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='imag"
+        }
+      ],
+      "keywords": [
+        "All Ghost Driver codes (October 2026) and how to redeem them for free cash",
+        "All Ghost Driver codes (October 2026) and how to redeem them for free cash date de sortie",
+        "All Ghost Driver codes (October 2026) and how to redeem them for free cash plateformes",
+        "All Ghost Driver codes (October 2026) and how to redeem them for free cash gameplay",
+        "All Ghost Driver codes (October 2026) and how to redeem them for free cash guide",
+        "All Ghost Driver codes (October 2026) and how to redeem them for free cash avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-game-freak-moving-on-from-beast-of-reincarnation-as-maj-cf1a3089aff9",
+      "topic": "Game Freak moving on from Beast of Reincarnation as major updates from the Pokemon devs come to end",
+      "detected_at": "2026-10-18T07:25:37.323345+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/game-freak-is-moving-on-from-beast-of-reincarnation-with-major-updates-for-the-pokemon-devs-action-rpg-coming-to-an-end/",
+          "title": "Game Freak moving on from Beast of Reincarnation as major updates from the Pokemon devs come to end",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/beast-of-reincarnation-guide/\">Beast of Reincarnation</a> hasn't been around for long, having only just launched in August – but Pokemon developer Game Freak is already seemingly pulling the plug on the action RPG.</p><p>The studio announces as much in a new post over on <a href=\"https://x.com/GAMEFREAK_info/status/2110962811270533410\" target=\"_blank\">X</a> (as translated via the built-in tool, DeepL, and Google), first thanking players for engaging with Beast of Reincarnation. The devs then explain that their post-launch update cycle is \"coming to a close\" following their next planned patch on October 19. <br><br>After that, there won't be any more \"frequent\" updates or major patches, sadly – although fans <em>can</em> still share any pressing feedback.</p><p>In other words, Game Freak is closing the book on Beast of Reincarnation after only two months, it seems. I can't say I'm <em>too</em> surprised, unfortunately, however, considering the action RPG's shaky launch. <br><br>Heck, the game's director himself publicly apologized for it, saying he was \"truly sorry\" that the game <a href=\"https://www.gamesradar.com/games/action-rpg/be"
+        }
+      ],
+      "keywords": [
+        "Game Freak moving on from Beast of Reincarnation as major updates from the Pokemon devs come to end",
+        "Game Freak moving on from Beast of Reincarnation as major updates from the Pokemon devs come to end date de sortie",
+        "Game Freak moving on from Beast of Reincarnation as major updates from the Pokemon devs come to end plateformes",
+        "Game Freak moving on from Beast of Reincarnation as major updates from the Pokemon devs come to end gameplay",
+        "Game Freak moving on from Beast of Reincarnation as major updates from the Pokemon devs come to end guide",
+        "Game Freak moving on from Beast of Reincarnation as major updates from the Pokemon devs come to end avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-x-men-2-set-the-high-bar-for-ensemble-superhero-movies--e7a7c12916c4",
+      "topic": "X-Men 2 set the high bar for ensemble superhero movies, and it should be the template for Avengers: Doomsday",
+      "detected_at": "2026-10-18T07:25:37.323673+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-movies/x-men-2-set-the-high-bar-for-ensemble-superhero-movies-and-it-should-be-the-template-for-avengers-doomsday/",
+          "title": "X-Men 2 set the high bar for ensemble superhero movies, and it should be the template for Avengers: Doomsday",
+          "evidence": "<article> <p>Pre-MCU, if you polled most fans on the <a href=\"https://www.gamesradar.com/best-superhero-movies/\">best superhero movies</a>, there's a reasonable chance that X2 would be in the top 3. The 2003 sequel is a seismic step up from its predecessor, fully delivering on the promise of Marvel's mutants on screen with a true ensemble comic book movie that blurs the lines between its heroes and villains. And it could prove the perfect model for integrating Doctor Doom alongside the Avengers in <a href=\"https://www.gamesradar.com/entertainment/marvel-movies/avengers-doomsday-release-date-cast-plot-trailer/\">Avengers: Doomsday</a>.</p><div class=\"fancy-box\"><div class=\"fancy_box-title\"></div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><em>Welcome to Road to Doomsday, GamesRadar+'s weekly MCU rewatch series. Over 15 weeks, we'll be revisiting each Marvel movie and TV show on </em><a data-analytics-id=\"inline-link\" href=\"https://www.gamesradar.com/entertainment/marvel-movies/disney-has-released-a-list-of-essential-marvel-movies-to-watch-before-avengers-doomsday-and-fans-are-debating-the-most-confusing-omissions/\"><em>Disney's list of essential movies to watch ahead "
+        }
+      ],
+      "keywords": [
+        "X-Men 2 set the high bar for ensemble superhero movies, and it should be the template for Avengers: Doomsday",
+        "X-Men 2 set the high bar for ensemble superhero movies, and it should be the template for Avengers: Doomsday date de sortie",
+        "X-Men 2 set the high bar for ensemble superhero movies, and it should be the template for Avengers: Doomsday plateformes",
+        "X-Men 2 set the high bar for ensemble superhero movies, and it should be the template for Avengers: Doomsday gameplay",
+        "X-Men 2 set the high bar for ensemble superhero movies, and it should be the template for Avengers: Doomsday guide",
+        "X-Men 2 set the high bar for ensemble superhero movies, and it should be the template for Avengers: Doomsday avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-crystal-lake-creator-says-he-changed-jason-voorhees-ori-b275509c4153",
+      "topic": "Crystal Lake creator says he changed Jason Voorhees' origin because \"nothing is consistent\" in the \"wonky\" franchise",
+      "detected_at": "2026-10-18T07:25:37.323848+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/horror-shows/crystal-lake-creator-says-he-changed-jason-voorhees-origin-because-the-franchise-is-already-wonky-nothing-is-consistent-in-the-canon-anyway/",
+          "title": "Crystal Lake creator says he changed Jason Voorhees' origin because \"nothing is consistent\" in the \"wonky\" franchise",
+          "evidence": "<article> <p>As well as exploring Pamela Voorhees ' backstory before she became the killer we met in the first Friday the 13th movie, the new prequel series Crystal Lake changes Jason's origin story. However, creator Brad Caleb Kane says he didn't see an issue in doing this as the horror franchise messes with canon all of the time. </p><p>\"I mean, the canon itself is pretty inconsistent and pretty wonky, and there was no real origin set in stone,\" says Kane to GamesRadar+. There were sort of certain things said in the movies, and then in the novelization for part two, they talk about Jason's interiority, and they talk about him crawling out of the lake, and surviving in the woods off of this and that. But when you marry it with the actual time period of the movies, it doesn't quite match up.\"</p><p>The writer-director adds: \"So it felt like you could mash it around a little bit. It felt malleable, and it felt like fresh snow that we could play with and have some invention there. Nothing is consistent in the canon anyway, so why not go back and play with it at all?\"</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><di"
+        }
+      ],
+      "keywords": [
+        "Crystal Lake creator says he changed Jason Voorhees' origin because \"nothing is consistent\" in the \"wonky\" franchise",
+        "Crystal Lake creator says he changed Jason Voorhees' origin because \"nothing is consistent\" in the \"wonky\" franchise date de sortie",
+        "Crystal Lake creator says he changed Jason Voorhees' origin because \"nothing is consistent\" in the \"wonky\" franchise plateformes",
+        "Crystal Lake creator says he changed Jason Voorhees' origin because \"nothing is consistent\" in the \"wonky\" franchise gameplay",
+        "Crystal Lake creator says he changed Jason Voorhees' origin because \"nothing is consistent\" in the \"wonky\" franchise guide",
+        "Crystal Lake creator says he changed Jason Voorhees' origin because \"nothing is consistent\" in the \"wonky\" franchise avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-heads-up-fire-emblem-fans-nintendo-uk-has-a-set-of-fort-5502f55eff6c",
+      "topic": "Heads up Fire Emblem fans, Nintendo UK has a set of Fortune's Weave acrylic magnets up for the taking",
+      "detected_at": "2026-10-18T07:25:37.324080+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/toys-collectibles/heads-up-fire-emblem-fans-nintendo-uk-has-a-set-of-fortunes-weave-acrylic-magnets-up-for-the-taking/",
+          "title": "Heads up Fire Emblem fans, Nintendo UK has a set of Fortune's Weave acrylic magnets up for the taking",
+          "evidence": "<article> <p>See those Platinum Points you've been collecting on your Nintendo Switch 2? Those can be spent on far more than monthly icons. The official Nintendo UK online store is still running a rewards program where you can exchange all those digital shiny coins for something physical instead, and I'd recommend you pick up the new Fire Emblem: Fortune's Weave Acrylic Magnet Set.</p><p>By spending <a href=\"https://store.nintendo.com/en-gb/fire-emblem-fortunes-weave-acrylic-magnet-set-000000000010020832\" target=\"_blank\">500 points (via Nintendo)</a> you'll receive a set of four magnetic replicas of the Ribeira Winds, Megaria's Beacon, House Lamine and, my personal favorite, the Rose Tempest banner. They're not the most elaborate rewards you can grab right now, but with Fire Emblem merch being such a rarity, I'd recommend you pick these up while there's any stock left. Points aside, they're essentially neat little freebies for your fridge.</p><div class=\"product\"><a data-dimension112=\"4b81a2e6-c951-11f1-969c-8335859a44b5\" data-action=\"Deal Block\" data-label=\"Fire Emblem: Fortune's Weave Acrylic Magnet Set | 800 Platinum Points (via Nintendo UK)\" data-dimension48=\"Fire Emblem: Fortu"
+        }
+      ],
+      "keywords": [
+        "Heads up Fire Emblem fans, Nintendo UK has a set of Fortune's Weave acrylic magnets up for the taking",
+        "Heads up Fire Emblem fans, Nintendo UK has a set of Fortune's Weave acrylic magnets up for the taking date de sortie",
+        "Heads up Fire Emblem fans, Nintendo UK has a set of Fortune's Weave acrylic magnets up for the taking plateformes",
+        "Heads up Fire Emblem fans, Nintendo UK has a set of Fortune's Weave acrylic magnets up for the taking gameplay",
+        "Heads up Fire Emblem fans, Nintendo UK has a set of Fortune's Weave acrylic magnets up for the taking guide",
+        "Heads up Fire Emblem fans, Nintendo UK has a set of Fortune's Weave acrylic magnets up for the taking avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-cyberpunk-edgerunners-season-2-is-in-constant-dialogue--d51a657ba1fe",
+      "topic": "Cyberpunk: Edgerunners season 2 is in \"constant dialogue\" with season 1, says creator",
+      "detected_at": "2026-10-18T07:25:37.324231+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/anime-shows/cyberpunk-edgerunners-season-2-is-in-constant-dialogue-with-season-1-with-one-character-inspired-by-a-david-martinez-what-if-moment/",
+          "title": "Cyberpunk: Edgerunners season 2 is in \"constant dialogue\" with season 1, says creator",
+          "evidence": "<article> <p>Cyberpunk: Edgerunners season 2 is in \"constant dialogue\" with season 1 according to creator Bartosz Sztybor, despite featuring an entirely new cast of characters – and it all stems from a what-if moment revolving around David Martinez.</p><p>\"I remember while writing season 1, I had a thought: 'What if David made it? What if he didn't die?' He will become this celebrity Edgerunner in a few years,\" Sztybor tells GamesRadar+.</p><p>\"But then I thought, okay, he's a flawed character and tragic persona – it wouldn't end well for him. That's why the character of Weak is in Edgerunners season 2… I wanted to create something that will be in constant dialogue with Edgerunners season 1.\"</p><p>In <a href=\"https://www.gamesradar.com/entertainment/anime-shows/cyberpunk-edgerunners-season-2-release-date-trailer-story/\">Cyberpunk: Edgerunners season 2</a>, Weak Kingsley (voiced in the English dub by Clancy Brown) <a href=\"https://www.gamesradar.com/entertainment/anime-shows/cyberpunk-edgerunners-season-2-character-details-confirm-a-revenge-quest-and-an-older-edgerunner-at-the-top-of-his-game/\">is described</a> as \"a veteran edgerunner\" once at the top of his game. Now, though, he "
+        }
+      ],
+      "keywords": [
+        "Cyberpunk: Edgerunners season 2 is in \"constant dialogue\" with season 1, says creator",
+        "Cyberpunk: Edgerunners season 2 is in \"constant dialogue\" with season 1, says creator date de sortie",
+        "Cyberpunk: Edgerunners season 2 is in \"constant dialogue\" with season 1, says creator plateformes",
+        "Cyberpunk: Edgerunners season 2 is in \"constant dialogue\" with season 1, says creator gameplay",
+        "Cyberpunk: Edgerunners season 2 is in \"constant dialogue\" with season 1, says creator guide",
+        "Cyberpunk: Edgerunners season 2 is in \"constant dialogue\" with season 1, says creator avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-vampire-life-codes-october-2026-and-how-to-redeem-them--17fdf537816e",
+      "topic": "Vampire Life codes (October 2026) and how to redeem them for XP Boosts and Money",
+      "detected_at": "2026-10-18T07:25:37.324431+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/survival/vampire-life-codes/",
+          "title": "Vampire Life codes (October 2026) and how to redeem them for XP Boosts and Money",
+          "evidence": "<article> <p>Vampire Life codes provide you with a serious advantage in this survival MMORPG, by boosting your XP earning rate for a period of time so you can level up much faster. As you explore the world and fight with enemies to grow stronger you're not just limited to being a vampire, as you can also become a devastating werewolf or a crafty spellcasting witch.<br><br>Using the promos available will increase the speed you earn experience by up to four times the usual rate, and with these rewards stacking you can rack up multiple hours of fast levelling in this bloodthirsty <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> experience. If you're all set to strike fear into the hearts of your opponents, then here are the codes for Vampire Life and how to redeem them.<br><br><em>If you seek some promos that unlock more general rewards for use in every experience, then check out the latest </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em>.</em></p><h2 class=\"article-body__section\" id=\"section-all-vampire-life-codes\"><span>All Vampire Life codes</span></h2><figure class=\"van-imag"
+        }
+      ],
+      "keywords": [
+        "Vampire Life codes (October 2026) and how to redeem them for XP Boosts and Money",
+        "Vampire Life codes (October 2026) and how to redeem them for XP Boosts and Money date de sortie",
+        "Vampire Life codes (October 2026) and how to redeem them for XP Boosts and Money plateformes",
+        "Vampire Life codes (October 2026) and how to redeem them for XP Boosts and Money gameplay",
+        "Vampire Life codes (October 2026) and how to redeem them for XP Boosts and Money guide",
+        "Vampire Life codes (October 2026) and how to redeem them for XP Boosts and Money avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-cyberpunk-2-boss-says-the-dystopian-rpg-has-evolved-bey-3f4462e4c8ae",
+      "topic": "Cyberpunk 2 boss says the dystopian RPG has evolved beyond his original idea",
+      "detected_at": "2026-10-18T07:25:37.324591+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/cyberpunk/cyberpunk-2-boss-says-the-dystopian-rpg-has-evolved-beyond-his-original-idea-and-i-look-forward-to-sharing-that-when-it-releases/",
+          "title": "Cyberpunk 2 boss says the dystopian RPG has evolved beyond his original idea",
+          "evidence": "<article> <p>The original vision of Cyberpunk 2 is already evolving beyond what its director had in mind, though it sounds like it's been to the benefit of the dystopian RPG.</p><p>In a new<a href=\"https://www.cdprojektred.com/en/blog/198/why-games-why-cd-projekt-red-why-cyberpunk-2\" target=\"_blank\"> blog post</a> on CD Projekt Red's website, Gabe Amatangelo discusses his views on game development. In short, while he is in charge and ultimately responsible, he doesn't want to create bottlenecks by having to approve every decision, which means trusting the team he's building around him.</p><p>\"I had the idea of Cyberpunk 2 in the beginning, but it evolves as I involve more people,\" he says. \"And it evolves as I empower the team and individuals within them to contribute. It becomes something else, right? It becomes this thing that I've shepherded, but it's ultimately a reflection of the team's hearts and souls. And I look forward to sharing that.\"</p><p>Part of that involves defining what the cyberpunk genre is within itself. For Amatangelo, \"It's my childhood,\" because \"questioning things was just part of my growing up.\" Being a screamer in a hardcore punk band certainly helps with "
+        }
+      ],
+      "keywords": [
+        "Cyberpunk 2 boss says the dystopian RPG has evolved beyond his original idea",
+        "Cyberpunk 2 boss says the dystopian RPG has evolved beyond his original idea date de sortie",
+        "Cyberpunk 2 boss says the dystopian RPG has evolved beyond his original idea plateformes",
+        "Cyberpunk 2 boss says the dystopian RPG has evolved beyond his original idea gameplay",
+        "Cyberpunk 2 boss says the dystopian RPG has evolved beyond his original idea guide",
+        "Cyberpunk 2 boss says the dystopian RPG has evolved beyond his original idea avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-marvel-fans-think-tom-holland-has-lost-his-mcu-spoiler--be02b058f5ad",
+      "topic": "Marvel fans think Tom Holland has lost his MCU spoiler crown as Ruaridh Mollica hints at a potential VisionQuest spoiler",
+      "detected_at": "2026-10-18T07:25:37.324759+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/marvel-fans-think-tom-holland-has-lost-his-mcu-spoiler-crown-as-ruaridh-mollica-hints-at-a-potential-visionquest-spoiler/",
+          "title": "Marvel fans think Tom Holland has lost his MCU spoiler crown as Ruaridh Mollica hints at a potential VisionQuest spoiler",
+          "evidence": "<article> <p>Tommy Shepherd actor Ruaridh Mollica might have given away a major <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-release-date-cast-trailer-plot/\">VisionQuest </a>spoiler, meaning there's a new Marvel spoiler king on the block. </p><p>The actor made his MCU debut in the <a href=\"https://www.gamesradar.com/disney-plus-price-release-date-shows-movies-streaming-marvel/\">Disney Plus</a> show as Tommy, son of Vision and Wanda and brother to Joe Locke's Billy Kaplan. </p><p>When asked by <a href=\"https://www.youtube.com/watch?v=s3SuZe6Atbk\" target=\"_blank\">ET</a> about working with Locke in a play before the MCU, Mollica shared: \"We actually shot our MCU stuff before we did the play, which was amazing. And so we met for a coffee beforehand to get to know each other. We were just so excited, so excited, we became such good friends instantly. </p><p>\"And then we did a play on the West End together, and had this big secret that slowly started to leak as we were doing it,\" he continued. \"And it was fun, you know, people would be doing secret MCU fan art at stage door. It was amazing, it was my first time connecting with fans, and people were excite"
+        }
+      ],
+      "keywords": [
+        "Marvel fans think Tom Holland has lost his MCU spoiler crown as Ruaridh Mollica hints at a potential VisionQuest spoiler",
+        "Marvel fans think Tom Holland has lost his MCU spoiler crown as Ruaridh Mollica hints at a potential VisionQuest spoiler date de sortie",
+        "Marvel fans think Tom Holland has lost his MCU spoiler crown as Ruaridh Mollica hints at a potential VisionQuest spoiler plateformes",
+        "Marvel fans think Tom Holland has lost his MCU spoiler crown as Ruaridh Mollica hints at a potential VisionQuest spoiler gameplay",
+        "Marvel fans think Tom Holland has lost his MCU spoiler crown as Ruaridh Mollica hints at a potential VisionQuest spoiler guide",
+        "Marvel fans think Tom Holland has lost his MCU spoiler crown as Ruaridh Mollica hints at a potential VisionQuest spoiler avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-resident-evil-veronica-everything-you-need-to-know-abou-919f9d32acd1",
+      "topic": "Resident Evil Veronica: Everything you need to know about the Code Veronica remake",
+      "detected_at": "2026-10-18T07:25:37.325116+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/resident-evil/resident-evil-veronica-guide/",
+          "title": "Resident Evil Veronica: Everything you need to know about the Code Veronica remake",
+          "evidence": "<article> <p>Resident Evil Veronica is the official title for the long-rumored remake of Resident Evil: Code Veronica.</p><p>Announced as part of a very memorable surprise reveal during the <a href=\"https://www.gamesradar.com/news/live/summer-game-fest-live-coverage-2026-everything-announced/\">Summer Game Fest 2026 showcase</a>, Resident Evil Veronica will bring back the cult classic 2000 release with a modern makeover. With Capcom confirming the <a href=\"https://www.gamesradar.com/upcoming-horror-games/\">upcoming horror game</a> will be <a href=\"https://www.gamesradar.com/games/resident-evil/resident-evil-code-veronica-remake-is-coming-in-2027-capcom-reveals/\">arriving in 2027</a>, the developer is setting out to \"preserve the essence of the original game\", but just like the many excellent Resi remakes we've seen over the years, you can expect shiny new and improved graphics, plenty of gameplay enhancements, and more. </p><p>There's a lot of excitement surrounding the <a href=\"https://www.gamesradar.com/video-game-release-dates/\">new game</a>, with the remake quickly racking up <a href=\"https://www.gamesradar.com/games/resident-evil/resident-evil-veronica-hype-sends-the-remake-to-"
+        }
+      ],
+      "keywords": [
+        "Resident Evil Veronica: Everything you need to know about the Code Veronica remake",
+        "Resident Evil Veronica: Everything you need to know about the Code Veronica remake date de sortie",
+        "Resident Evil Veronica: Everything you need to know about the Code Veronica remake plateformes",
+        "Resident Evil Veronica: Everything you need to know about the Code Veronica remake gameplay",
+        "Resident Evil Veronica: Everything you need to know about the Code Veronica remake guide",
+        "Resident Evil Veronica: Everything you need to know about the Code Veronica remake avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-street-fighter-s-bad-reviews-even-has-uwe-boll-taking-s-397515d4788e",
+      "topic": "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\"",
+      "detected_at": "2026-10-18T07:25:37.325272+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/live-action-movies/street-fighters-bad-reviews-even-has-uwe-boll-taking-shots-dont-ever-bash-my-movies-again/",
+          "title": "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\"",
+          "evidence": "<article> <p>Director of infamously bad video game movies Uwe Boll seems to be enjoying the new Street Fighter movie getting bad reviews. </p><p>Boll shared one of Street Fighter's negative reviews on <a href=\"https://x.com/UweBollRAWNet/status/2110786486211948653?s=20\" target=\"_blank\">Twitter</a>, saying, \"Don’t ever bash my movies again,\" seemingly suggesting that his movies really weren't that bad when a big studio movie has bombed this hard. Check out the post below. </p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2110786486211948653\"><p lang=\"en\" dir=\"ltr\">Don’t ever bash my movies again https://t.co/Opt0990ZJA<a href=\"https://twitter.com/cantworkitout/status/2110786486211948653\">October 15, 2026</a></p></blockquote></figure><div class=\"see-more__filter\"></div></div><p>After debuting to <a href=\"https://www.gamesradar.com/entertainment/live-action-movies/first-reactions-to-street-fighter-movie-are-mixed-with-some-critics-calling-it-a-silly-fun-and-fearless-good-time-but-others-say-it-falls-flat/\">mixed first reactions</a>, official <a href=\"https://www.gamesradar.com"
+        }
+      ],
+      "keywords": [
+        "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\"",
+        "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\" date de sortie",
+        "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\" plateformes",
+        "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\" gameplay",
+        "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\" guide",
+        "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-visionquest-goes-into-wandavision-territory-thanks-to-a-a8da7c52b994",
+      "topic": "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2",
+      "detected_at": "2026-10-18T07:25:37.325419+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-goes-into-wandavision-territory-thanks-to-a-wild-theory-that-says-billy-is-in-episode-2/",
+          "title": "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2",
+          "evidence": "<article> <p>Remember picking apart WandaVision episode by episode? The <a href=\"https://www.gamesradar.com/wandavision-engineer-reed-richards-ironheart-rhodey/\">aerospace engineer</a>, <a href=\"https://www.gamesradar.com/wandavision-opening-credits-could-be-hiding-the-shows-main-villain/\">a 'villain' hiding in the main credits</a>, and the mystery of who was behind Westview kept us entranced across multiple weeks.</p><p>Now, VisionQuest has picked up the baton and ran with it – thanks to this compelling theory that says Joe Locke's Billy is following his brother Tommy (Ruaridh Mollica) around in the second episode of the Disney Plus series.</p><p>As spotlighted on Twitter, the London-set scenes – hello, Borough Market! – that feature Tommy engaging in a spot of light scam work and pickpocketing features a suspicious figure in a coat and flat cap not once, but twice. See for yourself below.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2110803563668734106\"><p lang=\"en\" dir=\"ltr\">The streets are saying Billy is following Tommy around… Oh, WandaVision-level delusions. WE A"
+        }
+      ],
+      "keywords": [
+        "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2",
+        "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2 date de sortie",
+        "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2 plateformes",
+        "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2 gameplay",
+        "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2 guide",
+        "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2 avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

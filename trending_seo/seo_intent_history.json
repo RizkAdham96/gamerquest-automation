@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-17T17:32:49.902545+00:00",
+  "updated_at": "2026-10-18T07:25:45.199123+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -217,6 +217,14 @@
       "wordpress_url": "https://gamerquestfr.com/out-of-sight-multijoueur-coop-en-ligne-et-modes-de-jeu/",
       "wordpress_post_id": 796,
       "published_at": "2026-10-17T17:32:49.902545+00:00"
+    },
+    {
+      "intent_key": "configuration pc terrascape",
+      "primary_keyword": "configuration pc TerraScape",
+      "title": "Configuration PC TerraScape : minimale, recommandée et conseils",
+      "wordpress_url": "https://gamerquestfr.com/configuration-pc-terrascape-minimale-recommandee-et-conseils/",
+      "wordpress_post_id": 803,
+      "published_at": "2026-10-18T07:25:45.199123+00:00"
     }
   ]
 }

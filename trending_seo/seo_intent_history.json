@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-18T17:33:21.092758+00:00",
+  "updated_at": "2026-10-19T08:05:43.089695+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -233,6 +233,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-clair-obscur-expedition-33-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 808,
       "published_at": "2026-10-18T17:33:21.092758+00:00"
+    },
+    {
+      "intent_key": "clair obscur expedition 33 multijoueur",
+      "primary_keyword": "Clair Obscur: Expedition 33 multijoueur",
+      "title": "Clair Obscur: Expedition 33 multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/clair-obscur-expedition-33-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 815,
+      "published_at": "2026-10-19T08:05:43.089695+00:00"
     }
   ]
 }

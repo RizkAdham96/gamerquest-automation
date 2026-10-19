@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-18T17:33:15.233992+00:00",
+  "updated_at": "2026-10-19T08:05:36.853141+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -10242,6 +10242,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Blizzard refuses to let World of Warcraft: Forever's dungeons become the fastest way to grind XP: 'We need to hold firm on these balance adjustments'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-deadlock-surpasses-team-fortress-2-s-all-time-concurren-88942fc27eb7",
+      "topic": "Deadlock surpasses Team Fortress 2's all-time concurrent player count peak as it adds a chess wizard",
+      "detected_at": "2026-10-10T18:51:36.846952+00:00",
+      "analysed_at": "2026-10-19T08:05:36.852895+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/moba/deadlock-surpasses-team-fortress-2s-all-time-concurrent-player-count-peak-as-it-adds-a-chess-wizard/",
+          "title": "Deadlock surpasses Team Fortress 2's all-time concurrent player count peak as it adds a chess wizard",
+          "evidence": "<article> <p>Valve's latest MOBA might still <em>technically </em>be conducting an invite-only test, but it's nevertheless one of the most popular games of its ilk. Yesterday, right as the game added the latest in its current batch of <a href=\"https://www.pcgamer.com/games/moba/deadlocks-gigantic-new-update-gives-its-city-a-spooky-new-coat-of-paint-and-debuts-6-new-heroes-including-the-one-and-only-rat-king/\">six new democratically released heroes</a>, its concurrent player-count hit a new screaming high: 262,145 simultaneous players, according to <a href=\"https://steamdb.info/app/1422450/charts/\" target=\"_blank\">SteamDB</a>.</p><p>While that's pretty impressive on its face, it'll be especially noteworthy to long-time fans of Valve's games that this surge of activity brought Deadlock past Team Fortress 2's <a href=\"https://steamdb.info/app/440/charts/\" target=\"_blank\">all-time concurrent player count peak</a> of 253,997. </p><p>Though this doesn't include the player numbers TF2 saw on the Xbox 360 and PS3 as part of The Orange Box, which I'm sure were positively through the roof, it's still conceivably its genuine peak given that it was just three years ago. As for how TF2's <a hre"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Deadlock surpasses Team Fortress 2's all-time concurrent player count peak as it adds a chess wizard",
+        "secondary_keywords": [
+          "Deadlock surpasses Team Fortress 2's all-time concurrent player count peak as it adds a chess wizard date de sortie",
+          "Deadlock surpasses Team Fortress 2's all-time concurrent player count peak as it adds a chess wizard plateformes",
+          "Deadlock surpasses Team Fortress 2's all-time concurrent player count peak as it adds a chess wizard gameplay",
+          "Deadlock surpasses Team Fortress 2's all-time concurrent player count peak as it adds a chess wizard guide",
+          "Deadlock surpasses Team Fortress 2's all-time concurrent player count peak as it adds a chess wizard avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Deadlock surpasses Team Fortress 2's all-time concurrent player count peak as it adds a chess wizard"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-studio-behind-star-wars-zero-company-is-bringing-ba-32e4f1446746",
+      "topic": "The studio behind Star Wars Zero Company is bringing back some of its furloughed staff",
+      "detected_at": "2026-10-10T18:51:36.847174+00:00",
+      "analysed_at": "2026-10-19T08:05:36.852949+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/the-studio-behind-star-wars-zero-company-is-hiring-back-some-of-its-furloughed-staff/",
+          "title": "The studio behind Star Wars Zero Company is bringing back some of its furloughed staff",
+          "evidence": "<article> <p>Just as Star Wars Zero Company was set to launch earlier this year, developer Bit Reactor furloughed over 80% of its staff over <a href=\"https://www.pcgamer.com/gaming-industry/the-studio-behind-star-wars-zero-company-which-is-currently-a-steam-bestseller-has-reportedly-furloughed-the-majority-of-its-staff/\">sales uncertainty</a>. In other words, much of its staff were receiving no pay, despite technically being employees, right when players were getting their hands on the game. Earlier this week <a href=\"https://bsky.app/profile/bitreactor.com/post/3mxcgabtzjk2b\" target=\"_blank\">on Bluesky</a>, the studio announced it had begun undoing this \"difficult decision\" (via <a href=\"https://www.gamesindustry.biz/star-wars-zero-company-developer-bit-reactor-begins-bringing-furloughed-staff-back\" target=\"_blank\">gamesindustry.biz</a>).</p><p>Bit Reactor CEO Greg Foertsch said in the statement that the decision was made in response to \"unexpected business developments outside of our control,\" but that it was \"necessary to help us eventually bring as many people back as possible.\" </p><p>According to <a href=\"https://www.gamefile.news/p/star-wars-zero-company-furloughs-update\" ta"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The studio behind Star Wars Zero Company is bringing back some of its furloughed staff",
+        "secondary_keywords": [
+          "The studio behind Star Wars Zero Company is bringing back some of its furloughed staff date de sortie",
+          "The studio behind Star Wars Zero Company is bringing back some of its furloughed staff plateformes",
+          "The studio behind Star Wars Zero Company is bringing back some of its furloughed staff gameplay",
+          "The studio behind Star Wars Zero Company is bringing back some of its furloughed staff guide",
+          "The studio behind Star Wars Zero Company is bringing back some of its furloughed staff avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The studio behind Star Wars Zero Company is bringing back some of its furloughed staff"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-by-casting-off-modern-convenience-has-horse-d632bebfd703",
+      "topic": "WoW: Forever, by casting off modern convenience, has horseshoed back around to being casual friendly again",
+      "detected_at": "2026-10-10T18:51:36.847761+00:00",
+      "analysed_at": "2026-10-19T08:05:36.852980+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-by-casting-off-modern-convenience-has-horseshoed-back-around-to-being-casual-friendly-again/",
+          "title": "WoW: Forever, by casting off modern convenience, has horseshoed back around to being casual friendly again",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Terminally Online</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PgGhmt5pTtxusaQQX3dHPF\" name=\"logo_terminally\" caption=\"\" alt=\"The Terminally Online logo.\" src=\"https://cdn.mos.cms.futurecdn.net/PgGhmt5pTtxusaQQX3dHPF-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">This is <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/terminally-online/\" target=\"_blank\">Terminally Online</a>:<strong> </strong>PC Gamer's very own MMO column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice.</p><"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever, by casting off modern convenience, has horseshoed back around to being casual friendly again",
+        "secondary_keywords": [
+          "WoW: Forever, by casting off modern convenience, has horseshoed back around to being casual friendly again date de sortie",
+          "WoW: Forever, by casting off modern convenience, has horseshoed back around to being casual friendly again plateformes",
+          "WoW: Forever, by casting off modern convenience, has horseshoed back around to being casual friendly again gameplay",
+          "WoW: Forever, by casting off modern convenience, has horseshoed back around to being casual friendly again guide",
+          "WoW: Forever, by casting off modern convenience, has horseshoed back around to being casual friendly again avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever, by casting off modern convenience, has horseshoed back around to being casual friendly again"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-triple-a-minesweeper-is-a-gleeful-send-up-of-blockbuste-94cdce904b67",
+      "topic": "Triple-A Minesweeper is a gleeful send-up of blockbuster gaming's worst habits, from yellow paint to characters who talk too much",
+      "detected_at": "2026-10-10T18:51:36.848053+00:00",
+      "analysed_at": "2026-10-19T08:05:36.853011+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/puzzle/triple-a-minesweeper-is-a-gleeful-send-up-of-blockbuster-gamings-worst-habits-from-yellow-paint-to-characters-who-talk-too-much/",
+          "title": "Triple-A Minesweeper is a gleeful send-up of blockbuster gaming's worst habits, from yellow paint to characters who talk too much",
+          "evidence": "<article> <p>In recent years, triple-A games have often been criticised for overly excessive handholding, overcompensating for a dread fear that the player might become stuck. This has manifested in numerous ways like Atreus' heavy-handed puzzle hints in<a href=\"https://www.pcgamer.com/games/action/god-of-war-ragnarok-pc-review/\"> God of War: Ragnarok</a>, yellow paint splashed on every other ledge of<a href=\"https://www.pcgamer.com/uk/stellar-blade/\"> Stellar Blade</a>, and most recently,<a href=\"https://www.pcgamer.com/games/action/wolverine-review-roundup-frankly-were-starting-to-feel-a-little-better-about-the-whole-playstation-5-exclusive-thing/\"> Marvel's Wolverine</a> essentially playing itself for entire portions of the game.</p><p>I'm not here to weigh in on that debate. Instead, I'm simply going to point you to<a href=\"https://minesweeper.mikelacher.com/\" target=\"_blank\"> Triple-A Minesweeper</a>, a delightful spoof game created by developer Mike Lacher, which expertly skewers some of blockbuster gaming's most egregious habits.</p><p>Now, before I describe the experience of playing Triple-A Minesweeper, I strongly suggest that you<a href=\"https://minesweeper.mikelacher.com"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Triple-A Minesweeper is a gleeful send-up of blockbuster gaming's worst habits, from yellow paint to characters who talk too much",
+        "secondary_keywords": [
+          "Triple-A Minesweeper is a gleeful send-up of blockbuster gaming's worst habits, from yellow paint to characters who talk too much date de sortie",
+          "Triple-A Minesweeper is a gleeful send-up of blockbuster gaming's worst habits, from yellow paint to characters who talk too much plateformes",
+          "Triple-A Minesweeper is a gleeful send-up of blockbuster gaming's worst habits, from yellow paint to characters who talk too much gameplay",
+          "Triple-A Minesweeper is a gleeful send-up of blockbuster gaming's worst habits, from yellow paint to characters who talk too much guide",
+          "Triple-A Minesweeper is a gleeful send-up of blockbuster gaming's worst habits, from yellow paint to characters who talk too much avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Triple-A Minesweeper is a gleeful send-up of blockbuster gaming's worst habits, from yellow paint to characters who talk too much"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-be-warned-nivalis-nights-may-not-be-the-cozy-game-you-e-dc14fd6f3e14",
+      "topic": "Be warned: Nivalis Nights may not be the cozy game you expect: 'If you want a cozy existence in this city, you're going to have to earn it'",
+      "detected_at": "2026-10-10T18:51:36.848233+00:00",
+      "analysed_at": "2026-10-19T08:05:36.853041+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/life-sim/be-warned-nivalis-nights-may-not-be-the-cozy-game-you-expect-if-you-want-a-cozy-existence-in-this-city-youre-going-to-have-to-earn-it/",
+          "title": "Be warned: Nivalis Nights may not be the cozy game you expect: 'If you want a cozy existence in this city, you're going to have to earn it'",
+          "evidence": "<article> <p>The popular user-added tags for <a href=\"https://store.steampowered.com/app/1488490/Nivalis_Nights/\">Nivalis Nights</a> on Steam are: Cyberpunk, simulation, life sim, management, and relaxing. It is definitely a cyberpunk shop/life sim, but relaxing? This one was on the wishlists of a lot of cozy gaming fans, including me. After playing it though, I'm not sure it's the kind of cozy most people would expect. Here's what lead writer Thomas Welsh had to say:</p><h2 id=\"the-volume-of-quests-and-story-content-in-nivalis-nights-feels-overwhelming-at-times-was-that-intentional\">The volume of quests and story content in Nivalis Nights feels overwhelming at times. Was that intentional?</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"W2UtAB3jRfciVLbYwgNsRF\" name=\"20261005141758_1\" alt=\"Nivalis Nights\" src=\"https://cdn.mos.cms.futurecdn.net/W2UtAB3jRfciVLbYwgNsRF-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline expandab"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Be warned: Nivalis Nights may not be the cozy game you expect: 'If you want a cozy existence in this city, you're going to have to earn it'",
+        "secondary_keywords": [
+          "Be warned: Nivalis Nights may not be the cozy game you expect: 'If you want a cozy existence in this city, you're going to have to earn it' date de sortie",
+          "Be warned: Nivalis Nights may not be the cozy game you expect: 'If you want a cozy existence in this city, you're going to have to earn it' plateformes",
+          "Be warned: Nivalis Nights may not be the cozy game you expect: 'If you want a cozy existence in this city, you're going to have to earn it' gameplay",
+          "Be warned: Nivalis Nights may not be the cozy game you expect: 'If you want a cozy existence in this city, you're going to have to earn it' guide",
+          "Be warned: Nivalis Nights may not be the cozy game you expect: 'If you want a cozy existence in this city, you're going to have to earn it' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Be warned: Nivalis Nights may not be the cozy game you expect: 'If you want a cozy existence in this city, you're going to have to earn it'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-advent-of-first-person-shooters-introduced-a-wild-f-00627de408e5",
+      "topic": "The advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever",
+      "detected_at": "2026-10-10T18:51:36.848811+00:00",
+      "analysed_at": "2026-10-19T08:05:36.853073+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/the-advent-of-first-person-shooters-introduced-a-wild-frontier-of-unregulated-video-game-level-packs-and-it-ended-in-a-lawsuit-that-changed-copyright-forever/",
+          "title": "The advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Weird Weekend</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/weird-weekend/\" target=\"_blank\">Weird Weekend</a> is our regular Saturday column where we celebrate PC gaming oddities: peculiar games, strange bits of trivia, forgotten history. Pop back every weekend to find out what Jeremy, Josh and Rick have become obsessed with this time, whether it's the <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/i-embarked-on-a-mission-to-answer-the-most-important-question-in-pc-gaming-how-tall-is-garrett-from-thief/\" target=\"_blank\">canon height of Thief's Garrett</a> or that time someone in the Vatican pirated <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/sports/a-part-of-my-brain-will-always-be-dedicated-to-the-time-someone-in-the-vatican-pirated-football-manager-2013/\" target=\"_blank\">Football Manager</a>.</p></div></div><p>For most of PC gaming history, there were three states of PC game—your regular old video game, expansions/DLC, and mods. But for a brief period in the 1990s, there was a fo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever",
+        "secondary_keywords": [
+          "The advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever date de sortie",
+          "The advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever plateformes",
+          "The advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever gameplay",
+          "The advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever guide",
+          "The advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The advent of first-person shooters introduced a wild frontier of unregulated video game level packs, and it ended in a lawsuit that changed copyright forever"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-expect-plenty-more-silent-hill-over-the-next-few-years--0becc8482225",
+      "topic": "Expect plenty more Silent Hill over the next few years, as Konami has plans for 'second and third waves' of new games in its revived horror series",
+      "detected_at": "2026-10-10T18:51:36.849101+00:00",
+      "analysed_at": "2026-10-19T08:05:36.853102+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/expect-plenty-more-silent-hill-over-the-next-few-years-as-konami-has-plans-for-second-and-third-waves-of-new-games-in-its-revived-horror-series/",
+          "title": "Expect plenty more Silent Hill over the next few years, as Konami has plans for 'second and third waves' of new games in its revived horror series",
+          "evidence": "<article> <p>Silent Hill's resurrection is one of the happier stories to emerge from the games industry in recent years. After spending roughly a decade locked in a Konami cupboard, Silent Hill has received three new entries published by Konami in as many years, all of which arrived to positive reviews and, seemingly, healthy sales. But if<a href=\"https://www.pcgamer.com/uk/silent-hill-2/\"> Silent Hill 2</a> Remake,<a href=\"https://www.pcgamer.com/uk/silent-hill-f/\"> Silent Hill f</a>, and<a href=\"https://www.pcgamer.com/uk/silent-hill-townfall/\"> Silent Hill: Townfall</a> still haven't satisfied your craving for allegorical horror in foggy towns, fret not, because Konami has plenty more plans for the series' ongoing revival.</p><p>In an interview featured in<a href=\"https://www.famitsu.com/\" target=\"_blank\"> Famitsu</a> (via<a href=\"https://www.ign.com/articles/konami-planning-second-and-third-waves-of-new-silent-hill-games\" target=\"_blank\"> IGN</a>), Silent Hill producer Motoi Okamoto explained that Konami is \"relieved\" by both the critical and commercial reception to the aforementioned three games. \"All three titles we initially announced were able to be released successfully,\" "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Expect plenty more Silent Hill over the next few years, as Konami has plans for 'second and third waves' of new games in its revived horror series",
+        "secondary_keywords": [
+          "Expect plenty more Silent Hill over the next few years, as Konami has plans for 'second and third waves' of new games in its revived horror series date de sortie",
+          "Expect plenty more Silent Hill over the next few years, as Konami has plans for 'second and third waves' of new games in its revived horror series plateformes",
+          "Expect plenty more Silent Hill over the next few years, as Konami has plans for 'second and third waves' of new games in its revived horror series gameplay",
+          "Expect plenty more Silent Hill over the next few years, as Konami has plans for 'second and third waves' of new games in its revived horror series guide",
+          "Expect plenty more Silent Hill over the next few years, as Konami has plans for 'second and third waves' of new games in its revived horror series avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Expect plenty more Silent Hill over the next few years, as Konami has plans for 'second and third waves' of new games in its revived horror series"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-if-you-re-skilful-enough-you-can-chop-the-head-off-a-mo-a5ed843273b2",
+      "topic": "'If you're skilful enough, you can chop the head off a monster, kick it midair, and then kill another monster with it': Consider me sold on this indie first-person ARPG",
+      "detected_at": "2026-10-10T18:51:36.849445+00:00",
+      "analysed_at": "2026-10-19T08:05:36.853135+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/if-youre-skilful-enough-you-can-chop-the-head-off-a-monster-kick-it-midair-and-then-kill-another-monster-with-it-consider-me-sold-on-this-indie-first-person-arpg/",
+          "title": "'If you're skilful enough, you can chop the head off a monster, kick it midair, and then kill another monster with it': Consider me sold on this indie first-person ARPG",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/gULKsVIPNlk\" allowfullscreen></iframe></div></div><p>Certain ideas that crop up every so often in games will always grab my attention. One of them is letting players defeat enemies with bits of other enemies. As such, my interest in Heathen—an upcoming indie dungeon crawler—went from 'mildly curious' to 'smashing the wishlist button' when its most recent trailer revealed you can beat your foes by volleying other enemy heads at them.</p><p>Developed by solo developer Christoper Yabsley, Heathen takes the frantic monster bashing and loot hoarding of<a href=\"https://www.pcgamer.com/diablo/\"> Diablo</a> and reworks it for a first-person perspective. Set in the fantasy town of Saltgrave, it sees your character seeking fortune and glory in the vast subterranean labyrinth beneath the town, encountering an \"ancient horror\" in the process in what the Steam page describes as a \"descent into madness.\"</p><p>The chief addition that the trailer explores is a new enemy dismemberment system added by Yabsley, which he says has \"do"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'If you're skilful enough, you can chop the head off a monster, kick it midair, and then kill another monster with it': Consider me sold on this indie first-person ARPG",
+        "secondary_keywords": [
+          "'If you're skilful enough, you can chop the head off a monster, kick it midair, and then kill another monster with it': Consider me sold on this indie first-person ARPG date de sortie",
+          "'If you're skilful enough, you can chop the head off a monster, kick it midair, and then kill another monster with it': Consider me sold on this indie first-person ARPG plateformes",
+          "'If you're skilful enough, you can chop the head off a monster, kick it midair, and then kill another monster with it': Consider me sold on this indie first-person ARPG gameplay",
+          "'If you're skilful enough, you can chop the head off a monster, kick it midair, and then kill another monster with it': Consider me sold on this indie first-person ARPG guide",
+          "'If you're skilful enough, you can chop the head off a monster, kick it midair, and then kill another monster with it': Consider me sold on this indie first-person ARPG avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'If you're skilful enough, you can chop the head off a monster, kick it midair, and then kill another monster with it': Consider me sold on this indie first-person ARPG"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,0 +1,84 @@
+{
+  "source_id": "5dcd9316140572cc214bac35783ed42b5dcf5c5c2d06488eea1a985489d2ad9d",
+  "carousel_version": "b57ef59ca99fe542dfab618247264a10b3d9755de6b98c52a943906d5b972da4",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    816,
+    817,
+    818
+  ],
+  "prepared_at_utc": "2026-10-19T17:10:32.391377Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "5dcd9316140572cc214bac35783ed42b5dcf5c5c2d06488eea1a985489d2ad9d",
+    "source_title": "Final Fantasy Resonance : date de sortie, gameplay et démo – tout ce qu’on sait",
+    "score": 83.5,
+    "idea": {
+      "source_id": "5dcd9316140572cc214bac35783ed42b5dcf5c5c2d06488eea1a985489d2ad9d",
+      "topic": "Final Fantasy Resonance – sortie et démo gratuite",
+      "angle": "Date de sortie officielle, gameplay HD‑2D et démo du premier chapitre",
+      "format": "did_you_know",
+      "hook": "Le 22 octobre 2026, Final Fantasy Resonance arrive avec une démo gratuite du premier chapitre en HD‑2D",
+      "freshness": 9,
+      "click_potential": 9,
+      "curiosity": 8,
+      "shareability": 7,
+      "originality": 8,
+      "gamerquest_relevance": 9,
+      "total_score": 83.5
+    },
+    "carousel": {
+      "topic": "Final Fantasy Resonance – sortie et démo gratuite",
+      "angle": "Date de sortie officielle, gameplay HD‑2D et démo du premier chapitre",
+      "format": "did_you_know",
+      "hook": "Le 22 octobre 2026, Final Fantasy Resonance arrive avec une démo gratuite du premier chapitre en HD‑2D",
+      "score": 83.5,
+      "slides": [
+        {
+          "title": "Final Fantasy Resonance arrive le 22 octobre 2026",
+          "body": "Une surprise attend les fans : une démo gratuite du premier chapitre en HD‑2D.",
+          "visual_prompt": "Une scène épique en style HD‑2D montrant un héros brandissant une épée dans un paysage fantastique, éclairage dramatique, sans texte ni logo."
+        },
+        {
+          "title": "Démo gratuite du premier chapitre",
+          "body": "Square Enix a confirmé une démo gratuite incluant le premier chapitre, présentée en graphismes HD‑2D, disponible dès la sortie officielle.",
+          "visual_prompt": "Capture d'écran imaginaire du premier chapitre du jeu, affichant le style artistique HD‑2D, personnages en action, environnement détaillé, sans éléments textuels."
+        },
+        {
+          "title": "Nouveau système de jobs « Visions »",
+          "body": "Le trailer révèle un système de jobs appelé « Visions ». Découvrez plus de détails sur GamerQuest.fr.",
+          "visual_prompt": "Illustration d'un personnage changeant de tenue de job, entouré d'effets lumineux symbolisant les « Visions », style HD‑2D, sans texte ni marques."
+        }
+      ],
+      "caption": "Le 22 octobre 2026, Final Fantasy Resonance débarque avec une démo gratuite en HD‑2D. 🎮✨",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#FinalFantasyResonance",
+        "#HD2D",
+        "#DémoGratuite",
+        "#GamerQuest",
+        "#SquareEnix"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "5dcd9316140572cc214bac35783ed42b5dcf5c5c2d06488eea1a985489d2ad9d"
+    },
+    "caption": "Le 22 octobre 2026, Final Fantasy Resonance débarque avec une démo gratuite en HD‑2D. 🎮✨",
+    "hashtags": [
+      "#FinalFantasyResonance",
+      "#HD2D",
+      "#DémoGratuite",
+      "#GamerQuest",
+      "#SquareEnix"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 0
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T15:50:18.081908+00:00",
-  "count": 5,
+  "generated_at": "2026-10-19T21:13:09.091952+00:00",
+  "count": 4,
   "articles": [
     {
       "source_id": "2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754",
@@ -22,28 +22,6 @@
         "alt": "Cyberpunk 2077 -70% sur Steam - GamerQuest",
         "caption": "Cyberpunk 2077 : offre -70% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Cyberpunk 2077 sur Steam."
-      }
-    },
-    {
-      "source_id": "328162811d854f8ee77d57aa3385ac8c1691480f05841c440267a415aa266402",
-      "title": "Halo: The Master Chief Collection à -75% sur Steam",
-      "excerpt": "Halo: The Master Chief Collection bénéficie actuellement d'une réduction de 75% sur Steam, passant de 39,99 € à 9,99 €.",
-      "content": "<p><strong>Halo: The Master Chief Collection</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>9,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/376282/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/376282/",
-      "deal": {
-        "game": "Halo: The Master Chief Collection",
-        "store": "Steam",
-        "original_price": 39.99,
-        "current_price": 9.99,
-        "discount_percent": 75,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/328162811d854f8ee77d57aa3385ac8c1691480f05841c440267a415aa266402.jpg",
-        "filename": "328162811d854f8ee77d57aa3385ac8c1691480f05841c440267a415aa266402.jpg",
-        "alt": "Halo: The Master Chief Collection -75% sur Steam - GamerQuest",
-        "caption": "Halo: The Master Chief Collection : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Halo: The Master Chief Collection sur Steam."
       }
     },
     {

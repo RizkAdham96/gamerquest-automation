@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-20T07:56:01.659144+00:00",
+  "updated_at": "2026-10-20T18:44:39.735976+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -257,6 +257,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-hades-ii-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 822,
       "published_at": "2026-10-20T07:56:01.659144+00:00"
+    },
+    {
+      "intent_key": "hades ii multijoueur",
+      "primary_keyword": "Hades II multijoueur",
+      "title": "Hades II multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/hades-ii-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 827,
+      "published_at": "2026-10-20T18:44:39.735976+00:00"
     }
   ]
 }

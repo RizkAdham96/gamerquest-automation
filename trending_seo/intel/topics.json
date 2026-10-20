@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-20T07:55:54.812186+00:00",
+  "updated_at": "2026-10-20T18:44:33.006904+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -45,290 +45,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "rss-as-it-lays-off-developers-and-closes-studios-xbox-launc-55543c784c0a",
-      "topic": "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves'",
-      "detected_at": "2026-10-11T09:18:34.820679+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/as-it-lays-off-developers-and-closes-studios-xbox-gets-into-the-movie-business/",
-          "title": "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves'",
-          "evidence": "<article> <p>More big news out of Xbox today: A new division called Xbox XP will take the lead on \"film and television, consumer products, strategic partnerships, and live experiences.\"</p><p>As detailed on today's <a href=\"https://news.xbox.com/en-us/2026/10/08/introducing-xp/\" target=\"_blank\">announcement</a>, here's what that breaks down to:</p><ul><li><em><strong>XBOX PICTURES</strong></em><em>: Bringing our worlds and characters to new audiences through film, television, and other forms of linear storytelling.</em></li><li><em><strong>XBOX PRODUCTS</strong></em><em>: Creating products that are authentic to the fandom that allow fans to celebrate and express the franchises they love.</em></li><li><em><strong>XBOX PLACES</strong></em><em>: Bringing communities together through live events, immersive experiences, attractions, broadcasts, and destinations.</em></li><li><em><strong>XBOX PARTNERSHIPS</strong></em><em>: Working with creators, brands, and communities to develop new experiences, sponsorships, and brand partnerships.</em></li></ul><p>Xbox XP will be headed by Kayleen Walters, who previously spent a couple years as president of Minecraft studio Mojang and before that spe"
-        }
-      ],
-      "keywords": [
-        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves'",
-        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' date de sortie",
-        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' plateformes",
-        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' gameplay",
-        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' guide",
-        "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-all-hail-the-long-steam-machine-pimax-s-new-steamos-rea-e0f56e4a41b4",
-      "topic": "All hail the long steam machine, Pimax's new SteamOS-ready mini PC",
-      "detected_at": "2026-10-11T09:18:34.820993+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/steam-machines/all-hail-the-long-steam-machine-pimaxs-new-steamos-ready-mini-pc/",
-          "title": "All hail the long steam machine, Pimax's new SteamOS-ready mini PC",
-          "evidence": "<article> <p>You could say Pimax is copying Valve's homework with its new mini PC, the Spation. Though the <a href=\"https://www.pcgamer.com/hardware/gaming-pcs/steam-machine-review-2026/\" target=\"_blank\">Steam Machine</a> is merely a black box, so you could say it also copied any number of other miscellaneous black rectangles itself; the Xbox Series X among them. Nevertheless, this is one similar-looking living room machine, and Pimax is even pitching it with SteamOS.</p><p>Pimax's machine is a mini PC with a whole bunch of power behind it. Pimax says it comes with either an <a href=\"https://www.pcgamer.com/hardware/graphics-cards/amd-radeon-rx-9700-xt-review-asus-prime-oc/\" target=\"_blank\">RX 9070 XT</a> or <a href=\"https://www.pcgamer.com/hardware/graphics-cards/pny-geforce-rtx-5070-ti-16-gb-oc-review/\" target=\"_blank\">RTX 5070 Ti</a>, and a <a href=\"https://www.pcgamer.com/hardware/processors/amd-ryzen-7-9800x3d-review/\" target=\"_blank\">Ryzen 7 9800X3D</a>. </p><p>It packs in 32 GB of DDR5, a 1 TB SSD, and a 1000 W SFX PSU. It also supports Wi-Fi 7, Bluetooth 5.4, and comes with 2x DisplayPort 2.1, 1x HDMI 2.1, 1x USB4, and 6x USB 3.2 Gen 2 ports. </p><div style=\"min-height: 250"
-        }
-      ],
-      "keywords": [
-        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC",
-        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC date de sortie",
-        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC plateformes",
-        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC gameplay",
-        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC guide",
-        "All hail the long steam machine, Pimax's new SteamOS-ready mini PC avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-pimax-says-i-ll-have-what-valve-s-having-as-it-announce-1ef6358bec5f",
-      "topic": "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine",
-      "detected_at": "2026-10-11T09:18:34.821481+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/vr-hardware/pimax-says-ill-have-what-valves-having-as-it-announces-new-wireless-vr-headset-foveated-streaming-updated-controllers-and-long-steam-machine/",
-          "title": "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine",
-          "evidence": "<article> <p>Known for its many variants of VR headset, Pimax is back with yet more new products. This time, it seems to be following Valve's recent example, with a wireless VR headset, foveated streaming, ringfree VR controllers, and a very long Steam Machine.</p><p>Let's start with the VR headset, as Pimax isn't playing around when it comes to wireless capabilities on this thing. It's called the Crystal Pro, and it's totally wireless. Included in the box is a Wi-Fi 6E adapter, much like the <a href=\"https://www.pcgamer.com/hardware/vr-hardware/valve-steam-frame-review/\" target=\"_blank\">Steam Frame</a>, which hooks it up to a nearby gaming PC; however, Pimax is going one step further with an optional wireless streaming kit, 60G AirLink, that uses 60 GHz 2x2 MIMO for a higher-bandwidth, more robust connection.</p><p>\"What if you could cut the cable and still send the image with no visual compression. That question is the reason this headset exists,\" Jaap Grolleman says in a <a href=\"https://www.youtube.com/watch?v=lhJ5d1qS5cM\" target=\"_blank\">prerecorded launch video</a>.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" da"
-        }
-      ],
-      "keywords": [
-        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine",
-        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine date de sortie",
-        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine plateformes",
-        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine gameplay",
-        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine guide",
-        "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-how-to-complete-boarding-the-frigate-in-arc-raiders-fcace8bd1066",
-      "topic": "How to complete Boarding the Frigate in Arc Raiders",
-      "detected_at": "2026-10-11T09:18:34.821778+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-boarding-the-frigate-walkthrough/",
-          "title": "How to complete Boarding the Frigate in Arc Raiders",
-          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/kCmrGspS.html\" id=\"kCmrGspS\" title=\"Arc Raiders - Boarding Frigate\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen></iframe><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">⚡Climb onto one of the drones the frigate spits out and interact to disrupt it.</p><p class=\"fancy-box__body-text\">⚡Ride it up to the Arc Frigate.</p><p class=\"fancy-box__body-text\">⚡Damage a Rocketeer, Vaporizer, and Hydra turret to complete the quest.</p></div></div><p><a href=\"https://www.pcgamer.com/arc-raiders/\" target=\"_blank\">Arc Raiders</a>' new Boarding the Frigate quest is about finding a way up onto the giant flying Arc fortress during the new Arc Frigate map modifier. Since this is a colossal arc event, you'll want to bring plenty of ammo and healing. A Grappling or Snap Hook will come in handy, too.</p><p>You can get onto the frigate (as shown in the video) by finding one of the circular Arc drones that it spits out when it arrives on the map, climbing or grappling on top of it, and then interacting with it to disrupt the drone. This"
-        }
-      ],
-      "keywords": [
-        "How to complete Boarding the Frigate in Arc Raiders",
-        "How to complete Boarding the Frigate in Arc Raiders date de sortie",
-        "How to complete Boarding the Frigate in Arc Raiders plateformes",
-        "How to complete Boarding the Frigate in Arc Raiders gameplay",
-        "How to complete Boarding the Frigate in Arc Raiders guide",
-        "How to complete Boarding the Frigate in Arc Raiders avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "evg-config-374320",
-      "topic": "Configuration PC Dark Souls III : minimale, recommandée et conseils",
-      "detected_at": "2026-10-11T09:18:34.140816+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/374320/",
-          "title": "DARK SOULS™ III sur Steam",
-          "evidence": "Données officielles de la fiche Steam de DARK SOULS™ III, consultée le 2026-10-11. Développeur : FromSoftware, Inc.. Éditeur : FromSoftware, Inc., Bandai Namco Entertainment. Date de sortie sur Steam : 11 avr. 2016. Genres : Action. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit ; Processeur : Intel Core i3-2100 / AMD® FX-6300 ; Mémoire vive : 4 GB de mémoire ; Graphiques : NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950 ; DirectX : Version 11 ; Réseau : connexion internet haut débit ; Espace disque : 25 GB d'espace disque disponible ; Carte son : DirectX 11 sound device ; Notes supplémentaires : Internet connection required for online play and product activation. Configuration PC Recommandée : ; Système d'exploitation *: Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit ; Processeur : Intel Core i7-3770 / AMD® FX-8350 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA® GeForce GTX 970 / ATI Radeon R9 series ; DirectX : Version 11 ; Réseau : connexion internet haut débit ; Espace disque : 25 GB d'espace disque disponible ; Carte son : DirectX 11 sound device ; Notes supplémentaires : Internet connection required for online play and product activation.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.1920x1080.jpg?t=1748630784"
-        }
-      ],
-      "keywords": [
-        "configuration pc Dark Souls III",
-        "Dark Souls III PC",
-        "Dark Souls III Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-374320",
-      "topic": "Dark Souls III multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-11T09:18:34.140874+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/374320/",
-          "title": "DARK SOULS™ III sur Steam",
-          "evidence": "Données officielles de la fiche Steam de DARK SOULS™ III, consultée le 2026-10-11. Développeur : FromSoftware, Inc.. Éditeur : FromSoftware, Inc., Bandai Namco Entertainment. Date de sortie sur Steam : 11 avr. 2016. Genres : Action. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Caméra et confort de vue, Contrôle du volume différencié, Jouable sans saisie en temps imparti, Sauvegarde à tout moment, Son stéréo, Son multicanal, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Dark Souls repousse une fois de plus ses limites avec un nouveau chapitre ambitieux de la série légendaire et encensée par la critique. Préparez-vous à embrasser les ténèbres !",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.1920x1080.jpg?t=1748630784"
-        }
-      ],
-      "keywords": [
-        "Dark Souls III multijoueur",
-        "Dark Souls III PC",
-        "Dark Souls III Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-config-2246340",
-      "topic": "Configuration PC Monster Hunter Wilds : minimale, recommandée et conseils",
-      "detected_at": "2026-10-11T09:18:34.604933+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/2246340/",
-          "title": "Monster Hunter Wilds sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Monster Hunter Wilds, consultée le 2026-10-11. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 27 févr. 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows®10 (64 bits requis)/Windows®11 (64 bits requis) ; Processeur : Intel® Core™ i5-10400 or Intel® Core™ i3-12100 or AMD Ryzen™ 5 3600 ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA® GeForce® GTX 1660(VRAM 6GB) or AMD Radeon™ RX 5500 XT(VRAM 8GB) ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 75 GB d'espace disque disponible ; Notes supplémentaires : SSD requis. Performances visées : 1080p (upscalé depuis une résolution native 720p) / 30 fps avec les paramètres graphiques sur \"Très bas\". DirectStorage pris en charge.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows®10 (64 bits requis)/Windows®11 (64 bits requis) ; Processeur : Intel® Core™ i5-10400 or Intel® Core™ i3-12100 or AMD Ryzen™ 5 3600 ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA® GeForce® RTX 2060 Super(VRAM 8GB) or AMD Radeon™ RX 6600(VRAM 8GB) ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 75 GB d'espace disque disponible ; Notes supplémentaires : SSD requis. Performances visées : 1080p/60 fps (avec Frame Generation activé) avec les paramètres graphiques sur \"Moyen\". DirectStorage pris en charge..",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.1920x1080.jpg?t=1787549555"
-        }
-      ],
-      "keywords": [
-        "configuration pc Monster Hunter Wilds",
-        "Monster Hunter Wilds PC",
-        "Monster Hunter Wilds Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-2246340",
-      "topic": "Monster Hunter Wilds multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-11T09:18:34.604993+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/2246340/",
-          "title": "Monster Hunter Wilds sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Monster Hunter Wilds, consultée le 2026-10-11. Développeur : CAPCOM Co., Ltd.. Éditeur : CAPCOM Co., Ltd.. Date de sortie sur Steam : 27 févr. 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Multijoueur multiplateforme, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Taille de texte réglable, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Option clavier uniquement, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge de l'API Steam Input, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Arpentez des environnements qui se transforment radicalement d'un moment à l'autre sous l'effet de la force indomptable d'une nature sans cesse déchaînée. Plongez dans une histoire de monstres et d'humains luttant pour vivre en harmonie dans un monde de dualités.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.1920x1080.jpg?t=1787549555"
-        }
-      ],
-      "keywords": [
-        "Monster Hunter Wilds multijoueur",
-        "Monster Hunter Wilds PC",
-        "Monster Hunter Wilds Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "rss-nier-creator-yoko-taro-says-he-s-achieved-his-career-dr-c92a13d9506b",
-      "topic": "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia'",
-      "detected_at": "2026-10-11T19:10:30.428363+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/nier-creator-yoko-taro-says-hes-achieved-his-career-dreams-but-he-continues-working-because-its-good-for-preventing-dementia/",
-          "title": "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia'",
-          "evidence": "<article> <p>They say that art is never finished, only abandoned—but that doesn't seem to be the case for Yoko Taro, creator of Nier and Drakengard, who you might recognize by the round, smiley Emil mask he wears. According to a report from <a href=\"https://news.denfaminicogamer.jp/interview/261005l\" target=\"_blank\">Denfaminicogamer</a> (via <a href=\"https://www.ign.com/articles/nier-creator-yoko-taro-says-he-would-retire-from-making-video-games-but-fear-of-dementia-keeps-him-working\" target=\"_blank\">IGN</a>), Taro said at the Tokyo French Institute last month that he's already more or less realized his vision and has considered retiring.</p><p>\"With Drakengard, the first game I was given the opportunity to direct, I was actually able to do almost everything the way I wanted,\" Taro said. \"As a game otaku, I think the dream is to release something you've always wanted to create into the world. Having achieved that dream, I view everything after that as the remainder of my life.\" </p><p>As for why he continues to work in gamedev if he's already achieved his dreams, well, he said the money doesn't hurt—and that he has a fear of how his mental health might degrade should he grow idle. "
-        }
-      ],
-      "keywords": [
-        "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia'",
-        "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia' date de sortie",
-        "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia' plateformes",
-        "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia' gameplay",
-        "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia' guide",
-        "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-arc-raiders-2-0-is-here-and-you-can-finally-turn-those--3d8f0225597c",
-      "topic": "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off",
-      "detected_at": "2026-10-11T19:10:30.428525+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-2-0-is-here-and-you-can-finally-turn-those-lights-on-your-backpack-off/",
-          "title": "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off",
-          "evidence": "<article> <p>I remember being a kid and wishing I had shoes that lit up. I know now that I was a fool. If I festooned myself with garish lights, how would I scavenge for supplies in a frozen wasteland without being spotted by strangers who may or may not kill me before I can use my grappling hook to get away? This isn't a real problem I have, nor is it a real problem Arc Raiders players will have anymore, since your backpack now has an emissive toggle.</p><p>That's one of many little overhauls that arrived in Embark Studios' popular extraction shooter Thursday, and you can read all about the rest in the <a href=\"https://arcraiders.com/news/frozen-trail-2-0-update\" target=\"_blank\">2.0 patch notes</a>. If you've not been tuned into the extraction world as of late, you did indeed read that right: Arc Raiders has gotten a big shakeup with the <a href=\"https://www.pcgamer.com/games/third-person-shooter/i-had-3-hours-with-arc-raiders-frozen-trails-update-and-spent-most-of-it-playing-with-the-new-grapple-hook/\">Frozen Trails update</a>, which comes bearing snowy mountains and grappling hooks.</p><p>But that's not what's exciting about patch notes—the best part of combing through each litt"
-        }
-      ],
-      "keywords": [
-        "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off",
-        "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off date de sortie",
-        "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off plateformes",
-        "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off gameplay",
-        "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off guide",
-        "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-rpgs-are-simply-better-when-you-re-an-idiot-ffa8abaa1039",
-      "topic": "RPGs are simply better when you're an idiot",
-      "detected_at": "2026-10-11T19:10:30.428787+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rpg/rpgs-are-simply-better-when-youre-an-idiot/",
-          "title": "RPGs are simply better when you're an idiot",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Dungeon Master</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"ckZUwfxbakq5yXMJMfSmBW\" name=\"logo_dungeon\" caption=\"\" alt=\"The Dungeon Master column logo\" src=\"https://cdn.mos.cms.futurecdn.net/ckZUwfxbakq5yXMJMfSmBW-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/dungeon-master-column/\" target=\"_blank\">Dungeon Master</a>, PC Gamer's regular RPG column, where Online Editor Fraser Brown delves into PC gaming's most beloved and enduring genre. Grab a seat in our badly-lit tavern and please ignore the goblin puke.</p></div></div><p>Most videogame RPGs are selling a power fantasy—the idea that you are competent, "
-        }
-      ],
-      "keywords": [
-        "RPGs are simply better when you're an idiot",
-        "RPGs are simply better when you're an idiot date de sortie",
-        "RPGs are simply better when you're an idiot plateformes",
-        "RPGs are simply better when you're an idiot gameplay",
-        "RPGs are simply better when you're an idiot guide",
-        "RPGs are simply better when you're an idiot avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-escape-from-elohello-has-me-reliving-my-worst-online-pv-af1a285f87f3",
-      "topic": "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form",
-      "detected_at": "2026-10-11T19:10:30.428893+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/roguelike/escape-from-elohello-has-me-reliving-my-worst-online-pvp-nightmares-in-roguelike-form/",
-          "title": "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form",
-          "evidence": "<article> <p>I was stuck in elo hell for a good four years, then I entered elo purgatory for another five years, and now I'm apparently in elo heaven, but for some reason it still feels like elo hell. I guess that's just part and parcel of playing online competitive multiplayer games. </p><p>While I'd never want to relive the pain of climbing from Bronze to GM, I am morbidly intrigued in whether I still have that fight in me. So I've found a happy medium, playing a strategy roguelike that provides players with \"all the satisfaction of reaching rank 1, none of the toxic teammates or 40-minute hostage games\". </p><figure role=\"gallery\"><figure><img src=\"https://cdn.mos.cms.futurecdn.net/KabPGkaRAxrfwCt5FyDUj9-1920-80.jpg\" alt=\"Escape from EloHell screenshots\" /><figcaption><small role=\"credit\">Richard Fulop</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/fWwfgQKYaNpNwHveiLm4h9-1920-80.jpg\" alt=\"Escape from EloHell screenshots\" /><figcaption><small role=\"credit\">Richard Fulop</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/osJWZLaxcm3BNteoJ2Csf9-1920-80.jpg\" alt=\"Escape from EloHell screenshots\" /><figcaption><small rol"
-        }
-      ],
-      "keywords": [
-        "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form",
-        "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form date de sortie",
-        "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form plateformes",
-        "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form gameplay",
-        "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form guide",
-        "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-this-control-inspired-action-game-set-in-a-planet-scale-63f25b1d334d",
       "topic": "This Control-inspired action game set in a 'planet-scale alien mind' has one of the most stunning art styles I've seen this year",
@@ -6011,6 +5727,294 @@
         "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' gameplay",
         "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' guide",
         "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-helldivers-2-studio-warns-mods-may-break-as-it-switches-d63030ea2c58",
+      "topic": "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs",
+      "detected_at": "2026-10-20T18:44:32.992111+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/helldivers-2-studio-warns-mods-may-break-as-it-switches-to-new-anti-cheat-and-the-negative-reviews-are-dropping-on-steam-like-hellbombs/",
+          "title": "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs",
+          "evidence": "<article> <p>Heads up, Helldivers: Arrowhead Game Studios is moving <a href=\"https://www.pcgamer.com/helldivers-2/\" target=\"_blank\">Helldivers 2</a> from GameGuard to Easy Anti-Cheat today, and that means some mods—including those that don't have any impact on gameplay—may stop working.</p><p>Helldivers 2 doesn't have official modding support, but there are <a href=\"https://www.nexusmods.com/games/helldivers2\" target=\"_blank\">plenty of them out there</a>—most either cosmetic or audio replacements. Arrowhead said in a <a href=\"https://store.steampowered.com/news/app/553850/view/713415392836453548?l=english\" target=\"_blank\">Steam update</a> that while it hasn't previously taken a position on mods beyond warning that it can't guarantee their safety or usability, it's seen a recent uptick in cheat mods and it can't let that stand. </p><p>\"We know mods are part of the DNA of PC gaming and gaming communities as a whole,\" the studio wrote. \"In general, we appreciate the creativity behind cosmetic and non-gameplay mods, which players can enjoy without negatively impacting those who play alongside them. </p><p>\"Where we need to improve is how we protect players against modifications that cr"
+        }
+      ],
+      "keywords": [
+        "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs",
+        "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs date de sortie",
+        "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs plateformes",
+        "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs gameplay",
+        "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs guide",
+        "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-i-played-20-cozy-game-demos-in-steam-next-fest-and-thes-7d66f2450cee",
+      "topic": "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist",
+      "detected_at": "2026-10-20T18:44:32.992390+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/life-sim/i-played-20-cozy-game-demos-in-steam-next-fest-and-these-5-made-it-onto-my-wishlist/",
+          "title": "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist",
+          "evidence": "<article> <a class=\"card card--standard card--rows-3 card--align-center\" href=\"https://store.steampowered.com/app/4665870/Fields_of_Aaru_Demo/\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/cAxkd6D8y5iwfd6VRevWaB.png\" alt=\"Fields of Aaru - A character runs across a wood bridge in an ancient Egyptian village river\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Fields of Aaru</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><p><strong>Release date</strong>: TBA<br>I wasn't keen on the visual style of this ancient Egyptian afterlife farm sim based on its trailers but the low framerate animation and the soft, cohesive environment lighting actually really charmed me once I was hands-on with the demo. The characters have a lot of personality right off the bat and managing hydration to explore the desert is neat too. I also enjoy how, like Roots of Pacha, this one goes for a more abstract currency (memories) and daily objectives instead of high key capitalism.</p></div></div></div></a><a class=\"card card--standard card"
+        }
+      ],
+      "keywords": [
+        "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist",
+        "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist date de sortie",
+        "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist plateformes",
+        "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist gameplay",
+        "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist guide",
+        "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-overwatch-s-director-discusses-why-king-s-row-is-so-ico-6d2c1f4d0ba1",
+      "topic": "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote'",
+      "detected_at": "2026-10-20T18:44:32.992732+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/overwatchs-director-discusses-why-kings-row-is-so-iconic-but-admits-that-every-single-map-in-the-game-gets-a-vote/",
+          "title": "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote'",
+          "evidence": "<article> <p>After Team 4 added map voting to <a href=\"https://www.pcgamer.com/uk/overwatch/\">Overwatch</a> one thing became crystal clear: everyone wants to say they're a free thinker who doesn't follow the crowd until King's Row turns up, and then it's a landslide. </p><p>King's Row is widely considered to be the best map in Overwatch, I certainly think so. It's one of the few maps that's fun to play on defense and attack, as it doesn't seem overly weighted to either side, at least not until the very end. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"2QutxU4Ad4pJWKkyfNgAu\" name=\"Map_KingsRow\" alt=\"Map_KingsRow\" src=\"https://cdn.mos.cms.futurecdn.net/2QutxU4Ad4pJWKkyfNgAu-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Blizzard Entertainment)</span></figcaption></figure><p>\"T"
+        }
+      ],
+      "keywords": [
+        "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote'",
+        "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote' date de sortie",
+        "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote' plateformes",
+        "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote' gameplay",
+        "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote' guide",
+        "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-asus-proart-p16-h7607-rtx-spark-laptop-review-10f6584333e4",
+      "topic": "Asus ProArt P16 (H7607) RTX Spark laptop review",
+      "detected_at": "2026-10-20T18:44:33.004778+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-laptops/asus-proart-p16-rtx-spark-review/",
+          "title": "Asus ProArt P16 (H7607) RTX Spark laptop review",
+          "evidence": "<article> <div data-widget-type=\"review\" data-model-name=\"Asus ProArt P16 (H7607BA)\"></div><p>If you don't talk to me about the price, I will tell you the <a href=\"https://eshop.asus.com/us/31150-us-cnf-auto.html\" target=\"_blank\">Asus ProArt P16</a> is an unbelievably good gaming laptop. It is beautifully slim, runs incredibly well gaming on battery, and has an absolutely stunning 16-inch OLED screen. And its Arm-based SoC is almost entirely transparent when it comes to running pretty much anything on Windows 11.</p><p>But this is no mere Snapdragon device, this the <a href=\"https://www.pcgamer.com/hardware/gaming-laptops/nvidias-rtx-spark-makes-for-an-impressive-arm-based-gaming-laptop-but-not-one-id-recommend-you-buy-just-for-pc-gaming/\" target=\"_blank\">RTX Spark</a>; Nvidia's first foray into the world of full Windows SoCs. It's pairing a relatively beefy RTX Blackwell GPU with a whole bunch of Arm CPU cores, and doing so with lots and lots and lots of LPDDR5X memory. Y'know, for AI.</p><p>Which, er, is why you might not want to ask about that price. Memory's expensive, and these RTX Spark laptops—of which the Asus ProArt P16 is, in my opinion, the most desirable—are likewise <e"
+        }
+      ],
+      "keywords": [
+        "Asus ProArt P16 (H7607) RTX Spark laptop review",
+        "Asus ProArt P16 (H7607) RTX Spark laptop review date de sortie",
+        "Asus ProArt P16 (H7607) RTX Spark laptop review plateformes",
+        "Asus ProArt P16 (H7607) RTX Spark laptop review gameplay",
+        "Asus ProArt P16 (H7607) RTX Spark laptop review guide",
+        "Asus ProArt P16 (H7607) RTX Spark laptop review avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-dlss-swapper-now-lets-you-update-all-your-upscalers-in--345f72eaa41d",
+      "topic": "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C",
+      "detected_at": "2026-10-20T18:44:33.004944+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/dlss-swapper-now-lets-you-update-all-your-upscalers-in-multiple-games-at-once-adds-nvidias-new-frame-generation-preset-c/",
+          "title": "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C",
+          "evidence": "<article> <p>DLSS Swapper just became even more useful, as the upscaler-switching software has rolled out a bulk DLL swapping feature in the latest update. </p><p><a href=\"https://github.com/beeradmoore/dlss-swapper/releases/tag/v1.2.7.0\" target=\"_blank\">Version 1.2.7.0</a> adds a Bulk Swap button to the top right hand menu. Click on it, and you can select multiple games (or all of them) from your libraries at once, before individually selecting your upscaling version preferences in one handy menu (via <a href=\"https://www.techpowerup.com/353893/dlss-swapper-adds-bulk-swap-for-dlss-fsr-and-xess-across-entire-game-libraries\" target=\"_blank\">Techpowerup</a>). Hit apply, and they all get updated at the same time.</p><p>There are many different iterations of DLSS, FSR, and XeSS to choose from, including separate frame generation options and individual upscaler presets. And should a change cause issues, your games can be restored to their original DLLs and preset settings en masse, too.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-WwgagW\"></div> </div> <script src=\"https://kwizly.com/embed/WwgagW.js\" async></script><p>It's the little things in life, isn't it? This "
+        }
+      ],
+      "keywords": [
+        "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C",
+        "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C date de sortie",
+        "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C plateformes",
+        "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C gameplay",
+        "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C guide",
+        "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-i-have-neither-the-budget-nor-the-inclination-for-a-cry-45cb100f3869",
+      "topic": "I have neither the budget nor the inclination for a crystal encrusted RTX 5090, but Galax is releasing one anyway",
+      "detected_at": "2026-10-20T18:44:33.005172+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/i-have-neither-the-budget-nor-the-inclination-for-a-crystal-encrusted-rtx-5090-but-galax-is-releasing-one-anyway/",
+          "title": "I have neither the budget nor the inclination for a crystal encrusted RTX 5090, but Galax is releasing one anyway",
+          "evidence": "<article> <p>Nvidia's RTX 5090 GPU has become particularly elusive lately. In light of swirling rumours, <a href=\"https://www.pcgamer.com/hardware/graphics-cards/rtx-5090-not-dead-says-nvidia-but-its-mysteriously-vanished-from-the-companys-official-marketplace/\" target=\"_blank\">Nvidia promises the 5090 isn't dead</a> but constrained supply and runaway pricing has made it a tough card to track down. So, amidst all of this, what does Palit-owned hardware manufacturer Galax do? Tease a gem-studded edition of the RTX 5090.</p><p>The GeForce RTX 5090 Hall of Fame Edition was technically already teased back during Computex, though folks <a href=\"https://videocardz.com/newz/galax-shows-geforce-rtx-6090-hof-concept-with-swarovski-crystals-as-if-current-cards-werent-expensive-enough\" target=\"_blank\">thought this showfloor piece was alluding to a whole new GPU generation at the time</a>. Now, we know this special edition is actually current gen and will feature a GPU shroud encrusted with <em>Swarovski crystals </em>(via <a href=\"https://www.techpowerup.com/353883/galax-prepares-geforce-rtx-5090-hof-with-swarovski-crystals\" target=\"_blank\">Techpowerup</a>).</p><p>No price has yet been announ"
+        }
+      ],
+      "keywords": [
+        "I have neither the budget nor the inclination for a crystal encrusted RTX 5090, but Galax is releasing one anyway",
+        "I have neither the budget nor the inclination for a crystal encrusted RTX 5090, but Galax is releasing one anyway date de sortie",
+        "I have neither the budget nor the inclination for a crystal encrusted RTX 5090, but Galax is releasing one anyway plateformes",
+        "I have neither the budget nor the inclination for a crystal encrusted RTX 5090, but Galax is releasing one anyway gameplay",
+        "I have neither the budget nor the inclination for a crystal encrusted RTX 5090, but Galax is releasing one anyway guide",
+        "I have neither the budget nor the inclination for a crystal encrusted RTX 5090, but Galax is releasing one anyway avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-of-course-a-new-edgerunners-series-means-a-new-cyberpun-a75d274c2ef4",
+      "topic": "Of course a new Edgerunners series means a new Cyberpunk 2077 patch",
+      "detected_at": "2026-10-20T18:44:33.005409+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/of-course-a-new-edgerunners-series-means-a-new-cyberpunk-2077-patch/",
+          "title": "Of course a new Edgerunners series means a new Cyberpunk 2077 patch",
+          "evidence": "<article> <p>A new series of Cyberpunk: Edgerunners will drop on Netflix today and you know what that means: the nation of Poland has again conspired to <a href=\"https://www.pcgamer.com/games/rpg/cyberpunk-edgerunners-was-a-depression-fest-because-its-writer-is-from-poland-and-people-in-poland-are-sad-they-are-born-sad-they-die-sad-so-i-just-wanted-to-make-the-whole-world-sad/\">make us all very sad</a>.</p><p>Something else it means: CDPR's devs have been preparing a new patch for Cyberpunk 2077 (the videogame). <a href=\"https://www.cyberpunk.net/en/news/52098/redstreams-cyberpunk-2077-edgerunners-2-update-2-5-is-coming\" target=\"_blank\">Announced today</a>, the details of Cyberpunk's 2.5 patch will drop tomorrow, the 21st of October, before the update itself releases on the 22nd.</p><p>Is it Cyberpunk 2077's actual, true, proper, pinky-swear final patch? No, and given the fact that The Witcher 3 just got a remaster 11 years after release, I'm not sure such a thing is possible.</p><p>Anyway, not much in the way of detail there in the patch's announcement post, I suppose, meaning we all have to wait til CDPR furnishes us with the deets in tomorrow's stream? Well, for the most part, y"
+        }
+      ],
+      "keywords": [
+        "Of course a new Edgerunners series means a new Cyberpunk 2077 patch",
+        "Of course a new Edgerunners series means a new Cyberpunk 2077 patch date de sortie",
+        "Of course a new Edgerunners series means a new Cyberpunk 2077 patch plateformes",
+        "Of course a new Edgerunners series means a new Cyberpunk 2077 patch gameplay",
+        "Of course a new Edgerunners series means a new Cyberpunk 2077 patch guide",
+        "Of course a new Edgerunners series means a new Cyberpunk 2077 patch avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-i-accidentally-severed-my-finger-with-a-butter-knife-as-0801c50b3576",
+      "topic": "I accidentally severed my finger with a butter knife as I panicked in a messed-up game of Five Finger Fillet",
+      "detected_at": "2026-10-20T18:44:33.005655+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/roguelike/i-accidentally-severed-my-finger-with-a-butter-knife-as-i-panicked-in-a-messed-up-game-of-five-finger-fillet/",
+          "title": "I accidentally severed my finger with a butter knife as I panicked in a messed-up game of Five Finger Fillet",
+          "evidence": "<article> <p>Five Finger Fillet is, like many things, undoubtedly a creation fuelled by medieval bozos with too much time on their hands and booze in their bodies. <em>Grab a knife and stab it between your fingers? For fun? </em>Definitely the invention of an alcohol-addled mind. It is also something I am unbelievably rubbish at, as someone with mediocre hand-eye coordination and a tendency to get the shakies.</p><p>So it should come as no surprise that, given 20 minutes to stab between my digits 500 times, it took embarrassingly little time for me to slice my ring finger clean off with a butter knife. Not in real life, mind. I'm not <em>that </em>stupid. I'm talking about 500 Finger Fillet, a roguelite spin which shackles your (not real) wrist to a table while a pointy (or in my case, rather blunt) instrument attached to a rickety crane hovers over you, frantically twitching around while you slam a button and hope it doesn't come down onto your precious flesh. All while a maniacal teddy bear head watches your every move.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width"
+        }
+      ],
+      "keywords": [
+        "I accidentally severed my finger with a butter knife as I panicked in a messed-up game of Five Finger Fillet",
+        "I accidentally severed my finger with a butter knife as I panicked in a messed-up game of Five Finger Fillet date de sortie",
+        "I accidentally severed my finger with a butter knife as I panicked in a messed-up game of Five Finger Fillet plateformes",
+        "I accidentally severed my finger with a butter knife as I panicked in a messed-up game of Five Finger Fillet gameplay",
+        "I accidentally severed my finger with a butter knife as I panicked in a messed-up game of Five Finger Fillet guide",
+        "I accidentally severed my finger with a butter knife as I panicked in a messed-up game of Five Finger Fillet avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-microsoft-won-t-like-this-open-source-project-to-get-ga-9215f356c1a8",
+      "topic": "Microsoft won't like this open source project to get Game Pass working on SteamOS and Linux, but I think it's pretty neat",
+      "detected_at": "2026-10-20T18:44:33.005927+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/microsoft-wont-like-this-open-source-project-to-get-game-pass-working-on-steamos-and-linux-but-i-think-its-pretty-neat/",
+          "title": "Microsoft won't like this open source project to get Game Pass working on SteamOS and Linux, but I think it's pretty neat",
+          "evidence": "<article> <p>It wasn't long ago that Linux gaming was considered fairly niche—but given that Windows 11 is unpopular with many, it seems that not a day goes by without something regarding the <a href=\"https://www.pcgamer.com/software/linux/im-brave-enough-to-say-it-linux-is-good-now-and-if-you-want-to-feel-like-you-actually-own-your-pc-make-2026-the-year-of-linux-on-your-desktop/\" target=\"_blank\">switch to Linux</a> hitting my newsfeed. Not to mention the continuing updates to Valve's Arch-based SteamOS.</p><p>Now <a href=\"https://x.com/MizoChris/status/2112294753798635666?s=20\" target=\"_blank\">my attention has been drawn to the Xodus Nexus</a>, an experimental open-source project that aims to allow Linux and SteamOS users to access PC Game Pass. This includes the ability to browse, install, and launch games via a <em>very </em>familiar interface, complete with cloud save support.</p><p>That's for supported games only, of course, but <a href=\"https://github.com/domsvoboda/xodus-nexus\" target=\"_blank\">the GitHub page</a> has a big long list of them. From <a href=\"https://www.pcgamer.com/games/third-person-shooter/gears-of-war-e-day-review/\" target=\"_blank\">Gears of War: E-Day</a>, t"
+        }
+      ],
+      "keywords": [
+        "Microsoft won't like this open source project to get Game Pass working on SteamOS and Linux, but I think it's pretty neat",
+        "Microsoft won't like this open source project to get Game Pass working on SteamOS and Linux, but I think it's pretty neat date de sortie",
+        "Microsoft won't like this open source project to get Game Pass working on SteamOS and Linux, but I think it's pretty neat plateformes",
+        "Microsoft won't like this open source project to get Game Pass working on SteamOS and Linux, but I think it's pretty neat gameplay",
+        "Microsoft won't like this open source project to get Game Pass working on SteamOS and Linux, but I think it's pretty neat guide",
+        "Microsoft won't like this open source project to get Game Pass working on SteamOS and Linux, but I think it's pretty neat avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-i-m-not-sure-if-the-steam-frame-hits-any-corners-in-thi-6d032955a682",
+      "topic": "I'm not sure if the Steam Frame hits any corners in this bouncing screensaver, but maybe if I watch long enough the headset will come down in price",
+      "detected_at": "2026-10-20T18:44:33.006208+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/vr-hardware/im-not-sure-if-the-steam-frame-hits-any-corners-in-this-bouncing-screensaver-but-maybe-if-i-watch-long-enough-the-headset-will-come-down-in-price/",
+          "title": "I'm not sure if the Steam Frame hits any corners in this bouncing screensaver, but maybe if I watch long enough the headset will come down in price",
+          "evidence": "<article> <figure><blockquote class=\"reddit-card\" ><a href=\"https://www.reddit.com/r/SteamFrame/comments/1xa8p3i/i_made_a_steam_frame_screensaver\">I made a Steam Frame screensaver</a><figcaption><cite> from <a href=\"https://www.reddit.com/r/SteamFrame\">r/SteamFrame</a></cite></figcaption></blockquote></figure><script async src=\"//embed.redditmedia.com/widgets/platform.js\" charset=\"UTF-8\"></script><p>As a PlayStation VR2 player previously, I've been admiring the wireless ways of Valve's <a href=\"https://www.pcgamer.com/hardware/vr-hardware/valve-steam-frame-review/\" target=\"_blank\">Stream Frame</a> from afar ever since it launched back in September. I don't know about you but <a href=\"https://www.pcgamer.com/hardware/vr-hardware/steam-frame-starts-at-usd1-059-with-reservation-lottery-open-now-enter-before-september-17-for-best-chance-of-getting-one-this-year/\" target=\"_blank\">the $1,059 starting price</a> still puts the VR headset a bit outside of my budget. However, Reddit user Kebakent just <a href=\"https://www.reddit.com/r/SteamFrame/comments/1xa8p3i/i_made_a_steam_frame_screensaver/\" target=\"_blank\">shared a short video</a> of a small project they're working on that may soften t"
+        }
+      ],
+      "keywords": [
+        "I'm not sure if the Steam Frame hits any corners in this bouncing screensaver, but maybe if I watch long enough the headset will come down in price",
+        "I'm not sure if the Steam Frame hits any corners in this bouncing screensaver, but maybe if I watch long enough the headset will come down in price date de sortie",
+        "I'm not sure if the Steam Frame hits any corners in this bouncing screensaver, but maybe if I watch long enough the headset will come down in price plateformes",
+        "I'm not sure if the Steam Frame hits any corners in this bouncing screensaver, but maybe if I watch long enough the headset will come down in price gameplay",
+        "I'm not sure if the Steam Frame hits any corners in this bouncing screensaver, but maybe if I watch long enough the headset will come down in price guide",
+        "I'm not sure if the Steam Frame hits any corners in this bouncing screensaver, but maybe if I watch long enough the headset will come down in price avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-amnesia-the-dark-descent-s-co-founder-explained-the-the-3d6ddfc59303",
+      "topic": "Amnesia: The Dark Descent's co-founder explained the 'the dynamic of Steam' to Red Barrels after Outlast's sales slowed down",
+      "detected_at": "2026-10-20T18:44:33.006495+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/amnesia-the-dark-descents-co-founder-explained-the-the-dynamic-of-steam-to-red-barrels-after-outlasts-sales-slowed-down/",
+          "title": "Amnesia: The Dark Descent's co-founder explained the 'the dynamic of Steam' to Red Barrels after Outlast's sales slowed down",
+          "evidence": "<article> <p>Three of the most influential games from my childhood were Pokémon HeartGold, <a href=\"https://www.pcgamer.com/uk/amnesia-the-dark-descent/\">Amnesia: The Dark Descent</a>, and <a href=\"https://www.pcgamer.com/uk/outlast/\">Outlast</a>. Knowing this, you could probably piece together the kind of person I have become—let's just say it explains a lot. So it brought a smile to my face when I learned that without one of these influential games, I wouldn't have had the other—no, Pokémon HeartGold has nothing to do with anything—it's actually Amnesia which helped bring Outlast to the world. </p><p>Red Barrels, the Outlast devs, already discussed <a href=\"https://www.pcgamer.com/games/horror/no-publisher-wanted-outlast-because-theyd-rather-invest-usd50-000-in-10-mobile-games-so-red-barrels-relied-on-public-investment-programs-and-their-own-savings-instead/\">how difficult it was to pitch Outlast to publishers</a> in an <a href=\"https://www.gamespot.com/articles/no-publisher-wanted-outlast-60-million-players-later-the-horror-juggernaut-is-doing-just-fine/\" target=\"_blank\">interview with GameSpot</a>. But they also mentioned how Amnesia: The Dark Descent was something of a lodesta"
+        }
+      ],
+      "keywords": [
+        "Amnesia: The Dark Descent's co-founder explained the 'the dynamic of Steam' to Red Barrels after Outlast's sales slowed down",
+        "Amnesia: The Dark Descent's co-founder explained the 'the dynamic of Steam' to Red Barrels after Outlast's sales slowed down date de sortie",
+        "Amnesia: The Dark Descent's co-founder explained the 'the dynamic of Steam' to Red Barrels after Outlast's sales slowed down plateformes",
+        "Amnesia: The Dark Descent's co-founder explained the 'the dynamic of Steam' to Red Barrels after Outlast's sales slowed down gameplay",
+        "Amnesia: The Dark Descent's co-founder explained the 'the dynamic of Steam' to Red Barrels after Outlast's sales slowed down guide",
+        "Amnesia: The Dark Descent's co-founder explained the 'the dynamic of Steam' to Red Barrels after Outlast's sales slowed down avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-this-sound-library-catalogues-100-different-keyboard-sw-e53f1cc83add",
+      "topic": "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics?",
+      "detected_at": "2026-10-20T18:44:33.006783+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-keyboards/this-sound-library-catalogues-100-different-keyboard-switches-is-dangerous-for-my-wallet-and-also-has-live-service-game-mechanics/",
+          "title": "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics?",
+          "evidence": "<article> <p>There's a lot that goes into the <a href=\"https://www.pcgamer.com/best-gaming-keyboard/\" target=\"_blank\">best gaming keyboards</a>, and switches are only part of the picture. The entire composition doesn't fall apart with a less than stellar switch in place, especially as so many boards are hot swappable. But if you're picky about typing sound, the search for your perfect key switch just got a little easier.</p><p><a href=\"https://switchlab.app/lab#/find\" target=\"_blank\">Switch Lab</a> is a browser-based library of 100 switch sounds, collecting together switches from Cherry, Gateron, Outemu and more. Obviously, <em>feel </em>is just as important as sound, but we don't yet live in a cyberpunk dystopia that can transmit textural experiences over the net. Shame.</p><p>Anyway, <a href=\"https://switchlab.app/intro\" target=\"_blank\">after a brief introduction to how Switch Lab works</a>, you can begin comparing and contrasting switch sounds. You can either hammer a solo switch with just your mouse, or load a full set into a virtual keyboard for a typing test where a cat pesters you. I have a pretty clacky keyboard in the office at PCG Towers, so this latter test did not give "
+        }
+      ],
+      "keywords": [
+        "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics?",
+        "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics? date de sortie",
+        "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics? plateformes",
+        "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics? gameplay",
+        "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics? guide",
+        "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics? avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

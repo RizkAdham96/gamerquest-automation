@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-20T07:55:55.171879+00:00",
+  "updated_at": "2026-10-20T18:44:33.438998+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -11178,6 +11178,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-this-control-inspired-action-game-set-in-a-planet-scale-63f25b1d334d",
+      "topic": "This Control-inspired action game set in a 'planet-scale alien mind' has one of the most stunning art styles I've seen this year",
+      "detected_at": "2026-10-11T19:10:30.429015+00:00",
+      "analysed_at": "2026-10-20T18:44:33.438750+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/this-control-inspired-action-game-set-in-a-planet-scale-alien-mind-has-one-of-the-most-stunning-art-styles-ive-seen-this-year/",
+          "title": "This Control-inspired action game set in a 'planet-scale alien mind' has one of the most stunning art styles I've seen this year",
+          "evidence": "<article> <p>In the age of near photorealism, it takes a lot for a game's visuals to impress me. As cramming yet more pixels into a videogame character's face provides diminishing returns, standing out from the crowd is increasingly about how creative developers get in applying that power. All that said, I was genuinely mesmerised by the debut footage of<a href=\"https://store.steampowered.com/app/2391940/ETRE/\"> <u>Etre</u></a>, an upcoming action adventure game with a truly eye-popping art style.</p><p>Created by LA-based developer Studio Lifeforms, Etre is a narrative driven-action game set on Orbis, which Studio Lifeforms describes as a \"planet-scale alien mind on the brink of awakening\". You play as a character named Xyle, who arrives at this sentient cityscape in search of his soulmate Atel.</p><p>According to Studio Lifeforms, the game's distinctive visuals are inspired by graphic novels of the '70s and '80s. Studio Lifeforms doesn't specify <em>which</em> graphics novels, and I am too much of a comics philistine to tell you. But the result is an incredibly distinctive visual style. In terms of games, Etre's closest visual cousins are the likes of <a href=\"https://www.pcgamer"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "This Control-inspired action game set in a 'planet-scale alien mind' has one of the most stunning art styles I've seen this year",
+        "secondary_keywords": [
+          "This Control-inspired action game set in a 'planet-scale alien mind' has one of the most stunning art styles I've seen this year date de sortie",
+          "This Control-inspired action game set in a 'planet-scale alien mind' has one of the most stunning art styles I've seen this year plateformes",
+          "This Control-inspired action game set in a 'planet-scale alien mind' has one of the most stunning art styles I've seen this year gameplay",
+          "This Control-inspired action game set in a 'planet-scale alien mind' has one of the most stunning art styles I've seen this year guide",
+          "This Control-inspired action game set in a 'planet-scale alien mind' has one of the most stunning art styles I've seen this year avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "This Control-inspired action game set in a 'planet-scale alien mind' has one of the most stunning art styles I've seen this year"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-m-the-type-of-player-who-loves-to-100-a-game-sungwon--b36f94d27d6e",
+      "topic": "'I'm the type of player who loves to 100% a game': SungWon Cho on achievement hunting, why he doesn’t like multiplayer games, and the one Balatro joker that nearly drove him to despair",
+      "detected_at": "2026-10-11T19:10:30.429420+00:00",
+      "analysed_at": "2026-10-20T18:44:33.438823+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/im-the-type-of-player-who-loves-to-100-percent-a-game-sungwon-cho-on-achievement-hunting-why-he-doesnt-like-multiplayer-games-and-the-one-balatro-joker-that-nearly-drove-him-to-despair/",
+          "title": "'I'm the type of player who loves to 100% a game': SungWon Cho on achievement hunting, why he doesn’t like multiplayer games, and the one Balatro joker that nearly drove him to despair",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Disk Cleanup</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"DEwkbfkEmfdtjT5P9ybme\" name=\"logo_disk_cleanup\" caption=\"\" alt=\"Disk Cleanup logo\" src=\"https://cdn.mos.cms.futurecdn.net/DEwkbfkEmfdtjT5P9ybme-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/disk-cleanup/\" target=\"_blank\">Disk Cleanup</a>, our regular weekend feature delving into the PCs of PC gaming luminaries. Come back every weekend to read a new interview, digging into the important questions, like \"How tidy is your desktop?\" and \"What game will you never uninstall?\"</p></div></div><p>SungWon Cho got into PC gaming through the children's advent"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'I'm the type of player who loves to 100% a game': SungWon Cho on achievement hunting, why he doesn’t like multiplayer games, and the one Balatro joker that nearly drove him to despair",
+        "secondary_keywords": [
+          "'I'm the type of player who loves to 100% a game': SungWon Cho on achievement hunting, why he doesn’t like multiplayer games, and the one Balatro joker that nearly drove him to despair date de sortie",
+          "'I'm the type of player who loves to 100% a game': SungWon Cho on achievement hunting, why he doesn’t like multiplayer games, and the one Balatro joker that nearly drove him to despair plateformes",
+          "'I'm the type of player who loves to 100% a game': SungWon Cho on achievement hunting, why he doesn’t like multiplayer games, and the one Balatro joker that nearly drove him to despair gameplay",
+          "'I'm the type of player who loves to 100% a game': SungWon Cho on achievement hunting, why he doesn’t like multiplayer games, and the one Balatro joker that nearly drove him to despair guide",
+          "'I'm the type of player who loves to 100% a game': SungWon Cho on achievement hunting, why he doesn’t like multiplayer games, and the one Balatro joker that nearly drove him to despair avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'I'm the type of player who loves to 100% a game': SungWon Cho on achievement hunting, why he doesn’t like multiplayer games, and the one Balatro joker that nearly drove him to despair"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-developer-of-an-ai-powered-driving-instruction-simu-f3ec7fbd457d",
+      "topic": "The developer of an AI-powered driving instruction simulator is spending $1,000 per month just to keep its demo running",
+      "detected_at": "2026-10-11T19:10:30.429624+00:00",
+      "analysed_at": "2026-10-20T18:44:33.438857+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/the-developer-of-an-ai-powered-driving-instruction-simulator-is-spending-usd1-000-per-month-just-to-keep-its-demo-running/",
+          "title": "The developer of an AI-powered driving instruction simulator is spending $1,000 per month just to keep its demo running",
+          "evidence": "<article> <p>One of the many ways AI will (supposedly) revolutionise the games industry in facilitating highly reactive NPCs via LLM-powered chatbots. Yet so far, only a handful of games like<a href=\"https://www.pcgamer.com/uk/where-winds-meet/\"> Where Winds Meet</a> have attempted to implement the tech, and the results have been less than spectacular. But there might also be another reason why relatively few games feature LLM-powered NPCs, which is that powering such chatbots can be costly, as recently demonstrated by the developers of an upcoming driving instructor simulator</p><p>As reported by<a href=\"https://frvr.com/blog/news/popular-ai-driving-game-devs-forced-to-take-out-loans-as-62000-concurrents-result-in-massive-ai-token-costs/\" target=\"_blank\"> FRVR</a> (via<a href=\"https://kotaku.com/ai-driven-driving-simulator-developers-go-into-debt-just-to-maintain-steam-demo-2000743791\" target=\"_blank\"> Kotaku</a>)<a href=\"https://frvr.com/blog/news/popular-ai-driving-game-devs-forced-to-take-out-loans-as-62000-concurrents-result-in-massive-ai-token-costs/\" target=\"_blank\"> Teach My Little Sister How To Drive</a> is a comic simulation game in which you coach your virtual sibling on"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The developer of an AI-powered driving instruction simulator is spending $1,000 per month just to keep its demo running",
+        "secondary_keywords": [
+          "The developer of an AI-powered driving instruction simulator is spending $1,000 per month just to keep its demo running date de sortie",
+          "The developer of an AI-powered driving instruction simulator is spending $1,000 per month just to keep its demo running plateformes",
+          "The developer of an AI-powered driving instruction simulator is spending $1,000 per month just to keep its demo running gameplay",
+          "The developer of an AI-powered driving instruction simulator is spending $1,000 per month just to keep its demo running guide",
+          "The developer of an AI-powered driving instruction simulator is spending $1,000 per month just to keep its demo running avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The developer of an AI-powered driving instruction simulator is spending $1,000 per month just to keep its demo running"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-deadlock-s-city-never-sleeps-update-makes-valve-s-moba--b7a8ee2bb5ba",
+      "topic": "Deadlock's City Never Sleeps update makes Valve's MOBA my favorite videogame setting in years",
+      "detected_at": "2026-10-11T19:10:30.429857+00:00",
+      "analysed_at": "2026-10-20T18:44:33.438885+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/moba/deadlocks-city-never-sleeps-update-makes-valves-moba-my-favorite-videogame-setting-in-years/",
+          "title": "Deadlock's City Never Sleeps update makes Valve's MOBA my favorite videogame setting in years",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Play This Right Now</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">Welcome to Play This Right Now, the site version of our weekly newsletter in which we celebrate a new game, update, or DLC that we think is well worth checking out. You can <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/newsletter/\" target=\"_blank\">subscribe to the newsletter</a> at the link if you want to get our thoughts about a new videogame happening direct to your inbox every Thursday.</p></div></div><p><a href=\"https://www.pcgamer.com/deadlock/\">Deadlock</a> isn't <em>technically </em>out yet—but it's pretty easy to get into, with invites to its beta being generously granted by Valve and obtainable in plenty of Discord communities if you don't have other mates who're into <a href=\"https://www.pcgamer.com/games/moba/\">MOBA</a>s. And boy howdy, have I not regretted a single one of my 350 hours over the past couple years \"testing\" this game.</p><p>I've plenty of glowing words for Deadlock, but its latest update, City Never Sleeps, is like seeing one of the last few hammer-blows of a masterpiece. The <a href=\"https://"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Deadlock's City Never Sleeps update makes Valve's MOBA my favorite videogame setting in years",
+        "secondary_keywords": [
+          "Deadlock's City Never Sleeps update makes Valve's MOBA my favorite videogame setting in years date de sortie",
+          "Deadlock's City Never Sleeps update makes Valve's MOBA my favorite videogame setting in years plateformes",
+          "Deadlock's City Never Sleeps update makes Valve's MOBA my favorite videogame setting in years gameplay",
+          "Deadlock's City Never Sleeps update makes Valve's MOBA my favorite videogame setting in years guide",
+          "Deadlock's City Never Sleeps update makes Valve's MOBA my favorite videogame setting in years avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Deadlock's City Never Sleeps update makes Valve's MOBA my favorite videogame setting in years"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-it-looks-like-wing-commander-3-is-getting-a-remaster-af-0a14f5bbcdd8",
+      "topic": "It looks like Wing Commander 3 is getting a remaster, after EA producer discovers the original FMV source tapes in the company's archives",
+      "detected_at": "2026-10-11T19:10:30.430012+00:00",
+      "analysed_at": "2026-10-20T18:44:33.438915+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/it-looks-like-wing-commander-3-is-getting-a-remaster-after-ea-producer-discovers-the-original-fmv-source-tapes-in-the-companys-archives/",
+          "title": "It looks like Wing Commander 3 is getting a remaster, after EA producer discovers the original FMV source tapes in the company's archives",
+          "evidence": "<article> <p>Typical, isn't it? You wait ages for new information on a Chris Roberts-directed space combat sim, and then two lots come along at once. Less than 24 hours after Cloud Imperium Games<a href=\"https://www.pcgamer.com/games/fps/squadron-42-has-a-steam-page/\"> surprise-released a glossy trailer</a> for<a href=\"https://www.pcgamer.com/uk/star-citizen/\"> Star Citizen</a>'s single-player spinoff Squadron 42, it now appears that Roberts' 1994 classic Wing Commander 3 is getting a remaster courtesy of EA.</p><p>The project is headed up by EA producer Jim Vessella, who revealed the remaster during a presentation at the<a href=\"https://retrogamingexpo.com/\" target=\"_blank\"> Portland Retro Gaming Expo</a>. The remaster will include cutscenes based on Wing Commander 3's original FMV recordings, after Vessella<a href=\"https://bsky.app/profile/chorby.org/post/3mxknamexzs2e\" target=\"_blank\"> discovered 600 source tapes</a> while digitising EA's video archive.</p><p>In a post on Bluesky, Steve Lin, a board member of the<a href=\"https://gamehistory.org/\" target=\"_blank\"> Video Game History Foundation</a>,<a href=\"https://bsky.app/profile/stevelin.bsky.social/post/3mxkrqazc5226\" target=\""
+        }
+      ],
+      "seo": {
+        "primary_keyword": "It looks like Wing Commander 3 is getting a remaster, after EA producer discovers the original FMV source tapes in the company's archives",
+        "secondary_keywords": [
+          "It looks like Wing Commander 3 is getting a remaster, after EA producer discovers the original FMV source tapes in the company's archives date de sortie",
+          "It looks like Wing Commander 3 is getting a remaster, after EA producer discovers the original FMV source tapes in the company's archives plateformes",
+          "It looks like Wing Commander 3 is getting a remaster, after EA producer discovers the original FMV source tapes in the company's archives gameplay",
+          "It looks like Wing Commander 3 is getting a remaster, after EA producer discovers the original FMV source tapes in the company's archives guide",
+          "It looks like Wing Commander 3 is getting a remaster, after EA producer discovers the original FMV source tapes in the company's archives avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "It looks like Wing Commander 3 is getting a remaster, after EA producer discovers the original FMV source tapes in the company's archives"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-early-reactions-for-wildwood-draws-lord-of-the-rings-co-be080629c337",
+      "topic": "Early reactions for Wildwood draws Lord of the Rings comparisons as Laika's best film yet",
+      "detected_at": "2026-10-11T19:10:31.014143+00:00",
+      "analysed_at": "2026-10-20T18:44:33.438944+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/fantasy-movies/wildwood-draws-lord-of-the-rings-comparisons-as-laikas-best-film-yet/",
+          "title": "Early reactions for Wildwood draws Lord of the Rings comparisons as Laika's best film yet",
+          "evidence": "<article> <p>Word is out about stop-motion extraordinaire studio Laika's latest project, Wildwood, and critics are already calling it their greatest achievement. Following the film's world premiere at the London Film Festival, <a href=\"https://x.com/NextBestPicture/status/2109271642601861580?s=20\">@TheNextBestPicture</a> called it \"a masterpiece of stop-motion animation\" with \"battle sequences that rivals the work seen in Game of Thrones or The Lord Of The Rings.” <a href=\"https://x.com/justmiaslife/status/2109270793662419030?s=20\">@justmiaslife</a> called the film directed by Travis Knight \"A testament to the limitless possibilities of animation.\"</p><p>By the sound of it, it's not just another Laika gem, but a movie with a real chance to become an all-time classic. <a href=\"https://x.com/MainstreamMatt/status/2109271820457119930?s=20\">@MainstreamMatt</a> wrote, \"Wildwood is Laika's crowning achievement. One for the ages. The kind of film which if I had seen it as a kid I would have watched it hundreds of times since. Staggering 'how did they do that?' world-building animation, and an emotionally rich story. My favourite of 2026.\"</p><div class=\"youtube-video\" data-nosnippet ><div"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Early reactions for Wildwood draws Lord of the Rings comparisons as Laika's best film yet",
+        "secondary_keywords": [
+          "Early reactions for Wildwood draws Lord of the Rings comparisons as Laika's best film yet date de sortie",
+          "Early reactions for Wildwood draws Lord of the Rings comparisons as Laika's best film yet plateformes",
+          "Early reactions for Wildwood draws Lord of the Rings comparisons as Laika's best film yet gameplay",
+          "Early reactions for Wildwood draws Lord of the Rings comparisons as Laika's best film yet guide",
+          "Early reactions for Wildwood draws Lord of the Rings comparisons as Laika's best film yet avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Early reactions for Wildwood draws Lord of the Rings comparisons as Laika's best film yet"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-rockstar-has-a-whole-team-of-gta-6-writers-for-to-pedes-99cacaa282f6",
+      "topic": "Rockstar has a whole team of GTA 6 writers for to pedestrian dialogue: \"There are no shortcuts\"",
+      "detected_at": "2026-10-11T19:10:31.014269+00:00",
+      "analysed_at": "2026-10-20T18:44:33.438969+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-has-a-whole-team-of-gta-6-writers-dedicated-to-pedestrian-dialogue-there-are-no-shortcuts-when-it-comes-to-building-a-world-like-this/",
+          "title": "Rockstar has a whole team of GTA 6 writers for to pedestrian dialogue: \"There are no shortcuts\"",
+          "evidence": "<article> <p>Rockstar Games created an entire team dedicated to what some might consider \"background noise\" for <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>.</p><p>The tidbit comes from GTA 6 developers who recently spoke to <a href=\"https://lovemagazine.net/\" target=\"_blank\">Love magazine</a> about the open-world epic. Rockstar's senior vice president of narrative, Rupert Humphries, says there's \"an amazing team of writers and creatives\" focused on creating the \"'background noise' that makes the city and the world come to life.\"</p><p>According to Humphries, that includes a \"specific team of pedestrian dialogue writers in LA and then a team of advertising and comedy writers across New York, LA, and London.\" He adds: \"It's a team from all sorts of backgrounds and walks of life, but we all share a sense of humor and a desire to have a bit of fun with the ridiculousness of humans and the media and advertising. And none of us see it as background! It's all part of the tapestry of the game and creates the experience of living in this wild world.\"</p><p>Open world writing director, James Horton, says the studio apparently \"dreamed a lot bigger this time around,\" building "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Rockstar has a whole team of GTA 6 writers for to pedestrian dialogue: \"There are no shortcuts\"",
+        "secondary_keywords": [
+          "Rockstar has a whole team of GTA 6 writers for to pedestrian dialogue: \"There are no shortcuts\" date de sortie",
+          "Rockstar has a whole team of GTA 6 writers for to pedestrian dialogue: \"There are no shortcuts\" plateformes",
+          "Rockstar has a whole team of GTA 6 writers for to pedestrian dialogue: \"There are no shortcuts\" gameplay",
+          "Rockstar has a whole team of GTA 6 writers for to pedestrian dialogue: \"There are no shortcuts\" guide",
+          "Rockstar has a whole team of GTA 6 writers for to pedestrian dialogue: \"There are no shortcuts\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Rockstar has a whole team of GTA 6 writers for to pedestrian dialogue: \"There are no shortcuts\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-venom-thor-x-men-s-jubilee-and-the-phoenix-version-of-c-21e63e49f5cd",
+      "topic": "Venom, Thor, X-Men's Jubilee and the \"Phoenix version of Cyclops\" coming to Marvel Tokon Year One",
+      "detected_at": "2026-10-11T19:10:31.014383+00:00",
+      "analysed_at": "2026-10-20T18:44:33.438994+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fighting/marvel-tokon-reveals-venom-jane-fosters-thor-x-mens-jubilee-and-the-phoenix-version-of-cyclops-coming-as-year-one-dlc-heroes/",
+          "title": "Venom, Thor, X-Men's Jubilee and the \"Phoenix version of Cyclops\" coming to Marvel Tokon Year One",
+          "evidence": "<article> <p>Marvel Tokon: Fighting Souls is welcoming four new playable superheroes in its Year One DLC - Spider-Man's frenemy Venom, X-Men's Jubilee, Jane Foster's Mighty Thor and a version of Cyclops who's been taken over by Phoenix are all joining the fighting game's colorful roster. </p><p>Publisher PlayStation announced the full lineup earlier today, a few days after revealing Phoenix Cyclops as its first post-launch character coming on November 2.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/2RoZ9faTBJI\" allowfullscreen></iframe></div></div><p>Developer Arc Systems chose to add a \"Phoenix version of Cyclops\" because the frequent X-Men leader has appeared in so many fighting games over the years that the team wanted to \"challenge ourselves to explore whether there was a way to present him in a style that felt different from what players had seen before,\" according to a <a href=\"https://blog.playstation.com/2026/10/07/phoenix-cyclops-joins-marvel-tokon-fighting-souls-on-november-2/\" target=\"_blank\">blog post</a> penned by producer Takeshi Yamanaka. \"This became"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Venom, Thor, X-Men's Jubilee and the \"Phoenix version of Cyclops\" coming to Marvel Tokon Year One",
+        "secondary_keywords": [
+          "Venom, Thor, X-Men's Jubilee and the \"Phoenix version of Cyclops\" coming to Marvel Tokon Year One date de sortie",
+          "Venom, Thor, X-Men's Jubilee and the \"Phoenix version of Cyclops\" coming to Marvel Tokon Year One plateformes",
+          "Venom, Thor, X-Men's Jubilee and the \"Phoenix version of Cyclops\" coming to Marvel Tokon Year One gameplay",
+          "Venom, Thor, X-Men's Jubilee and the \"Phoenix version of Cyclops\" coming to Marvel Tokon Year One guide",
+          "Venom, Thor, X-Men's Jubilee and the \"Phoenix version of Cyclops\" coming to Marvel Tokon Year One avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Venom, Thor, X-Men's Jubilee and the \"Phoenix version of Cyclops\" coming to Marvel Tokon Year One"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

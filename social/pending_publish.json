@@ -1,0 +1,76 @@
+{
+  "source_id": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032",
+  "carousel_version": "4d8e799e99297eda402ec66cb5f7f65f23335a8cc802e5b9cb74283efe381d6d",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    823,
+    824,
+    825
+  ],
+  "prepared_at_utc": "2026-10-20T15:23:35.406601Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032",
+    "source_title": "Warhammer 40,000: Space Marine 2 à -75% sur Steam",
+    "score": 86.0,
+    "idea": {
+      "source_id": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032",
+      "topic": "Warhammer 40,000: Space Marine 2 -75% sur Steam",
+      "angle": "Promotion exceptionnelle : le jeu à -75% pour les fans de FPS futuristes",
+      "format": "deal_alert",
+      "hook": "Profitez de -75 % sur Warhammer 40,000: Space Marine 2 dès maintenant sur Steam !",
+      "freshness": 10,
+      "click_potential": 10,
+      "curiosity": 7,
+      "shareability": 9,
+      "originality": 6,
+      "gamerquest_relevance": 10,
+      "total_score": 86.0
+    },
+    "carousel": {
+      "topic": "Warhammer 40,000: Space Marine 2 -75% sur Steam",
+      "angle": "Promotion exceptionnelle : le jeu à -75% pour les fans de FPS futuristes",
+      "format": "deal_alert",
+      "hook": "Profitez de -75 % sur Warhammer 40,000: Space Marine 2 dès maintenant sur Steam !",
+      "score": 86.0,
+      "slides": [
+        {
+          "title": "‑75 % sur Warhammer 40k 2 !",
+          "body": "Profitez d’une réduction de 75 % sur Steam pour Warhammer 40,000: Space Marine 2.",
+          "visual_prompt": "A futuristic battlefield with a lone Space Marine in heavy armor, dramatic lighting, no text, cinematic atmosphere"
+        },
+        {
+          "title": "Prix réduit à 14,99 €",
+          "body": "Le jeu passe de 59,99 € à 14,99 € sur Steam, soit une remise de 75 %.",
+          "visual_prompt": "Close‑up of a Warhammer 40,000 Space Marine holding a futuristic weapon, background showing a digital storefront silhouette, no text"
+        },
+        {
+          "title": "Disponible maintenant sur Steam",
+          "body": "Profitez de cette promotion exceptionnelle avant qu’elle ne disparaisse. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "A sleek computer screen displaying the Steam interface with a highlighted game tile, ambient sci‑fi lighting, no text"
+        }
+      ],
+      "caption": "Ne manquez pas cette réduction massive sur Warhammer 40,000: Space Marine 2 ! 🎮💥",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "db4a1d69813e4989a29e85e5dc3f1f7cf2a43d704c2cbbc793e12c763ef14032"
+    },
+    "caption": "Ne manquez pas cette réduction massive sur Warhammer 40,000: Space Marine 2 ! 🎮💥",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 1
+  }
+}

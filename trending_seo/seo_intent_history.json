@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-19T20:12:31.053881+00:00",
+  "updated_at": "2026-10-20T07:56:01.659144+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -249,6 +249,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-hades-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 820,
       "published_at": "2026-10-19T20:12:31.053881+00:00"
+    },
+    {
+      "intent_key": "configuration pc hades ii",
+      "primary_keyword": "configuration pc Hades II",
+      "title": "Configuration PC Hades II : minimale, recommandée et conseils",
+      "wordpress_url": "https://gamerquestfr.com/configuration-pc-hades-ii-minimale-recommandee-et-conseils/",
+      "wordpress_post_id": 822,
+      "published_at": "2026-10-20T07:56:01.659144+00:00"
     }
   ]
 }

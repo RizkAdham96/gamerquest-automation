@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-19T20:12:24.989303+00:00",
+  "updated_at": "2026-10-20T07:55:54.812186+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -45,290 +45,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "evg-config-1158310",
-      "topic": "Configuration PC Crusader Kings III : minimale, recommandée et conseils",
-      "detected_at": "2026-10-10T18:51:36.037808+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1158310/",
-          "title": "Crusader Kings III sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Crusader Kings III, consultée le 2026-10-10. Développeur : Paradox Development Studio. Éditeur : Paradox Interactive. Date de sortie sur Steam : 1 sept. 2020. Genres : RPG, Simulation, Stratégie. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows® 10 Home 64 bit ; Processeur : Intel Core i5-750 | AMD FX 4300 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 660 | AMD Radeon HD 7870 | Intel Arc A310 | Intel Iris Plus G7 | AMD Radeon Vega 11 ; Espace disque : 20 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows® 10 Home 64 bit or Windows® 11 ; Processeur : Intel Core i5-8400 | AMD Ryzen 5 1600X ; Mémoire vive : 16 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 970 | AMD Radeon RX 480 | Intel Arc A580 ; Espace disque : 20 GB d'espace disque disponible.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/ba7f77f7eb96d48f267e970583ddaa32b3b5eb98/ss_ba7f77f7eb96d48f267e970583ddaa32b3b5eb98.1920x1080.jpg?t=1791471575"
-        }
-      ],
-      "keywords": [
-        "configuration pc Crusader Kings III",
-        "Crusader Kings III PC",
-        "Crusader Kings III Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-1158310",
-      "topic": "Crusader Kings III multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-10T18:51:36.037873+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1158310/",
-          "title": "Crusader Kings III sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Crusader Kings III, consultée le 2026-10-10. Développeur : Paradox Development Studio. Éditeur : Paradox Interactive. Date de sortie sur Steam : 1 sept. 2020. Genres : RPG, Simulation, Stratégie. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, PvP, JcJ en ligne, Succès Steam, Cartes à échanger Steam, Workshop Steam, Taille de texte réglable, Caméra et confort de vue, Contrôle du volume différencié, Difficulté ajustable, Option souris uniquement, #category_playable_at_your_own_pace, Jouable sans saisie en temps imparti, Sauvegarde à tout moment, Steam Cloud, Remote Play sur tablette, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : Aimez, luttez, planifiez et atteignez la grandeur. Déterminez l'héritage de votre maison noble dans le jeu de grande stratégie tentaculaire de Crusader Kings III. La mort n'est qu'un début quand vous guidez votre dynastie dans cette riche simulation médiévale plus grande que nature.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/ba7f77f7eb96d48f267e970583ddaa32b3b5eb98/ss_ba7f77f7eb96d48f267e970583ddaa32b3b5eb98.1920x1080.jpg?t=1791471575"
-        }
-      ],
-      "keywords": [
-        "Crusader Kings III multijoueur",
-        "Crusader Kings III PC",
-        "Crusader Kings III Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-config-1693980",
-      "topic": "Configuration PC Dead Space : minimale, recommandée et conseils",
-      "detected_at": "2026-10-10T18:51:36.563735+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1693980/",
-          "title": "Dead Space sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Dead Space, consultée le 2026-10-10. Développeur : Motive. Éditeur : Electronic Arts. Date de sortie sur Steam : 27 janv. 2023. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Window 10 64-bit + ; Processeur : Ryzen 5 2600x, Core i5 8600 ; Mémoire vive : 16 GB de mémoire ; Graphiques : AMD RX 5700, GTX 1070 ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 50 GB d'espace disque disponible ; Notes supplémentaires : 50GB SATA SSD. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Window 10 64-bit + ; Processeur : Ryzen 5 5600X,Core i5 11600K ; Mémoire vive : 16 GB de mémoire ; Graphiques : Radeon RX 6700 XT, Geforce RTX 2070 ; DirectX : Version 12 ; Réseau : connexion internet haut débit ; Espace disque : 50 GB d'espace disque disponible ; Notes supplémentaires : 50GB SSD PCIe compatible.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/ss_b4b02766216117747640523bb6e258d44053e355.1920x1080.jpg?t=1777396576"
-        }
-      ],
-      "keywords": [
-        "configuration pc Dead Space",
-        "Dead Space PC",
-        "Dead Space Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-1693980",
-      "topic": "Dead Space multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-10T18:51:36.563805+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1693980/",
-          "title": "Dead Space sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Dead Space, consultée le 2026-10-10. Développeur : Motive. Éditeur : Electronic Arts. Date de sortie sur Steam : 27 janv. 2023. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Caméra et confort de vue, Alternatives de couleurs, Contrôle du volume différencié, Difficulté ajustable, Option clavier uniquement, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Son stéréo, Options de sous-titres, Son multicanal, Steam Cloud, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Le grand classique du genre « survival horror » de science-fiction est de retour. Le jeu a été réadapté pour vous offrir une expérience plus immersive grâce à des améliorations en matière de graphismes, d’ambiance sonore et de jouabilité tout en restant fidèle à la vision palpitante du jeu original.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/ss_b4b02766216117747640523bb6e258d44053e355.1920x1080.jpg?t=1777396576"
-        }
-      ],
-      "keywords": [
-        "Dead Space multijoueur",
-        "Dead Space PC",
-        "Dead Space Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "rss-gta-6-leaker-threatens-to-upload-a-build-with-full-stor-c3e1a41d9804",
-      "topic": "GTA 6 leaker threatens to upload a build with 'full story mode'",
-      "detected_at": "2026-10-11T09:18:34.817551+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-leaker-threatens-to-upload-a-build-with-full-story-mode/",
-          "title": "GTA 6 leaker threatens to upload a build with 'full story mode'",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/games/grand-theft-auto/who-is-cyberleek-what-we-know-about-the-gta-6-leaker/\">Cyberleek</a> has been uploading footage of Grand Theft Auto 6 since August, most recently a <a href=\"https://www.pcgamer.com/games/grand-theft-auto/jason-may-or-may-not-appear-fully-nude-in-gta-6-but-either-way-weve-now-seen-his-dong/\">25-minute video featuring co-protagonist Jason totally nude</a>. Given that GTA 6's November 19 release is just over a month away, on console at least, it seems natural that interest in these kinds of leaks would wane. Cyberleek has found a new way of generating hype: promising to leak a build of the game if their memecoin's marketcap goes up another $26 million or so.</p><p>\"Here's the deal, nice and clean. CYBERLEEK hits 30 million marketcap, the build goes out – full story mode, played to the end, credits and all. Don't believe it has full story mode? Ask for what you want to see, and it gets provided. Take-Two gets one way out: physical disks and a public apology. They can take it at any moment. Or they can gamble that CL is bluffing. Everyone knows which one they'll pick.\"</p><p>The other half of the deal suggests that pub"
-        }
-      ],
-      "keywords": [
-        "GTA 6 leaker threatens to upload a build with 'full story mode'",
-        "GTA 6 leaker threatens to upload a build with 'full story mode' date de sortie",
-        "GTA 6 leaker threatens to upload a build with 'full story mode' plateformes",
-        "GTA 6 leaker threatens to upload a build with 'full story mode' gameplay",
-        "GTA 6 leaker threatens to upload a build with 'full story mode' guide",
-        "GTA 6 leaker threatens to upload a build with 'full story mode' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-squadron-42-has-a-steam-page-148285c798fa",
-      "topic": "Squadron 42 has a Steam page",
-      "detected_at": "2026-10-11T09:18:34.817759+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/fps/squadron-42-has-a-steam-page/",
-          "title": "Squadron 42 has a Steam page",
-          "evidence": "<article> <p>In August, game director Chris Roberts said that Star Citizen's singleplayer component, Squadron 42, was being <a href=\"https://www.pcgamer.com/games/fps/star-citizens-squadron-42-delayed-again-this-time-to-avoid-the-attention-buzz-saw-of-gta-6-says-chris-roberts/\">delayed out of 2026 to avoid clashing with Grand Theft Auto 6</a>. There was a certain amount of skepticism about the reason for the delay, thanks in part to a recent <a href=\"https://www.pcgamer.com/games/mmo/star-citizen-has-a-disastrously-laggy-stream-with-horrendous-vibes-which-isnt-a-great-look-when-youre-past-usd1-billion-in-funding/\">Star Citizen livestream being declared a disaster</a>, but also because, well. These games have had so many release dates the changes have <a href=\"https://starcitizen.tools/Release_date\">their own wiki page</a>.</p><p>There's something concrete about having Squadron 42 getting a Steam page though, with system requirements and everything. Those system requirements are charmingly old-fashioned, with no mention of ray tracing-capable GPUs or DirectX 12. Although the install size of 150GB is still pretty hefty. (<a href=\"https://www.pcgamer.com/games/final-fantasy/final-fant"
-        }
-      ],
-      "keywords": [
-        "Squadron 42 has a Steam page",
-        "Squadron 42 has a Steam page date de sortie",
-        "Squadron 42 has a Steam page plateformes",
-        "Squadron 42 has a Steam page gameplay",
-        "Squadron 42 has a Steam page guide",
-        "Squadron 42 has a Steam page avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-vampire-games-on-steam-are-a-recession-indicator-and-i--af5583a08376",
-      "topic": "Vampire games on Steam are a recession indicator and I have the charts to prove it",
-      "detected_at": "2026-10-11T09:18:34.818771+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/vampire-games-on-steam-are-a-recession-indicator-and-i-have-the-charts-to-prove-it/",
-          "title": "Vampire games on Steam are a recession indicator and I have the charts to prove it",
-          "evidence": "<article> <p>Despite what the GDP tells me, the economy in the real world doesn't feel like it's doing too hot for the average joe. But during the recent years' descent into compounding supply crises and mass layoffs affecting thousands of workers at once, I've noticed another trend: Sure does seem like there are a lot of vampire games in the mix lately.</p><p>I started to sense an uptick after Arkane's ill-fated Redfall in 2023. There was Vampire Survivors and V Rising—and Nighthawks, Moonlight Peaks, Blood of Dawnwalker, and more. Given current circumstances, you might think I'm just primed to notice nightmarish aristocrats bleeding us alive to sustain themselves. But after too many hours of spreadsheet data entry, I'm convinced devs really <em>have </em>been dabbling more heavily in Draculas as the economy feels increasingly dire.<br><br>Vampire games on Steam are a recession indicator. And I have the charts to prove it.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.21%;\"><img id=\"FFY9R7fKJAew58Lp52P7y6"
-        }
-      ],
-      "keywords": [
-        "Vampire games on Steam are a recession indicator and I have the charts to prove it",
-        "Vampire games on Steam are a recession indicator and I have the charts to prove it date de sortie",
-        "Vampire games on Steam are a recession indicator and I have the charts to prove it plateformes",
-        "Vampire games on Steam are a recession indicator and I have the charts to prove it gameplay",
-        "Vampire games on Steam are a recession indicator and I have the charts to prove it guide",
-        "Vampire games on Steam are a recession indicator and I have the charts to prove it avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-a-great-indie-studio-is-making-a-sequel-to-one-of-my-fa-0ec5915cab04",
-      "topic": "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending'",
-      "detected_at": "2026-10-11T09:18:34.819219+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/adventure/a-great-indie-studio-is-making-a-sequel-to-one-of-my-favorite-adventures-17-years-later-for-one-simple-reason-were-not-getting-any-younger-and-the-world-seems-to-be-ending/",
-          "title": "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending'",
-          "evidence": "<article> <p>I just made a noise like air being slowly released from a <a href=\"https://www.youtube.com/shorts/Vr18dPC2hfs\" target=\"_blank\">balloon</a>.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/ZqcglWA1pDo\" allowfullscreen></iframe></div></div><p>It's been 17 years since the original <a href=\"https://www.pcgamer.com/machinarium/\" target=\"_blank\">Machinarium</a>, a wordless tale of love in a crumbling city of robots. Amanita Design has put out some great games over that span—<a href=\"https://www.pcgamer.com/botanicula-review/\" target=\"_blank\">Botanicula</a>, <a href=\"https://www.pcgamer.com/chuchel-reivew/\" target=\"_blank\">Chuchel</a>, <a href=\"https://www.pcgamer.com/creaks/\" target=\"_blank\">Creaks</a>, <a href=\"https://www.pcgamer.com/phonopolis/\" target=\"_blank\">Phonopolis</a>—but hasn't breathed even a hint that more Machinarium might be on the way. So why now? </p><p>\"We're not getting any younger, and the world seems to be ending, so if we were ever going to make Machinarium 2, now is the right time,\" Amanita CEO and designer Jakub Dvorský said—a bit dark, "
-        }
-      ],
-      "keywords": [
-        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending'",
-        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending' date de sortie",
-        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending' plateformes",
-        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending' gameplay",
-        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending' guide",
-        "A great indie studio is making a sequel to one of my favorite adventures 17 years later, for one simple reason: 'We're not getting any younger, and the world seems to be ending' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-subnautica-2-fans-can-finally-hunt-and-kill-those-pesky-2510d613a27d",
-      "topic": "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC",
-      "detected_at": "2026-10-11T09:18:34.819480+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/adventure/subnautica-2-fans-can-finally-hunt-and-kill-those-pesky-nibbler-mangos-in-dave-the-divers-crossover-dlc/",
-          "title": "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC",
-          "evidence": "<article> <p>It took a while but there's finally an official way to hunt and kill some of Subnautica 2's most annoying sea creatures. The only catch is, you'll have to do it in Dave the Diver DLC—though as catches go, that's a pretty fun one.</p><p>The crossover was announced today at the Triple-I Initiative showcase. Coming in early 2027, the <a href=\"https://store.steampowered.com/app/5246570/DAVE_THE_DIVER__Subnautica_2_Content_Pack/\">Dave the Diver X Subnautica 2 content pack</a> will suck Dave into the alien waters of Unknown Worlds' survival game where he can mine resources, hunt fish, and—one would hope—discover some tasty new sushi recipes for Bancho to cook up. Here's the trailer:</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Rp4KqJEnr_U\" allowfullscreen></iframe></div></div><p>What caught my eye even more than the glimpse of a massive and intimidating boss at the end of the trailer were those pesky Nibbler Mangos, which start biting you the second you dive into Subnautica 2 and never really stop. Players having no way to kill large enemies in Subnautica 2 h"
-        }
-      ],
-      "keywords": [
-        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC",
-        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC date de sortie",
-        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC plateformes",
-        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC gameplay",
-        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC guide",
-        "Subnautica 2 fans can finally hunt and kill those pesky Nibbler Mangos—in Dave the Diver's crossover DLC avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-have-added-roving-bands-of-militant-furries-to-grand--d159eb06c8d0",
-      "topic": "I have added roving bands of militant furries to Grand Theft Auto 5",
-      "detected_at": "2026-10-11T09:18:34.819765+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-have-added-roving-bands-of-militant-furries-to-grand-theft-auto-5/",
-          "title": "I have added roving bands of militant furries to Grand Theft Auto 5",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>Let's get one thing out of the way: I think we, as a society, as a people, are generally fine with furries at this point. The phenomenon of ragging on furry subculture has been, gladly, consigned to the dustbin of history. It's a 2010 disease from which we have convalesced. Let nothing I write from here on be taken as a slight against them.</p><p>That being said, it is very funny to give someone in a fursuit a gun and a military objective.</p><p>I have installed, well, two mods actually. The first, preliminary mod is <a href=\"https://www.gta5-mods.com/scripts/gang-and-tu"
-        }
-      ],
-      "keywords": [
-        "I have added roving bands of militant furries to Grand Theft Auto 5",
-        "I have added roving bands of militant furries to Grand Theft Auto 5 date de sortie",
-        "I have added roving bands of militant furries to Grand Theft Auto 5 plateformes",
-        "I have added roving bands of militant furries to Grand Theft Auto 5 gameplay",
-        "I have added roving bands of militant furries to Grand Theft Auto 5 guide",
-        "I have added roving bands of militant furries to Grand Theft Auto 5 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-amazon-is-roasting-users-with-their-own-shopping-habits-ba4aed02a981",
-      "topic": "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us",
-      "detected_at": "2026-10-11T09:18:34.820004+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/amazon-is-roasting-users-with-their-own-shopping-habits-but-it-dont-have-nothin-on-us/",
-          "title": "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us",
-          "evidence": "<article> <p>If you've got an Amazon account, then you likely already realise Jeff Bezos' corporate empire is hoovering up your data so it can better sell to you. What's surprising is when Amazon actually offers a peek behind that vast curtain of data, revealing what it's learnt about you and potentially reading you for filth in the process.</p><p>Amazon's 'About You' feature rolled out back in May. It gained more attention this week after <a href=\"https://www.threads.com/@fangirlinmegan/post/DeIYWsRkUne?xmt=AQG0G8m600EHL1Q7k2TCNnRSWwauRGz2IHv3frfn0DKusx0\" target=\"_blank\">one Threads user's viral post</a> appeared to show that, based on her 'Product Preferences,' Amazon thought she had \"flat buttocks.\" They weren't the only ones left \"literally speechless,\" as another user shared that Amazon had noted they do \"<a href=\"https://www.threads.com/@cherieish/post/DeIm17TGj4v?xmt=AQG0Sibre9Tz_ewW5Xe0oU1f4YUaA9KzLPIS4YOuJIpxfrw\" target=\"_blank\">not trust people easily</a>.\" A Reddit user posted that Amazon had noted they apparently get \"<a href=\"https://www.reddit.com/r/AmazonVine/comments/1txgbn4/have_you_checked_out_your_about_you_on_amazon_yet/\" target=\"_blank\">a tired gray cast from l"
-        }
-      ],
-      "keywords": [
-        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us",
-        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us date de sortie",
-        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us plateformes",
-        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us gameplay",
-        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us guide",
-        "Amazon is roasting users with their own shopping habits, but it don't have nothin' on us avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-crowning-the-best-fps-mode-of-all-time-through-1v1-comb-7f71e5a96508",
-      "topic": "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2)",
-      "detected_at": "2026-10-11T09:18:34.820389+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/fps/crowning-the-best-fps-mode-of-all-time-through-1v1-combat-round-2/",
-          "title": "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2)",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">FOV 90</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"cTeZTtGXV6uYdPks5D77R7\" name=\"pcg_logo_fov90\" caption=\"\" alt=\"FOV 90 column\" src=\"https://cdn.mos.cms.futurecdn.net/cTeZTtGXV6uYdPks5D77R7-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to FOV 90, an FPS column from staff writer Morgan Park. Every other week, I cover topics relevant to first-person shooter enjoyers, spanning everything from multiplayer and singleplayer to the old and the new.</p></div></div><p>Welcome back to another special community tournament edition of FOV 90, the only FPS column that I'm aware of.</p><p>Last week, we started the work of determining <a href=\"https://www.pcgamer.com/games/fps/making-our-favo"
-        }
-      ],
-      "keywords": [
-        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2)",
-        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2) date de sortie",
-        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2) plateformes",
-        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2) gameplay",
-        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2) guide",
-        "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2) avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-as-it-lays-off-developers-and-closes-studios-xbox-launc-55543c784c0a",
       "topic": "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves'",
@@ -6007,6 +5723,294 @@
         "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip gameplay",
         "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip guide",
         "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-best-enshrouded-base-locations-for-picturesque-vist-65738520643d",
+      "topic": "The best Enshrouded base locations for picturesque vistas or strategic strongholds",
+      "detected_at": "2026-10-20T07:55:54.807401+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/survival-crafting/enshrouded-base-locations/",
+          "title": "The best Enshrouded base locations for picturesque vistas or strategic strongholds",
+          "evidence": "<article> <p>When it comes to Enshrouded base locations, Embervale real estate has no bad options, but I tend to favor scenic waterfront properties over any strategic positioning. The world has plenty of fast travel points, so I don't suffer much from my form-over-function choices, though I do appreciate conveniently placed mines or higher elevations to get a good running jump with the glider. </p><p>After hundreds of hours base hopping all over Embervale, my map is packed with markers highlighting my favorite spots, so I might as well share them. Here are some of the best base locations I've found in Enshrouded 1.0. </p><h2 class=\"article-body__section\" id=\"section-springlands\"><span>Springlands</span></h2><h3 id=\"springlands-map\">Springlands map</h3><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2000px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"pjab7kR7m92GgRKQcGsFjN\" name=\"Springlands-base-locations-map\" alt=\"Enshrouded map highlighting base locations in Springlands\" src=\"https://cdn.mos.cms.futurecdn.net/pjab7kR7m92GgRKQcGsFjN-1920-80.jpg\" "
+        }
+      ],
+      "keywords": [
+        "The best Enshrouded base locations for picturesque vistas or strategic strongholds",
+        "The best Enshrouded base locations for picturesque vistas or strategic strongholds date de sortie",
+        "The best Enshrouded base locations for picturesque vistas or strategic strongholds plateformes",
+        "The best Enshrouded base locations for picturesque vistas or strategic strongholds gameplay",
+        "The best Enshrouded base locations for picturesque vistas or strategic strongholds guide",
+        "The best Enshrouded base locations for picturesque vistas or strategic strongholds avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-moonlighter-studio-won-t-host-a-public-playtest-of-its--f64ddbb9db01",
+      "topic": "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way'",
+      "detected_at": "2026-10-20T07:55:54.807582+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/moonlighter-studio-wont-host-a-public-playtest-of-its-next-game-due-to-rampant-ai-led-cloning-we-know-were-not-the-only-developers-feeling-this-way/",
+          "title": "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way'",
+          "evidence": "<article> <p>The studio behind the Moonlighter series has announced it will no longer host a public playtest for its forthcoming roguelike due to fears it will be \"reverse-engineered, cloned and published\". The move comes as a surge in rapidly vibe coded clones floods Steam, Roblox and mobile app stores in the aftermath of Claude Opus 5.5.</p><p>\"With launch still months away, sharing a build with tens of thousands of players feels like too big a risk,\" Digital Sun Games' marketing manager Israel Mallén told PC Gamer. The game under discussion is <a href=\"https://store.steampowered.com/app/3295000/ReVamp/\">ReVamp</a>, a \"tower defensevania\" roguelike due for release in March 2027.</p><p>\"We know we're not the only developers feeling this way, and the more this is talked about, the more likely platforms are to step in.\"</p><p>In its <a href=\"https://x.com/DigitalSunGames/status/2112167974538723563\">public announcement</a> Digital Sun Games was fairly blunt. \"We've been concerned by recent news of games being reverse-engineered, cloned and published before the original is even out. With launch still months away, a large public build of ReVamp felt like too big a risk.\"</p><p>Last wee"
+        }
+      ],
+      "keywords": [
+        "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way'",
+        "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way' date de sortie",
+        "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way' plateformes",
+        "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way' gameplay",
+        "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way' guide",
+        "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-star-wars-zero-company-adds-new-difficulty-options-that-a7c4e52ded6e",
+      "topic": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
+      "detected_at": "2026-10-20T07:55:54.807791+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-adds-new-difficulty-options-that-can-bring-it-closer-to-xcom/",
+          "title": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
+          "evidence": "<article> <p>Star Wars Zero Company's <a href=\"https://store.steampowered.com/app/2075800/STAR_WARS_Zero_Company/\" target=\"_blank\">1.2 patch</a> introduces a new granular difficulty system in addition to the usual bugfixes and tweaks. These new options exist alongside the original difficulty levels (easy, normal, hard, <del>ironman</del> beskarboy etc.), and home in on more creative/tactical tweaks, rather than just beefing up enemies. The highlights:</p><ul><li>You can remove the injury system, so downed operatives are instantly killed.</li><li>Alternatively, you can lower the injury allowance before permadeath, and/or add a risk of death to getting downed.</li><li>The patch allows you to lower or eliminate health scaling, so operatives are more fragile by the end of the game.</li><li>It also allows you to restrict the respec function by degrees, removing class and even weapon swapping.</li></ul><p>I like these options a lot: They're sharp, targeted changes that make Zero Company harder by restricting your options, forcing you to think and play more creatively. The game's normal, default difficulty, with all of these modifiers added, represents a more interesting challenge to me t"
+        }
+      ],
+      "keywords": [
+        "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
+        "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM date de sortie",
+        "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM plateformes",
+        "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM gameplay",
+        "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM guide",
+        "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-lucasfilm-wants-to-do-more-star-wars-games-like-zero-co-ecd6eea359e6",
+      "topic": "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from'",
+      "detected_at": "2026-10-20T07:55:54.808030+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/lucasfilm-wants-to-do-more-star-wars-games-like-zero-company-and-galactic-racer-weve-tried-to-be-more-flexible-about-who-were-willing-to-take-pitches-from/",
+          "title": "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from'",
+          "evidence": "<article> <p>We've had two Star Wars games in 2026, both of them quite good and neither of them quite what you might expect from the Star Wars mould: <a href=\"https://www.pcgamer.com/star-wars-zero-company/\" target=\"_blank\">Zero Company</a>, an XCOM-style tactics game, and <a href=\"https://www.pcgamer.com/star-wars-galactic-racer/\" target=\"_blank\">Galactic Racer</a>, an arcade racing game but Star Wars. And the success of those games means we may see more like them—which is to say, more offbeat Star Wars games from smaller-scale studios—in the future.</p><p>Both Zero Company and Galactic Racer were developed by independent studios—Bit Reactor and Fuse Games, respectively—and that \"very much is part of the strategy,\" Lucasfilm Games vice president Douglas Reilly told <a href=\"https://www.thegamebusiness.com/p/fixing-call-of-duty-inside-activisions\" target=\"_blank\">The Game Business</a>.</p><p>\"Obviously, huge triple-A games like Battlefront are always going to be an essential part of the strategy,\" Reilly said. \"But one of the great things about Star Wars is it has all kinds of other opportunities to tell stories in different genres. </p><p>\"The goal has been to find the best partne"
+        }
+      ],
+      "keywords": [
+        "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from'",
+        "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from' date de sortie",
+        "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from' plateformes",
+        "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from' gameplay",
+        "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from' guide",
+        "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-xbox-biz-guy-deletes-his-x-account-less-than-24-hours-a-720847330d1e",
+      "topic": "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business'",
+      "detected_at": "2026-10-20T07:55:54.808325+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/xbox-biz-guy-deletes-his-x-account-less-than-24-hours-after-saying-game-devs-who-dont-embrace-ai-should-not-be-in-the-business-of-being-a-business/",
+          "title": "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business'",
+          "evidence": "<article> <p>Xbox senior business strategy manager Brandon Stirrup is tired of pussyfooting around about AI: In a thread on X his week, he said that he wants the world to know that Xbox uses it, that he thinks everyone should be using it, and that he believes so strongly in the cause that he's willing to \"take the hit\" for saying so. </p><p> He has since deleted his X account. A source at Xbox tells PC Gamer that Stirrup opted to deactivate the account because of the volume of replies he was receiving.</p><p>Stirrup kicked off his thread on October 18 with a simple message saying he'd \"vibe coded a bad but improvable game\" over two days, although he only \"actively\" worked on it for about three hours. \"I’m telling you I tried it and it’s true…anyone can build a game.\"</p><p>After saying that developers and studios who aren't incorporating AI into their strategies are \"planning for a fake future,\" Stirrup went all in. </p><p>\"Look if I'm fired tomorrow it will be because I told you the truth that nobody wants you to know. You can make a game with a simple prompt and yes you can make custom, tailored games. Everything you want in a game is right there for the taking, for better or wor"
+        }
+      ],
+      "keywords": [
+        "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business'",
+        "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business' date de sortie",
+        "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business' plateformes",
+        "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business' gameplay",
+        "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business' guide",
+        "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-asus-not-only-replaced-an-rtx-4080-super-with-an-rtx-50-32223d5df0be",
+      "topic": "Asus not only replaced an RTX 4080 Super with an RTX 5080 but also swapped it *again* just to give this lucky Redditor one that matches their all-white build",
+      "detected_at": "2026-10-20T07:55:54.810783+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/asus-not-only-replaced-an-rtx-4080-super-with-an-rtx-5080-but-also-swapped-it-again-just-to-give-this-lucky-redditor-one-that-matches-their-all-white-build/",
+          "title": "Asus not only replaced an RTX 4080 Super with an RTX 5080 but also swapped it *again* just to give this lucky Redditor one that matches their all-white build",
+          "evidence": "<article> <figure><blockquote class=\"reddit-card\" ><a href=\"https://www.reddit.com/r/ASUS/comments/1x760yq/update_asus_actually_approved_the_white_rtx_5080\">UPDATE: ASUS actually approved the white RTX 5080 I asked for in a RMA</a><figcaption><cite> from <a href=\"https://www.reddit.com/r/ASUS\">r/ASUS</a></cite></figcaption></blockquote></figure><script async src=\"//embed.redditmedia.com/widgets/platform.js\" charset=\"UTF-8\"></script><p>The phrase 'RMA' is likely to send shivers down many a spine, especially when it concerns something like a graphics card. Returning a faulty component can often be a 'cross your fingers and hope for the best' kind of deal, so naturally I am pleasantly—<em>very </em>pleasantly—surprised to hear Asus has enough of a heart to not only give one lucky Redditor an upgrade but also get the colour right.</p><p>According to the <a href=\"https://www.reddit.com/r/ASUS/comments/1wniadr/is_my_reasoning_for_asking_asus_for_a_white_gpu\" target=\"_blank\">Redditor's original post</a> about the issue, they sent their white Asus ROG Strix RTX 4080 Super OC in for RMA and were sent back a black Asus TUF Gaming RTX 5080 when they discovered the former couldn't be repaired."
+        }
+      ],
+      "keywords": [
+        "Asus not only replaced an RTX 4080 Super with an RTX 5080 but also swapped it *again* just to give this lucky Redditor one that matches their all-white build",
+        "Asus not only replaced an RTX 4080 Super with an RTX 5080 but also swapped it *again* just to give this lucky Redditor one that matches their all-white build date de sortie",
+        "Asus not only replaced an RTX 4080 Super with an RTX 5080 but also swapped it *again* just to give this lucky Redditor one that matches their all-white build plateformes",
+        "Asus not only replaced an RTX 4080 Super with an RTX 5080 but also swapped it *again* just to give this lucky Redditor one that matches their all-white build gameplay",
+        "Asus not only replaced an RTX 4080 Super with an RTX 5080 but also swapped it *again* just to give this lucky Redditor one that matches their all-white build guide",
+        "Asus not only replaced an RTX 4080 Super with an RTX 5080 but also swapped it *again* just to give this lucky Redditor one that matches their all-white build avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-linux-kernel-drops-ai-contribution-disclosure-rule-as-l-eeb06c59a158",
+      "topic": "Linux kernel drops AI-contribution disclosure rule, as Linus Torvalds says banning the tech would be 'utterly stupid'",
+      "detected_at": "2026-10-20T07:55:54.811015+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/linux/linux-kernel-drops-ai-contribution-disclosure-rule-as-linus-torvalds-says-banning-the-tech-would-be-utterly-stupid/",
+          "title": "Linux kernel drops AI-contribution disclosure rule, as Linus Torvalds says banning the tech would be 'utterly stupid'",
+          "evidence": "<article> <p>The Linux kernel has dropped a rule, implemented in January this year, that required contributors submitting code to the project to explicitly declare any usage of AI tools in that code's creation. </p><p>At the start of this year, the Linux project added lines to its documentation noting that \"When AI tools contribute to kernel development, proper attribution helps track the evolving role of AI in the development process… If you used any sort of advanced coding tool in the creation of your patch, you need to acknowledge that use by adding an Assisted-by tag.\" Now, as reported by <a href=\"https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140\" target=\"_blank\">The Register</a>, the project's maintainers have decided the tag is no longer necessary, and it's been removed from the relevant docs.</p><p>Why? Well, to hear Linux creator and lead maintainer <a href=\"https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/\" target=\"_blank\">Linus Torvalds put it</a> in response to concerns raised about the tag's removal by contributor Laurent Pinchart, because it doesn't reall"
+        }
+      ],
+      "keywords": [
+        "Linux kernel drops AI-contribution disclosure rule, as Linus Torvalds says banning the tech would be 'utterly stupid'",
+        "Linux kernel drops AI-contribution disclosure rule, as Linus Torvalds says banning the tech would be 'utterly stupid' date de sortie",
+        "Linux kernel drops AI-contribution disclosure rule, as Linus Torvalds says banning the tech would be 'utterly stupid' plateformes",
+        "Linux kernel drops AI-contribution disclosure rule, as Linus Torvalds says banning the tech would be 'utterly stupid' gameplay",
+        "Linux kernel drops AI-contribution disclosure rule, as Linus Torvalds says banning the tech would be 'utterly stupid' guide",
+        "Linux kernel drops AI-contribution disclosure rule, as Linus Torvalds says banning the tech would be 'utterly stupid' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-windows-settings-might-become-more-useful-and-get-quick-ceddb83ebe7e",
+      "topic": "Windows Settings might become more useful and get quicker updates if this new hidden app is anything to go by",
+      "detected_at": "2026-10-20T07:55:54.811199+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/windows/windows-settings-might-become-more-useful-and-get-quicker-updates-if-this-new-hidden-app-is-anything-to-go-by/",
+          "title": "Windows Settings might become more useful and get quicker updates if this new hidden app is anything to go by",
+          "evidence": "<article> <p>Microsoft has been maintaining two separate Windows options menus for generations now, but a new test project <a href=\"https://www.windowslatest.com/2026/10/16/windows-11-could-kill-control-panel-faster-as-microsoft-quietly-tests-settings-in-the-microsoft-store/\" target=\"_blank\">spotted and investigated by Windows Latest</a> might pave the way for a single, discrete bit of software that can do it all. What looks like a new Windows Settings app has stealth dropped in on the Microsoft Store, and that alone might make it easier to update with new features and hopefully finally consolidate everything Control Panel does in one place.</p><p>Windows Latest discovered 'Project Odeon' in the Store, which shares the same icon as Windows Settings and resembles the usual Settings interface. Finding and installing the app apparently requires Windows 11 build 26100 or newer. I tried enabling developer mode and finding the app but I still couldn't see it, so perhaps it also requires you to be using an Insider build, or be based in a certain region.</p><p>It seems like there's a little bit of jank to the app at this point, as it shows different settings, unfinished pages, and some gre"
+        }
+      ],
+      "keywords": [
+        "Windows Settings might become more useful and get quicker updates if this new hidden app is anything to go by",
+        "Windows Settings might become more useful and get quicker updates if this new hidden app is anything to go by date de sortie",
+        "Windows Settings might become more useful and get quicker updates if this new hidden app is anything to go by plateformes",
+        "Windows Settings might become more useful and get quicker updates if this new hidden app is anything to go by gameplay",
+        "Windows Settings might become more useful and get quicker updates if this new hidden app is anything to go by guide",
+        "Windows Settings might become more useful and get quicker updates if this new hidden app is anything to go by avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-modern-warfare-4-release-times-and-early-access-explain-c06a7e66f35a",
+      "topic": "Modern Warfare 4 release times and early access explained",
+      "detected_at": "2026-10-20T07:55:54.811346+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/call-of-duty/modern-warfare-4-release-date-launch-times-early-access/",
+          "title": "Modern Warfare 4 release times and early access explained",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">💀 If you preorder Modern Warfare 4 digitally, you'll get early access to the campaign starting October 16 and DMZ on October 20.</p><p class=\"fancy-box__body-text\">💀 The full release is on October 23 at midnight local time.</p><p class=\"fancy-box__body-text\">💀 PC preload is already live.</p></div></div><p><a href=\"https://www.pcgamer.com/call-of-duty-modern-warfare-4/\" target=\"_blank\">Call of Duty: Modern Warfare 4</a> is releasing soon, but also features early access for many of its modes, including its campaign and the hotly anticipated revival of the DMZ extraction shooter. </p><p>To get early access to both the campaign and DMZ, you need to preorder the game digitally, otherwise, you'll be able to play on October 23. Activision hasn't revealed an exact time for the campaign early access unlock on the 16th, but the PC preload is already live. </p><p>There also hasn't been any official info about the DMZ early access release time on October 20. However, some sources predict it will be 10 am PT (1 pm ET/6 pm BST). What we do know is that:</p><ul>"
+        }
+      ],
+      "keywords": [
+        "Modern Warfare 4 release times and early access explained",
+        "Modern Warfare 4 release times and early access explained date de sortie",
+        "Modern Warfare 4 release times and early access explained plateformes",
+        "Modern Warfare 4 release times and early access explained gameplay",
+        "Modern Warfare 4 release times and early access explained guide",
+        "Modern Warfare 4 release times and early access explained avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-former-valve-writer-baffled-by-epic-ceo-tim-sweeney-s-a-40490fb98582",
+      "topic": "Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding",
+      "detected_at": "2026-10-20T07:55:54.811498+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/platforms/little-tim-is-so-obsessed-with-gabe-former-valve-writer-baffled-by-epic-ceo-tim-sweeneys-attempts-to-compete-with-steam-via-vibe-coding/",
+          "title": "Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/m5x0PSKano0\" allowfullscreen></iframe></div></div><p>In contrast, Epic's store \"always feels sterile to me—you can complain about the Steam comments all you want … but, what they also do is they give the player a place in that world. They give the player actual agency and import and power inside of that ecosystem.\" Yeah, that tracks. The Steam forum is basically a replication of the horrors (and hilarity) of Barrens Chat, just with a few less Chuck Norris jokes.</p><p>Appealing to vibe coders, then, is a bizarre move, since \"they have nothing\" for people who just want a platform where they can play videogames. \"It's nothing about community … And this is your store that you're complaining that Valve is unfairly competing against! </p><p>\"When you fumble your announcement this badly, and you fumble what this is this badly, and you're gonna blame it on Gabe, like this is Gabe's fault? That you decided to make a jab at him and talk about vibe-coding and say that 'making a store is hard!'</p><p>\"It's just bizarre to me,"
+        }
+      ],
+      "keywords": [
+        "Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding",
+        "Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding date de sortie",
+        "Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding plateformes",
+        "Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding gameplay",
+        "Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding guide",
+        "Former Valve writer baffled by Epic CEO Tim Sweeney's attempts to compete with Steam via vibe coding avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-semifinals-the-brutal-war-to-determine-the-best-rts-uni-c2fa44fc76cb",
+      "topic": "Semifinals: The brutal war to determine the best RTS unit of all time needs your votes",
+      "detected_at": "2026-10-20T07:55:54.811836+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rts/semifinals-the-brutal-war-to-determine-the-best-rts-unit-of-all-time-needs-your-votes/",
+          "title": "Semifinals: The brutal war to determine the best RTS unit of all time needs your votes",
+          "evidence": "<article> <p>We are now in the second half of the most brutal war to play out on the pages of this venerable website—a war that will determine, through democracy and science, which RTS unit is the greatest of them all. </p><p>Two weeks ago, the <a href=\"https://www.pcgamer.com/games/rts/the-greatest-rts-units-of-all-time-determined-by-democracy/\" target=\"_blank\">conflict started with 16 units</a>. Last week, <a href=\"https://www.pcgamer.com/games/rts/quarterfinals-vote-for-the-best-rts-unit-of-all-time/\" target=\"_blank\">eight survivors duked it out in the quarterfinals</a>. Blood was shed and four more units were tossed into the void. It was tight—with two battles ending with the victor claiming only 10% more of the votes. My two faves, the noble Dolphin and humble Peon were killed off. I weep for these fallen heroes. </p><p>But there's no more time for sentimentality. Another battle is about to begin. Clean off the blood and get ready for the semifinals. It's time to choose which two units will be going head-to-head in the glorious final battle. </p><h3 class=\"article-body__section\" id=\"section-the-semifinals-bracket\"><span>The semifinals bracket</span></h3><figure class=\"van-imag"
+        }
+      ],
+      "keywords": [
+        "Semifinals: The brutal war to determine the best RTS unit of all time needs your votes",
+        "Semifinals: The brutal war to determine the best RTS unit of all time needs your votes date de sortie",
+        "Semifinals: The brutal war to determine the best RTS unit of all time needs your votes plateformes",
+        "Semifinals: The brutal war to determine the best RTS unit of all time needs your votes gameplay",
+        "Semifinals: The brutal war to determine the best RTS unit of all time needs your votes guide",
+        "Semifinals: The brutal war to determine the best RTS unit of all time needs your votes avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-peter-molyneux-explains-why-black-white-3-remains-mia-a-b1fde137a654",
+      "topic": "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop'",
+      "detected_at": "2026-10-20T07:55:54.812092+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/peter-molyneux-explains-why-black-and-white-3-remains-mia-and-then-drops-a-tantalising-teaser-its-such-a-difficult-difficult-challenging-title-to-develop/",
+          "title": "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop'",
+          "evidence": "<article> <p>As part of an interview that I conducted with Peter Molyneux in Guildford recently, a wide-reaching chat that covered everything from Molyneux's final game, <a href=\"https://www.pcgamer.com/uk/masters-of-albion/\">Masters of Albion</a>, and its new <a href=\"https://www.pcgamer.com/games/strategy/masters-of-albion-peter-molyneuxs-final-game-just-got-a-huge-update-and-vigorous-lips-pursed-nodding-of-approval-suddenly-the-old-god-game-magic-is-back/\">game-changing update</a>, through to the origin of Black & White's <a href=\"https://www.pcgamer.com/games/strategy/peter-molyneux-explains-the-origin-story-of-black-and-whites-famous-creatures-it-was-originally-a-monster-it-wasnt-a-cute-creature/\">famous titan creatures</a>, I also asked the veteran designer why a third Black & White game has never been made.</p><p>Fans of the Black & White series like myself and countless other PC gamers (Black & White is currently <a href=\"https://www.gog.com/dreamlist/?show_only_not_voted_by_user=1&show_only_unreleased=1&sort=global_wishlist_votes_count&order=desc&labels=trending\">top of GOG's most-wanted remaster list</a>) have been desperate for a new release, be that a remaster of one of"
+        }
+      ],
+      "keywords": [
+        "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop'",
+        "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' date de sortie",
+        "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' plateformes",
+        "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' gameplay",
+        "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' guide",
+        "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

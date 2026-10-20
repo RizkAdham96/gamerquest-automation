@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-19T20:12:25.493944+00:00",
+  "updated_at": "2026-10-20T07:55:55.171879+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -10866,6 +10866,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Crowning the best FPS mode of all time through 1v1 combat (ROUND 2)"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-as-it-lays-off-developers-and-closes-studios-xbox-launc-55543c784c0a",
+      "topic": "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves'",
+      "detected_at": "2026-10-11T09:18:34.820679+00:00",
+      "analysed_at": "2026-10-20T07:55:55.171700+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/as-it-lays-off-developers-and-closes-studios-xbox-gets-into-the-movie-business/",
+          "title": "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves'",
+          "evidence": "<article> <p>More big news out of Xbox today: A new division called Xbox XP will take the lead on \"film and television, consumer products, strategic partnerships, and live experiences.\"</p><p>As detailed on today's <a href=\"https://news.xbox.com/en-us/2026/10/08/introducing-xp/\" target=\"_blank\">announcement</a>, here's what that breaks down to:</p><ul><li><em><strong>XBOX PICTURES</strong></em><em>: Bringing our worlds and characters to new audiences through film, television, and other forms of linear storytelling.</em></li><li><em><strong>XBOX PRODUCTS</strong></em><em>: Creating products that are authentic to the fandom that allow fans to celebrate and express the franchises they love.</em></li><li><em><strong>XBOX PLACES</strong></em><em>: Bringing communities together through live events, immersive experiences, attractions, broadcasts, and destinations.</em></li><li><em><strong>XBOX PARTNERSHIPS</strong></em><em>: Working with creators, brands, and communities to develop new experiences, sponsorships, and brand partnerships.</em></li></ul><p>Xbox XP will be headed by Kayleen Walters, who previously spent a couple years as president of Minecraft studio Mojang and before that spe"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves'",
+        "secondary_keywords": [
+          "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' date de sortie",
+          "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' plateformes",
+          "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' gameplay",
+          "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' guide",
+          "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "As it lays off developers and closes studios, Xbox launches a new division focused on 'how people experience our franchises beyond the games themselves'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-all-hail-the-long-steam-machine-pimax-s-new-steamos-rea-e0f56e4a41b4",
+      "topic": "All hail the long steam machine, Pimax's new SteamOS-ready mini PC",
+      "detected_at": "2026-10-11T09:18:34.820993+00:00",
+      "analysed_at": "2026-10-20T07:55:55.171743+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/steam-machines/all-hail-the-long-steam-machine-pimaxs-new-steamos-ready-mini-pc/",
+          "title": "All hail the long steam machine, Pimax's new SteamOS-ready mini PC",
+          "evidence": "<article> <p>You could say Pimax is copying Valve's homework with its new mini PC, the Spation. Though the <a href=\"https://www.pcgamer.com/hardware/gaming-pcs/steam-machine-review-2026/\" target=\"_blank\">Steam Machine</a> is merely a black box, so you could say it also copied any number of other miscellaneous black rectangles itself; the Xbox Series X among them. Nevertheless, this is one similar-looking living room machine, and Pimax is even pitching it with SteamOS.</p><p>Pimax's machine is a mini PC with a whole bunch of power behind it. Pimax says it comes with either an <a href=\"https://www.pcgamer.com/hardware/graphics-cards/amd-radeon-rx-9700-xt-review-asus-prime-oc/\" target=\"_blank\">RX 9070 XT</a> or <a href=\"https://www.pcgamer.com/hardware/graphics-cards/pny-geforce-rtx-5070-ti-16-gb-oc-review/\" target=\"_blank\">RTX 5070 Ti</a>, and a <a href=\"https://www.pcgamer.com/hardware/processors/amd-ryzen-7-9800x3d-review/\" target=\"_blank\">Ryzen 7 9800X3D</a>. </p><p>It packs in 32 GB of DDR5, a 1 TB SSD, and a 1000 W SFX PSU. It also supports Wi-Fi 7, Bluetooth 5.4, and comes with 2x DisplayPort 2.1, 1x HDMI 2.1, 1x USB4, and 6x USB 3.2 Gen 2 ports. </p><div style=\"min-height: 250"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "All hail the long steam machine, Pimax's new SteamOS-ready mini PC",
+        "secondary_keywords": [
+          "All hail the long steam machine, Pimax's new SteamOS-ready mini PC date de sortie",
+          "All hail the long steam machine, Pimax's new SteamOS-ready mini PC plateformes",
+          "All hail the long steam machine, Pimax's new SteamOS-ready mini PC gameplay",
+          "All hail the long steam machine, Pimax's new SteamOS-ready mini PC guide",
+          "All hail the long steam machine, Pimax's new SteamOS-ready mini PC avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "All hail the long steam machine, Pimax's new SteamOS-ready mini PC"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-pimax-says-i-ll-have-what-valve-s-having-as-it-announce-1ef6358bec5f",
+      "topic": "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine",
+      "detected_at": "2026-10-11T09:18:34.821481+00:00",
+      "analysed_at": "2026-10-20T07:55:55.171770+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/vr-hardware/pimax-says-ill-have-what-valves-having-as-it-announces-new-wireless-vr-headset-foveated-streaming-updated-controllers-and-long-steam-machine/",
+          "title": "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine",
+          "evidence": "<article> <p>Known for its many variants of VR headset, Pimax is back with yet more new products. This time, it seems to be following Valve's recent example, with a wireless VR headset, foveated streaming, ringfree VR controllers, and a very long Steam Machine.</p><p>Let's start with the VR headset, as Pimax isn't playing around when it comes to wireless capabilities on this thing. It's called the Crystal Pro, and it's totally wireless. Included in the box is a Wi-Fi 6E adapter, much like the <a href=\"https://www.pcgamer.com/hardware/vr-hardware/valve-steam-frame-review/\" target=\"_blank\">Steam Frame</a>, which hooks it up to a nearby gaming PC; however, Pimax is going one step further with an optional wireless streaming kit, 60G AirLink, that uses 60 GHz 2x2 MIMO for a higher-bandwidth, more robust connection.</p><p>\"What if you could cut the cable and still send the image with no visual compression. That question is the reason this headset exists,\" Jaap Grolleman says in a <a href=\"https://www.youtube.com/watch?v=lhJ5d1qS5cM\" target=\"_blank\">prerecorded launch video</a>.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" da"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine",
+        "secondary_keywords": [
+          "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine date de sortie",
+          "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine plateformes",
+          "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine gameplay",
+          "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine guide",
+          "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Pimax says 'I'll have what Valve's having' as it announces new wireless VR headset, foveated streaming, updated controllers, and long Steam Machine"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-complete-boarding-the-frigate-in-arc-raiders-fcace8bd1066",
+      "topic": "How to complete Boarding the Frigate in Arc Raiders",
+      "detected_at": "2026-10-11T09:18:34.821778+00:00",
+      "analysed_at": "2026-10-20T07:55:55.171789+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-boarding-the-frigate-walkthrough/",
+          "title": "How to complete Boarding the Frigate in Arc Raiders",
+          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/kCmrGspS.html\" id=\"kCmrGspS\" title=\"Arc Raiders - Boarding Frigate\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen></iframe><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">⚡Climb onto one of the drones the frigate spits out and interact to disrupt it.</p><p class=\"fancy-box__body-text\">⚡Ride it up to the Arc Frigate.</p><p class=\"fancy-box__body-text\">⚡Damage a Rocketeer, Vaporizer, and Hydra turret to complete the quest.</p></div></div><p><a href=\"https://www.pcgamer.com/arc-raiders/\" target=\"_blank\">Arc Raiders</a>' new Boarding the Frigate quest is about finding a way up onto the giant flying Arc fortress during the new Arc Frigate map modifier. Since this is a colossal arc event, you'll want to bring plenty of ammo and healing. A Grappling or Snap Hook will come in handy, too.</p><p>You can get onto the frigate (as shown in the video) by finding one of the circular Arc drones that it spits out when it arrives on the map, climbing or grappling on top of it, and then interacting with it to disrupt the drone. This"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to complete Boarding the Frigate in Arc Raiders",
+        "secondary_keywords": [
+          "How to complete Boarding the Frigate in Arc Raiders date de sortie",
+          "How to complete Boarding the Frigate in Arc Raiders plateformes",
+          "How to complete Boarding the Frigate in Arc Raiders gameplay",
+          "How to complete Boarding the Frigate in Arc Raiders guide",
+          "How to complete Boarding the Frigate in Arc Raiders avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to complete Boarding the Frigate in Arc Raiders"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-nier-creator-yoko-taro-says-he-s-achieved-his-career-dr-c92a13d9506b",
+      "topic": "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia'",
+      "detected_at": "2026-10-11T19:10:30.428363+00:00",
+      "analysed_at": "2026-10-20T07:55:55.171817+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/nier-creator-yoko-taro-says-hes-achieved-his-career-dreams-but-he-continues-working-because-its-good-for-preventing-dementia/",
+          "title": "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia'",
+          "evidence": "<article> <p>They say that art is never finished, only abandoned—but that doesn't seem to be the case for Yoko Taro, creator of Nier and Drakengard, who you might recognize by the round, smiley Emil mask he wears. According to a report from <a href=\"https://news.denfaminicogamer.jp/interview/261005l\" target=\"_blank\">Denfaminicogamer</a> (via <a href=\"https://www.ign.com/articles/nier-creator-yoko-taro-says-he-would-retire-from-making-video-games-but-fear-of-dementia-keeps-him-working\" target=\"_blank\">IGN</a>), Taro said at the Tokyo French Institute last month that he's already more or less realized his vision and has considered retiring.</p><p>\"With Drakengard, the first game I was given the opportunity to direct, I was actually able to do almost everything the way I wanted,\" Taro said. \"As a game otaku, I think the dream is to release something you've always wanted to create into the world. Having achieved that dream, I view everything after that as the remainder of my life.\" </p><p>As for why he continues to work in gamedev if he's already achieved his dreams, well, he said the money doesn't hurt—and that he has a fear of how his mental health might degrade should he grow idle. "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia'",
+        "secondary_keywords": [
+          "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia' date de sortie",
+          "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia' plateformes",
+          "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia' gameplay",
+          "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia' guide",
+          "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-arc-raiders-2-0-is-here-and-you-can-finally-turn-those--3d8f0225597c",
+      "topic": "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off",
+      "detected_at": "2026-10-11T19:10:30.428525+00:00",
+      "analysed_at": "2026-10-20T07:55:55.171840+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-2-0-is-here-and-you-can-finally-turn-those-lights-on-your-backpack-off/",
+          "title": "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off",
+          "evidence": "<article> <p>I remember being a kid and wishing I had shoes that lit up. I know now that I was a fool. If I festooned myself with garish lights, how would I scavenge for supplies in a frozen wasteland without being spotted by strangers who may or may not kill me before I can use my grappling hook to get away? This isn't a real problem I have, nor is it a real problem Arc Raiders players will have anymore, since your backpack now has an emissive toggle.</p><p>That's one of many little overhauls that arrived in Embark Studios' popular extraction shooter Thursday, and you can read all about the rest in the <a href=\"https://arcraiders.com/news/frozen-trail-2-0-update\" target=\"_blank\">2.0 patch notes</a>. If you've not been tuned into the extraction world as of late, you did indeed read that right: Arc Raiders has gotten a big shakeup with the <a href=\"https://www.pcgamer.com/games/third-person-shooter/i-had-3-hours-with-arc-raiders-frozen-trails-update-and-spent-most-of-it-playing-with-the-new-grapple-hook/\">Frozen Trails update</a>, which comes bearing snowy mountains and grappling hooks.</p><p>But that's not what's exciting about patch notes—the best part of combing through each litt"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off",
+        "secondary_keywords": [
+          "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off date de sortie",
+          "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off plateformes",
+          "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off gameplay",
+          "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off guide",
+          "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-rpgs-are-simply-better-when-you-re-an-idiot-ffa8abaa1039",
+      "topic": "RPGs are simply better when you're an idiot",
+      "detected_at": "2026-10-11T19:10:30.428787+00:00",
+      "analysed_at": "2026-10-20T07:55:55.171857+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/rpgs-are-simply-better-when-youre-an-idiot/",
+          "title": "RPGs are simply better when you're an idiot",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Dungeon Master</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"ckZUwfxbakq5yXMJMfSmBW\" name=\"logo_dungeon\" caption=\"\" alt=\"The Dungeon Master column logo\" src=\"https://cdn.mos.cms.futurecdn.net/ckZUwfxbakq5yXMJMfSmBW-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/dungeon-master-column/\" target=\"_blank\">Dungeon Master</a>, PC Gamer's regular RPG column, where Online Editor Fraser Brown delves into PC gaming's most beloved and enduring genre. Grab a seat in our badly-lit tavern and please ignore the goblin puke.</p></div></div><p>Most videogame RPGs are selling a power fantasy—the idea that you are competent, "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "RPGs are simply better when you're an idiot",
+        "secondary_keywords": [
+          "RPGs are simply better when you're an idiot date de sortie",
+          "RPGs are simply better when you're an idiot plateformes",
+          "RPGs are simply better when you're an idiot gameplay",
+          "RPGs are simply better when you're an idiot guide",
+          "RPGs are simply better when you're an idiot avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "RPGs are simply better when you're an idiot"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-escape-from-elohello-has-me-reliving-my-worst-online-pv-af1a285f87f3",
+      "topic": "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form",
+      "detected_at": "2026-10-11T19:10:30.428893+00:00",
+      "analysed_at": "2026-10-20T07:55:55.171875+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/roguelike/escape-from-elohello-has-me-reliving-my-worst-online-pvp-nightmares-in-roguelike-form/",
+          "title": "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form",
+          "evidence": "<article> <p>I was stuck in elo hell for a good four years, then I entered elo purgatory for another five years, and now I'm apparently in elo heaven, but for some reason it still feels like elo hell. I guess that's just part and parcel of playing online competitive multiplayer games. </p><p>While I'd never want to relive the pain of climbing from Bronze to GM, I am morbidly intrigued in whether I still have that fight in me. So I've found a happy medium, playing a strategy roguelike that provides players with \"all the satisfaction of reaching rank 1, none of the toxic teammates or 40-minute hostage games\". </p><figure role=\"gallery\"><figure><img src=\"https://cdn.mos.cms.futurecdn.net/KabPGkaRAxrfwCt5FyDUj9-1920-80.jpg\" alt=\"Escape from EloHell screenshots\" /><figcaption><small role=\"credit\">Richard Fulop</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/fWwfgQKYaNpNwHveiLm4h9-1920-80.jpg\" alt=\"Escape from EloHell screenshots\" /><figcaption><small role=\"credit\">Richard Fulop</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/osJWZLaxcm3BNteoJ2Csf9-1920-80.jpg\" alt=\"Escape from EloHell screenshots\" /><figcaption><small rol"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form",
+        "secondary_keywords": [
+          "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form date de sortie",
+          "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form plateformes",
+          "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form gameplay",
+          "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form guide",
+          "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Escape from EloHello has me reliving my worst online PvP nightmares in roguelike-form"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

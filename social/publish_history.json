@@ -11,14 +11,21 @@
   },
   "8e3d6209c2276468720b1a7df627c7f153fd507e4b4797265f1febb4aeab71da": {
     "instagram": {
-      "published": false,
-      "post_id": "",
-      "error": "Meta API error | HTTP status: 400 | message: API access blocked. | type: OAuthException | code: 200 | fbtrace_id: A-vBFVEqPGJMYf97WXYhxxD"
+      "published": true,
+      "post_id": "18121279571057609",
+      "updated_at_utc": "2026-10-21T15:38:01.837598Z",
+      "published_at_utc": "2026-10-21T15:38:01.837598Z",
+      "carousel_version": "ddb1d1dfdb3d8ba6b5867955b40374fa042811f3590392f8989882d4ce1c8f46",
+      "permalink": "https://www.instagram.com/p/Dewvz82FwBr/",
+      "child_count": 3,
+      "verified_at_utc": "2026-10-21T15:38:10.118024+00:00"
     },
     "facebook": {
-      "published": false,
-      "post_id": "",
-      "error": "Meta API error | HTTP status: 400 | message: Error validating access token: Session has expired on Saturday, 05-Sep-26 04:00:00 PDT. The current time is Saturday, 05-Sep-26 15:16:39 PDT. | type: OAuthException | code: 190 | error_subcode: 463 | fbtrace_id: Akrv5NwvZWBzkvBAaODcMG6"
+      "published": true,
+      "post_id": "1303389956186440_122124097485446919",
+      "updated_at_utc": "2026-10-21T15:38:09.611806Z",
+      "published_at_utc": "2026-10-21T15:38:09.611806Z",
+      "carousel_version": "ddb1d1dfdb3d8ba6b5867955b40374fa042811f3590392f8989882d4ce1c8f46"
     }
   },
   "2a9088804b1646c0ac5657087ee33cacea0e2bee54bc0f3abb82f0717b4a8817": {

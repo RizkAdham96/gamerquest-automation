@@ -1,0 +1,76 @@
+{
+  "source_id": "41583639ee08ae54e3125effcec4e64230edfd8e63072ac78bbbd6d042dfeb20",
+  "carousel_version": "b4ea24928deeb0fc57693a1ee897ae7fdea6bfe5f2ff88b9c67d95d8c1f14212",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    836,
+    837,
+    838
+  ],
+  "prepared_at_utc": "2026-10-21T20:24:16.657438Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "41583639ee08ae54e3125effcec4e64230edfd8e63072ac78bbbd6d042dfeb20",
+    "source_title": "Digimon Story Time Stranger : DLC « A Hero’s Eternal Legacy » – date de sortie et plateformes",
+    "score": 72.5,
+    "idea": {
+      "source_id": "41583639ee08ae54e3125effcec4e64230edfd8e63072ac78bbbd6d042dfeb20",
+      "topic": "Nouveau DLC Digimon Story Time Stranger",
+      "angle": "Annonce du DLC « A Hero’s Eternal Legacy » et ses plateformes de sortie",
+      "format": "breaking_news",
+      "hook": "Le prochain DLC de Digimon Story Time Stranger arrive sur PS5, Xbox Series X|S, Switch et PC ! Découvrez ce que vous réserve « A Hero’s Eternal Legacy ».",
+      "freshness": 9,
+      "click_potential": 8,
+      "curiosity": 7,
+      "shareability": 6,
+      "originality": 5,
+      "gamerquest_relevance": 9,
+      "total_score": 72.5
+    },
+    "carousel": {
+      "topic": "Nouveau DLC Digimon Story Time Stranger",
+      "angle": "Annonce du DLC « A Hero’s Eternal Legacy » et ses plateformes de sortie",
+      "format": "breaking_news",
+      "hook": "Le prochain DLC de Digimon Story Time Stranger arrive sur PS5, Xbox Series X|S, Switch et PC ! Découvrez ce que vous réserve « A Hero’s Eternal Legacy ».",
+      "score": 72.5,
+      "slides": [
+        {
+          "title": "Nouveau DLC Digimon annoncé",
+          "body": "Bandai Namco a présenté le DLC « A Hero’s Eternal Legacy » pour Digimon Story Time Stranger.",
+          "visual_prompt": "Illustration d'un Digimon stylisé dans un décor numérique futuriste, sans texte ni logo"
+        },
+        {
+          "title": "Plateformes du DLC",
+          "body": "Le DLC sera disponible sur PS5, Xbox Series X|S, Switch et PC.",
+          "visual_prompt": "Capture d'écran imaginaire du menu de sélection de plateforme montrant les icônes PS5, Xbox Series X|S, Switch et PC, sans texte"
+        },
+        {
+          "title": "Nouveautés du DLC",
+          "body": "Bandai Namco a détaillé les nouveautés apportées par « A Hero’s Eternal Legacy ».",
+          "visual_prompt": "Visuel d'un écran d'ordinateur affichant une page web de jeu avec des éléments graphiques de Digimon, sans texte ni logo"
+        }
+      ],
+      "caption": "Le DLC « A Hero’s Eternal Legacy » de Digimon Story Time Stranger est annoncé pour les principales consoles. 📢",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "41583639ee08ae54e3125effcec4e64230edfd8e63072ac78bbbd6d042dfeb20"
+    },
+    "caption": "Le DLC « A Hero’s Eternal Legacy » de Digimon Story Time Stranger est annoncé pour les principales consoles. 📢",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 2
+  }
+}

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-20T18:44:33.438998+00:00",
+  "updated_at": "2026-10-21T08:00:01.526432+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -11490,6 +11490,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Venom, Thor, X-Men's Jubilee and the \"Phoenix version of Cyclops\" coming to Marvel Tokon Year One"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-shogun-2-deserved-better-4f91b91c5e0e",
+      "topic": "Shogun 2 deserved better",
+      "detected_at": "2026-10-12T09:45:30.164567+00:00",
+      "analysed_at": "2026-10-21T08:00:01.526175+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/shogun-2-deserved-better/",
+          "title": "Shogun 2 deserved better",
+          "evidence": "<article> <p>I blink and I've somehow spent another 30 hours in Shogun 2. Undoubtedly my favorite of the older Total War games—and I don't say that lightly as someone who also has big hour counts in Rome and Medieval 2—there's just something so straightforward about the second Shogun; an elegant simplicity complimented by a period where the Creative Assembly was clearly having fun experimenting with all sorts of ideas.</p><p>It's no wonder it <a href=\"https://www.pcgamer.com/games/strategy/the-best-total-war-game-is-getting-a-remaster-with-50-newly-playable-factions-modern-visuals-and-a-full-japanese-voiceover/\" target=\"_blank\">chose to remaster the game</a> despite the fact it's arguably the <a href=\"https://www.pcgamer.com/total-war-shogun-2-review-224/\" target=\"_blank\">best aged Total War</a> there is. I'd happily go back and play Shogun 2 over Rome 2, or even Attila, which I think speaks to how well it holds up. It's definitely nice to play Shogun 2 with improved visuals (if you like the new style), modern unit controls, and full Japanese voice acting, but I think Creative Assembly missed the mark in terms of the remaster's other additions.</p><p>To give it a fair shot, I start"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Shogun 2 deserved better",
+        "secondary_keywords": [
+          "Shogun 2 deserved better date de sortie",
+          "Shogun 2 deserved better plateformes",
+          "Shogun 2 deserved better gameplay",
+          "Shogun 2 deserved better guide",
+          "Shogun 2 deserved better avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Shogun 2 deserved better"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-steam-week-in-review-the-curious-case-of-wonder-boy-in--aa819827b185",
+      "topic": "Steam Week in Review: The curious case of Wonder Boy in Monster Land's dubious PC debut",
+      "detected_at": "2026-10-12T09:45:30.165047+00:00",
+      "analysed_at": "2026-10-21T08:00:01.526225+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-the-curious-case-of-wonder-boy-in-monster-lands-dubious-pc-debut/",
+          "title": "Steam Week in Review: The curious case of Wonder Boy in Monster Land's dubious PC debut",
+          "evidence": "<article> <p>Wonder Boy in Monster Land released in Japanese arcades in 1987 and for the Sega Master System the following year. Its success led to numerous ports, including to ZX Spectrum, Commodore 64 and Atari ST. Oddly, it never received an official PC port, though that long absence appeared to have come to an end on September 28. </p><p>Did fans rejoice? Not really.</p><p>The <a href=\"https://store.steampowered.com/app/5166980/Wonderboy_in_Monster_Land/\">Steam listing for Wonderboy in Monster Land</a> raises one immediate red flag: note the rookie error of \"Wonderboy\" versus Wonder Boy. The developer and publisher is Retro Maniac, whose only other Steam game is Street Hoop, or Street Slam, an old Data East arcade game from 1994.</p><p>To bring you up to speed: LAT Corp owns all IP and assets once belonging to Westone Bit Entertainment, the creators of the original Wonder Boy games. But at the same time Sega, confusingly, owns the Wonder Boy trademark. In other words: LAT Corp owns the games, Sega owns the name. Both parties would need to OK any Wonder Boy re-release bearing the Wonder Boy name.</p><figure class=\"van-image-figure pull-right inline-layout\" data-bordeaux-image-che"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Steam Week in Review: The curious case of Wonder Boy in Monster Land's dubious PC debut",
+        "secondary_keywords": [
+          "Steam Week in Review: The curious case of Wonder Boy in Monster Land's dubious PC debut date de sortie",
+          "Steam Week in Review: The curious case of Wonder Boy in Monster Land's dubious PC debut plateformes",
+          "Steam Week in Review: The curious case of Wonder Boy in Monster Land's dubious PC debut gameplay",
+          "Steam Week in Review: The curious case of Wonder Boy in Monster Land's dubious PC debut guide",
+          "Steam Week in Review: The curious case of Wonder Boy in Monster Land's dubious PC debut avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Steam Week in Review: The curious case of Wonder Boy in Monster Land's dubious PC debut"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-star-wars-galactic-racer-s-devs-tested-its-roguelite-pr-e4b38b5da34b",
+      "topic": "Star Wars Galactic Racer's devs tested its roguelite progression system by turning it into a board game",
+      "detected_at": "2026-10-12T09:45:30.165222+00:00",
+      "analysed_at": "2026-10-21T08:00:01.526262+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/racing/star-wars-galactic-racers-devs-tested-its-roguelite-progression-system-by-turning-it-into-a-board-game/",
+          "title": "Star Wars Galactic Racer's devs tested its roguelite progression system by turning it into a board game",
+          "evidence": "<article> <p>Years ago, I read that Jake Solomon prototyped the Firaxis reboot of XCOM by making a simple board game version. Something rudimentary that could be played in the office on scrap paper to get ideas across and figure out where the fun would be, without having to commit. But it's surprising to hear the same idea being used for a game as different from XCOM's turn-based tactics as Star Wars Galactic Racer.</p><p>As Fuse Games' creative director Kieran Crimmins told <a href=\"https://www.eurogamer.net/star-wars-galactic-racer-devs-interview-game-feel-burnout-board-game\">Eurogamer</a>, \"You can't know if you can feel the system until you can play the system.\" And so the early prototype of this high-speed arcade racing game was indeed a board game.</p><p>\"You know, modern engines are so capable that you can do a lot of it in-software,\" CEO Matt Webster said, \"but there's still something [about that which is] not as fast as getting a written idea down. From a board game perspective, you sort of decouple yourself from a particular prototype and you're talking about moment-to-moment.\"</p><p>Specifically, the board game simulated Galactic Racer's progression system. Its rewards d"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Star Wars Galactic Racer's devs tested its roguelite progression system by turning it into a board game",
+        "secondary_keywords": [
+          "Star Wars Galactic Racer's devs tested its roguelite progression system by turning it into a board game date de sortie",
+          "Star Wars Galactic Racer's devs tested its roguelite progression system by turning it into a board game plateformes",
+          "Star Wars Galactic Racer's devs tested its roguelite progression system by turning it into a board game gameplay",
+          "Star Wars Galactic Racer's devs tested its roguelite progression system by turning it into a board game guide",
+          "Star Wars Galactic Racer's devs tested its roguelite progression system by turning it into a board game avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Star Wars Galactic Racer's devs tested its roguelite progression system by turning it into a board game"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-seamless-landing-mod-looks-set-to-bring-starfield-anoth-e3331f5e8556",
+      "topic": "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky",
+      "detected_at": "2026-10-12T09:45:30.165428+00:00",
+      "analysed_at": "2026-10-21T08:00:01.526290+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/seamless-landing-mod-looks-set-to-bring-starfield-another-step-closer-to-no-mans-sky/",
+          "title": "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/L-E7tspL6-c\" allowfullscreen></iframe></div></div><p>There are mods for <a href=\"https://www.nexusmods.com/starfield/mods/9666\">Seamless Grav Jumps</a> and for <a href=\"https://www.nexusmods.com/starfield/mods/17719\">Seamless Planet Takeoffs</a>. But when you arrive at a planet in Starfield you still have to choose a landing spot, and then watch a loading screen and an animation. It's another thing that contributes to the feeling your spaceship is more like a house that can teleport.</p><p>When you're in space, Starfield's planets are basically just textures you can fly right through if you put in the hours to try it, as <a href=\"https://www.pcgamer.com/streamer-sets-sail-for-the-surface-of-pluto-in-starfieldand-spends-7-hours-to-reach-a-cursed-orb-she-can-just-fly-through/\">Alanah Pearce discovered</a> back when the RPG's boundaries were still being explored. It seemed like one gap modders would never be able to paper over, but Frederik Wessberg has apparently managed it.</p><p>The video of his work-in-progress m"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky",
+        "secondary_keywords": [
+          "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky date de sortie",
+          "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky plateformes",
+          "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky gameplay",
+          "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky guide",
+          "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Seamless Landing mod looks set to bring Starfield another step closer to No Man's Sky"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-shortlist-for-2026-s-golden-joystick-awards-is-out--9a2841bd5472",
+      "topic": "The shortlist for 2026's Golden Joystick Awards is out, including PC Game of the Year, and you can vote now",
+      "detected_at": "2026-10-12T09:45:30.165583+00:00",
+      "analysed_at": "2026-10-21T08:00:01.526349+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/events-conferences/the-shortlist-for-2026s-golden-joystick-awards-is-out-including-pc-game-of-the-year-and-you-can-vote-now/",
+          "title": "The shortlist for 2026's Golden Joystick Awards is out, including PC Game of the Year, and you can vote now",
+          "evidence": "<article> <p>The Golden Joystick Awards have been running for so long there was a period where they awarded separate prizes for 8-bit and 16-bit games in each category. In 1988, rail shooter Operation Wolf was the 8-bit Computer Game of the Year, while the Bitmap Brothers' futuresport Speedball took home 16-bit Computer Game of the Year.</p><p>The shortlist of nominees in publicly voted categories for this year's 44th annual Golden Joystick Awards have been announced. (The nominees for Ultimate Game of the Year won't be revealed until October 26, when voting will open in that category too.) Of particular interest to us are the 10 games chosen for PC Game of the Year.</p><ul><li>Big Walk</li><li>Crimson Desert</li><li>Escape from Tarkov</li><li>Esoteric Ebb</li><li>Meccha Chameleon</li><li>Mewgenics</li><li>Order of the Sinking Star</li><li>Star War Zero Company</li><li>The Blood of Dawnwalker</li><li>Valheim</li></ul><p>To qualify these games had to be released between November 1, 2025, and September 25, 2026, unless pre-release versions could be made available to the judges before the deadline. What's your pick, and is there something you think deserved to make the cut that's miss"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The shortlist for 2026's Golden Joystick Awards is out, including PC Game of the Year, and you can vote now",
+        "secondary_keywords": [
+          "The shortlist for 2026's Golden Joystick Awards is out, including PC Game of the Year, and you can vote now date de sortie",
+          "The shortlist for 2026's Golden Joystick Awards is out, including PC Game of the Year, and you can vote now plateformes",
+          "The shortlist for 2026's Golden Joystick Awards is out, including PC Game of the Year, and you can vote now gameplay",
+          "The shortlist for 2026's Golden Joystick Awards is out, including PC Game of the Year, and you can vote now guide",
+          "The shortlist for 2026's Golden Joystick Awards is out, including PC Game of the Year, and you can vote now avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The shortlist for 2026's Golden Joystick Awards is out, including PC Game of the Year, and you can vote now"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-pvp-pinball-is-such-a-good-idea-i-can-t-believe-i-haven-9c0b71eaa5bf",
+      "topic": "PvP pinball is such a good idea I can't believe I haven't played it before",
+      "detected_at": "2026-10-12T09:45:30.165763+00:00",
+      "analysed_at": "2026-10-21T08:00:01.526380+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/pvp-pinball-is-such-a-good-idea-i-cant-believe-i-havent-played-it-before/",
+          "title": "PvP pinball is such a good idea I can't believe I haven't played it before",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/5JczXUe-99o\" allowfullscreen></iframe></div></div><p>One of the great things about videogame conventions is there are always people up for playing a local multiplayer game, just waiting to be handed controls and thrown into a new experience. Which is how, at PAX Australia over the weekend, I found myself playing a game called Bumper Bout. It immediately impressed me with its concept, and then as I played a few rounds of it, with how it executed that concept.</p><p>Bumper Bout is two-player competitive pinball. If you know Puyo Puyo Tetris it's like that, but if you don't then imagine you're playing pinball on one half of the screen while someone else beside you is doing the same, only with the ability to flick balls across the divide. While you're trying to land a skill shot or just frantically deal with the balls already pinging between your flippers, the neighbor casually lobs another problem over the fence and says, \"Deal with this. Good luck!\"</p><p>Bumper Bout had the honor of being chosen as the final game of"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "PvP pinball is such a good idea I can't believe I haven't played it before",
+        "secondary_keywords": [
+          "PvP pinball is such a good idea I can't believe I haven't played it before date de sortie",
+          "PvP pinball is such a good idea I can't believe I haven't played it before plateformes",
+          "PvP pinball is such a good idea I can't believe I haven't played it before gameplay",
+          "PvP pinball is such a good idea I can't believe I haven't played it before guide",
+          "PvP pinball is such a good idea I can't believe I haven't played it before avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "PvP pinball is such a good idea I can't believe I haven't played it before"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-yahtzee-is-still-out-there-being-mean-about-videogames--fb3a7c948623",
+      "topic": "Yahtzee is still out there being mean about videogames, and good for him",
+      "detected_at": "2026-10-12T09:45:30.165911+00:00",
+      "analysed_at": "2026-10-21T08:00:01.526404+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/yahtzee-is-still-out-there-being-mean-about-videogames-and-good-for-him/",
+          "title": "Yahtzee is still out there being mean about videogames, and good for him",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/iyGhI_JVOZI\" allowfullscreen></iframe></div></div><p>When the HMS Escapist sank everyone worth a damn swam away to form a YouTube channel called <a href=\"https://www.youtube.com/@SecondWindGroup/videos\">Second Wind</a>, where Yahtzee Croshaw's video series Zero Punctuation continued under the name Fully Ramblomatic. It's not exactly the same—the people have glasses now—but it's continuing the essential work of being rude about videogames on the internet.</p><p>Back in the Before Times, when someone brought a videogame magazine to school we'd all gather round to flick through it, and the only measure of whether it was a good videogame magazine was if the captions on the screenshots were funny. I didn't notice until years later, but that meant we only read the British ones.</p><p>That particularly British tone is something Yahtzee's videos share. It might come across as flippant to some, but to me it's always read as deep care. Putting in the effort to make a description witty instead of plain means you're working ha"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Yahtzee is still out there being mean about videogames, and good for him",
+        "secondary_keywords": [
+          "Yahtzee is still out there being mean about videogames, and good for him date de sortie",
+          "Yahtzee is still out there being mean about videogames, and good for him plateformes",
+          "Yahtzee is still out there being mean about videogames, and good for him gameplay",
+          "Yahtzee is still out there being mean about videogames, and good for him guide",
+          "Yahtzee is still out there being mean about videogames, and good for him avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Yahtzee is still out there being mean about videogames, and good for him"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-pov-horror-in-a-violent-nature-carves-out-a-release-dat-8c133ceb98c3",
+      "topic": "POV horror In A Violent Nature carves out a release date for sequel",
+      "detected_at": "2026-10-12T09:45:30.300946+00:00",
+      "analysed_at": "2026-10-21T08:00:01.526427+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/horror-movies/pov-horror-in-a-violent-nature-carves-out-a-release-date-for-sequel/",
+          "title": "POV horror In A Violent Nature carves out a release date for sequel",
+          "evidence": "<article> <p>Those who got their kicks seeing through a killer's eyes in 2024 with In A Violent Nature will get a second look next year, after New York Comic-Con revealed the release date for In A Violent Nature 2. </p><p><a href=\"https://www.gamesradar.com/entertainment/horror-movies/in-a-violent-nature-2s-first-trailer-reveals-a-full-blown-friday-the-13th-style-summer-camp-slasher-that-makes-jason-voorhees-look-like-childs-play/\">Following the release of the first trailer</a>, Ry Barrett, who played the undead firefighter Johnny in the previous film, was at NYCC and announced he’ll return to tear through another group of unfortunate souls on Valentine’s Day weekend, on February 12, 2027. </p><p>The new film will once again see Johnny return to summer camp, this time with his sights set on a camper who gets roped into attending the end-of-season party with his counselor sister and her friends. From there, horror and heavy breathing ensue as Johnny goes to work, and we get a front-row seat through all the gore and grisly bits. Lovely stuff.</p><p>The first film earned plenty of praise from audiences and critics for its refreshing new concept in the slasher genre, earning <a href=\"h"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "POV horror In A Violent Nature carves out a release date for sequel",
+        "secondary_keywords": [
+          "POV horror In A Violent Nature carves out a release date for sequel date de sortie",
+          "POV horror In A Violent Nature carves out a release date for sequel plateformes",
+          "POV horror In A Violent Nature carves out a release date for sequel gameplay",
+          "POV horror In A Violent Nature carves out a release date for sequel guide",
+          "POV horror In A Violent Nature carves out a release date for sequel avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "POV horror In A Violent Nature carves out a release date for sequel"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

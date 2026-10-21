@@ -1,0 +1,76 @@
+{
+  "source_id": "8e3d6209c2276468720b1a7df627c7f153fd507e4b4797265f1febb4aeab71da",
+  "carousel_version": "ddb1d1dfdb3d8ba6b5867955b40374fa042811f3590392f8989882d4ce1c8f46",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    833,
+    834,
+    835
+  ],
+  "prepared_at_utc": "2026-10-21T15:37:30.236093Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "8e3d6209c2276468720b1a7df627c7f153fd507e4b4797265f1febb4aeab71da",
+    "source_title": "State of Play septembre 2026 : toutes les annonces, dates de sortie et plateformes",
+    "score": 82.5,
+    "idea": {
+      "source_id": "8e3d6209c2276468720b1a7df627c7f153fd507e4b4797265f1febb4aeab71da",
+      "topic": "State of Play septembre 2026 – annonces majeures",
+      "angle": "Analyse des titres les plus attendus présentés, avec leurs dates de sortie et plateformes",
+      "format": "explainer",
+      "hook": "Tout ce que vous devez savoir sur les nouvelles sorties annoncées au State of Play : dates, plateformes et premières impressions",
+      "freshness": 10,
+      "click_potential": 9,
+      "curiosity": 8,
+      "shareability": 7,
+      "originality": 6,
+      "gamerquest_relevance": 10,
+      "total_score": 82.5
+    },
+    "carousel": {
+      "topic": "State of Play septembre 2026 – annonces majeures",
+      "angle": "Analyse des titres les plus attendus présentés, avec leurs dates de sortie et plateformes",
+      "format": "explainer",
+      "hook": "Tout ce que vous devez savoir sur les nouvelles sorties annoncées au State of Play : dates, plateformes et premières impressions",
+      "score": 82.5,
+      "slides": [
+        {
+          "title": "State of Play : le grand déballage",
+          "body": "Le 3 septembre 2026, Sony a présenté plusieurs nouveautés.",
+          "visual_prompt": "Scène dynamique représentant un salon futuriste avec plusieurs écrans affichant des silhouettes de jeux vidéo et des consoles, ambiance high‑tech."
+        },
+        {
+          "title": "≈20 titres annoncés, dates et plateformes",
+          "body": "Le show a présenté une vingtaine de jeux, avec leurs dates de sortie et les plateformes concernées.",
+          "visual_prompt": "Illustration abstraite montrant un calendrier stylisé entouré d’icônes de consoles (PS5, PC, etc.) et de contrôleurs de jeu."
+        },
+        {
+          "title": "Nouveau matériel PlayStation dévoilé",
+          "body": "En plus des jeux, Sony a présenté du nouveau matériel PlayStation.",
+          "visual_prompt": "Image d’un dispositif de jeu futuriste, élégant, posé sur une surface moderne, éclairage doux, sans texte ni logo."
+        }
+      ],
+      "caption": "Tout ce que vous devez savoir sur les annonces du State of Play septembre 2026 : dates, plateformes et nouveau matériel.",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "8e3d6209c2276468720b1a7df627c7f153fd507e4b4797265f1febb4aeab71da"
+    },
+    "caption": "Tout ce que vous devez savoir sur les annonces du State of Play septembre 2026 : dates, plateformes et nouveau matériel.",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 2
+  }
+}

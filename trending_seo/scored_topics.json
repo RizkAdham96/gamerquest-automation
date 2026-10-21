@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-21T08:00:01.526432+00:00",
+  "updated_at": "2026-10-21T18:55:20.223385+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -11802,6 +11802,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "POV horror In A Violent Nature carves out a release date for sequel"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-does-blizzard-s-revival-of-its-classic-games-signal-a-r-7163b12d8f9f",
+      "topic": "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?'",
+      "detected_at": "2026-10-12T22:14:47.713854+00:00",
+      "analysed_at": "2026-10-21T18:55:20.223113+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rts/does-blizzards-revival-of-its-classic-games-signal-a-return-of-the-old-blizzard/",
+          "title": "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?'",
+          "evidence": "<article> <p>There's a generation of millennial gamers who are haunted by an entity known as 'old Blizzard,' an allegedly more competent, creative, and virtuous version of the present-day Microsoft subsidiary based in Irvine, California.</p><p>For the nostalgia-afflicted, BlizzCon 2026 felt like a nod to those good ol' days of Blizzard—at least in terms of ambition and scale—as developers rolled out a slew of major announcements including World of Warcraft: Forever, Diablo 5, and an open world shooter in the StarCraft universe.</p><p>However, the most meaningful moment may have been the very first reveal that occurred on stage, when Blizzard president Johanna Faries received a tepid audience response after announcing that Heroes of the Storm—Blizzard's niche MOBA that had been relegated to bare bones <a href=\"https://news.blizzard.com/en-us/article/23820714/heroes-of-the-storm-update-july-8-2022\">maintenance mode</a> in 2022—would be welcoming WoW big-bad <a href=\"https://www.pcgamer.com/games/moba/heroes-of-the-storm-gets-first-new-hero-after-supposed-death-and-6-year-wait/\">Xal'atath</a> as a new playable character.</p><p>Blizzard surely drafted dozens of versions of its stage pr"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?'",
+        "secondary_keywords": [
+          "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?' date de sortie",
+          "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?' plateformes",
+          "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?' gameplay",
+          "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?' guide",
+          "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-why-alts-are-part-of-world-of-warcraft-forever-s-core-p-8ae7ea87564c",
+      "topic": "Why alts are part of World of Warcraft: Forever's core progression plans",
+      "detected_at": "2026-10-12T22:14:47.714113+00:00",
+      "analysed_at": "2026-10-21T18:55:20.223161+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/why-alts-are-part-of-world-of-warcraft-forevers-core-progression-plans/",
+          "title": "Why alts are part of World of Warcraft: Forever's core progression plans",
+          "evidence": "<article> <p>The developers of World of Warcraft: Forever would very much like it if you would create multiple characters, please.</p><p>There are a number of reasons for that, including that having lower level characters means you'll be well set up to welcome new friends to the game, as well as to experience the new leveling zones and dungeons and encounters coming in future patches, the developers tell us in exclusive interviews. So they're building in a bunch of incentives.</p><p>\"There will be reasons to play alts and to unlock Legacy points, to have new journeys,\" vice president and senior game director Ion Hazzikostas says.</p><p>The newest flavor of the juggernaut MMO launches November 4, and executive producer Holly Longdale says it's expected to be Warcraft's flavor of choice for people joining the game for the first time.</p><p>\"If you're new, this is the one, right?\" she says. \"This is the lowest barrier to entry that we have going.\"</p><p>Part of the game is the Legacy System, which awards achievement-style points for major accomplishments that players receive in the game. Those points can be placed in talent-tree-style options that give players major quality of life im"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Why alts are part of World of Warcraft: Forever's core progression plans",
+        "secondary_keywords": [
+          "Why alts are part of World of Warcraft: Forever's core progression plans date de sortie",
+          "Why alts are part of World of Warcraft: Forever's core progression plans plateformes",
+          "Why alts are part of World of Warcraft: Forever's core progression plans gameplay",
+          "Why alts are part of World of Warcraft: Forever's core progression plans guide",
+          "Why alts are part of World of Warcraft: Forever's core progression plans avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Why alts are part of World of Warcraft: Forever's core progression plans"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-get-an-emperor-modulator-in-arc-raiders-f79ce8231df1",
+      "topic": "How to get an Emperor Modulator in Arc Raiders",
+      "detected_at": "2026-10-12T22:14:47.714459+00:00",
+      "analysed_at": "2026-10-21T18:55:20.223215+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-emperor-modulator-location/",
+          "title": "How to get an Emperor Modulator in Arc Raiders",
+          "evidence": "<article> <figure role=\"gallery\"><figure><img src=\"https://cdn.mos.cms.futurecdn.net/G289TBbWHvy3emsiWJc5dc-1920-80.jpg\" alt=\"Arc Raiders Emperor Modulator - Coupler\" /><figcaption>You'll have to craft a key to The Emperor with three special Arc Coupler items and a blueprint<small role=\"credit\">Embark Studios</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/x3GZPqsdbLWcynEaepmAWc-1920-80.jpg\" alt=\"Arc Raiders Emperor Modulator - Damaged Emperor Relay\" /><figcaption>You can get these during the Redirection event by using beacons to call down Harvester Payloads<small role=\"credit\">Embark Studios</small></figcaption></figure></figure><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">⚡ Find the Emperor Modulator in the final loot room of the new Emperor dungeon.</p><p class=\"fancy-box__body-text\">⚡ This requires you to craft an Emperor Gateway Conduit via the Redirection event.</p><p class=\"fancy-box__body-text\">⚡ You also have to navigate through the encounters inside The Emperor.</p></div></div><p><a href=\"https://www.pcgamer.com/arc-raiders/\" target=\"_blank\">Arc Raiders</a>' "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to get an Emperor Modulator in Arc Raiders",
+        "secondary_keywords": [
+          "How to get an Emperor Modulator in Arc Raiders date de sortie",
+          "How to get an Emperor Modulator in Arc Raiders plateformes",
+          "How to get an Emperor Modulator in Arc Raiders gameplay",
+          "How to get an Emperor Modulator in Arc Raiders guide",
+          "How to get an Emperor Modulator in Arc Raiders avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to get an Emperor Modulator in Arc Raiders"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-don-t-know-what-rick-and-morty-s-about-but-i-have-tur-c112824c2556",
+      "topic": "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica",
+      "detected_at": "2026-10-12T22:14:47.714644+00:00",
+      "analysed_at": "2026-10-21T18:55:20.223247+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-dont-know-what-rick-and-mortys-about-but-i-have-turned-gta-5-into-its-perfect-replica/",
+          "title": "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>I have never seen an episode of Rick and Morty in my life. Here is what I know about it: there is a man who is a scientist, a boy, they sometimes play that one Blonde Redhead song, and the whole thing evinces very strong reactions in people—Sichuan sauce and whatnot.</p><p>Obviously, my understanding leaves something to be desired. I set out to educate myself. I installed <a href=\"https://www.gta5-mods.com/scripts/rick-two-crows-and-morty\">Rick, Two Crows, and Morty</a> for Grand Theft Auto 5. At the tap of a button, all the bounty of the TV show becomes available to you"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica",
+        "secondary_keywords": [
+          "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica date de sortie",
+          "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica plateformes",
+          "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica gameplay",
+          "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica guide",
+          "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-people-are-being-robbed-of-crypto-by-a-tiny-chip-implan-1f71be445623",
+      "topic": "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already",
+      "detected_at": "2026-10-12T22:14:47.714916+00:00",
+      "analysed_at": "2026-10-21T18:55:20.223279+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/people-are-being-robbed-of-crypto-by-a-tiny-chip-implanted-in-their-hardware-with-usd100-million-said-to-have-been-stolen-already/",
+          "title": "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already",
+          "evidence": "<article> <p>I never got into crypto, but when I was considering doing so I was pretty quickly convinced that I should use a hardware wallet to store my private keys, as these are usually considered to pose less of a risk of being hacked and stolen than storing everything online. But alas, it seems one of the most reputable hardware wallets on the market has fallen victim of a supply chain attack (via a reseller) that's reportedly left some users short of a tidy <a href=\"https://x.com/SpecterAnalyst/status/2108534068564373687?s=20\" target=\"_blank\">collective sum of at least $86 million</a> and, according to YFarmX's calculations, <a href=\"https://yfarmx.com/ledger-reseller-cryptobilis-drain/\" target=\"_blank\">potentially over $100 million</a>.</p><p>Ledger, the hardware wallet maker in question, has since said that as part of its investigation into the reports of stolen crypto, <a href=\"https://x.com/Ledger_Support/status/2108968264055345381?s=20\" target=\"_blank\">it can indeed confirm</a> that \"one of the impacted users' devices contained an unauthorised hardware implant.\"</p><p>The company <a href=\"https://x.com/Ledger/status/2109331538072494364\" target=\"_blank\">also says</a>, \"To "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already",
+        "secondary_keywords": [
+          "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already date de sortie",
+          "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already plateformes",
+          "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already gameplay",
+          "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already guide",
+          "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-schr-dinger-s-gpu-set-for-an-early-2027-release-as-the--917a7715102b",
+      "topic": "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more",
+      "detected_at": "2026-10-12T22:14:47.715109+00:00",
+      "analysed_at": "2026-10-21T18:55:20.223318+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/schrodingers-gpu-set-for-an-early-2027-release-as-the-dead-alive-24-gb-rtx-5080-super-box-is-shaken-once-more/",
+          "title": "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more",
+          "evidence": "<article> <p>It kinda looks like the only actually gaming-focused Nvidia GPU we're going to be left with next year is an <a href=\"https://www.pcgamer.com/hardware/graphics-cards/nvidia-rtx-5070-ti-review-msi-ventus-3x/\" target=\"_blank\">RTX 5070 Ti</a>. And even then only at a massively inflated price point. That's my personal takeaway from the rumours of the <a href=\"https://www.pcgamer.com/hardware/graphics-cards/nvidia-geforce-rtx-5090-fe-review/\" target=\"_blank\">RTX 5090</a> being axed in favour of shifting GB202 GPUs to professional RTX Pro cards, and of a 24 GB RTX 5080 being brought in to replace the 16 GB version in early 2027.</p><p>This comes from almost a throwaway paragraph towards the end of a post on <a href=\"https://benchlife.info/nvidia-geforce-rtx-5090-gb202-will-stop-allocation-to-aic-partners/\" target=\"_blank\">Benchlife about the bye-bye of the RTX 5090</a> from commercial production. According to the Taiwanese outlet, add-in board/card partners (AIBs or AICs) have been informed, verbally, that while they don't have anything concrete as yet, a 24 GB RTX 5080 will have its \"product development data\" released soon.</p><p>So, folks such as Asus and MSI have reportedl"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more",
+        "secondary_keywords": [
+          "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more date de sortie",
+          "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more plateformes",
+          "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more gameplay",
+          "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more guide",
+          "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-am-the-controller-now-mit-engineers-have-created-a-se-c46125a09e5c",
+      "topic": "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR",
+      "detected_at": "2026-10-12T22:14:47.715307+00:00",
+      "analysed_at": "2026-10-21T18:55:20.223344+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/vr-hardware/i-am-the-controller-now-mit-engineers-have-created-a-second-skin-that-could-one-day-track-whole-bodies-in-vr/",
+          "title": "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR",
+          "evidence": "<article> <p>Remember when <a href=\"https://www.pcgamer.com/games/action/they-did-motion-capture-on-a-cube/\" target=\"_blank\">they did motion capture on a cube</a>? Well, more specifically, they put actor Jack Quaid in a motion capture suit and <em>then </em>they put him inside a cube for his role in God of War Laufey. As charming as that cutting edge cuboid is, I think VR gamers and Vtubers are gonna be all over fresh research out of MIT.</p><p>Engineers at MIT have developed a sheet full of optical fibres that can digitally reconstruct its own shape even as it is flexed and folded. According to <a href=\"https://news.mit.edu/2026/shape-sensing-sheet-digitally-tracks-movement-bends-twists-1008\" target=\"_blank\">MIT News</a>, the team reckons their tech could be fashioned into a garment that could then be used to accurately mirror your real-world movements in a game.</p><p>Though currently a bulky prototype, the flexible sheet could one day be worn like a second skin that can more accurately track the transformation of a surface, rather than the movement of, say, fixed points on a traditional motion capture suit. What's arguably even cooler though is that the sheet is shown in a demo "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR",
+        "secondary_keywords": [
+          "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR date de sortie",
+          "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR plateformes",
+          "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR gameplay",
+          "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR guide",
+          "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-pearl-abyss-goes-easy-on-us-critics-for-our-crimson-des-fb8db9640ba8",
+      "topic": "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game'",
+      "detected_at": "2026-10-12T22:14:47.715476+00:00",
+      "analysed_at": "2026-10-21T18:55:20.223378+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 84,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/pearl-abyss-goes-easy-on-us-critics-for-our-crimson-desert-reviews-they-had-to-play-the-build-that-is-not-the-exact-same-version-of-the-launched-game/",
+          "title": "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game'",
+          "evidence": "<article> <ul><li>The Sims-style <a href=\"https://www.pcgamer.com/games/action/crimson-deserts-upcoming-dlc-decides-its-the-sims-now-i-guess/\">house building and customisation</a>.</li><li>133 <a href=\"https://www.pcgamer.com/games/rpg/crimson-desert-adds-133-new-trading-posts-and-overhauls-the-in-game-economy-with-supply-and-demand/\">new trading posts and economy overhauls</a> via supply and demand.</li><li><a href=\"https://www.pcgamer.com/games/rpg/crimson-deserts-latest-patch-adds-20-new-types-of-small-animal-and-then-hands-kliff-a-shotgun/\">20 new types of small animal. Also a shotgun</a>.</li><li><a href=\"https://www.pcgamer.com/games/action/i-stop-looking-for-5-seconds-and-now-crimson-desert-has-pinball-and-a-rideable-wyvern/\">Pinball</a>.</li><li><a href=\"https://www.pcgamer.com/games/action/i-love-that-crimson-deserts-latest-updates-have-effectively-transformed-it-into-a-birdwatching-simulator/\">Birdwatching</a>.</li><li>A pond for keeping fish. I only just learned about this one.</li></ul><p>And that's all already on top of the pre-existing camp management, minigames, pet loyalty and collection system, transmog, market manipulation and banking, cooking, fishing, mount coll"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game'",
+        "secondary_keywords": [
+          "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game' date de sortie",
+          "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game' plateformes",
+          "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game' gameplay",
+          "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game' guide",
+          "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

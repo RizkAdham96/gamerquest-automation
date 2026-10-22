@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-21T08:00:08.076303+00:00",
+  "updated_at": "2026-10-22T07:57:53.670058+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -273,6 +273,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-helldivers-2-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 832,
       "published_at": "2026-10-21T08:00:08.076303+00:00"
+    },
+    {
+      "intent_key": "helldivers 2 multijoueur",
+      "primary_keyword": "Helldivers 2 multijoueur",
+      "title": "Helldivers 2 multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/helldivers-2-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 840,
+      "published_at": "2026-10-22T07:57:53.670058+00:00"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-21T18:55:20.223385+00:00",
+  "updated_at": "2026-10-22T07:57:47.078507+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -12114,6 +12114,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
         "suggested_title": "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-rtx-4090-launched-four-years-ago-today-and-now-the--9f6318ec1474",
+      "topic": "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow",
+      "detected_at": "2026-10-12T22:14:47.715794+00:00",
+      "analysed_at": "2026-10-22T07:57:47.078223+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/the-rtx-4090-launched-four-years-ago-today-and-now-the-rtx-5090-is-rumoured-for-the-chop-i-cant-help-but-look-upon-it-with-a-warm-glow/",
+          "title": "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow",
+          "evidence": "<article> <p>Join me in saying \"Happy birthday\" to the RTX 4090, Nvidia's enthusiast-level graphics card of the previous generation. It launched four years ago today, October 12, with an eye-watering MSRP of $1,499.</p><p>Well, eye-watering for the time. The cheapest RTX 5080 I can find right now is<a href=\"https://www.amazon.com/ASUS-Prime-GeForce-Gaming-Graphics/dp/B0GZR4P62R/\" target=\"_blank\"> this Asus Prime variant for $1,640</a>, which is a sure sign of how things have changed in the past four years. When the second-from-top Nvidia card is now significantly more expensive than the launch MSRP of the previous generation big boi model, it's pretty easy to see how far we've fallen.</p><p>And the RTX 4090's direct replacement, the RTX 5090, has reached near-unobtanium status. We've stopped tracking it on our<a href=\"https://www.pcgamer.com/hardware/graphics-cards/graphics-card-price-watch-deals/\" target=\"_blank\"> graphics card price watch page</a>, as the only listings around are priced at ludicrous levels from third-party sellers we're not comfortable recommending. Now rumours suggest<a href=\"https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-halts-geforce-rtx-509"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow",
+        "secondary_keywords": [
+          "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow date de sortie",
+          "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow plateformes",
+          "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow gameplay",
+          "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow guide",
+          "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-your-washing-machine-is-subject-to-more-safety-rules-th-ef4ddce1002b",
+      "topic": "'Your washing machine is subject to more safety rules than AI' says Microsoft president",
+      "detected_at": "2026-10-12T22:14:47.716011+00:00",
+      "analysed_at": "2026-10-22T07:57:47.078281+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/your-washing-machine-is-subject-to-more-safety-rules-than-ai-says-microsoft-president/",
+          "title": "'Your washing machine is subject to more safety rules than AI' says Microsoft president",
+          "evidence": "<article> <p>Microsoft president Brad Smith claims that AI is currently less regulated than the food we eat and the utilities we rely on. \"Right now, your washing machine is subject to more safety rules than AI,\" Smith said, \"Every carton of milk that you see in the grocery store is subject to safety rules and inspection.\" </p><p>Smith isn't just talking about the US either, calling for safety rules to be put in place globally. Smith called for various safety measures while speaking <a href=\"https://www.bbc.co.uk/sounds/play/p0pfy9cf\" target=\"_blank\">on the BBC's Big Boss podcast</a>, including a legal obligation to notify victims if their systems have been compromised by rogue AI agents. This would definitely be timely, given how <a href=\"https://www.pcgamer.com/software/ai/openai-admits-several-of-its-ai-models-breached-testing-and-hacked-into-a-startups-network-by-themselves-calling-it-an-unprecedented-cyber-incident/\" target=\"_blank\">OpenAI's agents hacked into Hugging Face</a> and were the source of various other '<a href=\"https://www.pcgamer.com/software/ai/openai-publicly-acknowledges-the-german-wiki-incident-weeks-after-first-finding-out-about-it/\" target=\"_blank\">incidents"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'Your washing machine is subject to more safety rules than AI' says Microsoft president",
+        "secondary_keywords": [
+          "'Your washing machine is subject to more safety rules than AI' says Microsoft president date de sortie",
+          "'Your washing machine is subject to more safety rules than AI' says Microsoft president plateformes",
+          "'Your washing machine is subject to more safety rules than AI' says Microsoft president gameplay",
+          "'Your washing machine is subject to more safety rules than AI' says Microsoft president guide",
+          "'Your washing machine is subject to more safety rules than AI' says Microsoft president avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'Your washing machine is subject to more safety rules than AI' says Microsoft president"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-here-come-the-weird-and-wonderful-mods-for-the-steam-fr-c08f6e39b168",
+      "topic": "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free",
+      "detected_at": "2026-10-12T22:14:47.716136+00:00",
+      "analysed_at": "2026-10-22T07:57:47.078313+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/vr-hardware/here-come-the-weird-and-wonderful-mods-for-the-steam-frame-as-valve-drops-the-full-cad-files-for-free/",
+          "title": "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free",
+          "evidence": "<article> <p>Valve has released the <a href=\"https://gitlab.steamos.cloud/SteamHardware/SteamFrame\" target=\"_blank\">CAD files for the Steam Frame</a>, allowing modders the perfect opportunity to get to work on their own creations for the VR headset.</p><p>The light blocker—the bit that sits between the bridge of your nose and the headset—is primed for user replacement, as are the head strap, battery housing, facial interface and more. This CAD release includes the lot, along with the core module and controllers.</p><p>Valve has confirmed it is working on an upgraded head strap with interchangeable batteries and off-ear speakers for the Steam Frame. That's \"<a href=\"https://www.pcgamer.com/hardware/vr-hardware/valve-working-on-steam-frame-strap-that-adds-index-like-speakers-and-hot-swappable-batteries-coming-soon/\" target=\"_blank\">coming soon</a>\". With this CAD release, perhaps we'll see more options for third parties in future, too.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-eGbQVX\"></div> </div> <script src=\"https://kwizly.com/embed/eGbQVX.js\" async></script><p>The docs also detail <a href=\"https://gitlab.steamos.cloud/SteamHardware/SteamFrame/-/blob/maste"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free",
+        "secondary_keywords": [
+          "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free date de sortie",
+          "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free plateformes",
+          "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free gameplay",
+          "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free guide",
+          "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-algorithm-continues-to-properly-prioritise-mister-b-cd48480d8e2e",
+      "topic": "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature",
+      "detected_at": "2026-10-12T22:14:47.716314+00:00",
+      "analysed_at": "2026-10-22T07:57:47.078360+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/racing/the-algorithm-continues-to-properly-prioritise-mister-biddy-blas-star-wars-galactic-racer-has-created-the-perfect-creature/",
+          "title": "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/star-wars-galactic-racer/\">Star Wars: Galactic Racer</a> is out, and it's pretty solid, netting a firm 76 score in our <a href=\"https://www.pcgamer.com/games/racing/star-wars-galactic-racer-review/\">Galactic Racer review</a>. It's also, as should always be the case with Star Wars videogames, full of funny little guys. None so funny as Biddy Blas. Why is Biddy Blas so popular? Just listen to his voice actor having an absolute ball. I will have the words \"SCRIB DOON\" burned into my brain forevermore:</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Hv8U7YcJHAA\" allowfullscreen></iframe></div></div><p>I'm not even really seeking out much Galactic Racer content, and this guy's been cropping up on my recommended feeds, as observed by Lucasfilm Games executive producer <a href=\"https://x.com/craigderrick/status/2107867649497784719\" target=\"_blank\">Craig Derrick on X</a>: \"The algorithm continues to properly prioritize Mister Biddy Blas. I love it.\" </p><p>Blas is, in essence, a perfect \"Glup Shitto\". A fake character used as a sor"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature",
+        "secondary_keywords": [
+          "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature date de sortie",
+          "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature plateformes",
+          "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature gameplay",
+          "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature guide",
+          "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-our-humble-goal-is-to-survive-the-ai-revolution-says-ep-1118f0d33a73",
+      "topic": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
+      "detected_at": "2026-10-13T09:44:41.945285+00:00",
+      "analysed_at": "2026-10-22T07:57:47.078420+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/game-development/our-humble-goal-is-to-survive-the-ai-revolution-says-epic-games-ceo-as-its-star-wars-and-marvel-crossover-pivots-to-ai-first-development/",
+          "title": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
+          "evidence": "<article> <p>An unannounced Star Wars and Marvel shooter in the works at Epic Games has been delayed, and its creators instructed to take an \"AI first\" approach to development. Staff were advised of the pivot last week, according to a <a href=\"https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai\">Bloomberg</a> report, with the project delayed indefinitely from its (unannounced) March 2027 release.</p><p>That \"AI first\" approach seems pretty comprehensive: the instructions per Bloomberg are to \"implement an 'AI first' production model using tools such as Anthropic's Claude\". Art will be \"generated with full AI workflows\", according to the same set of instructions.</p><p>Shortly after Bloomberg's report was published, Epic Games CEO Tim Sweeney <a href=\"https://x.com/TimSweeneyEpic/status/2109705826688549304\">took to X</a> to share his own thoughts:</p><ul><li><strong>On AI use at Epic Games in general:</strong> \"We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration,\" he said. \"The aim isn't to do the same stuff with fewer people, but to enable everyone here to build MOR"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
+        "secondary_keywords": [
+          "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development date de sortie",
+          "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development plateformes",
+          "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development gameplay",
+          "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development guide",
+          "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-turn-off-your-backpack-light-in-arc-raiders-5e87cf32f50d",
+      "topic": "How to turn off your backpack light in Arc Raiders",
+      "detected_at": "2026-10-13T09:44:41.945646+00:00",
+      "analysed_at": "2026-10-22T07:57:47.078447+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-backpack-light-toggle/",
+          "title": "How to turn off your backpack light in Arc Raiders",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2288px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"EUbqy7iTdCPJCF4TVXRMc9\" name=\"arc-raiders-backpack-light-toggle\" alt=\"Arc Raiders backpack light toggle\" src=\"https://cdn.mos.cms.futurecdn.net/EUbqy7iTdCPJCF4TVXRMc9-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2288\" height=\"1287\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/EUbqy7iTdCPJCF4TVXRMc9-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"caption-text\">You're looking for the \"Emissive\" option </span><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Embark Studios)</span></figcaption></figure><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">💡 Arc Raiders now has an option to turn off the light on your backpack.</p><p class=\"fancy-box__body-text\">💡 This is "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to turn off your backpack light in Arc Raiders",
+        "secondary_keywords": [
+          "How to turn off your backpack light in Arc Raiders date de sortie",
+          "How to turn off your backpack light in Arc Raiders plateformes",
+          "How to turn off your backpack light in Arc Raiders gameplay",
+          "How to turn off your backpack light in Arc Raiders guide",
+          "How to turn off your backpack light in Arc Raiders avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to turn off your backpack light in Arc Raiders"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-bryan-cranston-and-aaron-paul-share-tributes-to-breakin-97d44174233d",
+      "topic": "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\"",
+      "detected_at": "2026-10-13T09:44:42.338478+00:00",
+      "analysed_at": "2026-10-22T07:57:47.078472+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/drama-shows/bryan-cranston-and-aaron-paul-share-tributes-to-breaking-bad-co-star-rj-mitte-im-in-deep-despair/",
+          "title": "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\"",
+          "evidence": "<article> <p>Bryan Cranston has shared a tribute to his on-screen son RJ Mitte following the actor's death aged 34. The Breaking Bad star played Cranston's son, Walter White Jr., on the beloved show. </p><p>\"I'm in deep despair as I write this tonight. RJ Mitte, my sweet son on Breaking Bad has died,\" Cranston wrote on Instagram. \"I met him when he was only 14 years old when he was cast as Walter White Jr., a part he played with such joy and enthusiasm.\"</p><p>In a lengthy tribute to the late actor, Cranston went on to praise his work as \"a vocal advocate for performers with disabilities\" and his philanthropic work. He wrote: \"Born with Cerebral Palsy, he never – ever – allowed that challenge to be an excuse for anything. He met the demanding shooting schedule head-on with great determination.\"</p><p>\"All that promise and potential now is such a loss,\" Cranston added, before writing: \"I’ll miss you, son.\"</p><div class=\"instagram-embed\"><blockquote class=\"instagram-media\" data-instgrm-version=\"6\" style=\"width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><p><a href=\"https://www.instagram.com/p/DeasvPaxoaA/\" target=\"_blank\">A post shared by Bryan Cranston (@bryan"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\"",
+        "secondary_keywords": [
+          "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\" date de sortie",
+          "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\" plateformes",
+          "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\" gameplay",
+          "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\" guide",
+          "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-castlevania-belmont-s-curse-review-gothic-brilliance-an-66492d69eeb3",
+      "topic": "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\"",
+      "detected_at": "2026-10-13T09:44:42.339006+00:00",
+      "analysed_at": "2026-10-22T07:57:47.078502+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/castlevania-belmonts-curse-review/",
+          "title": "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\"",
+          "evidence": "<article> <p>Castlevania: Belmont's Curse forced me to do something I have not done since playing my very first video game ever on the Sega Master System 2 in the early '90s. And that is: grabbing a pen and paper and writing down notes. Usually a method I reserved exclusively for Jankin matches in Alex Kidd in Miracle World, Belmont's Curse gave me so many cryptic clues, so many patterns to remember, so many intriguing characters or key items hidden away in places, that placing markers upon the map was simply not enough.</p><p>No, a game this complex warrants detailed manual transcription. Its recall challenges are a workout for the brain as much as its tricky traversals are a workout for the fingers and thumbs.</p><h2 id=\"the-seine-of-the-crime\">The Seine of the Crime</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"3tD6buovf9CAoPHaHys2Vb\" name=\"PR_castlevania_belmonts_curse_0608_05_1080\" alt=\"The rooftops of Paris are lit stark yellow and orange as a fire burns in Castlevania: Belmont's Curs"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\"",
+        "secondary_keywords": [
+          "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\" date de sortie",
+          "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\" plateformes",
+          "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\" gameplay",
+          "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\" guide",
+          "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\""
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

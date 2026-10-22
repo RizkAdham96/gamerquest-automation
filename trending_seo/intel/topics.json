@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-21T18:55:19.798133+00:00",
+  "updated_at": "2026-10-22T07:57:46.583801+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -45,290 +45,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "evg-config-2138710",
-      "topic": "Configuration PC Sifu : minimale, recommandée et conseils",
-      "detected_at": "2026-10-12T09:45:29.652236+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/2138710/",
-          "title": "Sifu sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Sifu, consultée le 2026-10-12. Développeur : Sloclap. Éditeur : Sloclap, Kepler Interactive. Date de sortie sur Steam : 28 mars 2023. Genres : Action, Indépendant. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation *: Windows 8.1 ; Processeur : AMD FX-4350 or Intel Core i5-3470 or equivalent ; Mémoire vive : 8 GB de mémoire ; Graphiques : Radeon R7 250 or GeForce GT 640 or equivalent ; DirectX : Version 11 ; Espace disque : 22 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : AMD FX-9590 or Intel Core i7-6700K or equivalent ; Mémoire vive : 10 GB de mémoire ; Graphiques : GeForce GTX 970 or Radeon R9 390X or equivalent ; DirectX : Version 12 ; Espace disque : 22 GB d'espace disque disponible.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/ss_9be1654f96e9fd6517fbe9107d76da245cbfaeb9.1920x1080.jpg?t=1782742326"
-        }
-      ],
-      "keywords": [
-        "configuration pc Sifu",
-        "Sifu PC",
-        "Sifu Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-2138710",
-      "topic": "Sifu multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-12T09:45:29.652282+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/2138710/",
-          "title": "Sifu sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Sifu, consultée le 2026-10-12. Développeur : Sloclap. Éditeur : Sloclap, Kepler Interactive. Date de sortie sur Steam : 28 mars 2023. Genres : Action, Indépendant. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Sifu est un jeu de combat réaliste à la troisième personne, avec des mécaniques pointues de kung-fu et une action digne des films d'arts martiaux qui vous entraîne dans une quête de vengeance.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/ss_9be1654f96e9fd6517fbe9107d76da245cbfaeb9.1920x1080.jpg?t=1782742326"
-        }
-      ],
-      "keywords": [
-        "Sifu multijoueur",
-        "Sifu PC",
-        "Sifu Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-config-413150",
-      "topic": "Configuration PC Stardew Valley : minimale, recommandée et conseils",
-      "detected_at": "2026-10-12T09:45:30.006665+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/413150/",
-          "title": "Stardew Valley sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Stardew Valley, consultée le 2026-10-12. Développeur : ConcernedApe. Éditeur : ConcernedApe. Date de sortie sur Steam : 26 févr. 2016. Genres : Indépendant, RPG, Simulation. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimale : ; Système d'exploitation *: Windows Vista or greater ; Processeur : 2 Ghz ; Mémoire vive : 2 GB de mémoire ; Graphiques : 256 mb video memory, shader model 3.0+ ; DirectX : Version 10 ; Espace disque : 500 MB d'espace disque disponible. La fiche Steam n'indique pas de configuration recommandée.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1786554168"
-        }
-      ],
-      "keywords": [
-        "configuration pc Stardew Valley",
-        "Stardew Valley PC",
-        "Stardew Valley Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-413150",
-      "topic": "Stardew Valley multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-12T09:45:30.006711+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/413150/",
-          "title": "Stardew Valley sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Stardew Valley, consultée le 2026-10-12. Développeur : ConcernedApe. Éditeur : ConcernedApe. Date de sortie sur Steam : 26 févr. 2016. Genres : Indépendant, RPG, Simulation. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Coop en LAN, Coop locale et écran partagé, Écran partagé, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Steam Cloud, Remote Play sur téléphone, Remote Play sur tablette, Remote Play Together, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1786554168"
-        }
-      ],
-      "keywords": [
-        "Stardew Valley multijoueur",
-        "Stardew Valley PC",
-        "Stardew Valley Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "rss-does-blizzard-s-revival-of-its-classic-games-signal-a-r-7163b12d8f9f",
-      "topic": "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?'",
-      "detected_at": "2026-10-12T22:14:47.713854+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rts/does-blizzards-revival-of-its-classic-games-signal-a-return-of-the-old-blizzard/",
-          "title": "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?'",
-          "evidence": "<article> <p>There's a generation of millennial gamers who are haunted by an entity known as 'old Blizzard,' an allegedly more competent, creative, and virtuous version of the present-day Microsoft subsidiary based in Irvine, California.</p><p>For the nostalgia-afflicted, BlizzCon 2026 felt like a nod to those good ol' days of Blizzard—at least in terms of ambition and scale—as developers rolled out a slew of major announcements including World of Warcraft: Forever, Diablo 5, and an open world shooter in the StarCraft universe.</p><p>However, the most meaningful moment may have been the very first reveal that occurred on stage, when Blizzard president Johanna Faries received a tepid audience response after announcing that Heroes of the Storm—Blizzard's niche MOBA that had been relegated to bare bones <a href=\"https://news.blizzard.com/en-us/article/23820714/heroes-of-the-storm-update-july-8-2022\">maintenance mode</a> in 2022—would be welcoming WoW big-bad <a href=\"https://www.pcgamer.com/games/moba/heroes-of-the-storm-gets-first-new-hero-after-supposed-death-and-6-year-wait/\">Xal'atath</a> as a new playable character.</p><p>Blizzard surely drafted dozens of versions of its stage pr"
-        }
-      ],
-      "keywords": [
-        "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?'",
-        "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?' date de sortie",
-        "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?' plateformes",
-        "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?' gameplay",
-        "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?' guide",
-        "Does Blizzard's revival of its classic games signal a return of the 'old Blizzard?' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-why-alts-are-part-of-world-of-warcraft-forever-s-core-p-8ae7ea87564c",
-      "topic": "Why alts are part of World of Warcraft: Forever's core progression plans",
-      "detected_at": "2026-10-12T22:14:47.714113+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/why-alts-are-part-of-world-of-warcraft-forevers-core-progression-plans/",
-          "title": "Why alts are part of World of Warcraft: Forever's core progression plans",
-          "evidence": "<article> <p>The developers of World of Warcraft: Forever would very much like it if you would create multiple characters, please.</p><p>There are a number of reasons for that, including that having lower level characters means you'll be well set up to welcome new friends to the game, as well as to experience the new leveling zones and dungeons and encounters coming in future patches, the developers tell us in exclusive interviews. So they're building in a bunch of incentives.</p><p>\"There will be reasons to play alts and to unlock Legacy points, to have new journeys,\" vice president and senior game director Ion Hazzikostas says.</p><p>The newest flavor of the juggernaut MMO launches November 4, and executive producer Holly Longdale says it's expected to be Warcraft's flavor of choice for people joining the game for the first time.</p><p>\"If you're new, this is the one, right?\" she says. \"This is the lowest barrier to entry that we have going.\"</p><p>Part of the game is the Legacy System, which awards achievement-style points for major accomplishments that players receive in the game. Those points can be placed in talent-tree-style options that give players major quality of life im"
-        }
-      ],
-      "keywords": [
-        "Why alts are part of World of Warcraft: Forever's core progression plans",
-        "Why alts are part of World of Warcraft: Forever's core progression plans date de sortie",
-        "Why alts are part of World of Warcraft: Forever's core progression plans plateformes",
-        "Why alts are part of World of Warcraft: Forever's core progression plans gameplay",
-        "Why alts are part of World of Warcraft: Forever's core progression plans guide",
-        "Why alts are part of World of Warcraft: Forever's core progression plans avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-how-to-get-an-emperor-modulator-in-arc-raiders-f79ce8231df1",
-      "topic": "How to get an Emperor Modulator in Arc Raiders",
-      "detected_at": "2026-10-12T22:14:47.714459+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-emperor-modulator-location/",
-          "title": "How to get an Emperor Modulator in Arc Raiders",
-          "evidence": "<article> <figure role=\"gallery\"><figure><img src=\"https://cdn.mos.cms.futurecdn.net/G289TBbWHvy3emsiWJc5dc-1920-80.jpg\" alt=\"Arc Raiders Emperor Modulator - Coupler\" /><figcaption>You'll have to craft a key to The Emperor with three special Arc Coupler items and a blueprint<small role=\"credit\">Embark Studios</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/x3GZPqsdbLWcynEaepmAWc-1920-80.jpg\" alt=\"Arc Raiders Emperor Modulator - Damaged Emperor Relay\" /><figcaption>You can get these during the Redirection event by using beacons to call down Harvester Payloads<small role=\"credit\">Embark Studios</small></figcaption></figure></figure><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">⚡ Find the Emperor Modulator in the final loot room of the new Emperor dungeon.</p><p class=\"fancy-box__body-text\">⚡ This requires you to craft an Emperor Gateway Conduit via the Redirection event.</p><p class=\"fancy-box__body-text\">⚡ You also have to navigate through the encounters inside The Emperor.</p></div></div><p><a href=\"https://www.pcgamer.com/arc-raiders/\" target=\"_blank\">Arc Raiders</a>' "
-        }
-      ],
-      "keywords": [
-        "How to get an Emperor Modulator in Arc Raiders",
-        "How to get an Emperor Modulator in Arc Raiders date de sortie",
-        "How to get an Emperor Modulator in Arc Raiders plateformes",
-        "How to get an Emperor Modulator in Arc Raiders gameplay",
-        "How to get an Emperor Modulator in Arc Raiders guide",
-        "How to get an Emperor Modulator in Arc Raiders avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-don-t-know-what-rick-and-morty-s-about-but-i-have-tur-c112824c2556",
-      "topic": "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica",
-      "detected_at": "2026-10-12T22:14:47.714644+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-dont-know-what-rick-and-mortys-about-but-i-have-turned-gta-5-into-its-perfect-replica/",
-          "title": "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>I have never seen an episode of Rick and Morty in my life. Here is what I know about it: there is a man who is a scientist, a boy, they sometimes play that one Blonde Redhead song, and the whole thing evinces very strong reactions in people—Sichuan sauce and whatnot.</p><p>Obviously, my understanding leaves something to be desired. I set out to educate myself. I installed <a href=\"https://www.gta5-mods.com/scripts/rick-two-crows-and-morty\">Rick, Two Crows, and Morty</a> for Grand Theft Auto 5. At the tap of a button, all the bounty of the TV show becomes available to you"
-        }
-      ],
-      "keywords": [
-        "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica",
-        "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica date de sortie",
-        "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica plateformes",
-        "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica gameplay",
-        "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica guide",
-        "I don't know what Rick and Morty's about but I have turned GTA 5 into its perfect replica avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-people-are-being-robbed-of-crypto-by-a-tiny-chip-implan-1f71be445623",
-      "topic": "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already",
-      "detected_at": "2026-10-12T22:14:47.714916+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/people-are-being-robbed-of-crypto-by-a-tiny-chip-implanted-in-their-hardware-with-usd100-million-said-to-have-been-stolen-already/",
-          "title": "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already",
-          "evidence": "<article> <p>I never got into crypto, but when I was considering doing so I was pretty quickly convinced that I should use a hardware wallet to store my private keys, as these are usually considered to pose less of a risk of being hacked and stolen than storing everything online. But alas, it seems one of the most reputable hardware wallets on the market has fallen victim of a supply chain attack (via a reseller) that's reportedly left some users short of a tidy <a href=\"https://x.com/SpecterAnalyst/status/2108534068564373687?s=20\" target=\"_blank\">collective sum of at least $86 million</a> and, according to YFarmX's calculations, <a href=\"https://yfarmx.com/ledger-reseller-cryptobilis-drain/\" target=\"_blank\">potentially over $100 million</a>.</p><p>Ledger, the hardware wallet maker in question, has since said that as part of its investigation into the reports of stolen crypto, <a href=\"https://x.com/Ledger_Support/status/2108968264055345381?s=20\" target=\"_blank\">it can indeed confirm</a> that \"one of the impacted users' devices contained an unauthorised hardware implant.\"</p><p>The company <a href=\"https://x.com/Ledger/status/2109331538072494364\" target=\"_blank\">also says</a>, \"To "
-        }
-      ],
-      "keywords": [
-        "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already",
-        "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already date de sortie",
-        "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already plateformes",
-        "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already gameplay",
-        "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already guide",
-        "People are being robbed of crypto by a tiny chip implanted in their hardware, with $100 million said to have been stolen already avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-schr-dinger-s-gpu-set-for-an-early-2027-release-as-the--917a7715102b",
-      "topic": "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more",
-      "detected_at": "2026-10-12T22:14:47.715109+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/graphics-cards/schrodingers-gpu-set-for-an-early-2027-release-as-the-dead-alive-24-gb-rtx-5080-super-box-is-shaken-once-more/",
-          "title": "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more",
-          "evidence": "<article> <p>It kinda looks like the only actually gaming-focused Nvidia GPU we're going to be left with next year is an <a href=\"https://www.pcgamer.com/hardware/graphics-cards/nvidia-rtx-5070-ti-review-msi-ventus-3x/\" target=\"_blank\">RTX 5070 Ti</a>. And even then only at a massively inflated price point. That's my personal takeaway from the rumours of the <a href=\"https://www.pcgamer.com/hardware/graphics-cards/nvidia-geforce-rtx-5090-fe-review/\" target=\"_blank\">RTX 5090</a> being axed in favour of shifting GB202 GPUs to professional RTX Pro cards, and of a 24 GB RTX 5080 being brought in to replace the 16 GB version in early 2027.</p><p>This comes from almost a throwaway paragraph towards the end of a post on <a href=\"https://benchlife.info/nvidia-geforce-rtx-5090-gb202-will-stop-allocation-to-aic-partners/\" target=\"_blank\">Benchlife about the bye-bye of the RTX 5090</a> from commercial production. According to the Taiwanese outlet, add-in board/card partners (AIBs or AICs) have been informed, verbally, that while they don't have anything concrete as yet, a 24 GB RTX 5080 will have its \"product development data\" released soon.</p><p>So, folks such as Asus and MSI have reportedl"
-        }
-      ],
-      "keywords": [
-        "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more",
-        "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more date de sortie",
-        "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more plateformes",
-        "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more gameplay",
-        "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more guide",
-        "Schrödinger's GPU set for an early 2027 release as the dead/alive 24 GB RTX 5080 Super box is shaken once more avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-am-the-controller-now-mit-engineers-have-created-a-se-c46125a09e5c",
-      "topic": "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR",
-      "detected_at": "2026-10-12T22:14:47.715307+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/vr-hardware/i-am-the-controller-now-mit-engineers-have-created-a-second-skin-that-could-one-day-track-whole-bodies-in-vr/",
-          "title": "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR",
-          "evidence": "<article> <p>Remember when <a href=\"https://www.pcgamer.com/games/action/they-did-motion-capture-on-a-cube/\" target=\"_blank\">they did motion capture on a cube</a>? Well, more specifically, they put actor Jack Quaid in a motion capture suit and <em>then </em>they put him inside a cube for his role in God of War Laufey. As charming as that cutting edge cuboid is, I think VR gamers and Vtubers are gonna be all over fresh research out of MIT.</p><p>Engineers at MIT have developed a sheet full of optical fibres that can digitally reconstruct its own shape even as it is flexed and folded. According to <a href=\"https://news.mit.edu/2026/shape-sensing-sheet-digitally-tracks-movement-bends-twists-1008\" target=\"_blank\">MIT News</a>, the team reckons their tech could be fashioned into a garment that could then be used to accurately mirror your real-world movements in a game.</p><p>Though currently a bulky prototype, the flexible sheet could one day be worn like a second skin that can more accurately track the transformation of a surface, rather than the movement of, say, fixed points on a traditional motion capture suit. What's arguably even cooler though is that the sheet is shown in a demo "
-        }
-      ],
-      "keywords": [
-        "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR",
-        "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR date de sortie",
-        "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR plateformes",
-        "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR gameplay",
-        "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR guide",
-        "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-pearl-abyss-goes-easy-on-us-critics-for-our-crimson-des-fb8db9640ba8",
-      "topic": "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game'",
-      "detected_at": "2026-10-12T22:14:47.715476+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rpg/pearl-abyss-goes-easy-on-us-critics-for-our-crimson-desert-reviews-they-had-to-play-the-build-that-is-not-the-exact-same-version-of-the-launched-game/",
-          "title": "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game'",
-          "evidence": "<article> <ul><li>The Sims-style <a href=\"https://www.pcgamer.com/games/action/crimson-deserts-upcoming-dlc-decides-its-the-sims-now-i-guess/\">house building and customisation</a>.</li><li>133 <a href=\"https://www.pcgamer.com/games/rpg/crimson-desert-adds-133-new-trading-posts-and-overhauls-the-in-game-economy-with-supply-and-demand/\">new trading posts and economy overhauls</a> via supply and demand.</li><li><a href=\"https://www.pcgamer.com/games/rpg/crimson-deserts-latest-patch-adds-20-new-types-of-small-animal-and-then-hands-kliff-a-shotgun/\">20 new types of small animal. Also a shotgun</a>.</li><li><a href=\"https://www.pcgamer.com/games/action/i-stop-looking-for-5-seconds-and-now-crimson-desert-has-pinball-and-a-rideable-wyvern/\">Pinball</a>.</li><li><a href=\"https://www.pcgamer.com/games/action/i-love-that-crimson-deserts-latest-updates-have-effectively-transformed-it-into-a-birdwatching-simulator/\">Birdwatching</a>.</li><li>A pond for keeping fish. I only just learned about this one.</li></ul><p>And that's all already on top of the pre-existing camp management, minigames, pet loyalty and collection system, transmog, market manipulation and banking, cooking, fishing, mount coll"
-        }
-      ],
-      "keywords": [
-        "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game'",
-        "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game' date de sortie",
-        "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game' plateformes",
-        "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game' gameplay",
-        "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game' guide",
-        "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-the-rtx-4090-launched-four-years-ago-today-and-now-the--9f6318ec1474",
       "topic": "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow",
@@ -6019,6 +5735,294 @@
         "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low gameplay",
         "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low guide",
         "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-ex-blizzard-boss-says-an-1-800-xbox-will-never-sell-and-9b0f430f98ca",
+      "topic": "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people",
+      "detected_at": "2026-10-22T07:57:46.580962+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/platforms/xbox/ex-blizzard-boss-says-an-usd1800-xbox-will-never-sell-and-current-gen-consoles-are-fine-for-99-percent-of-the-audience-anyway/",
+          "title": "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people",
+          "evidence": "<article> <p>Former Blizzard president Mike Ybarra doesn't like what he's hearing about the next Xbox console costing somewhere in the range of $1,200 to $1,800, as was recently reported.</p><p>In case you hadn't heard, yes, I'm afraid I bring you <a href=\"https://www.gamesradar.com/hardware/us-console-market-hasnt-been-in-a-more-precarious-position-since-the-early-80s-analyst-says-as-ps5-and-xbox-series-x-price-soar-to-all-time-highs/\">even more bad news about the games console market</a>. A recent report from <a href=\"https://fortune.com/2026/10/20/the-non-gamer-ceo-racing-to-save-microsofts-xbox/\" target=\"_blank\">Fortune</a> claims <a href=\"https://www.gamesradar.com/hardware/xbox-project-helix-console-could-cost-as-much-as-usd1-800-and-is-reportedly-set-to-launch-by-christmas-2028/\">Microsoft is projecting internally that its next home console will \"cost consumers between $1,200 and $1,800,\"</a> assuming Xbox doesn't subsidize some of that cost and take a potential financial loss on hardware sales. Even amid an unprecedented increase in component costs driven by global <a href=\"https://www.gamesradar.com/hardware/desktop-pc/ram-shortages-explained-why-the-worlds-supply-of-compu"
+        }
+      ],
+      "keywords": [
+        "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people",
+        "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people date de sortie",
+        "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people plateformes",
+        "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people gameplay",
+        "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people guide",
+        "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-batman-is-around-during-the-events-of-clayface-confirms-8e43b7be6984",
+      "topic": "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\"",
+      "detected_at": "2026-10-22T07:57:46.581173+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/batman-is-around-during-the-events-of-clayface-confirms-dc-studios-co-ceo-this-is-the-introduction-to-the-live-action-gotham/",
+          "title": "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\"",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/dc-movies/clayface-release-date-plot-cast-news/\">Clayface</a> is almost upon us, and DC Studios co-CEO Peter Safran has confirmed that Batman is indeed active in Gotham during the events of the upcoming film.</p><p>\"We haven't really talked about what he's doing during the actual events of Clayface,\" Safran told<a href=\"https://collider.com/clayface-movie-batman-dc-studios-peter-safran-interview/?utm_campaign=TrueAnthem-HWL&utm_medium=Social-Distribution&utm_source=Twitter\" target=\"_blank\"> Collider</a>. \"But Batman is there. This is the introduction to the live-action Gotham. We showed a silhouette of Batman in Creature Commandos, so you know he's around, but this is the first step into the world of Gotham for us.\"</p><p>Batman appears for just a moment in Creature Commandos season 1 episode 6, standing on the rooftop overlooking the Penguin's nightclub. <a href=\"https://www.gamesradar.com/entertainment/dc-tv-shows/lanterns-showrunner-says-they-didnt-want-to-make-a-big-deal-about-the-dcu-shows-batman-mention-in-episode-6-there-were-fewer-conversations-than-youd-think/\">We got our first live-action mention of Batman in "
+        }
+      ],
+      "keywords": [
+        "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\"",
+        "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\" date de sortie",
+        "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\" plateformes",
+        "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\" gameplay",
+        "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\" guide",
+        "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-penguin-showrunner-to-produce-dc-poison-ivy-tv-show-won-0b885317d851",
+      "topic": "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe",
+      "detected_at": "2026-10-22T07:57:46.581359+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-tv-shows/the-penguin-showrunner-is-in-talks-to-produce-dcs-live-action-poison-ivy-tv-show-but-it-wont-be-set-in-the-matt-reeves-batman-universe/",
+          "title": "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe",
+          "evidence": "<article> <p>As <a href=\"https://www.gamesradar.com/entertainment/dc-movies/clayface-release-date-plot-cast-news/\">Clayface </a>rolls into theaters, another standalone project based on a Batman villain is moving forward at DC. The previously rumored live-action Poison Ivy TV series is a go, and The Penguin showrunner Lauren LeFranc is in talks to produce.</p><p>According to <a href=\"https://deadline.com/2026/10/lauren-lefranc-producer-poison-ivy-tv-series-hbo-1237169887/\" target=\"_blank\">Deadline</a>, the upcoming Poison Ivy series will be part of the DCU, rather than being part of Elseworlds, which is the universe that belongs to Matt Reeves and The Penguin. No plot or casting details have been announced as of yet. We also don't know if any other spin-offs will come out of the Matt Reeves Batman universe, as The Batman 2 doesn't hit theaters until 2028.</p><p>Poison Ivy made her comic book debut back in 1966 in Batman #181, first introduced as Dr. Lillian Rose. A doctor of botany, she survives an attempted poisoning and realizes she's immune to all toxins and diseases. In 1988, she was reimagined as Dr. Pamela Isley, a Gotham City botanist who develops plant-like superpowers after"
+        }
+      ],
+      "keywords": [
+        "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe",
+        "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe date de sortie",
+        "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe plateformes",
+        "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe gameplay",
+        "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe guide",
+        "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-star-wars-battlefront-3-reportedly-in-the-works-at-resp-653aac551db0",
+      "topic": "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice",
+      "detected_at": "2026-10-22T07:57:46.581588+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/star-wars-battlefront-3-reportedly-in-the-works-at-respawn-and-dice-in-the-wake-of-eas-bioware-shutdown/",
+          "title": "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice",
+          "evidence": "<article> <p>In the wake of <a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">EA's closure of beloved RPG studio BioWare</a>, two other EA studios are teaming up for an undisclosed project reported to be a revival of Star Wars: Battlefront 3.</p><p>It's been several years now since <a href=\"https://www.gamesradar.com/star-wars-battlefront-3-reportedly-shelved-in-favor-of-new-games-at-respawn/\">reports claimed</a> Star Wars: Battlefront 3 had been shelved EA, but just this week <a href=\"https://www.gamesradar.com/games/fps/star-wars-battlefront-3-rumors-get-an-unexpected-boost-from-wardogs-ceo-who-says-battlefield-studio-dice-is-working-on-it-alongside-apex-legends-devs/\">rumors of a revival and team-up between Respawn and Dice surfaced</a>. And now, those rumors are heavily substantiated as EA confirms it's \"bringing together our Respawn and DICE studios to collaborate on a future project,\" and <a href=\"https://variety.com/2026/digital/news/ea-layoffs-bioware-shutting-down-respawn-dice-star-wars-battlefront-3-1236918715/\" target=\"_blank\">Variety</a> reports that the game they're working on together is Star W"
+        }
+      ],
+      "keywords": [
+        "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice",
+        "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice date de sortie",
+        "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice plateformes",
+        "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice gameplay",
+        "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice guide",
+        "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-witcher-and-cyberpunk-2077-devs-join-creators-mourn-74217dfd44a8",
+      "topic": "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare",
+      "detected_at": "2026-10-22T07:57:46.581956+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/the-witcher-and-cyberpunk-2077-devs-join-creators-mourning-bioware-baldurs-gate-1-and-2-shaped-my-imagination-and-the-desire-to-create-games/",
+          "title": "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">EA has closed BioWare</a>, canceled the next Mass Effect, and, most importantly, upended the lives of even more game developers in a tumultuous time for the industry. In response, developers are paying tribute to the legendary RPG studio online, with many calling its games pivotal to their own creative paths.</p><p>17-year BioWare veteran and longtime director Michael Gamble <a href=\"https://x.com/GambleMike/status/2112971592158568450\" target=\"_blank\"><u>shared</u></a> the studio's news post. \"Your support has meant everything to me over the past 17 years at BioWare,\" he writes. </p><p>New Bungie head Josh Deane replied to Gamble's post, saying, \"Thank you and to everyone at Bioware who has built worlds that have been such an important part of our lives.\" In a separate <a href=\"https://x.com/S14deane/status/2112963871728414766\" target=\"_blank\"><u>post</u></a>, Deane adds, \"This studio is magical and an existential part of my favorite gaming memories, I refuse to believe this...\" </p><p>CD Projekt Red veteran Paweł Sasko, a face of the studio to m"
+        }
+      ],
+      "keywords": [
+        "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare",
+        "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare date de sortie",
+        "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare plateformes",
+        "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare gameplay",
+        "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare guide",
+        "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-diablo-4-players-find-homebrew-fix-to-a-huge-season-15--8be2e166a926",
+      "topic": "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend",
+      "detected_at": "2026-10-22T07:57:46.582169+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/diablo-4-players-rally-for-a-homebrew-fix-to-a-huge-season-15-annoyance-but-youll-need-at-least-one-very-good-friend/",
+          "title": "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend",
+          "evidence": "<article> <p>The Splinters of Evil are some of Diablo 4 season 15's rarest drops, but once you get your hands on a specific type – Hatred, Terror, or Destruction – that's all you can hold of that type at once. Blizzard seems to have intentionally designed this specific seasonal drop to not stack, meaning you can only have one splinter of each type in your inventory at once. That might seem like a pretty niche problem applicable only to endgame players in the highest Torment tiers, and it is, but for those players it's a major issue precisely because splinters are so rare. Imagine having to walk away from one of the game's rarest drops simply because you already have one in your inventory, and then you can understand why endgame grinders have rallied for a homebrew solution, and found one.</p><p>As detailed in a new video from prolific Diablo creator Rob2628, there's a fairly simple – but tedious – workaround you can do if you <em>really </em>want duplicate splinters in your inventory. As Rob2628 points out, you'll need at least one friend who's leveled enough in Diablo 4 to access Torment tier 10 where you can farm Splinters of Evil from Diablo, Mephisto, and Baal. </p><p>Once you'"
+        }
+      ],
+      "keywords": [
+        "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend",
+        "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend date de sortie",
+        "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend plateformes",
+        "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend gameplay",
+        "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend guide",
+        "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-clayface-review-skin-deep-thrills-and-spills-mask-an-un-17e3611ce2bc",
+      "topic": "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\"",
+      "detected_at": "2026-10-22T07:57:46.582544+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/clayface-review/",
+          "title": "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\"",
+          "evidence": "<article> <p>Over the years, Clayface has come in many shapes and sizes: thespian comedy sidekick in the Harley Quinn series, meme minifigure in the LEGO Batman games, and even as the focal point of Emmy-nominated two-parter 'Feat of Clay' in the seminal 1990s show Batman: The Animated Series.</p><p>2026's Clayface – the first outright horror in the DCU – taps into the rich narrative vein of the latter, molding the comic book villain into a tragic, deeply troubled figure that manages to escape the long shadow of the Bat for his own flawed, grisly rampage through Gotham.</p><p>Fresh off an Oscar nomination, the world of sandy-blonde actor Matt Hagen (a starmaking performance from Tom Rhys Harries) soon crashes down around him after bedding the girlfriend of crime boss Markos Szabo (David Dencik). The repercussions are severe and instant in a breezy first act: Hagen's face is slashed to pieces. His one saving grace is experimental nanocell surgery by outcast scientist Dr. Caitlyn Corr (Naomi Ackie).</p><p>From there, Hagen's internal strife is quickly swept to one side, despite Rhys Harries' best efforts (the first casualty of Mike Flanagan and Hossein Amini's underbaked script), for"
+        }
+      ],
+      "keywords": [
+        "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\"",
+        "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\" date de sortie",
+        "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\" plateformes",
+        "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\" gameplay",
+        "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\" guide",
+        "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-is-call-of-duty-mw4-dmz-free-to-play-970c440b9284",
+      "topic": "Is Call of Duty MW4 DMZ free to play?",
+      "detected_at": "2026-10-22T07:57:46.582830+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/call-of-duty/is-modern-warfare-4-dmz-free-to-play/",
+          "title": "Is Call of Duty MW4 DMZ free to play?",
+          "evidence": "<article> <p>Is DMZ free to play? The return of the multiplayer mode in Call of Duty Modern Warfare 4 has been drawing a lot of attention, as part of the current trend of Extraction shooter gameplay, with many looking forward to this particular return to extraction combat. Call of Duty has also previously released certain modes for free, separately from the larger games that they're released with (such as Warzone) so there was always a chance that DMZ was going to be free to download and play. But is it?</p><h2 class=\"article-body__section\" id=\"section-can-you-play-modern-warfare-4-dmz-for-free\"><span>Can you play Modern Warfare 4 DMZ for free?</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"q2uD5dZvp697ze9dAtm7un\" name=\"PR_MW4_DMZDeepDive_Infil_01\" alt=\"Three players ready their weapons next to a miliary truck in Call of Duty: Modern Warfare 4's DMZ mode\" src=\"https://cdn.mos.cms.futurecdn.net/q2uD5dZvp697ze9dAtm7un-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"1920\" height"
+        }
+      ],
+      "keywords": [
+        "Is Call of Duty MW4 DMZ free to play?",
+        "Is Call of Duty MW4 DMZ free to play? date de sortie",
+        "Is Call of Duty MW4 DMZ free to play? plateformes",
+        "Is Call of Duty MW4 DMZ free to play? gameplay",
+        "Is Call of Duty MW4 DMZ free to play? guide",
+        "Is Call of Duty MW4 DMZ free to play? avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-where-to-find-the-counting-room-vault-in-mw4-dmz-44211ee8c003",
+      "topic": "Where to find the Counting Room Vault in MW4 DMZ",
+      "detected_at": "2026-10-22T07:57:46.583022+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/call-of-duty/modern-warfare-4-dmz-counting-room-vault/",
+          "title": "Where to find the Counting Room Vault in MW4 DMZ",
+          "evidence": "<article> <p>The Casino Counting Room Vault in the Call of Duty Modern Warfare 4 DMZ is something that players are told about after completing the Silent Ledger story mission, which rewards them with a Counting Room Vault Key that they can use… Only it's not clear exactly where to look to find it. Fortunately I've found the Casino Counting Room, and can show you exactly where you need to look to use this key and get the rewards.</p><h2 class=\"article-body__section\" id=\"section-counting-room-vault-location-in-modern-warfare-4-dmz\"><span>Counting Room Vault location in Modern Warfare 4 DMZ</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2036px;\"><p class=\"vanilla-image-block\" style=\"padding-top:89.15%;\"><img id=\"SbHMTBrvb74uSYditUQcUJ\" name=\"DMZ Counting Room Vault map\" alt=\"Counting Room Vault in Modern Warfare 4 DMZ\" src=\"https://cdn.mos.cms.futurecdn.net/SbHMTBrvb74uSYditUQcUJ-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2036\" height=\"1815\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/SbHMTBrvb7"
+        }
+      ],
+      "keywords": [
+        "Where to find the Counting Room Vault in MW4 DMZ",
+        "Where to find the Counting Room Vault in MW4 DMZ date de sortie",
+        "Where to find the Counting Room Vault in MW4 DMZ plateformes",
+        "Where to find the Counting Room Vault in MW4 DMZ gameplay",
+        "Where to find the Counting Room Vault in MW4 DMZ guide",
+        "Where to find the Counting Room Vault in MW4 DMZ avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-steam-store-goes-down-as-valve-seemingly-joins-the--03fc3297e10c",
+      "topic": "The Steam store goes down as Valve seemingly joins the whole internet struggling amid PHP issues",
+      "detected_at": "2026-10-22T07:57:46.583183+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-steam-store-goes-down-as-valve-seemingly-joins-the-whole-internet-struggling-amid-php-vulnerabilities/",
+          "title": "The Steam store goes down as Valve seemingly joins the whole internet struggling amid PHP issues",
+          "evidence": "<article> <p>The Steam store went down earlier today. Game downloads and library functionality seem stable, but, smack in the middle of the big Steam Next Fest demo blowout, the store itself was unavailable in both the client and web versions of Steam. </p><p>Instead, you'd run into error \"E502 L2 - We were unable to service your request. Please try again later,\" with a sad little blob expressing discontent. Tag yourself: I'm the purple blob blinking in bewilderment. </p><p>Fortunately, we at GamesRadar+ were still able to download games, make updates, and launch games, including online games. (Slay the Spire 2 and Arc Raiders both worked without issue for me.) This outage would, however, block you from finding and therefore downloading new Steam demos. </p><p>Valve hasn't given any sort of reason for this brief Steam outage. <a href=\"https://downdetector.com/status/steam/\" target=\"_blank\"><u>Down Detector</u></a> affirmed widespread issues.</p><p>It's possible that Valve's PC gaming emporium joined the countless other websites and online shops in an emergency response to newly discovered web vulnerabilities. </p><p>In an October 21 <a href=\"https://cert.europa.eu/publications/secu"
+        }
+      ],
+      "keywords": [
+        "The Steam store goes down as Valve seemingly joins the whole internet struggling amid PHP issues",
+        "The Steam store goes down as Valve seemingly joins the whole internet struggling amid PHP issues date de sortie",
+        "The Steam store goes down as Valve seemingly joins the whole internet struggling amid PHP issues plateformes",
+        "The Steam store goes down as Valve seemingly joins the whole internet struggling amid PHP issues gameplay",
+        "The Steam store goes down as Valve seemingly joins the whole internet struggling amid PHP issues guide",
+        "The Steam store goes down as Valve seemingly joins the whole internet struggling amid PHP issues avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-candy-kingdom-defense-codes-october-2026-and-how-to-red-ad130d570d6f",
+      "topic": "Candy Kingdom Defense codes (October 2026) and how to redeem them for Gems, Trait Crystals, and more",
+      "detected_at": "2026-10-22T07:57:46.583462+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/strategy/candy-kingdom-defense-codes/",
+          "title": "Candy Kingdom Defense codes (October 2026) and how to redeem them for Gems, Trait Crystals, and more",
+          "evidence": "<article> <p>Candy Kingdom Defense codes will help you to get a head start in this tower defense game based on the world of Adventure Time, as you journey across the Land of Ooo with Finn, Jake, Princess Bubblegum, Marceline, and the rest of the gang. An invasion is coming from Candy zombies, Snow Golems, and Lemongrab's sour army, and you are the last line of defense!<br><br>The promos for this game will provide you with Gems and Trait Crystals, so you have more to spend on developing your crew, along with Units of Juice and XP Candies to deploy in this mathematical <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> experience. If you're all set to lead your heroes into action, then these are the codes for Candy Kingdom Defense and how to redeem them.<br><br><em>If you'd prefer some more general promos with rewards to use in all of your experiences, then we have the latest </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em> covered.</em></p><h2 class=\"article-body__section\" id=\"section-all-candy-kingdom-defense-codes\"><span>All Candy Kingdom Defense codes</span></h2><figure class"
+        }
+      ],
+      "keywords": [
+        "Candy Kingdom Defense codes (October 2026) and how to redeem them for Gems, Trait Crystals, and more",
+        "Candy Kingdom Defense codes (October 2026) and how to redeem them for Gems, Trait Crystals, and more date de sortie",
+        "Candy Kingdom Defense codes (October 2026) and how to redeem them for Gems, Trait Crystals, and more plateformes",
+        "Candy Kingdom Defense codes (October 2026) and how to redeem them for Gems, Trait Crystals, and more gameplay",
+        "Candy Kingdom Defense codes (October 2026) and how to redeem them for Gems, Trait Crystals, and more guide",
+        "Candy Kingdom Defense codes (October 2026) and how to redeem them for Gems, Trait Crystals, and more avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-backlash-to-sony-ending-ps5-discs-comes-from-a-vocal-mi-fa0afd20e76d",
+      "topic": "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says",
+      "detected_at": "2026-10-22T07:57:46.583708+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/backlash-to-sony-ending-ps5-discs-comes-from-a-vocal-minority-of-a-revenue-minority-analyst-says-but-thats-still-a-community-that-spends-a-lot-of-money/",
+          "title": "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says",
+          "evidence": "<article> <p>Come January 2028, <a href=\"https://www.gamesradar.com/tag/sony/\">Sony</a> will be out of the physical games market, ceasing production on new discs for PlayStation consoles. There's been fervent outcry since this was announced, with studios across the industry reacting to the shift. As loud as the pushback seems, one analyst believes it's really the smaller half of the overall audience.</p><p>In a <a href=\"https://alineaanalytics.substack.com/p/physical-game-revenues-on-playstation?utm_source=substack&publication_id=5141681&post_id=221334123&utm_medium=email&utm_content=share&utm_campaign=email-share&triggerShare=true&isFreemail=true&r=hej50&triedRedirect=true\" target=\"_blank\">newsletter</a> examining Sony's push toward digital, Rhys Elliott, head of market analysis at Alinea Analytics, examined the market forces that led to the choice. He looks at the sales percentages across a number of best-sellers on the PS5.</p><p><a href=\"https://www.gamesradar.com/uk/resident-evil-requiem/\">Resident Evil: Requiem</a> and <a href=\"https://www.gamesradar.com/uk/marvel-s-wolverine/\">Marvel's Wolverine</a> boast strong disc sales: the former saw just over 30% of its copies shift th"
+        }
+      ],
+      "keywords": [
+        "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says",
+        "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says date de sortie",
+        "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says plateformes",
+        "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says gameplay",
+        "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says guide",
+        "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

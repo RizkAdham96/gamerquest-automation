@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T05:17:01.437855+00:00",
-  "count": 4,
+  "generated_at": "2026-10-22T14:03:18.313809+00:00",
+  "count": 5,
   "articles": [
     {
       "source_id": "2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754",
@@ -44,6 +44,28 @@
         "alt": "Red Dead Redemption 2 -75% sur Steam - GamerQuest",
         "caption": "Red Dead Redemption 2 : offre -75% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Red Dead Redemption 2 sur Steam."
+      }
+    },
+    {
+      "source_id": "d9c34bd766fcfc353228d66e3a2c8027ddb845fc4772c52139c493aa1110e961",
+      "title": "Resident Evil 4 à -75% sur Steam",
+      "excerpt": "Resident Evil 4 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 39,99 € à 9,99 €.",
+      "content": "<p><strong>Resident Evil 4</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>9,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2050650/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/2050650/",
+      "deal": {
+        "game": "Resident Evil 4",
+        "store": "Steam",
+        "original_price": 39.99,
+        "current_price": 9.99,
+        "discount_percent": 75,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/d9c34bd766fcfc353228d66e3a2c8027ddb845fc4772c52139c493aa1110e961.jpg",
+        "filename": "d9c34bd766fcfc353228d66e3a2c8027ddb845fc4772c52139c493aa1110e961.jpg",
+        "alt": "Resident Evil 4 -75% sur Steam - GamerQuest",
+        "caption": "Resident Evil 4 : offre -75% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Resident Evil 4 sur Steam."
       }
     },
     {

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T14:03:18.313809+00:00",
-  "count": 5,
+  "generated_at": "2026-10-22T20:16:52.985608+00:00",
+  "count": 4,
   "articles": [
     {
       "source_id": "2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754",
@@ -25,91 +25,69 @@
       }
     },
     {
-      "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
-      "title": "Red Dead Redemption 2 à -75% sur Steam",
-      "excerpt": "Red Dead Redemption 2 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 59,99 € à 14,99 €.",
-      "content": "<p><strong>Red Dead Redemption 2</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>14,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1174180/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/1174180/",
+      "source_id": "29fc23142e5f6638f893e20be3f6b154997089daada316210d39de0c6e6fd22c",
+      "title": "The Walking Dead: The Telltale Definitive Series à -90% sur Steam",
+      "excerpt": "The Walking Dead: The Telltale Definitive Series bénéficie actuellement d'une réduction de 90% sur Steam, passant de 48,99 € à 4,89 €.",
+      "content": "<p><strong>The Walking Dead: The Telltale Definitive Series</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>48,99 €</strong></li><li>Prix actuel : <strong>4,89 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1449690/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1449690/",
       "deal": {
-        "game": "Red Dead Redemption 2",
+        "game": "The Walking Dead: The Telltale Definitive Series",
         "store": "Steam",
-        "original_price": 59.99,
-        "current_price": 14.99,
-        "discount_percent": 75,
+        "original_price": 48.99,
+        "current_price": 4.89,
+        "discount_percent": 90,
         "expires_at": null
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
-        "filename": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198.jpg",
-        "alt": "Red Dead Redemption 2 -75% sur Steam - GamerQuest",
-        "caption": "Red Dead Redemption 2 : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Red Dead Redemption 2 sur Steam."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/29fc23142e5f6638f893e20be3f6b154997089daada316210d39de0c6e6fd22c.jpg",
+        "filename": "29fc23142e5f6638f893e20be3f6b154997089daada316210d39de0c6e6fd22c.jpg",
+        "alt": "The Walking Dead: The Telltale Definitive Series -90% sur Steam - GamerQuest",
+        "caption": "The Walking Dead: The Telltale Definitive Series : offre -90% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre The Walking Dead: The Telltale Definitive Series sur Steam."
       }
     },
     {
-      "source_id": "d9c34bd766fcfc353228d66e3a2c8027ddb845fc4772c52139c493aa1110e961",
-      "title": "Resident Evil 4 à -75% sur Steam",
-      "excerpt": "Resident Evil 4 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 39,99 € à 9,99 €.",
-      "content": "<p><strong>Resident Evil 4</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>9,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2050650/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/2050650/",
+      "source_id": "6298f172e6b1af1b2d07ac7416da71e8c853b01c2bb2fb16edfb79ae7ee169ee",
+      "title": "Sker Ritual est gratuit sur Epic Games Store pendant une durée limitée",
+      "excerpt": "Sker Ritual, habituellement proposé à 22,39 €, est actuellement disponible gratuitement sur Epic Games Store.",
+      "content": "<p><strong>Sker Ritual</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 22,39 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>22,39 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>29 octobre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/sker-ritual-aac702\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.epicgames.com/fr/p/sker-ritual-aac702",
       "deal": {
-        "game": "Resident Evil 4",
-        "store": "Steam",
-        "original_price": 39.99,
-        "current_price": 9.99,
-        "discount_percent": 75,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/d9c34bd766fcfc353228d66e3a2c8027ddb845fc4772c52139c493aa1110e961.jpg",
-        "filename": "d9c34bd766fcfc353228d66e3a2c8027ddb845fc4772c52139c493aa1110e961.jpg",
-        "alt": "Resident Evil 4 -75% sur Steam - GamerQuest",
-        "caption": "Resident Evil 4 : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Resident Evil 4 sur Steam."
-      }
-    },
-    {
-      "source_id": "12d9eee5740d7f20ba114a8dba26ede5e297aae36dfd73dd24340722041cda93",
-      "title": "Bad Cheese est gratuit sur Epic Games Store pendant une durée limitée",
-      "excerpt": "Bad Cheese, habituellement proposé à 11,69 €, est actuellement disponible gratuitement sur Epic Games Store.",
-      "content": "<p><strong>Bad Cheese</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 11,69 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>11,69 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>22 octobre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/bad-cheese-4256d9\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.epicgames.com/fr/p/bad-cheese-4256d9",
-      "deal": {
-        "game": "Bad Cheese",
+        "game": "Sker Ritual",
         "store": "Epic Games Store",
-        "original_price": 11.69,
+        "original_price": 22.39,
         "current_price": 0.0,
         "discount_percent": 100,
-        "expires_at": "2026-10-22T15:00:00.000Z"
+        "expires_at": "2026-10-29T15:00:00.000Z"
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/12d9eee5740d7f20ba114a8dba26ede5e297aae36dfd73dd24340722041cda93.jpg",
-        "filename": "12d9eee5740d7f20ba114a8dba26ede5e297aae36dfd73dd24340722041cda93.jpg",
-        "alt": "Bad Cheese gratuit sur Epic Games Store - GamerQuest",
-        "caption": "Bad Cheese : offre gratuit sur Epic Games Store.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Bad Cheese sur Epic Games Store."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/6298f172e6b1af1b2d07ac7416da71e8c853b01c2bb2fb16edfb79ae7ee169ee.jpg",
+        "filename": "6298f172e6b1af1b2d07ac7416da71e8c853b01c2bb2fb16edfb79ae7ee169ee.jpg",
+        "alt": "Sker Ritual gratuit sur Epic Games Store - GamerQuest",
+        "caption": "Sker Ritual : offre gratuit sur Epic Games Store.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Sker Ritual sur Epic Games Store."
       }
     },
     {
-      "source_id": "28eb077b7eab77249a21f692840c5423be65e7daab079c48cec67ae5a6c4c53c",
-      "title": "Agent A - Casse-tête d’espions est gratuit sur Epic Games Store pendant une durée limitée",
-      "excerpt": "Agent A - Casse-tête d’espions, habituellement proposé à 17,99 €, est actuellement disponible gratuitement sur Epic Games Store.",
-      "content": "<p><strong>Agent A - Casse-tête d’espions</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 17,99 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>17,99 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>22 octobre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/agent-a-a-puzzle-in-disguise-42fe5f\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.epicgames.com/fr/p/agent-a-a-puzzle-in-disguise-42fe5f",
+      "source_id": "50a2a0874999f7ef41da956bd452507d1c624182b960946d574b58c3adbca110",
+      "title": "Home - A Unique Horror Adventure est gratuit sur Epic Games Store pendant une durée limitée",
+      "excerpt": "Home - A Unique Horror Adventure, habituellement proposé à 4,49 €, est actuellement disponible gratuitement sur Epic Games Store.",
+      "content": "<p><strong>Home - A Unique Horror Adventure</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 4,49 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>4,49 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>29 octobre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/home-19212a\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.epicgames.com/fr/p/home-19212a",
       "deal": {
-        "game": "Agent A - Casse-tête d’espions",
+        "game": "Home - A Unique Horror Adventure",
         "store": "Epic Games Store",
-        "original_price": 17.99,
+        "original_price": 4.49,
         "current_price": 0.0,
         "discount_percent": 100,
-        "expires_at": "2026-10-22T15:00:00.000Z"
+        "expires_at": "2026-10-29T15:00:00.000Z"
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/28eb077b7eab77249a21f692840c5423be65e7daab079c48cec67ae5a6c4c53c.jpg",
-        "filename": "28eb077b7eab77249a21f692840c5423be65e7daab079c48cec67ae5a6c4c53c.jpg",
-        "alt": "Agent A - Casse-tête d’espions gratuit sur Epic Games Store - GamerQuest",
-        "caption": "Agent A - Casse-tête d’espions : offre gratuit sur Epic Games Store.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Agent A - Casse-tête d’espions sur Epic Games Store."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/50a2a0874999f7ef41da956bd452507d1c624182b960946d574b58c3adbca110.jpg",
+        "filename": "50a2a0874999f7ef41da956bd452507d1c624182b960946d574b58c3adbca110.jpg",
+        "alt": "Home - A Unique Horror Adventure gratuit sur Epic Games Store - GamerQuest",
+        "caption": "Home - A Unique Horror Adventure : offre gratuit sur Epic Games Store.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Home - A Unique Horror Adventure sur Epic Games Store."
       }
     }
   ]

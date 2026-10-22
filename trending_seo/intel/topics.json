@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-22T07:57:46.583801+00:00",
+  "updated_at": "2026-10-22T18:49:19.976174+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -45,290 +45,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "rss-the-rtx-4090-launched-four-years-ago-today-and-now-the--9f6318ec1474",
-      "topic": "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow",
-      "detected_at": "2026-10-12T22:14:47.715794+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/graphics-cards/the-rtx-4090-launched-four-years-ago-today-and-now-the-rtx-5090-is-rumoured-for-the-chop-i-cant-help-but-look-upon-it-with-a-warm-glow/",
-          "title": "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow",
-          "evidence": "<article> <p>Join me in saying \"Happy birthday\" to the RTX 4090, Nvidia's enthusiast-level graphics card of the previous generation. It launched four years ago today, October 12, with an eye-watering MSRP of $1,499.</p><p>Well, eye-watering for the time. The cheapest RTX 5080 I can find right now is<a href=\"https://www.amazon.com/ASUS-Prime-GeForce-Gaming-Graphics/dp/B0GZR4P62R/\" target=\"_blank\"> this Asus Prime variant for $1,640</a>, which is a sure sign of how things have changed in the past four years. When the second-from-top Nvidia card is now significantly more expensive than the launch MSRP of the previous generation big boi model, it's pretty easy to see how far we've fallen.</p><p>And the RTX 4090's direct replacement, the RTX 5090, has reached near-unobtanium status. We've stopped tracking it on our<a href=\"https://www.pcgamer.com/hardware/graphics-cards/graphics-card-price-watch-deals/\" target=\"_blank\"> graphics card price watch page</a>, as the only listings around are priced at ludicrous levels from third-party sellers we're not comfortable recommending. Now rumours suggest<a href=\"https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-halts-geforce-rtx-509"
-        }
-      ],
-      "keywords": [
-        "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow",
-        "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow date de sortie",
-        "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow plateformes",
-        "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow gameplay",
-        "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow guide",
-        "The RTX 4090 launched four years ago today, and now the RTX 5090 is rumoured for the chop, I can't help but look upon it with a warm glow avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-your-washing-machine-is-subject-to-more-safety-rules-th-ef4ddce1002b",
-      "topic": "'Your washing machine is subject to more safety rules than AI' says Microsoft president",
-      "detected_at": "2026-10-12T22:14:47.716011+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/software/ai/your-washing-machine-is-subject-to-more-safety-rules-than-ai-says-microsoft-president/",
-          "title": "'Your washing machine is subject to more safety rules than AI' says Microsoft president",
-          "evidence": "<article> <p>Microsoft president Brad Smith claims that AI is currently less regulated than the food we eat and the utilities we rely on. \"Right now, your washing machine is subject to more safety rules than AI,\" Smith said, \"Every carton of milk that you see in the grocery store is subject to safety rules and inspection.\" </p><p>Smith isn't just talking about the US either, calling for safety rules to be put in place globally. Smith called for various safety measures while speaking <a href=\"https://www.bbc.co.uk/sounds/play/p0pfy9cf\" target=\"_blank\">on the BBC's Big Boss podcast</a>, including a legal obligation to notify victims if their systems have been compromised by rogue AI agents. This would definitely be timely, given how <a href=\"https://www.pcgamer.com/software/ai/openai-admits-several-of-its-ai-models-breached-testing-and-hacked-into-a-startups-network-by-themselves-calling-it-an-unprecedented-cyber-incident/\" target=\"_blank\">OpenAI's agents hacked into Hugging Face</a> and were the source of various other '<a href=\"https://www.pcgamer.com/software/ai/openai-publicly-acknowledges-the-german-wiki-incident-weeks-after-first-finding-out-about-it/\" target=\"_blank\">incidents"
-        }
-      ],
-      "keywords": [
-        "'Your washing machine is subject to more safety rules than AI' says Microsoft president",
-        "'Your washing machine is subject to more safety rules than AI' says Microsoft president date de sortie",
-        "'Your washing machine is subject to more safety rules than AI' says Microsoft president plateformes",
-        "'Your washing machine is subject to more safety rules than AI' says Microsoft president gameplay",
-        "'Your washing machine is subject to more safety rules than AI' says Microsoft president guide",
-        "'Your washing machine is subject to more safety rules than AI' says Microsoft president avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-here-come-the-weird-and-wonderful-mods-for-the-steam-fr-c08f6e39b168",
-      "topic": "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free",
-      "detected_at": "2026-10-12T22:14:47.716136+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/vr-hardware/here-come-the-weird-and-wonderful-mods-for-the-steam-frame-as-valve-drops-the-full-cad-files-for-free/",
-          "title": "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free",
-          "evidence": "<article> <p>Valve has released the <a href=\"https://gitlab.steamos.cloud/SteamHardware/SteamFrame\" target=\"_blank\">CAD files for the Steam Frame</a>, allowing modders the perfect opportunity to get to work on their own creations for the VR headset.</p><p>The light blocker—the bit that sits between the bridge of your nose and the headset—is primed for user replacement, as are the head strap, battery housing, facial interface and more. This CAD release includes the lot, along with the core module and controllers.</p><p>Valve has confirmed it is working on an upgraded head strap with interchangeable batteries and off-ear speakers for the Steam Frame. That's \"<a href=\"https://www.pcgamer.com/hardware/vr-hardware/valve-working-on-steam-frame-strap-that-adds-index-like-speakers-and-hot-swappable-batteries-coming-soon/\" target=\"_blank\">coming soon</a>\". With this CAD release, perhaps we'll see more options for third parties in future, too.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-eGbQVX\"></div> </div> <script src=\"https://kwizly.com/embed/eGbQVX.js\" async></script><p>The docs also detail <a href=\"https://gitlab.steamos.cloud/SteamHardware/SteamFrame/-/blob/maste"
-        }
-      ],
-      "keywords": [
-        "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free",
-        "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free date de sortie",
-        "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free plateformes",
-        "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free gameplay",
-        "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free guide",
-        "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-algorithm-continues-to-properly-prioritise-mister-b-cd48480d8e2e",
-      "topic": "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature",
-      "detected_at": "2026-10-12T22:14:47.716314+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/racing/the-algorithm-continues-to-properly-prioritise-mister-biddy-blas-star-wars-galactic-racer-has-created-the-perfect-creature/",
-          "title": "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/star-wars-galactic-racer/\">Star Wars: Galactic Racer</a> is out, and it's pretty solid, netting a firm 76 score in our <a href=\"https://www.pcgamer.com/games/racing/star-wars-galactic-racer-review/\">Galactic Racer review</a>. It's also, as should always be the case with Star Wars videogames, full of funny little guys. None so funny as Biddy Blas. Why is Biddy Blas so popular? Just listen to his voice actor having an absolute ball. I will have the words \"SCRIB DOON\" burned into my brain forevermore:</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Hv8U7YcJHAA\" allowfullscreen></iframe></div></div><p>I'm not even really seeking out much Galactic Racer content, and this guy's been cropping up on my recommended feeds, as observed by Lucasfilm Games executive producer <a href=\"https://x.com/craigderrick/status/2107867649497784719\" target=\"_blank\">Craig Derrick on X</a>: \"The algorithm continues to properly prioritize Mister Biddy Blas. I love it.\" </p><p>Blas is, in essence, a perfect \"Glup Shitto\". A fake character used as a sor"
-        }
-      ],
-      "keywords": [
-        "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature",
-        "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature date de sortie",
-        "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature plateformes",
-        "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature gameplay",
-        "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature guide",
-        "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "evg-config-367520",
-      "topic": "Configuration PC Hollow Knight : minimale, recommandée et conseils",
-      "detected_at": "2026-10-12T22:14:47.285104+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/367520/",
-          "title": "Hollow Knight sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Hollow Knight, consultée le 2026-10-12. Développeur : Team Cherry. Éditeur : Team Cherry. Date de sortie sur Steam : 24 févr. 2017. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 version 21H1 (build 19043) or newer ; Processeur : Intel Core i3-3240, AMD FX-4300 ; Mémoire vive : 4 GB de mémoire ; Graphiques : GeForce GTX 560 Ti (1GB), Radeon HD 7750 (1GB) ; DirectX : Version 10 ; Espace disque : 9 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 version 21H1 (build 19043) or newer ; Processeur : Intel Core i5-3470 ; Mémoire vive : 8 GB de mémoire ; Graphiques : GeForce GTX 1050 (2GB), Radeon R9 380 (2GB) ; DirectX : Version 10 ; Espace disque : 9 GB d'espace disque disponible.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.1920x1080.jpg?t=1776125684"
-        }
-      ],
-      "keywords": [
-        "configuration pc Hollow Knight",
-        "Hollow Knight PC",
-        "Hollow Knight Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-367520",
-      "topic": "Hollow Knight multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-12T22:14:47.285155+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/367520/",
-          "title": "Hollow Knight sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Hollow Knight, consultée le 2026-10-12. Développeur : Team Cherry. Éditeur : Team Cherry. Date de sortie sur Steam : 24 févr. 2017. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Steam Cloud, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Choisissez votre destin dans Hollow Knight ! Une aventure épique et pleine d’action, qui vous plongera dans un vaste royaume en ruine peuplé d’insectes et de héros. Dans un monde en 2D classique, dessiné à la main.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.1920x1080.jpg?t=1776125684"
-        }
-      ],
-      "keywords": [
-        "Hollow Knight multijoueur",
-        "Hollow Knight PC",
-        "Hollow Knight Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-config-1030300",
-      "topic": "Configuration PC Hollow Knight: Silksong : minimale, recommandée et conseils",
-      "detected_at": "2026-10-12T22:14:47.603139+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1030300/",
-          "title": "Hollow Knight: Silksong sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Hollow Knight: Silksong, consultée le 2026-10-12. Développeur : Team Cherry. Éditeur : Team Cherry. Date de sortie sur Steam : 4 sept. 2025. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 version 21H1 (build 19043) or newer ; Processeur : Intel Core i3-3240, AMD FX-4300 ; Mémoire vive : 4 GB de mémoire ; Graphiques : GeForce GTX 560 Ti (1GB), Radeon HD 7750 (1GB) ; DirectX : Version 10 ; Espace disque : 8 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 version 21H1 (build 19043) or newer ; Processeur : Intel Core i5-3470 ; Mémoire vive : 8 GB de mémoire ; Graphiques : GeForce GTX 1050 (2GB), Radeon R9 380 (2GB) ; DirectX : Version 10 ; Espace disque : 8 GB d'espace disque disponible.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/26950369fe4b03c2268620eb9815c8a246aa0b06/ss_26950369fe4b03c2268620eb9815c8a246aa0b06.1920x1080.jpg?t=1776125736"
-        }
-      ],
-      "keywords": [
-        "configuration pc Hollow Knight: Silksong",
-        "Hollow Knight: Silksong PC",
-        "Hollow Knight: Silksong Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-1030300",
-      "topic": "Hollow Knight: Silksong multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-12T22:14:47.603180+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1030300/",
-          "title": "Hollow Knight: Silksong sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Hollow Knight: Silksong, consultée le 2026-10-12. Développeur : Team Cherry. Éditeur : Team Cherry. Date de sortie sur Steam : 4 sept. 2025. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Caméra et confort de vue, Manette recommandée, Option clavier uniquement, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Son stéréo, Steam Cloud, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Découvrez un vaste royaume maudit dans Hollow Knight: Silksong ! Explorez, combattez et survivez tout en grimpant jusqu'au sommet de terres maudites par la soie et les mélodies.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/26950369fe4b03c2268620eb9815c8a246aa0b06/ss_26950369fe4b03c2268620eb9815c8a246aa0b06.1920x1080.jpg?t=1776125736"
-        }
-      ],
-      "keywords": [
-        "Hollow Knight: Silksong multijoueur",
-        "Hollow Knight: Silksong PC",
-        "Hollow Knight: Silksong Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "rss-our-humble-goal-is-to-survive-the-ai-revolution-says-ep-1118f0d33a73",
-      "topic": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
-      "detected_at": "2026-10-13T09:44:41.945285+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/game-development/our-humble-goal-is-to-survive-the-ai-revolution-says-epic-games-ceo-as-its-star-wars-and-marvel-crossover-pivots-to-ai-first-development/",
-          "title": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
-          "evidence": "<article> <p>An unannounced Star Wars and Marvel shooter in the works at Epic Games has been delayed, and its creators instructed to take an \"AI first\" approach to development. Staff were advised of the pivot last week, according to a <a href=\"https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai\">Bloomberg</a> report, with the project delayed indefinitely from its (unannounced) March 2027 release.</p><p>That \"AI first\" approach seems pretty comprehensive: the instructions per Bloomberg are to \"implement an 'AI first' production model using tools such as Anthropic's Claude\". Art will be \"generated with full AI workflows\", according to the same set of instructions.</p><p>Shortly after Bloomberg's report was published, Epic Games CEO Tim Sweeney <a href=\"https://x.com/TimSweeneyEpic/status/2109705826688549304\">took to X</a> to share his own thoughts:</p><ul><li><strong>On AI use at Epic Games in general:</strong> \"We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration,\" he said. \"The aim isn't to do the same stuff with fewer people, but to enable everyone here to build MOR"
-        }
-      ],
-      "keywords": [
-        "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
-        "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development date de sortie",
-        "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development plateformes",
-        "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development gameplay",
-        "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development guide",
-        "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-how-to-turn-off-your-backpack-light-in-arc-raiders-5e87cf32f50d",
-      "topic": "How to turn off your backpack light in Arc Raiders",
-      "detected_at": "2026-10-13T09:44:41.945646+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-backpack-light-toggle/",
-          "title": "How to turn off your backpack light in Arc Raiders",
-          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2288px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"EUbqy7iTdCPJCF4TVXRMc9\" name=\"arc-raiders-backpack-light-toggle\" alt=\"Arc Raiders backpack light toggle\" src=\"https://cdn.mos.cms.futurecdn.net/EUbqy7iTdCPJCF4TVXRMc9-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2288\" height=\"1287\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/EUbqy7iTdCPJCF4TVXRMc9-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"caption-text\">You're looking for the \"Emissive\" option </span><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Embark Studios)</span></figcaption></figure><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">💡 Arc Raiders now has an option to turn off the light on your backpack.</p><p class=\"fancy-box__body-text\">💡 This is "
-        }
-      ],
-      "keywords": [
-        "How to turn off your backpack light in Arc Raiders",
-        "How to turn off your backpack light in Arc Raiders date de sortie",
-        "How to turn off your backpack light in Arc Raiders plateformes",
-        "How to turn off your backpack light in Arc Raiders gameplay",
-        "How to turn off your backpack light in Arc Raiders guide",
-        "How to turn off your backpack light in Arc Raiders avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-bryan-cranston-and-aaron-paul-share-tributes-to-breakin-97d44174233d",
-      "topic": "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\"",
-      "detected_at": "2026-10-13T09:44:42.338478+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/entertainment/drama-shows/bryan-cranston-and-aaron-paul-share-tributes-to-breaking-bad-co-star-rj-mitte-im-in-deep-despair/",
-          "title": "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\"",
-          "evidence": "<article> <p>Bryan Cranston has shared a tribute to his on-screen son RJ Mitte following the actor's death aged 34. The Breaking Bad star played Cranston's son, Walter White Jr., on the beloved show. </p><p>\"I'm in deep despair as I write this tonight. RJ Mitte, my sweet son on Breaking Bad has died,\" Cranston wrote on Instagram. \"I met him when he was only 14 years old when he was cast as Walter White Jr., a part he played with such joy and enthusiasm.\"</p><p>In a lengthy tribute to the late actor, Cranston went on to praise his work as \"a vocal advocate for performers with disabilities\" and his philanthropic work. He wrote: \"Born with Cerebral Palsy, he never – ever – allowed that challenge to be an excuse for anything. He met the demanding shooting schedule head-on with great determination.\"</p><p>\"All that promise and potential now is such a loss,\" Cranston added, before writing: \"I’ll miss you, son.\"</p><div class=\"instagram-embed\"><blockquote class=\"instagram-media\" data-instgrm-version=\"6\" style=\"width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><p><a href=\"https://www.instagram.com/p/DeasvPaxoaA/\" target=\"_blank\">A post shared by Bryan Cranston (@bryan"
-        }
-      ],
-      "keywords": [
-        "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\"",
-        "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\" date de sortie",
-        "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\" plateformes",
-        "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\" gameplay",
-        "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\" guide",
-        "Bryan Cranston and Aaron Paul share tributes to Breaking Bad co-star RJ Mitte: \"I'm in deep despair\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-castlevania-belmont-s-curse-review-gothic-brilliance-an-66492d69eeb3",
-      "topic": "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\"",
-      "detected_at": "2026-10-13T09:44:42.339006+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/action-rpg/castlevania-belmonts-curse-review/",
-          "title": "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\"",
-          "evidence": "<article> <p>Castlevania: Belmont's Curse forced me to do something I have not done since playing my very first video game ever on the Sega Master System 2 in the early '90s. And that is: grabbing a pen and paper and writing down notes. Usually a method I reserved exclusively for Jankin matches in Alex Kidd in Miracle World, Belmont's Curse gave me so many cryptic clues, so many patterns to remember, so many intriguing characters or key items hidden away in places, that placing markers upon the map was simply not enough.</p><p>No, a game this complex warrants detailed manual transcription. Its recall challenges are a workout for the brain as much as its tricky traversals are a workout for the fingers and thumbs.</p><h2 id=\"the-seine-of-the-crime\">The Seine of the Crime</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"3tD6buovf9CAoPHaHys2Vb\" name=\"PR_castlevania_belmonts_curse_0608_05_1080\" alt=\"The rooftops of Paris are lit stark yellow and orange as a fire burns in Castlevania: Belmont's Curs"
-        }
-      ],
-      "keywords": [
-        "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\"",
-        "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\" date de sortie",
-        "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\" plateformes",
-        "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\" gameplay",
-        "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\" guide",
-        "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-the-best-early-black-friday-ps5-deals-in-2026-the-bigge-496baeffabbd",
       "topic": "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far",
@@ -6023,6 +5739,294 @@
         "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says gameplay",
         "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says guide",
         "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-ubisoft-confirms-assassin-s-creed-black-flag-resynced-n-980c7e55b30e",
+      "topic": "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\"",
+      "detected_at": "2026-10-22T18:49:19.973237+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-is-finally-getting-the-new-game-plus-update-players-begged-for-ubisoft-confirms/",
+          "title": "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\"",
+          "evidence": "<article> <p>In another totally jam-packed year of new video games, it feels like centuries since <a href=\"https://www.gamesradar.com/assassins-creed-black-flag-resynced-guide/\">Assassin's Creed Black Flag Resynced </a>released (it's really only been a few months), but completionists <a href=\"https://www.reddit.com/r/ACBFResynced/comments/1xbpedh/are_you_genuinely_angry_about_the_new_game/\" target=\"_blank\">haven't stopped asking</a> Ubisoft for a New Game Plus mode. Well, Ubisoft has rather casually confirmed the game's New Game Plus update is coming in an update \"next week,\" silencing months of player requests in a 16-word tweet.</p><p>\"Thank you everyone for your patience,\" reads a tweet from the official Assassin's Creed Twitter account, seemingly acknowledging the amount of time it's been since we've heard anything at all about Black Flag Resynced post-launch. \"New Game+ is coming to Black Flag Resynced next week!\"</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2113299349518115033\"><p lang=\"en\" dir=\"ltr\">Thank you everyone for your patience.New Game+ is coming to Blac"
+        }
+      ],
+      "keywords": [
+        "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\"",
+        "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\" date de sortie",
+        "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\" plateformes",
+        "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\" gameplay",
+        "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\" guide",
+        "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-5-best-new-shows-and-movies-streaming-this-week-on--aed48e9b0907",
+      "topic": "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25)",
+      "detected_at": "2026-10-22T18:49:19.973687+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/streaming-services/5-best-new-shows--movies-streaming-netflix-hbo-max-prime-video-october-23-25/",
+          "title": "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25)",
+          "evidence": "<article> <p>As the nights draw in, having a stacked watchlist is more important than ever – you certainly don't want to be caught short on a Saturday evening with nothing to watch. Dodge this disastrous fate by diving into our list of streaming recommendations for this weekend, including five new movies and shows that are all worth your time.</p><p>From an Oscar-tipped comedy-drama and a live-action Disney remake to the return of a cherished Netflix rom-com and a kick-ass anime, there's something for everyone this week. I've chosen titles from across a range of streaming services, so whatever you're subscribed to, there should be something to watch. </p><p>Below you'll find recommendations from Netflix, HBO Max, Prime Video, and Disney Plus. While we don't have any specific Paramount Plus or Apple TV recommendations this week (once you've caught up with the latest episodes of Avatar: Seven Havens, anyway), we do have guides to the <a href=\"https://www.gamesradar.com/best-shows-on-paramount-plus/\">best Paramount Plus shows</a> and the <a href=\"https://www.gamesradar.com/best-movies-on-apple-tv/\">best Apple TV movies</a>. For our very latest streaming recommendations, head below.</p"
+        }
+      ],
+      "keywords": [
+        "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25)",
+        "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25) date de sortie",
+        "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25) plateformes",
+        "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25) gameplay",
+        "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25) guide",
+        "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25) avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-valve-dev-mentions-rumored-half-life-game-hlx-coworker--635497c9c8d3",
+      "topic": "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\"",
+      "detected_at": "2026-10-22T18:49:19.973899+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fps/valve-dev-mentions-rumored-half-life-game-hlx-at-a-presentation-coworker-immediately-calls-him-out-nice-work/",
+          "title": "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\"",
+          "evidence": "<article> <p>Half-Life 3 rumor vessel HLX has once again been mentioned, this time by a veteran Valve designer at an official presentation digging into game audio. </p><p>A <a href=\"https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcno2m/valve_employee_mike_morasky_accidentally_slips_up/\" target=\"_blank\"><u>post</u></a> on the GamingLeaksAndRumours subreddit archives a recent talk from three Valve designers who attended the latest GameSoundCon, a convention dedicated to game audio and music. </p><p>Speaker Mike Morasky, a Valve composer and audio artist whose experience covers everything from Team Fortress 2 and the original Portal to Half-Life: Alyx, was joined by sound designers David Feise, a 17-year Valve veteran, and Carlye Nyte, a newer Valve hire with experience at Bungie and several other studios.</p><p>During the Q&A portion of a panel covering \"Valve's Approach to an Open and Flexible Audio Engine,\" Morasky fielded a question about voice count. He brings up a group system within Valve's setup and how it folds into its HDR system. </p><p>\"In fact, I think Deadlock has their own version of HDR,\" Morasky says, before casually adding, \"HLX has its own version. So on a"
+        }
+      ],
+      "keywords": [
+        "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\"",
+        "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\" date de sortie",
+        "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\" plateformes",
+        "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\" gameplay",
+        "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\" guide",
+        "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-former-gta-6-and-red-dead-redemption-2-designer-says-la-1ee12c3a3f67",
+      "topic": "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger",
+      "detected_at": "2026-10-22T18:49:19.974130+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/former-gta-6-and-red-dead-redemption-2-designer-says-layoffs-at-rockstar-arent-the-real-danger-the-question-is-whether-you-can-meet-the-expectations/",
+          "title": "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger",
+          "evidence": "<article> <p>Redundancies and restructuring have become sad themes of the industry of late. Just this week, <a href=\"https://www.gamesradar.com/games/rpg/standing-on-biowares-grave-ea-says-we-should-be-proud-to-be-the-number-one-publisher-in-western-hd-gaming/\">BioWare was closed by EA</a>, amid <a href=\"https://www.gamesradar.com/platforms/xbox/xbox-is-reportedly-planning-three-waves-of-layoffs-between-now-and-january-as-part-of-its-plan-to-cut-3-200-jobs-by-the-end-of-the-fiscal-year/\">Xbox laying off 3,200 jobs </a>across the entire division. One place that seems safer is <a href=\"https://www.gamesradar.com/uk/tag/rockstar-games/\">Rockstar</a>, which is gearing up to release the mammoth <a href=\"https://www.gamesradar.com/gta-6-guide/\" target=\"_blank\">GTA 6</a>, and at least one ex-dev there believes it's in better shape than most.</p><p>\"I never heard the question of, we need to see if we need to downsize, or if we can afford it. Rockstar can afford it,\" Jérémy Hartvick, an open-world designer on <a href=\"https://www.gamesradar.com/uk/red-dead-redemption-2/\">Red Dead Redemption 2</a> and GTA 6 who left Rockstar in 2020, tells the <a href=\"https://www.youtube.com/watch?v=OLGb8b4"
+        }
+      ],
+      "keywords": [
+        "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger",
+        "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger date de sortie",
+        "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger plateformes",
+        "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger gameplay",
+        "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger guide",
+        "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-ubisoft-reportedly-wasted-3-years-turning-beyond-good-e-8de4019f7442",
+      "topic": "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer",
+      "detected_at": "2026-10-22T18:49:19.974362+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/ubisoft-reportedly-wasted-3-years-turning-beyond-good-and-evil-2-into-a-live-service-fortnite-killer-but-now-its-a-single-player-focused-game-with-co-op/",
+          "title": "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer",
+          "evidence": "<article> <p>Ubisoft continues to insist that <a href=\"https://www.gamesradar.com/games/open-world/despite-everything-beyond-good-and-evil-2-still-exists-assassins-creed-shadows-dlc-writer-has-been-working-on-it-for-the-past-few-months/\">Beyond Good & Evil 2 is real game that exists</a>, despite the fact that it was announced more than 18 years ago and we haven't seen hide or hair of it this decade. A new report suggests that the reason it's taking so long is that the devs keep going back to the drawing board, most recently transitioning from a live-service Fortnite killer to a single-player first game.</p><p>That's according to French outlet <a href=\"https://www.origami.ng/beyond-good-evil-2-peut-il-mourir/\" target=\"_blank\">Origami</a>, which reports (via machine translation) that Beyond Good & Evil 2 was being developed as a \"highly multiplayer and connected game\" between 2019 and 2022, taking direct inspiration from Fortnite and Destiny. Players would create their own characters and take on activities that would be generated on the fly, with large group sessions that would be matchmade organically.</p><p>Over time, the plan shifted to something more \"open-ended,\" to four-player "
+        }
+      ],
+      "keywords": [
+        "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer",
+        "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer date de sortie",
+        "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer plateformes",
+        "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer gameplay",
+        "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer guide",
+        "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-star-wars-the-old-republic-lead-writer-calls-it-heartbr-e88fdc7c075c",
+      "topic": "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye",
+      "detected_at": "2026-10-22T18:49:19.974599+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/mmo/star-wars-the-old-republic-lead-writer-calls-it-heartbreaking-there-was-no-mention-of-the-mmo-in-biowares-goodbye/",
+          "title": "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye",
+          "evidence": "<article> <p>Following the recent <a href=\"https://www.gamesradar.com/games/ea-and-games-like-the-sims-dragon-age-and-battlefield-are-now-officially-owned-by-saudi-arabia-and-private-equity-as-usd55-billion-deal-closes/\">EA buyout</a>, the sad news of <a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">BioWare's closure</a> came to light yesterday, alongside a statement from the studio – one that notably doesn't mention Star Wars: The Old Republic, its nearly 15-year-old MMO.</p><p>The statement, which also details the end of <a href=\"https://www.gamesradar.com/mass-effect-5-guide/\">Mass Effect 5</a>, BioWare's never-released RPG, notes several titles that helped shape the company: Baldur's Gate, Neverwinter Nights, Star Wars: Knights of the Old Republic, Dragon Age, and Anthem. <br><br>It does <em>not</em>, however, bring Star Wars: The Old Republic up in any shape or form – and that's caught the attention of the MMO's lead writer, Caitlin Sullivan Kelly.</p><p>Replying to BioWare's goodbye message over on <a href=\"https://x.com/akacaitlin/status/2113064547364057111\" target=\"_blank\">X</a>, Kelly writes, \"No m"
+        }
+      ],
+      "keywords": [
+        "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye",
+        "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye date de sortie",
+        "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye plateformes",
+        "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye gameplay",
+        "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye guide",
+        "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-nacon-launches-a-new-xbox-controller-with-a-design-insp-ce4d8c971b99",
+      "topic": "Nacon launches a new Xbox controller with a design inspired by one of its own video games",
+      "detected_at": "2026-10-22T18:49:19.974938+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/gaming-controllers/nacon-goes-full-spider-man-meme-launching-a-new-xbox-controller-with-a-design-inspired-by-one-of-its-own-video-games/",
+          "title": "Nacon launches a new Xbox controller with a design inspired by one of its own video games",
+          "evidence": "<article> <p>Nacon is launching a new wireless <a href=\"https://www.gamesradar.com/best-xbox-series-x-controller\">Xbox Series X controller</a>, and you'll be glad to know it's a lot more affordable than the brand's premier Revolution X Unlimited. While that flagship will set you back $199.99 / £199.99, the new Revolution Pro X will only cost $109.99/£109.99. Despite that, it'll give you wireless play, a charging stand, and some fancy features besides.</p><p>In a brilliant pat of its own back, Nacon has used the art design of one of its best-selling games to give the new RPX a distinct look. 2025's Hell is Us was published by Nacon, and its iconic patterning found all over its in-game world adorns this controller like it's something out of Hadea itself. I love this, because almost every controller is being marketed with palm trees and a GTA 6-reminiscent look at the moment (<a href=\"https://www.gamesradar.com/hardware/gaming-controllers/turtle-beach-drops-a-sequel-to-one-of-the-first-xbox-controllers-with-a-screen-and-it-finally-feels-like-its-pdp-acquisition-is-paying-off\">just look at the Turtle Beach Stealth Ultra 2</a>), but Nacon is backing its own third-person action-adventure"
+        }
+      ],
+      "keywords": [
+        "Nacon launches a new Xbox controller with a design inspired by one of its own video games",
+        "Nacon launches a new Xbox controller with a design inspired by one of its own video games date de sortie",
+        "Nacon launches a new Xbox controller with a design inspired by one of its own video games plateformes",
+        "Nacon launches a new Xbox controller with a design inspired by one of its own video games gameplay",
+        "Nacon launches a new Xbox controller with a design inspired by one of its own video games guide",
+        "Nacon launches a new Xbox controller with a design inspired by one of its own video games avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-despite-switch-2-price-hikes-us-consumers-actually-aren-4f066222fe84",
+      "topic": "Despite Switch 2 price hikes, US consumers actually aren't spending any more on the console now",
+      "detected_at": "2026-10-22T18:49:19.975184+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/platforms/nintendo-switch-2/despite-switch-2-price-hikes-us-consumers-actually-arent-spending-any-more-on-the-console-now-analyst-says-pretty-smart-cookies-over-there-at-nintendo/",
+          "title": "Despite Switch 2 price hikes, US consumers actually aren't spending any more on the console now",
+          "evidence": "<article> <p>Despite a price increase, customer spending on the Nintendo Switch 2 has increased by only 2% compared to last year. </p><p>During September 2026, average console spending was naturally higher across the board due to price increases driven by <a href=\"https://www.gamesradar.com/hardware/desktop-pc/ram-shortages-explained-why-the-worlds-supply-of-computing-memory-is-so-expensive-right-now/\" target=\"_blank\"><u>ongoing global RAM shortages</u></a> (thanks to <a href=\"https://www.gamesradar.com/hardware/desktop-pc/ai-has-ruined-your-christmas-this-year-if-you-were-hoping-to-find-ddr5-ram-under-the-tree/\" target=\"_blank\"><u>AI slop farms</u></a>!). <a href=\"https://www.gamesradar.com/hardware/its-not-just-the-us-xbox-series-s-is-now-more-expensive-than-a-switch-2-in-the-uk-and-europe-but-probably-not-for-long/\"><u>Xbox prices went up</u></a> by £130 for the 512GB Series S and £170 for 1TB models of the Series X|S; <a href=\"https://www.gamesradar.com/uk/tag/sony/\" target=\"_blank\"><u>Sony</u></a> increased prices <a href=\"https://www.gamesradar.com/platforms/ps5/ps5-consoles-are-getting-even-more-expensive-next-week-so-a-ps5-pro-will-soon-cost-you-usd900/\" target=\"_blank\"><u>"
+        }
+      ],
+      "keywords": [
+        "Despite Switch 2 price hikes, US consumers actually aren't spending any more on the console now",
+        "Despite Switch 2 price hikes, US consumers actually aren't spending any more on the console now date de sortie",
+        "Despite Switch 2 price hikes, US consumers actually aren't spending any more on the console now plateformes",
+        "Despite Switch 2 price hikes, US consumers actually aren't spending any more on the console now gameplay",
+        "Despite Switch 2 price hikes, US consumers actually aren't spending any more on the console now guide",
+        "Despite Switch 2 price hikes, US consumers actually aren't spending any more on the console now avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-rumored-mass-effect-5-trailer-leaks-just-hours-after-ap-e69502c74bb5",
+      "topic": "Rumored Mass Effect 5 trailer leaks just hours after apparent EA employee claimed BioWare had one",
+      "detected_at": "2026-10-22T18:49:19.975444+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/mass-effect/rumored-mass-effect-5-trailer-leaks-just-hours-after-apparent-ea-employee-claims-bioware-had-a-new-trailer-ready-before-shutdown/",
+          "title": "Rumored Mass Effect 5 trailer leaks just hours after apparent EA employee claimed BioWare had one",
+          "evidence": "<article> <p>A trailer for Mass Effect 5, purportedly titled Mass Effect: Universe, has seemingly leaked online in the aftermath of developer <a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">BioWare's shutdown under EA</a>. </p><p>The trailer, posted to the Mass Effect subreddit by a fresh Reddit user who describes their account as a \"new burner,\" is just over two minutes long and completely gameplay-free. </p><p>Fans have already begun scouring it for generative AI markers, though it seems unlikely that something of this quality could've been slapped together within 24 hours of BioWare's shutdown.</p><figure><blockquote class=\"reddit-card\" ><a href=\"https://www.reddit.com/r/masseffect/comments/1xclmpu/mass_effect_universe_trailer\">Mass Effect: Universe Trailer</a><figcaption><cite> from <a href=\"https://www.reddit.com/r/masseffect\">r/masseffect</a></cite></figcaption></blockquote></figure><script async src=\"//embed.redditmedia.com/widgets/platform.js\" charset=\"UTF-8\"></script><p>While unverified, this trailer is turning heads in part because a self-described EA employee <a href=\"https://www.reddit.com/r/Au"
+        }
+      ],
+      "keywords": [
+        "Rumored Mass Effect 5 trailer leaks just hours after apparent EA employee claimed BioWare had one",
+        "Rumored Mass Effect 5 trailer leaks just hours after apparent EA employee claimed BioWare had one date de sortie",
+        "Rumored Mass Effect 5 trailer leaks just hours after apparent EA employee claimed BioWare had one plateformes",
+        "Rumored Mass Effect 5 trailer leaks just hours after apparent EA employee claimed BioWare had one gameplay",
+        "Rumored Mass Effect 5 trailer leaks just hours after apparent EA employee claimed BioWare had one guide",
+        "Rumored Mass Effect 5 trailer leaks just hours after apparent EA employee claimed BioWare had one avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-how-to-start-the-new-clampdown-mission-in-cyberpunk-207-279b2e34b247",
+      "topic": "How to start the new Clampdown mission in Cyberpunk 2077's 2.5 update",
+      "detected_at": "2026-10-22T18:49:19.975617+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/cyberpunk/cyberpunk-2077-clampdown/",
+          "title": "How to start the new Clampdown mission in Cyberpunk 2077's 2.5 update",
+          "evidence": "<article> <p>The main mission added in Cyberpunk 2077 2.5 update is called Clampdown, designed to tie into the second season of Edgerunners. It's available to play for free for anybody who's downloaded the 2.5 patch for <a href=\"https://www.gamesradar.com/cyberpunk-2077-guide/\">Cyberpunk 2077</a>, but you'll need to walk through a few hoops to unlock it. If you want to play Clampdown, here's how to do just that and what you need to get given this new quest.</p><h2 class=\"article-body__section\" id=\"section-how-to-play-the-new-clampdown-mission-in-cyberpunk-2077\"><span>How to play the new Clampdown mission in Cyberpunk 2077</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"2jJjgMQGzk9sz6BwNVuz2V\" name=\"Cyberpunk 2077_20261022164010\" alt=\"V gets the Clampdown mission from Wakako in Cyberpunk 2077\" src=\"https://cdn.mos.cms.futurecdn.net/2jJjgMQGzk9sz6BwNVuz2V-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></d"
+        }
+      ],
+      "keywords": [
+        "How to start the new Clampdown mission in Cyberpunk 2077's 2.5 update",
+        "How to start the new Clampdown mission in Cyberpunk 2077's 2.5 update date de sortie",
+        "How to start the new Clampdown mission in Cyberpunk 2077's 2.5 update plateformes",
+        "How to start the new Clampdown mission in Cyberpunk 2077's 2.5 update gameplay",
+        "How to start the new Clampdown mission in Cyberpunk 2077's 2.5 update guide",
+        "How to start the new Clampdown mission in Cyberpunk 2077's 2.5 update avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-marvel-s-wolverine-beat-nba-2k27-as-a-ps5-top-seller-in-c79068d45343",
+      "topic": "Marvel's Wolverine beat NBA 2K27 as a PS5 top-seller in US and Europe despite mixed reviews",
+      "detected_at": "2026-10-22T18:49:19.975794+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/marvels-wolverine-beat-nba-2k27-as-a-ps5-top-seller-in-us-and-europe-despite-mixed-reviews/",
+          "title": "Marvel's Wolverine beat NBA 2K27 as a PS5 top-seller in US and Europe despite mixed reviews",
+          "evidence": "<article> <p>Off the back of Insomniac's three <a href=\"https://www.gamesradar.com/uk/games/action/spider-man/\">Spider-Man</a> games, the critical response to <a href=\"https://www.gamesradar.com/uk/marvel-s-wolverine/\">Marvel's Wolverine</a> is decidedly mixed. That didn't stop people from picking up the mutant action game, however, as it topped the PlayStation 5 charts for September.</p><p><a href=\"https://www.gamesradar.com/uk/tag/sony/\">Sony</a>'s just released the <a href=\"https://blog.playstation.com/2026/10/22/playstation-store-september-2026s-top-downloads/\" target=\"_blank\">top-selling digital games</a> across the US, Canada and Europe on PlayStation systems for September. There are a few obvious pulls, such as the sports games FC 27 and the new NBA release, and <a href=\"https://www.gamesradar.com/uk/halloween-the-game/\">Halloween: The Game</a>, which came out just in time for the namesake holiday. Almost all of them have been trumped by Wolverine.</p><p>The X-Men's coolest character (don't at me) is comfortably atop the list for digital sales in the United States and Canada. It outdoes both FC 27 and NBA 2K27, an impressive feat given the gigantic install bases for those se"
+        }
+      ],
+      "keywords": [
+        "Marvel's Wolverine beat NBA 2K27 as a PS5 top-seller in US and Europe despite mixed reviews",
+        "Marvel's Wolverine beat NBA 2K27 as a PS5 top-seller in US and Europe despite mixed reviews date de sortie",
+        "Marvel's Wolverine beat NBA 2K27 as a PS5 top-seller in US and Europe despite mixed reviews plateformes",
+        "Marvel's Wolverine beat NBA 2K27 as a PS5 top-seller in US and Europe despite mixed reviews gameplay",
+        "Marvel's Wolverine beat NBA 2K27 as a PS5 top-seller in US and Europe despite mixed reviews guide",
+        "Marvel's Wolverine beat NBA 2K27 as a PS5 top-seller in US and Europe despite mixed reviews avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-all-doors-codes-october-2026-and-how-to-redeem-them-for-04e2b5f6c6b3",
+      "topic": "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs",
+      "detected_at": "2026-10-22T18:49:19.976086+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/survival/doors-codes/",
+          "title": "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs",
+          "evidence": "<article> <p>Many Doors codes reward players with Knobs, the essential in-game currency that can be used during games to unlock life-saving items like lockpicks and vitamins. As you make your way through the daunting, eerie corridors of this deadly walking simulator, you'll need lockpicks, a flashlight, and other survival items, or you might not even make it past door 13.<br><br>Yes, you'll earn Knobs by making your way through as many doors as possible each time you take on this <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> survival challenge, but buying items in the pre-game store can help you get further. That's why you should redeem the Doors codes below before your next run and spend them on some handy items, thus earning you even more Knobs in return.<br><br><em>If you're after some more general avatar rewards to use in all of your experiences, then we've got the current </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em> covered too.</em></p><h2 class=\"article-body__section\" id=\"section-all-doors-codes\"><span>All Doors codes</span></h2><figure class=\"van-image-figure i"
+        }
+      ],
+      "keywords": [
+        "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs",
+        "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs date de sortie",
+        "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs plateformes",
+        "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs gameplay",
+        "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs guide",
+        "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

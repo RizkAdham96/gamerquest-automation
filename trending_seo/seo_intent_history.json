@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-22T07:57:53.670058+00:00",
+  "updated_at": "2026-10-22T18:49:26.536511+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -281,6 +281,14 @@
       "wordpress_url": "https://gamerquestfr.com/helldivers-2-multijoueur-coop-en-ligne-et-modes-de-jeu/",
       "wordpress_post_id": 840,
       "published_at": "2026-10-22T07:57:53.670058+00:00"
+    },
+    {
+      "intent_key": "configuration pc resident evil 4",
+      "primary_keyword": "configuration pc Resident Evil 4",
+      "title": "Configuration PC Resident Evil 4 : minimale, recommandée et conseils",
+      "wordpress_url": "https://gamerquestfr.com/configuration-pc-resident-evil-4-minimale-recommandee-et-conseils/",
+      "wordpress_post_id": 847,
+      "published_at": "2026-10-22T18:49:26.536511+00:00"
     }
   ]
 }

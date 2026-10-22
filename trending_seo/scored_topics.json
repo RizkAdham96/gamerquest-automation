@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-22T07:57:47.078507+00:00",
+  "updated_at": "2026-10-22T18:49:20.468756+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -12426,6 +12426,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Castlevania: Belmont's Curse review: \"Gothic brilliance and compellingly cryptic clues mark a triumphant return\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-best-early-black-friday-ps5-deals-in-2026-the-bigge-496baeffabbd",
+      "topic": "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far",
+      "detected_at": "2026-10-13T09:44:42.340273+00:00",
+      "analysed_at": "2026-10-22T18:49:20.468533+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/platforms/ps5/the-best-early-black-friday-ps5-deals-in-australia-for-2026-the-biggest-sony-savings-so-far/",
+          "title": "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Menu</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"5ZZmJExqgA4qhqKfqaq27a\" name=\"BFps5\" caption=\"\" alt=\"Image of PS5 games and accessories on a blue GamesRadar+ background.\" src=\"https://cdn.mos.cms.futurecdn.net/5ZZmJExqgA4qhqKfqaq27a-1920-80.jpg\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future/SteelSeries/Sony PlayStation)</span></figcaption></figure><p class=\"fancy-box__body-text\"><strong>1. </strong><a data-analytics-id=\"inline-link\" href=\"#section-retailers-to-know\"><strong>Retailers to know</strong></a></p><p class=\"fancy-box__body-text\"><strong>2. </strong><a data-analytics-id=\"inline-link\" href=\"#section-today-s-best-black-friday-ps5-deals\">Today's best deals</a></p></div></div><p>This year's Black Friday PS5 deals are in a bit of an awkward situation. "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far",
+        "secondary_keywords": [
+          "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far date de sortie",
+          "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far plateformes",
+          "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far gameplay",
+          "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far guide",
+          "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The best early Black Friday PS5 deals in 2026: the biggest Sony savings so far"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-visionquest-ep-says-people-will-feel-the-brotherly-love-d9cc13f6de60",
+      "topic": "VisionQuest EP says people will \"feel the brotherly love\" when Wiccan and Speed appear in the MCU",
+      "detected_at": "2026-10-13T09:44:42.340437+00:00",
+      "analysed_at": "2026-10-22T18:49:20.468586+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-executive-producer-says-people-will-feel-the-brotherly-love-when-wiccan-and-speed-eventually-appear-together-in-the-mcu/",
+          "title": "VisionQuest EP says people will \"feel the brotherly love\" when Wiccan and Speed appear in the MCU",
+          "evidence": "<article> <p>VisionQuest executive producer Mary Livanos says we can expect a real brotherly connection when Wiccan and Speed eventually team up in the MCU.</p><p>\"I dreamt of bringing Speed and Wiccan to the Marvel Universe, which was an idea that we flirted with during WandaVision,\" Livanos tells GamesRadar+ during an exclusive interview at NYCC. \"But now it's exciting to see Tommy Maximoff come to the screen. And Joe Locke and Ruaridh have become quite chummy. And so if, and when, they share the screen... I think people will feel the brotherly love.\"</p><p>Billy Maximoff, aka Wiccan, made his first real (as in not just as a magical manifestation of grief) appearance in Agatha: All Along. Though the show really made us work for that reveal: Joe Locke's character was simply named \"Teen\" and was referred to as such until Agatha comments that he's \"so much like his mother\" in episode 6. Billy retaliates by knocking her back with some pretty powerful magic, all while a blue crown-mask (that's pretty similar to Wanda's own red crown-mask) appears on his forehead. At the end of the series, he and Agatha set out to find his twin brother Tommy.</p><p>In VisionQuest, Tommy (Ruaridh Mollic"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "VisionQuest EP says people will \"feel the brotherly love\" when Wiccan and Speed appear in the MCU",
+        "secondary_keywords": [
+          "VisionQuest EP says people will \"feel the brotherly love\" when Wiccan and Speed appear in the MCU date de sortie",
+          "VisionQuest EP says people will \"feel the brotherly love\" when Wiccan and Speed appear in the MCU plateformes",
+          "VisionQuest EP says people will \"feel the brotherly love\" when Wiccan and Speed appear in the MCU gameplay",
+          "VisionQuest EP says people will \"feel the brotherly love\" when Wiccan and Speed appear in the MCU guide",
+          "VisionQuest EP says people will \"feel the brotherly love\" when Wiccan and Speed appear in the MCU avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "VisionQuest EP says people will \"feel the brotherly love\" when Wiccan and Speed appear in the MCU"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-after-daredevil-born-again-cancellation-charlie-cox-hop-fd3f3fb418ff",
+      "topic": "After Daredevil: Born Again cancellation, Charlie Cox hopes Matt Murdock will be in more Marvel movies",
+      "detected_at": "2026-10-13T09:44:42.340589+00:00",
+      "analysed_at": "2026-10-22T18:49:20.468618+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/after-the-cancellation-of-daredevil-born-again-charlie-cox-hopes-matt-murdock-will-be-in-more-marvel-movies/",
+          "title": "After Daredevil: Born Again cancellation, Charlie Cox hopes Matt Murdock will be in more Marvel movies",
+          "evidence": "<article> <p>Daredevil: Born Again season 3 is set to be the show's last, but it won't be the end of Matt Murdock in the MCU (or so we hope).</p><p>\"Maybe this will open the door for that,\" a tight-lipped Charlie Cox tells GamesRadar+ at NYCC, when asked if we'll see Daredevil in an upcoming MCU movie. \"We'll see.\"</p><p>Before the premiere of Daredevil: Born Again in 2025, Matt Murdock briefly appeared in Spider-Man: No Way Home as Peter Parker's lawyer as he faces public scrutiny after having his identity doxxed by Mysterio in Far From Home. A stunned Peter is unaware of Matt's powers, as he manages to catch a brick thrown through the apartment window by a protester. When Peter asks how he was able to do that, Matt replies: \"I'm a really good lawyer.\" The cameo marked Cox's first appearance in the MCU, officially making the Netflix Daredevil series canon.</p><p>It was recently announced that Daredevil: Born Again would end after three seasons on Disney Plus, much like the Netflix series did back in 2018. During the Marvel TV and Animation panel at NYCC, Cox joked that the cancellation was the \"#SaveDaredevil\" internet campaign happening all over again. He told GR+, however, that "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "After Daredevil: Born Again cancellation, Charlie Cox hopes Matt Murdock will be in more Marvel movies",
+        "secondary_keywords": [
+          "After Daredevil: Born Again cancellation, Charlie Cox hopes Matt Murdock will be in more Marvel movies date de sortie",
+          "After Daredevil: Born Again cancellation, Charlie Cox hopes Matt Murdock will be in more Marvel movies plateformes",
+          "After Daredevil: Born Again cancellation, Charlie Cox hopes Matt Murdock will be in more Marvel movies gameplay",
+          "After Daredevil: Born Again cancellation, Charlie Cox hopes Matt Murdock will be in more Marvel movies guide",
+          "After Daredevil: Born Again cancellation, Charlie Cox hopes Matt Murdock will be in more Marvel movies avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "After Daredevil: Born Again cancellation, Charlie Cox hopes Matt Murdock will be in more Marvel movies"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-stardew-valley-creator-is-struggling-with-haunted-choco-b4e1bc9d8c85",
+      "topic": "Stardew Valley creator is \"struggling\" with Haunted Chocolatier thanks to the precedent he accidentally set himself",
+      "detected_at": "2026-10-13T09:44:42.340748+00:00",
+      "analysed_at": "2026-10-22T18:49:20.468646+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/simulation/stardew-valley-creator-is-struggling-with-haunted-chocolatier-thanks-to-the-precedent-he-accidentally-set-himself-it-might-disappoint-millions-of-people/",
+          "title": "Stardew Valley creator is \"struggling\" with Haunted Chocolatier thanks to the precedent he accidentally set himself",
+          "evidence": "<article> <p>As the gaming world watches and waits, Stardew Valley creator Eric \"ConcernedApe\" Barone says he's feeling the pressure to ensure that the follow-up, <a href=\"https://www.gamesradar.com/haunted-chocolatier-guide/\">Haunted Chocolatier</a>, meets everyone's expectations.</p><p>Speaking to <a href=\"https://www.gq-magazine.co.uk/article/a-decade-after-stardew-valley-eric-barone-is-still-going-it-alone\" target=\"_blank\">GQ </a>in a wide-ranging interview, Barone touches on how the creative process differs this time around and that it hasn't been an easy adjustment. While he had all the time in the world to create Stardew Valley, the fans that game has amassed over the years are now eagerly awaiting Haunted Chocolatier.</p><p>\"I've been struggling with that,\" he says, \"because I really want to recapture that feeling that I had when I was making Stardew Valley. Back then, there was no audience, there was no precedent. Everyone's watching me, and if I don't do things a certain way, it might disappoint millions of people.\"</p><p>Further reflecting on Stardew Valley, Barone says it was initially a \"dumb little project\" he used to get better at programming while he \"couldn't find "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Stardew Valley creator is \"struggling\" with Haunted Chocolatier thanks to the precedent he accidentally set himself",
+        "secondary_keywords": [
+          "Stardew Valley creator is \"struggling\" with Haunted Chocolatier thanks to the precedent he accidentally set himself date de sortie",
+          "Stardew Valley creator is \"struggling\" with Haunted Chocolatier thanks to the precedent he accidentally set himself plateformes",
+          "Stardew Valley creator is \"struggling\" with Haunted Chocolatier thanks to the precedent he accidentally set himself gameplay",
+          "Stardew Valley creator is \"struggling\" with Haunted Chocolatier thanks to the precedent he accidentally set himself guide",
+          "Stardew Valley creator is \"struggling\" with Haunted Chocolatier thanks to the precedent he accidentally set himself avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Stardew Valley creator is \"struggling\" with Haunted Chocolatier thanks to the precedent he accidentally set himself"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ahead-of-gta-6-rockstar-narrative-lead-says-the-america-b4c2ced879f7",
+      "topic": "Ahead of GTA 6, Rockstar narrative lead says the American Dream is \"more modest now\" but still \"out of reach\"",
+      "detected_at": "2026-10-13T09:44:42.340977+00:00",
+      "analysed_at": "2026-10-22T18:49:20.468674+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/ahead-of-gta-6-rockstar-narrative-lead-says-the-american-dream-previous-grand-theft-auto-games-were-critical-of-is-more-modest-now-but-still-out-of-reach-for-the-average-person/",
+          "title": "Ahead of GTA 6, Rockstar narrative lead says the American Dream is \"more modest now\" but still \"out of reach\"",
+          "evidence": "<article> <p>One of Rockstar's narrative leads says that <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>'s Vice City setting is the ideal place to check in on a popular recurring theme within Grand Theft Auto: T he American Dream.</p><p>Rockstar has made its approach to <a href=\"https://www.gamesradar.com/games/grand-theft-auto/rockstar-is-cautious-about-what-to-satirize-in-gta-6-specific-political-issues-or-memes-will-date-fast/\">real-world influences quite clear of late</a>. The team behind GTA 6 will comment on wider trends that won't go out of date when the game ships, which is also why more specific events or people prove riskier.</p><p>One topic that Rockstar's senior vice president of narrative name-checked, though, is the American Dream and how it looks and feels today compared to years gone by.</p><p>\"Some would say the American Dream collapsed a long time ago,\" Humphries tells <a href=\"https://lovemagazine.net/articles/gta-vi-the-american-dream\" target=\"_blank\">Love Magazine</a> in its latest edition, now on sale. \"With GTA 4 we told an immigrant's story that was supposed to be a kind of hollow commentary on the illusion of America as a land of opportunity, an"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ahead of GTA 6, Rockstar narrative lead says the American Dream is \"more modest now\" but still \"out of reach\"",
+        "secondary_keywords": [
+          "Ahead of GTA 6, Rockstar narrative lead says the American Dream is \"more modest now\" but still \"out of reach\" date de sortie",
+          "Ahead of GTA 6, Rockstar narrative lead says the American Dream is \"more modest now\" but still \"out of reach\" plateformes",
+          "Ahead of GTA 6, Rockstar narrative lead says the American Dream is \"more modest now\" but still \"out of reach\" gameplay",
+          "Ahead of GTA 6, Rockstar narrative lead says the American Dream is \"more modest now\" but still \"out of reach\" guide",
+          "Ahead of GTA 6, Rockstar narrative lead says the American Dream is \"more modest now\" but still \"out of reach\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ahead of GTA 6, Rockstar narrative lead says the American Dream is \"more modest now\" but still \"out of reach\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-visionquest-review-successfully-closes-the-loop-on-the--eab8d4f0b18b",
+      "topic": "VisionQuest review: \"Successfully closes the loop on the MCU's most unusual trilogy\"",
+      "detected_at": "2026-10-13T09:44:42.341393+00:00",
+      "analysed_at": "2026-10-22T18:49:20.468698+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-review/",
+          "title": "VisionQuest review: \"Successfully closes the loop on the MCU's most unusual trilogy\"",
+          "evidence": "<article> <p>Marvel’s most offbeat trilogy comes to a conclusion in VisionQuest. The follow-up to 2021 MCU TV pioneer WandaVision and 2024’s occult follow-up Agatha All Along, <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-release-date-time-schedule-disney-plus/\">VisionQuest</a> puts Paul Bettany’s sentient synthezoid in the spotlight for a story of fathers, sons, unlikely love, and the very origins of artificial general intelligence in the MCU.</p><p>Like its predecessors, VisionQuest is a mystery box series with a decidedly off-kilter sensibility. Several years after overriding his programming and flying away from Westview, White Vision is now working in a Scottish pub by day and living in a utopia of his own creation by night. The virtual architectural marvel that Vision calls home is a haven for orphaned Stark AIs J.A.R.V.I.S. (Hugh D'Arcy), F.R.I.D.A.Y. (Orla Brady), E.D.I.T.H. (Emily Hampshire), and even former Avengers villain, Ultron (James Spader). Per Vision’s house rules (and the limits of CGI budgets), all roam the oblique-angled halls as human avatars.</p><p>Vision’s relatively peaceful existence is upended when the bounty hunter Paladin "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "VisionQuest review: \"Successfully closes the loop on the MCU's most unusual trilogy\"",
+        "secondary_keywords": [
+          "VisionQuest review: \"Successfully closes the loop on the MCU's most unusual trilogy\" date de sortie",
+          "VisionQuest review: \"Successfully closes the loop on the MCU's most unusual trilogy\" plateformes",
+          "VisionQuest review: \"Successfully closes the loop on the MCU's most unusual trilogy\" gameplay",
+          "VisionQuest review: \"Successfully closes the loop on the MCU's most unusual trilogy\" guide",
+          "VisionQuest review: \"Successfully closes the loop on the MCU's most unusual trilogy\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "VisionQuest review: \"Successfully closes the loop on the MCU's most unusual trilogy\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-assassin-s-creed-creator-says-1666-amsterdam-developers-aa5afd0c50b6",
+      "topic": "Assassin's Creed creator says 1666: Amsterdam developers create up to 20 builds a day",
+      "detected_at": "2026-10-13T09:44:42.341579+00:00",
+      "analysed_at": "2026-10-22T18:49:20.468726+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/assassins-creed-creator-says-1666-amsterdam-developers-create-up-to-20-builds-a-day-progression-is-more-important-than-perfection/",
+          "title": "Assassin's Creed creator says 1666: Amsterdam developers create up to 20 builds a day",
+          "evidence": "<article> <p>A few months removed from its launch into early access, the lead developer of witchy action game 1666: Amsterdam says the team creates dozens of builds every day.</p><p>1666: Amsterdam released into Steam Early Access back in August after what can generously be called a troubled development. First being thought of in 2011, the game was started at THQ in 2013, before Ubisoft bought the studio, firing its lead director Patrice Désilets, and acquiring the rights to 1666: Amsterdam. Following legal proceedings, Désilets acquired the rights to the game, with it being his second title after leaving Ubisoft in 2010.</p><p>Speaking to <a href=\"https://www.magazinesdirect.com/uk/pc-gamer-uk-edition-subscription/dp/eaf57fc1?srsltid=AU7gw4Wr0WnMJa8eMH19HMV5VjBPSUnDm627v5BBlXttpsxBxYkfBaru\" target=\"_blank\">PC Gamer magazine in issue 428</a>, Désilets – creative director of 1666: Amsterdam and creator of Assassin's Creed – explains the development process for the game as it works towards its full release. \"We do between 15 to 20 builds a day,\" explaining that \"it's an iterative process at Panache. Progression is more important than perfection.\"</p><p>1666: Amsterdam was caught in s"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Assassin's Creed creator says 1666: Amsterdam developers create up to 20 builds a day",
+        "secondary_keywords": [
+          "Assassin's Creed creator says 1666: Amsterdam developers create up to 20 builds a day date de sortie",
+          "Assassin's Creed creator says 1666: Amsterdam developers create up to 20 builds a day plateformes",
+          "Assassin's Creed creator says 1666: Amsterdam developers create up to 20 builds a day gameplay",
+          "Assassin's Creed creator says 1666: Amsterdam developers create up to 20 builds a day guide",
+          "Assassin's Creed creator says 1666: Amsterdam developers create up to 20 builds a day avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Assassin's Creed creator says 1666: Amsterdam developers create up to 20 builds a day"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-elon-musk-dressing-up-as-wario-for-snl-did-not-go-over--2d4813556741",
+      "topic": "Elon Musk dressing up as Wario for SNL \"did not go over well\" at Nintendo, ex-marketing leads say",
+      "detected_at": "2026-10-13T09:44:42.341754+00:00",
+      "analysed_at": "2026-10-22T18:49:20.468751+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/elon-musk-dressing-up-as-wario-for-snl-did-not-go-over-well-at-nintendo-ex-marketing-leads-say-that-one-was-out-of-leftfield/",
+          "title": "Elon Musk dressing up as Wario for SNL \"did not go over well\" at Nintendo, ex-marketing leads say",
+          "evidence": "<article> <p>The bastion of comedy that is Saturday Night Live recently decided to poke fun at the close-by release dates of <a href=\"https://www.gamesradar.com/the-legend-of-zelda-ocarina-of-time-remake-guide/\">The Legend of Zelda: Ocarina of Time</a> remake and <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>. The sketch marks the rare occasion the show acknowledges video games, bringing to mind a moment in 2021 where Elon Musk, of all people, showed up in a Wario suit.</p><p>If you need a reminder, Musk hosted Saturday Night Live on May 8, 2021, and one of the bits involved a lawyer defending Wario in court against the accusation he murdered Mario. Yeah, I don't know either. The Tesla CEO himself was positioned as the villain of Super Mario Land 2: 6 Golden Coins, in a get up that included the moustache and all.</p><p>Discussing SNL's latest venture into games satire, Kit Ellis and Krysta Yang, both former senior marketing staff at the house of Mario and Zelda, looked back at the reaction to the Musk-led skit. \"They did not like the Elon Musk 2021 [bit],\" Yang says, in an episode of <a href=\"https://www.youtube.com/watch?v=POfGZpm87tY\" target=\"_blank\">Kit and Krysta</"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Elon Musk dressing up as Wario for SNL \"did not go over well\" at Nintendo, ex-marketing leads say",
+        "secondary_keywords": [
+          "Elon Musk dressing up as Wario for SNL \"did not go over well\" at Nintendo, ex-marketing leads say date de sortie",
+          "Elon Musk dressing up as Wario for SNL \"did not go over well\" at Nintendo, ex-marketing leads say plateformes",
+          "Elon Musk dressing up as Wario for SNL \"did not go over well\" at Nintendo, ex-marketing leads say gameplay",
+          "Elon Musk dressing up as Wario for SNL \"did not go over well\" at Nintendo, ex-marketing leads say guide",
+          "Elon Musk dressing up as Wario for SNL \"did not go over well\" at Nintendo, ex-marketing leads say avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Elon Musk dressing up as Wario for SNL \"did not go over well\" at Nintendo, ex-marketing leads say"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

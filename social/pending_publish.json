@@ -1,0 +1,76 @@
+{
+  "source_id": "6298f172e6b1af1b2d07ac7416da71e8c853b01c2bb2fb16edfb79ae7ee169ee",
+  "carousel_version": "4cd88fd18be41044694a22c6b797d9134b6bb561790ebf438c3def759eed45ba",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    861,
+    862,
+    863
+  ],
+  "prepared_at_utc": "2026-10-23T20:05:24.314534Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "6298f172e6b1af1b2d07ac7416da71e8c853b01c2bb2fb16edfb79ae7ee169ee",
+    "source_title": "Sker Ritual est gratuit sur Epic Games Store pendant une durée limitée",
+    "score": 87.5,
+    "idea": {
+      "source_id": "6298f172e6b1af1b2d07ac7416da71e8c853b01c2bb2fb16edfb79ae7ee169ee",
+      "topic": "Urgence",
+      "angle": "Mise en avant du compte à rebours limité pour inciter à l’action immédiate",
+      "format": "breaking_news",
+      "hook": "⏳ Temps limité ! Sker Ritual disparaît bientôt du catalogue gratuit d’Epic — ne manquez pas votre chance !",
+      "freshness": 10,
+      "click_potential": 9,
+      "curiosity": 8,
+      "shareability": 9,
+      "originality": 7,
+      "gamerquest_relevance": 10,
+      "total_score": 87.5
+    },
+    "carousel": {
+      "topic": "Urgence",
+      "angle": "Mise en avant du compte à rebours limité pour inciter à l’action immédiate",
+      "format": "breaking_news",
+      "hook": "⏳ Temps limité ! Sker Ritual disparaît bientôt du catalogue gratuit d’Epic — ne manquez pas votre chance !",
+      "score": 87.5,
+      "slides": [
+        {
+          "title": "Sker Ritual gratuit sur Epic Games Store",
+          "body": "Le jeu est disponible gratuitement sur Epic Games Store.",
+          "visual_prompt": "Atmosphère sombre du jeu Sker Ritual avec un décor de ruines gothiques, style réaliste"
+        },
+        {
+          "title": "Valeur du titre",
+          "body": "Sker Ritual, habituellement vendu 22,39 €, est offert gratuitement sur le magasin Epic.",
+          "visual_prompt": "Capture d’écran du catalogue Epic Games Store montrant le jeu Sker Ritual avec l’étiquette \"GRATUIT\""
+        },
+        {
+          "title": "En savoir plus",
+          "body": "Découvrez les détails du jeu et comment le télécharger.",
+          "visual_prompt": "Illustration du logo Epic Games Store avec le logo de Sker Ritual en arrière‑plan"
+        }
+      ],
+      "caption": "Sker Ritual est gratuit sur Epic Games Store. Profitez-en dès maintenant.",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "6298f172e6b1af1b2d07ac7416da71e8c853b01c2bb2fb16edfb79ae7ee169ee"
+    },
+    "caption": "Sker Ritual est gratuit sur Epic Games Store. Profitez-en dès maintenant.",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 1
+  }
+}

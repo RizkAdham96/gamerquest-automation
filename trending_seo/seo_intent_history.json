@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-22T18:49:26.536511+00:00",
+  "updated_at": "2026-10-23T07:56:34.171755+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -289,6 +289,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-resident-evil-4-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 847,
       "published_at": "2026-10-22T18:49:26.536511+00:00"
+    },
+    {
+      "intent_key": "resident evil 4 multijoueur",
+      "primary_keyword": "Resident Evil 4 multijoueur",
+      "title": "Resident Evil 4 multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/resident-evil-4-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 855,
+      "published_at": "2026-10-23T07:56:34.171755+00:00"
     }
   ]
 }

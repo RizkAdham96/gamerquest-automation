@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-22T18:49:20.468756+00:00",
+  "updated_at": "2026-10-23T07:56:28.590846+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -12738,6 +12738,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Elon Musk dressing up as Wario for SNL \"did not go over well\" at Nintendo, ex-marketing leads say"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1449690",
+      "topic": "Configuration PC The Walking Dead: The Telltale Definitive Series : minimale, recommandée et conseils",
+      "detected_at": "2026-10-23T07:56:26.804500+00:00",
+      "analysed_at": "2026-10-23T07:56:28.590632+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1449690/",
+          "title": "The Walking Dead: The Telltale Definitive Series sur Steam",
+          "evidence": "Données officielles de la fiche Steam de The Walking Dead: The Telltale Definitive Series, consultée le 2026-10-23. Développeur : Skybound Games. Éditeur : Skybound Games. Date de sortie sur Steam : 29 oct. 2020. Genres : Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation *: Windows 7 64Bit Service Pack 1 ; Processeur : Intel Core 2 Duo 2.8GHz ; Mémoire vive : 3 GB de mémoire ; Graphiques : Nvidia GeForce GTS 450 2GB ; DirectX : Version 11 ; Espace disque : 45 GB d'espace disque disponible ; Carte son : DirectX 11 sound device. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation *: Windows 7 64Bit Service Pack 1 ; Processeur : Intel Core i5-2500K ; Mémoire vive : 3 GB de mémoire ; Graphiques : Nvidia GeForce GTX 960 ; DirectX : Version 11 ; Espace disque : 45 GB d'espace disque disponible ; Carte son : DirectX 11 sound device.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/ss_235eb54ee3c3fa2075e7d1424547e780cf59d48f.1920x1080.jpg?t=1760651835"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc The Walking Dead: The Telltale Definitive Series",
+        "secondary_keywords": [
+          "The Walking Dead: The Telltale Definitive Series PC",
+          "The Walking Dead: The Telltale Definitive Series Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC The Walking Dead: The Telltale Definitive Series : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1449690",
+      "topic": "The Walking Dead: The Telltale Definitive Series multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-23T07:56:26.804576+00:00",
+      "analysed_at": "2026-10-23T07:56:28.590684+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1449690/",
+          "title": "The Walking Dead: The Telltale Definitive Series sur Steam",
+          "evidence": "Données officielles de la fiche Steam de The Walking Dead: The Telltale Definitive Series, consultée le 2026-10-23. Développeur : Skybound Games. Éditeur : Skybound Games. Date de sortie sur Steam : 29 oct. 2020. Genres : Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : The Walking Dead: The Telltale Definitive Series regroupe les 4 saisons, 400 Days et The Walking Dead: Michonne, ce qui représente 50 heures de jeu réparties en 23 épisodes uniques.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/ss_235eb54ee3c3fa2075e7d1424547e780cf59d48f.1920x1080.jpg?t=1760651835"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Walking Dead: The Telltale Definitive Series multijoueur",
+        "secondary_keywords": [
+          "The Walking Dead: The Telltale Definitive Series PC",
+          "The Walking Dead: The Telltale Definitive Series Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "The Walking Dead: The Telltale Definitive Series multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1492070",
+      "topic": "Configuration PC Sker Ritual : minimale, recommandée et conseils",
+      "detected_at": "2026-10-23T07:56:27.365979+00:00",
+      "analysed_at": "2026-10-23T07:56:28.590711+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1492070/",
+          "title": "Sker Ritual sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Sker Ritual, consultée le 2026-10-23. Développeur : Wales Interactive. Éditeur : Skybound Games. Date de sortie sur Steam : 18 avr. 2024. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation *: Windows 7, 8.1, 10 (64-bit required) ; Processeur : Intel Core i5-4460 / AMD FX-6300 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 760 / AMD Radeon R7 260x with 2GB Video RAM ; DirectX : Version 11 ; Espace disque : 15 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 64-bit ; Processeur : Intel Core i5-10500 / AMD Ryzen 5 2600 or better ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 970 / AMD Radeon R9 290 or better ; DirectX : Version 11 ; Espace disque : 15 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492070/ss_7dcb9f926cd731852cb2143556d06460e88b15af.1920x1080.jpg?t=1792674990"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Sker Ritual",
+        "secondary_keywords": [
+          "Sker Ritual PC",
+          "Sker Ritual Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Sker Ritual : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1492070",
+      "topic": "Sker Ritual multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-23T07:56:27.366022+00:00",
+      "analysed_at": "2026-10-23T07:56:28.590733+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1492070/",
+          "title": "Sker Ritual sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Sker Ritual, consultée le 2026-10-23. Développeur : Wales Interactive. Éditeur : Skybound Games. Date de sortie sur Steam : 18 avr. 2024. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Multijoueur multiplateforme, Succès Steam, Compat. contrôleurs complète, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Steam Cloud, Classements Steam, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Armez-vous des pouvoirs des dieux celtiques dans ce horde shooter coopératif.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492070/ss_7dcb9f926cd731852cb2143556d06460e88b15af.1920x1080.jpg?t=1792674990"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Sker Ritual multijoueur",
+        "secondary_keywords": [
+          "Sker Ritual PC",
+          "Sker Ritual Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Sker Ritual multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-equip-ambers-in-valor-mortis-80a304116a4e",
+      "topic": "How to equip ambers in Valor Mortis",
+      "detected_at": "2026-10-13T20:21:59.991712+00:00",
+      "analysed_at": "2026-10-23T07:56:28.590756+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/valor-mortis-amber-equip/",
+          "title": "How to equip ambers in Valor Mortis",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2231px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"TzGxxxu7swwmH5UjXjkuqi\" name=\"valor-mortis-amber-1\" alt=\"Valor Mortis amber menu\" src=\"https://cdn.mos.cms.futurecdn.net/TzGxxxu7swwmH5UjXjkuqi-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2231\" height=\"1255\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/TzGxxxu7swwmH5UjXjkuqi-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: One More Level)</span></figcaption></figure><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">💎 Ambers are precious gems you equip to gain passive bonuses and abilities.<br>💎 You can slot them at the level up menu with any lantern.<br>💎 You unlock a new slot every ten levels.</p></div></div><p>You'll most li"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to equip ambers in Valor Mortis",
+        "secondary_keywords": [
+          "How to equip ambers in Valor Mortis date de sortie",
+          "How to equip ambers in Valor Mortis plateformes",
+          "How to equip ambers in Valor Mortis gameplay",
+          "How to equip ambers in Valor Mortis guide",
+          "How to equip ambers in Valor Mortis avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to equip ambers in Valor Mortis"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-complete-the-scarecrow-in-valor-mortis-5fcb547e21d6",
+      "topic": "How to complete The Scarecrow in Valor Mortis",
+      "detected_at": "2026-10-13T20:21:59.991905+00:00",
+      "analysed_at": "2026-10-23T07:56:28.590785+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/valor-mortis-the-scarecrow-walkthrough/",
+          "title": "How to complete The Scarecrow in Valor Mortis",
+          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/mT53MsXZ.html\" id=\"mT53MsXZ\" title=\"Valor Mortis - The Scarecrow\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen></iframe><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">🐦‍⬛ The medallion is along the path to the left of the scarecrow by a cross against a tree.<br>🐦‍⬛ The letter with a drawing is on the upper floor of the big house to the left of the \"Fields\" lantern, accessible via the gate you open as a shortcut later.<br>🐦‍⬛ Once you return both, you have to find the lover's hideaway in the attic of the barn near the big house.</p></div></div><p>In Valor Mortis's The Scarecrow quest, you have to collect two possessions belonging to the unfortunate soul tied up in the field: a medallion and a note with a drawing.</p><p>The video above shows the three locations you need; where to find both items and the hay loft once you've returned them to the scarecrow. You can<strong> </strong>find the medallion just to the left of the scarecrow, down a short path through the field that leads to a cross resting against a tree, "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to complete The Scarecrow in Valor Mortis",
+        "secondary_keywords": [
+          "How to complete The Scarecrow in Valor Mortis date de sortie",
+          "How to complete The Scarecrow in Valor Mortis plateformes",
+          "How to complete The Scarecrow in Valor Mortis gameplay",
+          "How to complete The Scarecrow in Valor Mortis guide",
+          "How to complete The Scarecrow in Valor Mortis avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to complete The Scarecrow in Valor Mortis"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-can-summon-jumbo-jets-and-boats-from-the-sky-in-gta-5-c8ff986aa643",
+      "topic": "I can summon jumbo jets and boats from the sky in GTA 5 now, and I'll do it in the middle of crowded intersections if I want to",
+      "detected_at": "2026-10-13T20:21:59.992163+00:00",
+      "analysed_at": "2026-10-23T07:56:28.590816+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-can-summon-jumbo-jets-and-boats-from-the-sky-in-gta-5-now-and-ill-do-it-in-the-middle-of-crowded-intersections-if-i-want-to/",
+          "title": "I can summon jumbo jets and boats from the sky in GTA 5 now, and I'll do it in the middle of crowded intersections if I want to",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>What's the greatest moment in a videogame? Finding the truth of what happened at Red Mountain in Morrowind? Catching every pokémon in Pokémon? Something inscrutable in Final Fantasy 14?</p><p>All excellent answers. All wrong. The greatest moment in videogames is repeatedly dropping shipping crates on Quiet's head in Metal Gear Solid 5 until she decides to become your comrade for life.</p><p>Naturally, I had to bring this experience to Grand Theft Auto 5, and I did it using <a href=\"https://www.gta5-mods.com/scripts/just-cause-3-rebel-drops-net\" target=\"_blank\">Just Cause"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I can summon jumbo jets and boats from the sky in GTA 5 now, and I'll do it in the middle of crowded intersections if I want to",
+        "secondary_keywords": [
+          "I can summon jumbo jets and boats from the sky in GTA 5 now, and I'll do it in the middle of crowded intersections if I want to date de sortie",
+          "I can summon jumbo jets and boats from the sky in GTA 5 now, and I'll do it in the middle of crowded intersections if I want to plateformes",
+          "I can summon jumbo jets and boats from the sky in GTA 5 now, and I'll do it in the middle of crowded intersections if I want to gameplay",
+          "I can summon jumbo jets and boats from the sky in GTA 5 now, and I'll do it in the middle of crowded intersections if I want to guide",
+          "I can summon jumbo jets and boats from the sky in GTA 5 now, and I'll do it in the middle of crowded intersections if I want to avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I can summon jumbo jets and boats from the sky in GTA 5 now, and I'll do it in the middle of crowded intersections if I want to"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-was-excited-by-warlock-dungeons-dragons-until-the-pro-ac841deca48e",
+      "topic": "I was excited by Warlock: Dungeons & Dragons until the protagonist pulled out a sword",
+      "detected_at": "2026-10-13T20:21:59.992702+00:00",
+      "analysed_at": "2026-10-23T07:56:28.590841+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/i-was-excited-by-warlock-dungeons-and-dragons-until-the-protagonist-pulled-out-a-sword/",
+          "title": "I was excited by Warlock: Dungeons & Dragons until the protagonist pulled out a sword",
+          "evidence": "<article> <p>Considering only eight minutes of it were shown at Gamescom's Opening Night Live, I went on a real journey with <a href=\"https://www.pcgamer.com/games/action/warlocks-take-on-d-and-d-magic-might-make-me-willing-to-sell-my-soul/\" target=\"_blank\">Warlock: Dungeons & Dragons</a>. At first, I was nonplussed by it. While the production values were impressive, it also looked like every Sony game released in the last ten years, right down to the specific angle of the camera and the quippy NPC companion.</p><p>Yet as the reveal unfurled, I found myself growing intrigued by Warlock's invocation-based puzzle-solving and combat. Levitating objects to create platforms, using teleportation spells to swap places with enemies, conjuring a whole-ass storm to make electrical attacks more viable. It's rare to see a game of this scope encourage guile and cleverness from the player, to set its mechanical ambitions slightly beyond timed dodges and grisly executions.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I was excited by Warlock: Dungeons & Dragons until the protagonist pulled out a sword",
+        "secondary_keywords": [
+          "I was excited by Warlock: Dungeons & Dragons until the protagonist pulled out a sword date de sortie",
+          "I was excited by Warlock: Dungeons & Dragons until the protagonist pulled out a sword plateformes",
+          "I was excited by Warlock: Dungeons & Dragons until the protagonist pulled out a sword gameplay",
+          "I was excited by Warlock: Dungeons & Dragons until the protagonist pulled out a sword guide",
+          "I was excited by Warlock: Dungeons & Dragons until the protagonist pulled out a sword avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I was excited by Warlock: Dungeons & Dragons until the protagonist pulled out a sword"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

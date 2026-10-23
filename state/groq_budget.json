@@ -1,33 +1,18 @@
 {
-  "date_utc": "2026-10-22",
-  "global_reserved": 20855,
+  "date_utc": "2026-10-23",
+  "global_reserved": 11000,
   "lanes": {
-    "news": 0,
-    "seo": 11148,
-    "social": 9707,
+    "news": 11000,
+    "seo": 0,
+    "social": 0,
     "manual": 0
   },
   "reservations": [
     {
-      "id": "39744188611-1-seo",
-      "lane": "seo",
-      "tokens": 5511,
-      "reserved_at": "2026-10-22T07:57:44.249505+00:00",
-      "reconciled_at": "2026-10-22T07:57:56.188787+00:00"
-    },
-    {
-      "id": "39805667513-1-social",
-      "lane": "social",
-      "tokens": 9707,
-      "reserved_at": "2026-10-22T15:31:53.130571+00:00",
-      "reconciled_at": "2026-10-22T15:36:49.043605+00:00"
-    },
-    {
-      "id": "39834680403-1-seo",
-      "lane": "seo",
-      "tokens": 5637,
-      "reserved_at": "2026-10-22T18:49:16.031889+00:00",
-      "reconciled_at": "2026-10-22T18:49:29.730604+00:00"
+      "id": "39904282511-1-news",
+      "lane": "news",
+      "tokens": 11000,
+      "reserved_at": "2026-10-23T05:10:37.304755+00:00"
     }
   ]
 }

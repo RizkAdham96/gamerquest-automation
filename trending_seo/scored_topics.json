@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-23T07:56:28.590846+00:00",
+  "updated_at": "2026-10-23T18:43:31.467766+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -13046,6 +13046,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "I was excited by Warlock: Dungeons & Dragons until the protagonist pulled out a sword"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-steam-now-has-a-maddening-bouncing-logo-screensaver-and-6a175501deb1",
+      "topic": "Steam now has a maddening bouncing logo screensaver, and I'm pretty sure it doesn't perfectly hit the corners",
+      "detected_at": "2026-10-14T08:01:41.672030+00:00",
+      "analysed_at": "2026-10-23T18:43:31.467524+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/platforms/steam-now-has-a-maddening-bouncing-logo-screensaver-and-im-pretty-sure-it-doesnt-touch-the-corners/",
+          "title": "Steam now has a maddening bouncing logo screensaver, and I'm pretty sure it doesn't perfectly hit the corners",
+          "evidence": "<article> <p>The Steam client got a major new update today, with Big Picture Mode receiving the brunt of the attention. Most exciting, I guess, is that the <a href=\"https://www.pcgamer.com/games/steams-latest-beta-brings-big-art-to-big-picture-mode-and-steam-deck-and-customizable-screensavers-too/\">previously beta-only</a> screensaver feature for Big Picture Mode is now live for the general public. In its default mode the screensaver will display art from recently played games, as well as any recent screenshots you've taken. But you can add your own custom screensavers too, which is nice.</p><p>Valve also has \"a retro inspired bouncing logo screensaver\" which you can select in the new dropdown menu found under Settings / Customization. As the name implies, the Steam logo bounces around a black screen, changing color every time it hits an edge. Valve has not made this screensaver the default screensaver, and it's lucky that it didn't: it's a work of diabolical cruelty. It will drive you to despair.</p><p>The screensaver references the ye olde screensaver built into DVD players in the late '90s and early '00s. If you're too young to remember it firsthand you've probably heard of it: "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Steam now has a maddening bouncing logo screensaver, and I'm pretty sure it doesn't perfectly hit the corners",
+        "secondary_keywords": [
+          "Steam now has a maddening bouncing logo screensaver, and I'm pretty sure it doesn't perfectly hit the corners date de sortie",
+          "Steam now has a maddening bouncing logo screensaver, and I'm pretty sure it doesn't perfectly hit the corners plateformes",
+          "Steam now has a maddening bouncing logo screensaver, and I'm pretty sure it doesn't perfectly hit the corners gameplay",
+          "Steam now has a maddening bouncing logo screensaver, and I'm pretty sure it doesn't perfectly hit the corners guide",
+          "Steam now has a maddening bouncing logo screensaver, and I'm pretty sure it doesn't perfectly hit the corners avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Steam now has a maddening bouncing logo screensaver, and I'm pretty sure it doesn't perfectly hit the corners"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-valve-is-clearing-out-its-discontinued-index-vr-headset-b01b3883261c",
+      "topic": "Valve is clearing out its discontinued Index VR headsets if you want a cheap piece of history",
+      "detected_at": "2026-10-14T08:01:41.672243+00:00",
+      "analysed_at": "2026-10-23T18:43:31.467575+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/vr-hardware/valve-is-clearing-out-its-discontinued-index-vr-headsets-if-you-want-a-cheap-piece-of-history/",
+          "title": "Valve is clearing out its discontinued Index VR headsets if you want a cheap piece of history",
+          "evidence": "<article> <p>With the recently launched <a href=\"https://www.pcgamer.com/hardware/vr-hardware/valve-steam-frame-review/\">Steam Frame</a> superseding the Index VR headset, Valve has <a href=\"https://store.steampowered.com/sale/valveindex?snr=1_2108_group__2107\">heavily discounted</a> remaining stock of the latter. The Index VR headset launched in 2019 for $499, but now you can get one for $399.20.</p><p>Keep in mind that the Index VR <em>headset </em>doesn't come with controllers or a base station. A package bundling those used to cost $999, but that option is no longer available and thus, there's no associated discount. </p><p>Left controller replacements and replacement tethers are going for $119.20 and $103.20 respectively. No, there aren't any right controller replacements listed. It seems that if you want controllers for your Index VR, you'll probably need to buy them elsewhere. The same goes for base stations.</p><p>\"Valve Index is no longer being produced,\" reads a Steam news item published earlier today. \"Remaining Index headsets, controllers, and accessories are still available at the new prices below while supplies last.\"</p><p>That \"while supplies last\" is crucial: obviou"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Valve is clearing out its discontinued Index VR headsets if you want a cheap piece of history",
+        "secondary_keywords": [
+          "Valve is clearing out its discontinued Index VR headsets if you want a cheap piece of history date de sortie",
+          "Valve is clearing out its discontinued Index VR headsets if you want a cheap piece of history plateformes",
+          "Valve is clearing out its discontinued Index VR headsets if you want a cheap piece of history gameplay",
+          "Valve is clearing out its discontinued Index VR headsets if you want a cheap piece of history guide",
+          "Valve is clearing out its discontinued Index VR headsets if you want a cheap piece of history avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Valve is clearing out its discontinued Index VR headsets if you want a cheap piece of history"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-rockstar-co-founder-dan-houser-says-he-failed-with-max--d6fa992ebefb",
+      "topic": "Rockstar co-founder Dan Houser says he 'failed' with Max Payne 3, and I'm sorry Danno but that's just plain wrong",
+      "detected_at": "2026-10-14T08:01:41.672684+00:00",
+      "analysed_at": "2026-10-23T18:43:31.467608+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/rockstar-co-founder-dan-houser-says-he-failed-with-max-payne-3-and-im-sorry-danno-but-thats-just-plain-wrong/",
+          "title": "Rockstar co-founder Dan Houser says he 'failed' with Max Payne 3, and I'm sorry Danno but that's just plain wrong",
+          "evidence": "<article> <p>Dan Houser is a co-founder of Rockstar Games and so I would never presume to tell him he's wrong about any of the games Rockstar has made—<em>except</em> in this one particular instance, where I feel obligated to step up and say, 'Dan, I'm sorry bud, but you're wrong.'</p><p>The game in question is <a href=\"https://www.pcgamer.com/max-payne-3/\" target=\"_blank\">Max Payne 3</a>, on which Houser played a central role, and one he seems rather down on: In an interview with <a href=\"https://www.ign.com/articles/i-got-that-completely-wrong-dan-houser-considers-rockstars-max-payne-3-a-failure\" target=\"_blank\">IGN</a>, he said the game was a \"failure\" because, simply put, he's not Sam Lake, the Remedy creative director who wrote the first two Max Payne games.</p><p>As a very linear game, Max Payne 3 \"was a little different\" from the open world GTA games he was accustomed to, Houser said, but he also really enjoyed the experience. \"I loved what we did design-wise, the way the game didn't have loads, the way it felt like a 12-hour movie, some of the visual stuff we did with words on screen.</p><p>Alas, he continued, \"I felt we were creating a really cool digital noir experience, "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Rockstar co-founder Dan Houser says he 'failed' with Max Payne 3, and I'm sorry Danno but that's just plain wrong",
+        "secondary_keywords": [
+          "Rockstar co-founder Dan Houser says he 'failed' with Max Payne 3, and I'm sorry Danno but that's just plain wrong date de sortie",
+          "Rockstar co-founder Dan Houser says he 'failed' with Max Payne 3, and I'm sorry Danno but that's just plain wrong plateformes",
+          "Rockstar co-founder Dan Houser says he 'failed' with Max Payne 3, and I'm sorry Danno but that's just plain wrong gameplay",
+          "Rockstar co-founder Dan Houser says he 'failed' with Max Payne 3, and I'm sorry Danno but that's just plain wrong guide",
+          "Rockstar co-founder Dan Houser says he 'failed' with Max Payne 3, and I'm sorry Danno but that's just plain wrong avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Rockstar co-founder Dan Houser says he 'failed' with Max Payne 3, and I'm sorry Danno but that's just plain wrong"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-kojima-says-he-was-just-like-bryan-from-the-resident-ev-0adb60b20bfd",
+      "topic": "Kojima says he was 'just like Bryan' from the Resident Evil movie when he played RE1 in 1996: 'I kept getting game over after game over, shouting F***!'",
+      "detected_at": "2026-10-14T08:01:41.672954+00:00",
+      "analysed_at": "2026-10-23T18:43:31.467645+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/movies-tv/kojima-says-he-was-just-like-bryan-from-the-resident-evil-movie-when-he-played-re1-in-1996-i-kept-getting-game-over-after-game-over-shouting-f/",
+          "title": "Kojima says he was 'just like Bryan' from the Resident Evil movie when he played RE1 in 1996: 'I kept getting game over after game over, shouting F***!'",
+          "evidence": "<article> <p>Zach Cregger's Resident Evil film was released to critical acclaim last month, with more than one reviewer calling it '<a href=\"https://www.pcgamer.com/movies-tv/multiple-reviews-call-resident-evil-the-best-videogame-movie-ever/\" target=\"_blank\">the best videogame movie ever</a>.' Another review dropped today, from none other than Hideo Kojima, and it's (seemingly) a glowing one.</p><p>\"I wasn’t particularly interested at first, but since it’s Zach Cregger’s latest film, I went to see Resident Evil,\" Kojima posted <a href=\"https://x.com/HIDEO_KOJIMA_EN/status/2109629349720977764\" target=\"_blank\">on Twitter</a> on October 12. </p><p>\"Right from the opening, it hits you with music reminiscent of \"The Thing.\" From there, it’s a relentless barrage of classic horror techniques, terrifying situations, and jump scares that never lets up until the very end.\"</p><p>That bit is sorta why I said <em>seemingly </em>above. Do I detect a little backhanded praise? Calling it a \"relentless barrage\" isn't necessarily a compliment, saying a director used \"classic horror techniques\" could be a way of saying it's unoriginal, and pointing out that there are \"jump scares\" throughout might s"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Kojima says he was 'just like Bryan' from the Resident Evil movie when he played RE1 in 1996: 'I kept getting game over after game over, shouting F***!'",
+        "secondary_keywords": [
+          "Kojima says he was 'just like Bryan' from the Resident Evil movie when he played RE1 in 1996: 'I kept getting game over after game over, shouting F***!' date de sortie",
+          "Kojima says he was 'just like Bryan' from the Resident Evil movie when he played RE1 in 1996: 'I kept getting game over after game over, shouting F***!' plateformes",
+          "Kojima says he was 'just like Bryan' from the Resident Evil movie when he played RE1 in 1996: 'I kept getting game over after game over, shouting F***!' gameplay",
+          "Kojima says he was 'just like Bryan' from the Resident Evil movie when he played RE1 in 1996: 'I kept getting game over after game over, shouting F***!' guide",
+          "Kojima says he was 'just like Bryan' from the Resident Evil movie when he played RE1 in 1996: 'I kept getting game over after game over, shouting F***!' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Kojima says he was 'just like Bryan' from the Resident Evil movie when he played RE1 in 1996: 'I kept getting game over after game over, shouting F***!'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-legendary-level-designer-richard-levelord-gray-has-died-6ed83d503603",
+      "topic": "Legendary level designer Richard 'Levelord' Gray has died",
+      "detected_at": "2026-10-14T08:01:41.673345+00:00",
+      "analysed_at": "2026-10-23T18:43:31.467675+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/legendary-level-designer-richard-levelord-gray-has-died/",
+          "title": "Legendary level designer Richard 'Levelord' Gray has died",
+          "evidence": "<article> <p>Richard Gray, better known to gamers of a certain age as Levelord, has died. Gray's death was reported on social media by Apogee Entertainment, who paid tribute to his \"legendary work on Duke Nukem 3D\" and the lasting legacy he left behind.</p><blockquote class=\"bluesky-embed\" data-bluesky-uri=\"at://did:plc:xgbd7cukx2ccms4mj5rp6uqj/app.bsky.feed.post/3mxrooxdr6k2v\" data-bluesky-cid=\"bafyreiekw3x5k3dnwe4enmbudj2imfrdws2dxolbusbvlrcj2ha3qwzzcu\" cite=\"https://bsky.app/profile/apogeeent.com/post/3mxrooxdr6k2v\"><p lang=\"en\">We are deeply saddened by the passing of Richard “Levelord” Gray.From his legendary work on Duke Nukem 3D to the countless players and developers he inspired, Richard leaves behind a lasting legacy.Rest in peace, Levelord.</p>— @apogeeent.com (<a href=\"https://bsky.app/profile/did:plc:xgbd7cukx2ccms4mj5rp6uqj?ref_src=embed\">@apogeeent.com.bsky.social</a>) <a href=\"https://bsky.app/profile/apogeeent.com/post/3mxrooxdr6k2v\">2026-10-13T20:34:18.004Z</a></blockquote><p>Gray worked as a level and map designer on numerous shooters in the late 1990s and early 2000, beginning with Duke Nukem 3D in 1996. Shortly after that game launched, he left 3D Realms and co-"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Legendary level designer Richard 'Levelord' Gray has died",
+        "secondary_keywords": [
+          "Legendary level designer Richard 'Levelord' Gray has died date de sortie",
+          "Legendary level designer Richard 'Levelord' Gray has died plateformes",
+          "Legendary level designer Richard 'Levelord' Gray has died gameplay",
+          "Legendary level designer Richard 'Levelord' Gray has died guide",
+          "Legendary level designer Richard 'Levelord' Gray has died avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Legendary level designer Richard 'Levelord' Gray has died"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-world-of-warcraft-forever-won-t-destroy-what-made-the-o-cbde5ff341a3",
+      "topic": "World of Warcraft: Forever won't destroy what made the old classes so satisfying by modernizing them into oblivion: 'The level of mechanical complexity found in the beta classes is indicative of our intentions'",
+      "detected_at": "2026-10-14T08:01:41.673611+00:00",
+      "analysed_at": "2026-10-23T18:43:31.467709+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-wont-destroy-what-made-the-old-classes-so-satisfying-by-modernizing-them-into-oblivion-the-level-of-mechanical-complexity-found-in-the-beta-classes-is-indicative-of-our-intentions/",
+          "title": "World of Warcraft: Forever won't destroy what made the old classes so satisfying by modernizing them into oblivion: 'The level of mechanical complexity found in the beta classes is indicative of our intentions'",
+          "evidence": "<article> <p>Part of World of Warcraft: Forever's charm is that combat is considerably slower than the regular version of the MMO. It's the kind of game where you'll spend <a href=\"https://www.pcgamer.com/games/world-of-warcraft/sometimes-its-fun-to-hit-a-scorpion-with-a-club-for-38-seconds/\">38 seconds hitting a scorpion</a> because there are so few buttons to press in the early stages of your journey.</p><p>Classes in WoW's past were simple, but had small quirks to them that you'd pick up over time. Melee classes, for example, can squeeze abilities in between their auto attacks to maximize their damage output. You'd never care about this if fights only took 10 seconds, like they do in WoW today, but back then you had to use all that time in more drawn-out battles for <em>something</em>.</p><p>The WoW: Forever beta has reminded me how satisfying it is to play a class that isn't built like Whac-A-Mole, where the challenge is to hit the right buttons the moment they start to glow. There's a rhythm to WoW's old classes and I'm delighted to hear that Blizzard fully intends to maintain it in WoW: Forever.</p><p>Blizzard developers told <a href=\"https://www.techradar.com/gaming/wow-fore"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "World of Warcraft: Forever won't destroy what made the old classes so satisfying by modernizing them into oblivion: 'The level of mechanical complexity found in the beta classes is indicative of our intentions'",
+        "secondary_keywords": [
+          "World of Warcraft: Forever won't destroy what made the old classes so satisfying by modernizing them into oblivion: 'The level of mechanical complexity found in the beta classes is indicative of our intentions' date de sortie",
+          "World of Warcraft: Forever won't destroy what made the old classes so satisfying by modernizing them into oblivion: 'The level of mechanical complexity found in the beta classes is indicative of our intentions' plateformes",
+          "World of Warcraft: Forever won't destroy what made the old classes so satisfying by modernizing them into oblivion: 'The level of mechanical complexity found in the beta classes is indicative of our intentions' gameplay",
+          "World of Warcraft: Forever won't destroy what made the old classes so satisfying by modernizing them into oblivion: 'The level of mechanical complexity found in the beta classes is indicative of our intentions' guide",
+          "World of Warcraft: Forever won't destroy what made the old classes so satisfying by modernizing them into oblivion: 'The level of mechanical complexity found in the beta classes is indicative of our intentions' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "World of Warcraft: Forever won't destroy what made the old classes so satisfying by modernizing them into oblivion: 'The level of mechanical complexity found in the beta classes is indicative of our intentions'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-planet-zoo-2-review-superstar-animals-and-frustrating-m-4b0f5448abc8",
+      "topic": "Planet Zoo 2 review: Superstar animals and frustrating micromanagement",
+      "detected_at": "2026-10-14T08:01:41.674403+00:00",
+      "analysed_at": "2026-10-23T18:43:31.467735+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/planet-zoo-2-review/",
+          "title": "Planet Zoo 2 review: Superstar animals and frustrating micromanagement",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Need to know</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it?</strong> Zoo-based management sim with added fish, birds, and nature reserves.</p><p class=\"fancy-box__body-text\"><strong>Expect to Pay:</strong> $50/£40</p><p class=\"fancy-box__body-text\"><strong>Developer:</strong> Frontier Developments</p><p class=\"fancy-box__body-text\"><strong>Publisher:</strong> Frontier Developments</p><p class=\"fancy-box__body-text\"><strong>Reviewed on:</strong> AMD Ryzen 5 3600, Nvidia 2080 Super, 32 GB RAM, Windows 10</p><p class=\"fancy-box__body-text\"><strong>Steam Deck:</strong> Verified</p><p class=\"fancy-box__body-text\"><strong>Multiplayer: </strong>No, but you can share creations.</p><p class=\"fancy-box__body-text\"><strong>Link:</strong> <a data-analytics-id=\"inline-link\" href=\"https://www.planetzoogame.com/\" target=\"_blank\">Official site</a></p></div></div><p>Planet Zoo 2's animals are truly majestic creations. Even at a time when games are gnawing at the chain-link fence of photorealism, watching Frontier's meticulously modelled critters clamber and prowl, swim and fly, or play with whatever "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Planet Zoo 2 review: Superstar animals and frustrating micromanagement",
+        "secondary_keywords": [
+          "Planet Zoo 2 review: Superstar animals and frustrating micromanagement date de sortie",
+          "Planet Zoo 2 review: Superstar animals and frustrating micromanagement plateformes",
+          "Planet Zoo 2 review: Superstar animals and frustrating micromanagement gameplay",
+          "Planet Zoo 2 review: Superstar animals and frustrating micromanagement guide",
+          "Planet Zoo 2 review: Superstar animals and frustrating micromanagement avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Planet Zoo 2 review: Superstar animals and frustrating micromanagement"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-dead-space-creator-says-he-was-forced-to-ship-the-calli-09e389960ecc",
+      "topic": "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid'",
+      "detected_at": "2026-10-14T08:01:41.674511+00:00",
+      "analysed_at": "2026-10-23T18:43:31.467761+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/game-development/dead-space-creator-says-he-was-forced-to-ship-the-callisto-protocol-by-krafton-we-had-f-cking-covid/",
+          "title": "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid'",
+          "evidence": "Glen Schofield Glen Schofield stands in a large field Glen Schofield stands in a large field Glen Schofield stands in a large field"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid'",
+        "secondary_keywords": [
+          "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid' date de sortie",
+          "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid' plateformes",
+          "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid' gameplay",
+          "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid' guide",
+          "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

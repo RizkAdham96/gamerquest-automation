@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-23T07:56:34.171755+00:00",
+  "updated_at": "2026-10-23T18:43:36.898575+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -297,6 +297,14 @@
       "wordpress_url": "https://gamerquestfr.com/resident-evil-4-multijoueur-coop-en-ligne-et-modes-de-jeu/",
       "wordpress_post_id": 855,
       "published_at": "2026-10-23T07:56:34.171755+00:00"
+    },
+    {
+      "intent_key": "configuration pc resident evil village",
+      "primary_keyword": "configuration pc Resident Evil Village",
+      "title": "Configuration PC Resident Evil Village : minimale, recommandée et conseils",
+      "wordpress_url": "https://gamerquestfr.com/configuration-pc-resident-evil-village-minimale-recommandee-et-conseils/",
+      "wordpress_post_id": 860,
+      "published_at": "2026-10-23T18:43:36.898575+00:00"
     }
   ]
 }

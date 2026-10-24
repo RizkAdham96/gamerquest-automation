@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-23T18:43:31.467766+00:00",
+  "updated_at": "2026-10-24T07:36:05.404015+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -13358,6 +13358,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-paul-bettany-says-it-was-really-fun-to-tap-into-a-more--29a38a663b72",
+      "topic": "Paul Bettany says it was \"really fun\" to tap into a more ruthless version of Vision in VisionQuest",
+      "detected_at": "2026-10-14T18:54:18.527292+00:00",
+      "analysed_at": "2026-10-24T07:36:05.403786+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/paul-bettany-says-it-was-really-fun-to-tap-into-a-more-ruthless-version-of-vision-in-visionquest/",
+          "title": "Paul Bettany says it was \"really fun\" to tap into a more ruthless version of Vision in VisionQuest",
+          "evidence": "<article> <p>The second episode of<a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-release-date-cast-trailer-plot/\"> VisionQuest</a> introduces viewers to a Vision unlike one we've seen before in the MCU. Gone is the measured, logical synthezoid we know so well, as White Vision meets the <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-paladin-explained/\">Paladin </a>in the Edinburgh pub where he'd been working undercover. </p><p>Trying to manipulate him to turn himself in to save his supposed son, Tommy Shepherd, Vision warns him that he is not the Avenger he assumes he is. \"I'm not The Vision,\" he ominously tells him in a rare show of power and violence.</p><p>After more than 10 years of playing the character, Vision star Paul Bettany says this fresh take was a lot of \"fun\" to get stuck into. \"When we find Vision, he has had his memories restored, but he seems unable or perhaps unwilling to attach any feelings to them, and I think that's a really human thing to do,\" Bettany tells GamesRadar+. </p><p>\"It was fun to think of him getting frustrated because I don't think we've ever seen that. I think we've seen Vision be quite"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Paul Bettany says it was \"really fun\" to tap into a more ruthless version of Vision in VisionQuest",
+        "secondary_keywords": [
+          "Paul Bettany says it was \"really fun\" to tap into a more ruthless version of Vision in VisionQuest date de sortie",
+          "Paul Bettany says it was \"really fun\" to tap into a more ruthless version of Vision in VisionQuest plateformes",
+          "Paul Bettany says it was \"really fun\" to tap into a more ruthless version of Vision in VisionQuest gameplay",
+          "Paul Bettany says it was \"really fun\" to tap into a more ruthless version of Vision in VisionQuest guide",
+          "Paul Bettany says it was \"really fun\" to tap into a more ruthless version of Vision in VisionQuest avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Paul Bettany says it was \"really fun\" to tap into a more ruthless version of Vision in VisionQuest"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gta-6-has-a-realistic-sweat-system-that-makes-jason-and-34b4ece8601b",
+      "topic": "GTA 6 has a realistic sweat system that makes Jason and Lucia perspire based on how hard they dance",
+      "detected_at": "2026-10-14T18:54:18.527724+00:00",
+      "analysed_at": "2026-10-24T07:36:05.403840+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/as-if-you-needed-another-reminder-of-why-gta-6-took-so-long-it-has-a-realistic-sweat-system-that-makes-jason-and-lucia-perspire-based-on-how-hard-they-dance/",
+          "title": "GTA 6 has a realistic sweat system that makes Jason and Lucia perspire based on how hard they dance",
+          "evidence": "<article> <p>Jason and Lucia are going to work up a sweat in Grand Theft Auto 6 – literally. Among the many detailed systems Rockstar built for the game is one that sees realistic sweat gather on characters' bodies depending on how much effort they're exerting in physical activities. No wonder <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> has taken so long to make.</p><p>Earlier today, Bloomberg's Jason Schreier published an extended report on GTA 6's development, confirming that it was once meant to feature a <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-was-delayed-for-years-after-rockstar-scaled-back-project-americas-which-would-have-been-set-across-north-and-south-america/\">more extensive open world spread across North and South America</a>. While the scale of the project was eventually reined in, it's still a game being built at a level of detail rarely seen even in the biggest AAA games. That's partly why there have been so many delays – to the <a href=\"https://www.gamesradar.com/games/grand-theft-auto/please-tell-me-youre-kidding-gta-6s-two-delays-flabbergasted-take-two-ceo-strauss-zelnick-but-he-was-reasonable-with-rockstar/\">chagrin of Take"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GTA 6 has a realistic sweat system that makes Jason and Lucia perspire based on how hard they dance",
+        "secondary_keywords": [
+          "GTA 6 has a realistic sweat system that makes Jason and Lucia perspire based on how hard they dance date de sortie",
+          "GTA 6 has a realistic sweat system that makes Jason and Lucia perspire based on how hard they dance plateformes",
+          "GTA 6 has a realistic sweat system that makes Jason and Lucia perspire based on how hard they dance gameplay",
+          "GTA 6 has a realistic sweat system that makes Jason and Lucia perspire based on how hard they dance guide",
+          "GTA 6 has a realistic sweat system that makes Jason and Lucia perspire based on how hard they dance avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GTA 6 has a realistic sweat system that makes Jason and Lucia perspire based on how hard they dance"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-assassination-of-bruce-wayne-absolute-justice-and-m-4822ad60f576",
+      "topic": "The assassination of Bruce Wayne, Absolute Justice, and more reveals from DC's NYCC panels",
+      "detected_at": "2026-10-14T18:54:18.528516+00:00",
+      "analysed_at": "2026-10-24T07:36:05.403869+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/comics/dc-comics/the-assassination-of-bruce-wayne-absolute-justice-and-more-reveals-from-dcs-nycc-panels/",
+          "title": "The assassination of Bruce Wayne, Absolute Justice, and more reveals from DC's NYCC panels",
+          "evidence": "<article> <p>New York Comic Con is all wrapped up for another year! The event brought the usual slew of comic announcements and reveals from the major publishers. </p><p>DC in particular had a really strong showing this year, unveiling the next phases of both its DC Next Level and Absolute Universe lines, and teasing the return of classic characters like Swamp Thing, Static, Jonah Hex and Vixen.</p><p>If you couldn't make the event, fear not! We've rounded up the biggest highlights from DC's various panels below so you can get up to speed on all the amazing comics headed your way over the next few years.</p><h2 id=\"new-bat-books\">New Bat Books</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"DT6bm7zN3xuqs6GNvA6mee\" name=\"batman1\" alt=\"Batman in Batman #14.\" src=\"https://cdn.mos.cms.futurecdn.net/DT6bm7zN3xuqs6GNvA6mee-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The assassination of Bruce Wayne, Absolute Justice, and more reveals from DC's NYCC panels",
+        "secondary_keywords": [
+          "The assassination of Bruce Wayne, Absolute Justice, and more reveals from DC's NYCC panels date de sortie",
+          "The assassination of Bruce Wayne, Absolute Justice, and more reveals from DC's NYCC panels plateformes",
+          "The assassination of Bruce Wayne, Absolute Justice, and more reveals from DC's NYCC panels gameplay",
+          "The assassination of Bruce Wayne, Absolute Justice, and more reveals from DC's NYCC panels guide",
+          "The assassination of Bruce Wayne, Absolute Justice, and more reveals from DC's NYCC panels avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The assassination of Bruce Wayne, Absolute Justice, and more reveals from DC's NYCC panels"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-xbox-just-announced-its-brand-new-controller-and-it-s-f-79dfa11ebb13",
+      "topic": "Xbox just announced its brand-new controller, and it's far from the pro pad we all expected",
+      "detected_at": "2026-10-14T18:54:18.528935+00:00",
+      "analysed_at": "2026-10-24T07:36:05.403896+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/gaming-controllers/xbox-just-announced-its-brand-new-controller-and-its-far-from-the-pro-pad-we-all-expected/",
+          "title": "Xbox just announced its brand-new controller, and it's far from the pro pad we all expected",
+          "evidence": "<article> <p>Xbox just announced its first new controller in what feels like forever, but the pocket-friendly Xbox Nano Controller isn't coming for any pro gamepad's lunch. Instead, this compact set of clackers seems like the latest step in Xbox's quest to own every screen you look at. </p><p>The portable model sees the Xbox Wireless Controller squished into a horizontal form factor, with two thumbsticks and a giant floating d-pad taking up the majority of its tiny little face. At $49.99 / £44.99 (pre-orders now open <a href=\"https://www.xbox.com/en-US/accessories/controllers/xbox-nano-controller\" target=\"_blank\">at Microsoft</a>) this little fella doesn't want to be one of the <a href=\"https://www.gamesradar.com/best-xbox-series-x-controller/\">best Xbox Series X controllers</a> on the market, but it does want to be the one you've got in your pocket. And sometimes, that counts for a lot more. </p> <div class=\"featured_product_block featured_block_horizontal\" data-id=\"186839be-c7ef-11f1-b96f-575329f13999\"> <a href=\"https://www.xbox.com/en-US/accessories/controllers/xbox-nano-controller\" data-model-name=\"Xbox Nano Controller\" data-model-brand=\"\" ><div class='product-image-widthsetter"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Xbox just announced its brand-new controller, and it's far from the pro pad we all expected",
+        "secondary_keywords": [
+          "Xbox just announced its brand-new controller, and it's far from the pro pad we all expected date de sortie",
+          "Xbox just announced its brand-new controller, and it's far from the pro pad we all expected plateformes",
+          "Xbox just announced its brand-new controller, and it's far from the pro pad we all expected gameplay",
+          "Xbox just announced its brand-new controller, and it's far from the pro pad we all expected guide",
+          "Xbox just announced its brand-new controller, and it's far from the pro pad we all expected avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Xbox just announced its brand-new controller, and it's far from the pro pad we all expected"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-visionquest-star-paul-bettany-once-left-a-complete-aven-53e624b995c9",
+      "topic": "VisionQuest star Paul Bettany once left a complete Avengers: Infinity War script on a plane",
+      "detected_at": "2026-10-14T18:54:18.529243+00:00",
+      "analysed_at": "2026-10-24T07:36:05.403921+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-star-paul-bettany-once-left-a-complete-avengers-infinity-war-script-on-a-plane/",
+          "title": "VisionQuest star Paul Bettany once left a complete Avengers: Infinity War script on a plane",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-release-date-cast-trailer-plot/\">VisionQuest </a>star Paul Bettany says he once left the entire script for Avengers: Infinity War on a plane, which is an offense punishable by Marvel jail.</p><p>\"I've never told anybody this, but I once left the entire script for Avengers: Infinity War on a plane,\" Bettany admitted to <a href=\"https://www.instagram.com/reel/DebkW-pIGe6/?psln=ZzUza3lidzBzdWxh\" target=\"_blank\">Virgin Radio UK</a>. \"And I got in my car and I went, 'Oh no... oh no!' I was lucky to have had a greeter that was a genius, and I got the greeter to go in and get it, and I tipped that greeter like 500 bucks.\"</p><p>Bettany's co-star Emily Hampshire, who plays E.D.I.T.H. on the new Disney Plus show, joked that she didn't know she was entering \"witness protection\" when entering the MCU. Hampshire says it's common to throw out your script pages or sides after you've finished filming that scene, but Marvel will apparently send someone to your house to collect those pages. I'd argue that it's one thing to toss the sides for a Disney Plus TV show, and another to leave the entire script for an"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "VisionQuest star Paul Bettany once left a complete Avengers: Infinity War script on a plane",
+        "secondary_keywords": [
+          "VisionQuest star Paul Bettany once left a complete Avengers: Infinity War script on a plane date de sortie",
+          "VisionQuest star Paul Bettany once left a complete Avengers: Infinity War script on a plane plateformes",
+          "VisionQuest star Paul Bettany once left a complete Avengers: Infinity War script on a plane gameplay",
+          "VisionQuest star Paul Bettany once left a complete Avengers: Infinity War script on a plane guide",
+          "VisionQuest star Paul Bettany once left a complete Avengers: Infinity War script on a plane avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "VisionQuest star Paul Bettany once left a complete Avengers: Infinity War script on a plane"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-henry-cavill-brought-geralt-voice-actor-doug-cockle-to--8f9020899037",
+      "topic": "Henry Cavill brought Geralt voice actor Doug Cockle to a Witcher premiere, but only after he had to prove his identity",
+      "detected_at": "2026-10-14T18:54:18.529670+00:00",
+      "analysed_at": "2026-10-24T07:36:05.403947+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-witcher/henry-cavill-brought-geralt-voice-actor-doug-cockle-to-a-witcher-premiere-but-only-after-the-superman-star-had-to-prove-his-identity-i-get-a-lot-of-weird-dms/",
+          "title": "Henry Cavill brought Geralt voice actor Doug Cockle to a Witcher premiere, but only after he had to prove his identity",
+          "evidence": "<article> <p>There's always value in being an originator, even if what comes after proves more prolific. Doug Cockle is the original English-speaking voice of Geralt of Rivia, stepping into the role for the first <a href=\"https://www.gamesradar.com/uk/games/rpg/the-witcher/\">The Witcher</a>, and he's revealed that Henry Cavill, who brought the character into live-action on Netflix, actually invited him to the premiere, though it took some proof for him to humor the reach out.</p><p>Cockle spoke about the encounter during an <a href=\"https://www.youtube.com/watch?v=0SeRhjBvbEs\" target=\"_blank\">interview with Ginx TV</a>. \"[Henry] gave me credit for a great performance, and said that my vocal performance as Geralt was influential in his decisions about his own performance,\" he recalls, before providing a humorous anecdote about the pair meeting properly.</p><p>\"Henry reached out, three or four weeks before the London premiere of the Netflix, and said, 'Hey Doug, it's Henry here, you want to come to the premiere?'\" Cockle remembers. \"I didn't believe it was him at first; I kind of told him off, because I get a lot of weird DMs, and I thought this was probably some weirdo, and he sent "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Henry Cavill brought Geralt voice actor Doug Cockle to a Witcher premiere, but only after he had to prove his identity",
+        "secondary_keywords": [
+          "Henry Cavill brought Geralt voice actor Doug Cockle to a Witcher premiere, but only after he had to prove his identity date de sortie",
+          "Henry Cavill brought Geralt voice actor Doug Cockle to a Witcher premiere, but only after he had to prove his identity plateformes",
+          "Henry Cavill brought Geralt voice actor Doug Cockle to a Witcher premiere, but only after he had to prove his identity gameplay",
+          "Henry Cavill brought Geralt voice actor Doug Cockle to a Witcher premiere, but only after he had to prove his identity guide",
+          "Henry Cavill brought Geralt voice actor Doug Cockle to a Witcher premiere, but only after he had to prove his identity avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Henry Cavill brought Geralt voice actor Doug Cockle to a Witcher premiere, but only after he had to prove his identity"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-first-big-gta-6-leak-was-like-having-someone-wading-thr-b768881d24d8",
+      "topic": "First big GTA 6 leak was like having someone \"wading through your dirty washing,\" says Rockstar dev",
+      "detected_at": "2026-10-14T18:54:18.530129+00:00",
+      "analysed_at": "2026-10-24T07:36:05.403970+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-first-major-leak-was-like-having-someone-wading-through-your-dirty-washing-says-rockstar-lead-its-like-theyre-inside-your-head/",
+          "title": "First big GTA 6 leak was like having someone \"wading through your dirty washing,\" says Rockstar dev",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> has suffered its fair share of leaks now, with <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-leaker-cyberleek-returns-with-25-minutes-of-new-gameplay-after-over-a-month-of-silence-showing-first-person-footage-and-more/\">25 minutes of new gameplay</a> having gone live last week – and it hasn't been easy for Rockstar Games, to say the least.</p><p>Artist Aaron Garbut tells <a href=\"https://www.bloomberg.com/features/2026-grand-theft-auto-6-making-of/?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTk3MjA3MSwiZXhwIjoxNzkyNTc2ODcxLCJhcnRpY2xlSWQiOiJUTVc2R0tSS1YyVFYwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.0VPBZUiXLU7bQyXAwJBmCZKUF4dwDx_pGuaInaXxpqw&leadSource=article-gifting\" target=\"_blank\">Bloomberg</a> as much during a recent interview, describing leaks as a line crossed – a look into something personal, and unprepared for the public. \"It feels like somebody's wading through your dirty washing,\" he says. \"It's like they're inside your head.\" <br><br>That makes sense, honestly… and that <a href=\"https://w"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "First big GTA 6 leak was like having someone \"wading through your dirty washing,\" says Rockstar dev",
+        "secondary_keywords": [
+          "First big GTA 6 leak was like having someone \"wading through your dirty washing,\" says Rockstar dev date de sortie",
+          "First big GTA 6 leak was like having someone \"wading through your dirty washing,\" says Rockstar dev plateformes",
+          "First big GTA 6 leak was like having someone \"wading through your dirty washing,\" says Rockstar dev gameplay",
+          "First big GTA 6 leak was like having someone \"wading through your dirty washing,\" says Rockstar dev guide",
+          "First big GTA 6 leak was like having someone \"wading through your dirty washing,\" says Rockstar dev avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "First big GTA 6 leak was like having someone \"wading through your dirty washing,\" says Rockstar dev"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-over-the-hill-review-the-single-most-stressful-game-i-v-2f11c6dad538",
+      "topic": "Over the Hill review: \"The single most stressful game I’ve played in years and I think it hates me\"",
+      "detected_at": "2026-10-14T18:54:18.531092+00:00",
+      "analysed_at": "2026-10-24T07:36:05.404010+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/open-world/over-the-hill-review/",
+          "title": "Over the Hill review: \"The single most stressful game I’ve played in years and I think it hates me\"",
+          "evidence": "<article> <p>The trailer for Over the Hill makes it look like you’ll be taking an off-road vehicle out into the wilderness and having a wonderful, relaxing time in warm sunshine, listening to acoustic guitar music as you trundle around paradise looking at the wildlife. Balderdash. It’s the single most stressful game I’ve played in years and I think it hates me.</p><p>It’s a bold move for a game to focus on the actual worst bits of open world driving games like Forza Horizon or even GTA. You know, the ones where you try to drive up a hill and it’s just a little too steep for your car to manage. Sliding around, skidding back down, and getting stuck against trees is the core experience at first, as there's just not enough grip to enjoy yourself. You can soon upgrade your tires, at which point things improve. But even with this added grip, Over the Hill is best described as a constant, laborious battle against hostile terrain – and that's far from enjoyable.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\">"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Over the Hill review: \"The single most stressful game I’ve played in years and I think it hates me\"",
+        "secondary_keywords": [
+          "Over the Hill review: \"The single most stressful game I’ve played in years and I think it hates me\" date de sortie",
+          "Over the Hill review: \"The single most stressful game I’ve played in years and I think it hates me\" plateformes",
+          "Over the Hill review: \"The single most stressful game I’ve played in years and I think it hates me\" gameplay",
+          "Over the Hill review: \"The single most stressful game I’ve played in years and I think it hates me\" guide",
+          "Over the Hill review: \"The single most stressful game I’ve played in years and I think it hates me\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Over the Hill review: \"The single most stressful game I’ve played in years and I think it hates me\""
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

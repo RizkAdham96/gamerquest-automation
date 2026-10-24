@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-24T07:36:11.218472+00:00",
+  "updated_at": "2026-10-24T17:36:04.178679+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -313,6 +313,14 @@
       "wordpress_url": "https://gamerquestfr.com/resident-evil-village-multijoueur-coop-en-ligne-et-modes-de-jeu/",
       "wordpress_post_id": 865,
       "published_at": "2026-10-24T07:36:11.218472+00:00"
+    },
+    {
+      "intent_key": "configuration pc crusader kings iii",
+      "primary_keyword": "configuration pc Crusader Kings III",
+      "title": "Configuration PC Crusader Kings III : minimale, recommandée et conseils",
+      "wordpress_url": "https://gamerquestfr.com/configuration-pc-crusader-kings-iii-minimale-recommandee-et-conseils/",
+      "wordpress_post_id": 867,
+      "published_at": "2026-10-24T17:36:04.178679+00:00"
     }
   ]
 }

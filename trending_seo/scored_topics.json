@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-24T07:36:05.404015+00:00",
+  "updated_at": "2026-10-24T17:35:58.121509+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -13670,6 +13670,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Over the Hill review: \"The single most stressful game I’ve played in years and I think it hates me\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-epic-s-bulletproof-plan-to-outdo-steam-we-vibe-coded-th-ecfd03a0d3b4",
+      "topic": "Epic's bulletproof plan to outdo Steam: \"We vibe coded the Epic Games Launcher\"",
+      "detected_at": "2026-10-14T18:54:18.532775+00:00",
+      "analysed_at": "2026-10-24T17:35:58.121367+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/epics-bulletproof-plan-to-outdo-steam-we-vibe-coded-the-epic-games-launcher/",
+          "title": "Epic's bulletproof plan to outdo Steam: \"We vibe coded the Epic Games Launcher\"",
+          "evidence": "<article> <p>Epic Games has retooled the Epic Games Store to feel less like molasses in an igloo, and the company says it's now \"46% faster than Steam\" thanks to the power of partially AI-generated code. </p><p>\"We vibe coded the Epic Games Launcher to be faster than the other guy,\" Epic <a href=\"https://x.com/EpicGames/status/2110369347592229333\" target=\"_blank\"><u>says</u></a> in a recent Twitter post. Attached is a graph claiming that the EGS launcher now has a \"cold start to store\" time of 5.47 seconds, which is about 4.6 seconds faster than the 10.07 seconds recorded for Steam. It's unclear in what system environment these figures were measured. </p><p>The time it takes to \"restore from system tray to library,\" meanwhile, is allegedly a whole 0.06 seconds faster than Steam. The Epic Games Store really did feel cumbersome to use, but when you're visualizing a 0.06 second gain, I fear you've lost the plot a bit. </p><p>This overhaul will seemingly make good on promises Epic made at the start of the year, and this news follows the company's <a href=\"https://www.gamesradar.com/games/epic-games-undergoes-huge-pivot-for-maximum-ai-acceleration-amid-reports-of-disney-shooter-delay-du"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Epic's bulletproof plan to outdo Steam: \"We vibe coded the Epic Games Launcher\"",
+        "secondary_keywords": [
+          "Epic's bulletproof plan to outdo Steam: \"We vibe coded the Epic Games Launcher\" date de sortie",
+          "Epic's bulletproof plan to outdo Steam: \"We vibe coded the Epic Games Launcher\" plateformes",
+          "Epic's bulletproof plan to outdo Steam: \"We vibe coded the Epic Games Launcher\" gameplay",
+          "Epic's bulletproof plan to outdo Steam: \"We vibe coded the Epic Games Launcher\" guide",
+          "Epic's bulletproof plan to outdo Steam: \"We vibe coded the Epic Games Launcher\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Epic's bulletproof plan to outdo Steam: \"We vibe coded the Epic Games Launcher\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-kojima-sympathizes-with-digger-flopping-people-also-wro-1c2d7ef0f833",
+      "topic": "Kojima sympathizes with Digger flopping – people also wrote off Death Stranding without playing it",
+      "detected_at": "2026-10-14T18:54:18.533085+00:00",
+      "analysed_at": "2026-10-24T17:35:58.121410+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/hideo-kojima-sympathizes-with-tom-cruise-after-digger-flop-people-also-wrote-off-death-stranding-without-playing-it-and-he-thinks-the-film-is-similar-to-metal-gear-solid-2/",
+          "title": "Kojima sympathizes with Digger flopping – people also wrote off Death Stranding without playing it",
+          "evidence": "<article> <p>Besides masterminding games like the <a href=\"https://www.gamesradar.com/games/stealth/best-metal-gear-games/\">Metal Gear Solid</a> series and <a href=\"https://www.gamesradar.com/uk/death-stranding/\">Death Stranding</a>, Hideo Kojima has long been a fervent movie fan. He recently sat down with noted filmmaker Alejandro Gonzalez Iñárritu, whose film Digger is currently in cinemas, to discuss similarities between that picture and his games over the years.</p><p>The conversation was put together by <a href=\"https://www.gizmodo.jp/article/inarritu-kojima-digger-interview/\" target=\"_blank\">Gizmodo Japan</a>, and during the chat, per machine translation from two different sources, they first touched on their shared preoccupation with using the present to warn about what could be our future. In the former, Tom Cruise plays an oil tycoon who causes considerable environmental damage, and Kojima believes it's made in the same spirit as the second Metal Gear Solid.</p><p>Iñárritu notes that he believes they share the same mindset and stresses the importance of cultivating understanding and awareness through artistic means. Kojima then brings up Sons of Liberty and how it deals wi"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Kojima sympathizes with Digger flopping – people also wrote off Death Stranding without playing it",
+        "secondary_keywords": [
+          "Kojima sympathizes with Digger flopping – people also wrote off Death Stranding without playing it date de sortie",
+          "Kojima sympathizes with Digger flopping – people also wrote off Death Stranding without playing it plateformes",
+          "Kojima sympathizes with Digger flopping – people also wrote off Death Stranding without playing it gameplay",
+          "Kojima sympathizes with Digger flopping – people also wrote off Death Stranding without playing it guide",
+          "Kojima sympathizes with Digger flopping – people also wrote off Death Stranding without playing it avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Kojima sympathizes with Digger flopping – people also wrote off Death Stranding without playing it"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-after-avoiding-gta-5-for-13-years-trevor-actor-says-he--9018ef5841e6",
+      "topic": "After avoiding GTA 5 for 13 years, Trevor actor says he's excited for GTA 6 and might even stream it",
+      "detected_at": "2026-10-15T07:43:53.615049+00:00",
+      "analysed_at": "2026-10-24T17:35:58.121433+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/after-avoiding-gta-5-for-13-years-trevor-actor-says-hes-excited-for-gta-6-and-might-even-stream-it/",
+          "title": "After avoiding GTA 5 for 13 years, Trevor actor says he's excited for GTA 6 and might even stream it",
+          "evidence": "<article> <p>Steven Ogg, the actor best known for playing Trevor in GTA 5, spent many years pretending the game didn't exist, but 13 years later, he's fully embracing his role in making it so special. For a few weeks now, Ogg has been participating in a series of GTA 5 livestreams hosted by his co-star, Michael actor Ned Luke, and in the latest episode, Ogg not only acknowledges <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>'s existence – he expresses vague excitement for the sequel and even floats the idea of streaming it alongside Luke. Progress.</p><p>This is a huge flip from February 2025, when <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-5-trevor-actor-denies-that-he-hates-the-series-and-his-awesome-character-but-says-no-he-wont-be-playing-gta-6/\">Ogg denied the common perception that he \"hates\" GTA but maintained that he wouldn't be playing GTA 6</a>. It seems Ogg has had a change of heart, as he sounds much more enthusiastic about Rockstar's upcoming behemoth these days.</p><p>\"We should also do this with the new one, when the GTA 6 comes out,\" Ogg tells Luke, immediately reminding everyone he doesn't play games by referring to it as <em>the </"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "After avoiding GTA 5 for 13 years, Trevor actor says he's excited for GTA 6 and might even stream it",
+        "secondary_keywords": [
+          "After avoiding GTA 5 for 13 years, Trevor actor says he's excited for GTA 6 and might even stream it date de sortie",
+          "After avoiding GTA 5 for 13 years, Trevor actor says he's excited for GTA 6 and might even stream it plateformes",
+          "After avoiding GTA 5 for 13 years, Trevor actor says he's excited for GTA 6 and might even stream it gameplay",
+          "After avoiding GTA 5 for 13 years, Trevor actor says he's excited for GTA 6 and might even stream it guide",
+          "After avoiding GTA 5 for 13 years, Trevor actor says he's excited for GTA 6 and might even stream it avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "After avoiding GTA 5 for 13 years, Trevor actor says he's excited for GTA 6 and might even stream it"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wardogs-is-getting-loadouts-ceo-confirms-but-the-devs-w-7b8f8b0e8ebd",
+      "topic": "Wardogs is getting loadouts, CEO confirms, but the devs want you to \"keep trying\" new builds",
+      "detected_at": "2026-10-15T07:43:53.615336+00:00",
+      "analysed_at": "2026-10-24T17:35:58.121449+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fps/wardogs-is-getting-loadouts-ceo-confirms-but-the-devs-want-you-to-keep-trying-different-weapons-rather-than-settling-on-one-setup/",
+          "title": "Wardogs is getting loadouts, CEO confirms, but the devs want you to \"keep trying\" new builds",
+          "evidence": "<article> <p>Wardogs players, your wishes have been answered: you're getting your precious loadouts, even if the developers really don't like what you're probably going to do with them.</p><p>In a detailed <a href=\"https://www.reddit.com/r/WarDogs/comments/1x4ndj5/comment/pgieseb/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button\" target=\"_blank\">reply</a> to a Reddit user imploring developer Bulkhead to add custom loadouts to Wardogs, the company's CEO, Joe Brammer, confirms that the feature is coming and explains why it's taking so long. The TLDR is that the developers specifically opted out of loadouts to force players to experiment with their kits, which impedes public testing. For that reason, Bulkhead is holding off on adding loadouts until they feel everything's been put through its paces. </p><p>\"Internally, we deliberately never gave the team loadouts,\" says Brammer. \"If we had, everyone would have gravitated to their favourite setup and only ever tested with that. Withholding them forced the team to play with everything, which meant far more of the game got properly tested. The same thinking applies to players right now.\"</p><p>An iss"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Wardogs is getting loadouts, CEO confirms, but the devs want you to \"keep trying\" new builds",
+        "secondary_keywords": [
+          "Wardogs is getting loadouts, CEO confirms, but the devs want you to \"keep trying\" new builds date de sortie",
+          "Wardogs is getting loadouts, CEO confirms, but the devs want you to \"keep trying\" new builds plateformes",
+          "Wardogs is getting loadouts, CEO confirms, but the devs want you to \"keep trying\" new builds gameplay",
+          "Wardogs is getting loadouts, CEO confirms, but the devs want you to \"keep trying\" new builds guide",
+          "Wardogs is getting loadouts, CEO confirms, but the devs want you to \"keep trying\" new builds avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Wardogs is getting loadouts, CEO confirms, but the devs want you to \"keep trying\" new builds"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-pokemon-lead-is-making-an-original-rpg-where-you-wash-y-fc8c23e4d5c1",
+      "topic": "Pokemon lead is making an \"original\" RPG where you wash your outfits and let them dry in real time",
+      "detected_at": "2026-10-15T07:43:53.615545+00:00",
+      "analysed_at": "2026-10-24T17:35:58.121464+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/pokemon/after-24-years-working-on-pokemon-scarlet-and-violet-lead-is-making-a-completely-original-game-an-rpg-where-you-have-to-wash-your-outfits-and-let-them-dry-in-real-time/",
+          "title": "Pokemon lead is making an \"original\" RPG where you wash your outfits and let them dry in real time",
+          "evidence": "<article> <p>Shigeru Ohmori has been working on Pokemon games since the original Ruby and Sapphire in 2002, and has been directing the series since Omega Ruby and Alpha Sapphire over a decade later. Now, still at Game Freak, he's working on something all-new in the form of a magical girl RPG that relies on real-life weather.</p><p>Ohmori wants to build \"forms of expression that can only be achieved in a completely original game,\" as he tells <a href=\"https://www.famitsu.com/article/202610/90504\" target=\"_blank\">Famitsu</a> (translated by <a href=\"https://automaton-media.com/en/news/pokemon-director-shigeru-ohmori-talks-about-game-freaks-magical-girl-weather-game-ame-nochi-hare-onna-and-how-the-project-came-to-be/\" target=\"_blank\">Automaton</a>). The result is Ame Nochi Hare Onna, a free-to-play mobile RPG. You build a team of magical girls who clean up the city by taking on trash in turn-based combat – the trash, in this case, being garbage-shaped yokai spirits.</p><p>The key gimmick is that your party's powers are determined by their outfits, and outfits get dirty over time. The game is built around short gameplay sessions, requiring you to wash your outfits to use them again. The"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Pokemon lead is making an \"original\" RPG where you wash your outfits and let them dry in real time",
+        "secondary_keywords": [
+          "Pokemon lead is making an \"original\" RPG where you wash your outfits and let them dry in real time date de sortie",
+          "Pokemon lead is making an \"original\" RPG where you wash your outfits and let them dry in real time plateformes",
+          "Pokemon lead is making an \"original\" RPG where you wash your outfits and let them dry in real time gameplay",
+          "Pokemon lead is making an \"original\" RPG where you wash your outfits and let them dry in real time guide",
+          "Pokemon lead is making an \"original\" RPG where you wash your outfits and let them dry in real time avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Pokemon lead is making an \"original\" RPG where you wash your outfits and let them dry in real time"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-after-valve-was-criticized-devs-back-steam-s-refund-pol-8dc01718d2d6",
+      "topic": "After Valve was criticized, devs back Steam's refund policy by creating 2-hour game Refund This Game",
+      "detected_at": "2026-10-15T07:43:53.615799+00:00",
+      "analysed_at": "2026-10-24T17:35:58.121478+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/platformer/after-valve-was-criticized-devs-back-steams-refund-policy-by-creating-a-2-hour-game-literally-called-refund-this-game-we-celebrate-players-right-to-refund/",
+          "title": "After Valve was criticized, devs back Steam's refund policy by creating 2-hour game Refund This Game",
+          "evidence": "<article> <p>Over the summer, a bubble of discourse centered around one developer – Mateo Covic of Paddle Paddle Paddle fame – and his <a href=\"https://www.gamesradar.com/games/dev-tells-valve-to-fix-steams-exploitable-2-hour-refund-policy-as-over-55-000-players-refund-his-short-game-and-even-brag-about-it-in-reviews/\">frustrations with Steam's two-hour refund window</a> saw countless players and developers interrogate Valve's policy. Lots of people, including Covic himself, <a href=\"https://www.gamesradar.com/games/co-op/steam-refunds-are-not-for-people-to-play-games-for-free-says-dev-of-short-game-who-criticized-valves-system-im-100-percent-pro-refund/\">said they remain \"100% pro refund\"</a> despite some potential for exploits. In a delayed response to that whole incident, two developers have made and released <a href=\"https://store.steampowered.com/app/5070190/Refund_This_Game/\" target=\"_blank\">Refund This Game</a>, a first-person platformer designed to put Steam's refund policy to the test.</p><p>\"Fling yourself up to the top in this 'Getting Over It'-like 3D platformer!\" reads the game's Steam description. \"Stick your pole to walls, bend it and fling yourself with great speed!"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "After Valve was criticized, devs back Steam's refund policy by creating 2-hour game Refund This Game",
+        "secondary_keywords": [
+          "After Valve was criticized, devs back Steam's refund policy by creating 2-hour game Refund This Game date de sortie",
+          "After Valve was criticized, devs back Steam's refund policy by creating 2-hour game Refund This Game plateformes",
+          "After Valve was criticized, devs back Steam's refund policy by creating 2-hour game Refund This Game gameplay",
+          "After Valve was criticized, devs back Steam's refund policy by creating 2-hour game Refund This Game guide",
+          "After Valve was criticized, devs back Steam's refund policy by creating 2-hour game Refund This Game avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "After Valve was criticized, devs back Steam's refund policy by creating 2-hour game Refund This Game"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-arc-raiders-devs-had-the-same-debates-as-players-over-p-662f927d0dcf",
+      "topic": "Arc Raiders devs had the same debates as players over PvE, but \"dad gamers\" pushed them to try it",
+      "detected_at": "2026-10-15T07:43:53.616078+00:00",
+      "analysed_at": "2026-10-24T17:35:58.121492+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-devs-had-the-same-debates-players-are-currently-having-over-pve-mode-but-the-dad-gamers-pushed-them-to-try-it-anyway/",
+          "title": "Arc Raiders devs had the same debates as players over PvE, but \"dad gamers\" pushed them to try it",
+          "evidence": "<article> <p>Arc Raiders is finally trying out a PvE-only mode, and it's gone exactly as you'd expect. After the limited-time release of a PvE toggle, <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-pve-mode-called-bland-and-hollow-by-players-who-say-its-ruined-the-tension-but-others-say-its-the-game-they-always-wanted/\"><u>fierce opinions</u></a> have hit the game's community faster than Bastion bullets to my temple after I misclick my photoelectric cloak, and the test has only just begun. Executive producer Aleksander Grøndal tells me that, inside developer Embark Studios, similar debates about a PvE mode raged, but the team decided the \"dad gamers\" deserve a fair shot. </p><p>At the risk of <a href=\"https://www.gamesradar.com/games/third-person-shooter/will-pve-mode-split-arc-raiders-in-two-its-very-possible-says-executive-producer/\"><u>splitting the game in two</u></a>, Embark chose to finally bite the bullet after realizing that players had practically done the legwork for them. </p><p>\"We kind of got to the point where it's like, these friendly servers, they are almost playing out like they don't have PvP in them at all, and people seem to be enjoyi"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Arc Raiders devs had the same debates as players over PvE, but \"dad gamers\" pushed them to try it",
+        "secondary_keywords": [
+          "Arc Raiders devs had the same debates as players over PvE, but \"dad gamers\" pushed them to try it date de sortie",
+          "Arc Raiders devs had the same debates as players over PvE, but \"dad gamers\" pushed them to try it plateformes",
+          "Arc Raiders devs had the same debates as players over PvE, but \"dad gamers\" pushed them to try it gameplay",
+          "Arc Raiders devs had the same debates as players over PvE, but \"dad gamers\" pushed them to try it guide",
+          "Arc Raiders devs had the same debates as players over PvE, but \"dad gamers\" pushed them to try it avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Arc Raiders devs had the same debates as players over PvE, but \"dad gamers\" pushed them to try it"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-fallout-co-creator-worries-rpgs-are-ditching-secrets-be-ba91d15e4502",
+      "topic": "Fallout co-creator worries RPGs are ditching secrets because \"nobody thinks people will find things\"",
+      "detected_at": "2026-10-15T07:43:53.616307+00:00",
+      "analysed_at": "2026-10-24T17:35:58.121506+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/hidden-content-made-baldurs-gate-3-special-but-fallout-co-creator-worries-rpgs-are-ditching-secrets-because-nobody-thinks-people-will-find-things-on-their-own/",
+          "title": "Fallout co-creator worries RPGs are ditching secrets because \"nobody thinks people will find things\"",
+          "evidence": "<article> <p>Fallout co-creator Timothy Cain has released another fairly depressing video about the state of RPG game development today compared to his heyday in the late '90s to early '00s. According to Cain, RPG developers aren't bothering as much with hidden and optional content because the people with the money aren't as willing to shell out for stuff that most people won't see. Broadly speaking, Cain even argues the industry is trending away from non-linear game design altogether.</p><p>\"Things are really going to linear storylines, with one end state,\" he says. \"There are still some non-linear games being made, but more and more I see linearity with one end state. And I think this is done because they're trying to not only minimize that expensive-to-make unseen content, but they're trying to make a lot more common moments so that when people talk about the game, they've all gone through these same stages.\"</p><p>I'm not qualified to question Cain's insights, but this is a curious bit of commentary as I've personally struggled with open-world fatigue in recent years, but I can reconcile that by drawing a distinction between the kind of uninspired, checklist-style quest design "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Fallout co-creator worries RPGs are ditching secrets because \"nobody thinks people will find things\"",
+        "secondary_keywords": [
+          "Fallout co-creator worries RPGs are ditching secrets because \"nobody thinks people will find things\" date de sortie",
+          "Fallout co-creator worries RPGs are ditching secrets because \"nobody thinks people will find things\" plateformes",
+          "Fallout co-creator worries RPGs are ditching secrets because \"nobody thinks people will find things\" gameplay",
+          "Fallout co-creator worries RPGs are ditching secrets because \"nobody thinks people will find things\" guide",
+          "Fallout co-creator worries RPGs are ditching secrets because \"nobody thinks people will find things\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Fallout co-creator worries RPGs are ditching secrets because \"nobody thinks people will find things\""
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

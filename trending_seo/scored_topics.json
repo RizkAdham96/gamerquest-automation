@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-24T17:35:58.121509+00:00",
+  "updated_at": "2026-10-25T07:48:49.957027+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -13982,6 +13982,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Fallout co-creator worries RPGs are ditching secrets because \"nobody thinks people will find things\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-kukirin-life-codes-october-2026-and-how-to-redeem-them--5cb681274505",
+      "topic": "Kukirin Life codes (October 2026) and how to redeem them for free Crates and Cash",
+      "detected_at": "2026-10-15T07:43:53.617870+00:00",
+      "analysed_at": "2026-10-25T07:48:49.956778+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/simulation/kukirin-life-codes/",
+          "title": "Kukirin Life codes (October 2026) and how to redeem them for free Crates and Cash",
+          "evidence": "<article> <p>Kukirin Life codes will help speed up your progress in this open world e-scooter game, as you race around the city performing wheelies and escaping from the cops in exciting chases. There's deep customization available to give your scooter the exact look you want, as well as options to modify it or upgrade to a better model.<br><br>The promos included so far will unlock some crates to give you rewards based on random spins, as well as cash that you can use to buy more crates or put toward the purchase of a faster ride in this e-scooter <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> experience. If you've got what it takes to evade the police, then here are the codes for Kukirin Life and how to redeem them.<br><br><em>If you're searching for some more general promos that give universal rewards, then we've got the lowdown on the current </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em>.</em></p><h2 class=\"article-body__section\" id=\"section-all-kukirin-life-codes\"><span>All Kukirin Life codes</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-im"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Kukirin Life codes (October 2026) and how to redeem them for free Crates and Cash",
+        "secondary_keywords": [
+          "Kukirin Life codes (October 2026) and how to redeem them for free Crates and Cash date de sortie",
+          "Kukirin Life codes (October 2026) and how to redeem them for free Crates and Cash plateformes",
+          "Kukirin Life codes (October 2026) and how to redeem them for free Crates and Cash gameplay",
+          "Kukirin Life codes (October 2026) and how to redeem them for free Crates and Cash guide",
+          "Kukirin Life codes (October 2026) and how to redeem them for free Crates and Cash avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Kukirin Life codes (October 2026) and how to redeem them for free Crates and Cash"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-razer-has-decapitated-kuromi-for-its-new-earbuds-but-it-828eea4f7a2f",
+      "topic": "Razer has decapitated Kuromi for its new earbuds, but it's the perfect amount of gaming tech absurdity",
+      "detected_at": "2026-10-15T07:43:53.618180+00:00",
+      "analysed_at": "2026-10-25T07:48:49.956833+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/headsets-headphones/razer-has-decapitated-kuromi-for-its-new-earbuds-but-thats-the-perfect-amount-of-absurdity-i-want-for-my-licensed-gaming-tech/",
+          "title": "Razer has decapitated Kuromi for its new earbuds, but it's the perfect amount of gaming tech absurdity",
+          "evidence": "<article> <p>When a brand like Razer launches a new \"edition\" of its existing tech, I always prefer the design to go big or go home. Transforming my favorite goth-bunny girl's head into a pair of Kuromi Edition Razer Hammerhead V3 X HyperSpeed earbuds is definitely a go-big moment.<br><br>The <a href=\"https://www.razer.com/mobile-earphones/kuromi-razer-hammerhead-v3-x-hyperspeed\" target=\"_blank\">$119.99</a> earphones don't just re-color the charging case pastel purple and slap on some existing Sanrio artwork and call it a day. Instead, the entirety of the existing <a href=\"https://www.gamesradar.com/best-gaming-earbuds/\">gaming earbuds</a> case has been swapped out with Kuromi's head, which even goes as far as to include her hood-covered ears and a 3-dimensional version of her cute skull-bow motif. This all comes at a $20 extra cost to the plain buds, but if I'm paying more for a \"Kuromi Edition\" anything, I'd much sooner prefer brands go the extra mile like Razer has with this new model.</p> <div class=\"featured_product_block featured_block_horizontal\" data-id=\"2e031036-c7d2-11f1-9c2e-43f6b277e183\"> <a href=\"https://www.razer.com/mobile-earphones/kuromi-razer-hammerhead-v3-x-hyper"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Razer has decapitated Kuromi for its new earbuds, but it's the perfect amount of gaming tech absurdity",
+        "secondary_keywords": [
+          "Razer has decapitated Kuromi for its new earbuds, but it's the perfect amount of gaming tech absurdity date de sortie",
+          "Razer has decapitated Kuromi for its new earbuds, but it's the perfect amount of gaming tech absurdity plateformes",
+          "Razer has decapitated Kuromi for its new earbuds, but it's the perfect amount of gaming tech absurdity gameplay",
+          "Razer has decapitated Kuromi for its new earbuds, but it's the perfect amount of gaming tech absurdity guide",
+          "Razer has decapitated Kuromi for its new earbuds, but it's the perfect amount of gaming tech absurdity avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Razer has decapitated Kuromi for its new earbuds, but it's the perfect amount of gaming tech absurdity"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-5-best-new-shows-and-movies-streaming-this-week-on--984b1833af4f",
+      "topic": "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18)",
+      "detected_at": "2026-10-15T18:39:49.520660+00:00",
+      "analysed_at": "2026-10-25T07:48:49.956866+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/streaming-services/new-shows-movies-to-stream-disney-plus-netflix-prime-video-apple-tv-october-16-18/",
+          "title": "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18)",
+          "evidence": "<article> <p>Looking for what to stream this weekend? Then you've come to the right place. We've searched the most popular streaming services to bring you our bespoke list of the titles worth watching this weekend, so you can kick back and relax with the most exciting new releases. </p><p>Below, you'll find everything from the latest <a href=\"https://www.gamesradar.com/marvel-phase-6-movies-shows/\">Marvel Phase 6</a> release to a heart-breaking tale of loss and love. So, whatever you're in the mood for this weekend, we've got you covered. Our recommendations this week cover Disney Plus, Apple TV, Netflix, and more. </p><p>As the weather gets colder, a night in front of the TV has never looked so inviting. We've even got a seasonally appropriate horror show to check out, too. So, for our top picks of the weekend, head on down. Happy streaming!</p><h2 id=\"visionquest\">VisionQuest</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"j5qrkHwKj8Dprkq3GSzYnH\" name=\"VisionQuest\" alt=\"Vision (Paul Bettany"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18)",
+        "secondary_keywords": [
+          "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18) date de sortie",
+          "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18) plateformes",
+          "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18) gameplay",
+          "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18) guide",
+          "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18) avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The 5 best new shows and movies streaming this week on Disney Plus, Netflix, Prime Video, and more (October 16-18)"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-zelda-doesn-t-rate-against-gta-6-and-cod-as-the-biggest-0b5e750d06c9",
+      "topic": "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says",
+      "detected_at": "2026-10-15T18:39:49.520803+00:00",
+      "analysed_at": "2026-10-25T07:48:49.956895+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/call-of-duty/zelda-ocarina-of-time-remake-doesnt-even-rate-against-gta-6-and-call-of-duty-modern-warfare-4-as-the-biggest-games-of-the-year-activision-exec-says/",
+          "title": "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/the-legend-of-zelda-ocarina-of-time-remake-guide/\">The Legend of Zelda: Ocarina of Time remake</a> is generating a massive amount of buzz, but given the proximity of its November 5 release date to the launch of <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>. it's difficult not to compare the games. But according to Tyler Bahl, Activision's chief marketing officer, GTA and <a href=\"https://www.gamesradar.com/games/call-of-duty-modern-warfare-4-guide/\">Call of Duty: Modern Warfare 4</a> make up the <em>real</em> one-two punch of 2026.</p><p>\"Well, no offense to Zelda, but I think these are the two biggest games of the year,\" Bahl tells <a href=\"https://www.youtube.com/watch?v=wTg-2jEpvz0\" target=\"_blank\">The Game Business</a>. There's no denying that GTA 6 is <em>the</em> biggest game of the year, but how do Zelda and Call of Duty compare?</p><p>Mat Piscatella of analyst group Circana <a href=\"https://bsky.app/profile/matpiscatella.bsky.social/post/3mxwcdlcsms2f\" target=\"_blank\">notes</a> that purchase intent for Modern Warfare 4 is sitting around 15%, meaning that the group figures about 15% of console and PC players in t"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says",
+        "secondary_keywords": [
+          "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says date de sortie",
+          "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says plateformes",
+          "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says gameplay",
+          "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says guide",
+          "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Zelda doesn't rate against GTA 6 and COD as the \"biggest games of the year,\" Activision exec says"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-ghost-of-yotei-dlc-isn-t-great-but-it-s-a-good-remi-f12c7c90c405",
+      "topic": "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is",
+      "detected_at": "2026-10-15T18:39:49.520975+00:00",
+      "analysed_at": "2026-10-25T07:48:49.956920+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/open-world/the-ghost-of-yotei-dlc-isnt-great-but-its-a-good-reminder-of-why-the-main-game-is/",
+          "title": "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is",
+          "evidence": "<article> <p>At the risk of repeating myself, Ghost of Yotei is perhaps <a href=\"https://www.gamesradar.com/games/open-world/i-had-more-fun-exploring-ghost-of-yotei-than-i-have-in-any-other-open-world-game-not-just-this-year-but-ever/\">my favorite video game of 2025</a>. I absolutely inhaled the entire game before it was even released, got the Platinum trophy (<a href=\"https://www.gamesradar.com/games/open-world/after-70-hours-with-ghost-of-yotei-before-the-game-even-launched-i-couldnt-help-but-come-back-for-more-and-thats-why-its-my-only-platinum-trophy-of-2025/\">my very first</a>) soon after, and generally spent dozens upon dozens of hours wandering the beautiful vistas of Yotei as Atsu. Despite all of this, the recent Ghost of Yotei DLC has done absolutely nothing for me – except remind me why I loved Ghost of Yotei in the first place.</p><p>When Ghost of Yotei Complete Edition was <a href=\"https://www.gamesradar.com/games/open-world/ghost-of-yotei-complete-edition-launches-on-disc-alongside-echoes-of-sekigahara-dlc-a-full-on-narrative-expansion-with-a-new-location/\">first announced back in August</a>, the idea of an entirely new narrative expansion – Ghost of Yotei: Echoes of S"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is",
+        "secondary_keywords": [
+          "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is date de sortie",
+          "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is plateformes",
+          "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is gameplay",
+          "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is guide",
+          "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Ghost of Yotei DLC isn't great, but it's a good reminder of why the main game is"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-konami-takes-emergency-action-as-yu-gi-oh-hits-a-rare-l-b1b19216fe3a",
+      "topic": "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\"",
+      "detected_at": "2026-10-15T18:39:49.521132+00:00",
+      "analysed_at": "2026-10-25T07:48:49.956967+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/tabletop-gaming/konami-takes-emergency-action-as-yu-gi-oh-hits-a-rare-low-new-ban-list-sees-34-newly-forbidden-cards-and-8-limited-cards/",
+          "title": "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\"",
+          "evidence": "<article> <p>With the Yu-Gi-Oh TCG in bad shape in the mainstay advanced format, operator Konami has put together an emergency ban list that's expected to be nuclear. </p><p>\"Forbidden & Limited list updates are coming, to prep for Magnificent Maestros!\" <a href=\"https://x.com/YuGiOhCardEU/status/2110453083943657746\" target=\"_blank\"><u>reads a post</u></a> from the official Yu-Gi-Oh Konami Europe Twitter account. \"With 34 newly Forbidden cards and 8 Limited cards, we’re revealing the list in 5 parts at YCS Houston – 1 on Friday, 2 each on Saturday and Sunday!\"</p><p>Magnificent Maestros is a new Yu-Gi-Oh holiday set scheduled to launch on November 13, featuring \"re-imagined cards based on characters from the TV series: Seto Kaiba, Zane Truesdale, Jack Atlas, Kite Tenjo, Yuto/Yugo/Yuri, and Varis.\" </p><p>With everything from Blue-Eyes fan service to full-art collector pieces, this is the type of product that would normally excite a range of Yu-Gi-Oh players, but many people currently find the game so tiresome that the response has been blunted. Magnificent Maestros also contains plenty of powerful cards relevant to top decks, and the latest ban list did very little to adjust the lo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\"",
+        "secondary_keywords": [
+          "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\" date de sortie",
+          "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\" plateformes",
+          "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\" gameplay",
+          "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\" guide",
+          "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Konami takes emergency action as Yu-Gi-Oh hits a rare low – ban list sees \"34 newly Forbidden cards\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-diablo-5-has-officially-started-filming-cinematics-for--eec77f92d1ea",
+      "topic": "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG",
+      "detected_at": "2026-10-15T18:39:49.521238+00:00",
+      "analysed_at": "2026-10-25T07:48:49.956994+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/diablo-5-has-officially-started-filming-cinematics-for-blizzards-upcoming-action-rpg/",
+          "title": "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG",
+          "evidence": "<article> <p>We know development on <a href=\"https://www.gamesradar.com/games/diablo/diablo-5-guide/\">Diablo 5</a> is well underway, since the sequel was announced at this year's BlizzCon with a snazzy trailer. How far along is another question, since no gameplay was shown; however, production on the action-RPG's cinematics is now in motion.</p><p>We know this thanks to Neil David Carter, the cinematics director for the Diablo series at <a href=\"https://www.gamesradar.com/uk/tag/blizzard-entertainment/\">Blizzard</a>. He posted <a href=\"https://x.com/neildavidcarter/status/2110464077676085720\" target=\"_blank\">an image on Twitter</a> of an empty soundstage, ready for production crew and actors to start putting scenes together.</p><p>\"First shoot Diablo 5,\" he says in the caption. Nothing else is said, but he wouldn't be at liberty to discuss any of the finer details right now. And I imagine a lot of material will still be in flux, too.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2110464077676085720\"><p lang=\"en\" dir=\"ltr\">First shoot #Diablo5 https://t.co/3SDU51n3ch<a hr"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG",
+        "secondary_keywords": [
+          "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG date de sortie",
+          "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG plateformes",
+          "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG gameplay",
+          "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG guide",
+          "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Diablo 5 has officially started filming cinematics for Blizzard's upcoming action-RPG"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-despite-controversy-world-of-warcraft-forever-s-30-skyb-dcfdee2ea8e6",
+      "topic": "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular",
+      "detected_at": "2026-10-15T18:39:49.521368+00:00",
+      "analysed_at": "2026-10-25T07:48:49.957020+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/despite-controversy-world-of-warcraft-forevers-usd30-skyborne-race-is-one-of-the-betas-most-popular-among-both-horde-and-alliance-players/",
+          "title": "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-is-a-whole-new-wow-game-launching-in-november-thatll-live-alongside-classic-and-vanilla/\">World of Warcraft: Forever</a> hasn't come without its controversies, with the most notable of all perhaps surrounding <a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-has-a-new-race-you-cant-get-without-paying-usd30-and-its-not-the-first-impression-fans-were-hoping-for-they-are-just-blue-elves/\">the new Skyborne race</a> – but the Beta proves it's not <em>that</em> unpopular.</p><p>The WoW: Forever Beta has been underway for nearly a month now, giving fan-led projects like <a href=\"http://classic.io\" target=\"_blank\">Classic.io</a>, which collects player data from the game, a chance to bloom. <br><br>So, what do the numbers on the site tell us so far, then? Well, perhaps most interestingly, the Skyborne aren't even the least popular race. In fact, the Alliance-aligned Skyborne are the fourth <em>most</em> popular race, with their Horde-aligned counterpart following close behind.</p><p>They've got the Night Elves, Dwarves, Gnomes, Tauren, and Trolls beat, too. "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular",
+        "secondary_keywords": [
+          "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular date de sortie",
+          "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular plateformes",
+          "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular gameplay",
+          "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular guide",
+          "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Despite controversy, World of Warcraft Forever's $30 Skyborne race is one of the Beta's most popular"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

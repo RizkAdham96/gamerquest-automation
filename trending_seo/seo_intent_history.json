@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-24T17:36:04.178679+00:00",
+  "updated_at": "2026-10-25T07:48:55.900626+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -321,6 +321,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-crusader-kings-iii-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 867,
       "published_at": "2026-10-24T17:36:04.178679+00:00"
+    },
+    {
+      "intent_key": "crusader kings iii multijoueur",
+      "primary_keyword": "Crusader Kings III multijoueur",
+      "title": "Crusader Kings III multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/crusader-kings-iii-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 871,
+      "published_at": "2026-10-25T07:48:55.900626+00:00"
     }
   ]
 }

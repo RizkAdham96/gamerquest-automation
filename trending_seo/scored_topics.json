@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-25T17:51:53.043114+00:00",
+  "updated_at": "2026-10-26T08:07:36.467781+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -14606,6 +14606,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "The Batman 2 is set to resume filming with Steven Soderbergh stepping in for Matt Reeves"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-street-fighter-movie-s-rotten-tomatoes-score-takes-us-b-29a10a322115",
+      "topic": "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies",
+      "detected_at": "2026-10-16T07:31:33.901686+00:00",
+      "analysed_at": "2026-10-26T08:07:36.467558+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/live-action-movies/street-fighter-movies-terrible-rotten-tomatoes-score-takes-us-back-to-the-old-days-of-bad-video-game-movies/",
+          "title": "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies",
+          "evidence": "<article> <p>The first reviews for Street Fighter have arrived... and while they are mixed to negative at best, they're still better than the 1994 film.</p><p>As it stands, Street Fighter, directed by Kitato Sakurai, has a 41% score on <a href=\"https://www.rottentomatoes.com/m/street_fighter_2026/reviews\" target=\"_blank\">Rotten Tomatoes</a>. The new live-action movie sees Ryu (Andrew Koji) and Ken (Noah Centineo) enter the World Warrior Tournament after some convincing from Chun-Li (Callina Liang), whose mission is to take down the impossibly evil and silly-hat-wearing M. Bison (David Dastmalchian).</p><p>\"Street Fighter is satisfied punching down on itself, and everything that’s cringe about the 90s, while happily being stuck there, in the past, so it could pretend that this is as good as it gets for video game adaptations,\" <a href=\"https://www.theguardian.com/film/2026/oct/15/street-fighter-movie-review\" target=\"_blank\">The Guardian</a> wrote.</p><p><a href=\"https://www.gamesradar.com/entertainment/live-action-movies/street-fighter-movie-review/\">Our own review</a> gave it 2.5/5 stars, writing: \"An overstuffed miss: a hyper-edited, dick-joke-filled, tonally inconsistent movie th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies",
+        "secondary_keywords": [
+          "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies date de sortie",
+          "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies plateformes",
+          "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies gameplay",
+          "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies guide",
+          "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-low-effort-ai-slop-sends-a-major-community-decompilatio-3d326e853215",
+      "topic": "Low-effort AI slop sends a major community decompilation tool shutting down",
+      "detected_at": "2026-10-16T07:31:33.901836+00:00",
+      "analysed_at": "2026-10-26T08:07:36.467612+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-community-aspect-of-decompilation-has-been-broken-by-a-wave-of-low-effort-ai-slop-and-now-a-major-community-tool-is-shutting-down/",
+          "title": "Low-effort AI slop sends a major community decompilation tool shutting down",
+          "evidence": "<article> <p>With the burgeoning decomp and recomp scene now inundated with low-effort AI slop, a notable community tool is shutting down. Developer Luke \"encounter\" Street is closing decomp.dev, a site that once tracked decompilations of classic games, citing the negative effects AI has had on the community.</p><p>Decomp.dev tracks – or, rather, tracked – the painstaking, human-driven process of decompilation across dozens of games. As each line of code was recreated and matched with functions from the original game, a percentage meter would tick up gradually until it reached the coveted 100% mark. But this simple celebration of human effort has gotten a lot more complicated with the rise of AI.</p><p>\"It is now clear that, with the right guidance, human input, and code reviews, AI can expedite the decompilation process in a significant way,\" Street writes in the <a href=\"https://decomp.dev/\" target=\"_blank\">announcement</a>. \"What is also now clear is that the community aspect of decompilation has been broken. Our projects have always been open source to encourage contributions and to benefit the community as a whole. Bad actors have been abusing this in increasingly troublesome "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Low-effort AI slop sends a major community decompilation tool shutting down",
+        "secondary_keywords": [
+          "Low-effort AI slop sends a major community decompilation tool shutting down date de sortie",
+          "Low-effort AI slop sends a major community decompilation tool shutting down plateformes",
+          "Low-effort AI slop sends a major community decompilation tool shutting down gameplay",
+          "Low-effort AI slop sends a major community decompilation tool shutting down guide",
+          "Low-effort AI slop sends a major community decompilation tool shutting down avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Low-effort AI slop sends a major community decompilation tool shutting down"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ex-valve-dev-not-impressed-by-epic-s-updated-steam-riva-56f8069b52f5",
+      "topic": "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell",
+      "detected_at": "2026-10-16T07:31:33.902017+00:00",
+      "analysed_at": "2026-10-26T08:07:36.467643+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/little-tim-is-so-obsessed-with-gabe-ex-valve-dev-not-impressed-by-epics-updated-steam-rival-or-tim-sweeneys-latest-dig-at-gabe-newell/",
+          "title": "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell",
+          "evidence": "<article> <p>Epic Games <a href=\"https://www.gamesradar.com/games/epics-bulletproof-plan-to-outdo-steam-we-vibe-coded-the-epic-games-launcher/\">signed up for criticism this week</a> by positioning its work-in-progress Epic Games Store launcher overhaul as a showcase of generative AI's capabilities, boasting of how \"we vibe coded the Epic Games Launcher\" and insisting that \"programming is hard.\" The response from some players and developers has waffled between cringe and condemnation. Former Valve writer Chet Faliszek, a veteran of Half-life and Left 4 Dead among other series, certainly shares in some of this criticism. He also asks an important question which may be missed in the sheer volume of AI backlash: what is Epic actually trying to accomplish here? </p><p>In a <a href=\"https://youtu.be/m5x0PSKano0\" target=\"_blank\">video response</a> to Epic's launcher announcement, Faliszek is flabbergasted by the company's decision to lead, in its blog <a href=\"https://store.epicgames.com/news/epic-games-launcher-preview\" target=\"_blank\">post</a>, with the message that, \"Programming is hard. So, instead of doing that, we vibe coded a new Epic Games Launcher that’s way faster and more respo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell",
+        "secondary_keywords": [
+          "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell date de sortie",
+          "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell plateformes",
+          "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell gameplay",
+          "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell guide",
+          "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-castlevania-belmont-s-curse-once-had-a-dark-souls-vibe--b688ad5caa85",
+      "topic": "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\"",
+      "detected_at": "2026-10-16T07:31:33.902133+00:00",
+      "analysed_at": "2026-10-26T08:07:36.467670+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/castlevania-belmonts-curse-once-had-a-dark-souls-vibe-but-it-was-too-slow-too-intense-and-just-too-hard/",
+          "title": "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\"",
+          "evidence": "<article> <p>Castlevania: Belmont's Curse has released to <a href=\"https://www.gamesradar.com/games/action/castlevania-belmonts-curse-metacritic-score-is-only-behind-the-beloved-gba-trilogy-dawn-of-sorrow-and-symphony-of-the-night-as-the-series-best/\">critical acclaim</a>, but there was a point in development where it was shaping up to be a very different game, and one I'd wager wouldn't have scored nearly as well with critics or fans of Konami's beloved series. </p><p>Talking to <a href=\"https://www.pcgamesn.com/castlevania-belmonts-curse/release-interview-evil-empire\" target=\"_blank\">PCGamesN</a>, Evil Empire head of business Ben Laulan reveals Castlevania: Belmont's Curse went through a lot of iteration before landing on the faster-paced evolution of the whippy action gameplay we all know and love.</p><p>\"We had many different versions of the game,\" Laulan reveals. \"We had much slower versions, more like a Dark Souls kind of vibe with even more heavy combat and slow rhythm. Then we realized it wasn't really Castlevania because it was too slow, too intense, and just too hard.\"</p><p>I could've told you that. I have a <a href=\"https://www.gamesradar.com/games/action-rpg/i-couldnt-"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\"",
+        "secondary_keywords": [
+          "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\" date de sortie",
+          "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\" plateformes",
+          "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\" gameplay",
+          "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\" guide",
+          "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-jagex-cancels-mmo-reset-runescape-reignited-after-playe-767712d98764",
+      "topic": "Jagex cancels MMO reset RuneScape Reignited after player backlash",
+      "detected_at": "2026-10-16T07:31:33.902281+00:00",
+      "analysed_at": "2026-10-26T08:07:36.467694+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/mmo/jagex-cancels-mmo-reset-runescape-reignited-after-player-backlash-the-last-time-we-didnt-listen-to-player-feedback-combat-changed-forever/",
+          "title": "Jagex cancels MMO reset RuneScape Reignited after player backlash",
+          "evidence": "<article> <p>RuneScape developer Jagex has canceled <a href=\"https://www.gamesradar.com/games/mmo/inside-runescape-reignited-jagexs-ambitious-plan-to-relaunch-its-longest-running-mmo-theres-a-level-of-confidence-that-this-is-the-right-thing-to-do/\"><u>RuneScape Reignited</u></a>, a recently announced and hugely controversial plan to soft-reset the MMO by spinning up forked servers with fresh economies and characters, after widespread player criticism. </p><p>Jagex <a href=\"https://www.gamesradar.com/games/mmo/runescape-devs-apologize-for-plan-to-reset-and-divide-the-mmo-we-have-made-you-as-existing-players-feel-like-you-are-no-longer-our-focus/\"><u>only just apologized</u></a> for neglecting players and announced plans to pause and revisit this whole idea. Now, RuneScape Reignited is well and truly dead. </p><p>\"It is clear that we missed the mark on this, and so we are not moving forward with it,\" <a href=\"https://secure.runescape.com/m=news/reignited-an-update-from-mod-ryan?_gl=1*1wdwx8a*_gcl_au*NDkyNTAyODY1LjE3ODgzNDQ2OTE.*_ga*MTI1NzY4MjUzNS4xNzY0NTgyNjg5*_ga_DSN9YBF934*czE3OTIwODcxMzQkbzM4NyRnMSR0MTc5MjA4NzIyMSRqNDckbDAkaDY4NDY0NzY5NA..\" target=\"_blank\"><u>a blog post</u></a> f"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Jagex cancels MMO reset RuneScape Reignited after player backlash",
+        "secondary_keywords": [
+          "Jagex cancels MMO reset RuneScape Reignited after player backlash date de sortie",
+          "Jagex cancels MMO reset RuneScape Reignited after player backlash plateformes",
+          "Jagex cancels MMO reset RuneScape Reignited after player backlash gameplay",
+          "Jagex cancels MMO reset RuneScape Reignited after player backlash guide",
+          "Jagex cancels MMO reset RuneScape Reignited after player backlash avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Jagex cancels MMO reset RuneScape Reignited after player backlash"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-visionquest-tommy-actor-may-have-leaked-his-superhero-l-385647d0c3a8",
+      "topic": "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post",
+      "detected_at": "2026-10-16T07:31:33.902363+00:00",
+      "analysed_at": "2026-10-26T08:07:36.467723+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-tommy-actor-may-have-leaked-his-superhero-look-in-a-quickly-deleted-funko-pop-post/",
+          "title": "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-release-date-cast-trailer-plot/\">VisionQuest </a>star Ruaridh Mollica posted (and quickly deleted) a photo of his Tommy Maximoff Funko Pop... which reveals his live-action Speed costume.</p><p><a href=\"https://x.com/scxrbus/status/2110405800690905572?s=20\" target=\"_blank\">Mollica initially included the photo</a> as part of an<a href=\"https://www.instagram.com/p/DeUJTmbCNjs/?cplk=a2tzMDRyNTQxaGtr\" target=\"_blank\"> Instagram photo dump</a>, writing, \"Swipe to the end for a SNEAK PEEK of my Tommy Maximoff Funko Pop (probably not allowed).\" The figurine depicts Tommy in his comic book-accurate green Speed goggles and green jacket, a look we have not yet seen in the newly released VisionQuest TV show. We're not sure how long the photo was up for, but the post itself was made five days ago... and it seems like fans only noticed the Funko Pop itself a few days after the fact.</p><p>Marvel tends to be a bit militant about their spoilers and reveals, with VisionQuest star Emily Hampshire previously likening it to being in the Witness Protection program. Funko is also sort of well-known for contributin"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post",
+        "secondary_keywords": [
+          "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post date de sortie",
+          "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post plateformes",
+          "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post gameplay",
+          "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post guide",
+          "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-next-call-of-duty-will-be-another-brand-new-sub-fra-4c4836b9ce21",
+      "topic": "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms",
+      "detected_at": "2026-10-16T07:31:33.902466+00:00",
+      "analysed_at": "2026-10-26T08:07:36.467750+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/call-of-duty/the-next-call-of-duty-will-be-another-brand-new-sub-franchise-like-vanguard-5-years-ago-activision-confirms/",
+          "title": "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms",
+          "evidence": "<article> <p>Activision's yearly Call of Duty releases have been sequels in established sub-franchises for a few years now, with the 2026 release being a new <a href=\"https://www.gamesradar.com/games/call-of-duty-modern-warfare-4-guide/\">Modern Warfare 4</a>. But next year's tentpole release will be different, Activision says, admitting the series needs the kind of \"tonal shift\" it hasn't had since 2021's Call of Duty: Vanguard.</p><p>Talking to <a href=\"https://www.thegamebusiness.com/p/fixing-call-of-duty-inside-activisions\" target=\"_blank\">The Game Business</a>, Call of Duty's marketing lead, Tyler Bahl, confirms next year's Call of Duty will be a \"new sub-franchise\" like Vanguard. This is in response to feedback from players who want something fresh and new from the prolific FPS series.</p><p>\"It was not something that our community was looking for,\" says Bahl, referring to the string of Modern Warfare and Black Ops games. \"They wanted something fresh, and even though there were different time settings, and ways to play the game with new features, that tonal shift is something that they were looking for. </p><p>\"So, we've already stated that a future title is going to be a new "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms",
+        "secondary_keywords": [
+          "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms date de sortie",
+          "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms plateformes",
+          "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms gameplay",
+          "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms guide",
+          "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-after-18-years-gta-6-might-finally-fix-a-graphical-bug--4c8c63081f51",
+      "topic": "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4",
+      "detected_at": "2026-10-16T18:21:39.008890+00:00",
+      "analysed_at": "2026-10-26T08:07:36.467776+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/after-18-years-gta-6-might-finally-fix-a-graphical-bug-thats-plagued-rockstars-games-since-grand-theft-auto-4/",
+          "title": "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4",
+          "evidence": "<article> <p>There's a decent chance you've never noticed it, but most of Rockstar's titles – including the likes of Grand Theft Auto 4 and 5 and the Red Dead Redemption games – have a subtle but persistent graphical bug. Based on the early trailers and gameplay footage, it looked like <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> would be no exception, but the game's most recent trailer shows no evidence of the issue at all.</p><p>The problem? Animation stutter. Both character animations and camera movements are sometimes unevenly paced, leading to a herky-jerky effect that can give these games an unintentional appearance of stop motion. If you notice it, it might seem like the game is dropping frames, but the real problem seems to be tied to the underlying RAGE engine that's been powering Rockstar's games since the GTA 4 days.</p><p>According to <a href=\"https://www.youtube.com/watch?v=am-DB9lgNZ0\" target=\"_blank\">Digital Foundry</a>, this issue has also been present in every GTA 6 trailer released up until this point, including the extended gameplay look. Except, that is, for the <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-launch-trailer/\" targ"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4",
+        "secondary_keywords": [
+          "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4 date de sortie",
+          "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4 plateformes",
+          "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4 gameplay",
+          "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4 guide",
+          "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

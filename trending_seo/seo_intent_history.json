@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-25T17:51:58.728550+00:00",
+  "updated_at": "2026-10-26T08:07:41.357514+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -337,6 +337,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-dead-space-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 873,
       "published_at": "2026-10-25T17:51:58.728550+00:00"
+    },
+    {
+      "intent_key": "dead space multijoueur",
+      "primary_keyword": "Dead Space multijoueur",
+      "title": "Dead Space multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/dead-space-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 875,
+      "published_at": "2026-10-26T08:07:41.357514+00:00"
     }
   ]
 }

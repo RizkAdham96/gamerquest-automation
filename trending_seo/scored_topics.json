@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-26T08:07:36.467781+00:00",
+  "updated_at": "2026-10-26T20:09:22.779855+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -14918,6 +14918,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-devs-are-canceling-their-demos-to-stop-ai-users-from-st-726a7e8e1ea4",
+      "topic": "Devs are canceling their demos to stop AI users from stealing their games",
+      "detected_at": "2026-10-16T18:21:39.009606+00:00",
+      "analysed_at": "2026-10-26T20:09:22.779641+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/devs-are-canceling-their-demos-to-stop-ai-users-from-stealing-their-games-creator-of-one-of-steams-most-wishlisted-is-concerned-it-may-be-ripped-off-and-beaten-to-its-own-launch/",
+          "title": "Devs are canceling their demos to stop AI users from stealing their games",
+          "evidence": "<article> <p>A planned demo for Russian roulette-inspired game <a href=\"https://store.steampowered.com/app/4150720/Drunken_Goddess_Reflux/\" target=\"_blank\">Drunken Goddess Reflux</a>, now the 65th most-wishlisted game on Steam according to <a href=\"https://steamdb.info/stats/mostwished/\" target=\"_blank\">SteamDB</a>, has been canceled in large part because the developers fear someone using AI will steal their ideas and rush out a copycat. </p><p>In a <a href=\"https://store.steampowered.com/news/app/4150720/view/746066581090468248\" target=\"_blank\">Steam post</a>, co-developer and publisher Alliance Arts, already known for anime girlfailure hit Needy Streamer Overload, confirms that the October 19 demo release will be replaced by a closed playtest with stricter rules. </p><p>Concerns around AI theft weren't the only factor in this decision, Alliance Arts says. \"We had planned to release the demo publicly with certain restrictions on posting and streaming gameplay videos, but concluded that we are not currently in a position to properly handle and manage those restrictions,\" the studio adds.</p><p>However, the studio's inability to control how its game spreads online feeds right into i"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Devs are canceling their demos to stop AI users from stealing their games",
+        "secondary_keywords": [
+          "Devs are canceling their demos to stop AI users from stealing their games date de sortie",
+          "Devs are canceling their demos to stop AI users from stealing their games plateformes",
+          "Devs are canceling their demos to stop AI users from stealing their games gameplay",
+          "Devs are canceling their demos to stop AI users from stealing their games guide",
+          "Devs are canceling their demos to stop AI users from stealing their games avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Devs are canceling their demos to stop AI users from stealing their games"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-cod-modern-warfare-4-narrative-lead-says-denis-villeneu-5239d409ab4a",
+      "topic": "CoD: Modern Warfare 4 narrative lead says Denis Villeneuve's Sicario is an influence \"I'm always checking against\"",
+      "detected_at": "2026-10-16T18:21:39.009789+00:00",
+      "analysed_at": "2026-10-26T20:09:22.779707+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/call-of-duty/call-of-duty-modern-warfare-4-narrative-lead-says-denis-villeneuves-sicario-is-an-influence-im-always-checking-against-but-john-wick-has-some-obvious-presence-too/",
+          "title": "CoD: Modern Warfare 4 narrative lead says Denis Villeneuve's Sicario is an influence \"I'm always checking against\"",
+          "evidence": "<article> <p>It's that time of year again - the new <a href=\"https://www.gamesradar.com/uk/games/fps/call-of-duty/\">Call of Duty</a> is imminent. <a href=\"https://www.gamesradar.com/games/call-of-duty-modern-warfare-4-guide/\">Call of Duty: Modern Warfare 4</a> arrives in exactly one week, and in chatting to one of the key developers, we learned about the cinematic influences for this installment, which include a certain thriller by the director of the newest <a href=\"https://www.gamesradar.com/uk/dune/\">Dune</a> movies.</p><p>When asked about his touchstones for the tone and feel of Modern Warfare 4, Jeff Negus, the game's narrative director, immediately points to one film. \"Sicario is one that I'm always checking against,\" he explains to GamesRadar+.</p><p>\"I go, one, would Sicario do this? And two, how would they, if they did?\" he adds. \"That's because it's such a present, visceral, grounded experience, one where the morality is gray and where you're trying to figure out like, man, am I doing the right thing? Let alone, is there the right thing here?\"</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https:"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "CoD: Modern Warfare 4 narrative lead says Denis Villeneuve's Sicario is an influence \"I'm always checking against\"",
+        "secondary_keywords": [
+          "CoD: Modern Warfare 4 narrative lead says Denis Villeneuve's Sicario is an influence \"I'm always checking against\" date de sortie",
+          "CoD: Modern Warfare 4 narrative lead says Denis Villeneuve's Sicario is an influence \"I'm always checking against\" plateformes",
+          "CoD: Modern Warfare 4 narrative lead says Denis Villeneuve's Sicario is an influence \"I'm always checking against\" gameplay",
+          "CoD: Modern Warfare 4 narrative lead says Denis Villeneuve's Sicario is an influence \"I'm always checking against\" guide",
+          "CoD: Modern Warfare 4 narrative lead says Denis Villeneuve's Sicario is an influence \"I'm always checking against\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "CoD: Modern Warfare 4 narrative lead says Denis Villeneuve's Sicario is an influence \"I'm always checking against\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-call-of-duty-modern-warfare-4-review-in-progress-specta-ae846ecc5b87",
+      "topic": "Call of Duty: Modern Warfare 4 review-in-progress: \"Spectacular set pieces make this campaign hard to put down\"",
+      "detected_at": "2026-10-16T18:21:39.010351+00:00",
+      "analysed_at": "2026-10-26T20:09:22.779732+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/call-of-duty/call-of-duty-modern-warfare-4-review/",
+          "title": "Call of Duty: Modern Warfare 4 review-in-progress: \"Spectacular set pieces make this campaign hard to put down\"",
+          "evidence": "<article> <p>Wu-Tang Clan's C.R.E.A.M. is playing as you wander through the streets of Seoul. People are going about their day, the convenience stores are stocked, and the city feels alive. Then North Korean forces attack, and Call of Duty: Modern Warfare 4 gets down to business.</p><p>It's the start to a campaign that feels authentic in the way that few franchises really manage to pull off. Call of Duty is one of them, when it's on form, and I'm happy to report that <a href=\"https://www.gamesradar.com/games/call-of-duty-modern-warfare-4-guide/\"><u>Modern Warfare 4</u></a> is one of The Good Ones: it looks superb, moves at a relentless pace, and manages to bring years worth of Modern Warfare storytelling to a satisfying conclusion.</p><h2 id=\"taking-to-task-force\">Taking to Task Force</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"bffJ4jndKWyabytt57HKHk\" name=\"SS_cod_mw4_campaign_paris_1\" alt=\"Shooting enemy soldiers on the streets of Paris in Call of Duty Modern Warfare 4\" src=\"https://cdn."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Call of Duty: Modern Warfare 4 review-in-progress: \"Spectacular set pieces make this campaign hard to put down\"",
+        "secondary_keywords": [
+          "Call of Duty: Modern Warfare 4 review-in-progress: \"Spectacular set pieces make this campaign hard to put down\" date de sortie",
+          "Call of Duty: Modern Warfare 4 review-in-progress: \"Spectacular set pieces make this campaign hard to put down\" plateformes",
+          "Call of Duty: Modern Warfare 4 review-in-progress: \"Spectacular set pieces make this campaign hard to put down\" gameplay",
+          "Call of Duty: Modern Warfare 4 review-in-progress: \"Spectacular set pieces make this campaign hard to put down\" guide",
+          "Call of Duty: Modern Warfare 4 review-in-progress: \"Spectacular set pieces make this campaign hard to put down\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Call of Duty: Modern Warfare 4 review-in-progress: \"Spectacular set pieces make this campaign hard to put down\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-smash-bros-creator-says-original-games-will-be-harder-f-4e7fcf3e1084",
+      "topic": "Smash Bros creator says original games will be harder for AI to rip off, but they're harder to sell",
+      "detected_at": "2026-10-16T18:21:39.010547+00:00",
+      "analysed_at": "2026-10-26T20:09:22.779753+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/super-smash-bros-and-kirby-creator-masahiro-sakurai-says-original-games-will-be-harder-for-ai-to-rip-off-but-originality-also-makes-your-game-harder-to-sell/",
+          "title": "Smash Bros creator says original games will be harder for AI to rip off, but they're harder to sell",
+          "evidence": "<article> <p>There are several ways generative AI continues to slink its way around the industry, bringing furious debate wherever it's spotted. Masahiro Sakurai, the legendary developer who created the Kirby and Super Smash Bros series, has weighed in on his concerns regarding the tech and what he sees as the vulnerable areas.</p><p>He did this in a chat with the Japanese outlet <a href=\"https://news.denfaminicogamer.jp/interview/261016s/2\" target=\"_blank\">Denfaminico Gamer</a>, which has since been machine-translated by Google, DeepL, and so on. After spending decades making games, he considers the current problems to be quite layered. For a start, he points out that originality doesn't tend to sell like it used to. It's harder to stand out, and harder still to get people on board.</p><p>Thus, it can be more tempting to fall back on established genres and ideas, which is where, to him, AI becomes insidious. The technology only ever draws on what's come before. It can't create something new, but if your game uses mechanics that are well-trodden, then you're a prime target for a gen-AI lookalike.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe da"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Smash Bros creator says original games will be harder for AI to rip off, but they're harder to sell",
+        "secondary_keywords": [
+          "Smash Bros creator says original games will be harder for AI to rip off, but they're harder to sell date de sortie",
+          "Smash Bros creator says original games will be harder for AI to rip off, but they're harder to sell plateformes",
+          "Smash Bros creator says original games will be harder for AI to rip off, but they're harder to sell gameplay",
+          "Smash Bros creator says original games will be harder for AI to rip off, but they're harder to sell guide",
+          "Smash Bros creator says original games will be harder for AI to rip off, but they're harder to sell avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Smash Bros creator says original games will be harder for AI to rip off, but they're harder to sell"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-crkd-nitro-deck-2-has-got-my-joy-cons-collecting-du-3c4b4d9aa537",
+      "topic": "The CRKD Nitro Deck 2 has got my Joy-Cons collecting dust, but it's not a perfect replacement",
+      "detected_at": "2026-10-16T18:21:39.011210+00:00",
+      "analysed_at": "2026-10-26T20:09:22.779773+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/gaming-keyboards/crkd-nitro-deck-2-review/",
+          "title": "The CRKD Nitro Deck 2 has got my Joy-Cons collecting dust, but it's not a perfect replacement",
+          "evidence": "<article> <p>The CRKD Nitro Deck 2 has been a long time coming.</p><p>Quite literally, in fact. CRKD originally announced the accessory in December 2025, almost a year ago. Since then, the follow-up to the <a href=\"https://www.gamesradar.com/nitro-deck-review/\">original Nitro Deck</a> has experienced delay after delay, but the wait has been worth it. Just like the OG, the <a href=\"https://www.gamesradar.com/hardware/gaming-controllers/the-best-nintendo-switch-2-controllers/\">Switch 2 controller</a> transforms the handheld into a more comfortable and adaptable device, equipping it with ergonomic grips, adjustable capacitor thumbsticks, and more, and the upgrades are so palpable that it makes me wish they were there by default.<br><br>That would mean putting up with the loud and intrusive rumble and having to source a new case, though, as the Deck 2's bulky size makes it incompatible with everything I've thrown its way. Yet it's a small price to pay to make Nintendo's current-gen console feel truly premium.</p><h2 class=\"article-body__section\" id=\"section-design\"><span>Design</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-w"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The CRKD Nitro Deck 2 has got my Joy-Cons collecting dust, but it's not a perfect replacement",
+        "secondary_keywords": [
+          "The CRKD Nitro Deck 2 has got my Joy-Cons collecting dust, but it's not a perfect replacement date de sortie",
+          "The CRKD Nitro Deck 2 has got my Joy-Cons collecting dust, but it's not a perfect replacement plateformes",
+          "The CRKD Nitro Deck 2 has got my Joy-Cons collecting dust, but it's not a perfect replacement gameplay",
+          "The CRKD Nitro Deck 2 has got my Joy-Cons collecting dust, but it's not a perfect replacement guide",
+          "The CRKD Nitro Deck 2 has got my Joy-Cons collecting dust, but it's not a perfect replacement avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The CRKD Nitro Deck 2 has got my Joy-Cons collecting dust, but it's not a perfect replacement"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-rockstar-s-figured-out-the-perfect-gta-6-advertisement--3899654315ab",
+      "topic": "Rockstar's figured out the perfect GTA 6 advertisement – a bunch of supercars from Vice City in Miami",
+      "detected_at": "2026-10-16T18:21:39.011452+00:00",
+      "analysed_at": "2026-10-26T20:09:22.779807+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstars-figured-out-the-perfect-gta-6-advertisement-a-bunch-of-supercars-from-vice-city-speeding-along-the-streets-of-miami/",
+          "title": "Rockstar's figured out the perfect GTA 6 advertisement – a bunch of supercars from Vice City in Miami",
+          "evidence": "<article> <p>Now that <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> is a mere month away, Rockstar Games is upping its marketing to maximum velocity – which, of course, means driving around in Grand Theft Auto-inspired cars around Miami (in other words, Vice City).</p><p>Yes, you read that right. Folks in Florida have caught wind of some, erm, <em>very</em> obviously GTA-coded supercars. They're hard to miss, honestly, considering their colors. Just have a look over at <a href=\"https://www.reddit.com/r/GTA6/comments/1x7609v/reallife_versions_of_gta_6_cars_have_been_spotted/?share_id=KoTKfXJ6z47OE7e87Dyn5&utm_content=share_button&utm_medium=web3x&utm_name=web3xcss&utm_source=share&utm_term=1\" target=\"_blank\">Reddit</a>, where you'll find an amusing clip of them all at a gas station in Miami, you know, just casually fillin' up the tank. <br><br>There's a Manana, Buccaneer, Tempesta, Cheetah, Coquette D10, and Emerus, as the fan behind the video posts.</p><figure><blockquote class=\"reddit-card\" ><a href=\"https://www.reddit.com/r/GTA6/comments/1x7609v/reallife_versions_of_gta_6_cars_have_been_spotted\">Real-life versions of GTA 6 cars have been spotted in Miami</a><figcapt"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Rockstar's figured out the perfect GTA 6 advertisement – a bunch of supercars from Vice City in Miami",
+        "secondary_keywords": [
+          "Rockstar's figured out the perfect GTA 6 advertisement – a bunch of supercars from Vice City in Miami date de sortie",
+          "Rockstar's figured out the perfect GTA 6 advertisement – a bunch of supercars from Vice City in Miami plateformes",
+          "Rockstar's figured out the perfect GTA 6 advertisement – a bunch of supercars from Vice City in Miami gameplay",
+          "Rockstar's figured out the perfect GTA 6 advertisement – a bunch of supercars from Vice City in Miami guide",
+          "Rockstar's figured out the perfect GTA 6 advertisement – a bunch of supercars from Vice City in Miami avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Rockstar's figured out the perfect GTA 6 advertisement – a bunch of supercars from Vice City in Miami"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-when-will-modern-warfare-4-be-on-game-pass-1768fc46fd9f",
+      "topic": "When will Modern Warfare 4 be on Game Pass?",
+      "detected_at": "2026-10-16T18:21:39.011632+00:00",
+      "analysed_at": "2026-10-26T20:09:22.779833+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/call-of-duty/modern-warfare-4-game-pass/",
+          "title": "When will Modern Warfare 4 be on Game Pass?",
+          "evidence": "<article> <p>Call of Duty: Modern Warfare 4 (2026) will <em>not </em>be on Xbox Game Pass at launch, which may came as a point of frustration to those COD fans who were hoping that the company's involvement with Microsoft would mean a day-one Game Pass availability. However, that doesn't mean that it's not coming at some point in the future, as I'll lay out the details below.</p><h2 class=\"article-body__section\" id=\"section-when-will-call-of-duty-modern-warfare-4-be-on-xbox-game-pass\"><span>When will Call of Duty: Modern Warfare 4 be on Xbox Game Pass?</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"NWsxeLdFfQE2Yu2zCHQtBE\" name=\"ModernWarfare4_campaign_03\" alt=\"Call of Duty: Modern Warfare 4 screenshot\" src=\"https://cdn.mos.cms.futurecdn.net/NWsxeLdFfQE2Yu2zCHQtBE-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" i"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "When will Modern Warfare 4 be on Game Pass?",
+        "secondary_keywords": [
+          "When will Modern Warfare 4 be on Game Pass? date de sortie",
+          "When will Modern Warfare 4 be on Game Pass? plateformes",
+          "When will Modern Warfare 4 be on Game Pass? gameplay",
+          "When will Modern Warfare 4 be on Game Pass? guide",
+          "When will Modern Warfare 4 be on Game Pass? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "When will Modern Warfare 4 be on Game Pass?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-blood-of-dawnwalker-update-adds-respec-directional-anim-b76a5ada5a03",
+      "topic": "Blood of Dawnwalker update adds respec, directional animal petting, and an easier difficulty mode",
+      "detected_at": "2026-10-16T18:21:39.011809+00:00",
+      "analysed_at": "2026-10-26T20:09:22.779852+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/the-blood-of-dawnwalker-update-adds-respec-directional-animal-petting-an-even-easier-difficulty-mode-and-over-1-100-other-improvements/",
+          "title": "Blood of Dawnwalker update adds respec, directional animal petting, and an easier difficulty mode",
+          "evidence": "<article> <p>A month and a half after the release of <a href=\"https://www.gamesradar.com/the-blood-of-dawnwalker-guide/\">The Blood of Dawnwalker</a>, developer Rebel Wolves is cooking up a major selection of improvements to its vampire RPG. Update 1.1 will soon arrive with a long-awaited respec option, alongside animal petting, an easier difficulty mode, and well over a thousand additional upgrades.</p><p>The respecs certainly seem like the biggest addition. \"Free your mind with the Draught of Mind Rebirth,\" the devs explain in truncated patch notes shared <a href=\"https://www.reddit.com/r/DawnwalkerOfficial/comments/1x7fpcc/update_11_is_coming/?share_id=yt25kvMYW-yXkSw0lb3K9\" target=\"_blank\">on Reddit</a>. \"Forget all your Swordmastery, Witchcraft, and Vampirism abilities, and use the time you spent learning them to master a different set of abilities.\"</p><p>In its original form, The Blood of Dawnwalker offered no respec option at all – a pretty harsh limitation in a game where your resources are already tightly constrained thanks to the time mechanic. <a href=\"https://www.nexusmods.com/thebloodofdawnwalker/mods/463\" target=\"_blank\">Unofficial mods</a> quickly appeared to offer r"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Blood of Dawnwalker update adds respec, directional animal petting, and an easier difficulty mode",
+        "secondary_keywords": [
+          "Blood of Dawnwalker update adds respec, directional animal petting, and an easier difficulty mode date de sortie",
+          "Blood of Dawnwalker update adds respec, directional animal petting, and an easier difficulty mode plateformes",
+          "Blood of Dawnwalker update adds respec, directional animal petting, and an easier difficulty mode gameplay",
+          "Blood of Dawnwalker update adds respec, directional animal petting, and an easier difficulty mode guide",
+          "Blood of Dawnwalker update adds respec, directional animal petting, and an easier difficulty mode avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Blood of Dawnwalker update adds respec, directional animal petting, and an easier difficulty mode"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

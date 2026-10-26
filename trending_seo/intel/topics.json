@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-26T08:07:35.965289+00:00",
+  "updated_at": "2026-10-26T20:09:22.382831+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -48,292 +48,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "rss-street-fighter-movie-s-rotten-tomatoes-score-takes-us-b-29a10a322115",
-      "topic": "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies",
-      "detected_at": "2026-10-16T07:31:33.901686+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/entertainment/live-action-movies/street-fighter-movies-terrible-rotten-tomatoes-score-takes-us-back-to-the-old-days-of-bad-video-game-movies/",
-          "title": "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies",
-          "evidence": "<article> <p>The first reviews for Street Fighter have arrived... and while they are mixed to negative at best, they're still better than the 1994 film.</p><p>As it stands, Street Fighter, directed by Kitato Sakurai, has a 41% score on <a href=\"https://www.rottentomatoes.com/m/street_fighter_2026/reviews\" target=\"_blank\">Rotten Tomatoes</a>. The new live-action movie sees Ryu (Andrew Koji) and Ken (Noah Centineo) enter the World Warrior Tournament after some convincing from Chun-Li (Callina Liang), whose mission is to take down the impossibly evil and silly-hat-wearing M. Bison (David Dastmalchian).</p><p>\"Street Fighter is satisfied punching down on itself, and everything that’s cringe about the 90s, while happily being stuck there, in the past, so it could pretend that this is as good as it gets for video game adaptations,\" <a href=\"https://www.theguardian.com/film/2026/oct/15/street-fighter-movie-review\" target=\"_blank\">The Guardian</a> wrote.</p><p><a href=\"https://www.gamesradar.com/entertainment/live-action-movies/street-fighter-movie-review/\">Our own review</a> gave it 2.5/5 stars, writing: \"An overstuffed miss: a hyper-edited, dick-joke-filled, tonally inconsistent movie th"
-        }
-      ],
-      "keywords": [
-        "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies",
-        "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies date de sortie",
-        "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies plateformes",
-        "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies gameplay",
-        "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies guide",
-        "Street Fighter movie's Rotten Tomatoes score takes us back to the days of bad video game movies avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-low-effort-ai-slop-sends-a-major-community-decompilatio-3d326e853215",
-      "topic": "Low-effort AI slop sends a major community decompilation tool shutting down",
-      "detected_at": "2026-10-16T07:31:33.901836+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/the-community-aspect-of-decompilation-has-been-broken-by-a-wave-of-low-effort-ai-slop-and-now-a-major-community-tool-is-shutting-down/",
-          "title": "Low-effort AI slop sends a major community decompilation tool shutting down",
-          "evidence": "<article> <p>With the burgeoning decomp and recomp scene now inundated with low-effort AI slop, a notable community tool is shutting down. Developer Luke \"encounter\" Street is closing decomp.dev, a site that once tracked decompilations of classic games, citing the negative effects AI has had on the community.</p><p>Decomp.dev tracks – or, rather, tracked – the painstaking, human-driven process of decompilation across dozens of games. As each line of code was recreated and matched with functions from the original game, a percentage meter would tick up gradually until it reached the coveted 100% mark. But this simple celebration of human effort has gotten a lot more complicated with the rise of AI.</p><p>\"It is now clear that, with the right guidance, human input, and code reviews, AI can expedite the decompilation process in a significant way,\" Street writes in the <a href=\"https://decomp.dev/\" target=\"_blank\">announcement</a>. \"What is also now clear is that the community aspect of decompilation has been broken. Our projects have always been open source to encourage contributions and to benefit the community as a whole. Bad actors have been abusing this in increasingly troublesome "
-        }
-      ],
-      "keywords": [
-        "Low-effort AI slop sends a major community decompilation tool shutting down",
-        "Low-effort AI slop sends a major community decompilation tool shutting down date de sortie",
-        "Low-effort AI slop sends a major community decompilation tool shutting down plateformes",
-        "Low-effort AI slop sends a major community decompilation tool shutting down gameplay",
-        "Low-effort AI slop sends a major community decompilation tool shutting down guide",
-        "Low-effort AI slop sends a major community decompilation tool shutting down avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-ex-valve-dev-not-impressed-by-epic-s-updated-steam-riva-56f8069b52f5",
-      "topic": "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell",
-      "detected_at": "2026-10-16T07:31:33.902017+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/little-tim-is-so-obsessed-with-gabe-ex-valve-dev-not-impressed-by-epics-updated-steam-rival-or-tim-sweeneys-latest-dig-at-gabe-newell/",
-          "title": "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell",
-          "evidence": "<article> <p>Epic Games <a href=\"https://www.gamesradar.com/games/epics-bulletproof-plan-to-outdo-steam-we-vibe-coded-the-epic-games-launcher/\">signed up for criticism this week</a> by positioning its work-in-progress Epic Games Store launcher overhaul as a showcase of generative AI's capabilities, boasting of how \"we vibe coded the Epic Games Launcher\" and insisting that \"programming is hard.\" The response from some players and developers has waffled between cringe and condemnation. Former Valve writer Chet Faliszek, a veteran of Half-life and Left 4 Dead among other series, certainly shares in some of this criticism. He also asks an important question which may be missed in the sheer volume of AI backlash: what is Epic actually trying to accomplish here? </p><p>In a <a href=\"https://youtu.be/m5x0PSKano0\" target=\"_blank\">video response</a> to Epic's launcher announcement, Faliszek is flabbergasted by the company's decision to lead, in its blog <a href=\"https://store.epicgames.com/news/epic-games-launcher-preview\" target=\"_blank\">post</a>, with the message that, \"Programming is hard. So, instead of doing that, we vibe coded a new Epic Games Launcher that’s way faster and more respo"
-        }
-      ],
-      "keywords": [
-        "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell",
-        "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell date de sortie",
-        "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell plateformes",
-        "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell gameplay",
-        "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell guide",
-        "Ex-Valve dev not impressed by Epic's updated Steam rival or Tim Sweeney's latest dig at Gabe Newell avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-castlevania-belmont-s-curse-once-had-a-dark-souls-vibe--b688ad5caa85",
-      "topic": "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\"",
-      "detected_at": "2026-10-16T07:31:33.902133+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/action/castlevania-belmonts-curse-once-had-a-dark-souls-vibe-but-it-was-too-slow-too-intense-and-just-too-hard/",
-          "title": "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\"",
-          "evidence": "<article> <p>Castlevania: Belmont's Curse has released to <a href=\"https://www.gamesradar.com/games/action/castlevania-belmonts-curse-metacritic-score-is-only-behind-the-beloved-gba-trilogy-dawn-of-sorrow-and-symphony-of-the-night-as-the-series-best/\">critical acclaim</a>, but there was a point in development where it was shaping up to be a very different game, and one I'd wager wouldn't have scored nearly as well with critics or fans of Konami's beloved series. </p><p>Talking to <a href=\"https://www.pcgamesn.com/castlevania-belmonts-curse/release-interview-evil-empire\" target=\"_blank\">PCGamesN</a>, Evil Empire head of business Ben Laulan reveals Castlevania: Belmont's Curse went through a lot of iteration before landing on the faster-paced evolution of the whippy action gameplay we all know and love.</p><p>\"We had many different versions of the game,\" Laulan reveals. \"We had much slower versions, more like a Dark Souls kind of vibe with even more heavy combat and slow rhythm. Then we realized it wasn't really Castlevania because it was too slow, too intense, and just too hard.\"</p><p>I could've told you that. I have a <a href=\"https://www.gamesradar.com/games/action-rpg/i-couldnt-"
-        }
-      ],
-      "keywords": [
-        "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\"",
-        "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\" date de sortie",
-        "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\" plateformes",
-        "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\" gameplay",
-        "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\" guide",
-        "Castlevania Belmont's Curse once had a Dark Souls \"vibe,\" but it was \"just too hard\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-jagex-cancels-mmo-reset-runescape-reignited-after-playe-767712d98764",
-      "topic": "Jagex cancels MMO reset RuneScape Reignited after player backlash",
-      "detected_at": "2026-10-16T07:31:33.902281+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/mmo/jagex-cancels-mmo-reset-runescape-reignited-after-player-backlash-the-last-time-we-didnt-listen-to-player-feedback-combat-changed-forever/",
-          "title": "Jagex cancels MMO reset RuneScape Reignited after player backlash",
-          "evidence": "<article> <p>RuneScape developer Jagex has canceled <a href=\"https://www.gamesradar.com/games/mmo/inside-runescape-reignited-jagexs-ambitious-plan-to-relaunch-its-longest-running-mmo-theres-a-level-of-confidence-that-this-is-the-right-thing-to-do/\"><u>RuneScape Reignited</u></a>, a recently announced and hugely controversial plan to soft-reset the MMO by spinning up forked servers with fresh economies and characters, after widespread player criticism. </p><p>Jagex <a href=\"https://www.gamesradar.com/games/mmo/runescape-devs-apologize-for-plan-to-reset-and-divide-the-mmo-we-have-made-you-as-existing-players-feel-like-you-are-no-longer-our-focus/\"><u>only just apologized</u></a> for neglecting players and announced plans to pause and revisit this whole idea. Now, RuneScape Reignited is well and truly dead. </p><p>\"It is clear that we missed the mark on this, and so we are not moving forward with it,\" <a href=\"https://secure.runescape.com/m=news/reignited-an-update-from-mod-ryan?_gl=1*1wdwx8a*_gcl_au*NDkyNTAyODY1LjE3ODgzNDQ2OTE.*_ga*MTI1NzY4MjUzNS4xNzY0NTgyNjg5*_ga_DSN9YBF934*czE3OTIwODcxMzQkbzM4NyRnMSR0MTc5MjA4NzIyMSRqNDckbDAkaDY4NDY0NzY5NA..\" target=\"_blank\"><u>a blog post</u></a> f"
-        }
-      ],
-      "keywords": [
-        "Jagex cancels MMO reset RuneScape Reignited after player backlash",
-        "Jagex cancels MMO reset RuneScape Reignited after player backlash date de sortie",
-        "Jagex cancels MMO reset RuneScape Reignited after player backlash plateformes",
-        "Jagex cancels MMO reset RuneScape Reignited after player backlash gameplay",
-        "Jagex cancels MMO reset RuneScape Reignited after player backlash guide",
-        "Jagex cancels MMO reset RuneScape Reignited after player backlash avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-visionquest-tommy-actor-may-have-leaked-his-superhero-l-385647d0c3a8",
-      "topic": "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post",
-      "detected_at": "2026-10-16T07:31:33.902363+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-tommy-actor-may-have-leaked-his-superhero-look-in-a-quickly-deleted-funko-pop-post/",
-          "title": "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post",
-          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-release-date-cast-trailer-plot/\">VisionQuest </a>star Ruaridh Mollica posted (and quickly deleted) a photo of his Tommy Maximoff Funko Pop... which reveals his live-action Speed costume.</p><p><a href=\"https://x.com/scxrbus/status/2110405800690905572?s=20\" target=\"_blank\">Mollica initially included the photo</a> as part of an<a href=\"https://www.instagram.com/p/DeUJTmbCNjs/?cplk=a2tzMDRyNTQxaGtr\" target=\"_blank\"> Instagram photo dump</a>, writing, \"Swipe to the end for a SNEAK PEEK of my Tommy Maximoff Funko Pop (probably not allowed).\" The figurine depicts Tommy in his comic book-accurate green Speed goggles and green jacket, a look we have not yet seen in the newly released VisionQuest TV show. We're not sure how long the photo was up for, but the post itself was made five days ago... and it seems like fans only noticed the Funko Pop itself a few days after the fact.</p><p>Marvel tends to be a bit militant about their spoilers and reveals, with VisionQuest star Emily Hampshire previously likening it to being in the Witness Protection program. Funko is also sort of well-known for contributin"
-        }
-      ],
-      "keywords": [
-        "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post",
-        "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post date de sortie",
-        "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post plateformes",
-        "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post gameplay",
-        "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post guide",
-        "VisionQuest Tommy actor may have leaked his superhero look in a quickly deleted Funko Pop post avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-next-call-of-duty-will-be-another-brand-new-sub-fra-4c4836b9ce21",
-      "topic": "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms",
-      "detected_at": "2026-10-16T07:31:33.902466+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/call-of-duty/the-next-call-of-duty-will-be-another-brand-new-sub-franchise-like-vanguard-5-years-ago-activision-confirms/",
-          "title": "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms",
-          "evidence": "<article> <p>Activision's yearly Call of Duty releases have been sequels in established sub-franchises for a few years now, with the 2026 release being a new <a href=\"https://www.gamesradar.com/games/call-of-duty-modern-warfare-4-guide/\">Modern Warfare 4</a>. But next year's tentpole release will be different, Activision says, admitting the series needs the kind of \"tonal shift\" it hasn't had since 2021's Call of Duty: Vanguard.</p><p>Talking to <a href=\"https://www.thegamebusiness.com/p/fixing-call-of-duty-inside-activisions\" target=\"_blank\">The Game Business</a>, Call of Duty's marketing lead, Tyler Bahl, confirms next year's Call of Duty will be a \"new sub-franchise\" like Vanguard. This is in response to feedback from players who want something fresh and new from the prolific FPS series.</p><p>\"It was not something that our community was looking for,\" says Bahl, referring to the string of Modern Warfare and Black Ops games. \"They wanted something fresh, and even though there were different time settings, and ways to play the game with new features, that tonal shift is something that they were looking for. </p><p>\"So, we've already stated that a future title is going to be a new "
-        }
-      ],
-      "keywords": [
-        "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms",
-        "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms date de sortie",
-        "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms plateformes",
-        "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms gameplay",
-        "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms guide",
-        "The next Call of Duty will be another brand new sub-franchise like Vanguard, Activision confirms avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "evg-config-3094480",
-      "topic": "Configuration PC Bad Cheese : minimale, recommandée et conseils",
-      "detected_at": "2026-10-16T07:31:33.008518+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/3094480/",
-          "title": "Bad Cheese sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Bad Cheese, consultée le 2026-10-16. Développeur : Simon Lukasik. Éditeur : Feardemic. Date de sortie sur Steam : 1 sept. 2025. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation : Windows 10 ; Processeur : Intel i3 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 1660 ; Espace disque : 5 GB d'espace disque disponible. La fiche Steam n'indique pas de configuration recommandée.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094480/2f7c8b8ed823a7d68eb0a2d449cf83b1b10ae2cc/ss_2f7c8b8ed823a7d68eb0a2d449cf83b1b10ae2cc.1920x1080.jpg?t=1778532201"
-        }
-      ],
-      "keywords": [
-        "configuration pc Bad Cheese",
-        "Bad Cheese PC",
-        "Bad Cheese Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-3094480",
-      "topic": "Bad Cheese multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-16T07:31:33.008560+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/3094480/",
-          "title": "Bad Cheese sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Bad Cheese, consultée le 2026-10-16. Développeur : Simon Lukasik. Éditeur : Feardemic. Date de sortie sur Steam : 1 sept. 2025. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Bad Cheese est un jeu d'horreur psychologique inspiré par le charme étrange des animations des années 20. Incarnez une petite souris qui passe le week-end chez elle, accompagnée d'un père instable alors que maman est absente. Soyez sage pour que PAPA NE SE FÂCHE PAS.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094480/2f7c8b8ed823a7d68eb0a2d449cf83b1b10ae2cc/ss_2f7c8b8ed823a7d68eb0a2d449cf83b1b10ae2cc.1920x1080.jpg?t=1778532201"
-        }
-      ],
-      "keywords": [
-        "Bad Cheese multijoueur",
-        "Bad Cheese PC",
-        "Bad Cheese Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "rss-after-18-years-gta-6-might-finally-fix-a-graphical-bug--4c8c63081f51",
-      "topic": "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4",
-      "detected_at": "2026-10-16T18:21:39.008890+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/grand-theft-auto/after-18-years-gta-6-might-finally-fix-a-graphical-bug-thats-plagued-rockstars-games-since-grand-theft-auto-4/",
-          "title": "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4",
-          "evidence": "<article> <p>There's a decent chance you've never noticed it, but most of Rockstar's titles – including the likes of Grand Theft Auto 4 and 5 and the Red Dead Redemption games – have a subtle but persistent graphical bug. Based on the early trailers and gameplay footage, it looked like <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> would be no exception, but the game's most recent trailer shows no evidence of the issue at all.</p><p>The problem? Animation stutter. Both character animations and camera movements are sometimes unevenly paced, leading to a herky-jerky effect that can give these games an unintentional appearance of stop motion. If you notice it, it might seem like the game is dropping frames, but the real problem seems to be tied to the underlying RAGE engine that's been powering Rockstar's games since the GTA 4 days.</p><p>According to <a href=\"https://www.youtube.com/watch?v=am-DB9lgNZ0\" target=\"_blank\">Digital Foundry</a>, this issue has also been present in every GTA 6 trailer released up until this point, including the extended gameplay look. Except, that is, for the <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-launch-trailer/\" targ"
-        }
-      ],
-      "keywords": [
-        "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4",
-        "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4 date de sortie",
-        "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4 plateformes",
-        "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4 gameplay",
-        "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4 guide",
-        "After 18 years, GTA 6 might finally fix a graphical bug that's plagued Rockstar's games since GTA 4 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-playstation-creator-backs-sony-s-call-to-end-discs-says-82fa0a43abb8",
-      "topic": "PlayStation creator backs Sony's call to end discs, says backlash is a \"mentality issue\"",
-      "detected_at": "2026-10-16T18:21:39.009187+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/platforms/playstation/playstation-creator-backs-sonys-call-to-end-discs-says-backlash-is-a-mentality-issue/",
-          "title": "PlayStation creator backs Sony's call to end discs, says backlash is a \"mentality issue\"",
-          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/platforms/playstation/playstation-is-ending-physical-disc-production-for-new-games-in-2028-as-sony-says-general-preference-for-digital-media-significantly-outpaces-physical-discs/\">PlayStation's decision to end disc production for games in 2028</a> has unsurprisingly led to a massive amount of backlash, largely due to the implications an all-digital future holds for entitlements and actual ownership of a library of games. There have been notable voices in the industry expressing support, or at least trying to explain Sony's stance amid <a href=\"https://www.gamesradar.com/hardware/us-console-market-hasnt-been-in-a-more-precarious-position-since-the-early-80s-analyst-says-as-ps5-and-xbox-series-x-price-soar-to-all-time-highs/\">ongoing component shortages and related hardware price pressures</a>, and you can key PlayStation architect Ken Kutaragi among them.</p><p>Kutaragi tells <a href=\"https://www.videogameschronicle.com/news/ken-kutaragi-understands-why-playstation-fans-dont-want-to-give-up-physical-games/\" target=\"_blank\">VGC</a> at the Game Republic New Horizons event that he understands the pushback to Sony's decision, but ultimat"
-        }
-      ],
-      "keywords": [
-        "PlayStation creator backs Sony's call to end discs, says backlash is a \"mentality issue\"",
-        "PlayStation creator backs Sony's call to end discs, says backlash is a \"mentality issue\" date de sortie",
-        "PlayStation creator backs Sony's call to end discs, says backlash is a \"mentality issue\" plateformes",
-        "PlayStation creator backs Sony's call to end discs, says backlash is a \"mentality issue\" gameplay",
-        "PlayStation creator backs Sony's call to end discs, says backlash is a \"mentality issue\" guide",
-        "PlayStation creator backs Sony's call to end discs, says backlash is a \"mentality issue\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-street-fighter-star-cody-rhodes-seemingly-keeps-hinting-8da27bc711a4",
-      "topic": "Street Fighter star Cody Rhodes seemingly keeps hinting at his involvement in an MCU X-Men project",
-      "detected_at": "2026-10-16T18:21:39.009370+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/entertainment/marvel-movies/street-fighter-star-cody-rhodes-seemingly-keeps-hinting-at-his-involvement-in-an-mcu-x-men-project/",
-          "title": "Street Fighter star Cody Rhodes seemingly keeps hinting at his involvement in an MCU X-Men project",
-          "evidence": "<article> <p>Street Fighter star Cody Rhodes has seemingly (or accidentally) dropped another hint that he's involved with one of Marvel's X-Men projects.</p><p>“I nerd out… I’m an X-Men, I nerd out about that…\" Rhodes told <a href=\"https://www.youtube.com/watch?v=VfnxmJGeEZg\" target=\"_blank\">Nerdist</a>, in response to what things he \"nerds out about.\" This could be a simple slip-up, of course, and it's possible that Rhodes meant to say, \"I'm into X-Men.\" However, there have already been a few instances of Rhodes mentioning, or refusing to mention, X-Men specifically... so naturally, the rumor mill is up and running.</p><p>Back in August, <a href=\"https://x.com/WrestleOps/status/2092739342867263535?s=20\" target=\"_blank\">Rhodes visited Marvel Studios</a>, then later used the X-Men '97 theme music on his Instagram story.<a href=\"https://www.youtube.com/watch?v=5idZ3hoK6qo\" target=\"_blank\"> On a recent episode of Andrew Schulz's podcast</a>, Schulz, whom Rhodes stars alongside in the recently released Street Fighter movie, asked him what team Rogue is part of... and he quickly changed the subject.</p><p>Of course, this could all mean absolutely nothing, but it hasn't stopped other sit"
-        }
-      ],
-      "keywords": [
-        "Street Fighter star Cody Rhodes seemingly keeps hinting at his involvement in an MCU X-Men project",
-        "Street Fighter star Cody Rhodes seemingly keeps hinting at his involvement in an MCU X-Men project date de sortie",
-        "Street Fighter star Cody Rhodes seemingly keeps hinting at his involvement in an MCU X-Men project plateformes",
-        "Street Fighter star Cody Rhodes seemingly keeps hinting at his involvement in an MCU X-Men project gameplay",
-        "Street Fighter star Cody Rhodes seemingly keeps hinting at his involvement in an MCU X-Men project guide",
-        "Street Fighter star Cody Rhodes seemingly keeps hinting at his involvement in an MCU X-Men project avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-devs-are-canceling-their-demos-to-stop-ai-users-from-st-726a7e8e1ea4",
       "topic": "Devs are canceling their demos to stop AI users from stealing their games",
@@ -6038,6 +5752,294 @@
         "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says gameplay",
         "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says guide",
         "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-regreening-is-a-post-apocalyptic-farm-sim-where-you-4c0d892b4fb0",
+      "topic": "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops",
+      "detected_at": "2026-10-26T20:09:22.379595+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/life-sim/the-regreening-is-a-post-apocalyptic-farm-sim-where-you-grow-animal-habitats-instead-of-cash-crops/",
+          "title": "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops",
+          "evidence": "<article> <p>I love the standard farm sim formula. Becoming a titan of capitalism by hoeing rows of tomatoes by hand is great, but I've really been craving one that's about tending the environment that already exists instead of clear-cutting an entire forest to make way for my perfectly optimized agricultural vision. Some games have tried, but The Regreening, a demo I played in the current Steam Next Fest—<a href=\"https://store.steampowered.com/app/3419080/The_Regreening/\">launching on Steam</a> on December 7—is the one that I've enjoyed the most.</p><p>In The Regreening, you're revitalizing a post-apocalyptic landscape, replanting flora, and designing environments for animals to return to while making friends with godlike animal spirits. It's almost as much a tiny city-builder as a farm sim.</p><p>I asked the developers at Positive Impact Games how they feel The Regreening fits into what's normally such a strictly formulaic genre and what it's doing that they weren't able to find in other farm sims.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"va"
+        }
+      ],
+      "keywords": [
+        "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops",
+        "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops date de sortie",
+        "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops plateformes",
+        "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops gameplay",
+        "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops guide",
+        "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-mass-effect-fan-group-buys-billboard-in-times-square-pr-19602c6a44b5",
+      "topic": "Mass Effect fan group buys billboard in Times Square promoting petition to save series",
+      "detected_at": "2026-10-26T20:09:22.379838+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mass-effect/mass-effect-fan-group-buys-billboard-in-times-square-promoting-petition-to-save-series/",
+          "title": "Mass Effect fan group buys billboard in Times Square promoting petition to save series",
+          "evidence": "<article> <p>\"We are Mass Effect,\" the fan group behind a currently 224,000 signature <a href=\"https://www.change.org/p/savemasseffect?recruited_by_id=f0dc2c40-ce2c-11f1-a78e-339670fecebe&utm_source=share_petition&utm_campaign=psf_combo_share_initial&utm_term=psf_promote_or_share&utm_medium=copylink&share_id=rMVGzVb6WL\" target=\"_blank\">Change.org petition</a> seeking to secure the series' future, has rented out digital billboard space in New York's Times Square to promote the effort.</p><p>The group <a href=\"https://x.com/WeAreMassEffect/status/2114730231214883014\" target=\"_blank\">shared a video of the billboard</a> in the wild on X, \"The Everything App.\" Every hour at 35 minutes past the hour, the screen at 1560 Broadway shows a 15-second motion graphic message. Over a planetary vista reminiscent of Mass Effect 1's start screen, we get a distinctive N7 red stripe and the message \"Keelah si'yah, #SaveMassEffect\" in the series' go-to \"<a href=\"https://typodermicfonts.com/korataki/\" target=\"_blank\">Korataki</a>\" font. Yes, today is when I too learned that Mass Effect used a commercially-available font called \"Korataki\" for its logo and in-game text. I kinda want to write all my draft"
+        }
+      ],
+      "keywords": [
+        "Mass Effect fan group buys billboard in Times Square promoting petition to save series",
+        "Mass Effect fan group buys billboard in Times Square promoting petition to save series date de sortie",
+        "Mass Effect fan group buys billboard in Times Square promoting petition to save series plateformes",
+        "Mass Effect fan group buys billboard in Times Square promoting petition to save series gameplay",
+        "Mass Effect fan group buys billboard in Times Square promoting petition to save series guide",
+        "Mass Effect fan group buys billboard in Times Square promoting petition to save series avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-cd-projekt-marks-the-19th-anniversary-of-its-first-witc-e0cc16112d7a",
+      "topic": "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure'",
+      "detected_at": "2026-10-26T20:09:22.380069+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-witcher/cd-projekt-marks-the-19th-anniversary-of-its-first-witcher-rpg-with-a-tribute-to-bioware-their-support-helped-turn-our-vision-into-geralts-first-interactive-adventure/",
+          "title": "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure'",
+          "evidence": "<article> <p>Today, October 26, is the 19<sup>th</sup> anniversary of The Witcher, the groundbreaking RPG that introduced Geralt, and CD Projekt, to the world. To mark the moment, CD Projekt took to social to pay tribute to friends who made it all possible: BioWare.</p><p>CD Projekt joint CEO Michał Nowakowski <a href=\"https://www.pcgamer.com/gaming-industry/cd-projekt-boss-pays-tribute-to-bioware-for-helping-bring-the-witcher-to-life-20-years-ago-bioware-has-been-a-massive-part-of-cdpr-history/\" target=\"_blank\">spoke warmly of BioWare</a> last week in the immediate aftermath of the studio's <a href=\"https://www.pcgamer.com/gaming-industry/rip-bioware-ea-has-shut-down-the-legendary-rpg-developer/\" target=\"_blank\">shocking closure</a>, crediting it as \"a massive part of CDPR history.\" The Witcher was built on BioWare's Aurora engine, which it created for Neverwinter Nights, but BioWare did more than just share technology: It also worked to help bring the upstart Polish RPG to much wider attention.</p><p>\"19 years ago, an ambitious dream to bring an iconic book series into the world of video games came to life with the release of The Witcher. It was the start of an unforgettable path"
+        }
+      ],
+      "keywords": [
+        "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure'",
+        "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure' date de sortie",
+        "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure' plateformes",
+        "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure' gameplay",
+        "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure' guide",
+        "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-what-to-play-this-halloween-plus-last-minute-costume-id-691687a94dab",
+      "topic": "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations",
+      "detected_at": "2026-10-26T20:09:22.380582+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/2026-halloween-horror-gaming-hub-recommendations/",
+          "title": "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Presented by</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"N5WXFQSCttV6Am7CopwTzd\" name=\"Copy of 1_HeroLogo copy\" caption=\"\" alt=\"No More Room in Hell 2 logo\" src=\"https://cdn.mos.cms.futurecdn.net/N5WXFQSCttV6Am7CopwTzd-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Torn Banner)</span></figcaption></figure><p class=\"fancy-box__body-text\">This article is brought to you by <a data-analytics-id=\"inline-link\" href=\"https://store.steampowered.com/app/292000?utm_source=future&utm_medium=display&utm_campaign=ppms_nmrih2_october_us&utm_term=pcsteam_horror&utm_creative=logo \" target=\"_blank\">No More Room in Hell 2</a>.</p></div></div><p>The ghouls and goblins are out, but you've heard enough about the US midterm elections already. Let's talk about something fun:"
+        }
+      ],
+      "keywords": [
+        "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations",
+        "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations date de sortie",
+        "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations plateformes",
+        "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations gameplay",
+        "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations guide",
+        "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-a-long-overdue-conversation-with-jordan-mechner-e29e2c808e1f",
+      "topic": "A long-overdue conversation with Jordan Mechner",
+      "detected_at": "2026-10-26T20:09:22.381544+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/an-overdue-conversation-with-jordan-mechner/",
+          "title": "A long-overdue conversation with Jordan Mechner",
+          "evidence": "<article> <p>When I started working at PC Gamer in 2014, I began what I didn't realize at the time would become a bit of a ritual. A few weeks before the San Francisco Game Developer's Conference that year, I sent the creator of one of PC gaming's first masterpieces, Prince of Persia, an email asking if he'd be in town. Jordan Mechner politely responded that he wouldn't be making the trip from his home in Paris to San Francisco that year. But I kept trying when the conference rolled back around, thinking maybe <em>this</em> would be the year the stars aligned.</p><p>It took a decade, but in 2024 we finally made it happen: Mechner joined a roundtable I hosted <a href=\"https://www.pcgamer.com/gaming-industry/podcasts/90s-pc-gaming-roundtable-veterans-behind-lucasarts-adventures-prince-of-persia-broken-sword-and-deus-ex-sharing-stories/\">alongside other veterans</a> from designing PC games in the '80s and '90s to explore their long careers. Afterward, we talked some more just one-on-one—but in the busy aftermath of the conference, that interview never ended up making its way online.</p><p>So here it is now, covering his autobiographical graphic novel, why we may not have seen the last"
+        }
+      ],
+      "keywords": [
+        "A long-overdue conversation with Jordan Mechner",
+        "A long-overdue conversation with Jordan Mechner date de sortie",
+        "A long-overdue conversation with Jordan Mechner plateformes",
+        "A long-overdue conversation with Jordan Mechner gameplay",
+        "A long-overdue conversation with Jordan Mechner guide",
+        "A long-overdue conversation with Jordan Mechner avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-microsoft-is-looking-to-cut-more-than-25-of-its-workfor-858c69cc8428",
+      "topic": "Microsoft is looking to cut more than 25% of its workforce",
+      "detected_at": "2026-10-26T20:09:22.381673+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/microsoft-is-looking-to-cut-more-than-25-percent-of-its-workforce/",
+          "title": "Microsoft is looking to cut more than 25% of its workforce",
+          "evidence": "<article> <p>Microsoft has announced a new \"voluntary exit offer\" aimed at making drastic cuts to its headcount. A <a href=\"https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html\" target=\"_blank\">CNN</a> report says roughly 60,000 of the company's employees are eligible for the buyout offer, a number that represents around 27% of its total workforce.</p><p>\"This offer gives eligible employees who may be considering a future outside the company a new choice to make that transition now with support. It also gives participating organizations another way to adapt their workforce to changing needs,\" Microsoft chief people officer Amy Coleman said in a <a href=\"https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/\" target=\"_blank\">memo sent to employees</a>.</p><p>\"The Voluntary Exit Offer reflects an important part of how we're evolving our approach to change: creating greater flexibility and, where possible, more ways for employees to shape their next chapter. This builds on what we learned earlier this year through the Voluntary Retirement Program.\"</p><p>The CNN report says Microsoft's buyout offer is part of its effort to balance its spending"
+        }
+      ],
+      "keywords": [
+        "Microsoft is looking to cut more than 25% of its workforce",
+        "Microsoft is looking to cut more than 25% of its workforce date de sortie",
+        "Microsoft is looking to cut more than 25% of its workforce plateformes",
+        "Microsoft is looking to cut more than 25% of its workforce gameplay",
+        "Microsoft is looking to cut more than 25% of its workforce guide",
+        "Microsoft is looking to cut more than 25% of its workforce avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-new-windows-11-insider-experimental-build-adds-the-abil-969530b70fb0",
+      "topic": "New Windows 11 Insider Experimental build adds the ability to check your internet speed without a browser",
+      "detected_at": "2026-10-26T20:09:22.381818+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/windows/new-windows-11-insider-experimental-build-adds-the-ability-to-check-your-internet-speed-without-a-browser/",
+          "title": "New Windows 11 Insider Experimental build adds the ability to check your internet speed without a browser",
+          "evidence": "<article> <p>If you are part of the Windows 11 Insider program, you may have finally received the option to test your internet speed directly from Quick Settings in the latest experimental build. That means no more going to a browser to see if your new broadband package is as speedy as advertised. </p><p>Those using <a href=\"https://learn.microsoft.com/en-us/windows-insider/release-notes/experimental/preview-build-26340-9767\" target=\"_blank\">Insider Experimental build 26340.9767</a> can simply click on Quick Settings and scroll down to see a speed test button (via <a href=\"https://www.windowslatest.com/2026/10/24/microsoft-was-using-windows-11s-speed-test-to-push-bing-now-its-quietly-backing-down/\" target=\"_blank\">Windows Latest</a>). You can also find the network icon in the system tray, right-click it, and then select \"Test internet speed\". This will give you your download and upload speeds. </p><p>Up until now, Windows 11 users have been able to access an internet speed test from Windows settings, but clicking on it redirects you to a browser and then runs the test via Bing. It's a small barrier but still an annoying hurdle to get to a fairly simple tool. </p><div style=\"min-hei"
+        }
+      ],
+      "keywords": [
+        "New Windows 11 Insider Experimental build adds the ability to check your internet speed without a browser",
+        "New Windows 11 Insider Experimental build adds the ability to check your internet speed without a browser date de sortie",
+        "New Windows 11 Insider Experimental build adds the ability to check your internet speed without a browser plateformes",
+        "New Windows 11 Insider Experimental build adds the ability to check your internet speed without a browser gameplay",
+        "New Windows 11 Insider Experimental build adds the ability to check your internet speed without a browser guide",
+        "New Windows 11 Insider Experimental build adds the ability to check your internet speed without a browser avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-a-whole-host-of-steam-pc-games-can-now-run-locally-on-a-3b0d099824ca",
+      "topic": "A whole host of Steam PC games can now run locally on a jailbroken PlayStation 5, including Portal, Left 4 Dead 2, and many more",
+      "detected_at": "2026-10-26T20:09:22.381977+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/a-whole-host-of-steam-pc-games-can-now-run-locally-on-a-jailbroken-playstation-5-including-portal-left-4-dead-2-and-many-more/",
+          "title": "A whole host of Steam PC games can now run locally on a jailbroken PlayStation 5, including Portal, Left 4 Dead 2, and many more",
+          "evidence": "<article> <p>What a time to be alive. Gamers are starting to play Steam games locally on jailbroken PlayStation 5 consoles, thanks to several projects that aim to bring PC gaming to the Sony-loving masses. One such project is <a href=\"https://github.com/leolobato/playden-ps5\" target=\"_blank\">Playden for PS5</a>, which was made publicly available earlier this month.</p><p>The program functions as a Steam launcher, but also creates a private Windows environment via prospero-win, a port of Wine for PlayStation 5 (via <a href=\"https://videocardz.com/newz/gamers-are-now-playing-steam-games-directly-on-playstation-5-no-streaming-required\" target=\"_blank\">Videocardz</a>). The software has support for up to Direct3D 11 through DXVK and Direct3D 12 games through VKD3D-Proton, and includes a separate runtime kit for the graphics drivers, along with specific app shells for the games themselves.</p><p>\"It downloads a game, prepares it, and hands it to a separate PS5 app made for that game. That app starts Wine with the game's settings,\" says the readme on the project's GitHub page. \"Because each game is its own app, it has its own tile on the PS5 Home screen, and it is isolated: its files, set"
+        }
+      ],
+      "keywords": [
+        "A whole host of Steam PC games can now run locally on a jailbroken PlayStation 5, including Portal, Left 4 Dead 2, and many more",
+        "A whole host of Steam PC games can now run locally on a jailbroken PlayStation 5, including Portal, Left 4 Dead 2, and many more date de sortie",
+        "A whole host of Steam PC games can now run locally on a jailbroken PlayStation 5, including Portal, Left 4 Dead 2, and many more plateformes",
+        "A whole host of Steam PC games can now run locally on a jailbroken PlayStation 5, including Portal, Left 4 Dead 2, and many more gameplay",
+        "A whole host of Steam PC games can now run locally on a jailbroken PlayStation 5, including Portal, Left 4 Dead 2, and many more guide",
+        "A whole host of Steam PC games can now run locally on a jailbroken PlayStation 5, including Portal, Left 4 Dead 2, and many more avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-valve-adds-cd-rom-support-to-steam-frame-kernel-less-th-e02913910b8c",
+      "topic": "Valve adds CD-ROM support to Steam Frame kernel less than ten minutes after saying it would look into it",
+      "detected_at": "2026-10-26T20:09:22.382153+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/vr-hardware/valve-adds-cd-rom-support-to-steam-frame-kernel-less-than-ten-minutes-after-saying-it-would-look-into-it/",
+          "title": "Valve adds CD-ROM support to Steam Frame kernel less than ten minutes after saying it would look into it",
+          "evidence": "<article> <p>You can truly never anticipate how one might use their tech. After a <a href=\"https://steamcommunity.com/app/4165890/discussions/0/571552431431751057/\" target=\"_blank\">Steam Frame owner asked why the VR headset didn't work with their detachable disc drive</a>, Valve developer gaberow said they were looking into it—and patched in kernel support mere minutes later.</p><p>As spotted by <a href=\"https://www.tomshardware.com/virtual-reality/valve-adds-cd-rom-drive-support-to-steam-frame-kernel-took-less-than-ten-minutes-update-comes-one-day-after-user-requests-for-capability-in-the-steam-community-forum\" target=\"_blank\">Tom's Hardware</a>, AiodensGhost asked for the feature on October 18, gaberowe responded on October 19, then made the <a href=\"https://github.com/evlaV/deckard-linux-no-oopsies/commit/b68e4a18b07b527336e8e42db5381d84f82daab0\" target=\"_blank\">commit to the Steam Frame kernel</a> in less than ten minutes.</p><p>If you're wondering why someone would want CD-ROM support, AiodensGhost says, \"I wanted to use my Steam Frame to be able to watch a movie on the road, and thought it was no big deal to use the detachable disc drive I had on my computer.\"</p><div style=\""
+        }
+      ],
+      "keywords": [
+        "Valve adds CD-ROM support to Steam Frame kernel less than ten minutes after saying it would look into it",
+        "Valve adds CD-ROM support to Steam Frame kernel less than ten minutes after saying it would look into it date de sortie",
+        "Valve adds CD-ROM support to Steam Frame kernel less than ten minutes after saying it would look into it plateformes",
+        "Valve adds CD-ROM support to Steam Frame kernel less than ten minutes after saying it would look into it gameplay",
+        "Valve adds CD-ROM support to Steam Frame kernel less than ten minutes after saying it would look into it guide",
+        "Valve adds CD-ROM support to Steam Frame kernel less than ten minutes after saying it would look into it avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-i-no-longer-think-we-re-going-to-be-able-to-patch-all-b-6ec2cf6f861c",
+      "topic": "'I no longer think we’re going to be able to patch all bugs' says AI Pandora's box opener Sam Altman: 'We're going to have to completely switch the defense model'",
+      "detected_at": "2026-10-26T20:09:22.382366+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/i-no-longer-think-were-going-to-be-able-to-patch-all-bugs-says-ai-pandoras-box-opener-sam-altman-were-going-to-have-to-completely-switch-the-defense-model/",
+          "title": "'I no longer think we’re going to be able to patch all bugs' says AI Pandora's box opener Sam Altman: 'We're going to have to completely switch the defense model'",
+          "evidence": "<article> <p>If you've watched as many Sam Altman interviews as I have, you'll know he's not shy when it comes to recounting a previously held opinion. <a href=\"https://www.youtube.com/watch?v=anAmTGcewX8\" target=\"_blank\">Speaking at the Stanford Graduate School of Business last week</a>, the OpenAI CEO spoke about AI safety, particularly in regards to cybersecurity.</p><p>\"The cybersecurity...\" Altman begins, before pausing. \"I don't even know a dramatic enough word to use... but the problem coming towards us is still something that we have not, as organizational leaders, or countries, or individuals taken seriously.\"</p><p>\"There was a moment earlier this year where... it was like the Mythos freak out, or whatever people called it, and I think things did get somewhat better. Like, people definitely patched some bugs,\" the OpenAI CEO continues. \"But it was another one of these cases where people didn't really intuit the exponential.\"</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-WwgagW\"></div> </div> <script src=\"https://kwizly.com/embed/WwgagW.js\" async></script><p>\"I don't think most people said, okay, the models are going to get much smarter,\" says Altman. "
+        }
+      ],
+      "keywords": [
+        "'I no longer think we’re going to be able to patch all bugs' says AI Pandora's box opener Sam Altman: 'We're going to have to completely switch the defense model'",
+        "'I no longer think we’re going to be able to patch all bugs' says AI Pandora's box opener Sam Altman: 'We're going to have to completely switch the defense model' date de sortie",
+        "'I no longer think we’re going to be able to patch all bugs' says AI Pandora's box opener Sam Altman: 'We're going to have to completely switch the defense model' plateformes",
+        "'I no longer think we’re going to be able to patch all bugs' says AI Pandora's box opener Sam Altman: 'We're going to have to completely switch the defense model' gameplay",
+        "'I no longer think we’re going to be able to patch all bugs' says AI Pandora's box opener Sam Altman: 'We're going to have to completely switch the defense model' guide",
+        "'I no longer think we’re going to be able to patch all bugs' says AI Pandora's box opener Sam Altman: 'We're going to have to completely switch the defense model' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-call-of-duty-s-director-explains-that-his-film-will-be--cd923aca60c1",
+      "topic": "Call of Duty's director explains that his film will be all about the 'consequence of war' and not just a shoot-'em-up",
+      "detected_at": "2026-10-26T20:09:22.382593+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/movies-tv/call-of-dutys-director-explains-that-his-film-will-be-all-about-the-consequence-of-war-and-not-just-a-shoot-em-up/",
+          "title": "Call of Duty's director explains that his film will be all about the 'consequence of war' and not just a shoot-'em-up",
+          "evidence": "<article> <p>The <a href=\"https://www.pcgamer.com/uk/games/fps/call-of-duty/\">Call of Duty</a> movie <a href=\"https://www.pcgamer.com/games/call-of-duty/activision-has-confirmed-the-call-of-duty-movie-setting-and-its-not-what-id-have-picked/\">officially became a thing earlier this year</a>, and aside from making fans of Black Ops cry out in pain it promised \"an authentic and exciting\" take on the Modern Warfare games. Helmed by director Peter Berg who's known for films like Lone Survivor, Battleship, and The Mosquito Bowl, he's now explained a little more about what we can expect from this movie. </p><p>\"This is not just 'Hey, let’s shoot them all up and shoot popcorn!'\", Bergs says in an <a href=\"https://comicbook.com/movies/news/peter-berg-says-his-call-of-duty-movie-with-taylor-sheridan-is-all-about-the-consequence-of-war-and-cost-of-having-to-be-a-warrior/\" target=\"_blank\">interview with Comicbook</a>. \"There’s a soul underneath it, that I understand and [Call of Duty's co-writer and producer] Taylor Sheridan understands, [it's] not quite as graphically violent as Mosquito Bowl, but there will be a very strong soul, and consequence of war within the film, called 'duty.'\" </p><f"
+        }
+      ],
+      "keywords": [
+        "Call of Duty's director explains that his film will be all about the 'consequence of war' and not just a shoot-'em-up",
+        "Call of Duty's director explains that his film will be all about the 'consequence of war' and not just a shoot-'em-up date de sortie",
+        "Call of Duty's director explains that his film will be all about the 'consequence of war' and not just a shoot-'em-up plateformes",
+        "Call of Duty's director explains that his film will be all about the 'consequence of war' and not just a shoot-'em-up gameplay",
+        "Call of Duty's director explains that his film will be all about the 'consequence of war' and not just a shoot-'em-up guide",
+        "Call of Duty's director explains that his film will be all about the 'consequence of war' and not just a shoot-'em-up avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-steam-is-broken-it-s-still-up-but-some-users-can-t-log--97ec6fed3dfe",
+      "topic": "Steam is broken: It's still up but some users can't log in",
+      "detected_at": "2026-10-26T20:09:22.382751+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/steam-is-broken-its-still-up-but-some-users-cant-log-in/",
+          "title": "Steam is broken: It's still up but some users can't log in",
+          "evidence": "<article> <p>If you're having trouble logging into Steam today, you're not alone: Significant numbers of users are reporting that they're stuck on a \"loading user data\" screen that's keeping them from logging into the platform.</p><p>Despite the issue persisting for several hours now, it's not clear what the problem actually is. SteamDB's <a href=\"https://steamstat.us/\" target=\"_blank\">Steam Status page</a> indicates that Steam is green across the board. <a href=\"https://downdetector.com/status/steam/\" target=\"_blank\">Down Detector</a>, on the other hand, shows that reports of trouble began rolling in around 6 am ET, and continue to grow. Threads on the <a href=\"https://www.reddit.com/r/steamsupport/comments/1xfua8l/problem_logging_in_to_steam/\" target=\"_blank\">Steam Support subreddit</a> point to the same.</p><figure><blockquote class=\"reddit-card\" ><a href=\"https://www.reddit.com/r/steamsupport/comments/1xfua8l/problem_logging_in_to_steam\">Problem logging in to Steam</a><figcaption><cite> from <a href=\"https://www.reddit.com/r/steamsupport\">r/steamsupport</a></cite></figcaption></blockquote></figure><script async src=\"//embed.redditmedia.com/widgets/platform.js\" charset=\"UTF-8\"><"
+        }
+      ],
+      "keywords": [
+        "Steam is broken: It's still up but some users can't log in",
+        "Steam is broken: It's still up but some users can't log in date de sortie",
+        "Steam is broken: It's still up but some users can't log in plateformes",
+        "Steam is broken: It's still up but some users can't log in gameplay",
+        "Steam is broken: It's still up but some users can't log in guide",
+        "Steam is broken: It's still up but some users can't log in avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

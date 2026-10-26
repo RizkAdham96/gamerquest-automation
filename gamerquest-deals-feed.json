@@ -1,49 +1,27 @@
 {
-  "generated_at": "2026-10-26T15:25:35.289891+00:00",
-  "count": 4,
+  "generated_at": "2026-10-26T21:10:01.366097+00:00",
+  "count": 3,
   "articles": [
     {
-      "source_id": "2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754",
-      "title": "Cyberpunk 2077 à -70% sur Steam",
-      "excerpt": "Cyberpunk 2077 bénéficie actuellement d'une réduction de 70% sur Steam, passant de 59,99 € à 17,99 €.",
-      "content": "<p><strong>Cyberpunk 2077</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>17,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1091500/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/1091500/",
+      "source_id": "c481677c3a6808bd705f24a2f418e51459fab5a1ba436aa99c5a06516de7f366",
+      "title": "Sons Of The Forest à -72% sur Steam",
+      "excerpt": "Sons Of The Forest bénéficie actuellement d'une réduction de 72% sur Steam, passant de 28,99 € à 8,11 €.",
+      "content": "<p><strong>Sons Of The Forest</strong> bénéficie actuellement d'une réduction de <strong>72%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>28,99 €</strong></li><li>Prix actuel : <strong>8,11 €</strong></li><li>Réduction : <strong>72%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1326470/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1326470/",
       "deal": {
-        "game": "Cyberpunk 2077",
+        "game": "Sons Of The Forest",
         "store": "Steam",
-        "original_price": 59.99,
-        "current_price": 17.99,
-        "discount_percent": 70,
+        "original_price": 28.99,
+        "current_price": 8.11,
+        "discount_percent": 72,
         "expires_at": null
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754.jpg",
-        "filename": "2cab4425593f72824f6eca56e00aafdd2a23455f5c8206edd5054e1abe3ff754.jpg",
-        "alt": "Cyberpunk 2077 -70% sur Steam - GamerQuest",
-        "caption": "Cyberpunk 2077 : offre -70% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Cyberpunk 2077 sur Steam."
-      }
-    },
-    {
-      "source_id": "29fc23142e5f6638f893e20be3f6b154997089daada316210d39de0c6e6fd22c",
-      "title": "The Walking Dead: The Telltale Definitive Series à -90% sur Steam",
-      "excerpt": "The Walking Dead: The Telltale Definitive Series bénéficie actuellement d'une réduction de 90% sur Steam, passant de 48,99 € à 4,89 €.",
-      "content": "<p><strong>The Walking Dead: The Telltale Definitive Series</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>48,99 €</strong></li><li>Prix actuel : <strong>4,89 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1449690/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/1449690/",
-      "deal": {
-        "game": "The Walking Dead: The Telltale Definitive Series",
-        "store": "Steam",
-        "original_price": 48.99,
-        "current_price": 4.89,
-        "discount_percent": 90,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/29fc23142e5f6638f893e20be3f6b154997089daada316210d39de0c6e6fd22c.jpg",
-        "filename": "29fc23142e5f6638f893e20be3f6b154997089daada316210d39de0c6e6fd22c.jpg",
-        "alt": "The Walking Dead: The Telltale Definitive Series -90% sur Steam - GamerQuest",
-        "caption": "The Walking Dead: The Telltale Definitive Series : offre -90% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre The Walking Dead: The Telltale Definitive Series sur Steam."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/c481677c3a6808bd705f24a2f418e51459fab5a1ba436aa99c5a06516de7f366.jpg",
+        "filename": "c481677c3a6808bd705f24a2f418e51459fab5a1ba436aa99c5a06516de7f366.jpg",
+        "alt": "Sons Of The Forest -72% sur Steam - GamerQuest",
+        "caption": "Sons Of The Forest : offre -72% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Sons Of The Forest sur Steam."
       }
     },
     {

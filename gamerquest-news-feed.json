@@ -1,7 +1,60 @@
 {
-  "generated_at": "2026-10-25T05:05:29.544524+00:00",
+  "generated_at": "2026-10-27T05:23:40.844616+00:00",
   "count": 50,
   "articles": [
+    {
+      "source_id": "dfb0634fdc73effdc12d49ae3e647c899dcd03b91d35485109cebe5b68d0bc6a",
+      "title": "Mise à jour Cyberpunk 2077 2.5 : dual‑wielding, mods cross‑platform, quêtes Edgerunners et plus encore",
+      "excerpt": "La mise à jour 2.5 de Cyberpunk 2077 arrive le 22 octobre sur PC, PS5 et Xbox Series S/X, avec de nouvelles mécaniques de combat, un support cross‑platform des mods et une quête préquelle d’Edgerunners.",
+      "content": "<h2>Quelle est la date de sortie de la mise à jour Cyberpunk 2077 2.5 ?</h2>\n<p>La mise à jour 2.5 de <strong>Cyberpunk 2077</strong> sera déployée le <strong>22 octobre</strong> sur PC, PlayStation 5 et Xbox Series S/X. La version pour la Switch 2 arrivera « dans quelques jours », selon Laura Beitzel, responsable média de CD Projekt Red.</p>\n<h2>Sur quelles plateformes sera disponible la mise à jour ?</h2>\n<p>Le patch sera disponible simultanément sur <strong>PC, PlayStation 5, Xbox Series S/X</strong> et, peu après, sur la <strong>Switch 2</strong>. Aucun autre support n’est mentionné dans l’annonce.</p>\n<h2>Quelles nouveautés de gameplay apporte la mise à jour ?</h2>\n<ul>\n<li>Un nouveau perk « Double Trouble » dans l’arbre Cool, permettant le <strong>dual‑wielding</strong> de pistolets et revolvers (catégorie Power) avec quatre perks auxiliaires.</li>\n<li>Possibilité de <strong>customiser les cyberwares</strong> grâce à cinq nouveaux « glam docs » disséminés dans Night City, offrant des skins colorés pour les implants.</li>\n<li>Ajout de <strong>Night City Tours</strong>, une série de quêtes plus narratives où le fondateur Richard Night raconte l’histoire de la ville.</li>\n<li>De nouveaux ensembles vestimentaires (Maxiwear, Jinguji, NetWatch, IconAmerica, NUS Infiltrator) et des coiffures précédemment réservées aux PNJ.</li>\n<li>Quatre skins TWINTONE pour la Quadra Turbo‑R V‑Tech disponibles via Twitch Drops.</li>\n<li>Améliorations techniques : curseur de champ de vision, prise en charge de <strong>DLSS 4.5</strong>, interpolation de trame métal et débruitage sur Mac.</li>\n<li>En Photo Mode, ajout de cadres du Cyberpunk Trading Card Game et de nouvelles poses pour mettre en avant le dual‑wielding.</li>\n</ul>\n<h2>Quelles quêtes Edgerunners seront ajoutées ?</h2>\n<p>Une nouvelle quête secondaire intitulée <strong>Clampdown</strong> se déroule avant les événements</p>",
+      "slug": "mise-a-jour-cyberpunk-2077-2-5-dual-wielding-mods-edgerunners",
+      "category": "Actualités",
+      "tags": [
+        "Cyberpunk 2077",
+        "mise à jour",
+        "Edgerunners",
+        "mods",
+        "gameplay",
+        "Nintendo",
+        "PlayStation",
+        "Xbox"
+      ],
+      "seo": {
+        "seo_title": "Mise à jour Cyberpunk 2077 2.5 : dual‑wielding, mods cross‑platform, quêtes Edgerunners – tout ce qu’il faut savoir",
+        "meta_description": "Découvrez la mise à jour Cyberpunk 2077 2.5 du 22 octobre : dual‑wielding, support cross‑platform des mods, nouvelles quêtes Edgerunners, customisation cyberware et améliorations techniques.",
+        "primary_keyword": "mise à jour Cyberpunk 2077",
+        "secondary_keywords": [
+          "dual wielding Cyberpunk 2077",
+          "mods cross‑platform Cyberpunk 2077",
+          "quêtes Edgerunners Cyberpunk 2077",
+          "customisation cyberware Cyberpunk 2077",
+          "date sortie mise à jour Cyberpunk 2077",
+          "DLSS 4.5 Cyberpunk 2077"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support",
+        "title": "CD Projekt Red details new Cyberpunk 2077 update - adding dual-wielding, cross-platform mods, Edgerunners story quests, and more - Eurogamer.net",
+        "published_date": "Wed, 21 Oct 2026 16:03:54 GMT",
+        "domain": "eurogamer.net"
+      },
+      "official_source": null,
+      "created_at": "2026-10-27T05:23:40.513602+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/mise-a-jour-cyberpunk-2077-2-5-dual-wielding-mods-edgerunners.jpg",
+        "filename": "mise-a-jour-cyberpunk-2077-2-5-dual-wielding-mods-edgerunners.jpg",
+        "alt": "Mise à jour Cyberpunk 2077 2.5 : dual‑wielding, mods cross‑platform, quêtes Edgerunners et plus encore - GamerQuest",
+        "caption": "Illustration de l'article « Mise à jour Cyberpunk 2077 2.5 : dual‑wielding, mods cross‑platform, quêtes Edgerunners et plus encore ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://assetsio.gnwcdn.com/judy-cyberpunk.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
+      },
+      "platforms": [
+        "Nintendo",
+        "PlayStation",
+        "Xbox"
+      ]
+    },
     {
       "source_id": "e6f65871c28877ea511b7dcb93e92e8e8c8cd87f412c571225798a98b72c304d",
       "title": "ID@Xbox Showcase octobre 2026 : dates de sortie, plateformes et gameplay des nouveaux indies",
@@ -2514,59 +2567,6 @@
         "caption": "Illustration de l'article « Toutes les dates de sortie Xbox 2027 révélées au State of Play de septembre 2026 ».",
         "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
         "source_image_url": "https://images.inkl.com/s3/article/lead_image/23790527/ZP9wm3Lq7EatTaeSurHogk-1280-80.jpg"
-      },
-      "platforms": [
-        "Nintendo",
-        "PlayStation",
-        "Xbox"
-      ]
-    },
-    {
-      "source_id": "8d9842fe4c72ac41e2c5fcba3165129bf288f42ace8149bfbc1df68f0bacfc21",
-      "title": "Marvel's Wolverine : tout ce qu’il faut savoir avant sa sortie le 15 septembre 2026",
-      "excerpt": "Marvel's Wolverine d'Insomniac arrive le 15 septembre 2026 sur PS5. Retrouvez la date, la plateforme exclusive, les premières indications sur le gameplay et le fait qu'aucun mode multijoueur n’a été confirmé.",
-      "content": "<article>\n<p>Le prochain titre d’Insomniac Games, <strong>Marvel's Wolverine</strong>, sortira le <strong>15 septembre 2026</strong> exclusivement sur PlayStation 5. Voici les informations essentielles : date de sortie, plateforme, aperçu du gameplay et état du <a href=\"https://gamerquestfr.com/roco-kingdom-beta-date-plateformes-gameplay/\">multijoueur</a>.</p>\n<h2>Quelle est la date de sortie de Marvel's Wolverine ?</h2>\n<p>Selon le communiqué officiel d’Insomniac Games et de <a href=\"https://gamerquestfr.com/state-of-play-septembre-2026/\">Sony Interactive Entertainment</a>, le jeu sera disponible le <strong>15 septembre 2026</strong>.</p>\n<h2>Sur quelles plateformes le jeu sera‑t‑il disponible ?</h2>\n<p>Marvel's Wolverine sera une exclusivité <strong>PlayStation 5</strong>. Aucun autre support (PC, Xbox, Nintendo Switch) n’a été annoncé.</p>\n<h2>Quelles sont les premières informations sur le gameplay ?</h2>\n<p>Le trailer final montre une aventure solo centrée sur Logan, avec un système de combat plus orienté « action‑driven » que les précédents titres Spider‑Man d’Insomniac. Les combats mettent en avant les griffes de Wolverine, une tonalité sombre et une narration focalisée sur le personnage.</p>\n<h2>Le jeu proposera‑t‑il un mode multijoueur ?</h2>\n<p>À ce jour, aucune information officielle n’a été fournie concernant un mode <a href=\"https://gamerquestfr.com/call-of-duty-modern-warfare-4-switch-2/\">multijoueur</a> ou coopératif. Le projet semble se concentrer sur une expérience solo.</p>\n</article>",
-      "slug": "marvels-wolverine-2026-ps5",
-      "category": "Actualités",
-      "tags": [
-        "Marvel's Wolverine",
-        "Insomniac Games",
-        "PS5",
-        "sortie 2026",
-        "action‑aventure",
-        "Nintendo",
-        "PlayStation",
-        "Xbox"
-      ],
-      "seo": {
-        "seo_title": "Marvel's Wolverine : date de sortie, plateformes et gameplay – 15 septembre 2026",
-        "meta_description": "Découvrez la date de sortie officielle de Marvel's Wolverine (15 septembre 2026), sa plateforme exclusive PS5, les premières informations sur le gameplay et l'absence de mode multijoueur annoncée.",
-        "primary_keyword": "Marvel's Wolverine date de sortie",
-        "secondary_keywords": [
-          "Marvel's Wolverine PS5",
-          "Marvel's Wolverine gameplay",
-          "Marvel's Wolverine plateformes",
-          "Wolverine jeu vidéo",
-          "Insomniac Games Wolverine",
-          "sortie Marvel Wolverine"
-        ],
-        "search_intent": "News"
-      },
-      "source": {
-        "url": "https://www.sortiraparis.com/en/what-to-do-in-paris/gaming/guides/259122-september-2026-video-game-releases-the-biggest-pc-and-console-titles",
-        "title": "September 2026 video game releases: the biggest PC and console titles - Sortiraparis.com",
-        "published_date": "Fri, 04 Sep 2026 07:00:00 GMT",
-        "domain": "sortiraparis.com"
-      },
-      "official_source": null,
-      "created_at": "2026-09-05T04:12:06.747035+00:00",
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/marvels-wolverine-2026-ps5.jpg",
-        "filename": "marvels-wolverine-2026-ps5.jpg",
-        "alt": "Marvel's Wolverine : tout ce qu’il faut savoir avant sa sortie le 15 septembre 2026 - GamerQuest",
-        "caption": "Illustration de l'article « Marvel's Wolverine : tout ce qu’il faut savoir avant sa sortie le 15 septembre 2026 ».",
-        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
-        "source_image_url": "https://cdn.sortiraparis.com/images/80/111694/1213210-paris-games-week-2025.jpg"
       },
       "platforms": [
         "Nintendo",

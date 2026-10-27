@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T05:30:40.531050+00:00",
-  "count": 4,
+  "generated_at": "2026-10-27T14:52:19.651257+00:00",
+  "count": 6,
   "articles": [
     {
       "source_id": "c481677c3a6808bd705f24a2f418e51459fab5a1ba436aa99c5a06516de7f366",
@@ -25,6 +25,28 @@
       }
     },
     {
+      "source_id": "190fea3a3f482faaa2f4bf383911f3eb73b5d99816c261c8799d2141bfa3850e",
+      "title": "The Forest à -80% sur Steam",
+      "excerpt": "The Forest bénéficie actuellement d'une réduction de 80% sur Steam, passant de 16,79 € à 3,35 €.",
+      "content": "<p><strong>The Forest</strong> bénéficie actuellement d'une réduction de <strong>80%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>16,79 €</strong></li><li>Prix actuel : <strong>3,35 €</strong></li><li>Réduction : <strong>80%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/242760/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/242760/",
+      "deal": {
+        "game": "The Forest",
+        "store": "Steam",
+        "original_price": 16.79,
+        "current_price": 3.35,
+        "discount_percent": 80,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/190fea3a3f482faaa2f4bf383911f3eb73b5d99816c261c8799d2141bfa3850e.jpg",
+        "filename": "190fea3a3f482faaa2f4bf383911f3eb73b5d99816c261c8799d2141bfa3850e.jpg",
+        "alt": "The Forest -80% sur Steam - GamerQuest",
+        "caption": "The Forest : offre -80% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre The Forest sur Steam."
+      }
+    },
+    {
       "source_id": "a0355e258ffe70a156280fc8ca01ae6ca6256e25e4924be2c1cc3b948d87b026",
       "title": "Shadow of the Tomb Raider: Definitive Edition à -90% sur Steam",
       "excerpt": "Shadow of the Tomb Raider: Definitive Edition bénéficie actuellement d'une réduction de 90% sur Steam, passant de 39,99 € à 3,99 €.",
@@ -44,6 +66,28 @@
         "alt": "Shadow of the Tomb Raider: Definitive Edition -90% sur Steam - GamerQuest",
         "caption": "Shadow of the Tomb Raider: Definitive Edition : offre -90% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Shadow of the Tomb Raider: Definitive Edition sur Steam."
+      }
+    },
+    {
+      "source_id": "e7b331dffce70d23fb05538717486ebdb077536a7ff10adff603997b37b53617",
+      "title": "Rise of the Tomb Raider™ à -90% sur Steam",
+      "excerpt": "Rise of the Tomb Raider™ bénéficie actuellement d'une réduction de 90% sur Steam, passant de 29,99 € à 2,99 €.",
+      "content": "<p><strong>Rise of the Tomb Raider™</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>29,99 €</strong></li><li>Prix actuel : <strong>2,99 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/391220/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/391220/",
+      "deal": {
+        "game": "Rise of the Tomb Raider™",
+        "store": "Steam",
+        "original_price": 29.99,
+        "current_price": 2.99,
+        "discount_percent": 90,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/e7b331dffce70d23fb05538717486ebdb077536a7ff10adff603997b37b53617.jpg",
+        "filename": "e7b331dffce70d23fb05538717486ebdb077536a7ff10adff603997b37b53617.jpg",
+        "alt": "Rise of the Tomb Raider™ -90% sur Steam - GamerQuest",
+        "caption": "Rise of the Tomb Raider™ : offre -90% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Rise of the Tomb Raider™ sur Steam."
       }
     },
     {

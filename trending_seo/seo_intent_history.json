@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-26T20:09:28.459894+00:00",
+  "updated_at": "2026-10-27T08:22:38.369944+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -353,6 +353,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-dark-souls-iii-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 877,
       "published_at": "2026-10-26T20:09:28.459894+00:00"
+    },
+    {
+      "intent_key": "dark souls iii multijoueur",
+      "primary_keyword": "Dark Souls III multijoueur",
+      "title": "Dark Souls III multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/dark-souls-iii-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 885,
+      "published_at": "2026-10-27T08:22:38.369944+00:00"
     }
   ]
 }

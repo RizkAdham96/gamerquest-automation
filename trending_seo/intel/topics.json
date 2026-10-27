@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-10-27T08:22:31.866872+00:00",
+  "updated_at": "2026-10-27T19:38:48.445583+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -34,6 +34,7 @@
     "red dead redemption 2",
     "resident evil 4",
     "resident evil village",
+    "rise of the tomb raider",
     "sekiro shadows die twice",
     "shadow of the tomb raider definitive edition",
     "sifu",
@@ -43,396 +44,13 @@
     "system shock 2 25th anniversary remaster",
     "terrascape",
     "the elder scrolls v skyrim special edition",
+    "the forest",
     "the outlast trials",
     "the walking dead the telltale definitive series",
     "the witcher 3 wild hunt",
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "rss-arc-raiders-tv-and-movie-adaptations-can-do-what-the-ga-39ca8c3369a8",
-      "topic": "Arc Raiders TV and movie adaptations can do what the game doesn't: \"All kinds of different stories\"",
-      "detected_at": "2026-10-17T07:11:47.907285+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/third-person-shooter/arc-raiders-tv-and-movie-adaptations-can-do-what-the-game-doesnt-we-feel-like-we-have-created-a-world-thats-fertile-ground-to-tell-all-kinds-of-different-stories/",
-          "title": "Arc Raiders TV and movie adaptations can do what the game doesn't: \"All kinds of different stories\"",
-          "evidence": "<article> <p>What should an Arc Raiders TV series or movie look like? Following the slightly opaque announcement of <a href=\"https://www.gamesradar.com/entertainment/action-movies/arc-raiders-tv-and-movie-adaptations-are-in-the-works-and-the-same-goes-for-embarks-previous-shooter-the-finals/\">adaptations in the works</a> at external partner Chernin Entertainment, executive producer Aleksander Grøndal of Arc Raiders studio Embark suggests there's interest in something a little more character-driven, whereas the game is mostly about absorbing the world around you. </p><p>I spoke to Grøndal briefly about the ambitions around the adaptations of Embark's IP, which will also include The Finals, its previous, more competitive shooter. <a href=\"https://www.gamesradar.com/games/third-person-shooter/arc-raiders-guide/\">Arc Raiders</a> is pretty hands-off with its narrative, mostly sprinkling in details through thin quests, short cutscenes, and cinematic trailers, but while letting players write their own stories and speculate about the world. That works for an interactive game, but a series or film may need something clearer to carry the story. </p><p>\"I think you're absolutely right,\" Grønd"
-        }
-      ],
-      "keywords": [
-        "Arc Raiders TV and movie adaptations can do what the game doesn't: \"All kinds of different stories\"",
-        "Arc Raiders TV and movie adaptations can do what the game doesn't: \"All kinds of different stories\" date de sortie",
-        "Arc Raiders TV and movie adaptations can do what the game doesn't: \"All kinds of different stories\" plateformes",
-        "Arc Raiders TV and movie adaptations can do what the game doesn't: \"All kinds of different stories\" gameplay",
-        "Arc Raiders TV and movie adaptations can do what the game doesn't: \"All kinds of different stories\" guide",
-        "Arc Raiders TV and movie adaptations can do what the game doesn't: \"All kinds of different stories\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-our-industry-is-rotting-and-ai-made-it-worse-so-dayz-cr-688f722fe823",
-      "topic": "\"Our industry is rotting\" and AI made it worse, so DayZ creator wants to change how games are made",
-      "detected_at": "2026-10-17T07:11:47.907790+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/our-industry-is-rotting-and-ai-pushed-things-over-the-edge-so-the-creator-of-dayz-wants-to-change-how-games-are-made-with-some-of-the-smartest-devs-in-the-industry/",
-          "title": "\"Our industry is rotting\" and AI made it worse, so DayZ creator wants to change how games are made",
-          "evidence": "<article> <p>DayZ creator Dean Hall reckons \"our industry is rotting from its core, outwards in every direction, and it has been for some time,\" and that rot has only been accelerated by the rise of <a href=\"https://www.gamesradar.com/games/xbox-is-forming-a-whole-division-in-response-to-the-vibe-coded-game-recomp-explosion-these-are-unmistakably-good-outcomes-for-players/\">AI agent-led development</a>, reverse-engineering, and recompilation. \"These have pushed things over the edge,\" he says, so he and studio RocketWerkz have prepared and shared a new, open source game engine alternative meant to help developers \"break free of Unity\" and mainstream offerings like Unreal Engine as providers like Epic Games dive headfirst into AI. </p><p>In a lengthy <a href=\"https://www.reddit.com/r/gamedev/comments/1x6d2dy/introducing_brutal_a_free_c_framework_that_helped/?share_id=ytdv1R8W41FtX1yIiHzx-&utm_content=1&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1\" target=\"_blank\">post to the gamedev subreddit</a>, Hall explains the origins and intent of \"Brutal,\" a free C# (C Sharp) framework that is technically not a game engine – a collection of software and tools used to "
-        }
-      ],
-      "keywords": [
-        "\"Our industry is rotting\" and AI made it worse, so DayZ creator wants to change how games are made",
-        "\"Our industry is rotting\" and AI made it worse, so DayZ creator wants to change how games are made date de sortie",
-        "\"Our industry is rotting\" and AI made it worse, so DayZ creator wants to change how games are made plateformes",
-        "\"Our industry is rotting\" and AI made it worse, so DayZ creator wants to change how games are made gameplay",
-        "\"Our industry is rotting\" and AI made it worse, so DayZ creator wants to change how games are made guide",
-        "\"Our industry is rotting\" and AI made it worse, so DayZ creator wants to change how games are made avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-james-gunn-shares-list-of-body-horror-movies-to-watch-a-a57996bd0c80",
-      "topic": "James Gunn shares list of body horror movies to watch ahead of Clayface premiere",
-      "detected_at": "2026-10-17T07:11:47.908024+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/entertainment/dc-movies/james-gunn-shares-list-of-body-horror-movies-to-watch-ahead-of-clayface-premiere-and-its-mostly-david-cronenberg/",
-          "title": "James Gunn shares list of body horror movies to watch ahead of Clayface premiere",
-          "evidence": "<article> <p>The DCU's next movie, <a href=\"https://www.gamesradar.com/entertainment/dc-movies/clayface-release-date-plot-cast-news/\">Clayface</a>, is almost upon us, and DC co-CEO James Gunn has released a list of body horror movies to get us in the mood for everyone's favorite goopy supervillain.</p><p>Gunn took to Threads to share the list after a fan asked what they should watch, if anything, to prepare for a fleshy, goopy nightmare of a horror movie like Clayface. The list leans David Cronenberg-heavy, with Shivers, The Brood, The Fly, and Videodrome all making the list. However, Gunn also included Invasion of the Body Snatchers, John Carpenter's The Thing, Guillermo del Toro's Cronos, and his own body horror, 2006's Slither. You can check out the rest of the list below.</p><figure><blockquote class=\"text-post-media\" data-text-post-permalink=https://www.threads.com/@jamesgunn/post/Dee8tUena-y data-text-post-version=\"0\" id=.ig-tp-Dee8tUena-y style=\" background:#FFF; border-width: 1px; border-style: solid; border-color: #00000026; border-radius: 16px; max-width:540px; margin: 1px; min-width:270px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\""
-        }
-      ],
-      "keywords": [
-        "James Gunn shares list of body horror movies to watch ahead of Clayface premiere",
-        "James Gunn shares list of body horror movies to watch ahead of Clayface premiere date de sortie",
-        "James Gunn shares list of body horror movies to watch ahead of Clayface premiere plateformes",
-        "James Gunn shares list of body horror movies to watch ahead of Clayface premiere gameplay",
-        "James Gunn shares list of body horror movies to watch ahead of Clayface premiere guide",
-        "James Gunn shares list of body horror movies to watch ahead of Clayface premiere avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-viral-wolf-girl-colony-sim-family-time-enters-steam-s-t-50087d008ab1",
-      "topic": "Viral wolf girl colony sim Family Time enters Steam's top 50 most-wishlisted, immediately ripped off",
-      "detected_at": "2026-10-17T07:11:47.908454+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/simulation/blatant-plagiarism-viral-wolf-girl-colony-sim-family-time-enters-steams-top-50-most-wishlisted-games-immediately-gets-ripped-off-by-copycat-with-the-same-name/",
-          "title": "Viral wolf girl colony sim Family Time enters Steam's top 50 most-wishlisted, immediately ripped off",
-          "evidence": "<article> <p>Family Time, an upcoming game about raising thousands of children with your wolf girl wife, was recently listed on Steam after the Itch.io release of a demo version of the game became the obsession of some corners of the internet. On October 6, it was the 66th most-wishlisted game on Steam. As of October 16, it's ranked 46 on the wishlist charts and is still rising rapidly, according to <a href=\"https://steamdb.info/stats/mostwished/\" target=\"_blank\"><u>SteamDB</u></a>. This virality has now earned Family Time a Steam marketplace classic: a near one-to-one ripoff with the exact same name. </p><p><a href=\"https://store.steampowered.com/app/5072600/Family_Time/\" target=\"_blank\"><u>Family Time</u></a> (the genuine article) is the latest release from developer sgthale. The short Steam blurb for the game will tell you most of what you need to hear: \"Build a family of thousands of wolf children with your own wolf partner!\" So far, it's getting a lot of mileage out of animal ears and a central gag which I'd describe as competitive childcare. </p><p>A ravenous \"Wolf Mama\" is almost constantly adding children to your family, which is good, since you can command them to help hun"
-        }
-      ],
-      "keywords": [
-        "Viral wolf girl colony sim Family Time enters Steam's top 50 most-wishlisted, immediately ripped off",
-        "Viral wolf girl colony sim Family Time enters Steam's top 50 most-wishlisted, immediately ripped off date de sortie",
-        "Viral wolf girl colony sim Family Time enters Steam's top 50 most-wishlisted, immediately ripped off plateformes",
-        "Viral wolf girl colony sim Family Time enters Steam's top 50 most-wishlisted, immediately ripped off gameplay",
-        "Viral wolf girl colony sim Family Time enters Steam's top 50 most-wishlisted, immediately ripped off guide",
-        "Viral wolf girl colony sim Family Time enters Steam's top 50 most-wishlisted, immediately ripped off avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-big-rpgs-like-the-witcher-4-have-cd-projekt-red-in-a-da-3d4cd4d7aea1",
-      "topic": "Big RPGs like The Witcher 4 have CD Projekt Red in a \"dangerous place,\" warns BioWare veteran",
-      "detected_at": "2026-10-17T07:11:47.908647+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/rpg/big-rpgs-like-the-witcher-4-and-cyberpunk-2-have-cd-projekt-red-in-a-dangerous-place-warns-bioware-veteran-with-costs-and-sales-expectations-exploding/",
-          "title": "Big RPGs like The Witcher 4 have CD Projekt Red in a \"dangerous place,\" warns BioWare veteran",
-          "evidence": "<article> <p>As CD Projekt Red continues to grow with projects like <a href=\"https://www.gamesradar.com/games/the-witcher/the-witcher-4-guide/\">The Witcher 4</a> and Cyberpunk 2 in the works, some industry veterans are worrying that it's all becoming a bit <em>too</em> ambitious to make sense financially in the long run.</p><p>Mark Darrah, BioWare veteran who was co-director of Dragon Age: Origins and executive producer of Anthem, shares those concerns as part of an interview in the Summer Eternal Anthology (as reported by <a href=\"https://www.rockpapershotgun.com/cd-projekt-is-in-a-really-dangerous-place-says-anthems-executive-producer-pointing-to-ballooning-costs-of-making-games-of-that-scope-and-quality\" target=\"_blank\">Rock Paper Shotgun</a> recently). <br><br>He first discusses the likes of <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> and how its sheer size has affected the video game industry, with developers and publishers falling into the trap of hoping to make the next Grand Theft Auto.</p><p>Should some move away from that dream, the future could be brighter. \"If that all goes away, then you'll get a bunch of room to make it work with titles that need to se"
-        }
-      ],
-      "keywords": [
-        "Big RPGs like The Witcher 4 have CD Projekt Red in a \"dangerous place,\" warns BioWare veteran",
-        "Big RPGs like The Witcher 4 have CD Projekt Red in a \"dangerous place,\" warns BioWare veteran date de sortie",
-        "Big RPGs like The Witcher 4 have CD Projekt Red in a \"dangerous place,\" warns BioWare veteran plateformes",
-        "Big RPGs like The Witcher 4 have CD Projekt Red in a \"dangerous place,\" warns BioWare veteran gameplay",
-        "Big RPGs like The Witcher 4 have CD Projekt Red in a \"dangerous place,\" warns BioWare veteran guide",
-        "Big RPGs like The Witcher 4 have CD Projekt Red in a \"dangerous place,\" warns BioWare veteran avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-xbox-x25-controller-pre-orders-are-back-in-stock-ahead--363937859751",
-      "topic": "Xbox X25 controller pre-orders are back in stock ahead of next week's launch",
-      "detected_at": "2026-10-17T07:11:47.908905+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/hardware/gaming-controllers/xbox-x25-controller-pre-orders-are-back-in-stock-ahead-of-next-weeks-launch/",
-          "title": "Xbox X25 controller pre-orders are back in stock ahead of next week's launch",
-          "evidence": "<article> <p>Xbox X25 pre-orders went live right at the end of the summer and crashed out pretty quickly. While the translucent green console (at no less than $899.99) remains incredibly difficult to get your hands on - this is a <em>numbered </em>limited edition release so it's going to be competitive - the Xbox X25 controller is a little easier to come by these days. </p><p>That's because both Best Buy, Walmart, GameStop, and Xbox all currently have the throwback gamepad in stock and ready to pre-order this weekend. The $79.99 Anniversary controller ($79 if you opt <a href=\"https://www.walmart.com/ip/Xbox-Accessory/20039069634\" target=\"_blank\">for Walmart</a>), is up for grabs now, with shipping at both stores set in time for October 20. </p> <div class=\"featured_product_block featured_block_horizontal\" data-id=\"c3a94a74-c96c-11f1-8f88-77afe05bc7f7\"> <a href=\"https://www.walmart.com/ip/Xbox-Accessory/20039069634\" data-model-name=\"Xbox X25 Controller\" data-model-brand=\"\" ><div class='product-image-widthsetter'><p class='vanilla-image-block' data-bordeaux-image-check style='padding-top:100.00%';><img style=\"width: 100%\" class=\"featured_image\" src=\"https://cdn.mos.cms.futurecdn.net/"
-        }
-      ],
-      "keywords": [
-        "Xbox X25 controller pre-orders are back in stock ahead of next week's launch",
-        "Xbox X25 controller pre-orders are back in stock ahead of next week's launch date de sortie",
-        "Xbox X25 controller pre-orders are back in stock ahead of next week's launch plateformes",
-        "Xbox X25 controller pre-orders are back in stock ahead of next week's launch gameplay",
-        "Xbox X25 controller pre-orders are back in stock ahead of next week's launch guide",
-        "Xbox X25 controller pre-orders are back in stock ahead of next week's launch avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-ahead-of-persona-6-former-lead-devs-say-every-atlus-jrp-162750019618",
-      "topic": "Ahead of Persona 6, former lead devs say every Atlus JRPG \"changing to reflect the times\" is key",
-      "detected_at": "2026-10-17T07:11:47.909083+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/persona/ahead-of-persona-6-former-lead-devs-say-every-atlus-jrpg-changing-to-reflect-the-times-is-key-and-should-give-players-something-to-draw-on-as-they-go-on-to-live-their-lives/",
-          "title": "Ahead of Persona 6, former lead devs say every Atlus JRPG \"changing to reflect the times\" is key",
-          "evidence": "<article> <p>While we still know little about <a href=\"https://www.gamesradar.com/games/persona-6-guide/\">Persona 6</a>, some former leads on the series have given us an idea of where it should go, discussing the soul of the series at large during a recent roundtable discussion.</p><p>Appearing at games culture and arts festival The Tenth Mosaic, Persona 3, 4, and 5 director Katsura Hashino, character designer Shigenori Soejima, and composer Shoji Meguro reflect on what makes a Persona game a Persona game.</p><p>While you might think of high school drama with a touch of the supernatural, Hashino, as per <a href=\"https://automaton-media.com/en/news/persona-3-4-and-5-creators-talk-about-what-defines-the-series-identity-and-their-idea-of-an-ideal-rpg/\" target=\"_blank\">Automaton</a>, would say \"chaos,\" as he makes an effort not to be too selective about what he leans on to depict adolescence.</p><p>Adding to this, Soejima says that \"changing to reflect the times\" is another important part of the beloved JRPG series, particularly in its settings and storylines. That's because it's important to avoid stagnation, and ultimately, Atlus wants each Persona game to resonate with contemporary "
-        }
-      ],
-      "keywords": [
-        "Ahead of Persona 6, former lead devs say every Atlus JRPG \"changing to reflect the times\" is key",
-        "Ahead of Persona 6, former lead devs say every Atlus JRPG \"changing to reflect the times\" is key date de sortie",
-        "Ahead of Persona 6, former lead devs say every Atlus JRPG \"changing to reflect the times\" is key plateformes",
-        "Ahead of Persona 6, former lead devs say every Atlus JRPG \"changing to reflect the times\" is key gameplay",
-        "Ahead of Persona 6, former lead devs say every Atlus JRPG \"changing to reflect the times\" is key guide",
-        "Ahead of Persona 6, former lead devs say every Atlus JRPG \"changing to reflect the times\" is key avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-ex-dying-light-lead-wants-to-find-the-next-kojima-in-ne-c1b30d5263a2",
-      "topic": "Ex-Dying Light lead wants to find \"the next Kojima\" in new role at Bloober Team publishing division",
-      "detected_at": "2026-10-17T17:32:43.904719+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/horror/ex-dying-light-lead-wants-to-find-the-next-kojima-in-new-role-at-bloober-team-publishing-division/",
-          "title": "Ex-Dying Light lead wants to find \"the next Kojima\" in new role at Bloober Team publishing division",
-          "evidence": "<article> <p>After 13 years on Dying Light, Tymon Smektala is keen to spot the freshest talent in horror as Broken Mirror Games' new executive director – perhaps even \"the next Kojima\", he says. </p><p>\"I will feel satisfied and I will feel fulfilled when we will actually find a creator like that,\" Smektala tells GamesRadar+ in an interview, joined by Piotr Babieno, Bloober Team CEO. \"I can easily imagine that we will find a creator that – a game creator working on a smaller project, but we would see the strength of the vision there, and with our help, this developer would get bigger, would get better, would get access to our DNA as well, because we have lots of expertise in making horror games. This creator could become the next Kojima, even. Like, why not?\"</p><p>Those might sound like big words, but Smektala's done it before. He served as franchise director for three of his 13 years working on <a href=\"https://www.gamesradar.com/games/open-world/dying-light-the-beast-guide/\">Dying Light</a> at developer Techland, where the series rose to the ranks of the <a href=\"https://www.gamesradar.com/best-zombie-games/\">best zombie games</a> of all time due to its pioneering of day/night t"
-        }
-      ],
-      "keywords": [
-        "Ex-Dying Light lead wants to find \"the next Kojima\" in new role at Bloober Team publishing division",
-        "Ex-Dying Light lead wants to find \"the next Kojima\" in new role at Bloober Team publishing division date de sortie",
-        "Ex-Dying Light lead wants to find \"the next Kojima\" in new role at Bloober Team publishing division plateformes",
-        "Ex-Dying Light lead wants to find \"the next Kojima\" in new role at Bloober Team publishing division gameplay",
-        "Ex-Dying Light lead wants to find \"the next Kojima\" in new role at Bloober Team publishing division guide",
-        "Ex-Dying Light lead wants to find \"the next Kojima\" in new role at Bloober Team publishing division avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-castlevania-belmont-s-curse-devs-are-proud-of-the-game--69aab80425b4",
-      "topic": "Castlevania: Belmont's Curse devs are \"proud\" of the game's hot characters",
-      "detected_at": "2026-10-17T17:32:43.904940+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/action/castlevania-belmonts-curse-devs-are-proud-of-the-games-hot-characters-there-should-be-a-game-awards-for-hot-dads/",
-          "title": "Castlevania: Belmont's Curse devs are \"proud\" of the game's hot characters",
-          "evidence": "<article> <p>The developers behind Castlevania: Belmont's Curse know their characters are hot, they've seen your thirsty fan art, and they agree - there should be some kind of award honoring the sexiest dad in games.</p><p>When asked if he's seen the \"horny\" fan art that's already been inspired by their newest game - in an interview with Fall Damage - lead designer Sandro Bordier acknowledges that \"it has started, it has started already - like, man, have we seen some things.\"</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/kBeW-YpNsTA\" allowfullscreen></iframe></div></div><p>Developer Evil Empire isn't totally surprised by the lewd drawings people have already made because, well, the developers aren't blind to how their characters look.</p><p>\"Yes, like we know some characters are hot. It's a choice, actually. Like it's a vibe. We're pretty proud of it. Honestly, like, we were super happy with all the fan reactions regarding the characters that were revealed. Like we really put a lot of love from the team to design them in a way that would please fans,\" Bordier adds.<"
-        }
-      ],
-      "keywords": [
-        "Castlevania: Belmont's Curse devs are \"proud\" of the game's hot characters",
-        "Castlevania: Belmont's Curse devs are \"proud\" of the game's hot characters date de sortie",
-        "Castlevania: Belmont's Curse devs are \"proud\" of the game's hot characters plateformes",
-        "Castlevania: Belmont's Curse devs are \"proud\" of the game's hot characters gameplay",
-        "Castlevania: Belmont's Curse devs are \"proud\" of the game's hot characters guide",
-        "Castlevania: Belmont's Curse devs are \"proud\" of the game's hot characters avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-cyberpunk-edgerunners-director-combed-through-cyberpunk-a80d3534c523",
-      "topic": "Cyberpunk: Edgerunners director combed through Cyberpunk 2077 with a \"virtual camera\" to find the best Night City spots",
-      "detected_at": "2026-10-17T17:32:43.905127+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/entertainment/anime-shows/cyberpunk-edgerunners-season-2-director-searched-cyberpunk-2077-with-a-virtual-camera-to-find-the-best-night-city-spots-to-use-in-the-anime/",
-          "title": "Cyberpunk: Edgerunners director combed through Cyberpunk 2077 with a \"virtual camera\" to find the best Night City spots",
-          "evidence": "<article> <p>Cyberpunk: Edgerunners animation team Studio Trigger went through Night City with a \"virtual camera\" in Cyberpunk 2077 to find \"great spots to fit into the story\" for season 2.</p><p>\"That's the great thing about Studio Trigger. They're huge fans of the game,\" Edgerunners showrunner and creator Bartosz Sztybor explains to GamesRadar+ on how certain Night City locales are chosen to crop up on-screen.</p><p>Sztybor admits, \"They know the city much better than I do,\" adding that he never mentions specific place names in his script – because he knows Studio Trigger will put in the hard yards by replicating season 2's camera-wielding newcomer Roman on the streets of Night City.</p><p>\"[Director] Kai Ikarashi, I guess he behaved like Roman. So with this virtual camera, he was going through Night City in the game and looking for the great spots that would fit into the story. So what is funny is [that] I don't put places in the script because we know that Studio Trigger will find something perfect.\"</p><p>The first season saw the likes of Afterlife, Tom's Diner, and Megabuilding H4 all brought to life on Netflix, but season 2 promises to go beyond that, with players likely abl"
-        }
-      ],
-      "keywords": [
-        "Cyberpunk: Edgerunners director combed through Cyberpunk 2077 with a \"virtual camera\" to find the best Night City spots",
-        "Cyberpunk: Edgerunners director combed through Cyberpunk 2077 with a \"virtual camera\" to find the best Night City spots date de sortie",
-        "Cyberpunk: Edgerunners director combed through Cyberpunk 2077 with a \"virtual camera\" to find the best Night City spots plateformes",
-        "Cyberpunk: Edgerunners director combed through Cyberpunk 2077 with a \"virtual camera\" to find the best Night City spots gameplay",
-        "Cyberpunk: Edgerunners director combed through Cyberpunk 2077 with a \"virtual camera\" to find the best Night City spots guide",
-        "Cyberpunk: Edgerunners director combed through Cyberpunk 2077 with a \"virtual camera\" to find the best Night City spots avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-marvel-rivals-has-further-escalated-our-penalties-for-s-006f3af6df0f",
-      "topic": "Marvel Rivals has \"further escalated our penalties for speech violations,\" promises more moderation",
-      "detected_at": "2026-10-17T17:32:43.905335+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/third-person-shooter/marvel-rivals-addresses-the-games-toxic-speech-problem-we-will-absolutely-not-treat-these-behaviors-as-acceptable-simply-because-they-are-unfortunately-common/",
-          "title": "Marvel Rivals has \"further escalated our penalties for speech violations,\" promises more moderation",
-          "evidence": "<article> <p>Marvel Rivals has long suffered with bad actors throwing around hate speech in online matches, but in an effort to clean up the hero shooter, developer NetEase is now promising \"significantly harsher penalties\" for severe or repeat offenders.</p><p>Like many competitive multiplayer games, unfortunately, Marvel Rivals has a problem with toxic speech being used more frequently than one would expect. In a recent online post, NetEase says it's doubling down on moderating the game.</p><p>\"A positive communication environment is a vital component of any team-based competitive experience,\" the studio <a href=\"https://x.com/MarvelRivals/status/2110792936388538805\">tweets</a>. \"We have always prioritized speech moderation in-game, and we continue to pay close attention to your feedback regarding toxic behavior. Whether through text or voice chat, behaviors such as insults, malicious harassment, discrimination, and hate speech not only hurt other players but also destroy normal in-game communication and the overall match experience.\"</p><p>NetEase says it has now \"further escalated our penalties for speech violations\" and sanctions will differ depending on the \"nature, severity "
-        }
-      ],
-      "keywords": [
-        "Marvel Rivals has \"further escalated our penalties for speech violations,\" promises more moderation",
-        "Marvel Rivals has \"further escalated our penalties for speech violations,\" promises more moderation date de sortie",
-        "Marvel Rivals has \"further escalated our penalties for speech violations,\" promises more moderation plateformes",
-        "Marvel Rivals has \"further escalated our penalties for speech violations,\" promises more moderation gameplay",
-        "Marvel Rivals has \"further escalated our penalties for speech violations,\" promises more moderation guide",
-        "Marvel Rivals has \"further escalated our penalties for speech violations,\" promises more moderation avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-ray-liotta-saved-gta-vice-city-s-awful-writing-rockstar-5293135e5994",
-      "topic": "Ray Liotta saved GTA: Vice City's \"awful\" writing, Rockstar co-founder Dan Houser says",
-      "detected_at": "2026-10-17T17:32:43.905566+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-vice-citys-writing-was-awful-rockstar-co-founder-dan-houser-says-but-acting-icon-ray-liotta-made-it-sound-good/",
-          "title": "Ray Liotta saved GTA: Vice City's \"awful\" writing, Rockstar co-founder Dan Houser says",
-          "evidence": "<article> <p>Rockstar Games' co-founder and former lead writer Dan Houser doesn't think his writing in GTA: Vice City was the best, but he reckons acting legend Ray Liotta is what really made the classic game's script shine. </p><p>Grand Theft Auto is no stranger to celebrity talent nowadays - just take a look at <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-soundtrack-songs/\">GTA 6's star-studded soundtrack</a> - but Ray Liotta playing the main protagonist of GTA: Vice City was a big deal more than two decades ago.</p><p>In an interview with <a href=\"https://www.youtube.com/watch?v=HfskoxOZBwU\" target=\"_blank\">IGN</a>, Houser was asked about what it was like working with the iconic Something Wild and Goodfellas actor, who gave a voice to Tommy Vercetti. \"My writing's awful, and he [Ray Liotta] made it sound good [in Vice City],\" Houser says.</p><p>\"All good actors do that. The actor finds things that are not on the page. Acting is an unusual art form, but it is an art form. And when you see someone who's good at it, they're much better than someone who's just ok at it. When they're ok, they get what's in my head, on the character side. The best actors go a whole"
-        }
-      ],
-      "keywords": [
-        "Ray Liotta saved GTA: Vice City's \"awful\" writing, Rockstar co-founder Dan Houser says",
-        "Ray Liotta saved GTA: Vice City's \"awful\" writing, Rockstar co-founder Dan Houser says date de sortie",
-        "Ray Liotta saved GTA: Vice City's \"awful\" writing, Rockstar co-founder Dan Houser says plateformes",
-        "Ray Liotta saved GTA: Vice City's \"awful\" writing, Rockstar co-founder Dan Houser says gameplay",
-        "Ray Liotta saved GTA: Vice City's \"awful\" writing, Rockstar co-founder Dan Houser says guide",
-        "Ray Liotta saved GTA: Vice City's \"awful\" writing, Rockstar co-founder Dan Houser says avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-how-bloober-team-s-japanese-approach-to-business-revive-4f218fb50a26",
-      "topic": "How Bloober Team's \"Japanese approach\" to business revived its image to land it a Switch 2 exclusive",
-      "detected_at": "2026-10-17T17:32:43.906108+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/horror/bloober-teams-switch-2-exclusive-heralds-amazing-times-of-gamecube-horror-thanks-to-japanese-approach-to-business/",
-          "title": "How Bloober Team's \"Japanese approach\" to business revived its image to land it a Switch 2 exclusive",
-          "evidence": "<article> <p>Broken Mirror Games is barely a year old, but the Bloober Team publishing division has already managed the once unthinkable. Onyx: The Dark Grip is set to be one of the <a href=\"https://www.gamesradar.com/games/horror/silent-hill-2-remake-devs-haunted-new-onyx-the-dark-grip-is-the-only-switch-2-game-to-make-its-horror-exclusive-to-handheld-mode/\">first Nintendo-exclusive horror games in over a decade</a>, proving that the Nintendo Switch 2 really is a console for all - even us horror hounds.</p><p>Sitting down with Bloober Team CEO Piotr Babieno and Broken Mirror's new executive director Tymon Smektała, I have just one question. <em>How </em>on Earth did they pull off getting a game like this past Nintendo? </p><h2 id=\"through-the-fog\">Through the fog</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"g3HbctNmzoZcQNVch2ie2L\" name=\"ONYX_SCREENSHOT_6\" alt=\"Onyx: The Dark Grip screenshots\" src=\"https://cdn.mos.cms.futurecdn.net/g3HbctNmzoZcQNVch2ie2L-1920-80.jpg\" mos=\"\" align=\"middle\" "
-        }
-      ],
-      "keywords": [
-        "How Bloober Team's \"Japanese approach\" to business revived its image to land it a Switch 2 exclusive",
-        "How Bloober Team's \"Japanese approach\" to business revived its image to land it a Switch 2 exclusive date de sortie",
-        "How Bloober Team's \"Japanese approach\" to business revived its image to land it a Switch 2 exclusive plateformes",
-        "How Bloober Team's \"Japanese approach\" to business revived its image to land it a Switch 2 exclusive gameplay",
-        "How Bloober Team's \"Japanese approach\" to business revived its image to land it a Switch 2 exclusive guide",
-        "How Bloober Team's \"Japanese approach\" to business revived its image to land it a Switch 2 exclusive avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-star-wars-kotor-remasterers-are-bringing-back-the-shrek-3b76bc3093c3",
-      "topic": "Star Wars: KOTOR remasterers are bringing back the Shrek 2 video game, according to the Xbox Store",
-      "detected_at": "2026-10-17T17:32:43.906328+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/action/star-wars-kotor-remaster-devs-are-bringing-back-the-shrek-2-game-that-might-only-be-good-in-my-childhood-memories-according-to-xbox-leak/",
-          "title": "Star Wars: KOTOR remasterers are bringing back the Shrek 2 video game, according to the Xbox Store",
-          "evidence": "<article> <p>According to a now-deleted listing on the Xbox Store, a remaster of 2004's Shrek 2: The Game is coming to modern platforms soon. Frequent remaster maestros Aspyr are behind this one, but now there's only really one question left: is it actually as ogrewhelmingly good as I remember?</p><p>Shrek 2: The Game originally swamped out on the PS2, Xbox, and GameCube, mixing beat 'em up action with some light puzzles, mini-games and button-prompt QTEs entirely playable in co-op. You could also control more than just our beloved, layered hero - Fiona, Donkey, Puss, and a bunch of other fairytale creatures were in the roster, too. </p><p>The deleted store page and leaked trailer suggest much of the shrektacular original remains intact, only this time there'll be support for 4K resolutions, improved textures, and enhanced UI. A new Photo Mode and Cheat Mode also seem to be part of the package.</p><p>No release date or pricing details for Shrek 2 Remastered yet, but I wouldn't be surprised to see it launch on PC, PS5 and Nintendo consoles alongside the Xbox version.</p><p>Developer Aspyr has done a good job of bringing back several old-school fan favorites that you might have forgo"
-        }
-      ],
-      "keywords": [
-        "Star Wars: KOTOR remasterers are bringing back the Shrek 2 video game, according to the Xbox Store",
-        "Star Wars: KOTOR remasterers are bringing back the Shrek 2 video game, according to the Xbox Store date de sortie",
-        "Star Wars: KOTOR remasterers are bringing back the Shrek 2 video game, according to the Xbox Store plateformes",
-        "Star Wars: KOTOR remasterers are bringing back the Shrek 2 video game, according to the Xbox Store gameplay",
-        "Star Wars: KOTOR remasterers are bringing back the Shrek 2 video game, according to the Xbox Store guide",
-        "Star Wars: KOTOR remasterers are bringing back the Shrek 2 video game, according to the Xbox Store avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-after-a-few-hours-with-the-pre-painted-warhammer-40k-te-5f1d7f3a2daa",
-      "topic": "After a few hours with the pre-painted Warhammer 40K terrain, I'm already convinced it's an essential purchase",
-      "detected_at": "2026-10-17T17:32:43.906684+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/tabletop-gaming/after-a-few-hours-with-the-pre-painted-warhammer-40k-terrain-im-already-convinced-its-an-essential-purchase/",
-          "title": "After a few hours with the pre-painted Warhammer 40K terrain, I'm already convinced it's an essential purchase",
-          "evidence": "<article> <p>Whoever came up with pre-painted Warhammer terrain, take a bow; you're a goddamn hero. </p><p>After going hands on with the set, I think it's going to make a lot of gamers <em>very </em>happy. Yes, it looks amazing… but the time it'll save you is so much more valuable, and this is one hell of a time-consuming hobby. No matter whether you're putting together a 10-man Kill Team or forging an entire Warhammer 40K army from scratch, it's a marathon. While I think most of us would love to create a battlefield with the same level of care, there are only so many hours in a day – and scenery often seems to hit the bottom of our collective to-do list as a result. Warhammer 40,000 Battlefields: Armageddon is designed to bypass all that by providing fully painted terrain out of the box, and the result is impressive. </p><div class=\"fancy-box\"><div class=\"fancy_box-title\">When does it come out?</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"xsoQGecLvZh7GXq94uY3cj\" name=\"Warhammer\" caption=\"\" alt=\"Warhammer 40,000 pre-painted"
-        }
-      ],
-      "keywords": [
-        "After a few hours with the pre-painted Warhammer 40K terrain, I'm already convinced it's an essential purchase",
-        "After a few hours with the pre-painted Warhammer 40K terrain, I'm already convinced it's an essential purchase date de sortie",
-        "After a few hours with the pre-painted Warhammer 40K terrain, I'm already convinced it's an essential purchase plateformes",
-        "After a few hours with the pre-painted Warhammer 40K terrain, I'm already convinced it's an essential purchase gameplay",
-        "After a few hours with the pre-painted Warhammer 40K terrain, I'm already convinced it's an essential purchase guide",
-        "After a few hours with the pre-painted Warhammer 40K terrain, I'm already convinced it's an essential purchase avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-adore-the-new-dwarf-khazlite-holds-army-for-warhammer-dd7755bd2545",
-      "topic": "I adore the new dwarf Khazlite Holds army for Warhammer Age of Sigmar, but I worry about what they mean for the future",
-      "detected_at": "2026-10-17T17:32:43.907052+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/tabletop-gaming/i-adore-the-new-dwarf-khazlite-holds-army-for-warhammer-age-of-sigmar-but-i-worry-about-what-they-mean-for-the-future/",
-          "title": "I adore the new dwarf Khazlite Holds army for Warhammer Age of Sigmar, but I worry about what they mean for the future",
-          "evidence": "<article> <p>I feel at odds with myself over the Warhammer Age of Sigmar Khazalite Holds army. This new duardin faction brings us back to classic fantasy dwarves in all their grudge-holding glory, and on the one hand, they look incredible. Actually, they feel like the best versions of that trope rolled into one heavily-armored force. But on the other, they seem safer and more familiar than the outrageously creative designs this game is known for.</p><p>Don't take that as an insult worthy of putting in your own book of grudges; I <em>adore </em>these models. Going hands-on with the new Army Set made me fall in love with the faction in a way I haven't since last year's <a href=\"https://www.gamesradar.com/tabletop-gaming/helsmiths-of-hashut-review/\">Helsmiths of Hashut</a>, and I cannot wait to paint and take them for a test-drive in battle. If anything, they only strengthen my opinion that Warhammer Age of Sigmar produces some of the company's best models – period. However, when you're used to steampunk sky pirate dwarves and underwater elves without any eyes who ride sea monsters into battle, the Khazalite Holds feel somewhat… well, pedestrian. </p><p>That's not necessarily a bad th"
-        }
-      ],
-      "keywords": [
-        "I adore the new dwarf Khazlite Holds army for Warhammer Age of Sigmar, but I worry about what they mean for the future",
-        "I adore the new dwarf Khazlite Holds army for Warhammer Age of Sigmar, but I worry about what they mean for the future date de sortie",
-        "I adore the new dwarf Khazlite Holds army for Warhammer Age of Sigmar, but I worry about what they mean for the future plateformes",
-        "I adore the new dwarf Khazlite Holds army for Warhammer Age of Sigmar, but I worry about what they mean for the future gameplay",
-        "I adore the new dwarf Khazlite Holds army for Warhammer Age of Sigmar, but I worry about what they mean for the future guide",
-        "I adore the new dwarf Khazlite Holds army for Warhammer Age of Sigmar, but I worry about what they mean for the future avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-i-need-the-witcher-4-to-get-creative-with-the-bestiary--30c4b0186f72",
       "topic": "I need The Witcher 4 to get creative with the Bestiary, and my favorite Witcher 3 mission proves why",
@@ -6039,6 +5657,386 @@
         "Shadow of the Tomb Raider: Definitive Edition multijoueur",
         "Shadow of the Tomb Raider: Definitive Edition PC",
         "Shadow of the Tomb Raider: Definitive Edition Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "rss-call-of-duty-modern-warfare-4-review-485f3c07f52a",
+      "topic": "Call of Duty: Modern Warfare 4 review",
+      "detected_at": "2026-10-27T19:38:48.442083+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4-review/",
+          "title": "Call of Duty: Modern Warfare 4 review",
+          "evidence": "<article> <p>There is a new game titled \"Call of Duty\" every year, but it's not every year that Call of Duty is really <em>back.</em> </p><div class=\"fancy-box\"><div class=\"fancy_box-title\">NEED TO KNOW</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it </strong>The next Call of Duty from the original creators of Call of Duty<br><strong>Release date </strong>October 23, 2026<br><strong>Expect to pay </strong>$70/£60<br><strong>Publisher </strong>Activision Blizzard<br><strong>Developer </strong>Infinity Ward<br><strong>Reviewed on </strong>RTX 5090, Ryzen 7 9800X3D 4.7 GHz, 64GB RAM<br><strong>Multiplayer </strong>Up to 60 players<br><strong>Steam Deck </strong>Unsupported<br><strong>Link </strong><a data-analytics-id=\"inline-link\" href=\"https://www.callofduty.com/\" target=\"_blank\">Official site</a></p></div></div><p>The tireless schedule of Activision's load-bearing FPS has resulted in more bad games than good as of late—Modern Warfare 3 was an expansion-sized sequel rushed out the door, Black Ops 6 was a step back for multiplayer, and its immediate followup Black Ops 7 was clocked as superfluous and uninteresting even by rain-or-shine fans. These "
+        }
+      ],
+      "keywords": [
+        "Call of Duty: Modern Warfare 4 review",
+        "Call of Duty: Modern Warfare 4 review date de sortie",
+        "Call of Duty: Modern Warfare 4 review plateformes",
+        "Call of Duty: Modern Warfare 4 review gameplay",
+        "Call of Duty: Modern Warfare 4 review guide",
+        "Call of Duty: Modern Warfare 4 review avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-after-onimusha-s-focused-swordplay-phantom-blade-zero-d-5538755e99f2",
+      "topic": "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic",
+      "detected_at": "2026-10-27T19:38:48.442581+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/phantom-blade-zero-vs-onimusha-way-of-the-sword/",
+          "title": "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic",
+          "evidence": "<article> <p>At just about 15 hours into Phantom Blade Zero, I've changed out my primary weapons more times than I do in an entire Souls campaign. I quickly dropped my starter sword for a pair of dual blades and a jagged weapon that chunks damage off my enemies in showers of blood. But I didn't stick with either for long. Soon I was running around with a two-handed blade taller than my martial arts hero Soul, which sprouts a trail of magical, energy-sapping flowers with every swing. It shares a moveset with another two-handed giant that absorbs life with each hit. But I don't have time to use either one: I'm already smitten with my new twin blades, one of which I can send spinning in a circle around me like a protective Beyblade.</p><p>Somehow I haven't even touched the weapon that I took off a crazed monk that turns Soul into a drunken boxer. But I'm sure I'll have time: apparently I'm less than a third(!) of the way through a game that's far, far bigger than I anticipated <a href=\"https://www.pcgamer.com/games/action/phantom-blade-zero-preview-chinese-action-games-soulslikes-kung-fu/\">when I played a chunk of it last year</a>. </p><p>For the most part, Phantom Blade Zero's epic a"
+        }
+      ],
+      "keywords": [
+        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic",
+        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic date de sortie",
+        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic plateformes",
+        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic gameplay",
+        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic guide",
+        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-warhammer-40-000-boltgun-studio-announces-major-layoffs-a29226b06d3a",
+      "topic": "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement",
+      "detected_at": "2026-10-27T19:38:48.442838+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/warhammer-40-000-boltgun-studio-announces-major-layoffs-then-quickly-deletes-the-announcement/",
+          "title": "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement",
+          "evidence": "<article> <p><a href=\"https://www.gamesindustry.biz/auroch-digital-lays-off-a-quarter-of-its-staff\" target=\"_blank\">GamesIndustry</a><a href=\"https://www.pcgamer.com/warhammer-40-000-boltgun/\" target=\"_blank\">Warhammer 40,000: Boltgun</a> developer Auroch Digital appears to be headed toward significant layoffs. In a statement posted to LinkedIn, since deleted but reported by <a href=\"https://www.gamesindustry.biz/auroch-digital-lays-off-a-quarter-of-its-staff\">GamesIndustry</a> and others, the studio said that despite its \"creative success, the same market conditions that have challenged so many of our fellow developers have now also affected us.\" As a result, Auroch Digital is restructuring, and has begun a redundancy consultation process that will impact \"around a quarter\" of its employees.</p><p>\"Over the past year our colleagues have delivered amazing games like Warhammer 40,000: Boltgun 2 and Starship Troopers: Ultimate Bug War! to wonderful reception from our players,\" the Auroch Digital statement said.</p><p>\"Despite that creative success, the same market conditions that have challenged so many of our fellow developers have now also affected us. Consequently, we have made th"
+        }
+      ],
+      "keywords": [
+        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement",
+        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement date de sortie",
+        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement plateformes",
+        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement gameplay",
+        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement guide",
+        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-nvidia-and-amd-invest-billions-into-meta-as-companies-e-c2eebd7ea378",
+      "topic": "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI",
+      "detected_at": "2026-10-27T19:38:48.443089+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/nvidia-and-amd-invest-billions-into-meta-as-companies-egg-each-other-on-to-bet-even-more-on-ai/",
+          "title": "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI",
+          "evidence": "<article> <p>This week both AMD and Nvidia have announced partnerships with Meta, securing both collabs and billions of dollars. All three companies are heavily invested in AI, and these deals are only more fuel for the fire.</p><p><a href=\"https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth\" target=\"_blank\">Nvidia just announced its deal</a> with Meta to \"expand their partnership on Muse and the Muse family of models\", and Meta, in turn, will expand Vera Rubin and Vera CPU deployment, as well as deploy Nvidia's Spectrum X Ethernet networking and BlueField-4 DPUs. Though Meta was probably buying all that stuff anyways, right?</p><p>Nvidia also said it was \"considering other technological collaborations, including Nvidia OpenShell Reference Architecture to strengthen agency security and Nvidia Sentry for monitoring, structured, unstructured and graph data processing.\"</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-OKyGme\"></div> </div> <script src=\"https://kwizly.com/embed/OKyGme.js\" async></script><p>Importantly, Nvidia is also investing $3 billion into Meta. Money that may go elsewhere "
+        }
+      ],
+      "keywords": [
+        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI",
+        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI date de sortie",
+        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI plateformes",
+        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI gameplay",
+        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI guide",
+        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-vote-for-the-scariest-game-of-all-time-round-1-57c951fc8fcc",
+      "topic": "Vote for the scariest game of all time: Round 1",
+      "detected_at": "2026-10-27T19:38:48.443478+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/vote-for-the-scariest-game-of-all-time-round-1/",
+          "title": "Vote for the scariest game of all time: Round 1",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Presented by</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"N5WXFQSCttV6Am7CopwTzd\" name=\"Copy of 1_HeroLogo copy\" caption=\"\" alt=\"No More Room in Hell 2 logo\" src=\"https://cdn.mos.cms.futurecdn.net/N5WXFQSCttV6Am7CopwTzd-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Torn Banner)</span></figcaption></figure><p class=\"fancy-box__body-text\">This article is brought to you by <a data-analytics-id=\"inline-link\" href=\"https://store.steampowered.com/app/292000?utm_source=future&utm_medium=display&utm_campaign=ppms_nmrih2_october_us&utm_term=pcsteam_horror&utm_creative=logo \" target=\"_blank\">No More Room in Hell 2</a>.</p></div></div><p>Last week, I asked PC Gamer readers to nominate the scariest PC games they could think of. I've collected the top 16 submission"
+        }
+      ],
+      "keywords": [
+        "Vote for the scariest game of all time: Round 1",
+        "Vote for the scariest game of all time: Round 1 date de sortie",
+        "Vote for the scariest game of all time: Round 1 plateformes",
+        "Vote for the scariest game of all time: Round 1 gameplay",
+        "Vote for the scariest game of all time: Round 1 guide",
+        "Vote for the scariest game of all time: Round 1 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-dungeons-dragons-world-of-warcraft-s-class-designer-cra-ea81f88167fb",
+      "topic": "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new",
+      "detected_at": "2026-10-27T19:38:48.443813+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/dungeons-and-dragons-world-of-warcrafts-class-designer-crammed-as-much-of-the-mmo-into-it-so-that-even-veteran-tabletop-players-can-experience-something-new/",
+          "title": "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new",
+          "evidence": "<article> <p>James Wyatt, the principal game designer and project lead designer of the upcoming Dungeons & Dragons: World of Warcraft book was already running games in Azeroth long before he took on the project. For him, the fun of bringing WoW to the table is not to ignore the flexibility of D&D but to embrace it.</p><p>\"Part of the beauty of playing D&D in the world of Azeroth is that you can do things in D&D that you can't do in a digital game because the options haven't been programmed for you,\" he said in a recent presentation attended by PC Gamer.</p><p>On November 12, you'll be able to see how Wyatt and the other designers mixed the two RPGs by <a href=\"https://www.pcgamer.com/games/world-of-warcraft/dungeons-and-dragons-world-of-warcraft-is-already-a-slam-dunk-but-its-how-it-captures-the-spirit-of-the-mmo-that-makes-it-stand-out/\">\"paraphrasing\" the MMO</a> into the tabletop ruleset. But Wyatt and senior game designer Ben Petrisor gave us a peek into how their approach affects the classes you can play in D&D: WoW.</p><p>WoW's classes are thematically similar to D&D's, and that's part of what makes the collaboration so fitting. However, WoW's classes have to fit into restric"
+        }
+      ],
+      "keywords": [
+        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new",
+        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new date de sortie",
+        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new plateformes",
+        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new gameplay",
+        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new guide",
+        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-square-enix-vets-say-devs-of-the-future-will-need-to-ma-3234e6782b70",
+      "topic": "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital",
+      "detected_at": "2026-10-27T19:38:48.444099+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/game-development/square-enix-vets-say-devs-of-the-future-will-need-to-master-the-use-of-ai-but-the-human-touch-will-still-be-vital/",
+          "title": "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital",
+          "evidence": "<article> <p>AI's a touchy subject in the development industry, but in other areas it's a lot less controversial—take Japan, for instance, which is <a href=\"https://www.pcgamer.com/gaming-industry/dueling-industry-surveys-show-japanese-game-devs-are-embracing-ai-while-north-american-ones-are-still-skeptical/\">embracing the technology</a> a lot more than audiences in the West are. That's not to say there <a href=\"https://www.pcgamer.com/software/ai/japan-actors-union-pushes-for-heavy-restrictions-on-ai-copying-dead-actors/\">isn't any push back at all</a>, mind.</p><p>Still, an example of how there's more of a positive spin on it overseas comes courtesy of a <a href=\"https://www.famitsu.com/article/202610/91345\" target=\"_blank\">Famitsu interview</a> (translated here by <a href=\"https://automaton-media.com/en/news/final-fantasy-and-mana-veterans-weigh-in-on-how-ai-will-change-game-development-and-why-turning-zero-into-one-should-always-be-a-humans-job/\" target=\"_blank\">Automaton</a>) where seasoned JRPG devs from Square Enix seem broadly positive on the tech—and are repeating some oft-heard talking points that I, at least, am personally very bored of, even if I wouldn't dismiss them o"
+        }
+      ],
+      "keywords": [
+        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital",
+        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital date de sortie",
+        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital plateformes",
+        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital gameplay",
+        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital guide",
+        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-edge-magazine-went-to-rockstar-to-see-gta-6-and-will-te-b9ea4da1e8b4",
+      "topic": "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29",
+      "detected_at": "2026-10-27T19:38:48.444306+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/edge-magazine-went-to-rockstar-to-see-gta-6-and-will-tell-you-all-about-in-lavish-detail-this-thursday-october-29/",
+          "title": "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29",
+          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/WuL58t2s.html\" id=\"WuL58t2s\" title=\"Edge 430 – Grand Theft Auto VI cover\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen></iframe><p>We are just three weeks out from the release of Grand Theft Auto 6, which you can tell because it has cleared the release calendar around it like the Chicxulub crater. Ahead of the big day, our friends at Edge magazine visited Rockstar's Edinburgh development HQ to chat with the studio's leaders and put their eyes on GTA 6 <em>in action</em>. That's right folks, it's officially happening. This thing is officially almost a videogame you can play.</p><p>The result? The 16-page cover story coming in Edge #430, <strong>on sale October 29</strong>. They've really been cooking over there, bringing us a bunch of exclusive new imagery, interviews with Rockstar head honchos, and a special gatefold cover with artwork of Jason and Lucia, about whom I already have very strong feelings.</p><p>If you're in the UK, you're in luck, because you can pick up the GTA 6 special edition free, plus 13 issues of Edge at 38% off the price you'd pay at the newsstand if you <a href=\"http:"
+        }
+      ],
+      "keywords": [
+        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29",
+        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 date de sortie",
+        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 plateformes",
+        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 gameplay",
+        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 guide",
+        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-nvidia-may-not-have-discontinued-the-rtx-5090-but-one-a-90ad65c4c828",
+      "topic": "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card",
+      "detected_at": "2026-10-27T19:38:48.444600+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/nvidia-may-not-have-discontinued-the-rtx-5090-but-one-aib-partner-says-it-cant-get-hold-of-the-parts-required-to-make-the-card/",
+          "title": "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card",
+          "evidence": "<article> <p>Nvidia's RTX 5090 has been a subject of much speculation recently, as it was rumoured to be discontinued last month when it vanished from the company's official marketplace, <a href=\"https://www.pcgamer.com/hardware/graphics-cards/rtx-5090-not-dead-says-nvidia-but-its-mysteriously-vanished-from-the-companys-official-marketplace/\" target=\"_blank\">only for Nvidia to confirm it wasn't discontinued</a>. The plot has thickened, though, as AIB partners—the companies actually designing and manufacturing RTX 50 series graphics cards—suggest even they can't get their hands on the parts required to make the card. </p><p>This is according to an Nvidia AIB partner who spoke to YouTuber <a href=\"https://www.youtube.com/watch?v=0t_VkWAD5dU\" target=\"_blank\">Der8auer</a>. They say, \"No, Nvidia did not inform us that RTX 5090 is EOL. But currently we cannot purchase GB202 [the GPU] together with 32 GB GDDR7 as [a] complete set, and we also don't know if ordering will be possible again in the future.\"</p><p>The unnamed board partner clarifies that in previous shortages, they could place backorders with Nvidia, but this is \"currently not possible anymore.\"</p><div style=\"min-height: 250p"
+        }
+      ],
+      "keywords": [
+        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card",
+        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card date de sortie",
+        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card plateformes",
+        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card gameplay",
+        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card guide",
+        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-deadline-afterlife-processing-lets-you-take-morality-in-a0424f3a210e",
+      "topic": "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation",
+      "detected_at": "2026-10-27T19:38:48.444912+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/deadline-afterlife-processing-lets-you-take-morality-into-your-own-hands-and-judge-who-deserves-eternal-salvation-or-damnation/",
+          "title": "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation",
+          "evidence": "<article> <p>I've always thought that I'm a particularly good judge of character, so I was happy to put my theory to the test with <a href=\"https://store.steampowered.com/app/5142140/DEADLINE_Afterlife_Processing/\" target=\"_blank\">Deadline: Afterlife Processing's new demo</a> where you play as some corporate angel judging whether the souls of the recently deceased should go upstairs or downstairs (I think we all know what that means). </p><p>Deadline's demo starts like most stints in corporations do, with paperwork. I'm not entirely sure whether I signed my soul away, but I was sad to hear I won't be getting time off anytime soon. After I was done with all the bureaucracy it was time to get to work. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"RAnQeqb4X8gp4JVfsUaGeE\" name=\"Deadline: Afterlife Processing screenshots\" alt=\"Deadline: Afterlife Processing screenshots\" src=\"https://cdn.mos.cms.futurecdn.net/RAnQeqb4X8gp4JVfsUaGeE-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" hei"
+        }
+      ],
+      "keywords": [
+        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation",
+        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation date de sortie",
+        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation plateformes",
+        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation gameplay",
+        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation guide",
+        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-you-just-can-t-win-despite-ghost-of-y-tei-selling-milli-45ae89c43b83",
+      "topic": "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch",
+      "detected_at": "2026-10-27T19:38:48.445180+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/you-just-cant-win-despite-ghost-of-yotei-selling-millions-of-copies-24-people-are-reportedly-being-let-go-from-sucker-punch/",
+          "title": "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch",
+          "evidence": "<article> <p>As we've noted before on this very site, there <a href=\"https://www.pcgamer.com/gaming-industry/foolproof-ways-to-get-laid-off-in-the-videogame-industry/\">really is just no winning in the videogame industry</a>, particularly under current conditions. Make an unsuccessful game? Make the kind of game you didn't want to make, but were pressured into? Layoffs. Make a successful game? Layoffs. Currently making a game? Believe it or not, layoffs. </p><p>As is the case with Ghost of Yōtei developer sucker punch, which has reportedly—per an internal email <a href=\"https://aftermath.site/sucker-punch-layoffs-sony-ghost-of-yotei/\" target=\"_blank\">sent to Aftermath</a> and confirmations from an ex-employee to the site—been hit with 24 layoffs, around a 10% reduction in staff. </p><p>This is despite the fact that Ghost of Yōtei, the studio's most recent game, was a commercial success: It sold <a href=\"https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q2_supplement.pdf\" target=\"_blank\">3.3 million copies in its opening month</a>, making it the <a href=\"https://www.gamespot.com/gallery/2025-best-selling-games/2900-6281/\" target=\"_blank\">11th-best selling game in the US</a>"
+        }
+      ],
+      "keywords": [
+        "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch",
+        "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch date de sortie",
+        "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch plateformes",
+        "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch gameplay",
+        "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch guide",
+        "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-call-of-duty-passes-40-billion-in-lifetime-revenue-maki-de5dde73c362",
+      "topic": "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever",
+      "detected_at": "2026-10-27T19:38:48.445479+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-passes-usd40-billion-in-lifetime-revenue-making-it-one-of-the-most-lucrative-videogame-franchise-ever/",
+          "title": "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever",
+          "evidence": "<article> <p>It's been 22 years, 11 months, 28 days and counting since we were first graced with <a href=\"https://www.pcgamer.com/uk/games/fps/call-of-duty/\">Call of Duty</a>. Over those two decades the franchise has emerged as one of the most lucrative in videogame history, with Xbox CEO Asha Sharma announcing that it's passed the $40billion revenue mark. </p><p>Speaking of <a href=\"https://www.pcgamer.com/uk/call-of-duty-modern-warfare-4/\">Call of Duty: Modern Warfare 4's</a> success, <a href=\"https://x.com/asha_shar/status/2114787993114591335\" target=\"_blank\">Sharma reflects</a>: \"One of the most celebrated Call of Duty games in its 24-year history, and now $40 billion in lifetime franchise revenue. An incredible milestone. Congrats to the Activision team. And to the players, thank you for being with us.\"</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2114787993114591335\"><p lang=\"en\" dir=\"ltr\">One of the most celebrated Call of Duty games in its 24-year history, and now $40B in lifetime franchise revenue. An incredible milestone. Congrats to the Activision team. And t"
+        }
+      ],
+      "keywords": [
+        "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever",
+        "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever date de sortie",
+        "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever plateformes",
+        "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever gameplay",
+        "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever guide",
+        "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-242760",
+      "topic": "Configuration PC The Forest : minimale, recommandée et conseils",
+      "detected_at": "2026-10-27T19:38:47.912284+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/242760/",
+          "title": "The Forest sur Steam",
+          "evidence": "Données officielles de la fiche Steam de The Forest, consultée le 2026-10-27. Développeur : Endnight Games Ltd. Éditeur : Endnight Games Ltd. Date de sortie sur Steam : 30 avr. 2018. Genres : Action, Aventure, Indépendant, Simulation. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 ; Processeur : Intel Dual-Core 2.4 GHz ; Mémoire vive : 4 GB de mémoire ; Graphiques : NVIDIA GeForce 8800GT ; DirectX : Version 9.0 ; Espace disque : 5 GB d'espace disque disponible ; Carte son : DirectX®-compatible ; Prise en charge VR: SteamVR or Oculus PC ; Notes supplémentaires : 32bit windows users need to ensure they have at least 4gb of ram usable on their system.. Configuration PC Recommandée : ; Système d'exploitation *: Windows 7 ; Processeur : Quad Core Processor ; Mémoire vive : 4 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 560 ; DirectX : Version 9.0 ; Espace disque : 5 GB d'espace disque disponible ; Carte son : DirectX®-compatible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/ss_8ccb821c4df3fafdf4161d77f38635441a8157f2.1920x1080.jpg?t=1699381053"
+        }
+      ],
+      "keywords": [
+        "configuration pc The Forest",
+        "The Forest PC",
+        "The Forest Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-242760",
+      "topic": "The Forest multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-27T19:38:47.912346+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/242760/",
+          "title": "The Forest sur Steam",
+          "evidence": "Données officielles de la fiche Steam de The Forest, consultée le 2026-10-27. Développeur : Endnight Games Ltd. Éditeur : Endnight Games Ltd. Date de sortie sur Steam : 30 avr. 2018. Genres : Action, Aventure, Indépendant, Simulation. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Coop en LAN, Prise en charge des contrôleurs suivis, VR prise en charge, Compat. contrôleurs partielle, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/ss_8ccb821c4df3fafdf4161d77f38635441a8157f2.1920x1080.jpg?t=1699381053"
+        }
+      ],
+      "keywords": [
+        "The Forest multijoueur",
+        "The Forest PC",
+        "The Forest Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-391220",
+      "topic": "Configuration PC Rise of the Tomb Raider™ : minimale, recommandée et conseils",
+      "detected_at": "2026-10-27T19:38:48.248003+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/391220/",
+          "title": "Rise of the Tomb Raider™ sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Rise of the Tomb Raider™, consultée le 2026-10-27. Développeur : Crystal Dynamics, Eidos-Montréal, Feral Interactive (Mac), Feral Interactive (Linux), Nixxes. Éditeur : Crystal Dynamics, Feral Interactive (Mac), Feral Interactive (Linux). Date de sortie sur Steam : 9 févr. 2016. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 64bit ; Processeur : Intel Core i3-2100 or AMD equivalent ; Mémoire vive : 6 GB de mémoire ; Graphiques : NVIDIA GTX 650 2GB or AMD HD7770 2GB ; DirectX : Version 11 ; Espace disque : 25 GB d'espace disque disponible ; Prise en charge VR: SteamVR. Configuration PC Recommandée : ; Système d'exploitation : Windows 10 64 bit ; Processeur : Intel Core i7-3770K ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GTX 980Ti 2560x1440 or NVIDIA GTX 970 1920x1080 ; DirectX : Version 11 ; Espace disque : 25 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/ss_4ef0868ecfc6b19bc1af18b88cabe33fe8147cf7.1920x1080.jpg?t=1792675385"
+        }
+      ],
+      "keywords": [
+        "configuration pc Rise of the Tomb Raider™",
+        "Rise of the Tomb Raider™ PC",
+        "Rise of the Tomb Raider™ Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-391220",
+      "topic": "Rise of the Tomb Raider™ multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-27T19:38:48.248069+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/391220/",
+          "title": "Rise of the Tomb Raider™ sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Rise of the Tomb Raider™, consultée le 2026-10-27. Développeur : Crystal Dynamics, Eidos-Montréal, Feral Interactive (Mac), Feral Interactive (Linux), Nixxes. Éditeur : Crystal Dynamics, Feral Interactive (Mac), Feral Interactive (Linux). Date de sortie sur Steam : 9 févr. 2016. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Prise en charge des contrôleurs suivis, VR prise en charge, Cartes à échanger Steam, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Steam Cloud, Classements Steam, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Rise of the Tomb Raider: 20 Year Celebration inclut le jeu de base ainsi que le Season Pass et ses contenus inédits. Explorez le manoir Croft dans la nouvelle séquence « Blood Ties » et défendez-le contre une invasion de zombies dans le niveau « Lara’s Nightmare ».",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/ss_4ef0868ecfc6b19bc1af18b88cabe33fe8147cf7.1920x1080.jpg?t=1792675385"
+        }
+      ],
+      "keywords": [
+        "Rise of the Tomb Raider™ multijoueur",
+        "Rise of the Tomb Raider™ PC",
+        "Rise of the Tomb Raider™ Steam"
       ],
       "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
       "status": "new"

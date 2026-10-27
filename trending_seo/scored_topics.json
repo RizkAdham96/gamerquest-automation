@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-27T08:22:32.349967+00:00",
+  "updated_at": "2026-10-27T19:38:48.927124+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -15540,6 +15540,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Xbox X25 controller pre-orders are back in stock ahead of next week's launch"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-242760",
+      "topic": "Configuration PC The Forest : minimale, recommandée et conseils",
+      "detected_at": "2026-10-27T19:38:47.912284+00:00",
+      "analysed_at": "2026-10-27T19:38:48.926892+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/242760/",
+          "title": "The Forest sur Steam",
+          "evidence": "Données officielles de la fiche Steam de The Forest, consultée le 2026-10-27. Développeur : Endnight Games Ltd. Éditeur : Endnight Games Ltd. Date de sortie sur Steam : 30 avr. 2018. Genres : Action, Aventure, Indépendant, Simulation. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 ; Processeur : Intel Dual-Core 2.4 GHz ; Mémoire vive : 4 GB de mémoire ; Graphiques : NVIDIA GeForce 8800GT ; DirectX : Version 9.0 ; Espace disque : 5 GB d'espace disque disponible ; Carte son : DirectX®-compatible ; Prise en charge VR: SteamVR or Oculus PC ; Notes supplémentaires : 32bit windows users need to ensure they have at least 4gb of ram usable on their system.. Configuration PC Recommandée : ; Système d'exploitation *: Windows 7 ; Processeur : Quad Core Processor ; Mémoire vive : 4 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 560 ; DirectX : Version 9.0 ; Espace disque : 5 GB d'espace disque disponible ; Carte son : DirectX®-compatible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/ss_8ccb821c4df3fafdf4161d77f38635441a8157f2.1920x1080.jpg?t=1699381053"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc The Forest",
+        "secondary_keywords": [
+          "The Forest PC",
+          "The Forest Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC The Forest : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-242760",
+      "topic": "The Forest multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-27T19:38:47.912346+00:00",
+      "analysed_at": "2026-10-27T19:38:48.926943+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/242760/",
+          "title": "The Forest sur Steam",
+          "evidence": "Données officielles de la fiche Steam de The Forest, consultée le 2026-10-27. Développeur : Endnight Games Ltd. Éditeur : Endnight Games Ltd. Date de sortie sur Steam : 30 avr. 2018. Genres : Action, Aventure, Indépendant, Simulation. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Coop en LAN, Prise en charge des contrôleurs suivis, VR prise en charge, Compat. contrôleurs partielle, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/ss_8ccb821c4df3fafdf4161d77f38635441a8157f2.1920x1080.jpg?t=1699381053"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Forest multijoueur",
+        "secondary_keywords": [
+          "The Forest PC",
+          "The Forest Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "The Forest multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-391220",
+      "topic": "Configuration PC Rise of the Tomb Raider™ : minimale, recommandée et conseils",
+      "detected_at": "2026-10-27T19:38:48.248003+00:00",
+      "analysed_at": "2026-10-27T19:38:48.926977+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/391220/",
+          "title": "Rise of the Tomb Raider™ sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Rise of the Tomb Raider™, consultée le 2026-10-27. Développeur : Crystal Dynamics, Eidos-Montréal, Feral Interactive (Mac), Feral Interactive (Linux), Nixxes. Éditeur : Crystal Dynamics, Feral Interactive (Mac), Feral Interactive (Linux). Date de sortie sur Steam : 9 févr. 2016. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 64bit ; Processeur : Intel Core i3-2100 or AMD equivalent ; Mémoire vive : 6 GB de mémoire ; Graphiques : NVIDIA GTX 650 2GB or AMD HD7770 2GB ; DirectX : Version 11 ; Espace disque : 25 GB d'espace disque disponible ; Prise en charge VR: SteamVR. Configuration PC Recommandée : ; Système d'exploitation : Windows 10 64 bit ; Processeur : Intel Core i7-3770K ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GTX 980Ti 2560x1440 or NVIDIA GTX 970 1920x1080 ; DirectX : Version 11 ; Espace disque : 25 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/ss_4ef0868ecfc6b19bc1af18b88cabe33fe8147cf7.1920x1080.jpg?t=1792675385"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Rise of the Tomb Raider™",
+        "secondary_keywords": [
+          "Rise of the Tomb Raider™ PC",
+          "Rise of the Tomb Raider™ Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Rise of the Tomb Raider™ : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-391220",
+      "topic": "Rise of the Tomb Raider™ multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-27T19:38:48.248069+00:00",
+      "analysed_at": "2026-10-27T19:38:48.927004+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/391220/",
+          "title": "Rise of the Tomb Raider™ sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Rise of the Tomb Raider™, consultée le 2026-10-27. Développeur : Crystal Dynamics, Eidos-Montréal, Feral Interactive (Mac), Feral Interactive (Linux), Nixxes. Éditeur : Crystal Dynamics, Feral Interactive (Mac), Feral Interactive (Linux). Date de sortie sur Steam : 9 févr. 2016. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Prise en charge des contrôleurs suivis, VR prise en charge, Cartes à échanger Steam, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Steam Cloud, Classements Steam, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Rise of the Tomb Raider: 20 Year Celebration inclut le jeu de base ainsi que le Season Pass et ses contenus inédits. Explorez le manoir Croft dans la nouvelle séquence « Blood Ties » et défendez-le contre une invasion de zombies dans le niveau « Lara’s Nightmare ».",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/ss_4ef0868ecfc6b19bc1af18b88cabe33fe8147cf7.1920x1080.jpg?t=1792675385"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Rise of the Tomb Raider™ multijoueur",
+        "secondary_keywords": [
+          "Rise of the Tomb Raider™ PC",
+          "Rise of the Tomb Raider™ Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Rise of the Tomb Raider™ multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-need-the-witcher-4-to-get-creative-with-the-bestiary--30c4b0186f72",
+      "topic": "I need The Witcher 4 to get creative with the Bestiary, and my favorite Witcher 3 mission proves why",
+      "detected_at": "2026-10-17T17:32:43.907825+00:00",
+      "analysed_at": "2026-10-27T19:38:48.927033+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/laying-a-boozy-trap-for-a-vampire-lush-in-witcher-3-is-one-of-my-favorite-quests-but-it-also-shows-the-missed-opportunity-that-witcher-4-needs-to-pick-up-on/",
+          "title": "I need The Witcher 4 to get creative with the Bestiary, and my favorite Witcher 3 mission proves why",
+          "evidence": "<article> <p>Once again, the <a href=\"https://www.gamesradar.com/games/rpg/help-the-witcher-3-remastered-keeps-distracting-me-with-beautiful-sunsets-i-took-4-hours-to-leave-white-orchard\">GamesRadar+ RPG Club</a> demands blood as we set out to explore standout missions in The Witcher 3 Remastered. Which perhaps makes it all the more appropriate that, when asked to write about my favorite mission in <a href=\"https://www.gamesradar.com/witcher-3-guide/\">The Witcher 3</a>, my mind immediately went to classically-eccentric side quest \"The Oxenfurt Drunk\".</p><div class=\"fancy-box\"><div class=\"fancy_box-title\"></div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"u9MZnqN57vm7LoVPBayPMf\" name=\"RPG=Club-Hero\" caption=\"\" alt=\"GamesRadar+ RPG Club badge\" src=\"https://cdn.mos.cms.futurecdn.net/u9MZnqN57vm7LoVPBayPMf-1920-80.jpg\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\""
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I need The Witcher 4 to get creative with the Bestiary, and my favorite Witcher 3 mission proves why",
+        "secondary_keywords": [
+          "I need The Witcher 4 to get creative with the Bestiary, and my favorite Witcher 3 mission proves why date de sortie",
+          "I need The Witcher 4 to get creative with the Bestiary, and my favorite Witcher 3 mission proves why plateformes",
+          "I need The Witcher 4 to get creative with the Bestiary, and my favorite Witcher 3 mission proves why gameplay",
+          "I need The Witcher 4 to get creative with the Bestiary, and my favorite Witcher 3 mission proves why guide",
+          "I need The Witcher 4 to get creative with the Bestiary, and my favorite Witcher 3 mission proves why avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I need The Witcher 4 to get creative with the Bestiary, and my favorite Witcher 3 mission proves why"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-we-finally-get-to-see-the-canceled-assassin-s-creed-gam-6baf35ec9c44",
+      "topic": "We finally get to see the canceled Assassin's Creed game set in China, and it looks pretty good",
+      "detected_at": "2026-10-17T17:32:43.908027+00:00",
+      "analysed_at": "2026-10-27T19:38:48.927065+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/assassin-s-creed/we-finally-get-to-see-the-canceled-assassins-creed-game-set-in-china-and-darn-it-it-looks-pretty-good/",
+          "title": "We finally get to see the canceled Assassin's Creed game set in China, and it looks pretty good",
+          "evidence": "<article> <p>Any franchise that lasts a number of years always winds up with a few unrealized projects, whether from partnerships that fell through or ideas that simply just didn't come together. <a href=\"https://www.gamesradar.com/uk/games/action/assassin-s-creed/\">Assassin's Creed</a> has a bunch of them, and details and footage of another one have emerged.</p><p>This particular game was called Assassin's Creed Destiny, and it was part of a collaboration between Ubisoft and Chinese conglomerate Tencent. You might be aware these industry giants are currently working on Assassin's Creed Jade, a mobile game first announced back in 2022.</p><p>They had a couple of other potential releases on the docket as well, and one of them was remarkably similar to Jade. In fact, according to details gleaned by <a href=\"https://mp1st.com/news/report-cancelled-assassins-creed-destiny-unveiled-in-first-screenshots-gameplay-footage\" target=\"_blank\">MP1st</a>, Assassin's Creed Destiny was also set in China, and during the same period, taking place around 206 BCE, nine years after the events of Jade.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "We finally get to see the canceled Assassin's Creed game set in China, and it looks pretty good",
+        "secondary_keywords": [
+          "We finally get to see the canceled Assassin's Creed game set in China, and it looks pretty good date de sortie",
+          "We finally get to see the canceled Assassin's Creed game set in China, and it looks pretty good plateformes",
+          "We finally get to see the canceled Assassin's Creed game set in China, and it looks pretty good gameplay",
+          "We finally get to see the canceled Assassin's Creed game set in China, and it looks pretty good guide",
+          "We finally get to see the canceled Assassin's Creed game set in China, and it looks pretty good avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "We finally get to see the canceled Assassin's Creed game set in China, and it looks pretty good"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-street-fighter-fans-can-t-tell-how-they-feel-about-the--b887cc532ee4",
+      "topic": "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\"",
+      "detected_at": "2026-10-17T17:32:43.908228+00:00",
+      "analysed_at": "2026-10-27T19:38:48.927090+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/live-action-movies/street-fighter-fans-cant-tell-how-they-feel-about-the-new-film-as-a-video-game-movie-you-could-do-a-lot-worse/",
+          "title": "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\"",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/street-fighter-movie-release-date-cast-plot-trailer-news/\">Street Fighter</a> fans are weighing in on the new live-action movie, and much like the film's Rotten Tomatoes score... the reviews are mixed at best.</p><p>The film, directed by Kitato Sakurai, initially debuted to a low score on <a href=\"https://www.rottentomatoes.com/m/street_fighter_2026/reviews\" target=\"_blank\">Rotten Tomatoes</a>, but has since climbed to 45%. The audience score is a much higher 82% (which tends to be the case for live-action video game adaptations). Street Fighter focuses on Ryu (Andrew Koji) and Ken (Noah Centineo) as they enter the World Warrior Tournament at the insistence of a vengeful Chun-Li (Callina Liang). </p><p>Some fans of the video game franchise, namely the ones over on the <a href=\"https://www.reddit.com/r/StreetFighter/comments/1x6qnu9/movie_and_new_gamers_click_here_megathread/\" target=\"_blank\">r/StreetFighter subreddit</a>, loved it, while others left feeling neutral or unimpressed. Don't worry, we won't include any spoiler-y reactions (so you'll just have to go see it yourself).</p><p>\"Movie left me more confused than ex"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\"",
+        "secondary_keywords": [
+          "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\" date de sortie",
+          "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\" plateformes",
+          "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\" gameplay",
+          "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\" guide",
+          "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Street Fighter fans can't tell how they feel about the new film: \"You could do a lot worse\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-all-ghost-driver-codes-october-2026-and-how-to-redeem-t-63edadfa6e7e",
+      "topic": "All Ghost Driver codes (October 2026) and how to redeem them for free cash",
+      "detected_at": "2026-10-18T07:25:37.323106+00:00",
+      "analysed_at": "2026-10-27T19:38:48.927119+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/racing/ghost-driver-codes/",
+          "title": "All Ghost Driver codes (October 2026) and how to redeem them for free cash",
+          "evidence": "<article> <p>With Ghost Driver codes, you add some extra cash to your bank balance, which is essential whether you're buying your first car or upgrading to a faster model. If you want to hit your daily quests and level up fast, you need the fastest car you can buy, so the more funds the better.<br><br>Luckily, there are frequent Ghost Driver codes that pay out free cash - and lots of it. With some of the rarest cars in this <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> racing game costing in the millions, even with these free codes it could take a while to save up, so you'll need to carefully consider whether to spend or save, but whichever you choose, don't miss any of the promos below.<br><br><em>If you're after some more general avatar rewards to use in all of your experiences, then we've got the current </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em> covered too.</em></p><h2 class=\"article-body__section\" id=\"section-all-ghost-driver-codes\"><span>All Ghost Driver codes</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='imag"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "All Ghost Driver codes (October 2026) and how to redeem them for free cash",
+        "secondary_keywords": [
+          "All Ghost Driver codes (October 2026) and how to redeem them for free cash date de sortie",
+          "All Ghost Driver codes (October 2026) and how to redeem them for free cash plateformes",
+          "All Ghost Driver codes (October 2026) and how to redeem them for free cash gameplay",
+          "All Ghost Driver codes (October 2026) and how to redeem them for free cash guide",
+          "All Ghost Driver codes (October 2026) and how to redeem them for free cash avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "All Ghost Driver codes (October 2026) and how to redeem them for free cash"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-27T19:38:48.927124+00:00",
+  "updated_at": "2026-10-28T08:59:11.615915+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -15848,6 +15848,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "All Ghost Driver codes (October 2026) and how to redeem them for free cash"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-resident-evil-veronica-everything-you-need-to-know-abou-919f9d32acd1",
+      "topic": "Resident Evil Veronica: Everything you need to know about the Code Veronica remake",
+      "detected_at": "2026-10-18T07:25:37.325116+00:00",
+      "analysed_at": "2026-10-28T08:59:11.615649+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/resident-evil/resident-evil-veronica-guide/",
+          "title": "Resident Evil Veronica: Everything you need to know about the Code Veronica remake",
+          "evidence": "<article> <p>Resident Evil Veronica is the official title for the long-rumored remake of Resident Evil: Code Veronica.</p><p>Announced as part of a very memorable surprise reveal during the <a href=\"https://www.gamesradar.com/news/live/summer-game-fest-live-coverage-2026-everything-announced/\">Summer Game Fest 2026 showcase</a>, Resident Evil Veronica will bring back the cult classic 2000 release with a modern makeover. With Capcom confirming the <a href=\"https://www.gamesradar.com/upcoming-horror-games/\">upcoming horror game</a> will be <a href=\"https://www.gamesradar.com/games/resident-evil/resident-evil-code-veronica-remake-is-coming-in-2027-capcom-reveals/\">arriving in 2027</a>, the developer is setting out to \"preserve the essence of the original game\", but just like the many excellent Resi remakes we've seen over the years, you can expect shiny new and improved graphics, plenty of gameplay enhancements, and more. </p><p>There's a lot of excitement surrounding the <a href=\"https://www.gamesradar.com/video-game-release-dates/\">new game</a>, with the remake quickly racking up <a href=\"https://www.gamesradar.com/games/resident-evil/resident-evil-veronica-hype-sends-the-remake-to-"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Resident Evil Veronica: Everything you need to know about the Code Veronica remake",
+        "secondary_keywords": [
+          "Resident Evil Veronica: Everything you need to know about the Code Veronica remake date de sortie",
+          "Resident Evil Veronica: Everything you need to know about the Code Veronica remake plateformes",
+          "Resident Evil Veronica: Everything you need to know about the Code Veronica remake gameplay",
+          "Resident Evil Veronica: Everything you need to know about the Code Veronica remake guide",
+          "Resident Evil Veronica: Everything you need to know about the Code Veronica remake avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Resident Evil Veronica: Everything you need to know about the Code Veronica remake"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-street-fighter-s-bad-reviews-even-has-uwe-boll-taking-s-397515d4788e",
+      "topic": "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\"",
+      "detected_at": "2026-10-18T07:25:37.325272+00:00",
+      "analysed_at": "2026-10-28T08:59:11.615704+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/live-action-movies/street-fighters-bad-reviews-even-has-uwe-boll-taking-shots-dont-ever-bash-my-movies-again/",
+          "title": "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\"",
+          "evidence": "<article> <p>Director of infamously bad video game movies Uwe Boll seems to be enjoying the new Street Fighter movie getting bad reviews. </p><p>Boll shared one of Street Fighter's negative reviews on <a href=\"https://x.com/UweBollRAWNet/status/2110786486211948653?s=20\" target=\"_blank\">Twitter</a>, saying, \"Don’t ever bash my movies again,\" seemingly suggesting that his movies really weren't that bad when a big studio movie has bombed this hard. Check out the post below. </p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2110786486211948653\"><p lang=\"en\" dir=\"ltr\">Don’t ever bash my movies again https://t.co/Opt0990ZJA<a href=\"https://twitter.com/cantworkitout/status/2110786486211948653\">October 15, 2026</a></p></blockquote></figure><div class=\"see-more__filter\"></div></div><p>After debuting to <a href=\"https://www.gamesradar.com/entertainment/live-action-movies/first-reactions-to-street-fighter-movie-are-mixed-with-some-critics-calling-it-a-silly-fun-and-fearless-good-time-but-others-say-it-falls-flat/\">mixed first reactions</a>, official <a href=\"https://www.gamesradar.com"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\"",
+        "secondary_keywords": [
+          "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\" date de sortie",
+          "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\" plateformes",
+          "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\" gameplay",
+          "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\" guide",
+          "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Street Fighter's bad reviews even has Uwe Boll taking shots: \"Don't ever bash my movies again\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-visionquest-goes-into-wandavision-territory-thanks-to-a-a8da7c52b994",
+      "topic": "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2",
+      "detected_at": "2026-10-18T07:25:37.325419+00:00",
+      "analysed_at": "2026-10-28T08:59:11.615769+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-goes-into-wandavision-territory-thanks-to-a-wild-theory-that-says-billy-is-in-episode-2/",
+          "title": "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2",
+          "evidence": "<article> <p>Remember picking apart WandaVision episode by episode? The <a href=\"https://www.gamesradar.com/wandavision-engineer-reed-richards-ironheart-rhodey/\">aerospace engineer</a>, <a href=\"https://www.gamesradar.com/wandavision-opening-credits-could-be-hiding-the-shows-main-villain/\">a 'villain' hiding in the main credits</a>, and the mystery of who was behind Westview kept us entranced across multiple weeks.</p><p>Now, VisionQuest has picked up the baton and ran with it – thanks to this compelling theory that says Joe Locke's Billy is following his brother Tommy (Ruaridh Mollica) around in the second episode of the Disney Plus series.</p><p>As spotlighted on Twitter, the London-set scenes – hello, Borough Market! – that feature Tommy engaging in a spot of light scam work and pickpocketing features a suspicious figure in a coat and flat cap not once, but twice. See for yourself below.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2110803563668734106\"><p lang=\"en\" dir=\"ltr\">The streets are saying Billy is following Tommy around… Oh, WandaVision-level delusions. WE A"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2",
+        "secondary_keywords": [
+          "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2 date de sortie",
+          "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2 plateformes",
+          "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2 gameplay",
+          "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2 guide",
+          "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "VisionQuest goes into WandaVision territory thanks to a wild theory that says Billy is in episode 2"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-outlast-trials-initial-playtests-went-poorly-design-681b499b47d8",
+      "topic": "The Outlast Trials' initial playtests went poorly: Designer says 6-year development took 'a f**king long time' and 'a s**t-ton of prototypes'",
+      "detected_at": "2026-10-18T17:33:14.783914+00:00",
+      "analysed_at": "2026-10-28T08:59:11.615810+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/the-outlast-trials-initial-playtests-went-poorly-designer-says-6-year-development-took-a-f-king-long-time-and-a-s-t-ton-of-prototypes/",
+          "title": "The Outlast Trials' initial playtests went poorly: Designer says 6-year development took 'a f**king long time' and 'a s**t-ton of prototypes'",
+          "evidence": "<article> <p>Gamedev may as well be conducted in a black box as far as many players are concerned, so it can be easy to think of a good game as one where development went smoothly and a bad game as one where things went terribly awry. But in the case of The Outlast Trials, making something <a href=\"https://www.pcgamer.com/games/horror/the-outlast-trials-makes-me-sick-to-my-stomach-but-thats-just-because-its-one-of-the-best-co-op-horror-games/\">sickeningly good</a> took a lot of struggle.</p><p>As Red Barrels co-founder Philippe Morin told Gamespot in <a href=\"https://www.gamespot.com/articles/no-publisher-wanted-outlast-60-million-players-later-the-horror-juggernaut-is-doing-just-fine/\" target=\"_blank\">a recent interview</a>, it took six years to turn the vague notion of a co-op Outlast game into something ready to launch via early access. It was \"a fucking long time,\" as he recalled it, and the product of \"a shit-ton of prototypes.\"</p><p>\"[The Red Barrels team] went too far trying to make [The Outlast Trials] systemic, random, and trying to reach our ultimate goal of infinite replayability,\" he told Gamespot. \"We needed to come back to something that maybe added less replayabilit"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Outlast Trials' initial playtests went poorly: Designer says 6-year development took 'a f**king long time' and 'a s**t-ton of prototypes'",
+        "secondary_keywords": [
+          "The Outlast Trials' initial playtests went poorly: Designer says 6-year development took 'a f**king long time' and 'a s**t-ton of prototypes' date de sortie",
+          "The Outlast Trials' initial playtests went poorly: Designer says 6-year development took 'a f**king long time' and 'a s**t-ton of prototypes' plateformes",
+          "The Outlast Trials' initial playtests went poorly: Designer says 6-year development took 'a f**king long time' and 'a s**t-ton of prototypes' gameplay",
+          "The Outlast Trials' initial playtests went poorly: Designer says 6-year development took 'a f**king long time' and 'a s**t-ton of prototypes' guide",
+          "The Outlast Trials' initial playtests went poorly: Designer says 6-year development took 'a f**king long time' and 'a s**t-ton of prototypes' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Outlast Trials' initial playtests went poorly: Designer says 6-year development took 'a f**king long time' and 'a s**t-ton of prototypes'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-no-soundtrack-does-it-like-hades-2-fcbb044a8afe",
+      "topic": "No soundtrack does it like Hades 2",
+      "detected_at": "2026-10-18T17:33:14.784351+00:00",
+      "analysed_at": "2026-10-28T08:59:11.615831+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/roguelike/no-soundtrack-does-it-like-hades-2/",
+          "title": "No soundtrack does it like Hades 2",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Critical Hit</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"WcCZiWMVteuU25phgoBuD8\" name=\"critical-hit-boxout-badge\" caption=\"\" alt=\"Critical Hit column logo\" src=\"https://cdn.mos.cms.futurecdn.net/WcCZiWMVteuU25phgoBuD8-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/critical-hit/\" target=\"_blank\">Critical Hit</a>, where I (or someone else on the PC Gamer team) celebrate and lament all things videogame music, audio design, and the ways our favourite games make our ears tingle.</p></div></div><p>I have not played Hades 2 since October 4 of 2025. That's not because I \"fell out of love\" with the game or whatever,"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "No soundtrack does it like Hades 2",
+        "secondary_keywords": [
+          "No soundtrack does it like Hades 2 date de sortie",
+          "No soundtrack does it like Hades 2 plateformes",
+          "No soundtrack does it like Hades 2 gameplay",
+          "No soundtrack does it like Hades 2 guide",
+          "No soundtrack does it like Hades 2 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "No soundtrack does it like Hades 2"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-frozen-trail-finally-puts-the-raid-in-arc-raiders-b34b263da57a",
+      "topic": "Frozen Trail finally puts the 'raid' in Arc Raiders",
+      "detected_at": "2026-10-18T17:33:14.784807+00:00",
+      "analysed_at": "2026-10-28T08:59:11.615854+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/frozen-trail-finally-puts-the-raid-in-arc-raiders/",
+          "title": "Frozen Trail finally puts the 'raid' in Arc Raiders",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Play This Right Now</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">Welcome to Play This Right Now, the site version of our weekly newsletter in which we celebrate a new game, update, or DLC that we think is well worth checking out. You can <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/newsletter/\" target=\"_blank\">subscribe to the newsletter</a> at the link if you want to get our thoughts about a new videogame happening direct to your inbox every Thursday.</p></div></div><p>I'm standing on top of a flying fortress hundreds of feet in the air, as around me, 15 or so players wage a losing battle against a swarm of flying robots armed with rockets and lasers. It's utter chaos. We fight further and further into the ship, unlocking platforms, defeating waves of enemies and giant turrets which pop out of the deck to gun down unsuspecting looters. But I<em> think</em> we're done.</p><p>Time is running short and we've once again stalled at this stage of the puzzle. All that's left now is to try and make it back to ground in one piece and live to attempt another day. <a href=\"https://www.youtub"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Frozen Trail finally puts the 'raid' in Arc Raiders",
+        "secondary_keywords": [
+          "Frozen Trail finally puts the 'raid' in Arc Raiders date de sortie",
+          "Frozen Trail finally puts the 'raid' in Arc Raiders plateformes",
+          "Frozen Trail finally puts the 'raid' in Arc Raiders gameplay",
+          "Frozen Trail finally puts the 'raid' in Arc Raiders guide",
+          "Frozen Trail finally puts the 'raid' in Arc Raiders avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Frozen Trail finally puts the 'raid' in Arc Raiders"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-there-were-a-lot-of-disagreements-across-the-place-form-b8be3854ff4b",
+      "topic": "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts",
+      "detected_at": "2026-10-18T17:33:14.785707+00:00",
+      "analysed_at": "2026-10-28T08:59:11.615885+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/there-were-a-lot-of-disagreements-across-the-place-former-marathon-director-joe-ziegler-on-leading-bungies-extraction-shooter-playing-path-of-exile-for-3-437-hours-and-why-hell-never-uninstall-kingdom-hearts/",
+          "title": "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Disk Cleanup</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"DEwkbfkEmfdtjT5P9ybme\" name=\"logo_disk_cleanup\" caption=\"\" alt=\"Disk Cleanup logo\" src=\"https://cdn.mos.cms.futurecdn.net/DEwkbfkEmfdtjT5P9ybme-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/disk-cleanup/\" target=\"_blank\">Disk Cleanup</a>, our regular weekend feature delving into the PCs of PC gaming luminaries. Come back every weekend to read a new interview, digging into the important questions, like \"How tidy is your desktop?\" and \"What game will you never uninstall?\"</p></div></div><p>Joe Ziegler might be best known for his role guiding the des"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts",
+        "secondary_keywords": [
+          "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts date de sortie",
+          "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts plateformes",
+          "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts gameplay",
+          "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts guide",
+          "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-clive-barker-says-he-s-genuinely-astonished-by-hellrais-99ed7a3c9406",
+      "topic": "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result'",
+      "detected_at": "2026-10-18T17:33:14.786010+00:00",
+      "analysed_at": "2026-10-28T08:59:11.615910+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/clive-barker-says-hes-genuinely-astonished-by-hellraiser-revival-im-proud-as-f-k-at-the-end-result/",
+          "title": "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result'",
+          "evidence": "<article> <p>Hellraiser: Revival's commitment to being both gnarly and horny has already been thoroughly documented, with PC Gamer's Wes Fenlon describing it as \"<em>nasty </em>nasty\" in his<a href=\"https://www.pcgamer.com/games/horror/i-already-like-the-new-survival-horror-hellraiser-game-more-than-the-movie/\"> preview</a> . This uncompromising attitude to both gore and kink went down well with fans, but it has also been celebrated by Hellraiser's creator, Clive Barker.</p><p>In an interview with horror site<a href=\"https://www.dreadcentral.com/interviews/593584/clive-barker-hellraiser-future-weinstein-exclusive/\" target=\"_blank\"> Dread Central</a> (via<a href=\"https://frvr.com/blog/news/hellraiser-revival-makes-series-creator-clive-barker-proud-as-fk-as-he-calls-the-game-a-wake-up-call-for-future-content/\" target=\"_blank\"> FRVR</a>), Barker admitted that he had concerns about the project going into it, but was thoroughly impressed by the final product. \"I'm proud as f**k at the end result,\" he said. \"I was fearful at one point that the game would be overly censored, but I'm genuinely astonished by how far they've been able to push it.\"</p><p>Barker, who worked closely with develo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result'",
+        "secondary_keywords": [
+          "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result' date de sortie",
+          "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result' plateformes",
+          "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result' gameplay",
+          "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result' guide",
+          "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

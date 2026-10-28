@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-27T19:38:54.533229+00:00",
+  "updated_at": "2026-10-28T08:59:16.797516+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -369,6 +369,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-monster-hunter-wilds-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 894,
       "published_at": "2026-10-27T19:38:54.533229+00:00"
+    },
+    {
+      "intent_key": "monster hunter wilds multijoueur",
+      "primary_keyword": "Monster Hunter Wilds multijoueur",
+      "title": "Monster Hunter Wilds multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/monster-hunter-wilds-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 896,
+      "published_at": "2026-10-28T08:59:16.797516+00:00"
     }
   ]
 }

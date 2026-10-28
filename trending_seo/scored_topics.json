@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-28T08:59:11.615915+00:00",
+  "updated_at": "2026-10-28T19:52:36.237161+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -16160,6 +16160,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-am-overwhelmed-and-overstimulated-the-actor-behind-st-1ede573dd2a3",
+      "topic": "'I am overwhelmed and overstimulated': The actor behind Star Wars: Galactic Racer’s Biddy Blas is scribbing doon all your enthusiasm",
+      "detected_at": "2026-10-18T17:33:14.787541+00:00",
+      "analysed_at": "2026-10-28T19:52:36.237018+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/racing/i-am-overwhelmed-and-overstimulated-the-actor-behind-star-wars-galactic-racers-biddy-blas-is-scribbing-doon-all-your-enthusiasm/",
+          "title": "'I am overwhelmed and overstimulated': The actor behind Star Wars: Galactic Racer’s Biddy Blas is scribbing doon all your enthusiasm",
+          "evidence": "<article> <p>Every time I check in on Star Wars, there's <a href=\"https://www.pcgamer.com/games/racing/the-algorithm-continues-to-properly-prioritise-mister-biddy-blas-star-wars-galactic-racer-has-created-the-perfect-creature/\">a new stupid little creature</a> (colloquially known as a Glup Shitto) everyone's into. The latest of these is Biddy Blas, a braggadocious pod racer and <a href=\"https://x.com/blodhundur/status/2110276265358106871?s=20\" target=\"_blank\">mama's boy</a> who stands out for his shrill Huttese quips. \"Ding dong pookie, ding dong,\" he crows. \"Scrib doon!\" If you love that, here's a video of him doing a little victory dance. </p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2110438187743224091\"><p lang=\"en\" dir=\"ltr\">Biddy Blas victory dance https://t.co/aVIAOzSMpE<a href=\"https://twitter.com/cantworkitout/status/2110438187743224091\">October 14, 2026</a></p></blockquote></figure><div class=\"see-more__filter\"></div></div><p>If you hate that, here's a video of him dying in a fireball.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitte"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'I am overwhelmed and overstimulated': The actor behind Star Wars: Galactic Racer’s Biddy Blas is scribbing doon all your enthusiasm",
+        "secondary_keywords": [
+          "'I am overwhelmed and overstimulated': The actor behind Star Wars: Galactic Racer’s Biddy Blas is scribbing doon all your enthusiasm date de sortie",
+          "'I am overwhelmed and overstimulated': The actor behind Star Wars: Galactic Racer’s Biddy Blas is scribbing doon all your enthusiasm plateformes",
+          "'I am overwhelmed and overstimulated': The actor behind Star Wars: Galactic Racer’s Biddy Blas is scribbing doon all your enthusiasm gameplay",
+          "'I am overwhelmed and overstimulated': The actor behind Star Wars: Galactic Racer’s Biddy Blas is scribbing doon all your enthusiasm guide",
+          "'I am overwhelmed and overstimulated': The actor behind Star Wars: Galactic Racer’s Biddy Blas is scribbing doon all your enthusiasm avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'I am overwhelmed and overstimulated': The actor behind Star Wars: Galactic Racer’s Biddy Blas is scribbing doon all your enthusiasm"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-to-help-america-i-used-crusader-kings-3-to-figure-out-h-95ca7dc9220b",
+      "topic": "To help America, I used Crusader Kings 3 to figure out how to remove a doddering, senile lunatic from power",
+      "detected_at": "2026-10-18T17:33:14.788235+00:00",
+      "analysed_at": "2026-10-28T19:52:36.237062+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/to-help-america-i-used-crusader-kings-3-to-figure-out-how-to-remove-a-doddering-senile-lunatic-from-power/",
+          "title": "To help America, I used Crusader Kings 3 to figure out how to remove a doddering, senile lunatic from power",
+          "evidence": "<article> <p>I heard it on the wireless: election fever is sweeping America. The world's loudest democracy is headed to the ballot box to vote in its next slate of soda jerks and Chevrolets and whatever else it is they have over there. It's all very exciting.</p><p>Can I help? Yes. <a href=\"https://www.pcgamer.com/games/sim/i-used-videogames-to-solve-my-countrys-politics-turns-out-the-answer-is-ultra-mega-communism/\">I've already solved my own country's politics</a>, now it's time to help the benighted and backward people of places like \"Connecticut\" and \"the Oklahoma Panhandle\"—fantasy names from a land beyond knowing. People love it when foreigners tell them how to do their own domestic politics, and especially when they have as robust a methodology as I have: a copy of Crusader Kings 3 and most of the DLC.</p><p>Using Paradox's premier 1066 simulator, I will ascertain the best way to remove a burrowed-in leader from power. Which real-life figure is this a videogame analogue for? Don't worry about it, don't email me about it, and don't launch a cruise missile at my house.</p><p>Don't email me about how the midterms don't choose the president either. I don't know what those words "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "To help America, I used Crusader Kings 3 to figure out how to remove a doddering, senile lunatic from power",
+        "secondary_keywords": [
+          "To help America, I used Crusader Kings 3 to figure out how to remove a doddering, senile lunatic from power date de sortie",
+          "To help America, I used Crusader Kings 3 to figure out how to remove a doddering, senile lunatic from power plateformes",
+          "To help America, I used Crusader Kings 3 to figure out how to remove a doddering, senile lunatic from power gameplay",
+          "To help America, I used Crusader Kings 3 to figure out how to remove a doddering, senile lunatic from power guide",
+          "To help America, I used Crusader Kings 3 to figure out how to remove a doddering, senile lunatic from power avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "To help America, I used Crusader Kings 3 to figure out how to remove a doddering, senile lunatic from power"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-surprising-no-one-wizards-of-the-coast-doesn-t-intend-t-b27f980b2138",
+      "topic": "Surprising no-one, Wizards of the Coast 'doesn't intend to voluntarily recognize' union efforts for the second time this year",
+      "detected_at": "2026-10-18T17:33:14.788548+00:00",
+      "analysed_at": "2026-10-28T19:52:36.237082+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/surprising-no-one-wizards-of-the-coast-doesnt-intend-to-voluntarily-recognize-union-efforts-for-the-second-time-this-year/",
+          "title": "Surprising no-one, Wizards of the Coast 'doesn't intend to voluntarily recognize' union efforts for the second time this year",
+          "evidence": "<article> <p>Per the <a href=\"https://x.com/uwotc_official/status/2110385545335501114\" target=\"_blank\">United Wizards of the Coast Union (UWOTC-CWA) account</a> on X, WoTC is acting in an entirely unsurprising manner: \"Yesterday, Wizards informed us that it doesn’t intend to voluntarily recognize the D&D or Studio X units of our union ahead of a vote. We remain committed to creating a workplace focused on wellness, transparency, and collaboration by winning our coming election.\" </p><p>A union composed of employees from the Magic: The Gathering Arena team unionised <a href=\"https://unitedwizardsofthecoast.com/news/2026-06-23-we-have-a-union\">back in June of this year</a>, giving WoTC until May to formally recognise it. Obviously, it didn't. </p><p>Later in the same month, WoTC <a href=\"https://www.pcgamer.com/gaming-industry/3-years-on-from-laying-off-over-1-000-people-hasbro-and-wizards-of-the-coast-are-sending-daily-emails-and-physical-letters-encouraging-the-survivors-to-not-unionise/\">sent physical letters</a> to members of the company encouraging them not to go through with it on the vote—and while WoTC did technically adhere to the The National Labor Relations Act, it did als"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Surprising no-one, Wizards of the Coast 'doesn't intend to voluntarily recognize' union efforts for the second time this year",
+        "secondary_keywords": [
+          "Surprising no-one, Wizards of the Coast 'doesn't intend to voluntarily recognize' union efforts for the second time this year date de sortie",
+          "Surprising no-one, Wizards of the Coast 'doesn't intend to voluntarily recognize' union efforts for the second time this year plateformes",
+          "Surprising no-one, Wizards of the Coast 'doesn't intend to voluntarily recognize' union efforts for the second time this year gameplay",
+          "Surprising no-one, Wizards of the Coast 'doesn't intend to voluntarily recognize' union efforts for the second time this year guide",
+          "Surprising no-one, Wizards of the Coast 'doesn't intend to voluntarily recognize' union efforts for the second time this year avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Surprising no-one, Wizards of the Coast 'doesn't intend to voluntarily recognize' union efforts for the second time this year"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-steam-week-in-review-steam-next-fest-has-over-8-000-dem-b2da47ec7a18",
+      "topic": "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up",
+      "detected_at": "2026-10-19T08:05:36.424255+00:00",
+      "analysed_at": "2026-10-28T19:52:36.237098+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/",
+          "title": "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up",
+          "evidence": "<article> <p>We are drowning in shit. Steam Next Fest, which kicks off tomorrow, currently has 8,011 matches on its press preview landing page. That's roughly double the amount of demos featured in Steam's June 2026 Next Fest. In June 2022, Next Fest boasted just over a thousand demos.</p><p>The vast majority of these demos will be meritless slop. And I daresay many of them—though I have no way to confirm—didn't exist as concepts before October. </p><p>If you use social media, especially X, you've probably noticed an explosion of terrible clones and vibe coded mash-ups this month. You can largely thank Anthropic's new 5.5 update to its Claude Opus model for that, which offers massive efficiency gains for vibe coders. It's also been widely used to decompile commercial games and, maybe most famously, jailbreak the PS5. </p><p>It definitely feels like we've crossed a threshold this month. On October 10, the creator of <a href=\"https://store.steampowered.com/app/5450560/Escape_the_Walls/\">Escape the Walls</a>, an incremental punching game which itself uses AI to \"increase the speed of creating the game\", posted in-progress footage from the game <a href=\"https://x.com/pandorioltd/status"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up",
+        "secondary_keywords": [
+          "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up date de sortie",
+          "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up plateformes",
+          "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up gameplay",
+          "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up guide",
+          "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-23-devs-teamed-up-to-make-a-free-game-of-innovative-yet-5cce69d40f75",
+      "topic": "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare",
+      "detected_at": "2026-10-19T08:05:36.424594+00:00",
+      "analysed_at": "2026-10-28T19:52:36.237116+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/23-devs-teamed-up-to-make-a-free-game-of-innovative-yet-questionable-volume-sliders-and-it-feels-like-browser-based-warioware/",
+          "title": "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare",
+          "evidence": "<article> <p><a href=\"https://volume.art/\" target=\"_blank\">Volume.art</a> is a nice, free, cool thing on the internet, and I just think that's something worth celebrating these days. The microgame collection sees you manipulating volume sliders through various abstracted, surprising, and very funny ways.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/UjKoHXbyc_U\" allowfullscreen></iframe></div></div><p>It starts strong with \"A man named Bow\" by Alice Bottino, which kinda reminds me of the Smash Bros <a href=\"https://www.youtube.com/watch?v=soriF9HdJsY\" target=\"_blank\">Home Run Contest</a> minigame, at least as far as you're winding up to send something from the left side of the screen to the right. You drag back on the mouse to aim a bow and arrow, attempting to land it a set distance (and corresponding volume level) away.</p><p>Some of my favorite entries came from Lunacid developer Akuma Kira, like \"What's This About,\" a riff on the criminally-maligned Elder Scrolls Oblivion persuasion pie minigame. You've got to reach a set likability level with a Gamebryo-perfect"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare",
+        "secondary_keywords": [
+          "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare date de sortie",
+          "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare plateformes",
+          "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare gameplay",
+          "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare guide",
+          "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-dark-souls-2-dataminer-shows-off-massive-prototype-coli-de59f4a23302",
+      "topic": "Dark Souls 2 dataminer shows off massive prototype coliseum level from early development",
+      "detected_at": "2026-10-19T08:05:36.424895+00:00",
+      "analysed_at": "2026-10-28T19:52:36.237130+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/dark-souls/dark-souls-2-dataminer-shows-off-massive-prototype-coliseum-level-from-early-development/",
+          "title": "Dark Souls 2 dataminer shows off massive prototype coliseum level from early development",
+          "evidence": "<article> <h4 id=\"at-a-glance\">At a glance</h4><ul><li><a href=\"https://youtu.be/ddGfJdAof7s?si=W7F1vdZn9S2jPGQX\" target=\"_blank\">The rough prototype</a> looks to have been binned early in development, and it's largely avoided discussion before Doneda's work.</li><li>Some portions appear to have been part of an interconnected area, others are likely different versions of the same concept.</li><li>It may have been related to what became the Undead Crypt in the final game.</li><li>Doneda uses Elden Ring Nightreign to load in and explore what remains of the levels.</li><li>The files contain a coliseum zone, mines, a strange underground tower (potentially a sequence of arenas, like Nightreign's DLC?), and a crypt portion.</li></ul><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/ddGfJdAof7s\" allowfullscreen></iframe></div></div><p><a href=\"https://www.youtube.com/@doneda.\" target=\"_blank\">Doneda</a>, the dataminer who showed off the unused levels, has been proving a genuine authority on Dark Souls 2 in particular. Previously, they made a Nightreign-compatible version of Dark S"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dark Souls 2 dataminer shows off massive prototype coliseum level from early development",
+        "secondary_keywords": [
+          "Dark Souls 2 dataminer shows off massive prototype coliseum level from early development date de sortie",
+          "Dark Souls 2 dataminer shows off massive prototype coliseum level from early development plateformes",
+          "Dark Souls 2 dataminer shows off massive prototype coliseum level from early development gameplay",
+          "Dark Souls 2 dataminer shows off massive prototype coliseum level from early development guide",
+          "Dark Souls 2 dataminer shows off massive prototype coliseum level from early development avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Dark Souls 2 dataminer shows off massive prototype coliseum level from early development"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-leaked-ai-safety-bill-from-anthropic-only-requires-gove-af4c4d402974",
+      "topic": "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk",
+      "detected_at": "2026-10-19T08:05:36.425145+00:00",
+      "analysed_at": "2026-10-28T19:52:36.237145+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/leaked-ai-safety-bill-from-anthropic-only-lets-government-act-if-50-deaths-or-usd1-billion-are-on-the-line/",
+          "title": "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk",
+          "evidence": "<article> <p><a href=\"https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654\" target=\"_blank\">Politico </a>recently reported on a confidential draft of a proposed AI safety bill from Anthropic, the company behind Claude LLMs (via <a href=\"https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model\" target=\"_blank\">Tom's Hardware</a>). The bill, which has been pitched to US lawmakers, would let the government crack down on a given AI model \"only if it poses a foreseeable, imminent risk of more than $1 billion in damages, or of killing or seriously injuring more than 50 people. The risk must stem from the creation or release of a biological weapon, the model evading its developer’s controls or a cyberattack.\"</p><p>That article pointed out similarities between these proposals and those used in <a href=\"https://en.wikipedia.org/wiki/Transparency_in_Frontier_Artificial_Intelligence_Act\" target=\"_blank\">California's AI legislation</a>, and shares a quote from "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk",
+        "secondary_keywords": [
+          "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk date de sortie",
+          "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk plateformes",
+          "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk gameplay",
+          "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk guide",
+          "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-discussion-time-do-you-think-zone-chats-in-mmos-are-for-323ad28dde23",
+      "topic": "Discussion time: Do you think zone chats in MMOs are forces for good, or evil?",
+      "detected_at": "2026-10-19T08:05:36.425559+00:00",
+      "analysed_at": "2026-10-28T19:52:36.237158+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/discussion-time-do-you-think-zone-chats-in-mmos-are-forces-for-good-or-evil/",
+          "title": "Discussion time: Do you think zone chats in MMOs are forces for good, or evil?",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Terminally Online</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PgGhmt5pTtxusaQQX3dHPF\" name=\"logo_terminally\" caption=\"\" alt=\"The Terminally Online logo.\" src=\"https://cdn.mos.cms.futurecdn.net/PgGhmt5pTtxusaQQX3dHPF-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">This is <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/terminally-online/\" target=\"_blank\">Terminally Online</a>:<strong> </strong>PC Gamer's very own MMO column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice.</p><"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Discussion time: Do you think zone chats in MMOs are forces for good, or evil?",
+        "secondary_keywords": [
+          "Discussion time: Do you think zone chats in MMOs are forces for good, or evil? date de sortie",
+          "Discussion time: Do you think zone chats in MMOs are forces for good, or evil? plateformes",
+          "Discussion time: Do you think zone chats in MMOs are forces for good, or evil? gameplay",
+          "Discussion time: Do you think zone chats in MMOs are forces for good, or evil? guide",
+          "Discussion time: Do you think zone chats in MMOs are forces for good, or evil? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Discussion time: Do you think zone chats in MMOs are forces for good, or evil?"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

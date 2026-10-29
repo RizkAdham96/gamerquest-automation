@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T21:17:40.577105+00:00",
-  "count": 3,
+  "generated_at": "2026-10-29T06:22:54.709149+00:00",
+  "count": 4,
   "articles": [
     {
       "source_id": "c481677c3a6808bd705f24a2f418e51459fab5a1ba436aa99c5a06516de7f366",
@@ -22,6 +22,28 @@
         "alt": "Sons Of The Forest -72% sur Steam - GamerQuest",
         "caption": "Sons Of The Forest : offre -72% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Sons Of The Forest sur Steam."
+      }
+    },
+    {
+      "source_id": "a0355e258ffe70a156280fc8ca01ae6ca6256e25e4924be2c1cc3b948d87b026",
+      "title": "Shadow of the Tomb Raider: Definitive Edition à -90% sur Steam",
+      "excerpt": "Shadow of the Tomb Raider: Definitive Edition bénéficie actuellement d'une réduction de 90% sur Steam, passant de 39,99 € à 3,99 €.",
+      "content": "<p><strong>Shadow of the Tomb Raider: Definitive Edition</strong> bénéficie actuellement d'une réduction de <strong>90%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>3,99 €</strong></li><li>Réduction : <strong>90%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/750920/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/750920/",
+      "deal": {
+        "game": "Shadow of the Tomb Raider: Definitive Edition",
+        "store": "Steam",
+        "original_price": 39.99,
+        "current_price": 3.99,
+        "discount_percent": 90,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/a0355e258ffe70a156280fc8ca01ae6ca6256e25e4924be2c1cc3b948d87b026.jpg",
+        "filename": "a0355e258ffe70a156280fc8ca01ae6ca6256e25e4924be2c1cc3b948d87b026.jpg",
+        "alt": "Shadow of the Tomb Raider: Definitive Edition -90% sur Steam - GamerQuest",
+        "caption": "Shadow of the Tomb Raider: Definitive Edition : offre -90% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Shadow of the Tomb Raider: Definitive Edition sur Steam."
       }
     },
     {

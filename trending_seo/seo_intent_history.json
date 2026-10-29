@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-29T08:54:46.586507+00:00",
+  "updated_at": "2026-10-29T19:51:55.406022+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -393,6 +393,14 @@
       "wordpress_url": "https://gamerquestfr.com/monster-hunter-world-multijoueur-coop-en-ligne-et-modes-de-jeu/",
       "wordpress_post_id": 902,
       "published_at": "2026-10-29T08:54:46.586507+00:00"
+    },
+    {
+      "intent_key": "configuration pc no man s sky",
+      "primary_keyword": "configuration pc No Man's Sky",
+      "title": "Configuration PC No Man's Sky : minimale, recommandée et conseils",
+      "wordpress_url": "https://gamerquestfr.com/configuration-pc-no-mans-sky-minimale-recommandee-et-conseils/",
+      "wordpress_post_id": 904,
+      "published_at": "2026-10-29T19:51:55.406022+00:00"
     }
   ]
 }

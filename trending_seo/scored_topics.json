@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-29T08:54:39.466341+00:00",
+  "updated_at": "2026-10-29T19:51:48.607214+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -16784,6 +16784,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-we-f-ked-up-1-day-into-wardogs-season-2-the-blue-team-b-73255856e224",
+      "topic": "'We f**ked up': 1 day into Wardogs Season 2, the Blue team bribery bonus is being dropped",
+      "detected_at": "2026-10-19T20:12:24.988578+00:00",
+      "analysed_at": "2026-10-29T19:51:48.606918+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/we-f-ked-up-1-day-into-wardogs-season-2-the-blue-team-bribery-bonus-is-being-dropped/",
+          "title": "'We f**ked up': 1 day into Wardogs Season 2, the Blue team bribery bonus is being dropped",
+          "evidence": "<article> <p>One day into <a href=\"https://www.pcgamer.com/wardogs/\" target=\"_blank\">Wardogs</a> Season 2, Bulkhead Interactive has decided to scrap the bribery plan it <a href=\"https://www.pcgamer.com/games/fps/wardogs-will-bribe-players-with-cash-and-xp-to-pick-blue-team-in-season-2/\" target=\"_blank\">announced last week</a> as a way to help convince players to join the Blue team. The problem isn't that the plan didn't work—it actually worked far too well.</p><h2 id=\"the-plan\">THE PLAN:</h2><ul><li><em>\"Lonestar cash and XP bonus. Season 2 only. New Bakurani spawn.\" </em></li><li><em>\"We're looking at how we can help the win rate of a certain team.\" -Bulkhead CEO Joe Brammer (via \"Road to Season 2\" devlog) </em></li></ul><h2 id=\"the-reality\">THE REALITY:</h2><ul><li><em>\"We were wrong. We fucked up,\" Brammer admitted in a new video (via RPS). </em></li><li><em>Blue team is now winning \"by far, the most,\" Brammer said, even though the actual boosts are not terribly substantial: 5% Lonestar cash and 2.5% XP.</em></li><li><em>\"Median\" players didn't get much from those percentages, but Bulkhead found that \"top tier\" players were seeing significant boosts</em></li><li><em>Bottom line:"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'We f**ked up': 1 day into Wardogs Season 2, the Blue team bribery bonus is being dropped",
+        "secondary_keywords": [
+          "'We f**ked up': 1 day into Wardogs Season 2, the Blue team bribery bonus is being dropped date de sortie",
+          "'We f**ked up': 1 day into Wardogs Season 2, the Blue team bribery bonus is being dropped plateformes",
+          "'We f**ked up': 1 day into Wardogs Season 2, the Blue team bribery bonus is being dropped gameplay",
+          "'We f**ked up': 1 day into Wardogs Season 2, the Blue team bribery bonus is being dropped guide",
+          "'We f**ked up': 1 day into Wardogs Season 2, the Blue team bribery bonus is being dropped avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'We f**ked up': 1 day into Wardogs Season 2, the Blue team bribery bonus is being dropped"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-my-career-as-a-weed-farmer-was-derailed-by-my-unslakeab-dfb6f44342ee",
+      "topic": "My career as a weed farmer was derailed by my unslakeable lust for golf",
+      "detected_at": "2026-10-19T20:12:24.988833+00:00",
+      "analysed_at": "2026-10-29T19:51:48.606971+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/my-career-as-a-weed-farmer-was-derailed-by-my-unslakeable-lust-for-golf/",
+          "title": "My career as a weed farmer was derailed by my unslakeable lust for golf",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>I'll be honest, I wasn't sure if today's mod <em>counted</em>. A peek behind the curtain: sometimes I select a mod to try for this feature and it doesn't work. Just plumb does not function. In those cases, I discard it and find another one. It's hard to write something about nothing.</p><p>Today's mod did not work. Mostly. I installed <a href=\"https://www.gta5-mods.com/scripts/farmweed-1-0-legacy-based-on-plantationv\">WeedFarm (based on PlantationV)</a>, which should, in theory, let you \"Grow, harvest, and sell weed in GTA 5 with a full-featured farming system.\"</p><p>It"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "My career as a weed farmer was derailed by my unslakeable lust for golf",
+        "secondary_keywords": [
+          "My career as a weed farmer was derailed by my unslakeable lust for golf date de sortie",
+          "My career as a weed farmer was derailed by my unslakeable lust for golf plateformes",
+          "My career as a weed farmer was derailed by my unslakeable lust for golf gameplay",
+          "My career as a weed farmer was derailed by my unslakeable lust for golf guide",
+          "My career as a weed farmer was derailed by my unslakeable lust for golf avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "My career as a weed farmer was derailed by my unslakeable lust for golf"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-call-of-duty-modern-warfare-4-review-in-progress-a-camp-00946661fcf2",
+      "topic": "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip",
+      "detected_at": "2026-10-19T20:12:24.989228+00:00",
+      "analysed_at": "2026-10-29T19:51:48.607034+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4-review-in-progress-a-campaign-you-shouldnt-skip/",
+          "title": "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip",
+          "evidence": "<article> <p>As I watched the credits roll on Modern Warfare 4's campaign, a sobering thought infiltrated: I've been playing Call of Duty for over 20 years—two-thirds of my life. While I consider it primarily a multiplayer game these days, what I loved about Call of Duty all that time ago was its campaigns. In 2006, as a shy fourth grader at a new school, I made my first friend because we both played Call of Duty 3 on the Wii and spent a week recounting cool moments from the campaign over lunch. By 2007 (the year of Modern Warfare, of course), our lunch table was losing its collective shit over the part where Captain Price slides you the pistol right as he (as we thought at the time) dies.</p><p>As memorable as that sequence was, it marked the moment Call of Duty became globe-trotting romps about superhuman, super serious operatives who prevent WW3 before breakfast. It was pretty badass at the time, but what they gained in the sort of spectacle that makes great Sunday Night Football ads, they lost in relatability.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip",
+        "secondary_keywords": [
+          "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip date de sortie",
+          "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip plateformes",
+          "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip gameplay",
+          "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip guide",
+          "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Call of Duty: Modern Warfare 4 review-in-progress: A campaign you shouldn't skip"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-best-enshrouded-base-locations-for-picturesque-vist-65738520643d",
+      "topic": "The best Enshrouded base locations for picturesque vistas or strategic strongholds",
+      "detected_at": "2026-10-20T07:55:54.807401+00:00",
+      "analysed_at": "2026-10-29T19:51:48.607067+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/survival-crafting/enshrouded-base-locations/",
+          "title": "The best Enshrouded base locations for picturesque vistas or strategic strongholds",
+          "evidence": "<article> <p>When it comes to Enshrouded base locations, Embervale real estate has no bad options, but I tend to favor scenic waterfront properties over any strategic positioning. The world has plenty of fast travel points, so I don't suffer much from my form-over-function choices, though I do appreciate conveniently placed mines or higher elevations to get a good running jump with the glider. </p><p>After hundreds of hours base hopping all over Embervale, my map is packed with markers highlighting my favorite spots, so I might as well share them. Here are some of the best base locations I've found in Enshrouded 1.0. </p><h2 class=\"article-body__section\" id=\"section-springlands\"><span>Springlands</span></h2><h3 id=\"springlands-map\">Springlands map</h3><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2000px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"pjab7kR7m92GgRKQcGsFjN\" name=\"Springlands-base-locations-map\" alt=\"Enshrouded map highlighting base locations in Springlands\" src=\"https://cdn.mos.cms.futurecdn.net/pjab7kR7m92GgRKQcGsFjN-1920-80.jpg\" "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The best Enshrouded base locations for picturesque vistas or strategic strongholds",
+        "secondary_keywords": [
+          "The best Enshrouded base locations for picturesque vistas or strategic strongholds date de sortie",
+          "The best Enshrouded base locations for picturesque vistas or strategic strongholds plateformes",
+          "The best Enshrouded base locations for picturesque vistas or strategic strongholds gameplay",
+          "The best Enshrouded base locations for picturesque vistas or strategic strongholds guide",
+          "The best Enshrouded base locations for picturesque vistas or strategic strongholds avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The best Enshrouded base locations for picturesque vistas or strategic strongholds"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-moonlighter-studio-won-t-host-a-public-playtest-of-its--f64ddbb9db01",
+      "topic": "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way'",
+      "detected_at": "2026-10-20T07:55:54.807582+00:00",
+      "analysed_at": "2026-10-29T19:51:48.607103+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/moonlighter-studio-wont-host-a-public-playtest-of-its-next-game-due-to-rampant-ai-led-cloning-we-know-were-not-the-only-developers-feeling-this-way/",
+          "title": "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way'",
+          "evidence": "<article> <p>The studio behind the Moonlighter series has announced it will no longer host a public playtest for its forthcoming roguelike due to fears it will be \"reverse-engineered, cloned and published\". The move comes as a surge in rapidly vibe coded clones floods Steam, Roblox and mobile app stores in the aftermath of Claude Opus 5.5.</p><p>\"With launch still months away, sharing a build with tens of thousands of players feels like too big a risk,\" Digital Sun Games' marketing manager Israel Mallén told PC Gamer. The game under discussion is <a href=\"https://store.steampowered.com/app/3295000/ReVamp/\">ReVamp</a>, a \"tower defensevania\" roguelike due for release in March 2027.</p><p>\"We know we're not the only developers feeling this way, and the more this is talked about, the more likely platforms are to step in.\"</p><p>In its <a href=\"https://x.com/DigitalSunGames/status/2112167974538723563\">public announcement</a> Digital Sun Games was fairly blunt. \"We've been concerned by recent news of games being reverse-engineered, cloned and published before the original is even out. With launch still months away, a large public build of ReVamp felt like too big a risk.\"</p><p>Last wee"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way'",
+        "secondary_keywords": [
+          "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way' date de sortie",
+          "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way' plateformes",
+          "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way' gameplay",
+          "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way' guide",
+          "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Moonlighter studio won't host a public playtest of its next game due to rampant AI-led cloning: 'We know we're not the only developers feeling this way'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-star-wars-zero-company-adds-new-difficulty-options-that-a7c4e52ded6e",
+      "topic": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
+      "detected_at": "2026-10-20T07:55:54.807791+00:00",
+      "analysed_at": "2026-10-29T19:51:48.607129+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-adds-new-difficulty-options-that-can-bring-it-closer-to-xcom/",
+          "title": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
+          "evidence": "<article> <p>Star Wars Zero Company's <a href=\"https://store.steampowered.com/app/2075800/STAR_WARS_Zero_Company/\" target=\"_blank\">1.2 patch</a> introduces a new granular difficulty system in addition to the usual bugfixes and tweaks. These new options exist alongside the original difficulty levels (easy, normal, hard, <del>ironman</del> beskarboy etc.), and home in on more creative/tactical tweaks, rather than just beefing up enemies. The highlights:</p><ul><li>You can remove the injury system, so downed operatives are instantly killed.</li><li>Alternatively, you can lower the injury allowance before permadeath, and/or add a risk of death to getting downed.</li><li>The patch allows you to lower or eliminate health scaling, so operatives are more fragile by the end of the game.</li><li>It also allows you to restrict the respec function by degrees, removing class and even weapon swapping.</li></ul><p>I like these options a lot: They're sharp, targeted changes that make Zero Company harder by restricting your options, forcing you to think and play more creatively. The game's normal, default difficulty, with all of these modifiers added, represents a more interesting challenge to me t"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
+        "secondary_keywords": [
+          "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM date de sortie",
+          "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM plateformes",
+          "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM gameplay",
+          "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM guide",
+          "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-lucasfilm-wants-to-do-more-star-wars-games-like-zero-co-ecd6eea359e6",
+      "topic": "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from'",
+      "detected_at": "2026-10-20T07:55:54.808030+00:00",
+      "analysed_at": "2026-10-29T19:51:48.607178+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/lucasfilm-wants-to-do-more-star-wars-games-like-zero-company-and-galactic-racer-weve-tried-to-be-more-flexible-about-who-were-willing-to-take-pitches-from/",
+          "title": "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from'",
+          "evidence": "<article> <p>We've had two Star Wars games in 2026, both of them quite good and neither of them quite what you might expect from the Star Wars mould: <a href=\"https://www.pcgamer.com/star-wars-zero-company/\" target=\"_blank\">Zero Company</a>, an XCOM-style tactics game, and <a href=\"https://www.pcgamer.com/star-wars-galactic-racer/\" target=\"_blank\">Galactic Racer</a>, an arcade racing game but Star Wars. And the success of those games means we may see more like them—which is to say, more offbeat Star Wars games from smaller-scale studios—in the future.</p><p>Both Zero Company and Galactic Racer were developed by independent studios—Bit Reactor and Fuse Games, respectively—and that \"very much is part of the strategy,\" Lucasfilm Games vice president Douglas Reilly told <a href=\"https://www.thegamebusiness.com/p/fixing-call-of-duty-inside-activisions\" target=\"_blank\">The Game Business</a>.</p><p>\"Obviously, huge triple-A games like Battlefront are always going to be an essential part of the strategy,\" Reilly said. \"But one of the great things about Star Wars is it has all kinds of other opportunities to tell stories in different genres. </p><p>\"The goal has been to find the best partne"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from'",
+        "secondary_keywords": [
+          "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from' date de sortie",
+          "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from' plateformes",
+          "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from' gameplay",
+          "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from' guide",
+          "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-xbox-biz-guy-deletes-his-x-account-less-than-24-hours-a-720847330d1e",
+      "topic": "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business'",
+      "detected_at": "2026-10-20T07:55:54.808325+00:00",
+      "analysed_at": "2026-10-29T19:51:48.607209+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/xbox-biz-guy-deletes-his-x-account-less-than-24-hours-after-saying-game-devs-who-dont-embrace-ai-should-not-be-in-the-business-of-being-a-business/",
+          "title": "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business'",
+          "evidence": "<article> <p>Xbox senior business strategy manager Brandon Stirrup is tired of pussyfooting around about AI: In a thread on X his week, he said that he wants the world to know that Xbox uses it, that he thinks everyone should be using it, and that he believes so strongly in the cause that he's willing to \"take the hit\" for saying so. </p><p> He has since deleted his X account. A source at Xbox tells PC Gamer that Stirrup opted to deactivate the account because of the volume of replies he was receiving.</p><p>Stirrup kicked off his thread on October 18 with a simple message saying he'd \"vibe coded a bad but improvable game\" over two days, although he only \"actively\" worked on it for about three hours. \"I’m telling you I tried it and it’s true…anyone can build a game.\"</p><p>After saying that developers and studios who aren't incorporating AI into their strategies are \"planning for a fake future,\" Stirrup went all in. </p><p>\"Look if I'm fired tomorrow it will be because I told you the truth that nobody wants you to know. You can make a game with a simple prompt and yes you can make custom, tailored games. Everything you want in a game is right there for the taking, for better or wor"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business'",
+        "secondary_keywords": [
+          "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business' date de sortie",
+          "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business' plateformes",
+          "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business' gameplay",
+          "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business' guide",
+          "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-10-27T05:23:40.844616+00:00",
+  "generated_at": "2026-10-29T06:12:36.581531+00:00",
   "count": 50,
   "articles": [
+    {
+      "source_id": "c1998e1c2c2e40646a6bf12c61aa2f302e879c00f6b5d1d88b18091071060040",
+      "title": "Marvel Cosmic Invasion DLC : date de sortie, plateformes et nouveau mode Castle Doom",
+      "excerpt": "Le DLC “The Siege of Castle Doom” arrive le 10 novembre sur toutes les plateformes majeures, introduisant le mode Castle Doom où il faut stopper le Dr Doom avant que le Siege Gauge n’atteigne son maximum.",
+      "content": "<h2>Quelle est la date de sortie du DLC “The Siege of Castle Doom” ?</h2>\n<p>Le nouveau contenu téléchargeable (DLC) de <strong><a href=\"https://gamerquestfr.com/patch-wolverine-insomniac-hotfix-v1-001-005/\">Marvel</a> Cosmic Invasion</strong>, intitulé <em>The Siege of Castle Doom</em>, sera disponible le <strong>10 novembre</strong>. Cette date a été annoncée par le développeur Tribute Games et l’éditeur Dotemu dans le cadre de la diffusion du dernier trailer.</p>\n<h2>Sur quelles plateformes sera disponible le DLC ?</h2>\n<p>Le DLC sera publié simultanément sur l’ensemble des plateformes supportées par le jeu de base :</p>\n<ul>\n<li>PlayStation 5</li>\n<li>Xbox Series</li>\n<li>Switch 2</li>\n<li>PlayStation 4</li>\n<li>Xbox One</li>\n<li>Switch (première génération)</li>\n<li>PC via Steam</li>\n</ul>\n<p>Les joueurs pourront ainsi profiter du nouveau contenu quel que soit leur système de prédilection.</p>\n<h2>Que sait-on du nouveau mode de jeu “Castle Doom” ?</h2>\n<p>Le mode <strong>Castle Doom</strong> propose une course contre la montre : le <em>Siege Gauge</em> se remplit progressivement, et il faut empêcher le Dr Victor von Doom d’activer le <em>Cosmic Inductor</em>. Les mécaniques clés sont les suivantes :</p>\n<ul>\n<li>Collecte de <em>Battery Cells</em> et réalisation de défis pour débloquer des améliorations de défense, de dégâts ou tactiques parmi <strong>12 perks</strong> différents.</li>\n<li>Choix de chemins sinueux à l’intérieur du château, chaque décision influençant les buffs et la puissance de combat.</li>\n<li>Déblocage permanent d’équipements et d’évènements depuis le laboratoire de Reed après chaque run, ainsi que de modificateurs qui augmentent la difficulté et les récompenses.</li>\n</ul>\n<p>L’objectif final reste de rejoindre Victor von Doom avant que le <em>Siege Gauge</em> n’atteigne son maximum, moment où les forces du château gagnent en puissance. Le mode mise donc sur la gestion du temps, la planification des perks et la maîtrise des itinéraires pour devenir un véritable <em>powerhouse</em>.</p>",
+      "slug": "marvel-cosmic-invasion-dlc-siege-castle-doom-date-sortie",
+      "category": "Actualités",
+      "tags": [
+        "Marvel",
+        "Cosmic Invasion",
+        "DLC",
+        "Castle Doom",
+        "Dotemu",
+        "Tribute Games",
+        "Nintendo",
+        "PlayStation",
+        "Xbox"
+      ],
+      "seo": {
+        "seo_title": "Marvel Cosmic Invasion DLC : date de sortie, plateformes et nouveau mode Castle Doom",
+        "meta_description": "Découvrez la date de sortie du DLC “The Siege of Castle Doom”, les plateformes concernées et le nouveau mode de jeu qui vous met au défi d’arrêter le Dr Doom.",
+        "primary_keyword": "Marvel Cosmic Invasion DLC date de sortie",
+        "secondary_keywords": [
+          "Marvel Cosmic Invasion",
+          "The Siege of Castle Doom",
+          "Marvel Cosmic Invasion DLC prix",
+          "Marvel Cosmic Invasion plateformes",
+          "nouveau mode Castle Doom",
+          "gameplay Marvel Cosmic Invasion"
+        ],
+        "search_intent": "News"
+      },
+      "source": {
+        "url": "https://www.gematsu.com/2026/10/marvel-cosmic-invasion-dlc-the-siege-of-castle-doom-reveals-new-game-mode",
+        "title": "MARVEL Cosmic Invasion DLC ‘The Siege of Castle Doom’ reveals new game mode - Gematsu",
+        "published_date": "Mon, 26 Oct 2026 16:04:29 GMT",
+        "domain": "gematsu.com"
+      },
+      "official_source": null,
+      "created_at": "2026-10-29T06:12:36.160454+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/marvel-cosmic-invasion-dlc-siege-castle-doom-date-sortie.jpg",
+        "filename": "marvel-cosmic-invasion-dlc-siege-castle-doom-date-sortie.jpg",
+        "alt": "Marvel Cosmic Invasion DLC : date de sortie, plateformes et nouveau mode Castle Doom - GamerQuest",
+        "caption": "Illustration de l'article « Marvel Cosmic Invasion DLC : date de sortie, plateformes et nouveau mode Castle Doom ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": "https://www.gematsu.com/wp-content/uploads/2026/10/MARVEL-Cosmic-Invasion-DLC_10-26-26.jpg"
+      },
+      "platforms": [
+        "Nintendo",
+        "PlayStation",
+        "Xbox"
+      ]
+    },
     {
       "source_id": "dfb0634fdc73effdc12d49ae3e647c899dcd03b91d35485109cebe5b68d0bc6a",
       "title": "Mise à jour Cyberpunk 2077 2.5 : dual‑wielding, mods cross‑platform, quêtes Edgerunners et plus encore",
@@ -2516,60 +2570,6 @@
         "source_image_url": "https://static.invenglobal.com/upload/image/2026/09/03/r1788454517998067.jpeg"
       },
       "platforms": [
-        "PlayStation",
-        "Xbox"
-      ]
-    },
-    {
-      "source_id": "e467da96353631b06e2a2e012bdd1acaf459b4ba8d058d49124d3fc2e5a61527",
-      "title": "Toutes les dates de sortie Xbox 2027 révélées au State of Play de septembre 2026",
-      "excerpt": "Le State of Play de septembre 2026 a présenté plusieurs titres qui arriveront sur Xbox Series X|S et PC. Voici les dates de sortie, les plateformes et quelques détails gameplay de chaque jeu.",
-      "content": "<article>\n<p>Le livestream <a href=\"https://gamerquestfr.com/final-fantasy-vii-revelation-date-sortie-2027/\">State of Play</a> de septembre 2026 a présenté de nombreux titres qui arriveront sur Xbox Series X|S et PC. Vous cherchez les <a href=\"https://gamerquestfr.com/dates-sortie-xbox-2027-state-of-play-2026/\">dates de sortie</a>, les plateformes et un aperçu du gameplay ? Voici le récapitulatif complet.</p>\n<h2>Monster Hunter Wilds : Ascendance – date de sortie et plateformes</h2>\n<p>Monster Hunter Wilds : Ascendance sortira en <strong>2027</strong> sur Xbox Series X|S, PlayStation 5 et PC via Steam.</p>\n<p>Le trailer montre de nouveaux décors, le Boost Bracer qui ajoute des mouvements d’armes, ainsi que de nouveaux monstres comme Kushala Daora et Lao Shan‑Lung.</p>\n<h2>Metro 2039 – date de sortie et plateformes</h2>\n<p>Metro 2039 arrivera le <strong>4 février 2027</strong> sur Xbox Series X|S, PlayStation 5 et PC via Steam.</p>\n<p>Le premier aperçu montre un FPS post‑apocalyptique se déroulant dans une version dévastée de Moscou, où le joueur doit sauver l’âme du métro.</p>\n<h2>Maneater 2 – date de sortie et plateformes</h2>\n<p>Maneater 2 est prévu pour <strong>2027</strong> sur Xbox Series X|S, PlayStation 5, Nintendo Switch 2 et PC via Steam et l’Epic Games Store.</p>\n<p>Vous incarnerez à nouveau un requin affamé, cette fois dans un parc à thème côtier, tout en affrontant des prédateurs mutés qui cherchent à vous dévorer.</p>\n<h2>Crimson Desert : Charting the Unknown – date de sortie et plateformes</h2>\n<p>Le DLC Crimson Desert : Charting the Unknown sortira le <strong>15 octobre 2026</strong> sur Xbox Series X|S, PlayStation 5 et PC via Steam et l’Epic Games Store.</p>\n<p>Il introduit de nouvelles zones terrestres et maritimes, de puissantes nouvelles compétences et des boss gigantesques.</p>\n<h2>Final Fantasy Resonance – date de sortie et plateformes</h2>\n<p>Final Fantasy Resonance sera disponible le <strong>22 octobre 2026</strong>. Une démo jouable est disponible dès aujourd’hui.</p>\n<p>Le titre sera présent sur Xbox Series X|S, PlayStation 5, Nintendo Switch 1/2 et PC via Steam.</p>\n<p>Le trailer révèle un combat contre Sephiroth, le légendaire antagoniste de Final Fantasy VII, dans un univers HD‑2D.</p>\n<h2>Gundam Rogue Orbit – date de sortie et plateformes</h2>\n<p>Gundam Rogue Orbit arrivera le <strong>5 mars 2027</strong> sur Xbox Series X|S, PlayStation 5 et PC via Steam.</p>\n<p>Vous piloterez le Gundam Helix personnalisable, affronterez des hordes d’ennemis et des boss gigantesques, avec des armes et techniques spectaculaires.</p>\n<h2>Rhapsody in Scarlet – aperçu et plateformes</h2>\n<p>Rhapsody in Scarlet est annoncé comme « bientôt disponible » sur Xbox Series X|S, PlayStation 5 et PC via Steam.</p>\n<p>Situé à New‑York dans les années 1920, vous incarnez Ellie Myers, magus et chanteuse de lounge, qui combat des créatures démoniaques avec la magie et des bêtes élémentaires.</p>\n<h2>Final Fantasy VII : Revelation – date de sortie et plateformes</h2>\n<p>Final Fantasy VII : Revelation sortira le <strong>8 avril 2027</strong> sur Xbox Series X|S, Xbox sur PC, PlayStation 5, Nintendo Switch 2 et PC via Steam.</p>\n<p>Le trailer montre des combats dynamiques, une cinématique riche et confirme la présence du personnage emblématique Sephiroth.</p>\n</article>",
-      "slug": "dates-sortie-xbox-2027-state-of-play",
-      "category": "Actualités",
-      "tags": [
-        "Xbox",
-        "Date de sortie",
-        "State of Play",
-        "2027",
-        "Jeux vidéo",
-        "Trailer",
-        "Nintendo",
-        "PlayStation"
-      ],
-      "seo": {
-        "seo_title": "Dates de sortie Xbox 2027 : Monster Hunter Wilds : Ascendance, Metro 2039, Gundam Rogue Orbit et plus",
-        "meta_description": "Découvrez les dates de sortie Xbox Series X|S et PC des jeux présentés au State of Play de septembre 2026 : Monster Hunter Wilds : Ascendance, Metro 2039, Maneater 2, Crimson Desert : Charting the Unknown, Final Fantasy Resonance, Gundam Rogue Orbit, Rhapsody in Scarlet et Final Fantasy VII : Revelation.",
-        "primary_keyword": "date de sortie jeux Xbox 2027",
-        "secondary_keywords": [
-          "Xbox Series X|S",
-          "date de sortie",
-          "DLC Xbox",
-          "jeu PC",
-          "trailer Xbox",
-          "Final Fantasy VII",
-          "Metro 2039"
-        ],
-        "search_intent": "News"
-      },
-      "source": {
-        "url": "https://www.inkl.com/news/heres-all-the-xbox-related-game-news-and-trailers-revealed-at-playstations-september-2026-state-of-play-livestream",
-        "title": "Here's all the Xbox-related game news and trailers…",
-        "published_date": "Fri, 04 Sep 2026 10:00:00 GMT",
-        "domain": "inkl.com"
-      },
-      "official_source": null,
-      "created_at": "2026-09-05T10:27:41.353993+00:00",
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/dates-sortie-xbox-2027-state-of-play.jpg",
-        "filename": "dates-sortie-xbox-2027-state-of-play.jpg",
-        "alt": "Toutes les dates de sortie Xbox 2027 révélées au State of Play de septembre 2026 - GamerQuest",
-        "caption": "Illustration de l'article « Toutes les dates de sortie Xbox 2027 révélées au State of Play de septembre 2026 ».",
-        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
-        "source_image_url": "https://images.inkl.com/s3/article/lead_image/23790527/ZP9wm3Lq7EatTaeSurHogk-1280-80.jpg"
-      },
-      "platforms": [
-        "Nintendo",
         "PlayStation",
         "Xbox"
       ]

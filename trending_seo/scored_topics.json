@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-28T19:52:36.237161+00:00",
+  "updated_at": "2026-10-29T08:54:39.466341+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -16472,6 +16472,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Discussion time: Do you think zone chats in MMOs are forces for good, or evil?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-funcom-is-laying-off-yet-more-developers-as-it-pivots-t-3eea91c93319",
+      "topic": "Funcom is laying off yet more developers as it pivots to supporting Dune: Awakening and Conan Exiles",
+      "detected_at": "2026-10-19T08:05:36.427086+00:00",
+      "analysed_at": "2026-10-29T08:54:39.466117+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/funcom-is-laying-off-yet-more-developers-as-it-pivots-to-supporting-dune-awakening-and-conan-exiles/",
+          "title": "Funcom is laying off yet more developers as it pivots to supporting Dune: Awakening and Conan Exiles",
+          "evidence": "<article> <p>Funcom, the developer behind<a href=\"https://www.pcgamer.com/uk/dune-awakening/\"> Dune: Awakening</a> and<a href=\"https://www.pcgamer.com/uk/conan-exiles/\"> Conan Exiles</a>, has announced a restructuring process that will result in layoffs at the company, and that current CEO Rui Casais will leave Funcom once the reorganisation is complete.</p><p>The decision comes after a shift in direction at Funcom, whereby the studio will focus wholly on supporting its existing survival RPGs. In a statement (via<a href=\"https://www.gamesindustry.biz/funcom-to-lay-off-staff-as-it-pivots-to-focusing-solely-on-conan-exiles-and-dune-awakening\"> GamesIndustry.biz</a>) Casais said that Dune: Awakening was \"the biggest project we have ever undertaken, requiring many years of significant development resources across our studios\". He continued that \"moving from full production into long-term post-launch development and operations requires a different organisation.</p><p>\"While we would have wanted everyone who helped build Dune: Awakening to continue with us, we cannot sustain the size and structure required during peak development as we move into this next phase. My focus now is ensuring "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Funcom is laying off yet more developers as it pivots to supporting Dune: Awakening and Conan Exiles",
+        "secondary_keywords": [
+          "Funcom is laying off yet more developers as it pivots to supporting Dune: Awakening and Conan Exiles date de sortie",
+          "Funcom is laying off yet more developers as it pivots to supporting Dune: Awakening and Conan Exiles plateformes",
+          "Funcom is laying off yet more developers as it pivots to supporting Dune: Awakening and Conan Exiles gameplay",
+          "Funcom is laying off yet more developers as it pivots to supporting Dune: Awakening and Conan Exiles guide",
+          "Funcom is laying off yet more developers as it pivots to supporting Dune: Awakening and Conan Exiles avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Funcom is laying off yet more developers as it pivots to supporting Dune: Awakening and Conan Exiles"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-tech-founder-criticized-for-vibe-coding-game-about-shoo-81b500e1207c",
+      "topic": "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood",
+      "detected_at": "2026-10-19T08:05:36.427251+00:00",
+      "analysed_at": "2026-10-29T08:54:39.466168+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/tech-founder-vibe-codes-game-about-shooting-zombies-in-san-franciscos-poorest-neighborhood/",
+          "title": "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood",
+          "evidence": "<article> <p>Pierre-Louis Biojout, founder of Y Combinator-backed AI startup NanoCorp, took heat from San Francisco residents and city leaders this week after publishing a weekend vibe coding project: a web-based shooter set in SF's Tenderloin district, which is known for homelessness and open drug use.</p><p>\"San Francisco couldn't fix the Tenderloin,\" Biojout said in a now-deleted X post on October 13. \"So I monetized it [as a] Call of Duty style zombie shooter on the real SF streets.\" He noted that he'd already made $300 from in-game ads.</p><p>The game, called Tenderloin Night Shift, had players shoot \"zombies\" that, according to reports from the <a href=\"https://www.sfchronicle.com/bayarea/article/sf-leaders-slam-tenderloin-night-shift-22479052.php\" target=\"_blank\">SF Chronicle</a> and <a href=\"https://www.kron4.com/news/technology-ai/zombie-shooter-game-based-in-san-francisco-sparks-online-controversy/\" target=\"_blank\">KRON4 news</a>, included a \"folded\" fentanyl addict and a Black security guard. </p><p>Speaking to the Chronicle, Jennifer Friedenbach, executive director of the SF Coalition on Homelessness, said that Biojout was \"monetizing the dehumanization and pretend kill"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood",
+        "secondary_keywords": [
+          "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood date de sortie",
+          "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood plateformes",
+          "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood gameplay",
+          "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood guide",
+          "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-cyberpunk-2077-movie-won-t-be-a-film-adaptation-of--a1a9251879a9",
+      "topic": "The Cyberpunk 2077 movie won't be 'a film adaptation of the game,' CD Projekt chief says",
+      "detected_at": "2026-10-19T08:05:36.427511+00:00",
+      "analysed_at": "2026-10-29T08:54:39.466196+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/movies-tv/the-cyberpunk-2077-movie-wont-be-a-film-adaptation-of-the-game-cd-projekt-chief-says/",
+          "title": "The Cyberpunk 2077 movie won't be 'a film adaptation of the game,' CD Projekt chief says",
+          "evidence": "<article> <p>We learned last week that a <a href=\"https://www.pcgamer.com/movies-tv/cyberpunk-2077-is-being-made-into-a-movie-even-though-weve-already-got-the-perfect-cyberpunk-movie-starring-keanu-reeves-as-a-guy-named-johnny/\" target=\"_blank\">Cyberpunk 2077 movie is in the works</a>, an announcement I used mainly to talk about a completely different cyberpunk movie starring Keanu Reeves as a guy named Johnny who's having a bad week. Now we've got a bit more insight into what CD Projekt Red has in mind for the film, and it's possible that a guy named Johnny may not be involved at all.</p><p>\"Our contract with Anonymous Content expired, and in the meantime, an opportunity arose to establish cooperation with Paramount Pictures,\" co-CEO Michał Nowakowski told Polish PAP Biznes (<a href=\"https://biznes-pap-pl.translate.goog/wiadomosci/firmy/cd-projekt-red-nie-chce-aktorski-cyberpunk-byl-klasyczna-ekranizacja-widzi?_x_tr_sl=pl&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp\" target=\"_blank\">Google translated</a>), referring to the Cyberpunk 2077 \"live action project\" that was <a href=\"https://www.pcgamer.com/a-cyberpunk-2077-live-action-project-is-on-the-way/\" target=\"_blank\">announced in 20"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Cyberpunk 2077 movie won't be 'a film adaptation of the game,' CD Projekt chief says",
+        "secondary_keywords": [
+          "The Cyberpunk 2077 movie won't be 'a film adaptation of the game,' CD Projekt chief says date de sortie",
+          "The Cyberpunk 2077 movie won't be 'a film adaptation of the game,' CD Projekt chief says plateformes",
+          "The Cyberpunk 2077 movie won't be 'a film adaptation of the game,' CD Projekt chief says gameplay",
+          "The Cyberpunk 2077 movie won't be 'a film adaptation of the game,' CD Projekt chief says guide",
+          "The Cyberpunk 2077 movie won't be 'a film adaptation of the game,' CD Projekt chief says avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Cyberpunk 2077 movie won't be 'a film adaptation of the game,' CD Projekt chief says"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-have-added-completely-realistic-uber-driving-to-grand-02015665e871",
+      "topic": "I have added completely realistic Uber driving to Grand Theft Auto 5",
+      "detected_at": "2026-10-19T20:12:24.985513+00:00",
+      "analysed_at": "2026-10-29T08:54:39.466219+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-have-added-completely-realistic-uber-driving-to-grand-theft-auto-5/",
+          "title": "I have added completely realistic Uber driving to Grand Theft Auto 5",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>Saint Moses the Black, who converted from a life of crime to one of ascetic anchoritism, once told his brothers that if they had aught to learn they need only sit in their cells: \"Your cell will teach you everything.\" I am following his example. I am trading in my life of crime for one of contemplation. I am returning to my cell.</p><p>What I mean is, Los Santos Customs has to briefly go on hiatus but will return in the near future. Anyway, today I was an Uber driver with a gun.</p><p>I installed <a href=\"https://www.gta5-mods.com/scripts/goober-goober-eats-realistic-rid"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I have added completely realistic Uber driving to Grand Theft Auto 5",
+        "secondary_keywords": [
+          "I have added completely realistic Uber driving to Grand Theft Auto 5 date de sortie",
+          "I have added completely realistic Uber driving to Grand Theft Auto 5 plateformes",
+          "I have added completely realistic Uber driving to Grand Theft Auto 5 gameplay",
+          "I have added completely realistic Uber driving to Grand Theft Auto 5 guide",
+          "I have added completely realistic Uber driving to Grand Theft Auto 5 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I have added completely realistic Uber driving to Grand Theft Auto 5"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-you-can-make-this-diy-controller-in-six-hours-and-for-l-5f3f8b26803d",
+      "topic": "You can make this DIY controller in six hours and for less than 12 bucks—but would you want to?",
+      "detected_at": "2026-10-19T20:12:24.985766+00:00",
+      "analysed_at": "2026-10-29T08:54:39.466255+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/controllers/you-can-make-this-diy-controller-in-six-hours-and-for-less-than-12-bucks-but-would-you-want-to/",
+          "title": "You can make this DIY controller in six hours and for less than 12 bucks—but would you want to?",
+          "evidence": "<article> <p>In my past life as a console gamer, I was wary of any controller not bundled in with my first-party hardware. These days though, there are lots of excellent PC gamepad options—particularly in the budget category—but how cheap is <em>too</em> cheap?</p><p>Our current pick for the <a href=\"https://www.pcgamer.com/best-controller-for-pc-gaming/#section-the-best-budget-controller\" target=\"_blank\">best PC controller</a> that won't hurt your wallet is the <a href=\"https://www.pcgamer.com/hardware/controllers/gamesir-nova-lite-controller-review/\" target=\"_blank\">GameSir Nova Lite</a>. This costs comfortably under $30 on a good day, but how low can you go in the budget realm? Well, how about a pad you can make yourself in about six hours for €10 (or about $11.22)? The catch is…<a href=\"https://www.instructables.com/Undercooked-V04-Simplified-Gamepad-for-Non-Gamers-\" target=\"_blank\">uh, well, just look at it</a>.</p><p>Dubbed the Undercooked V0.4, this thing doesn't have a D-pad or even a full set of face buttons. Instead, this project limits itself to a single analogue stick, 'X' and 'A' inputs, a menu button, and a 'B' button that's been relegated to the pad's right shoulder."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "You can make this DIY controller in six hours and for less than 12 bucks—but would you want to?",
+        "secondary_keywords": [
+          "You can make this DIY controller in six hours and for less than 12 bucks—but would you want to? date de sortie",
+          "You can make this DIY controller in six hours and for less than 12 bucks—but would you want to? plateformes",
+          "You can make this DIY controller in six hours and for less than 12 bucks—but would you want to? gameplay",
+          "You can make this DIY controller in six hours and for less than 12 bucks—but would you want to? guide",
+          "You can make this DIY controller in six hours and for less than 12 bucks—but would you want to? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "You can make this DIY controller in six hours and for less than 12 bucks—but would you want to?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gamesir-nova-lite-2-review-633034ad969a",
+      "topic": "GameSir Nova Lite 2 review",
+      "detected_at": "2026-10-19T20:12:24.986557+00:00",
+      "analysed_at": "2026-10-29T08:54:39.466274+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/controllers/gamesir-nova-lite-2-review/",
+          "title": "GameSir Nova Lite 2 review",
+          "evidence": "<article> <div data-widget-type=\"merchantlink\" data-model-name=\"GameSir Nova Lite 2\" data-widget-title=\"\"></div><p>The GameSir Nova Lite 2 is our new best budget controller for PC. It's extremely well equipped considering the small asking price. Depart with just <a href=\"https://www.amazon.com/dp/B0F3D25PD3\" target=\"_blank\">$30</a>/<a href=\"https://www.amazon.co.uk/dp/B0F3D25PD3\" target=\"_blank\">£30</a> of your hard-earned cash, and you'll receive a wireless controller with Hall effect sticks, mechanical D-pad, trigger stops, and programmable rear buttons.</p><p>There's enough here that even GameSir's own exceedingly popular <a href=\"https://www.pcgamer.com/hardware/controllers/gamesir-g7-pro-tri-mode-review/\" target=\"_blank\">G7 Pro</a> is at risk of cannibalisation. The Nova Lite 2 doesn't look that out of shape by comparison, with only quality of life and more advanced features between them. Such as a handful of micro switches and a bigger battery. The G7 Pro is a better all-round controller, but for less than half the cash, the Nova Lite 2 is tough to ignore.</p><p>There are some drawbacks with a controller at this price. The plastic doesn't feel great and it's not overly grippy"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GameSir Nova Lite 2 review",
+        "secondary_keywords": [
+          "GameSir Nova Lite 2 review date de sortie",
+          "GameSir Nova Lite 2 review plateformes",
+          "GameSir Nova Lite 2 review gameplay",
+          "GameSir Nova Lite 2 review guide",
+          "GameSir Nova Lite 2 review avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GameSir Nova Lite 2 review"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-two-entire-pallets-of-rtx-5090s-have-gone-missing-from--1f6915c7c250",
+      "topic": "Two entire pallets of RTX 5090s have 'gone missing' from a Brazilian airport—$495,000 worth of unobtanium graphics cards now presumably at large",
+      "detected_at": "2026-10-19T20:12:24.986786+00:00",
+      "analysed_at": "2026-10-29T08:54:39.466309+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/two-entire-pallets-of-rtx-5090s-have-gone-missing-from-a-brazilian-airport-usd495-000-worth-of-unobtanium-graphics-cards-now-presumably-at-large/",
+          "title": "Two entire pallets of RTX 5090s have 'gone missing' from a Brazilian airport—$495,000 worth of unobtanium graphics cards now presumably at large",
+          "evidence": "<article> <p>Good news: I know of the existence of two entire pallets worth of RTX 5090 graphics cards—a rare thing in this day and age, as <a href=\"https://www.pcgamer.com/hardware/graphics-cards/rtx-5090-not-dead-says-nvidia-but-its-mysteriously-vanished-from-the-companys-official-marketplace/\" target=\"_blank\">stock appears to have dwindled to virtually zero</a>. Bad news, they've 'gone missing' from a Brazilian airport.</p><p>Brazilian electronics distributor Oderço has published <a href=\"https://www.instagram.com/reel/DekU56QjpYv/\" target=\"_blank\">an Instagram post</a> drawing attention to the missing Zotac GPUs, which supposedly arrived at Guarulhos International Airport in São Paulo, but then promptly vanished.</p><p>\"In our more than 38-year history, we have never encountered a situation like this—and we will not remain silent,\" says CEO Oderço Matos (via<a href=\"https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-shipment-worth-usd470-000-goes-missing-in-brazilian-airport-two-pallets-disappear-distributor-seeks-explanations-but-met-with-zero-answers\" target=\"_blank\"> Tom's Hardware</a>, machine translation). \"Two pallets of Zotac RTX 5090 graphics cards have gon"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Two entire pallets of RTX 5090s have 'gone missing' from a Brazilian airport—$495,000 worth of unobtanium graphics cards now presumably at large",
+        "secondary_keywords": [
+          "Two entire pallets of RTX 5090s have 'gone missing' from a Brazilian airport—$495,000 worth of unobtanium graphics cards now presumably at large date de sortie",
+          "Two entire pallets of RTX 5090s have 'gone missing' from a Brazilian airport—$495,000 worth of unobtanium graphics cards now presumably at large plateformes",
+          "Two entire pallets of RTX 5090s have 'gone missing' from a Brazilian airport—$495,000 worth of unobtanium graphics cards now presumably at large gameplay",
+          "Two entire pallets of RTX 5090s have 'gone missing' from a Brazilian airport—$495,000 worth of unobtanium graphics cards now presumably at large guide",
+          "Two entire pallets of RTX 5090s have 'gone missing' from a Brazilian airport—$495,000 worth of unobtanium graphics cards now presumably at large avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Two entire pallets of RTX 5090s have 'gone missing' from a Brazilian airport—$495,000 worth of unobtanium graphics cards now presumably at large"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ps5-exclusive-demon-s-souls-remake-not-only-runs-on-pc--2d43b8c32d50",
+      "topic": "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen",
+      "detected_at": "2026-10-19T20:12:24.987053+00:00",
+      "analysed_at": "2026-10-29T08:54:39.466337+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/ps5-exclusive-demons-souls-remake-not-only-runs-on-pc-now-its-running-at-twice-the-fps-cap-on-an-rtx-5070-with-frame-gen/",
+          "title": "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/7rb7cIbv0GM\" allowfullscreen></iframe></div></div><p>As a console gaming interloper, I've been watching the <a href=\"https://www.pcgamer.com/playstation-5-review/\" target=\"_blank\">PlayStation 5</a> emulation scene from afar with some interest. The latest development to catch my eye is that emulation of the Demon's Souls Remake, which has been exclusive to Sony's console since its 2020 launch, can now run at up to 120 fps on PC.</p><p>Leveraging the very much unofficial KytyPS5 translation layer, YouTuber Geralt Benchmarks shared footage of the remake running on their <a href=\"https://www.pcgamer.com/hardware/graphics-cards/nvidia-rtx-5070-founders-edition-review/\" target=\"_blank\">RTX 5070</a> and <a href=\"https://www.pcgamer.com/hardware/processors/amd-ryzen-7-9800x3d-review/\" target=\"_blank\">AMD Ryzen 7 9800X3D</a> rig. The game reaches for more than 100 fps at 1440p resolution thanks to 2x DLSS frame generation, and you can watch it achieve <a href=\"https://youtu.be/7rb7cIbv0GM?si=by8ZiHGJHySkkEr1&t=480\" target="
+        }
+      ],
+      "seo": {
+        "primary_keyword": "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen",
+        "secondary_keywords": [
+          "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen date de sortie",
+          "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen plateformes",
+          "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen gameplay",
+          "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen guide",
+          "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

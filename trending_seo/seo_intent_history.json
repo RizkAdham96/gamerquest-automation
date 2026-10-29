@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-28T19:52:41.988212+00:00",
+  "updated_at": "2026-10-29T08:54:46.586507+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -385,6 +385,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-monster-hunter-world-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 898,
       "published_at": "2026-10-28T19:52:41.988212+00:00"
+    },
+    {
+      "intent_key": "monster hunter world multijoueur",
+      "primary_keyword": "Monster Hunter: World multijoueur",
+      "title": "Monster Hunter: World multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/monster-hunter-world-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 902,
+      "published_at": "2026-10-29T08:54:46.586507+00:00"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-30T08:59:16.055165+00:00",
+  "updated_at": "2026-10-30T19:42:26.489017+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -17406,6 +17406,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-this-sound-library-catalogues-100-different-keyboard-sw-e53f1cc83add",
+      "topic": "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics?",
+      "detected_at": "2026-10-20T18:44:33.006783+00:00",
+      "analysed_at": "2026-10-30T19:42:26.488779+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-keyboards/this-sound-library-catalogues-100-different-keyboard-switches-is-dangerous-for-my-wallet-and-also-has-live-service-game-mechanics/",
+          "title": "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics?",
+          "evidence": "<article> <p>There's a lot that goes into the <a href=\"https://www.pcgamer.com/best-gaming-keyboard/\" target=\"_blank\">best gaming keyboards</a>, and switches are only part of the picture. The entire composition doesn't fall apart with a less than stellar switch in place, especially as so many boards are hot swappable. But if you're picky about typing sound, the search for your perfect key switch just got a little easier.</p><p><a href=\"https://switchlab.app/lab#/find\" target=\"_blank\">Switch Lab</a> is a browser-based library of 100 switch sounds, collecting together switches from Cherry, Gateron, Outemu and more. Obviously, <em>feel </em>is just as important as sound, but we don't yet live in a cyberpunk dystopia that can transmit textural experiences over the net. Shame.</p><p>Anyway, <a href=\"https://switchlab.app/intro\" target=\"_blank\">after a brief introduction to how Switch Lab works</a>, you can begin comparing and contrasting switch sounds. You can either hammer a solo switch with just your mouse, or load a full set into a virtual keyboard for a typing test where a cat pesters you. I have a pretty clacky keyboard in the office at PCG Towers, so this latter test did not give "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics?",
+        "secondary_keywords": [
+          "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics? date de sortie",
+          "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics? plateformes",
+          "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics? gameplay",
+          "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics? guide",
+          "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-in-this-age-of-pervasive-slop-maybe-we-should-be-gratef-9031aa865810",
+      "topic": "In this age of pervasive slop maybe we should be grateful for Shrek 2 Remastered",
+      "detected_at": "2026-10-21T08:00:00.720050+00:00",
+      "analysed_at": "2026-10-30T19:42:26.488826+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/in-this-age-of-pervasive-slop-maybe-we-should-be-grateful-for-shrek-2-remastered/",
+          "title": "In this age of pervasive slop maybe we should be grateful for Shrek 2 Remastered",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/KtxiiD3IyAo\" allowfullscreen></iframe></div></div><p><a href=\"https://store.steampowered.com/app/2523740/DreamWorks_Shrek_2_Remastered/\" target=\"_blank\">Shrek 2 Remastered</a> is coming out in November, it has been announced. I wasn't aware there was a Shrek 2 game for PS2, the OG Xbox, GameCube and PC, probably because in 2004 I was too busy thinking about all the other games coming out. You know, stuff like Half-Life 2, World of Warcraft, Halo 2, Metal Gear Solid 3, Grand Theft Auto: San Andreas and Wings of Power: WWII Heavy Bombers and Jets.</p><p>But Shrek 2 does indeed exist, though contemporary reviews don't point to it necessarily<em> </em>justifying that existence. \"You know folks, this game is pretty bad,\" <a href=\"https://www.nintendoworldreport.com/review/4232/shrek-2-gamecube\">wrote</a> Nintendo World Report. \"Shrek 2 is harmless, inoffensive, middle-of-the-road action for young children,\" Eurogamer <a href=\"https://www.eurogamer.net/r-shrek2-x\">wrote</a> with superlative diplomacy. IGN gave it a 7 ev"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "In this age of pervasive slop maybe we should be grateful for Shrek 2 Remastered",
+        "secondary_keywords": [
+          "In this age of pervasive slop maybe we should be grateful for Shrek 2 Remastered date de sortie",
+          "In this age of pervasive slop maybe we should be grateful for Shrek 2 Remastered plateformes",
+          "In this age of pervasive slop maybe we should be grateful for Shrek 2 Remastered gameplay",
+          "In this age of pervasive slop maybe we should be grateful for Shrek 2 Remastered guide",
+          "In this age of pervasive slop maybe we should be grateful for Shrek 2 Remastered avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "In this age of pervasive slop maybe we should be grateful for Shrek 2 Remastered"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ea-sports-fc-27-gets-a-pegi-16-rating-in-europe-because-182bbd9f7368",
+      "topic": "EA Sports FC 27 gets a PEGI 16 rating in Europe because of loot boxes",
+      "detected_at": "2026-10-21T08:00:00.720355+00:00",
+      "analysed_at": "2026-10-30T19:42:26.488855+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/ea-sports-fc-27-gets-a-pegi-16-rating-in-europe-because-of-loot-boxes/",
+          "title": "EA Sports FC 27 gets a PEGI 16 rating in Europe because of loot boxes",
+          "evidence": "<article> <p>European game rating agency PEGI has begun increasing its age ratings for games that contain \"paid random items,\" a process that's seeing games initially rated as low as PEGI 3—suitable for all age groups—bounced directly to PEGI 16.</p><p>Word of the change came from Connor Hindle, policy manager of the UK's Games Rating Authority. \"Since June, newly submitted games have been assessed against an expanded set of criteria within the PEGI rating framework, including new criteria relating to interactive risks,\" Hindle wrote on <a href=\"https://www.linkedin.com/posts/connor-hinde_a-further-update-to-the-pegi-rating-system-share-7516762594133630976-tyA8/\" target=\"_blank\">LinkedIn</a> (via <a href=\"https://www.gamesindustry.biz/pegi-begins-moving-existing-digital-only-games-with-loot-boxes-up-to-a-16-rating\">GamesIndustry</a>). \"As the UK administrator of PEGI, the Games Rating Authority has now begun applying these updated criteria to selected existing digital products.\"</p><p>These changes were <a href=\"https://www.pcgamer.com/games/europes-game-rating-agency-takes-aim-at-in-app-purchases-loot-boxes-and-unrestricted-communication-with-new-interactive-risk-categories/\" targ"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "EA Sports FC 27 gets a PEGI 16 rating in Europe because of loot boxes",
+        "secondary_keywords": [
+          "EA Sports FC 27 gets a PEGI 16 rating in Europe because of loot boxes date de sortie",
+          "EA Sports FC 27 gets a PEGI 16 rating in Europe because of loot boxes plateformes",
+          "EA Sports FC 27 gets a PEGI 16 rating in Europe because of loot boxes gameplay",
+          "EA Sports FC 27 gets a PEGI 16 rating in Europe because of loot boxes guide",
+          "EA Sports FC 27 gets a PEGI 16 rating in Europe because of loot boxes avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "EA Sports FC 27 gets a PEGI 16 rating in Europe because of loot boxes"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-if-you-can-t-show-your-game-to-the-world-without-fearin-1fda6a1b97bb",
+      "topic": "'If you can’t show your game to the world without fearing it’ll be cloned, something’s broken' says Moonlighter studio on its canceled demo",
+      "detected_at": "2026-10-21T08:00:00.720745+00:00",
+      "analysed_at": "2026-10-30T19:42:26.488900+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/if-you-cant-show-your-game-to-the-world-without-fearing-itll-be-cloned-somethings-broken-says-moonlighter-studio-on-its-canceled-demo/",
+          "title": "'If you can’t show your game to the world without fearing it’ll be cloned, something’s broken' says Moonlighter studio on its canceled demo",
+          "evidence": "<article> <p>Moonlighter and Cataclismo studio Digital Sun Games <a href=\"https://www.pcgamer.com/gaming-industry/moonlighter-studio-wont-host-a-public-playtest-of-its-next-game-due-to-rampant-ai-led-cloning-we-know-were-not-the-only-developers-feeling-this-way/\">announced yesterday</a> that it had canceled plans to release a wide public playtest of its forthcoming \"tower defensevania\" roguelike <a href=\"https://store.steampowered.com/app/3295000/ReVamp/\">ReVamp</a>. The reason? The rollout of a more powerful AI model in Anthropic's Claude Opus 5.5 has led to a surge in hastily turned around clones and decompiles, resulting in <a href=\"https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/\">thousands of cheap and nasty products</a> flooding Steam and Roblox. </p><p>The studio doesn't want people to decompile and steal ReVamp's code. It also wants to prevent opportunists rapidly vibe coding a clone that would hit the market well in advance of ReVamp's March 2027 release date. </p><p>While clones have obviously existed forever, for a studio to worry that its concept—and its code —may be pilfered and tu"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'If you can’t show your game to the world without fearing it’ll be cloned, something’s broken' says Moonlighter studio on its canceled demo",
+        "secondary_keywords": [
+          "'If you can’t show your game to the world without fearing it’ll be cloned, something’s broken' says Moonlighter studio on its canceled demo date de sortie",
+          "'If you can’t show your game to the world without fearing it’ll be cloned, something’s broken' says Moonlighter studio on its canceled demo plateformes",
+          "'If you can’t show your game to the world without fearing it’ll be cloned, something’s broken' says Moonlighter studio on its canceled demo gameplay",
+          "'If you can’t show your game to the world without fearing it’ll be cloned, something’s broken' says Moonlighter studio on its canceled demo guide",
+          "'If you can’t show your game to the world without fearing it’ll be cloned, something’s broken' says Moonlighter studio on its canceled demo avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'If you can’t show your game to the world without fearing it’ll be cloned, something’s broken' says Moonlighter studio on its canceled demo"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-my-favorite-indie-roguelike-action-rpg-is-tempting-me-t-45d9079278f5",
+      "topic": "My favorite indie roguelike action RPG is tempting me to come back with a transformative new update inspired by Diablo seasons",
+      "detected_at": "2026-10-21T08:00:00.721053+00:00",
+      "analysed_at": "2026-10-30T19:42:26.488928+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/my-favorite-indie-roguelike-action-rpg-is-tempting-me-to-come-back-with-a-transformative-new-update-inspired-by-diablo-seasons/",
+          "title": "My favorite indie roguelike action RPG is tempting me to come back with a transformative new update inspired by Diablo seasons",
+          "evidence": "<article> <p>Hell Clock, one of my <a href=\"https://www.pcgamer.com/games/rpg/the-only-indie-roguelike-action-rpg-that-rivals-hades-and-diablo-for-me-just-got-an-incredible-new-expansion/\"><u>favorite indie roguelike action RPGs</u></a> in the last few years, found a way to take the appeal of limited-time Diablo seasons and make them permanent—no FOMO involved.</p><p>Its \"Journeys\" work much like Diablo and Path of Exile's seasons/leagues by transforming a normal run through the game with new toys to play with, but they won't disappear after a few months. The newest Journey, the Journey of Miracles, is now freely available for anyone who owns the game.</p><p>With the Journey of Miracles toggled on, you'll be able to earn powerful buffs for each run whenever you find a statue and survive the juiced up combat encounters they unleash. Some of these Divine Blessings you can grab are absurdly strong, like one that gives you the benefits of a Shrine (eg, extra movement speed, bonus XP gain, etc) by simply drinking a potion. There's a full list of what each one grants you on the <a href=\"https://store.steampowered.com/news/app/1782460/view/675134795999609183\"><u>Steam page</u></a>, and I "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "My favorite indie roguelike action RPG is tempting me to come back with a transformative new update inspired by Diablo seasons",
+        "secondary_keywords": [
+          "My favorite indie roguelike action RPG is tempting me to come back with a transformative new update inspired by Diablo seasons date de sortie",
+          "My favorite indie roguelike action RPG is tempting me to come back with a transformative new update inspired by Diablo seasons plateformes",
+          "My favorite indie roguelike action RPG is tempting me to come back with a transformative new update inspired by Diablo seasons gameplay",
+          "My favorite indie roguelike action RPG is tempting me to come back with a transformative new update inspired by Diablo seasons guide",
+          "My favorite indie roguelike action RPG is tempting me to come back with a transformative new update inspired by Diablo seasons avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "My favorite indie roguelike action RPG is tempting me to come back with a transformative new update inspired by Diablo seasons"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-studio-behind-life-is-strange-jusant-and-lost-recor-f99bac665b60",
+      "topic": "The studio behind Life is Strange, Jusant, and Lost Records: Bloom & Rage is desperately struggling to stay afloat",
+      "detected_at": "2026-10-21T08:00:00.721365+00:00",
+      "analysed_at": "2026-10-30T19:42:26.488957+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/the-studio-behind-life-is-strange-jusant-and-lost-records-bloom-and-rage-is-desperately-struggling-to-stay-afloat/",
+          "title": "The studio behind Life is Strange, Jusant, and Lost Records: Bloom & Rage is desperately struggling to stay afloat",
+          "evidence": "<article> <p>Things seem to have gone from bad to worse for Don't Nod, the developer of the first two Life is Strange games as well as Jusant, Banishers: Ghosts of New Eden, Lost Records, and Aphelion. A month after saying it might not have enough cash to <a href=\"https://www.pcgamer.com/gaming-industry/dont-nod-might-not-have-enough-cash-to-make-it-through-january-2027-and-even-if-it-does-pulling-up-could-involve-the-reduction-of-up-to-90-positions/\" target=\"_blank\">get through January 2027</a> and that up to 90 people were at risk of being laid off, the studio has begun \"safeguard proceedings\" aimed at buying it time while it tries to get its financial situation sorted.</p><p>Don't Nod has been struggling since 2024, after both Jusant and Banishers: Ghosts of New Eden, despite being well-received by players and critics, sold \"<a href=\"https://www.pcgamer.com/games/dont-nod-is-temporarily-pausing-work-on-two-new-games-after-sales-of-jusant-and-banishers-ghosts-of-new-eden-fall-well-below-expectations/\" target=\"_blank\">well below expectations</a>.\" Work on two new games was put on hold and <a href=\"https://www.pcgamer.com/gaming-industry/lost-records-developer-dont-nod-montreal-lay"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The studio behind Life is Strange, Jusant, and Lost Records: Bloom & Rage is desperately struggling to stay afloat",
+        "secondary_keywords": [
+          "The studio behind Life is Strange, Jusant, and Lost Records: Bloom & Rage is desperately struggling to stay afloat date de sortie",
+          "The studio behind Life is Strange, Jusant, and Lost Records: Bloom & Rage is desperately struggling to stay afloat plateformes",
+          "The studio behind Life is Strange, Jusant, and Lost Records: Bloom & Rage is desperately struggling to stay afloat gameplay",
+          "The studio behind Life is Strange, Jusant, and Lost Records: Bloom & Rage is desperately struggling to stay afloat guide",
+          "The studio behind Life is Strange, Jusant, and Lost Records: Bloom & Rage is desperately struggling to stay afloat avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The studio behind Life is Strange, Jusant, and Lost Records: Bloom & Rage is desperately struggling to stay afloat"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-after-talking-to-capcom-i-m-a-lot-more-optimistic-about-8de3bb5da367",
+      "topic": "After talking to Capcom, I'm a lot more optimistic about Onimusha 3 getting a remaster",
+      "detected_at": "2026-10-21T08:00:00.721645+00:00",
+      "analysed_at": "2026-10-30T19:42:26.488981+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/after-talking-to-capcom-im-a-lot-more-optimistic-about-onimusha-3-getting-a-remaster/",
+          "title": "After talking to Capcom, I'm a lot more optimistic about Onimusha 3 getting a remaster",
+          "evidence": "<article> <p>Capcom now <a href=\"https://www.pcgamer.com/gaming-industry/capcom-makes-the-majority-of-its-sales-on-pc-and-it-expects-the-ratio-to-continue-increasing/\">makes the majority of its money on PC</a> and \"expects this ratio to continue increasing,\" it said in a report earlier this year—a shift that's been in the works ever since 2018's release of Monster Hunter: World sold approximately three trillion copies. These days Capcom releases a healthy mix of new big budget games and remasters from its back catalog that have never been on PC, like Dead Rising and both <a href=\"https://www.pcgamer.com/onimusha-warlords-review/\">Onimusha</a> and <a href=\"https://www.pcgamer.com/games/action/onimusha-2-samurais-destiny-review/\">Onimusha 2</a>. The third game in the PlayStation 2 samurai series, co-starring French actor Jean Reno, has always seemed like a bit of a longshot for a remaster given the likely licensing costs and complications around his likeness. But now I have a feeling it's going to happen.</p><p>At the end of an interview focused on the series' first new entry in decades, <a href=\"https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-review/\">Way of the Sword"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "After talking to Capcom, I'm a lot more optimistic about Onimusha 3 getting a remaster",
+        "secondary_keywords": [
+          "After talking to Capcom, I'm a lot more optimistic about Onimusha 3 getting a remaster date de sortie",
+          "After talking to Capcom, I'm a lot more optimistic about Onimusha 3 getting a remaster plateformes",
+          "After talking to Capcom, I'm a lot more optimistic about Onimusha 3 getting a remaster gameplay",
+          "After talking to Capcom, I'm a lot more optimistic about Onimusha 3 getting a remaster guide",
+          "After talking to Capcom, I'm a lot more optimistic about Onimusha 3 getting a remaster avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "After talking to Capcom, I'm a lot more optimistic about Onimusha 3 getting a remaster"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-founder-of-bankrupt-samson-studio-mulls-how-to-use-ai-f-f90a30b77959",
+      "topic": "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass'",
+      "detected_at": "2026-10-21T08:00:00.722054+00:00",
+      "analysed_at": "2026-10-30T19:42:26.489012+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/founder-of-bankrupt-samson-studio-mulls-how-to-use-ai-for-his-next-attempt-cutting-corners-in-game-development-has-a-habit-of-coming-back-to-bite-you-in-the-ass/",
+          "title": "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass'",
+          "evidence": "<article> <p>Christofer Sundberg, the founder of Samson developer Liquid Swords, has confirmed the studio's closure, saying that while the console version of the game enjoyed \"much greater success\" than the PC release, it \"wasn't enough to get the company across the finish line.\"</p><p>Reports over the weekend revealed that Liquid Swords had <a href=\"https://www.pcgamer.com/gaming-industry/liquid-swords-developer-of-open-city-crime-sim-samson-has-gone-bankrupt-following-staff-claims-that-they-havent-been-paid-in-two-months/\" target=\"_blank\">gone bankrupt</a> just six months after the PC release of Samson, which was followed by a console launch in September. \"It's been a hell of a ride and a lot of fun, even when the circumstances gave us very little to laugh about,\" Sundberg wrote. \"Building a studio, creating Samson and releasing it on PC and consoles took an enormous amount of work from people who cared deeply about what we were making.</p><p>\"The console versions met with much greater success than the PC release. We got them out, but that success wasn't enough to get the company across the finish line. Market conditions and some bad business decisions brought us here, and I own "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass'",
+        "secondary_keywords": [
+          "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass' date de sortie",
+          "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass' plateformes",
+          "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass' gameplay",
+          "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass' guide",
+          "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

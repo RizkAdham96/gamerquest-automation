@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-30T08:59:22.386182+00:00",
+  "updated_at": "2026-10-30T19:42:33.266180+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -409,6 +409,14 @@
       "wordpress_url": "https://gamerquestfr.com/no-mans-sky-multijoueur-coop-en-ligne-et-modes-de-jeu/",
       "wordpress_post_id": 910,
       "published_at": "2026-10-30T08:59:22.386182+00:00"
+    },
+    {
+      "intent_key": "configuration pc sifu",
+      "primary_keyword": "configuration pc Sifu",
+      "title": "Configuration PC Sifu : minimale, recommandée et conseils",
+      "wordpress_url": "https://gamerquestfr.com/configuration-pc-sifu-minimale-recommandee-et-conseils/",
+      "wordpress_post_id": 912,
+      "published_at": "2026-10-30T19:42:33.266180+00:00"
     }
   ]
 }

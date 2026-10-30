@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-29T19:51:48.607214+00:00",
+  "updated_at": "2026-10-30T08:59:16.055165+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -17096,6 +17096,316 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1796580",
+      "topic": "Configuration PC Sorry We're Closed : minimale, recommandée et conseils",
+      "detected_at": "2026-10-30T08:59:15.129125+00:00",
+      "analysed_at": "2026-10-30T08:59:16.054955+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1796580/",
+          "title": "Sorry We're Closed sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Sorry We're Closed, consultée le 2026-10-30. Développeur : à la mode games. Éditeur : Akupara Games. Date de sortie sur Steam : 14 nov. 2024. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 or newer, 64-bit ; Processeur : Intel i3 or equivalent ; Mémoire vive : 4 GB de mémoire ; Graphiques : Integrated (Intel UHD or AMD Radeon) ; Espace disque : 2 GB d'espace disque disponible ; Notes supplémentaires : Le jeu tourne bien sur des machines modestes. Essayez la démo pour juger des performances sur votre système.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796580/ss_046a43c4d686ed9a7405e8c32d9030bc5c427423.1920x1080.jpg?t=1788536861"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Sorry We're Closed",
+        "secondary_keywords": [
+          "Sorry We're Closed PC",
+          "Sorry We're Closed Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Sorry We're Closed : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1796580",
+      "topic": "Sorry We're Closed multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-10-30T08:59:15.129204+00:00",
+      "analysed_at": "2026-10-30T08:59:16.055002+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1796580/",
+          "title": "Sorry We're Closed sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Sorry We're Closed, consultée le 2026-10-30. Développeur : à la mode games. Éditeur : Akupara Games. Date de sortie sur Steam : 14 nov. 2024. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Caméra et confort de vue, Contrôle du volume différencié, Difficulté ajustable, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Son stéréo, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Sorry We're Closed est une histoire d'anges, de démons, et de collisions entre leur monde et le nôtre. Un mélange de survival horror excentrique, de tir et d'exploration à l'ancienne, dans lequel Michelle devra se servir de son troisième œil pour percer les mystères de l'outre-monde.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796580/ss_046a43c4d686ed9a7405e8c32d9030bc5c427423.1920x1080.jpg?t=1788536861"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Sorry We're Closed multijoueur",
+        "secondary_keywords": [
+          "Sorry We're Closed PC",
+          "Sorry We're Closed Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Sorry We're Closed multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-peter-molyneux-explains-why-black-white-3-remains-mia-a-b1fde137a654",
+      "topic": "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop'",
+      "detected_at": "2026-10-20T07:55:54.812092+00:00",
+      "analysed_at": "2026-10-30T08:59:16.055037+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/peter-molyneux-explains-why-black-and-white-3-remains-mia-and-then-drops-a-tantalising-teaser-its-such-a-difficult-difficult-challenging-title-to-develop/",
+          "title": "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop'",
+          "evidence": "<article> <p>As part of an interview that I conducted with Peter Molyneux in Guildford recently, a wide-reaching chat that covered everything from Molyneux's final game, <a href=\"https://www.pcgamer.com/uk/masters-of-albion/\">Masters of Albion</a>, and its new <a href=\"https://www.pcgamer.com/games/strategy/masters-of-albion-peter-molyneuxs-final-game-just-got-a-huge-update-and-vigorous-lips-pursed-nodding-of-approval-suddenly-the-old-god-game-magic-is-back/\">game-changing update</a>, through to the origin of Black & White's <a href=\"https://www.pcgamer.com/games/strategy/peter-molyneux-explains-the-origin-story-of-black-and-whites-famous-creatures-it-was-originally-a-monster-it-wasnt-a-cute-creature/\">famous titan creatures</a>, I also asked the veteran designer why a third Black & White game has never been made.</p><p>Fans of the Black & White series like myself and countless other PC gamers (Black & White is currently <a href=\"https://www.gog.com/dreamlist/?show_only_not_voted_by_user=1&show_only_unreleased=1&sort=global_wishlist_votes_count&order=desc&labels=trending\">top of GOG's most-wanted remaster list</a>) have been desperate for a new release, be that a remaster of one of"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop'",
+        "secondary_keywords": [
+          "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' date de sortie",
+          "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' plateformes",
+          "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' gameplay",
+          "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' guide",
+          "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Peter Molyneux explains why Black & White 3 remains MIA, and then drops a tantalising teaser: 'It's such a difficult, difficult, challenging title to develop'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-helldivers-2-studio-warns-mods-may-break-as-it-switches-d63030ea2c58",
+      "topic": "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs",
+      "detected_at": "2026-10-20T18:44:32.992111+00:00",
+      "analysed_at": "2026-10-30T08:59:16.055067+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/helldivers-2-studio-warns-mods-may-break-as-it-switches-to-new-anti-cheat-and-the-negative-reviews-are-dropping-on-steam-like-hellbombs/",
+          "title": "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs",
+          "evidence": "<article> <p>Heads up, Helldivers: Arrowhead Game Studios is moving <a href=\"https://www.pcgamer.com/helldivers-2/\" target=\"_blank\">Helldivers 2</a> from GameGuard to Easy Anti-Cheat today, and that means some mods—including those that don't have any impact on gameplay—may stop working.</p><p>Helldivers 2 doesn't have official modding support, but there are <a href=\"https://www.nexusmods.com/games/helldivers2\" target=\"_blank\">plenty of them out there</a>—most either cosmetic or audio replacements. Arrowhead said in a <a href=\"https://store.steampowered.com/news/app/553850/view/713415392836453548?l=english\" target=\"_blank\">Steam update</a> that while it hasn't previously taken a position on mods beyond warning that it can't guarantee their safety or usability, it's seen a recent uptick in cheat mods and it can't let that stand. </p><p>\"We know mods are part of the DNA of PC gaming and gaming communities as a whole,\" the studio wrote. \"In general, we appreciate the creativity behind cosmetic and non-gameplay mods, which players can enjoy without negatively impacting those who play alongside them. </p><p>\"Where we need to improve is how we protect players against modifications that cr"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs",
+        "secondary_keywords": [
+          "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs date de sortie",
+          "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs plateformes",
+          "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs gameplay",
+          "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs guide",
+          "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Helldivers 2 studio warns mods may break as it switches to new anti-cheat, and the negative reviews are dropping on Steam like Hellbombs"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-played-20-cozy-game-demos-in-steam-next-fest-and-thes-7d66f2450cee",
+      "topic": "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist",
+      "detected_at": "2026-10-20T18:44:32.992390+00:00",
+      "analysed_at": "2026-10-30T08:59:16.055091+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/life-sim/i-played-20-cozy-game-demos-in-steam-next-fest-and-these-5-made-it-onto-my-wishlist/",
+          "title": "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist",
+          "evidence": "<article> <a class=\"card card--standard card--rows-3 card--align-center\" href=\"https://store.steampowered.com/app/4665870/Fields_of_Aaru_Demo/\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/cAxkd6D8y5iwfd6VRevWaB.png\" alt=\"Fields of Aaru - A character runs across a wood bridge in an ancient Egyptian village river\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">Fields of Aaru</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><p><strong>Release date</strong>: TBA<br>I wasn't keen on the visual style of this ancient Egyptian afterlife farm sim based on its trailers but the low framerate animation and the soft, cohesive environment lighting actually really charmed me once I was hands-on with the demo. The characters have a lot of personality right off the bat and managing hydration to explore the desert is neat too. I also enjoy how, like Roots of Pacha, this one goes for a more abstract currency (memories) and daily objectives instead of high key capitalism.</p></div></div></div></a><a class=\"card card--standard card"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist",
+        "secondary_keywords": [
+          "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist date de sortie",
+          "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist plateformes",
+          "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist gameplay",
+          "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist guide",
+          "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-overwatch-s-director-discusses-why-king-s-row-is-so-ico-6d2c1f4d0ba1",
+      "topic": "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote'",
+      "detected_at": "2026-10-20T18:44:32.992732+00:00",
+      "analysed_at": "2026-10-30T08:59:16.055116+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/overwatchs-director-discusses-why-kings-row-is-so-iconic-but-admits-that-every-single-map-in-the-game-gets-a-vote/",
+          "title": "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote'",
+          "evidence": "<article> <p>After Team 4 added map voting to <a href=\"https://www.pcgamer.com/uk/overwatch/\">Overwatch</a> one thing became crystal clear: everyone wants to say they're a free thinker who doesn't follow the crowd until King's Row turns up, and then it's a landslide. </p><p>King's Row is widely considered to be the best map in Overwatch, I certainly think so. It's one of the few maps that's fun to play on defense and attack, as it doesn't seem overly weighted to either side, at least not until the very end. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"2QutxU4Ad4pJWKkyfNgAu\" name=\"Map_KingsRow\" alt=\"Map_KingsRow\" src=\"https://cdn.mos.cms.futurecdn.net/2QutxU4Ad4pJWKkyfNgAu-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline\"></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Blizzard Entertainment)</span></figcaption></figure><p>\"T"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote'",
+        "secondary_keywords": [
+          "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote' date de sortie",
+          "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote' plateformes",
+          "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote' gameplay",
+          "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote' guide",
+          "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-asus-proart-p16-h7607-rtx-spark-laptop-review-10f6584333e4",
+      "topic": "Asus ProArt P16 (H7607) RTX Spark laptop review",
+      "detected_at": "2026-10-20T18:44:33.004778+00:00",
+      "analysed_at": "2026-10-30T08:59:16.055137+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-laptops/asus-proart-p16-rtx-spark-review/",
+          "title": "Asus ProArt P16 (H7607) RTX Spark laptop review",
+          "evidence": "<article> <div data-widget-type=\"review\" data-model-name=\"Asus ProArt P16 (H7607BA)\"></div><p>If you don't talk to me about the price, I will tell you the <a href=\"https://eshop.asus.com/us/31150-us-cnf-auto.html\" target=\"_blank\">Asus ProArt P16</a> is an unbelievably good gaming laptop. It is beautifully slim, runs incredibly well gaming on battery, and has an absolutely stunning 16-inch OLED screen. And its Arm-based SoC is almost entirely transparent when it comes to running pretty much anything on Windows 11.</p><p>But this is no mere Snapdragon device, this the <a href=\"https://www.pcgamer.com/hardware/gaming-laptops/nvidias-rtx-spark-makes-for-an-impressive-arm-based-gaming-laptop-but-not-one-id-recommend-you-buy-just-for-pc-gaming/\" target=\"_blank\">RTX Spark</a>; Nvidia's first foray into the world of full Windows SoCs. It's pairing a relatively beefy RTX Blackwell GPU with a whole bunch of Arm CPU cores, and doing so with lots and lots and lots of LPDDR5X memory. Y'know, for AI.</p><p>Which, er, is why you might not want to ask about that price. Memory's expensive, and these RTX Spark laptops—of which the Asus ProArt P16 is, in my opinion, the most desirable—are likewise <e"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Asus ProArt P16 (H7607) RTX Spark laptop review",
+        "secondary_keywords": [
+          "Asus ProArt P16 (H7607) RTX Spark laptop review date de sortie",
+          "Asus ProArt P16 (H7607) RTX Spark laptop review plateformes",
+          "Asus ProArt P16 (H7607) RTX Spark laptop review gameplay",
+          "Asus ProArt P16 (H7607) RTX Spark laptop review guide",
+          "Asus ProArt P16 (H7607) RTX Spark laptop review avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Asus ProArt P16 (H7607) RTX Spark laptop review"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-dlss-swapper-now-lets-you-update-all-your-upscalers-in--345f72eaa41d",
+      "topic": "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C",
+      "detected_at": "2026-10-20T18:44:33.004944+00:00",
+      "analysed_at": "2026-10-30T08:59:16.055161+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/dlss-swapper-now-lets-you-update-all-your-upscalers-in-multiple-games-at-once-adds-nvidias-new-frame-generation-preset-c/",
+          "title": "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C",
+          "evidence": "<article> <p>DLSS Swapper just became even more useful, as the upscaler-switching software has rolled out a bulk DLL swapping feature in the latest update. </p><p><a href=\"https://github.com/beeradmoore/dlss-swapper/releases/tag/v1.2.7.0\" target=\"_blank\">Version 1.2.7.0</a> adds a Bulk Swap button to the top right hand menu. Click on it, and you can select multiple games (or all of them) from your libraries at once, before individually selecting your upscaling version preferences in one handy menu (via <a href=\"https://www.techpowerup.com/353893/dlss-swapper-adds-bulk-swap-for-dlss-fsr-and-xess-across-entire-game-libraries\" target=\"_blank\">Techpowerup</a>). Hit apply, and they all get updated at the same time.</p><p>There are many different iterations of DLSS, FSR, and XeSS to choose from, including separate frame generation options and individual upscaler presets. And should a change cause issues, your games can be restored to their original DLLs and preset settings en masse, too.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-WwgagW\"></div> </div> <script src=\"https://kwizly.com/embed/WwgagW.js\" async></script><p>It's the little things in life, isn't it? This "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C",
+        "secondary_keywords": [
+          "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C date de sortie",
+          "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C plateformes",
+          "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C gameplay",
+          "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C guide",
+          "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "DLSS Swapper now lets you update all your upscalers in multiple games at once, adds Nvidia's new Frame Generation Preset C"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

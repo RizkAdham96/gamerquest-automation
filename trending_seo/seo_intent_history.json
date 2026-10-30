@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-29T19:51:55.406022+00:00",
+  "updated_at": "2026-10-30T08:59:22.386182+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -401,6 +401,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-no-mans-sky-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 904,
       "published_at": "2026-10-29T19:51:55.406022+00:00"
+    },
+    {
+      "intent_key": "no man s sky multijoueur",
+      "primary_keyword": "No Man's Sky multijoueur",
+      "title": "No Man's Sky multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/no-mans-sky-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 910,
+      "published_at": "2026-10-30T08:59:22.386182+00:00"
     }
   ]
 }

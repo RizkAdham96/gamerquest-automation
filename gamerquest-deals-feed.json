@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T15:16:34.078812+00:00",
-  "count": 2,
+  "generated_at": "2026-10-30T21:00:15.650597+00:00",
+  "count": 1,
   "articles": [
     {
       "source_id": "c481677c3a6808bd705f24a2f418e51459fab5a1ba436aa99c5a06516de7f366",
@@ -22,28 +22,6 @@
         "alt": "Sons Of The Forest -72% sur Steam - GamerQuest",
         "caption": "Sons Of The Forest : offre -72% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Sons Of The Forest sur Steam."
-      }
-    },
-    {
-      "source_id": "560fe0ae82c253240eee987ca1d1b41984eb0d6e2f06ef88be0c741cdde0b1f0",
-      "title": "Sorry We're Closed est gratuit sur Epic Games Store pendant une durée limitée",
-      "excerpt": "Sorry We're Closed, habituellement proposé à 22,39 €, est actuellement disponible gratuitement sur Epic Games Store.",
-      "content": "<p><strong>Sorry We're Closed</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 22,39 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>22,39 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>5 novembre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/sorry-were-closed-724c86\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.epicgames.com/fr/p/sorry-were-closed-724c86",
-      "deal": {
-        "game": "Sorry We're Closed",
-        "store": "Epic Games Store",
-        "original_price": 22.39,
-        "current_price": 0.0,
-        "discount_percent": 100,
-        "expires_at": "2026-11-05T16:00:00.000Z"
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/560fe0ae82c253240eee987ca1d1b41984eb0d6e2f06ef88be0c741cdde0b1f0.jpg",
-        "filename": "560fe0ae82c253240eee987ca1d1b41984eb0d6e2f06ef88be0c741cdde0b1f0.jpg",
-        "alt": "Sorry We're Closed gratuit sur Epic Games Store - GamerQuest",
-        "caption": "Sorry We're Closed : offre gratuit sur Epic Games Store.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Sorry We're Closed sur Epic Games Store."
       }
     }
   ]

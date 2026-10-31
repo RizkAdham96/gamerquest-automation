@@ -1,0 +1,86 @@
+{
+  "source_id": "190fea3a3f482faaa2f4bf383911f3eb73b5d99816c261c8799d2141bfa3850e",
+  "carousel_version": "1f47241a0e22b4b24ec05ce1033c2322fe352e45497f5e43de76cf1379ba35f0",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/10/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    926,
+    927,
+    928
+  ],
+  "prepared_at_utc": "2026-10-31T20:39:57.632061Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "190fea3a3f482faaa2f4bf383911f3eb73b5d99816c261c8799d2141bfa3850e",
+    "source_title": "The Forest à -80% sur Steam",
+    "score": 75.5,
+    "idea": {
+      "source_id": "190fea3a3f482faaa2f4bf383911f3eb73b5d99816c261c8799d2141bfa3850e",
+      "topic": "Promotion exceptionnelle de The Forest",
+      "angle": "Mettez en avant la réduction de 80 % et le prix ultra‑bas pour inciter les joueurs à profiter immédiatement.",
+      "format": "deal_alert",
+      "hook": "⚡️ The Forest à -80 % : de 16,79 € à seulement 3,35 € ! Offre limitée, saisissez‑la maintenant !",
+      "freshness": 9,
+      "click_potential": 9,
+      "curiosity": 6,
+      "shareability": 7,
+      "originality": 5,
+      "gamerquest_relevance": 10,
+      "total_score": 75.5
+    },
+    "carousel": {
+      "topic": "Promotion exceptionnelle de The Forest",
+      "angle": "Mettez en avant la réduction de 80 % et le prix ultra‑bas pour inciter les joueurs à profiter immédiatement.",
+      "format": "deal_alert",
+      "hook": "⚡️ The Forest à -80 % : de 16,79 € à seulement 3,35 € ! Offre limitée, saisissez‑la maintenant !",
+      "score": 75.5,
+      "slides": [
+        {
+          "title": "⚡️ The Forest à -80 % !",
+          "body": "De 16,79 € à 3,35 € – offre limitée.",
+          "visual_prompt": "Capture d'écran du jeu The Forest montrant la forêt dense et sombre, ambiance mystérieuse."
+        },
+        {
+          "title": "Prix ultra‑bas : 3,35 €",
+          "body": "The Forest bénéficie d’une réduction de 80 % sur Steam, passant de 16,79 € à seulement 3,35 €.",
+          "visual_prompt": "Vue rapprochée d’un arbre et d’un feu de camp dans The Forest, style réaliste."
+        },
+        {
+          "title": "Profitez maintenant",
+          "body": "Cette promotion exceptionnelle est disponible sur Steam. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Illustration d’une main tenant une manette devant un écran affichant le logo Steam."
+        }
+      ],
+      "caption": "Ne manquez pas The Forest à prix choc ! 🌲💥",
+      "cta": "Achetez maintenant sur Steam",
+      "hashtags": [
+        "#TheForest",
+        "#Promotion",
+        "#Steam",
+        "#GamerQuest",
+        "#Deal",
+        "#Gaming"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "190fea3a3f482faaa2f4bf383911f3eb73b5d99816c261c8799d2141bfa3850e"
+    },
+    "caption": "Ne manquez pas The Forest à prix choc ! 🌲💥",
+    "hashtags": [
+      "#TheForest",
+      "#Promotion",
+      "#Steam",
+      "#GamerQuest",
+      "#Deal",
+      "#Gaming"
+    ],
+    "cta": "Achetez maintenant sur Steam",
+    "repair_attempts": 0
+  }
+}

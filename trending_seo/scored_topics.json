@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-30T19:42:26.489017+00:00",
+  "updated_at": "2026-10-31T08:52:53.129064+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -17718,6 +17718,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-hunt-for-gollum-s-aragorn-actor-says-he-s-not-tryin-55b4457058ab",
+      "topic": "The Hunt for Gollum's Aragorn actor says he's not trying to \"outdo\" Viggo Mortensen",
+      "detected_at": "2026-10-21T08:00:01.093276+00:00",
+      "analysed_at": "2026-10-31T08:52:53.128843+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/fantasy-movies/the-hunt-for-gollums-aragorn-actor-says-hes-not-trying-to-outdo-viggo-mortensen-for-me-aragorn-will-always-be-just-viggo/",
+          "title": "The Hunt for Gollum's Aragorn actor says he's not trying to \"outdo\" Viggo Mortensen",
+          "evidence": "<article> <p>Jamie Dornan is set to play a younger Aragorn n in The Lord of the Rings: The Hunt for Gollum, and he's well aware that he's got some big shoes to fill.</p><p>\"There's pressure when you're trying to follow in those footsteps,\" Dornan said via <a href=\"https://screenrant.com/lord-of-the-rings-hunt-for-gollum-viggo-mortensen-recasting-jamie-dornan/\" target=\"_blank\">ScreenRant</a>. \"I've been asked to play a super-iconic role, and I'll do my best. But for me, Aragorn will always be just Viggo. His performance is one of my all-time favorites, and I feel honored to try to recapture at least some of the energy he originally brought to the character. There's no part of me that's trying to outdo him.\"</p><p>The Hunt for Gollum, a story that can be found in the appendices of the original Lord of the Rings novel, takes place between The Hobbit and The Lord of the Rings. A younger Aragorn pays a visit to Gandalf, who sends him off to find Gollum so they can stop him before he divulges information about the One Ring to Sauron.</p><p>The cast includes Andy Serkis, who directs and returns as Gollum, Sir Ian McKellen, Kate Winslet, Elijah Wood, Lee Pace, Anya Taylor-Joy, and Leo Wood"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Hunt for Gollum's Aragorn actor says he's not trying to \"outdo\" Viggo Mortensen",
+        "secondary_keywords": [
+          "The Hunt for Gollum's Aragorn actor says he's not trying to \"outdo\" Viggo Mortensen date de sortie",
+          "The Hunt for Gollum's Aragorn actor says he's not trying to \"outdo\" Viggo Mortensen plateformes",
+          "The Hunt for Gollum's Aragorn actor says he's not trying to \"outdo\" Viggo Mortensen gameplay",
+          "The Hunt for Gollum's Aragorn actor says he's not trying to \"outdo\" Viggo Mortensen guide",
+          "The Hunt for Gollum's Aragorn actor says he's not trying to \"outdo\" Viggo Mortensen avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Hunt for Gollum's Aragorn actor says he's not trying to \"outdo\" Viggo Mortensen"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-standing-on-bioware-s-grave-ea-says-we-should-be-proud--7ac2190611b6",
+      "topic": "Standing on BioWare's grave, EA says \"we should be proud\" to be top \"publisher in Western HD gaming\"",
+      "detected_at": "2026-10-21T18:55:19.794915+00:00",
+      "analysed_at": "2026-10-31T08:52:53.128898+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/standing-on-biowares-grave-ea-says-we-should-be-proud-to-be-the-number-one-publisher-in-western-hd-gaming/",
+          "title": "Standing on BioWare's grave, EA says \"we should be proud\" to be top \"publisher in Western HD gaming\"",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\"><u>Now-closed RPG legend BioWare</u></a> is a mere footnote in a new message from EA's top brass communicating the company's next chapter following a buyout deal led by Saudi Arabia's Public Investment Fund. COO David Tinson and CSO Cam Weber maintain that \"we should be proud\" of what EA has become. </p><p>\"Today, we're the number one publisher in Western HD gaming,\" the executives' joint statement, first shared with EA employees, <a href=\"https://www.ea.com/news/building-eas-next-chapter\" target=\"_blank\"><u>reads</u></a>. \"That's an extraordinary position to lead from, and one we should be proud of. Yet our industry is changing quickly. Players have more choices than ever for their time and attention, competition is intensifying, and some of our biggest opportunities for growth are beyond the markets, platforms, and business models where EA has traditionally been the strongest.\"</p><p>It's unclear by what metrics EA is measuring the curiously specific market of \"Western HD gaming,\" though there's no disputing the company's massive reach and sale"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Standing on BioWare's grave, EA says \"we should be proud\" to be top \"publisher in Western HD gaming\"",
+        "secondary_keywords": [
+          "Standing on BioWare's grave, EA says \"we should be proud\" to be top \"publisher in Western HD gaming\" date de sortie",
+          "Standing on BioWare's grave, EA says \"we should be proud\" to be top \"publisher in Western HD gaming\" plateformes",
+          "Standing on BioWare's grave, EA says \"we should be proud\" to be top \"publisher in Western HD gaming\" gameplay",
+          "Standing on BioWare's grave, EA says \"we should be proud\" to be top \"publisher in Western HD gaming\" guide",
+          "Standing on BioWare's grave, EA says \"we should be proud\" to be top \"publisher in Western HD gaming\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Standing on BioWare's grave, EA says \"we should be proud\" to be top \"publisher in Western HD gaming\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ea-cancels-new-mass-effect-closes-bioware-after-being-b-59cdc58b9d76",
+      "topic": "EA cancels new Mass Effect, closes BioWare after being bought by Saudi Arabia",
+      "detected_at": "2026-10-21T18:55:19.795129+00:00",
+      "analysed_at": "2026-10-31T08:52:53.128931+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/",
+          "title": "EA cancels new Mass Effect, closes BioWare after being bought by Saudi Arabia",
+          "evidence": "<article> <p>Mass Effect and Dragon Age maker BioWare is closing down after more than 30 years as an RPG powerhouse. </p><p>In a <a href=\"https://x.com/bioware/status/2112953618093535510\" target=\"_blank\"><u>statement</u></a> posted online today, studio leadership confirmed that BioWare \"is closing and early development on the next Mass Effect project is ending.\"</p><p>The announcement comes not long after <a href=\"https://www.gamesradar.com/games/ea-and-games-like-the-sims-dragon-age-and-battlefield-are-now-officially-owned-by-saudi-arabia-and-private-equity-as-usd55-billion-deal-closes/\"><u>EA was acquired</u></a> by private investors led by Saudi Arabia's Public Investment Fund in a deal that sparked <a href=\"https://www.gamesradar.com/games/mass-layoffs-expected-at-ea-as-the-now-private-publisher-reportedly-tells-its-new-debt-masters-that-its-going-to-cut-usd700-million-in-annual-costs/\">concerns of closures and layoffs</a> exactly like this. </p><p>\"There is nothing easy about writing those words,\" BioWare's statement reads. \"Our focus right now is on our incredibly talented team who put their hearts into these games, and supporting one another through this transition.\" </p><p>"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "EA cancels new Mass Effect, closes BioWare after being bought by Saudi Arabia",
+        "secondary_keywords": [
+          "EA cancels new Mass Effect, closes BioWare after being bought by Saudi Arabia date de sortie",
+          "EA cancels new Mass Effect, closes BioWare after being bought by Saudi Arabia plateformes",
+          "EA cancels new Mass Effect, closes BioWare after being bought by Saudi Arabia gameplay",
+          "EA cancels new Mass Effect, closes BioWare after being bought by Saudi Arabia guide",
+          "EA cancels new Mass Effect, closes BioWare after being bought by Saudi Arabia avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "EA cancels new Mass Effect, closes BioWare after being bought by Saudi Arabia"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-in-a-steam-next-fest-plagued-by-ai-slop-the-biggest-sin-c78e98073fb6",
+      "topic": "In a Steam Next Fest plagued by AI slop, the biggest single-player demo is a game about fighting AI",
+      "detected_at": "2026-10-21T18:55:19.795433+00:00",
+      "analysed_at": "2026-10-31T08:52:53.128959+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/simulation/in-a-steam-next-fest-plagued-by-ai-slop-the-biggest-single-player-demo-is-a-game-about-fighting-rampant-ai-a-sim-where-youre-basically-a-merchant-in-cyberpunk-2077/",
+          "title": "In a Steam Next Fest plagued by AI slop, the biggest single-player demo is a game about fighting AI",
+          "evidence": "<article> <p>Rather than any one game, this Steam Next Fest, Valve's latest game demo extravaganza, has been dominated by generative AI and discussions around it. A record 8,000 demos, <a href=\"https://www.gamesradar.com/games/palworld-lead-calls-steam-next-fest-a-gamble-thats-still-worth-taking-despite-the-ai-slop-era-were-in-because-the-vast-majority-of-it-sinks-to-the-bottom-and-rots-almost-immediately/\"><u>many of them plainly or proudly marked by AI</u></a>, have made it more difficult for game developers to cut through. </p><p>If previous Steam Next Fests were noisy, this one is cacophonous. But there are, as ever, plenty of promising games coming out and coming up. To that list of games, let's add <a href=\"https://store.steampowered.com/app/4348910/Probably_Stolen_Cyberpunk_Shopkeeper_Sim/?curator_clanid=45778930\"><u>Probably Stolen</u></a>, a job sim that feels named for the times and is, in part, a game about how to \"stop rampant AI\" in a cyberpunk city. At the time of writing, it's also the biggest single-player demo on Valve's SNF charts. </p><p>If you told me that I would wake up tomorrow as an NPC in CD Projekt Red's Cyberpunk 2077, I would probably spend the rest of m"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "In a Steam Next Fest plagued by AI slop, the biggest single-player demo is a game about fighting AI",
+        "secondary_keywords": [
+          "In a Steam Next Fest plagued by AI slop, the biggest single-player demo is a game about fighting AI date de sortie",
+          "In a Steam Next Fest plagued by AI slop, the biggest single-player demo is a game about fighting AI plateformes",
+          "In a Steam Next Fest plagued by AI slop, the biggest single-player demo is a game about fighting AI gameplay",
+          "In a Steam Next Fest plagued by AI slop, the biggest single-player demo is a game about fighting AI guide",
+          "In a Steam Next Fest plagued by AI slop, the biggest single-player demo is a game about fighting AI avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "In a Steam Next Fest plagued by AI slop, the biggest single-player demo is a game about fighting AI"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-who-is-matt-hagen-clayface-explained-091a1cf6332d",
+      "topic": "Who is Matt Hagen? Clayface explained",
+      "detected_at": "2026-10-21T18:55:19.795645+00:00",
+      "analysed_at": "2026-10-31T08:52:53.128980+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/who-is-matt-hagen-clayface-explained/",
+          "title": "Who is Matt Hagen? Clayface explained",
+          "evidence": "<article> <p>Clayface is nearly upon us... and it's a straight-up body horror that tells the origin story of the beloved Batman supervillain. A standalone movie about one of the most infamous baddies in Batman's rogues' gallery is especially exciting... as this means we're just that much closer to meeting Batman in the DCU proper.</p><p>The movie, directed by James Watkins from a screenplay by Mike Flanagan and Hossein Amini, follows Hollywood actor Matt Hagen (Tom Rhys Harries), who goes from the absolute height of his acting career to getting his face cut up by a Gotham mob boss. After failed reconstructive surgeries, he approaches Dr. Caitlyn Corr (Naomi Ackie) in order to undergo an experimental procedure that restores his face... but ultimately turns him into something else entirely.</p><p>But who is Matt Hagen? Did we originally meet him in DC Comics? Well, yes, but the movie took most of its inspiration from an episode of Batman: The Animated Series... Don't worry, we explain below (and without any spoilers to boot).</p><h2 id=\"who-is-matt-hagen\">Who is Matt Hagen?</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrap"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Who is Matt Hagen? Clayface explained",
+        "secondary_keywords": [
+          "Who is Matt Hagen? Clayface explained date de sortie",
+          "Who is Matt Hagen? Clayface explained plateformes",
+          "Who is Matt Hagen? Clayface explained gameplay",
+          "Who is Matt Hagen? Clayface explained guide",
+          "Who is Matt Hagen? Clayface explained avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Who is Matt Hagen? Clayface explained"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-cdpr-has-hired-so-many-modders-that-half-of-the-quest-t-ea0944663ef8",
+      "topic": "CDPR has \"hired so many modders\" that \"half of the quest team\" for Cyberpunk 2077 started in mods",
+      "detected_at": "2026-10-21T18:55:19.795810+00:00",
+      "analysed_at": "2026-10-31T08:52:53.129004+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/cyberpunk/cd-projekt-red-has-hired-so-many-modders-that-cyberpunk-2-co-lead-says-i-think-half-of-the-quest-team-is-all-former-modders/",
+          "title": "CDPR has \"hired so many modders\" that \"half of the quest team\" for Cyberpunk 2077 started in mods",
+          "evidence": "<article> <p>While development is currently ongoing for <a href=\"https://www.gamesradar.com/games/cyberpunk/cyberpunk-2-boss-says-the-dystopian-rpg-has-evolved-beyond-his-original-idea-and-i-look-forward-to-sharing-that-when-it-releases/\">Cyberpunk 2</a>, <a href=\"https://www.gamesradar.com/uk/cyberpunk-2077/\">Cyberpunk 2077</a> is still getting updates from <a href=\"https://www.gamesradar.com/uk/tag/cd-projekt-red/\">CD Projekt Red</a>. Amid conversations around the latest, <a href=\"https://www.gamesradar.com/games/cyberpunk/cyberpunk-2077-update-2-5-adds-a-new-quest-as-a-prequel-for-edgerunners-2-and-mod-support-on-consoles-that-includes-adult-options/\">Edgerunners-themed addition</a>, the lead developers champion how prominent mods are, to the point that a significant amount of the current team have been plucked from the modding scene.</p><p>As part of one of the company's <a href=\"https://www.youtube.com/watch?v=nhlnT9FzgJ8\" target=\"_blank\">RedStreams</a>, the discussion turns to modding and how it's helped leadership sculpt both Cyberpunk 2077 and its follow-up. The company has partnered with mod.io, major creators have been consulted on various ways to improve the RPG, and Paw"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "CDPR has \"hired so many modders\" that \"half of the quest team\" for Cyberpunk 2077 started in mods",
+        "secondary_keywords": [
+          "CDPR has \"hired so many modders\" that \"half of the quest team\" for Cyberpunk 2077 started in mods date de sortie",
+          "CDPR has \"hired so many modders\" that \"half of the quest team\" for Cyberpunk 2077 started in mods plateformes",
+          "CDPR has \"hired so many modders\" that \"half of the quest team\" for Cyberpunk 2077 started in mods gameplay",
+          "CDPR has \"hired so many modders\" that \"half of the quest team\" for Cyberpunk 2077 started in mods guide",
+          "CDPR has \"hired so many modders\" that \"half of the quest team\" for Cyberpunk 2077 started in mods avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "CDPR has \"hired so many modders\" that \"half of the quest team\" for Cyberpunk 2077 started in mods"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-sauron-faces-a-balrog-wears-the-one-ring-and-gathers-hi-da31a0bb85f0",
+      "topic": "Sauron faces a Balrog, wears the One Ring, and gathers his dark army in fiery new The Rings of Power season 3 trailer",
+      "detected_at": "2026-10-21T18:55:19.796024+00:00",
+      "analysed_at": "2026-10-31T08:52:53.129032+00:00",
+      "scores": {
+        "durability": 12,
+        "search_intent": 15,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 61,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/rings-of-power-season-3-official-trailer/",
+          "title": "Sauron faces a Balrog, wears the One Ring, and gathers his dark army in fiery new The Rings of Power season 3 trailer",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/maP_Kyy3DCA\" allowfullscreen></iframe></div></div><p>A new trailer for <a href=\"https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/lord-of-the-rings-the-rings-of-power-season-3-release-date-cast-plot-trailer-news/\">The Rings of Power season 3</a> has finally arrived, and it's a smoky, fiery return to Middle-earth where the stakes are higher and darker than ever. </p><p>The trailer, which you can watch above, is very much focused on <a href=\"https://www.gamesradar.com/sauon-lord-of-the-rings-the-rings-of-power-cast/\">Sauron</a>. The villain sits on his throne, dons the One Ring, and even faces a Balrog in the footage, as he gathers his formidable army of Orcs and speaks to the Nazgûl. </p><p>Galadriel also features heavily in the trailer, and we're finally introduced to her husband Celeborn, played by Jamie Campbell Bower, too. </p><p>The Rings of Power season 3 will pick up in the aftermath of the dramatic <a href=\"https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/the-rings-of-pow"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Sauron faces a Balrog, wears the One Ring, and gathers his dark army in fiery new The Rings of Power season 3 trailer",
+        "secondary_keywords": [
+          "Sauron faces a Balrog, wears the One Ring, and gathers his dark army in fiery new The Rings of Power season 3 trailer date de sortie",
+          "Sauron faces a Balrog, wears the One Ring, and gathers his dark army in fiery new The Rings of Power season 3 trailer plateformes",
+          "Sauron faces a Balrog, wears the One Ring, and gathers his dark army in fiery new The Rings of Power season 3 trailer gameplay",
+          "Sauron faces a Balrog, wears the One Ring, and gathers his dark army in fiery new The Rings of Power season 3 trailer guide",
+          "Sauron faces a Balrog, wears the One Ring, and gathers his dark army in fiery new The Rings of Power season 3 trailer avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Sauron faces a Balrog, wears the One Ring, and gathers his dark army in fiery new The Rings of Power season 3 trailer"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-clayface-star-was-really-cutting-through-prosthetics-on-cd561ab9f3c8",
+      "topic": "Clayface star was \"really cutting through\" prosthetics on his eyes during gruesome airplane sequence",
+      "detected_at": "2026-10-21T18:55:19.796426+00:00",
+      "analysed_at": "2026-10-31T08:52:53.129058+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/clayface-star-was-really-cutting-through-prosthetics-on-his-eyes-in-gruesome-airplane-sequence-which-was-so-extreme-it-made-the-crew-groan/",
+          "title": "Clayface star was \"really cutting through\" prosthetics on his eyes during gruesome airplane sequence",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/dc-movies/clayface-release-date-plot-cast-news/\">Clayface</a>, the latest movie from DC Studios, is a villain origin story for the titular Matt Hagen – with copious amounts of body horror. </p><p>After being horrifically disfigured by a mobster, Matt – previously an up-and-coming Hollywood actor – gains shapeshifting powers after receiving experimental treatment from Dr. Caitlyn Corr. But, this comes with a terrible cost: when he gets too emotional, he can completely lose control of his body. The result is a grisly, R-rated horror flick. </p><p>\"Well, I think if you're going to buy a ticket for a horror movie, it's like buying a ticket for a roller coaster ride, right? You don't want to buy a ticket for the really boring ride,\" Clayface director James Watkins tells us when we meet with him in London and ask why he wanted to take the film in this direction. \"You want to buy a ticket for the really out there ride, the one with real ups and downs, the one that goes upside down and throws you around in circles.\"</p><p>To make his body horror, Watkins drew on some iconic inspiration. \"In terms of movies, I guess I'd probably"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Clayface star was \"really cutting through\" prosthetics on his eyes during gruesome airplane sequence",
+        "secondary_keywords": [
+          "Clayface star was \"really cutting through\" prosthetics on his eyes during gruesome airplane sequence date de sortie",
+          "Clayface star was \"really cutting through\" prosthetics on his eyes during gruesome airplane sequence plateformes",
+          "Clayface star was \"really cutting through\" prosthetics on his eyes during gruesome airplane sequence gameplay",
+          "Clayface star was \"really cutting through\" prosthetics on his eyes during gruesome airplane sequence guide",
+          "Clayface star was \"really cutting through\" prosthetics on his eyes during gruesome airplane sequence avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Clayface star was \"really cutting through\" prosthetics on his eyes during gruesome airplane sequence"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

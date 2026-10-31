@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-10-30T19:42:33.266180+00:00",
+  "updated_at": "2026-10-31T08:52:59.136381+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -417,6 +417,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-sifu-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 912,
       "published_at": "2026-10-30T19:42:33.266180+00:00"
+    },
+    {
+      "intent_key": "configuration pc stardew valley",
+      "primary_keyword": "configuration pc Stardew Valley",
+      "title": "Configuration PC Stardew Valley : minimale, recommandée et conseils",
+      "wordpress_url": "https://gamerquestfr.com/configuration-pc-stardew-valley-minimale-recommandee-et-conseils/",
+      "wordpress_post_id": 921,
+      "published_at": "2026-10-31T08:52:59.136381+00:00"
     }
   ]
 }

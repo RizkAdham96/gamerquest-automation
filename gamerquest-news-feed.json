@@ -1,7 +1,53 @@
 {
-  "generated_at": "2026-10-30T06:12:38.421420+00:00",
+  "generated_at": "2026-10-31T06:07:49.086371+00:00",
   "count": 50,
   "articles": [
+    {
+      "source_id": "e564d77bf5dd49dd8da07c3ab35ddf14709a290ddfb7eb6270ecbd7267e98021",
+      "title": "Doom sur Raspberry Pi Pico 2 W : comment l’IA permet de le faire tourner",
+      "excerpt": "Un développeur a réalisé une version simplifiée de Doom sur le Raspberry Pi Pico 2 W, où chaque image est générée par une IA, sans moteur de jeu traditionnel.",
+      "content": "<p>Le 30 octobre, Clubic a publié un article sur une démonstration technique : un développeur a fait tourner une version simplifiée du FPS <strong>Doom</strong> sur un <strong>Raspberry Pi Pico 2 W</strong>. La particularité est que chaque image du jeu est générée en temps réel par une intelligence artificielle, sans utiliser de moteur de rendu classique.</p>\n<h2>Gameplay simplifié</h2>\n<p>La version présentée ne reproduit pas l’intégralité du Doom original, mais conserve les éléments de base d’un FPS : déplacement, tir et ennemis. Le rendu visuel est créé par l’IA, ce qui donne un style différent de la version traditionnelle.</p>\n<h2>Exécution sur le Pico 2 W</h2>\n<p>Le Raspberry Pi Pico 2 W est un microcontrôleur à faible consommation. Grâce à l’IA, le développeur a réussi à contourner les limites de ce matériel pour afficher les frames du jeu en temps réel.</p>\n<h2>Implications pour le portage de jeux</h2>\n<p>Cette démonstration montre qu’il est possible d’exécuter des titres classiques sur du hardware très limité en repensant l’architecture logicielle. Elle illustre également le potentiel de l’IA pour remplacer les pipelines graphiques traditionnels dans le développement de jeux vidéo.</p>\n<p>À ce jour, il s’agit d’une démonstration partagée dans la communauté. Aucun lien de téléchargement officiel n’a été fourni dans l’article de Clubic.</p>",
+      "slug": "doom-raspberry-pi-ia",
+      "category": "Actualités",
+      "tags": [
+        "Doom",
+        "Raspberry Pi",
+        "IA",
+        "FPS",
+        "Développement"
+      ],
+      "seo": {
+        "seo_title": "Doom sur Raspberry Pi Pico 2 W : comment l’IA permet de le faire tourner",
+        "meta_description": "Découvrez comment un développeur a fait tourner une version simplifiée de Doom sur un Raspberry Pi Pico 2 W, recréée image par image par l’IA.",
+        "primary_keyword": "Doom Raspberry Pi",
+        "secondary_keywords": [
+          "Doom IA",
+          "Raspberry Pi Pico 2",
+          "version simplifiée Doom",
+          "FPS IA",
+          "développement jeu Raspberry Pi",
+          "intelligence artificielle jeu vidéo"
+        ],
+        "search_intent": "Informational"
+      },
+      "source": {
+        "url": "https://www.actualite-en-ligne.com/Clubic",
+        "title": "Clubic - Actualité en ligne",
+        "published_date": "Tue, 27 Oct 2026 17:00:00 GMT",
+        "domain": "actualite-en-ligne.com"
+      },
+      "official_source": null,
+      "created_at": "2026-10-31T06:07:19.770332+00:00",
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/doom-raspberry-pi-ia.jpg",
+        "filename": "doom-raspberry-pi-ia.jpg",
+        "alt": "Doom sur Raspberry Pi Pico 2 W : comment l’IA permet de le faire tourner - GamerQuest",
+        "caption": "Illustration de l'article « Doom sur Raspberry Pi Pico 2 W : comment l’IA permet de le faire tourner ».",
+        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
+        "source_image_url": null
+      },
+      "platforms": []
+    },
     {
       "source_id": "dc40ae38a25d7732d6778dfd8d62a5233fffdcaaa6001d3a4b7f6ff5db90aff1",
       "title": "23 applications de jeux qui vous permettent de gagner immédiatement de l'argent réel en 2026",
@@ -2519,54 +2565,6 @@
         "Nintendo",
         "PlayStation",
         "Xbox"
-      ]
-    },
-    {
-      "source_id": "5dcd9316140572cc214bac35783ed42b5dcf5c5c2d06488eea1a985489d2ad9d",
-      "title": "Final Fantasy Resonance : date de sortie, gameplay et démo – tout ce qu’on sait",
-      "excerpt": "Square Enix a dévoilé Final Fantasy Resonance, prévu le 22 octobre 2026. Le trailer montre un univers HD‑2D, un système de jobs « Visions », et une démo gratuite incluant le premier chapitre.",
-      "content": "<article>\n<p>Square Enix a présenté <strong>Final Fantasy Resonance</strong> lors du double <a href=\"https://gamerquestfr.com/final-fantasy-vii-revelation-date-sortie-2027/\">State of Play</a>, révélant une date de sortie officielle et plusieurs éléments de gameplay. Voici les informations essentielles.</p>\n<h2>Quelle est la date de sortie de Final Fantasy Resonance ?</h2>\n<p>Le jeu sortira le <strong>22 octobre 2026</strong>. Cette annonce a été faite pendant la diffusion de la bande‑annonce officielle.</p>\n<h2>Que sait‑on du gameplay de Final Fantasy Resonance ?</h2>\n<p>Final Fantasy Resonance sera le premier titre de la série à adopter le style <em>HD‑2D</em>, combinant pixel art et effets de profondeur. Le combat reste au tour‑based, avec les classiques de la franchise : Chocobos, vaisseaux aériens et sorts. Une nouveauté majeure est le système de jobs baptisé <strong>Visions</strong>, qui permet de créer des classes personnalisées.</p>\n<p>Le trailer a également confirmé la présence de <strong>Sephiroth</strong>, qui apparaît dans une scène d’action, ainsi que d’autres personnages emblématiques que les joueurs devront affronter.</p>\n<h2>Une démo gratuite est‑elle disponible ?</h2>\n<p>Oui. En même temps que la bande‑annonce, Square Enix a distribué une <strong>démo gratuite</strong> contenant le premier chapitre complet du jeu. Les sauvegardes réalisées dans la démo pourront être transférées vers la version finale.</p>\n<h2>Quelles sont les autres annonces liées à Final Fantasy Resonance ?</h2>\n<p>Outre la date de sortie, le trailer a mis en avant les environnements variés du jeu, les combats contre des ennemis légendaires et la possibilité d’explorer un monde riche en quêtes secondaires. Aucun détail supplémentaire sur les plateformes ou le prix n’a été communiqué.</p>\n</article>",
-      "slug": "final-fantasy-resonance-date-sortie",
-      "category": "Actualités",
-      "tags": [
-        "Final Fantasy",
-        "Square Enix",
-        "HD‑2D",
-        "Démo gratuite",
-        "Jeux PS5",
-        "PlayStation"
-      ],
-      "seo": {
-        "seo_title": "Final Fantasy Resonance : date de sortie, gameplay et démo – tout ce qu’on sait",
-        "meta_description": "Découvrez la date de sortie de Final Fantasy Resonance (22 octobre 2026), son gameplay HD‑2D, la démo gratuite et les nouveautés annoncées par Square Enix.",
-        "primary_keyword": "Final Fantasy Resonance date de sortie",
-        "secondary_keywords": [
-          "Final Fantasy Resonance gameplay",
-          "Final Fantasy Resonance démo",
-          "Square Enix annonce",
-          "HD‑2D Final Fantasy",
-          "Final Fantasy Resonance Sephiroth"
-        ],
-        "search_intent": "News"
-      },
-      "source": {
-        "url": "https://www.invenglobal.com/webtest/articles/25559/double-the-game-reveals-with-state-of-play-japan",
-        "title": "Double the Game Reveals with 'State of Play + Japan' - Inven Global",
-        "published_date": "Thu, 03 Sep 2026 16:45:06 GMT",
-        "domain": "invenglobal.com"
-      },
-      "official_source": null,
-      "created_at": "2026-09-05T18:07:35.191678+00:00",
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_news_images/final-fantasy-resonance-date-sortie.jpg",
-        "filename": "final-fantasy-resonance-date-sortie.jpg",
-        "alt": "Final Fantasy Resonance : date de sortie, gameplay et démo – tout ce qu’on sait - GamerQuest",
-        "caption": "Illustration de l'article « Final Fantasy Resonance : date de sortie, gameplay et démo – tout ce qu’on sait ».",
-        "description": "Image GamerQuest générée automatiquement à partir d'un visuel contextuel de la source lorsqu'il est disponible.",
-        "source_image_url": "https://static.invenglobal.com/upload/image/2026/09/03/r1788454517998067.jpeg"
-      },
-      "platforms": [
-        "PlayStation"
       ]
     }
   ]

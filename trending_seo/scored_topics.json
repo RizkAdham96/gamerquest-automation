@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-31T08:52:53.129064+00:00",
+  "updated_at": "2026-10-31T18:45:15.471848+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -18030,6 +18030,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Clayface star was \"really cutting through\" prosthetics on his eyes during gruesome airplane sequence"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-where-to-buy-disney-lorcana-hyperia-city-we-re-just-two-53f86b53cbc9",
+      "topic": "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low",
+      "detected_at": "2026-10-21T18:55:19.798040+00:00",
+      "analysed_at": "2026-10-31T18:45:15.471622+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/tabletop-gaming/where-to-buy-disney-lorcana-hyperia-city-were-just-days-away-from-launch-day-but-stock-is-running-low/",
+          "title": "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low",
+          "evidence": "<article> <p>Disney Lorcana: Hyperia City launches on October 23, and with booster bundles, prerelease boxes, and an Illumineer's Trove up for grabs, the latest set is already starting to drift onto the shelves. It's worth checking MSRPs if you're wondering where to buy Disney Lorcana: Hyperia City before the big day.</p><div class=\"fancy-box\"><div class=\"fancy_box-title\">Jump to</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><a data-analytics-id=\"inline-link\" href=\"#section-where-to-buy-disney-lorcana-hyperia-city-in-the-us\">US stock </a></p><p class=\"fancy-box__body-text\"><a data-analytics-id=\"inline-link\" href=\"#section-where-to-buy-disney-lorcana-hyperia-city-in-the-uk\">UK stock</a></p></div></div><p>Pre-order stock remains pricey at Amazon this week (how much for a pre-release?), but preliminary listings are also going live across GameStop and Target. The full wash of Disney Lorcana: Hyperia City stock should pick up once we're into release day.</p><p>With Miguel Rivera leading the pack, Hyperia City introduces Coco to Disney Lorcana for the first time, alongside new song cards from the movie and mechanics that take advantage of \"remembering past glimmers\" th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low",
+        "secondary_keywords": [
+          "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low date de sortie",
+          "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low plateformes",
+          "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low gameplay",
+          "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low guide",
+          "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Where to buy Disney Lorcana: Hyperia City - we're just two days away from launch day but stock is running low"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ex-blizzard-boss-says-an-1-800-xbox-will-never-sell-and-9b0f430f98ca",
+      "topic": "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people",
+      "detected_at": "2026-10-22T07:57:46.580962+00:00",
+      "analysed_at": "2026-10-31T18:45:15.471673+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/platforms/xbox/ex-blizzard-boss-says-an-usd1800-xbox-will-never-sell-and-current-gen-consoles-are-fine-for-99-percent-of-the-audience-anyway/",
+          "title": "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people",
+          "evidence": "<article> <p>Former Blizzard president Mike Ybarra doesn't like what he's hearing about the next Xbox console costing somewhere in the range of $1,200 to $1,800, as was recently reported.</p><p>In case you hadn't heard, yes, I'm afraid I bring you <a href=\"https://www.gamesradar.com/hardware/us-console-market-hasnt-been-in-a-more-precarious-position-since-the-early-80s-analyst-says-as-ps5-and-xbox-series-x-price-soar-to-all-time-highs/\">even more bad news about the games console market</a>. A recent report from <a href=\"https://fortune.com/2026/10/20/the-non-gamer-ceo-racing-to-save-microsofts-xbox/\" target=\"_blank\">Fortune</a> claims <a href=\"https://www.gamesradar.com/hardware/xbox-project-helix-console-could-cost-as-much-as-usd1-800-and-is-reportedly-set-to-launch-by-christmas-2028/\">Microsoft is projecting internally that its next home console will \"cost consumers between $1,200 and $1,800,\"</a> assuming Xbox doesn't subsidize some of that cost and take a potential financial loss on hardware sales. Even amid an unprecedented increase in component costs driven by global <a href=\"https://www.gamesradar.com/hardware/desktop-pc/ram-shortages-explained-why-the-worlds-supply-of-compu"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people",
+        "secondary_keywords": [
+          "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people date de sortie",
+          "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people plateformes",
+          "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people gameplay",
+          "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people guide",
+          "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ex-Blizzard boss says an $1,800 Xbox \"will never sell\" and current-gen is \"fine for 99%\" of people"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-batman-is-around-during-the-events-of-clayface-confirms-8e43b7be6984",
+      "topic": "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\"",
+      "detected_at": "2026-10-22T07:57:46.581173+00:00",
+      "analysed_at": "2026-10-31T18:45:15.471711+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/batman-is-around-during-the-events-of-clayface-confirms-dc-studios-co-ceo-this-is-the-introduction-to-the-live-action-gotham/",
+          "title": "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\"",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/dc-movies/clayface-release-date-plot-cast-news/\">Clayface</a> is almost upon us, and DC Studios co-CEO Peter Safran has confirmed that Batman is indeed active in Gotham during the events of the upcoming film.</p><p>\"We haven't really talked about what he's doing during the actual events of Clayface,\" Safran told<a href=\"https://collider.com/clayface-movie-batman-dc-studios-peter-safran-interview/?utm_campaign=TrueAnthem-HWL&utm_medium=Social-Distribution&utm_source=Twitter\" target=\"_blank\"> Collider</a>. \"But Batman is there. This is the introduction to the live-action Gotham. We showed a silhouette of Batman in Creature Commandos, so you know he's around, but this is the first step into the world of Gotham for us.\"</p><p>Batman appears for just a moment in Creature Commandos season 1 episode 6, standing on the rooftop overlooking the Penguin's nightclub. <a href=\"https://www.gamesradar.com/entertainment/dc-tv-shows/lanterns-showrunner-says-they-didnt-want-to-make-a-big-deal-about-the-dcu-shows-batman-mention-in-episode-6-there-were-fewer-conversations-than-youd-think/\">We got our first live-action mention of Batman in "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\"",
+        "secondary_keywords": [
+          "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\" date de sortie",
+          "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\" plateformes",
+          "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\" gameplay",
+          "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\" guide",
+          "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Batman is \"around\" during the events of Clayface, confirms DC Studios co-CEO: \"This is the introduction to the live-action Gotham\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-penguin-showrunner-to-produce-dc-poison-ivy-tv-show-won-0b885317d851",
+      "topic": "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe",
+      "detected_at": "2026-10-22T07:57:46.581359+00:00",
+      "analysed_at": "2026-10-31T18:45:15.471739+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-tv-shows/the-penguin-showrunner-is-in-talks-to-produce-dcs-live-action-poison-ivy-tv-show-but-it-wont-be-set-in-the-matt-reeves-batman-universe/",
+          "title": "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe",
+          "evidence": "<article> <p>As <a href=\"https://www.gamesradar.com/entertainment/dc-movies/clayface-release-date-plot-cast-news/\">Clayface </a>rolls into theaters, another standalone project based on a Batman villain is moving forward at DC. The previously rumored live-action Poison Ivy TV series is a go, and The Penguin showrunner Lauren LeFranc is in talks to produce.</p><p>According to <a href=\"https://deadline.com/2026/10/lauren-lefranc-producer-poison-ivy-tv-series-hbo-1237169887/\" target=\"_blank\">Deadline</a>, the upcoming Poison Ivy series will be part of the DCU, rather than being part of Elseworlds, which is the universe that belongs to Matt Reeves and The Penguin. No plot or casting details have been announced as of yet. We also don't know if any other spin-offs will come out of the Matt Reeves Batman universe, as The Batman 2 doesn't hit theaters until 2028.</p><p>Poison Ivy made her comic book debut back in 1966 in Batman #181, first introduced as Dr. Lillian Rose. A doctor of botany, she survives an attempted poisoning and realizes she's immune to all toxins and diseases. In 1988, she was reimagined as Dr. Pamela Isley, a Gotham City botanist who develops plant-like superpowers after"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe",
+        "secondary_keywords": [
+          "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe date de sortie",
+          "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe plateformes",
+          "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe gameplay",
+          "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe guide",
+          "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Penguin showrunner to produce DC Poison Ivy TV show, won't be set in Matt Reeves Batman universe"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-star-wars-battlefront-3-reportedly-in-the-works-at-resp-653aac551db0",
+      "topic": "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice",
+      "detected_at": "2026-10-22T07:57:46.581588+00:00",
+      "analysed_at": "2026-10-31T18:45:15.471764+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/star-wars-battlefront-3-reportedly-in-the-works-at-respawn-and-dice-in-the-wake-of-eas-bioware-shutdown/",
+          "title": "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice",
+          "evidence": "<article> <p>In the wake of <a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">EA's closure of beloved RPG studio BioWare</a>, two other EA studios are teaming up for an undisclosed project reported to be a revival of Star Wars: Battlefront 3.</p><p>It's been several years now since <a href=\"https://www.gamesradar.com/star-wars-battlefront-3-reportedly-shelved-in-favor-of-new-games-at-respawn/\">reports claimed</a> Star Wars: Battlefront 3 had been shelved EA, but just this week <a href=\"https://www.gamesradar.com/games/fps/star-wars-battlefront-3-rumors-get-an-unexpected-boost-from-wardogs-ceo-who-says-battlefield-studio-dice-is-working-on-it-alongside-apex-legends-devs/\">rumors of a revival and team-up between Respawn and Dice surfaced</a>. And now, those rumors are heavily substantiated as EA confirms it's \"bringing together our Respawn and DICE studios to collaborate on a future project,\" and <a href=\"https://variety.com/2026/digital/news/ea-layoffs-bioware-shutting-down-respawn-dice-star-wars-battlefront-3-1236918715/\" target=\"_blank\">Variety</a> reports that the game they're working on together is Star W"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice",
+        "secondary_keywords": [
+          "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice date de sortie",
+          "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice plateformes",
+          "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice gameplay",
+          "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice guide",
+          "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Star Wars: Battlefront 3 reportedly in the works at Respawn and Dice"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-witcher-and-cyberpunk-2077-devs-join-creators-mourn-74217dfd44a8",
+      "topic": "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare",
+      "detected_at": "2026-10-22T07:57:46.581956+00:00",
+      "analysed_at": "2026-10-31T18:45:15.471788+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/the-witcher-and-cyberpunk-2077-devs-join-creators-mourning-bioware-baldurs-gate-1-and-2-shaped-my-imagination-and-the-desire-to-create-games/",
+          "title": "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">EA has closed BioWare</a>, canceled the next Mass Effect, and, most importantly, upended the lives of even more game developers in a tumultuous time for the industry. In response, developers are paying tribute to the legendary RPG studio online, with many calling its games pivotal to their own creative paths.</p><p>17-year BioWare veteran and longtime director Michael Gamble <a href=\"https://x.com/GambleMike/status/2112971592158568450\" target=\"_blank\"><u>shared</u></a> the studio's news post. \"Your support has meant everything to me over the past 17 years at BioWare,\" he writes. </p><p>New Bungie head Josh Deane replied to Gamble's post, saying, \"Thank you and to everyone at Bioware who has built worlds that have been such an important part of our lives.\" In a separate <a href=\"https://x.com/S14deane/status/2112963871728414766\" target=\"_blank\"><u>post</u></a>, Deane adds, \"This studio is magical and an existential part of my favorite gaming memories, I refuse to believe this...\" </p><p>CD Projekt Red veteran Paweł Sasko, a face of the studio to m"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare",
+        "secondary_keywords": [
+          "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare date de sortie",
+          "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare plateformes",
+          "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare gameplay",
+          "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare guide",
+          "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Witcher and Cyberpunk 2077 devs join creators mourning BioWare"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-diablo-4-players-find-homebrew-fix-to-a-huge-season-15--8be2e166a926",
+      "topic": "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend",
+      "detected_at": "2026-10-22T07:57:46.582169+00:00",
+      "analysed_at": "2026-10-31T18:45:15.471819+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/diablo-4-players-rally-for-a-homebrew-fix-to-a-huge-season-15-annoyance-but-youll-need-at-least-one-very-good-friend/",
+          "title": "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend",
+          "evidence": "<article> <p>The Splinters of Evil are some of Diablo 4 season 15's rarest drops, but once you get your hands on a specific type – Hatred, Terror, or Destruction – that's all you can hold of that type at once. Blizzard seems to have intentionally designed this specific seasonal drop to not stack, meaning you can only have one splinter of each type in your inventory at once. That might seem like a pretty niche problem applicable only to endgame players in the highest Torment tiers, and it is, but for those players it's a major issue precisely because splinters are so rare. Imagine having to walk away from one of the game's rarest drops simply because you already have one in your inventory, and then you can understand why endgame grinders have rallied for a homebrew solution, and found one.</p><p>As detailed in a new video from prolific Diablo creator Rob2628, there's a fairly simple – but tedious – workaround you can do if you <em>really </em>want duplicate splinters in your inventory. As Rob2628 points out, you'll need at least one friend who's leveled enough in Diablo 4 to access Torment tier 10 where you can farm Splinters of Evil from Diablo, Mephisto, and Baal. </p><p>Once you'"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend",
+        "secondary_keywords": [
+          "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend date de sortie",
+          "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend plateformes",
+          "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend gameplay",
+          "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend guide",
+          "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Diablo 4 players find homebrew fix to a huge season 15 annoyance, but you'll need a good friend"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-clayface-review-skin-deep-thrills-and-spills-mask-an-un-17e3611ce2bc",
+      "topic": "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\"",
+      "detected_at": "2026-10-22T07:57:46.582544+00:00",
+      "analysed_at": "2026-10-31T18:45:15.471843+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/clayface-review/",
+          "title": "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\"",
+          "evidence": "<article> <p>Over the years, Clayface has come in many shapes and sizes: thespian comedy sidekick in the Harley Quinn series, meme minifigure in the LEGO Batman games, and even as the focal point of Emmy-nominated two-parter 'Feat of Clay' in the seminal 1990s show Batman: The Animated Series.</p><p>2026's Clayface – the first outright horror in the DCU – taps into the rich narrative vein of the latter, molding the comic book villain into a tragic, deeply troubled figure that manages to escape the long shadow of the Bat for his own flawed, grisly rampage through Gotham.</p><p>Fresh off an Oscar nomination, the world of sandy-blonde actor Matt Hagen (a starmaking performance from Tom Rhys Harries) soon crashes down around him after bedding the girlfriend of crime boss Markos Szabo (David Dencik). The repercussions are severe and instant in a breezy first act: Hagen's face is slashed to pieces. His one saving grace is experimental nanocell surgery by outcast scientist Dr. Caitlyn Corr (Naomi Ackie).</p><p>From there, Hagen's internal strife is quickly swept to one side, despite Rhys Harries' best efforts (the first casualty of Mike Flanagan and Hossein Amini's underbaked script), for"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\"",
+        "secondary_keywords": [
+          "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\" date de sortie",
+          "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\" plateformes",
+          "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\" gameplay",
+          "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\" guide",
+          "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\""
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

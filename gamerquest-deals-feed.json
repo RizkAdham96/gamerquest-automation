@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T21:00:15.650597+00:00",
-  "count": 1,
+  "generated_at": "2026-10-31T06:12:13.998041+00:00",
+  "count": 2,
   "articles": [
     {
       "source_id": "c481677c3a6808bd705f24a2f418e51459fab5a1ba436aa99c5a06516de7f366",
@@ -22,6 +22,28 @@
         "alt": "Sons Of The Forest -72% sur Steam - GamerQuest",
         "caption": "Sons Of The Forest : offre -72% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre Sons Of The Forest sur Steam."
+      }
+    },
+    {
+      "source_id": "e4917a0d49471c7e8adef445499a6dc37820bc5238cb337d61d982d438accae4",
+      "title": "Slay the Princess — The Pristine Cut à -60% sur Steam",
+      "excerpt": "Slay the Princess — The Pristine Cut bénéficie actuellement d'une réduction de 60% sur Steam, passant de 16,99 € à 6,79 €.",
+      "content": "<p><strong>Slay the Princess — The Pristine Cut</strong> bénéficie actuellement d'une réduction de <strong>60%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>16,99 €</strong></li><li>Prix actuel : <strong>6,79 €</strong></li><li>Réduction : <strong>60%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1989270/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1989270/",
+      "deal": {
+        "game": "Slay the Princess — The Pristine Cut",
+        "store": "Steam",
+        "original_price": 16.99,
+        "current_price": 6.79,
+        "discount_percent": 60,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/e4917a0d49471c7e8adef445499a6dc37820bc5238cb337d61d982d438accae4.jpg",
+        "filename": "e4917a0d49471c7e8adef445499a6dc37820bc5238cb337d61d982d438accae4.jpg",
+        "alt": "Slay the Princess — The Pristine Cut -60% sur Steam - GamerQuest",
+        "caption": "Slay the Princess — The Pristine Cut : offre -60% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Slay the Princess — The Pristine Cut sur Steam."
       }
     }
   ]

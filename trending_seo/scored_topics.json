@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-10-31T18:45:15.471848+00:00",
+  "updated_at": "2026-11-01T09:43:51.881689+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -18342,6 +18342,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Clayface review: \"Skin-deep thrills and spills mask an uneven DC horror\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-backlash-to-sony-ending-ps5-discs-comes-from-a-vocal-mi-fa0afd20e76d",
+      "topic": "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says",
+      "detected_at": "2026-10-22T07:57:46.583708+00:00",
+      "analysed_at": "2026-11-01T09:43:51.881476+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/backlash-to-sony-ending-ps5-discs-comes-from-a-vocal-minority-of-a-revenue-minority-analyst-says-but-thats-still-a-community-that-spends-a-lot-of-money/",
+          "title": "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says",
+          "evidence": "<article> <p>Come January 2028, <a href=\"https://www.gamesradar.com/tag/sony/\">Sony</a> will be out of the physical games market, ceasing production on new discs for PlayStation consoles. There's been fervent outcry since this was announced, with studios across the industry reacting to the shift. As loud as the pushback seems, one analyst believes it's really the smaller half of the overall audience.</p><p>In a <a href=\"https://alineaanalytics.substack.com/p/physical-game-revenues-on-playstation?utm_source=substack&publication_id=5141681&post_id=221334123&utm_medium=email&utm_content=share&utm_campaign=email-share&triggerShare=true&isFreemail=true&r=hej50&triedRedirect=true\" target=\"_blank\">newsletter</a> examining Sony's push toward digital, Rhys Elliott, head of market analysis at Alinea Analytics, examined the market forces that led to the choice. He looks at the sales percentages across a number of best-sellers on the PS5.</p><p><a href=\"https://www.gamesradar.com/uk/resident-evil-requiem/\">Resident Evil: Requiem</a> and <a href=\"https://www.gamesradar.com/uk/marvel-s-wolverine/\">Marvel's Wolverine</a> boast strong disc sales: the former saw just over 30% of its copies shift th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says",
+        "secondary_keywords": [
+          "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says date de sortie",
+          "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says plateformes",
+          "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says gameplay",
+          "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says guide",
+          "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Backlash to Sony ending PS5 discs comes from a \"vocal minority of a revenue minority,\" analyst says"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ubisoft-confirms-assassin-s-creed-black-flag-resynced-n-980c7e55b30e",
+      "topic": "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\"",
+      "detected_at": "2026-10-22T18:49:19.973237+00:00",
+      "analysed_at": "2026-11-01T09:43:51.881523+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-black-flag-resynced-is-finally-getting-the-new-game-plus-update-players-begged-for-ubisoft-confirms/",
+          "title": "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\"",
+          "evidence": "<article> <p>In another totally jam-packed year of new video games, it feels like centuries since <a href=\"https://www.gamesradar.com/assassins-creed-black-flag-resynced-guide/\">Assassin's Creed Black Flag Resynced </a>released (it's really only been a few months), but completionists <a href=\"https://www.reddit.com/r/ACBFResynced/comments/1xbpedh/are_you_genuinely_angry_about_the_new_game/\" target=\"_blank\">haven't stopped asking</a> Ubisoft for a New Game Plus mode. Well, Ubisoft has rather casually confirmed the game's New Game Plus update is coming in an update \"next week,\" silencing months of player requests in a 16-word tweet.</p><p>\"Thank you everyone for your patience,\" reads a tweet from the official Assassin's Creed Twitter account, seemingly acknowledging the amount of time it's been since we've heard anything at all about Black Flag Resynced post-launch. \"New Game+ is coming to Black Flag Resynced next week!\"</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2113299349518115033\"><p lang=\"en\" dir=\"ltr\">Thank you everyone for your patience.New Game+ is coming to Blac"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\"",
+        "secondary_keywords": [
+          "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\" date de sortie",
+          "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\" plateformes",
+          "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\" gameplay",
+          "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\" guide",
+          "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ubisoft confirms Assassin's Creed Black Flag Resynced New Game Plus is coming \"next week\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-5-best-new-shows-and-movies-streaming-this-week-on--aed48e9b0907",
+      "topic": "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25)",
+      "detected_at": "2026-10-22T18:49:19.973687+00:00",
+      "analysed_at": "2026-11-01T09:43:51.881555+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/streaming-services/5-best-new-shows--movies-streaming-netflix-hbo-max-prime-video-october-23-25/",
+          "title": "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25)",
+          "evidence": "<article> <p>As the nights draw in, having a stacked watchlist is more important than ever – you certainly don't want to be caught short on a Saturday evening with nothing to watch. Dodge this disastrous fate by diving into our list of streaming recommendations for this weekend, including five new movies and shows that are all worth your time.</p><p>From an Oscar-tipped comedy-drama and a live-action Disney remake to the return of a cherished Netflix rom-com and a kick-ass anime, there's something for everyone this week. I've chosen titles from across a range of streaming services, so whatever you're subscribed to, there should be something to watch. </p><p>Below you'll find recommendations from Netflix, HBO Max, Prime Video, and Disney Plus. While we don't have any specific Paramount Plus or Apple TV recommendations this week (once you've caught up with the latest episodes of Avatar: Seven Havens, anyway), we do have guides to the <a href=\"https://www.gamesradar.com/best-shows-on-paramount-plus/\">best Paramount Plus shows</a> and the <a href=\"https://www.gamesradar.com/best-movies-on-apple-tv/\">best Apple TV movies</a>. For our very latest streaming recommendations, head below.</p"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25)",
+        "secondary_keywords": [
+          "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25) date de sortie",
+          "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25) plateformes",
+          "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25) gameplay",
+          "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25) guide",
+          "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25) avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The 5 best new shows and movies streaming this week on Netflix, HBO Max, Prime Video, and more (October 23-25)"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-valve-dev-mentions-rumored-half-life-game-hlx-coworker--635497c9c8d3",
+      "topic": "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\"",
+      "detected_at": "2026-10-22T18:49:19.973899+00:00",
+      "analysed_at": "2026-11-01T09:43:51.881581+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fps/valve-dev-mentions-rumored-half-life-game-hlx-at-a-presentation-coworker-immediately-calls-him-out-nice-work/",
+          "title": "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\"",
+          "evidence": "<article> <p>Half-Life 3 rumor vessel HLX has once again been mentioned, this time by a veteran Valve designer at an official presentation digging into game audio. </p><p>A <a href=\"https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcno2m/valve_employee_mike_morasky_accidentally_slips_up/\" target=\"_blank\"><u>post</u></a> on the GamingLeaksAndRumours subreddit archives a recent talk from three Valve designers who attended the latest GameSoundCon, a convention dedicated to game audio and music. </p><p>Speaker Mike Morasky, a Valve composer and audio artist whose experience covers everything from Team Fortress 2 and the original Portal to Half-Life: Alyx, was joined by sound designers David Feise, a 17-year Valve veteran, and Carlye Nyte, a newer Valve hire with experience at Bungie and several other studios.</p><p>During the Q&A portion of a panel covering \"Valve's Approach to an Open and Flexible Audio Engine,\" Morasky fielded a question about voice count. He brings up a group system within Valve's setup and how it folds into its HDR system. </p><p>\"In fact, I think Deadlock has their own version of HDR,\" Morasky says, before casually adding, \"HLX has its own version. So on a"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\"",
+        "secondary_keywords": [
+          "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\" date de sortie",
+          "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\" plateformes",
+          "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\" gameplay",
+          "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\" guide",
+          "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Valve dev mentions rumored Half-Life game HLX, coworker immediately calls him out: \"Nice work\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-former-gta-6-and-red-dead-redemption-2-designer-says-la-1ee12c3a3f67",
+      "topic": "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger",
+      "detected_at": "2026-10-22T18:49:19.974130+00:00",
+      "analysed_at": "2026-11-01T09:43:51.881606+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/former-gta-6-and-red-dead-redemption-2-designer-says-layoffs-at-rockstar-arent-the-real-danger-the-question-is-whether-you-can-meet-the-expectations/",
+          "title": "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger",
+          "evidence": "<article> <p>Redundancies and restructuring have become sad themes of the industry of late. Just this week, <a href=\"https://www.gamesradar.com/games/rpg/standing-on-biowares-grave-ea-says-we-should-be-proud-to-be-the-number-one-publisher-in-western-hd-gaming/\">BioWare was closed by EA</a>, amid <a href=\"https://www.gamesradar.com/platforms/xbox/xbox-is-reportedly-planning-three-waves-of-layoffs-between-now-and-january-as-part-of-its-plan-to-cut-3-200-jobs-by-the-end-of-the-fiscal-year/\">Xbox laying off 3,200 jobs </a>across the entire division. One place that seems safer is <a href=\"https://www.gamesradar.com/uk/tag/rockstar-games/\">Rockstar</a>, which is gearing up to release the mammoth <a href=\"https://www.gamesradar.com/gta-6-guide/\" target=\"_blank\">GTA 6</a>, and at least one ex-dev there believes it's in better shape than most.</p><p>\"I never heard the question of, we need to see if we need to downsize, or if we can afford it. Rockstar can afford it,\" Jérémy Hartvick, an open-world designer on <a href=\"https://www.gamesradar.com/uk/red-dead-redemption-2/\">Red Dead Redemption 2</a> and GTA 6 who left Rockstar in 2020, tells the <a href=\"https://www.youtube.com/watch?v=OLGb8b4"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger",
+        "secondary_keywords": [
+          "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger date de sortie",
+          "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger plateformes",
+          "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger gameplay",
+          "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger guide",
+          "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Former GTA 6 and Red Dead Redemption 2 designer says layoffs at Rockstar aren't the real danger"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ubisoft-reportedly-wasted-3-years-turning-beyond-good-e-8de4019f7442",
+      "topic": "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer",
+      "detected_at": "2026-10-22T18:49:19.974362+00:00",
+      "analysed_at": "2026-11-01T09:43:51.881630+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/ubisoft-reportedly-wasted-3-years-turning-beyond-good-and-evil-2-into-a-live-service-fortnite-killer-but-now-its-a-single-player-focused-game-with-co-op/",
+          "title": "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer",
+          "evidence": "<article> <p>Ubisoft continues to insist that <a href=\"https://www.gamesradar.com/games/open-world/despite-everything-beyond-good-and-evil-2-still-exists-assassins-creed-shadows-dlc-writer-has-been-working-on-it-for-the-past-few-months/\">Beyond Good & Evil 2 is real game that exists</a>, despite the fact that it was announced more than 18 years ago and we haven't seen hide or hair of it this decade. A new report suggests that the reason it's taking so long is that the devs keep going back to the drawing board, most recently transitioning from a live-service Fortnite killer to a single-player first game.</p><p>That's according to French outlet <a href=\"https://www.origami.ng/beyond-good-evil-2-peut-il-mourir/\" target=\"_blank\">Origami</a>, which reports (via machine translation) that Beyond Good & Evil 2 was being developed as a \"highly multiplayer and connected game\" between 2019 and 2022, taking direct inspiration from Fortnite and Destiny. Players would create their own characters and take on activities that would be generated on the fly, with large group sessions that would be matchmade organically.</p><p>Over time, the plan shifted to something more \"open-ended,\" to four-player "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer",
+        "secondary_keywords": [
+          "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer date de sortie",
+          "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer plateformes",
+          "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer gameplay",
+          "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer guide",
+          "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ubisoft reportedly wasted 3 years turning Beyond Good & Evil 2 into a live-service Fortnite killer"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-star-wars-the-old-republic-lead-writer-calls-it-heartbr-e88fdc7c075c",
+      "topic": "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye",
+      "detected_at": "2026-10-22T18:49:19.974599+00:00",
+      "analysed_at": "2026-11-01T09:43:51.881658+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/mmo/star-wars-the-old-republic-lead-writer-calls-it-heartbreaking-there-was-no-mention-of-the-mmo-in-biowares-goodbye/",
+          "title": "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye",
+          "evidence": "<article> <p>Following the recent <a href=\"https://www.gamesradar.com/games/ea-and-games-like-the-sims-dragon-age-and-battlefield-are-now-officially-owned-by-saudi-arabia-and-private-equity-as-usd55-billion-deal-closes/\">EA buyout</a>, the sad news of <a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">BioWare's closure</a> came to light yesterday, alongside a statement from the studio – one that notably doesn't mention Star Wars: The Old Republic, its nearly 15-year-old MMO.</p><p>The statement, which also details the end of <a href=\"https://www.gamesradar.com/mass-effect-5-guide/\">Mass Effect 5</a>, BioWare's never-released RPG, notes several titles that helped shape the company: Baldur's Gate, Neverwinter Nights, Star Wars: Knights of the Old Republic, Dragon Age, and Anthem. <br><br>It does <em>not</em>, however, bring Star Wars: The Old Republic up in any shape or form – and that's caught the attention of the MMO's lead writer, Caitlin Sullivan Kelly.</p><p>Replying to BioWare's goodbye message over on <a href=\"https://x.com/akacaitlin/status/2113064547364057111\" target=\"_blank\">X</a>, Kelly writes, \"No m"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye",
+        "secondary_keywords": [
+          "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye date de sortie",
+          "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye plateformes",
+          "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye gameplay",
+          "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye guide",
+          "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Star Wars: The Old Republic lead writer calls it \"heartbreaking\" there was \"no mention\" of the MMO in BioWare's goodbye"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-nacon-launches-a-new-xbox-controller-with-a-design-insp-ce4d8c971b99",
+      "topic": "Nacon launches a new Xbox controller with a design inspired by one of its own video games",
+      "detected_at": "2026-10-22T18:49:19.974938+00:00",
+      "analysed_at": "2026-11-01T09:43:51.881681+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/gaming-controllers/nacon-goes-full-spider-man-meme-launching-a-new-xbox-controller-with-a-design-inspired-by-one-of-its-own-video-games/",
+          "title": "Nacon launches a new Xbox controller with a design inspired by one of its own video games",
+          "evidence": "<article> <p>Nacon is launching a new wireless <a href=\"https://www.gamesradar.com/best-xbox-series-x-controller\">Xbox Series X controller</a>, and you'll be glad to know it's a lot more affordable than the brand's premier Revolution X Unlimited. While that flagship will set you back $199.99 / £199.99, the new Revolution Pro X will only cost $109.99/£109.99. Despite that, it'll give you wireless play, a charging stand, and some fancy features besides.</p><p>In a brilliant pat of its own back, Nacon has used the art design of one of its best-selling games to give the new RPX a distinct look. 2025's Hell is Us was published by Nacon, and its iconic patterning found all over its in-game world adorns this controller like it's something out of Hadea itself. I love this, because almost every controller is being marketed with palm trees and a GTA 6-reminiscent look at the moment (<a href=\"https://www.gamesradar.com/hardware/gaming-controllers/turtle-beach-drops-a-sequel-to-one-of-the-first-xbox-controllers-with-a-screen-and-it-finally-feels-like-its-pdp-acquisition-is-paying-off\">just look at the Turtle Beach Stealth Ultra 2</a>), but Nacon is backing its own third-person action-adventure"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Nacon launches a new Xbox controller with a design inspired by one of its own video games",
+        "secondary_keywords": [
+          "Nacon launches a new Xbox controller with a design inspired by one of its own video games date de sortie",
+          "Nacon launches a new Xbox controller with a design inspired by one of its own video games plateformes",
+          "Nacon launches a new Xbox controller with a design inspired by one of its own video games gameplay",
+          "Nacon launches a new Xbox controller with a design inspired by one of its own video games guide",
+          "Nacon launches a new Xbox controller with a design inspired by one of its own video games avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Nacon launches a new Xbox controller with a design inspired by one of its own video games"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

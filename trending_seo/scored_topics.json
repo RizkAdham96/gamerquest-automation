@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-01T09:43:51.881689+00:00",
+  "updated_at": "2026-11-01T19:12:41.553526+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -18654,6 +18654,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Nacon launches a new Xbox controller with a design inspired by one of its own video games"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-all-doors-codes-october-2026-and-how-to-redeem-them-for-04e2b5f6c6b3",
+      "topic": "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs",
+      "detected_at": "2026-10-22T18:49:19.976086+00:00",
+      "analysed_at": "2026-11-01T19:12:41.553312+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/survival/doors-codes/",
+          "title": "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs",
+          "evidence": "<article> <p>Many Doors codes reward players with Knobs, the essential in-game currency that can be used during games to unlock life-saving items like lockpicks and vitamins. As you make your way through the daunting, eerie corridors of this deadly walking simulator, you'll need lockpicks, a flashlight, and other survival items, or you might not even make it past door 13.<br><br>Yes, you'll earn Knobs by making your way through as many doors as possible each time you take on this <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> survival challenge, but buying items in the pre-game store can help you get further. That's why you should redeem the Doors codes below before your next run and spend them on some handy items, thus earning you even more Knobs in return.<br><br><em>If you're after some more general avatar rewards to use in all of your experiences, then we've got the current </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em> covered too.</em></p><h2 class=\"article-body__section\" id=\"section-all-doors-codes\"><span>All Doors codes</span></h2><figure class=\"van-image-figure i"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs",
+        "secondary_keywords": [
+          "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs date de sortie",
+          "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs plateformes",
+          "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs gameplay",
+          "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs guide",
+          "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "All Doors codes (October 2026) and how to redeem them for Stardust and Knobs"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-clayface-easter-eggs-17-dc-and-batman-references-you-mi-e022ba5ad491",
+      "topic": "Clayface Easter eggs: 17 DC and Batman references you might have missed",
+      "detected_at": "2026-10-23T07:56:28.083317+00:00",
+      "analysed_at": "2026-11-01T19:12:41.553363+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/clayface-easter-eggs-dc-references-batman/",
+          "title": "Clayface Easter eggs: 17 DC and Batman references you might have missed",
+          "evidence": "<article> <p>The latest DCU movie, Clayface, might be very standalone – but it still features some interesting connections to the wider DC universe. </p><p>Below, we've rounded up the 17 biggest <a href=\"https://www.gamesradar.com/entertainment/dc-movies/clayface-release-date-plot-cast-news/\">Clayface </a>Easter eggs and DC references in the film, including some references to Batman. There's quite a lot tucked away in the background of the film, so it's well worth watching with your eyes peeled. </p><p>Of course, that means there are <strong>Clayface spoilers ahead, so turn back now if you're not up to date. </strong>If you've seen the film, then head below for everything we spotted. And, for even more, read our spoiler-free <a href=\"https://www.gamesradar.com/entertainment/dc-movies/clayface-review/\">Clayface review</a>. </p><h3 class=\"article-body__section\" id=\"section-clayface-easter-eggs-and-dc-references\"><span>Clayface Easter eggs and DC references</span></h3><h2 id=\"the-narrows\">The Narrows</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vani"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Clayface Easter eggs: 17 DC and Batman references you might have missed",
+        "secondary_keywords": [
+          "Clayface Easter eggs: 17 DC and Batman references you might have missed date de sortie",
+          "Clayface Easter eggs: 17 DC and Batman references you might have missed plateformes",
+          "Clayface Easter eggs: 17 DC and Batman references you might have missed gameplay",
+          "Clayface Easter eggs: 17 DC and Batman references you might have missed guide",
+          "Clayface Easter eggs: 17 DC and Batman references you might have missed avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Clayface Easter eggs: 17 DC and Batman references you might have missed"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-dragon-age-vet-says-most-of-the-veilguard-team-had-litt-1c9ce5121a5c",
+      "topic": "Dragon Age vet says most of The Veilguard team \"had little or no say in the things you disliked\"",
+      "detected_at": "2026-10-23T07:56:28.083682+00:00",
+      "analysed_at": "2026-11-01T19:12:41.553393+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/dragon-age/bioware-veteran-goes-to-bat-for-dragon-age-the-veilguards-dev-team-says-most-of-them-had-little-or-no-say-in-the-things-you-disliked-about-the-rpg/",
+          "title": "Dragon Age vet says most of The Veilguard team \"had little or no say in the things you disliked\"",
+          "evidence": "<article> <p>As you might've seen, legendary RPG studio <a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">BioWare has been shut down</a> by parent company Electronic Arts. No matter what you think of the studio and its games, layoffs suck and so does the closure of a company behind some of the most beloved fantasy franchises of all time, which in BioWare's case includes Baldur's Gate, Dragon Age, and Mass Effect. But naturally, not everyone can behave appropriately in response to such an unequivocally horrible situation, nor can everyone simply keep their mouths shut as hundreds of people lose their livelihoods all at once. If a tweet from BioWare veteran and Baldur's Gate 1 and 2 creative director James Ohlen were a room, it wasn't being read.</p><p>In his initial response to the devastating news, Ohlen wrote a blank check of referral for the people who lost their jobs at BioWare this week, calling them \"some of the best RPG developers in the world.</p><p>\"If you're hiring writers, designers, artists or engineers, start with them. Former BioWare folks: if an intro from me would help, reach out,\" he wrote.</"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dragon Age vet says most of The Veilguard team \"had little or no say in the things you disliked\"",
+        "secondary_keywords": [
+          "Dragon Age vet says most of The Veilguard team \"had little or no say in the things you disliked\" date de sortie",
+          "Dragon Age vet says most of The Veilguard team \"had little or no say in the things you disliked\" plateformes",
+          "Dragon Age vet says most of The Veilguard team \"had little or no say in the things you disliked\" gameplay",
+          "Dragon Age vet says most of The Veilguard team \"had little or no say in the things you disliked\" guide",
+          "Dragon Age vet says most of The Veilguard team \"had little or no say in the things you disliked\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Dragon Age vet says most of The Veilguard team \"had little or no say in the things you disliked\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-masters-of-the-universe-director-doesn-t-know-if-a-sequ-3bc03eb9f205",
+      "topic": "Masters of the Universe director doesn't know if a sequel is on the way after streaming success",
+      "detected_at": "2026-10-23T07:56:28.083882+00:00",
+      "analysed_at": "2026-11-01T19:12:41.553424+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/fantasy-movies/masters-of-the-universe-director-still-doesnt-know-if-a-sequel-is-on-the-way-after-the-he-man-movies-massive-streaming-success-these-sorts-of-decisions-are-out-of-our-control/",
+          "title": "Masters of the Universe director doesn't know if a sequel is on the way after streaming success",
+          "evidence": "<article> <p>Masters of the Universe director Travis Knight still doesn't know if Amazon is ready for a sequel, despite the movie's massive streaming success.</p><p>\"In the end, these sorts of decisions are out of our control,\" Knight told <a href=\"https://screenrant.com/masters-of-the-universe-2-prime-video-streaming-redemption-travis-knight/\" target=\"_blank\">ScreenRant</a>. \"You always imagine where these people’s lives go after the end of the movie, and if the universe, in its wisdom, asks us to make more of these things, we would be delighted to give them more.\"</p><p>The new Masters of the Universe, which stars Nicholas Galitzine as He-Man/Adam and Jared Leto as Skeletor, only managed to gross $140 million against its $170-200 million budget. Despite this, the film spent five weeks as the number one movie on Prime Video, and remains one of the streamer's most popular films.</p><p>The movie sees Prince Adam living a normal life on Earth when he's called back to his home planet of Eternia to defeat the evil Skeletor, along with the help of Teela (Camila Mendes). <a href=\"https://www.gamesradar.com/entertainment/fantasy-movies/original-he-man-star-dolph-lundgren-was-disappointed-"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Masters of the Universe director doesn't know if a sequel is on the way after streaming success",
+        "secondary_keywords": [
+          "Masters of the Universe director doesn't know if a sequel is on the way after streaming success date de sortie",
+          "Masters of the Universe director doesn't know if a sequel is on the way after streaming success plateformes",
+          "Masters of the Universe director doesn't know if a sequel is on the way after streaming success gameplay",
+          "Masters of the Universe director doesn't know if a sequel is on the way after streaming success guide",
+          "Masters of the Universe director doesn't know if a sequel is on the way after streaming success avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Masters of the Universe director doesn't know if a sequel is on the way after streaming success"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-epic-wants-to-pay-you-50-000-to-vibe-code-an-ai-slop-ga-dcdfa957d789",
+      "topic": "Epic wants to pay you $50,000 to vibe code an AI slop game",
+      "detected_at": "2026-10-23T07:56:28.084167+00:00",
+      "analysed_at": "2026-11-01T19:12:41.553448+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/epic-wants-to-pay-you-usd50-000-to-vibe-code-an-ai-slop-game/",
+          "title": "Epic wants to pay you $50,000 to vibe code an AI slop game",
+          "evidence": "<article> <p>Not content with the humiliation it has already received over the <a href=\"https://www.gamesradar.com/games/epics-bulletproof-plan-to-outdo-steam-we-vibe-coded-the-epic-games-launcher/\">vibe coded Epic Games Launcher beta</a>, Epic is keen to pay a whole lot of money to aspiring vibe coders in an AI-focused game jam. The company is promising $65,000 worth of cash prizes and potential $50,000 grants for \"standout\" projects – assuming, of course, that you can stomach being part of Epic's attempted AI redemption tour.</p><p>The 2026 AI MegaJam will take place from November 12 through 15, with registration open on <a href=\"https://itch.io/jam/2026-epic-ai-megajam\" target=\"_blank\">Itch.io</a>, challenging participants to build games using Unreal Engine or UEFN. The basic rules are roughly the same as normal game jams, which challenge indie devs to create fun, functional, small games under tight time constraints. It's a well-worn process that's created the prototypes for indie classics like Celeste, Don't Starve, and The Binding of Isaac.</p><p>But the key difference here is that Epic <em>really</em> wants participants to use AI. \"Bring any AI tools into your workflow, from "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Epic wants to pay you $50,000 to vibe code an AI slop game",
+        "secondary_keywords": [
+          "Epic wants to pay you $50,000 to vibe code an AI slop game date de sortie",
+          "Epic wants to pay you $50,000 to vibe code an AI slop game plateformes",
+          "Epic wants to pay you $50,000 to vibe code an AI slop game gameplay",
+          "Epic wants to pay you $50,000 to vibe code an AI slop game guide",
+          "Epic wants to pay you $50,000 to vibe code an AI slop game avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Epic wants to pay you $50,000 to vibe code an AI slop game"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-only-one-person-on-earth-can-play-this-steam-game-at-a--5d6f220fe575",
+      "topic": "Only one person on Earth can play this Steam game at a time: \"You control it for one minute\"",
+      "detected_at": "2026-10-23T07:56:28.084553+00:00",
+      "analysed_at": "2026-11-01T19:12:41.553473+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/platformer/only-one-person-on-earth-can-play-this-steam-game-at-a-time-when-it-is-your-turn-you-control-it-for-one-minute/",
+          "title": "Only one person on Earth can play this Steam game at a time: \"You control it for one minute\"",
+          "evidence": "<article> <p>A clever social game quietly launched on Steam this month. Jono is the latest release from developer and publisher Part Time Monkey, which is actually original Angry Birds artist Tuomas Erikoinen's solo studio, and it's the first \"massively singleplayer\" game I've ever seen. </p><p><a href=\"https://store.steampowered.com/app/5257200/Jono/\" target=\"_blank\"><u>Jono</u></a> is a pixel art 2D platformer with simple art and \"deterministic physics,\" as Erikoinen puts it in a post-mortem Reddit <a href=\"https://www.reddit.com/r/gamedev/comments/1xcqrtm/17_days_ago_i_launched_a_game_where_only_one/?share_id=FDqUPJgaPH_zNm34y_loS&utm_content=1&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1\" target=\"_blank\"><u>post</u></a>. The real hook lies outside the familiar gameplay of jumping over spikes and through portals: only one person can play Jono at a time, and only for one minute at a time, \"then the next person in the queue takes over from exactly where you left off.\" Everyone else sits in a Twitch-like, in-game live stream overlay watching you play, waiting for their turn, or building levels for future players to complete. </p><p>\"Cheer, advise, or compl"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Only one person on Earth can play this Steam game at a time: \"You control it for one minute\"",
+        "secondary_keywords": [
+          "Only one person on Earth can play this Steam game at a time: \"You control it for one minute\" date de sortie",
+          "Only one person on Earth can play this Steam game at a time: \"You control it for one minute\" plateformes",
+          "Only one person on Earth can play this Steam game at a time: \"You control it for one minute\" gameplay",
+          "Only one person on Earth can play this Steam game at a time: \"You control it for one minute\" guide",
+          "Only one person on Earth can play this Steam game at a time: \"You control it for one minute\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Only one person on Earth can play this Steam game at a time: \"You control it for one minute\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-zelda-ocarina-of-time-on-n64-actually-had-a-jump-button-b266acfe4004",
+      "topic": "Zelda: Ocarina of Time on N64 actually had a jump button early in development",
+      "detected_at": "2026-10-23T07:56:28.084771+00:00",
+      "analysed_at": "2026-11-01T19:12:41.553495+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-on-n64-actually-had-a-jump-button-early-in-development-29-years-before-nintendos-remake-added-one/",
+          "title": "Zelda: Ocarina of Time on N64 actually had a jump button early in development",
+          "evidence": "<article> <p>The upcoming <a href=\"https://www.gamesradar.com/the-legend-of-zelda-ocarina-of-time-remake-guide/\">Zelda: Ocarina of Time remake</a> sent shockwaves through the world when its trailer revealed the addition of a technological advancement straight from the arcade generation: a dedicated jump button. That's right, instead of just walking up to a ledge and trusting the honor system to prompt Link to automatically jump over to the appropriate platform, the Ocarina of Time remake will allow you to hit a specific button to jump. Technical achievement aside, it turns out this was actually a feature in the original N64 Ocarina of Time when it was early in development, but it was removed before release for whatever reason.</p><p>This was first revealed in an old <a href=\"https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/1/1/\" target=\"_blank\">Iwata Asks</a> article from 2011 featuring a conversation between Nintendo veteran and Ocarina of Time designer Yoshiaki Koizumi and late Nintendo president Satoru Iwata. Resurfaced by the <a href=\"https://www.youtube.com/watch?v=_G9joPkP-4E\" target=\"_blank\">Kit & Krysta YouTube channel</a>, the back-and-forth touches on h"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Zelda: Ocarina of Time on N64 actually had a jump button early in development",
+        "secondary_keywords": [
+          "Zelda: Ocarina of Time on N64 actually had a jump button early in development date de sortie",
+          "Zelda: Ocarina of Time on N64 actually had a jump button early in development plateformes",
+          "Zelda: Ocarina of Time on N64 actually had a jump button early in development gameplay",
+          "Zelda: Ocarina of Time on N64 actually had a jump button early in development guide",
+          "Zelda: Ocarina of Time on N64 actually had a jump button early in development avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Zelda: Ocarina of Time on N64 actually had a jump button early in development"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-search-for-the-next-james-bond-has-come-down-to-fou-4646fef93f7a",
+      "topic": "The search for the next James Bond has come down to four finalists, including one \"mystery actor\"",
+      "detected_at": "2026-10-23T07:56:28.084936+00:00",
+      "analysed_at": "2026-11-01T19:12:41.553521+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/james-bond-movies/the-search-for-the-next-james-bond-has-come-down-to-four-finalists-including-one-mystery-actor/",
+          "title": "The search for the next James Bond has come down to four finalists, including one \"mystery actor\"",
+          "evidence": "<article> <p>The never-ending search for a new (and younger) James Bond has reportedly been narrowed down to four actors... though the identity of the fourth actor remains a mystery.</p><p>According to <a href=\"https://deadline.com/2026/10/james-bond-screen-tests-names-1237170401/\" target=\"_blank\">Deadline</a>, the four finalists include Callum Turner, Jack Lowden, Josh O'Connor, and one unnamed actor. This means that Jacob Elordi and Aaron Taylor-Johnson are officially out of the running. This also means the studio scrapped their whole \"Young Bond\" idea, seeing as three of the finalists are each 36 years old. </p><p>The final round of screen tests is reportedly happening this weekend... though <a href=\"https://www.gamesradar.com/entertainment/james-bond-movies/the-slow-horses-cast-keeps-dropping-hints-that-jack-lowden-has-been-cast-as-the-new-james-bond/\">Gary Oldman already told the media that his Slow Horses co-star Lowden had already gotten the part.</a></p><p>\"It's been rumored that [Lowden] is on the shortlist,\" Oldman previously said, via <a href=\"https://variety.com/2026/film/global/james-bond-picked-says-gary-oldman-hopes-for-jack-lowden-1236853973/\" target=\"_blank\">Variet"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The search for the next James Bond has come down to four finalists, including one \"mystery actor\"",
+        "secondary_keywords": [
+          "The search for the next James Bond has come down to four finalists, including one \"mystery actor\" date de sortie",
+          "The search for the next James Bond has come down to four finalists, including one \"mystery actor\" plateformes",
+          "The search for the next James Bond has come down to four finalists, including one \"mystery actor\" gameplay",
+          "The search for the next James Bond has come down to four finalists, including one \"mystery actor\" guide",
+          "The search for the next James Bond has come down to four finalists, including one \"mystery actor\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The search for the next James Bond has come down to four finalists, including one \"mystery actor\""
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

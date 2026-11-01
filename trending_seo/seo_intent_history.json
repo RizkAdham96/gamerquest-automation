@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-11-01T09:43:58.436152+00:00",
+  "updated_at": "2026-11-01T19:12:46.699151+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -441,6 +441,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-hollow-knight-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 930,
       "published_at": "2026-11-01T09:43:58.436152+00:00"
+    },
+    {
+      "intent_key": "hollow knight multijoueur",
+      "primary_keyword": "Hollow Knight multijoueur",
+      "title": "Hollow Knight multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/hollow-knight-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 932,
+      "published_at": "2026-11-01T19:12:46.699151+00:00"
     }
   ]
 }

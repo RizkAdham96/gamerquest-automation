@@ -1,0 +1,84 @@
+{
+  "source_id": "560fe0ae82c253240eee987ca1d1b41984eb0d6e2f06ef88be0c741cdde0b1f0",
+  "carousel_version": "4062e5505b1487ce4c849e3c2517ed7d9c3b041545b5d63c1f2d4c6b875e6f78",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    935,
+    936,
+    937
+  ],
+  "prepared_at_utc": "2026-11-02T20:53:57.767504Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "560fe0ae82c253240eee987ca1d1b41984eb0d6e2f06ef88be0c741cdde0b1f0",
+    "source_title": "Sorry We're Closed est gratuit sur Epic Games Store pendant une durée limitée",
+    "score": 77.5,
+    "idea": {
+      "source_id": "560fe0ae82c253240eee987ca1d1b41984eb0d6e2f06ef88be0c741cdde0b1f0",
+      "topic": "Jeu gratuit",
+      "angle": "Sorry We're Closed offert gratuitement sur Epic Games Store",
+      "format": "free_game",
+      "hook": "🆓 Disponible gratuitement ! Téléchargez Sorry We're Closed sur Epic Games Store avant la fin de l’offre.",
+      "freshness": 8,
+      "click_potential": 9,
+      "curiosity": 7,
+      "shareability": 8,
+      "originality": 6,
+      "gamerquest_relevance": 9,
+      "total_score": 77.5
+    },
+    "carousel": {
+      "topic": "Jeu gratuit",
+      "angle": "Sorry We're Closed offert gratuitement sur Epic Games Store",
+      "format": "free_game",
+      "hook": "🆓 Disponible gratuitement ! Téléchargez Sorry We're Closed sur Epic Games Store avant la fin de l’offre.",
+      "score": 77.5,
+      "slides": [
+        {
+          "title": "🆓 Sorry We're Closed gratuit !",
+          "body": "Une offre limitée vous attend sur Epic Games Store.",
+          "visual_prompt": "Capture d'écran du jeu Sorry We're Closed affichée dans la boutique Epic Games Store, montrant le bouton de téléchargement."
+        },
+        {
+          "title": "Valeur originale : 22,39 €",
+          "body": "Le titre, habituellement vendu à 22,39 €, est disponible gratuitement pendant une durée limitée.",
+          "visual_prompt": "Image du jeu Sorry We're Closed avec son prix habituel affiché en arrière-plan, contrastant avec un badge 'Gratuit' superposé."
+        },
+        {
+          "title": "Offre à durée limitée",
+          "body": "Ne tardez pas, l’offre se termine bientôt. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Illustration d’une horloge stylisée indiquant le compte à rebours, entourée d’éléments de jeu vidéo."
+        }
+      ],
+      "caption": "Profitez de Sorry We're Closed gratuitement sur Epic Games Store avant la fin de l’offre ! 🎮",
+      "cta": "Découvrez plus de bons plans jeux sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest",
+        "#JeuGratuit",
+        "#EpicGames",
+        "#SorryWereClosed",
+        "#BonPlanGaming"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "560fe0ae82c253240eee987ca1d1b41984eb0d6e2f06ef88be0c741cdde0b1f0"
+    },
+    "caption": "Profitez de Sorry We're Closed gratuitement sur Epic Games Store avant la fin de l’offre ! 🎮",
+    "hashtags": [
+      "#GamerQuest",
+      "#JeuGratuit",
+      "#EpicGames",
+      "#SorryWereClosed",
+      "#BonPlanGaming"
+    ],
+    "cta": "Découvrez plus de bons plans jeux sur GamerQuest.fr",
+    "repair_attempts": 0
+  }
+}

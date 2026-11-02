@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-11-02T09:57:05.777149+00:00",
+  "updated_at": "2026-11-02T22:53:22.381395+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -53,290 +53,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "rss-cyberpunk-2077-s-new-update-just-made-it-the-anti-gta-6-83501f4e8ba7",
-      "topic": "Cyberpunk 2077's new update just made it the anti-GTA 6",
-      "detected_at": "2026-10-23T07:56:28.086426+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/cyberpunk/cyberpunk-2077s-new-update-just-made-it-the-anti-gta-6/",
-          "title": "Cyberpunk 2077's new update just made it the anti-GTA 6",
-          "evidence": "<article> <p>Grand Theft Auto is not a roleplaying game. Even with its sprawling open world and all the <a href=\"https://www.gamesradar.com/games/grand-theft-auto/as-if-you-needed-another-reminder-of-why-gta-6-took-so-long-it-has-a-realistic-sweat-system-that-makes-jason-and-lucia-perspire-based-on-how-hard-they-dance/\"><u>painstaking technical details</u></a> that have gone into protagonists Lucia and Jason's story, <a href=\"https://www.gamesradar.com/gta-6-guide/\"><u>GTA 6</u></a> will never be among those we call the <a href=\"https://www.gamesradar.com/best-rpg-games/\"><u>best RPGs</u></a>. Some systems in the latest entry might hew close, but the way Jason and Lucia evolve are closer to being a sim than an RPG proper. More than that, there's a fundamental difference between how Rockstar and developers like CD Projekt Red view their respective games.</p><p>After adding full mod support to <a href=\"https://www.gamesradar.com/witcher-3-guide/\"><u>The Witcher 3: Wild Hunt – Remastered</u></a>, the Polish developer surprised <a href=\"https://www.gamesradar.com/uk/cyberpunk-2077/\"><u>Cyberpunk 2077</u></a> fans by announcing a similar built-in client to the Night City adventure. <a h"
-        }
-      ],
-      "keywords": [
-        "Cyberpunk 2077's new update just made it the anti-GTA 6",
-        "Cyberpunk 2077's new update just made it the anti-GTA 6 date de sortie",
-        "Cyberpunk 2077's new update just made it the anti-GTA 6 plateformes",
-        "Cyberpunk 2077's new update just made it the anti-GTA 6 gameplay",
-        "Cyberpunk 2077's new update just made it the anti-GTA 6 guide",
-        "Cyberpunk 2077's new update just made it the anti-GTA 6 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "evg-config-1449690",
-      "topic": "Configuration PC The Walking Dead: The Telltale Definitive Series : minimale, recommandée et conseils",
-      "detected_at": "2026-10-23T07:56:26.804500+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1449690/",
-          "title": "The Walking Dead: The Telltale Definitive Series sur Steam",
-          "evidence": "Données officielles de la fiche Steam de The Walking Dead: The Telltale Definitive Series, consultée le 2026-10-23. Développeur : Skybound Games. Éditeur : Skybound Games. Date de sortie sur Steam : 29 oct. 2020. Genres : Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation *: Windows 7 64Bit Service Pack 1 ; Processeur : Intel Core 2 Duo 2.8GHz ; Mémoire vive : 3 GB de mémoire ; Graphiques : Nvidia GeForce GTS 450 2GB ; DirectX : Version 11 ; Espace disque : 45 GB d'espace disque disponible ; Carte son : DirectX 11 sound device. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation *: Windows 7 64Bit Service Pack 1 ; Processeur : Intel Core i5-2500K ; Mémoire vive : 3 GB de mémoire ; Graphiques : Nvidia GeForce GTX 960 ; DirectX : Version 11 ; Espace disque : 45 GB d'espace disque disponible ; Carte son : DirectX 11 sound device.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/ss_235eb54ee3c3fa2075e7d1424547e780cf59d48f.1920x1080.jpg?t=1760651835"
-        }
-      ],
-      "keywords": [
-        "configuration pc The Walking Dead: The Telltale Definitive Series",
-        "The Walking Dead: The Telltale Definitive Series PC",
-        "The Walking Dead: The Telltale Definitive Series Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-1449690",
-      "topic": "The Walking Dead: The Telltale Definitive Series multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-23T07:56:26.804576+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1449690/",
-          "title": "The Walking Dead: The Telltale Definitive Series sur Steam",
-          "evidence": "Données officielles de la fiche Steam de The Walking Dead: The Telltale Definitive Series, consultée le 2026-10-23. Développeur : Skybound Games. Éditeur : Skybound Games. Date de sortie sur Steam : 29 oct. 2020. Genres : Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : The Walking Dead: The Telltale Definitive Series regroupe les 4 saisons, 400 Days et The Walking Dead: Michonne, ce qui représente 50 heures de jeu réparties en 23 épisodes uniques.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/ss_235eb54ee3c3fa2075e7d1424547e780cf59d48f.1920x1080.jpg?t=1760651835"
-        }
-      ],
-      "keywords": [
-        "The Walking Dead: The Telltale Definitive Series multijoueur",
-        "The Walking Dead: The Telltale Definitive Series PC",
-        "The Walking Dead: The Telltale Definitive Series Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-config-1492070",
-      "topic": "Configuration PC Sker Ritual : minimale, recommandée et conseils",
-      "detected_at": "2026-10-23T07:56:27.365979+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1492070/",
-          "title": "Sker Ritual sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Sker Ritual, consultée le 2026-10-23. Développeur : Wales Interactive. Éditeur : Skybound Games. Date de sortie sur Steam : 18 avr. 2024. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation *: Windows 7, 8.1, 10 (64-bit required) ; Processeur : Intel Core i5-4460 / AMD FX-6300 ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 760 / AMD Radeon R7 260x with 2GB Video RAM ; DirectX : Version 11 ; Espace disque : 15 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 64-bit ; Processeur : Intel Core i5-10500 / AMD Ryzen 5 2600 or better ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 970 / AMD Radeon R9 290 or better ; DirectX : Version 11 ; Espace disque : 15 GB d'espace disque disponible.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492070/ss_7dcb9f926cd731852cb2143556d06460e88b15af.1920x1080.jpg?t=1792674990"
-        }
-      ],
-      "keywords": [
-        "configuration pc Sker Ritual",
-        "Sker Ritual PC",
-        "Sker Ritual Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-1492070",
-      "topic": "Sker Ritual multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-23T07:56:27.366022+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/1492070/",
-          "title": "Sker Ritual sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Sker Ritual, consultée le 2026-10-23. Développeur : Wales Interactive. Éditeur : Skybound Games. Date de sortie sur Steam : 18 avr. 2024. Genres : Action, Aventure, Indépendant. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Multijoueur multiplateforme, Succès Steam, Compat. contrôleurs complète, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Steam Cloud, Classements Steam, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Armez-vous des pouvoirs des dieux celtiques dans ce horde shooter coopératif.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1492070/ss_7dcb9f926cd731852cb2143556d06460e88b15af.1920x1080.jpg?t=1792674990"
-        }
-      ],
-      "keywords": [
-        "Sker Ritual multijoueur",
-        "Sker Ritual PC",
-        "Sker Ritual Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "rss-for-most-of-development-gta-3-was-in-a-sorry-state-rock-7ca12a26e692",
-      "topic": "\"For most of development, GTA 3 was in a sorry state\": Rockstar veteran reflects ahead of GTA 6",
-      "detected_at": "2026-10-23T18:43:30.988883+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/grand-theft-auto/for-most-of-development-gta-3-was-in-a-sorry-state-rockstar-veteran-reflects-on-25-years-of-grand-theft-auto-ahead-of-gta-6-says-i-dont-remember-much-crunch/",
-          "title": "\"For most of development, GTA 3 was in a sorry state\": Rockstar veteran reflects ahead of GTA 6",
-          "evidence": "<article> <p>Ahead of <a href=\"https://www.gamesradar.com/gta-6-guide/\"><u>GTA 6</u></a>, Rockstar veteran Obbe Vermeij marked the 25-year anniversary of Grand Theft Auto 3 with a lengthy retrospective examining its difficult development. </p><p>GTA 3 was a pioneering open-world game and a landmark release for Rockstar, but in a recent Twitter post, <a href=\"https://x.com/ObbeVermeij/status/2112936805259518172\" target=\"_blank\"><u>Vermeij</u></a> says, \"For most of development, GTA 3 was in a sorry state.\"</p><p>Vermeij says \"it crashed frequently, the frame rate was terrible and the map was full of holes. Only in the last six months did everything come together. For the longest time, it looked like the frame rate was going to be 20 fps. Only in the final months did we manage to hit 30.\" </p><p>This sort of late assembly is pretty common in game development, particularly among large teams who may have siloed disciplines handling projects of larger scope. In the messy intersection of art and technology, the heart of a game may be hard to see until it's relatively close to release. For example, Bethesda boss Todd Howard said in 2023 that <a href=\"https://www.gamesradar.com/todd-howard"
-        }
-      ],
-      "keywords": [
-        "\"For most of development, GTA 3 was in a sorry state\": Rockstar veteran reflects ahead of GTA 6",
-        "\"For most of development, GTA 3 was in a sorry state\": Rockstar veteran reflects ahead of GTA 6 date de sortie",
-        "\"For most of development, GTA 3 was in a sorry state\": Rockstar veteran reflects ahead of GTA 6 plateformes",
-        "\"For most of development, GTA 3 was in a sorry state\": Rockstar veteran reflects ahead of GTA 6 gameplay",
-        "\"For most of development, GTA 3 was in a sorry state\": Rockstar veteran reflects ahead of GTA 6 guide",
-        "\"For most of development, GTA 3 was in a sorry state\": Rockstar veteran reflects ahead of GTA 6 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-tim-sweeney-shares-the-time-he-called-a-beloved-studio--76a21c0d9b40",
-      "topic": "Tim Sweeney shares the time he called a beloved studio's death \"economically realistic\"",
-      "detected_at": "2026-10-23T18:43:30.989229+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/this-isnt-a-sad-day-tim-sweeney-shares-the-time-he-called-a-beloved-studios-death-economically-realistic-more-or-less-says-you-shouldnt-boo-him-when-hes-right/",
-          "title": "Tim Sweeney shares the time he called a beloved studio's death \"economically realistic\"",
-          "evidence": "<article> <p>You can trace the lineage of beloved games like Deus Ex, BioShock, and Dishonored directly back to Looking Glass Studios. This developer is one of the most notable in the history of the game industry, having effectively created the immersive sim genre through classics like Ultima Underworld, System Shock, and Thief. However, the studio's closure in 2000 wasn't really \"sad,\" at least according to Epic Games founder and CEO Tim Sweeney. It was simply a matter of economics.</p><p>\"This isn't a sad day, it's an economically realistic day,\" Sweeney wrote on May 24, 2000. \"Looking Glass spent lots of money making innovative games that never sold well.\" This quote recently resurfaced on <a href=\"https://x.com/Sinnoware/status/2113515907003900114\" target=\"_blank\">social media</a>, as gamers looking to hate Sweeney move beyond simply criticizing <a href=\"https://www.gamesradar.com/games/fortnite/epic-games-lays-off-over-1-000-people-ceo-tim-sweeney-says-im-sorry-were-here-again-and-blames-the-downturn-in-fortnite-engagement/\">his mass layoffs</a>, his <a href=\"https://www.gamesradar.com/platforms/pc-gaming/tim-sweeney-goes-after-gabe-newell-following-valves-steam-deck-price-hik"
-        }
-      ],
-      "keywords": [
-        "Tim Sweeney shares the time he called a beloved studio's death \"economically realistic\"",
-        "Tim Sweeney shares the time he called a beloved studio's death \"economically realistic\" date de sortie",
-        "Tim Sweeney shares the time he called a beloved studio's death \"economically realistic\" plateformes",
-        "Tim Sweeney shares the time he called a beloved studio's death \"economically realistic\" gameplay",
-        "Tim Sweeney shares the time he called a beloved studio's death \"economically realistic\" guide",
-        "Tim Sweeney shares the time he called a beloved studio's death \"economically realistic\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-bioware-fans-beg-palworld-studio-to-save-mass-effect-by-8f47bf6b9bd1",
-      "topic": "BioWare fans beg Palworld studio to save Mass Effect by buying the IP from EA",
-      "detected_at": "2026-10-23T18:43:30.989464+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/mass-effect/bioware-fans-beg-palworld-studio-to-save-mass-effect-by-buying-the-ip-from-ea-i-got-close-to-30-dms-emails-from-fans/",
-          "title": "BioWare fans beg Palworld studio to save Mass Effect by buying the IP from EA",
-          "evidence": "<article> <p>Sadly, we learned this week that <a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">BioWare is being shut down </a>by <a href=\"https://www.gamesradar.com/uk/tag/ea/\" target=\"_blank\">EA</a>. The legendary studio was responsible for many beloved RPGs, including the Mass Effect series, for which a new installment was deep in development. In the aftermath, fans have been scurrying for ways to salvage the project, including courting Palworld developer Pocketpair.</p><p>No, seriously - and apparently this isn't the first time that's happened, either. \"Soon after a game is canceled or a studio shuts down, we get a lot of comments and emails from fans saying 'You should buy this IP!'\" John 'Bucky' Buckley, head of communications and publishing at Pocketpair, posted on <a href=\"https://x.com/Bucky_cm/status/2113254292421550396\" target=\"_blank\">Twitter</a>.</p><p>\"Then, as months go by, those comments turn into 'Why didn't you buy it? You have the money!'\" he adds, before explaining the reality that buying and selling IP is complicated, and often the asking price is obscene compared to the potential value."
-        }
-      ],
-      "keywords": [
-        "BioWare fans beg Palworld studio to save Mass Effect by buying the IP from EA",
-        "BioWare fans beg Palworld studio to save Mass Effect by buying the IP from EA date de sortie",
-        "BioWare fans beg Palworld studio to save Mass Effect by buying the IP from EA plateformes",
-        "BioWare fans beg Palworld studio to save Mass Effect by buying the IP from EA gameplay",
-        "BioWare fans beg Palworld studio to save Mass Effect by buying the IP from EA guide",
-        "BioWare fans beg Palworld studio to save Mass Effect by buying the IP from EA avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-final-fantasy-resonance-is-the-second-biggest-steam-lau-3e8b261940fc",
-      "topic": "Final Fantasy Resonance is the second-biggest Steam launch of any turn-based RPG from Square Enix",
-      "detected_at": "2026-10-23T18:43:30.989651+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/final-fantasy/final-fantasy-resonance-is-already-the-second-biggest-steam-launch-of-any-turn-based-rpg-from-square-enix/",
-          "title": "Final Fantasy Resonance is the second-biggest Steam launch of any turn-based RPG from Square Enix",
-          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/final-fantasy/final-fantasy-resonance-review/\"><u>Final Fantasy Resonance</u></a> – the first game in the series to be made in <a href=\"https://www.gamesradar.com/uk/tag/square-enix/\"><u>Square Enix</u></a>'s HD-2D style – is already the second-biggest Steam launch for any turn-based RPG title from the developer.</p><p>Square Enix has finally relented to years of suggestions and released a Final Fantasy game in the HD-2D style, with the latest spinoff in the series, Final Fantasy Resonance, dropping this week. Like last year's Octopath Traveler Zero, this HD-2D RPG adapts one of Square's previous mobile games – Final Fantasy Brave Exvius – into a full-blown console RPG. </p><p>Per <a href=\"https://steamdb.info/app/3259780/charts/\" target=\"_blank\"><u>SteamDB</u></a>, the RPG has hit a peak of 27,933 players over the course of its first day available, which places it at the higher end of Square Enix's roster of turn-based RPGs on the platform. In fact, this number sees it narrowly overtake this year's Dragon Quest 7 Reimagined, which <a href=\"https://steamdb.info/app/2499860/charts/\" target=\"_blank\"><u>peaked at 27,390</u></a>. H"
-        }
-      ],
-      "keywords": [
-        "Final Fantasy Resonance is the second-biggest Steam launch of any turn-based RPG from Square Enix",
-        "Final Fantasy Resonance is the second-biggest Steam launch of any turn-based RPG from Square Enix date de sortie",
-        "Final Fantasy Resonance is the second-biggest Steam launch of any turn-based RPG from Square Enix plateformes",
-        "Final Fantasy Resonance is the second-biggest Steam launch of any turn-based RPG from Square Enix gameplay",
-        "Final Fantasy Resonance is the second-biggest Steam launch of any turn-based RPG from Square Enix guide",
-        "Final Fantasy Resonance is the second-biggest Steam launch of any turn-based RPG from Square Enix avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-almost-50-years-later-star-wars-fans-are-appreciating-o-be24c3901739",
-      "topic": "Almost 50 years later, Star Wars fans are appreciating one of the saga's best moments",
-      "detected_at": "2026-10-23T18:43:30.989875+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/entertainment/star-wars-movies/almost-50-years-later-star-wars-fans-are-appreciating-one-of-the-sagas-best-moments/",
-          "title": "Almost 50 years later, Star Wars fans are appreciating one of the saga's best moments",
-          "evidence": "<article> <p>It might have been almost 50 years since the original Star Wars movie was released in theaters, but fans are still sharing the love for one of its most iconic scenes. </p><p>On <a href=\"https://www.reddit.com/r/StarWars/comments/1xcghfx/this_will_always_be_one_of_my_favorite_star_wars/\" target=\"_blank\">Reddit</a>, one fan shared their appreciation for the binary sunset scene, in which Luke Skywalker stares into the Tatooine twin-sunset as John Williams's score rises. \"This will always be one of my favorite Star Wars scenes,\" they wrote. </p><p>The comments are full of more fans admiring the classic moment. \"That music is INCREDIBLE,\" says one fan, with another adding: \"Agreed! If you can ever see the movie with a live symphony, do it! Just amazing\" </p><p>\"It captures the human condition. For one brief moment, we are all Luke, yearning for something more,\" says someone else. </p><p>\"John Williams' finest moment,\" praises someone else. Another person says: \"Binary sunset always hits me in the feels.\"</p><p>\"Something that sometimes gets lost when you talk about the entire sprawling franchise is that Star Wars began with one movie… and that it was a <em>really</em> fucki"
-        }
-      ],
-      "keywords": [
-        "Almost 50 years later, Star Wars fans are appreciating one of the saga's best moments",
-        "Almost 50 years later, Star Wars fans are appreciating one of the saga's best moments date de sortie",
-        "Almost 50 years later, Star Wars fans are appreciating one of the saga's best moments plateformes",
-        "Almost 50 years later, Star Wars fans are appreciating one of the saga's best moments gameplay",
-        "Almost 50 years later, Star Wars fans are appreciating one of the saga's best moments guide",
-        "Almost 50 years later, Star Wars fans are appreciating one of the saga's best moments avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-xbox-negotiations-with-marvel-s-blade-developer-arkane--cc68bd95f236",
-      "topic": "Xbox negotiations with Marvel's Blade developer Arkane reportedly aren't going well",
-      "detected_at": "2026-10-23T18:43:30.990060+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/xbox-negotiations-with-marvels-blade-developer-arkane-reportedly-arent-going-well-and-that-could-mean-the-dishonored-studio-shutting-down-next-month/",
-          "title": "Xbox negotiations with Marvel's Blade developer Arkane reportedly aren't going well",
-          "evidence": "<article> <p>Conversations are ongoing concerning the fate of Arkane Studios, one of many companies impacted by Xbox's current restructuring. Sadly, reports suggest the team and <a href=\"https://www.gamesradar.com/tag/microsoft/\">Microsoft</a> will be parting ways, and what will become of its slate at the moment remains in the air.</p><p>The information comes from <a href=\"https://www.lemonde.fr/pixels/article/2026/10/23/microsoft-veut-fermer-arkane-studio-de-jeu-video-lyonnais-ou-217-emplois-sont-menaces_6799072_4408996.html\" target=\"_blank\">Le Monde</a>, a French publication that spoke to union representatives about Arkane's discussions with Xbox. Given the changes underway in Microsoft's games division, a November 13 deadline looms for the consultation process on what will become of the studio behind <a href=\"https://www.gamesradar.com/uk/dishonored/\">Dishonored</a> and Deathloop.</p><p>Alas, according to comments from the union Printemps Ecologique, things aren't looking great. Although Arkane is apparently doing well, Microsoft wants to sell it on, leaving the team and its projects in the lurch. Per a machine translation, a number of potential resolutions for a takeover are be"
-        }
-      ],
-      "keywords": [
-        "Xbox negotiations with Marvel's Blade developer Arkane reportedly aren't going well",
-        "Xbox negotiations with Marvel's Blade developer Arkane reportedly aren't going well date de sortie",
-        "Xbox negotiations with Marvel's Blade developer Arkane reportedly aren't going well plateformes",
-        "Xbox negotiations with Marvel's Blade developer Arkane reportedly aren't going well gameplay",
-        "Xbox negotiations with Marvel's Blade developer Arkane reportedly aren't going well guide",
-        "Xbox negotiations with Marvel's Blade developer Arkane reportedly aren't going well avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-how-to-find-and-loot-police-stations-in-mw4-dmz-mode-df064dc4bb77",
-      "topic": "How to find and loot Police Stations in MW4 DMZ mode",
-      "detected_at": "2026-10-23T18:43:30.990312+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/call-of-duty/modern-warfare-4-police-stations/",
-          "title": "How to find and loot Police Stations in MW4 DMZ mode",
-          "evidence": "<article> <p>The MW4 DMZ Police Stations are spread across the map, but if you can find their locations you can complete the Orders connected to them, as well as simply loot them for high value items. Police Stations have quickly become an easy point of reference in Modern Warfare 4 to get good loot, especially related to weapons and guns. If you want to know how to find them and loot them effectively, here's where to look, as well as how to get into the Police Armories. </p><p><em>For more help with the latest Call of Duty, check out all the </em><a href=\"https://www.gamesradar.com/games/call-of-duty/modern-warfare-4-dmz-traits\"><em>MW4 DMZ best traits</em></a><em> for your operators, or find out all the </em><a href=\"https://www.gamesradar.com/games/fps/modern-warfare-4-best-weapons-guns\"><em>best weapons and guns in Modern Warfare 4</em></a><em>!</em></p><h2 class=\"article-body__section\" id=\"section-where-to-find-all-dmz-police-stations-in-mw4\"><span>Where to find all DMZ Police Stations in MW4</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2024px;\"><p clas"
-        }
-      ],
-      "keywords": [
-        "How to find and loot Police Stations in MW4 DMZ mode",
-        "How to find and loot Police Stations in MW4 DMZ mode date de sortie",
-        "How to find and loot Police Stations in MW4 DMZ mode plateformes",
-        "How to find and loot Police Stations in MW4 DMZ mode gameplay",
-        "How to find and loot Police Stations in MW4 DMZ mode guide",
-        "How to find and loot Police Stations in MW4 DMZ mode avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-modern-warfare-4-has-received-a-dmz-change-that-was-so--034915aac5f9",
       "topic": "Modern Warfare 4 has received a DMZ change that was \"so badly needed\"",
@@ -6037,6 +5753,294 @@
         "Two minutes of Persona 1 remake footage seemingly leaks online gameplay",
         "Two minutes of Persona 1 remake footage seemingly leaks online guide",
         "Two minutes of Persona 1 remake footage seemingly leaks online avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-queen-s-domain-might-be-the-best-game-like-metroid-prim-500e7534f49e",
+      "topic": "Queen's Domain might be the best game like Metroid Prime since Metroid Prime",
+      "detected_at": "2026-11-02T22:53:22.378826+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/queens-domain-might-be-the-best-game-like-metroid-prime-since-metroid-prime/",
+          "title": "Queen's Domain might be the best game like Metroid Prime since Metroid Prime",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/games/rpg/were-hitting-peak-saturation-for-first-person-dungeon-crawlers-but-queens-domain-stands-apart-from-the-crowd/\" target=\"_blank\">I tried the demo for Queen's Domain</a> last year and liked it a lot⁠—though it definitely had some friction I wasn't sure about. The full game <a href=\"https://store.steampowered.com/app/1799840/Queens_Domain/\" target=\"_blank\">launched on October 30</a>, and I eagerly rushed through the parts I'd already played in the demo.</p><p>Turns out, that demo cut out right when things were about to go nuts. </p><p>Five hours in out of an estimated 30+, and Queen's Domain is easily one of my top games of the year. I am only begrudgingly writing this, because I'd rather be playing right now.</p><p>Queen's Domain starts out resembling other entries in a growing subgenre of <a href=\"https://www.pcgamer.com/games/rpg/the-best-kings-field-likes-on-pc/\" target=\"_blank\">indie King's Field-likes</a>, paying homage to the first-person dark fantasy RPG series FromSoftware put out before its soulsward turn. In its first half hour or so, Queen's Domain distinguishes itself similarly to fellow genre standout Lunacid: Fantas"
+        }
+      ],
+      "keywords": [
+        "Queen's Domain might be the best game like Metroid Prime since Metroid Prime",
+        "Queen's Domain might be the best game like Metroid Prime since Metroid Prime date de sortie",
+        "Queen's Domain might be the best game like Metroid Prime since Metroid Prime plateformes",
+        "Queen's Domain might be the best game like Metroid Prime since Metroid Prime gameplay",
+        "Queen's Domain might be the best game like Metroid Prime since Metroid Prime guide",
+        "Queen's Domain might be the best game like Metroid Prime since Metroid Prime avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-enshrouded-1-0-review-16445e09a7ba",
+      "topic": "Enshrouded 1.0 review",
+      "detected_at": "2026-11-02T22:53:22.379183+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/survival-crafting/enshrouded-1-0-review/",
+          "title": "Enshrouded 1.0 review",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Need to Know</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it?</strong> A high-fantasy survival crafting RPG set in the genre's most impressive sandbox. <br /><strong>Release date: </strong>October 15, 2026 (1.0) <br /><strong>Expect to pay:</strong> $40/£35 <br /><strong>Developer: </strong>Keen Games <br /><strong>Publisher:</strong> Keen Games <br /><strong>Reviewed on: </strong>RTX 4080, AMD Ryzen 7 9800X3D, 64GB RAM <br /><strong>Steam Deck: </strong>Verified <br /><strong>Link:</strong> <a data-analytics-id=\"inline-link\" href=\"https://store.steampowered.com/app/1203620/Enshrouded/\">Steam</a> | <a data-analytics-id=\"inline-link\" href=\"https://enshrouded.com/\">Official site</a></p></div></div><p>High up on a mountain in the Albaneve Summits, just on the southern border of Enshrouded's new zone, I spot the perfect place for my next medieval building project. It seems safe with no nearby enemy spawns on the flat stretch of land, and there's even a cute frozen pond that gives it real Christmas-card appeal. I love it, and I'll love it even more once I've built a cliffside castle.</p><p>"
+        }
+      ],
+      "keywords": [
+        "Enshrouded 1.0 review",
+        "Enshrouded 1.0 review date de sortie",
+        "Enshrouded 1.0 review plateformes",
+        "Enshrouded 1.0 review gameplay",
+        "Enshrouded 1.0 review guide",
+        "Enshrouded 1.0 review avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-xbox-coo-who-left-after-just-3-months-shoots-down-claim-f30cb6d06956",
+      "topic": "Xbox COO who left after just 3 months shoots down claims she was 'fired for a policy violation,' says her story is about 'core values'",
+      "detected_at": "2026-11-02T22:53:22.379313+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/xbox-coo-who-left-after-just-3-months-shoots-down-claims-she-was-fired-for-a-policy-violation-says-her-story-is-about-core-values/",
+          "title": "Xbox COO who left after just 3 months shoots down claims she was 'fired for a policy violation,' says her story is about 'core values'",
+          "evidence": "<article> <p>Longtime Microsoft executive Helen Chiang was made Xbox's first-ever chief operating officer as part of the <a href=\"https://www.pcgamer.com/gaming-industry/xbox-is-laying-off-3-200-people-and-dumping-4-studios/\" target=\"_blank\">'reset' </a>in July, a role that gave her \"end-to-end P&L responsibility across content, hardware, platform, and services.\" Then, just three months later and with virtually no fanfare, <a href=\"https://www.pcgamer.com/gaming-industry/top-xbox-exec-promoted-in-brand-reset-leaves-after-3-months-in-role/\" target=\"_blank\">she was gone</a>, amidst an anonymous claim that she was \"terminated for policy violations.\"</p><p>Saying it was important \"to set the record straight,\" Chiang has now formally denied that claim in a lengthy <a href=\"https://www.linkedin.com/posts/helenchiang_clarity-is-kindness-there-has-been-some-share-7523070825940467712-Rzit/\" target=\"_blank\">LinkedIn</a> post, saying she did not:</p><ul><li><em>\"Leak confidential company information to the press\"</em></li><li><em>\"Leave Xbox to join a competitor\"</em></li><li><em>\"Engage in discrimination, bullying, harassment, insider trading, embezzlement, or other fraudulent activity\"</em>"
+        }
+      ],
+      "keywords": [
+        "Xbox COO who left after just 3 months shoots down claims she was 'fired for a policy violation,' says her story is about 'core values'",
+        "Xbox COO who left after just 3 months shoots down claims she was 'fired for a policy violation,' says her story is about 'core values' date de sortie",
+        "Xbox COO who left after just 3 months shoots down claims she was 'fired for a policy violation,' says her story is about 'core values' plateformes",
+        "Xbox COO who left after just 3 months shoots down claims she was 'fired for a policy violation,' says her story is about 'core values' gameplay",
+        "Xbox COO who left after just 3 months shoots down claims she was 'fired for a policy violation,' says her story is about 'core values' guide",
+        "Xbox COO who left after just 3 months shoots down claims she was 'fired for a policy violation,' says her story is about 'core values' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-there-was-some-really-fair-criticism-arc-raiders-devs-u-72b013fb07c2",
+      "topic": "'There was some really fair criticism': Arc Raiders' devs understand why players were so upset about its AI use but say that it was 'too impractical to record' every voice line",
+      "detected_at": "2026-11-02T22:53:22.379485+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/there-was-some-really-fair-criticism-arc-raiders-devs-understand-why-players-were-so-upset-about-its-ai-use-but-admit-that-it-was-too-impractical-to-record-every-voice-line/",
+          "title": "'There was some really fair criticism': Arc Raiders' devs understand why players were so upset about its AI use but say that it was 'too impractical to record' every voice line",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/_xwbP8KV530\" allowfullscreen=\"\"></iframe></div></div><p>The start of Arc Raiders was a very mixed bag. On one hand it managed to attract an unbelievable amount of players as Embark Studios struck gold with its gentler take on extraction shooters. But all of this hype was somewhat overshadowed by the controversy surrounding its use of <a href=\"https://www.pcgamer.com/games/third-person-shooter/arrowhead-ceo-wades-into-the-messy-arc-raiders-ai-debate-would-it-have-been-better-if-arc-raiders-failed-and-it-didnt-use-ai/\">AI to mimic voice actors</a> and supplement the dialogue. </p><p>While the <a href=\"https://www.pcgamer.com/gaming-industry/arc-raiders-use-of-ai-highlights-the-tension-and-confusion-over-where-machine-learning-ends-and-generative-ai-begins/\">actors involved did sign contracts</a> allowing Embark to do this, there was still a great deal of backlash from players who were frustrated to see AI injected into the game. Many players pointed out, rightfully so, just how lifeless, lacklustre, and odd some of "
+        }
+      ],
+      "keywords": [
+        "'There was some really fair criticism': Arc Raiders' devs understand why players were so upset about its AI use but say that it was 'too impractical to record' every voice line",
+        "'There was some really fair criticism': Arc Raiders' devs understand why players were so upset about its AI use but say that it was 'too impractical to record' every voice line date de sortie",
+        "'There was some really fair criticism': Arc Raiders' devs understand why players were so upset about its AI use but say that it was 'too impractical to record' every voice line plateformes",
+        "'There was some really fair criticism': Arc Raiders' devs understand why players were so upset about its AI use but say that it was 'too impractical to record' every voice line gameplay",
+        "'There was some really fair criticism': Arc Raiders' devs understand why players were so upset about its AI use but say that it was 'too impractical to record' every voice line guide",
+        "'There was some really fair criticism': Arc Raiders' devs understand why players were so upset about its AI use but say that it was 'too impractical to record' every voice line avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-thief-remastered-s-new-expansion-is-being-made-by-the-l-9c0ce508d3c3",
+      "topic": "Thief Remastered's new expansion is being made by the legendary Black Parade mod team, and it's out next month",
+      "detected_at": "2026-11-02T22:53:22.379621+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/thief-remastereds-new-expansion-is-being-made-by-the-legendary-black-parade-mod-team-and-its-out-next-month/",
+          "title": "Thief Remastered's new expansion is being made by the legendary Black Parade mod team, and it's out next month",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/T58V1rtLugU\" allowfullscreen=\"\"></iframe></div></div><p>Nightdive has unveiled the <a href=\"https://youtu.be/T58V1rtLugU?si=cUAjESkfl-FxKxqC\" target=\"_blank\">first trailer for Thief: The Tarnished Mirror</a>, a new official expansion to Thief coming with its imminent remaster. Most exciting of all: The Tarnished Mirror is being made by the team behind The Black Parade, a 2023 mod that was one of the most exciting things to happen to the series in 20 years.</p><p>The Tarnished Mirror consists of four new missions, and is meant \"as a bridge between Thief: The Dark Project and Thief 2: The Metal Age,\" according to an accompanying press release. Similar to The Black Parade, these new levels will leverage improvements in technology to offer more sprawling, ambitious maps than '90s PCs could handle.</p><p>The scenes from the trailer are all very Thief, but similar to The Black Parade, there's immediately more verticality than in the 1997 original game. There are also glimpses at interiors that leverage familiar Thief ass"
+        }
+      ],
+      "keywords": [
+        "Thief Remastered's new expansion is being made by the legendary Black Parade mod team, and it's out next month",
+        "Thief Remastered's new expansion is being made by the legendary Black Parade mod team, and it's out next month date de sortie",
+        "Thief Remastered's new expansion is being made by the legendary Black Parade mod team, and it's out next month plateformes",
+        "Thief Remastered's new expansion is being made by the legendary Black Parade mod team, and it's out next month gameplay",
+        "Thief Remastered's new expansion is being made by the legendary Black Parade mod team, and it's out next month guide",
+        "Thief Remastered's new expansion is being made by the legendary Black Parade mod team, and it's out next month avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-28-cozy-game-launches-in-november-technically-inclu-370744089406",
+      "topic": "The 28 cozy game launches in November technically include 3 horse games, which is actually a lot for the eternally underserved horse gamers",
+      "detected_at": "2026-11-02T22:53:22.379856+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/new-cozy-games-november-2026/",
+          "title": "The 28 cozy game launches in November technically include 3 horse games, which is actually a lot for the eternally underserved horse gamers",
+          "evidence": "<article> <h3 id=\"november-cozy-game-forecast-horse-game-surge\">November cozy game forecast: 🐴Horse game surge </h3><p>Wait, there's only one horse game on the list this month. How is that a surge? Real horse gamers know that the <a href=\"https://store.steampowered.com/app/4082030/Barbie_Rewind/\">Barbie Rewind</a> collection includes a couple classic personal computer games that are fondly remembered by horse enjoyers: Barbie: Race & Ride and Barbie Horse Adventures. Add in the very anticipated <a href=\"https://store.steampowered.com/app/3727090/Horses_of_Hoofprint_Bay/\">Horses of Hoofprint Bay</a> and you've got triple the horse game launches of an average month.</p><div class=\"product\"><a data-dimension112=\"facd13b6-d6cb-11f1-91b6-ad4f0cc7e80a\" data-action=\"Deal Block\" data-label=\"Cozy Game Restoration | November 4The most wishlisted cozy game this month is a restoration simulation about carefully cleaning old videogame cartridges. As of the start of the month, it's the fourth most wishlisted game on Steam releasing in November. (via SteamDB). Cozy Game Restoration\" data-dimension48=\"Cozy Game Restoration | November 4The most wishlisted cozy game this month is a restoration simul"
+        }
+      ],
+      "keywords": [
+        "The 28 cozy game launches in November technically include 3 horse games, which is actually a lot for the eternally underserved horse gamers",
+        "The 28 cozy game launches in November technically include 3 horse games, which is actually a lot for the eternally underserved horse gamers date de sortie",
+        "The 28 cozy game launches in November technically include 3 horse games, which is actually a lot for the eternally underserved horse gamers plateformes",
+        "The 28 cozy game launches in November technically include 3 horse games, which is actually a lot for the eternally underserved horse gamers gameplay",
+        "The 28 cozy game launches in November technically include 3 horse games, which is actually a lot for the eternally underserved horse gamers guide",
+        "The 28 cozy game launches in November technically include 3 horse games, which is actually a lot for the eternally underserved horse gamers avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-yakuza-creator-s-studio-and-the-game-it-was-working-on--b28b8b9e3503",
+      "topic": "Yakuza creator's studio, and the game it was working on, are now officially gone",
+      "detected_at": "2026-11-02T22:53:22.380138+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/yakuza-creators-studio-and-the-game-it-was-working-on-are-now-officially-gone/",
+          "title": "Yakuza creator's studio, and the game it was working on, are now officially gone",
+          "evidence": "<article> <p>Six months after the disappearance of Nagoshi Studio's website, a Google-translated <a href=\"https://translate.google.ca/?sl=ja&tl=en&text=%E4%BB%A4%E5%92%8C%20%EE%A2%92%20%E5%B9%B4%20%EE%A2%8B%EE%A2%8B%20%E6%9C%88%20%EE%A2%8C%20%E6%97%A5%20%E6%9C%88%E6%9B%9C%E6%97%A5%20(%E5%8F%B7%E5%A4%96%E7%AC%AC%20%EE%A2%8C%EE%A2%8E%EE%A2%8A%20%E5%8F%B7)%E5%AE%98%20%E5%A0%B1%0A%E8%A7%A3%E6%95%A3%E5%85%AC%E5%91%8A%0A%E5%BD%93%E7%A4%BE%E3%81%AF%E8%A7%A3%E6%95%A3%E3%81%84%E3%81%9F%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%80%81%E5%BD%93%E7%A4%BE%E3%81%AB%E5%82%B5%E6%A8%A9%E3%82%92%E6%9C%89%0A%E3%81%99%E3%82%8B%E6%96%B9%E3%81%AF%E3%80%81%E6%9C%AC%E5%85%AC%E5%91%8A%E6%8E%B2%E8%BC%89%E3%81%AE%E7%BF%8C%E6%97%A5%E3%81%8B%E3%82%89%E4%BA%8C%E7%AE%87%E6%9C%88%E4%BB%A5%E5%86%85%E3%81%AB%E3%81%8A%0A%E7%94%B3%E3%81%97%E5%87%BA%E4%B8%8B%E3%81%95%E3%81%84%E3%80%82%0A%E3%81%AA%E3%81%8A%E3%80%81%E5%8F%B3%E6%9C%9F%E9%96%93%E5%86%85%E3%81%AB%E3%81%8A%E7%94%B3%E3%81%97%E5%87%BA%E3%81%8C%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8D%E3%81%AF%E6%B8%85%E7%AE%97%E3%81%8B%0A%E3%82%89%E9%99%A4%E6%96%A5%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%0A%E4%BB%A4%E5%92%8C%E5%85%AB%E5%B9%B4%E5%8D%81%E4%B8%80%E6%9C%88%E"
+        }
+      ],
+      "keywords": [
+        "Yakuza creator's studio, and the game it was working on, are now officially gone",
+        "Yakuza creator's studio, and the game it was working on, are now officially gone date de sortie",
+        "Yakuza creator's studio, and the game it was working on, are now officially gone plateformes",
+        "Yakuza creator's studio, and the game it was working on, are now officially gone gameplay",
+        "Yakuza creator's studio, and the game it was working on, are now officially gone guide",
+        "Yakuza creator's studio, and the game it was working on, are now officially gone avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-turtle-beach-command-series-mc7-review-3d3cc55ec46f",
+      "topic": "Turtle Beach Command Series MC7 review",
+      "detected_at": "2026-11-02T22:53:22.380568+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-mice/turtle-beach-command-series-mc7-review/",
+          "title": "Turtle Beach Command Series MC7 review",
+          "evidence": "<article> <div data-widget-type=\"review\" data-model-name=\"Turtle Beach Command Series MC7\" data-widget-title=\"\"></div><p>I must admit, I was mighty intrigued by the idea of a modern mouse (and all their high DPI machinations) with a screen slapped on the side, but I must also admit I thought we would be over the growing pains by now, what with screens being slammed into everything from cases to coolers to controllers. </p><p>Yet one look at the Turtle Beach Command Series MC7 suggests those growing pains are still being suffered. And using the mouse only confirms it. </p><p>But I get the idea in concept. I'm a big fan of my Stream Deck, and find myself regularly using its many controls. Being able to shove those into the side of the mouse with clarity to read what they're doing is intriguing. It's also particularly effective when it comes to swapping DPI, polling rate, and even checking the battery. Those are things that do benefit from a visual component. And yet a few weeks with the MC7 have convinced me I won't be making the swap full time. </p><div class=\"card card--standard card--rows-2 card--align-center\"><div class=\"card__content\"><h3 class=\"card__title\">Buy if…</h3><div cla"
+        }
+      ],
+      "keywords": [
+        "Turtle Beach Command Series MC7 review",
+        "Turtle Beach Command Series MC7 review date de sortie",
+        "Turtle Beach Command Series MC7 review plateformes",
+        "Turtle Beach Command Series MC7 review gameplay",
+        "Turtle Beach Command Series MC7 review guide",
+        "Turtle Beach Command Series MC7 review avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-nightdive-is-reviving-the-iconic-trapezoid-big-box-for--feee3c2f59a1",
+      "topic": "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console",
+      "detected_at": "2026-11-02T22:53:22.380692+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/nightdive-is-reviving-the-iconic-trapezoid-big-box-for-thief-remastereds-special-edition-but-only-on-console/",
+          "title": "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console",
+          "evidence": "<article> <p>Preorders are opening up for <a href=\"https://videogamesplus.ca/collections/thief-the-dark-project-remastered/products/thief-the-dark-project-remastered-nintendo-switch-2-edition-trapezoid-edition-nintendo-switch-2-pre-order\" target=\"_blank\">physical editions of Nightdive's Thief Remaster</a>, and at the high end, the studio is offering an homage to Thief's iconic original PC big box packaging in that shape we all know and love, the trapezoid. The only problem? Nightdive and partner Clear River Games are only offering it for Switch/Switch 2 and PS5. </p><h4 id=\"why-does-this-matter\">Why does this matter?</h4><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1072px;\"><p class=\"vanilla-image-block\" style=\"padding-top:99.44%;\"><img id=\"qQcMbNpDMFnCkQrpD5HPpn\" name=\"Screenshot 2026-11-02 104556\" alt=\"Feature spread for Thief: The Dark Project Remastered special edition physical\" src=\"https://cdn.mos.cms.futurecdn.net/qQcMbNpDMFnCkQrpD5HPpn-1920-80.png\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1072\" height=\"1066\" attribution=\"\" endorsement=\"\" class=\"inline\" /><"
+        }
+      ],
+      "keywords": [
+        "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console",
+        "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console date de sortie",
+        "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console plateformes",
+        "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console gameplay",
+        "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console guide",
+        "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-after-500-hours-in-monster-train-2-its-final-faction-of-d7058a4dbfd5",
+      "topic": "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win",
+      "detected_at": "2026-11-02T22:53:22.381023+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/card-games/monster-train-2-the-punished-review/",
+          "title": "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win",
+          "evidence": "<article> <p>Their aesthetic? Chains, whips; spiked. Their mood? Afflicted, condemned, ritualistic. Their angels? Dark. Their maiden? Iron.</p><p>Friendship ended with <a href=\"https://www.pcgamer.com/games/card-games/monster-train-2-dlc-impressions-destiny-of-the-railforged/\"><u>dwarven gearsmiths</u></a>; my new favorite clan in Monster Train 2 is the tortured edgelords.</p><p>The final faction being added to Monster Train 2, The Punished, arrive November 10 as a paid DLC. Their theme is self-damage, with new keywords and spells that, primarily, reward power in exchange for hurting yourself. Your pain? Enemies' bane.</p><iframe src=\"https://content.jwplatform.com/players/Ozrnj9rb.html\" id=\"Ozrnj9rb\" title=\"Monster Train 2 - The Punished finale\" width=\"1920\" height=\"804\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen=\"\"></iframe><h2 id=\"leaving-a-mark\">Leaving a mark</h2><p>Though existing MT2 clans like the Melting Remnant revolve around forms of sacrifice, The Punished are absolutely thirsty for it. They bring new keywords like Chained (enemy units take half the damage that your units take) that make damage an active solution to enemy waves. The self-flagellation angle likewis"
+        }
+      ],
+      "keywords": [
+        "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win",
+        "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win date de sortie",
+        "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win plateformes",
+        "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win gameplay",
+        "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win guide",
+        "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-ray-tracing-memory-usage-could-be-reduced-by-up-to-90-t-323cb3e2e56a",
+      "topic": "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update",
+      "detected_at": "2026-11-02T22:53:22.381169+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/memory/ray-tracing-memory-usage-could-be-reduced-by-up-to-90-percent-thanks-to-most-significant-directx-update/",
+          "title": "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update",
+          "evidence": "<article> <p>While I go 'oo' at every perfectly lit videogame vista, ray tracing can sometimes make my gaming rig go 'HNNNG'. I love a traced ray as much as the next person, but realistic reflections and lighting can be a bit of a memory hog. Thankfully, Microsoft is previewing something new for DirectX that could significantly take the load off many ageing rigs.</p><p>It's a pair of features called 'Clustered Geometry' and 'Partitioned TLAS'. At the risk of oversimplifying, you can think of this DirectX update as bringing tech very similar to <a href=\"https://www.pcgamer.com/hardware/graphics-cards/nvidias-rtx-mega-geometry-system-will-be-sprucing-up-the-forests-of-the-witcher-4-making-for-some-lush-looking-ray-traced-trees-to-go-witcher-ing-within/\" target=\"_blank\">Nvidia RTX Mega Geometry</a> to every other GPU vendor.</p><p>Obviously there's more to it than that, though, with Microsoft describing this as the \"<a href=\"https://devblogs.microsoft.com/directx/clas-ptlas-preview/\" target=\"_blank\">most significant update [to DXR] since its debut in 2018</a>.\" Top line: Microsoft's own testing of this update suggests it could reduce ray tracing memory load by as much as 90% without t"
+        }
+      ],
+      "keywords": [
+        "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update",
+        "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update date de sortie",
+        "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update plateformes",
+        "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update gameplay",
+        "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update guide",
+        "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-arc-raiders-devs-used-a-music-sample-from-a-piano-in-ch-ad127cce295d",
+      "topic": "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone",
+      "detected_at": "2026-11-02T22:53:22.381337+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-devs-have-used-a-music-sample-from-a-piano-in-chernobyl-that-someone-had-discovered-in-the-forbidden-zone/",
+          "title": "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/uk/arc-raiders/\">Arc Raiders</a> has a terrific soundscape, although it can sometimes be hard to hear it when you're getting hunted down by your fellow players or bloodthirsty arcs. The game is quite quiet, aside from the occasional sound of distant gunfire, the clicks and cracks from small roaming arcs, and the noise of shuffling scrap as raiders sort through abandoned buildings for valuable items. But perhaps the best noise in all of Arc Raiders comes from the few instruments raiders can find amid the rubble. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/_xwbP8KV530\" allowfullscreen=\"\"></iframe></div></div><p>\"One of the gameplay designers, really early on, made a trumpet,\" Pajor says. \"And it was so out of place, and we were like 'why are we making it?'\" The musical items in Arc Raiders serve multiple purposes. There's the social incentive to play an instrument, to bond with strangers and just show them that you're a harmless, relatively chill dude. But there's also the strategic purpose of using noises to lure arcs. "
+        }
+      ],
+      "keywords": [
+        "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone",
+        "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone date de sortie",
+        "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone plateformes",
+        "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone gameplay",
+        "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone guide",
+        "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

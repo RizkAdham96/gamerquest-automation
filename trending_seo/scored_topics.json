@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-02T09:57:06.186309+00:00",
+  "updated_at": "2026-11-02T22:53:22.676145+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -19278,6 +19278,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "How to find and loot Police Stations in MW4 DMZ mode"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-modern-warfare-4-has-received-a-dmz-change-that-was-so--034915aac5f9",
+      "topic": "Modern Warfare 4 has received a DMZ change that was \"so badly needed\"",
+      "detected_at": "2026-10-23T18:43:30.990498+00:00",
+      "analysed_at": "2026-11-02T22:53:22.675983+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/call-of-duty/modern-warfare-4-has-received-a-dmz-change-that-was-so-badly-needed-but-was-immediately-undercut-by-squads-in-free-for-all-bouts/",
+          "title": "Modern Warfare 4 has received a DMZ change that was \"so badly needed\"",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/call-of-duty-modern-warfare-4-guide/\"><u>Modern Warfare 4</u></a> has received a much-needed update to stop people from UAV-hogging during DMZ matches. </p><p>Call of Duty: Modern Warfare 4 is finally out today after what can – in the nicest way – be described as a unique launch rollout. Last week, players were able to access the game's campaign mode, and earlier this week, the DMZ mode became available to drop into. DMZ is Activision's take on the extraction shooter genre, letting 20 squads drop onto a massive map and play a dangerous version of Supermarket Sweep without the quizzing. </p><p>However, from what seemed like the moment DMZ launched, players found one element of it particularly frustrating. Namely, UAV towers are able to be taken over by players and expanded throughout a game, meaning that there are huge no-go zones unless you fancy being spotted the moment you walk in. This would cause a rush to UAV towers to get this benefit for yourself, with some going as far as to say this choice was a \"<a href=\"https://www.reddit.com/r/modernwarfare4/comments/1xbpzsc/infinite_uav_is_a_mistake_and_so_oppressive_you/\"><u>mista"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Modern Warfare 4 has received a DMZ change that was \"so badly needed\"",
+        "secondary_keywords": [
+          "Modern Warfare 4 has received a DMZ change that was \"so badly needed\" date de sortie",
+          "Modern Warfare 4 has received a DMZ change that was \"so badly needed\" plateformes",
+          "Modern Warfare 4 has received a DMZ change that was \"so badly needed\" gameplay",
+          "Modern Warfare 4 has received a DMZ change that was \"so badly needed\" guide",
+          "Modern Warfare 4 has received a DMZ change that was \"so badly needed\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Modern Warfare 4 has received a DMZ change that was \"so badly needed\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-roman-s-footage-in-cyberpunk-edgerunners-has-been-cut-t-159e1fecc147",
+      "topic": "Roman's footage in Cyberpunk: Edgerunners has been cut together, and it changes how you watch season 2",
+      "detected_at": "2026-10-23T18:43:30.990692+00:00",
+      "analysed_at": "2026-11-02T22:53:22.676028+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/anime-shows/romans-footage-in-cyberpunk-edgerunners-has-been-spliced-together-and-it-changes-how-you-watch-season-2/",
+          "title": "Roman's footage in Cyberpunk: Edgerunners has been cut together, and it changes how you watch season 2",
+          "evidence": "<article> <p>Cyberpunk: Edgerunners has already received the 'Roman Cut', home movie splicing together the camera footage shot by season 2's best boy, Roman.</p><p>The 10-minute video from Twitter user Epic Jimmy, which you can see below, puts all of Roman's washed-out camera clips into chronological order as he charted D.'s revenge journey across Night City, as well as all the death and destruction in his wake. </p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2113409521141882969\"><p lang=\"en\" dir=\"ltr\">Cyberpunk: Edgerunners 2 - The Roman Cut https://t.co/o9KoKG4zZD<a href=\"https://twitter.com/cantworkitout/status/2113409521141882969\">October 22, 2026</a></p></blockquote></figure><div class=\"see-more__filter\"></div></div><p>What immediately jumps out (apart from how beautiful Studio Trigger has made it all look) is how much it changes the second season. Roman's eye for the city turns from a sun-kissed dream into a flame-filled nightmare around the halfway point, proving there <em>is </em>beauty to be found in Night City – but it can fall away quickly.</p><p>Then, as D. co"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Roman's footage in Cyberpunk: Edgerunners has been cut together, and it changes how you watch season 2",
+        "secondary_keywords": [
+          "Roman's footage in Cyberpunk: Edgerunners has been cut together, and it changes how you watch season 2 date de sortie",
+          "Roman's footage in Cyberpunk: Edgerunners has been cut together, and it changes how you watch season 2 plateformes",
+          "Roman's footage in Cyberpunk: Edgerunners has been cut together, and it changes how you watch season 2 gameplay",
+          "Roman's footage in Cyberpunk: Edgerunners has been cut together, and it changes how you watch season 2 guide",
+          "Roman's footage in Cyberpunk: Edgerunners has been cut together, and it changes how you watch season 2 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Roman's footage in Cyberpunk: Edgerunners has been cut together, and it changes how you watch season 2"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-netflix-reportedly-wanted-a-500-million-film-and-tv-dea-66ebd14c3346",
+      "topic": "Netflix reportedly wanted a $500 million film and TV deal with Xbox – but the counter offer was $800 million",
+      "detected_at": "2026-10-23T18:43:30.990895+00:00",
+      "analysed_at": "2026-11-02T22:53:22.676062+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/netflix/netflix-reportedly-wanted-a-usd500-million-film-and-tv-deal-with-xbox-but-the-counter-offer-was-usd800-million/",
+          "title": "Netflix reportedly wanted a $500 million film and TV deal with Xbox – but the counter offer was $800 million",
+          "evidence": "<article> <p>Netflix reportedly wanted to strike a deal with Microsoft to licence Xbox titles for adaptation – and the counter offer was eye-wateringly high. </p><p>That's according to <a href=\"https://puck.news/newsletter_content/what-im-hearing-the-peter-rice-playbook-elons-skydance-motive/\" target=\"_blank\">Puck News</a>'s Matt Belloni, who says that the deal came from Netflix's former Chief Content Officer Bela Bajaria, who was recently fired and replaced by Peter Rice, a former Disney executive. The offer is said to have been $500 million for seven years to exclusively licence Xbox titles for film and TV adaptations. </p><p>Xbox CEO Asha Sharma with her business affairs team is said to have returned a counter offer of $800 million. However, with Bajaria no longer in her role, the deal is said to be \"off the table.\" Xbox, meanwhile, is said to be \"pursuing smaller deals with more partners.\" </p><p>While Netflix did not comment on the Puck story, Xbox said: \"We have received record-breaking interest in our I.P.; Netflix is a valued partner and we are excited for the forthcoming release of our Minecraft and Diablo animated series together, among other adaptations.\"</p><p>Netflix a"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Netflix reportedly wanted a $500 million film and TV deal with Xbox – but the counter offer was $800 million",
+        "secondary_keywords": [
+          "Netflix reportedly wanted a $500 million film and TV deal with Xbox – but the counter offer was $800 million date de sortie",
+          "Netflix reportedly wanted a $500 million film and TV deal with Xbox – but the counter offer was $800 million plateformes",
+          "Netflix reportedly wanted a $500 million film and TV deal with Xbox – but the counter offer was $800 million gameplay",
+          "Netflix reportedly wanted a $500 million film and TV deal with Xbox – but the counter offer was $800 million guide",
+          "Netflix reportedly wanted a $500 million film and TV deal with Xbox – but the counter offer was $800 million avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Netflix reportedly wanted a $500 million film and TV deal with Xbox – but the counter offer was $800 million"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-mass-effect-5-would-have-been-mass-effect-universe-and--67e649ea65d9",
+      "topic": "Mass Effect 5 would have been Mass Effect Universe, and one trailer has changed how I see the entire series",
+      "detected_at": "2026-10-23T18:43:30.991397+00:00",
+      "analysed_at": "2026-11-02T22:53:22.676082+00:00",
+      "scores": {
+        "durability": 12,
+        "search_intent": 15,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 61,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/mass-effect/mass-effect-5-would-have-been-mass-effect-universe-and-one-trailer-has-changed-how-i-see-the-entire-series/",
+          "title": "Mass Effect 5 would have been Mass Effect Universe, and one trailer has changed how I see the entire series",
+          "evidence": "<article> <p>My fiancee is in mourning for the canceled Mass Effect 5. She's been besotted with BioWare's sci-fi darling for only 6 years, but during that time, it's become a part of her. I even agreed to play the trilogy for the first time in 2022 so that she could live vicariously through me, experiencing the RPG with fresh eyes, intervening only to ensure I didn't kill Wrex at the end of the first game (\"I will literally never forgive you for it!\").</p><p>But as much as I loved every moment of my time as Commander Shepard, there's naturally a little more emotional distance between myself and Mass Effect. Professional curiosity also meant that my genuine sadness at the follow-up's cancelation – and the disbanding of one of the most prolific, talented developer teams in the history of video games – was chased by a desire to theorize. What would <a href=\"https://www.gamesradar.com/mass-effect-5-guide/\">Mass Effect 5</a> have looked like, and how would it have gotten around the player's choice element that cemented Mass Effect 3 as one of the most satisfying conclusions to an RPG series I've ever seen?</p><p>A prequel seemed logical to me. Mass Effect: D-Day, perhaps, going right ba"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Mass Effect 5 would have been Mass Effect Universe, and one trailer has changed how I see the entire series",
+        "secondary_keywords": [
+          "Mass Effect 5 would have been Mass Effect Universe, and one trailer has changed how I see the entire series date de sortie",
+          "Mass Effect 5 would have been Mass Effect Universe, and one trailer has changed how I see the entire series plateformes",
+          "Mass Effect 5 would have been Mass Effect Universe, and one trailer has changed how I see the entire series gameplay",
+          "Mass Effect 5 would have been Mass Effect Universe, and one trailer has changed how I see the entire series guide",
+          "Mass Effect 5 would have been Mass Effect Universe, and one trailer has changed how I see the entire series avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Mass Effect 5 would have been Mass Effect Universe, and one trailer has changed how I see the entire series"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-new-prime-video-reality-show-fallout-shelter-the-experi-156d446cfbc1",
+      "topic": "New Prime Video reality show Fallout Shelter: The Experiment finally has a release date",
+      "detected_at": "2026-10-23T18:43:30.991570+00:00",
+      "analysed_at": "2026-11-02T22:53:22.676099+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/sci-fi-shows/fallout-shelter-the-experiment/",
+          "title": "New Prime Video reality show Fallout Shelter: The Experiment finally has a release date",
+          "evidence": "<article> <p>Almost 10 months after the initial announcement, Prime Video finally has a release date for Fallout Shelter: The Experiment, a new reality show based in the world of post-apocalyptic video game franchise Fallout.</p><p>The unscripted reality competition series is set to hit Prime Video on January 13, 2027, with the first four episodes in tow. The remaining three will air weekly through January 27.</p><p>Per the new press release, the series is a new reality competition series that invites everyday participants to test their aptitude for the apocalypse in Vault-Tec's state-of-the-art bomb-proof vault shelters. will go head to head in a series of high-octane drills, psychological dilemmas, and morally challenging behavior trials until one special dweller emerges to win the prize of a lifetime: $1,000,000.\"</p><p>Jonathan Nolan and Lisa Joy, creators of the Fallout TV show, serve as executive producers alongside franchise boss Todd Howard. Did we mention it also comes from Studio Lambert, producers of The Traitors, The Circle, and Squid Game: The Challenge?</p><p>After the success of Netflix's Squid Game reality show, we can see why a Fallout reality show was next in line"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "New Prime Video reality show Fallout Shelter: The Experiment finally has a release date",
+        "secondary_keywords": [
+          "New Prime Video reality show Fallout Shelter: The Experiment finally has a release date date de sortie",
+          "New Prime Video reality show Fallout Shelter: The Experiment finally has a release date plateformes",
+          "New Prime Video reality show Fallout Shelter: The Experiment finally has a release date gameplay",
+          "New Prime Video reality show Fallout Shelter: The Experiment finally has a release date guide",
+          "New Prime Video reality show Fallout Shelter: The Experiment finally has a release date avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "New Prime Video reality show Fallout Shelter: The Experiment finally has a release date"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-xbox-coo-and-ex-minecraft-boss-leaves-microsoft-after-j-ccaa24d8cc97",
+      "topic": "Xbox COO and ex-Minecraft boss leaves Microsoft after just 3 months in the role",
+      "detected_at": "2026-10-24T07:36:04.964320+00:00",
+      "analysed_at": "2026-11-02T22:53:22.676115+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/platforms/xbox/xbox-coo-and-ex-minecraft-boss-leaves-microsoft-after-just-3-months-in-the-role/",
+          "title": "Xbox COO and ex-Minecraft boss leaves Microsoft after just 3 months in the role",
+          "evidence": "<article> <p>Helen Chiang, a Microsoft veteran who was head of Minecraft before transitioning to Xbox Chief Operating Officer (COO), has left the company after 21 years.</p><p><a href=\"https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure\" target=\"_blank\">The Verge</a> (paywalled) obtained a copy of an internal memo sent by Xbox CEO Asha Sharma announcing Chiang's departure, and as the publication notes, it's surprisingly brief for such a high-profile change in leadership. \"Helen Chiang is leaving Microsoft today. I'm grateful for her years of service and wish her well,\" said Sharma. The memo reportedly notes that Chiang's job responsibilities will be broken up between other Xbox leaders until a new COO is appointed. \"We'll share more on COO leadership as plans are finalized,\" Sharma told employees.</p><p>Chiang joined Microsoft in 2005 as a product manager for the company's now-defunct Streets & Trips mapping software and joined Xbox as business manager in 2007. She joined the Minecraft team as senior director in 2014 and made her way up to studio head and then corporate vice president of the Minecraft franchise in 2020. In July 2026, when Sharm"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Xbox COO and ex-Minecraft boss leaves Microsoft after just 3 months in the role",
+        "secondary_keywords": [
+          "Xbox COO and ex-Minecraft boss leaves Microsoft after just 3 months in the role date de sortie",
+          "Xbox COO and ex-Minecraft boss leaves Microsoft after just 3 months in the role plateformes",
+          "Xbox COO and ex-Minecraft boss leaves Microsoft after just 3 months in the role gameplay",
+          "Xbox COO and ex-Minecraft boss leaves Microsoft after just 3 months in the role guide",
+          "Xbox COO and ex-Minecraft boss leaves Microsoft after just 3 months in the role avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Xbox COO and ex-Minecraft boss leaves Microsoft after just 3 months in the role"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-best-thing-valve-has-added-to-steam-in-years-just-g-bb1a81ed5d0e",
+      "topic": "The best thing Valve has added to Steam in years just graduated to \"full feature\"",
+      "detected_at": "2026-10-24T07:36:04.964577+00:00",
+      "analysed_at": "2026-11-02T22:53:22.676128+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-best-thing-valve-has-added-to-steam-in-years-just-graduated-to-full-feature/",
+          "title": "The best thing Valve has added to Steam in years just graduated to \"full feature\"",
+          "evidence": "<article> <p>Arguably the biggest problem with Steam is that there are so many games being released on the platform every day that it can be difficult to keep track of the new titles that are actually cool and interesting. Last year, Valve introduced <a href=\"https://www.gamesradar.com/games/they-just-keep-winning-steam-was-already-beating-every-store-at-finding-games-and-it-just-got-better-with-custom-calendars-showing-recent-and-upcoming-games-valve-thinks-youll-like/\">a beta for a new feature called Personal Calendars</a>, and it instantly became the coolest tool Steam had for narrowing down the new release list. Now, finally, it's out for real.</p><p>\"With today's Steam update, the Personal Calendar feature officially graduates from Steam Labs and is considered a full feature of the Steam Store,\" Valve explains in its <a href=\"https://steamcommunity.com/games/593110/announcements/detail/710037059469839719\" target=\"_blank\">announcement</a>.</p><p>The actual <a href=\"https://store.steampowered.com/personalcalendar\" target=\"_blank\">Personal Calendar page</a> is pretty self-explanatory. You get a calendar showcasing the next eight weeks of games Valve's algorithms think you might b"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The best thing Valve has added to Steam in years just graduated to \"full feature\"",
+        "secondary_keywords": [
+          "The best thing Valve has added to Steam in years just graduated to \"full feature\" date de sortie",
+          "The best thing Valve has added to Steam in years just graduated to \"full feature\" plateformes",
+          "The best thing Valve has added to Steam in years just graduated to \"full feature\" gameplay",
+          "The best thing Valve has added to Steam in years just graduated to \"full feature\" guide",
+          "The best thing Valve has added to Steam in years just graduated to \"full feature\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The best thing Valve has added to Steam in years just graduated to \"full feature\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-blizzard-caves-to-diablo-4-players-increases-prime-evil-5cf87a6f5175",
+      "topic": "Blizzard caves to Diablo 4 players, increases Prime Evil Splinter stack size by 9900%",
+      "detected_at": "2026-10-24T07:36:04.964792+00:00",
+      "analysed_at": "2026-11-02T22:53:22.676142+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/blizzard-finally-sees-sense-and-caves-to-diablo-4-players-increases-prime-evil-splinter-stack-size-by-9900-percent/",
+          "title": "Blizzard caves to Diablo 4 players, increases Prime Evil Splinter stack size by 9900%",
+          "evidence": "<article> <p>After weeks of outcry, Blizzard has seemingly caved to pressure from the ever-vocal Diablo 4 community and increased stacking on Prime Evil Splinters from 1, which means no stacking, all the way up to 99, a 9900% increase. That's not just a compromise, that's a full-blown reversal seemingly based on feedback from the players.</p><p>\"WE GOT A SPLINTER STACK SIZE INCREASE,\" reads an excited Reddit post featuring a screenshot from the latest Diablo 4 <a href=\"https://news.blizzard.com/en-us/article/24295395/diablo-iv-patch-notes\" target=\"_blank\">patch notes</a>, which confirm, \"The stack size for Prime Evil Splinters increased from 1 to 99\" starting October 28. Unfortunately, the reaction at least on the Diablo 4 subreddit hasn't been as positive as Blizzard is probably hoping. In fact, the vast majority of comments, including those with the most upvotes, are from players who feel the change is too late, if not too little.</p><p>\"Nice. Wait until the bulk of the playerbase has given up in disgust,\" reads the <a href=\"https://www.reddit.com/r/diablo4/comments/1xdlt7v/comment/19rjnm5gtdrts/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_but"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Blizzard caves to Diablo 4 players, increases Prime Evil Splinter stack size by 9900%",
+        "secondary_keywords": [
+          "Blizzard caves to Diablo 4 players, increases Prime Evil Splinter stack size by 9900% date de sortie",
+          "Blizzard caves to Diablo 4 players, increases Prime Evil Splinter stack size by 9900% plateformes",
+          "Blizzard caves to Diablo 4 players, increases Prime Evil Splinter stack size by 9900% gameplay",
+          "Blizzard caves to Diablo 4 players, increases Prime Evil Splinter stack size by 9900% guide",
+          "Blizzard caves to Diablo 4 players, increases Prime Evil Splinter stack size by 9900% avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Blizzard caves to Diablo 4 players, increases Prime Evil Splinter stack size by 9900%"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

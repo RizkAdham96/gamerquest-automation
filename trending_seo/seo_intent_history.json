@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-11-02T09:57:12.164919+00:00",
+  "updated_at": "2026-11-02T22:53:27.729427+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -457,6 +457,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-hollow-knight-silksong-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 934,
       "published_at": "2026-11-02T09:57:12.164919+00:00"
+    },
+    {
+      "intent_key": "hollow knight silksong multijoueur",
+      "primary_keyword": "Hollow Knight: Silksong multijoueur",
+      "title": "Hollow Knight: Silksong multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/hollow-knight-silksong-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 939,
+      "published_at": "2026-11-02T22:53:27.729427+00:00"
     }
   ]
 }

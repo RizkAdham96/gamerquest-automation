@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-11-03T10:04:13.029034+00:00",
+  "updated_at": "2026-11-03T20:38:55.321523+00:00",
   "published": [
     {
       "intent_key": "the witcher 3 remastered",
@@ -473,6 +473,14 @@
       "wordpress_url": "https://gamerquestfr.com/configuration-pc-halo-the-master-chief-collection-minimale-recommandee-et-conseils/",
       "wordpress_post_id": 941,
       "published_at": "2026-11-03T10:04:13.029034+00:00"
+    },
+    {
+      "intent_key": "halo the master chief collection multijoueur",
+      "primary_keyword": "Halo: The Master Chief Collection multijoueur",
+      "title": "Halo: The Master Chief Collection multijoueur : coop, en ligne et modes de jeu",
+      "wordpress_url": "https://gamerquestfr.com/halo-the-master-chief-collection-multijoueur-coop-en-ligne-et-modes-de-jeu/",
+      "wordpress_post_id": 943,
+      "published_at": "2026-11-03T20:38:55.321523+00:00"
     }
   ]
 }

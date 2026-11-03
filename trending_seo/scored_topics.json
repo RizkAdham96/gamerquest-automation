@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-02T22:53:22.676145+00:00",
+  "updated_at": "2026-11-03T10:04:06.712798+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -19590,6 +19590,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Blizzard caves to Diablo 4 players, increases Prime Evil Splinter stack size by 9900%"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-zelda-ocarina-of-time-designer-wanted-navi-to-be-a-cute-4f02c02ff261",
+      "topic": "Zelda: Ocarina of Time designer wanted Navi to be a \"cute girl,\" but it \"wasn't possible\" on N64",
+      "detected_at": "2026-10-24T07:36:04.965864+00:00",
+      "analysed_at": "2026-11-03T10:04:06.712617+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-designer-wanted-navi-to-be-a-cute-girl-but-that-wasnt-possible-with-the-nintendo-64/",
+          "title": "Zelda: Ocarina of Time designer wanted Navi to be a \"cute girl,\" but it \"wasn't possible\" on N64",
+          "evidence": "<article> <p>I'm more of a Midna stan, but there's no denying Navi from Zelda: Ocarina of Time is the series' most iconic ethereal companion, with her lovably nagging pleas to \"hey, listen\" still ringing through the Zelda pantheon after all these years. The original vision for the li'l fairy, however, was very different from the glowing orb with wings we know and love today, and it's only because of the technical limitations of the Nintendo 64 that she looks the way she does.</p><p>Nintendo veteran and Ocarina of Time designer Yoshiaki Koizumi revealed as much in an <a href=\"https://iwataasks.nintendo.com/interviews/3ds/zelda-ocarina-of-time/1/3/\" target=\"_blank\">Iwata Asks</a> Q&A from 2011, but with the upcoming <a href=\"https://www.gamesradar.com/the-legend-of-zelda-ocarina-of-time-remake-guide/\">remake</a> renewing interest in the original game, the <a href=\"https://www.youtube.com/watch?v=_G9joPkP-4E\" target=\"_blank\">Kit & Krysta YouTube channel</a> dug it up and it caught our attention here. I mean, can you imagine an Ocarina of Time where Link's companion is anything but a faceless glowing ball? According to Koizumi, Navi was originally supposed to be a human-like figure.</p"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Zelda: Ocarina of Time designer wanted Navi to be a \"cute girl,\" but it \"wasn't possible\" on N64",
+        "secondary_keywords": [
+          "Zelda: Ocarina of Time designer wanted Navi to be a \"cute girl,\" but it \"wasn't possible\" on N64 date de sortie",
+          "Zelda: Ocarina of Time designer wanted Navi to be a \"cute girl,\" but it \"wasn't possible\" on N64 plateformes",
+          "Zelda: Ocarina of Time designer wanted Navi to be a \"cute girl,\" but it \"wasn't possible\" on N64 gameplay",
+          "Zelda: Ocarina of Time designer wanted Navi to be a \"cute girl,\" but it \"wasn't possible\" on N64 guide",
+          "Zelda: Ocarina of Time designer wanted Navi to be a \"cute girl,\" but it \"wasn't possible\" on N64 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Zelda: Ocarina of Time designer wanted Navi to be a \"cute girl,\" but it \"wasn't possible\" on N64"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-where-to-buy-the-legend-of-zelda-nintendo-switch-2-amaz-6ec54f1a4fdf",
+      "topic": "Where to buy the Legend of Zelda Nintendo Switch 2: Amazon gets fresh restock ahead of launch",
+      "detected_at": "2026-10-24T07:36:04.966758+00:00",
+      "analysed_at": "2026-11-03T10:04:06.712673+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/where-to-buy-the-legend-of-zelda-nintendo-switch-2/",
+          "title": "Where to buy the Legend of Zelda Nintendo Switch 2: Amazon gets fresh restock ahead of launch",
+          "evidence": "<article> <p>Many wondering where to buy the Legend of Zelda Nintendo Switch 2 have been stuck desperately hunting for stock after the special edition was swept off the shelves within its first day at pre-order. However, retailers have started dropping additional stock of the hard-to-find release in the last day, which means these engines are starting to rev once more.</p><p>In fact, the Legend of Zelda Nintendo Switch 2 is currently in stock right now in the UK. <strong>Both </strong><a href=\"https://www.amazon.co.uk/Nintendo-Switch-Legend-Anniversary-console/dp/B0HN57B5B5\" target=\"_blank\"><strong>Amazon</strong></a><strong> and </strong><a href=\"https://www.argos.co.uk/product/9625053\" target=\"_blank\"><strong>Argos</strong></a><strong> have these handhelds ready to order today. </strong></p><p>Why now? We're in the window when pre-order payments are starting to be taken from those lucky enough to snag the Zelda 40th Anniversary Edition Switch 2 last month. With launch set for October 29, many retailers will be starting their shipping process about now. When payments inevitably bounce or early birds get cold feet, their previously accounted-for handhelds return to the shelves. </p"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Where to buy the Legend of Zelda Nintendo Switch 2: Amazon gets fresh restock ahead of launch",
+        "secondary_keywords": [
+          "Where to buy the Legend of Zelda Nintendo Switch 2: Amazon gets fresh restock ahead of launch date de sortie",
+          "Where to buy the Legend of Zelda Nintendo Switch 2: Amazon gets fresh restock ahead of launch plateformes",
+          "Where to buy the Legend of Zelda Nintendo Switch 2: Amazon gets fresh restock ahead of launch gameplay",
+          "Where to buy the Legend of Zelda Nintendo Switch 2: Amazon gets fresh restock ahead of launch guide",
+          "Where to buy the Legend of Zelda Nintendo Switch 2: Amazon gets fresh restock ahead of launch avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Where to buy the Legend of Zelda Nintendo Switch 2: Amazon gets fresh restock ahead of launch"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-diablo-4-ptr-3-3-0-confirms-season-16-is-taking-druids--39cd8ba27bf1",
+      "topic": "Diablo 4 PTR 3.3.0 confirms Season 16 is taking Druids back to school to address broken tags",
+      "detected_at": "2026-10-24T07:36:04.966947+00:00",
+      "analysed_at": "2026-11-03T10:04:06.712697+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/diablo/diablo-4-ptr-3-3-0-confirms-season-16-is-carrying-forward-some-features-by-popular-demand-and-blizzard-is-taking-druids-back-to-school-to-address-broken-tags/",
+          "title": "Diablo 4 PTR 3.3.0 confirms Season 16 is taking Druids back to school to address broken tags",
+          "evidence": "<article> <p>The new <a href=\"https://www.gamesradar.com/diablo-4/\">Diablo 4</a> PTR period is right around the corner, and <a href=\"https://www.gamesradar.com/uk/tag/blizzard-entertainment/\">Blizzard</a>'s revealed what changes players can tinker with ahead of the full update. The druid class is receiving some significant tweaks, war plans are getting deeper and more intricate, and more.</p><p>\"Some features from the Season of Hell's Legacy will be carrying forward into Season 16,\" the introduction says. \"However, these will not be part of this PTR, as we want to focus on new features for testing.\"</p><p>The <a href=\"https://news.blizzard.com/en-us/article/24302578/the-3-3-0-ptr-what-you-need-to-know\" target=\"_blank\">notes from the devs</a> start with what's happening to war plans, and it's a good place to kick off. Firstly, there's a new progression system specifically for the endgame quests. Conveniently called War Plans Tactics, the notion is to make the missions you do and what you get out of them more specific.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/2L55"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Diablo 4 PTR 3.3.0 confirms Season 16 is taking Druids back to school to address broken tags",
+        "secondary_keywords": [
+          "Diablo 4 PTR 3.3.0 confirms Season 16 is taking Druids back to school to address broken tags date de sortie",
+          "Diablo 4 PTR 3.3.0 confirms Season 16 is taking Druids back to school to address broken tags plateformes",
+          "Diablo 4 PTR 3.3.0 confirms Season 16 is taking Druids back to school to address broken tags gameplay",
+          "Diablo 4 PTR 3.3.0 confirms Season 16 is taking Druids back to school to address broken tags guide",
+          "Diablo 4 PTR 3.3.0 confirms Season 16 is taking Druids back to school to address broken tags avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Diablo 4 PTR 3.3.0 confirms Season 16 is taking Druids back to school to address broken tags"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-all-clean-crew-codes-october-2026-and-how-to-redeem-the-1e783f06f8fc",
+      "topic": "All Clean Crew codes (October 2026) and how to redeem them for stickers and more",
+      "detected_at": "2026-10-24T07:36:04.967147+00:00",
+      "analysed_at": "2026-11-03T10:04:06.712717+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/simulation/clean-crew-codes/",
+          "title": "All Clean Crew codes (October 2026) and how to redeem them for stickers and more",
+          "evidence": "<article> <p>Clean Crew codes might not always provide any competitive advantage when it comes to upping your cleaning skills, but they can add a bit of color to your work day - literally. Whether it's stickers, colors to repaint your skin, or even lobby music, the cosmetic items offered for free thanks to these codes add some cheer to an otherwise dirty job.<br><br>Sometimes, you might even be lucky enough to get a handful of Mula from these promo codes. Though we haven't seen any in while, Clean Crew codes historically have granted a boost to your bank balance, so get cleaning and earn as many as you can in the <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> simulation in the meantime.<br><br><em>If you're after some more general avatar rewards to use in all of your experiences, then we've got the current </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em> covered too.</em></p><h2 class=\"article-body__section\" id=\"section-all-clean-crew-codes\"><span>All Clean Crew codes</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "All Clean Crew codes (October 2026) and how to redeem them for stickers and more",
+        "secondary_keywords": [
+          "All Clean Crew codes (October 2026) and how to redeem them for stickers and more date de sortie",
+          "All Clean Crew codes (October 2026) and how to redeem them for stickers and more plateformes",
+          "All Clean Crew codes (October 2026) and how to redeem them for stickers and more gameplay",
+          "All Clean Crew codes (October 2026) and how to redeem them for stickers and more guide",
+          "All Clean Crew codes (October 2026) and how to redeem them for stickers and more avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "All Clean Crew codes (October 2026) and how to redeem them for stickers and more"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-final-fantasy-14-players-get-1-free-day-of-game-time-af-878e3b607e85",
+      "topic": "Final Fantasy 14 players get 1 free day of game time after Square Enix lifts the MMO's PHP lockdown",
+      "detected_at": "2026-10-24T07:36:04.967355+00:00",
+      "analysed_at": "2026-11-03T10:04:06.712740+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/final-fantasy/final-fantasy-14-players-get-1-free-day-of-game-time-after-square-enix-lifts-the-mmos-php-lockdown/",
+          "title": "Final Fantasy 14 players get 1 free day of game time after Square Enix lifts the MMO's PHP lockdown",
+          "evidence": "<article> <p>After a wild week of security fears and login restrictions, <a href=\"https://www.gamesradar.com/final-fantasy-xiv/\">Final Fantasy 14</a> went back up and open to the public yesterday – but Square Enix is well aware that subscribed players lost out on game time due to the situation… <em>paid</em> game time.</p><p>In case you're out of the loop, there was a major worldwide internet security scare earlier this week involving PHP, the programming language that powers various websites and more. <br><br>There were two serious security weaknesses, leading to many shutdowns – even <a href=\"https://www.gamesradar.com/games/the-steam-store-goes-down-as-valve-seemingly-joins-the-whole-internet-struggling-amid-php-vulnerabilities/\" target=\"_blank\">the Steam store went down</a> amid the issues – and Final Fantasy 14 was no exception, as Square Enix closed the game to new logins.</p><p>Following their work to maintain security on the MMO's servers despite the PHP shenanigans, the developers reopened Final Fantasy 14 (and, sadly, also announced that <a href=\"https://www.gamesradar.com/games/final-fantasy/final-fantasy-14-lets-players-back-into-the-mmo-after-php-vulnerability-fears-lo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Final Fantasy 14 players get 1 free day of game time after Square Enix lifts the MMO's PHP lockdown",
+        "secondary_keywords": [
+          "Final Fantasy 14 players get 1 free day of game time after Square Enix lifts the MMO's PHP lockdown date de sortie",
+          "Final Fantasy 14 players get 1 free day of game time after Square Enix lifts the MMO's PHP lockdown plateformes",
+          "Final Fantasy 14 players get 1 free day of game time after Square Enix lifts the MMO's PHP lockdown gameplay",
+          "Final Fantasy 14 players get 1 free day of game time after Square Enix lifts the MMO's PHP lockdown guide",
+          "Final Fantasy 14 players get 1 free day of game time after Square Enix lifts the MMO's PHP lockdown avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Final Fantasy 14 players get 1 free day of game time after Square Enix lifts the MMO's PHP lockdown"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-open-world-spy-game-from-grand-theft-auto-dev-never-hap-d36d641e9d4b",
+      "topic": "Open-world spy game from Grand Theft Auto dev never happened because Rockstar couldn't get it right",
+      "detected_at": "2026-10-24T17:35:57.847109+00:00",
+      "analysed_at": "2026-11-03T10:04:06.712759+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/open-world/open-world-spy-game-from-grand-theft-auto-devs-never-happened-because-rockstar-couldnt-get-it-right-other-people-can-try-but-i-personally-think-its-hard/",
+          "title": "Open-world spy game from Grand Theft Auto dev never happened because Rockstar couldn't get it right",
+          "evidence": "<article> <p>In 2009, <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> developer Rockstar Games revealed a totally new series to the public: Agent, an open-world stealth romp set during the 1970s' Cold War that was due to be exclusive to the PS3. Agent never came to be, but Rockstar co-founder Dan Houser says it wasn't for a lack of trying. </p><p>After a series of years-long rumors and teases, Agent was formally announced to the world at E3 2009. The famed developer never properly announced the project's cancelation, but it eventually abandoned the trademark and quietly moved on.</p><p>\"We tried with two or three different teams to make an open-world spy game and could not get it right, so it never came out,\" Houser recalls in an interview with IGN (below). \"We concluded it was not a game we were ever going to figure out how to be able to make. Other people can try, but I personally think it's hard.\"</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/HfskoxOZBwU\" allowfullscreen></iframe></div></div><p>According to Houser, a frequent problem with Agent was ho"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Open-world spy game from Grand Theft Auto dev never happened because Rockstar couldn't get it right",
+        "secondary_keywords": [
+          "Open-world spy game from Grand Theft Auto dev never happened because Rockstar couldn't get it right date de sortie",
+          "Open-world spy game from Grand Theft Auto dev never happened because Rockstar couldn't get it right plateformes",
+          "Open-world spy game from Grand Theft Auto dev never happened because Rockstar couldn't get it right gameplay",
+          "Open-world spy game from Grand Theft Auto dev never happened because Rockstar couldn't get it right guide",
+          "Open-world spy game from Grand Theft Auto dev never happened because Rockstar couldn't get it right avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Open-world spy game from Grand Theft Auto dev never happened because Rockstar couldn't get it right"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-mass-effect-universe-supposedly-featured-hitman-style-f-a4ec894a8c32",
+      "topic": "Mass Effect Universe supposedly featured \"Hitman-style freedom\" and a \"galactic Cold War\"",
+      "detected_at": "2026-10-24T17:35:57.847234+00:00",
+      "analysed_at": "2026-11-03T10:04:06.712776+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/mass-effect/mass-effect-universe-supposedly-featured-hitman-style-freedom-and-a-galactic-cold-war-according-to-bioware-insider/",
+          "title": "Mass Effect Universe supposedly featured \"Hitman-style freedom\" and a \"galactic Cold War\"",
+          "evidence": "<article> <p>New gameplay details from the <a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">canceled Mass Effect game</a> have emerged, following developer BioWare's abrupt demise. Mass Effect Universe was reportedly set to feature a galactic Cold War between the galaxy's remaining factions, espionage mechanics likened to the Hitman series, and, of course, romance.</p><p>The new tidbits come from YouTuber Dantics, who was supposedly on the Mass Effect player council composed of community members and content creators who gave BioWare feedback during production. <a href=\"https://www.ign.com/articles/mass-effect-5-details-revealed-following-cancellation-including-hitman-style-freedom-in-missions\" target=\"_blank\">IGN </a>has backed up some of his comments and even reports that \"every major [alien] race\" was working in an in-production build, citing an anonymous development source.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/ZOWrTNazZxM\" allowfullscreen></iframe></div></div><p>A <a href=\"https:/"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Mass Effect Universe supposedly featured \"Hitman-style freedom\" and a \"galactic Cold War\"",
+        "secondary_keywords": [
+          "Mass Effect Universe supposedly featured \"Hitman-style freedom\" and a \"galactic Cold War\" date de sortie",
+          "Mass Effect Universe supposedly featured \"Hitman-style freedom\" and a \"galactic Cold War\" plateformes",
+          "Mass Effect Universe supposedly featured \"Hitman-style freedom\" and a \"galactic Cold War\" gameplay",
+          "Mass Effect Universe supposedly featured \"Hitman-style freedom\" and a \"galactic Cold War\" guide",
+          "Mass Effect Universe supposedly featured \"Hitman-style freedom\" and a \"galactic Cold War\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Mass Effect Universe supposedly featured \"Hitman-style freedom\" and a \"galactic Cold War\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-pokemon-winds-and-waves-might-benefit-from-next-gen-wat-cf5d9c5e05f5",
+      "topic": "Pokemon Winds and Waves might benefit from next-gen water tech",
+      "detected_at": "2026-10-24T17:35:57.847327+00:00",
+      "analysed_at": "2026-11-03T10:04:06.712795+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/pokemon/pokemon-winds-and-waves-might-benefit-from-next-gen-water-tech-as-a-game-freak-developer-publishes-water-simulation-research/",
+          "title": "Pokemon Winds and Waves might benefit from next-gen water tech",
+          "evidence": "<article> <p>A new research paper co-authored by a Game Freak developer dives deep into next-gen water simulation tech, raising hopes for <a href=\"https://www.gamesradar.com/games/pokemon-winds-and-waves-guide/\">Pokemon Winds and Waves</a>' summery vistas and underwater areas.</p><p>Game Freak programmer Fumiya Narita and University of Tokyo professor Takashi Kanai recently co-published a new paper that aims to help render water and moving liquids more efficiently, without sacrificing any of the visual detail that really makes the ocean <em>splash </em>in animation. (Good spot, <a href=\"https://automaton-media.com/articles/newsjp/20261022-475027/\" target=\"_blank\">Automaton</a>.)</p><p>Their joint research paper was presented during the international Pacific Graphics 2026 conference held in Singapore, and there's quite a bit of technical knowhow involved, of course. Essentially, the research explains that detailed liquid physics presents a heavy computational load on many games, so the new tech looks to simplify the under-the-hood calculations and concentrate on the most impressive details - the splashes, ripples, maybe even the waves…</p><p>It's worth noting that the research didn'"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Pokemon Winds and Waves might benefit from next-gen water tech",
+        "secondary_keywords": [
+          "Pokemon Winds and Waves might benefit from next-gen water tech date de sortie",
+          "Pokemon Winds and Waves might benefit from next-gen water tech plateformes",
+          "Pokemon Winds and Waves might benefit from next-gen water tech gameplay",
+          "Pokemon Winds and Waves might benefit from next-gen water tech guide",
+          "Pokemon Winds and Waves might benefit from next-gen water tech avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Pokemon Winds and Waves might benefit from next-gen water tech"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-03T20:38:49.246466+00:00",
+  "updated_at": "2026-11-04T20:56:19.701445+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -20214,6 +20214,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Sony drops prices on the only PS5 consoles I'd recommend buying this holiday season, just in time for GTA 6"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-clair-obscur-expedition-33-has-sold-8-7-million-copies--a73e43b3a250",
+      "topic": "Clair Obscur: Expedition 33 has sold 8.7 million copies and made $366 million, analyst says",
+      "detected_at": "2026-10-25T07:48:49.456390+00:00",
+      "analysed_at": "2026-11-04T20:56:19.701225+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/clair-obscur-expedition-33-has-sold-8-7-million-copies-and-made-usd366-million-analyst-says-and-thats-despite-the-game-pass-cannibalization/",
+          "title": "Clair Obscur: Expedition 33 has sold 8.7 million copies and made $366 million, analyst says",
+          "evidence": "<article> <p>Clair Obscur: Expedition 33 has sold 8.7 million copies and generated $336 million in revenue since its launch last year, with the majority of sales on Steam despite being on PC Game Pass.</p><p>A <a href=\"https://alineaanalytics.substack.com/p/how-well-have-past-goty-winners-sold\" target=\"_blank\">post </a>by Alinea Analytics breaks down how the last few Game of the Year award winners – Elden Ring, Baldur's Gate 3, Astro Bot, and Clair Obscur: Expedition 33 – have sold across their various platforms. </p><p>As one of the biggest games ever made, Elden Ring naturally leads with $2 billion from 36.4 million copies sold, and Baldur's Gate 3 isn't <em>too </em>far behind with $1.2 billion from 23.2 million copies sold. Meanwhile Astro Bot made $291 million across 4.7 million copies sold, which is natural being an exclusive and being a sadly niche genre (bring back platformers being the top genre I beg you).</p><p>Then comes the <a href=\"https://www.gamesradar.com/games/rpg/clair-obscur-expedition-33-beats-elden-ring-for-most-game-of-the-year-wins-from-awards-shows-media-outlets-and-more-and-its-not-done-yet/\"><u>most recent and most-awarded Game of the Year winner</u></a><"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Clair Obscur: Expedition 33 has sold 8.7 million copies and made $366 million, analyst says",
+        "secondary_keywords": [
+          "Clair Obscur: Expedition 33 has sold 8.7 million copies and made $366 million, analyst says date de sortie",
+          "Clair Obscur: Expedition 33 has sold 8.7 million copies and made $366 million, analyst says plateformes",
+          "Clair Obscur: Expedition 33 has sold 8.7 million copies and made $366 million, analyst says gameplay",
+          "Clair Obscur: Expedition 33 has sold 8.7 million copies and made $366 million, analyst says guide",
+          "Clair Obscur: Expedition 33 has sold 8.7 million copies and made $366 million, analyst says avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Clair Obscur: Expedition 33 has sold 8.7 million copies and made $366 million, analyst says"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-danganronpa-could-be-adapted-into-a-tv-show-according-t-4d9014a00890",
+      "topic": "Danganronpa could be adapted into a TV show according to uncovered copyright listing",
+      "detected_at": "2026-10-25T07:48:49.456580+00:00",
+      "analysed_at": "2026-11-04T20:56:19.701280+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/crime-shows/danganronpa-could-be-adapted-into-a-tv-show-according-to-uncovered-copyright-listing/",
+          "title": "Danganronpa could be adapted into a TV show according to uncovered copyright listing",
+          "evidence": "<article> <p>Puhuhu. Copyright for a Danganronpa TV show has been discovered.</p><p><a href=\"https://www.reddit.com/r/danganronpa/comments/1xc8sk4/i_found_a_copyright_filed_for_danganronpa_that/\" target=\"_blank\">As discovered by Reddit user</a> u/Effective_Bee_6661, a Date of Execution between Danganronpa's Spike Chunsoft and Blumhouse TV LLC, who have produced Sharp Objects and The Purge series.</p><p>A further listing in 2024 for a 'Short Form Option' was filed at the US Copyright Office.</p><p>That, of course, is no confirmation that a Danganronpa TV show <em>is </em>in the works, but this is the first time that high-level talks have been brought to light. Blumhouse will now hold the rights for an indefinite period, meaning that the project can still be greenlit in the future.</p><p>Created by Kazutaka Kodaka, Danganronpa is a trilogy of twisted murder mystery games – and a handful of spin-offs – with a unique premise: a collection of 'Ultimate' students are gathered in Hope's Peak Academy for a killing game organized by sentient black-and-white teddy bear Monokuma. </p><p>To escape, students must kill one another without being detected, with the player character then tasked wit"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Danganronpa could be adapted into a TV show according to uncovered copyright listing",
+        "secondary_keywords": [
+          "Danganronpa could be adapted into a TV show according to uncovered copyright listing date de sortie",
+          "Danganronpa could be adapted into a TV show according to uncovered copyright listing plateformes",
+          "Danganronpa could be adapted into a TV show according to uncovered copyright listing gameplay",
+          "Danganronpa could be adapted into a TV show according to uncovered copyright listing guide",
+          "Danganronpa could be adapted into a TV show according to uncovered copyright listing avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Danganronpa could be adapted into a TV show according to uncovered copyright listing"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-obsession-star-inde-navarrette-gives-us-a-taste-of-her--019a6631ba81",
+      "topic": "Obsession star Inde Navarrette gives us a taste of her Rogue accent ahead of Marvel's new X-Men movie",
+      "detected_at": "2026-10-25T07:48:49.456802+00:00",
+      "analysed_at": "2026-11-04T20:56:19.701313+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-movies/obsession-star-inde-navarrette-gives-us-a-taste-of-her-rogue-accent-ahead-of-marvels-new-x-men-movie/",
+          "title": "Obsession star Inde Navarrette gives us a taste of her Rogue accent ahead of Marvel's new X-Men movie",
+          "evidence": "<article> <p>Just two months after her X-Men casting was first announced, Obsession star Inde Navarrette has given fans a taste of her Rogue accent. </p><p>Navarrette was put on the spot and asked by <a href=\"https://www.youtube.com/shorts/LOpBY5H8f9Q\" target=\"_blank\">eTalk</a> to give fans a sneak peek of her Rogue accent, saying the mutant's famous line, 'Sugar,' in Rogue's strong Southern accent, which Navarrette bravely attempted on camera. Watch the clip below. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/LOpBY5H8f9Q\" allowfullscreen></iframe></div></div><p>Rogue, real name Anna Marie, was first introduced to Marvel Comics in 1981. The mutant's particular power is absorbing the life force, superpowers, and memories of anyone she touches. But her touch is deadly, meaning she cannot ever get close to anyone, which causes issues in her relationship with Gambit. Rogue is a runaway from Mississippi, so in most on-screen adaptations she sports a thick accent. </p><p>Even though Navarrette admits she needs more practice, some Marvel fans approve of her voice already."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Obsession star Inde Navarrette gives us a taste of her Rogue accent ahead of Marvel's new X-Men movie",
+        "secondary_keywords": [
+          "Obsession star Inde Navarrette gives us a taste of her Rogue accent ahead of Marvel's new X-Men movie date de sortie",
+          "Obsession star Inde Navarrette gives us a taste of her Rogue accent ahead of Marvel's new X-Men movie plateformes",
+          "Obsession star Inde Navarrette gives us a taste of her Rogue accent ahead of Marvel's new X-Men movie gameplay",
+          "Obsession star Inde Navarrette gives us a taste of her Rogue accent ahead of Marvel's new X-Men movie guide",
+          "Obsession star Inde Navarrette gives us a taste of her Rogue accent ahead of Marvel's new X-Men movie avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Obsession star Inde Navarrette gives us a taste of her Rogue accent ahead of Marvel's new X-Men movie"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-original-exorcist-star-doesn-t-think-we-need-mike-flana-215f4eca2ddb",
+      "topic": "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\"",
+      "detected_at": "2026-10-25T07:48:49.456988+00:00",
+      "analysed_at": "2026-11-04T20:56:19.701344+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/horror-movies/original-exorcist-star-doesnt-think-we-need-mike-flanagans-sequel-its-enough-already/",
+          "title": "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\"",
+          "evidence": "<article> <p>Original Exorcist star Ellen Burstyn doesn't love the idea of Mike Flanagan's sequel. </p><p>Burstyn played Chris MacNeil in the original Exorcist movie and returned in 2023's The Exorcist: Believer. </p><p>\"Isn't there enough already of the Exorcist thing?\" she told <a href=\"https://variety.com/2026/film/news/ellen-burstyn-egot-grammys-exorcist-awards-1236921700/\" target=\"_blank\">Variety </a>, referring to Flanagan's project. \"It's enough already.\" </p><p>Flanagan's The Exorcist: Martyrs Scarlett Johansson, Chiwetel Ejiofor, Laurence Fishburne, and John Leguizamo. \"It's viciously dark,\" <a href=\"https://www.gamesradar.com/entertainment/horror-movies/mike-flanagans-exorcist-sequel-gets-its-first-teaser-as-horror-legend-calls-it-unsafely-dark/\">Flanagan has said of the film</a>. \"It's unsafely dark at times, and we went places in there that I've never, never gone on any of my sets emotionally. But I have to say that at the end of it, we found some light and some hope in it that I'm really grateful for because it's a harrowing story.\" </p><p>While not much is known about the film yet, it's expected to follow a single mother police officer whose son is the target of a dem"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\"",
+        "secondary_keywords": [
+          "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\" date de sortie",
+          "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\" plateformes",
+          "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\" gameplay",
+          "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\" guide",
+          "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Original Exorcist star doesn't think we need Mike Flanagan's sequel: \"It's enough already\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-zelda-and-mario-creator-shigeru-miyamoto-is-first-dev-t-21b0681e87ae",
+      "topic": "Zelda and Mario creator Shigeru Miyamoto is first dev to receive Japan's greatest cultural award",
+      "detected_at": "2026-10-25T07:48:49.457191+00:00",
+      "analysed_at": "2026-11-04T20:56:19.701369+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/zelda-and-mario-creator-shigeru-miyamoto-becomes-first-ever-dev-to-receive-japans-greatest-cultural-award-but-hes-crediting-all-of-nintendo-these-achievements-were-not-the-work-of-one-person/",
+          "title": "Zelda and Mario creator Shigeru Miyamoto is first dev to receive Japan's greatest cultural award",
+          "evidence": "<article> <p>Shigeru Miyamoto, mastermind of Nintendo and the creator of Super Mario, The Legend of Zelda, and Donkey Kong, will receive one of Japan's most highly regarded cultural honors – and he's the first video game developer to do so, too.</p><p>The Order of Culture, established in 1937, is an award presented to men and women who have made substantial contributions to Japan's art, literature, science, and technology. <br><br>Notable recipients include everything from fashion designers to manga artists and biologists… and, yes, it's now going to Miyamoto. A new report from <a href=\"https://game.watch.impress.co.jp/docs/interview/2150508.html\" target=\"_blank\">GameWatch</a> (as translated by <a href=\"https://automaton-media.com/en/news/shigeru-miyamoto-becomes-first-game-developer-to-receive-the-order-of-culture-japans-highest-cultural-honor/\" target=\"_blank\">Automaton</a>) confirms as much.</p><p>Miyamoto, who reportedly appeared \"modest\" during the announcement regarding the award, is \"honored\" to be receiving it, paying tribute to other devs he's worked alongside throughout his career at Nintendo – his 49-year career: \"I am truly honored to receive such a prestigious award. A"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Zelda and Mario creator Shigeru Miyamoto is first dev to receive Japan's greatest cultural award",
+        "secondary_keywords": [
+          "Zelda and Mario creator Shigeru Miyamoto is first dev to receive Japan's greatest cultural award date de sortie",
+          "Zelda and Mario creator Shigeru Miyamoto is first dev to receive Japan's greatest cultural award plateformes",
+          "Zelda and Mario creator Shigeru Miyamoto is first dev to receive Japan's greatest cultural award gameplay",
+          "Zelda and Mario creator Shigeru Miyamoto is first dev to receive Japan's greatest cultural award guide",
+          "Zelda and Mario creator Shigeru Miyamoto is first dev to receive Japan's greatest cultural award avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Zelda and Mario creator Shigeru Miyamoto is first dev to receive Japan's greatest cultural award"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-mass-effect-2-found-its-identity-in-the-intimate-and-pe-01d0542844e8",
+      "topic": "Mass Effect 2 found its identity in the intimate and personal",
+      "detected_at": "2026-10-25T17:51:52.359493+00:00",
+      "analysed_at": "2026-11-04T20:56:19.701392+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/stealth/mass-effect-2-found-its-identity-in-the-intimate-and-personal/",
+          "title": "Mass Effect 2 found its identity in the intimate and personal",
+          "evidence": "<article> <p>Vorp! With a simple sci-fi sound effect, BioWare tore apart the gleaming hull of the Normandy SR-1, scattered a great deal of what came before to the void, and split its burgeoning action-RPG series clean in two. Save files from 2007's Mass Effect might have brought with them an XP bonus or credit dump as well as the player's established continuity, but rarely before or since has the reset button been pressed so swiftly, or so heart-wrenchingly. </p><p>It was exactly what the series needed. One-time Xbox 360 exclusive Mass Effect had been a bright spot of promise for the console, buffed to a lens-flare-spilling sheen by being billed as a franchise that would move beyond binary morality and deliver a meaningful, ongoing space opera – one that wasn't Star Wars for a change. (Many studios now promise episodic gaming, but BioWare was crafting series-spanning narrative arcs long before that buzz-phrase was coined.) The opening part of the trilogy was certainly grandiose and epic in scope, yet somehow austere, a feeling compounded by a glut of anodyne shootouts and awkward driving filling the time away from its much-admired conversation wheel. It wasn't Star Wars, but nor ha"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Mass Effect 2 found its identity in the intimate and personal",
+        "secondary_keywords": [
+          "Mass Effect 2 found its identity in the intimate and personal date de sortie",
+          "Mass Effect 2 found its identity in the intimate and personal plateformes",
+          "Mass Effect 2 found its identity in the intimate and personal gameplay",
+          "Mass Effect 2 found its identity in the intimate and personal guide",
+          "Mass Effect 2 found its identity in the intimate and personal avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Mass Effect 2 found its identity in the intimate and personal"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-after-7-years-of-development-katana-zero-dlc-is-now-the-85c077036104",
+      "topic": "After 7 years of development, Katana Zero DLC is now \"the size of a full sequel\"",
+      "detected_at": "2026-10-25T17:51:52.359712+00:00",
+      "analysed_at": "2026-11-04T20:56:19.701416+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action/katana-zero-pulls-a-hollow-knight-silksong-the-beloved-action-games-dlc-is-now-the-size-of-a-full-sequel-after-7-years-of-development/",
+          "title": "After 7 years of development, Katana Zero DLC is now \"the size of a full sequel\"",
+          "evidence": "<article> <p>Cult classic indie game Katana Zero has pulled a Hollow Knight Silksong, sort of - the long, long awaited Katana Zero DLC is now sequel-sized, according to the game's lead developer Justin Stander. </p><p>Katana Zero first became a huge success more than seven years ago, thanks to its gorgeous pixel art and lightning speed action that felt like <a href=\"https://www.gamesradar.com/katana-zero-makes-you-feel-badass-in-a-way-that-sekiro-never-can/\">a mix between Hotline Miami's heart-thumping brutality and Sekiro's sword slashing parries</a>. A cryptic story and banger soundtrack didn't hurt, either.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/eDq3kdMRPhY\" allowfullscreen></iframe></div></div><p>After several years, the promised Katana Zero DLC is still nowhere to be seen, but fret not. Justin Stander recently took to social media to tell folks he's \"still working hard\" on the project. It's just taking longer than expected because the DLC keeps ballooning in size… I wonder <a href=\"https://www.gamesradar.com/games/action/hollow-knight-silksong-dev-deals-"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "After 7 years of development, Katana Zero DLC is now \"the size of a full sequel\"",
+        "secondary_keywords": [
+          "After 7 years of development, Katana Zero DLC is now \"the size of a full sequel\" date de sortie",
+          "After 7 years of development, Katana Zero DLC is now \"the size of a full sequel\" plateformes",
+          "After 7 years of development, Katana Zero DLC is now \"the size of a full sequel\" gameplay",
+          "After 7 years of development, Katana Zero DLC is now \"the size of a full sequel\" guide",
+          "After 7 years of development, Katana Zero DLC is now \"the size of a full sequel\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "After 7 years of development, Katana Zero DLC is now \"the size of a full sequel\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-elden-ring-movie-is-reportedly-a24-s-most-expensive-233a3723821e",
+      "topic": "The Elden Ring movie is reportedly A24's most expensive production ever with a $200 million budget",
+      "detected_at": "2026-10-25T17:51:52.359921+00:00",
+      "analysed_at": "2026-11-04T20:56:19.701440+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/fantasy-movies/the-elden-ring-movie-is-reportedly-a24s-most-expensive-production-ever-the-studios-spending-an-eye-watering-usd200-million-on-fromsoftwares-rpg/",
+          "title": "The Elden Ring movie is reportedly A24's most expensive production ever with a $200 million budget",
+          "evidence": "<article> <p>A24 and Alex Garland's <a href=\"https://www.gamesradar.com/entertainment/elden-ring-movie-release-date-cast-story-trailer/\">Elden Ring movie</a> is supposedly the studio's most expensive production of all time with a reported budget of $200 million. FromSoftware's RPG adaptation ain't cheap.</p><p>The figure comes courtesy of a recent <a href=\"https://www.wsj.com/arts-culture/film/a24-you-can-see-everything-0c2f5b4a\" target=\"_blank\">Wall Street Journal report</a> that states A24 is spending \"nearly $200 million\" to adapt the landmark dark fantasy game, not including marketing costs, according to sources in the know. Earlier in the year, <a href=\"https://www.gamesradar.com/entertainment/fantasy-movies/the-elden-ring-movies-reported-budget-of-usd100-million-makes-it-a24s-most-expensive-film-ever/\">the reported figure was closer to $100 million</a> - still A24's biggest movie at the time.</p><p>A $200 million budget would make Elden Ring far and away the studio's priciest feature yet. To put things into perspective, the arthouse company reportedly spent around $70 million on last year's Marty Supreme, starring Timothee Chalamet, which was previously its most expensive big"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Elden Ring movie is reportedly A24's most expensive production ever with a $200 million budget",
+        "secondary_keywords": [
+          "The Elden Ring movie is reportedly A24's most expensive production ever with a $200 million budget date de sortie",
+          "The Elden Ring movie is reportedly A24's most expensive production ever with a $200 million budget plateformes",
+          "The Elden Ring movie is reportedly A24's most expensive production ever with a $200 million budget gameplay",
+          "The Elden Ring movie is reportedly A24's most expensive production ever with a $200 million budget guide",
+          "The Elden Ring movie is reportedly A24's most expensive production ever with a $200 million budget avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Elden Ring movie is reportedly A24's most expensive production ever with a $200 million budget"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

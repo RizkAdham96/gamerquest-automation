@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-04T20:56:19.701445+00:00",
+  "updated_at": "2026-11-05T09:50:28.992280+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -20526,6 +20526,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "The Elden Ring movie is reportedly A24's most expensive production ever with a $200 million budget"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-fangs-for-the-memories-the-best-vampires-in-video-games-e3f425b07e0f",
+      "topic": "Fangs For The Memories: The Best Vampires In Video Games",
+      "detected_at": "2026-10-25T17:51:52.557813+00:00",
+      "analysed_at": "2026-11-05T09:50:28.992085+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/fangs-for-the-memories-the-best-vampires-in-video-games/",
+          "title": "Fangs For The Memories: The Best Vampires In Video Games",
+          "evidence": "GameSpot published a fresh gaming story titled: Fangs For The Memories: The Best Vampires In Video Games. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Fangs For The Memories: The Best Vampires In Video Games",
+        "secondary_keywords": [
+          "Fangs For The Memories: The Best Vampires In Video Games date de sortie",
+          "Fangs For The Memories: The Best Vampires In Video Games plateformes",
+          "Fangs For The Memories: The Best Vampires In Video Games gameplay",
+          "Fangs For The Memories: The Best Vampires In Video Games guide",
+          "Fangs For The Memories: The Best Vampires In Video Games avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Fangs For The Memories: The Best Vampires In Video Games"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-leave-it-to-double-fine-to-make-the-first-single-player-70195cb61714",
+      "topic": "Leave It To Double Fine To Make The First Single-Player Friendslop Game",
+      "detected_at": "2026-10-25T17:51:52.557910+00:00",
+      "analysed_at": "2026-11-05T09:50:28.992126+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/leave-it-to-double-fine-to-make-the-first-single-player-friendslop-game/",
+          "title": "Leave It To Double Fine To Make The First Single-Player Friendslop Game",
+          "evidence": "GameSpot published a fresh gaming story titled: Leave It To Double Fine To Make The First Single-Player Friendslop Game. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Leave It To Double Fine To Make The First Single-Player Friendslop Game",
+        "secondary_keywords": [
+          "Leave It To Double Fine To Make The First Single-Player Friendslop Game date de sortie",
+          "Leave It To Double Fine To Make The First Single-Player Friendslop Game plateformes",
+          "Leave It To Double Fine To Make The First Single-Player Friendslop Game gameplay",
+          "Leave It To Double Fine To Make The First Single-Player Friendslop Game guide",
+          "Leave It To Double Fine To Make The First Single-Player Friendslop Game avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Leave It To Double Fine To Make The First Single-Player Friendslop Game"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-call-of-duty-modern-warfare-4-s-first-dlc-is-out-now-ho-540db9721318",
+      "topic": "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries",
+      "detected_at": "2026-10-25T17:51:52.558014+00:00",
+      "analysed_at": "2026-11-05T09:50:28.992163+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/call-of-duty-modern-warfare-4s-first-dlc-is-out-now-honors-a-real-soldier-who-sustained-gruesome-injuries/",
+          "title": "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries",
+          "evidence": "GameSpot published a fresh gaming story titled: Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries",
+        "secondary_keywords": [
+          "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries date de sortie",
+          "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries plateformes",
+          "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries gameplay",
+          "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries guide",
+          "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-shepard-actor-reacts-to-leaked-mass-effect-trailer-is-h-63c62b6bac55",
+      "topic": "Shepard Actor Reacts To Leaked Mass Effect Trailer, Is “Holding Hope” The Game Will Live On",
+      "detected_at": "2026-10-25T17:51:52.558138+00:00",
+      "analysed_at": "2026-11-05T09:50:28.992193+00:00",
+      "scores": {
+        "durability": 12,
+        "search_intent": 15,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 65,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/shepard-actor-reacts-to-leaked-mass-effect-trailer-is-holding-hope-the-game-will-live-on/",
+          "title": "Shepard Actor Reacts To Leaked Mass Effect Trailer, Is “Holding Hope” The Game Will Live On",
+          "evidence": "GameSpot published a fresh gaming story titled: Shepard Actor Reacts To Leaked Mass Effect Trailer, Is “Holding Hope” The Game Will Live On. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Shepard Actor Reacts To Leaked Mass Effect Trailer, Is “Holding Hope” The Game Will Live On",
+        "secondary_keywords": [
+          "Shepard Actor Reacts To Leaked Mass Effect Trailer, Is “Holding Hope” The Game Will Live On date de sortie",
+          "Shepard Actor Reacts To Leaked Mass Effect Trailer, Is “Holding Hope” The Game Will Live On plateformes",
+          "Shepard Actor Reacts To Leaked Mass Effect Trailer, Is “Holding Hope” The Game Will Live On gameplay",
+          "Shepard Actor Reacts To Leaked Mass Effect Trailer, Is “Holding Hope” The Game Will Live On guide",
+          "Shepard Actor Reacts To Leaked Mass Effect Trailer, Is “Holding Hope” The Game Will Live On avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Shepard Actor Reacts To Leaked Mass Effect Trailer, Is “Holding Hope” The Game Will Live On"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-2026-upcoming-games-release-schedule-64fdd22cbb8e",
+      "topic": "2026 Upcoming Games Release Schedule",
+      "detected_at": "2026-10-25T17:51:52.558229+00:00",
+      "analysed_at": "2026-11-05T09:50:28.992211+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/2026-upcoming-games-release-schedule/1100-6534941/",
+          "title": "2026 Upcoming Games Release Schedule",
+          "evidence": "GameSpot published a fresh gaming story titled: 2026 Upcoming Games Release Schedule. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "2026 Upcoming Games Release Schedule",
+        "secondary_keywords": [
+          "2026 Upcoming Games Release Schedule date de sortie",
+          "2026 Upcoming Games Release Schedule plateformes",
+          "2026 Upcoming Games Release Schedule gameplay",
+          "2026 Upcoming Games Release Schedule guide",
+          "2026 Upcoming Games Release Schedule avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "2026 Upcoming Games Release Schedule"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-phantom-blade-zero-review-a-goty-contender-with-combat--67e110218bac",
+      "topic": "Phantom Blade Zero review: \"A GOTY contender with combat that looks as good as it feels\"",
+      "detected_at": "2026-10-26T08:07:35.877287+00:00",
+      "analysed_at": "2026-11-05T09:50:28.992233+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/phantom-blade-zero-review/",
+          "title": "Phantom Blade Zero review: \"A GOTY contender with combat that looks as good as it feels\"",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/action-rpg/phantom-blade-zero-is-not-a-soulslike-its-an-irresponsibly-fast-action-rpg-thats-somehow-become-one-of-my-summer-game-fest-favorites/\">Phantom Blade Zero is not a Soulslike</a>. This needs to be the first thing that I tell you, because you need to wipe away any such preconceptions in order to fully appreciate what it is (and is not) doing. The intricate combat and hostile land come <a href=\"https://www.gamesradar.com/games/action-rpg/after-3-hours-phantom-blade-zero-is-a-wuxia-flavored-rewarding-action-rpg-with-a-fresh-soulslike-twist/\">instead from wuxia storytelling traditions</a>, and a supernatural martial arts world that can be traced back to the director's first game Rainblood: Town of Death. While \"very, very good\" is not a genre, it's certainly an accurate description of this game.</p><p>Following the events of a prologue I'm not allowed to tell you about, our hero Soul is left with just 66 days to live. This doesn't mean a <a href=\"https://www.gamesradar.com/dead-rising-guide/\">Dead Rising</a> style time limit – in-game time only passes after specific story beats – but it does mean that anybody feeling parti"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Phantom Blade Zero review: \"A GOTY contender with combat that looks as good as it feels\"",
+        "secondary_keywords": [
+          "Phantom Blade Zero review: \"A GOTY contender with combat that looks as good as it feels\" date de sortie",
+          "Phantom Blade Zero review: \"A GOTY contender with combat that looks as good as it feels\" plateformes",
+          "Phantom Blade Zero review: \"A GOTY contender with combat that looks as good as it feels\" gameplay",
+          "Phantom Blade Zero review: \"A GOTY contender with combat that looks as good as it feels\" guide",
+          "Phantom Blade Zero review: \"A GOTY contender with combat that looks as good as it feels\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Phantom Blade Zero review: \"A GOTY contender with combat that looks as good as it feels\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-almost-200-000-mass-effect-fans-sign-petition-to-save-t-ab665a313544",
+      "topic": "Almost 200,000 Mass Effect fans sign petition to save the series after BioWare's demise",
+      "detected_at": "2026-10-26T08:07:35.877533+00:00",
+      "analysed_at": "2026-11-05T09:50:28.992252+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/mass-effect/almost-200-000-mass-effect-fans-sign-petition-to-save-the-series-after-biowares-demise-and-both-commander-shepard-actors-are-on-board-with-fan-efforts/",
+          "title": "Almost 200,000 Mass Effect fans sign petition to save the series after BioWare's demise",
+          "evidence": "<article> <p>In the week since <a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">BioWare's sudden shutdown</a> and <a href=\"https://www.gamesradar.com/mass-effect-5-guide/\">Mass Effect 5</a>'s cancellation, fans of the RPG series have rallied around a petition to \"Save Mass Effect\" that's gained nearly 200,000 signatures. Mark Meer and Jennifer Hale (who voice the male and female versions of protagonist Commander Shepard, respectively) are both on board with the community's efforts, too.</p><p>\"Mass Effect holds a special place in the hearts of millions of players worldwide,\" the <a href=\"https://www.change.org/p/savemasseffect\">petition's description</a> reads. \"Its rich and immersive sci-fi universe, with Commander Shepard leading the iconic crew aboard the Normandy, has captivated gamers for years. However, recent revelations have cast a shadow over its future. The decline in dedicated resources and ambiguous development plans from Electronic Arts (EA) threaten to leave this beloved series at a standstill, jeopardizing its incredible legacy.\"</p><p>The petition doesn't call for publisher EA to reverse cou"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Almost 200,000 Mass Effect fans sign petition to save the series after BioWare's demise",
+        "secondary_keywords": [
+          "Almost 200,000 Mass Effect fans sign petition to save the series after BioWare's demise date de sortie",
+          "Almost 200,000 Mass Effect fans sign petition to save the series after BioWare's demise plateformes",
+          "Almost 200,000 Mass Effect fans sign petition to save the series after BioWare's demise gameplay",
+          "Almost 200,000 Mass Effect fans sign petition to save the series after BioWare's demise guide",
+          "Almost 200,000 Mass Effect fans sign petition to save the series after BioWare's demise avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Almost 200,000 Mass Effect fans sign petition to save the series after BioWare's demise"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-phantom-blade-zero-s-combat-is-so-good-you-won-t-care-t-80e9b6447c1c",
+      "topic": "Phantom Blade Zero’s Combat Is So Good, You Won’t Care The Story Makes No Sense | Review",
+      "detected_at": "2026-10-26T08:07:35.964560+00:00",
+      "analysed_at": "2026-11-05T09:50:28.992276+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/videos/phantom-blade-zeros-combat-is-so-good-you-wont-care-the-story-makes-no-sense-review/",
+          "title": "Phantom Blade Zero’s Combat Is So Good, You Won’t Care The Story Makes No Sense | Review",
+          "evidence": "GameSpot published a fresh gaming story titled: Phantom Blade Zero’s Combat Is So Good, You Won’t Care The Story Makes No Sense | Review. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Phantom Blade Zero’s Combat Is So Good, You Won’t Care The Story Makes No Sense | Review",
+        "secondary_keywords": [
+          "Phantom Blade Zero’s Combat Is So Good, You Won’t Care The Story Makes No Sense | Review date de sortie",
+          "Phantom Blade Zero’s Combat Is So Good, You Won’t Care The Story Makes No Sense | Review plateformes",
+          "Phantom Blade Zero’s Combat Is So Good, You Won’t Care The Story Makes No Sense | Review gameplay",
+          "Phantom Blade Zero’s Combat Is So Good, You Won’t Care The Story Makes No Sense | Review guide",
+          "Phantom Blade Zero’s Combat Is So Good, You Won’t Care The Story Makes No Sense | Review avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Phantom Blade Zero’s Combat Is So Good, You Won’t Care The Story Makes No Sense | Review"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

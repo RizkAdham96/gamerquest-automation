@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-05T09:50:28.992280+00:00",
+  "updated_at": "2026-11-05T21:13:54.807522+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -20838,6 +20838,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Phantom Blade Zero’s Combat Is So Good, You Won’t Care The Story Makes No Sense | Review"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-cod-modern-warfare-4-dmz-best-hot-spots-and-loot-locati-c92f0c54a570",
+      "topic": "CoD: Modern Warfare 4 DMZ – Best Hot Spots And Loot Locations",
+      "detected_at": "2026-10-26T08:07:35.965109+00:00",
+      "analysed_at": "2026-11-05T21:13:54.807282+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/cod-modern-warfare-4-dmz-best-hot-spots-and-loot-locations/",
+          "title": "CoD: Modern Warfare 4 DMZ – Best Hot Spots And Loot Locations",
+          "evidence": "GameSpot published a fresh gaming story titled: CoD: Modern Warfare 4 DMZ – Best Hot Spots And Loot Locations. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "CoD: Modern Warfare 4 DMZ – Best Hot Spots And Loot Locations",
+        "secondary_keywords": [
+          "CoD: Modern Warfare 4 DMZ – Best Hot Spots And Loot Locations date de sortie",
+          "CoD: Modern Warfare 4 DMZ – Best Hot Spots And Loot Locations plateformes",
+          "CoD: Modern Warfare 4 DMZ – Best Hot Spots And Loot Locations gameplay",
+          "CoD: Modern Warfare 4 DMZ – Best Hot Spots And Loot Locations guide",
+          "CoD: Modern Warfare 4 DMZ – Best Hot Spots And Loot Locations avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "CoD: Modern Warfare 4 DMZ – Best Hot Spots And Loot Locations"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-s-divisive-layering-will-see-major-improvem-bc5056e5e21a",
+      "topic": "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says",
+      "detected_at": "2026-10-26T08:07:35.965200+00:00",
+      "analysed_at": "2026-11-05T21:13:54.807341+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamespot.com/articles/wow-forevers-divisive-layering-will-see-major-improvements-for-launch-blizzard-says/",
+          "title": "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says",
+          "evidence": "GameSpot published a fresh gaming story titled: WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says. All factual claims must be independently verified before publication."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says",
+        "secondary_keywords": [
+          "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says date de sortie",
+          "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says plateformes",
+          "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says gameplay",
+          "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says guide",
+          "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-regreening-is-a-post-apocalyptic-farm-sim-where-you-4c0d892b4fb0",
+      "topic": "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops",
+      "detected_at": "2026-10-26T20:09:22.379595+00:00",
+      "analysed_at": "2026-11-05T21:13:54.807378+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/life-sim/the-regreening-is-a-post-apocalyptic-farm-sim-where-you-grow-animal-habitats-instead-of-cash-crops/",
+          "title": "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops",
+          "evidence": "<article> <p>I love the standard farm sim formula. Becoming a titan of capitalism by hoeing rows of tomatoes by hand is great, but I've really been craving one that's about tending the environment that already exists instead of clear-cutting an entire forest to make way for my perfectly optimized agricultural vision. Some games have tried, but The Regreening, a demo I played in the current Steam Next Fest—<a href=\"https://store.steampowered.com/app/3419080/The_Regreening/\">launching on Steam</a> on December 7—is the one that I've enjoyed the most.</p><p>In The Regreening, you're revitalizing a post-apocalyptic landscape, replanting flora, and designing environments for animals to return to while making friends with godlike animal spirits. It's almost as much a tiny city-builder as a farm sim.</p><p>I asked the developers at Positive Impact Games how they feel The Regreening fits into what's normally such a strictly formulaic genre and what it's doing that they weren't able to find in other farm sims.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"va"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops",
+        "secondary_keywords": [
+          "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops date de sortie",
+          "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops plateformes",
+          "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops gameplay",
+          "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops guide",
+          "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-mass-effect-fan-group-buys-billboard-in-times-square-pr-19602c6a44b5",
+      "topic": "Mass Effect fan group buys billboard in Times Square promoting petition to save series",
+      "detected_at": "2026-10-26T20:09:22.379838+00:00",
+      "analysed_at": "2026-11-05T21:13:54.807406+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mass-effect/mass-effect-fan-group-buys-billboard-in-times-square-promoting-petition-to-save-series/",
+          "title": "Mass Effect fan group buys billboard in Times Square promoting petition to save series",
+          "evidence": "<article> <p>\"We are Mass Effect,\" the fan group behind a currently 224,000 signature <a href=\"https://www.change.org/p/savemasseffect?recruited_by_id=f0dc2c40-ce2c-11f1-a78e-339670fecebe&utm_source=share_petition&utm_campaign=psf_combo_share_initial&utm_term=psf_promote_or_share&utm_medium=copylink&share_id=rMVGzVb6WL\" target=\"_blank\">Change.org petition</a> seeking to secure the series' future, has rented out digital billboard space in New York's Times Square to promote the effort.</p><p>The group <a href=\"https://x.com/WeAreMassEffect/status/2114730231214883014\" target=\"_blank\">shared a video of the billboard</a> in the wild on X, \"The Everything App.\" Every hour at 35 minutes past the hour, the screen at 1560 Broadway shows a 15-second motion graphic message. Over a planetary vista reminiscent of Mass Effect 1's start screen, we get a distinctive N7 red stripe and the message \"Keelah si'yah, #SaveMassEffect\" in the series' go-to \"<a href=\"https://typodermicfonts.com/korataki/\" target=\"_blank\">Korataki</a>\" font. Yes, today is when I too learned that Mass Effect used a commercially-available font called \"Korataki\" for its logo and in-game text. I kinda want to write all my draft"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Mass Effect fan group buys billboard in Times Square promoting petition to save series",
+        "secondary_keywords": [
+          "Mass Effect fan group buys billboard in Times Square promoting petition to save series date de sortie",
+          "Mass Effect fan group buys billboard in Times Square promoting petition to save series plateformes",
+          "Mass Effect fan group buys billboard in Times Square promoting petition to save series gameplay",
+          "Mass Effect fan group buys billboard in Times Square promoting petition to save series guide",
+          "Mass Effect fan group buys billboard in Times Square promoting petition to save series avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Mass Effect fan group buys billboard in Times Square promoting petition to save series"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-cd-projekt-marks-the-19th-anniversary-of-its-first-witc-e0cc16112d7a",
+      "topic": "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure'",
+      "detected_at": "2026-10-26T20:09:22.380069+00:00",
+      "analysed_at": "2026-11-05T21:13:54.807448+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-witcher/cd-projekt-marks-the-19th-anniversary-of-its-first-witcher-rpg-with-a-tribute-to-bioware-their-support-helped-turn-our-vision-into-geralts-first-interactive-adventure/",
+          "title": "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure'",
+          "evidence": "<article> <p>Today, October 26, is the 19<sup>th</sup> anniversary of The Witcher, the groundbreaking RPG that introduced Geralt, and CD Projekt, to the world. To mark the moment, CD Projekt took to social to pay tribute to friends who made it all possible: BioWare.</p><p>CD Projekt joint CEO Michał Nowakowski <a href=\"https://www.pcgamer.com/gaming-industry/cd-projekt-boss-pays-tribute-to-bioware-for-helping-bring-the-witcher-to-life-20-years-ago-bioware-has-been-a-massive-part-of-cdpr-history/\" target=\"_blank\">spoke warmly of BioWare</a> last week in the immediate aftermath of the studio's <a href=\"https://www.pcgamer.com/gaming-industry/rip-bioware-ea-has-shut-down-the-legendary-rpg-developer/\" target=\"_blank\">shocking closure</a>, crediting it as \"a massive part of CDPR history.\" The Witcher was built on BioWare's Aurora engine, which it created for Neverwinter Nights, but BioWare did more than just share technology: It also worked to help bring the upstart Polish RPG to much wider attention.</p><p>\"19 years ago, an ambitious dream to bring an iconic book series into the world of video games came to life with the release of The Witcher. It was the start of an unforgettable path"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure'",
+        "secondary_keywords": [
+          "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure' date de sortie",
+          "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure' plateformes",
+          "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure' gameplay",
+          "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure' guide",
+          "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-what-to-play-this-halloween-plus-last-minute-costume-id-691687a94dab",
+      "topic": "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations",
+      "detected_at": "2026-10-26T20:09:22.380582+00:00",
+      "analysed_at": "2026-11-05T21:13:54.807472+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/2026-halloween-horror-gaming-hub-recommendations/",
+          "title": "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Presented by</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"N5WXFQSCttV6Am7CopwTzd\" name=\"Copy of 1_HeroLogo copy\" caption=\"\" alt=\"No More Room in Hell 2 logo\" src=\"https://cdn.mos.cms.futurecdn.net/N5WXFQSCttV6Am7CopwTzd-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Torn Banner)</span></figcaption></figure><p class=\"fancy-box__body-text\">This article is brought to you by <a data-analytics-id=\"inline-link\" href=\"https://store.steampowered.com/app/292000?utm_source=future&utm_medium=display&utm_campaign=ppms_nmrih2_october_us&utm_term=pcsteam_horror&utm_creative=logo \" target=\"_blank\">No More Room in Hell 2</a>.</p></div></div><p>The ghouls and goblins are out, but you've heard enough about the US midterm elections already. Let's talk about something fun:"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations",
+        "secondary_keywords": [
+          "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations date de sortie",
+          "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations plateformes",
+          "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations gameplay",
+          "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations guide",
+          "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-a-long-overdue-conversation-with-jordan-mechner-e29e2c808e1f",
+      "topic": "A long-overdue conversation with Jordan Mechner",
+      "detected_at": "2026-10-26T20:09:22.381544+00:00",
+      "analysed_at": "2026-11-05T21:13:54.807492+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/an-overdue-conversation-with-jordan-mechner/",
+          "title": "A long-overdue conversation with Jordan Mechner",
+          "evidence": "<article> <p>When I started working at PC Gamer in 2014, I began what I didn't realize at the time would become a bit of a ritual. A few weeks before the San Francisco Game Developer's Conference that year, I sent the creator of one of PC gaming's first masterpieces, Prince of Persia, an email asking if he'd be in town. Jordan Mechner politely responded that he wouldn't be making the trip from his home in Paris to San Francisco that year. But I kept trying when the conference rolled back around, thinking maybe <em>this</em> would be the year the stars aligned.</p><p>It took a decade, but in 2024 we finally made it happen: Mechner joined a roundtable I hosted <a href=\"https://www.pcgamer.com/gaming-industry/podcasts/90s-pc-gaming-roundtable-veterans-behind-lucasarts-adventures-prince-of-persia-broken-sword-and-deus-ex-sharing-stories/\">alongside other veterans</a> from designing PC games in the '80s and '90s to explore their long careers. Afterward, we talked some more just one-on-one—but in the busy aftermath of the conference, that interview never ended up making its way online.</p><p>So here it is now, covering his autobiographical graphic novel, why we may not have seen the last"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "A long-overdue conversation with Jordan Mechner",
+        "secondary_keywords": [
+          "A long-overdue conversation with Jordan Mechner date de sortie",
+          "A long-overdue conversation with Jordan Mechner plateformes",
+          "A long-overdue conversation with Jordan Mechner gameplay",
+          "A long-overdue conversation with Jordan Mechner guide",
+          "A long-overdue conversation with Jordan Mechner avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "A long-overdue conversation with Jordan Mechner"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-microsoft-is-looking-to-cut-more-than-25-of-its-workfor-858c69cc8428",
+      "topic": "Microsoft is looking to cut more than 25% of its workforce",
+      "detected_at": "2026-10-26T20:09:22.381673+00:00",
+      "analysed_at": "2026-11-05T21:13:54.807517+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/microsoft-is-looking-to-cut-more-than-25-percent-of-its-workforce/",
+          "title": "Microsoft is looking to cut more than 25% of its workforce",
+          "evidence": "<article> <p>Microsoft has announced a new \"voluntary exit offer\" aimed at making drastic cuts to its headcount. A <a href=\"https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html\" target=\"_blank\">CNN</a> report says roughly 60,000 of the company's employees are eligible for the buyout offer, a number that represents around 27% of its total workforce.</p><p>\"This offer gives eligible employees who may be considering a future outside the company a new choice to make that transition now with support. It also gives participating organizations another way to adapt their workforce to changing needs,\" Microsoft chief people officer Amy Coleman said in a <a href=\"https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/\" target=\"_blank\">memo sent to employees</a>.</p><p>\"The Voluntary Exit Offer reflects an important part of how we're evolving our approach to change: creating greater flexibility and, where possible, more ways for employees to shape their next chapter. This builds on what we learned earlier this year through the Voluntary Retirement Program.\"</p><p>The CNN report says Microsoft's buyout offer is part of its effort to balance its spending"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Microsoft is looking to cut more than 25% of its workforce",
+        "secondary_keywords": [
+          "Microsoft is looking to cut more than 25% of its workforce date de sortie",
+          "Microsoft is looking to cut more than 25% of its workforce plateformes",
+          "Microsoft is looking to cut more than 25% of its workforce gameplay",
+          "Microsoft is looking to cut more than 25% of its workforce guide",
+          "Microsoft is looking to cut more than 25% of its workforce avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Microsoft is looking to cut more than 25% of its workforce"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

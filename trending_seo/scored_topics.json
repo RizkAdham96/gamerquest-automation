@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-06T09:54:03.318004+00:00",
+  "updated_at": "2026-11-06T20:34:41.053021+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -21460,6 +21460,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Veteran game composer in talks to score Mass Effect 5 shares 20 minutes of music he wrote for the project: 'To even dream in your sandbox was a privilege'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-call-of-duty-modern-warfare-4-review-485f3c07f52a",
+      "topic": "Call of Duty: Modern Warfare 4 review",
+      "detected_at": "2026-10-27T19:38:48.442083+00:00",
+      "analysed_at": "2026-11-06T20:34:41.052778+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4-review/",
+          "title": "Call of Duty: Modern Warfare 4 review",
+          "evidence": "<article> <p>There is a new game titled \"Call of Duty\" every year, but it's not every year that Call of Duty is really <em>back.</em> </p><div class=\"fancy-box\"><div class=\"fancy_box-title\">NEED TO KNOW</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it </strong>The next Call of Duty from the original creators of Call of Duty<br><strong>Release date </strong>October 23, 2026<br><strong>Expect to pay </strong>$70/£60<br><strong>Publisher </strong>Activision Blizzard<br><strong>Developer </strong>Infinity Ward<br><strong>Reviewed on </strong>RTX 5090, Ryzen 7 9800X3D 4.7 GHz, 64GB RAM<br><strong>Multiplayer </strong>Up to 60 players<br><strong>Steam Deck </strong>Unsupported<br><strong>Link </strong><a data-analytics-id=\"inline-link\" href=\"https://www.callofduty.com/\" target=\"_blank\">Official site</a></p></div></div><p>The tireless schedule of Activision's load-bearing FPS has resulted in more bad games than good as of late—Modern Warfare 3 was an expansion-sized sequel rushed out the door, Black Ops 6 was a step back for multiplayer, and its immediate followup Black Ops 7 was clocked as superfluous and uninteresting even by rain-or-shine fans. These "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Call of Duty: Modern Warfare 4 review",
+        "secondary_keywords": [
+          "Call of Duty: Modern Warfare 4 review date de sortie",
+          "Call of Duty: Modern Warfare 4 review plateformes",
+          "Call of Duty: Modern Warfare 4 review gameplay",
+          "Call of Duty: Modern Warfare 4 review guide",
+          "Call of Duty: Modern Warfare 4 review avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Call of Duty: Modern Warfare 4 review"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-after-onimusha-s-focused-swordplay-phantom-blade-zero-d-5538755e99f2",
+      "topic": "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic",
+      "detected_at": "2026-10-27T19:38:48.442581+00:00",
+      "analysed_at": "2026-11-06T20:34:41.052831+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/phantom-blade-zero-vs-onimusha-way-of-the-sword/",
+          "title": "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic",
+          "evidence": "<article> <p>At just about 15 hours into Phantom Blade Zero, I've changed out my primary weapons more times than I do in an entire Souls campaign. I quickly dropped my starter sword for a pair of dual blades and a jagged weapon that chunks damage off my enemies in showers of blood. But I didn't stick with either for long. Soon I was running around with a two-handed blade taller than my martial arts hero Soul, which sprouts a trail of magical, energy-sapping flowers with every swing. It shares a moveset with another two-handed giant that absorbs life with each hit. But I don't have time to use either one: I'm already smitten with my new twin blades, one of which I can send spinning in a circle around me like a protective Beyblade.</p><p>Somehow I haven't even touched the weapon that I took off a crazed monk that turns Soul into a drunken boxer. But I'm sure I'll have time: apparently I'm less than a third(!) of the way through a game that's far, far bigger than I anticipated <a href=\"https://www.pcgamer.com/games/action/phantom-blade-zero-preview-chinese-action-games-soulslikes-kung-fu/\">when I played a chunk of it last year</a>. </p><p>For the most part, Phantom Blade Zero's epic a"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic",
+        "secondary_keywords": [
+          "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic date de sortie",
+          "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic plateformes",
+          "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic gameplay",
+          "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic guide",
+          "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-warhammer-40-000-boltgun-studio-announces-major-layoffs-a29226b06d3a",
+      "topic": "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement",
+      "detected_at": "2026-10-27T19:38:48.442838+00:00",
+      "analysed_at": "2026-11-06T20:34:41.052891+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/warhammer-40-000-boltgun-studio-announces-major-layoffs-then-quickly-deletes-the-announcement/",
+          "title": "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement",
+          "evidence": "<article> <p><a href=\"https://www.gamesindustry.biz/auroch-digital-lays-off-a-quarter-of-its-staff\" target=\"_blank\">GamesIndustry</a><a href=\"https://www.pcgamer.com/warhammer-40-000-boltgun/\" target=\"_blank\">Warhammer 40,000: Boltgun</a> developer Auroch Digital appears to be headed toward significant layoffs. In a statement posted to LinkedIn, since deleted but reported by <a href=\"https://www.gamesindustry.biz/auroch-digital-lays-off-a-quarter-of-its-staff\">GamesIndustry</a> and others, the studio said that despite its \"creative success, the same market conditions that have challenged so many of our fellow developers have now also affected us.\" As a result, Auroch Digital is restructuring, and has begun a redundancy consultation process that will impact \"around a quarter\" of its employees.</p><p>\"Over the past year our colleagues have delivered amazing games like Warhammer 40,000: Boltgun 2 and Starship Troopers: Ultimate Bug War! to wonderful reception from our players,\" the Auroch Digital statement said.</p><p>\"Despite that creative success, the same market conditions that have challenged so many of our fellow developers have now also affected us. Consequently, we have made th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement",
+        "secondary_keywords": [
+          "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement date de sortie",
+          "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement plateformes",
+          "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement gameplay",
+          "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement guide",
+          "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-nvidia-and-amd-invest-billions-into-meta-as-companies-e-c2eebd7ea378",
+      "topic": "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI",
+      "detected_at": "2026-10-27T19:38:48.443089+00:00",
+      "analysed_at": "2026-11-06T20:34:41.052918+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/nvidia-and-amd-invest-billions-into-meta-as-companies-egg-each-other-on-to-bet-even-more-on-ai/",
+          "title": "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI",
+          "evidence": "<article> <p>This week both AMD and Nvidia have announced partnerships with Meta, securing both collabs and billions of dollars. All three companies are heavily invested in AI, and these deals are only more fuel for the fire.</p><p><a href=\"https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth\" target=\"_blank\">Nvidia just announced its deal</a> with Meta to \"expand their partnership on Muse and the Muse family of models\", and Meta, in turn, will expand Vera Rubin and Vera CPU deployment, as well as deploy Nvidia's Spectrum X Ethernet networking and BlueField-4 DPUs. Though Meta was probably buying all that stuff anyways, right?</p><p>Nvidia also said it was \"considering other technological collaborations, including Nvidia OpenShell Reference Architecture to strengthen agency security and Nvidia Sentry for monitoring, structured, unstructured and graph data processing.\"</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-OKyGme\"></div> </div> <script src=\"https://kwizly.com/embed/OKyGme.js\" async></script><p>Importantly, Nvidia is also investing $3 billion into Meta. Money that may go elsewhere "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI",
+        "secondary_keywords": [
+          "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI date de sortie",
+          "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI plateformes",
+          "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI gameplay",
+          "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI guide",
+          "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-vote-for-the-scariest-game-of-all-time-round-1-57c951fc8fcc",
+      "topic": "Vote for the scariest game of all time: Round 1",
+      "detected_at": "2026-10-27T19:38:48.443478+00:00",
+      "analysed_at": "2026-11-06T20:34:41.052939+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/vote-for-the-scariest-game-of-all-time-round-1/",
+          "title": "Vote for the scariest game of all time: Round 1",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Presented by</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"N5WXFQSCttV6Am7CopwTzd\" name=\"Copy of 1_HeroLogo copy\" caption=\"\" alt=\"No More Room in Hell 2 logo\" src=\"https://cdn.mos.cms.futurecdn.net/N5WXFQSCttV6Am7CopwTzd-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Torn Banner)</span></figcaption></figure><p class=\"fancy-box__body-text\">This article is brought to you by <a data-analytics-id=\"inline-link\" href=\"https://store.steampowered.com/app/292000?utm_source=future&utm_medium=display&utm_campaign=ppms_nmrih2_october_us&utm_term=pcsteam_horror&utm_creative=logo \" target=\"_blank\">No More Room in Hell 2</a>.</p></div></div><p>Last week, I asked PC Gamer readers to nominate the scariest PC games they could think of. I've collected the top 16 submission"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Vote for the scariest game of all time: Round 1",
+        "secondary_keywords": [
+          "Vote for the scariest game of all time: Round 1 date de sortie",
+          "Vote for the scariest game of all time: Round 1 plateformes",
+          "Vote for the scariest game of all time: Round 1 gameplay",
+          "Vote for the scariest game of all time: Round 1 guide",
+          "Vote for the scariest game of all time: Round 1 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Vote for the scariest game of all time: Round 1"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-dungeons-dragons-world-of-warcraft-s-class-designer-cra-ea81f88167fb",
+      "topic": "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new",
+      "detected_at": "2026-10-27T19:38:48.443813+00:00",
+      "analysed_at": "2026-11-06T20:34:41.052969+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/dungeons-and-dragons-world-of-warcrafts-class-designer-crammed-as-much-of-the-mmo-into-it-so-that-even-veteran-tabletop-players-can-experience-something-new/",
+          "title": "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new",
+          "evidence": "<article> <p>James Wyatt, the principal game designer and project lead designer of the upcoming Dungeons & Dragons: World of Warcraft book was already running games in Azeroth long before he took on the project. For him, the fun of bringing WoW to the table is not to ignore the flexibility of D&D but to embrace it.</p><p>\"Part of the beauty of playing D&D in the world of Azeroth is that you can do things in D&D that you can't do in a digital game because the options haven't been programmed for you,\" he said in a recent presentation attended by PC Gamer.</p><p>On November 12, you'll be able to see how Wyatt and the other designers mixed the two RPGs by <a href=\"https://www.pcgamer.com/games/world-of-warcraft/dungeons-and-dragons-world-of-warcraft-is-already-a-slam-dunk-but-its-how-it-captures-the-spirit-of-the-mmo-that-makes-it-stand-out/\">\"paraphrasing\" the MMO</a> into the tabletop ruleset. But Wyatt and senior game designer Ben Petrisor gave us a peek into how their approach affects the classes you can play in D&D: WoW.</p><p>WoW's classes are thematically similar to D&D's, and that's part of what makes the collaboration so fitting. However, WoW's classes have to fit into restric"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new",
+        "secondary_keywords": [
+          "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new date de sortie",
+          "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new plateformes",
+          "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new gameplay",
+          "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new guide",
+          "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-square-enix-vets-say-devs-of-the-future-will-need-to-ma-3234e6782b70",
+      "topic": "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital",
+      "detected_at": "2026-10-27T19:38:48.444099+00:00",
+      "analysed_at": "2026-11-06T20:34:41.052992+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/game-development/square-enix-vets-say-devs-of-the-future-will-need-to-master-the-use-of-ai-but-the-human-touch-will-still-be-vital/",
+          "title": "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital",
+          "evidence": "<article> <p>AI's a touchy subject in the development industry, but in other areas it's a lot less controversial—take Japan, for instance, which is <a href=\"https://www.pcgamer.com/gaming-industry/dueling-industry-surveys-show-japanese-game-devs-are-embracing-ai-while-north-american-ones-are-still-skeptical/\">embracing the technology</a> a lot more than audiences in the West are. That's not to say there <a href=\"https://www.pcgamer.com/software/ai/japan-actors-union-pushes-for-heavy-restrictions-on-ai-copying-dead-actors/\">isn't any push back at all</a>, mind.</p><p>Still, an example of how there's more of a positive spin on it overseas comes courtesy of a <a href=\"https://www.famitsu.com/article/202610/91345\" target=\"_blank\">Famitsu interview</a> (translated here by <a href=\"https://automaton-media.com/en/news/final-fantasy-and-mana-veterans-weigh-in-on-how-ai-will-change-game-development-and-why-turning-zero-into-one-should-always-be-a-humans-job/\" target=\"_blank\">Automaton</a>) where seasoned JRPG devs from Square Enix seem broadly positive on the tech—and are repeating some oft-heard talking points that I, at least, am personally very bored of, even if I wouldn't dismiss them o"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital",
+        "secondary_keywords": [
+          "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital date de sortie",
+          "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital plateformes",
+          "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital gameplay",
+          "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital guide",
+          "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-edge-magazine-went-to-rockstar-to-see-gta-6-and-will-te-b9ea4da1e8b4",
+      "topic": "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29",
+      "detected_at": "2026-10-27T19:38:48.444306+00:00",
+      "analysed_at": "2026-11-06T20:34:41.053016+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/edge-magazine-went-to-rockstar-to-see-gta-6-and-will-tell-you-all-about-in-lavish-detail-this-thursday-october-29/",
+          "title": "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29",
+          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/WuL58t2s.html\" id=\"WuL58t2s\" title=\"Edge 430 – Grand Theft Auto VI cover\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen></iframe><p>We are just three weeks out from the release of Grand Theft Auto 6, which you can tell because it has cleared the release calendar around it like the Chicxulub crater. Ahead of the big day, our friends at Edge magazine visited Rockstar's Edinburgh development HQ to chat with the studio's leaders and put their eyes on GTA 6 <em>in action</em>. That's right folks, it's officially happening. This thing is officially almost a videogame you can play.</p><p>The result? The 16-page cover story coming in Edge #430, <strong>on sale October 29</strong>. They've really been cooking over there, bringing us a bunch of exclusive new imagery, interviews with Rockstar head honchos, and a special gatefold cover with artwork of Jason and Lucia, about whom I already have very strong feelings.</p><p>If you're in the UK, you're in luck, because you can pick up the GTA 6 special edition free, plus 13 issues of Edge at 38% off the price you'd pay at the newsstand if you <a href=\"http:"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29",
+        "secondary_keywords": [
+          "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 date de sortie",
+          "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 plateformes",
+          "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 gameplay",
+          "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 guide",
+          "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

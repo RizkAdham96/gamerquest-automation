@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-05T21:13:54.807522+00:00",
+  "updated_at": "2026-11-06T09:54:03.318004+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -21150,6 +21150,316 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Microsoft is looking to cut more than 25% of its workforce"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-821250",
+      "topic": "Configuration PC Flotsam : minimale, recommandée et conseils",
+      "detected_at": "2026-11-06T09:54:02.239031+00:00",
+      "analysed_at": "2026-11-06T09:54:03.317825+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/821250/",
+          "title": "Flotsam sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Flotsam, consultée le 2026-11-06. Développeur : Pajama Llama Games. Éditeur : Stray Fawn Publishing. Date de sortie sur Steam : 4 déc. 2025. Genres : Indépendant, Simulation, Stratégie. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 SP1+ ; Processeur : Intel Core i5 or equivalent ; Mémoire vive : 8 GB de mémoire ; Graphiques : NVIDIA GeForce GTX 650 or equivalent ; Espace disque : 600 MB d'espace disque disponible. La fiche Steam n'indique pas de configuration recommandée.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/821250/dcd20c1396852c32145f889e2993a8fdecd70779/ss_dcd20c1396852c32145f889e2993a8fdecd70779.1920x1080.jpg?t=1782735785"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Flotsam",
+        "secondary_keywords": [
+          "Flotsam PC",
+          "Flotsam Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Flotsam : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-821250",
+      "topic": "Flotsam multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-11-06T09:54:02.239083+00:00",
+      "analysed_at": "2026-11-06T09:54:03.317864+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 84,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/821250/",
+          "title": "Flotsam sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Flotsam, consultée le 2026-11-06. Développeur : Pajama Llama Games. Éditeur : Stray Fawn Publishing. Date de sortie sur Steam : 4 déc. 2025. Genres : Indépendant, Simulation, Stratégie. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Taille de texte réglable, Caméra et confort de vue, Contrôle du volume différencié, Option souris uniquement, Jouable sans saisie en temps imparti, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Sauvegarde à tout moment, Son stéréo, Son multicanal, Steam Cloud, Remote Play sur téléphone, Remote Play sur tablette, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Survivez, naviguez et secourez des gens dans ce jeu de construction de ville haut en couleur. Menez vos naufragés sur une immense mer de déchets pour découvrir des ruines immergées, des usines rouillées et des histoires du vieux monde.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/821250/dcd20c1396852c32145f889e2993a8fdecd70779/ss_dcd20c1396852c32145f889e2993a8fdecd70779.1920x1080.jpg?t=1782735785"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Flotsam multijoueur",
+        "secondary_keywords": [
+          "Flotsam PC",
+          "Flotsam Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Flotsam multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-50-most-played-steam-next-fest-demos-include-7-incr-741e8f523462",
+      "topic": "The 50 most-played Steam Next Fest demos include 7 incremental games, 4 AI disclosures, and only one instance of haystack slop",
+      "detected_at": "2026-10-27T08:22:31.863715+00:00",
+      "analysed_at": "2026-11-06T09:54:03.317890+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/platforms/the-50-most-played-steam-next-fest-demos-include-7-incremental-games-4-ai-disclosures-and-only-one-instance-of-haystack-slop/",
+          "title": "The 50 most-played Steam Next Fest demos include 7 incremental games, 4 AI disclosures, and only one instance of haystack slop",
+          "evidence": "<article> <p>Last week's Steam Next Fest had over 8,000 demos; now Valve has revealed the 50 most-played among them. The results aren't surprising: there's lots of friendsloppy casual co-op, incremental games continue to be popular, and players have by-and-large rejected games with overt generative AI use, with only four of the games among the 50 declaring AI use in development.</p><p>Here are some other factoids:</p><ul><li>7 incremental games, including <a href=\"https://store.steampowered.com/app/5358150?snr=1_614_615_nextfestmostplayed_100703&curator_clanid=39049601\">10 Million Pixels</a> and <a href=\"https://store.steampowered.com/app/5165160/Unharvest_Demo?snr=1_614_615_nextfestmostplayed_100703&curator_clanid=39049601\">Unharvest</a></li><li>15 lighthearted or comedic co-op games (aka friendslop) including <a href=\"https://store.steampowered.com/app/5117640/Dude_Trust_Me_Demo?snr=1_614_615_nextfestmostplayed_100703&curator_clanid=39049601\">Dude, Trust Me</a>, <a href=\"https://store.steampowered.com/app/4555210/Oarsome_Adventures?snr=1_614_615_nextfestmostplayed_100703&curator_clanid=39049601\">Oar'Some Adventures</a>, and <a href=\"https://store.steampowered.com/app/4900690/Bana"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The 50 most-played Steam Next Fest demos include 7 incremental games, 4 AI disclosures, and only one instance of haystack slop",
+        "secondary_keywords": [
+          "The 50 most-played Steam Next Fest demos include 7 incremental games, 4 AI disclosures, and only one instance of haystack slop date de sortie",
+          "The 50 most-played Steam Next Fest demos include 7 incremental games, 4 AI disclosures, and only one instance of haystack slop plateformes",
+          "The 50 most-played Steam Next Fest demos include 7 incremental games, 4 AI disclosures, and only one instance of haystack slop gameplay",
+          "The 50 most-played Steam Next Fest demos include 7 incremental games, 4 AI disclosures, and only one instance of haystack slop guide",
+          "The 50 most-played Steam Next Fest demos include 7 incremental games, 4 AI disclosures, and only one instance of haystack slop avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The 50 most-played Steam Next Fest demos include 7 incremental games, 4 AI disclosures, and only one instance of haystack slop"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-world-of-warcraft-forever-s-last-minute-patch-transform-48224d986fe8",
+      "topic": "World of Warcraft: Forever's last-minute patch transforms its bovines into racecars capable of zooming 60% faster than everyone else",
+      "detected_at": "2026-10-27T08:22:31.863988+00:00",
+      "analysed_at": "2026-11-06T09:54:03.317913+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-last-minute-patch-transforms-its-bovines-into-racecars-capable-of-zooming-60-percent-faster-than-everyone-else/",
+          "title": "World of Warcraft: Forever's last-minute patch transforms its bovines into racecars capable of zooming 60% faster than everyone else",
+          "evidence": "<article> <p>The World of Warcraft: Forever min-maxers have been arguing about the pros and cons of each playable race since the throwback MMO was announced. It isn't enough to just pick whoever looks cool for some people. They need to know how the math works out so they don't spend a hundred hours leveling a character who will do 3% less damage than the others.</p><p>Admittedly, WoW: Forever will be stuck in an era where unique racial abilities and traits mattered a lot more than they do in the modern version of the MMO. Some of them directly synergize with certain classes and others just make your life a lot easier for what will be a long journey. This is probably why Blizzard is still tweaking them a week from launch day.</p><p>Despite trying to balance them evenly before, Blizzard is doubling down on some racials having clear advantages for certain classes over others. You can see how this looks in <a href=\"https://eu.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-26-october/631316/7\">today's patch notes</a>, but you won't be able to test anything out until the WoW: Forever goes live next week.</p><p>Most of the changes fit that ethos: orcs, f"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "World of Warcraft: Forever's last-minute patch transforms its bovines into racecars capable of zooming 60% faster than everyone else",
+        "secondary_keywords": [
+          "World of Warcraft: Forever's last-minute patch transforms its bovines into racecars capable of zooming 60% faster than everyone else date de sortie",
+          "World of Warcraft: Forever's last-minute patch transforms its bovines into racecars capable of zooming 60% faster than everyone else plateformes",
+          "World of Warcraft: Forever's last-minute patch transforms its bovines into racecars capable of zooming 60% faster than everyone else gameplay",
+          "World of Warcraft: Forever's last-minute patch transforms its bovines into racecars capable of zooming 60% faster than everyone else guide",
+          "World of Warcraft: Forever's last-minute patch transforms its bovines into racecars capable of zooming 60% faster than everyone else avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "World of Warcraft: Forever's last-minute patch transforms its bovines into racecars capable of zooming 60% faster than everyone else"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-one-day-before-launch-arpg-emberville-gets-delayed-unti-73ba8c7eaf68",
+      "topic": "One day before launch, ARPG Emberville gets delayed until 2027",
+      "detected_at": "2026-10-27T08:22:31.864233+00:00",
+      "analysed_at": "2026-11-06T09:54:03.317936+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/one-day-before-launch-arpg-emberville-gets-delayed-until-2027/",
+          "title": "One day before launch, ARPG Emberville gets delayed until 2027",
+          "evidence": "<article> <p>Literally one day before it was set to launch into early access, the pixel art action RPG <a href=\"https://store.steampowered.com/app/2295170/Emberville/\" target=\"_blank\">Emberville</a> has been delayed so the development team can incorporate feedback from the game's recent Steam Next Fest demo. Instead of rolling out on October 27 as planned, Emberville is now set to launch on January 7.</p><p>\"Many of you have played our Steam Next Fest demo and shared your feedback. This means a great deal to us, and we immediately started planning more improvements,\" developer Cygnus Cross wrote in a <a href=\"https://store.steampowered.com/news/app/2295170/view/704408827984878058\" target=\"_blank\">Steam update</a>. \"However, some of the improvements we want to make are systems changes that can't be done quickly. Reworking bow combat, for example, would take more time than we had prior to our Early Access release even though the team is working around the clock.</p><p>\"After carefully considering our options, we have decided to move the release date and include some essential improvements in the Early Access launch build.\"</p><p>The last minute delay is particularly surprising given "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "One day before launch, ARPG Emberville gets delayed until 2027",
+        "secondary_keywords": [
+          "One day before launch, ARPG Emberville gets delayed until 2027 date de sortie",
+          "One day before launch, ARPG Emberville gets delayed until 2027 plateformes",
+          "One day before launch, ARPG Emberville gets delayed until 2027 gameplay",
+          "One day before launch, ARPG Emberville gets delayed until 2027 guide",
+          "One day before launch, ARPG Emberville gets delayed until 2027 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "One day before launch, ARPG Emberville gets delayed until 2027"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-a-free-micro-horror-game-from-the-maker-of-the-mortuary-b2fe3a1edfbd",
+      "topic": "A free 'micro' horror game from the maker of The Mortuary Assistant is basically if PT was an episode of Law and Order",
+      "detected_at": "2026-10-27T08:22:31.864543+00:00",
+      "analysed_at": "2026-11-06T09:54:03.317956+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/a-free-micro-horror-game-from-the-maker-of-the-mortuary-assistant-is-basically-if-pt-was-an-episode-of-law-and-order/",
+          "title": "A free 'micro' horror game from the maker of The Mortuary Assistant is basically if PT was an episode of Law and Order",
+          "evidence": "<article> <p>Halloween is almost upon us, and if you're looking for some suitably spooky videogame fun then allow me to direct your attention to <a href=\"https://store.steampowered.com/app/5356470/Playable_Archive/\" target=\"_blank\">Playable Archive</a>, a free \"micro psychological horror experience\" from Darkstone Digital, the solo studio behind The Mortuary Assistant.</p><p>As you might expect, given the title, Playable Archive bears a number of similarities to PT, the 2014 \"playable teaser\" for a cancelled game in the Silent Hill series. It takes place (almost) entirely within a single home, the situation starts slow and escalates quickly, and it's the product of a game that was ultimately cancelled and will never see the light of day.</p><p>\"Releasing Playable Archive is really exciting, and it feels like some form of personal healing,\" Darkstone Digital owner Brian Clarke said. \"After working for so long on something I cared so much about, it felt wrong to leave it sitting on the shelf like some cursed item.</p><p>\"Although the full-scale game this demo was built for will never see the light of day and many pieces of it had to be left on the cutting room floor, I feel like it’s"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "A free 'micro' horror game from the maker of The Mortuary Assistant is basically if PT was an episode of Law and Order",
+        "secondary_keywords": [
+          "A free 'micro' horror game from the maker of The Mortuary Assistant is basically if PT was an episode of Law and Order date de sortie",
+          "A free 'micro' horror game from the maker of The Mortuary Assistant is basically if PT was an episode of Law and Order plateformes",
+          "A free 'micro' horror game from the maker of The Mortuary Assistant is basically if PT was an episode of Law and Order gameplay",
+          "A free 'micro' horror game from the maker of The Mortuary Assistant is basically if PT was an episode of Law and Order guide",
+          "A free 'micro' horror game from the maker of The Mortuary Assistant is basically if PT was an episode of Law and Order avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "A free 'micro' horror game from the maker of The Mortuary Assistant is basically if PT was an episode of Law and Order"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-developer-of-one-of-my-favorite-2020s-rpgs-does-it--93fac9a8c6d8",
+      "topic": "The developer of one of my favorite 2020s RPGs does it because of BioWare: 'Baldur's Gate 1 is the first game I truly loved'",
+      "detected_at": "2026-10-27T08:22:31.864784+00:00",
+      "analysed_at": "2026-11-06T09:54:03.317978+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/baldurs-gate/the-developer-of-one-of-my-favorite-2020s-rpgs-does-it-because-of-bioware-baldurs-gate-1-is-the-first-game-i-truly-loved/",
+          "title": "The developer of one of my favorite 2020s RPGs does it because of BioWare: 'Baldur's Gate 1 is the first game I truly loved'",
+          "evidence": "<article> <p>As part of our ongoing coverage and commemoration of the closure of BioWare, we've been reaching out to RPG developers to hear what the studio meant to them. Lead SEO editor Lauren Morton got in touch with <a href=\"https://www.pcgamer.com/gaming-industry/im-forever-grateful-to-bioware-16-game-developers-share-the-moment-a-bioware-game-inspired-them-to-join-the-industry/\" target=\"_blank\">16 devs who owe their careers to the legendary RPG studio</a>, and today I can share the words of another, Skald: Against the Black Priory lead developer Anders Lauridsen.</p><p>I had a similar experience with BioWare RPGs as a substitute for tabletop growing up, lacking friends who were interested in the hobby until well into adulthood, and I'll wager that's not an uncommon experience.</p><p>Hearing Lauridsen say there's a lot of BioWare DNA in Skald made me smile. The game's art recalls those clunkier RPGs the developer initially bounced off, but its mechanics and combat are Baldur's Gate and Fallout to the core. I also gotta say I feel less bad about my own lack of facility with earlier generations of CRPG after hearing that a developer like Lauridsen struggled with them at first.</p"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The developer of one of my favorite 2020s RPGs does it because of BioWare: 'Baldur's Gate 1 is the first game I truly loved'",
+        "secondary_keywords": [
+          "The developer of one of my favorite 2020s RPGs does it because of BioWare: 'Baldur's Gate 1 is the first game I truly loved' date de sortie",
+          "The developer of one of my favorite 2020s RPGs does it because of BioWare: 'Baldur's Gate 1 is the first game I truly loved' plateformes",
+          "The developer of one of my favorite 2020s RPGs does it because of BioWare: 'Baldur's Gate 1 is the first game I truly loved' gameplay",
+          "The developer of one of my favorite 2020s RPGs does it because of BioWare: 'Baldur's Gate 1 is the first game I truly loved' guide",
+          "The developer of one of my favorite 2020s RPGs does it because of BioWare: 'Baldur's Gate 1 is the first game I truly loved' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The developer of one of my favorite 2020s RPGs does it because of BioWare: 'Baldur's Gate 1 is the first game I truly loved'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-veteran-game-composer-in-talks-to-score-mass-effect-5-s-3c7902dbb4a7",
+      "topic": "Veteran game composer in talks to score Mass Effect 5 shares 20 minutes of music he wrote for the project: 'To even dream in your sandbox was a privilege'",
+      "detected_at": "2026-10-27T08:22:31.865018+00:00",
+      "analysed_at": "2026-11-06T09:54:03.318000+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mass-effect/veteran-game-composer-in-talks-to-score-mass-effect-5-shares-20-minutes-of-music-he-wrote-for-the-project-to-even-dream-in-your-sandbox-was-a-privilege/",
+          "title": "Veteran game composer in talks to score Mass Effect 5 shares 20 minutes of music he wrote for the project: 'To even dream in your sandbox was a privilege'",
+          "evidence": "<article> <p>Composer Austin Wintory (Journey, Stray Gods, Assassin's Creed: Syndicate) just shared <a href=\"https://www.youtube.com/watch?v=dBO8s_McKjU\" target=\"_blank\">20 minutes of music</a> he wrote as a sort of audition/starting point for the score of Mass Effect 5, aka. Mass Effect: Universe. According to Wintory, he had been in \"serious conversation\" with BioWare and EA to provide the game's soundtrack.</p><p>To be clear: This was not music that was 100% slated to appear in the game, but it sounds like Wintory was on the shortest of shortlists for the job. The effective EP is presented as \"My Mass Effect 5 early musical drafts\" and \"Mass Effect: Universe, the music that might have been.\"</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/dBO8s_McKjU\" allowfullscreen></iframe></div></div><p>Wintory wrote that he wanted to \"surprise [EA and BioWare] with an elaborate production\" in 2025, and that the music was recorded with \"synths, vocals, and a large orchestra here in LA.\" Noting that he didn't have story details for the in-development game, Wintory came up with sp"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Veteran game composer in talks to score Mass Effect 5 shares 20 minutes of music he wrote for the project: 'To even dream in your sandbox was a privilege'",
+        "secondary_keywords": [
+          "Veteran game composer in talks to score Mass Effect 5 shares 20 minutes of music he wrote for the project: 'To even dream in your sandbox was a privilege' date de sortie",
+          "Veteran game composer in talks to score Mass Effect 5 shares 20 minutes of music he wrote for the project: 'To even dream in your sandbox was a privilege' plateformes",
+          "Veteran game composer in talks to score Mass Effect 5 shares 20 minutes of music he wrote for the project: 'To even dream in your sandbox was a privilege' gameplay",
+          "Veteran game composer in talks to score Mass Effect 5 shares 20 minutes of music he wrote for the project: 'To even dream in your sandbox was a privilege' guide",
+          "Veteran game composer in talks to score Mass Effect 5 shares 20 minutes of music he wrote for the project: 'To even dream in your sandbox was a privilege' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Veteran game composer in talks to score Mass Effect 5 shares 20 minutes of music he wrote for the project: 'To even dream in your sandbox was a privilege'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

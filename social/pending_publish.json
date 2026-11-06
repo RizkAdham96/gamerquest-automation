@@ -1,0 +1,84 @@
+{
+  "source_id": "ce92324434db0dfffe83dca738fe692431485c9cb97db76d5abc21ddd364f69b",
+  "carousel_version": "ced7767ab566c763e20f0f69b529bda660cad748083248080f6b48aa9a49385f",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    956,
+    957,
+    958
+  ],
+  "prepared_at_utc": "2026-11-06T18:21:17.400655Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "ce92324434db0dfffe83dca738fe692431485c9cb97db76d5abc21ddd364f69b",
+    "source_title": "Sonic Racing: CrossWorlds – Tout ce qu’on sait de la mise à jour 2.0.0 (Year Two)",
+    "score": 81.5,
+    "idea": {
+      "source_id": "ce92324434db0dfffe83dca738fe692431485c9cb97db76d5abc21ddd364f69b",
+      "topic": "Mise à jour 2.0.0 de Sonic Racing: CrossWorlds",
+      "angle": "Nouveaux gadgets, mode Duel et personnages gratuits",
+      "format": "breaking_news",
+      "hook": "Découvrez les 15 gadgets inédits et le mode Duel qui arrivent le 3 novembre 2026 !",
+      "freshness": 10,
+      "click_potential": 9,
+      "curiosity": 8,
+      "shareability": 7,
+      "originality": 6,
+      "gamerquest_relevance": 9,
+      "total_score": 81.5
+    },
+    "carousel": {
+      "topic": "Mise à jour 2.0.0 de Sonic Racing: CrossWorlds",
+      "angle": "Nouveaux gadgets, mode Duel et personnages gratuits",
+      "format": "breaking_news",
+      "hook": "Découvrez les 15 gadgets inédits et le mode Duel qui arrivent le 3 novembre 2026 !",
+      "score": 81.5,
+      "slides": [
+        {
+          "title": "15 gadgets inédits arrivent bientôt",
+          "body": "Découvrez quels nouveaux outils transformeront vos courses dès le 3 novembre 2026.",
+          "visual_prompt": "Vue dynamique d'une piste de course futuriste avec des véhicules Sonic, mettant en avant des gadgets lumineux flottants autour des voitures."
+        },
+        {
+          "title": "Mode Duel ajouté dans la mise à jour",
+          "body": "Le patch 2.0.0 introduit un mode Duel compétitif, disponible dès le 3 novembre 2026, pour des affrontements intenses en tête‑à‑tête.",
+          "visual_prompt": "Deux bolides Sonic s'affrontant sur une arène fermée, avec des effets de vitesse et des éclairs d'énergie entre eux."
+        },
+        {
+          "title": "Personnages gratuits comme Bayonetta",
+          "body": "La mise à jour offre des personnages téléchargeables gratuitement, dont Bayonetta, élargissant le roster dès le lancement.",
+          "visual_prompt": "Portrait stylisé de Bayonetta en tenue de course, aux côtés de Sonic, sur fond de décor de jeu coloré."
+        }
+      ],
+      "caption": "La version 2.0.0 de Sonic Racing : CrossWorlds débarque avec gadgets, mode Duel et nouveaux héros gratuits. 🚀",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest",
+        "#SonicRacing",
+        "#MiseÀJour",
+        "#GamingNews",
+        "#NouveauxGadgets"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "ce92324434db0dfffe83dca738fe692431485c9cb97db76d5abc21ddd364f69b"
+    },
+    "caption": "La version 2.0.0 de Sonic Racing : CrossWorlds débarque avec gadgets, mode Duel et nouveaux héros gratuits. 🚀",
+    "hashtags": [
+      "#GamerQuest",
+      "#SonicRacing",
+      "#MiseÀJour",
+      "#GamingNews",
+      "#NouveauxGadgets"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 0
+  }
+}

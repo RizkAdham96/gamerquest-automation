@@ -1,9 +1,9 @@
 {
   "date_utc": "2026-11-06",
-  "global_reserved": 29142,
+  "global_reserved": 24640,
   "lanes": {
     "news": 8743,
-    "seo": 15498,
+    "seo": 10996,
     "social": 4901,
     "manual": 0
   },
@@ -32,8 +32,9 @@
     {
       "id": "42289493933-1-seo",
       "lane": "seo",
-      "tokens": 10000,
-      "reserved_at": "2026-11-06T20:34:38.161793+00:00"
+      "tokens": 5498,
+      "reserved_at": "2026-11-06T20:34:38.161793+00:00",
+      "reconciled_at": "2026-11-06T20:34:49.485109+00:00"
     }
   ]
 }

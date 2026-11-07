@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-11-06T20:34:40.638910+00:00",
+  "updated_at": "2026-11-07T09:14:55.316493+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -54,292 +54,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "evg-config-750920",
-      "topic": "Configuration PC Shadow of the Tomb Raider: Definitive Edition : minimale, recommandée et conseils",
-      "detected_at": "2026-10-27T08:22:31.587594+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/750920/",
-          "title": "Shadow of the Tomb Raider: Definitive Edition sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Shadow of the Tomb Raider: Definitive Edition, consultée le 2026-10-27. Développeur : Eidos-Montréal, Crystal Dynamics, Nixxes, Feral Interactive (Mac), Feral interactive (Linux). Éditeur : Crystal Dynamics, Feral Interactive (Mac), Feral interactive (Linux). Date de sortie sur Steam : 14 sept. 2018. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 64 bit ; Processeur : i3-3220 INTEL or AMD Equivalent ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GTX 660/GTX 1050 or AMD Radeon HD 7770 ; DirectX : Version 11 ; Espace disque : 40 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation : Windows 10 64-bit ; Processeur : Intel Core i7 4770K, 3.40 Ghz or AMD Ryzen 5 1600, 3.20 Ghz ; Mémoire vive : 16 GB de mémoire ; Graphiques : Nvidia GTX 1060 6GB or AMD Radeon RX 480, 8GB ; DirectX : Version 12 ; Espace disque : 40 GB d'espace disque disponible.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/ss_04b30aaa0ce083b1bcff63d06432707ab9c35c74.1920x1080.jpg?t=1792675045"
-        }
-      ],
-      "keywords": [
-        "configuration pc Shadow of the Tomb Raider: Definitive Edition",
-        "Shadow of the Tomb Raider: Definitive Edition PC",
-        "Shadow of the Tomb Raider: Definitive Edition Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-750920",
-      "topic": "Shadow of the Tomb Raider: Definitive Edition multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-10-27T08:22:31.587659+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/750920/",
-          "title": "Shadow of the Tomb Raider: Definitive Edition sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Shadow of the Tomb Raider: Definitive Edition, consultée le 2026-10-27. Développeur : Eidos-Montréal, Crystal Dynamics, Nixxes, Feral Interactive (Mac), Feral interactive (Linux). Éditeur : Crystal Dynamics, Feral Interactive (Mac), Feral interactive (Linux). Date de sortie sur Steam : 14 sept. 2018. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Steam Cloud, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Alors que Lara Croft met tout en œuvre pour sauver le monde d'une apocalypse maya, elle doit suivre son destin et devenir pilleuse de tombeaux.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/ss_04b30aaa0ce083b1bcff63d06432707ab9c35c74.1920x1080.jpg?t=1792675045"
-        }
-      ],
-      "keywords": [
-        "Shadow of the Tomb Raider: Definitive Edition multijoueur",
-        "Shadow of the Tomb Raider: Definitive Edition PC",
-        "Shadow of the Tomb Raider: Definitive Edition Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "rss-call-of-duty-modern-warfare-4-review-485f3c07f52a",
-      "topic": "Call of Duty: Modern Warfare 4 review",
-      "detected_at": "2026-10-27T19:38:48.442083+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4-review/",
-          "title": "Call of Duty: Modern Warfare 4 review",
-          "evidence": "<article> <p>There is a new game titled \"Call of Duty\" every year, but it's not every year that Call of Duty is really <em>back.</em> </p><div class=\"fancy-box\"><div class=\"fancy_box-title\">NEED TO KNOW</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it </strong>The next Call of Duty from the original creators of Call of Duty<br><strong>Release date </strong>October 23, 2026<br><strong>Expect to pay </strong>$70/£60<br><strong>Publisher </strong>Activision Blizzard<br><strong>Developer </strong>Infinity Ward<br><strong>Reviewed on </strong>RTX 5090, Ryzen 7 9800X3D 4.7 GHz, 64GB RAM<br><strong>Multiplayer </strong>Up to 60 players<br><strong>Steam Deck </strong>Unsupported<br><strong>Link </strong><a data-analytics-id=\"inline-link\" href=\"https://www.callofduty.com/\" target=\"_blank\">Official site</a></p></div></div><p>The tireless schedule of Activision's load-bearing FPS has resulted in more bad games than good as of late—Modern Warfare 3 was an expansion-sized sequel rushed out the door, Black Ops 6 was a step back for multiplayer, and its immediate followup Black Ops 7 was clocked as superfluous and uninteresting even by rain-or-shine fans. These "
-        }
-      ],
-      "keywords": [
-        "Call of Duty: Modern Warfare 4 review",
-        "Call of Duty: Modern Warfare 4 review date de sortie",
-        "Call of Duty: Modern Warfare 4 review plateformes",
-        "Call of Duty: Modern Warfare 4 review gameplay",
-        "Call of Duty: Modern Warfare 4 review guide",
-        "Call of Duty: Modern Warfare 4 review avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-after-onimusha-s-focused-swordplay-phantom-blade-zero-d-5538755e99f2",
-      "topic": "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic",
-      "detected_at": "2026-10-27T19:38:48.442581+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/action/phantom-blade-zero-vs-onimusha-way-of-the-sword/",
-          "title": "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic",
-          "evidence": "<article> <p>At just about 15 hours into Phantom Blade Zero, I've changed out my primary weapons more times than I do in an entire Souls campaign. I quickly dropped my starter sword for a pair of dual blades and a jagged weapon that chunks damage off my enemies in showers of blood. But I didn't stick with either for long. Soon I was running around with a two-handed blade taller than my martial arts hero Soul, which sprouts a trail of magical, energy-sapping flowers with every swing. It shares a moveset with another two-handed giant that absorbs life with each hit. But I don't have time to use either one: I'm already smitten with my new twin blades, one of which I can send spinning in a circle around me like a protective Beyblade.</p><p>Somehow I haven't even touched the weapon that I took off a crazed monk that turns Soul into a drunken boxer. But I'm sure I'll have time: apparently I'm less than a third(!) of the way through a game that's far, far bigger than I anticipated <a href=\"https://www.pcgamer.com/games/action/phantom-blade-zero-preview-chinese-action-games-soulslikes-kung-fu/\">when I played a chunk of it last year</a>. </p><p>For the most part, Phantom Blade Zero's epic a"
-        }
-      ],
-      "keywords": [
-        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic",
-        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic date de sortie",
-        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic plateformes",
-        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic gameplay",
-        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic guide",
-        "After Onimusha's focused swordplay, Phantom Blade Zero delivers a sprawling, maximalist action epic avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-warhammer-40-000-boltgun-studio-announces-major-layoffs-a29226b06d3a",
-      "topic": "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement",
-      "detected_at": "2026-10-27T19:38:48.442838+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/warhammer-40-000-boltgun-studio-announces-major-layoffs-then-quickly-deletes-the-announcement/",
-          "title": "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement",
-          "evidence": "<article> <p><a href=\"https://www.gamesindustry.biz/auroch-digital-lays-off-a-quarter-of-its-staff\" target=\"_blank\">GamesIndustry</a><a href=\"https://www.pcgamer.com/warhammer-40-000-boltgun/\" target=\"_blank\">Warhammer 40,000: Boltgun</a> developer Auroch Digital appears to be headed toward significant layoffs. In a statement posted to LinkedIn, since deleted but reported by <a href=\"https://www.gamesindustry.biz/auroch-digital-lays-off-a-quarter-of-its-staff\">GamesIndustry</a> and others, the studio said that despite its \"creative success, the same market conditions that have challenged so many of our fellow developers have now also affected us.\" As a result, Auroch Digital is restructuring, and has begun a redundancy consultation process that will impact \"around a quarter\" of its employees.</p><p>\"Over the past year our colleagues have delivered amazing games like Warhammer 40,000: Boltgun 2 and Starship Troopers: Ultimate Bug War! to wonderful reception from our players,\" the Auroch Digital statement said.</p><p>\"Despite that creative success, the same market conditions that have challenged so many of our fellow developers have now also affected us. Consequently, we have made th"
-        }
-      ],
-      "keywords": [
-        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement",
-        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement date de sortie",
-        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement plateformes",
-        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement gameplay",
-        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement guide",
-        "Warhammer 40,000: Boltgun studio announces major layoffs, then quickly deletes the announcement avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-nvidia-and-amd-invest-billions-into-meta-as-companies-e-c2eebd7ea378",
-      "topic": "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI",
-      "detected_at": "2026-10-27T19:38:48.443089+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/software/ai/nvidia-and-amd-invest-billions-into-meta-as-companies-egg-each-other-on-to-bet-even-more-on-ai/",
-          "title": "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI",
-          "evidence": "<article> <p>This week both AMD and Nvidia have announced partnerships with Meta, securing both collabs and billions of dollars. All three companies are heavily invested in AI, and these deals are only more fuel for the fire.</p><p><a href=\"https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth\" target=\"_blank\">Nvidia just announced its deal</a> with Meta to \"expand their partnership on Muse and the Muse family of models\", and Meta, in turn, will expand Vera Rubin and Vera CPU deployment, as well as deploy Nvidia's Spectrum X Ethernet networking and BlueField-4 DPUs. Though Meta was probably buying all that stuff anyways, right?</p><p>Nvidia also said it was \"considering other technological collaborations, including Nvidia OpenShell Reference Architecture to strengthen agency security and Nvidia Sentry for monitoring, structured, unstructured and graph data processing.\"</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-OKyGme\"></div> </div> <script src=\"https://kwizly.com/embed/OKyGme.js\" async></script><p>Importantly, Nvidia is also investing $3 billion into Meta. Money that may go elsewhere "
-        }
-      ],
-      "keywords": [
-        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI",
-        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI date de sortie",
-        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI plateformes",
-        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI gameplay",
-        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI guide",
-        "Nvidia and AMD invest billions into Meta as companies egg each other on to bet even more on AI avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-vote-for-the-scariest-game-of-all-time-round-1-57c951fc8fcc",
-      "topic": "Vote for the scariest game of all time: Round 1",
-      "detected_at": "2026-10-27T19:38:48.443478+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/horror/vote-for-the-scariest-game-of-all-time-round-1/",
-          "title": "Vote for the scariest game of all time: Round 1",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Presented by</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"N5WXFQSCttV6Am7CopwTzd\" name=\"Copy of 1_HeroLogo copy\" caption=\"\" alt=\"No More Room in Hell 2 logo\" src=\"https://cdn.mos.cms.futurecdn.net/N5WXFQSCttV6Am7CopwTzd-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Torn Banner)</span></figcaption></figure><p class=\"fancy-box__body-text\">This article is brought to you by <a data-analytics-id=\"inline-link\" href=\"https://store.steampowered.com/app/292000?utm_source=future&utm_medium=display&utm_campaign=ppms_nmrih2_october_us&utm_term=pcsteam_horror&utm_creative=logo \" target=\"_blank\">No More Room in Hell 2</a>.</p></div></div><p>Last week, I asked PC Gamer readers to nominate the scariest PC games they could think of. I've collected the top 16 submission"
-        }
-      ],
-      "keywords": [
-        "Vote for the scariest game of all time: Round 1",
-        "Vote for the scariest game of all time: Round 1 date de sortie",
-        "Vote for the scariest game of all time: Round 1 plateformes",
-        "Vote for the scariest game of all time: Round 1 gameplay",
-        "Vote for the scariest game of all time: Round 1 guide",
-        "Vote for the scariest game of all time: Round 1 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-dungeons-dragons-world-of-warcraft-s-class-designer-cra-ea81f88167fb",
-      "topic": "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new",
-      "detected_at": "2026-10-27T19:38:48.443813+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/dungeons-and-dragons-world-of-warcrafts-class-designer-crammed-as-much-of-the-mmo-into-it-so-that-even-veteran-tabletop-players-can-experience-something-new/",
-          "title": "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new",
-          "evidence": "<article> <p>James Wyatt, the principal game designer and project lead designer of the upcoming Dungeons & Dragons: World of Warcraft book was already running games in Azeroth long before he took on the project. For him, the fun of bringing WoW to the table is not to ignore the flexibility of D&D but to embrace it.</p><p>\"Part of the beauty of playing D&D in the world of Azeroth is that you can do things in D&D that you can't do in a digital game because the options haven't been programmed for you,\" he said in a recent presentation attended by PC Gamer.</p><p>On November 12, you'll be able to see how Wyatt and the other designers mixed the two RPGs by <a href=\"https://www.pcgamer.com/games/world-of-warcraft/dungeons-and-dragons-world-of-warcraft-is-already-a-slam-dunk-but-its-how-it-captures-the-spirit-of-the-mmo-that-makes-it-stand-out/\">\"paraphrasing\" the MMO</a> into the tabletop ruleset. But Wyatt and senior game designer Ben Petrisor gave us a peek into how their approach affects the classes you can play in D&D: WoW.</p><p>WoW's classes are thematically similar to D&D's, and that's part of what makes the collaboration so fitting. However, WoW's classes have to fit into restric"
-        }
-      ],
-      "keywords": [
-        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new",
-        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new date de sortie",
-        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new plateformes",
-        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new gameplay",
-        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new guide",
-        "Dungeons & Dragons: World of Warcraft's class designer 'crammed as much' of the MMO into it so that even veteran tabletop players can experience something new avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-square-enix-vets-say-devs-of-the-future-will-need-to-ma-3234e6782b70",
-      "topic": "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital",
-      "detected_at": "2026-10-27T19:38:48.444099+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/game-development/square-enix-vets-say-devs-of-the-future-will-need-to-master-the-use-of-ai-but-the-human-touch-will-still-be-vital/",
-          "title": "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital",
-          "evidence": "<article> <p>AI's a touchy subject in the development industry, but in other areas it's a lot less controversial—take Japan, for instance, which is <a href=\"https://www.pcgamer.com/gaming-industry/dueling-industry-surveys-show-japanese-game-devs-are-embracing-ai-while-north-american-ones-are-still-skeptical/\">embracing the technology</a> a lot more than audiences in the West are. That's not to say there <a href=\"https://www.pcgamer.com/software/ai/japan-actors-union-pushes-for-heavy-restrictions-on-ai-copying-dead-actors/\">isn't any push back at all</a>, mind.</p><p>Still, an example of how there's more of a positive spin on it overseas comes courtesy of a <a href=\"https://www.famitsu.com/article/202610/91345\" target=\"_blank\">Famitsu interview</a> (translated here by <a href=\"https://automaton-media.com/en/news/final-fantasy-and-mana-veterans-weigh-in-on-how-ai-will-change-game-development-and-why-turning-zero-into-one-should-always-be-a-humans-job/\" target=\"_blank\">Automaton</a>) where seasoned JRPG devs from Square Enix seem broadly positive on the tech—and are repeating some oft-heard talking points that I, at least, am personally very bored of, even if I wouldn't dismiss them o"
-        }
-      ],
-      "keywords": [
-        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital",
-        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital date de sortie",
-        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital plateformes",
-        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital gameplay",
-        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital guide",
-        "Square Enix vets say devs of the future will need to 'master the use of AI', but the human touch will still be vital avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-edge-magazine-went-to-rockstar-to-see-gta-6-and-will-te-b9ea4da1e8b4",
-      "topic": "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29",
-      "detected_at": "2026-10-27T19:38:48.444306+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/edge-magazine-went-to-rockstar-to-see-gta-6-and-will-tell-you-all-about-in-lavish-detail-this-thursday-october-29/",
-          "title": "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29",
-          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/WuL58t2s.html\" id=\"WuL58t2s\" title=\"Edge 430 – Grand Theft Auto VI cover\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen></iframe><p>We are just three weeks out from the release of Grand Theft Auto 6, which you can tell because it has cleared the release calendar around it like the Chicxulub crater. Ahead of the big day, our friends at Edge magazine visited Rockstar's Edinburgh development HQ to chat with the studio's leaders and put their eyes on GTA 6 <em>in action</em>. That's right folks, it's officially happening. This thing is officially almost a videogame you can play.</p><p>The result? The 16-page cover story coming in Edge #430, <strong>on sale October 29</strong>. They've really been cooking over there, bringing us a bunch of exclusive new imagery, interviews with Rockstar head honchos, and a special gatefold cover with artwork of Jason and Lucia, about whom I already have very strong feelings.</p><p>If you're in the UK, you're in luck, because you can pick up the GTA 6 special edition free, plus 13 issues of Edge at 38% off the price you'd pay at the newsstand if you <a href=\"http:"
-        }
-      ],
-      "keywords": [
-        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29",
-        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 date de sortie",
-        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 plateformes",
-        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 gameplay",
-        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 guide",
-        "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-nvidia-may-not-have-discontinued-the-rtx-5090-but-one-a-90ad65c4c828",
-      "topic": "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card",
-      "detected_at": "2026-10-27T19:38:48.444600+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/graphics-cards/nvidia-may-not-have-discontinued-the-rtx-5090-but-one-aib-partner-says-it-cant-get-hold-of-the-parts-required-to-make-the-card/",
-          "title": "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card",
-          "evidence": "<article> <p>Nvidia's RTX 5090 has been a subject of much speculation recently, as it was rumoured to be discontinued last month when it vanished from the company's official marketplace, <a href=\"https://www.pcgamer.com/hardware/graphics-cards/rtx-5090-not-dead-says-nvidia-but-its-mysteriously-vanished-from-the-companys-official-marketplace/\" target=\"_blank\">only for Nvidia to confirm it wasn't discontinued</a>. The plot has thickened, though, as AIB partners—the companies actually designing and manufacturing RTX 50 series graphics cards—suggest even they can't get their hands on the parts required to make the card. </p><p>This is according to an Nvidia AIB partner who spoke to YouTuber <a href=\"https://www.youtube.com/watch?v=0t_VkWAD5dU\" target=\"_blank\">Der8auer</a>. They say, \"No, Nvidia did not inform us that RTX 5090 is EOL. But currently we cannot purchase GB202 [the GPU] together with 32 GB GDDR7 as [a] complete set, and we also don't know if ordering will be possible again in the future.\"</p><p>The unnamed board partner clarifies that in previous shortages, they could place backorders with Nvidia, but this is \"currently not possible anymore.\"</p><div style=\"min-height: 250p"
-        }
-      ],
-      "keywords": [
-        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card",
-        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card date de sortie",
-        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card plateformes",
-        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card gameplay",
-        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card guide",
-        "Nvidia may not have discontinued the RTX 5090, but one AIB partner says it can't get hold of the parts required to make the card avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-deadline-afterlife-processing-lets-you-take-morality-in-a0424f3a210e",
-      "topic": "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation",
-      "detected_at": "2026-10-27T19:38:48.444912+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/sim/deadline-afterlife-processing-lets-you-take-morality-into-your-own-hands-and-judge-who-deserves-eternal-salvation-or-damnation/",
-          "title": "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation",
-          "evidence": "<article> <p>I've always thought that I'm a particularly good judge of character, so I was happy to put my theory to the test with <a href=\"https://store.steampowered.com/app/5142140/DEADLINE_Afterlife_Processing/\" target=\"_blank\">Deadline: Afterlife Processing's new demo</a> where you play as some corporate angel judging whether the souls of the recently deceased should go upstairs or downstairs (I think we all know what that means). </p><p>Deadline's demo starts like most stints in corporations do, with paperwork. I'm not entirely sure whether I signed my soul away, but I was sad to hear I won't be getting time off anytime soon. After I was done with all the bureaucracy it was time to get to work. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"RAnQeqb4X8gp4JVfsUaGeE\" name=\"Deadline: Afterlife Processing screenshots\" alt=\"Deadline: Afterlife Processing screenshots\" src=\"https://cdn.mos.cms.futurecdn.net/RAnQeqb4X8gp4JVfsUaGeE-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" hei"
-        }
-      ],
-      "keywords": [
-        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation",
-        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation date de sortie",
-        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation plateformes",
-        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation gameplay",
-        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation guide",
-        "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-you-just-can-t-win-despite-ghost-of-y-tei-selling-milli-45ae89c43b83",
       "topic": "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch",
@@ -6040,6 +5754,294 @@
         "WoW: Forever is working on its server tech to make cities less empty, say devs gameplay",
         "WoW: Forever is working on its server tech to make cities less empty, say devs guide",
         "WoW: Forever is working on its server tech to make cities less empty, say devs avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-here-s-what-s-in-path-of-exile-2-s-huge-1-0-release-com-1bdaa60ab000",
+      "topic": "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December",
+      "detected_at": "2026-11-07T09:14:55.118191+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/heres-whats-in-path-of-exile-2s-huge-1-0-release-coming-in-december/",
+          "title": "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December",
+          "evidence": "<article> <p>Path of Exile 2's full release is out on December 11, and coming with it are two new classes, two new acts, a new league, tons of new monsters, bosses, battles, endgame changes, gem updates, atlas and skill tree updates, a new pinnacle boss, base types, uniques, and, I don't know, probably a kitchen sink or something. Let's go over it.</p><p>First of all, we'll have two new classes: <a href=\"https://www.pcgamer.com/games/rpg/path-of-exile-2-announces-a-second-new-class-the-shadow-for-its-december-1-0-release/\">the Shadow</a> and the Duelist. With them, we'll get all new skill gems for daggers and swords, with tons of new builds available. Daggers introduce new mechanics around stealth, traps, shadow skills with clones that attack with you, and classic skills like blade vortex and fire trap.</p><p>The Duelist will introduce swords, and with it fan favorite skills like cyclone and hemorrhage. With swords we'll be able to use stances like blood and sand or ready stance. Add to this being able to two-hand, dual wield, or sword and board and swords look to add a huge amount of mechanical complexity.</p><p>After two years of early access, the campaign will finally be fully f"
+        }
+      ],
+      "keywords": [
+        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December",
+        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December date de sortie",
+        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December plateformes",
+        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December gameplay",
+        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December guide",
+        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-rockstar-s-having-a-sale-on-old-gta-games-on-the-only-p-3ccda6bc6290",
+      "topic": "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)",
+      "detected_at": "2026-11-07T09:14:55.118431+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstars-having-sale-on-old-gta-games-on-the-only-platform-grand-theft-auto-6-isnt-coming-to-ours/",
+          "title": "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/grand-theft-auto-6/\" target=\"_blank\">Grand Theft Auto 6</a> finally arrives on November 19, but not for us, no—the big day is only for gamers on PlayStation 5 and Xbox Series X/S. We're not being completely excluded, though: We can't have GTA 6 in November, but we can take advantage of pre-release discounts on a bunch of older GTA games—deals that, ironically, don't appear to be available on consoles.</p><p>As noted by <a href=\"https://www.gamesradar.com/games/grand-theft-auto/a-bunch-of-grand-theft-auto-games-will-be-cheap-on-steam-until-gta-6-comes-out-and-only-one-of-them-sucks/\" target=\"_blank\">GamesRadar</a>, there are four GTA games available in two releases: Grand Theft Auto 3, Vice City, and San Andreas bundled up in the <a href=\"https://store.steampowered.com/sub/817628/\" target=\"_blank\">GTA Trilogy</a> for $19.79/£19.79/€19.79—67% off the regular price—and <a href=\"https://store.steampowered.com/app/12210/Grand_Theft_Auto_IV_The_Complete_Edition/\" target=\"_blank\">Grand Theft Auto 4: Complete Edition</a>, which includes The Lost and Damned and The Ballad of Gay Tony expansions, for $6/£5.09/€6, a 70% discount.</p><p>Those aren'"
+        }
+      ],
+      "keywords": [
+        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)",
+        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) date de sortie",
+        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) plateformes",
+        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) gameplay",
+        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) guide",
+        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-ai-posting-war-is-heating-up-please-leave-me-behind-976aa5523fa8",
+      "topic": "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X",
+      "detected_at": "2026-11-07T09:14:55.118871+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/the-ai-posting-war-is-heating-up-please-leave-me-behind-says-artist-who-got-into-it-with-epic-ceo-tim-sweeney-on-x/",
+          "title": "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X",
+          "evidence": "<article> <p>Kenney, an artist known for <a href=\"https://kenney.nl/\" target=\"_blank\">giving away thousands of free game assets</a>, did not expect to wind up directly arguing with specific billionaires after telling off billionaires in general in a recent X post. But a few hours after he encouraged other artists not to give in to pressure to use generative AI, Epic Games CEO Tim Sweeney was in his replies.</p><p>\"This is bullshit, Kenney,\" Sweeney <a href=\"https://x.com/TimSweeneyEpic/status/2111790177660334473?a=j9nSLpXzdgSE-KchXGo&s=20\" target=\"_blank\">told the artist</a>, concluding his rebuttal with a cute double entendre: \"I've upped my expectations of AI. Up yours!\" </p><p>Richest-person-in-the-world Elon Musk also <a href=\"https://x.com/elonmusk/status/2112018830088393044?a=FWVf3-F1AKVI90sBML4&s=20\" target=\"_blank\">chimed in</a> to back up Sweeney. Hundreds of other comments on the exchange inevitably followed, spanning the full spectrum of AI opinions.</p><p>Kenney's contentious post was: \"Don't let billionaires convince you slop is the future. They're used to managing & directing, not making things themselves. Of course they can't see the difference. They don't understand"
+        }
+      ],
+      "keywords": [
+        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X",
+        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X date de sortie",
+        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X plateformes",
+        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X gameplay",
+        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X guide",
+        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-path-of-exile-2-announces-a-second-new-class-the-shadow-970a18a934ef",
+      "topic": "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release",
+      "detected_at": "2026-11-07T09:14:55.119061+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/path-of-exile-2-announces-a-second-new-class-the-shadow-for-its-december-1-0-release/",
+          "title": "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release",
+          "evidence": "<article> <p>Today during<a href=\"https://pathofexile2.com/exilecon\"> ExileCon's</a> keynote address Grinding Gear Games announced that Path of Exile 2's full release on December 11 will bring not one, but <em>two </em>new classes: Alongside the previously announced Duelist, 1.0 will also introduce the dagger-heavy, trap-wielding Shadow, capable of employing a suite of new stealth mechanics.</p><p>The Shadow's addition had been hinted at with a cryptic teaser trailer, which you can see<a href=\"https://youtu.be/UOVBbRDPvDk?si=F9jHj9XbzkirZsIB\" target=\"_blank\"> here</a>. The class's inclusion is welcome news to those of us—like yours truly—who very much enjoy playing these sneaky stabbers. On release, Shadows will be able to ascend as the returning Assassin, or choose a new ascendancy: the Infiltrator.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/FD-lo79LtAM\" allowfullscreen=\"\"></iframe></div></div><p>We know that eventually, every PoE2 character class will have (at least) three ascendancies. Whether the Shadow's third will be the Saboteur, the Trickster, or somethin"
+        }
+      ],
+      "keywords": [
+        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release",
+        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release date de sortie",
+        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release plateformes",
+        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release gameplay",
+        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release guide",
+        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-underkeep-is-my-favorite-old-school-dungeon-crawler-sin-e266f58b3426",
+      "topic": "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain",
+      "detected_at": "2026-11-07T09:14:55.119370+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/underkeep-is-my-favorite-old-school-dungeon-crawler-since-legend-of-grimrock-and-yes-that-includes-queens-domain/",
+          "title": "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain",
+          "evidence": "<article> <p>Everyone's talking about <a href=\"https://www.pcgamer.com/games/rpg/queens-domain-might-be-the-best-game-like-metroid-prime-since-metroid-prime/\" target=\"_blank\">Queen's Domain</a> right now, but as someone who tried Queen's Domain and did not care for it, allow me to direct your attention to an alternative old-school dungeon crawler: Underkeep, which <a href=\"https://store.steampowered.com/app/2411200/Underkeep/\" target=\"_blank\">launched on Steam</a> on November 5 and has been absolutely phenomenal through the roughly four hours I've put into it so far.</p><p>Like Queen's Domain, Underkeep is firmly rooted in the 1990s, but I'm talkin' the <em>early</em> '90s, and even before that: Classic grid-based RPGs like The Bard's Tale, Dungeon Master, Wizardry, and Eye of the Beholder. In fact, as someone who <a href=\"https://www.pcgamer.com/why-you-should-play-eye-of-the-beholder-2-from-gogs-dd-collection/\" target=\"_blank\">loves Eye of the Beholder</a> (specifically the second one, The Legend of Darkmoon), I noticed a lot of nearly direct lifts from that series: primarily visual, but also a few audio cues, that I swear I've heard before.</p><div class=\"youtube-video\" data-nos"
+        }
+      ],
+      "keywords": [
+        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain",
+        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain date de sortie",
+        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain plateformes",
+        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain gameplay",
+        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain guide",
+        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-it-came-out-of-nowhere-i-was-shocked-and-sad-he-was-the-6551ca0fb9c6",
+      "topic": "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off",
+      "detected_at": "2026-11-07T09:14:55.119831+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/it-came-out-of-nowhere-i-was-shocked-and-sad-he-was-the-face-of-hunt-showdown-for-years-then-crytek-laid-him-off/",
+          "title": "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off",
+          "evidence": "<article> <p>The Hunt: Showdown community received a sucker punch in September when it learned that Bence \"Beedyboy\" Hamos, a beloved community-facing figure for the long-running extraction shooter, was unceremoniously let go in a wave of Crytek layoffs that affected at least 30 people.</p><p>For years Hamos was one of the faces of Hunt: Showdown, hosting livestreams, vlogs, and social media videos that kept players abreast of their favorite game's happenings. Through the highs and lows of Hunt's updates, events, and <a href=\"https://www.pcgamer.com/games/fps/this-gaudy-ghost-face-cosmetic-isnt-exactly-helping-hunt-showdown-1896-players-escape-the-feeling-of-corporate-crossover-creep/\">occasional controversies</a>, he was a steady presence—calm, exuberant, and in touch with the experience of average players.</p><p>Hamos began at Crytek in 2018 in a social media role, eventually climbing to senior broadcast manager. As someone who absorbs the work of community managers constantly for work, I believe Hamos was particularly good at it—which is why his sudden departure <a href=\"https://www.reddit.com/r/HuntShowdown/s/rUbSExkM64\">hit Hunt's most dedicated players hard</a>.</p><p>I caugh"
+        }
+      ],
+      "keywords": [
+        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off",
+        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off date de sortie",
+        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off plateformes",
+        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off gameplay",
+        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off guide",
+        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-sony-has-a-good-chance-of-winning-with-a-ps6-handheld-f-284a6fc731a2",
+      "topic": "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says",
+      "detected_at": "2026-11-07T09:14:55.315514+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/sony-has-a-good-chance-of-winning-with-a-ps6-handheld-former-playstation-boss-says-but-only-if-theres-no-home-console-launch-too/",
+          "title": "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/hardware/handhelds/the-rumored-ps6-handheld-and-console-will-reportedly-pack-24gb-and-30gb-ram-respectively-and-im-sure-hoping-ramageddon-has-blown-over-by-then/\">Rumors have been swirling</a> for almost a year now that the next generation of Sony hardware will include both a standard PS6 home console and some sort of handheld device, but according to someone with a whole lot of knowledge and insight into PlayStation hardware launches, that's a recipe for failure.</p><p>Shawn Layden, former chairman of SIE Worldwide Studios, recently appeared on the <a href=\"https://www.youtube.com/watch?v=DaymDziTqKs\" target=\"_blank\">Trophy Room: A PlayStation Show podcast</a>, and he cautioned his former employer against releasing both a handheld and home console at the same time. Having been with PlayStation through the launch of the PSP and PS Vita, Layden says \"it was difficult to support both a console and a handheld at the same time,\" adding, \"you almost have to create two companies.\"</p><p>\"While they are complimentary, they can also be intention in where you're going, what you're trying to say. And the console, which is the bigger dollar, th"
+        }
+      ],
+      "keywords": [
+        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says",
+        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says date de sortie",
+        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says plateformes",
+        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says gameplay",
+        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says guide",
+        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-dragon-age-writer-is-collaborating-on-mass-effect-like--bf3e96f572d8",
+      "topic": "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn",
+      "detected_at": "2026-11-07T09:14:55.315665+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/dragon-age-kotor-and-baldurs-gate-writer-is-collaborating-on-mass-effect-like-rpg-the-expanse-osiris-reborn/",
+          "title": "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn",
+          "evidence": "<article> <p>David Gaider is one of BioWare's most notable writers. After cutting his teeth on Baldur's Gate 2, he wrote some of Star Wars: Knights of the Old Republic's most memorable characters, and would go on to lead the narrative for Dragon Age: Origins, setting the tone for BioWare's original fantasy franchise. Gaider notably never worked on Mass Effect, but he's getting the chance to channel its spirit as part of the writing team for The Expanse: Osiris Reborn.</p><p>\"Alongside my work at Summerfall, I've also been collaborating with the Owlcat Games team on The Expanse: Osiris Reborn, focusing on certain aspects of the game's narrative,\" Gaider says in a <a href=\"https://bsky.app/profile/davidgaider.bsky.social/post/3mznkp2wr3c2f\" target=\"_blank\">Bluesky post</a>. \"The Expanse has long been one of my favourite series, and so obviously I jumped at the opportunity to be involved.\"</p><p>It's tough not to think about Mass Effect when looking at Osiris Reborn – after all, it too is a sci-fi RPG that controls like a third-person shooter where you build relationships with a cast of companions. The connection became even more direct last month, when developer Owlcat threw its own "
+        }
+      ],
+      "keywords": [
+        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn",
+        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn date de sortie",
+        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn plateformes",
+        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn gameplay",
+        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn guide",
+        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-a-permanent-arc-raiders-pve-mode-would-be-easy-to-do-sa-ce81083aa759",
+      "topic": "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\"",
+      "detected_at": "2026-11-07T09:14:55.315860+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/third-person-shooter/a-permanent-arc-raiders-pve-mode-would-be-easy-to-add-says-embark-ceo-and-maybe-people-can-choose-what-they-like/",
+          "title": "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\"",
+          "evidence": "<article> <p>Arc Raiders developer Embark Studios has yet to come out and say that a permanent PvE mode is coming to the game, but we're certainly hearing more and more rumblings in that direction.</p><p>In a new interview with <a href=\"https://www.thegamebusiness.com/p/why-embark-had-to-pull-the-handbrake\" target=\"_blank\"><u>The Game Business</u></a>, Embark CEO turned Nexon games chief Patrick Söderlund joined Arc Raiders executive producer Aleksander Grøndal to discuss, among other things, the reception to the game's recent PvE mode test. </p><p>For a limited time, players could opt into PvE-only rounds of Arc Raiders to enjoy the game's world without the risk of another raider gunning them down. Reception seemed mixed but overall positive, and it seems Embark is warming up to the idea of PvE as a whole. Importantly, the studio has also reaffirmed that it wouldn't be a hard thing to add.</p><p>\"We could just frankly add PvE,\" says Söderlund. \"It's not a difficult thing for us to do, but we didn't want to obstruct or fiddle too much with the core loop of the game. The PvP aspect of a PvP PvE game does add, we believe, adequate tension.\" </p><p>Maintaining the intrigue and threat "
+        }
+      ],
+      "keywords": [
+        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\"",
+        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\" date de sortie",
+        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\" plateformes",
+        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\" gameplay",
+        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\" guide",
+        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-canadian-politician-tears-into-ea-and-calls-for-federal-8c902a77a8ab",
+      "topic": "Canadian politician tears into EA and calls for federal support of BioWare",
+      "detected_at": "2026-11-07T09:14:55.316077+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/mass-effect/canadian-politician-tears-into-ea-and-calls-for-federal-support-of-bioware-these-publishers-buy-developers-run-them-into-the-ground-and-rip-them-apart-for-profit/",
+          "title": "Canadian politician tears into EA and calls for federal support of BioWare",
+          "evidence": "<article> <p>Suddenly, the vibe around the #SaveMassEffect movement has shifted. </p><p>At first, it seemed like little more than a grabby hashtag allowing Mass Effect fans to have their voices heard after <a href=\"https://www.gamesradar.com/mass-effect-5-guide/\">EA's shocking closure of BioWare and cancelation of Mass Effect 5 last month</a>. But since then, the <a href=\"https://www.change.org/p/savemasseffect\" target=\"_blank\">Change.org petition</a> has racked up more than 300,000 signatures, and now the Canadian government is being forced to acknowledge the situation.</p><p>That's because <a href=\"https://www.ourcommons.ca/petitions/en/Petition/Details?Petition=e-7898\" target=\"_blank\">a separate petition</a> asking the Government of Canada for federal support for BioWare has far surpassed the amount of signatures required (3488 currently with a 500-vote threshold) to be certified and presented in the House of Commons. The rules of the Parliament say \"the government must respond to every petition presented to the House within 45 calendar days of its presentation or filing with the Clerk.\"</p><p>The petition for federal support isn't about saving Mass Effect specifically, but secu"
+        }
+      ],
+      "keywords": [
+        "Canadian politician tears into EA and calls for federal support of BioWare",
+        "Canadian politician tears into EA and calls for federal support of BioWare date de sortie",
+        "Canadian politician tears into EA and calls for federal support of BioWare plateformes",
+        "Canadian politician tears into EA and calls for federal support of BioWare gameplay",
+        "Canadian politician tears into EA and calls for federal support of BioWare guide",
+        "Canadian politician tears into EA and calls for federal support of BioWare avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-a-bunch-of-grand-theft-auto-games-will-be-cheap-on-stea-a41453937ddb",
+      "topic": "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks",
+      "detected_at": "2026-11-07T09:14:55.316264+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/a-bunch-of-grand-theft-auto-games-will-be-cheap-on-steam-until-gta-6-comes-out-and-only-one-of-them-sucks/",
+          "title": "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks",
+          "evidence": "<article> <p>In the run-up to <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>'s November 19 launch, Rockstar has multiple classic Grand Theft Auto games on sale on Steam – and, nearest I can tell, only on Steam. </p><p>The Nintendo Switch eShop actually has a <a href=\"https://www.nintendo.com/us/store/products/grand-theft-auto-the-trilogy-the-definitive-edition-switch/\">competing deal</a> for the Grand Theft Auto Definitive Edition Trilogy, which is down 67% to $19.79, but that sale ends in 11 hours from the time of writing. On Steam, several GTA games are discounted until November 19 for an obviously timed special promotion.</p><p>On Steam, you'll find four games on sale via two actual products:</p><ul><li>Grand Theft Auto: San Andreas, Grand Theft Auto: Vice City, and Grand Theft Auto III in the Definitive Edition Trilogy - <a href=\"https://store.steampowered.com/sub/817628/\" target=\"_blank\">$19.79 at 67% off</a></li><li>Grand Theft Auto IV: The Complete Edition - <a href=\"https://store.steampowered.com/app/12210/Grand_Theft_Auto_IV_The_Complete_Edition/?curator_clanid=1541443\" target=\"_blank\">$5.99 at 70% off</a></li></ul><p>You can't argue with GTA 4 for $6, but you"
+        }
+      ],
+      "keywords": [
+        "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks",
+        "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks date de sortie",
+        "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks plateformes",
+        "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks gameplay",
+        "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks guide",
+        "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-many-blizzard-devs-were-skeptical-about-wow-forever-unt-9bbdae8af324",
+      "topic": "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey",
+      "detected_at": "2026-11-07T09:14:55.316423+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/many-blizzard-devs-were-skeptical-about-world-of-warcraft-forever-until-they-saw-the-new-northshire-abbey-then-they-were-sold/",
+          "title": "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-is-a-whole-new-wow-game-launching-in-november-thatll-live-alongside-classic-and-vanilla/\">World of Warcraft: Forever i</a>s one of the rare big-budget online game launches that seems to have mostly gone down without a hitch. Not only has the MMO been well-received critically and by players, it's also been an exceptionally smooth release from a performance standpoint as well, with <a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-devs-say-this-launch-was-crazier-than-the-insanity-we-imagined-as-mmo-fans-dub-it-the-smoothest-wow-launch-ever/\">the MMO community dubbing it \"the smoothest WoW launch ever.\" </a>And yet, in the early days of the dev team's pitching process, it took some convincing to get Blizzard leadership on-board with yet another WoW branch.</p><p>Talking to <a href=\"https://www.bloomberg.com/news/newsletters/2026-11-06/why-blizzard-made-world-of-warcraft-forever?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5Mzk4NDY5OSwiZXhwIjoxNzk0NTg5NDk5LCJhcnRpY2xlSWQiOiJUTzNCODFSMjRVOFQ"
+        }
+      ],
+      "keywords": [
+        "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey",
+        "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey date de sortie",
+        "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey plateformes",
+        "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey gameplay",
+        "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey guide",
+        "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

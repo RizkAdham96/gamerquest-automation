@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-06T20:34:41.053021+00:00",
+  "updated_at": "2026-11-07T09:14:55.673687+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -21772,6 +21772,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Edge magazine went to Rockstar to see GTA 6, and will tell you all about it in lavish detail this Thursday, October 29"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-you-just-can-t-win-despite-ghost-of-y-tei-selling-milli-45ae89c43b83",
+      "topic": "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch",
+      "detected_at": "2026-10-27T19:38:48.445180+00:00",
+      "analysed_at": "2026-11-07T09:14:55.673502+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/you-just-cant-win-despite-ghost-of-yotei-selling-millions-of-copies-24-people-are-reportedly-being-let-go-from-sucker-punch/",
+          "title": "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch",
+          "evidence": "<article> <p>As we've noted before on this very site, there <a href=\"https://www.pcgamer.com/gaming-industry/foolproof-ways-to-get-laid-off-in-the-videogame-industry/\">really is just no winning in the videogame industry</a>, particularly under current conditions. Make an unsuccessful game? Make the kind of game you didn't want to make, but were pressured into? Layoffs. Make a successful game? Layoffs. Currently making a game? Believe it or not, layoffs. </p><p>As is the case with Ghost of Yōtei developer sucker punch, which has reportedly—per an internal email <a href=\"https://aftermath.site/sucker-punch-layoffs-sony-ghost-of-yotei/\" target=\"_blank\">sent to Aftermath</a> and confirmations from an ex-employee to the site—been hit with 24 layoffs, around a 10% reduction in staff. </p><p>This is despite the fact that Ghost of Yōtei, the studio's most recent game, was a commercial success: It sold <a href=\"https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/25q2_supplement.pdf\" target=\"_blank\">3.3 million copies in its opening month</a>, making it the <a href=\"https://www.gamespot.com/gallery/2025-best-selling-games/2900-6281/\" target=\"_blank\">11th-best selling game in the US</a>"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch",
+        "secondary_keywords": [
+          "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch date de sortie",
+          "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch plateformes",
+          "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch gameplay",
+          "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch guide",
+          "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-call-of-duty-passes-40-billion-in-lifetime-revenue-maki-de5dde73c362",
+      "topic": "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever",
+      "detected_at": "2026-10-27T19:38:48.445479+00:00",
+      "analysed_at": "2026-11-07T09:14:55.673554+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-passes-usd40-billion-in-lifetime-revenue-making-it-one-of-the-most-lucrative-videogame-franchise-ever/",
+          "title": "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever",
+          "evidence": "<article> <p>It's been 22 years, 11 months, 28 days and counting since we were first graced with <a href=\"https://www.pcgamer.com/uk/games/fps/call-of-duty/\">Call of Duty</a>. Over those two decades the franchise has emerged as one of the most lucrative in videogame history, with Xbox CEO Asha Sharma announcing that it's passed the $40billion revenue mark. </p><p>Speaking of <a href=\"https://www.pcgamer.com/uk/call-of-duty-modern-warfare-4/\">Call of Duty: Modern Warfare 4's</a> success, <a href=\"https://x.com/asha_shar/status/2114787993114591335\" target=\"_blank\">Sharma reflects</a>: \"One of the most celebrated Call of Duty games in its 24-year history, and now $40 billion in lifetime franchise revenue. An incredible milestone. Congrats to the Activision team. And to the players, thank you for being with us.\"</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2114787993114591335\"><p lang=\"en\" dir=\"ltr\">One of the most celebrated Call of Duty games in its 24-year history, and now $40B in lifetime franchise revenue. An incredible milestone. Congrats to the Activision team. And t"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever",
+        "secondary_keywords": [
+          "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever date de sortie",
+          "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever plateformes",
+          "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever gameplay",
+          "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever guide",
+          "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Call of Duty passes $40 billion in lifetime revenue, making it one of the most lucrative videogame franchises ever"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-here-s-the-phantom-blade-zero-release-time-for-your-reg-2dad3186464f",
+      "topic": "Here's the Phantom Blade Zero release time for your region",
+      "detected_at": "2026-10-28T08:59:11.127703+00:00",
+      "analysed_at": "2026-11-07T09:14:55.673577+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/phantom-blade-zero-release-date-launch-times/",
+          "title": "Here's the Phantom Blade Zero release time for your region",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/phantom-blade-zero/\" target=\"_blank\">Phantom Blade Zero</a>'s release is almost here, and the reviews are looking pretty positive—I've been playing it the last couple of weeks and it's definitely the best action game of the year, if not the past few years.</p><p>The release date for Phantom Blade Zero is October 28 or 29 depending on where you call home, but the exact time will vary. However, it is a simultaneous release around the globe:</p><ul><li><strong>West Coast US</strong>: 7 pm PDT (October 28)</li><li><strong>East Coast US</strong>: 10 pm EDT (October 28)</li><li><strong>UK</strong>: 2 am GMT (October 29)</li><li><strong>Europe</strong>: 3 am CEST (October 29)</li><li><strong>Australia</strong>: 1 pm AEST (October 29)</li><li><strong>New Zealand</strong>: 3 pm NZDT (October 29)</li></ul><p>If you're unsure whether you can run it, you can see the updated system requirements on the <a href=\"https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/\" target=\"_blank\">Steam page</a>. The preload is also currently live, though it requires a pretty hefty storage footprint to install. The game itself is 135GB, though, so you'll pro"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Here's the Phantom Blade Zero release time for your region",
+        "secondary_keywords": [
+          "Here's the Phantom Blade Zero release time for your region date de sortie",
+          "Here's the Phantom Blade Zero release time for your region plateformes",
+          "Here's the Phantom Blade Zero release time for your region gameplay",
+          "Here's the Phantom Blade Zero release time for your region guide",
+          "Here's the Phantom Blade Zero release time for your region avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Here's the Phantom Blade Zero release time for your region"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-rockstar-will-hold-union-vote-right-on-top-of-grand-the-751d700a7be3",
+      "topic": "Rockstar will hold union vote right on top of Grand Theft Auto 6 release",
+      "detected_at": "2026-10-28T08:59:11.127984+00:00",
+      "analysed_at": "2026-11-07T09:14:55.673597+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-will-hold-union-vote-right-on-top-of-grand-theft-auto-6-release/",
+          "title": "Rockstar will hold union vote right on top of Grand Theft Auto 6 release",
+          "evidence": "<article> <p>Rockstar employees will hold a vote on union recognition over a two-week span in November that will perfectly bracket the studio's launch of the console version of <a href=\"https://www.pcgamer.com/grand-theft-auto-6/\" target=\"_blank\">Grand Theft Auto 6</a>. If the vote carries in favor of the union, the IWGB Rockstar Game Workers Union will become the biggest game industry union in the UK, giving employees a voice on matters including pay and bonuses, overtime, redundancies, flexible working arrangements, and generative AI policies.</p><p>The terms of the recognition deal have been under negotiation between the union and Rockstar management since July, but unionization efforts have been underway for much longer. The process came under intense scrutiny in October 2025 when the studio <a href=\"https://www.pcgamer.com/gaming-industry/rockstar-accused-of-the-most-ruthless-act-of-union-busting-in-the-history-of-the-uk-games-industry-after-firing-dozens-of-employees-who-were-allegedly-attempting-to-form-a-union/\" target=\"_blank\">fired 31 employees</a> in what the IWGB claimed was \"the most brazen act of union busting the games industry has ever seen.\" Rockstar alleged that t"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Rockstar will hold union vote right on top of Grand Theft Auto 6 release",
+        "secondary_keywords": [
+          "Rockstar will hold union vote right on top of Grand Theft Auto 6 release date de sortie",
+          "Rockstar will hold union vote right on top of Grand Theft Auto 6 release plateformes",
+          "Rockstar will hold union vote right on top of Grand Theft Auto 6 release gameplay",
+          "Rockstar will hold union vote right on top of Grand Theft Auto 6 release guide",
+          "Rockstar will hold union vote right on top of Grand Theft Auto 6 release avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Rockstar will hold union vote right on top of Grand Theft Auto 6 release"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-messages-in-certain-large-public-discord-servers-will-b-a488123a67ac",
+      "topic": "Messages in certain large public Discord servers will be searchable on the web after December",
+      "detected_at": "2026-10-28T08:59:11.128149+00:00",
+      "analysed_at": "2026-11-07T09:14:55.673616+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/platforms/messages-in-certain-large-public-discord-servers-will-be-searchable-on-the-web-after-december/",
+          "title": "Messages in certain large public Discord servers will be searchable on the web after December",
+          "evidence": "<article> <p>What once would've been a forum or wiki is often now a Discord server, and that's <a href=\"https://www.pcgamer.com/please-stop-making-discord-servers-for-things-that-shouldnt-be-discord-servers/\">created a problem</a>: valuable information is hidden away deep in the chat logs of big public Discord channels, rather than in easy-to-search forum pages on the web.</p><p>Discord now aims to solve that problem by making discussions in some of its biggest public servers searchable on the web.</p><p>The change will only apply to \"Discoverable Servers,\" which refers to certain large public Discord servers with 1,000 or more users. The admins of those specially-designated servers will be able to opt out of search engine discoverability, and individual users can also opt out of allowing their messages in those servers to be searchable on the web. The change does not affect any invite-only servers or DMs.</p><p>\"Prior to Discord's launch, message boards were common, ranging from community-driven forums to official ones run by game studios,\" reads <a href=\"https://discord.com/blog/making-content-from-discoverable-servers-easier-to-discover\" target=\"_blank\">a blog post</a> from Disc"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Messages in certain large public Discord servers will be searchable on the web after December",
+        "secondary_keywords": [
+          "Messages in certain large public Discord servers will be searchable on the web after December date de sortie",
+          "Messages in certain large public Discord servers will be searchable on the web after December plateformes",
+          "Messages in certain large public Discord servers will be searchable on the web after December gameplay",
+          "Messages in certain large public Discord servers will be searchable on the web after December guide",
+          "Messages in certain large public Discord servers will be searchable on the web after December avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Messages in certain large public Discord servers will be searchable on the web after December"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-mass-effect-composer-sam-hulick-is-working-on-a-re-scor-df94e53e9ae5",
+      "topic": "Mass Effect composer Sam Hulick is working on a 're-scored' version of the leaked Mass Effect 5 trailer for N7 Day",
+      "detected_at": "2026-10-28T08:59:11.128435+00:00",
+      "analysed_at": "2026-11-07T09:14:55.673638+00:00",
+      "scores": {
+        "durability": 12,
+        "search_intent": 15,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 61,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mass-effect/mass-effect-composer-sam-hulick-is-working-on-a-re-scored-version-of-the-leaked-mass-effect-5-trailer-for-n7-day/",
+          "title": "Mass Effect composer Sam Hulick is working on a 're-scored' version of the leaked Mass Effect 5 trailer for N7 Day",
+          "evidence": "<article> <p>More unofficial but undoubtedly very cool Mass Effect music is on the way: The day after Austin Wintory <a href=\"https://www.pcgamer.com/games/mass-effect/veteran-game-composer-in-talks-to-score-mass-effect-5-shares-20-minutes-of-music-he-wrote-for-the-project-to-even-dream-in-your-sandbox-was-a-privilege/\" target=\"_blank\">shared 20 minutes of music</a> he wrote as part of a \"serious conversation\" with BioWare and Electronic Arts about scoring Mass Effect 5, composer Sam Hulick says he plans to release a \"re-scored\" version of the leaked Mass Effect: Universe trailer with his own music, which he hopes to have ready in time for N7 Day.</p><p>Hulick, for the record, knows Mass Effect well: He composed music for all three games in the Mass Effect trilogy, including this one, co-written with Clint Mansell, which you may be familiar with.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/x5JvbD2Zc9I\" allowfullscreen></iframe></div></div><p><em>I'm not crying, you're crying</em></p><p>\"Absolutely heartbroken over the end of an era,\" Hulick wrote on <a href=\"https"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Mass Effect composer Sam Hulick is working on a 're-scored' version of the leaked Mass Effect 5 trailer for N7 Day",
+        "secondary_keywords": [
+          "Mass Effect composer Sam Hulick is working on a 're-scored' version of the leaked Mass Effect 5 trailer for N7 Day date de sortie",
+          "Mass Effect composer Sam Hulick is working on a 're-scored' version of the leaked Mass Effect 5 trailer for N7 Day plateformes",
+          "Mass Effect composer Sam Hulick is working on a 're-scored' version of the leaked Mass Effect 5 trailer for N7 Day gameplay",
+          "Mass Effect composer Sam Hulick is working on a 're-scored' version of the leaked Mass Effect 5 trailer for N7 Day guide",
+          "Mass Effect composer Sam Hulick is working on a 're-scored' version of the leaked Mass Effect 5 trailer for N7 Day avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Mass Effect composer Sam Hulick is working on a 're-scored' version of the leaked Mass Effect 5 trailer for N7 Day"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-former-halo-boss-is-now-in-charge-of-wizards-of-the-coa-36ca7097d368",
+      "topic": "Former Halo boss is now in charge of Wizards of the Coast and Hasbro Digital Games",
+      "detected_at": "2026-10-28T08:59:11.128675+00:00",
+      "analysed_at": "2026-11-07T09:14:55.673656+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/former-halo-boss-is-now-in-charge-of-wizards-of-the-coast-and-hasbro-digital-games/",
+          "title": "Former Halo boss is now in charge of Wizards of the Coast and Hasbro Digital Games",
+          "evidence": "<article> <p>Wizards of the Coast and Hasbro Digital Games have a new boss, and it's kind of the old boss. Dan Ayoub, who spent the past couple years as senior vice president of digital games at Wizards, has been promoted to the big chair, where he'll head up Magic: The Gathering, Dungeons and Dragons, Duel Masters, and Hasbro Digital Games.</p><p>Ayoub will take the place of John Hight, who <a href=\"https://www.pcgamer.com/gaming-industry/wizards-of-the-coast-president-is-stepping-down-after-just-2-years-on-the-job/\" target=\"_blank\">left the position in July</a> after just two years on the job. On the videogame-specific side of things, Ayoub will now oversee two major projects in development: The Mass Effect-like sci-fi RPG <a href=\"https://www.pcgamer.com/exodus/\" target=\"_blank\">Exodus</a> being developed by Archetype Entertainment, and the third-person action-adventure <a href=\"https://www.pcgamer.com/warlock/\" target=\"_blank\">Warlock: Dungeons and Dragons</a>, being made by Invoke Studios.</p><p>\"[Ayoub] was selected after a rigorous search that evaluated dozens of internal and external candidates,\" Hasbro said. \"He is the first internal candidate promoted into the role.\"</p><"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Former Halo boss is now in charge of Wizards of the Coast and Hasbro Digital Games",
+        "secondary_keywords": [
+          "Former Halo boss is now in charge of Wizards of the Coast and Hasbro Digital Games date de sortie",
+          "Former Halo boss is now in charge of Wizards of the Coast and Hasbro Digital Games plateformes",
+          "Former Halo boss is now in charge of Wizards of the Coast and Hasbro Digital Games gameplay",
+          "Former Halo boss is now in charge of Wizards of the Coast and Hasbro Digital Games guide",
+          "Former Halo boss is now in charge of Wizards of the Coast and Hasbro Digital Games avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Former Halo boss is now in charge of Wizards of the Coast and Hasbro Digital Games"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-peter-molyneux-speaks-candidly-about-ai-we-as-the-indus-f384fc68258d",
+      "topic": "Peter Molyneux speaks candidly about AI: 'We, as the industry, are pretending we're not using AI, but the reality is, it's almost impossible to code now without using AI'",
+      "detected_at": "2026-10-28T08:59:11.129006+00:00",
+      "analysed_at": "2026-11-07T09:14:55.673683+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/peter-molyneux-speaks-candidly-about-ai-we-as-the-industry-are-pretending-were-not-using-ai-but-the-reality-is-its-almost-impossible-to-code-now-without-using-ai/",
+          "title": "Peter Molyneux speaks candidly about AI: 'We, as the industry, are pretending we're not using AI, but the reality is, it's almost impossible to code now without using AI'",
+          "evidence": "<article> <p>Recently, I travelled to Guildford, England, to interview developer Peter Molyneux, the legendary game developer behind Populous, Theme Park, Dungeon Keeper, Black & White and Fable, among others. </p><p>And, as part of that interview, which covered everything from Molyneux's brand-new god game, <a href=\"https://www.pcgamer.com/uk/masters-of-albion/\">Masters of Albion</a>, which has just <a href=\"https://www.pcgamer.com/games/strategy/masters-of-albion-peter-molyneuxs-final-game-just-got-a-huge-update-and-vigorous-lips-pursed-nodding-of-approval-suddenly-the-old-god-game-magic-is-back/\">got a huge game-changing update</a>, through the moment he conceptualized Black & White's <a href=\"https://www.pcgamer.com/games/strategy/peter-molyneux-explains-the-origin-story-of-black-and-whites-famous-creatures-it-was-originally-a-monster-it-wasnt-a-cute-creature/\">famous titan creatures</a>, and onto the bombshell news that a Black & White <a href=\"https://www.pcgamer.com/games/strategy/peter-molyneux-explains-why-black-and-white-3-remains-mia-and-then-drops-a-tantalising-teaser-its-such-a-difficult-difficult-challenging-title-to-develop/\">remaster could be incoming</a>, I also as"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Peter Molyneux speaks candidly about AI: 'We, as the industry, are pretending we're not using AI, but the reality is, it's almost impossible to code now without using AI'",
+        "secondary_keywords": [
+          "Peter Molyneux speaks candidly about AI: 'We, as the industry, are pretending we're not using AI, but the reality is, it's almost impossible to code now without using AI' date de sortie",
+          "Peter Molyneux speaks candidly about AI: 'We, as the industry, are pretending we're not using AI, but the reality is, it's almost impossible to code now without using AI' plateformes",
+          "Peter Molyneux speaks candidly about AI: 'We, as the industry, are pretending we're not using AI, but the reality is, it's almost impossible to code now without using AI' gameplay",
+          "Peter Molyneux speaks candidly about AI: 'We, as the industry, are pretending we're not using AI, but the reality is, it's almost impossible to code now without using AI' guide",
+          "Peter Molyneux speaks candidly about AI: 'We, as the industry, are pretending we're not using AI, but the reality is, it's almost impossible to code now without using AI' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Peter Molyneux speaks candidly about AI: 'We, as the industry, are pretending we're not using AI, but the reality is, it's almost impossible to code now without using AI'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

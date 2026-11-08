@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-07T19:03:20.318989+00:00",
+  "updated_at": "2026-11-08T09:28:37.240117+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -22396,6 +22396,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "One of the best quests in Baldur's Gate 3 is also its scariest, and it doesn't have anything to do with ghosts or vampires"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-vote-now-8-games-remain-in-our-scariest-games-bracket-dea0b8a7f703",
+      "topic": "Vote now: 8 games remain in our scariest games bracket",
+      "detected_at": "2026-10-28T19:52:35.905569+00:00",
+      "analysed_at": "2026-11-08T09:28:37.239869+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/vote-now-8-games-remain-in-our-scariest-games-bracket/",
+          "title": "Vote now: 8 games remain in our scariest games bracket",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Presented by</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"N5WXFQSCttV6Am7CopwTzd\" name=\"Copy of 1_HeroLogo copy\" caption=\"\" alt=\"No More Room in Hell 2 logo\" src=\"https://cdn.mos.cms.futurecdn.net/N5WXFQSCttV6Am7CopwTzd-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\"></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Torn Banner)</span></figcaption></figure><p class=\"fancy-box__body-text\">This article is brought to you by <a data-analytics-id=\"inline-link\" href=\"https://store.steampowered.com/app/292000?utm_source=future&utm_medium=display&utm_campaign=ppms_nmrih2_october_us&utm_term=pcsteam_horror&utm_creative=logo \" target=\"_blank\">No More Room in Hell 2</a>.</p></div></div><p>Last week, I asked PC Gamer readers to nominate the scariest PC games they could think of. I've collected the top 16 submission"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Vote now: 8 games remain in our scariest games bracket",
+        "secondary_keywords": [
+          "Vote now: 8 games remain in our scariest games bracket date de sortie",
+          "Vote now: 8 games remain in our scariest games bracket plateformes",
+          "Vote now: 8 games remain in our scariest games bracket gameplay",
+          "Vote now: 8 games remain in our scariest games bracket guide",
+          "Vote now: 8 games remain in our scariest games bracket avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Vote now: 8 games remain in our scariest games bracket"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gta-6-s-ps5-install-size-is-so-big-you-could-store-3500-b5a28aa00559",
+      "topic": "GTA 6's PS5 install size is so big you could store 3500 copies of Balatro inside",
+      "detected_at": "2026-10-28T19:52:35.905680+00:00",
+      "analysed_at": "2026-11-08T09:28:37.239922+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-ps5-install-size-is-so-big-you-could-store-3500-copies-of-balatro-inside/",
+          "title": "GTA 6's PS5 install size is so big you could store 3500 copies of Balatro inside",
+          "evidence": "<article> <p>While Grand Theft Auto 6 doesn't have a confirmed PC release date yet, we do know it's coming to PS5 and Xbox Series X & S on November 19. Now, we also know that the game file console gamers will need to download is going to be a very big boy indeed, boasting a file size even bigger than <a href=\"https://www.pcgamer.com/red-dead-redemption-2-review/\" target=\"_blank\">Red Dead Redemption 2</a>.</p><p>Reportedly, Grand Theft Auto VI will clock in at a total of 210 GB on PlayStation 5. That's <a href=\"https://x.com/PlaystationSize/status/2115129198851522905\" target=\"_blank\">according to PlayStation Game Size on X</a>, who unearths file sizes for upcoming console releases by snooping around the PS Store's backend. I'm sparing a thought for anyone with a creaky internet connection (though at least you can pre-load the game on consoles from November 12, one week earlier).</p><p>That 210 GB figure is enough to make your head spin, even if the fully downloaded game doesn't actually end up taking quite that much space on your SSD. That said, a game spread out more than a fifth of a 1 TB drive's total capacity definitely stings during <a href=\"https://www.pcgamer.com/hardware/mem"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GTA 6's PS5 install size is so big you could store 3500 copies of Balatro inside",
+        "secondary_keywords": [
+          "GTA 6's PS5 install size is so big you could store 3500 copies of Balatro inside date de sortie",
+          "GTA 6's PS5 install size is so big you could store 3500 copies of Balatro inside plateformes",
+          "GTA 6's PS5 install size is so big you could store 3500 copies of Balatro inside gameplay",
+          "GTA 6's PS5 install size is so big you could store 3500 copies of Balatro inside guide",
+          "GTA 6's PS5 install size is so big you could store 3500 copies of Balatro inside avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GTA 6's PS5 install size is so big you could store 3500 copies of Balatro inside"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-world-of-warcraft-was-meant-to-have-viable-levelling-ge-3fe8f692b089",
+      "topic": "World of Warcraft was meant to have viable levelling gear from professions way back in 2004, but the designers on raids and dungeons 'cheated a little bit'",
+      "detected_at": "2026-10-28T19:52:35.905810+00:00",
+      "analysed_at": "2026-11-08T09:28:37.239956+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-was-meant-to-have-viable-levelling-gear-from-professions-way-back-in-2004-but-the-designers-on-raids-and-dungeons-cheated-a-little-bit/",
+          "title": "World of Warcraft was meant to have viable levelling gear from professions way back in 2004, but the designers on raids and dungeons 'cheated a little bit'",
+          "evidence": "<article> <p>The design politics of studios in the early 2000s will always fascinate me—not the unsavory stuff, I am glad that is well and truly binned—but rather, the little elbows and feet put on other designers in studios where there wasn't a clear, clean pipeline or a mandate.</p><p>Such was the case with Blizzard where, as revealed by principal game designer Kris Zierhut in a recent <a href=\"https://www.polygon.com/wow-forever-making-of-interview/\" target=\"_blank\">Polygon interview</a>, there was a little cheeky in-fighting over the power of crafted gear. Zierhut, who joined the company in 2005, was reflecting on the corrections the team wasn't allowed to make during the \"no changes\" era of Classic in 2019. Corrections that are now possible with <a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a>: </p><p>\"The only design direction that really existed was: Don't change anything … I was there when we made some of these decisions. I had those discussions with Tom and Jeff and Scott. And I knew some places where we made mistakes.\"</p><p>One such mistake, as the article gets into, is the role that crafted gear had in vanilla WoW—this isn't to"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "World of Warcraft was meant to have viable levelling gear from professions way back in 2004, but the designers on raids and dungeons 'cheated a little bit'",
+        "secondary_keywords": [
+          "World of Warcraft was meant to have viable levelling gear from professions way back in 2004, but the designers on raids and dungeons 'cheated a little bit' date de sortie",
+          "World of Warcraft was meant to have viable levelling gear from professions way back in 2004, but the designers on raids and dungeons 'cheated a little bit' plateformes",
+          "World of Warcraft was meant to have viable levelling gear from professions way back in 2004, but the designers on raids and dungeons 'cheated a little bit' gameplay",
+          "World of Warcraft was meant to have viable levelling gear from professions way back in 2004, but the designers on raids and dungeons 'cheated a little bit' guide",
+          "World of Warcraft was meant to have viable levelling gear from professions way back in 2004, but the designers on raids and dungeons 'cheated a little bit' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "World of Warcraft was meant to have viable levelling gear from professions way back in 2004, but the designers on raids and dungeons 'cheated a little bit'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gog-s-getting-into-publishing-in-its-new-post-cd-projek-c24ea910eff8",
+      "topic": "GOG's getting into publishing in its new, post-CD-Projekt life, and it already has games on the way",
+      "detected_at": "2026-10-28T19:52:35.905955+00:00",
+      "analysed_at": "2026-11-08T09:28:37.239985+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/gogs-getting-into-publishing-in-its-new-post-cd-projekt-life-and-it-already-has-games-on-the-way/",
+          "title": "GOG's getting into publishing in its new, post-CD-Projekt life, and it already has games on the way",
+          "evidence": "<article> <p>Cast your mind back to January and you might remember a sit-down we had with some of the leaders of a <a href=\"https://www.pcgamer.com/software/platforms/wrestling-the-steam-goliath-pulling-a-nightdive-and-seeing-off-vulture-capital-gog-chats-the-risks-and-opportunities-of-its-future-as-a-company-without-cd-projekt/\">newly-independent GOG</a>. The DRM-free storefront had separated from its former owner—CD Projekt—and returned to the arms of its original cofounder, Michał Kiciński. Back then, Kiciński told us that publishing was one of the several moves GOG was considering in its post-CDP life. Well, the day has finally come.</p><p>\"Together with an independent publisher, Retrovibe, we’re joining forces to launch <a href=\"https://www.retrovibebygog.com/\" target=\"_blank\">Retrovibe by GOG</a>, a new initiative supporting independent developers in bringing their games to players across PC storefronts and consoles,\" reads the announcement press release.</p><p>The publisher will do, well, publisher stuff. Funding, marketing, hobnobbing with content creators and game journalists (an unenviable task), and getting games certified for release on all of the good Lord's wonderful "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GOG's getting into publishing in its new, post-CD-Projekt life, and it already has games on the way",
+        "secondary_keywords": [
+          "GOG's getting into publishing in its new, post-CD-Projekt life, and it already has games on the way date de sortie",
+          "GOG's getting into publishing in its new, post-CD-Projekt life, and it already has games on the way plateformes",
+          "GOG's getting into publishing in its new, post-CD-Projekt life, and it already has games on the way gameplay",
+          "GOG's getting into publishing in its new, post-CD-Projekt life, and it already has games on the way guide",
+          "GOG's getting into publishing in its new, post-CD-Projekt life, and it already has games on the way avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GOG's getting into publishing in its new, post-CD-Projekt life, and it already has games on the way"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-elon-musk-says-robot-ram-needs-will-exceed-everything-e-c16e1e1f835e",
+      "topic": "Elon Musk says 'robot RAM needs will exceed everything else on Earth' but only assuming we throw all the data centers into space",
+      "detected_at": "2026-10-28T19:52:35.906109+00:00",
+      "analysed_at": "2026-11-08T09:28:37.240017+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/memory/elon-musk-says-robot-ram-needs-will-exceed-everything-else-on-earth-but-only-assuming-we-throw-all-the-data-centers-into-space/",
+          "title": "Elon Musk says 'robot RAM needs will exceed everything else on Earth' but only assuming we throw all the data centers into space",
+          "evidence": "<article> <p>We've been in a <a href=\"https://www.pcgamer.com/hardware/memory/ram-and-storage-is-ridiculously-expensive-right-now-because-of-drumroll-ai-of-course-and-theres-little-reason-to-think-prices-will-drop-any-time-soon/\" target=\"_blank\">global memory shortage</a> for about a year now, causing many of our systems and PC parts to drastically increase in price. Since then, it's very much been a guessing game how long it will all go on for. The primary cause of the shortage has been the insatiable demand of AI data centres, so we've naturally assumed if that dies down or if memory production can match it, all will be well again.</p><p>We might worry that <a href=\"https://x.com/elonmusk/status/2114772074438988256\" target=\"_blank\">the Tesla and SpaceX CEO's proclamation</a> that \"Robot RAM needs will exceed everything else on Earth\" will prevent this. But it's not something we should worry about for a very long time, as even if the amount of RAM robots use increases and we start producing way more robots, they will still demand far, far less than AI data centres currently do.</p><p>There's an element of flippancy to Musk's comments, of course, given he's saying that AI data cent"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Elon Musk says 'robot RAM needs will exceed everything else on Earth' but only assuming we throw all the data centers into space",
+        "secondary_keywords": [
+          "Elon Musk says 'robot RAM needs will exceed everything else on Earth' but only assuming we throw all the data centers into space date de sortie",
+          "Elon Musk says 'robot RAM needs will exceed everything else on Earth' but only assuming we throw all the data centers into space plateformes",
+          "Elon Musk says 'robot RAM needs will exceed everything else on Earth' but only assuming we throw all the data centers into space gameplay",
+          "Elon Musk says 'robot RAM needs will exceed everything else on Earth' but only assuming we throw all the data centers into space guide",
+          "Elon Musk says 'robot RAM needs will exceed everything else on Earth' but only assuming we throw all the data centers into space avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Elon Musk says 'robot RAM needs will exceed everything else on Earth' but only assuming we throw all the data centers into space"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-proton-s-black-friday-sale-is-already-live-ditch-google-eed7c6dafb26",
+      "topic": "Proton's Black Friday sale is already live: ditch Google with up to 70% off its VPN and 50% off unlimited plan",
+      "detected_at": "2026-10-28T19:52:35.906266+00:00",
+      "analysed_at": "2026-11-08T09:28:37.240044+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/protons-black-friday-sale-is-already-live-ditch-google-with-up-to-70-percent-off-its-vpn-and-50-percent-off-unlimited-plan/",
+          "title": "Proton's Black Friday sale is already live: ditch Google with up to 70% off its VPN and 50% off unlimited plan",
+          "evidence": "<article> <div class=\"product\"><a data-dimension112=\"fdd5fa90-d2d0-11f1-88e8-67cf58694f82\" data-action=\"Deal Block\" data-label=\"Unlimited (12-month)\" data-dimension48=\"Unlimited (12-month)\" data-dimension25=\"$77.88\" href=\"https://go.getproton.me/aff_c?offer_id=37&aff_id=1046&url_id=1196&subId1=hawk-custom-tracking\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:319px;\"><p class=\"vanilla-image-block\" style=\"padding-top:100.00%;\"><img id=\"Ub4gesmHm87ZXx7Vzxkv54\" name=\"proton\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/Ub4gesmHm87ZXx7Vzxkv54-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"319\" height=\"319\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\"></p></div></div></figure></a><p><strong><a href=\"https://go.getproton.me/aff_c?offer_id=37&aff_id=1046&url_id=1196&subId1=hawk-custom-tracking\" target=\"_blank\" rel=\"nofollow\" data-dimension112=\"fdd5fa90-d2d0-11f1-88e8-67cf58694f82\" data-action=\"Deal Block\" data-label=\"Unlimited (12-month)\" data-dimension48=\"Unlimited (12-month)\" data-dimension25=\"$77.88\">Unlimited (12-month): was $155.88 now $77.88</a></strong"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Proton's Black Friday sale is already live: ditch Google with up to 70% off its VPN and 50% off unlimited plan",
+        "secondary_keywords": [
+          "Proton's Black Friday sale is already live: ditch Google with up to 70% off its VPN and 50% off unlimited plan date de sortie",
+          "Proton's Black Friday sale is already live: ditch Google with up to 70% off its VPN and 50% off unlimited plan plateformes",
+          "Proton's Black Friday sale is already live: ditch Google with up to 70% off its VPN and 50% off unlimited plan gameplay",
+          "Proton's Black Friday sale is already live: ditch Google with up to 70% off its VPN and 50% off unlimited plan guide",
+          "Proton's Black Friday sale is already live: ditch Google with up to 70% off its VPN and 50% off unlimited plan avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Proton's Black Friday sale is already live: ditch Google with up to 70% off its VPN and 50% off unlimited plan"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-ve-spent-over-50-hours-in-phantom-blade-zero-here-are-a4839607efe6",
+      "topic": "I've spent over 50 hours in Phantom Blade Zero—here are my top 20 tips to conquer the Wulin",
+      "detected_at": "2026-10-29T08:54:39.092285+00:00",
+      "analysed_at": "2026-11-08T09:28:37.240087+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/phantom-blade-zero-tips/",
+          "title": "I've spent over 50 hours in Phantom Blade Zero—here are my top 20 tips to conquer the Wulin",
+          "evidence": "<article> <div class=\"card card--standard card--rows-3 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/U6TV3QB2RYzmu2bHJJwc7P.jpg\" alt=\"Phantom Blade Zero tips - Blackstone\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">1. Explore thoroughly</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><p>Attack power, Sha-Chi (stamina) and HP are increased by collectibles you find or get by defeating enemy encounters. Specifically: Blackstone, Sha-Chi Amber, and Memory Flowers.</p></div></div></div></div><div class=\"card card--standard card--rows-2 card--align-inline\"><div class=\"card-image-widthsetter\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img style=\"width: 100%\" class=\"card__image\" src=\"https://cdn.mos.cms.futurecdn.net/9TBtsPCsGyXL6T32UqtNLP.jpg\" alt=\"Phantom Blade Zero tips - Wall markings\"></p></div><div class=\"card__content\"><h3 class=\"card__title\">2. Examine everything</h3><div class=\"card__description-wrapper\"><div class=\"card__description\"><p>Investigating objects or notes re"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I've spent over 50 hours in Phantom Blade Zero—here are my top 20 tips to conquer the Wulin",
+        "secondary_keywords": [
+          "I've spent over 50 hours in Phantom Blade Zero—here are my top 20 tips to conquer the Wulin date de sortie",
+          "I've spent over 50 hours in Phantom Blade Zero—here are my top 20 tips to conquer the Wulin plateformes",
+          "I've spent over 50 hours in Phantom Blade Zero—here are my top 20 tips to conquer the Wulin gameplay",
+          "I've spent over 50 hours in Phantom Blade Zero—here are my top 20 tips to conquer the Wulin guide",
+          "I've spent over 50 hours in Phantom Blade Zero—here are my top 20 tips to conquer the Wulin avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I've spent over 50 hours in Phantom Blade Zero—here are my top 20 tips to conquer the Wulin"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-where-to-find-the-mandate-encampment-outer-gate-key-in--e068bd73841f",
+      "topic": "Where to find the Mandate Encampment Outer Gate Key in Phantom Blade Zero",
+      "detected_at": "2026-10-29T08:54:39.092471+00:00",
+      "analysed_at": "2026-11-08T09:28:37.240113+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/phantom-blade-zero-mandate-encampment-key-location/",
+          "title": "Where to find the Mandate Encampment Outer Gate Key in Phantom Blade Zero",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"mcTjpm2bgi8MvWw7T8gddP\" name=\"phantom-blade-zero-mandate-encampment-key-1\" alt=\"Phantom Blade Zero Mandate Encampment key\" src=\"https://cdn.mos.cms.futurecdn.net/mcTjpm2bgi8MvWw7T8gddP-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline expandable\"><a href='https://cdn.mos.cms.futurecdn.net/mcTjpm2bgi8MvWw7T8gddP-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: S-Game Studios)</span></figcaption></figure><p>The Mandate Encampment Outer Gate Key is one of the most important to find in <a href=\"https://www.pcgamer.com/phantom-blade-zero/\" target=\"_blank\">Phantom Blade Zero</a>, since it unlocks an entire region that's otherwise inaccessible.</p><p>Though you find the gate to the Mandate Encampment when"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Where to find the Mandate Encampment Outer Gate Key in Phantom Blade Zero",
+        "secondary_keywords": [
+          "Where to find the Mandate Encampment Outer Gate Key in Phantom Blade Zero date de sortie",
+          "Where to find the Mandate Encampment Outer Gate Key in Phantom Blade Zero plateformes",
+          "Where to find the Mandate Encampment Outer Gate Key in Phantom Blade Zero gameplay",
+          "Where to find the Mandate Encampment Outer Gate Key in Phantom Blade Zero guide",
+          "Where to find the Mandate Encampment Outer Gate Key in Phantom Blade Zero avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Where to find the Mandate Encampment Outer Gate Key in Phantom Blade Zero"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

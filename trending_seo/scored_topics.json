@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-08T19:09:18.788575+00:00",
+  "updated_at": "2026-11-09T10:21:11.607505+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -23020,6 +23020,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Donald Glover is heading up a PUBG live action series for Netflix"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-aaa-publishers-are-abusing-early-access-denis-dyack-say-bccb3b845aac",
+      "topic": "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else",
+      "detected_at": "2026-10-29T19:51:48.140465+00:00",
+      "analysed_at": "2026-11-09T10:21:11.607306+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/game-development/aaa-publishers-are-abusing-early-access-denis-dyack-says-and-thats-making-things-harder-for-everyone-else/",
+          "title": "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else",
+          "evidence": "<article> <p>Denis Dyack, known for his work on games including Blood Omen: Legacy of Kain and Eternal Darkness: Sanity's Requiem, says big game developers are \"abusing early access\" by using it as a marketing tool for highly polished games that are ready for full release anyway. That, Dyack believes, has shifted expectations for early access releases overall, and made life more difficult for indie developers who rely on the process to actually get their games finished and launched.</p><p>\"They can put up a polished product and rake in cash,\" Dyack told <a href=\"https://www.gamesindustry.biz/developers-need-to-treat-early-access-like-a-real-launch-because-players-do-early-access-games-are-on-the-rise-but-so-are-player-expectations\" target=\"_blank\">GamesIndustry</a>. \"It's a marketing beat for them. So, that leaves players often expecting a near-perfect game that, in our opinion, defeats the purpose of early access, which is a collaborative development process based on player feedback.</p><p>\"AAA publishers are abusing early access, skewing player expectations in such a way that it heavily disadvantages smaller independent developers.\"</p><p>Dyack said games like <a href=\"https://ww"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else",
+        "secondary_keywords": [
+          "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else date de sortie",
+          "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else plateformes",
+          "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else gameplay",
+          "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else guide",
+          "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-it-s-amnesia-vs-amnesia-in-the-scariest-game-semifinals-cc8dc0c1d85c",
+      "topic": "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now!",
+      "detected_at": "2026-10-29T19:51:48.140691+00:00",
+      "analysed_at": "2026-11-09T10:21:11.607367+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/its-amnesia-vs-amnesia-in-the-scariest-game-semifinals-vote-now/",
+          "title": "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now!",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Presented by</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"N5WXFQSCttV6Am7CopwTzd\" name=\"Copy of 1_HeroLogo copy\" caption=\"\" alt=\"No More Room in Hell 2 logo\" src=\"https://cdn.mos.cms.futurecdn.net/N5WXFQSCttV6Am7CopwTzd-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\" /></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Torn Banner)</span></figcaption></figure><p class=\"fancy-box__body-text\">This article is brought to you by <a data-analytics-id=\"inline-link\" href=\"https://store.steampowered.com/app/292000?utm_source=future&utm_medium=display&utm_campaign=ppms_nmrih2_october_us&utm_term=pcsteam_horror&utm_creative=logo \" target=\"_blank\">No More Room in Hell 2</a>.</p></div></div><p>Last week, I asked PC Gamer readers to nominate the scariest PC games they could think of. I collected the top 16 submissions"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now!",
+        "secondary_keywords": [
+          "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now! date de sortie",
+          "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now! plateformes",
+          "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now! gameplay",
+          "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now! guide",
+          "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now! avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now!"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-youtuber-buys-and-turns-32-gb-of-laptop-ddr5-into-deskt-7c6bf5cd5648",
+      "topic": "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175",
+      "detected_at": "2026-10-29T19:51:48.140886+00:00",
+      "analysed_at": "2026-11-09T10:21:11.607395+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/memory/youtuber-buys-and-turns-32-gb-of-laptop-ddr5-into-desktop-ram-for-just-usd175/",
+          "title": "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/bpT5CdOBNDU\" allowfullscreen=\"\"></iframe></div></div><p>In this week's 'what the memory crisis is doing to people' news, a YouTuber has recently bought 32 GB of DDR5 laptop memory online and successfully converted it into memory for their desktop. Overall, it cost them just $175 ($120 for the memory and $55 for extra components). That's a bit of a bargain, as 32 GB DDR5 dual-channel memory is fetching <a href=\"https://www.newegg.com/p/pl?d=32+GB+DDR5\" target=\"_blank\">upwards of $500 on Newegg right now.</a> </p><p><a href=\"https://www.youtube.com/watch?v=bpT5CdOBNDU\" target=\"_blank\">Blighted Agent took to their YouTube channel</a> to share the process, where they purchased two SO-DIMM sticks of 16 GB DDR5 memory on Facebook Marketplace (presumably salvaged from a dead laptop). From here, they put a stick on a preheater, then removed the BIOS chip, the SPD chip and all eight of its memory chips. </p><p>Buying new DDR5 DIMM PCBs and heatsinks off AliExpress, they cleaned the factory unleaded solder on the laptop memo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175",
+        "secondary_keywords": [
+          "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175 date de sortie",
+          "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175 plateformes",
+          "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175 gameplay",
+          "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175 guide",
+          "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-m-calling-it-gta-6-is-officially-an-immersive-sim-bas-a51929111354",
+      "topic": "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs",
+      "detected_at": "2026-10-29T19:51:48.141125+00:00",
+      "analysed_at": "2026-11-09T10:21:11.607420+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/im-calling-it-gta-6-is-officially-an-immersive-sim-based-on-what-you-can-do-with-npcs/",
+          "title": "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs",
+          "evidence": "<article> <p>I don't mean to be contrarian (which is rare for me), but I've been generally unfazed by the hype for Grand Theft Auto 6. It's not that I don't think it'll be good—I'm actually damn near certain it will—it's just that none of what Rockstar has focused on so far in its marketing speaks to me all that much.</p><p>Anyway, throw those equanimous sentiments out the window, because an anecdote from <a href=\"https://www.magazinesdirect.com/uk/edge-subscription/dp/39f150bb\">Edge magazine's</a> new mondo-feature on GTA 6 has convinced me this game is actually an immersive sim, and now I'm bouncing off the walls in anticipation. Chatting about his experience actually playing the game, Rockstar head of development Phil Hooker told a story about the time he deployed a bit of unorthodox crowd control to prepare a store for a heist.</p><p>\"Recently I was robbing a store that was full of people,\" said Hooker. \"I wanted to get rid of them, because they'd be witnesses who would cause me trouble.\" What did he do? Well, in GTAs of yore, your options would have been pretty limited, but GTA 6's dovetailing systems gave our man an opportunity. \"I basically started picking fights with them, "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs",
+        "secondary_keywords": [
+          "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs date de sortie",
+          "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs plateformes",
+          "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs gameplay",
+          "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs guide",
+          "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-where-to-find-the-hokubo-region-treasure-hunt-in-forza--12fbc8438ecc",
+      "topic": "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6",
+      "detected_at": "2026-10-29T19:51:48.141336+00:00",
+      "analysed_at": "2026-11-09T10:21:11.607441+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/racing/forza-horizon-6-treasure-hunt-hokubo-region-location/",
+          "title": "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1943px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"3epVuAUromQGwHoY2TQqEj\" name=\"forza-6-hokubo-treasure-hunt-1\" alt=\"Forza Horizon 6 Hokubo Treasure Hunt location\" src=\"https://cdn.mos.cms.futurecdn.net/3epVuAUromQGwHoY2TQqEj-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"1943\" height=\"1093\" attribution=\"\" endorsement=\"\" class=\"inline expandable\" /><a href='https://cdn.mos.cms.futurecdn.net/3epVuAUromQGwHoY2TQqEj-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Playground Games)</span></figcaption></figure><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"uLgJFZUifRkpE3jTbwm2zk\" name=\"forza"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6",
+        "secondary_keywords": [
+          "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6 date de sortie",
+          "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6 plateformes",
+          "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6 gameplay",
+          "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6 guide",
+          "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-havn-hs-360-review-9de78368fd52",
+      "topic": "Havn HS 360 review",
+      "detected_at": "2026-10-29T19:51:48.142581+00:00",
+      "analysed_at": "2026-11-09T10:21:11.607460+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/pc-cases/havn-hs-360-review/",
+          "title": "Havn HS 360 review",
+          "evidence": "<article> <p>The Havn HS 360 is a familiar sight. More or less the same design as the company's first case, the HS 420, it's just a touch smaller. That's no bad thing; the <a href=\"https://www.pcgamer.com/hardware/pc-cases/havn-hs-420-vgpu-pc-case-review/\" target=\"_blank\">HS 420 earned a 90% score</a> from me due to its ability to hide most of the ugliness that comes with the usual pile of cables and connectors behind its retro futurist style facade. I feel just as positively about this slightly shrunken version too.</p><p>The HS 360 is available in two versions, with or without vertical GPU mounting; and two colours, black or white. I've here two cases for review, covering all the options, and I've decided to put them to the test with rival builds. Namely to get a feel for the process of building with the different GPU mounting solutions, but also satiate my longstanding desire to build yin and yang gaming PCs. Dark and light. AMD and Nvidia.</p><p>I had a really good time with the HS 360. Both times. It has a few limitations to be aware of, especially regarding fan size, but select the right parts and a build comes together very easily. Both of my builds have come out looking stu"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Havn HS 360 review",
+        "secondary_keywords": [
+          "Havn HS 360 review date de sortie",
+          "Havn HS 360 review plateformes",
+          "Havn HS 360 review gameplay",
+          "Havn HS 360 review guide",
+          "Havn HS 360 review avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Havn HS 360 review"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-reddit-will-switch-to-a-logged-in-only-experience-aaa4ccaaa59b",
+      "topic": "Reddit will switch to a 'logged-in only experience'",
+      "detected_at": "2026-10-30T08:59:15.636165+00:00",
+      "analysed_at": "2026-11-09T10:21:11.607480+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/reddit-will-switch-to-a-logged-in-only-experience/",
+          "title": "Reddit will switch to a 'logged-in only experience'",
+          "evidence": "<article> <p>Reddit will become a \"logged-in only experience,\" and the company plans to move fast, beginning testing soon in regions outside the US before flipping the switch globally.</p><p>The popular community website—home to a great many official and unofficial gaming message boards—lost one million search engine referrals per week on average in October, CEO Steve Huffman said on <a href=\"https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Third-Quarter-2026-Results/default.aspx\" target=\"_blank\">an investor call today</a>. </p><p>The culprit, of course, was AI. A Google search that once might have led someone to a 14-year-old Reddit thread containing the answer to a rare household cleaning problem is now likely to present that answer in an AI summary, no click required.</p><p>\"Google has really shifted in their relationship with the rest of the internet,\" Huffman said during a Q&A.</p><p>The CEO emphasized, however, that most of Reddit's revenue (over 80%) comes from logged-in and app users, and said that the company will focus on establishing the site as \"a direct daily habit\" that doesn't rely on search traffic.</p><p>Efforts cited in tha"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Reddit will switch to a 'logged-in only experience'",
+        "secondary_keywords": [
+          "Reddit will switch to a 'logged-in only experience' date de sortie",
+          "Reddit will switch to a 'logged-in only experience' plateformes",
+          "Reddit will switch to a 'logged-in only experience' gameplay",
+          "Reddit will switch to a 'logged-in only experience' guide",
+          "Reddit will switch to a 'logged-in only experience' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Reddit will switch to a 'logged-in only experience'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-start-the-charting-the-unknown-dlc-in-crimson-de-42e2759e718e",
+      "topic": "How to start the Charting the Unknown DLC in Crimson Desert",
+      "detected_at": "2026-10-30T08:59:15.636423+00:00",
+      "analysed_at": "2026-11-09T10:21:11.607500+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/crimson-desert-how-to-start-charting-the-unknown-dlc/",
+          "title": "How to start the Charting the Unknown DLC in Crimson Desert",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/crimson-desert/\" target=\"_blank\">Crimson Desert</a>'s Charting the Unknown has arrived, but rather than a focused story expansion, it's more about adding other elements to the existing world. </p><p>This includes endgame challenges, new housing options, a romance system, plus a sailing ship and ocean questline about exploring Pywel's treacherous coast and islands. Each feature has different unlock requirements, so here are the exact details for each.</p><h2 class=\"article-body__section\" id=\"section-shipbuilding-and-exploring-the-ocean\"><span>Shipbuilding and exploring the ocean</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"7Cwz8Dd7sccFD6RWMsBv5g\" name=\"crimson-desert-dlc-unlock-5\" alt=\"Crimson Desert DLC - Shark\" src=\"https://cdn.mos.cms.futurecdn.net/7Cwz8Dd7sccFD6RWMsBv5g-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline expandable\" /><a href='https://cdn.mos.cms."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to start the Charting the Unknown DLC in Crimson Desert",
+        "secondary_keywords": [
+          "How to start the Charting the Unknown DLC in Crimson Desert date de sortie",
+          "How to start the Charting the Unknown DLC in Crimson Desert plateformes",
+          "How to start the Charting the Unknown DLC in Crimson Desert gameplay",
+          "How to start the Charting the Unknown DLC in Crimson Desert guide",
+          "How to start the Charting the Unknown DLC in Crimson Desert avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to start the Charting the Unknown DLC in Crimson Desert"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

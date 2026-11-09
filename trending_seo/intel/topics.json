@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-11-09T10:21:11.179335+00:00",
+  "updated_at": "2026-11-09T23:34:49.502471+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -54,294 +54,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "rss-aaa-publishers-are-abusing-early-access-denis-dyack-say-bccb3b845aac",
-      "topic": "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else",
-      "detected_at": "2026-10-29T19:51:48.140465+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/game-development/aaa-publishers-are-abusing-early-access-denis-dyack-says-and-thats-making-things-harder-for-everyone-else/",
-          "title": "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else",
-          "evidence": "<article> <p>Denis Dyack, known for his work on games including Blood Omen: Legacy of Kain and Eternal Darkness: Sanity's Requiem, says big game developers are \"abusing early access\" by using it as a marketing tool for highly polished games that are ready for full release anyway. That, Dyack believes, has shifted expectations for early access releases overall, and made life more difficult for indie developers who rely on the process to actually get their games finished and launched.</p><p>\"They can put up a polished product and rake in cash,\" Dyack told <a href=\"https://www.gamesindustry.biz/developers-need-to-treat-early-access-like-a-real-launch-because-players-do-early-access-games-are-on-the-rise-but-so-are-player-expectations\" target=\"_blank\">GamesIndustry</a>. \"It's a marketing beat for them. So, that leaves players often expecting a near-perfect game that, in our opinion, defeats the purpose of early access, which is a collaborative development process based on player feedback.</p><p>\"AAA publishers are abusing early access, skewing player expectations in such a way that it heavily disadvantages smaller independent developers.\"</p><p>Dyack said games like <a href=\"https://ww"
-        }
-      ],
-      "keywords": [
-        "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else",
-        "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else date de sortie",
-        "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else plateformes",
-        "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else gameplay",
-        "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else guide",
-        "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-it-s-amnesia-vs-amnesia-in-the-scariest-game-semifinals-cc8dc0c1d85c",
-      "topic": "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now!",
-      "detected_at": "2026-10-29T19:51:48.140691+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/horror/its-amnesia-vs-amnesia-in-the-scariest-game-semifinals-vote-now/",
-          "title": "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now!",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Presented by</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"N5WXFQSCttV6Am7CopwTzd\" name=\"Copy of 1_HeroLogo copy\" caption=\"\" alt=\"No More Room in Hell 2 logo\" src=\"https://cdn.mos.cms.futurecdn.net/N5WXFQSCttV6Am7CopwTzd-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\" /></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Torn Banner)</span></figcaption></figure><p class=\"fancy-box__body-text\">This article is brought to you by <a data-analytics-id=\"inline-link\" href=\"https://store.steampowered.com/app/292000?utm_source=future&utm_medium=display&utm_campaign=ppms_nmrih2_october_us&utm_term=pcsteam_horror&utm_creative=logo \" target=\"_blank\">No More Room in Hell 2</a>.</p></div></div><p>Last week, I asked PC Gamer readers to nominate the scariest PC games they could think of. I collected the top 16 submissions"
-        }
-      ],
-      "keywords": [
-        "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now!",
-        "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now! date de sortie",
-        "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now! plateformes",
-        "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now! gameplay",
-        "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now! guide",
-        "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now! avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-youtuber-buys-and-turns-32-gb-of-laptop-ddr5-into-deskt-7c6bf5cd5648",
-      "topic": "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175",
-      "detected_at": "2026-10-29T19:51:48.140886+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/memory/youtuber-buys-and-turns-32-gb-of-laptop-ddr5-into-desktop-ram-for-just-usd175/",
-          "title": "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175",
-          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/bpT5CdOBNDU\" allowfullscreen=\"\"></iframe></div></div><p>In this week's 'what the memory crisis is doing to people' news, a YouTuber has recently bought 32 GB of DDR5 laptop memory online and successfully converted it into memory for their desktop. Overall, it cost them just $175 ($120 for the memory and $55 for extra components). That's a bit of a bargain, as 32 GB DDR5 dual-channel memory is fetching <a href=\"https://www.newegg.com/p/pl?d=32+GB+DDR5\" target=\"_blank\">upwards of $500 on Newegg right now.</a> </p><p><a href=\"https://www.youtube.com/watch?v=bpT5CdOBNDU\" target=\"_blank\">Blighted Agent took to their YouTube channel</a> to share the process, where they purchased two SO-DIMM sticks of 16 GB DDR5 memory on Facebook Marketplace (presumably salvaged from a dead laptop). From here, they put a stick on a preheater, then removed the BIOS chip, the SPD chip and all eight of its memory chips. </p><p>Buying new DDR5 DIMM PCBs and heatsinks off AliExpress, they cleaned the factory unleaded solder on the laptop memo"
-        }
-      ],
-      "keywords": [
-        "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175",
-        "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175 date de sortie",
-        "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175 plateformes",
-        "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175 gameplay",
-        "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175 guide",
-        "YouTuber buys and turns 32 GB of laptop DDR5 into desktop RAM for just $175 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-m-calling-it-gta-6-is-officially-an-immersive-sim-bas-a51929111354",
-      "topic": "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs",
-      "detected_at": "2026-10-29T19:51:48.141125+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/im-calling-it-gta-6-is-officially-an-immersive-sim-based-on-what-you-can-do-with-npcs/",
-          "title": "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs",
-          "evidence": "<article> <p>I don't mean to be contrarian (which is rare for me), but I've been generally unfazed by the hype for Grand Theft Auto 6. It's not that I don't think it'll be good—I'm actually damn near certain it will—it's just that none of what Rockstar has focused on so far in its marketing speaks to me all that much.</p><p>Anyway, throw those equanimous sentiments out the window, because an anecdote from <a href=\"https://www.magazinesdirect.com/uk/edge-subscription/dp/39f150bb\">Edge magazine's</a> new mondo-feature on GTA 6 has convinced me this game is actually an immersive sim, and now I'm bouncing off the walls in anticipation. Chatting about his experience actually playing the game, Rockstar head of development Phil Hooker told a story about the time he deployed a bit of unorthodox crowd control to prepare a store for a heist.</p><p>\"Recently I was robbing a store that was full of people,\" said Hooker. \"I wanted to get rid of them, because they'd be witnesses who would cause me trouble.\" What did he do? Well, in GTAs of yore, your options would have been pretty limited, but GTA 6's dovetailing systems gave our man an opportunity. \"I basically started picking fights with them, "
-        }
-      ],
-      "keywords": [
-        "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs",
-        "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs date de sortie",
-        "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs plateformes",
-        "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs gameplay",
-        "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs guide",
-        "I'm calling it: GTA 6 is officially an immersive sim, based on what you can do with NPCs avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-where-to-find-the-hokubo-region-treasure-hunt-in-forza--12fbc8438ecc",
-      "topic": "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6",
-      "detected_at": "2026-10-29T19:51:48.141336+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/racing/forza-horizon-6-treasure-hunt-hokubo-region-location/",
-          "title": "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6",
-          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1943px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"3epVuAUromQGwHoY2TQqEj\" name=\"forza-6-hokubo-treasure-hunt-1\" alt=\"Forza Horizon 6 Hokubo Treasure Hunt location\" src=\"https://cdn.mos.cms.futurecdn.net/3epVuAUromQGwHoY2TQqEj-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"1943\" height=\"1093\" attribution=\"\" endorsement=\"\" class=\"inline expandable\" /><a href='https://cdn.mos.cms.futurecdn.net/3epVuAUromQGwHoY2TQqEj-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Playground Games)</span></figcaption></figure><div class=\"fancy-box\"><div class=\"fancy_box-title\">Key deets</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"uLgJFZUifRkpE3jTbwm2zk\" name=\"forza"
-        }
-      ],
-      "keywords": [
-        "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6",
-        "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6 date de sortie",
-        "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6 plateformes",
-        "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6 gameplay",
-        "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6 guide",
-        "Where to find the Hokubo region Treasure Hunt in Forza Horizon 6 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-havn-hs-360-review-9de78368fd52",
-      "topic": "Havn HS 360 review",
-      "detected_at": "2026-10-29T19:51:48.142581+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/pc-cases/havn-hs-360-review/",
-          "title": "Havn HS 360 review",
-          "evidence": "<article> <p>The Havn HS 360 is a familiar sight. More or less the same design as the company's first case, the HS 420, it's just a touch smaller. That's no bad thing; the <a href=\"https://www.pcgamer.com/hardware/pc-cases/havn-hs-420-vgpu-pc-case-review/\" target=\"_blank\">HS 420 earned a 90% score</a> from me due to its ability to hide most of the ugliness that comes with the usual pile of cables and connectors behind its retro futurist style facade. I feel just as positively about this slightly shrunken version too.</p><p>The HS 360 is available in two versions, with or without vertical GPU mounting; and two colours, black or white. I've here two cases for review, covering all the options, and I've decided to put them to the test with rival builds. Namely to get a feel for the process of building with the different GPU mounting solutions, but also satiate my longstanding desire to build yin and yang gaming PCs. Dark and light. AMD and Nvidia.</p><p>I had a really good time with the HS 360. Both times. It has a few limitations to be aware of, especially regarding fan size, but select the right parts and a build comes together very easily. Both of my builds have come out looking stu"
-        }
-      ],
-      "keywords": [
-        "Havn HS 360 review",
-        "Havn HS 360 review date de sortie",
-        "Havn HS 360 review plateformes",
-        "Havn HS 360 review gameplay",
-        "Havn HS 360 review guide",
-        "Havn HS 360 review avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-reddit-will-switch-to-a-logged-in-only-experience-aaa4ccaaa59b",
-      "topic": "Reddit will switch to a 'logged-in only experience'",
-      "detected_at": "2026-10-30T08:59:15.636165+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/software/ai/reddit-will-switch-to-a-logged-in-only-experience/",
-          "title": "Reddit will switch to a 'logged-in only experience'",
-          "evidence": "<article> <p>Reddit will become a \"logged-in only experience,\" and the company plans to move fast, beginning testing soon in regions outside the US before flipping the switch globally.</p><p>The popular community website—home to a great many official and unofficial gaming message boards—lost one million search engine referrals per week on average in October, CEO Steve Huffman said on <a href=\"https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Third-Quarter-2026-Results/default.aspx\" target=\"_blank\">an investor call today</a>. </p><p>The culprit, of course, was AI. A Google search that once might have led someone to a 14-year-old Reddit thread containing the answer to a rare household cleaning problem is now likely to present that answer in an AI summary, no click required.</p><p>\"Google has really shifted in their relationship with the rest of the internet,\" Huffman said during a Q&A.</p><p>The CEO emphasized, however, that most of Reddit's revenue (over 80%) comes from logged-in and app users, and said that the company will focus on establishing the site as \"a direct daily habit\" that doesn't rely on search traffic.</p><p>Efforts cited in tha"
-        }
-      ],
-      "keywords": [
-        "Reddit will switch to a 'logged-in only experience'",
-        "Reddit will switch to a 'logged-in only experience' date de sortie",
-        "Reddit will switch to a 'logged-in only experience' plateformes",
-        "Reddit will switch to a 'logged-in only experience' gameplay",
-        "Reddit will switch to a 'logged-in only experience' guide",
-        "Reddit will switch to a 'logged-in only experience' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-how-to-start-the-charting-the-unknown-dlc-in-crimson-de-42e2759e718e",
-      "topic": "How to start the Charting the Unknown DLC in Crimson Desert",
-      "detected_at": "2026-10-30T08:59:15.636423+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rpg/crimson-desert-how-to-start-charting-the-unknown-dlc/",
-          "title": "How to start the Charting the Unknown DLC in Crimson Desert",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/crimson-desert/\" target=\"_blank\">Crimson Desert</a>'s Charting the Unknown has arrived, but rather than a focused story expansion, it's more about adding other elements to the existing world. </p><p>This includes endgame challenges, new housing options, a romance system, plus a sailing ship and ocean questline about exploring Pywel's treacherous coast and islands. Each feature has different unlock requirements, so here are the exact details for each.</p><h2 class=\"article-body__section\" id=\"section-shipbuilding-and-exploring-the-ocean\"><span>Shipbuilding and exploring the ocean</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"7Cwz8Dd7sccFD6RWMsBv5g\" name=\"crimson-desert-dlc-unlock-5\" alt=\"Crimson Desert DLC - Shark\" src=\"https://cdn.mos.cms.futurecdn.net/7Cwz8Dd7sccFD6RWMsBv5g-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline expandable\" /><a href='https://cdn.mos.cms."
-        }
-      ],
-      "keywords": [
-        "How to start the Charting the Unknown DLC in Crimson Desert",
-        "How to start the Charting the Unknown DLC in Crimson Desert date de sortie",
-        "How to start the Charting the Unknown DLC in Crimson Desert plateformes",
-        "How to start the Charting the Unknown DLC in Crimson Desert gameplay",
-        "How to start the Charting the Unknown DLC in Crimson Desert guide",
-        "How to start the Charting the Unknown DLC in Crimson Desert avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-none-of-these-people-have-ever-made-a-game-bioware-co-f-4ba494242bf6",
-      "topic": "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works'",
-      "detected_at": "2026-10-30T08:59:15.636709+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/none-of-these-people-have-ever-made-a-game-bioware-co-founder-greg-zeschuk-says-of-game-industry-executives-they-just-dont-know-how-it-works/",
-          "title": "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works'",
-          "evidence": "<article> <p>It's been almost 15 years since BioWare co-founders Greg Zeschuk and Ray Muzyka <a href=\"https://www.pcgamer.com/ray-muzyka-greg-zeschuk-retire/\" target=\"_blank\">announced their retirements</a> from the videogame industry, and they've been resolute about staying out of it ever since: Muzyka continues to head up the <a href=\"https://thresholdimpact.com/\" target=\"_blank\">ThresholdImpact</a> investment firm he founded in 2012 and holds multiple roles at the University of Alberta, while Zeschuk owns <a href=\"https://blindenthusiasm.ca/pages/our-team\" target=\"_blank\">Blind Enthusiasm Brewing Company</a>, also based in Alberta, where he works with a small handful of other BioWare veterans.</p><p>But Zeschuk stepped back into the videogame spotlight, briefly, following last week's <a href=\"https://www.pcgamer.com/gaming-industry/rip-bioware-ea-has-shut-down-the-legendary-rpg-developer/\" target=\"_blank\">closure of BioWare</a> by parent company Electronic Arts, telling <a href=\"https://80.lv/articles/bioware-co-founder-greg-zeschuk-says-studio-was-killed-by-executives-who-have-never-made-a-game\" target=\"_blank\">80lv</a> that he got the news hours after it happened because he wa"
-        }
-      ],
-      "keywords": [
-        "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works'",
-        "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works' date de sortie",
-        "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works' plateformes",
-        "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works' gameplay",
-        "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works' guide",
-        "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-patrick-stewart-star-trek-and-shakespeare-legend-has-di-5914a7f5c67c",
-      "topic": "Patrick Stewart, Star Trek and Shakespeare legend, has died",
-      "detected_at": "2026-10-30T08:59:15.636996+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/movies-tv/patrick-stewart-star-trek-and-shakespeare-legend-has-died/",
-          "title": "Patrick Stewart, Star Trek and Shakespeare legend, has died",
-          "evidence": "<article> <p>Patrick Stewart, the classically-trained actor who gained worldwide fame in the 1980s as Captain Jean-Luc Picard on Star Trek: The Next Generation and later as Professor Charles Xavier in the X-Men film series, has died. A message posted on Stewart's official X account said his passing came \"following a brief and poignant journey with Alzheimer's Disease and Lewy Body Dementia.\"</p><p>Stewart joined the Royal Shakespeare Company in 1966, and took his first television role a year later on the long-running British series Coronation Street. He debuted on Broadway in 1971, and subsequently appeared in several feature films. </p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2115891266131300517\"><p lang=\"en\" dir=\"ltr\">In lieu of flowers, memorial contributions may be made to:Johns Hopkins Alzheimer’s Disease Research Center Fund https://t.co/luC5CdcWDyAlzheimer’s Foundation of America Caregiver Resources https://t.co/zvNptfyuNdPhoto Credit: Tommy Garcia https://t.co/XNncEVq56X<a href=\"https://twitter.com/cantworkitout/status/2115891266131300517\">October 29, 2026</a><"
-        }
-      ],
-      "keywords": [
-        "Patrick Stewart, Star Trek and Shakespeare legend, has died",
-        "Patrick Stewart, Star Trek and Shakespeare legend, has died date de sortie",
-        "Patrick Stewart, Star Trek and Shakespeare legend, has died plateformes",
-        "Patrick Stewart, Star Trek and Shakespeare legend, has died gameplay",
-        "Patrick Stewart, Star Trek and Shakespeare legend, has died guide",
-        "Patrick Stewart, Star Trek and Shakespeare legend, has died avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-after-a-month-of-voting-pc-gamer-readers-have-picked-th-485e2691cdcf",
-      "topic": "After a month of voting, PC Gamer readers have picked the best RTS unit of all time",
-      "detected_at": "2026-10-30T08:59:15.637305+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rts/after-a-month-of-voting-pc-gamer-readers-have-picked-the-best-rts-unit-of-all-time/",
-          "title": "After a month of voting, PC Gamer readers have picked the best RTS unit of all time",
-          "evidence": "<article> <p>We've done it, folks. After four rounds of voting over the last month, we can finally answer the question: what is the greatest RTS unit of all time? No take backs. </p><p>When we kicked things off, we had 16 units, culminating in a battle between Age of Empires' Priest and Command and Conquer: Red Alert's Mammoth Tank. Organised religion against the indomitable Soviet war machine. </p><p>Am I still upset with you all for knocking out Warcraft's Peon, who started strong in the first round when he demolished Rise of Legends' Glass Dragon? Yep, still pretty sore over that one! And I can't believe y'all let the Priest beat Red Alert 2's Dolphin. When it came to the final, though, I think you made the right call. </p><h3 class=\"article-body__section\" id=\"section-the-result\"><span>The result</span></h3><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:83.98%;\"><img id=\"fwH56GRTqANm2AGoSai5y\" name=\"Winner Bracket\" alt=\"The Mammoth Tank wins\" src=\"https://cdn.mos.cms.futurecdn.net/fwH56GRTqANm2AGoSai5y-1920"
-        }
-      ],
-      "keywords": [
-        "After a month of voting, PC Gamer readers have picked the best RTS unit of all time",
-        "After a month of voting, PC Gamer readers have picked the best RTS unit of all time date de sortie",
-        "After a month of voting, PC Gamer readers have picked the best RTS unit of all time plateformes",
-        "After a month of voting, PC Gamer readers have picked the best RTS unit of all time gameplay",
-        "After a month of voting, PC Gamer readers have picked the best RTS unit of all time guide",
-        "After a month of voting, PC Gamer readers have picked the best RTS unit of all time avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-world-of-warcraft-forever-s-shiny-lighting-and-water-ch-1f2ead8159f8",
-      "topic": "World of Warcraft: Forever's shiny lighting and water changes will be coming to retail: 'I don't know when, but I know they're talking about doing it'",
-      "detected_at": "2026-10-30T08:59:15.637444+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-shiny-lighting-and-water-changes-will-be-coming-to-retail-i-dont-know-when-but-i-know-theyre-talking-about-doing-it/",
-          "title": "World of Warcraft: Forever's shiny lighting and water changes will be coming to retail: 'I don't know when, but I know they're talking about doing it'",
-          "evidence": "<article> <div class=\"product\"><a data-dimension112=\"47d7b512-d3a2-11f1-ace3-b9d5d045724a\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:661px;\"><p class=\"vanilla-image-block\" style=\"padding-top:98.94%;\"><img id=\"6offQUY4CXebir2TC27dMd\" name=\"kingdom come 2 square\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"661\" height=\"654\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\" /></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/games/new-pc-games-2026/\" target=\"_blank\" data-dimension112=\"47d7b512-d3a2-11f1-ace3-b9d5d045724a\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" data-dimension25=\"\"><strong>2026 games</strong></a>: All the upcoming games<br /><a href=\"https://www.pcgamer.com/the-best-pc-games/\" target=\"_blank\"><strong>Best PC games</strong></a>: Our all-time favorites<br /><a href=\"https://www.pcgamer.com/the-50-best-free-pc-games/\" target=\"_blank\"><strong>Fr"
-        }
-      ],
-      "keywords": [
-        "World of Warcraft: Forever's shiny lighting and water changes will be coming to retail: 'I don't know when, but I know they're talking about doing it'",
-        "World of Warcraft: Forever's shiny lighting and water changes will be coming to retail: 'I don't know when, but I know they're talking about doing it' date de sortie",
-        "World of Warcraft: Forever's shiny lighting and water changes will be coming to retail: 'I don't know when, but I know they're talking about doing it' plateformes",
-        "World of Warcraft: Forever's shiny lighting and water changes will be coming to retail: 'I don't know when, but I know they're talking about doing it' gameplay",
-        "World of Warcraft: Forever's shiny lighting and water changes will be coming to retail: 'I don't know when, but I know they're talking about doing it' guide",
-        "World of Warcraft: Forever's shiny lighting and water changes will be coming to retail: 'I don't know when, but I know they're talking about doing it' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-60-million-ai-rack-cluster-listed-on-ebay-with-1-4-peta-173c13f17149",
       "topic": "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs",
@@ -6046,6 +5758,294 @@
         "Five essential rules for Pokemon TCG deckbuilding from pros gameplay",
         "Five essential rules for Pokemon TCG deckbuilding from pros guide",
         "Five essential rules for Pokemon TCG deckbuilding from pros avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-a-month-after-paramount-acquired-warner-bros-discovery--d3e07a91ee63",
+      "topic": "A month after Paramount acquired Warner Bros. Discovery, its merged game division is laying people off",
+      "detected_at": "2026-11-09T23:34:49.499931+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/a-month-after-paramount-acquired-warner-bros-discovery-its-merged-game-division-is-laying-people-off/",
+          "title": "A month after Paramount acquired Warner Bros. Discovery, its merged game division is laying people off",
+          "evidence": "<article> <p>Just over a month after Paramount closed its <a href=\"https://www.pcgamer.com/gaming-industry/bobbys-back/\" target=\"_blank\">acquisition of Warner Bros. Discovery</a> and renamed itself as Skydance, the company's games division has laid off an unspecified number of employees.</p><p>Reports of the cuts first surfaced earlier today on LinkedIn, where multiple employees reported being let go. Lead engineer <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7524894732519563264/\" target=\"_blank\">David Vera</a>, who was not among those put out of work, said the studio \"lost a ton of great talent,\" while another post by principal environment artist <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7525631984069632000/\" target=\"_blank\">Dana Klaren</a> listed more than 25 people who'd been let go, including himself. Senior gameplay and game AI programmer <a href=\"https://www.linkedin.com/posts/rebecca-vessal_most-of-my-game-team-at-skydance-interactive-share-7524612497111461889-psir/\" target=\"_blank\">Rebecca Vessal</a> said in her own message that \"most\" of her team had been let go.</p><p>Prior to their merger, both Paramount and Warner had their own game "
+        }
+      ],
+      "keywords": [
+        "A month after Paramount acquired Warner Bros. Discovery, its merged game division is laying people off",
+        "A month after Paramount acquired Warner Bros. Discovery, its merged game division is laying people off date de sortie",
+        "A month after Paramount acquired Warner Bros. Discovery, its merged game division is laying people off plateformes",
+        "A month after Paramount acquired Warner Bros. Discovery, its merged game division is laying people off gameplay",
+        "A month after Paramount acquired Warner Bros. Discovery, its merged game division is laying people off guide",
+        "A month after Paramount acquired Warner Bros. Discovery, its merged game division is laying people off avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-take-two-expects-to-make-as-much-as-3-5-billion-during--902579119779",
+      "topic": "Take-Two expects to make as much as $3.5 billion during the GTA 6 launch period",
+      "detected_at": "2026-11-09T23:34:49.500082+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/take-two-expects-to-make-as-much-as-usd3-5-billion-during-the-gta-6-launch-period/",
+          "title": "Take-Two expects to make as much as $3.5 billion during the GTA 6 launch period",
+          "evidence": "<article> <p>GTA publisher <a href=\"https://www.take2games.com/ir/quarterly-earnings\" target=\"_blank\">Take-Two projects</a> net bookings (total completed sales, essentially) of $3.35 to $3.5 billion for its current Q3 2027 financial quarter, \"driven by the groundbreaking release of Grand Theft Auto 6\" in a little over a week.</p><p>\"The launch of Grand Theft Auto 6 is ten days away and, with pre-orders continuing to reach unprecedented levels, we expect to deliver an historic year for our company,\" said Take-Two CEO Strauss Zelnick.</p><p>The publisher <a href=\"https://www.pcgamer.com/games/grand-theft-auto/take-two-wont-reveal-raw-gta-6-preorder-numbers-because-it-doesnt-know-what-they-mean-its-just-never-happened-before/\">has previously said</a> that it doesn't want to reveal the total number of GTA 6 preorders because \"the raw numbers could potentially be misleading,\" given that it's never seen numbers like these before.</p><p>The $3.35 to $3.5 billion net bookings expectation for the GTA 6 launch period is actually slightly below analyst expectations of $3.51 billion, as compiled by LSEG Data & Analytics (via <a href=\"https://www.reuters.com/business/take-two-projects-third-qua"
+        }
+      ],
+      "keywords": [
+        "Take-Two expects to make as much as $3.5 billion during the GTA 6 launch period",
+        "Take-Two expects to make as much as $3.5 billion during the GTA 6 launch period date de sortie",
+        "Take-Two expects to make as much as $3.5 billion during the GTA 6 launch period plateformes",
+        "Take-Two expects to make as much as $3.5 billion during the GTA 6 launch period gameplay",
+        "Take-Two expects to make as much as $3.5 billion during the GTA 6 launch period guide",
+        "Take-Two expects to make as much as $3.5 billion during the GTA 6 launch period avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-a-week-after-expanding-its-publishing-division-killing--dd671ecb10f2",
+      "topic": "A week after expanding its publishing division, Killing Floor studio Tripwire Interactive lays off 36 people",
+      "detected_at": "2026-11-09T23:34:49.500274+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/a-week-after-expanding-its-publishing-division-killing-floor-studio-tripwire-interactive-lays-off-36-people/",
+          "title": "A week after expanding its publishing division, Killing Floor studio Tripwire Interactive lays off 36 people",
+          "evidence": "<article> <p>Killing Floor studio Tripwire Interactive has laid off 36 employees in what it says \"was certainly not an easy decision, but unfortunately a necessary one for the organization.\"</p><p>The cuts at Tripwire appear significant: A source at the studio told PC Gamer that roughly 40-50 employees are left following the layoffs.</p><p>\"Our team is focused on our internal projects, including active development of Maneater 2, ongoing work on Killing Floor 3, and publishing efforts under the Tripwire Presents label,\" the studio wrote in a message shared on <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7525601268346585088/\" target=\"_blank\">LinkedIn</a>. \"We are continuing to give the best support possible to all of our games and remain committed to our awesome community.\"</p><p>Maneater 2 was <a href=\"https://store.steampowered.com/news/app/629820/view/676256891013169920\" target=\"_blank\">announced</a> in September, five years after the release of the original, which was a significant success for Tripwire. But the studio has had difficulty replicating that success, even with its best-known game series: Killing Floor 3, released in 2025, remains mired in \"mixed\" user"
+        }
+      ],
+      "keywords": [
+        "A week after expanding its publishing division, Killing Floor studio Tripwire Interactive lays off 36 people",
+        "A week after expanding its publishing division, Killing Floor studio Tripwire Interactive lays off 36 people date de sortie",
+        "A week after expanding its publishing division, Killing Floor studio Tripwire Interactive lays off 36 people plateformes",
+        "A week after expanding its publishing division, Killing Floor studio Tripwire Interactive lays off 36 people gameplay",
+        "A week after expanding its publishing division, Killing Floor studio Tripwire Interactive lays off 36 people guide",
+        "A week after expanding its publishing division, Killing Floor studio Tripwire Interactive lays off 36 people avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-amd-users-are-reporting-a-misfiring-utility-is-eating-s-20d2a3eff0cb",
+      "topic": "AMD users are reporting a misfiring utility is eating SSD health by 1% a month. AMD says a fix is on the way for its GPU drivers",
+      "detected_at": "2026-11-09T23:34:49.500450+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/amd-users-are-reporting-a-misfiring-utility-is-eating-ssd-health-by-1-percent-a-month-amd-says-a-fix-is-on-the-way-for-its-gpu-drivers/",
+          "title": "AMD users are reporting a misfiring utility is eating SSD health by 1% a month. AMD says a fix is on the way for its GPU drivers",
+          "evidence": "<article> <p>I fear opening the Pandora's box that is my SSD's health report. I'd much rather live in ignorance until the day it inevitably fails on me. Some eagle-eyed AMD GPU users, however, have spotted their own SSD health dropping much faster than they expected, and have placed the blame squarely on an AMD Adrenalin driver utility.</p><p>Redditor <a href=\"https://www.reddit.com/r/pcmasterrace/comments/1xqk7gs/psa_as_of_the_latest_amd_adrenaline_update_a_bug/?utm_source=embedv2&utm_medium=post_embed&utm_content=action_bar&embed_host_url=https%3A%2F%2Fwww.tomshardware.com%2Fpc-components%2Fgpu-drivers%2Famd-adrenalin-bug-could-be-writing-data-continuously-wearing-out-ssds-radeon-owner-claims-external-events-utility-used-up-1-percent-of-ssd-health-every-month-for-over-a-year\" target=\"_blank\">Darklinkpower</a> has flagged the issue on the r/pcmasterrace subbreddit. \"I just found out that the driver eats up 1% of my SSD health every month for 16 month,\" says the redditor, \"where[as another] user reported losing approximately 1% of their SSD health every month.\"</p><figure><blockquote class=\"reddit-card\" ><a href=\"https://www.reddit.com/r/pcmasterrace/comments/1xqk7gs/psa_as_of_the_"
+        }
+      ],
+      "keywords": [
+        "AMD users are reporting a misfiring utility is eating SSD health by 1% a month. AMD says a fix is on the way for its GPU drivers",
+        "AMD users are reporting a misfiring utility is eating SSD health by 1% a month. AMD says a fix is on the way for its GPU drivers date de sortie",
+        "AMD users are reporting a misfiring utility is eating SSD health by 1% a month. AMD says a fix is on the way for its GPU drivers plateformes",
+        "AMD users are reporting a misfiring utility is eating SSD health by 1% a month. AMD says a fix is on the way for its GPU drivers gameplay",
+        "AMD users are reporting a misfiring utility is eating SSD health by 1% a month. AMD says a fix is on the way for its GPU drivers guide",
+        "AMD users are reporting a misfiring utility is eating SSD health by 1% a month. AMD says a fix is on the way for its GPU drivers avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-warhammer-40k-rogue-trader-follow-up-dark-heresy-will-l-44a38ed8fe9b",
+      "topic": "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January",
+      "detected_at": "2026-11-09T23:34:49.500611+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/warhammer-40k-rogue-trader-follow-up-dark-heresy-will-launch-at-the-end-of-january/",
+          "title": "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/PKccIqfBskc\" allowfullscreen=\"\"></iframe></div></div><p>Owlcat has released <a href=\"https://www.youtube.com/watch?v=PKccIqfBskc\" target=\"_blank\">a new trailer</a> for its coming Warhammer 40K RPG, Dark Heresy. The inquisition and investigation-focused RPG is now slated for a January 28 launch.</p><p>We've loved what we've seen of the game so far: Its focus on <a href=\"https://www.pcgamer.com/games/rpg/warhammer-40k-dark-heresy-might-just-have-everything-i-want-from-a-crpg/\" target=\"_blank\">investigating heresy and closing cases</a> represents something genuinely novel for Owlcat, which until now has focused on fantasies of rulership (with lite 4x/management gameplay) and quite good (and often very challenging) tactical battles.</p><p>One problem: I have a largely uncomplicated relationship with Owlcat games, because I've only ever played them a year-plus out from launch. PCG's other RPG heads, like weekend editor Jody Macgregor and online editor Fraser Brown, remain scarred by their experiences with pre-launch, r"
+        }
+      ],
+      "keywords": [
+        "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January",
+        "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January date de sortie",
+        "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January plateformes",
+        "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January gameplay",
+        "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January guide",
+        "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-cheaper-oleds-may-be-here-even-quicker-than-we-thought--484b195941fa",
+      "topic": "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year",
+      "detected_at": "2026-11-09T23:34:49.500769+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-monitors/cheaper-oleds-may-be-here-even-quicker-than-we-thought-as-tcl-csot-says-its-new-inkjet-printing-facility-could-be-up-and-running-as-soon-as-this-time-next-year/",
+          "title": "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year",
+          "evidence": "<article> <p>TCL CSOT (the subsidiary of TCL that manufactures OLEDs and other panels) <a href=\"https://www.displayspecifications.com/en/news/c1ec10dc\" target=\"_blank\">says its new inkjet-printed OLED factory</a> has \"entered the equipment move-in phase\" (via <a href=\"https://www.techpowerup.com/354558/tcl-csot-inkjet-oled-t8-factory-begins-equipment-installation-phase\" target=\"_blank\">TechPowerUp</a>) after the project \"progressed at a rapid pace\". In other words, it's started filling up its production facility with the equipment to produce inkjet OLEDs. Production, the company says, is targeted for about this time next year.</p><p>What's the big deal, you ask? It all comes down to that phrase, \"inkjet-printed\". Inkjet printing (IJP) should be a much more cost-effective way of making OLED panels, which means it should ultimately deliver OLED gaming monitors that are cheaper than traditionally manufactured ones.</p><p>Which is saying something, considering how much traditionally manufactured OLEDs have dropped in price over the past year—you can currently pick up a 240 Hz OLED monitor for just <a href=\"https://www.walmart.com/ip/Acer-Nitro-27-2560-x-1440-QD-OLD-Gaming-Monitor-with-"
+        }
+      ],
+      "keywords": [
+        "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year",
+        "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year date de sortie",
+        "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year plateformes",
+        "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year gameplay",
+        "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year guide",
+        "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-jensen-huang-s-affair-with-alleged-chinese-spy-highligh-54461ec4702a",
+      "topic": "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business",
+      "detected_at": "2026-11-09T23:34:49.501417+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/jensen-huangs-affair-with-alleged-chinese-spy-highlights-how-the-gpu-companys-dealings-are-now-everyones-business/",
+          "title": "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business",
+          "evidence": "<article> <p>Nvidia CEO Jensen Huang has admitted to an extramarital affair in a <a href=\"https://nvidianews.nvidia.com/news/a-message-to-our-company\" target=\"_blank\">statement published on Nvidia's newsroom</a>. A strange move for the $4.5 trillion company without the added context: the person he's suspected of having an affair with has also been deemed a Chinese intelligence asset by US officials, and was investigated for smuggling none other than Nvidia's own chips.</p><p>The story goes far deeper than Huang's affair; revolving around national security, export controls, spying, chip smuggling, and US/China relations. It's in large part about AI, and who controls the hardware that makes it possible. So, if you're wondering why Huang might be the target of Chinese intelligence to begin with, or why he's announcing his affair in the most public way possible, here's how we got to this point.</p><h2 class=\"article-body__section\" id=\"section-why-does-it-matter-where-nvidia-sells-its-gpus\"><span>Why does it matter where Nvidia sells its GPUs?</span></h2><p>Nvidia is at the centre of the debate about whether the United States should sell its most technologically advanced chips to China."
+        }
+      ],
+      "keywords": [
+        "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business",
+        "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business date de sortie",
+        "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business plateformes",
+        "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business gameplay",
+        "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business guide",
+        "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-floppy-disks-are-out-21st-century-tech-is-in-the-faa-is-52e405d858aa",
+      "topic": "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage",
+      "detected_at": "2026-11-09T23:34:49.501596+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/floppy-disks-are-out-21st-century-tech-is-in-the-faa-is-finally-ditching-55-year-old-storage/",
+          "title": "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage",
+          "evidence": "<article> <p>You've got to hand it to floppy disks. The now 55-year-old storage tech occasionally crops up in the most surprising of places, like a <a href=\"https://www.pcgamer.com/hardware/storage/floppy-disks-arent-dead-yet-as-this-san-francisco-train-line-relies-on-three-of-them-to-run-every-morning/\" target=\"_blank\">San Francisco light rail line</a> or, previously, <a href=\"https://www.nytimes.com/2019/10/24/us/nuclear-weapons-floppy-disks.html\" target=\"_blank\">US nuclear launch facilities</a>. </p><p>One last holdout appears to be the Federal Aviation Administration, which still uses the disks for data storage within the US air traffic control system (via <a href=\"https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/\" target=\"_blank\">Ars Technica</a>). Not for much longer, it seems, as US transportation secretary Sean P. Duffy has announced the widespread rollout of their long-overdue replacement.</p><p>\"Good news America: floppy disks are out, 21st century tech is in,\" <a href=\"https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-begins-retiring-decades-old-floppy-disks-air\" target=\"_blank\">s"
+        }
+      ],
+      "keywords": [
+        "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage",
+        "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage date de sortie",
+        "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage plateformes",
+        "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage gameplay",
+        "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage guide",
+        "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-golden-joystick-awards-return-this-wednesday-here-s-f797d28c830d",
+      "topic": "The Golden Joystick Awards return this Wednesday—here's how to watch them",
+      "detected_at": "2026-11-09T23:34:49.501768+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/events-conferences/the-golden-joystick-awards-return-this-wednesday-heres-how-to-watch-them/",
+          "title": "The Golden Joystick Awards return this Wednesday—here's how to watch them",
+          "evidence": "<article> <p>Friends, it's once again time to set sail on the stormy seas of democracy and answer a vital question: which are the best games of 2026 according to a set of 22 distinct categories? Also there are three other categories, but they're chosen by judges and not the public, so it's less the stormy seas of democracy and more the technocratic autobahn of experience-based decision-making.</p><p>It's time for the Golden Joystick Awards 2026, is what I'm saying, and you (yes, you) are invited to watch when the big show airs at <strong>10 am PT / 1 pm ET / 6 pm GMT / 7 pm CEST on Wednesday, November 11, 2026.</strong></p><p>This year's host is Alix Wilton Regan, most recently the voice of Lara Croft in Tomb Raider: Legacy of Atlantis, but most notably for me the voice of Alt Cunningham in Cyberpunk 2077, Specialist Traynor in Mass Effect 3, and Loghain's lieutenant Cauthrien in Dragon Age: Origins. Real heads know. </p><p>The show goes out on every streaming platform you've heard of and perhaps a few you haven't. You can watch the ceremony live via <a href=\"https://www.youtube.com/@GamesRadar\" target=\"_blank\">YouTube</a>, <a href=\"https://www.twitch.tv/goldenjoystickawards\" targe"
+        }
+      ],
+      "keywords": [
+        "The Golden Joystick Awards return this Wednesday—here's how to watch them",
+        "The Golden Joystick Awards return this Wednesday—here's how to watch them date de sortie",
+        "The Golden Joystick Awards return this Wednesday—here's how to watch them plateformes",
+        "The Golden Joystick Awards return this Wednesday—here's how to watch them gameplay",
+        "The Golden Joystick Awards return this Wednesday—here's how to watch them guide",
+        "The Golden Joystick Awards return this Wednesday—here's how to watch them avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-pillars-of-ai-are-shaking-beneath-our-feet-268515cd4e88",
+      "topic": "The pillars of AI are shaking beneath our feet",
+      "detected_at": "2026-11-09T23:34:49.502056+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/the-pillars-of-ai-are-shaking-beneath-our-feet/",
+          "title": "The pillars of AI are shaking beneath our feet",
+          "evidence": "<article> <p>I've spent far too much of my life covering the rampant ascent of AI. A juggernaut of tech development, destined to change the world into some sort of sci-fi utopia (if you believe its advocates) or fated to come crashing down around our ears, <a href=\"https://www.pcgamer.com/software/ai/worlds-top-banker-says-the-ai-bubble-will-burst-and-shedloads-of-money-will-probably-be-lost/\" target=\"_blank\">taking a large chunk of the world economy with it</a>. Or the end of the world as we know it, <a href=\"https://www.pcgamer.com/software/ai/ex-anthropic-researcher-argues-ai-progress-could-kill-us-all-by-the-end-of-the-decade-and-progress-is-not-slowing/\" target=\"_blank\">according to some</a>.</p><p>And now, the pillars upon which the AI revolution sits seem to be shaking beneath it. The most recent tremors began with <a href=\"https://www.pcgamer.com/software/ai/the-ai-bubble-may-not-have-burst-yet-but-usd1-trillion-worth-of-air-appears-to-have-escaped/\" target=\"_blank\">the wobbling of US AI-led tech stocks</a> in mid-October, after <a href=\"https://theweek.com/business/markets/why-chinas-ai-bubble-is-bursting\" target=\"_blank\">a similar descent in China</a> earlier this year. T"
+        }
+      ],
+      "keywords": [
+        "The pillars of AI are shaking beneath our feet",
+        "The pillars of AI are shaking beneath our feet date de sortie",
+        "The pillars of AI are shaking beneath our feet plateformes",
+        "The pillars of AI are shaking beneath our feet gameplay",
+        "The pillars of AI are shaking beneath our feet guide",
+        "The pillars of AI are shaking beneath our feet avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-great-news-nier-automata-s-install-size-is-no-longer-7x-f3df3c155e23",
+      "topic": "Great news! Nier: Automata's install size is no longer 7x bigger than it should be (it was 366 GB)",
+      "detected_at": "2026-11-09T23:34:49.502217+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/great-news-nier-automatas-install-size-is-no-longer-7x-bigger-than-it-should-be-it-was-366-gb/",
+          "title": "Great news! Nier: Automata's install size is no longer 7x bigger than it should be (it was 366 GB)",
+          "evidence": "<article> <p>Last Friday, the very good RPG <a href=\"https://www.pcgamer.com/uk/nier-automata/\">Nier: Automata</a> underwent what the scientific community calls 'puffer-fishification'. That is to say, it suddenly and inexplicably ballooned to over 700% of its original download size, as an update magically transformed the game from a reedy 50 GB lightweight into a 366-GB behemoth.</p><p>But it has since hit the Ozempic and is now back down to its regular size. \"We have identified the cause and now resolved this issue,\" tweeted the <a href=\"https://x.com/NieRGame/status/2119736359367905611\" target=\"_blank\">official Nier X account</a> earlier today. \"Apologies for any inconvenience caused.\"</p><p>Notably absent from the bugfix notice was any explanation as to just what had happened. It might be academic at this point, but I for one would love to know how you accidentally make a game seven times bigger without anything changing. </p><p>Squenix is keeping schtum, but Rick Lane suggested, in <a href=\"https://www.pcgamer.com/games/rpg/nier-automata-developer-is-currently-investigating-a-bizarre-update-bug-that-drastically-inflated-the-games-file-size-from-50gb-to-366gb/\">our article last "
+        }
+      ],
+      "keywords": [
+        "Great news! Nier: Automata's install size is no longer 7x bigger than it should be (it was 366 GB)",
+        "Great news! Nier: Automata's install size is no longer 7x bigger than it should be (it was 366 GB) date de sortie",
+        "Great news! Nier: Automata's install size is no longer 7x bigger than it should be (it was 366 GB) plateformes",
+        "Great news! Nier: Automata's install size is no longer 7x bigger than it should be (it was 366 GB) gameplay",
+        "Great news! Nier: Automata's install size is no longer 7x bigger than it should be (it was 366 GB) guide",
+        "Great news! Nier: Automata's install size is no longer 7x bigger than it should be (it was 366 GB) avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-skyrim-lead-designer-gives-the-most-succinct-summary-of-d73b14f2aae6",
+      "topic": "Skyrim lead designer gives the most succinct summary of Bethesda's design I've ever heard: 'You're not playing my game, I'm making your game'",
+      "detected_at": "2026-11-09T23:34:49.502381+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/skyrim-lead-designer-gives-the-most-succinct-summary-of-bethesdas-design-ive-ever-heard-youre-not-playing-my-game-im-making-your-game/",
+          "title": "Skyrim lead designer gives the most succinct summary of Bethesda's design I've ever heard: 'You're not playing my game, I'm making your game'",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/10mvuCMbc9Y\" allowfullscreen=\"\"></iframe></div></div><p>Skyrim lead designer Bruce Nesmith had a wide-ranging chat with The Examined Game recently, touching upon topics like <a href=\"https://www.pcgamer.com/games/the-elder-scrolls/lead-designer-bruce-nesmith-says-skyrim-was-a-hit-because-it-was-built-on-institutional-knowledge-from-oblivion/\">the importance of institutional knowledge</a>, what he liked about Baldur's Gate 3, and what he <a href=\"https://www.pcgamer.com/games/the-elder-scrolls/skyrims-lead-designer-has-2-big-asks-of-the-elder-scrolls-6-sentinel-and-only-one-of-them-is-something-most-players-have-ever-thought-about/\">wants to see in The Elder Scrolls 6: Sentinel</a>. But he also dropped a pithy maxim (and less pithy explanation) about his—and Bethesda's—approach to design in general. Here's what he said.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-ON92mW\"></div> </div> <script src=\"https://kwizly.com/embed/ON92mW.js\" async=\"\"></script><div class=\"product\"><a data-dimension112=\""
+        }
+      ],
+      "keywords": [
+        "Skyrim lead designer gives the most succinct summary of Bethesda's design I've ever heard: 'You're not playing my game, I'm making your game'",
+        "Skyrim lead designer gives the most succinct summary of Bethesda's design I've ever heard: 'You're not playing my game, I'm making your game' date de sortie",
+        "Skyrim lead designer gives the most succinct summary of Bethesda's design I've ever heard: 'You're not playing my game, I'm making your game' plateformes",
+        "Skyrim lead designer gives the most succinct summary of Bethesda's design I've ever heard: 'You're not playing my game, I'm making your game' gameplay",
+        "Skyrim lead designer gives the most succinct summary of Bethesda's design I've ever heard: 'You're not playing my game, I'm making your game' guide",
+        "Skyrim lead designer gives the most succinct summary of Bethesda's design I've ever heard: 'You're not playing my game, I'm making your game' avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

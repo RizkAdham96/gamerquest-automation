@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-09T10:21:11.607505+00:00",
+  "updated_at": "2026-11-09T23:34:49.871941+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -23332,6 +23332,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "How to start the Charting the Unknown DLC in Crimson Desert"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-60-million-ai-rack-cluster-listed-on-ebay-with-1-4-peta-173c13f17149",
+      "topic": "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs",
+      "detected_at": "2026-10-30T08:59:15.637695+00:00",
+      "analysed_at": "2026-11-09T23:34:49.871746+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/usd60-million-ai-rack-cluster-listed-on-ebay-with-1-4-petabytes-of-memory-and-almost-10-000-nvidia-ai-gpus/",
+          "title": "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs",
+          "evidence": "<article> <p>Who said those big AI companies have to get all the gear? If you had a cool $60 million hanging around yesterday, you could have picked up an AI supercomputer for yourself, complete with thousands of Nvidia A100 GPUs and AMD EPYC CPUs split over 300 racks. And if you went cheap, you could even get shipping for free. </p><p>Core 4 Solutions, a company that sells IT parts to companies like Amazon, Lucasfilm, Microsoft, Meta and even the US Department of Justice, <a href=\"https://www.ebay.com/itm/880041409723\" target=\"_blank\">listed the 300-rack cluster</a> on its page this week (via <a href=\"https://www.tomshardware.com/desktops/servers/it-vendor-lists-massive-usd60-million-ai-cluster-on-ebay-300x-racks-of-decommissioned-gpus-includes-9-600-nvidia-a100-gpus-and-4-200-amd-epyc-cpus-plus-free-shipping\" target=\"_blank\">Tom's Hardware</a>).</p><p>That listing says each rack includes four compute nodes, complete with eight Nvidia A100 40 GB GPUs, eight Nvidia Connect network interface cards, and two AMD EPYC 64-core CPUs. Each rack also comes with 1 TB of DDR4 memory and three 1U management nodes, complete with two EPYC CPUs. As pointed out by Tom's Hardware, this equates to "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs",
+        "secondary_keywords": [
+          "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs date de sortie",
+          "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs plateformes",
+          "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs gameplay",
+          "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs guide",
+          "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-if-kane-parsons-does-make-a-backrooms-sequel-then-it-ll-b71ae3f1fb7d",
+      "topic": "If Kane Parsons does make a Backrooms sequel then it'll be to 'poke at' aspects of the first film that 'didn't feel like it accurately spoke to the cultural core of Backrooms'",
+      "detected_at": "2026-10-30T08:59:15.637954+00:00",
+      "analysed_at": "2026-11-09T23:34:49.871795+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/movies-tv/if-kane-parsons-does-make-a-backrooms-sequel-then-itll-be-to-poke-at-aspects-of-the-first-film-that-didnt-feel-like-it-accurately-spoke-to-the-cultural-core-of-backrooms/",
+          "title": "If Kane Parsons does make a Backrooms sequel then it'll be to 'poke at' aspects of the first film that 'didn't feel like it accurately spoke to the cultural core of Backrooms'",
+          "evidence": "<article> <p>The Backrooms left me with more questions than answers, which to be fair <a href=\"https://www.pcgamer.com/games/horror/the-backrooms-film-left-me-with-more-questions-than-answers-and-thats-why-its-the-perfect-adaptation/\">is exactly what I wanted from it</a>. But, while I enjoy sustaining the mystique of this odd liminal space, I would like to see a bit more of what Parsons has to offer of his take on the backrooms—so yes, I would like a sequel. </p><p>It's still touch and go whether Parsons will even revisit The Backrooms on the silver screen, but if he did there are a couple of things he'd apparently do differently: </p><p>\"I consider it, me advancing and doubling down on the strengths that I think are more universally recognised about the core idea,\" Parsons says in an <a href=\"https://www.youtube.com/watch?v=1LemQQUuSWI\" target=\"_blank\">interview with The Kyle Buchanan Show</a>. \"Rather than doubling down on the things or points where it didn't feel like it accurately spoke to the cultural core of Backrooms in the first film—[there are] a few little places here and there, that I would personally go out of my way to poke at a little bit.\" </p><figure class=\"van-imag"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "If Kane Parsons does make a Backrooms sequel then it'll be to 'poke at' aspects of the first film that 'didn't feel like it accurately spoke to the cultural core of Backrooms'",
+        "secondary_keywords": [
+          "If Kane Parsons does make a Backrooms sequel then it'll be to 'poke at' aspects of the first film that 'didn't feel like it accurately spoke to the cultural core of Backrooms' date de sortie",
+          "If Kane Parsons does make a Backrooms sequel then it'll be to 'poke at' aspects of the first film that 'didn't feel like it accurately spoke to the cultural core of Backrooms' plateformes",
+          "If Kane Parsons does make a Backrooms sequel then it'll be to 'poke at' aspects of the first film that 'didn't feel like it accurately spoke to the cultural core of Backrooms' gameplay",
+          "If Kane Parsons does make a Backrooms sequel then it'll be to 'poke at' aspects of the first film that 'didn't feel like it accurately spoke to the cultural core of Backrooms' guide",
+          "If Kane Parsons does make a Backrooms sequel then it'll be to 'poke at' aspects of the first film that 'didn't feel like it accurately spoke to the cultural core of Backrooms' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "If Kane Parsons does make a Backrooms sequel then it'll be to 'poke at' aspects of the first film that 'didn't feel like it accurately spoke to the cultural core of Backrooms'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-over-12-million-worth-of-ai-chips-seized-by-malaysian-a-74b06489fdb9",
+      "topic": "Over $12 million worth of AI chips seized by Malaysian authorities after suspected smuggling syndicate tries to sneak servers through customs under false pretenses",
+      "detected_at": "2026-10-30T08:59:15.638230+00:00",
+      "analysed_at": "2026-11-09T23:34:49.871822+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/over-usd12-million-worth-of-ai-chips-seized-by-malaysian-authorities-after-suspected-smuggling-syndicate-tries-to-sneak-servers-through-customs-under-false-pretenses/",
+          "title": "Over $12 million worth of AI chips seized by Malaysian authorities after suspected smuggling syndicate tries to sneak servers through customs under false pretenses",
+          "evidence": "<article> <p>Malaysian customs have shared this week that $12.11 million worth of AI chips were discovered during an inspection. A total of 30 server units, each featuring cutting edge AI chips, were seized from Kuala Lumpur ​International Airport on October 15.</p><p>The servers originated from and were to be exported to two different, undisclosed Asian countries, <a href=\"https://www.reuters.com/world/china/ai-chips-worth-121-million-seized-malaysia-airport-customs-authority-says-2026-10-28/\" target=\"_blank\">according to Reuters</a>. This should have required a trade permit, though the airport's customs director Aspalila Ag Tuah explained this week, \"The ‌servers ⁠were falsely declared as electronic components... and shipped through Malaysia to ensure there would be no restrictions imposed while being exported to the next destination.\"</p><p>A Malaysian firm facilitating the movement of the servers has been called upon to assist in the investigation, though local authorities suspect this goes beyond them. This latest smuggling attempt is thought to be connected to at least five other similar cases involving nearly $25 million worth of chips in total.</p><div style=\"min-height: 25"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Over $12 million worth of AI chips seized by Malaysian authorities after suspected smuggling syndicate tries to sneak servers through customs under false pretenses",
+        "secondary_keywords": [
+          "Over $12 million worth of AI chips seized by Malaysian authorities after suspected smuggling syndicate tries to sneak servers through customs under false pretenses date de sortie",
+          "Over $12 million worth of AI chips seized by Malaysian authorities after suspected smuggling syndicate tries to sneak servers through customs under false pretenses plateformes",
+          "Over $12 million worth of AI chips seized by Malaysian authorities after suspected smuggling syndicate tries to sneak servers through customs under false pretenses gameplay",
+          "Over $12 million worth of AI chips seized by Malaysian authorities after suspected smuggling syndicate tries to sneak servers through customs under false pretenses guide",
+          "Over $12 million worth of AI chips seized by Malaysian authorities after suspected smuggling syndicate tries to sneak servers through customs under false pretenses avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Over $12 million worth of AI chips seized by Malaysian authorities after suspected smuggling syndicate tries to sneak servers through customs under false pretenses"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-it-s-so-much-easier-to-steal-this-than-to-rob-a-bank-10-65d8e6c50dd0",
+      "topic": "'It’s so much easier to steal this than to rob a bank': $100,000,000+ worth of AI data center freight reportedly stolen since June",
+      "detected_at": "2026-10-30T08:59:15.638578+00:00",
+      "analysed_at": "2026-11-09T23:34:49.871859+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/its-so-much-easier-to-steal-this-than-to-rob-a-bank-usd100-000-000-worth-of-ai-data-center-freight-reportedly-stolen-since-june/",
+          "title": "'It’s so much easier to steal this than to rob a bank': $100,000,000+ worth of AI data center freight reportedly stolen since June",
+          "evidence": "<article> <p>AI data centers are springing up across the US at an unprecedented rate, and with them comes a number of problems. Aside from the <a href=\"https://www.pcgamer.com/software/ai/ny-governor-orders-a-pause-on-large-ai-data-center-construction-to-ensure-that-when-companies-succeed-because-of-new-york-new-yorkers-succeed-too/\" target=\"_blank\">noise, disruption, and environmental concerns</a>, the vast infrastructure projects also require the transport of millions of dollars worth of equipment—and opportunistic thieves are cashing in.</p><p><a href=\"https://www.nbcnews.com/tech/security/grand-theft-ai-highway-thieves-are-stealing-millions-data-center-gear-rcna603733\" target=\"_blank\">An NBC News report</a> details two audacious data center equipment heists, both involving literal examples of highway robbery. A shipment carrying $13 million worth of server equipment travelling on a section of interstate through the Mojave Desert had its security escort rammed by a separate vehicle, forcing it to stop. The trailer carrying the equipment was later found at a truck yard in California, minus its valuable load.</p><p>\"The accident was not an accident,\" says Gerado Pachucha, an ex-me"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'It’s so much easier to steal this than to rob a bank': $100,000,000+ worth of AI data center freight reportedly stolen since June",
+        "secondary_keywords": [
+          "'It’s so much easier to steal this than to rob a bank': $100,000,000+ worth of AI data center freight reportedly stolen since June date de sortie",
+          "'It’s so much easier to steal this than to rob a bank': $100,000,000+ worth of AI data center freight reportedly stolen since June plateformes",
+          "'It’s so much easier to steal this than to rob a bank': $100,000,000+ worth of AI data center freight reportedly stolen since June gameplay",
+          "'It’s so much easier to steal this than to rob a bank': $100,000,000+ worth of AI data center freight reportedly stolen since June guide",
+          "'It’s so much easier to steal this than to rob a bank': $100,000,000+ worth of AI data center freight reportedly stolen since June avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'It’s so much easier to steal this than to rob a bank': $100,000,000+ worth of AI data center freight reportedly stolen since June"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-morale-has-been-terrible-at-ea-workers-claim-saying-tha-2955b1abcdd0",
+      "topic": "'Morale has been terrible' at EA, workers claim, saying that AI mandates and mismanagement have left the company 'a cold dead place that's slowly decaying as leadership pilfers every last cent'",
+      "detected_at": "2026-10-30T08:59:15.638877+00:00",
+      "analysed_at": "2026-11-09T23:34:49.871884+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/morale-has-been-terrible-at-ea-workers-claim-saying-that-ai-mandates-and-mismanagement-have-left-the-company-a-cold-dead-place-thats-slowly-decaying-as-leadership-pilfers-every-last-cent/",
+          "title": "'Morale has been terrible' at EA, workers claim, saying that AI mandates and mismanagement have left the company 'a cold dead place that's slowly decaying as leadership pilfers every last cent'",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/gaming-industry/rip-bioware-ea-has-shut-down-the-legendary-rpg-developer/\">EA took the axe to BioWare last week</a> after a long, slow death partially born of mandates to either work on live service games that didn't work (Anthem) or pivot from live service games in messy, chaotic development cycles (Veilguard). A report from <a href=\"https://www.verticalslice.news/ea-workers-decry-mismanagement-and-corporate-greed-after-mass-layoffs/\" target=\"_blank\">Vertical Slice</a> now also claims that its employee morale is at an all-time low.</p><p>Speaking to the site's Chris Kerr, choosing to remain anonymous, sources state that \"Morale has been terrible. The line we kept hearing is 'do less, better' but it just felt like we were doing the same amount with less people.\"</p><p>It doesn't help that \"upper management was very excited about Claude and the possibilities of [generative] AI, much to the chagrin of my team.\" It's not entirely shocking that generative AI is exciting the executive class—and, to give credit where it's perhaps undue, there are places in which the use of AI could, if applied conservatively, save on busywork.</p><p>But in an"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'Morale has been terrible' at EA, workers claim, saying that AI mandates and mismanagement have left the company 'a cold dead place that's slowly decaying as leadership pilfers every last cent'",
+        "secondary_keywords": [
+          "'Morale has been terrible' at EA, workers claim, saying that AI mandates and mismanagement have left the company 'a cold dead place that's slowly decaying as leadership pilfers every last cent' date de sortie",
+          "'Morale has been terrible' at EA, workers claim, saying that AI mandates and mismanagement have left the company 'a cold dead place that's slowly decaying as leadership pilfers every last cent' plateformes",
+          "'Morale has been terrible' at EA, workers claim, saying that AI mandates and mismanagement have left the company 'a cold dead place that's slowly decaying as leadership pilfers every last cent' gameplay",
+          "'Morale has been terrible' at EA, workers claim, saying that AI mandates and mismanagement have left the company 'a cold dead place that's slowly decaying as leadership pilfers every last cent' guide",
+          "'Morale has been terrible' at EA, workers claim, saying that AI mandates and mismanagement have left the company 'a cold dead place that's slowly decaying as leadership pilfers every last cent' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'Morale has been terrible' at EA, workers claim, saying that AI mandates and mismanagement have left the company 'a cold dead place that's slowly decaying as leadership pilfers every last cent'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-phantom-blade-zero-dev-says-don-t-get-the-latest-nvidia-7f276e6ab76f",
+      "topic": "Phantom Blade Zero dev says don't get the latest Nvidia drivers",
+      "detected_at": "2026-10-30T08:59:15.639111+00:00",
+      "analysed_at": "2026-11-09T23:34:49.871903+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/phantom-blade-zero-dev-says-dont-get-the-latest-nvidia-drivers/",
+          "title": "Phantom Blade Zero dev says don't get the latest Nvidia drivers",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/games/action/phantom-blade-zero-vs-onimusha-way-of-the-sword/\" target=\"_blank\">Phantom Blade Zero</a>, the highly anticipated wuxia action RPG, is finally out in the world, and if you're planning on playing it on an Nvidia graphics card, maybe consider skipping the latest Nvidia driver update. Yes, that's the opposite of developer <a href=\"https://www.pcgamer.com/hardware/phantom-blade-zero-devs-say-the-game-needs-300-gb-of-free-space-for-the-pre-load-process-alongside-updated-system-requirements/\" target=\"_blank\">S-Game's pre-launch advice</a>. </p><p>Today, the <a href=\"https://store.steampowered.com/news/app/4115450/view/698779962638860721\" target=\"_blank\">Phantom Blade Zero devs took to the Steam page </a>with a post titled \"Reason and Madness\" recounting the history of the dev team, previous works, and how Phantom Blade Zero came to be. This is followed up with three announcements: a recommendation to download the 5 GB day one patch, encouragement to try the game on handhelds and lower-end/mid-range PCs, and, finally, advice not to use the latest Nvidia driver, 621.01. </p><p>It says, \"Based on our testing, version 617.42 currently"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Phantom Blade Zero dev says don't get the latest Nvidia drivers",
+        "secondary_keywords": [
+          "Phantom Blade Zero dev says don't get the latest Nvidia drivers date de sortie",
+          "Phantom Blade Zero dev says don't get the latest Nvidia drivers plateformes",
+          "Phantom Blade Zero dev says don't get the latest Nvidia drivers gameplay",
+          "Phantom Blade Zero dev says don't get the latest Nvidia drivers guide",
+          "Phantom Blade Zero dev says don't get the latest Nvidia drivers avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Phantom Blade Zero dev says don't get the latest Nvidia drivers"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-new-games-in-2027-fable-final-fantasy-7-and-maybe-gta-6-d3abdbfca62a",
+      "topic": "New games in 2027: Fable, Final Fantasy 7, and (maybe) GTA 6 on PC",
+      "detected_at": "2026-10-30T19:42:26.049178+00:00",
+      "analysed_at": "2026-11-09T23:34:49.871920+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/new-pc-games-2027/",
+          "title": "New games in 2027: Fable, Final Fantasy 7, and (maybe) GTA 6 on PC",
+          "evidence": "<article> <p>I've made peace with our <a href=\"https://www.pcgamer.com/games/new-pc-games-2026/\">2026 list</a> and accepted that a few of my most anticipated releases may wind up on our <strong>new PC games 2027</strong> calendar instead. That's good news for me—legend has it I cannot be slain by my enemies until I've played Gen Atlas, Blight, and The Expanse RPG. Oddly specific win conditions, I know. </p><p>My picks remain dateless, much like Grand Theft Auto 6 on PC, but other 2027 release dates are starting to trickle in with Fable, Exodus, and Final Fantasy 7 Revelation among the early headliners. Here's hoping your favorites get penciled in soon, too. Until then, here's our new PC games 2027 calendar.</p><div class=\"product\"><a data-dimension112=\"80a76a1c-d3f3-11f1-825c-3dd6d139503b\" data-action=\"Deal Block\" data-label=\"Videogame movies and shows\" data-dimension48=\"Videogame movies and shows\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:400px;\"><p class=\"vanilla-image-block\" style=\"padding-top:100.00%;\"><img id=\"rWzDcfhCNZ96qKB7XkXTbF\" name=\"Tomb-Raider-Square\" caption=\""
+        }
+      ],
+      "seo": {
+        "primary_keyword": "New games in 2027: Fable, Final Fantasy 7, and (maybe) GTA 6 on PC",
+        "secondary_keywords": [
+          "New games in 2027: Fable, Final Fantasy 7, and (maybe) GTA 6 on PC date de sortie",
+          "New games in 2027: Fable, Final Fantasy 7, and (maybe) GTA 6 on PC plateformes",
+          "New games in 2027: Fable, Final Fantasy 7, and (maybe) GTA 6 on PC gameplay",
+          "New games in 2027: Fable, Final Fantasy 7, and (maybe) GTA 6 on PC guide",
+          "New games in 2027: Fable, Final Fantasy 7, and (maybe) GTA 6 on PC avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "New games in 2027: Fable, Final Fantasy 7, and (maybe) GTA 6 on PC"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-star-trek-online-players-are-holding-public-vigils-to-m-810be20f4f7d",
+      "topic": "Star Trek Online players are holding public vigils to mourn Patrick Stewart",
+      "detected_at": "2026-10-30T19:42:26.049518+00:00",
+      "analysed_at": "2026-11-09T23:34:49.871937+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mmo/star-trek-online-players-are-holding-public-vigils-to-mourn-patrick-stewart/",
+          "title": "Star Trek Online players are holding public vigils to mourn Patrick Stewart",
+          "evidence": "<article> <p>Yesterday, the world received the sad news that legendary stage and screen actor <a href=\"https://www.pcgamer.com/movies-tv/patrick-stewart-star-trek-and-shakespeare-legend-has-died/\" target=\"_blank\">Patrick Stewart had died</a> at the age of 86 following a \"brief and poignant journey with Alzheimer's Disease and Lewy Body Dementia.\" His passing has triggered an internet-wide celebration of his life—particularly from Star Trek fans honoring his tenure as The Next Generation's Captain Jean-Luc Picard.</p><p>While countless social media posts have already been penned in Stewart's memory, a subset of Trekkies are grieving together in the shared virtual spaces of Star Trek Online, the modest MMO that's <a href=\"https://www.pcgamer.com/games/mmo/after-outliving-6-star-trek-tv-shows-star-trek-online-deserves-more-love/\" target=\"_blank\">still keeping the lights</a> on 16 years after its 2010 launch. With orbital starship flotillas and starbase torchlight vigils, STO's humble playerbase is turning out to mourn one of its most beloved figures—just as it had done earlier this week for <a href=\"https://www.pcgamer.com/movies-tv/walter-koenig-star-treks-pavel-chekhov-has-died/\" ta"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Star Trek Online players are holding public vigils to mourn Patrick Stewart",
+        "secondary_keywords": [
+          "Star Trek Online players are holding public vigils to mourn Patrick Stewart date de sortie",
+          "Star Trek Online players are holding public vigils to mourn Patrick Stewart plateformes",
+          "Star Trek Online players are holding public vigils to mourn Patrick Stewart gameplay",
+          "Star Trek Online players are holding public vigils to mourn Patrick Stewart guide",
+          "Star Trek Online players are holding public vigils to mourn Patrick Stewart avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Star Trek Online players are holding public vigils to mourn Patrick Stewart"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

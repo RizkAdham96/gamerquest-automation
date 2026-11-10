@@ -1,0 +1,84 @@
+{
+  "source_id": "b1bb32a3924da6b69cf8ee518826dcb18fafe06500fdf26fe6d6ac3bc8728161",
+  "carousel_version": "c4dc7a3431c779ef0f8806c249712c14a5baa64ecac2bfc4a193205cff4528b0",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    981,
+    982,
+    983
+  ],
+  "prepared_at_utc": "2026-11-10T18:49:01.299591Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "b1bb32a3924da6b69cf8ee518826dcb18fafe06500fdf26fe6d6ac3bc8728161",
+    "source_title": "Petit Planet : tout savoir sur le jeu cosy de HoYoverse (gameplay, microtransactions, multijoueur)",
+    "score": 76.5,
+    "idea": {
+      "source_id": "b1bb32a3924da6b69cf8ee518826dcb18fafe06500fdf26fe6d6ac3bc8728161",
+      "topic": "Petit Planet – le nouveau simulateur de vie galactique de HoYoverse",
+      "angle": "Mise en avant du gameplay cosy et de la monétisation sans gacha",
+      "format": "did_you_know",
+      "hook": "Saviez‑vous que Petit Planet propose une expérience sociale riche sans aucune mécanique de gacha ? Découvrez comment jouer en toute sérénité !",
+      "freshness": 9,
+      "click_potential": 8,
+      "curiosity": 7,
+      "shareability": 6,
+      "originality": 7,
+      "gamerquest_relevance": 9,
+      "total_score": 76.5
+    },
+    "carousel": {
+      "topic": "Petit Planet – le nouveau simulateur de vie galactique de HoYoverse",
+      "angle": "Mise en avant du gameplay cosy et de la monétisation sans gacha",
+      "format": "did_you_know",
+      "hook": "Saviez‑vous que Petit Planet propose une expérience sociale riche sans aucune mécanique de gacha ? Découvrez comment jouer en toute sérénité !",
+      "score": 76.5,
+      "slides": [
+        {
+          "title": "Un univers cosy sans gacha",
+          "body": "Saviez‑vous que Petit Planet offre une expérience sociale riche sans aucune mécanique de tirage aléatoire ?",
+          "visual_prompt": "Scène spatiale pastel montrant des planètes mignonnes et des avatars de joueurs échangeant des objets, ambiance chaleureuse et détendue"
+        },
+        {
+          "title": "Monétisation sans tirage aléatoire",
+          "body": "Le jeu propose des microtransactions transparentes, loin des gacha, pour personnaliser votre vaisseau et votre colonie sans surprise.",
+          "visual_prompt": "Interface de boutique du jeu affichant des achats cosmétiques clairs, sans icônes de loot box, style doux et convivial"
+        },
+        {
+          "title": "Multijoueur riche et serein",
+          "body": "Explorez la galaxie avec d’autres joueurs dans un cadre social développé. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Groupes de joueurs réunis autour d’une station spatiale, échangeant des ressources, ambiance collaborative et paisible"
+        }
+      ],
+      "caption": "Petit Planet propose une aventure galactique cosy, sans gacha et avec une monétisation claire. Découvrez comment profiter pleinement du jeu !",
+      "cta": "En savoir plus sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest",
+        "#PetitPlanet",
+        "#HoYoverse",
+        "#GamingCosy",
+        "#SansGacha"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "b1bb32a3924da6b69cf8ee518826dcb18fafe06500fdf26fe6d6ac3bc8728161"
+    },
+    "caption": "Petit Planet propose une aventure galactique cosy, sans gacha et avec une monétisation claire. Découvrez comment profiter pleinement du jeu !",
+    "hashtags": [
+      "#GamerQuest",
+      "#PetitPlanet",
+      "#HoYoverse",
+      "#GamingCosy",
+      "#SansGacha"
+    ],
+    "cta": "En savoir plus sur GamerQuest.fr",
+    "repair_attempts": 0
+  }
+}

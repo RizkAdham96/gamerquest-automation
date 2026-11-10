@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-09T23:34:49.871941+00:00",
+  "updated_at": "2026-11-10T10:25:17.712418+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -23644,6 +23644,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Star Trek Online players are holding public vigils to mourn Patrick Stewart"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-a-daedalic-adventure-classic-is-free-on-gog-dcc2a1d710ca",
+      "topic": "A Daedalic adventure classic is free on GOG",
+      "detected_at": "2026-10-30T19:42:26.050300+00:00",
+      "analysed_at": "2026-11-10T10:25:17.712258+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/adventure/a-daedalic-adventure-classic-is-free-on-gog/",
+          "title": "A Daedalic adventure classic is free on GOG",
+          "evidence": "<article> <p>We previewed <a href=\"https://www.pcgamer.com/a-new-beginning-preview/\" target=\"_blank\">A New Beginning</a>, a Daedalic point-and-click adventure about saving the world from environmental catastrophe, all the way back in 2011, and it seemed promising: \"Neither preachy nor educational,\" despite its ecological angle, but \"pure sci-fi, involving a clash between one magic power-source that nukes the Earth, and a race to get it replaced with another magic one that turns simple algae into the ultimate fuel.\" A good bit of time-travel, too. That's always fun.</p><p>That promise paid off in the final release—not one of Daedalic's most memorable games, but a solid point-and-clicker from a studio that was at the time beginning to establish itself as one of the masters of the genre. And all of this is relevant to you because A New Beginning: Final Cut is now free on GOG.</p><p>I'm not sure why it's free, exactly: The giveaway isn't explicitly connected to GOG's currently-underway <a href=\"https://www.gog.com/en/anniversary-sale\" target=\"_blank\">18<sup>th</sup> Anniversary Sale</a> (which is worth checking out in its own right, as always there are some very cheap deals to be had),"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "A Daedalic adventure classic is free on GOG",
+        "secondary_keywords": [
+          "A Daedalic adventure classic is free on GOG date de sortie",
+          "A Daedalic adventure classic is free on GOG plateformes",
+          "A Daedalic adventure classic is free on GOG gameplay",
+          "A Daedalic adventure classic is free on GOG guide",
+          "A Daedalic adventure classic is free on GOG avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "A Daedalic adventure classic is free on GOG"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-this-brutal-fallout-4-horror-mod-turns-the-commonwealth-b535c0229678",
+      "topic": "This brutal Fallout 4 horror mod turns the Commonwealth into Silent Hill",
+      "detected_at": "2026-10-30T19:42:26.050688+00:00",
+      "analysed_at": "2026-11-10T10:25:17.712306+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fallout/this-brutal-fallout-4-horror-mod-turns-the-commonwealth-into-silent-hill/",
+          "title": "This brutal Fallout 4 horror mod turns the Commonwealth into Silent Hill",
+          "evidence": "<article> <p>Fallout 4's overworld was always missing something that the other 3D wastelands in the series offered me: a sense of bleakness and danger. There are areas of the map, like the Glowing Sea, that managed to dial up the oppression. But the unforgiving horror mod <a href=\"https://www.whisperinghills.net/\" target=\"_blank\">Whispering Hills</a> makes the whole region eerie and mysterious. And I honestly love that.</p><div class=\"fancy-box\"><div class=\"fancy_box-title\">Presented by</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"N5WXFQSCttV6Am7CopwTzd\" name=\"Copy of 1_HeroLogo copy\" caption=\"\" alt=\"No More Room in Hell 2 logo\" src=\"https://cdn.mos.cms.futurecdn.net/N5WXFQSCttV6Am7CopwTzd-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\" /></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Torn Banner)</span></figcaption></figure><p class=\"fancy-box__body-text\">This"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "This brutal Fallout 4 horror mod turns the Commonwealth into Silent Hill",
+        "secondary_keywords": [
+          "This brutal Fallout 4 horror mod turns the Commonwealth into Silent Hill date de sortie",
+          "This brutal Fallout 4 horror mod turns the Commonwealth into Silent Hill plateformes",
+          "This brutal Fallout 4 horror mod turns the Commonwealth into Silent Hill gameplay",
+          "This brutal Fallout 4 horror mod turns the Commonwealth into Silent Hill guide",
+          "This brutal Fallout 4 horror mod turns the Commonwealth into Silent Hill avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "This brutal Fallout 4 horror mod turns the Commonwealth into Silent Hill"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-we-act-as-if-halloween-is-ours-the-best-way-to-spend-sp-e531df22cae0",
+      "topic": "'We act as if Halloween is ours': The best way to spend spooky season is within The Outlast Trials' Sinyala Facility",
+      "detected_at": "2026-10-30T19:42:26.050965+00:00",
+      "analysed_at": "2026-11-10T10:25:17.712329+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/we-act-as-if-halloween-is-ours-the-best-way-to-spend-spooky-season-is-within-the-outlast-trials-sinyala-facility/",
+          "title": "'We act as if Halloween is ours': The best way to spend spooky season is within The Outlast Trials' Sinyala Facility",
+          "evidence": "<article> <p>I like to manifest Halloween year-round, what with my favourite pastimes being horror games, movies, and books—oh, and Dressmaker currently. So when Halloween actually falls upon me I like to make it something special—crack out the real horrifying stuff that'll hit even harder. One series that's always on my list is <a href=\"https://www.pcgamer.com/uk/outlast/\">Outlast</a> thanks to its next-level gore and perfect scares, plus if I want to drag my friends into a shared nightmare there's <a href=\"https://www.pcgamer.com/uk/the-outlast-trials/\">The Outlast Trials</a> for all to enjoy.</p><p>\"Halloween has always been—even going back to the first Outlast—one of our biggest months, and it definitely kickstarts the biggest part of the year, which is October, November, and the holidays,\" Red Barrels co-founder Philippe Morin tells me. \"Those are usually the best months of the year in terms of sales. We don't control what other studios do, obviously, but we act as if Halloween is ours.\" </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:3840px;\"><p class=\"vanill"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'We act as if Halloween is ours': The best way to spend spooky season is within The Outlast Trials' Sinyala Facility",
+        "secondary_keywords": [
+          "'We act as if Halloween is ours': The best way to spend spooky season is within The Outlast Trials' Sinyala Facility date de sortie",
+          "'We act as if Halloween is ours': The best way to spend spooky season is within The Outlast Trials' Sinyala Facility plateformes",
+          "'We act as if Halloween is ours': The best way to spend spooky season is within The Outlast Trials' Sinyala Facility gameplay",
+          "'We act as if Halloween is ours': The best way to spend spooky season is within The Outlast Trials' Sinyala Facility guide",
+          "'We act as if Halloween is ours': The best way to spend spooky season is within The Outlast Trials' Sinyala Facility avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'We act as if Halloween is ours': The best way to spend spooky season is within The Outlast Trials' Sinyala Facility"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-edifier-g5-max-wireless-gaming-headset-review-997e8c42a81b",
+      "topic": "Edifier G5 Max wireless gaming headset review",
+      "detected_at": "2026-10-30T19:42:26.051757+00:00",
+      "analysed_at": "2026-11-10T10:25:17.712344+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-headsets/edifier-g5-max-review/",
+          "title": "Edifier G5 Max wireless gaming headset review",
+          "evidence": "<article> <div data-widget-type=\"review\" data-model-name=\"Edifier G5 Max\"></div><p>In the world of wireless gaming headsets, there's one spec that draws me in like a moth to a flame: battery life. Particularly 100-hour+ battery life. Wireless cans have come a long way in the last decade, but plugging them in all the time is an annoyance. If I can get away with multiple days without messing around with a cable, I usually will.</p><p>Which brings me to the <a href=\"https://www.edifier.com/global/p/gaming-headphones/g5-max\" target=\"_blank\">Edifier G5 Max</a>. Or the Edifier Hecate G5 Max, if you believe the writing on the box. It's got an astonishing \"are you really sure\" battery life spec of 305-hours, which meant I had to give it a look.</p><p>And now I've got one in my hands, I can confirm the battery life is impressive. Only the original <a href=\"https://www.pcgamer.com/hyperx-cloud-alpha-wireless-review/\" target=\"_blank\">HyperX Cloud Alpha Wireless</a> comes close. But the G5 Max, for its <a href=\"https://www.amazon.com/Edifier-Noise-Canceling-Detachable-Lighting-Compatible/dp/B0GLMSCLK5/\" target=\"_blank\">$150</a>/<a href=\"https://www.amazon.co.uk/Edifier-G5-MAX-Wireless-Headset-"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Edifier G5 Max wireless gaming headset review",
+        "secondary_keywords": [
+          "Edifier G5 Max wireless gaming headset review date de sortie",
+          "Edifier G5 Max wireless gaming headset review plateformes",
+          "Edifier G5 Max wireless gaming headset review gameplay",
+          "Edifier G5 Max wireless gaming headset review guide",
+          "Edifier G5 Max wireless gaming headset review avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Edifier G5 Max wireless gaming headset review"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-sam-altman-argues-that-it-s-bad-you-want-dram-in-your-c-71e96feb5369",
+      "topic": "Sam Altman argues that it's bad you want DRAM in your computer and not a data center, actually",
+      "detected_at": "2026-10-30T19:42:26.051954+00:00",
+      "analysed_at": "2026-11-10T10:25:17.712363+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/sam-altman-argues-that-its-bad-you-want-dram-in-your-computer-and-not-a-data-center-actually/",
+          "title": "Sam Altman argues that it's bad you want DRAM in your computer and not a data center, actually",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/iMsUcCYNKqY?start=1747\" allowfullscreen=\"\"></iframe></div></div><p>More and more, AI appears to be the reason we can't have nice things on the internet. Beyond generative models gobbling up my own and my fellow creatives' work in a bid to produce abysmally average output, AI data centres are also devouring all of the available memory. <a href=\"https://www.pcgamer.com/hardware/memory/ram-and-storage-is-ridiculously-expensive-right-now-because-of-drumroll-ai-of-course-and-theres-little-reason-to-think-prices-will-drop-any-time-soon/\" target=\"_blank\">This drives up prices and makes DRAM supply for us PC gamers pretty scarce</a>. CEO of OpenAI Sam Altman argues this is truly for the best.</p><p>Appearing on <a href=\"https://youtu.be/iMsUcCYNKqY?si=gYx2yshJ-Epnn5Z1&t=1747\" target=\"_blank\">a recent episode of the Cheeky Pint podcast</a>, Altman argued, \"From a global allocation perspective, actually it’s quite terrible to have everyone have a bunch of the world’s limited supply of DRAM sitting in their own computer, and"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Sam Altman argues that it's bad you want DRAM in your computer and not a data center, actually",
+        "secondary_keywords": [
+          "Sam Altman argues that it's bad you want DRAM in your computer and not a data center, actually date de sortie",
+          "Sam Altman argues that it's bad you want DRAM in your computer and not a data center, actually plateformes",
+          "Sam Altman argues that it's bad you want DRAM in your computer and not a data center, actually gameplay",
+          "Sam Altman argues that it's bad you want DRAM in your computer and not a data center, actually guide",
+          "Sam Altman argues that it's bad you want DRAM in your computer and not a data center, actually avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Sam Altman argues that it's bad you want DRAM in your computer and not a data center, actually"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ea-reportedly-canned-bioware-and-mass-effect-5-to-make--4bc4d711d8c5",
+      "topic": "EA reportedly canned BioWare and Mass Effect 5 to make a new Star Wars: Battlefront instead",
+      "detected_at": "2026-10-30T19:42:26.052143+00:00",
+      "analysed_at": "2026-11-10T10:25:17.712378+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mass-effect/ea-reportedly-canned-bioware-and-mass-effect-5-to-make-a-new-star-wars-battlefront-instead/",
+          "title": "EA reportedly canned BioWare and Mass Effect 5 to make a new Star Wars: Battlefront instead",
+          "evidence": "<article> <p>According to Bloomberg's sources, EA saw a new Battlefront game as a less risky investment than Mass Effect Universe. This final factor joined a host of well-discussed reasons for BioWare's unfortunate demise: Andromeda's critical reception, Anthem's live service failure, Veilguard's sales struggle (<a href=\"https://www.pcgamer.com/games/dragon-age/dragon-age-the-veilguard-is-my-third-favorite-game-of-the-year-and-i-dont-care-who-knows/\" target=\"_blank\">pretty good game though</a>), friction between the studio and EA since the very beginning, and, of course, EA's recent <a href=\"https://www.youtube.com/watch?v=ho9rZjlsyYY&list=RDho9rZjlsyYY&start_radio=1\" target=\"_blank\">Saudi-Kushner-Private Equity</a> acquisition.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Dx0b2Xbnnrc\" allowfullscreen=\"\"></iframe></div></div><p>One other added wrinkle: BioWare apparently lost its main ally at the top of the EA org chart. Entertainment and Central Development exec Laura Miele, who historically advocated for BioWare, was \"sidelined\" according to Bloomberg. EA sports e"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "EA reportedly canned BioWare and Mass Effect 5 to make a new Star Wars: Battlefront instead",
+        "secondary_keywords": [
+          "EA reportedly canned BioWare and Mass Effect 5 to make a new Star Wars: Battlefront instead date de sortie",
+          "EA reportedly canned BioWare and Mass Effect 5 to make a new Star Wars: Battlefront instead plateformes",
+          "EA reportedly canned BioWare and Mass Effect 5 to make a new Star Wars: Battlefront instead gameplay",
+          "EA reportedly canned BioWare and Mass Effect 5 to make a new Star Wars: Battlefront instead guide",
+          "EA reportedly canned BioWare and Mass Effect 5 to make a new Star Wars: Battlefront instead avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "EA reportedly canned BioWare and Mass Effect 5 to make a new Star Wars: Battlefront instead"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gta-6-s-souped-up-red-dead-redemption-2-style-morality--e5ac9d856716",
+      "topic": "GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be",
+      "detected_at": "2026-10-30T19:42:26.052384+00:00",
+      "analysed_at": "2026-11-10T10:25:17.712398+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-souped-up-red-dead-redemption-2-style-morality-system-will-scale-from-professional-to-irredeemable-so-players-can-decide-what-kind-of-criminal-they-want-to-be/",
+          "title": "GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be",
+          "evidence": "<article> <p>I may rob casinos, steal cars, and occasionally drive on the sidewalk, but I'm not a monster, and I don't want the civilians in <a href=\"https://www.pcgamer.com/uk/grand-theft-auto-6/\">Grand Theft Auto 6</a> to think I am. Well thanks to the souped-up morality system there will be a bit of space for some redemption. </p><p>Rob Nelson, Rockstar North's co-studio head and head of development went into greater detail about what GTA 6's \"Criminal Profile\" involves during an <a href=\"https://www.pcgamer.com/games/grand-theft-auto/edge-magazine-went-to-rockstar-to-see-gta-6-and-will-tell-you-all-about-in-lavish-detail-this-thursday-october-29/\">interview for Edge magazine</a> and how players will have some authority about how the world will react to them. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:3840px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"T9i3ELY2SbwqjddTenqBxK\" name=\"Ambrosia_01\" alt=\"GTA 6 location Ambrosia\" src=\"https://cdn.mos.cms.futurecdn.net/T9i3ELY2SbwqjddTenqBxK-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\""
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be",
+        "secondary_keywords": [
+          "GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be date de sortie",
+          "GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be plateformes",
+          "GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be gameplay",
+          "GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be guide",
+          "GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GTA 6's souped-up Red Dead Redemption 2-style morality system will scale from 'Professional' to 'Irredeemable' so players can decide what kind of criminal they want to be"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-screw-grand-theft-auto-6-s-supercars-i-m-here-for-leoni-44a6532003ce",
+      "topic": "Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system",
+      "detected_at": "2026-10-30T19:42:26.052624+00:00",
+      "analysed_at": "2026-11-10T10:25:17.712415+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/screw-grand-theft-auto-6s-supercars-im-here-for-leonidas-robust-public-transportation-system/",
+          "title": "Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system",
+          "evidence": "<article> <p>Yes, Grand Theft Auto is a videogame series where you drive fast cars and occasionally mow down the odd pedestrian here and there. I like that. It's nice. I am looking forward to also doing that in Grand Theft Auto 6. But the thing I'm <em>really </em>excited to do? Hop on a bus, baby.</p><p>Out of all 16(!!) pages from <a href=\"https://www.gamesradar.com/edge/gtavi-cover/\" target=\"_blank\">Edge magazine's newest megafeature</a> on Rockstar's upcoming meteor, a teeny-tiny paragraph about Leonida's public transportation system is the one that's got me feeling all giddy. Similarly to Red Dead Redemption 2, the game will feature a fully functioning train system, as well as a bunch of bus routes to help you get around Leonida the old-fashioned way. </p><p>And, according to head of development Phil Hooker, they're systems that he has extensively tested to ensure their reliability. \"I'm obsessed with making sure they always turn up,\" he told Edge. \"So, anywhere in the middle of playing, I'll just go: right, we're going to get the bus to where we're going. I've memorised all of the routes.\"</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div cl"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system",
+        "secondary_keywords": [
+          "Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system date de sortie",
+          "Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system plateformes",
+          "Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system gameplay",
+          "Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system guide",
+          "Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

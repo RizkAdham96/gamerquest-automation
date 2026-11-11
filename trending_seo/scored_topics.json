@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-10T21:00:15.609097+00:00",
+  "updated_at": "2026-11-11T09:50:51.920328+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -24268,6 +24268,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "How to complete Whence the Weeping in Phantom Blade Zero"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-spoke-to-one-of-the-world-s-only-gaming-political-sci-21ec56b4dd17",
+      "topic": "I spoke to one of the world's only gaming political scientists and he taught me how to avoid getting murdered in Arc Raiders",
+      "detected_at": "2026-10-31T18:45:14.623462+00:00",
+      "analysed_at": "2026-11-11T09:50:51.920168+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/i-spoke-to-one-of-the-worlds-only-gaming-political-scientists-and-he-taught-me-how-to-avoid-getting-murdered-in-arc-raiders/",
+          "title": "I spoke to one of the world's only gaming political scientists and he taught me how to avoid getting murdered in Arc Raiders",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Weird Weekend</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/weird-weekend/\" target=\"_blank\">Weird Weekend</a> is our regular Saturday column where we celebrate PC gaming oddities: peculiar games, strange bits of trivia, forgotten history. Pop back every weekend to find out what Jeremy, Josh, Rick and Ted have become obsessed with this time, whether it's the <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/i-embarked-on-a-mission-to-answer-the-most-important-question-in-pc-gaming-how-tall-is-garrett-from-thief/\" target=\"_blank\">canon height of Thief's Garrett</a> or that time someone in the Vatican pirated <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/sports/a-part-of-my-brain-will-always-be-dedicated-to-the-time-someone-in-the-vatican-pirated-football-manager-2013/\" target=\"_blank\">Football Manager</a>.</p></div></div><p>If you've played an extraction shooter like <a href=\"https://www.pcgamer.com/uk/arc-raiders/\" target=\"_blank\">Arc Raiders</a> or <a href=\"https://www.pcgamer.com/uk/ma"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I spoke to one of the world's only gaming political scientists and he taught me how to avoid getting murdered in Arc Raiders",
+        "secondary_keywords": [
+          "I spoke to one of the world's only gaming political scientists and he taught me how to avoid getting murdered in Arc Raiders date de sortie",
+          "I spoke to one of the world's only gaming political scientists and he taught me how to avoid getting murdered in Arc Raiders plateformes",
+          "I spoke to one of the world's only gaming political scientists and he taught me how to avoid getting murdered in Arc Raiders gameplay",
+          "I spoke to one of the world's only gaming political scientists and he taught me how to avoid getting murdered in Arc Raiders guide",
+          "I spoke to one of the world's only gaming political scientists and he taught me how to avoid getting murdered in Arc Raiders avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I spoke to one of the world's only gaming political scientists and he taught me how to avoid getting murdered in Arc Raiders"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-dune-awakening-is-getting-a-free-dlc-that-adds-a-whole--4c6fbb16fa22",
+      "topic": "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow",
+      "detected_at": "2026-10-31T18:45:14.623729+00:00",
+      "analysed_at": "2026-11-11T09:50:51.920210+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mmo/dune-awakening-is-getting-a-free-dlc-that-adds-a-whole-new-map-and-swaps-out-sand-for-snow/",
+          "title": "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow",
+          "evidence": "<article> <p>Thus far, Funcom has focussed mainly on changes to its survival MMO<a href=\"https://www.pcgamer.com/uk/dune-awakening/\" target=\"_blank\"> Dune: Awakening</a>, with the Norwegian studio<a href=\"https://www.pcgamer.com/games/survival-crafting/funcom-is-adding-a-singleplayer-mode-to-dune-awakening-and-wow-the-new-features-are-definitely-gonna-bring-me-back-to-the-game/\" target=\"_blank\"> reworking the entire game</a> to function as both a solo experience and a PvE adventure. Now that overhaul is done, however, Funcom is now set on expanding players' adventures on Arrakis, having just announced a free expansion that adds a new and completely different map to explore.</p><p>Coming in December, the<a href=\"https://store.steampowered.com/news/app/1172710/view/714542561332560354?l=english\"> Blood and Ice DLC</a> will let players depart the searing sands of Arrakis for the planet's frozen north, adding a new survival map called the Polar Sink that flips the game's central survival concept on its head. Rather than avoiding the heat, players will actively have to seek it out, while also developing new technologies to help them adapt to the extreme change in climate.</p><p>There's s"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow",
+        "secondary_keywords": [
+          "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow date de sortie",
+          "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow plateformes",
+          "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow gameplay",
+          "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow guide",
+          "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-id-software-co-director-says-the-doom-developer-is-work-23115a6ca10e",
+      "topic": "id Software co-director says the Doom developer is 'working more closely with MachineGames than ever' after Xbox laid off 'about half of our studio'",
+      "detected_at": "2026-10-31T18:45:14.624057+00:00",
+      "analysed_at": "2026-11-11T09:50:51.920232+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/id-software-co-director-says-the-doom-developer-is-working-more-closely-with-machinegames-than-ever-after-xbox-laid-off-about-half-of-our-studio/",
+          "title": "id Software co-director says the Doom developer is 'working more closely with MachineGames than ever' after Xbox laid off 'about half of our studio'",
+          "evidence": "<article> <p>Id Software has tightened its relationship with fellow shooter specialists MachineGames according to studio co-director Marty Stratton, after Xbox laid off<a href=\"https://www.pcgamer.com/gaming-industry/laid-off-id-software-artist-says-microsoft-is-nuking-the-team-into-the-dirt-and-is-now-the-size-of-a-support-studio/\" target=\"_blank\"> roughly half of the Doom developer's</a> employees earlier this year.</p><p>Stratton was asked how the studio was doing following Xbox's<a href=\"https://www.pcgamer.com/gaming-industry/xbox-is-laying-off-3-200-people-and-dumping-4-studios/\" target=\"_blank\"> massive job cuts</a> at a recent press event for<a href=\"https://www.pcgamer.com/games/fps/doom-the-dark-ages-revelations-review/\" target=\"_blank\"> Doom: The Dark Ages' Revelations DLC</a> (via<a href=\"https://www.ign.com/articles/xboxs-doom-wolfenstein-developers-working-more-closely-than-ever-following-xbox-reset-layoffs\" target=\"_blank\"> IGN</a>) and he was keen to assure everyone that things are hunky dory at the legendary FPS developer.</p><p>\"We're doing great,\" Stratton explained. \"Not to handwave the [layoffs] away … everybody knows we had about half of our studio exit as par"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "id Software co-director says the Doom developer is 'working more closely with MachineGames than ever' after Xbox laid off 'about half of our studio'",
+        "secondary_keywords": [
+          "id Software co-director says the Doom developer is 'working more closely with MachineGames than ever' after Xbox laid off 'about half of our studio' date de sortie",
+          "id Software co-director says the Doom developer is 'working more closely with MachineGames than ever' after Xbox laid off 'about half of our studio' plateformes",
+          "id Software co-director says the Doom developer is 'working more closely with MachineGames than ever' after Xbox laid off 'about half of our studio' gameplay",
+          "id Software co-director says the Doom developer is 'working more closely with MachineGames than ever' after Xbox laid off 'about half of our studio' guide",
+          "id Software co-director says the Doom developer is 'working more closely with MachineGames than ever' after Xbox laid off 'about half of our studio' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "id Software co-director says the Doom developer is 'working more closely with MachineGames than ever' after Xbox laid off 'about half of our studio'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-fast-do-you-type-and-has-playing-mmos-improved-your-4e01f7ac48c0",
+      "topic": "How fast do you type, and has playing MMOs improved your typing in any way?",
+      "detected_at": "2026-10-31T18:45:14.624330+00:00",
+      "analysed_at": "2026-11-11T09:50:51.920247+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mmo/how-fast-do-you-type-and-has-playing-mmos-improved-your-typing-in-any-way/",
+          "title": "How fast do you type, and has playing MMOs improved your typing in any way?",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Terminally Online</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PgGhmt5pTtxusaQQX3dHPF\" name=\"logo_terminally\" caption=\"\" alt=\"The Terminally Online logo.\" src=\"https://cdn.mos.cms.futurecdn.net/PgGhmt5pTtxusaQQX3dHPF-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\" /></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">This is <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/terminally-online/\" target=\"_blank\">Terminally Online</a>:<strong> </strong>PC Gamer's very own MMO column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice.</p"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How fast do you type, and has playing MMOs improved your typing in any way?",
+        "secondary_keywords": [
+          "How fast do you type, and has playing MMOs improved your typing in any way? date de sortie",
+          "How fast do you type, and has playing MMOs improved your typing in any way? plateformes",
+          "How fast do you type, and has playing MMOs improved your typing in any way? gameplay",
+          "How fast do you type, and has playing MMOs improved your typing in any way? guide",
+          "How fast do you type, and has playing MMOs improved your typing in any way? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How fast do you type, and has playing MMOs improved your typing in any way?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-anthropic-updates-claude-to-steer-it-away-from-letting--123b3b0cf683",
+      "topic": "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop",
+      "detected_at": "2026-10-31T18:45:14.624581+00:00",
+      "analysed_at": "2026-11-11T09:50:51.920263+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/anthropic-updates-claude-to-steer-it-away-from-letting-users-clone-games-following-weeks-of-steam-being-inundated-with-ai-slop/",
+          "title": "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop",
+          "evidence": "<article> <p>Anthropic has updated Claude Opus 5.5 to \"steer it away\" from letting users clone other developers' games, after weeks of Steam being overrun with AI slop and outcries from the game development community.</p><p>In an update spotted by X user<a href=\"https://x.com/addyosmani/status/2116213240363729013?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet\" target=\"_blank\"> Chasm</a> (via<a href=\"https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games?utm_source=dlvr.it&utm_medium=bluesky\" target=\"_blank\"> Game Developer</a>) Anthropic added a new rule to Claude Code's \"Rules\". Listed under \"tengu_heron_brook\", the rule reads, \"Do build original games, games in a genre, and games from the user's own designs and assets. Do not build a recreation of a specific existing game, even if it is renamed or called original.\"</p><p>The addition was later confirmed by Addy Osmani, a member of Anthropic's technical staff. In a response to Chasm's post, Osmani stated, \"We added two sentences to Claude Code's prompt on Opus 5.5 to steer it away from recreating someone else's specific game because using Claude to infringe IP"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop",
+        "secondary_keywords": [
+          "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop date de sortie",
+          "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop plateformes",
+          "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop gameplay",
+          "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop guide",
+          "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-red-barrels-co-founder-is-just-as-confused-as-we-are-as-b826165de8a5",
+      "topic": "Red Barrels' co-founder is just as confused as we are as to why no one's tried to replicate Outlast's success: 'Honestly, I don't know'",
+      "detected_at": "2026-10-31T18:45:14.624852+00:00",
+      "analysed_at": "2026-11-11T09:50:51.920279+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/horror/red-barrels-co-founder-is-just-as-confused-as-we-are-as-to-why-no-ones-tried-to-replicate-outlasts-success-honestly-i-dont-know/",
+          "title": "Red Barrels' co-founder is just as confused as we are as to why no one's tried to replicate Outlast's success: 'Honestly, I don't know'",
+          "evidence": "<article> <p>The <a href=\"https://www.pcgamer.com/uk/outlast/\">Outlast</a> series has been providing horror fans with some of the most grotesque and outrageous scenes for 13 years, and to over 50 million players. The most surprising thing about all of that, though, isn't how it's able to keep players terrified, it's that no one else has tried to capitalise on its success. </p><p>Sure, there've been games which have had their fair share of gore involved, <a href=\"https://www.pcgamer.com/how-resident-evil-7-saved-a-troubled-series/\">Resident Evil 7</a>, Harvester, or Agony are just a few that come to mind. But none of them have either managed to top the gore seen in Outlast and also achieve its continued success. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PrcTzd6CRKVNu2zBowaAe5\" name=\"The Outlast Trials screenshots\" alt=\"The Outlast Trials screenshots\" src=\"https://cdn.mos.cms.futurecdn.net/PrcTzd6CRKVNu2zBowaAe5-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1920\" height=\"1080"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Red Barrels' co-founder is just as confused as we are as to why no one's tried to replicate Outlast's success: 'Honestly, I don't know'",
+        "secondary_keywords": [
+          "Red Barrels' co-founder is just as confused as we are as to why no one's tried to replicate Outlast's success: 'Honestly, I don't know' date de sortie",
+          "Red Barrels' co-founder is just as confused as we are as to why no one's tried to replicate Outlast's success: 'Honestly, I don't know' plateformes",
+          "Red Barrels' co-founder is just as confused as we are as to why no one's tried to replicate Outlast's success: 'Honestly, I don't know' gameplay",
+          "Red Barrels' co-founder is just as confused as we are as to why no one's tried to replicate Outlast's success: 'Honestly, I don't know' guide",
+          "Red Barrels' co-founder is just as confused as we are as to why no one's tried to replicate Outlast's success: 'Honestly, I don't know' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Red Barrels' co-founder is just as confused as we are as to why no one's tried to replicate Outlast's success: 'Honestly, I don't know'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-m-100-here-for-a-more-grounded-realistic-gta-6-one-i--f5caaea28b6e",
+      "topic": "I'm 100% here for a more grounded, realistic GTA 6, one I believe won't come at the expense of its usual haphazard chaos",
+      "detected_at": "2026-10-31T18:45:14.625137+00:00",
+      "analysed_at": "2026-11-11T09:50:51.920295+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/im-100-percent-here-for-a-more-grounded-realistic-gta-6-one-i-believe-wont-come-at-the-expense-of-its-usual-haphazard-chaos/",
+          "title": "I'm 100% here for a more grounded, realistic GTA 6, one I believe won't come at the expense of its usual haphazard chaos",
+          "evidence": "<article> <p>Edge magazine unleashed <a href=\"https://www.gamesradar.com/edge/gtavi-cover/\" target=\"_blank\">a whopper of a 16-page feature all about Grand Theft Auto 6</a> earlier this week. After poring over every paragraph multiple times, one thing really stuck out to me: It feels like Rockstar is pushing for a more realistic, grounded experience.</p><p>Those two words might sound like an absolute nightmare to some GTA aficionados. It's not like the series has never known how to be serious or gritty—see Grand Theft Auto 4—but it's always facilitated chaos with relative ease. Outlandish weapons, an easily gamed wanted system, NPCs that feel more like props to be mowed down than anything with a personality. If I wanted to hop in and wreak a little criminal havoc for a while, I wouldn't find much hardship in wriggling out of trouble as soon as I was bored.</p><p>But it sounds like creating that sort of pandaemonium in GTA 6 is no longer <em>as </em>free as it once was. Police will remember what you looked like, if you were working alone or alongside an accomplice, and any weapon you were carrying. It'll use that information to fight back against the anarchy you orchestrate. It's not"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I'm 100% here for a more grounded, realistic GTA 6, one I believe won't come at the expense of its usual haphazard chaos",
+        "secondary_keywords": [
+          "I'm 100% here for a more grounded, realistic GTA 6, one I believe won't come at the expense of its usual haphazard chaos date de sortie",
+          "I'm 100% here for a more grounded, realistic GTA 6, one I believe won't come at the expense of its usual haphazard chaos plateformes",
+          "I'm 100% here for a more grounded, realistic GTA 6, one I believe won't come at the expense of its usual haphazard chaos gameplay",
+          "I'm 100% here for a more grounded, realistic GTA 6, one I believe won't come at the expense of its usual haphazard chaos guide",
+          "I'm 100% here for a more grounded, realistic GTA 6, one I believe won't come at the expense of its usual haphazard chaos avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I'm 100% here for a more grounded, realistic GTA 6, one I believe won't come at the expense of its usual haphazard chaos"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-rockstar-had-to-up-its-game-for-gta-6-gta-5-s-realism-w-862bb1e58c59",
+      "topic": "Rockstar had to up its game for GTA 6 – GTA 5's realism was already \"showing its age\" when it launched 13 years ago",
+      "detected_at": "2026-10-31T18:45:15.024084+00:00",
+      "analysed_at": "2026-11-11T09:50:51.920325+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-had-to-up-its-game-for-gta-6-because-gta-5s-realism-was-already-showing-its-age-when-it-launched-13-years-ago/",
+          "title": "Rockstar had to up its game for GTA 6 – GTA 5's realism was already \"showing its age\" when it launched 13 years ago",
+          "evidence": "<article> <p>Rockstar North boss Rob Nelson says the performance leap technology made between GTA 5 and GTA 6 meant there were some things devs just couldn't \"get away with\" as they used to.</p><p>Speaking to <a href=\"https://www.gamesradar.com/edge/gtavi-cover/\">Edge</a>, several senior figures at Rockstar delve into how the latest Grand Theft Auto game was finally made and why what worked in GTA 5 no longer held up. Much of it comes down to what you'll see in front of you, or more specifically, the graphical quality of it. Nelson tells Edge that running <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> on <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-felt-too-fast-when-rockstar-made-it-run-like-grand-theft-auto-5-due-to-the-leap-in-visual-performance-over-the-past-13-years/\">GTA 5's timings made everything feel \"too fast\"</a> for a world rendered at the level of fidelity the game pulls off, and that NPCs were equally tricky for a similar reason.</p><p>\"As the resolution of the worlds goes up, I think there are things you can't get away with in the same way,\" he explains. \"If you want a pedestrian population to behave believably, and you can stand in f"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Rockstar had to up its game for GTA 6 – GTA 5's realism was already \"showing its age\" when it launched 13 years ago",
+        "secondary_keywords": [
+          "Rockstar had to up its game for GTA 6 – GTA 5's realism was already \"showing its age\" when it launched 13 years ago date de sortie",
+          "Rockstar had to up its game for GTA 6 – GTA 5's realism was already \"showing its age\" when it launched 13 years ago plateformes",
+          "Rockstar had to up its game for GTA 6 – GTA 5's realism was already \"showing its age\" when it launched 13 years ago gameplay",
+          "Rockstar had to up its game for GTA 6 – GTA 5's realism was already \"showing its age\" when it launched 13 years ago guide",
+          "Rockstar had to up its game for GTA 6 – GTA 5's realism was already \"showing its age\" when it launched 13 years ago avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Rockstar had to up its game for GTA 6 – GTA 5's realism was already \"showing its age\" when it launched 13 years ago"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

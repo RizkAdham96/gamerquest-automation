@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-11T09:50:51.920328+00:00",
+  "updated_at": "2026-11-11T21:32:34.210174+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -24580,6 +24580,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Rockstar had to up its game for GTA 6 – GTA 5's realism was already \"showing its age\" when it launched 13 years ago"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-elder-scrolls-skyblivion-mod-faces-lawsuit-from-former--ca0dc29d247b",
+      "topic": "Elder Scrolls Skyblivion mod faces lawsuit from former volunteer, project lead urges 'Please don't turn this into any kind of witch hunt'",
+      "detected_at": "2026-11-01T09:43:50.964162+00:00",
+      "analysed_at": "2026-11-11T21:32:34.210013+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/elder-scrolls-skyblivion-mod-faces-lawsuit-from-former-volunteer-project-lead-urges-please-dont-turn-this-into-any-kind-of-witch-hunt/",
+          "title": "Elder Scrolls Skyblivion mod faces lawsuit from former volunteer, project lead urges 'Please don't turn this into any kind of witch hunt'",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/cbECoFxtaI4\" allowfullscreen=\"\"></iframe></div></div><p>The case as presented by Rebelzize seems fairly open and shut: A volunteer team being sued by a former volunteer over contributions excised from the project? There are potential material benefits to consider: Skyblivion has a level of scope and popularity that could leave participation in it as strong a resume line as shipping a commercial game. Fallout London's developers even pivoted to being their own indie studio.</p><p>But that's not a clear-cut monetary incentive, and the clout of participation is contingent on productive contribution to the project. While it is worth noting that we only have Rebelzize's accounting of events, I think there are green flags pointing to his trustworthiness:</p><ul><li>The call to action is for pro bono legal aid in line with the project's overall volunteer nature, not fundraising.</li><li>The former volunteer is not named, and Rebelzize urges against the sort of Reddit gumshoe sleuthing you see so often in these situations."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Elder Scrolls Skyblivion mod faces lawsuit from former volunteer, project lead urges 'Please don't turn this into any kind of witch hunt'",
+        "secondary_keywords": [
+          "Elder Scrolls Skyblivion mod faces lawsuit from former volunteer, project lead urges 'Please don't turn this into any kind of witch hunt' date de sortie",
+          "Elder Scrolls Skyblivion mod faces lawsuit from former volunteer, project lead urges 'Please don't turn this into any kind of witch hunt' plateformes",
+          "Elder Scrolls Skyblivion mod faces lawsuit from former volunteer, project lead urges 'Please don't turn this into any kind of witch hunt' gameplay",
+          "Elder Scrolls Skyblivion mod faces lawsuit from former volunteer, project lead urges 'Please don't turn this into any kind of witch hunt' guide",
+          "Elder Scrolls Skyblivion mod faces lawsuit from former volunteer, project lead urges 'Please don't turn this into any kind of witch hunt' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Elder Scrolls Skyblivion mod faces lawsuit from former volunteer, project lead urges 'Please don't turn this into any kind of witch hunt'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-celeste-and-towerfall-have-delisted-from-xbox-s-digital-ba157c8f7833",
+      "topic": "Celeste and TowerFall have delisted from Xbox's digital storefronts to support BDS boycott",
+      "detected_at": "2026-11-01T09:43:50.964386+00:00",
+      "analysed_at": "2026-11-11T21:32:34.210058+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/celeste-and-towerfall-have-delisted-from-xboxs-digital-storefronts-to-support-bds-boycott/",
+          "title": "Celeste and TowerFall have delisted from Xbox's digital storefronts to support BDS boycott",
+          "evidence": "<article> <p>Earlier this month, Big Walk developer House House explained why their co-op puzzle adventure <a href=\"https://www.pcgamer.com/gaming-industry/big-walk-devs-explain-why-it-isnt-on-xbox-and-likely-never-will-be-not-until-microsoft-and-or-xbox-have-been-removed-as-bds-boycott-targets/\">wouldn't be available for sale on Xbox</a>: Microsoft's gaming division is a priority target of the the Palestinian-led BDS (Boycott, Divestment, Sanctions) movement, which names the tech giant in general as a pressure target alongside Google, Amazon, and a host of <a href=\"https://bdsmovement.net/Guide-to-BDS-Boycott\" target=\"_blank\">other companies</a>. House House isn't alone in taking this action.</p><p>Narrative platformer Celeste and party fighter TowerFall have delisted from Xbox recently, and Maddy Thorson of Maddy Makes Games fame <a href=\"https://bsky.app/profile/maddymakesgames.com/post/3myzioij5vk2f\" target=\"_blank\">took to BlueSky</a> to explain why: \"For those who’re asking, yes, we delisted Celeste and TowerFall on Xbox. We did this to support the BDS boycott.\" </p><p>For reference, Microsoft gets a cut whenever it makes a sale through its proprietary digital distribution st"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Celeste and TowerFall have delisted from Xbox's digital storefronts to support BDS boycott",
+        "secondary_keywords": [
+          "Celeste and TowerFall have delisted from Xbox's digital storefronts to support BDS boycott date de sortie",
+          "Celeste and TowerFall have delisted from Xbox's digital storefronts to support BDS boycott plateformes",
+          "Celeste and TowerFall have delisted from Xbox's digital storefronts to support BDS boycott gameplay",
+          "Celeste and TowerFall have delisted from Xbox's digital storefronts to support BDS boycott guide",
+          "Celeste and TowerFall have delisted from Xbox's digital storefronts to support BDS boycott avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Celeste and TowerFall have delisted from Xbox's digital storefronts to support BDS boycott"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-final-fantasy-14-evercold-delayed-to-february-preorders-84f58980cef1",
+      "topic": "Final Fantasy 14: Evercold delayed to February, preorders start next week",
+      "detected_at": "2026-11-01T09:43:50.964581+00:00",
+      "analysed_at": "2026-11-11T21:32:34.210081+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-14-evercold-delayed-to-february-preorders-start-next-week/",
+          "title": "Final Fantasy 14: Evercold delayed to February, preorders start next week",
+          "evidence": "<article> <p>As reported by <a href=\"https://www.mmorpg.com/news/final-fantasy-xiv-evercold-delayed-till-february-2027-2000139231\" target=\"_blank\">MMORPG.com</a>, Square Enix has delayed Final Fantasy 14's Evercold expansion to February 2 from its initial January launch window. Preorders for the add-on will open up on Wednesday, November 4⁠—those preorders also come with early access to the expansion on February 19.</p><p>The news was delivered by FF14 honcho Naoki \"Yoshi-P\" Yoshida at the opening day of Final Fantasy 14's <a href=\"https://www.youtube.com/live/IUtPVmCtltY?si=36SF9WCjgtWnSxY-\" target=\"_blank\">2026 Fan Festival</a> in Tokyo. Yoshi-P explained that the team was committed to its January window, and were even \"just barely\" on track to meet that schedule. Quality concerns led Yoshi-P to make the call on three extra weeks of development time.</p><p>One month isn't enormous in the context of most game development these days, but it is fairly impactful for the audience and overall pace of updates in a live service concern like Final Fantasy 14. Evercold will be the first new expansion for Final Fantasy 14 since the release of Dawntrail in July, 2024.</p><p>From the outside,"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Final Fantasy 14: Evercold delayed to February, preorders start next week",
+        "secondary_keywords": [
+          "Final Fantasy 14: Evercold delayed to February, preorders start next week date de sortie",
+          "Final Fantasy 14: Evercold delayed to February, preorders start next week plateformes",
+          "Final Fantasy 14: Evercold delayed to February, preorders start next week gameplay",
+          "Final Fantasy 14: Evercold delayed to February, preorders start next week guide",
+          "Final Fantasy 14: Evercold delayed to February, preorders start next week avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Final Fantasy 14: Evercold delayed to February, preorders start next week"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-physical-pc-games-could-make-a-comeback-thanks-to-gog-i-f24b13c608df",
+      "topic": "Physical PC games could make a comeback thanks to GOG: \"I really hope that we'll be able to do it\"",
+      "detected_at": "2026-11-01T09:43:51.433218+00:00",
+      "analysed_at": "2026-11-11T21:32:34.210101+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/physical-pc-games-could-make-a-comeback-thanks-to-gog-i-really-hope-that-well-be-able-to-do-it/",
+          "title": "Physical PC games could make a comeback thanks to GOG: \"I really hope that we'll be able to do it\"",
+          "evidence": "<article> <p>Physical games are slowly disappearing on consoles, and they've effectively been dead on PC for decades. GOG aims to keep old games alive in a digital, DRM-free format, but the people behind the online store have bigger goals in mind. They want to let you buy physical versions of any game in the store, and while a series of legal and logistical roadblocks stand in the way of that happening, there's still hope that the plan will come to fruition.</p><p>\"Ideally, my dream would be to be able to buy physical versions of those games on GOG,\" Marcin Paczynski, GOG's senior business development and partnerships manager, tells GamesRadar+. \"You go to your shelf on GOG, you click on the game that you would like to receive a physical copy of, you order it, and it gets to you. That would be a perfect scenario.\"</p><p>Made-to-order physical PC games? That sounds like a dream to me, too. But the reason it hasn't happened yet is that it's \"a very, very complicated thing\" to build a business around. Even for an established store like GOG, running a retail business focused on physical goods is \"totally different from what we are currently doing,\" Paczynski says.</p><p>\"Because we are"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Physical PC games could make a comeback thanks to GOG: \"I really hope that we'll be able to do it\"",
+        "secondary_keywords": [
+          "Physical PC games could make a comeback thanks to GOG: \"I really hope that we'll be able to do it\" date de sortie",
+          "Physical PC games could make a comeback thanks to GOG: \"I really hope that we'll be able to do it\" plateformes",
+          "Physical PC games could make a comeback thanks to GOG: \"I really hope that we'll be able to do it\" gameplay",
+          "Physical PC games could make a comeback thanks to GOG: \"I really hope that we'll be able to do it\" guide",
+          "Physical PC games could make a comeback thanks to GOG: \"I really hope that we'll be able to do it\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Physical PC games could make a comeback thanks to GOG: \"I really hope that we'll be able to do it\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-with-gta-6-rockstar-couldn-t-just-trot-out-something-fa-0e4a8fc391ab",
+      "topic": "With GTA 6, Rockstar couldn't \"just trot out something\" fans would already expect",
+      "detected_at": "2026-11-01T09:43:51.433413+00:00",
+      "analysed_at": "2026-11-11T21:32:34.210118+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/with-gta-6-rockstar-couldnt-just-trot-out-something-fans-would-already-expect-weve-built-a-pyramid-on-everest/",
+          "title": "With GTA 6, Rockstar couldn't \"just trot out something\" fans would already expect",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> is shaping up to be a monumental release, from the sheer scale of its world to how it's expected to be the biggest game launch of all time. But those sky-high expectations were something Rockstar Games developers were very aware of during production.</p><p>Speaking exclusively to <a href=\"https://www.gamesradar.com/edge/gtavi-cover/\">Edge Magazine about the upcoming blockbuster</a>, long-time art director and one of GTA 6's lead developers Aaron Garbut explained that the studio couldn't simply put out a game that met fan expectations. After over a decade of waiting and a <a href=\"https://www.gamesradar.com/games/grand-theft-auto/rockstar-still-wont-reveal-the-cost-of-gta-6-development-but-its-definitely-not-the-previously-rumored-usd1-5-billion/\">reportedly hefty budget</a>, Rockstar needed to go above and beyond.</p><p>\"We can't just trot out something that's what people might expect, or that was the easy thing to do,\" Garbut says of the project. \"We've not compromised on the scale, the detail, the interactivity, the story, the open-world.\"</p><p>To really drive the point home, Garbut used an equally excessiv"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "With GTA 6, Rockstar couldn't \"just trot out something\" fans would already expect",
+        "secondary_keywords": [
+          "With GTA 6, Rockstar couldn't \"just trot out something\" fans would already expect date de sortie",
+          "With GTA 6, Rockstar couldn't \"just trot out something\" fans would already expect plateformes",
+          "With GTA 6, Rockstar couldn't \"just trot out something\" fans would already expect gameplay",
+          "With GTA 6, Rockstar couldn't \"just trot out something\" fans would already expect guide",
+          "With GTA 6, Rockstar couldn't \"just trot out something\" fans would already expect avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "With GTA 6, Rockstar couldn't \"just trot out something\" fans would already expect"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-there-is-no-game-preservation-with-drm-why-gog-has-spen-bcdc698fe286",
+      "topic": "\"There is no game preservation with DRM\": Why GOG has spent 18 years fighting for classic games",
+      "detected_at": "2026-11-01T09:43:51.434036+00:00",
+      "analysed_at": "2026-11-11T21:32:34.210136+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/there-is-no-game-preservation-with-drm-why-gogs-leaders-have-spent-18-years-fighting-for-classic-games/",
+          "title": "\"There is no game preservation with DRM\": Why GOG has spent 18 years fighting for classic games",
+          "evidence": "<article> <p>Game preservation takes many forms. For some, it's <a href=\"https://www.gamesradar.com/games/i-visited-a-video-game-archivist-trying-to-preserve-some-of-the-worlds-most-forgotten-history-against-all-odds-and-sometimes-even-other-gamers/\">archiving video game history in museums</a>.. For others, it's <a href=\"https://www.gamesradar.com/games/publishers-are-absolutely-terrified-preserved-video-games-would-be-used-for-recreational-purposes-so-the-us-copyright-office-has-struck-down-a-major-effort-for-game-preservation/\">fighting legal battles to make saving that history easier</a>. Still others collect consoles and TVs from out of time, to play games precisely as they were released.</p><p>But most players just want to have access to <em>their </em>classic games, and that's where GOG steps in. </p><p>The acronym once stood for Good Old Games, and while <a href=\"http://gog.com\">GOG.com</a> has long since become a prolific distributor of modern titles, the site's founding intention rings true today. Publishers are dipping into their archives for big-budget remakes, boutique developers specializing in remasters are cropping up with increasing frequency, and movements like Sto"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "\"There is no game preservation with DRM\": Why GOG has spent 18 years fighting for classic games",
+        "secondary_keywords": [
+          "\"There is no game preservation with DRM\": Why GOG has spent 18 years fighting for classic games date de sortie",
+          "\"There is no game preservation with DRM\": Why GOG has spent 18 years fighting for classic games plateformes",
+          "\"There is no game preservation with DRM\": Why GOG has spent 18 years fighting for classic games gameplay",
+          "\"There is no game preservation with DRM\": Why GOG has spent 18 years fighting for classic games guide",
+          "\"There is no game preservation with DRM\": Why GOG has spent 18 years fighting for classic games avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "\"There is no game preservation with DRM\": Why GOG has spent 18 years fighting for classic games"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-fan-made-oblivion-remake-skyblivion-runs-into-legal-tro-83401079ab63",
+      "topic": "Fan-made Oblivion remake Skyblivion runs into legal trouble with a former volunteer",
+      "detected_at": "2026-11-01T09:43:51.434245+00:00",
+      "analysed_at": "2026-11-11T21:32:34.210153+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-elder-scrolls/fan-made-oblivion-remake-skyblivion-runs-into-trouble-as-a-former-modder-is-attempting-to-sue-the-14-year-old-elder-scrolls-project/",
+          "title": "Fan-made Oblivion remake Skyblivion runs into legal trouble with a former volunteer",
+          "evidence": "<article> <p>Skyblivion (the fan-made Oblivion remake that's being rebuilt inside of Skyrim) has been a long time coming, but we might need to wait a while longer for the conversion mod to see the light of day due to a new legal issue.</p><p>One of the ambitious project's lead modders, Rebelzize, today uploaded a video about the ongoing situation. \"Recently, a former volunteer who contributed to Skyblivion's development departed the project. We want to be completely transparent with the community about what has happened since their departure,\" he explains in the description.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/cbECoFxtaI4\" allowfullscreen=\"\"></iframe></div></div><p>\"After they left the project, we had several discussions regarding the continued use and maintenance of his work. The main disagreement centered on their objection to our decompilation of parts of their work — a necessary step our team took to maintain functionality and fix issues in systems already built into the project after access to the original source code repository was revoked,\" Rebelziz"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Fan-made Oblivion remake Skyblivion runs into legal trouble with a former volunteer",
+        "secondary_keywords": [
+          "Fan-made Oblivion remake Skyblivion runs into legal trouble with a former volunteer date de sortie",
+          "Fan-made Oblivion remake Skyblivion runs into legal trouble with a former volunteer plateformes",
+          "Fan-made Oblivion remake Skyblivion runs into legal trouble with a former volunteer gameplay",
+          "Fan-made Oblivion remake Skyblivion runs into legal trouble with a former volunteer guide",
+          "Fan-made Oblivion remake Skyblivion runs into legal trouble with a former volunteer avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Fan-made Oblivion remake Skyblivion runs into legal trouble with a former volunteer"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-final-fantasy-14-evercold-s-second-job-is-the-ranged-ze-081c5e2a5ac1",
+      "topic": "Final Fantasy 14 Evercold's second job is the ranged Zephyr DPS that comes with a deadly pet bird",
+      "detected_at": "2026-11-01T09:43:51.434415+00:00",
+      "analysed_at": "2026-11-11T21:32:34.210171+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/final-fantasy/final-fantasy-14-theorists-were-right-all-along-evercolds-second-job-is-the-ranged-zephyr-dps-that-uses-crossbows-and-a-deadly-pet-bird/",
+          "title": "Final Fantasy 14 Evercold's second job is the ranged Zephyr DPS that comes with a deadly pet bird",
+          "evidence": "<article> <p>After literal <a href=\"https://www.gamesradar.com/games/final-fantasy/final-fantasy-14-evercolds-new-dps-job-will-be-revealed-in-october-but-square-enix-is-already-dropping-some-big-feathered-hints/\">months of speculation and theories</a> based on brief clues left in older trailers, Final Fantasy 14 purists have been proven right. The Evercold expansion's second new job is indeed a ranged physical DPS who uses quick-firing crossbows and a deadly pet bird in combat - and it's called Zephyr.</p><p>Announced at FF14 Fan Fest Japan, Zephyr is described as a take on a \"pet job.\" But you're not carrying around any old bird. The Zephyr's avian familiar is called the Nephele, a winged predator who can coordinate attacks with you and provide support from above for the entire party. Good positioning is crucial for this one, it seems. You can see the Zephyr in action in the new trailer below.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/qX5jtcXjmts\" allowfullscreen=\"\"></iframe></div></div><p>Just like the incoming Bastion job, you'll only be able to play Zephyr us"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Final Fantasy 14 Evercold's second job is the ranged Zephyr DPS that comes with a deadly pet bird",
+        "secondary_keywords": [
+          "Final Fantasy 14 Evercold's second job is the ranged Zephyr DPS that comes with a deadly pet bird date de sortie",
+          "Final Fantasy 14 Evercold's second job is the ranged Zephyr DPS that comes with a deadly pet bird plateformes",
+          "Final Fantasy 14 Evercold's second job is the ranged Zephyr DPS that comes with a deadly pet bird gameplay",
+          "Final Fantasy 14 Evercold's second job is the ranged Zephyr DPS that comes with a deadly pet bird guide",
+          "Final Fantasy 14 Evercold's second job is the ranged Zephyr DPS that comes with a deadly pet bird avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Final Fantasy 14 Evercold's second job is the ranged Zephyr DPS that comes with a deadly pet bird"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

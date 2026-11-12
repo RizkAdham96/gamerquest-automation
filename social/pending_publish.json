@@ -1,0 +1,76 @@
+{
+  "source_id": "6f75014524fa36e47c2ecf1894199a6c98a570c77a69fc94c754a9e606bea18d",
+  "carousel_version": "3bc5ea41fc3779e0bde4cdaad5f61ab8afd6c7e395dce952d97baee395bf3e13",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    994,
+    995,
+    996
+  ],
+  "prepared_at_utc": "2026-11-12T19:08:06.002695Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "6f75014524fa36e47c2ecf1894199a6c98a570c77a69fc94c754a9e606bea18d",
+    "source_title": "Knightica est gratuit sur Epic Games Store pendant une durée limitée",
+    "score": 77.5,
+    "idea": {
+      "source_id": "6f75014524fa36e47c2ecf1894199a6c98a570c77a69fc94c754a9e606bea18d",
+      "topic": "Knightica gratuit – Dernière chance",
+      "angle": "Compte à rebours avant la fin de la gratuité de Knightica",
+      "format": "challenge",
+      "hook": "⏳ Challenge du jour : Téléchargez Knightica avant la fin de l’offre gratuite et commencez votre aventure sans dépenser un centime !",
+      "freshness": 9,
+      "click_potential": 8,
+      "curiosity": 5,
+      "shareability": 8,
+      "originality": 7,
+      "gamerquest_relevance": 10,
+      "total_score": 77.5
+    },
+    "carousel": {
+      "topic": "Knightica gratuit – Dernière chance",
+      "angle": "Compte à rebours avant la fin de la gratuité de Knightica",
+      "format": "challenge",
+      "hook": "⏳ Challenge du jour : Téléchargez Knightica avant la fin de l’offre gratuite et commencez votre aventure sans dépenser un centime !",
+      "score": 77.5,
+      "slides": [
+        {
+          "title": "⏳ Challenge du jour !",
+          "body": "Téléchargez Knightica gratuitement sur Epic Games Store et lancez‑vous dans l’aventure sans dépenser un centime.",
+          "visual_prompt": "Illustration d'un chevalier stylisé devant une porte de donjon, ambiance médiévale, lumière dramatique"
+        },
+        {
+          "title": "Knightica gratuit maintenant",
+          "body": "Le jeu, habituellement vendu 13,49 €, est disponible gratuitement sur l’Epic Games Store.",
+          "visual_prompt": "Capture d’écran du magasin Epic Games montrant le bouton \"Obtenir\" pour Knightica, sans texte superposé"
+        },
+        {
+          "title": "Obtenez le jeu dès maintenant",
+          "body": "Récupérez Knightica sur l’Epic Games Store sans frais.",
+          "visual_prompt": "Horloge stylisée avec des aiguilles en mouvement, arrière‑plan évoquant un univers de jeu vidéo"
+        }
+      ],
+      "caption": "Profitez de Knightica gratuitement sur Epic Games Store.",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "6f75014524fa36e47c2ecf1894199a6c98a570c77a69fc94c754a9e606bea18d"
+    },
+    "caption": "Profitez de Knightica gratuitement sur Epic Games Store.",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 2
+  }
+}

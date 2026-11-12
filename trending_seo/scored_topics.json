@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-11T21:32:34.210174+00:00",
+  "updated_at": "2026-11-12T10:20:12.465529+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -24892,6 +24892,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Final Fantasy 14 Evercold's second job is the ranged Zephyr DPS that comes with a deadly pet bird"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-composer-and-designer-lena-raine-explains-how-pigstep-a-5782ea03ed4f",
+      "topic": "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"'",
+      "detected_at": "2026-11-01T19:12:40.611457+00:00",
+      "analysed_at": "2026-11-12T10:20:12.465349+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/composer-and-designer-lena-raine-explains-how-pigstep-altered-minecrafts-approach-to-music-the-prompt-i-keep-hearing-is-oh-pigstep-was-such-a-banger-that-they-want-more-bangers/",
+          "title": "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"'",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Disk Cleanup</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"DEwkbfkEmfdtjT5P9ybme\" name=\"logo_disk_cleanup\" caption=\"\" alt=\"Disk Cleanup logo\" src=\"https://cdn.mos.cms.futurecdn.net/DEwkbfkEmfdtjT5P9ybme-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\" /></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/disk-cleanup/\" target=\"_blank\">Disk Cleanup</a>, our regular weekend feature delving into the PCs of PC gaming luminaries. Come back every weekend to read a new interview, digging into the important questions, like \"How tidy is your desktop?\" and \"What game will you never uninstall?\"</p></div></div><p>Lena Raine's formative gaming experience was playing Myst "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"'",
+        "secondary_keywords": [
+          "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"' date de sortie",
+          "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"' plateformes",
+          "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"' gameplay",
+          "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"' guide",
+          "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-an-absolute-behemoth-wildly-ambitious-fps-selaco-is-get-032eb0db5f3e",
+      "topic": "'An absolute behemoth': Wildly ambitious FPS Selaco is getting a massive update that doubles its size and adds 'a heavy machinegun that fires literal explosions'",
+      "detected_at": "2026-11-01T19:12:40.611767+00:00",
+      "analysed_at": "2026-11-12T10:20:12.465399+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/an-absolute-behemoth-wildly-ambitious-fps-selaco-is-getting-a-massive-update-that-doubles-its-size-and-adds-a-heavy-machinegun-that-fires-literal-explosions/",
+          "title": "'An absolute behemoth': Wildly ambitious FPS Selaco is getting a massive update that doubles its size and adds 'a heavy machinegun that fires literal explosions'",
+          "evidence": "<article> <p>If you're a fan of first-person shooters and haven't played<a href=\"https://www.pcgamer.com/uk/selaco/\" target=\"_blank\"> Selaco</a>, you should. Built in the<a href=\"https://www.pcgamer.com/uk/doom/\"> Doom</a> engine and inspired by<a href=\"https://www.pcgamer.com/uk/tag/f-e-a-r/\" target=\"_blank\"> FEAR</a>,<a href=\"https://www.pcgamer.com/uk/half-life/\" target=\"_blank\"> Half-Life</a> and<a href=\"https://www.pcgamer.com/uk/system-shock/\" target=\"_blank\"> System Shock</a>, Selaco is a rollicking, dizzyingly ambitious sci-fi FPS where you battle a mercenary incursion of a vast, city-sized space station that's home to the last of humanity.</p><p>Launched into Steam early access in 2024, Selaco's first chapter alone is as long as some entire '90s shooters. Now, developer Altered Orbit Studios is preparing to release an update that will not only double the length of the game, but also introduce a wide array of new features and rework much of its existing design.</p><p>Described by Altered Orbit as \"an absolute behemoth\",<a href=\"https://store.steampowered.com/news/app/1592280/view/684142629662762249?l=english\" target=\"_blank\"> Selaco: The Machines of War</a> introduces the s"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'An absolute behemoth': Wildly ambitious FPS Selaco is getting a massive update that doubles its size and adds 'a heavy machinegun that fires literal explosions'",
+        "secondary_keywords": [
+          "'An absolute behemoth': Wildly ambitious FPS Selaco is getting a massive update that doubles its size and adds 'a heavy machinegun that fires literal explosions' date de sortie",
+          "'An absolute behemoth': Wildly ambitious FPS Selaco is getting a massive update that doubles its size and adds 'a heavy machinegun that fires literal explosions' plateformes",
+          "'An absolute behemoth': Wildly ambitious FPS Selaco is getting a massive update that doubles its size and adds 'a heavy machinegun that fires literal explosions' gameplay",
+          "'An absolute behemoth': Wildly ambitious FPS Selaco is getting a massive update that doubles its size and adds 'a heavy machinegun that fires literal explosions' guide",
+          "'An absolute behemoth': Wildly ambitious FPS Selaco is getting a massive update that doubles its size and adds 'a heavy machinegun that fires literal explosions' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'An absolute behemoth': Wildly ambitious FPS Selaco is getting a massive update that doubles its size and adds 'a heavy machinegun that fires literal explosions'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-chronicles-medieval-developer-faces-imminent-closure-af-5ae5e1f68bbb",
+      "topic": "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach'",
+      "detected_at": "2026-11-01T19:12:40.612074+00:00",
+      "analysed_at": "2026-11-12T10:20:12.465425+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/chronicles-medieval-developer-faces-imminent-closure-after-losing-funding-what-makes-it-hurt-is-how-close-we-are-early-access-is-in-reach/",
+          "title": "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach'",
+          "evidence": "<article> <p><a href=\"https://store.steampowered.com/app/2231020/Chronicles_Medieval/\" target=\"_blank\">Chronicles: Medieval</a> is an impressive looking open-world sandbox where players explore a dynamic Medieval world and fight in massive, authentic battles. It's been in development for more than four years and is due to launch into Steam early access early in 2027.</p><p>However, there is a very real chance this will no longer happen, as developer Raw Power Games suddenly faces closure after funding for its game was pulled.</p><p>On Friday, Raw Power Games posted a<a href=\"https://store.steampowered.com/news/app/2231020/view/683017363938871451?l=english\" target=\"_blank\"> statement</a> to Steam and on social media channels (via<a href=\"https://www.ign.com/articles/chronicles-medieval-developer-at-real-risk-of-closing-before-release-as-funding-no-longer-in-place\" target=\"_blank\"> IGN</a>), explaining how the studio has suddenly found itself in dire straits. \"Due to circumstances outside our control, the necessary funding for Raw Power Games is no longer in place,\" the studio wrote. \"Without it, we can't keep building Chronicles: Medieval, and right now the studio is at real risk of"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach'",
+        "secondary_keywords": [
+          "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach' date de sortie",
+          "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach' plateformes",
+          "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach' gameplay",
+          "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach' guide",
+          "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-it-s-not-just-steam-new-game-pages-created-per-day-on-i-5c9735788d91",
+      "topic": "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit",
+      "detected_at": "2026-11-01T19:12:40.612404+00:00",
+      "analysed_at": "2026-11-12T10:20:12.465448+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/game-development/its-not-just-steam-new-game-pages-created-per-day-on-itch-io-has-doubled-in-the-last-two-months-with-ai-slop-the-likely-culprit/",
+          "title": "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit",
+          "evidence": "<article> <p>It seems it isn't just Steam that's being flooded with AI slop. Indie games storefront<a href=\"https://itch.io/\" target=\"_blank\"> itch.io</a> has reported that the number of new game pages being created per day on the site has doubled in the past two months, and just like Valve's much bigger distribution service, the finger is being pointed at AI.</p><p>Over on Bluesky, itch.io<a href=\"https://bsky.app/profile/itch.io/post/3mz7vswlnbs23\" target=\"_blank\"> shared an image of a bar chart</a> labelled \"game events\". The chart shows that, between August 3 and October 30, the number of new game pages being created per day has risen from around 3,000 to regularly surpassing 6,000. It's a ratio that more or less<a href=\"https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/\" target=\"_blank\"> matches the increase in Steam demos showcased at the most recent Next Fest</a>, which rose from around 4,000 to over 8,000.</p><p>While Itch doesn't explicitly point the finger at AI as the cause, it heavily infers it. When Bluesky user Tommy's Homemade Games<a href=\"https://bsky.app/profile/homemadegames.bs"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit",
+        "secondary_keywords": [
+          "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit date de sortie",
+          "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit plateformes",
+          "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit gameplay",
+          "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit guide",
+          "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-m-glad-that-wow-forever-ll-have-a-slower-lo-fi-update-d676e85de0fa",
+      "topic": "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush",
+      "detected_at": "2026-11-01T19:12:40.612736+00:00",
+      "analysed_at": "2026-11-12T10:20:12.465469+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/im-glad-that-wow-foreverll-have-a-slower-lo-fi-update-schedule-because-im-not-playing-this-thing-to-be-in-a-rush/",
+          "title": "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Harvey Randall</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"Rws7mDGqrkaXrNKCH4jZ2D\" name=\"PCG Writer Illustrations 2026 Teal22 - Harvey Randall\" caption=\"\" alt=\"PC Gamer headshot - Harvey Randall\" src=\"https://cdn.mos.cms.futurecdn.net/Rws7mDGqrkaXrNKCH4jZ2D-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\" /></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">I've played about 50+ hours of the World of Warcraft: Forever beta, and wouldn't you know it, I'm going to be playing a lot more when it comes out November 4.</p></div></div><p>Earlier this week, Kris Zierhut, principal game designer on World of Warcraft: Forever, said that the game would have a <a href=\"https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-update-schedule-will"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush",
+        "secondary_keywords": [
+          "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush date de sortie",
+          "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush plateformes",
+          "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush gameplay",
+          "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush guide",
+          "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I'm glad that WoW: Forever'll have a slower, lo-fi update schedule, because I'm not playing this thing to be in a rush"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gta-6-lead-channels-the-spirit-of-skyrim-era-todd-howar-be07dc5e3e0e",
+      "topic": "GTA 6 lead channels the spirit of Skyrim-era Todd Howard: \"You can go anywhere, any random location\"",
+      "detected_at": "2026-11-01T19:12:41.078291+00:00",
+      "analysed_at": "2026-11-12T10:20:12.465488+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-lead-channels-the-spirit-of-skyrim-era-todd-howard-you-can-go-anywhere-any-random-location-and-so-many-people-have-thought-about-that-location/",
+          "title": "GTA 6 lead channels the spirit of Skyrim-era Todd Howard: \"You can go anywhere, any random location\"",
+          "evidence": "<article> <p>While Rockstar has teased the size of GTA 6's playable map a few times, the heads behind the next Grand Theft Auto outing also want you to know that it's not all hollow space. Anywhere you go, there's intentionality.</p><p>Speaking to <a href=\"https://www.gamesradar.com/edge/gtavi-cover/\">Edge</a>, Rockstar says <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-locations/\">GTA 6's map</a> is nearly as large as the combined efforts of Grand Theft Auto 4, 5, and Red Dead Redemption 2. But it doesn't stop there. While you often see procedural generation to achieve sheer size, Rockstar leans on a human touch to ensure the map is dense with interest. Rockstar North co-studio lead Aaron Garbut says <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> features \"an order of magnitude more interiors\" than what's come before.</p><p>\"Every back alley is as densely detailed and interesting as the others,\" he says. \"You can go anywhere, any random location, and so many people have thought about that location.\"</p><p>Such is the case; Garbut says he's still finding new things despite having explored the game for many years during its development.</p><p>Rockstar"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GTA 6 lead channels the spirit of Skyrim-era Todd Howard: \"You can go anywhere, any random location\"",
+        "secondary_keywords": [
+          "GTA 6 lead channels the spirit of Skyrim-era Todd Howard: \"You can go anywhere, any random location\" date de sortie",
+          "GTA 6 lead channels the spirit of Skyrim-era Todd Howard: \"You can go anywhere, any random location\" plateformes",
+          "GTA 6 lead channels the spirit of Skyrim-era Todd Howard: \"You can go anywhere, any random location\" gameplay",
+          "GTA 6 lead channels the spirit of Skyrim-era Todd Howard: \"You can go anywhere, any random location\" guide",
+          "GTA 6 lead channels the spirit of Skyrim-era Todd Howard: \"You can go anywhere, any random location\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GTA 6 lead channels the spirit of Skyrim-era Todd Howard: \"You can go anywhere, any random location\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-despite-gog-s-best-efforts-this-classic-dune-rts-is-tra-059c730e51d9",
+      "topic": "Despite GOG's best efforts this classic Dune RTS is trapped in 5-way licensing hell",
+      "detected_at": "2026-11-01T19:12:41.078535+00:00",
+      "analysed_at": "2026-11-12T10:20:12.465508+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/real-time-strategy/rts-games-wouldnt-exist-without-this-classic-dune-game-but-despite-gogs-best-efforts-its-trapped-in-5-way-licensing-hell-that-reaches-all-the-way-to-dune-awakening/",
+          "title": "Despite GOG's best efforts this classic Dune RTS is trapped in 5-way licensing hell",
+          "evidence": "<article> <p>Westwood Studios' 1992 classic Dune 2: The Building of a Dynasty – alternately known as Battle for Arrakis depending on the version – is one of the most important games ever made. It laid the foundation for the entire real-time strategy genre, and everything from Blizzard's Warcraft to Westwood's own Command & Conquer took direct inspiration from it.</p><p>So why has it never gotten a modern re-release? As it turns out, making a game based on a movie based on a novel that's now been adapted into a <em>different</em> movie with a <em>different</em> tie-in game creates something of an IP nightmare. Marcin Paczynski, senior business development and partnerships manager at GOG, has been trying to unpack this mess for some time.</p><p>\"This is one of the holy grails,\" Paczynski tells GamesRadar+. \"It's on the top of my list, my personal one, because this is a game that I have a lot of nostalgia for. The situation is a good example of how bad it can get with the licensing situation of a game.\"</p><p>Dune 2 was developed by Westwood Studios, which was eventually acquired by EA. \"So currently, Electronic Arts has the game code, the assets, all of the rights to those things, an"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Despite GOG's best efforts this classic Dune RTS is trapped in 5-way licensing hell",
+        "secondary_keywords": [
+          "Despite GOG's best efforts this classic Dune RTS is trapped in 5-way licensing hell date de sortie",
+          "Despite GOG's best efforts this classic Dune RTS is trapped in 5-way licensing hell plateformes",
+          "Despite GOG's best efforts this classic Dune RTS is trapped in 5-way licensing hell gameplay",
+          "Despite GOG's best efforts this classic Dune RTS is trapped in 5-way licensing hell guide",
+          "Despite GOG's best efforts this classic Dune RTS is trapped in 5-way licensing hell avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Despite GOG's best efforts this classic Dune RTS is trapped in 5-way licensing hell"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-overwatch-director-would-never-discount-the-return-of-p-62c93a1ccb9a",
+      "topic": "Overwatch director \"would never discount\" the return of PvE content",
+      "detected_at": "2026-11-01T19:12:41.078713+00:00",
+      "analysed_at": "2026-11-12T10:20:12.465525+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fps/overwatch-director-would-never-discount-the-return-of-pve-content-but-another-story-driven-campaign-would-need-a-whole-new-game/",
+          "title": "Overwatch director \"would never discount\" the return of PvE content",
+          "evidence": "<article> <p>The Overwatch universe is practically bursting with potential for interesting stories and cool action set pieces, perhaps ones featuring a giant talking gorilla of some kind. Game director Aaron Keller isn't ruling out the possibility of more PvE content in the future, but trying to make another full campaign is a bigger ask. </p><p>Once upon a time, Overwatch 2 was supposed to launch with an in-depth, story-driven, co-op campaign set in the Overwatch universe. Blizzard Entertainment planned to have players upgrade and modify their favorite heroes over the course of the story mode, which was promising to dramatically move the game's world forward in ways that animated shorts couldn't.</p><p><a href=\"https://www.gamesradar.com/overwatch-2-is-killing-the-pve-mode-it-was-supposed-to-be-built-around/\">Overwatch 2's campaign was eventually canceled</a> and replaced with shorter, simpler, infrequent PvE missions that were also discontinued before the hero shooter's resurgence earlier this year.</p><p>Asked about the possible return of story missions while speaking to the press, Aaron Keller said previously released PvE events drove a lot of interest that quickly died down. \""
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Overwatch director \"would never discount\" the return of PvE content",
+        "secondary_keywords": [
+          "Overwatch director \"would never discount\" the return of PvE content date de sortie",
+          "Overwatch director \"would never discount\" the return of PvE content plateformes",
+          "Overwatch director \"would never discount\" the return of PvE content gameplay",
+          "Overwatch director \"would never discount\" the return of PvE content guide",
+          "Overwatch director \"would never discount\" the return of PvE content avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Overwatch director \"would never discount\" the return of PvE content"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

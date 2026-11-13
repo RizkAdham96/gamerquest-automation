@@ -298,7 +298,20 @@ def repair_missing_featured_images(
             continue
 
         media_id = upload_media(session, base_url, image_path, metadata)
-        attach_featured_media(session, base_url, post_id, media_id)
+        try:
+            attach_featured_media(session, base_url, post_id, media_id)
+        except Exception as exc:
+            # Don't leave the uploaded file orphaned in the media library.
+            try:
+                session.delete(
+                    f"{base_url}/wp-json/wp/v2/media/{media_id}",
+                    params={"force": "true"},
+                    timeout=30,
+                )
+            except Exception:
+                pass
+            skipped.append((post_id, slug, f"WordPress refused the update: {exc}"))
+            continue
         repaired.append((post_id, slug, media_id))
         print(f"Repaired featured image: post={post_id} slug={slug} media={media_id}")
 

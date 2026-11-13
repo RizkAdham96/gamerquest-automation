@@ -1,42 +1,32 @@
 import os, re, requests
-from requests.auth import HTTPBasicAuth
 B = os.environ.get("WP_URL", "https://gamerquestfr.com").rstrip("/")
-S = requests.Session(); S.headers["User-Agent"] = "Mozilla/5.0 GamerQuest-Audit"
-A = HTTPBasicAuth(os.environ["WP_USERNAME"], os.environ["WP_APP_PASSWORD"])
-posts = []
-for page in (1, 2, 3):
-    r = S.get(f"{B}/wp-json/wp/v2/posts", params={"per_page": 100, "page": page, "_fields": "id,slug,date,featured_media,link,categories,content"}, auth=A, timeout=60)
-    if r.status_code != 200: break
-    posts += r.json()
-print("TOTAL_POSTS", len(posts))
-no_fm = [p for p in posts if not p.get("featured_media")]
-print("NO_FEATURED_MEDIA", len(no_fm))
-for p in no_fm[:80]: print("  NOFM", p["date"][:10], p["id"], p["slug"][:70], p["categories"])
-ids = sorted({p["featured_media"] for p in posts if p.get("featured_media")})
-media = {}
-for i in range(0, len(ids), 100):
-    r = S.get(f"{B}/wp-json/wp/v2/media", params={"include": ",".join(map(str, ids[i:i+100])), "per_page": 100, "_fields": "id,source_url,mime_type,media_details"}, auth=A, timeout=60)
-    for m in r.json(): media[m["id"]] = m
-print("MEDIA_FOUND", len(media), "of", len(ids))
-nosizes = 0
-for p in posts[:60]:
-    m = media.get(p.get("featured_media"))
-    if not m: 
-        if p.get("featured_media"): print("  MISSINGMEDIA", p["id"], p["slug"][:60], p["featured_media"])
-        continue
-    sizes = (m.get("media_details") or {}).get("sizes") or {}
-    if len(sizes) <= 1: nosizes += 1
-    print("  M", p["date"][:10], p["slug"][:50], "|", m.get("mime_type"), "| sizes:", ",".join(sorted(sizes))[:80], "|", m.get("source_url", "")[-60:])
-print("NO_THUMB_SIZES_IN_60", nosizes)
-noimg_body = sum(1 for p in posts if "<img" not in (p.get("content") or {}).get("rendered", ""))
-print("POSTS_WITHOUT_IMG_IN_BODY", noimg_body, "of", len(posts))
-for path in ("/", "/page/2/", "/category/actualites/"):
-    r = S.get(B + path, timeout=60); h = r.text
-    arts = re.findall(r"<article\b.*?</article>", h, re.S)
-    if not arts: arts = re.findall(r'<(?:div|li)[^>]*class="[^"]*(?:post|card|entry)[^"]*"[^>]*>.*?</(?:div|li)>', h, re.S)
-    print("PAGE", path, r.status_code, "articles:", len(arts), "without_img:", sum(1 for a in arts if "<img" not in a))
-    for a in arts:
-        if "<img" not in a:
-            t = re.search(r'href="([^"]+)"', a); print("   NOIMG", t.group(1) if t else a[:120])
-    imgs = re.findall(r'<img[^>]+>', h)
-    print("   sample imgs:", [re.sub(r"\s+", " ", x)[:220] for x in imgs[:6]])
+S = requests.Session(); S.headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130 Safari/537.36"
+bad = {}
+def check(u):
+    if u in bad: return bad[u]
+    try:
+        r = S.get(u, timeout=30, stream=True); ok = r.status_code == 200 and "image" in r.headers.get("Content-Type", ""); r.close()
+        bad[u] = None if ok else f"{r.status_code} {r.headers.get('Content-Type')}"
+    except Exception as e: bad[u] = str(e)[:80]
+    return bad[u]
+for path in ("/", "/category/actualites/", "/category/bons-plans/", "/category/guides/"):
+    r = S.get(B + path, timeout=60); print("PAGE", path, r.status_code)
+    for tag in re.findall(r"<img[^>]+>", r.text):
+        src = re.search(r'\bsrc="([^"]+)"', tag); src = src.group(1) if src else ""
+        lazy = re.search(r'data-(?:lazy-)?src="([^"]+)"', tag)
+        if src.startswith("data:") or not src:
+            print("   PLACEHOLDER src, lazy=", lazy.group(1) if lazy else None, tag[:160]); continue
+        p = check(src if src.startswith("http") else B + src)
+        if p: print("   BROKEN", p, src)
+    print("   imgs", len(re.findall(r"<img", r.text)))
+posts = S.get(f"{B}/wp-json/wp/v2/posts", params={"per_page": 12, "_fields": "link,slug"}, timeout=60).json()
+for p in posts:
+    h = S.get(p["link"], timeout=60).text
+    main = re.search(r"<main\b.*?</main>", h, re.S); main = main.group(0) if main else h
+    imgs = re.findall(r"<img[^>]+>", main)
+    real = [i for i in imgs if "gamerquest-logo" not in i]
+    srcs = [re.search(r'\bsrc="([^"]+)"', i).group(1) for i in real if re.search(r'\bsrc="([^"]+)"', i)]
+    broken = [s for s in srcs if not s.startswith("data:") and check(s)]
+    print("POST", p["slug"][:55], "| imgs in main:", len(real), "| wp-post-image:", "wp-post-image" in main, "| og:image:", bool(re.search(r'og:image"', h)), "| broken:", broken[:2])
+    if not real: print("   classes near header:", re.findall(r'class="([^"]*(?:hero|thumb|featured|entry-header|post-header)[^"]*)"', h)[:6])
+print("BROKEN_TOTAL", sum(1 for v in bad.values() if v), "of", len(bad))

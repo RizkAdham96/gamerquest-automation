@@ -198,6 +198,8 @@ def attach_featured_media(session, base_url, post_id, media_id):
         json={"featured_media": media_id},
         timeout=30,
     )
+    if getattr(response, "status_code", 200) >= 400:
+        print(f"Attach failed: post={post_id} status={response.status_code} body={response.text[:800]}")
     response.raise_for_status()
     updated = response.json()
     if int(updated.get("featured_media", 0) or 0) != int(media_id):

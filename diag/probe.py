@@ -1,17 +1,10 @@
 import os, requests
 B = os.environ["WP_URL"].rstrip("/")
 S = requests.Session(); S.auth = (os.environ["WP_USERNAME"], os.environ["WP_APP_PASSWORD"]); S.headers["User-Agent"] = "GamerQuest-GitHub-Actions/1.0"
-u = f"{B}/wp-json/wp/v2/posts/944"
-r = S.post(u, json={"status": "not-a-real-status"}, timeout=30)
-print("INVALID PARAM", r.status_code, r.text[:200])
-r = S.get(f"{B}/wp-json/wp/v2/plugins", params={"status": "active"}, timeout=30)
-print("PLUGINS", r.status_code)
-if r.ok:
-    for p in r.json(): print("  PLUGIN", p.get("plugin"), "|", p.get("name"), p.get("version"))
-else: print(r.text[:200])
-r = S.get(f"{B}/wp-json/wp/v2/themes", params={"status": "active"}, timeout=30)
-print("THEME", r.status_code, [(t.get("stylesheet"), (t.get("version"))) for t in (r.json() if r.ok else [])])
-r = S.get(f"{B}/wp-json/wp/v2/users/me", params={"context": "edit"}, timeout=30)
-print("ME", r.status_code, (r.json() if r.ok else {}).get("roles"))
-r = S.get(f"{B}/wp-json/wp/v2/posts", params={"per_page": 1, "orderby": "modified", "_fields": "id,modified,date"}, timeout=30)
-print("LAST MODIFIED POST", r.json())
+j = S.get(f"{B}/wp-json/", timeout=60).json()
+print("NAMESPACES", j.get("namespaces"))
+for route, info in j.get("routes", {}).items():
+    if "gamerquest" in route or "gq" in route.split("/")[1:2] or "vibe" in route:
+        print("ROUTE", route, [e.get("methods") for e in info.get("endpoints", [])], list((info.get("endpoints") or [{}])[0].get("args", {}).keys())[:12])
+m = S.get(f"{B}/wp-json/wp/v2/posts/944", params={"context": "edit", "_fields": "meta"}, timeout=30).json()
+print("META944", str(m)[:600])

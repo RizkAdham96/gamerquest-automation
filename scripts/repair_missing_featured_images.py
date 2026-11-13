@@ -193,11 +193,29 @@ def upload_media(session, base_url, image_path, metadata):
 
 
 def attach_featured_media(session, base_url, post_id, media_id):
+    payload = {"featured_media": media_id}
     response = session.post(
         f"{base_url}/wp-json/wp/v2/posts/{post_id}",
-        json={"featured_media": media_id},
+        json=payload,
         timeout=30,
     )
+    if getattr(response, "status_code", 200) == 400 and "empty_content" in getattr(response, "text", ""):
+        # Some setups reject an update that carries no title/content/excerpt.
+        # Resend the post's own unchanged text alongside the image.
+        current = session.get(
+            f"{base_url}/wp-json/wp/v2/posts/{post_id}",
+            params={"context": "edit", "_fields": "title,content,excerpt"},
+            timeout=30,
+        ).json() or {}
+        for field in ("title", "content", "excerpt"):
+            raw = (current.get(field) or {}).get("raw")
+            if raw:
+                payload[field] = raw
+        response = session.post(
+            f"{base_url}/wp-json/wp/v2/posts/{post_id}",
+            json=payload,
+            timeout=30,
+        )
     if getattr(response, "status_code", 200) >= 400:
         print(f"Attach failed: post={post_id} status={response.status_code} body={response.text[:800]}")
     response.raise_for_status()

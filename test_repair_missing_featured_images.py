@@ -109,3 +109,51 @@ def test_does_not_duplicate_existing_inline_image():
     figure = image_figure_html("https://example.test/new.jpg", "New")
 
     assert inject_image_after_intro(content, figure) == content
+
+
+class BrokenMediaSession(FakeSession):
+    """Post 102 has a media id whose file 404s; post 103's media loads."""
+
+    class Resp(FakeResponse):
+        def __init__(self, payload, status_code=200, headers=None):
+            super().__init__(payload)
+            self.status_code = status_code
+            self.headers = headers or {}
+
+        def close(self):
+            return None
+
+    def get(self, url, params=None, timeout=None, stream=False):
+        if url.endswith("/wp-json/wp/v2/posts"):
+            return self.Resp([
+                {"id": 102, "slug": "broken-image", "featured_media": 77},
+                {"id": 103, "slug": "good-image", "featured_media": 88},
+            ])
+        if url.endswith("/media/77"):
+            return self.Resp({"source_url": "https://example.test/gone.jpg", "mime_type": "image/jpeg"})
+        if url.endswith("/media/88"):
+            return self.Resp({"source_url": "https://example.test/ok.jpg", "mime_type": "image/jpeg"})
+        if url.endswith("gone.jpg"):
+            return self.Resp(None, 404)
+        return self.Resp(None, 200, {"Content-Type": "image/jpeg", "Content-Length": "50000"})
+
+
+def test_reuploads_featured_image_whose_file_is_broken(tmp_path):
+    Image.new("RGB", (1200, 630), (20, 20, 20)).save(tmp_path / "broken.jpg", "JPEG")
+    session = BrokenMediaSession()
+    feed_images = {
+        slug: {"filename": "broken.jpg", "alt": "", "caption": "", "description": ""}
+        for slug in ("broken-image", "good-image")
+    }
+
+    repaired, skipped = repair_missing_featured_images(
+        session, "https://example.test", feed_images,
+        images_folder=Path(tmp_path), check_media=True,
+    )
+
+    assert repaired == [(102, "broken-image", 501)]
+    assert skipped == []
+    assert session.attached == {102: 501}
+    assert verify_recent_posts_have_featured_images(
+        session, "https://example.test", check_media=True,
+    ) == [(102, "broken-image")]

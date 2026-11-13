@@ -94,6 +94,56 @@ def fetch_media(session, base_url, media_id):
     return response.json()
 
 
+def featured_media_problem(session, base_url, media_id):
+    """Return why a post's featured media is unusable, or "" when it loads.
+
+    A post can carry a featured_media id whose attachment was deleted, has
+    no file, or whose file 404s / is not an image. The theme then shows
+    no picture even though the id looks fine.
+    """
+    if int(media_id or 0) <= 0:
+        return "no featured_media"
+    try:
+        response = session.get(
+            f"{base_url}/wp-json/wp/v2/media/{media_id}",
+            params={"_fields": "id,source_url,mime_type,media_details"},
+            timeout=30,
+        )
+    except Exception as exc:
+        return f"media lookup failed: {exc}"
+    status = getattr(response, "status_code", 200)
+    if status == 404:
+        return f"media {media_id} deleted"
+    if status >= 400:
+        return f"media {media_id} lookup HTTP {status}"
+    media = response.json() or {}
+    source_url = str(media.get("source_url", "")).strip()
+    if not source_url:
+        return f"media {media_id} has no file"
+    mime = str(media.get("mime_type", "")).lower()
+    if mime and not mime.startswith("image/"):
+        return f"media {media_id} is {mime}, not an image"
+    try:
+        file_response = session.get(source_url, timeout=30, stream=True)
+    except Exception as exc:
+        return f"image file unreachable: {exc}"
+    file_status = getattr(file_response, "status_code", 200)
+    headers = getattr(file_response, "headers", {}) or {}
+    content_type = str(headers.get("Content-Type", "")).lower()
+    try:
+        file_response.close()
+    except Exception:
+        pass
+    if file_status >= 400:
+        return f"image file HTTP {file_status}: {source_url}"
+    if content_type and "image" not in content_type:
+        return f"image file is {content_type}: {source_url}"
+    length = headers.get("Content-Length")
+    if length and str(length).isdigit() and int(length) < 1024:
+        return f"image file is empty ({length} bytes): {source_url}"
+    return ""
+
+
 def upload_media(session, base_url, image_path, metadata):
     with Path(image_path).open("rb") as handle:
         response = session.post(
@@ -156,6 +206,7 @@ def repair_missing_featured_images(
     images_folder=NEWS_IMAGES_FOLDER,
     post_limit=DEFAULT_POST_LIMIT,
     max_repairs=DEFAULT_MAX_FEATURED_REPAIRS,
+    check_media=False,
 ):
     posts = fetch_recent_posts(session, base_url, post_limit)
     repaired = []
@@ -166,8 +217,15 @@ def repair_missing_featured_images(
         slug = str(post.get("slug", "")).strip()
         featured_media = int(post.get("featured_media", 0) or 0)
 
-        if not post_id or not slug or featured_media > 0:
+        if not post_id or not slug:
             continue
+        if featured_media > 0:
+            if not check_media:
+                continue
+            problem = featured_media_problem(session, base_url, featured_media)
+            if not problem:
+                continue
+            print(f"Broken featured image: post={post_id} slug={slug}: {problem}")
 
         metadata = feed_images.get(slug)
         if not metadata:
@@ -255,15 +313,20 @@ def verify_recent_posts_have_featured_images(
     session,
     base_url,
     limit=DEFAULT_POST_LIMIT,
+    check_media=False,
 ):
-    """Return recent WordPress posts that truly have no featured_media assigned."""
+    """Return recent posts with no featured image, or (check_media) one that does not load."""
     unresolved = []
     posts = fetch_recent_posts(session, base_url, limit)
     for summary in posts:
         post_id = int(summary.get("id", 0) or 0)
         featured_media = int(summary.get("featured_media", 0) or 0)
         slug = str(summary.get("slug", "")).strip()
-        if post_id and featured_media <= 0:
+        if not post_id:
+            continue
+        if featured_media <= 0:
+            unresolved.append((post_id, slug))
+        elif check_media and featured_media_problem(session, base_url, featured_media):
             unresolved.append((post_id, slug))
     return unresolved
 
@@ -284,6 +347,7 @@ def main():
         max_repairs=int(
             os.environ.get("GQ_FEATURED_IMAGE_MAX_REPAIRS", DEFAULT_MAX_FEATURED_REPAIRS)
         ),
+        check_media=True,
     )
 
     print(
@@ -297,6 +361,7 @@ def main():
         session,
         base_url,
         int(os.environ.get("GQ_FEATURED_IMAGE_POST_LIMIT", DEFAULT_POST_LIMIT)),
+        check_media=True,
     )
     if unresolved:
         details = ", ".join(f"{post_id}:{slug}" for post_id, slug in unresolved)

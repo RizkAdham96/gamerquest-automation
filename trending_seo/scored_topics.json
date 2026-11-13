@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-12T21:36:03.039509+00:00",
+  "updated_at": "2026-11-13T09:59:31.981550+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -25514,6 +25514,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Two minutes of Persona 1 remake footage seemingly leaks online"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-yakuza-creator-s-studio-and-the-game-it-was-working-on--b28b8b9e3503",
+      "topic": "Yakuza creator's studio, and the game it was working on, are now officially gone",
+      "detected_at": "2026-11-02T22:53:22.380138+00:00",
+      "analysed_at": "2026-11-13T09:59:31.981343+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/yakuza-creators-studio-and-the-game-it-was-working-on-are-now-officially-gone/",
+          "title": "Yakuza creator's studio, and the game it was working on, are now officially gone",
+          "evidence": "<article> <p>Six months after the disappearance of Nagoshi Studio's website, a Google-translated <a href=\"https://translate.google.ca/?sl=ja&tl=en&text=%E4%BB%A4%E5%92%8C%20%EE%A2%92%20%E5%B9%B4%20%EE%A2%8B%EE%A2%8B%20%E6%9C%88%20%EE%A2%8C%20%E6%97%A5%20%E6%9C%88%E6%9B%9C%E6%97%A5%20(%E5%8F%B7%E5%A4%96%E7%AC%AC%20%EE%A2%8C%EE%A2%8E%EE%A2%8A%20%E5%8F%B7)%E5%AE%98%20%E5%A0%B1%0A%E8%A7%A3%E6%95%A3%E5%85%AC%E5%91%8A%0A%E5%BD%93%E7%A4%BE%E3%81%AF%E8%A7%A3%E6%95%A3%E3%81%84%E3%81%9F%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E3%81%AE%E3%81%A7%E3%80%81%E5%BD%93%E7%A4%BE%E3%81%AB%E5%82%B5%E6%A8%A9%E3%82%92%E6%9C%89%0A%E3%81%99%E3%82%8B%E6%96%B9%E3%81%AF%E3%80%81%E6%9C%AC%E5%85%AC%E5%91%8A%E6%8E%B2%E8%BC%89%E3%81%AE%E7%BF%8C%E6%97%A5%E3%81%8B%E3%82%89%E4%BA%8C%E7%AE%87%E6%9C%88%E4%BB%A5%E5%86%85%E3%81%AB%E3%81%8A%0A%E7%94%B3%E3%81%97%E5%87%BA%E4%B8%8B%E3%81%95%E3%81%84%E3%80%82%0A%E3%81%AA%E3%81%8A%E3%80%81%E5%8F%B3%E6%9C%9F%E9%96%93%E5%86%85%E3%81%AB%E3%81%8A%E7%94%B3%E3%81%97%E5%87%BA%E3%81%8C%E3%81%AA%E3%81%84%E3%81%A8%E3%81%8D%E3%81%AF%E6%B8%85%E7%AE%97%E3%81%8B%0A%E3%82%89%E9%99%A4%E6%96%A5%E3%81%97%E3%81%BE%E3%81%99%E3%80%82%0A%E4%BB%A4%E5%92%8C%E5%85%AB%E5%B9%B4%E5%8D%81%E4%B8%80%E6%9C%88%E"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Yakuza creator's studio, and the game it was working on, are now officially gone",
+        "secondary_keywords": [
+          "Yakuza creator's studio, and the game it was working on, are now officially gone date de sortie",
+          "Yakuza creator's studio, and the game it was working on, are now officially gone plateformes",
+          "Yakuza creator's studio, and the game it was working on, are now officially gone gameplay",
+          "Yakuza creator's studio, and the game it was working on, are now officially gone guide",
+          "Yakuza creator's studio, and the game it was working on, are now officially gone avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Yakuza creator's studio, and the game it was working on, are now officially gone"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-turtle-beach-command-series-mc7-review-3d3cc55ec46f",
+      "topic": "Turtle Beach Command Series MC7 review",
+      "detected_at": "2026-11-02T22:53:22.380568+00:00",
+      "analysed_at": "2026-11-13T09:59:31.981377+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-mice/turtle-beach-command-series-mc7-review/",
+          "title": "Turtle Beach Command Series MC7 review",
+          "evidence": "<article> <div data-widget-type=\"review\" data-model-name=\"Turtle Beach Command Series MC7\" data-widget-title=\"\"></div><p>I must admit, I was mighty intrigued by the idea of a modern mouse (and all their high DPI machinations) with a screen slapped on the side, but I must also admit I thought we would be over the growing pains by now, what with screens being slammed into everything from cases to coolers to controllers. </p><p>Yet one look at the Turtle Beach Command Series MC7 suggests those growing pains are still being suffered. And using the mouse only confirms it. </p><p>But I get the idea in concept. I'm a big fan of my Stream Deck, and find myself regularly using its many controls. Being able to shove those into the side of the mouse with clarity to read what they're doing is intriguing. It's also particularly effective when it comes to swapping DPI, polling rate, and even checking the battery. Those are things that do benefit from a visual component. And yet a few weeks with the MC7 have convinced me I won't be making the swap full time. </p><div class=\"card card--standard card--rows-2 card--align-center\"><div class=\"card__content\"><h3 class=\"card__title\">Buy if…</h3><div cla"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Turtle Beach Command Series MC7 review",
+        "secondary_keywords": [
+          "Turtle Beach Command Series MC7 review date de sortie",
+          "Turtle Beach Command Series MC7 review plateformes",
+          "Turtle Beach Command Series MC7 review gameplay",
+          "Turtle Beach Command Series MC7 review guide",
+          "Turtle Beach Command Series MC7 review avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Turtle Beach Command Series MC7 review"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-nightdive-is-reviving-the-iconic-trapezoid-big-box-for--feee3c2f59a1",
+      "topic": "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console",
+      "detected_at": "2026-11-02T22:53:22.380692+00:00",
+      "analysed_at": "2026-11-13T09:59:31.981432+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/nightdive-is-reviving-the-iconic-trapezoid-big-box-for-thief-remastereds-special-edition-but-only-on-console/",
+          "title": "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console",
+          "evidence": "<article> <p>Preorders are opening up for <a href=\"https://videogamesplus.ca/collections/thief-the-dark-project-remastered/products/thief-the-dark-project-remastered-nintendo-switch-2-edition-trapezoid-edition-nintendo-switch-2-pre-order\" target=\"_blank\">physical editions of Nightdive's Thief Remaster</a>, and at the high end, the studio is offering an homage to Thief's iconic original PC big box packaging in that shape we all know and love, the trapezoid. The only problem? Nightdive and partner Clear River Games are only offering it for Switch/Switch 2 and PS5. </p><h4 id=\"why-does-this-matter\">Why does this matter?</h4><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1072px;\"><p class=\"vanilla-image-block\" style=\"padding-top:99.44%;\"><img id=\"qQcMbNpDMFnCkQrpD5HPpn\" name=\"Screenshot 2026-11-02 104556\" alt=\"Feature spread for Thief: The Dark Project Remastered special edition physical\" src=\"https://cdn.mos.cms.futurecdn.net/qQcMbNpDMFnCkQrpD5HPpn-1920-80.png\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"1072\" height=\"1066\" attribution=\"\" endorsement=\"\" class=\"inline\" /><"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console",
+        "secondary_keywords": [
+          "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console date de sortie",
+          "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console plateformes",
+          "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console gameplay",
+          "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console guide",
+          "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Nightdive is reviving the iconic trapezoid big box for Thief: Remastered's special edition… but only on console"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-after-500-hours-in-monster-train-2-its-final-faction-of-d7058a4dbfd5",
+      "topic": "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win",
+      "detected_at": "2026-11-02T22:53:22.381023+00:00",
+      "analysed_at": "2026-11-13T09:59:31.981454+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/card-games/monster-train-2-the-punished-review/",
+          "title": "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win",
+          "evidence": "<article> <p>Their aesthetic? Chains, whips; spiked. Their mood? Afflicted, condemned, ritualistic. Their angels? Dark. Their maiden? Iron.</p><p>Friendship ended with <a href=\"https://www.pcgamer.com/games/card-games/monster-train-2-dlc-impressions-destiny-of-the-railforged/\"><u>dwarven gearsmiths</u></a>; my new favorite clan in Monster Train 2 is the tortured edgelords.</p><p>The final faction being added to Monster Train 2, The Punished, arrive November 10 as a paid DLC. Their theme is self-damage, with new keywords and spells that, primarily, reward power in exchange for hurting yourself. Your pain? Enemies' bane.</p><iframe src=\"https://content.jwplatform.com/players/Ozrnj9rb.html\" id=\"Ozrnj9rb\" title=\"Monster Train 2 - The Punished finale\" width=\"1920\" height=\"804\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen=\"\"></iframe><h2 id=\"leaving-a-mark\">Leaving a mark</h2><p>Though existing MT2 clans like the Melting Remnant revolve around forms of sacrifice, The Punished are absolutely thirsty for it. They bring new keywords like Chained (enemy units take half the damage that your units take) that make damage an active solution to enemy waves. The self-flagellation angle likewis"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win",
+        "secondary_keywords": [
+          "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win date de sortie",
+          "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win plateformes",
+          "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win gameplay",
+          "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win guide",
+          "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "After 500 hours in Monster Train 2, its final faction of bondage angels is teaching me new ways to win"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ray-tracing-memory-usage-could-be-reduced-by-up-to-90-t-323cb3e2e56a",
+      "topic": "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update",
+      "detected_at": "2026-11-02T22:53:22.381169+00:00",
+      "analysed_at": "2026-11-13T09:59:31.981481+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/memory/ray-tracing-memory-usage-could-be-reduced-by-up-to-90-percent-thanks-to-most-significant-directx-update/",
+          "title": "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update",
+          "evidence": "<article> <p>While I go 'oo' at every perfectly lit videogame vista, ray tracing can sometimes make my gaming rig go 'HNNNG'. I love a traced ray as much as the next person, but realistic reflections and lighting can be a bit of a memory hog. Thankfully, Microsoft is previewing something new for DirectX that could significantly take the load off many ageing rigs.</p><p>It's a pair of features called 'Clustered Geometry' and 'Partitioned TLAS'. At the risk of oversimplifying, you can think of this DirectX update as bringing tech very similar to <a href=\"https://www.pcgamer.com/hardware/graphics-cards/nvidias-rtx-mega-geometry-system-will-be-sprucing-up-the-forests-of-the-witcher-4-making-for-some-lush-looking-ray-traced-trees-to-go-witcher-ing-within/\" target=\"_blank\">Nvidia RTX Mega Geometry</a> to every other GPU vendor.</p><p>Obviously there's more to it than that, though, with Microsoft describing this as the \"<a href=\"https://devblogs.microsoft.com/directx/clas-ptlas-preview/\" target=\"_blank\">most significant update [to DXR] since its debut in 2018</a>.\" Top line: Microsoft's own testing of this update suggests it could reduce ray tracing memory load by as much as 90% without t"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update",
+        "secondary_keywords": [
+          "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update date de sortie",
+          "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update plateformes",
+          "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update gameplay",
+          "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update guide",
+          "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-arc-raiders-devs-used-a-music-sample-from-a-piano-in-ch-ad127cce295d",
+      "topic": "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone",
+      "detected_at": "2026-11-02T22:53:22.381337+00:00",
+      "analysed_at": "2026-11-13T09:59:31.981503+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/arc-raiders-devs-have-used-a-music-sample-from-a-piano-in-chernobyl-that-someone-had-discovered-in-the-forbidden-zone/",
+          "title": "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/uk/arc-raiders/\">Arc Raiders</a> has a terrific soundscape, although it can sometimes be hard to hear it when you're getting hunted down by your fellow players or bloodthirsty arcs. The game is quite quiet, aside from the occasional sound of distant gunfire, the clicks and cracks from small roaming arcs, and the noise of shuffling scrap as raiders sort through abandoned buildings for valuable items. But perhaps the best noise in all of Arc Raiders comes from the few instruments raiders can find amid the rubble. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/_xwbP8KV530\" allowfullscreen=\"\"></iframe></div></div><p>\"One of the gameplay designers, really early on, made a trumpet,\" Pajor says. \"And it was so out of place, and we were like 'why are we making it?'\" The musical items in Arc Raiders serve multiple purposes. There's the social incentive to play an instrument, to bond with strangers and just show them that you're a harmless, relatively chill dude. But there's also the strategic purpose of using noises to lure arcs. "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone",
+        "secondary_keywords": [
+          "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone date de sortie",
+          "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone plateformes",
+          "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone gameplay",
+          "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone guide",
+          "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Arc Raiders devs used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-valve-s-steam-frame-has-taken-a-spot-in-the-top-ten-mos-eb1aa3f92a39",
+      "topic": "Valve's Steam Frame has taken a spot in the top ten most popular VR headsets on Steam",
+      "detected_at": "2026-11-03T10:04:05.957808+00:00",
+      "analysed_at": "2026-11-13T09:59:31.981519+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/vr-hardware/valves-steam-frame-has-taken-a-spot-in-the-top-ten-most-popular-vr-headsets-on-steam/",
+          "title": "Valve's Steam Frame has taken a spot in the top ten most popular VR headsets on Steam",
+          "evidence": "<article> <p>Valve's second mighty expensive, yet mighty impressive VR headset, the <a href=\"https://www.pcgamer.com/hardware/vr-hardware/valve-steam-frame-review/\" target=\"_blank\">Steam Frame</a>, launched in the latter half of September, meaning October was the first full month where players could actually use it. The latest <a href=\"https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Survey-Welcome-to-Steam\" target=\"_blank\">Steam Hardware Survey</a> suggests a rather big bump in usage for Valve's VR headset this past month.</p><p>In September, the Steam Frame accounted for just 0.41% of VR headset usage. In October, that number jumped to 4.13%. That means it surpassed the Oculus Rift S, Sony PS VR2, HTC Vive, Windows Mixed Reality (which is a platform, as opposed to a single headset), the first Oculus Rift and Bigscreen Beyond. It is now the sixth most popular VR headset, sitting just .37% behind the Pico 4, and a hefty 24.14% behind the Meta Quest 3. </p><p>The 3.72% increase for the Steam Frame is the biggest jump upwards in October, and the biggest tumble was taken by the Oculus Quest 2, which lost 3.57%. </p><div style=\"min-height: 250px;\"> <div class=\"kwizly-qui"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Valve's Steam Frame has taken a spot in the top ten most popular VR headsets on Steam",
+        "secondary_keywords": [
+          "Valve's Steam Frame has taken a spot in the top ten most popular VR headsets on Steam date de sortie",
+          "Valve's Steam Frame has taken a spot in the top ten most popular VR headsets on Steam plateformes",
+          "Valve's Steam Frame has taken a spot in the top ten most popular VR headsets on Steam gameplay",
+          "Valve's Steam Frame has taken a spot in the top ten most popular VR headsets on Steam guide",
+          "Valve's Steam Frame has taken a spot in the top ten most popular VR headsets on Steam avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Valve's Steam Frame has taken a spot in the top ten most popular VR headsets on Steam"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-final-fantasy-14-evercold-s-story-will-have-a-faster-te-a6a992bbc2cb",
+      "topic": "Final Fantasy 14: Evercold's story will have a faster tempo, with worldbuilding in side quests, says Yoshi-P—but I'm not sure that was the problem with Dawntrail",
+      "detected_at": "2026-11-03T10:04:05.957950+00:00",
+      "analysed_at": "2026-11-13T09:59:31.981547+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mmo/final-fantasy-14-evercolds-story-will-have-a-faster-tempo-with-worldbuilding-in-side-quests-says-yoshi-p-but-im-not-sure-that-was-the-problem-with-dawntrail/",
+          "title": "Final Fantasy 14: Evercold's story will have a faster tempo, with worldbuilding in side quests, says Yoshi-P—but I'm not sure that was the problem with Dawntrail",
+          "evidence": "<article> <div class=\"product\"><a data-dimension112=\"f0b43a48-d6b3-11f1-b9e7-d35cb2d2fe5a\" data-action=\"Deal Block\" data-label=\"Best MMOs\" data-dimension48=\"Best MMOs\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:316px;\"><p class=\"vanilla-image-block\" style=\"padding-top:100.00%;\"><img id=\"UjCJY9gjRfatHZjCuGMrhR\" name=\"elden ring square cheer.jpg\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/UjCJY9gjRfatHZjCuGMrhR-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"316\" height=\"316\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\" /></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/the-best-mmos/\" target=\"_blank\" data-dimension112=\"f0b43a48-d6b3-11f1-b9e7-d35cb2d2fe5a\" data-action=\"Deal Block\" data-label=\"Best MMOs\" data-dimension48=\"Best MMOs\" data-dimension25=\"\"><strong>Best MMOs</strong></a>: Most massive<br /><a href=\"https://www.pcgamer.com/the-best-strategy-games/\" target=\"_blank\"><strong>Best strategy games</strong></a>: Number crunching<br /><a href=\"https://www.pcgamer.com/best-open-world-games/\" target=\"_blank\"><strong>Best open world ga"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Final Fantasy 14: Evercold's story will have a faster tempo, with worldbuilding in side quests, says Yoshi-P—but I'm not sure that was the problem with Dawntrail",
+        "secondary_keywords": [
+          "Final Fantasy 14: Evercold's story will have a faster tempo, with worldbuilding in side quests, says Yoshi-P—but I'm not sure that was the problem with Dawntrail date de sortie",
+          "Final Fantasy 14: Evercold's story will have a faster tempo, with worldbuilding in side quests, says Yoshi-P—but I'm not sure that was the problem with Dawntrail plateformes",
+          "Final Fantasy 14: Evercold's story will have a faster tempo, with worldbuilding in side quests, says Yoshi-P—but I'm not sure that was the problem with Dawntrail gameplay",
+          "Final Fantasy 14: Evercold's story will have a faster tempo, with worldbuilding in side quests, says Yoshi-P—but I'm not sure that was the problem with Dawntrail guide",
+          "Final Fantasy 14: Evercold's story will have a faster tempo, with worldbuilding in side quests, says Yoshi-P—but I'm not sure that was the problem with Dawntrail avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Final Fantasy 14: Evercold's story will have a faster tempo, with worldbuilding in side quests, says Yoshi-P—but I'm not sure that was the problem with Dawntrail"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -7,6 +7,8 @@ on:
     paths:
       - "scripts/repair_missing_featured_images.py"
       - "test_repair_missing_featured_images.py"
+      - "scripts/refresh_blank_news_images.py"
+      - "image_fallbacks.py"
       - ".github/workflows/repair-featured-images.yml"
   workflow_run:
     workflows: ["GamerQuest Automation"]
@@ -40,7 +42,10 @@ jobs:
         run: pip install -r requirements.txt pytest
 
       - name: Test featured-image repair logic
-        run: pytest -q test_repair_missing_featured_images.py
+        run: pytest -q test_repair_missing_featured_images.py test_image_fallbacks.py
+
+      - name: Replace blank News images with real artwork
+        run: python scripts/refresh_blank_news_images.py
 
       - name: Repair and verify WordPress featured images
         env:

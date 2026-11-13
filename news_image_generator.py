@@ -2,7 +2,7 @@ from io import BytesIO
 from pathlib import Path
 
 import requests
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFilter, ImageStat
 
 
 WIDTH = 1200
@@ -37,6 +37,16 @@ def download_source_image(url):
         )
 
         return None
+
+
+def image_is_blank(image):
+    """True for the plain gradient fallback or any near-featureless image."""
+    try:
+        gray = image.convert("L").resize((320, 168))
+        edges = ImageStat.Stat(gray.filter(ImageFilter.FIND_EDGES)).mean[0]
+    except Exception:
+        return False
+    return edges < 2.0
 
 
 def cover_image(image):

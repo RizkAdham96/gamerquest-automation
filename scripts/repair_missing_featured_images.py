@@ -144,6 +144,35 @@ def featured_media_problem(session, base_url, media_id):
     return ""
 
 
+def image_file_is_blank(path_or_bytes):
+    """True for the plain gradient fallback (almost no edges)."""
+    from io import BytesIO
+    from PIL import ImageFilter, ImageStat
+    try:
+        source = BytesIO(path_or_bytes) if isinstance(path_or_bytes, bytes) else path_or_bytes
+        with Image.open(source) as image:
+            gray = image.convert("L").resize((320, 168))
+            return ImageStat.Stat(gray.filter(ImageFilter.FIND_EDGES)).mean[0] < 2.0
+    except Exception:
+        return False
+
+
+def featured_image_is_blank(session, base_url, media_id):
+    try:
+        media = session.get(
+            f"{base_url}/wp-json/wp/v2/media/{media_id}",
+            params={"_fields": "id,source_url"},
+            timeout=30,
+        ).json() or {}
+        source_url = str(media.get("source_url", "")).strip()
+        if not source_url:
+            return False
+        content = session.get(source_url, timeout=60).content
+    except Exception:
+        return False
+    return image_file_is_blank(content)
+
+
 def upload_media(session, base_url, image_path, metadata):
     with Path(image_path).open("rb") as handle:
         response = session.post(
@@ -224,7 +253,18 @@ def repair_missing_featured_images(
                 continue
             problem = featured_media_problem(session, base_url, featured_media)
             if not problem:
-                continue
+                # The image loads; replace it only when it is the blank
+                # fallback and a real local image now exists for the post.
+                metadata = feed_images.get(slug)
+                local = Path(images_folder) / metadata["filename"] if metadata else None
+                if not (
+                    local
+                    and valid_local_image(local)
+                    and not image_file_is_blank(local)
+                    and featured_image_is_blank(session, base_url, featured_media)
+                ):
+                    continue
+                problem = "featured image is the blank fallback"
             print(f"Broken featured image: post={post_id} slug={slug}: {problem}")
 
         metadata = feed_images.get(slug)

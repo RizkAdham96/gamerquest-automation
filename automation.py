@@ -285,6 +285,10 @@ def groq_chat(
     )
 
 
+from image_fallbacks import (
+    steam_artwork_candidates,
+    youtube_thumbnail_candidates,
+)
 from news_quality import (
     BLOCKED_SOURCE_DOMAINS,
     NEWS_STORY_ANGLES,
@@ -781,6 +785,22 @@ def extract_source_image_url(story, article_title=""):
                 f"Could not scan page images: "
                 f"{error}"
             )
+
+    # Real artwork before the plain fallback: the YouTube thumbnail
+    # for video sources, then the game's official Steam artwork.
+    for label, candidates in (
+        ("YouTube thumbnail", lambda: youtube_thumbnail_candidates(source_url)),
+        ("Steam artwork", lambda: steam_artwork_candidates(article_title)),
+    ):
+        try:
+            found = candidates()
+        except Exception as error:
+            print(f"{label} lookup failed: {error}")
+            continue
+        for candidate in found:
+            if validate_remote_image_candidate(candidate):
+                print(f"Contextual image found from {label}: {candidate}")
+                return candidate
 
     print(
         "No usable contextual source artwork found. "

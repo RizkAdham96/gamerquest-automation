@@ -286,6 +286,7 @@ def groq_chat(
 
 
 from news_quality import (
+    BLOCKED_SOURCE_DOMAINS,
     NEWS_STORY_ANGLES,
     NEWS_TOPIC_GENERIC_TERMS,
     OFFICIAL_DOMAIN_KEYWORDS,
@@ -294,8 +295,10 @@ from news_quality import (
     get_domain,
     has_conflicting_news_claims,
     is_duplicate_news_topic,
+    is_blocked_source,
     is_exclusive_claim,
     is_self_promotional_source,
+    is_site_default_image,
     looks_official,
     looks_trusted_media,
     news_story_angles,
@@ -370,6 +373,11 @@ def image_url_looks_bad(image_url):
     """
 
     if not image_url:
+        return True
+
+    if is_site_default_image(
+        image_url
+    ):
         return True
 
     lowered = str(
@@ -1219,10 +1227,15 @@ def save_news_to_feed(
 ):
     feed = load_existing_news_feed()
     existing_articles = feed.get("articles", [])
-    rejection_reason = news_quality_rejection(
-        article_data,
-        existing_articles,
-    )
+    if is_blocked_source((story or {}).get("url", "")):
+        rejection_reason = (
+            "Source is a search-provider page, not a gaming story."
+        )
+    else:
+        rejection_reason = news_quality_rejection(
+            article_data,
+            existing_articles,
+        )
 
     if rejection_reason:
         print("")
@@ -1564,6 +1577,8 @@ def search_gaming_news():
                     "include_raw_content":
                         "text",
                     "auto_parameters": False,
+                    "exclude_domains":
+                        BLOCKED_SOURCE_DOMAINS,
                 },
                 timeout=60,
             )
@@ -1651,6 +1666,17 @@ def search_gaming_news():
             ):
                 print(
                     f"Duplicate skipped: "
+                    f"{title}"
+                )
+
+                continue
+
+            if is_blocked_source(
+                url
+            ):
+                print(
+                    "Search-provider page skipped: "
+                    f"{get_domain(url)} | "
                     f"{title}"
                 )
 

@@ -67,6 +67,27 @@ TRUSTED_MEDIA_DOMAINS = [
 ]
 
 
+# Search providers and data aggregators. Their pages describe search
+# results or company profiles, never a gaming story, and their social
+# image is the provider's own logo card (e.g. tavily.com/opengraph-image.png).
+BLOCKED_SOURCE_DOMAINS = [
+    "tavily.com",
+]
+
+# File names a site uses for its one site-wide social card. When such a
+# file sits at the domain root it is branding, not article artwork.
+SITE_DEFAULT_IMAGE_NAMES = (
+    "opengraph-image",
+    "og-image",
+    "og_image",
+    "ogimage",
+    "social-image",
+    "social-card",
+    "share-image",
+    "twitter-image",
+)
+
+
 # =========================================================
 # HELPERS
 # =========================================================
@@ -99,6 +120,37 @@ def looks_trusted_media(url):
         trusted in domain
         for trusted in TRUSTED_MEDIA_DOMAINS
     )
+
+
+def is_blocked_source(url):
+    """True for search-provider / aggregator pages that are never news."""
+    domain = get_domain(url)
+    return any(
+        domain == blocked or domain.endswith("." + blocked)
+        for blocked in BLOCKED_SOURCE_DOMAINS
+    )
+
+
+def is_site_default_image(image_url):
+    """True for a blocked provider's image or a root-level site-wide social card.
+
+    ``https://tavily.com/opengraph-image.png`` -> True
+    ``https://example.com/og-image.jpg``       -> True
+    ``https://example.com/news/x/og-image.jpg`` -> False (per-article card)
+    """
+    if not image_url:
+        return False
+    if is_blocked_source(image_url):
+        return True
+    try:
+        path = urlparse(str(image_url)).path.lower()
+    except Exception:
+        return False
+    segments = [segment for segment in path.split("/") if segment]
+    if len(segments) != 1:
+        return False
+    stem = segments[0].rsplit(".", 1)[0]
+    return stem in SITE_DEFAULT_IMAGE_NAMES
 
 
 def source_tier(url):

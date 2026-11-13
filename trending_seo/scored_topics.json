@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-13T09:59:31.981550+00:00",
+  "updated_at": "2026-11-13T20:59:08.777348+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -25826,6 +25826,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Final Fantasy 14: Evercold's story will have a faster tempo, with worldbuilding in side quests, says Yoshi-P—but I'm not sure that was the problem with Dawntrail"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-former-xbox-coo-doesn-t-want-her-departure-reduced-to-a-cb597ecebc5b",
+      "topic": "Former Xbox COO doesn't want her \"departure reduced to an inaccurate story about incompetence\"",
+      "detected_at": "2026-11-03T10:04:06.348554+00:00",
+      "analysed_at": "2026-11-13T20:59:08.777117+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/former-xbox-coo-wants-to-set-the-record-straight-on-her-reported-firing-i-dont-want-my-departure-reduced-to-an-inaccurate-story-about-incompetence/",
+          "title": "Former Xbox COO doesn't want her \"departure reduced to an inaccurate story about incompetence\"",
+          "evidence": "<article> <p>Helen Chiang, the Microsoft veteran and former Xbox COO who left the company in October, is pushing back on reports claiming she was fired for violating company policy.</p><p>In an impassioned rebuttal posted on <a href=\"https://www.linkedin.com/posts/helenchiang_clarity-is-kindness-there-has-been-some-share-7523070825940467712-Rzit/?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAAAsYpMBeQthhLe9QcNZzXv69ZTkugGo4tQ&utm_campaign=copy_link\" target=\"_blank\">LinkedIn</a>, Chiang directly refutes a recent report from <a href=\"https://www.eurogamer.net/xbox-coo-helen-chiang-leaves-microsoft\" target=\"_blank\">Eurogamer</a> that claimed she had been fired from Microsoft for policy violations. \"That’s not accurate and while I won’t turn this into a play-by-play, silence should not be mistaken for agreement,\" says Chiang.</p><p>\"What has been said about my departure, and what has been left unsaid, has created a picture of me that I hardly recognize. It’s important to me to set the record straight.\"</p><p>Refuting claims point by point, Chiang says she didn't leak confidential information to the press, she didn't leave Xbox to join a competitor, \"did not engage in dis"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Former Xbox COO doesn't want her \"departure reduced to an inaccurate story about incompetence\"",
+        "secondary_keywords": [
+          "Former Xbox COO doesn't want her \"departure reduced to an inaccurate story about incompetence\" date de sortie",
+          "Former Xbox COO doesn't want her \"departure reduced to an inaccurate story about incompetence\" plateformes",
+          "Former Xbox COO doesn't want her \"departure reduced to an inaccurate story about incompetence\" gameplay",
+          "Former Xbox COO doesn't want her \"departure reduced to an inaccurate story about incompetence\" guide",
+          "Former Xbox COO doesn't want her \"departure reduced to an inaccurate story about incompetence\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Former Xbox COO doesn't want her \"departure reduced to an inaccurate story about incompetence\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-super-mario-bros-speedrunner-accidentally-sets-world-re-67341fa26c06",
+      "topic": "Super Mario Bros speedrunner accidentally sets world record after promising to stream as Mario",
+      "detected_at": "2026-11-03T10:04:06.348708+00:00",
+      "analysed_at": "2026-11-13T20:59:08.777167+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/super-mario/super-mario-bros-speedrunner-accidentally-sets-a-world-record-hes-been-chasing-for-7-years-after-promising-an-entire-stream-as-mario-please-have-this-a-run-die-i-dont-a-like-it-i-dont-a-want-to-get-this-larping-as-mario/",
+          "title": "Super Mario Bros speedrunner accidentally sets world record after promising to stream as Mario",
+          "evidence": "<article> <p>Super Mario Bros. players have <a href=\"https://www.gamesradar.com/theres-a-new-super-mario-bros-speedrun-world-record-and-its-only-22-frames-away-from-literal-perfection/\">spent years trying to build the perfect speedrun</a>. The race to be the first to achieve the perfect run has <a href=\"https://www.gamesradar.com/games/super-mario/the-greatest-speedrun-accomplishment-of-all-time-is-in-sight-as-two-legendary-super-mario-bros-runners-compete-for-a-time-that-once-seemed-impossible/\">escalated dramatically over the past year</a>, and the now-legendary Niftski has just set a new record that's just two frames away from the entire community's ultimate goal. The catch? He didn't actually want to do it – at least not when he did.</p><p>\"My supporters donated $1,000 for me to do a Mario impression\" for an entire Halloween stream, as Niftski explains in the description of his <a href=\"https://www.youtube.com/watch?v=gWerwfLe-MU\" target=\"_blank\">record run on YouTube</a>. He dutifully completed the stream dressed in a Mario hat and fake mustache while doing what he recognizes as \"the worst Mario impression of all time.\"</p><p>The entire video is an absolute delight as Niftski "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Super Mario Bros speedrunner accidentally sets world record after promising to stream as Mario",
+        "secondary_keywords": [
+          "Super Mario Bros speedrunner accidentally sets world record after promising to stream as Mario date de sortie",
+          "Super Mario Bros speedrunner accidentally sets world record after promising to stream as Mario plateformes",
+          "Super Mario Bros speedrunner accidentally sets world record after promising to stream as Mario gameplay",
+          "Super Mario Bros speedrunner accidentally sets world record after promising to stream as Mario guide",
+          "Super Mario Bros speedrunner accidentally sets world record after promising to stream as Mario avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Super Mario Bros speedrunner accidentally sets world record after promising to stream as Mario"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-rob-a-bank-star-nicholas-hoult-says-his-vigilant-822e52474fcb",
+      "topic": "How to Rob a Bank star Nicholas Hoult says his vigilante and Lex Luthor have a lot in common",
+      "detected_at": "2026-11-03T10:04:06.348842+00:00",
+      "analysed_at": "2026-11-13T20:59:08.777195+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/how-to-rob-a-bank-star-nicholas-hoult-says-his-mask-wearing-vigilante-and-man-of-tomorrow-villain-lex-luthor-have-a-lot-in-common/",
+          "title": "How to Rob a Bank star Nicholas Hoult says his vigilante and Lex Luthor have a lot in common",
+          "evidence": "<article> <p>Nicholas Hoult says his How to Rob a Bank vigilante character and DC villain Lex Luthor have a lot more in common than you'd think.</p><p>\"For both of them, I think there's this element of, like, the end goal,\" Hoult tells GamesRadar+, when asked how Ryan and Lex Luthor compare. \"They got so fixated on it. And that was what was really interesting about playing Luthor in Man of Tomorrow – I don't want to give too much away about the movie – but how James Gunn has written the character. There's a lot for Lex to try and understand about himself and the world. And so that was interesting to play.\"</p><p>In How to Rob a Bank, Hoult plays Ryan, the leader of a group of masked vigilantes (played by Pete Davidson, Anna Sawai, and Rhenzy Feliz) who are social media famous for their elaborate bank-robbing schemes. Ryan, either via YouTube video or livestream, gives pretty thorough instructions on how to rob a bank, evade police, and a plethora of other illegal activities. The key difference between Ryan and Lex Luthor, however, is that Ryan is doing it for the greater good. Lex, as we saw in James Gunn's Superman, is a bit more self-involved...</p><p>Continues Hoult: \"But I thin"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to Rob a Bank star Nicholas Hoult says his vigilante and Lex Luthor have a lot in common",
+        "secondary_keywords": [
+          "How to Rob a Bank star Nicholas Hoult says his vigilante and Lex Luthor have a lot in common date de sortie",
+          "How to Rob a Bank star Nicholas Hoult says his vigilante and Lex Luthor have a lot in common plateformes",
+          "How to Rob a Bank star Nicholas Hoult says his vigilante and Lex Luthor have a lot in common gameplay",
+          "How to Rob a Bank star Nicholas Hoult says his vigilante and Lex Luthor have a lot in common guide",
+          "How to Rob a Bank star Nicholas Hoult says his vigilante and Lex Luthor have a lot in common avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to Rob a Bank star Nicholas Hoult says his vigilante and Lex Luthor have a lot in common"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gta-6-lead-says-rockstar-president-sam-houser-is-involv-11619b006eda",
+      "topic": "GTA 6 lead says Rockstar president Sam Houser is involved in every aspect of creative development",
+      "detected_at": "2026-11-03T10:04:06.348977+00:00",
+      "analysed_at": "2026-11-13T20:59:08.777222+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-lead-says-rockstar-president-sam-houser-helped-shape-the-direction-of-the-game-and-is-involved-in-every-aspect-of-creative-development/",
+          "title": "GTA 6 lead says Rockstar president Sam Houser is involved in every aspect of creative development",
+          "evidence": "<article> <p>Rockstar's notoriously private co-founder and president, Sam Houser, hasn't said a whole lot in public about his involvement in the studio's forthcoming behemoth, <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>, leading to a fair degree of rumor and speculation that he's taken a backseat in the actual day-to-day creative decision-making. That is not true in the slightest, according to Rockstar North co-studio head and head of development, Rob Nelson.</p><p>Talking to <a href=\"https://www.gamesradar.com/edge/gtavi-cover/\" target=\"_blank\">Edge</a> for its big <a href=\"https://www.gamesradar.com/edge/gtavi-cover/\">GTA 6 cover story</a>, Nelson put the idea of Houser being little more than a \"taste director\" ala record producer Rick Rubin to bed. Nelson's exact words are paraphrased by Edge's editors, but Nelson insists that Houser was involved with the initial conception and general direction of GTA 6 and that he's integrally linked to every aspect of the game's creative direction, dispelling any suggestion that he's simply overseeing the company and general vibe of the project without as much direct creative input as earlier GTA games.</p><p>\"Sam and I will i"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GTA 6 lead says Rockstar president Sam Houser is involved in every aspect of creative development",
+        "secondary_keywords": [
+          "GTA 6 lead says Rockstar president Sam Houser is involved in every aspect of creative development date de sortie",
+          "GTA 6 lead says Rockstar president Sam Houser is involved in every aspect of creative development plateformes",
+          "GTA 6 lead says Rockstar president Sam Houser is involved in every aspect of creative development gameplay",
+          "GTA 6 lead says Rockstar president Sam Houser is involved in every aspect of creative development guide",
+          "GTA 6 lead says Rockstar president Sam Houser is involved in every aspect of creative development avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GTA 6 lead says Rockstar president Sam Houser is involved in every aspect of creative development"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ocarina-of-time-began-remake-so-young-devs-would-unders-8f14dfddf943",
+      "topic": "Ocarina of Time began remake so young devs would understand \"how significant\" the N64 classic was",
+      "detected_at": "2026-11-03T10:04:06.349165+00:00",
+      "analysed_at": "2026-11-13T20:59:08.777251+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-legend-of-zelda/nintendo-started-the-ocarina-of-time-remake-because-zelda-veteran-eiji-aonuma-wanted-young-devs-to-understand-just-how-significant-the-n64-classic-was/",
+          "title": "Ocarina of Time began remake so young devs would understand \"how significant\" the N64 classic was",
+          "evidence": "<article> <p>It's impossible to overstate just how influential <a href=\"https://www.gamesradar.com/the-legend-of-zelda-ocarina-of-time-remake-guide/\">The Legend of Zelda: Ocarina of Time</a> has been since it launched on the Nintendo 64 back in 1998. It defined what 3D action-adventure games would look and play like for decades – not just in the Zelda series, but across all video games. As it turns out, this was part of the reason series producer Eiji Aonuma wanted to create the upcoming Ocarina of Time remake: he wanted to be sure the younger developers on the Zelda team understood just how important it was.</p><p>\"Many of the team members who work alongside me on Legend of Zelda games today have only experienced developing the more recent titles,\" Aonuma explains in a new <a href=\"https://www.nintendo.com/us/whatsnew/ask-the-developer-vol-24-the-legend-of-zelda-ocarina-of-time-part-1/\" target=\"_blank\">Ask the Developer interview</a> from Nintendo. \"That led me to wonder, 'Do they truly understand just how significant The Legend of Zelda: Ocarina of Time was to the series as a whole?'\"</p><p>Aonuma admits that, \"of course, there are team members who vaguely know the game, and thos"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ocarina of Time began remake so young devs would understand \"how significant\" the N64 classic was",
+        "secondary_keywords": [
+          "Ocarina of Time began remake so young devs would understand \"how significant\" the N64 classic was date de sortie",
+          "Ocarina of Time began remake so young devs would understand \"how significant\" the N64 classic was plateformes",
+          "Ocarina of Time began remake so young devs would understand \"how significant\" the N64 classic was gameplay",
+          "Ocarina of Time began remake so young devs would understand \"how significant\" the N64 classic was guide",
+          "Ocarina of Time began remake so young devs would understand \"how significant\" the N64 classic was avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ocarina of Time began remake so young devs would understand \"how significant\" the N64 classic was"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-slay-the-spire-2-devs-declare-the-perfect-card-and-of-c-64f070f3b464",
+      "topic": "Slay the Spire 2 devs declare the \"perfect card,\" and of course it's one I thought was bad",
+      "detected_at": "2026-11-03T10:04:06.349348+00:00",
+      "analysed_at": "2026-11-13T20:59:08.777276+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/roguelike/slay-the-spire-2-devs-declare-the-perfect-card-and-of-course-its-one-i-thought-was-bad/",
+          "title": "Slay the Spire 2 devs declare the \"perfect card,\" and of course it's one I thought was bad",
+          "evidence": "<article> <p>It may not be the best card in Slay the Spire 2, but developer Mega Crit has declared that Ironald's starter card Bash is at least the \"perfect card.\"</p><p>This wisdom comes from studio co-founder Casey Yano, who responded to several questions in the latest Spire newsletter-bundled <a href=\"https://store.steampowered.com/news/app/2868840/view/680764929940133586\" target=\"_blank\">Q&A session</a>. A player named Jeremy praised Mega Crit's willingness to take big swings with class identity and balance in Slay the Spire 2, and asked if the team thinks \"dang we really nailed that the first time around\" when it comes to any one card.</p><p>\"Bash is the perfect card,\" Yano responds. </p><p>Bash is the only basic card for Ironclad – a two-energy attack that deals eight damage and applies two Vulnerable, or 10 damage and three Vulnerable when upgraded. The Ancient-exclusive upgrade for the card, Break, is absolutely bonkers at one energy for 20 damage and five Vulnerable (30 damage and seven Vulnerable upgraded). </p><p>I've put over 250 hours into Slay the Spire 2 this year, beating Ascension 10 dozens of times and even lucking into an all-class 5-streak at one point, so I'm n"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Slay the Spire 2 devs declare the \"perfect card,\" and of course it's one I thought was bad",
+        "secondary_keywords": [
+          "Slay the Spire 2 devs declare the \"perfect card,\" and of course it's one I thought was bad date de sortie",
+          "Slay the Spire 2 devs declare the \"perfect card,\" and of course it's one I thought was bad plateformes",
+          "Slay the Spire 2 devs declare the \"perfect card,\" and of course it's one I thought was bad gameplay",
+          "Slay the Spire 2 devs declare the \"perfect card,\" and of course it's one I thought was bad guide",
+          "Slay the Spire 2 devs declare the \"perfect card,\" and of course it's one I thought was bad avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Slay the Spire 2 devs declare the \"perfect card,\" and of course it's one I thought was bad"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-crowning-the-greatest-fps-mode-of-all-time-through-1v1--4aeb3cdf66bd",
+      "topic": "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS!",
+      "detected_at": "2026-11-03T20:38:48.855815+00:00",
+      "analysed_at": "2026-11-13T20:59:08.777312+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/crowning-the-greatest-fps-mode-of-all-time-through-1v1-combat-semifinals/",
+          "title": "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS!",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">FOV 90</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"cTeZTtGXV6uYdPks5D77R7\" name=\"pcg_logo_fov90\" caption=\"\" alt=\"FOV 90 column\" src=\"https://cdn.mos.cms.futurecdn.net/cTeZTtGXV6uYdPks5D77R7-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\" /></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to FOV 90, an FPS column from staff writer Morgan Park. Every other week, I cover topics relevant to first-person shooter enjoyers, spanning everything from multiplayer and singleplayer to the old and the new.</p></div></div><p>Welcome back to a special election day edition of FOV 90, the only FPS column that insists American readers <strong>vote twice today</strong>—first on important videogame matters right here, then on crucial *gestures at"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS!",
+        "secondary_keywords": [
+          "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS! date de sortie",
+          "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS! plateformes",
+          "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS! gameplay",
+          "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS! guide",
+          "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS! avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Crowning the greatest FPS mode of all time through 1v1 combat—SEMIFINALS!"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-elder-scrolls-6-is-still-a-long-way-off-bethesda-wa-5fa047d9b33f",
+      "topic": "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more'",
+      "detected_at": "2026-11-03T20:38:48.856083+00:00",
+      "analysed_at": "2026-11-13T20:59:08.777343+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-is-still-a-long-way-off-bethesda-warns-itll-be-some-time-before-were-ready-to-share-more/",
+          "title": "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more'",
+          "evidence": "<article> <p>You might be thinking, if you're the optimistic sort, that today's official unveiling of <a href=\"https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-sentinel-is-finally-made-official/\" target=\"_blank\">The Elder Scrolls 6: Sentinel</a> means that <em>wheels are turning</em> and <em>things are happening</em> and you're going to be off to Hammerfell <em>soon</em>—or at the very least, learning more about what's coming in Bethesda's next big RPG. Alas, in a follow-up post on social media, the studio made it clear that you shouldn't start holding your breath just yet.</p><p>\"Thank you for 40 years of shared memories,\" Bethesda wrote. \"We can't wait to make even more together with The Elder Scrolls VI: Sentinel. Development continues, and while it'll be some time before we're ready to share more, it feels great to finally reveal the name and location with you.\"</p><blockquote class=\"bluesky-embed\" data-bluesky-uri=\"at://did:plc:di67i73hkgm6iadhgozt2de5/app.bsky.feed.post/3mzg5pmb4mk2p\" data-bluesky-cid=\"bafyreibamxfs5pyfw4sy22nncht45lh7eiet64ubo5yri7fjhc5mdu2key\" cite=\"https://bsky.app/profile/bethesdastudios.com/post/3mzg5pmb4mk2p\"><p lang=\"en\">Thank you fo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more'",
+        "secondary_keywords": [
+          "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more' date de sortie",
+          "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more' plateformes",
+          "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more' gameplay",
+          "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more' guide",
+          "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

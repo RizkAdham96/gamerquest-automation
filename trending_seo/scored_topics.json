@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-13T20:59:08.777348+00:00",
+  "updated_at": "2026-11-14T09:24:49.076412+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -26138,6 +26138,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "The Elder Scrolls 6 is still a long way off, Bethesda warns: 'It'll be some time before we're ready to share more'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-elder-scrolls-6-sentinel-is-finally-made-official-949bd4478eb4",
+      "topic": "The Elder Scrolls 6: Sentinel is finally made official",
+      "detected_at": "2026-11-03T20:38:48.857507+00:00",
+      "analysed_at": "2026-11-14T09:24:49.076240+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-sentinel-is-finally-made-official/",
+          "title": "The Elder Scrolls 6: Sentinel is finally made official",
+          "evidence": "<article> <p>Eight years after it was <a href=\"https://www.pcgamer.com/the-elder-scrolls-6-announced/\" target=\"_blank\">announced</a>, it's finally officially official: The next RPG in Bethesda's long-running Elder Scrolls series is called Sentinel.</p><p>The title was revealed in a video celebrating Bethesda's 40th anniversary, narrated by Todd Howard (of course), who cast back to the studio's first game, Gridiron—Bethesda was big on sports games back in the day—before moving into The Elder Scrolls series, the games that would take it to the big leagues, in the early 1990s.</p><p>\"As we're here in the 40th anniversary, we think about all of the games we've made,\" Howard says as the video draws to an end. </p><p>\"And so even though yes, we're looking back,we're also looking forward to all we're doing, particularly with the Fallout franchise and obviously The Elder Scrolls. You know, everybody's always asking about Elder Scrolls 6. And we thought, hey, given the moment, what a perfect time to tell you what The Elder Scrolls 6 is actually called.\"</p><p>And thus is the title revealed: <strong>Sentinel</strong>.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Elder Scrolls 6: Sentinel is finally made official",
+        "secondary_keywords": [
+          "The Elder Scrolls 6: Sentinel is finally made official date de sortie",
+          "The Elder Scrolls 6: Sentinel is finally made official plateformes",
+          "The Elder Scrolls 6: Sentinel is finally made official gameplay",
+          "The Elder Scrolls 6: Sentinel is finally made official guide",
+          "The Elder Scrolls 6: Sentinel is finally made official avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Elder Scrolls 6: Sentinel is finally made official"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-top-100-pc-games-278fb400bcb7",
+      "topic": "The top 100 PC games",
+      "detected_at": "2026-11-03T20:38:48.864203+00:00",
+      "analysed_at": "2026-11-14T09:24:49.076283+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-top-100-pc-games-2026/",
+          "title": "The top 100 PC games",
+          "evidence": "<article> <p>Welcome to the PC Gamer Top 100—our annual list of the best games you can play right now. Every year, we look at the hundreds of thousands of PC games that are available to buy, and think, \"yes, we can whittle this down into a numbered list\". Hubris? Yes. A months-long crucible of heated arguments and impassioned pleas? Also yes.</p><p>More than anything, the Top 100 is designed to capture a moment in time. It's a place where the 'canon' classics of the past rub shoulders against the fresh new hotness. Where being a game that a significant portion of the team <em>currently</em> loves is as important as being a game that is recognised worldwide for its contributions to the medium.</p><p>It is a deeply subjective process—a way for PC Gamer's editorial team to advocate for the games they're passionate about. One member of our team has spent <em>years</em> attempting to get Overwatch back on the list, taking every opportunity to persuade their fellow editors to give it a chance. Not every entry required that level of dedication to earn its spot, but every pick is a game that at least a handful of our staff cares deeply about.</p><h2 id=\"how-we-make-the-list\">How we make th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The top 100 PC games",
+        "secondary_keywords": [
+          "The top 100 PC games date de sortie",
+          "The top 100 PC games plateformes",
+          "The top 100 PC games gameplay",
+          "The top 100 PC games guide",
+          "The top 100 PC games avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The top 100 PC games"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-morrowind-s-gravity-is-no-longer-0-01-off-in-the-new-re-d5b4ce27a862",
+      "topic": "Morrowind's gravity is no longer '0.01% off' in the new release of its fan-made engine, finally making it playable",
+      "detected_at": "2026-11-03T20:38:48.864395+00:00",
+      "analysed_at": "2026-11-14T09:24:49.076308+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/morrowinds-gravity-is-no-longer-0-01-percent-off-in-the-new-release-of-its-fan-made-engine-finally-making-it-playable/",
+          "title": "Morrowind's gravity is no longer '0.01% off' in the new release of its fan-made engine, finally making it playable",
+          "evidence": "<article> <p>If you are playing <a href=\"https://www.pcgamer.com/uk/the-elder-scrolls-iii-morrowind/\">Morrowind</a> in 2026, my recommendation is that you do so using <a href=\"https://openmw.org/\" target=\"_blank\">OpenMW</a>, its 18-year-old fan-made and open-source engine reimplementation that makes it run smooth as butter on any modern machine you point it at, whether you're running Windows, Linux, macOS or, hell, <a href=\"https://www.freshports.org/games/openmw/\" target=\"_blank\">FreeBSD</a> if you wanna get really sicko with it. It's simply the most convenient way to get a cromulent version of Bethesda's best game running on modern systems.</p><p>And now it has a new version. Or rather, a new release candidate that will prove the basis of its upcoming 0.52 version. Released a couple of days ago, <a href=\"https://github.com/OpenMW/openmw/releases\" target=\"_blank\">OpenMW 0.52 RC1</a> contains a bunch of fixes, some new features, and one minor alteration to the fundamental forces of the universe. It's not the doozy of, say, OpenMW 0.50—which added gamepad support and thereby made Morrowind on Steam Deck dizzyingly easy—but it's still pretty meaty.</p><p>For instance, consider: \"Wate"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Morrowind's gravity is no longer '0.01% off' in the new release of its fan-made engine, finally making it playable",
+        "secondary_keywords": [
+          "Morrowind's gravity is no longer '0.01% off' in the new release of its fan-made engine, finally making it playable date de sortie",
+          "Morrowind's gravity is no longer '0.01% off' in the new release of its fan-made engine, finally making it playable plateformes",
+          "Morrowind's gravity is no longer '0.01% off' in the new release of its fan-made engine, finally making it playable gameplay",
+          "Morrowind's gravity is no longer '0.01% off' in the new release of its fan-made engine, finally making it playable guide",
+          "Morrowind's gravity is no longer '0.01% off' in the new release of its fan-made engine, finally making it playable avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Morrowind's gravity is no longer '0.01% off' in the new release of its fan-made engine, finally making it playable"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-here-s-the-wow-forever-release-time-for-your-region-ec49c84f57ad",
+      "topic": "Here's the WoW: Forever release time for your region",
+      "detected_at": "2026-11-03T20:38:48.864564+00:00",
+      "analysed_at": "2026-11-14T09:24:49.076327+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/forever-release-date-launch-times/",
+          "title": "Here's the WoW: Forever release time for your region",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"33aQ7B77gVCEUdc4GbMq3g\" name=\"wow-forever-release-times\" alt=\"WoW: Forever release times\" src=\"https://cdn.mos.cms.futurecdn.net/33aQ7B77gVCEUdc4GbMq3g-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"1920\" height=\"1080\" attribution=\"\" endorsement=\"\" class=\"inline expandable\" /><a href='https://cdn.mos.cms.futurecdn.net/33aQ7B77gVCEUdc4GbMq3g-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Blizzard)</span></figcaption></figure><p><a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\" target=\"_blank\">WoW: Forever</a>'s release is imminent, transporting us back to the good ol' days of adventuring through Azeroth, but with new content, visuals, plus class and race tweaks to try out. You can even create your character early and reserve your name, though "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Here's the WoW: Forever release time for your region",
+        "secondary_keywords": [
+          "Here's the WoW: Forever release time for your region date de sortie",
+          "Here's the WoW: Forever release time for your region plateformes",
+          "Here's the WoW: Forever release time for your region gameplay",
+          "Here's the WoW: Forever release time for your region guide",
+          "Here's the WoW: Forever release time for your region avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Here's the WoW: Forever release time for your region"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-2-of-my-favorite-studios-are-teaming-up-for-their-first-44b4433a6c07",
+      "topic": "2 of my favorite studios are teaming up for their first-ever showcase this week, and have a Steam sale going right now",
+      "detected_at": "2026-11-03T20:38:48.864767+00:00",
+      "analysed_at": "2026-11-14T09:24:49.076348+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/adventure/2-of-my-favorite-studios-are-teaming-up-for-their-first-ever-showcase-this-week-and-have-a-steam-sale-going-right-now/",
+          "title": "2 of my favorite studios are teaming up for their first-ever showcase this week, and have a Steam sale going right now",
+          "evidence": "<article> <p>Two of my favorite game studios getting together for a tag-team showcase in a classic PC gaming genre that doesn't get the love it deserves? You better believe I'm going to have a word or two to say about that—so allow me to draw your attention to the upcoming Point-and-Click Showcase being co-hosted by Amanita Design and Rusty Lake.</p><p>The Point-and-Click Showcase will feature world premieres, release date announcements, and new demos for more than 35 adventure games of all types, including ghost stories, murder mysteries, cozy puzzle games, and whatever's going on here:</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"rtmoFcsJUTuyeZZytCX7ZT\" name=\"imposter\" alt=\"Six-legged octopus looking monster thing with a cute rabbit head saying \"I'm not an imposter\"\" src=\"https://cdn.mos.cms.futurecdn.net/rtmoFcsJUTuyeZZytCX7ZT-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline expandable\" /><a href='https://cdn.mos."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "2 of my favorite studios are teaming up for their first-ever showcase this week, and have a Steam sale going right now",
+        "secondary_keywords": [
+          "2 of my favorite studios are teaming up for their first-ever showcase this week, and have a Steam sale going right now date de sortie",
+          "2 of my favorite studios are teaming up for their first-ever showcase this week, and have a Steam sale going right now plateformes",
+          "2 of my favorite studios are teaming up for their first-ever showcase this week, and have a Steam sale going right now gameplay",
+          "2 of my favorite studios are teaming up for their first-ever showcase this week, and have a Steam sale going right now guide",
+          "2 of my favorite studios are teaming up for their first-ever showcase this week, and have a Steam sale going right now avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "2 of my favorite studios are teaming up for their first-ever showcase this week, and have a Steam sale going right now"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-mike-flanagan-thinks-warhammer-is-a-fascinating-world-b-7cce7b4d07ef",
+      "topic": "Mike Flanagan thinks 'Warhammer is a fascinating world' but can't tell us anything else about the upcoming Warhammer 40,000 project because 'Henry Cavill would be furious'",
+      "detected_at": "2026-11-03T20:38:48.864975+00:00",
+      "analysed_at": "2026-11-14T09:24:49.076371+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/movies-tv/mike-flanagan-thinks-warhammer-is-a-fascinating-world-but-cant-tell-us-anything-else-about-the-upcoming-warhammer-40-000-project-because-henry-cavill-would-be-furious/",
+          "title": "Mike Flanagan thinks 'Warhammer is a fascinating world' but can't tell us anything else about the upcoming Warhammer 40,000 project because 'Henry Cavill would be furious'",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2568px;\"><p class=\"vanilla-image-block\" style=\"padding-top:58.02%;\"><img id=\"eA3KRc9gN28keK2prz9xSH\" name=\"war\" alt=\"Space marines in armor\" src=\"https://cdn.mos.cms.futurecdn.net/eA3KRc9gN28keK2prz9xSH-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"2568\" height=\"1490\" attribution=\"\" endorsement=\"\" class=\"inline\" /></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Prime Video)</span></figcaption></figure><p>Game Workshop and Henry Cavill's Warhammer 40,000 project has <a href=\"https://www.pcgamer.com/movies-tv/henry-cavills-warhammer-40-000-project-at-amazon-announces-involvement-of-popular-horror-director-reminding-everyone-it-still-exists/\">been in the works for two years now</a>, with the most recent news being that renowned horror director, writer, and showrunner Mike Flanagan—known for projects such as the Carrie miniseries or The Haunting of Hill House—has joined the crew and will be writing the script. "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Mike Flanagan thinks 'Warhammer is a fascinating world' but can't tell us anything else about the upcoming Warhammer 40,000 project because 'Henry Cavill would be furious'",
+        "secondary_keywords": [
+          "Mike Flanagan thinks 'Warhammer is a fascinating world' but can't tell us anything else about the upcoming Warhammer 40,000 project because 'Henry Cavill would be furious' date de sortie",
+          "Mike Flanagan thinks 'Warhammer is a fascinating world' but can't tell us anything else about the upcoming Warhammer 40,000 project because 'Henry Cavill would be furious' plateformes",
+          "Mike Flanagan thinks 'Warhammer is a fascinating world' but can't tell us anything else about the upcoming Warhammer 40,000 project because 'Henry Cavill would be furious' gameplay",
+          "Mike Flanagan thinks 'Warhammer is a fascinating world' but can't tell us anything else about the upcoming Warhammer 40,000 project because 'Henry Cavill would be furious' guide",
+          "Mike Flanagan thinks 'Warhammer is a fascinating world' but can't tell us anything else about the upcoming Warhammer 40,000 project because 'Henry Cavill would be furious' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Mike Flanagan thinks 'Warhammer is a fascinating world' but can't tell us anything else about the upcoming Warhammer 40,000 project because 'Henry Cavill would be furious'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-former-halo-composer-marty-o-donnell-loses-election-the-1191b0baf978",
+      "topic": "Former Halo composer Marty O'Donnell loses election, then gets absolutely bodied by his opponent: 'The fight is finished'",
+      "detected_at": "2026-11-04T20:56:19.218613+00:00",
+      "analysed_at": "2026-11-14T09:24:49.076390+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/former-halo-composer-marty-odonnell-loses-election-then-gets-absolutely-bodied-by-his-opponent-the-fight-is-finished/",
+          "title": "Former Halo composer Marty O'Donnell loses election, then gets absolutely bodied by his opponent: 'The fight is finished'",
+          "evidence": "<article> <p>It was a big night for Democrats in the US, as a \"blue wave\" saw the party retake control of Congress in what <a href=\"https://www.cnn.com/\" target=\"_blank\">CNN</a> called \"a stunning blow to Trump.\" Among the night's big losers is former Halo composer Marty O'Donnell, whose run for Congress ended in a spectacular, crushing defeat—and then a dunk from his congressional opponent that can only be described as <em>brutal</em>.</p><p>O'Donnell <a href=\"https://www.pcgamer.com/games/fps/ex-bungie-composer-marty-odonnell-is-running-for-congress-with-martys-army-and-says-hes-voting-trump/\" target=\"_blank\">began his political career</a> in 2024, saying he \"never wanted to be a politician\" but felt compelled to do so by what he described as the deterioration of the US: \"Big tech, big pharma, big media, big whatever—all trying to control big government in Washington DC.\"</p><p>That effort didn't work out so well—he placed fourth in the 2024 Republican primary for Nevada's third congressional district—but he tried again in 2026, this time with the <a href=\"https://www.pcgamer.com/gaming-industry/halo-composer-marty-odonnell-welcomes-trump-endorsement-in-nevada-congress-race-despi"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Former Halo composer Marty O'Donnell loses election, then gets absolutely bodied by his opponent: 'The fight is finished'",
+        "secondary_keywords": [
+          "Former Halo composer Marty O'Donnell loses election, then gets absolutely bodied by his opponent: 'The fight is finished' date de sortie",
+          "Former Halo composer Marty O'Donnell loses election, then gets absolutely bodied by his opponent: 'The fight is finished' plateformes",
+          "Former Halo composer Marty O'Donnell loses election, then gets absolutely bodied by his opponent: 'The fight is finished' gameplay",
+          "Former Halo composer Marty O'Donnell loses election, then gets absolutely bodied by his opponent: 'The fight is finished' guide",
+          "Former Halo composer Marty O'Donnell loses election, then gets absolutely bodied by his opponent: 'The fight is finished' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Former Halo composer Marty O'Donnell loses election, then gets absolutely bodied by his opponent: 'The fight is finished'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-am-back-modding-gta-5-and-being-chased-by-a-billion-f-2b1aab1c883d",
+      "topic": "I am back modding GTA 5 and being chased by a billion furious, armed cougars",
+      "detected_at": "2026-11-04T20:56:19.218908+00:00",
+      "analysed_at": "2026-11-14T09:24:49.076409+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-am-back-modding-gta-5-and-being-chased-by-a-billion-furious-armed-cougars/",
+          "title": "I am back modding GTA 5 and being chased by a billion furious, armed cougars",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>We are back. After a long sojourn to the centre of the self, I return—having completed a journey of discovery where I reflected on what I really wanted from modding GTA 5: my true desires, true capabilities, and where I want to take this whole thing as we walk, together, into the future. I speak to you now of the wisdom I have gained from my vagabond travels, behold:</p><p>I've put roving packs of hostile cougars in the game now.</p><p>The mod to put loads of cougars in Grand Theft Auto 5 is called <a href=\"https://www.gta5-mods.com/scripts/cougars\">Cougars</a>, which is"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I am back modding GTA 5 and being chased by a billion furious, armed cougars",
+        "secondary_keywords": [
+          "I am back modding GTA 5 and being chased by a billion furious, armed cougars date de sortie",
+          "I am back modding GTA 5 and being chased by a billion furious, armed cougars plateformes",
+          "I am back modding GTA 5 and being chased by a billion furious, armed cougars gameplay",
+          "I am back modding GTA 5 and being chased by a billion furious, armed cougars guide",
+          "I am back modding GTA 5 and being chased by a billion furious, armed cougars avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I am back modding GTA 5 and being chased by a billion furious, armed cougars"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

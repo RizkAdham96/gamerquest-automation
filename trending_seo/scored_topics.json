@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-14T09:24:49.076412+00:00",
+  "updated_at": "2026-11-14T19:28:43.127173+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -26450,6 +26450,316 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "I am back modding GTA 5 and being chased by a billion furious, armed cougars"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-227300",
+      "topic": "Configuration PC Euro Truck Simulator 2 : minimale, recommandée et conseils",
+      "detected_at": "2026-11-14T19:28:42.112008+00:00",
+      "analysed_at": "2026-11-14T19:28:43.126950+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/227300/",
+          "title": "Euro Truck Simulator 2 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Euro Truck Simulator 2, consultée le 2026-11-14. Développeur : SCS Software. Éditeur : SCS Software. Date de sortie sur Steam : 12 oct. 2012. Genres : Indépendant, Simulation. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Configuration PC Minimum: ; OS: Windows 10 64-bit ; Processor: Intel Core i5-6400 or AMD Ryzen 3 1200 or similar ; Memory: 8 GB RAM ; Graphics: NVIDIA GeForce GTX 660 or AMD Radeon RX 460 or Intel HD 630 (2GB VRAM) ; Hard Drive: 25 GB available space (Euro Truck Simulator 2 base game). Configuration PC Recommended: ; OS: Windows 10 64-bit ; Processor: Intel Core i5-9600 or AMD Ryzen 5 3600 or similar ; Memory: 12 GB RAM ; Graphics: NVIDIA GeForce GTX 1660 or AMD Radeon RX 590 (2GB VRAM) ; Hard Drive: 25 GB available space (Euro Truck Simulator 2 base game).",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/e040f74641ac21f15e3ec7c2415fc8b4de0b6bf9/ss_e040f74641ac21f15e3ec7c2415fc8b4de0b6bf9.1920x1080.jpg?t=1794502925"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Euro Truck Simulator 2",
+        "secondary_keywords": [
+          "Euro Truck Simulator 2 PC",
+          "Euro Truck Simulator 2 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Euro Truck Simulator 2 : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-227300",
+      "topic": "Euro Truck Simulator 2 multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-11-14T19:28:42.112069+00:00",
+      "analysed_at": "2026-11-14T19:28:43.126998+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/227300/",
+          "title": "Euro Truck Simulator 2 sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Euro Truck Simulator 2, consultée le 2026-11-14. Développeur : SCS Software. Éditeur : SCS Software. Date de sortie sur Steam : 12 oct. 2012. Genres : Indépendant, Simulation. Systèmes pris en charge sur Steam : Windows, macOS, Linux. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Coopération en ligne, Succès Steam, Cartes à échanger Steam, Workshop Steam, Caméra et confort de vue, Contrôle du volume différencié, Difficulté ajustable, Option clavier uniquement, Jouable sans saisie en temps imparti, Sauvegarde à tout moment, Prise en charge de l'API Steam Input, Son stéréo, Son multicanal, Compat. contrôleurs partielle, Steam Cloud, Éditeur de niveau inclus, Remote Play sur téléphone, Remote Play sur tablette, Remote Play Together, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : Voyagez à travers l'Europe en tant que roi de la route, un camionneur qui livre d'importantes marchandises sur des distances impressionnantes ! Avec des dizaines de villes à explorer, votre endurance, vos compétences et votre vitesse seront poussées à leurs limites.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/e040f74641ac21f15e3ec7c2415fc8b4de0b6bf9/ss_e040f74641ac21f15e3ec7c2415fc8b4de0b6bf9.1920x1080.jpg?t=1794502925"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Euro Truck Simulator 2 multijoueur",
+        "secondary_keywords": [
+          "Euro Truck Simulator 2 PC",
+          "Euro Truck Simulator 2 Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Euro Truck Simulator 2 multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-amd-says-it-s-going-to-beat-intel-in-total-revenue-for--1a842ea65b9e",
+      "topic": "AMD says it's going to beat Intel in total revenue for the very first time by the end of 2026",
+      "detected_at": "2026-11-04T20:56:19.223384+00:00",
+      "analysed_at": "2026-11-14T19:28:43.127029+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/processors/amd-says-its-going-to-beat-intel-in-total-revenue-for-the-very-first-time-by-the-end-of-2026/",
+          "title": "AMD says it's going to beat Intel in total revenue for the very first time by the end of 2026",
+          "evidence": "<article> <p>AMD has just posted another record quarter, with revenue topping $13 billion and its net income sitting at $2.4 billion. That is a lot of billions, and my brain is slightly struggling to comprehend it. But AMD's CFO and treasurer, Jean Hu, is projecting that this success will continue into the next quarter, <a href=\"https://finance.yahoo.com/quote/AMD/earnings/AMD-Q3-2026-earnings_call-724028.html#:~:text=We%20expect%20revenue%20to%20be%20approximately%20%2417%20billion\" target=\"_blank\">predicting revenue figures of around $17 billion for Q4.</a> Let's just compare that to Intel, which is expecting to continue posting flat, or slightly down, revenue figures of $15 - $16 billion itself.</p><p>Such a result would represent the first time that AMD has actually generated higher revenue figures than Intel for its lifetime. Or as far back as I can find the actual revenue figures for anyways.</p><p>Whether that will necessarily translate into a higher net income figure for AMD, I'm not entirely sure. Maths is not my strong point, and whether AMD's total revenue going up by another $3 billion will push its net income over the $3 billion mark where Intel currently sits I'm not "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "AMD says it's going to beat Intel in total revenue for the very first time by the end of 2026",
+        "secondary_keywords": [
+          "AMD says it's going to beat Intel in total revenue for the very first time by the end of 2026 date de sortie",
+          "AMD says it's going to beat Intel in total revenue for the very first time by the end of 2026 plateformes",
+          "AMD says it's going to beat Intel in total revenue for the very first time by the end of 2026 gameplay",
+          "AMD says it's going to beat Intel in total revenue for the very first time by the end of 2026 guide",
+          "AMD says it's going to beat Intel in total revenue for the very first time by the end of 2026 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "AMD says it's going to beat Intel in total revenue for the very first time by the end of 2026"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-s-massive-pre-launch-balance-patch-breaks-f-314db443b20e",
+      "topic": "WoW: Forever's massive pre-launch balance patch breaks from the chains Classic power, increasing 'the health of higher level creatures to compensate'",
+      "detected_at": "2026-11-04T20:56:19.223540+00:00",
+      "analysed_at": "2026-11-14T19:28:43.127058+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-massive-pre-launch-balance-patch-breaks-from-the-chains-classic-power-increasing-the-health-of-higher-level-creatures-to-compensate/",
+          "title": "WoW: Forever's massive pre-launch balance patch breaks from the chains Classic power, increasing 'the health of higher level creatures to compensate'",
+          "evidence": "<article> <div class=\"product\"><a data-dimension112=\"30e895cc-d845-11f1-a5a8-397a0f803882\" data-action=\"Deal Block\" data-label=\"Best MMOs\" data-dimension48=\"Best MMOs\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:316px;\"><p class=\"vanilla-image-block\" style=\"padding-top:100.00%;\"><img id=\"UjCJY9gjRfatHZjCuGMrhR\" name=\"elden ring square cheer.jpg\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/UjCJY9gjRfatHZjCuGMrhR-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"316\" height=\"316\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\" /></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/the-best-mmos/\" target=\"_blank\" data-dimension112=\"30e895cc-d845-11f1-a5a8-397a0f803882\" data-action=\"Deal Block\" data-label=\"Best MMOs\" data-dimension48=\"Best MMOs\" data-dimension25=\"\"><strong>Best MMOs</strong></a>: Most massive<br /><a href=\"https://www.pcgamer.com/the-best-strategy-games/\" target=\"_blank\"><strong>Best strategy games</strong></a>: Number crunching<br /><a href=\"https://www.pcgamer.com/best-open-world-games/\" target=\"_blank\"><strong>Best open world ga"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever's massive pre-launch balance patch breaks from the chains Classic power, increasing 'the health of higher level creatures to compensate'",
+        "secondary_keywords": [
+          "WoW: Forever's massive pre-launch balance patch breaks from the chains Classic power, increasing 'the health of higher level creatures to compensate' date de sortie",
+          "WoW: Forever's massive pre-launch balance patch breaks from the chains Classic power, increasing 'the health of higher level creatures to compensate' plateformes",
+          "WoW: Forever's massive pre-launch balance patch breaks from the chains Classic power, increasing 'the health of higher level creatures to compensate' gameplay",
+          "WoW: Forever's massive pre-launch balance patch breaks from the chains Classic power, increasing 'the health of higher level creatures to compensate' guide",
+          "WoW: Forever's massive pre-launch balance patch breaks from the chains Classic power, increasing 'the health of higher level creatures to compensate' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever's massive pre-launch balance patch breaks from the chains Classic power, increasing 'the health of higher level creatures to compensate'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-dodgy-download-and-spoofed-job-ad-led-to-6-3-billion-bi-18e4c8bd0cc9",
+      "topic": "Dodgy download and spoofed job ad led to $6.3 billion Binance hack: attacker offered fake software and fake job to infiltrate company wallets and steal billions",
+      "detected_at": "2026-11-04T20:56:19.223943+00:00",
+      "analysed_at": "2026-11-14T19:28:43.127087+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/security/dodgy-download-and-spoofed-job-ad-led-to-usd6-3-billion-binance-hack-attacker-offered-fake-software-and-fake-job-to-infiltrate-company-wallets-and-steal-billions/",
+          "title": "Dodgy download and spoofed job ad led to $6.3 billion Binance hack: attacker offered fake software and fake job to infiltrate company wallets and steal billions",
+          "evidence": "<article> <p>A chain of events that led to a <a href=\"https://www.pcgamer.com/software/security/compromised-laptop-could-be-to-blame-for-record-usd6-3-billion-cryptocurrency-heist-binance-rushes-to-freeze-stolen-assets-as-experts-blame-north-korean-group/\" target=\"_blank\">record-breaking $6.3 billion mega-hack</a> began with a dodgy download, so <a href=\"https://x.com/binance/status/2117626126214504729\" target=\"_blank\">says the company that was hacked</a>, Binance. </p><p>The world's largest cryptocurrency exchange says that the hack was not a \"single isolated breach or simple phishing incident\"; multiple steps were required to break through its security measures. It all began when a Wallet DevOps engineer (named Engineer A) downloaded a tampered Homebrew installation that was suggested to them by an unnamed search engine. </p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-ePmlVW\"></div> </div> <script src=\"https://kwizly.com/embed/ePmlVW.js\" async=\"\"></script><p>Homebrew is a third-party package manager for macOS. A <a href=\"https://isc.sans.edu/diary/32942\" target=\"_blank\">report from the SANS Technology Institute</a>, linked to in Binance's investigation, sugges"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dodgy download and spoofed job ad led to $6.3 billion Binance hack: attacker offered fake software and fake job to infiltrate company wallets and steal billions",
+        "secondary_keywords": [
+          "Dodgy download and spoofed job ad led to $6.3 billion Binance hack: attacker offered fake software and fake job to infiltrate company wallets and steal billions date de sortie",
+          "Dodgy download and spoofed job ad led to $6.3 billion Binance hack: attacker offered fake software and fake job to infiltrate company wallets and steal billions plateformes",
+          "Dodgy download and spoofed job ad led to $6.3 billion Binance hack: attacker offered fake software and fake job to infiltrate company wallets and steal billions gameplay",
+          "Dodgy download and spoofed job ad led to $6.3 billion Binance hack: attacker offered fake software and fake job to infiltrate company wallets and steal billions guide",
+          "Dodgy download and spoofed job ad led to $6.3 billion Binance hack: attacker offered fake software and fake job to infiltrate company wallets and steal billions avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Dodgy download and spoofed job ad led to $6.3 billion Binance hack: attacker offered fake software and fake job to infiltrate company wallets and steal billions"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-bethesda-s-associate-art-director-really-did-try-to-fit-c06d7ab3b00a",
+      "topic": "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll'",
+      "detected_at": "2026-11-04T20:56:19.224190+00:00",
+      "analysed_at": "2026-11-14T19:28:43.127114+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/bethesdas-associate-art-director-really-did-try-to-fit-7-000-actual-steps-into-skyrims-7-000-steps-i-take-no-responsibility-for-the-frost-troll/",
+          "title": "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll'",
+          "evidence": "<article> <p>When the Greybeards invite you to High Hrothgar in Skyrim, you have to climb a mountain to reach them. There's a messenger called Klimmek waiting in the village of Ivarstead at the bottom to warn you what an arduous journey this is going to be. To get to the top of the Throat of the World, he says, you have to work your way up The 7,000 Steps.</p><p>It's well-documented that there aren't actually 7,000 steps carved into the side of the mountain. Some of them are buried under the snow, making an exact count impossible, but the actual number is closer to 700. And even if you argue that The 7,000 Steps refers to the number of footsteps it takes to ascend the mountain, according to the dedicated researchers at the <a href=\"https://en.uesp.net/wiki/Skyrim:Climb_the_Steps\">Ultimate Elder Scrolls Portal</a> it only takes \"approximately 2,400 footsteps\" to get there.</p><p>As part of Bethesda's 40th anniversary, which included the reveal of <a href=\"https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-sentinel-is-finally-made-official/\">The Elder Scrolls 6's subtitle</a>, the studio <a href=\"https://bethesda.net/en-EU/bethesdagamestudios40\">reminisced about thei"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll'",
+        "secondary_keywords": [
+          "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll' date de sortie",
+          "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll' plateformes",
+          "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll' gameplay",
+          "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll' guide",
+          "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-critical-role-s-upcoming-series-with-hololive-gave-matt-cfda3f5a76b9",
+      "topic": "Critical Role's upcoming series with Hololive gave Matt Mercer 'a deeper understanding and appreciation' for vtubers",
+      "detected_at": "2026-11-05T09:50:28.632811+00:00",
+      "analysed_at": "2026-11-14T19:28:43.127144+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/board-games/critical-roles-upcoming-series-with-hololive-gave-matt-mercer-a-deeper-understanding-and-appreciation-for-vtubers/",
+          "title": "Critical Role's upcoming series with Hololive gave Matt Mercer 'a deeper understanding and appreciation' for vtubers",
+          "evidence": "<article> <p>Neither <a href=\"https://www.pcgamer.com/movies-tv/after-a-series-of-catastrophes-where-no-one-could-seem-to-roll-well-i-truly-have-no-idea-whos-going-to-make-it-out-of-critical-roles-next-episode/\">Critical Role</a> diehards nor <a href=\"https://www.pcgamer.com/gaming-industry/twitch-heard-you-wanted-more-vtubers-so-it-signed-a-deal-with-the-most-popular-vtuber-agency-in-the-world/\">Hololive vtuber</a> fans could've predicted that they'd work together to film a new tabletop roleplaying series. Shattered Legends is the product of a collaboration that might sound bizarre at first but makes perfect sense when you consider vtubers are basically just voice actors, like just about everyone else in Critical Role's orbit.</p><p>Matt Mercer certainly sees them that way. He tells PC Gamer that filming Shattered Legends with Hololive vtubers gave him a \"deeper understanding and appreciation for the skill and talent that each of these performers has.\" The only challenge, he says, was the technical logistics of filming a show with a mix of humans and 2D anime girls.</p><p>The original idea for Shattered Legends, before it even had a name, was a pitch from Nerissa Ravencroft, Holol"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Critical Role's upcoming series with Hololive gave Matt Mercer 'a deeper understanding and appreciation' for vtubers",
+        "secondary_keywords": [
+          "Critical Role's upcoming series with Hololive gave Matt Mercer 'a deeper understanding and appreciation' for vtubers date de sortie",
+          "Critical Role's upcoming series with Hololive gave Matt Mercer 'a deeper understanding and appreciation' for vtubers plateformes",
+          "Critical Role's upcoming series with Hololive gave Matt Mercer 'a deeper understanding and appreciation' for vtubers gameplay",
+          "Critical Role's upcoming series with Hololive gave Matt Mercer 'a deeper understanding and appreciation' for vtubers guide",
+          "Critical Role's upcoming series with Hololive gave Matt Mercer 'a deeper understanding and appreciation' for vtubers avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Critical Role's upcoming series with Hololive gave Matt Mercer 'a deeper understanding and appreciation' for vtubers"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-elder-scrolls-6-is-reportedly-more-than-two-years-a-3a27f23db335",
+      "topic": "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well",
+      "detected_at": "2026-11-05T09:50:28.633142+00:00",
+      "analysed_at": "2026-11-14T19:28:43.127169+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-is-reportedly-more-than-two-years-away-and-some-fans-are-not-coping-well/",
+          "title": "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well",
+          "evidence": "<article> <p>Yesterday, after eight years of waiting, Bethesda finally gave The Elder Scrolls 6 a title: <a href=\"https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-sentinel-is-finally-made-official/\" target=\"_blank\">Sentinel</a>. It then warned that, <em>after eight years of waiting</em>, <a href=\"https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-is-still-a-long-way-off-bethesda-warns-itll-be-some-time-before-were-ready-to-share-more/\" target=\"_blank\">more waiting is in store</a> because \"it'll be some time before we're ready to share more.\" Then Bloomberg's Jason Schreier, one of the industry's best-known and most reliable reporters, weighed in, saying the game is \"still more than two years away.\"</p><p>You know what comes next, right?</p><p>Schreier's 'two more years' statement, echoed by Jez Corden of <a href=\"https://x.com/JezCorden/status/2117714591673164221\" target=\"_blank\">Windows Central</a>, attracted quite a range of comments, not all of them of the polite sort. That led Schreier to <a href=\"https://www.reddit.com/r/TESVI/comments/1xnpcr3/hi_rtesvi_jason_schreier_here/\" target=\"_blank\">Reddit</a>, where he could elaborate on his stateme"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well",
+        "secondary_keywords": [
+          "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well date de sortie",
+          "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well plateformes",
+          "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well gameplay",
+          "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well guide",
+          "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-11-15T07:05:37.178841+00:00",
-  "count": 1,
+  "generated_at": "2026-11-15T15:50:30.927739+00:00",
+  "count": 3,
   "articles": [
+    {
+      "source_id": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612",
+      "title": "The Elder Scrolls V: Skyrim Special Edition à -80% sur Steam",
+      "excerpt": "The Elder Scrolls V: Skyrim Special Edition bénéficie actuellement d'une réduction de 80% sur Steam, passant de 39,99 € à 7,99 €.",
+      "content": "<p><strong>The Elder Scrolls V: Skyrim Special Edition</strong> bénéficie actuellement d'une réduction de <strong>80%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>39,99 €</strong></li><li>Prix actuel : <strong>7,99 €</strong></li><li>Réduction : <strong>80%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/489830/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/489830/",
+      "deal": {
+        "game": "The Elder Scrolls V: Skyrim Special Edition",
+        "store": "Steam",
+        "original_price": 39.99,
+        "current_price": 7.99,
+        "discount_percent": 80,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
+        "filename": "760b592c8460b049845796c48dbc8e0e5fb80f6d23f49e63015ae4707123c612.jpg",
+        "alt": "The Elder Scrolls V: Skyrim Special Edition -80% sur Steam - GamerQuest",
+        "caption": "The Elder Scrolls V: Skyrim Special Edition : offre -80% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre The Elder Scrolls V: Skyrim Special Edition sur Steam."
+      }
+    },
+    {
+      "source_id": "ce576838414f987577af1238aab56febb8d794af767e530415f9b9939aaab0db",
+      "title": "Euro Truck Simulator 2 à -75% sur Steam",
+      "excerpt": "Euro Truck Simulator 2 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 19,99 € à 4,99 €.",
+      "content": "<p><strong>Euro Truck Simulator 2</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>19,99 €</strong></li><li>Prix actuel : <strong>4,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/227300/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/227300/",
+      "deal": {
+        "game": "Euro Truck Simulator 2",
+        "store": "Steam",
+        "original_price": 19.99,
+        "current_price": 4.99,
+        "discount_percent": 75,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/ce576838414f987577af1238aab56febb8d794af767e530415f9b9939aaab0db.jpg",
+        "filename": "ce576838414f987577af1238aab56febb8d794af767e530415f9b9939aaab0db.jpg",
+        "alt": "Euro Truck Simulator 2 -75% sur Steam - GamerQuest",
+        "caption": "Euro Truck Simulator 2 : offre -75% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Euro Truck Simulator 2 sur Steam."
+      }
+    },
     {
       "source_id": "6f75014524fa36e47c2ecf1894199a6c98a570c77a69fc94c754a9e606bea18d",
       "title": "Knightica est gratuit sur Epic Games Store pendant une durée limitée",

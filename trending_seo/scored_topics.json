@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-16T10:10:07.616242+00:00",
+  "updated_at": "2026-11-16T23:30:27.916028+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -27694,6 +27694,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Epomaker HE75 V2 TMR review"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-discord-is-cutting-memory-usage-and-speeding-up-boot-ti-46f86a004f1f",
+      "topic": "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year",
+      "detected_at": "2026-11-06T20:34:40.638184+00:00",
+      "analysed_at": "2026-11-16T23:30:27.915781+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/discord-is-cutting-memory-usage-and-speeding-up-boot-times-joins-xbox-epic-steam-and-more-for-similar-upgrades-just-this-year/",
+          "title": "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year",
+          "evidence": "<article> <div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2118081920194203799\"><p lang=\"en\" dir=\"ltr\">We've been early adopters of Rust since 2018 and a lot of our infra, voice tech, and even some of the current client is already Rust, the holy grail was getting the whole client there. That means Electron goes away, and so does React Native, mobile keeps native UI but shares app… https://t.co/2CgWyOzaq0 pic.twitter.com/IdOGd4nUgl<a href=\"https://twitter.com/cantworkitout/status/2118081920194203799\">November 4, 2026</a></p></blockquote></figure><div class=\"see-more__filter\"></div></div><p>Open up Task Manager and check how much memory Discord is currently hogging on your PC. If it's anything like mine, it's probably north of 500 MB. Alas, things should change soon, as Discord is moving the client completely over to a new programming language. It might not sound like that big of a deal, but <a href=\"https://x.com/svishnevskiy/status/2118081920194203799\" target=\"_blank\">Discord's CTO, Stanislav Vishnevskiy, shows it running on as little as 290 MB of memory. </a></p><p>Discord is"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year",
+        "secondary_keywords": [
+          "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year date de sortie",
+          "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year plateformes",
+          "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year gameplay",
+          "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year guide",
+          "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-zelda-ocarina-of-time-remake-reportedly-running-at-60-f-f1e17a09192f",
+      "topic": "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release",
+      "detected_at": "2026-11-06T20:34:40.638396+00:00",
+      "analysed_at": "2026-11-16T23:30:27.915838+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/zelda-ocarina-of-time-remake-reportedly-running-at-60-fps-on-pc-just-hours-after-games-official-nintendo-switch-2-release/",
+          "title": "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release",
+          "evidence": "<article> <p>I've spent all night playing The Legend of Zelda: Ocarina of Time remake on the Switch 2, and it's a fantastic experience, but some would prefer to tinker and toil over an emulator than enjoy Link's new look. The game is already running on PC, but performance issues are aplenty.</p><p>You can see progress is moving pretty fast from the emulator crowd, just from these two videos by Unreal Gaming PC on YouTube. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/L_ZlCLIy-VM\" allowfullscreen=\"\"></iframe></div></div><p>Published on the game's official launch day, November 5, this video shows the game getting over the splash screen and running the cutscenes fairly well; however, it suffers from bad flickering, stuttering, and frame rates around the 20-30 fps mark during gameplay.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/WNNoHYX4EIg\" allowfullscreen=\"\"></iframe></div></div><p>12 hours later, another video. This time showing the game running betw"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release",
+        "secondary_keywords": [
+          "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release date de sortie",
+          "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release plateformes",
+          "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release gameplay",
+          "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release guide",
+          "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-zelnick-doesn-t-regret-gta-6-s-delay-because-shipping-a-dfea9d226329",
+      "topic": "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category'",
+      "detected_at": "2026-11-06T20:34:40.638610+00:00",
+      "analysed_at": "2026-11-16T23:30:27.915872+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/zelnick-doesnt-regret-gta-6s-delay-because-shipping-an-unfinished-game-rarely-ends-well-there-was-a-very-high-profile-release-that-fell-into-this-category/",
+          "title": "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category'",
+          "evidence": "<article> <p>Remember when <a href=\"https://www.pcgamer.com/uk/grand-theft-auto-6/\">Grand Theft Auto 6</a> was delayed, not once <a href=\"https://www.pcgamer.com/games/action/will-take-two-announce-another-grand-theft-auto-6-delay-tomorrow/\">but twice</a>? It's hard to forget: its first release date was treated as a day of mourning by some particularly upset fans. Despite all the outcries from fans, Take-Two Interactive chief Strauss Zelnick has repeatedly explained that he <a href=\"https://www.pcgamer.com/games/action/take-two-boss-says-weve-never-regretted-delaying-a-game-following-the-grand-theft-auto-6-pushback-says-other-studios-might-have-better-luck-if-they-did-the-same-thing-once-in-a-while/\">doesn't regret the decision</a>. </p><p><a href=\"https://www.youtube.com/watch?v=r7BWW8gvxRw\" target=\"_blank\">Talking to WSJ</a> the interviewer asks Zelnick what his immediate emotion was after hearing from the team that GTA 6 needed to be delayed: \"I don't always feel calm but I tend to come across as calm … The timing of the call was not great for an array of reasons. We had just had a board retreat 10 days earlier so I wasn't thrilled about the timing. That said, this is a balancin"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category'",
+        "secondary_keywords": [
+          "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category' date de sortie",
+          "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category' plateformes",
+          "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category' gameplay",
+          "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category' guide",
+          "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-is-working-on-its-server-tech-to-make-citie-dc240b1771e0",
+      "topic": "WoW: Forever is working on its server tech to make cities less empty, say devs",
+      "detected_at": "2026-11-06T20:34:40.638820+00:00",
+      "analysed_at": "2026-11-16T23:30:27.915900+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-is-working-on-its-server-tech-to-make-cities-less-empty-say-devs/",
+          "title": "WoW: Forever is working on its server tech to make cities less empty, say devs",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a>'s launch has been downright impressive—MMOs are notoriously difficult to run servers for, particularly when it comes to launch, where players will get bottlenecked into servers, throwing devs into a catch 22: Do they increase capacity and wind up wasting money in the long run while things die down, or do they ride out the wave?<em> </em>And yet, after the chaos of the beta, <a href=\"https://www.pcgamer.com/games/world-of-warcraft/after-all-the-queuing-drama-in-beta-wow-forevers-launch-was-buttery-smooth/\">it's been buttery smooth.</a></p><p>Which is why I'm willing to forgive Blizzard for a weird quirk of its realmless layering technology—cities have been empty, empty as hell. Which is a shame, given I know that hundreds of thousands of players are technically on this thing—and yet, none of them are in my Stormwind.</p><p>Well, Forever's devs are working on a fix, <a href=\"https://us.forums.blizzard.com/en/wow/t/why-do-i-see-maybe-8-people-inside-the-main-city/2401806/27\" target=\"_blank\">per the official forums</a>: \"Just wanted to chime in,\" says Aggrend, \"And say that we are a"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever is working on its server tech to make cities less empty, say devs",
+        "secondary_keywords": [
+          "WoW: Forever is working on its server tech to make cities less empty, say devs date de sortie",
+          "WoW: Forever is working on its server tech to make cities less empty, say devs plateformes",
+          "WoW: Forever is working on its server tech to make cities less empty, say devs gameplay",
+          "WoW: Forever is working on its server tech to make cities less empty, say devs guide",
+          "WoW: Forever is working on its server tech to make cities less empty, say devs avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever is working on its server tech to make cities less empty, say devs"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-here-s-what-s-in-path-of-exile-2-s-huge-1-0-release-com-1bdaa60ab000",
+      "topic": "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December",
+      "detected_at": "2026-11-07T09:14:55.118191+00:00",
+      "analysed_at": "2026-11-16T23:30:27.915942+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/heres-whats-in-path-of-exile-2s-huge-1-0-release-coming-in-december/",
+          "title": "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December",
+          "evidence": "<article> <p>Path of Exile 2's full release is out on December 11, and coming with it are two new classes, two new acts, a new league, tons of new monsters, bosses, battles, endgame changes, gem updates, atlas and skill tree updates, a new pinnacle boss, base types, uniques, and, I don't know, probably a kitchen sink or something. Let's go over it.</p><p>First of all, we'll have two new classes: <a href=\"https://www.pcgamer.com/games/rpg/path-of-exile-2-announces-a-second-new-class-the-shadow-for-its-december-1-0-release/\">the Shadow</a> and the Duelist. With them, we'll get all new skill gems for daggers and swords, with tons of new builds available. Daggers introduce new mechanics around stealth, traps, shadow skills with clones that attack with you, and classic skills like blade vortex and fire trap.</p><p>The Duelist will introduce swords, and with it fan favorite skills like cyclone and hemorrhage. With swords we'll be able to use stances like blood and sand or ready stance. Add to this being able to two-hand, dual wield, or sword and board and swords look to add a huge amount of mechanical complexity.</p><p>After two years of early access, the campaign will finally be fully f"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December",
+        "secondary_keywords": [
+          "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December date de sortie",
+          "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December plateformes",
+          "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December gameplay",
+          "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December guide",
+          "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-rockstar-s-having-a-sale-on-old-gta-games-on-the-only-p-3ccda6bc6290",
+      "topic": "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)",
+      "detected_at": "2026-11-07T09:14:55.118431+00:00",
+      "analysed_at": "2026-11-16T23:30:27.915971+00:00",
+      "scores": {
+        "durability": 12,
+        "search_intent": 15,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 61,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstars-having-sale-on-old-gta-games-on-the-only-platform-grand-theft-auto-6-isnt-coming-to-ours/",
+          "title": "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/grand-theft-auto-6/\" target=\"_blank\">Grand Theft Auto 6</a> finally arrives on November 19, but not for us, no—the big day is only for gamers on PlayStation 5 and Xbox Series X/S. We're not being completely excluded, though: We can't have GTA 6 in November, but we can take advantage of pre-release discounts on a bunch of older GTA games—deals that, ironically, don't appear to be available on consoles.</p><p>As noted by <a href=\"https://www.gamesradar.com/games/grand-theft-auto/a-bunch-of-grand-theft-auto-games-will-be-cheap-on-steam-until-gta-6-comes-out-and-only-one-of-them-sucks/\" target=\"_blank\">GamesRadar</a>, there are four GTA games available in two releases: Grand Theft Auto 3, Vice City, and San Andreas bundled up in the <a href=\"https://store.steampowered.com/sub/817628/\" target=\"_blank\">GTA Trilogy</a> for $19.79/£19.79/€19.79—67% off the regular price—and <a href=\"https://store.steampowered.com/app/12210/Grand_Theft_Auto_IV_The_Complete_Edition/\" target=\"_blank\">Grand Theft Auto 4: Complete Edition</a>, which includes The Lost and Damned and The Ballad of Gay Tony expansions, for $6/£5.09/€6, a 70% discount.</p><p>Those aren'"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)",
+        "secondary_keywords": [
+          "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) date de sortie",
+          "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) plateformes",
+          "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) gameplay",
+          "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) guide",
+          "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-ai-posting-war-is-heating-up-please-leave-me-behind-976aa5523fa8",
+      "topic": "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X",
+      "detected_at": "2026-11-07T09:14:55.118871+00:00",
+      "analysed_at": "2026-11-16T23:30:27.915999+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/the-ai-posting-war-is-heating-up-please-leave-me-behind-says-artist-who-got-into-it-with-epic-ceo-tim-sweeney-on-x/",
+          "title": "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X",
+          "evidence": "<article> <p>Kenney, an artist known for <a href=\"https://kenney.nl/\" target=\"_blank\">giving away thousands of free game assets</a>, did not expect to wind up directly arguing with specific billionaires after telling off billionaires in general in a recent X post. But a few hours after he encouraged other artists not to give in to pressure to use generative AI, Epic Games CEO Tim Sweeney was in his replies.</p><p>\"This is bullshit, Kenney,\" Sweeney <a href=\"https://x.com/TimSweeneyEpic/status/2111790177660334473?a=j9nSLpXzdgSE-KchXGo&s=20\" target=\"_blank\">told the artist</a>, concluding his rebuttal with a cute double entendre: \"I've upped my expectations of AI. Up yours!\" </p><p>Richest-person-in-the-world Elon Musk also <a href=\"https://x.com/elonmusk/status/2112018830088393044?a=FWVf3-F1AKVI90sBML4&s=20\" target=\"_blank\">chimed in</a> to back up Sweeney. Hundreds of other comments on the exchange inevitably followed, spanning the full spectrum of AI opinions.</p><p>Kenney's contentious post was: \"Don't let billionaires convince you slop is the future. They're used to managing & directing, not making things themselves. Of course they can't see the difference. They don't understand"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X",
+        "secondary_keywords": [
+          "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X date de sortie",
+          "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X plateformes",
+          "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X gameplay",
+          "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X guide",
+          "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-path-of-exile-2-announces-a-second-new-class-the-shadow-970a18a934ef",
+      "topic": "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release",
+      "detected_at": "2026-11-07T09:14:55.119061+00:00",
+      "analysed_at": "2026-11-16T23:30:27.916023+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/path-of-exile-2-announces-a-second-new-class-the-shadow-for-its-december-1-0-release/",
+          "title": "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release",
+          "evidence": "<article> <p>Today during<a href=\"https://pathofexile2.com/exilecon\"> ExileCon's</a> keynote address Grinding Gear Games announced that Path of Exile 2's full release on December 11 will bring not one, but <em>two </em>new classes: Alongside the previously announced Duelist, 1.0 will also introduce the dagger-heavy, trap-wielding Shadow, capable of employing a suite of new stealth mechanics.</p><p>The Shadow's addition had been hinted at with a cryptic teaser trailer, which you can see<a href=\"https://youtu.be/UOVBbRDPvDk?si=F9jHj9XbzkirZsIB\" target=\"_blank\"> here</a>. The class's inclusion is welcome news to those of us—like yours truly—who very much enjoy playing these sneaky stabbers. On release, Shadows will be able to ascend as the returning Assassin, or choose a new ascendancy: the Infiltrator.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/FD-lo79LtAM\" allowfullscreen=\"\"></iframe></div></div><p>We know that eventually, every PoE2 character class will have (at least) three ascendancies. Whether the Shadow's third will be the Saboteur, the Trickster, or somethin"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release",
+        "secondary_keywords": [
+          "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release date de sortie",
+          "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release plateformes",
+          "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release gameplay",
+          "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release guide",
+          "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-15T19:56:55.613087+00:00",
+  "updated_at": "2026-11-16T10:10:07.616242+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -27384,6 +27384,316 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Warren Spector sounds even angrier about BioWare's closure as he recounts the massive salaries of EA execs: 'Is there ANY accountability left in this world?'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-12210",
+      "topic": "Configuration PC Grand Theft Auto IV: The Complete Edition : minimale, recommandée et conseils",
+      "detected_at": "2026-11-16T10:10:06.387305+00:00",
+      "analysed_at": "2026-11-16T10:10:07.616020+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/12210/",
+          "title": "Grand Theft Auto IV: The Complete Edition sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Grand Theft Auto IV: The Complete Edition, consultée le 2026-11-16. Développeur : Rockstar North, Rockstar Toronto. Éditeur : Rockstar Games. Date de sortie sur Steam : 24 mars 2020. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Système d'exploitation : Windows 10 (64-bit) ; Processeur : Intel Core 2 Duo 1.8 GHz, AMD Athlon X2 64 2.4 GHz ; Mémoire vive : 1.5 Go de RAM ; Carte graphique : Nvidia 7900 comportant 256 Mo de mémoire vidéo / ATI X1900 comportant 256 Mo de mémoire vidéo ; Version DirectX : DirectX 9.0c ; Disque dur : 22 Go d'Espace disque disponible ; Son : Carte 5.1 Channel Audio ; Autre prérequis : Connexion internet, jouer en ligne demande une inscription à Games For Windows - Live et Rockstar Games Social Club (pour 13 ans et +), l'installation nécessite DirectX et Microsoft’s .NET Framework 3.0.. La fiche Steam n'indique pas de configuration recommandée.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/0000006360.1920x1080.jpg?t=1721061564"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Grand Theft Auto IV: The Complete Edition",
+        "secondary_keywords": [
+          "Grand Theft Auto IV: The Complete Edition PC",
+          "Grand Theft Auto IV: The Complete Edition Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Grand Theft Auto IV: The Complete Edition : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-12210",
+      "topic": "Grand Theft Auto IV: The Complete Edition multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-11-16T10:10:06.387366+00:00",
+      "analysed_at": "2026-11-16T10:10:07.616075+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/12210/",
+          "title": "Grand Theft Auto IV: The Complete Edition sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Grand Theft Auto IV: The Complete Edition, consultée le 2026-11-16. Développeur : Rockstar North, Rockstar Toronto. Éditeur : Rockstar Games. Date de sortie sur Steam : 24 mars 2020. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Compat. contrôleurs partielle, Remote Play sur téléphone, Remote Play sur tablette. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : Niko Bellic, Johnny Klebitz et Luis Lopez ont une chose en commun : ils vivent dans la ville la plus terrible d'Amérique. Liberty City est une ville où l'argent et le statut social règnent en maîtres. Un paradis pour ceux qui ont tout, un enfer pour les autres.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/0000006360.1920x1080.jpg?t=1721061564"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Grand Theft Auto IV: The Complete Edition multijoueur",
+        "secondary_keywords": [
+          "Grand Theft Auto IV: The Complete Edition PC",
+          "Grand Theft Auto IV: The Complete Edition Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Grand Theft Auto IV: The Complete Edition multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-deus-ex-s-warren-spector-mourns-bioware-and-wonders-why-db8c29e49186",
+      "topic": "Deus Ex's Warren Spector mourns BioWare and wonders why overpaid executives never lose their jobs",
+      "detected_at": "2026-11-06T09:54:02.948871+00:00",
+      "analysed_at": "2026-11-16T10:10:07.616106+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/deus-exs-warren-spector-mourns-bioware-and-wonders-why-overpaid-executives-never-lose-their-jobs-do-those-culture-killers-pay-any-price/",
+          "title": "Deus Ex's Warren Spector mourns BioWare and wonders why overpaid executives never lose their jobs",
+          "evidence": "<article> <p>Warren Spector is best known for leading the development of the original Deus Ex, and as one of the key minds behind the likes of Ultima Underworld and System Shock, he's often considered something of a father to the entire immersive sim genre. He's also a veteran of Origin, a studio which was bought and subsequently shut down by EA decades ago, and he has some strong feelings about how the publisher has handled BioWare.</p><p>\"So 400 people at BioWare are gone. Out in the cold with so many others,\" Spector said in a <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7518774616589316097/\" target=\"_blank\">LinkedIn post</a> shortly after <a href=\"https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/\">BioWare's death was announced to the world</a>. He added, \"This is such bad news, such a devastating historic event all I can say is that it’s utter bullshit. Anyone who participated in this travesty should be ashamed.\"</p><p>But people have been keen to defend EA's decision to kill BioWare as merely a smart business decision. Certainly, talkative video game executives have a habit of <a href=\"https://ww"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Deus Ex's Warren Spector mourns BioWare and wonders why overpaid executives never lose their jobs",
+        "secondary_keywords": [
+          "Deus Ex's Warren Spector mourns BioWare and wonders why overpaid executives never lose their jobs date de sortie",
+          "Deus Ex's Warren Spector mourns BioWare and wonders why overpaid executives never lose their jobs plateformes",
+          "Deus Ex's Warren Spector mourns BioWare and wonders why overpaid executives never lose their jobs gameplay",
+          "Deus Ex's Warren Spector mourns BioWare and wonders why overpaid executives never lose their jobs guide",
+          "Deus Ex's Warren Spector mourns BioWare and wonders why overpaid executives never lose their jobs avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Deus Ex's Warren Spector mourns BioWare and wonders why overpaid executives never lose their jobs"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ea-employee-stumbles-on-nearly-20-000-game-assets-in-a--f84f1ac2cec3",
+      "topic": "EA employee stumbles on \"nearly 20,000\" game assets in a storage room, leading to 7 new remasters",
+      "detected_at": "2026-11-06T09:54:02.949115+00:00",
+      "analysed_at": "2026-11-16T10:10:07.616137+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/a-random-ea-employee-stumbled-on-nearly-20-000-classic-game-assets-in-a-storage-room-then-a-producer-spent-2-years-working-with-modders-on-7-new-remasters-that-just-hit-steam/",
+          "title": "EA employee stumbles on \"nearly 20,000\" game assets in a storage room, leading to 7 new remasters",
+          "evidence": "<article> <p>EA has just released seven new remasters across Steam and GOG, bringing classics like Wing Commander and Road Rash back to life in greater fidelity than ever before. These remasters were made possible by pure happenstance, when a random EA employee stumbled on an archive of tens of thousands of classic game assets sitting in a storage room.</p><p>Producer Jim Vessella had helped shepherd Command & Conquer Remastered to life which, among other things, involved restoring a host of Betacam tapes containing the game's original cutscenes. Those tapes then sat untouched throughout the pandemic, but when Vessella returned to the office in 2022, he suddenly had to figure out where to put all these tapes.</p><p>\"When I came back from the pandemic in spring of 2022,\" Vessella tells <a href=\"https://www.youtube.com/watch?v=QGdLZTgMDd4\" target=\"_blank\">The Game Business</a>, \"I had this giant shelf in my cubicle of 200 Betacam tapes, and I was like, 'I need a place to store this.' One of the facilities people were like, 'oh yeah, I think there's a room over in the other building that has a couple items like that.' So he took me over there, and then you open it up and it's like Ind"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "EA employee stumbles on \"nearly 20,000\" game assets in a storage room, leading to 7 new remasters",
+        "secondary_keywords": [
+          "EA employee stumbles on \"nearly 20,000\" game assets in a storage room, leading to 7 new remasters date de sortie",
+          "EA employee stumbles on \"nearly 20,000\" game assets in a storage room, leading to 7 new remasters plateformes",
+          "EA employee stumbles on \"nearly 20,000\" game assets in a storage room, leading to 7 new remasters gameplay",
+          "EA employee stumbles on \"nearly 20,000\" game assets in a storage room, leading to 7 new remasters guide",
+          "EA employee stumbles on \"nearly 20,000\" game assets in a storage room, leading to 7 new remasters avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "EA employee stumbles on \"nearly 20,000\" game assets in a storage room, leading to 7 new remasters"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-it-s-hard-to-meet-women-when-i-keep-teleporting-all-the-66b9fce86ca0",
+      "topic": "It's hard to meet women when I keep teleporting all the time",
+      "detected_at": "2026-11-06T20:34:40.635556+00:00",
+      "analysed_at": "2026-11-16T10:10:07.616161+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/its-hard-to-meet-women-when-i-keep-teleporting-all-the-time/",
+          "title": "It's hard to meet women when I keep teleporting all the time",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>Am I cheating? I might be cheating. I did not <em>actually</em> install a new mod for today's iteration of Los Santos Customs. Like I mentioned yesterday, updating my Script Hook thing seems to have breathed life into a host of old mods I'd installed, but which did not work. Now they work, and here we are.</p><p>I'm definitely <em>not</em> cheating on my wife though. I have a wife now, by the way, and all I had to do to get her was teleport her to the roof of a skyscraper and gift her 22 sports cars. No more lonely nights for me, and it's all thanks to <a href=\"https://w"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "It's hard to meet women when I keep teleporting all the time",
+        "secondary_keywords": [
+          "It's hard to meet women when I keep teleporting all the time date de sortie",
+          "It's hard to meet women when I keep teleporting all the time plateformes",
+          "It's hard to meet women when I keep teleporting all the time gameplay",
+          "It's hard to meet women when I keep teleporting all the time guide",
+          "It's hard to meet women when I keep teleporting all the time avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "It's hard to meet women when I keep teleporting all the time"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-all-that-stands-between-a-hacker-and-admin-privileges-o-55fbe014493c",
+      "topic": "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything",
+      "detected_at": "2026-11-06T20:34:40.635829+00:00",
+      "analysed_at": "2026-11-16T10:10:07.616187+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/linux/all-that-stands-between-a-hacker-and-admin-privileges-on-some-linux-distros-is-a-257-character-long-string-of-literally-anything/",
+          "title": "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything",
+          "evidence": "<article> <p>Some implementations of secure shell (SSH), one of Linux's most trusted and secure connection protocols, have been found vulnerable to the most peculiarly simple methods of bypass: spamming characters. </p><p>On some distros, simply type 257–1,024 characters and you get access to the root (admin) login. Thankfully, the list of vulnerable distros is quite small and niche, and OpenSSH has already issued a workaround/fix.</p><p>In some <a href=\"https://www.openssh.org/txt/release-10.6p2\" target=\"_blank\">new release notes</a>, OpenSSH explains that \"this release contains a critical security workaround that affects Linux systems that use the musl libc and PAM disabled.\"</p><p>\"Sshd(8): avoid password authentication bypass that is exploitable through sshd(8) that affects some Linux systems when built and run with PAM support disabled. We consider the root cause of this bug to be outside sshd, but it is exploitable via sshd and can be avoided there.\"</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-ePmlVW\"></div> </div> <script src=\"https://kwizly.com/embed/ePmlVW.js\" async=\"\"></script><p>SSH itself is a longstanding and ubiquitous networking protocol that a"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything",
+        "secondary_keywords": [
+          "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything date de sortie",
+          "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything plateformes",
+          "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything gameplay",
+          "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything guide",
+          "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "All that stands between a hacker and admin privileges on some Linux distros is a 257-character long string of literally anything"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-a-public-petition-to-save-bioware-has-drawn-enough-sign-ef990df7cf4f",
+      "topic": "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says",
+      "detected_at": "2026-11-06T20:34:40.636244+00:00",
+      "analysed_at": "2026-11-16T10:10:07.616215+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mass-effect/a-public-petition-to-save-bioware-has-drawn-enough-signatures-that-the-canadian-government-will-at-least-have-to-think-about-it-this-is-absolutely-possible-mp-says/",
+          "title": "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says",
+          "evidence": "<article> <p>A lot of attention has been focused on the <a href=\"https://www.pcgamer.com/games/mass-effect/save-mass-effect-petition-hits-over-180-000-signatures-within-days-of-biowares-closure/\" target=\"_blank\">\"Save Mass Effect\" petition</a> on Change.org, which has now drawn over 300,000 signatures collectively calling on Electronic Arts to make a new Mass Effect game. </p><p>But there's <a href=\"https://www.ourcommons.ca/petitions/en/Petition/Details?Petition=e-7898\" target=\"_blank\">another petition in the works</a>, asking the government of Canada to save BioWare—the people, not the product—and while it only has a tiny fraction of names attached to it, it's enough that the Canadian government will actually have to look at it.</p><p>Unlike the Change.org petition, this one is official, in that it's actually part of the legislative process: Public petitions like e-7989, as it's formally known, are \"used to <a href=\"https://www.ourcommons.ca/procedure/procedure-and-practice-4/ch22-1-e.html\" target=\"_blank\">draw attention to an issue of public concern</a>. They ask the House of Commons, the Government of Canada, a minister or a member to take or refrain from taking some action.\"</"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says",
+        "secondary_keywords": [
+          "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says date de sortie",
+          "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says plateformes",
+          "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says gameplay",
+          "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says guide",
+          "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "A public petition to save BioWare has drawn enough signatures that the Canadian government will at least have to think about it: 'This is absolutely possible,' MP says"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-epomaker-he75-v2-tmr-review-ca04deb534b1",
+      "topic": "Epomaker HE75 V2 TMR review",
+      "detected_at": "2026-11-06T20:34:40.636867+00:00",
+      "analysed_at": "2026-11-16T10:10:07.616236+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-keyboards/epomaker-he75-v2-tmr-review/",
+          "title": "Epomaker HE75 V2 TMR review",
+          "evidence": "<article> <div data-widget-type=\"review\" data-model-name=\"Epomaker HE75 V2 TMR\" data-widget-title=\"\"></div><p>It feels like every new bit of tech in a gaming keyboard or gaming mouse is treated as the next frontier, from new switch types to higher polling rates, and even the materials used. But if you want 8,000 Hz polling, it actually does feel like TMR might be the next frontier, because not only is it snappy and responsive, but it's super efficient, which helps counteract some of the problems with high polling in the first place. </p><p>Right now, the pickings are fairly slim for TMR keyboards. We've got some from <a href=\"https://www.pcgamer.com/hardware/gaming-keyboards/logitech-g512-x-review/\" target=\"_blank\">Logitech</a>, some from <a href=\"https://www.pcgamer.com/hardware/gaming-keyboards/cherry-k5-pro-tmr-compact-review/\" target=\"_blank\">Cherry</a>, and a <a href=\"https://www.monsgeek.com/keyboard/m1-v5-tmr-fully-assembled/\" target=\"_blank\">few others</a>, but it's still a relatively niche sensor technology for switches right now, and not exactly cheap. But TMR is great, and it's particularly good if you want to go wireless thanks to its power efficiency. </p><p>Epomaker's"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Epomaker HE75 V2 TMR review",
+        "secondary_keywords": [
+          "Epomaker HE75 V2 TMR review date de sortie",
+          "Epomaker HE75 V2 TMR review plateformes",
+          "Epomaker HE75 V2 TMR review gameplay",
+          "Epomaker HE75 V2 TMR review guide",
+          "Epomaker HE75 V2 TMR review avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Epomaker HE75 V2 TMR review"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,0 +1,76 @@
+{
+  "source_id": "39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9",
+  "carousel_version": "0974949237fa53eaa19cd5d5b83f017aadcf3692161acea837a69bc588dde52e",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    1029,
+    1030,
+    1031
+  ],
+  "prepared_at_utc": "2026-11-17T20:01:27.482696Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9",
+    "source_title": "Persona 5 Royal à -70% sur Steam",
+    "score": 78.5,
+    "idea": {
+      "source_id": "39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9",
+      "topic": "Offre flash Steam pour Persona 5 Royal",
+      "angle": "Créer un sentiment d’urgence avec un appel à l’action immédiat",
+      "format": "breaking_news",
+      "hook": "🚨 Offre flash ! Persona 5 Royal à -70 % – Cliquez maintenant avant la fin de la promotion",
+      "freshness": 9,
+      "click_potential": 9,
+      "curiosity": 7,
+      "shareability": 8,
+      "originality": 5,
+      "gamerquest_relevance": 10,
+      "total_score": 78.5
+    },
+    "carousel": {
+      "topic": "Offre flash Steam pour Persona 5 Royal",
+      "angle": "Créer un sentiment d’urgence avec un appel à l’action immédiat",
+      "format": "breaking_news",
+      "hook": "🚨 Offre flash ! Persona 5 Royal à -70 % – Cliquez maintenant avant la fin de la promotion",
+      "score": 78.5,
+      "slides": [
+        {
+          "title": "🚨 Offre flash !",
+          "body": "Persona 5 Royal à -70 % – cliquez avant la fin !",
+          "visual_prompt": "Capture d'écran du jeu Persona 5 Royal avec un effet de flash lumineux, ambiance sombre et dynamique"
+        },
+        {
+          "title": "Prix choc : 17,99 €",
+          "body": "Le titre passe de 59,99 € à 17,99 € sur Steam, soit une réduction de 70 %.",
+          "visual_prompt": "Affichage du prix original barré à 59,99 € et du nouveau prix 17,99 € sur une interface de boutique Steam stylisée"
+        },
+        {
+          "title": "En savoir plus",
+          "body": "Découvrez les détails de l’offre sur GamerQuest.fr.",
+          "visual_prompt": "Icône de lien ou bouton stylisé invitant à cliquer, avec le logo de GamerQuest"
+        }
+      ],
+      "caption": "Ne laissez pas passer cette offre exceptionnelle sur Persona 5 Royal ! 🔥",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9"
+    },
+    "caption": "Ne laissez pas passer cette offre exceptionnelle sur Persona 5 Royal ! 🔥",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 1
+  }
+}

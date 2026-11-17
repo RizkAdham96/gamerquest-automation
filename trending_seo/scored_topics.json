@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-17T11:09:35.175763+00:00",
+  "updated_at": "2026-11-17T22:39:02.762746+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -28316,6 +28316,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Linux on the desktop marches on as GOG announces its Galaxy client is getting a revamp headed to Windows, macOS, and your distro of choice"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ps6-doesn-t-need-more-power-ex-playstation-boss-says-026c074ee36f",
+      "topic": "PS6 doesn't need more power, ex-PlayStation boss says",
+      "detected_at": "2026-11-07T19:03:19.867902+00:00",
+      "analysed_at": "2026-11-17T22:39:02.762523+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/platforms/playstation/ps6-doesnt-need-more-power-ex-playstation-boss-says-because-true-innovation-would-be-making-a-usd300-console-again/",
+          "title": "PS6 doesn't need more power, ex-PlayStation boss says",
+          "evidence": "<article> <p>Former PlayStation boss Shawn Layden doesn't think the inevitable <a href=\"https://www.gamesradar.com/platforms/playstation/sony-is-considering-pushing-the-ps6-to-2028-or-2029-some-analysts-believe-according-to-embracer-group/\">PS6</a> needs to be more powerful to be a success. While new console generations offer less drastic technical improvements each time, Layden reckons \"true innovation\" would come from making the next-gen machine affordable. </p><p>Speaking to The Trophy Room podcast, Layden recalls how past generations offered \"something mind-blowing\" every time a new console came out. \"The jump from PS1 to PS2 was incredible,\" he says, \"and the jump from compact disc to DVD.\" Even the PS4 was \"completely networked\" and Sony still managed to offer the console for $399 at the time. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/DaymDziTqKs\" allowfullscreen=\"\"></iframe></div></div><p>Meanwhile, rumors are that the PS6 will come with \"even more ray tracing and more teraflops.\" That might sound impressive to tech wizards, but to Layden and the average "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "PS6 doesn't need more power, ex-PlayStation boss says",
+        "secondary_keywords": [
+          "PS6 doesn't need more power, ex-PlayStation boss says date de sortie",
+          "PS6 doesn't need more power, ex-PlayStation boss says plateformes",
+          "PS6 doesn't need more power, ex-PlayStation boss says gameplay",
+          "PS6 doesn't need more power, ex-PlayStation boss says guide",
+          "PS6 doesn't need more power, ex-PlayStation boss says avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "PS6 doesn't need more power, ex-PlayStation boss says"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-three-zelda-ocarina-of-times-later-eiji-aonuma-is-final-490e0f0e162f",
+      "topic": "Three Zelda: Ocarina of Times later, Eiji Aonuma is finally happy with the infamous Water Temple",
+      "detected_at": "2026-11-07T19:03:19.868083+00:00",
+      "analysed_at": "2026-11-17T22:39:02.762575+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-legend-of-zelda/three-the-legend-of-zelda-ocarina-of-times-later-eiji-aonuma-is-finally-happy-with-the-infamous-water-temple-i-think-this-for-me-is-the-best-version/",
+          "title": "Three Zelda: Ocarina of Times later, Eiji Aonuma is finally happy with the infamous Water Temple",
+          "evidence": "<article> <p>One of the most infamous dungeons in The Legend of Zelda's history is undoubtedly Ocarina of Time's Water Temple. But after three Ocarina of Times and two full remakes, series producer Eiji Aonuma is finally happy with how the dungeon turned out in the new Switch 2 version.</p><p>Asked if he's finally content with the Water Temple in <a href=\"https://www.gamesradar.com/the-legend-of-zelda-ocarina-of-time-remake-guide/\">The Legend of Zelda: Ocarina of Time's Switch 2 remake</a>, while speaking to <a href=\"https://gameinformer.com/interview/2026/11/04/zelda-ocarina-remake-producers-talk-changing-and-maintaining-the-game-easter\">Game Informer</a>, the series lead simply said \"certainly.\" Aonuma acknowledged that the original N64 Water Temple \"was hard,\" but some of that trickiness came from the \"system that we were presenting to players.\"</p><p>1998's Water Temple had players equipping and then slipping off a pair of iron boots that would make Link sink or float up in these rooms full of water, hence the name. The headache came from the actual act of wearing the boots, since you'd have to drudge through the menus every single time. Thankfully, the Switch 2 version takes s"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Three Zelda: Ocarina of Times later, Eiji Aonuma is finally happy with the infamous Water Temple",
+        "secondary_keywords": [
+          "Three Zelda: Ocarina of Times later, Eiji Aonuma is finally happy with the infamous Water Temple date de sortie",
+          "Three Zelda: Ocarina of Times later, Eiji Aonuma is finally happy with the infamous Water Temple plateformes",
+          "Three Zelda: Ocarina of Times later, Eiji Aonuma is finally happy with the infamous Water Temple gameplay",
+          "Three Zelda: Ocarina of Times later, Eiji Aonuma is finally happy with the infamous Water Temple guide",
+          "Three Zelda: Ocarina of Times later, Eiji Aonuma is finally happy with the infamous Water Temple avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Three Zelda: Ocarina of Times later, Eiji Aonuma is finally happy with the infamous Water Temple"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-path-of-exile-2-s-game-director-thinks-a-death-recap-wi-000d3bc19d63",
+      "topic": "Path of Exile 2's game director thinks a death recap will finally allow us players to complain about the right things",
+      "detected_at": "2026-11-08T09:28:36.645007+00:00",
+      "analysed_at": "2026-11-17T22:39:02.762607+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/path-of-exile-2s-game-director-thinks-a-death-recap-will-finally-allow-us-players-to-complain-about-the-right-things/",
+          "title": "Path of Exile 2's game director thinks a death recap will finally allow us players to complain about the right things",
+          "evidence": "<article> <p>I've been playing Path of Exile for almost ten years and have put a ton of hours into PoE2 since it entered early access, and in all that time there's one feature that I've wished for more than any other. More than stash tabs, more than fancy microtransactions, even more than finally finding a mirror in the wild. </p><p>What I want more than anything is a death recap: a way to finally have some idea why my turbo powerful character that's blasting through a map went pop. At an interview at ExileCon this weekend, game director Jonathan Rogers confirmed that it's finally coming to Path of Exile 2.</p><p>I don't know whether Grinding Gear intended to announce the feature this weekend, but during the keynote's live demo of new content, Mark Roberts' character died. And there before our eyes, live and in person, was a death recap screen. After we all got done cheering, Rogers laughed and confirmed that the feature was present and would be included in the full 1.0 release coming up on December 11.</p><p>\"I was really worried that it wasn't going to be useful enough or accurate enough, but we got it to a place that I'm fairly happy with,\" Rogers said when I asked him to confir"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Path of Exile 2's game director thinks a death recap will finally allow us players to complain about the right things",
+        "secondary_keywords": [
+          "Path of Exile 2's game director thinks a death recap will finally allow us players to complain about the right things date de sortie",
+          "Path of Exile 2's game director thinks a death recap will finally allow us players to complain about the right things plateformes",
+          "Path of Exile 2's game director thinks a death recap will finally allow us players to complain about the right things gameplay",
+          "Path of Exile 2's game director thinks a death recap will finally allow us players to complain about the right things guide",
+          "Path of Exile 2's game director thinks a death recap will finally allow us players to complain about the right things avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Path of Exile 2's game director thinks a death recap will finally allow us players to complain about the right things"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-a-bioware-documentary-was-already-in-the-works-when-the-4b70514c5f50",
+      "topic": "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction'",
+      "detected_at": "2026-11-08T09:28:36.645266+00:00",
+      "analysed_at": "2026-11-17T22:39:02.762641+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/a-bioware-documentary-was-already-in-the-works-when-the-shutdown-was-announced-with-the-studios-recent-closure-the-film-is-now-a-profound-valediction/",
+          "title": "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction'",
+          "evidence": "<article> <p><a href=\"https://deadline.com/2026/11/massive-effect-bioware-story-doc-super-channel-1237213018/\">Deadline</a> reports that a Canadian documentary about the history of BioWare was already two years into filming when EA closed the studio. Now, it's becoming a sad goodbye to a legendary developer.</p><p>\"The BioWare founders are my hometown heroes,\" the documentary's writer and director Akash Sherman said. \"It's a privilege and responsibility to share the journey of underdogs who came together to create deeply beloved storytelling. Their golden era kindled a spark in me and in an entire generation. With the studio's recent closure, the film is now a profound valediction.\"</p><p>The documentary, Massive Effect: The BioWare Story, features interviews with the studio's founders, Ray Muzyka, Greg Zeschuk, and Augustine Yip, as well as developers Casey Hudson, Mark Darrah, David Gaider, Drew Karpyshyn, Aaryn Flynn, Mac Walters, Trent Oster, James Ohlen, and Caroline Livingstone, voice actor Jennifer Hale, former CEO of EA John Riccitello, and vice president of Lucasfilm Games Douglas Reilly.</p><p>\"When the production team asked for our blessing to tell the BioWare story, we "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction'",
+        "secondary_keywords": [
+          "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction' date de sortie",
+          "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction' plateformes",
+          "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction' gameplay",
+          "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction' guide",
+          "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-chess-is-immediately-more-fun-if-you-jettison-most-of-t-2a2dc07baba3",
+      "topic": "Chess is immediately more fun if you jettison most of the rules and replace them with weapons-grade Game Boy Advance",
+      "detected_at": "2026-11-08T09:28:36.645642+00:00",
+      "analysed_at": "2026-11-17T22:39:02.762667+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/puzzle/chess-is-immediately-more-fun-if-you-jettison-most-of-the-rules-and-replace-them-with-weapons-grade-game-boy-advance/",
+          "title": "Chess is immediately more fun if you jettison most of the rules and replace them with weapons-grade Game Boy Advance",
+          "evidence": "<article> <p>I have never been particularly good at The Game of Kings, but I do love when an indie developer turns their talents to turning chess into something more <em>funky</em>. <a href=\"https://www.pcgamer.com/indie-roguelike-shotgun-king-takes-chess-and-adds-hot-lead-and-a-grudge/\" target=\"_blank\">Shotgun King</a> stole my heart a few years ago, and now <a href=\"https://store.steampowered.com/app/4537280/Rulehouse/\" target=\"_blank\">Rulehouse</a> is looking to offer its own spin on the classic.</p><div class=\"fancy-box\"><div class=\"fancy_box-title\">Weird Weekend</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/weird-weekend/\" target=\"_blank\">Weird Weekend</a> is our regular Saturday column where we celebrate PC gaming oddities: peculiar games, strange bits of trivia, forgotten history. Pop back every weekend to find out what Jeremy, Josh, Ted, and Rick have become obsessed with this time, whether it's the <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/i-embarked-on-a-mission-to-answer-the-most-important-question-in-pc-gaming-how-tall-is-garrett-from-thief/\" target=\"_"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Chess is immediately more fun if you jettison most of the rules and replace them with weapons-grade Game Boy Advance",
+        "secondary_keywords": [
+          "Chess is immediately more fun if you jettison most of the rules and replace them with weapons-grade Game Boy Advance date de sortie",
+          "Chess is immediately more fun if you jettison most of the rules and replace them with weapons-grade Game Boy Advance plateformes",
+          "Chess is immediately more fun if you jettison most of the rules and replace them with weapons-grade Game Boy Advance gameplay",
+          "Chess is immediately more fun if you jettison most of the rules and replace them with weapons-grade Game Boy Advance guide",
+          "Chess is immediately more fun if you jettison most of the rules and replace them with weapons-grade Game Boy Advance avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Chess is immediately more fun if you jettison most of the rules and replace them with weapons-grade Game Boy Advance"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-one-of-the-buggiest-d-d-games-ever-released-pool-of-rad-bad94b1dda55",
+      "topic": "One of the buggiest D&D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable again",
+      "detected_at": "2026-11-08T09:28:36.645957+00:00",
+      "analysed_at": "2026-11-17T22:39:02.762693+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/one-of-the-buggiest-d-and-d-games-ever-released-pool-of-radiance-ruins-of-myth-drannor-is-back-and-actually-playable-again/",
+          "title": "One of the buggiest D&D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable again",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:62.50%;\"><img id=\"FohMkJ4yQib5MRDt6QHJ75\" name=\"20261106180943_1\" alt=\"A party of adventurers faces orcs in a dungeon\" src=\"https://cdn.mos.cms.futurecdn.net/FohMkJ4yQib5MRDt6QHJ75-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2560\" height=\"1600\" attribution=\"\" endorsement=\"\" class=\"inline expandable\" /><a href='https://cdn.mos.cms.futurecdn.net/FohMkJ4yQib5MRDt6QHJ75-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: SNEG)</span></figcaption></figure><p>\"Not since the infamous debut of Daikatana has the release of a single game generated so much incensed indignation from early buyers.\" Our review of Pool of Radiance: Ruins of Myth Drannor didn't hold back. The 2001 dungeon crawler contained, our review said, \"A multitude of outrageous bugs,\" including ones that corrupted s"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "One of the buggiest D&D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable again",
+        "secondary_keywords": [
+          "One of the buggiest D&D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable again date de sortie",
+          "One of the buggiest D&D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable again plateformes",
+          "One of the buggiest D&D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable again gameplay",
+          "One of the buggiest D&D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable again guide",
+          "One of the buggiest D&D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable again avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "One of the buggiest D&D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable again"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-rings-of-power-season-3-star-robert-aramayo-opens-u-036279b65ae7",
+      "topic": "The Rings of Power season 3 star Robert Aramayo opens up about playing another iconic Lord of the Rings character",
+      "detected_at": "2026-11-08T09:28:36.778902+00:00",
+      "analysed_at": "2026-11-17T22:39:02.762717+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/the-rings-of-power-season-3-star-robert-aramayo-opens-up-about-playing-another-iconic-lord-of-the-rings-character-in-the-shows-upcoming-flashback/",
+          "title": "The Rings of Power season 3 star Robert Aramayo opens up about playing another iconic Lord of the Rings character",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/lord-of-the-rings-the-rings-of-power-season-3-release-date-cast-plot-trailer-news/\">The Rings of Power season 3</a> sees Elrond star Robert Aramayo play a second role, his Elven character's twin brother Elros. In a flashback sequence in the new season, we finally meet the iconic Lord of the Rings character who was a pivotal part of Middle-earth's history.</p><p>In J.R.R. Tolkien's works, the twin brothers were given the same choice by the Valar due to their half-Elven heritage: to decide whether they would want to be Elves or Men. Elrond chooses the immortal path, whereas his brother decides to become a man, going on to be the first king of Númenor. </p><p>In season 3, we get to see the implications of this choice in a flashback to the First Age. Speaking to GamesRadar+, Aramayo opens up about finding inspiration for playing the new character. </p><p>\"I looked at Númenóreans in the show and just thought about what kind of person would make the opposite choice, you know,\" he explains. \"But what's cool about them is that they're so similar. They just go a different way.\"</p><p>Aramayo, who has p"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Rings of Power season 3 star Robert Aramayo opens up about playing another iconic Lord of the Rings character",
+        "secondary_keywords": [
+          "The Rings of Power season 3 star Robert Aramayo opens up about playing another iconic Lord of the Rings character date de sortie",
+          "The Rings of Power season 3 star Robert Aramayo opens up about playing another iconic Lord of the Rings character plateformes",
+          "The Rings of Power season 3 star Robert Aramayo opens up about playing another iconic Lord of the Rings character gameplay",
+          "The Rings of Power season 3 star Robert Aramayo opens up about playing another iconic Lord of the Rings character guide",
+          "The Rings of Power season 3 star Robert Aramayo opens up about playing another iconic Lord of the Rings character avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Rings of Power season 3 star Robert Aramayo opens up about playing another iconic Lord of the Rings character"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-new-khazalite-holds-range-proves-that-age-of-sigmar-32af3b93d61e",
+      "topic": "The new Khazalite Holds range proves that Age of Sigmar has some of Warhammer's best models",
+      "detected_at": "2026-11-08T09:28:36.779217+00:00",
+      "analysed_at": "2026-11-17T22:39:02.762741+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/tabletop-gaming/the-new-khazalite-holds-range-proves-that-age-of-sigmar-has-some-of-warhammers-best-models/",
+          "title": "The new Khazalite Holds range proves that Age of Sigmar has some of Warhammer's best models",
+          "evidence": "<article> <p>I have a plea for you: don't sleep on Warhammer Age of Sigmar. It may not be a household name like its grimdark sibling 40K, but this fantasy wargame is some of Games Workshop's best work – and the new Khazalite Holds range (which has just gone up for pre-order) is a good example of that. </p><p>When it comes to Games Workshop, Warhammer 40,000 gets a lot of attention. Understandably so; it's a deeply compelling world with iconic factions and trend-setting gameplay. However, Age of Sigmar is no slouch. Besides intuitive mechanics that shave off any excess for an incredibly tight, focused experience, it being the scrappy younger brother with everything to prove has given it an excuse to go wild creatively. I genuinely think this wargame is responsible for some of the company's boldest and best-looking models. The Khazalite Holds exemplify this top-of-class nature.</p><div class=\"fancy-box\"><div class=\"fancy_box-title\">Gather the holds</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PfNJQ23ZcZcMkq4LW7GRWD\" name=\"War"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The new Khazalite Holds range proves that Age of Sigmar has some of Warhammer's best models",
+        "secondary_keywords": [
+          "The new Khazalite Holds range proves that Age of Sigmar has some of Warhammer's best models date de sortie",
+          "The new Khazalite Holds range proves that Age of Sigmar has some of Warhammer's best models plateformes",
+          "The new Khazalite Holds range proves that Age of Sigmar has some of Warhammer's best models gameplay",
+          "The new Khazalite Holds range proves that Age of Sigmar has some of Warhammer's best models guide",
+          "The new Khazalite Holds range proves that Age of Sigmar has some of Warhammer's best models avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The new Khazalite Holds range proves that Age of Sigmar has some of Warhammer's best models"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-16T18:51:27.512741+00:00",
+  "generated_at": "2026-11-17T03:06:10.798058+00:00",
   "count": 2,
   "articles": [
     {
-      "source_id": "ce576838414f987577af1238aab56febb8d794af767e530415f9b9939aaab0db",
-      "title": "Euro Truck Simulator 2 à -75% sur Steam",
-      "excerpt": "Euro Truck Simulator 2 bénéficie actuellement d'une réduction de 75% sur Steam, passant de 19,99 € à 4,99 €.",
-      "content": "<p><strong>Euro Truck Simulator 2</strong> bénéficie actuellement d'une réduction de <strong>75%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>19,99 €</strong></li><li>Prix actuel : <strong>4,99 €</strong></li><li>Réduction : <strong>75%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/227300/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/227300/",
+      "source_id": "39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9",
+      "title": "Persona 5 Royal à -70% sur Steam",
+      "excerpt": "Persona 5 Royal bénéficie actuellement d'une réduction de 70% sur Steam, passant de 59,99 € à 17,99 €.",
+      "content": "<p><strong>Persona 5 Royal</strong> bénéficie actuellement d'une réduction de <strong>70%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>59,99 €</strong></li><li>Prix actuel : <strong>17,99 €</strong></li><li>Réduction : <strong>70%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/1687950/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/1687950/",
       "deal": {
-        "game": "Euro Truck Simulator 2",
+        "game": "Persona 5 Royal",
         "store": "Steam",
-        "original_price": 19.99,
-        "current_price": 4.99,
-        "discount_percent": 75,
+        "original_price": 59.99,
+        "current_price": 17.99,
+        "discount_percent": 70,
         "expires_at": null
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/ce576838414f987577af1238aab56febb8d794af767e530415f9b9939aaab0db.jpg",
-        "filename": "ce576838414f987577af1238aab56febb8d794af767e530415f9b9939aaab0db.jpg",
-        "alt": "Euro Truck Simulator 2 -75% sur Steam - GamerQuest",
-        "caption": "Euro Truck Simulator 2 : offre -75% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Euro Truck Simulator 2 sur Steam."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9.jpg",
+        "filename": "39a972b675fd7a35cf11c83f84ed90a4764f6707f1a4411e66ab47682d2a7ea9.jpg",
+        "alt": "Persona 5 Royal -70% sur Steam - GamerQuest",
+        "caption": "Persona 5 Royal : offre -70% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Persona 5 Royal sur Steam."
       }
     },
     {

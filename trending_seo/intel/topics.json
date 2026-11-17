@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-11-16T23:30:27.436488+00:00",
+  "updated_at": "2026-11-17T11:09:34.727536+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -35,6 +35,7 @@
     "no man s sky",
     "ori and the will of the wisps",
     "out of sight",
+    "persona 5 royal",
     "red dead redemption 2",
     "resident evil 4",
     "resident evil village",
@@ -57,342 +58,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "rss-discord-is-cutting-memory-usage-and-speeding-up-boot-ti-46f86a004f1f",
-      "topic": "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year",
-      "detected_at": "2026-11-06T20:34:40.638184+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/discord-is-cutting-memory-usage-and-speeding-up-boot-times-joins-xbox-epic-steam-and-more-for-similar-upgrades-just-this-year/",
-          "title": "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year",
-          "evidence": "<article> <div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2118081920194203799\"><p lang=\"en\" dir=\"ltr\">We've been early adopters of Rust since 2018 and a lot of our infra, voice tech, and even some of the current client is already Rust, the holy grail was getting the whole client there. That means Electron goes away, and so does React Native, mobile keeps native UI but shares app… https://t.co/2CgWyOzaq0 pic.twitter.com/IdOGd4nUgl<a href=\"https://twitter.com/cantworkitout/status/2118081920194203799\">November 4, 2026</a></p></blockquote></figure><div class=\"see-more__filter\"></div></div><p>Open up Task Manager and check how much memory Discord is currently hogging on your PC. If it's anything like mine, it's probably north of 500 MB. Alas, things should change soon, as Discord is moving the client completely over to a new programming language. It might not sound like that big of a deal, but <a href=\"https://x.com/svishnevskiy/status/2118081920194203799\" target=\"_blank\">Discord's CTO, Stanislav Vishnevskiy, shows it running on as little as 290 MB of memory. </a></p><p>Discord is"
-        }
-      ],
-      "keywords": [
-        "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year",
-        "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year date de sortie",
-        "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year plateformes",
-        "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year gameplay",
-        "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year guide",
-        "Discord is cutting memory usage and speeding up boot times - joins Xbox, Epic, Steam, and more for similar upgrades just this year avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-zelda-ocarina-of-time-remake-reportedly-running-at-60-f-f1e17a09192f",
-      "topic": "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release",
-      "detected_at": "2026-11-06T20:34:40.638396+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/software/zelda-ocarina-of-time-remake-reportedly-running-at-60-fps-on-pc-just-hours-after-games-official-nintendo-switch-2-release/",
-          "title": "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release",
-          "evidence": "<article> <p>I've spent all night playing The Legend of Zelda: Ocarina of Time remake on the Switch 2, and it's a fantastic experience, but some would prefer to tinker and toil over an emulator than enjoy Link's new look. The game is already running on PC, but performance issues are aplenty.</p><p>You can see progress is moving pretty fast from the emulator crowd, just from these two videos by Unreal Gaming PC on YouTube. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/L_ZlCLIy-VM\" allowfullscreen=\"\"></iframe></div></div><p>Published on the game's official launch day, November 5, this video shows the game getting over the splash screen and running the cutscenes fairly well; however, it suffers from bad flickering, stuttering, and frame rates around the 20-30 fps mark during gameplay.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/WNNoHYX4EIg\" allowfullscreen=\"\"></iframe></div></div><p>12 hours later, another video. This time showing the game running betw"
-        }
-      ],
-      "keywords": [
-        "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release",
-        "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release date de sortie",
-        "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release plateformes",
-        "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release gameplay",
-        "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release guide",
-        "Zelda: Ocarina of Time remake reportedly running at 60 fps on PC just hours after game's official Nintendo Switch 2 release avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-zelnick-doesn-t-regret-gta-6-s-delay-because-shipping-a-dfea9d226329",
-      "topic": "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category'",
-      "detected_at": "2026-11-06T20:34:40.638610+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/zelnick-doesnt-regret-gta-6s-delay-because-shipping-an-unfinished-game-rarely-ends-well-there-was-a-very-high-profile-release-that-fell-into-this-category/",
-          "title": "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category'",
-          "evidence": "<article> <p>Remember when <a href=\"https://www.pcgamer.com/uk/grand-theft-auto-6/\">Grand Theft Auto 6</a> was delayed, not once <a href=\"https://www.pcgamer.com/games/action/will-take-two-announce-another-grand-theft-auto-6-delay-tomorrow/\">but twice</a>? It's hard to forget: its first release date was treated as a day of mourning by some particularly upset fans. Despite all the outcries from fans, Take-Two Interactive chief Strauss Zelnick has repeatedly explained that he <a href=\"https://www.pcgamer.com/games/action/take-two-boss-says-weve-never-regretted-delaying-a-game-following-the-grand-theft-auto-6-pushback-says-other-studios-might-have-better-luck-if-they-did-the-same-thing-once-in-a-while/\">doesn't regret the decision</a>. </p><p><a href=\"https://www.youtube.com/watch?v=r7BWW8gvxRw\" target=\"_blank\">Talking to WSJ</a> the interviewer asks Zelnick what his immediate emotion was after hearing from the team that GTA 6 needed to be delayed: \"I don't always feel calm but I tend to come across as calm … The timing of the call was not great for an array of reasons. We had just had a board retreat 10 days earlier so I wasn't thrilled about the timing. That said, this is a balancin"
-        }
-      ],
-      "keywords": [
-        "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category'",
-        "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category' date de sortie",
-        "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category' plateformes",
-        "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category' gameplay",
-        "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category' guide",
-        "Zelnick doesn't regret GTA 6's delay because shipping an unfinished game rarely ends well: 'There was a very high profile release that fell into this category' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-wow-forever-is-working-on-its-server-tech-to-make-citie-dc240b1771e0",
-      "topic": "WoW: Forever is working on its server tech to make cities less empty, say devs",
-      "detected_at": "2026-11-06T20:34:40.638820+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-is-working-on-its-server-tech-to-make-cities-less-empty-say-devs/",
-          "title": "WoW: Forever is working on its server tech to make cities less empty, say devs",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a>'s launch has been downright impressive—MMOs are notoriously difficult to run servers for, particularly when it comes to launch, where players will get bottlenecked into servers, throwing devs into a catch 22: Do they increase capacity and wind up wasting money in the long run while things die down, or do they ride out the wave?<em> </em>And yet, after the chaos of the beta, <a href=\"https://www.pcgamer.com/games/world-of-warcraft/after-all-the-queuing-drama-in-beta-wow-forevers-launch-was-buttery-smooth/\">it's been buttery smooth.</a></p><p>Which is why I'm willing to forgive Blizzard for a weird quirk of its realmless layering technology—cities have been empty, empty as hell. Which is a shame, given I know that hundreds of thousands of players are technically on this thing—and yet, none of them are in my Stormwind.</p><p>Well, Forever's devs are working on a fix, <a href=\"https://us.forums.blizzard.com/en/wow/t/why-do-i-see-maybe-8-people-inside-the-main-city/2401806/27\" target=\"_blank\">per the official forums</a>: \"Just wanted to chime in,\" says Aggrend, \"And say that we are a"
-        }
-      ],
-      "keywords": [
-        "WoW: Forever is working on its server tech to make cities less empty, say devs",
-        "WoW: Forever is working on its server tech to make cities less empty, say devs date de sortie",
-        "WoW: Forever is working on its server tech to make cities less empty, say devs plateformes",
-        "WoW: Forever is working on its server tech to make cities less empty, say devs gameplay",
-        "WoW: Forever is working on its server tech to make cities less empty, say devs guide",
-        "WoW: Forever is working on its server tech to make cities less empty, say devs avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-here-s-what-s-in-path-of-exile-2-s-huge-1-0-release-com-1bdaa60ab000",
-      "topic": "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December",
-      "detected_at": "2026-11-07T09:14:55.118191+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rpg/heres-whats-in-path-of-exile-2s-huge-1-0-release-coming-in-december/",
-          "title": "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December",
-          "evidence": "<article> <p>Path of Exile 2's full release is out on December 11, and coming with it are two new classes, two new acts, a new league, tons of new monsters, bosses, battles, endgame changes, gem updates, atlas and skill tree updates, a new pinnacle boss, base types, uniques, and, I don't know, probably a kitchen sink or something. Let's go over it.</p><p>First of all, we'll have two new classes: <a href=\"https://www.pcgamer.com/games/rpg/path-of-exile-2-announces-a-second-new-class-the-shadow-for-its-december-1-0-release/\">the Shadow</a> and the Duelist. With them, we'll get all new skill gems for daggers and swords, with tons of new builds available. Daggers introduce new mechanics around stealth, traps, shadow skills with clones that attack with you, and classic skills like blade vortex and fire trap.</p><p>The Duelist will introduce swords, and with it fan favorite skills like cyclone and hemorrhage. With swords we'll be able to use stances like blood and sand or ready stance. Add to this being able to two-hand, dual wield, or sword and board and swords look to add a huge amount of mechanical complexity.</p><p>After two years of early access, the campaign will finally be fully f"
-        }
-      ],
-      "keywords": [
-        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December",
-        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December date de sortie",
-        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December plateformes",
-        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December gameplay",
-        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December guide",
-        "Here's what's in Path of Exile 2’s huge 1.0 release, coming in December avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-rockstar-s-having-a-sale-on-old-gta-games-on-the-only-p-3ccda6bc6290",
-      "topic": "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)",
-      "detected_at": "2026-11-07T09:14:55.118431+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstars-having-sale-on-old-gta-games-on-the-only-platform-grand-theft-auto-6-isnt-coming-to-ours/",
-          "title": "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/grand-theft-auto-6/\" target=\"_blank\">Grand Theft Auto 6</a> finally arrives on November 19, but not for us, no—the big day is only for gamers on PlayStation 5 and Xbox Series X/S. We're not being completely excluded, though: We can't have GTA 6 in November, but we can take advantage of pre-release discounts on a bunch of older GTA games—deals that, ironically, don't appear to be available on consoles.</p><p>As noted by <a href=\"https://www.gamesradar.com/games/grand-theft-auto/a-bunch-of-grand-theft-auto-games-will-be-cheap-on-steam-until-gta-6-comes-out-and-only-one-of-them-sucks/\" target=\"_blank\">GamesRadar</a>, there are four GTA games available in two releases: Grand Theft Auto 3, Vice City, and San Andreas bundled up in the <a href=\"https://store.steampowered.com/sub/817628/\" target=\"_blank\">GTA Trilogy</a> for $19.79/£19.79/€19.79—67% off the regular price—and <a href=\"https://store.steampowered.com/app/12210/Grand_Theft_Auto_IV_The_Complete_Edition/\" target=\"_blank\">Grand Theft Auto 4: Complete Edition</a>, which includes The Lost and Damned and The Ballad of Gay Tony expansions, for $6/£5.09/€6, a 70% discount.</p><p>Those aren'"
-        }
-      ],
-      "keywords": [
-        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours)",
-        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) date de sortie",
-        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) plateformes",
-        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) gameplay",
-        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) guide",
-        "Rockstar's having a sale on old GTA games on the only platform Grand Theft Auto 6 isn't coming to (ours) avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-ai-posting-war-is-heating-up-please-leave-me-behind-976aa5523fa8",
-      "topic": "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X",
-      "detected_at": "2026-11-07T09:14:55.118871+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/software/ai/the-ai-posting-war-is-heating-up-please-leave-me-behind-says-artist-who-got-into-it-with-epic-ceo-tim-sweeney-on-x/",
-          "title": "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X",
-          "evidence": "<article> <p>Kenney, an artist known for <a href=\"https://kenney.nl/\" target=\"_blank\">giving away thousands of free game assets</a>, did not expect to wind up directly arguing with specific billionaires after telling off billionaires in general in a recent X post. But a few hours after he encouraged other artists not to give in to pressure to use generative AI, Epic Games CEO Tim Sweeney was in his replies.</p><p>\"This is bullshit, Kenney,\" Sweeney <a href=\"https://x.com/TimSweeneyEpic/status/2111790177660334473?a=j9nSLpXzdgSE-KchXGo&s=20\" target=\"_blank\">told the artist</a>, concluding his rebuttal with a cute double entendre: \"I've upped my expectations of AI. Up yours!\" </p><p>Richest-person-in-the-world Elon Musk also <a href=\"https://x.com/elonmusk/status/2112018830088393044?a=FWVf3-F1AKVI90sBML4&s=20\" target=\"_blank\">chimed in</a> to back up Sweeney. Hundreds of other comments on the exchange inevitably followed, spanning the full spectrum of AI opinions.</p><p>Kenney's contentious post was: \"Don't let billionaires convince you slop is the future. They're used to managing & directing, not making things themselves. Of course they can't see the difference. They don't understand"
-        }
-      ],
-      "keywords": [
-        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X",
-        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X date de sortie",
-        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X plateformes",
-        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X gameplay",
-        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X guide",
-        "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-path-of-exile-2-announces-a-second-new-class-the-shadow-970a18a934ef",
-      "topic": "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release",
-      "detected_at": "2026-11-07T09:14:55.119061+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rpg/path-of-exile-2-announces-a-second-new-class-the-shadow-for-its-december-1-0-release/",
-          "title": "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release",
-          "evidence": "<article> <p>Today during<a href=\"https://pathofexile2.com/exilecon\"> ExileCon's</a> keynote address Grinding Gear Games announced that Path of Exile 2's full release on December 11 will bring not one, but <em>two </em>new classes: Alongside the previously announced Duelist, 1.0 will also introduce the dagger-heavy, trap-wielding Shadow, capable of employing a suite of new stealth mechanics.</p><p>The Shadow's addition had been hinted at with a cryptic teaser trailer, which you can see<a href=\"https://youtu.be/UOVBbRDPvDk?si=F9jHj9XbzkirZsIB\" target=\"_blank\"> here</a>. The class's inclusion is welcome news to those of us—like yours truly—who very much enjoy playing these sneaky stabbers. On release, Shadows will be able to ascend as the returning Assassin, or choose a new ascendancy: the Infiltrator.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/FD-lo79LtAM\" allowfullscreen=\"\"></iframe></div></div><p>We know that eventually, every PoE2 character class will have (at least) three ascendancies. Whether the Shadow's third will be the Saboteur, the Trickster, or somethin"
-        }
-      ],
-      "keywords": [
-        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release",
-        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release date de sortie",
-        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release plateformes",
-        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release gameplay",
-        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release guide",
-        "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-underkeep-is-my-favorite-old-school-dungeon-crawler-sin-e266f58b3426",
-      "topic": "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain",
-      "detected_at": "2026-11-07T09:14:55.119370+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/rpg/underkeep-is-my-favorite-old-school-dungeon-crawler-since-legend-of-grimrock-and-yes-that-includes-queens-domain/",
-          "title": "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain",
-          "evidence": "<article> <p>Everyone's talking about <a href=\"https://www.pcgamer.com/games/rpg/queens-domain-might-be-the-best-game-like-metroid-prime-since-metroid-prime/\" target=\"_blank\">Queen's Domain</a> right now, but as someone who tried Queen's Domain and did not care for it, allow me to direct your attention to an alternative old-school dungeon crawler: Underkeep, which <a href=\"https://store.steampowered.com/app/2411200/Underkeep/\" target=\"_blank\">launched on Steam</a> on November 5 and has been absolutely phenomenal through the roughly four hours I've put into it so far.</p><p>Like Queen's Domain, Underkeep is firmly rooted in the 1990s, but I'm talkin' the <em>early</em> '90s, and even before that: Classic grid-based RPGs like The Bard's Tale, Dungeon Master, Wizardry, and Eye of the Beholder. In fact, as someone who <a href=\"https://www.pcgamer.com/why-you-should-play-eye-of-the-beholder-2-from-gogs-dd-collection/\" target=\"_blank\">loves Eye of the Beholder</a> (specifically the second one, The Legend of Darkmoon), I noticed a lot of nearly direct lifts from that series: primarily visual, but also a few audio cues, that I swear I've heard before.</p><div class=\"youtube-video\" data-nos"
-        }
-      ],
-      "keywords": [
-        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain",
-        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain date de sortie",
-        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain plateformes",
-        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain gameplay",
-        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain guide",
-        "Underkeep is my favorite old-school dungeon crawler since Legend of Grimrock, and yes that includes Queen's Domain avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-it-came-out-of-nowhere-i-was-shocked-and-sad-he-was-the-6551ca0fb9c6",
-      "topic": "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off",
-      "detected_at": "2026-11-07T09:14:55.119831+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/fps/it-came-out-of-nowhere-i-was-shocked-and-sad-he-was-the-face-of-hunt-showdown-for-years-then-crytek-laid-him-off/",
-          "title": "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off",
-          "evidence": "<article> <p>The Hunt: Showdown community received a sucker punch in September when it learned that Bence \"Beedyboy\" Hamos, a beloved community-facing figure for the long-running extraction shooter, was unceremoniously let go in a wave of Crytek layoffs that affected at least 30 people.</p><p>For years Hamos was one of the faces of Hunt: Showdown, hosting livestreams, vlogs, and social media videos that kept players abreast of their favorite game's happenings. Through the highs and lows of Hunt's updates, events, and <a href=\"https://www.pcgamer.com/games/fps/this-gaudy-ghost-face-cosmetic-isnt-exactly-helping-hunt-showdown-1896-players-escape-the-feeling-of-corporate-crossover-creep/\">occasional controversies</a>, he was a steady presence—calm, exuberant, and in touch with the experience of average players.</p><p>Hamos began at Crytek in 2018 in a social media role, eventually climbing to senior broadcast manager. As someone who absorbs the work of community managers constantly for work, I believe Hamos was particularly good at it—which is why his sudden departure <a href=\"https://www.reddit.com/r/HuntShowdown/s/rUbSExkM64\">hit Hunt's most dedicated players hard</a>.</p><p>I caugh"
-        }
-      ],
-      "keywords": [
-        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off",
-        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off date de sortie",
-        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off plateformes",
-        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off gameplay",
-        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off guide",
-        "'It came out of nowhere. I was shocked and sad': He was the face of Hunt: Showdown for years, then Crytek laid him off avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-sony-has-a-good-chance-of-winning-with-a-ps6-handheld-f-284a6fc731a2",
-      "topic": "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says",
-      "detected_at": "2026-11-07T09:14:55.315514+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/sony-has-a-good-chance-of-winning-with-a-ps6-handheld-former-playstation-boss-says-but-only-if-theres-no-home-console-launch-too/",
-          "title": "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says",
-          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/hardware/handhelds/the-rumored-ps6-handheld-and-console-will-reportedly-pack-24gb-and-30gb-ram-respectively-and-im-sure-hoping-ramageddon-has-blown-over-by-then/\">Rumors have been swirling</a> for almost a year now that the next generation of Sony hardware will include both a standard PS6 home console and some sort of handheld device, but according to someone with a whole lot of knowledge and insight into PlayStation hardware launches, that's a recipe for failure.</p><p>Shawn Layden, former chairman of SIE Worldwide Studios, recently appeared on the <a href=\"https://www.youtube.com/watch?v=DaymDziTqKs\" target=\"_blank\">Trophy Room: A PlayStation Show podcast</a>, and he cautioned his former employer against releasing both a handheld and home console at the same time. Having been with PlayStation through the launch of the PSP and PS Vita, Layden says \"it was difficult to support both a console and a handheld at the same time,\" adding, \"you almost have to create two companies.\"</p><p>\"While they are complimentary, they can also be intention in where you're going, what you're trying to say. And the console, which is the bigger dollar, th"
-        }
-      ],
-      "keywords": [
-        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says",
-        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says date de sortie",
-        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says plateformes",
-        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says gameplay",
-        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says guide",
-        "Sony has \"a good chance of winning\" with a PS6 handheld, former PlayStation boss says avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-dragon-age-writer-is-collaborating-on-mass-effect-like--bf3e96f572d8",
-      "topic": "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn",
-      "detected_at": "2026-11-07T09:14:55.315665+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/rpg/dragon-age-kotor-and-baldurs-gate-writer-is-collaborating-on-mass-effect-like-rpg-the-expanse-osiris-reborn/",
-          "title": "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn",
-          "evidence": "<article> <p>David Gaider is one of BioWare's most notable writers. After cutting his teeth on Baldur's Gate 2, he wrote some of Star Wars: Knights of the Old Republic's most memorable characters, and would go on to lead the narrative for Dragon Age: Origins, setting the tone for BioWare's original fantasy franchise. Gaider notably never worked on Mass Effect, but he's getting the chance to channel its spirit as part of the writing team for The Expanse: Osiris Reborn.</p><p>\"Alongside my work at Summerfall, I've also been collaborating with the Owlcat Games team on The Expanse: Osiris Reborn, focusing on certain aspects of the game's narrative,\" Gaider says in a <a href=\"https://bsky.app/profile/davidgaider.bsky.social/post/3mznkp2wr3c2f\" target=\"_blank\">Bluesky post</a>. \"The Expanse has long been one of my favourite series, and so obviously I jumped at the opportunity to be involved.\"</p><p>It's tough not to think about Mass Effect when looking at Osiris Reborn – after all, it too is a sci-fi RPG that controls like a third-person shooter where you build relationships with a cast of companions. The connection became even more direct last month, when developer Owlcat threw its own "
-        }
-      ],
-      "keywords": [
-        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn",
-        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn date de sortie",
-        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn plateformes",
-        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn gameplay",
-        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn guide",
-        "Dragon Age writer is \"collaborating\" on Mass Effect-like RPG The Expanse: Osiris Reborn avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-a-permanent-arc-raiders-pve-mode-would-be-easy-to-do-sa-ce81083aa759",
-      "topic": "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\"",
-      "detected_at": "2026-11-07T09:14:55.315860+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/third-person-shooter/a-permanent-arc-raiders-pve-mode-would-be-easy-to-add-says-embark-ceo-and-maybe-people-can-choose-what-they-like/",
-          "title": "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\"",
-          "evidence": "<article> <p>Arc Raiders developer Embark Studios has yet to come out and say that a permanent PvE mode is coming to the game, but we're certainly hearing more and more rumblings in that direction.</p><p>In a new interview with <a href=\"https://www.thegamebusiness.com/p/why-embark-had-to-pull-the-handbrake\" target=\"_blank\"><u>The Game Business</u></a>, Embark CEO turned Nexon games chief Patrick Söderlund joined Arc Raiders executive producer Aleksander Grøndal to discuss, among other things, the reception to the game's recent PvE mode test. </p><p>For a limited time, players could opt into PvE-only rounds of Arc Raiders to enjoy the game's world without the risk of another raider gunning them down. Reception seemed mixed but overall positive, and it seems Embark is warming up to the idea of PvE as a whole. Importantly, the studio has also reaffirmed that it wouldn't be a hard thing to add.</p><p>\"We could just frankly add PvE,\" says Söderlund. \"It's not a difficult thing for us to do, but we didn't want to obstruct or fiddle too much with the core loop of the game. The PvP aspect of a PvP PvE game does add, we believe, adequate tension.\" </p><p>Maintaining the intrigue and threat "
-        }
-      ],
-      "keywords": [
-        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\"",
-        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\" date de sortie",
-        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\" plateformes",
-        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\" gameplay",
-        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\" guide",
-        "A permanent Arc Raiders PvE mode would be easy to do, says Embark CEO, “maybe people can choose\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-canadian-politician-tears-into-ea-and-calls-for-federal-8c902a77a8ab",
-      "topic": "Canadian politician tears into EA and calls for federal support of BioWare",
-      "detected_at": "2026-11-07T09:14:55.316077+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/mass-effect/canadian-politician-tears-into-ea-and-calls-for-federal-support-of-bioware-these-publishers-buy-developers-run-them-into-the-ground-and-rip-them-apart-for-profit/",
-          "title": "Canadian politician tears into EA and calls for federal support of BioWare",
-          "evidence": "<article> <p>Suddenly, the vibe around the #SaveMassEffect movement has shifted. </p><p>At first, it seemed like little more than a grabby hashtag allowing Mass Effect fans to have their voices heard after <a href=\"https://www.gamesradar.com/mass-effect-5-guide/\">EA's shocking closure of BioWare and cancelation of Mass Effect 5 last month</a>. But since then, the <a href=\"https://www.change.org/p/savemasseffect\" target=\"_blank\">Change.org petition</a> has racked up more than 300,000 signatures, and now the Canadian government is being forced to acknowledge the situation.</p><p>That's because <a href=\"https://www.ourcommons.ca/petitions/en/Petition/Details?Petition=e-7898\" target=\"_blank\">a separate petition</a> asking the Government of Canada for federal support for BioWare has far surpassed the amount of signatures required (3488 currently with a 500-vote threshold) to be certified and presented in the House of Commons. The rules of the Parliament say \"the government must respond to every petition presented to the House within 45 calendar days of its presentation or filing with the Clerk.\"</p><p>The petition for federal support isn't about saving Mass Effect specifically, but secu"
-        }
-      ],
-      "keywords": [
-        "Canadian politician tears into EA and calls for federal support of BioWare",
-        "Canadian politician tears into EA and calls for federal support of BioWare date de sortie",
-        "Canadian politician tears into EA and calls for federal support of BioWare plateformes",
-        "Canadian politician tears into EA and calls for federal support of BioWare gameplay",
-        "Canadian politician tears into EA and calls for federal support of BioWare guide",
-        "Canadian politician tears into EA and calls for federal support of BioWare avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-a-bunch-of-grand-theft-auto-games-will-be-cheap-on-stea-a41453937ddb",
       "topic": "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks",
@@ -6049,6 +5714,340 @@
         "World of Warcraft: Forever player turns their paladin into a near-unkillable healbot, solos a level 60 monster at level 30, and swims into the ocean avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-gta-6-release-times-how-far-behind-the-first-launch-wil-a60c8944f91d",
+      "topic": "GTA 6 release times: How far behind the first launch will GTA 6 unlock in your time zone?",
+      "detected_at": "2026-11-17T11:09:34.600914+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-release-time-date/",
+          "title": "GTA 6 release times: How far behind the first launch will GTA 6 unlock in your time zone?",
+          "evidence": "<article> <p><strong>GTA 6 launches at midnight on November 19</strong> in your own local time zone for PS5 and Xbox Series X|S according to <a href=\"https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s\">Rockstar support</a>. Since it isn't a simultaneous global launch time that does mean that folks over in New Zealand (and everyone else in the same time zone) will be the first to play GTA 6. More on that below.</p><p>Since there's no time zone conversion to do in this case, I'll break down the info in a way that may be more useful to you. Here's how <a href=\"https://www.timeanddate.com/time/difference/new-zealand/auckland\">far behind your time zone is</a> from New Zealand's. This is how many hours behind the <em>first</em> GTA 6 players booting up the game you will be in your area. I feel like everyone in Florida should get an upgrade from ET to NZ time in this one case, just sayin'.</p><iframe allow=\"\" height=\"50\" width=\"160\" id=\"\" style=\"\" class=\"position-center\" data-lazy-priority=\"high\" data-lazy-src=\"https://free.timeanddate.com/countdown/ianyvb7i/n22/cf12/cm0/cu3/ct0/"
+        }
+      ],
+      "keywords": [
+        "GTA 6 release times: How far behind the first launch will GTA 6 unlock in your time zone?",
+        "GTA 6 release times: How far behind the first launch will GTA 6 unlock in your time zone? date de sortie",
+        "GTA 6 release times: How far behind the first launch will GTA 6 unlock in your time zone? plateformes",
+        "GTA 6 release times: How far behind the first launch will GTA 6 unlock in your time zone? gameplay",
+        "GTA 6 release times: How far behind the first launch will GTA 6 unlock in your time zone? guide",
+        "GTA 6 release times: How far behind the first launch will GTA 6 unlock in your time zone? avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-ex-call-of-duty-live-service-manager-joins-ea-as-the-ne-d9f1ee6ce203",
+      "topic": "Ex-Call of Duty live service manager joins EA as the new GM of Battlefield",
+      "detected_at": "2026-11-17T11:09:34.601221+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/ex-call-of-duty-live-service-manager-joins-ea-as-the-new-gm-of-battlefield/",
+          "title": "Ex-Call of Duty live service manager joins EA as the new GM of Battlefield",
+          "evidence": "<article> <p>A few things come to mind when I think about what the greatest fear of a Battlefield player is. It could be a glint atop the mountains on Liberation Peak, reliving the launch of <a href=\"https://www.pcgamer.com/uk/battlefield-2042/\">Battlefield 2042</a>, or maybe it's the randomised recoil from the first Battlefield. All of these are good bets, but I think the real shared nightmare of most Battlefield players is that someday it'll morph into <a href=\"https://www.pcgamer.com/uk/games/fps/call-of-duty/\">Call of Duty</a>. </p><p>To be fair, this fear isn't entirely unfounded. Bryan Beede was previously appointed as Battlefield's general manager after spending 19 years working on Call of Duty and has now been promoted to group general manager at EA. Taking his place is another Call of Duty veteran, Sam Cooper, who worked as Call of Duty's global product management and head of live service. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"5bEYmhQutSmN4J2CprVJtf\" name=\"blackwell fiel"
+        }
+      ],
+      "keywords": [
+        "Ex-Call of Duty live service manager joins EA as the new GM of Battlefield",
+        "Ex-Call of Duty live service manager joins EA as the new GM of Battlefield date de sortie",
+        "Ex-Call of Duty live service manager joins EA as the new GM of Battlefield plateformes",
+        "Ex-Call of Duty live service manager joins EA as the new GM of Battlefield gameplay",
+        "Ex-Call of Duty live service manager joins EA as the new GM of Battlefield guide",
+        "Ex-Call of Duty live service manager joins EA as the new GM of Battlefield avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-ashes-of-the-singularity-2-review-some-neat-ideas-under-8b2d8b393dc1",
+      "topic": "Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI",
+      "detected_at": "2026-11-17T11:09:34.601982+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rts/ashes-of-the-singularity-2-review/",
+          "title": "Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Need to know</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it?</strong> RTS sequel in the lineage of Supreme Commander</p><p class=\"fancy-box__body-text\"><strong>Expect to pay:</strong> £32.50/$39</p><p class=\"fancy-box__body-text\"><strong>Developer:</strong> Oxide Games</p><p class=\"fancy-box__body-text\"><strong>Publisher:</strong> Stardock</p><p class=\"fancy-box__body-text\"><strong>Reviewed On:</strong> AMD Ryzen 5 3600, Nvidia 2080 Super, 32 GB RAM, Windows 10.</p><p class=\"fancy-box__body-text\"><strong>Multiplayer?</strong> Yes</p><p class=\"fancy-box__body-text\"><strong>Steam Deck?</strong> Unsupported</p><p class=\"fancy-box__body-text\"><strong>Link: </strong><a data-analytics-id=\"inline-link\" href=\"https://www.ashesofthesingularity.com/\" target=\"_blank\">Official site</a></p></div></div><p><a href=\"https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/\" target=\"_blank\">Ashes of the Singularity 2</a> can't be faulted for scale. Much like its predecessor, the RTS sequel delivers on the promise of letting players control truly colossal armies. Rolling up huge globs of "
+        }
+      ],
+      "keywords": [
+        "Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI",
+        "Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI date de sortie",
+        "Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI plateformes",
+        "Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI gameplay",
+        "Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI guide",
+        "Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-game-dev-isn-t-always-straightforward-overwatch-s-direc-3e33bd8f01eb",
+      "topic": "'Game dev isn't always straightforward': Overwatch's director responds to players upset about season 6's hero being a DPS",
+      "detected_at": "2026-11-17T11:09:34.602237+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/game-dev-isnt-always-straightforward-overwatchs-director-responds-to-players-upset-about-season-6s-hero-being-a-dps/",
+          "title": "'Game dev isn't always straightforward': Overwatch's director responds to players upset about season 6's hero being a DPS",
+          "evidence": "<article> <p>Last week we found out a few new things about the next hero coming to <a href=\"https://www.pcgamer.com/uk/overwatch/\">Overwatch</a> in season 6. He's an omnic detective, <a href=\"https://www.pcgamer.com/games/fps/overwatchs-creative-director-accidentally-leaks-the-name-of-season-6s-upcoming-hero-and-reveals-that-he-got-the-highest-scores-of-any-hero-that-weve-tested/\">his name's Hudson</a>, he has a fun accent, and he will be a DPS. Hudson is the last hero to be released from the batch teased earlier this year during <a href=\"https://www.pcgamer.com/games/fps/overwatchs-biggest-season-ever-kicks-off-with-5-new-heroes-all-at-once-including-a-cat-with-a-jetpack-who-can-toss-you-off-the-map/\">Overwatch's Spotlight</a>, and after all this time I'm very excited to see what he has to offer. But not everyone shares this sentiment. </p><p>There's a good chunk of players who are upset about Hudson, before they've even tried him out, simply because he's not a support hero, which was what Team 4 initially promised him to be. I've seen this discontent online and honestly ignored it, thinking it was either bots or people farming for attention because I cannot fathom why anyone is h"
+        }
+      ],
+      "keywords": [
+        "'Game dev isn't always straightforward': Overwatch's director responds to players upset about season 6's hero being a DPS",
+        "'Game dev isn't always straightforward': Overwatch's director responds to players upset about season 6's hero being a DPS date de sortie",
+        "'Game dev isn't always straightforward': Overwatch's director responds to players upset about season 6's hero being a DPS plateformes",
+        "'Game dev isn't always straightforward': Overwatch's director responds to players upset about season 6's hero being a DPS gameplay",
+        "'Game dev isn't always straightforward': Overwatch's director responds to players upset about season 6's hero being a DPS guide",
+        "'Game dev isn't always straightforward': Overwatch's director responds to players upset about season 6's hero being a DPS avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-intel-hit-with-class-action-alleging-it-misled-investor-67e4b290a14f",
+      "topic": "Intel hit with class action alleging it 'misled investors' – company's recent downturn due in part to how darn expensive PCs are right now",
+      "detected_at": "2026-11-17T11:09:34.602522+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/processors/intel-hit-with-class-action-alleging-it-misled-investors-companys-recent-downturn-due-in-part-to-how-darn-expensive-pcs-are-right-now/",
+          "title": "Intel hit with class action alleging it 'misled investors' – company's recent downturn due in part to how darn expensive PCs are right now",
+          "evidence": "<article> <p>Hot on the heels of a <a href=\"https://www.pcgamer.com/hardware/processors/intel-takes-massive-chunk-out-of-amds-desktop-cpu-market-share-in-unexpected-turnaround-may-be-due-to-the-red-teams-dominance-in-gaming-chips-weirdly/\" target=\"_blank\">monumental share price drop for the company,</a> Intel now faces a class action lawsuit from its own shareholders. </p><p>This is according to an <a href=\"https://www.businesswire.com/news/home/20261115592834/en/Investor-Alert-Robbins-LLP-Informs-Investors-of-the-Intel-Corporation-Class-Action-Lawsuit?feedref=JjAwJuNHiystnCoBq_hl-bV7DTIYheT0D-1vT4_bKFzt_EW40VMdK6eG-WLfRGUE1fJraLPL1g6AeUGJlCTYs7Oafol48Kkc8KJgZoTHgMu0w8LYSbRdYOj2VdwnuKwa\" target=\"_blank\">alert from law firm Robbins LLP</a>, which recently informed all investors. This suit alleges \"Intel misled investors about demand for its products and the Company's future growth potential.\"</p><p>The class action can involve anyone who bought stock between July 23, 2026, and October 29, 2026, known as the \"class period\".</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-XZP2AW\"></div> </div> <script src=\"https://kwizly.com/embed/XZP2AW.js\" async=\"\"></script><p>Wit"
+        }
+      ],
+      "keywords": [
+        "Intel hit with class action alleging it 'misled investors' – company's recent downturn due in part to how darn expensive PCs are right now",
+        "Intel hit with class action alleging it 'misled investors' – company's recent downturn due in part to how darn expensive PCs are right now date de sortie",
+        "Intel hit with class action alleging it 'misled investors' – company's recent downturn due in part to how darn expensive PCs are right now plateformes",
+        "Intel hit with class action alleging it 'misled investors' – company's recent downturn due in part to how darn expensive PCs are right now gameplay",
+        "Intel hit with class action alleging it 'misled investors' – company's recent downturn due in part to how darn expensive PCs are right now guide",
+        "Intel hit with class action alleging it 'misled investors' – company's recent downturn due in part to how darn expensive PCs are right now avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-new-asus-beta-bios-patches-now-include-a-fresh-amd-feat-1b7358feb650",
+      "topic": "New Asus beta BIOS patches now include a fresh AMD feature to stop you thinking your PC's b0rked",
+      "detected_at": "2026-11-17T11:09:34.602834+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/motherboards/new-asus-beta-bios-patches-now-include-a-fresh-amd-feature-to-stop-you-thinking-your-pcs-b0rked/",
+          "title": "New Asus beta BIOS patches now include a fresh AMD feature to stop you thinking your PC's b0rked",
+          "evidence": "<article> <p><strong>Original story, November 16, 2026:</strong> Memory training is boring stuff. Your PC will spend an age running through it when you first boot your PC, or you swap in some new RAM sticks (lucky you), or you make a change which has <em>anything</em> to do with memory in your BIOS. Or just because your PC decides it might fancy doing it again. But a new AGESA 1.3.0.1F beta BIOS update, first from Asus (via <a href=\"https://x.com/unikoshardware/status/2122203917597684065\" target=\"_blank\">Uniko's Hardware</a>), has made this whole process a lot more exciting.</p><p>Well, going from not at all exciting to <em>something </em>is always going to feel like a bigger deal, but I don't necessarily want to oversell it. Though when you're waiting for memory training to complete it's real nice to at least have a readout to indicate that it is progressing and your PC hasn't just hung.</p><p>This is the issue with memory training on PCs in the past. It was pretty damned opaque, in that you'd start up your PC and it would do… nothing. The fans would spin up, and the lights would light, but you'd have no readout on your monitor, and the debug screen on your motherboard would just "
+        }
+      ],
+      "keywords": [
+        "New Asus beta BIOS patches now include a fresh AMD feature to stop you thinking your PC's b0rked",
+        "New Asus beta BIOS patches now include a fresh AMD feature to stop you thinking your PC's b0rked date de sortie",
+        "New Asus beta BIOS patches now include a fresh AMD feature to stop you thinking your PC's b0rked plateformes",
+        "New Asus beta BIOS patches now include a fresh AMD feature to stop you thinking your PC's b0rked gameplay",
+        "New Asus beta BIOS patches now include a fresh AMD feature to stop you thinking your PC's b0rked guide",
+        "New Asus beta BIOS patches now include a fresh AMD feature to stop you thinking your PC's b0rked avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-jensen-huang-reportedly-eyeing-up-return-to-nvidia-as-f-af4409d4c694",
+      "topic": "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition",
+      "detected_at": "2026-11-17T11:09:34.603197+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/jensen-huang-reportedly-eyeing-up-return-to-nvidia-as-friendly-tech-execs-form-war-room-to-fight-for-him-and-over-175-000-people-sign-bringjensenback-petition/",
+          "title": "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-resigns-cfo-colette-kress-appointed-interim-ceo-at-nvidia/\" target=\"_blank\">Jensen Huang stood down</a> from his role as CEO of Nvidia on November 12. It's November 16 and 175,000…176,000…177,000 people have <a href=\"https://standwithjensen.com/\" target=\"_blank\">signed a petition</a> to bring him back. Moreover, it is said the leather-clad man himself is considering a campaign to be reinstated at the helm of Nvidia, and some silicon valley execs are reportedly getting behind him.</p><p>There's even a hashtag for the campaign, which feels like a remnant of a lost age when those were actually good for something: <a href=\"https://x.com/TheJensenLetter\" target=\"_blank\">#standwithjensen</a></p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-XZP2AW\"></div> </div> <script src=\"https://kwizly.com/embed/XZP2AW.js\" async=\"\"></script><p>In an open letter to the Nvidia board, the campaigners ask to \"bring Jensen back while an independent investigation establishes the facts, unless and until you can provide compelling evidence that his removal is in Nvidia's best interests.\"</p><p>The letter lays "
+        }
+      ],
+      "keywords": [
+        "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition",
+        "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition date de sortie",
+        "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition plateformes",
+        "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition gameplay",
+        "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition guide",
+        "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-wow-forever-s-continued-to-wrestle-with-dungeons-as-bli-0aef61a44114",
+      "topic": "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend",
+      "detected_at": "2026-11-17T11:09:34.603479+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-continued-to-wrestle-with-dungeons-as-blizzard-admits-it-briefly-missed-the-mark-on-hotfixes-over-the-weekend/",
+          "title": "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a>'s been pretty great. At this point, I have around 150 hours played, a terrible posture problem, and a level 47 warrior I just barely avoided doing a 2 am Zul'Farrak run with yesterday. Speaking of, there has been a point of contention: Dungeons. </p><p>My <a href=\"https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-bumps-dungeon-xp-from-monsters-by-50-percent-after-some-community-feedback-i-will-diplomatically-call-passionate/\">position on the debate is fairly neutral</a>—I think you could maybe bump up the mob XP by around 10% as a compromise—but overall I think they're fine. The new ones are bangers, and I get a huge bunch of XP from doing them at least once. Blizzard's recent choices, however, did have me scratching my head over the weekend.</p><p>For a short time, <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10\" target=\"_blank\">via a hotfix</a>, enemies in dungeons wouldn't give experience points to <a href=\"https://www.pcgamer.com/games/world-of-warcraft/wow-forever-dungeon-mobs-no-longer-give-exp-if-th"
+        }
+      ],
+      "keywords": [
+        "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend",
+        "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend date de sortie",
+        "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend plateformes",
+        "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend gameplay",
+        "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend guide",
+        "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-latest-steamos-update-improves-support-on-nvidia-po-113c3d9cae33",
+      "topic": "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful",
+      "detected_at": "2026-11-17T11:09:34.603672+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/steam-machines/the-latest-steamos-update-improves-support-on-nvidia-powered-pcs-makes-swapping-your-rig-to-the-os-less-painful/",
+          "title": "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful",
+          "evidence": "<article> <p>The preview version of <a href=\"https://www.steamdeck.com/en/news?pubDate=20260808\" target=\"_blank\">SteamOS 3.10.0</a> has just dropped, and with it comes better support for AMD and Nvidia hardware, and it's now based on Linux kernel 7.3. </p><p>For AMD graphics, the latest SteamOS update adds support for HDMI 2.1 VRR (Variable Refresh Rate), FRL(Fixed Rate Link), and ALLM (Auto Low Latency Mode). This should all contribute to a smoother gaming experience with higher bandwidth video and less input lag. </p><p>As for Nvidia graphics, it has reportedly received increased stability and performance, alongside support for Mesh Shaders on Turing and newer architectures. The latest SteamOS updates also fixed rendering corruption issues in Shadow of the Tomb Raider and The Surge 2. </p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-XZP2AW\"></div> </div> <script src=\"https://kwizly.com/embed/XZP2AW.js\" async=\"\"></script><p>Then, of course, SteamOS now uses the Linux 7.3 kernel (which launched last month). </p><p>Those are the big updates from SteamOS 3.10.0, but there are also a handful of fixes and changes. Game Mode has had the following changes:</p><ul><li>A"
+        }
+      ],
+      "keywords": [
+        "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful",
+        "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful date de sortie",
+        "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful plateformes",
+        "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful gameplay",
+        "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful guide",
+        "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-spider-man-brand-new-day-extended-cut-is-out-just-befor-f72945481ca2",
+      "topic": "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\"",
+      "detected_at": "2026-11-17T11:09:34.727035+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-movies/spider-man-brand-new-day-extended-cut-is-out-just-before-avengers-doomsday-with-more-surprises/",
+          "title": "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\"",
+          "evidence": "<article> <p>It's official: Spider-Man: Brand New Day is getting a re-release, complete with new scenes.</p><p>Brand New Day – as <a href=\"https://www.gamesradar.com/entertainment/marvel-movies/spider-man-brand-new-days-extended-edition-arrives-in-theaters-before-avengers-doomsday-with-7-minutes-of-extra-scenes/\">the initial rumors</a> suggested earlier in November – will return to cinemas on December 4, just two weeks before <a href=\"https://www.gamesradar.com/entertainment/marvel-movies/avengers-doomsday-release-date-cast-plot-trailer/\">Avengers: Doomsday</a>.</p><p>\"Welcome to a brand new Brand New Day,\" <a href=\"https://x.com/SonyPicturesUK/status/2122465389385068872\" target=\"_blank\">Sony Pictures</a> announced on Twitter. \"The record-breaking movie is coming back to the big screen on December 4 with an extended cut featuring new scenes and a couple more surprises.\"</p><p>Those new scenes and surprises are under wraps for the time being, but we would be <em>shocked </em>if Rosario Dawson's Claire Temple wasn't part of the extended cut – especially given <a href=\"https://www.gamesradar.com/entertainment/marvel-movies/rosario-dawson-confirms-her-netflix-daredevil-character-was-cu"
+        }
+      ],
+      "keywords": [
+        "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\"",
+        "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\" date de sortie",
+        "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\" plateformes",
+        "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\" gameplay",
+        "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\" guide",
+        "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-slay-the-spire-2-s-new-character-needs-to-be-tested-and-9ec2ae0dfa0d",
+      "topic": "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\"",
+      "detected_at": "2026-11-17T11:09:34.727249+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/roguelike/as-slay-the-spire-2s-new-character-dominates-mega-crit-admits-that-they-need-to-be-tested-and-polished-up-quite-a-bit-more-before-they-escape-the-roguelikes-beta-branch/",
+          "title": "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\"",
+          "evidence": "<article> <p>Slay the Spire 2's latest character, <a href=\"https://www.gamesradar.com/games/roguelike/slay-the-spire-2s-new-character-the-fool-is-the-most-going-to-be-nerfed-slayer-since-the-watcher/\"><u>The Fool, is so overpowered</u></a> that it's only a matter of time before they're hit with the nerf hammer – a point that developer Mega Crit seems to be alluding to as it notes that the latest content to hit the roguelike's beta branch is going to need \"quite a bit\" of polishing before it comes to the game's main branch.</p><p>Mega Crit says as much in the <a href=\"https://store.steampowered.com/news/app/2868840/view/708914425087656392\" target=\"_blank\">patch notes</a> for Slay the Spire 2's third major main branch update, which rolled out a few hours ago, \"bringing all of the content, art, balance changes, and bug fixes from v0.108.0-v0.111.0\" that beta branch players have been getting stuck into already. This notably <em>doesn't </em>include v0.113.0 – last week's beta patch that introduced <a href=\"https://www.gamesradar.com/games/roguelike/slay-the-spire-2s-biggest-update-yet-adds-the-roguelike-deckbuilders-first-new-character-and-two-new-game-modes/\"><u>two new game modes and"
+        }
+      ],
+      "keywords": [
+        "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\"",
+        "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\" date de sortie",
+        "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\" plateformes",
+        "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\" gameplay",
+        "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\" guide",
+        "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\" avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-writers-behind-every-daniel-craig-bond-movie-think--9a4d9d467b40",
+      "topic": "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007",
+      "detected_at": "2026-11-17T11:09:34.727432+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/james-bond-movies/the-writers-behind-every-daniel-craig-bond-movie-think-tenet-is-proof-that-robert-pattinson-has-what-it-takes-to-play-007/",
+          "title": "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007",
+          "evidence": "<article> <p>James Bond writers Robert Wade and Neil Purvis have weighed in with their thoughts on <a href=\"https://www.gamesradar.com/entertainment/james-bond-movies/robert-pattinson-james-bond-confirmed-first-look/\">Robert Pattinson's casting as 007</a>. The writers, who penned the franchise from The World Is Not Enough to No Time to Die, are big fans of the move. </p><p>Speaking to <a href=\"https://deadline.com/2026/11/robert-pattinson-james-bond-reaction-baz-bamigboye-1237225666/\" target=\"_blank\">Deadline</a>, they called Pattinson \"a terrific choice, very exciting.\" They said that Daniel Craig \"is a hard act to follow in terms of chops\" but that \"Robert has what it takes to – we liked the sly wit he brought to the spy in Tenet, and with this decision it's clear Denis [Villeneuve] wants to keep Bond cool.\"</p><p>The news that Pattinson is taking over the role came after weeks of speculation about the actors who had been screen-testing. Among the candidates were Josh O'Connor, Jack Lowden, Callum Turner, and Nicholas Hoult, who all reportedly made it to the final stages. </p><p>Pattinson won out, and according to<a href=\"https://www.gamesradar.com/entertainment/james-bond-movies"
+        }
+      ],
+      "keywords": [
+        "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007",
+        "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007 date de sortie",
+        "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007 plateformes",
+        "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007 gameplay",
+        "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007 guide",
+        "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "evg-config-1687950",
+      "topic": "Configuration PC Persona 5 Royal : minimale, recommandée et conseils",
+      "detected_at": "2026-11-17T11:09:34.488816+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1687950/",
+          "title": "Persona 5 Royal sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Persona 5 Royal, consultée le 2026-11-17. Développeur : ATLUS. Éditeur : SEGA. Date de sortie sur Steam : 20 oct. 2022. Genres : RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-4790, 3.4 GHz | AMD Ryzen 5 1500X, 3.5 GHz ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GeForce GTX 650 Ti, 2 GB | AMD Radeon R7 360, 2 GB ; DirectX : Version 11 ; Espace disque : 41 GB d'espace disque disponible ; Notes supplémentaires : Low 720p @ 60 FPS. Requires a CPU which supports the AVX and SSE4.2 instruction set. Microsoft no longer supports Windows 10 or older versions.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-4790, 3.4 GHz | AMD Ryzen 5 1500X 3.5 Ghz ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GeForce GTX 760, 2 GB | AMD Radeon HD 7870, 2 GB ; DirectX : Version 11 ; Espace disque : 41 GB d'espace disque disponible ; Notes supplémentaires : High 1080p @ 60 FPS. Microsoft no longer supports Windows 10 or older versions..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/ss_663171dc3afce8fe987e57e8659f91b69faa39bc.1920x1080.jpg?t=1783356822"
+        }
+      ],
+      "keywords": [
+        "configuration pc Persona 5 Royal",
+        "Persona 5 Royal PC",
+        "Persona 5 Royal Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "evg-multi-1687950",
+      "topic": "Persona 5 Royal multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-11-17T11:09:34.488887+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1687950/",
+          "title": "Persona 5 Royal sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Persona 5 Royal, consultée le 2026-11-17. Développeur : ATLUS. Éditeur : SEGA. Date de sortie sur Steam : 20 oct. 2022. Genres : RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Menez les Voleurs fantômes de cœurs dans ce sublime RPG primé au tour par tour. Découvrez un dungeon crawler avec personnalisation d'équipe, combats tactiques et création de Personae. Explorez Tokyo, forgez des relations, affrontez des Ombres et remettez les esprits corrompus sur la bonne voie !",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/ss_663171dc3afce8fe987e57e8659f91b69faa39bc.1920x1080.jpg?t=1783356822"
+        }
+      ],
+      "keywords": [
+        "Persona 5 Royal multijoueur",
+        "Persona 5 Royal PC",
+        "Persona 5 Royal Steam"
+      ],
+      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
       "status": "new"
     }
   ]

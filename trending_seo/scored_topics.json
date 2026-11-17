@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-16T23:30:27.916028+00:00",
+  "updated_at": "2026-11-17T11:09:35.175763+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -28006,6 +28006,316 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1687950",
+      "topic": "Configuration PC Persona 5 Royal : minimale, recommandée et conseils",
+      "detected_at": "2026-11-17T11:09:34.488816+00:00",
+      "analysed_at": "2026-11-17T11:09:35.175551+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1687950/",
+          "title": "Persona 5 Royal sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Persona 5 Royal, consultée le 2026-11-17. Développeur : ATLUS. Éditeur : SEGA. Date de sortie sur Steam : 20 oct. 2022. Genres : RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-4790, 3.4 GHz | AMD Ryzen 5 1500X, 3.5 GHz ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GeForce GTX 650 Ti, 2 GB | AMD Radeon R7 360, 2 GB ; DirectX : Version 11 ; Espace disque : 41 GB d'espace disque disponible ; Notes supplémentaires : Low 720p @ 60 FPS. Requires a CPU which supports the AVX and SSE4.2 instruction set. Microsoft no longer supports Windows 10 or older versions.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 ; Processeur : Intel Core i7-4790, 3.4 GHz | AMD Ryzen 5 1500X 3.5 Ghz ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GeForce GTX 760, 2 GB | AMD Radeon HD 7870, 2 GB ; DirectX : Version 11 ; Espace disque : 41 GB d'espace disque disponible ; Notes supplémentaires : High 1080p @ 60 FPS. Microsoft no longer supports Windows 10 or older versions..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/ss_663171dc3afce8fe987e57e8659f91b69faa39bc.1920x1080.jpg?t=1783356822"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Persona 5 Royal",
+        "secondary_keywords": [
+          "Persona 5 Royal PC",
+          "Persona 5 Royal Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Persona 5 Royal : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1687950",
+      "topic": "Persona 5 Royal multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-11-17T11:09:34.488887+00:00",
+      "analysed_at": "2026-11-17T11:09:35.175598+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1687950/",
+          "title": "Persona 5 Royal sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Persona 5 Royal, consultée le 2026-11-17. Développeur : ATLUS. Éditeur : SEGA. Date de sortie sur Steam : 20 oct. 2022. Genres : RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Menez les Voleurs fantômes de cœurs dans ce sublime RPG primé au tour par tour. Découvrez un dungeon crawler avec personnalisation d'équipe, combats tactiques et création de Personae. Explorez Tokyo, forgez des relations, affrontez des Ombres et remettez les esprits corrompus sur la bonne voie !",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/ss_663171dc3afce8fe987e57e8659f91b69faa39bc.1920x1080.jpg?t=1783356822"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Persona 5 Royal multijoueur",
+        "secondary_keywords": [
+          "Persona 5 Royal PC",
+          "Persona 5 Royal Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Persona 5 Royal multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-a-bunch-of-grand-theft-auto-games-will-be-cheap-on-stea-a41453937ddb",
+      "topic": "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks",
+      "detected_at": "2026-11-07T09:14:55.316264+00:00",
+      "analysed_at": "2026-11-17T11:09:35.175628+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/a-bunch-of-grand-theft-auto-games-will-be-cheap-on-steam-until-gta-6-comes-out-and-only-one-of-them-sucks/",
+          "title": "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks",
+          "evidence": "<article> <p>In the run-up to <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>'s November 19 launch, Rockstar has multiple classic Grand Theft Auto games on sale on Steam – and, nearest I can tell, only on Steam. </p><p>The Nintendo Switch eShop actually has a <a href=\"https://www.nintendo.com/us/store/products/grand-theft-auto-the-trilogy-the-definitive-edition-switch/\">competing deal</a> for the Grand Theft Auto Definitive Edition Trilogy, which is down 67% to $19.79, but that sale ends in 11 hours from the time of writing. On Steam, several GTA games are discounted until November 19 for an obviously timed special promotion.</p><p>On Steam, you'll find four games on sale via two actual products:</p><ul><li>Grand Theft Auto: San Andreas, Grand Theft Auto: Vice City, and Grand Theft Auto III in the Definitive Edition Trilogy - <a href=\"https://store.steampowered.com/sub/817628/\" target=\"_blank\">$19.79 at 67% off</a></li><li>Grand Theft Auto IV: The Complete Edition - <a href=\"https://store.steampowered.com/app/12210/Grand_Theft_Auto_IV_The_Complete_Edition/?curator_clanid=1541443\" target=\"_blank\">$5.99 at 70% off</a></li></ul><p>You can't argue with GTA 4 for $6, but you"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks",
+        "secondary_keywords": [
+          "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks date de sortie",
+          "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks plateformes",
+          "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks gameplay",
+          "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks guide",
+          "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "A bunch of Grand Theft Auto games will be cheap on Steam until GTA 6 comes out, and only one sucks"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-many-blizzard-devs-were-skeptical-about-wow-forever-unt-9bbdae8af324",
+      "topic": "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey",
+      "detected_at": "2026-11-07T09:14:55.316423+00:00",
+      "analysed_at": "2026-11-17T11:09:35.175660+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/world-of-warcraft/many-blizzard-devs-were-skeptical-about-world-of-warcraft-forever-until-they-saw-the-new-northshire-abbey-then-they-were-sold/",
+          "title": "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-is-a-whole-new-wow-game-launching-in-november-thatll-live-alongside-classic-and-vanilla/\">World of Warcraft: Forever i</a>s one of the rare big-budget online game launches that seems to have mostly gone down without a hitch. Not only has the MMO been well-received critically and by players, it's also been an exceptionally smooth release from a performance standpoint as well, with <a href=\"https://www.gamesradar.com/games/world-of-warcraft/world-of-warcraft-forever-devs-say-this-launch-was-crazier-than-the-insanity-we-imagined-as-mmo-fans-dub-it-the-smoothest-wow-launch-ever/\">the MMO community dubbing it \"the smoothest WoW launch ever.\" </a>And yet, in the early days of the dev team's pitching process, it took some convincing to get Blizzard leadership on-board with yet another WoW branch.</p><p>Talking to <a href=\"https://www.bloomberg.com/news/newsletters/2026-11-06/why-blizzard-made-world-of-warcraft-forever?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5Mzk4NDY5OSwiZXhwIjoxNzk0NTg5NDk5LCJhcnRpY2xlSWQiOiJUTzNCODFSMjRVOFQ"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey",
+        "secondary_keywords": [
+          "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey date de sortie",
+          "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey plateformes",
+          "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey gameplay",
+          "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey guide",
+          "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Many Blizzard devs were \"skeptical\" about WoW Forever until they saw the new Northshire Abbey"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-amd-ceo-lisa-su-we-are-a-data-center-first-company-8a69542bd9fb",
+      "topic": "AMD CEO Lisa Su: 'We are a data center-first company'",
+      "detected_at": "2026-11-07T19:03:19.520528+00:00",
+      "analysed_at": "2026-11-17T11:09:35.175684+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/amd-ceo-lisa-su-we-are-a-data-center-first-company/",
+          "title": "AMD CEO Lisa Su: 'We are a data center-first company'",
+          "evidence": "<article> <p>In a Thursday, November 5 interview with <a href=\"https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-recently-104800049.html\" target=\"_blank\">Yahoo Finance</a> (via <a href=\"https://www.techradar.com/computing/gpu/amd-ceo-enrages-gamers-by-saying-its-now-a-data-center-first-company-and-predicts-pc-sales-will-plummet-by-a-double-digit-percentage-in-2027\" target=\"_blank\">TechRadar</a>), AMD CEO Lisa Su emphasized the company's AI commitments. Separately, in a Q3 2026 earnings call, Su forecasted an overall \"dobule-digit\" slump in PC sales in 2027.</p><div class=\"product\"><a data-dimension112=\"3f3bfae0-dad6-11f1-b8eb-2364a14bb9ea\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:661px;\"><p class=\"vanilla-image-block\" style=\"padding-top:98.94%;\"><img id=\"6offQUY4CXebir2TC27dMd\" name=\"kingdom come 2 square\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"661\" height=\"654\" attribution"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "AMD CEO Lisa Su: 'We are a data center-first company'",
+        "secondary_keywords": [
+          "AMD CEO Lisa Su: 'We are a data center-first company' date de sortie",
+          "AMD CEO Lisa Su: 'We are a data center-first company' plateformes",
+          "AMD CEO Lisa Su: 'We are a data center-first company' gameplay",
+          "AMD CEO Lisa Su: 'We are a data center-first company' guide",
+          "AMD CEO Lisa Su: 'We are a data center-first company' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "AMD CEO Lisa Su: 'We are a data center-first company'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-after-seeing-them-myself-i-m-convinced-wow-forever-s-rp-c9f5d51ccb0a",
+      "topic": "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay",
+      "detected_at": "2026-11-07T19:03:19.520865+00:00",
+      "analysed_at": "2026-11-17T11:09:35.175711+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/after-seeing-them-myself-im-convinced-wow-forevers-rp-servers-dont-need-to-be-this-separate-and-i-say-that-as-a-decorated-veteran-of-mmo-roleplay/",
+          "title": "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay",
+          "evidence": "<article> <p>I've been stuck into <a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a>—at the time of writing, I'm around 15 hours /played (and will likely be 20+ hours by the time you're <em>reading </em>this) on my warrior. I chose the roleplay ruleset because, well, I'm a roleplayer. I've been writing and <a href=\"https://www.pcgamer.com/games/mmo/ive-been-roleplaying-in-mmorpgs-like-wow-for-16-years-its-the-reason-im-here-writing-this-headline-and-theres-never-been-a-better-time-to-try-it-out-yourself/\">being cringe in videogames for over 15 years</a>. </p><p>RP in WoW is, actually, what got me into writing in the first place. My clear and obvious mastery over the written word was hard-won by being a terribly annoying edgelord death knight, for which I apologise.</p><p>I was <a href=\"https://www.pcgamer.com/games/world-of-warcraft/ive-been-doing-roleplay-for-15-years-i-dont-think-wow-forever-needs-a-ruleset-for-it/\">curious about the implementation</a> of the roleplay ruleset back when it was properly announced—back then, I thought it was great that we're being given our own place, but being completely split off from \"normal\" ruleset (whic"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay",
+        "secondary_keywords": [
+          "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay date de sortie",
+          "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay plateformes",
+          "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay gameplay",
+          "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay guide",
+          "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-what-s-the-toughest-choice-you-ve-made-in-an-rpg-7146eb3d2310",
+      "topic": "What's the toughest choice you've made in an RPG?",
+      "detected_at": "2026-11-07T19:03:19.521173+00:00",
+      "analysed_at": "2026-11-17T11:09:35.175732+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/whats-the-toughest-choice-youve-made-in-an-rpg/",
+          "title": "What's the toughest choice you've made in an RPG?",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Dungeon Master</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"ckZUwfxbakq5yXMJMfSmBW\" name=\"logo_dungeon\" caption=\"\" alt=\"The Dungeon Master column logo\" src=\"https://cdn.mos.cms.futurecdn.net/ckZUwfxbakq5yXMJMfSmBW-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\" /></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">Welcome to <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/dungeon-master-column/\" target=\"_blank\">Dungeon Master</a>, PC Gamer's regular RPG column, where Online Editor Fraser Brown delves into PC gaming's most beloved and enduring genre. Grab a seat in our badly-lit tavern and please ignore the goblin puke.</p></div></div><p>We love a big RPG dilemma, don't we? Right up until the point where we actually"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "What's the toughest choice you've made in an RPG?",
+        "secondary_keywords": [
+          "What's the toughest choice you've made in an RPG? date de sortie",
+          "What's the toughest choice you've made in an RPG? plateformes",
+          "What's the toughest choice you've made in an RPG? gameplay",
+          "What's the toughest choice you've made in an RPG? guide",
+          "What's the toughest choice you've made in an RPG? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "What's the toughest choice you've made in an RPG?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-linux-on-the-desktop-marches-on-as-gog-announces-its-ga-52f50177af80",
+      "topic": "Linux on the desktop marches on as GOG announces its Galaxy client is getting a revamp headed to Windows, macOS, and your distro of choice",
+      "detected_at": "2026-11-07T19:03:19.521395+00:00",
+      "analysed_at": "2026-11-17T11:09:35.175758+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/linux/linux-on-the-desktop-marches-on-as-gog-announces-its-galaxy-client-is-getting-a-revamp-headed-to-windows-macos-and-your-distro-of-choice/",
+          "title": "Linux on the desktop marches on as GOG announces its Galaxy client is getting a revamp headed to Windows, macOS, and your distro of choice",
+          "evidence": "<article> <p>GOG Galaxy—the DRM-free storefront's go at a desktop client and launcher—was always a nice dream that didn't measure up in reality. The pitch was: all your games, from all your PC game storefronts, in one centralised hub, but it never left beta in its 2.0 form and, in general, ran pretty poorly compared to its most obvious competition (Steam).</p><p>But that was <em>old</em> GOG. <a href=\"https://www.pcgamer.com/software/platforms/wrestling-the-steam-goliath-pulling-a-nightdive-and-seeing-off-vulture-capital-gog-chats-the-risks-and-opportunities-of-its-future-as-a-company-without-cd-projekt/\">New, independent GOG</a> has big plans for Galaxy. In the storefront's first \"GOG Showcase\", released Thursday, it announced the launcher would be getting a revamp in 2027, and it's coming to Linux too. \"We know this has been a long time coming, but we wanted to do it properly: GOG Galaxy is officially heading to Linux\", says the studio.</p><p>\"At the same time, we’ve reworked the client on Windows and Mac to be simpler, run faster, and give you cleaner ways to view your library. Most importantly, our core promise stays untouched: GOG Galaxy is entirely optional. Your games are yo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Linux on the desktop marches on as GOG announces its Galaxy client is getting a revamp headed to Windows, macOS, and your distro of choice",
+        "secondary_keywords": [
+          "Linux on the desktop marches on as GOG announces its Galaxy client is getting a revamp headed to Windows, macOS, and your distro of choice date de sortie",
+          "Linux on the desktop marches on as GOG announces its Galaxy client is getting a revamp headed to Windows, macOS, and your distro of choice plateformes",
+          "Linux on the desktop marches on as GOG announces its Galaxy client is getting a revamp headed to Windows, macOS, and your distro of choice gameplay",
+          "Linux on the desktop marches on as GOG announces its Galaxy client is getting a revamp headed to Windows, macOS, and your distro of choice guide",
+          "Linux on the desktop marches on as GOG announces its Galaxy client is getting a revamp headed to Windows, macOS, and your distro of choice avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Linux on the desktop marches on as GOG announces its Galaxy client is getting a revamp headed to Windows, macOS, and your distro of choice"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

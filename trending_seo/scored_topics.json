@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-18T10:44:41.114016+00:00",
+  "updated_at": "2026-11-18T22:20:28.196340+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -28938,6 +28938,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "WoW: Forever is more than just a millennial retirement home"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-lead-designer-bruce-nesmith-says-skyrim-was-a-hit-becau-7b7053dcbfb7",
+      "topic": "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion",
+      "detected_at": "2026-11-09T10:21:10.186030+00:00",
+      "analysed_at": "2026-11-18T22:20:28.196118+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-elder-scrolls/lead-designer-bruce-nesmith-says-skyrim-was-a-hit-because-it-was-built-on-institutional-knowledge-from-oblivion/",
+          "title": "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion",
+          "evidence": "<article> <p>I don't know about you, but I'm not a huge fan of the way YouTube encourages everything becoming a video that's over an hour long and doesn't have a text version available. There's a recent <a href=\"https://www.youtube.com/watch?v=k7HXFufaPtA\">video putting the original Pool of Radiance into the greater context of the history of CRPGs</a> that's almost 10 hours long, and the odds of me watching more than 10% of it are perishingly low.</p><p>Fortunately for you, we're here to convert video to text for your edification, as with The Examined Game's comprehensive interview with Skyrim lead designer Bruce Nesmith. Asked how a game as successful as Skyrim came to be, Nesmith emphasized the importance of keeping the team together.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/10mvuCMbc9Y\" allowfullscreen=\"\"></iframe></div></div><div class=\"product\"><a data-dimension112=\"ad66f9f8-dbf7-11f1-9e0f-67319d707aef\" data-action=\"Deal Block\" data-label=\"Fallout 4 cheats\" data-dimension48=\"Fallout 4 cheats\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \""
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion",
+        "secondary_keywords": [
+          "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion date de sortie",
+          "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion plateformes",
+          "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion gameplay",
+          "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion guide",
+          "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-warhammer-blood-bowl-has-been-delayed-into-early-2027-58dc9d45b95c",
+      "topic": "Warhammer Blood Bowl has been delayed into early 2027",
+      "detected_at": "2026-11-09T10:21:10.186213+00:00",
+      "analysed_at": "2026-11-18T22:20:28.196173+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sports/warhammer-blood-bowl-has-been-delayed-into-2027/",
+          "title": "Warhammer Blood Bowl has been delayed into early 2027",
+          "evidence": "<article> <p>Though it didn't have a specific release date, Slitherine's refresh of the Warhammer-themed fantasy football game was scheduled for a full release in 2026. As of the announcement made at the Dominion Days showcase in Berlin, that's no longer the case. </p><p>\"The game's history and the feedback received during the latest playtest have reinforced the team's belief that the game needs to be as polished as possible,\" Slitherine said, \"as disappointing the fans is not an option.\"</p><p>That playtest is ongoing, and has just added an <a href=\"https://store.steampowered.com/news/app/1016950/view/698780706978922666\">Arena mode</a> where you try to make it through 10 matches in a row without losing a game or being forced to a draw more than twice. It's played in resurrection format, which means your team returns to its starting lineup at the end of each match, with no improvements or losses to carry over, so you better make sure your roster's a strong one from the off.</p><p>Slitherine also confirmed that Warhammer Blood Bowl's two new factions, the Tomb Kings and Bretonnians, will be added to the base game for free. Everyone who owns Blood Bowl 3 will be upgraded to Warhammer"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Warhammer Blood Bowl has been delayed into early 2027",
+        "secondary_keywords": [
+          "Warhammer Blood Bowl has been delayed into early 2027 date de sortie",
+          "Warhammer Blood Bowl has been delayed into early 2027 plateformes",
+          "Warhammer Blood Bowl has been delayed into early 2027 gameplay",
+          "Warhammer Blood Bowl has been delayed into early 2027 guide",
+          "Warhammer Blood Bowl has been delayed into early 2027 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Warhammer Blood Bowl has been delayed into early 2027"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-jackbox-games-isn-t-interested-in-ai-development-all-th-74924789722a",
+      "topic": "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that'",
+      "detected_at": "2026-11-09T10:21:10.186340+00:00",
+      "analysed_at": "2026-11-18T22:20:28.196208+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/game-development/jackbox-games-isnt-interested-in-ai-development-all-that-is-done-by-people-and-we-have-no-intention-of-changing-that/",
+          "title": "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that'",
+          "evidence": "<article> <p>On a recent visit to Jackbox Games HQ here in Chicago, I got to speak with developers and studio leadership about their process, history, and place in the industry. Given, you know, <em>everything</em>, I'm pretty much contractually obligated to ask about AI in conversations like this. Here's what CEO Mike Bilder had to say on the topic:</p><div class=\"product\"><a data-dimension112=\"d79d54e8-dbbf-11f1-8317-2d1e1f8290ca\" data-action=\"Deal Block\" data-label=\"2026 games\" data-dimension48=\"2026 games\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:661px;\"><p class=\"vanilla-image-block\" style=\"padding-top:98.94%;\"><img id=\"6offQUY4CXebir2TC27dMd\" name=\"kingdom come 2 square\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"661\" height=\"654\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\" /></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/games/new-pc-games-2026/\" target=\"_blank\" data-dimension112=\"d79d54e8-dbbf-11f1-8317-2d1e1f8290ca\" data-action=\"Deal Block\" data-labe"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that'",
+        "secondary_keywords": [
+          "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that' date de sortie",
+          "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that' plateformes",
+          "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that' gameplay",
+          "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that' guide",
+          "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-c-126355a39738",
+      "topic": "Nvidia CEO Jensen Huang admits to affair with alleged Chinese spy as company board launches investigation",
+      "detected_at": "2026-11-09T10:21:10.186536+00:00",
+      "analysed_at": "2026-11-18T22:20:28.196237+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-chinese-spy-as-company-board-launches-investigation/",
+          "title": "Nvidia CEO Jensen Huang admits to affair with alleged Chinese spy as company board launches investigation",
+          "evidence": "<article> <p>As reported by <a href=\"https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-admits-affair-board-to-launch-investigation\" target=\"_blank\">Axios</a>, Nvidia CEO Jensen Huang has admitted to carrying on an extramarital affair with Alice Huang, an executive at Chinese AI company Megaspeed. According to <a href=\"https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html\" target=\"_blank\">The New York Times</a>, the Trump administration suspects Ms. Huang of passing information to China's Ministry of State Security. The Chinese government denies the accusation.</p><p>Both the NYT and <a href=\"https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1\" target=\"_blank\">Financial Times</a>' previous reporting on Jensen Huang pursuing a romantic relationship with Alice Huang were contested by Nvidia, which had maintained that any relationship between the two was strictly professional.</p><p>Axios obtained a draft version of Jensen Huang's email apology to Nvidia employees. \"I owe my family and all of you an apology,\" Huang allegedly wrote. \"I was unfaithful to my wife. My actions hurt her and our children. There is no excus"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Nvidia CEO Jensen Huang admits to affair with alleged Chinese spy as company board launches investigation",
+        "secondary_keywords": [
+          "Nvidia CEO Jensen Huang admits to affair with alleged Chinese spy as company board launches investigation date de sortie",
+          "Nvidia CEO Jensen Huang admits to affair with alleged Chinese spy as company board launches investigation plateformes",
+          "Nvidia CEO Jensen Huang admits to affair with alleged Chinese spy as company board launches investigation gameplay",
+          "Nvidia CEO Jensen Huang admits to affair with alleged Chinese spy as company board launches investigation guide",
+          "Nvidia CEO Jensen Huang admits to affair with alleged Chinese spy as company board launches investigation avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Nvidia CEO Jensen Huang admits to affair with alleged Chinese spy as company board launches investigation"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-rings-of-power-season-3-star-drew-inspiration-from--a3d85a60c837",
+      "topic": "The Rings of Power season 3 star drew inspiration from Peter Jackson's movies when wielding LOTR's most iconic weapon",
+      "detected_at": "2026-11-09T10:21:11.177341+00:00",
+      "analysed_at": "2026-11-18T22:20:28.196266+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/the-rings-of-power-season-3-star-says-he-drew-inspiration-from-peter-jacksons-movies-when-wielding-lord-of-the-rings-most-iconic-weapon/",
+          "title": "The Rings of Power season 3 star drew inspiration from Peter Jackson's movies when wielding LOTR's most iconic weapon",
+          "evidence": "<article> <p>Fans of the Lord of the Rings will know the significance of <a href=\"https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/narsil-sword-elendil-the-rings-of-power-explained/\">Narsil</a>, the sword that Míriel gifted to Elendil in the final episode of The Rings of Power season 2. The legendary weapon was previously seen in Peter Jackson's Fellowship of the Ring prologue, which detailed its role in the battle against Sauron, before being remade as Andúril and playing a key part in Aragorn's story. </p><p>It will appear again in the upcoming <a href=\"https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/lord-of-the-rings-the-rings-of-power-season-3-release-date-cast-plot-trailer-news/\">The Rings of Power season 3</a>, as confirmed by a <a href=\"https://x.com/TheRingsofPower/status/1965822642016997550\" target=\"_blank\">behind-the-scenes video</a> of shooting last year, where Elendil wields it. Star Lloyd Owen tells GamesRadar+ that he revisited Jackson's movies ahead of filming to help capture the grandeur of the weapon. </p><p>\"For a visual reference, I watched the movies when Viggo Mortensen pulls it out when Elrond gives it to him,\" he recalls"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Rings of Power season 3 star drew inspiration from Peter Jackson's movies when wielding LOTR's most iconic weapon",
+        "secondary_keywords": [
+          "The Rings of Power season 3 star drew inspiration from Peter Jackson's movies when wielding LOTR's most iconic weapon date de sortie",
+          "The Rings of Power season 3 star drew inspiration from Peter Jackson's movies when wielding LOTR's most iconic weapon plateformes",
+          "The Rings of Power season 3 star drew inspiration from Peter Jackson's movies when wielding LOTR's most iconic weapon gameplay",
+          "The Rings of Power season 3 star drew inspiration from Peter Jackson's movies when wielding LOTR's most iconic weapon guide",
+          "The Rings of Power season 3 star drew inspiration from Peter Jackson's movies when wielding LOTR's most iconic weapon avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Rings of Power season 3 star drew inspiration from Peter Jackson's movies when wielding LOTR's most iconic weapon"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-assassin-s-creed-hexe-reportedly-delayed-while-ubisoft--fb2de8e14ac2",
+      "topic": "Assassin's Creed Hexe reportedly delayed, while Ubisoft takes the series to Ancient Rome",
+      "detected_at": "2026-11-09T10:21:11.177573+00:00",
+      "analysed_at": "2026-11-18T22:20:28.196291+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-hexe-reportedly-delayed-by-a-year-while-ubisoft-is-apparently-making-another-ac-game-set-in-ancient-rome/",
+          "title": "Assassin's Creed Hexe reportedly delayed, while Ubisoft takes the series to Ancient Rome",
+          "evidence": "<article> <p>Following Assassin's Creed Shadows' and <a href=\"https://www.gamesradar.com/assassins-creed-black-flag-resynced-guide/\">Assassin's Creed Black Flag Resynced</a>'s success, Ubisoft is apparently struggling to strike while the iron's hot. Its next mainline game in the series - codenamed <a href=\"https://www.gamesradar.com/assassins-creed-codename-hexe-guide/\">Assassin's Creed Hexe</a> - has reportedly been delayed internally, while the publisher works on two other AC games.</p><p>AC Hexe was actually<a href=\"https://www.gamesradar.com/new-assassins-creed-games-release/\"> announced alongside Shadows</a> more than four years ago, though we haven't had a concrete look at the<a href=\"https://www.gamesradar.com/games/assassin-s-creed/assassins-creed-hexe-setting-potentially-leaked-as-a-witchy-german-city-and-ubisoft-fans-think-its-the-best-possible-outcome/\"> supposedly witchy</a>, spooky open-world game since. All we knew for sure is that Hexe would launch sometime after Shadows, and here we are now.</p><p><a href=\"https://insider-gaming.com/assassins-creed-rome-game/\" target=\"_blank\">Insider Gaming</a> now reports that Assassin's Creed Hexe ran into further development road"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Assassin's Creed Hexe reportedly delayed, while Ubisoft takes the series to Ancient Rome",
+        "secondary_keywords": [
+          "Assassin's Creed Hexe reportedly delayed, while Ubisoft takes the series to Ancient Rome date de sortie",
+          "Assassin's Creed Hexe reportedly delayed, while Ubisoft takes the series to Ancient Rome plateformes",
+          "Assassin's Creed Hexe reportedly delayed, while Ubisoft takes the series to Ancient Rome gameplay",
+          "Assassin's Creed Hexe reportedly delayed, while Ubisoft takes the series to Ancient Rome guide",
+          "Assassin's Creed Hexe reportedly delayed, while Ubisoft takes the series to Ancient Rome avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Assassin's Creed Hexe reportedly delayed, while Ubisoft takes the series to Ancient Rome"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-rings-of-power-showrunners-break-down-forging-the-o-254a37c6b705",
+      "topic": "The Rings of Power showrunners break down forging the One Ring in season 3",
+      "detected_at": "2026-11-09T10:21:11.177814+00:00",
+      "analysed_at": "2026-11-18T22:20:28.196313+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/forging-the-one-ring-in-the-rings-of-power-season-3-took-years-of-planning-to-create-the-most-complex-sequence-the-show-has-ever-filmed/",
+          "title": "The Rings of Power showrunners break down forging the One Ring in season 3",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/lord-of-the-rings-the-rings-of-power-season-3-release-date-cast-plot-trailer-news/\">The Rings of Power season 3</a> brings an iconic moment from J.R.R. Tolkien's world to the screen as Sauron forges the One Ring. It's an epic sequence that we've <a href=\"https://www.gamesradar.com/entertainment/fantasy-shows/the-rings-of-power-season-3-trailer-sdcc-2026/\">glimpsed in the trailers</a> and promotional material for the series so far, and according to one of the showrunners, it's a sequence they've been building up to for three years. </p><p>\"It's really interesting because what you're talking about is a sequence that, in some ways, took three years to film, right? Because of the writing of it and beginning to think about what these specific visual moments would be,\" co-showrunner Patrick McKay tells us of adapting the sequence. </p><p>\"I mean, that starts on the page. It was like four pages of prose describing what he went through, and then you know you bring in your department heads. And then they all have different ideas of what he should be wearing, how should it break down over the course of "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Rings of Power showrunners break down forging the One Ring in season 3",
+        "secondary_keywords": [
+          "The Rings of Power showrunners break down forging the One Ring in season 3 date de sortie",
+          "The Rings of Power showrunners break down forging the One Ring in season 3 plateformes",
+          "The Rings of Power showrunners break down forging the One Ring in season 3 gameplay",
+          "The Rings of Power showrunners break down forging the One Ring in season 3 guide",
+          "The Rings of Power showrunners break down forging the One Ring in season 3 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Rings of Power showrunners break down forging the One Ring in season 3"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ragdoll-robot-boxing-codes-november-2026-and-how-to-red-0e5072211fcd",
+      "topic": "Ragdoll Robot Boxing codes (November 2026) and how to redeem them for free Lucky Spins and Gears",
+      "detected_at": "2026-11-09T10:21:11.178191+00:00",
+      "analysed_at": "2026-11-18T22:20:28.196336+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fighting/ragdoll-robot-boxing-codes/",
+          "title": "Ragdoll Robot Boxing codes (November 2026) and how to redeem them for free Lucky Spins and Gears",
+          "evidence": "<article> <p>Ragdoll Robot Boxing codes will give you a head start in this mechanized fighting championship, while you command your robot to jab, cross, and hook punches to knock down their opponent. Whether you're going up against real players or bots, you'll need to duck and weave until you can unleash your special move in the ring.<br /><br />The promos available will give you access to lots of Lucky Spins for free, where you can unlock better fighters including the Epic Janus and Wraith, the Legendary Dozer and Crusader, or maybe an even more powerful bot, along with Gears to spend in this combative <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> experience. If you're all set to square off, then these are the codes for Ragdoll Robot Boxing and how to redeem them.<br /><br /><em>If you're after some more general promos to get avatar rewards for all of your experiences, then we have the latest </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em> covered.</em></p><h2 class=\"article-body__section\" id=\"section-all-ragdoll-robot-boxing-codes\"><span>All Ragdoll Robot Boxing codes</"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ragdoll Robot Boxing codes (November 2026) and how to redeem them for free Lucky Spins and Gears",
+        "secondary_keywords": [
+          "Ragdoll Robot Boxing codes (November 2026) and how to redeem them for free Lucky Spins and Gears date de sortie",
+          "Ragdoll Robot Boxing codes (November 2026) and how to redeem them for free Lucky Spins and Gears plateformes",
+          "Ragdoll Robot Boxing codes (November 2026) and how to redeem them for free Lucky Spins and Gears gameplay",
+          "Ragdoll Robot Boxing codes (November 2026) and how to redeem them for free Lucky Spins and Gears guide",
+          "Ragdoll Robot Boxing codes (November 2026) and how to redeem them for free Lucky Spins and Gears avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ragdoll Robot Boxing codes (November 2026) and how to redeem them for free Lucky Spins and Gears"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

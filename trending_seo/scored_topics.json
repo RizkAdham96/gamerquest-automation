@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-19T10:45:07.830219+00:00",
+  "updated_at": "2026-11-19T22:27:22.253904+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -29558,6 +29558,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-eve-online-s-new-expansion-looks-to-make-it-simpler-tha-0a6ada8c23d8",
+      "topic": "EVE Online's new expansion looks to make it simpler than ever to get into a huge space battle: 'Every 10 weeks or so, you're gonna know: I can roll up with whatever I have and go shoot some structures and have a big fight'",
+      "detected_at": "2026-11-10T10:25:16.826235+00:00",
+      "analysed_at": "2026-11-19T22:27:22.253752+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/mmo/eve-onlines-new-expansion-looks-to-make-it-simpler-than-ever-to-get-into-a-huge-space-battle-every-10-weeks-or-so-youre-gonna-know-i-can-roll-up-with-whatever-i-have-and-go-shoot-some-structures-and-have-a-big-fight/",
+          "title": "EVE Online's new expansion looks to make it simpler than ever to get into a huge space battle: 'Every 10 weeks or so, you're gonna know: I can roll up with whatever I have and go shoot some structures and have a big fight'",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/M8Cxg4CL9nY\" allowfullscreen=\"\"></iframe></div></div><p>EVE Online is about to have a big week, with the introduction of paid, <a href=\"https://www.pcgamer.com/games/fps/i-think-wed-accidentally-created-the-most-hardcore-extraction-game-of-all-time-eve-vanguard-is-taking-hard-won-playtest-lessons-into-a-24-7-alpha\" target=\"_blank\">24/7 alpha access</a> to companion FPS Vanguard, as well as a new expansion for the OG MMO, <a href=\"https://www.eveonline.com/news/view/fractured-skies-expansion-arrives-10-nov\" target=\"_blank\">Fractured Skies</a>. Both are launching tomorrow, November 10. </p><p>That expansion is bringing a bunch of new features⁠—updated HUD, new ships, and further tweaks to the new player experience added over the summer⁠—but when I spoke with EVE design director Greg Hennessey, he was most excited about coming changes to lowsec PvP, and what they'll offer both new and experienced players.</p><p>EVE is most famous for the big intrigues and betrayals of nullsec space, but Hennessey estimated that partic"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "EVE Online's new expansion looks to make it simpler than ever to get into a huge space battle: 'Every 10 weeks or so, you're gonna know: I can roll up with whatever I have and go shoot some structures and have a big fight'",
+        "secondary_keywords": [
+          "EVE Online's new expansion looks to make it simpler than ever to get into a huge space battle: 'Every 10 weeks or so, you're gonna know: I can roll up with whatever I have and go shoot some structures and have a big fight' date de sortie",
+          "EVE Online's new expansion looks to make it simpler than ever to get into a huge space battle: 'Every 10 weeks or so, you're gonna know: I can roll up with whatever I have and go shoot some structures and have a big fight' plateformes",
+          "EVE Online's new expansion looks to make it simpler than ever to get into a huge space battle: 'Every 10 weeks or so, you're gonna know: I can roll up with whatever I have and go shoot some structures and have a big fight' gameplay",
+          "EVE Online's new expansion looks to make it simpler than ever to get into a huge space battle: 'Every 10 weeks or so, you're gonna know: I can roll up with whatever I have and go shoot some structures and have a big fight' guide",
+          "EVE Online's new expansion looks to make it simpler than ever to get into a huge space battle: 'Every 10 weeks or so, you're gonna know: I can roll up with whatever I have and go shoot some structures and have a big fight' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "EVE Online's new expansion looks to make it simpler than ever to get into a huge space battle: 'Every 10 weeks or so, you're gonna know: I can roll up with whatever I have and go shoot some structures and have a big fight'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-think-we-d-accidentally-created-the-most-hardcore-ext-67a908e1b0e9",
+      "topic": "'I think we'd accidentally created the most hardcore extraction game of all time:' EVE Vanguard is taking hard-won playtest lessons into a '24/7 Alpha'",
+      "detected_at": "2026-11-10T10:25:16.826484+00:00",
+      "analysed_at": "2026-11-19T22:27:22.253797+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/i-think-wed-accidentally-created-the-most-hardcore-extraction-game-of-all-time-eve-vanguard-is-taking-hard-won-playtest-lessons-into-a-24-7-alpha/",
+          "title": "'I think we'd accidentally created the most hardcore extraction game of all time:' EVE Vanguard is taking hard-won playtest lessons into a '24/7 Alpha'",
+          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/BE6lwXx8.html\" id=\"BE6lwXx8\" title=\"Vanguard Alpha Trailer 4k 60FPS H264\" width=\"3840\" height=\"2160\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen=\"\"></iframe><p>Tomorrow, November 10, EVE Online is releasing a new expansion, <a href=\"http://pcgamer.com/games/mmo/eve-onlines-new-expansion-looks-to-make-it-simpler-than-ever-to-get-into-a-huge-space-battle-every-10-weeks-or-so-youre-gonna-know-i-can-roll-up-with-whatever-i-have-and-go-shoot-some-structures-and-have-a-big-fight\" target=\"_blank\">Fractured Skies</a>, and companion FPS EVE Vanguard is going into something Fenris Creations is calling a 24/7 alpha. Formal <a href=\"https://store.steampowered.com/app/1872800/EVE_Vanguard/\" target=\"_blank\">early access on Steam</a> is coming late next year, but you can buy the game and play it through <a href=\"https://evevanguard.com/\">EVE's own client⁠</a>—and it won't go away like prior playtests.</p><p>Tomorrow will also see Vanguard start to fulfill its promise as a linked game to EVE Online⁠—completing contracts in the multiplayer FPS will create military campaign opportunities players can find and act on in EVE—marking the"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'I think we'd accidentally created the most hardcore extraction game of all time:' EVE Vanguard is taking hard-won playtest lessons into a '24/7 Alpha'",
+        "secondary_keywords": [
+          "'I think we'd accidentally created the most hardcore extraction game of all time:' EVE Vanguard is taking hard-won playtest lessons into a '24/7 Alpha' date de sortie",
+          "'I think we'd accidentally created the most hardcore extraction game of all time:' EVE Vanguard is taking hard-won playtest lessons into a '24/7 Alpha' plateformes",
+          "'I think we'd accidentally created the most hardcore extraction game of all time:' EVE Vanguard is taking hard-won playtest lessons into a '24/7 Alpha' gameplay",
+          "'I think we'd accidentally created the most hardcore extraction game of all time:' EVE Vanguard is taking hard-won playtest lessons into a '24/7 Alpha' guide",
+          "'I think we'd accidentally created the most hardcore extraction game of all time:' EVE Vanguard is taking hard-won playtest lessons into a '24/7 Alpha' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'I think we'd accidentally created the most hardcore extraction game of all time:' EVE Vanguard is taking hard-won playtest lessons into a '24/7 Alpha'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-james-gunn-was-working-on-superman-3-and-a-justice-leag-2d0ebf37d87c",
+      "topic": "James Gunn was working on Superman 3 and a Justice League team-up when he was ousted at DC",
+      "detected_at": "2026-11-10T10:25:17.377113+00:00",
+      "analysed_at": "2026-11-19T22:27:22.253818+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/james-gunn-was-working-on-superman-3-and-a-justice-league-team-up-when-he-was-ousted-at-dc/",
+          "title": "James Gunn was working on Superman 3 and a Justice League team-up when he was ousted at DC",
+          "evidence": "<article> <p>James Gunn and Peter Safran's <a href=\"https://www.gamesradar.com/entertainment/dc-movies/james-gunn-is-out-at-dc-studios-as-former-marvel-exec-takes-over-under-skydance/\">exit at DC Studios</a> was reportedly a surprise as the pair were already working on future projects. Aside from the upcoming <a href=\"https://www.gamesradar.com/entertainment/dc-movies/superman-2-man-of-tomorrow-release-date-cast-plot-trailer/\">Man of Tomorrow</a>, which has wrapped filming, plans were already in motions for a third Superman movie and an upcoming Justice League team-up.</p><p>According to a new report in <a href=\"https://www.hollywoodreporter.com/movies/movie-news/james-gunn-peter-safran-ouster-dc-1236751437/\" target=\"_blank\">The Hollywood Reporter</a>, Gunn \"was in the midst of writing a third installment as part of plan to make a trilogy and release a Superman movie every two years, maybe even morphing the franchise into a Justice League teamup.\"</p><p>This was corroborated by another report from the Wall Street Journal reporter Ben Fritz, who wrote on <a href=\"https://x.com/benfritz/status/2119867401479323879?s=46\" target=\"_blank\">Twitter </a>that loose release dates were already"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "James Gunn was working on Superman 3 and a Justice League team-up when he was ousted at DC",
+        "secondary_keywords": [
+          "James Gunn was working on Superman 3 and a Justice League team-up when he was ousted at DC date de sortie",
+          "James Gunn was working on Superman 3 and a Justice League team-up when he was ousted at DC plateformes",
+          "James Gunn was working on Superman 3 and a Justice League team-up when he was ousted at DC gameplay",
+          "James Gunn was working on Superman 3 and a Justice League team-up when he was ousted at DC guide",
+          "James Gunn was working on Superman 3 and a Justice League team-up when he was ousted at DC avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "James Gunn was working on Superman 3 and a Justice League team-up when he was ousted at DC"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-where-to-pre-order-the-ps5-prism-dualsense-and-console--9b74fd14eb3a",
+      "topic": "Where to pre-order the PS5 Prism DualSense and Console Cover collection",
+      "detected_at": "2026-11-10T10:25:17.377550+00:00",
+      "analysed_at": "2026-11-19T22:27:22.253835+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/live/news/where-to-buy-ps5-prism-dualsense-console-covers/",
+          "title": "Where to pre-order the PS5 Prism DualSense and Console Cover collection",
+          "evidence": "<article> <div class=\"live-content\"><div class=\"fancy-box\"><div class=\"fancy_box-title\">Menu</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"Mfr6oowKTNgPJb6JfgV5nB\" name=\"Prism Collection _ PS5 & PC 0-13 screenshot\" caption=\"\" alt=\"The three Prism DualSense colorways\" src=\"https://cdn.mos.cms.futurecdn.net/Mfr6oowKTNgPJb6JfgV5nB-1920-80.jpg\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\" /></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Sony / PlayStation)</span></figcaption></figure><p class=\"fancy-box__body-text\"><strong>1. </strong><a data-analytics-id=\"inline-link\" href=\"#section-quick-links-where-to-pre-order-immediately\"><strong>Quick links</strong></a><br /><strong>2. </strong><a data-analytics-id=\"inline-link\" href=\"#section-where-to-pre-order-the-ps5-prism-collection-in-the-uk\"><strong>UK stock</strong></a><br /><strong>3. </strong><a data-analytics-id=\"inline-link\" h"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Where to pre-order the PS5 Prism DualSense and Console Cover collection",
+        "secondary_keywords": [
+          "Where to pre-order the PS5 Prism DualSense and Console Cover collection date de sortie",
+          "Where to pre-order the PS5 Prism DualSense and Console Cover collection plateformes",
+          "Where to pre-order the PS5 Prism DualSense and Console Cover collection gameplay",
+          "Where to pre-order the PS5 Prism DualSense and Console Cover collection guide",
+          "Where to pre-order the PS5 Prism DualSense and Console Cover collection avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Where to pre-order the PS5 Prism DualSense and Console Cover collection"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gta-6-ceo-says-ai-will-make-creating-games-easier-but-m-ebc49e323820",
+      "topic": "GTA 6 CEO says AI will make creating games easier, but \"making a big hit\" will be as hard as ever",
+      "detected_at": "2026-11-10T10:25:17.377664+00:00",
+      "analysed_at": "2026-11-19T22:27:22.253853+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-ceo-says-ai-will-make-creating-games-easier-but-making-a-big-hit-will-be-as-hard-as-ever-hit-creation-remains-the-purview-of-human-beings/",
+          "title": "GTA 6 CEO says AI will make creating games easier, but \"making a big hit\" will be as hard as ever",
+          "evidence": "<article> <p>Researching and writing this story gave me massive deja vu, because what Take-Two CEO Strauss Zelnick said today about AI's evolving role in game development sounds like a re-wording of what <a href=\"https://www.gamesradar.com/games/elder-scrolls-and-fallout-boss-todd-howard-says-ai-is-a-useful-tool-in-game-dev-but-not-in-generating-things-because-the-human-intention-of-it-is-what-makes-our-stuff-special/\">every other C-suite executive</a> <a href=\"https://www.gamesradar.com/games/nintendo-isnt-ruling-out-the-use-of-ai-in-game-development-but-knows-that-what-makes-our-games-special-is-our-developers/\">has said</a> <a href=\"https://www.gamesradar.com/games/final-fantasy/on-ai-in-game-dev-final-fantasy-and-mana-veterans-say-humans-will-always-need-to-turn-zero-into-one-but-robots-can-improve-efficiency/\">about AI in game dev</a>. In case you have somewhere to be, the TLDR is that Zelnick says AI will make game development easier but won't replace human creativity.</p><p>I don't want to minimize the importance of Zelnick, the guy at the top of the company funding the biggest entertainment launch of all time with GTA 6, talking about what could be the most consequential te"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GTA 6 CEO says AI will make creating games easier, but \"making a big hit\" will be as hard as ever",
+        "secondary_keywords": [
+          "GTA 6 CEO says AI will make creating games easier, but \"making a big hit\" will be as hard as ever date de sortie",
+          "GTA 6 CEO says AI will make creating games easier, but \"making a big hit\" will be as hard as ever plateformes",
+          "GTA 6 CEO says AI will make creating games easier, but \"making a big hit\" will be as hard as ever gameplay",
+          "GTA 6 CEO says AI will make creating games easier, but \"making a big hit\" will be as hard as ever guide",
+          "GTA 6 CEO says AI will make creating games easier, but \"making a big hit\" will be as hard as ever avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GTA 6 CEO says AI will make creating games easier, but \"making a big hit\" will be as hard as ever"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-rockstar-s-owner-expected-gta-6-to-be-big-but-not-this--1d13d81e7661",
+      "topic": "Rockstar's owner expected GTA 6 to be big, but not this big: \"The numbers will speak for themselves\"",
+      "detected_at": "2026-11-10T10:25:17.377767+00:00",
+      "analysed_at": "2026-11-19T22:27:22.253870+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstars-owner-expected-gta-6-to-be-big-but-not-this-big-we-know-that-the-numbers-will-speak-for-themselves-soon-enough/",
+          "title": "Rockstar's owner expected GTA 6 to be big, but not this big: \"The numbers will speak for themselves\"",
+          "evidence": "<article> <p>It's safe to assume Take-Two Interactive had some inkling that <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6 </a>was going to be monumentally big. It did spend an estimated $1 billion funding development at Rockstar, after all. However, now that the company has had a few months to analyze pre-order data, <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-pre-orders-have-already-made-over-usd730m-in-revenue-analysts-estimate-and-74-percent-of-them-are-on-ps5/\">which have made an estimated $730 million in sales</a>, leadership says it wasn't expecting it to be <em>this </em>big.</p><p>Take-Two says as much in its latest earnings <a href=\"https://ir.take2games.com/static-files/01437b0a-6d3d-4f80-a2ac-5cecdb0c573f\" target=\"_blank\">presentation</a>, which includes a section that reads: \"Pre-orders for Grand Theft Auto VI are tracking far above our initial expectations, and we know that the numbers will speak for themselves soon enough.\"</p><p>In the accompanying <a href=\"https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-4\" target=\"_blank\">press release</a>, Take-Two CEO Strauss Zelnick said GTA 6 pre-orders a"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Rockstar's owner expected GTA 6 to be big, but not this big: \"The numbers will speak for themselves\"",
+        "secondary_keywords": [
+          "Rockstar's owner expected GTA 6 to be big, but not this big: \"The numbers will speak for themselves\" date de sortie",
+          "Rockstar's owner expected GTA 6 to be big, but not this big: \"The numbers will speak for themselves\" plateformes",
+          "Rockstar's owner expected GTA 6 to be big, but not this big: \"The numbers will speak for themselves\" gameplay",
+          "Rockstar's owner expected GTA 6 to be big, but not this big: \"The numbers will speak for themselves\" guide",
+          "Rockstar's owner expected GTA 6 to be big, but not this big: \"The numbers will speak for themselves\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Rockstar's owner expected GTA 6 to be big, but not this big: \"The numbers will speak for themselves\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-dev-creates-a-tool-to-automatically-inform-sam-altman-o-13b621a5c2e1",
+      "topic": "Dev creates a tool to automatically inform Sam Altman of all the RAM sitting unused in your PC",
+      "detected_at": "2026-11-10T10:25:17.377879+00:00",
+      "analysed_at": "2026-11-19T22:27:22.253886+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/dev-creates-a-tool-to-automatically-inform-sam-altman-of-all-the-ram-sitting-unused-in-your-pc-as-openai-co-founder-complains/",
+          "title": "Dev creates a tool to automatically inform Sam Altman of all the RAM sitting unused in your PC",
+          "evidence": "<article> <p>Something you learn in 13 years of video game journalism is that some people react poorly to reading things they said. Being quoted can be scary. Now the words sound the way they did leaving your mouth, not the way they may have sounded inside your head. </p><p>Anyway, OpenAI co-founder Sam Altman recently complained that his remarks on a podcast, in which he bemoaned the inefficiencies of RAM sitting in personal PCs and not cooking away in AI data centers, were \"taken out of context.\" </p><p>\"From a global allocation perspective, actually it's quite terrible to have everyone have a bunch of the world's limited supply of DRAM sitting in their own computer, and be used 5% of the time,\" he said. Later, Altman <a href=\"https://x.com/sama/status/2117846298472886419\" target=\"_blank\"><u>insisted</u></a>, after quite some outcry, that \"I actually do want the world to have tons of memory and people to put as much as they want in their computers.\"</p><p>Clearly, one software developer took this as a challenge. Enter: <a href=\"https://ram-altman.lol/\" target=\"_blank\"><u>Ram-Altman</u></a>, \"A bash script that emails Sam Altman once a day to report the RAM he missed.\"</p><p>Devel"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dev creates a tool to automatically inform Sam Altman of all the RAM sitting unused in your PC",
+        "secondary_keywords": [
+          "Dev creates a tool to automatically inform Sam Altman of all the RAM sitting unused in your PC date de sortie",
+          "Dev creates a tool to automatically inform Sam Altman of all the RAM sitting unused in your PC plateformes",
+          "Dev creates a tool to automatically inform Sam Altman of all the RAM sitting unused in your PC gameplay",
+          "Dev creates a tool to automatically inform Sam Altman of all the RAM sitting unused in your PC guide",
+          "Dev creates a tool to automatically inform Sam Altman of all the RAM sitting unused in your PC avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Dev creates a tool to automatically inform Sam Altman of all the RAM sitting unused in your PC"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-nintendo-of-america-invests-in-game-preservation-to-sav-9ebf9bcbbdb4",
+      "topic": "Nintendo of America invests in game preservation to save its history for \"future generations\"",
+      "detected_at": "2026-11-10T10:25:17.377998+00:00",
+      "analysed_at": "2026-11-19T22:27:22.253901+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/nintendo-of-america-invests-in-game-preservation-as-it-looks-to-hire-an-archivist-to-make-sure-its-history-is-preserved-for-future-generations/",
+          "title": "Nintendo of America invests in game preservation to save its history for \"future generations\"",
+          "evidence": "<article> <p>Nintendo of America is one of many companies investing in game preservation, and a new job listing gives us some insight into what those efforts look like. The company is looking to hire a \"digital archivist\" to build a library of historical material that can last for generations.</p><p>\"We are seeking a Digital Archivist, Historical Systems to support the preservation, organization, and accessibility of historical hardware and software information,\" the company says in its <a href=\"https://careers.nintendo.com/jobs/4458631009/\" target=\"_blank\">job listing</a>. \"This role will design and implement a structured framework for organizing technical records, engineering documentation, source materials, and institutional knowledge related to legacy systems and platforms.\"</p><p>That's a lot of technical words for a position that ultimately boils down to 'build an internal library.' A company like Nintendo of America may have vast piles of historical development documents, advertising materials, and software prototypes on hand, but if nobody knows where any individual thing can be located, it may as well be lost altogether.</p><p>While many players might hear the phrase \"game"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Nintendo of America invests in game preservation to save its history for \"future generations\"",
+        "secondary_keywords": [
+          "Nintendo of America invests in game preservation to save its history for \"future generations\" date de sortie",
+          "Nintendo of America invests in game preservation to save its history for \"future generations\" plateformes",
+          "Nintendo of America invests in game preservation to save its history for \"future generations\" gameplay",
+          "Nintendo of America invests in game preservation to save its history for \"future generations\" guide",
+          "Nintendo of America invests in game preservation to save its history for \"future generations\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Nintendo of America invests in game preservation to save its history for \"future generations\""
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

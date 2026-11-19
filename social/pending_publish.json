@@ -1,31 +1,31 @@
 {
-  "source_id": "286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee",
-  "carousel_version": "ee3e425b429b690492e4e9d3b5ce9f758c11ef6f034e84d0f5ee862fbb86b700",
+  "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
+  "carousel_version": "a8c4dba94aa3d96b038f7ab816e6ee870b9ce36e5d54176551e956c65dc4bd18",
   "image_urls": [
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01-1.png",
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02-1.png",
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03-1.png"
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01-2.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02-2.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03-2.png"
   ],
   "master_spec_version": "gamerquest-carousel-v3",
   "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
   "media_ids": [
-    1037,
-    1038,
-    1039
+    1049,
+    1050,
+    1051
   ],
-  "prepared_at_utc": "2026-11-18T19:33:50.461997Z",
+  "prepared_at_utc": "2026-11-19T19:38:42.263738Z",
   "social_output": {
     "status": "ready",
     "fact_checked": true,
-    "source_id": "286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee",
-    "source_title": "Call of Duty®: Black Ops III à -75% sur Steam",
+    "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
+    "source_title": "FINAL FANTASY VII REBIRTH à -85% sur Steam",
     "score": 75.5,
     "idea": {
-      "source_id": "286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee",
-      "topic": "Promotion exceptionnelle sur Call of Duty®: Black Ops III",
-      "angle": "Mettez en avant la réduction de 75 % et le nouveau prix de 14,99 €, incitant les joueurs à profiter immédiatement.",
+      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
+      "topic": "Promotion exceptionnelle de FINAL FANTASY VII REBIRTH",
+      "angle": "Mettez en avant la réduction de 85 % pour inciter les fans à profiter immédiatement de l’offre limitée.",
       "format": "deal_alert",
-      "hook": "⚡️ Black Ops III à -75 % ! De 59,99 € à seulement 14,99 € sur Steam – Offre limitée !",
+      "hook": "⚡️ -85 % sur FINAL FANTASY VII REBIRTH ! Le prix chute à 7,49 € – saisissez l’occasion avant qu’elle ne disparaisse !",
       "freshness": 9,
       "click_potential": 9,
       "curiosity": 6,
@@ -35,42 +35,42 @@
       "total_score": 75.5
     },
     "carousel": {
-      "topic": "Promotion exceptionnelle sur Call of Duty®: Black Ops III",
-      "angle": "Mettez en avant la réduction de 75 % et le nouveau prix de 14,99 €, incitant les joueurs à profiter immédiatement.",
+      "topic": "Promotion exceptionnelle de FINAL FANTASY VII REBIRTH",
+      "angle": "Mettez en avant la réduction de 85 % pour inciter les fans à profiter immédiatement de l’offre limitée.",
       "format": "deal_alert",
-      "hook": "⚡️ Black Ops III à -75 % ! De 59,99 € à seulement 14,99 € sur Steam – Offre limitée !",
+      "hook": "⚡️ -85 % sur FINAL FANTASY VII REBIRTH ! Le prix chute à 7,49 € – saisissez l’occasion avant qu’elle ne disparaisse !",
       "score": 75.5,
       "slides": [
         {
-          "title": "⚡️ Black Ops III à -75 % !",
-          "body": "Une offre qui change tout…",
-          "visual_prompt": "Un soldat en armure futuriste, éclairé par une lumière bleue, avec un arrière‑plan de champ de bataille flou."
+          "title": "⚡️ -85 % sur FFVII Rebirth !",
+          "body": "Le prix chute à 7,49 € : saisissez l’occasion avant qu’elle ne disparaisse !",
+          "visual_prompt": "Capture d'écran du jeu FINAL FANTASY VII REBIRTH affichant le prix réduit à 7,49 €, ambiance sombre et épique du jeu"
         },
         {
-          "title": "14,99 € au lieu de 59,99 €",
-          "body": "Le jeu passe de 59,99 € à 14,99 € grâce à une réduction de 75 % sur Steam.",
-          "visual_prompt": "Capture d’écran du jeu montrant une scène d’action intense, sans texte ni logos."
+          "title": "Prix habituel 49,99 €",
+          "body": "La réduction passe le jeu de 49,99 € à 7,49 €, soit une économie de 85 % sur Steam.",
+          "visual_prompt": "Image du catalogue Steam montrant le prix original 49,99 € à côté du nouveau prix 7,49 € pour FINAL FANTASY VII REBIRTH"
         },
         {
-          "title": "Voir l’offre sur Steam",
-          "body": "Plus d’informations sur le prix et le téléchargement sur Steam.",
-          "visual_prompt": "Un écran d’ordinateur affichant la page Steam du jeu, sans texte supplémentaire."
+          "title": "En savoir plus",
+          "body": "Pour plus d'informations, lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Illustration d’un écran d’ordinateur affichant la page de l’offre Steam de FINAL FANTASY VII REBIRTH"
         }
       ],
-      "caption": "Call of Duty®: Black Ops III à -75 % sur Steam.",
-      "cta": "Lire la suite sur GamerQuest.fr",
+      "caption": "🚀 Une réduction de 85 % sur FINAL FANTASY VII REBIRTH vous attend ! Ne manquez pas ce prix choc de 7,49 €.",
+      "cta": "Profitez-en maintenant sur Steam !",
       "hashtags": [
         "#GamerQuest"
       ],
       "website_url": "https://gamerquest.fr",
       "brand": "GamerQuest",
-      "source_id": "286b9dfc7c0593a0dd3c3c43c9d32140dcf139775bacb3fe33d7014f2a4e8bee"
+      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb"
     },
-    "caption": "Call of Duty®: Black Ops III à -75 % sur Steam.",
+    "caption": "🚀 Une réduction de 85 % sur FINAL FANTASY VII REBIRTH vous attend ! Ne manquez pas ce prix choc de 7,49 €.",
     "hashtags": [
       "#GamerQuest"
     ],
-    "cta": "Lire la suite sur GamerQuest.fr",
+    "cta": "Profitez-en maintenant sur Steam !",
     "repair_attempts": 1
   }
 }

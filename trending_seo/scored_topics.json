@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-18T22:20:28.196340+00:00",
+  "updated_at": "2026-11-19T10:45:07.830219+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -29250,6 +29250,314 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Ragdoll Robot Boxing codes (November 2026) and how to redeem them for free Lucky Spins and Gears"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-2909400",
+      "topic": "Configuration PC FINAL FANTASY VII REBIRTH : minimale, recommandée et conseils",
+      "detected_at": "2026-11-19T10:45:07.000695+00:00",
+      "analysed_at": "2026-11-19T10:45:07.829946+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2909400/",
+          "title": "FINAL FANTASY VII REBIRTH sur Steam",
+          "evidence": "Données officielles de la fiche Steam de FINAL FANTASY VII REBIRTH, consultée le 2026-11-19. Développeur : Square Enix. Éditeur : Square Enix. Date de sortie sur Steam : 23 janv. 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows® 10 64-bit ; Processeur : AMD Ryzen™ 5 1400 / Intel® Core™ i3-8100 ; Mémoire vive : 16 GB de mémoire ; Graphiques : AMD Radeon™ RX 6600 (RX 6600 or above required) / Intel® Arc™ A580 / NVIDIA® GeForce® RTX 2060 (RTX series required) ; DirectX : Version 12 ; Espace disque : 155 GB d'espace disque disponible ; Notes supplémentaires : 1080P / 30FPS (Graphics Quality Preset “Low”), SSD Required. Graphics Cards with Shader Model 6.6 support and OS with DirectX 12 Ultimate support required. 12GB VRAM or above recommended to play on 4k resolution.. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows® 11 64-bit ; Processeur : AMD Ryzen™ 5 5600 or Ryzen™ 7 3700X / Intel® Core™ i7-8700 or Core™ i5-10400 ; Mémoire vive : 16 GB de mémoire ; Graphiques : AMD Radeon™ RX 6700 XT / NVIDIA® GeForce® RTX 2070 ; DirectX : Version 12 ; Espace disque : 155 GB d'espace disque disponible ; Notes supplémentaires : 1080p / 60FPS (Graphics Quality Preset “Medium”), SSD Required. 12GB VRAM or above recommended to play on 4k resolution..",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_7a83a64967a06edbf0d43821153a0188471d596a.1920x1080.jpg?t=1793774936"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc FINAL FANTASY VII REBIRTH",
+        "secondary_keywords": [
+          "FINAL FANTASY VII REBIRTH PC",
+          "FINAL FANTASY VII REBIRTH Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC FINAL FANTASY VII REBIRTH : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-2909400",
+      "topic": "FINAL FANTASY VII REBIRTH multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-11-19T10:45:07.000767+00:00",
+      "analysed_at": "2026-11-19T10:45:07.830000+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/2909400/",
+          "title": "FINAL FANTASY VII REBIRTH sur Steam",
+          "evidence": "Données officielles de la fiche Steam de FINAL FANTASY VII REBIRTH, consultée le 2026-11-19. Développeur : Square Enix. Éditeur : Square Enix. Date de sortie sur Steam : 23 janv. 2025. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Contrôle du volume différencié, Difficulté ajustable, Manette recommandée, Option clavier uniquement, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Son stéréo, Son multicanal, Steam Cloud, HDR disponible, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Le voyage vers l'inconnu continue... Après avoir fui Midgar, Cloud et ses amis se lancent dans un voyage à travers la planète. De nouvelles aventures les attendent dans le vaste monde plein de vie de ce titre indépendant de la trilogie de remakes de FFVII.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/ss_7a83a64967a06edbf0d43821153a0188471d596a.1920x1080.jpg?t=1793774936"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "FINAL FANTASY VII REBIRTH multijoueur",
+        "secondary_keywords": [
+          "FINAL FANTASY VII REBIRTH PC",
+          "FINAL FANTASY VII REBIRTH Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "FINAL FANTASY VII REBIRTH multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1462040",
+      "topic": "Configuration PC FINAL FANTASY VII REMAKE INTERGRADE : minimale, recommandée et conseils",
+      "detected_at": "2026-11-19T10:45:07.235681+00:00",
+      "analysed_at": "2026-11-19T10:45:07.830027+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1462040/",
+          "title": "FINAL FANTASY VII REMAKE INTERGRADE sur Steam",
+          "evidence": "Données officielles de la fiche Steam de FINAL FANTASY VII REMAKE INTERGRADE, consultée le 2026-11-19. Développeur : Square Enix. Éditeur : Square Enix. Date de sortie sur Steam : 17 juin 2022. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows® 10 64-bit (ver. 2004 or later) ; Processeur : AMD FX-8350 / Intel® Core™ i5-3330 ; Mémoire vive : 8 GB de mémoire ; Graphiques : AMD Radeon™ RX 480 / NVIDIA® GeForce® GTX 780 / 3GB VRAM required ; DirectX : Version 12 ; Espace disque : 100 GB d'espace disque disponible ; Notes supplémentaires : Assuming a Resolution of 1920 x 1080. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows® 10 64-bit (ver. 2004 or later) ; Processeur : AMD Ryzen™ 3 3100 / Intel® Core™ i7-3770 ; Mémoire vive : 12 GB de mémoire ; Graphiques : AMD Radeon™ RX 5700 / NVIDIA® GeForce® GTX 1080 / 8GB VRAM required ; DirectX : Version 12 ; Espace disque : 100 GB d'espace disque disponible ; Notes supplémentaires : Assuming a Resolution of 2560 x 1440 (This title supports max resolution of 3840 x 2160).",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/ss_20a352a2c20dd4bfb08fa131dc4c2e763510f584.1920x1080.jpg?t=1789446715"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc FINAL FANTASY VII REMAKE INTERGRADE",
+        "secondary_keywords": [
+          "FINAL FANTASY VII REMAKE INTERGRADE PC",
+          "FINAL FANTASY VII REMAKE INTERGRADE Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC FINAL FANTASY VII REMAKE INTERGRADE : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1462040",
+      "topic": "FINAL FANTASY VII REMAKE INTERGRADE multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-11-19T10:45:07.235742+00:00",
+      "analysed_at": "2026-11-19T10:45:07.830055+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1462040/",
+          "title": "FINAL FANTASY VII REMAKE INTERGRADE sur Steam",
+          "evidence": "Données officielles de la fiche Steam de FINAL FANTASY VII REMAKE INTERGRADE, consultée le 2026-11-19. Développeur : Square Enix. Éditeur : Square Enix. Date de sortie sur Steam : 17 juin 2022. Genres : Action, Aventure, RPG. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Cartes à échanger Steam, Contrôle du volume différencié, Difficulté ajustable, Manette recommandée, Option clavier uniquement, Prise en charge des manettes DUALSHOCK 4, Prise en charge des manettes DualSense, Prise en charge des manettes DualSense, Son stéréo, Son multicanal, Compat. contrôleurs partielle, Steam Cloud, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Présentation officielle : Vivez l'histoire passionnante de Cloud Strife à Midgar dans cette renaissance de l'emblématique FINAL FANTASY VII à travers des graphismes de pointe, des combats épiques mêlant action et commandes classiques, et un épisode bonus consacré à Yuffie Kisaragi.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/ss_20a352a2c20dd4bfb08fa131dc4c2e763510f584.1920x1080.jpg?t=1789446715"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "FINAL FANTASY VII REMAKE INTERGRADE multijoueur",
+        "secondary_keywords": [
+          "FINAL FANTASY VII REMAKE INTERGRADE PC",
+          "FINAL FANTASY VII REMAKE INTERGRADE Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "FINAL FANTASY VII REMAKE INTERGRADE multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-warhammer-40k-rogue-trader-follow-up-dark-heresy-will-l-44a38ed8fe9b",
+      "topic": "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January",
+      "detected_at": "2026-11-09T23:34:49.500611+00:00",
+      "analysed_at": "2026-11-19T10:45:07.830109+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/warhammer-40k-rogue-trader-follow-up-dark-heresy-will-launch-at-the-end-of-january/",
+          "title": "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/PKccIqfBskc\" allowfullscreen=\"\"></iframe></div></div><p>Owlcat has released <a href=\"https://www.youtube.com/watch?v=PKccIqfBskc\" target=\"_blank\">a new trailer</a> for its coming Warhammer 40K RPG, Dark Heresy. The inquisition and investigation-focused RPG is now slated for a January 28 launch.</p><p>We've loved what we've seen of the game so far: Its focus on <a href=\"https://www.pcgamer.com/games/rpg/warhammer-40k-dark-heresy-might-just-have-everything-i-want-from-a-crpg/\" target=\"_blank\">investigating heresy and closing cases</a> represents something genuinely novel for Owlcat, which until now has focused on fantasies of rulership (with lite 4x/management gameplay) and quite good (and often very challenging) tactical battles.</p><p>One problem: I have a largely uncomplicated relationship with Owlcat games, because I've only ever played them a year-plus out from launch. PCG's other RPG heads, like weekend editor Jody Macgregor and online editor Fraser Brown, remain scarred by their experiences with pre-launch, r"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January",
+        "secondary_keywords": [
+          "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January date de sortie",
+          "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January plateformes",
+          "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January gameplay",
+          "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January guide",
+          "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-cheaper-oleds-may-be-here-even-quicker-than-we-thought--484b195941fa",
+      "topic": "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year",
+      "detected_at": "2026-11-09T23:34:49.500769+00:00",
+      "analysed_at": "2026-11-19T10:45:07.830141+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-monitors/cheaper-oleds-may-be-here-even-quicker-than-we-thought-as-tcl-csot-says-its-new-inkjet-printing-facility-could-be-up-and-running-as-soon-as-this-time-next-year/",
+          "title": "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year",
+          "evidence": "<article> <p>TCL CSOT (the subsidiary of TCL that manufactures OLEDs and other panels) <a href=\"https://www.displayspecifications.com/en/news/c1ec10dc\" target=\"_blank\">says its new inkjet-printed OLED factory</a> has \"entered the equipment move-in phase\" (via <a href=\"https://www.techpowerup.com/354558/tcl-csot-inkjet-oled-t8-factory-begins-equipment-installation-phase\" target=\"_blank\">TechPowerUp</a>) after the project \"progressed at a rapid pace\". In other words, it's started filling up its production facility with the equipment to produce inkjet OLEDs. Production, the company says, is targeted for about this time next year.</p><p>What's the big deal, you ask? It all comes down to that phrase, \"inkjet-printed\". Inkjet printing (IJP) should be a much more cost-effective way of making OLED panels, which means it should ultimately deliver OLED gaming monitors that are cheaper than traditionally manufactured ones.</p><p>Which is saying something, considering how much traditionally manufactured OLEDs have dropped in price over the past year—you can currently pick up a 240 Hz OLED monitor for just <a href=\"https://www.walmart.com/ip/Acer-Nitro-27-2560-x-1440-QD-OLD-Gaming-Monitor-with-"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year",
+        "secondary_keywords": [
+          "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year date de sortie",
+          "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year plateformes",
+          "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year gameplay",
+          "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year guide",
+          "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Cheaper OLEDs may be here even quicker than we thought as TCL CSOT says its new inkjet printing facility could be up and running as soon as this time next year"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-jensen-huang-s-affair-with-alleged-chinese-spy-highligh-54461ec4702a",
+      "topic": "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business",
+      "detected_at": "2026-11-09T23:34:49.501417+00:00",
+      "analysed_at": "2026-11-19T10:45:07.830187+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/jensen-huangs-affair-with-alleged-chinese-spy-highlights-how-the-gpu-companys-dealings-are-now-everyones-business/",
+          "title": "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business",
+          "evidence": "<article> <p>Nvidia CEO Jensen Huang has admitted to an extramarital affair in a <a href=\"https://nvidianews.nvidia.com/news/a-message-to-our-company\" target=\"_blank\">statement published on Nvidia's newsroom</a>. A strange move for the $4.5 trillion company without the added context: the person he's suspected of having an affair with has also been deemed a Chinese intelligence asset by US officials, and was investigated for smuggling none other than Nvidia's own chips.</p><p>The story goes far deeper than Huang's affair; revolving around national security, export controls, spying, chip smuggling, and US/China relations. It's in large part about AI, and who controls the hardware that makes it possible. So, if you're wondering why Huang might be the target of Chinese intelligence to begin with, or why he's announcing his affair in the most public way possible, here's how we got to this point.</p><h2 class=\"article-body__section\" id=\"section-why-does-it-matter-where-nvidia-sells-its-gpus\"><span>Why does it matter where Nvidia sells its GPUs?</span></h2><p>Nvidia is at the centre of the debate about whether the United States should sell its most technologically advanced chips to China."
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business",
+        "secondary_keywords": [
+          "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business date de sortie",
+          "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business plateformes",
+          "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business gameplay",
+          "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business guide",
+          "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Jensen Huang’s affair with alleged Chinese spy highlights how the GPU company’s dealings are now everyone’s business"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-floppy-disks-are-out-21st-century-tech-is-in-the-faa-is-52e405d858aa",
+      "topic": "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage",
+      "detected_at": "2026-11-09T23:34:49.501596+00:00",
+      "analysed_at": "2026-11-19T10:45:07.830214+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/floppy-disks-are-out-21st-century-tech-is-in-the-faa-is-finally-ditching-55-year-old-storage/",
+          "title": "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage",
+          "evidence": "<article> <p>You've got to hand it to floppy disks. The now 55-year-old storage tech occasionally crops up in the most surprising of places, like a <a href=\"https://www.pcgamer.com/hardware/storage/floppy-disks-arent-dead-yet-as-this-san-francisco-train-line-relies-on-three-of-them-to-run-every-morning/\" target=\"_blank\">San Francisco light rail line</a> or, previously, <a href=\"https://www.nytimes.com/2019/10/24/us/nuclear-weapons-floppy-disks.html\" target=\"_blank\">US nuclear launch facilities</a>. </p><p>One last holdout appears to be the Federal Aviation Administration, which still uses the disks for data storage within the US air traffic control system (via <a href=\"https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/\" target=\"_blank\">Ars Technica</a>). Not for much longer, it seems, as US transportation secretary Sean P. Duffy has announced the widespread rollout of their long-overdue replacement.</p><p>\"Good news America: floppy disks are out, 21st century tech is in,\" <a href=\"https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-begins-retiring-decades-old-floppy-disks-air\" target=\"_blank\">s"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage",
+        "secondary_keywords": [
+          "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage date de sortie",
+          "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage plateformes",
+          "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage gameplay",
+          "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage guide",
+          "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'Floppy disks are out, 21st century tech is in': The FAA is finally ditching 55-year-old storage"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

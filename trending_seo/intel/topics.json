@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-11-20T10:29:55.321104+00:00",
+  "updated_at": "2026-11-20T21:58:14.229888+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -63,294 +63,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "rss-amdlss5-gets-nvidia-s-neural-rendering-running-on-amd-g-2703eec40812",
-      "topic": "‘AMDLSS5’ gets Nvidia’s neural rendering running on AMD graphics cards and claims 64% better performance than other mods",
-      "detected_at": "2026-11-10T21:00:15.314076+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/graphics-cards/amdlss5-gets-nvidias-neural-rendering-running-on-amd-graphics-cards-and-claims-64-percent-better-performance-than-other-mods/",
-          "title": "‘AMDLSS5’ gets Nvidia’s neural rendering running on AMD graphics cards and claims 64% better performance than other mods",
-          "evidence": "<article> <p>DLSS 5 has been out for a while now, <a href=\"https://www.pcgamer.com/hardware/nvidia-dlss-5-reveal-pc-gamer-reacts-not-wholly-positively/\" target=\"_blank\">love it or hate it</a>, but obviously not for AMD cards. Well, not officially, anyway. We have previously seen and tried mods that get the machine learning-aided neural rendering tech up and running using AMD RX 9000-series silicon, and now it looks like there's a significantly improved one.</p><p><a href=\"https://github.com/Wehaveall/AMDLSS5/releases/tag/v2.0.0\" target=\"_blank\">AMDLSS5 version 2.0</a> is now out (via <a href=\"https://wccftech.com/amdlss5-2-0-brings-faster-dlss-5-neural-rendering-to-radeon-gpus-claims-64-higher-fps/\" target=\"_blank\">Wccftech</a>), and it's claiming some impressive improvements compared to other DLSS 5 mods. Specifically, compared with \"other mods\", it's claiming +64% fps in Resident Evil Requiem, and +11% fps compared with the previous version of this one. </p><p>That's particularly great, if true, because our Dave's testing of <a href=\"https://www.pcgamer.com/hardware/graphics-cards/me-you-can-now-run-dlss-5-on-amd-gpus-my-rx-9070-xt-please-stop-it-hurts-us/\" target=\"_blank\">DLSS 5"
-        }
-      ],
-      "keywords": [
-        "‘AMDLSS5’ gets Nvidia’s neural rendering running on AMD graphics cards and claims 64% better performance than other mods",
-        "‘AMDLSS5’ gets Nvidia’s neural rendering running on AMD graphics cards and claims 64% better performance than other mods date de sortie",
-        "‘AMDLSS5’ gets Nvidia’s neural rendering running on AMD graphics cards and claims 64% better performance than other mods plateformes",
-        "‘AMDLSS5’ gets Nvidia’s neural rendering running on AMD graphics cards and claims 64% better performance than other mods gameplay",
-        "‘AMDLSS5’ gets Nvidia’s neural rendering running on AMD graphics cards and claims 64% better performance than other mods guide",
-        "‘AMDLSS5’ gets Nvidia’s neural rendering running on AMD graphics cards and claims 64% better performance than other mods avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-alienware-aw3226q-oled-gaming-monitor-review-668a35d081ce",
-      "topic": "Alienware AW3226Q OLED gaming monitor review",
-      "detected_at": "2026-11-10T21:00:15.314423+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/gaming-monitors/alienware-aw3226q-review/",
-          "title": "Alienware AW3226Q OLED gaming monitor review",
-          "evidence": "<article> <div data-widget-type=\"review\" data-widget-title=\"\" data-model-name=\"Dell Alienware AW3226Q\"></div><p>You know Alienware's 5K2K 39-inch ultrawide OLED gaming monitor beast, <a href=\"https://www.pcgamer.com/hardware/gaming-monitors/alienware-aw3926qw-review/\" target=\"_blank\">the AW3926QW</a>, the one I reviewed the other day? It's an absolute beauty, probably my favourite current PC monitor, save for one niggly flaw. But what if you fancy something similar, but cheaper and in a more conventional 32-inch 4K form factor? Well, give it up for <a href=\"https://www.dell.com/en-us/shop/monitors/apd/alienware-32-4k-oled-gaming-monitor-aw3226q/aw3226q_monitor/-\">the new Alienware AW3226Q</a>, because it ticks all those boxes.</p><p>Notably, it sports exactly the same LG Tandem WOLED panel tech as its bigger 39-inch sibling. That includes being the latest RGB-stripe variant of that new LG OLED panel generation that everyone is going bananas for. </p><p>Well, it's nearly the same. For reasons that aren't entirely clear, this 32-inch 4K panel clocks in at 250 nits full-screen brightness and 1,000 nits peak HDR. The aforementioned 39 incher rocks 300 nits and 1,300 nits figures for th"
-        }
-      ],
-      "keywords": [
-        "Alienware AW3226Q OLED gaming monitor review",
-        "Alienware AW3226Q OLED gaming monitor review date de sortie",
-        "Alienware AW3226Q OLED gaming monitor review plateformes",
-        "Alienware AW3226Q OLED gaming monitor review gameplay",
-        "Alienware AW3226Q OLED gaming monitor review guide",
-        "Alienware AW3226Q OLED gaming monitor review avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-fought-queens-and-knights-but-somehow-my-hardest-oppo-6f1836ea7891",
-      "topic": "I fought Queens and Knights, but somehow my hardest opponents in Stack Order, the next great deckbuilder, were 2 birds",
-      "detected_at": "2026-11-10T21:00:15.314578+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/roguelike/i-fought-queens-and-knights-but-somehow-my-hardest-opponents-in-stack-order-the-next-great-deckbuilder-were-2-birds/",
-          "title": "I fought Queens and Knights, but somehow my hardest opponents in Stack Order, the next great deckbuilder, were 2 birds",
-          "evidence": "<article> <p>What's worse than fighting one human-sized bird with sunglasses? Fighting two human-sized birds with sunglasses. That wasn't a usual problem in my everyday life until I started playing <a href=\"https://store.steampowered.com/app/4338750/Stack_Order/\">Stack Order's demo</a>, the hand-drawn deckbuilder that's full of duels and fantastic combos. </p><p>The run began with my masked character locked away in a jail cell, not all that dissimilar to how I start most of my days. However, this time I was promptly freed by a stranger who wanted to help out. After handing me a deck of cards and talking me through how to use it, I was left to go on my merry way. The only problem was that I didn't get very far before a knight called Robert, who was very unhappy to see me out of my cell, butted in. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1918px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.20%;\"><img id=\"549MnU6RRpTbpnFaAtc3gm\" name=\"Stack Order demo screenshots\" alt=\"Stack Order demo screenshots\" src=\"https://cdn.mos.cms.futurecdn.net/549MnU6RRpTbpn"
-        }
-      ],
-      "keywords": [
-        "I fought Queens and Knights, but somehow my hardest opponents in Stack Order, the next great deckbuilder, were 2 birds",
-        "I fought Queens and Knights, but somehow my hardest opponents in Stack Order, the next great deckbuilder, were 2 birds date de sortie",
-        "I fought Queens and Knights, but somehow my hardest opponents in Stack Order, the next great deckbuilder, were 2 birds plateformes",
-        "I fought Queens and Knights, but somehow my hardest opponents in Stack Order, the next great deckbuilder, were 2 birds gameplay",
-        "I fought Queens and Knights, but somehow my hardest opponents in Stack Order, the next great deckbuilder, were 2 birds guide",
-        "I fought Queens and Knights, but somehow my hardest opponents in Stack Order, the next great deckbuilder, were 2 birds avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-feel-better-than-ever-waiting-for-gta-6-on-pc-now-roc-0d0759ff4bdd",
-      "topic": "I feel better than ever waiting for GTA 6 on PC now Rockstar confirms it's targeting 30 fps on PlayStation and Xbox",
-      "detected_at": "2026-11-10T21:00:15.314715+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-feel-better-than-ever-waiting-for-gta-6-on-pc-now-rockstar-confirms-its-targeting-30-fps-on-playstation-and-xbox/",
-          "title": "I feel better than ever waiting for GTA 6 on PC now Rockstar confirms it's targeting 30 fps on PlayStation and Xbox",
-          "evidence": "<article> <p>Developer of entertainment products and pillar of the global economy Rockstar has announced that <a href=\"https://www.pcgamer.com/uk/grand-theft-auto-6/\">Grand Theft Auto 6</a>, its much-ballyhooed upcoming Bonnie and Clyde simulator, will be <a href=\"https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now\" target=\"_blank\">targeting 30 frames per second</a> on consoles. Coincidentally, \"on consoles\" is the only place Rockstar has currently announced the game is releasing, so GTA 6 is a 30-fps-or-bust experience for the foreseeable future.</p><p>\"Grand Theft Auto 6 has been fully developed from the ground up to provide the best possible experience for the current generation of consoles, targeting 30 frames per second while pushing both platforms to their absolute limits to bring the vast and rich world of Leonida to life\", say the boys and girls in Edinburgh, while offering a little sweet treat to PlayStation 5 Pro owners in the form of PSSR (PlayStation of Soviet Socialist Republics—no, wait, sorry, PlayStation Spectral Super Resolution) support and ray-traced shadows.</p><p>Why am I telling you this on PC Gamer dot com? Partially"
-        }
-      ],
-      "keywords": [
-        "I feel better than ever waiting for GTA 6 on PC now Rockstar confirms it's targeting 30 fps on PlayStation and Xbox",
-        "I feel better than ever waiting for GTA 6 on PC now Rockstar confirms it's targeting 30 fps on PlayStation and Xbox date de sortie",
-        "I feel better than ever waiting for GTA 6 on PC now Rockstar confirms it's targeting 30 fps on PlayStation and Xbox plateformes",
-        "I feel better than ever waiting for GTA 6 on PC now Rockstar confirms it's targeting 30 fps on PlayStation and Xbox gameplay",
-        "I feel better than ever waiting for GTA 6 on PC now Rockstar confirms it's targeting 30 fps on PlayStation and Xbox guide",
-        "I feel better than ever waiting for GTA 6 on PC now Rockstar confirms it's targeting 30 fps on PlayStation and Xbox avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-steam-s-age-verification-in-australia-now-takes-your-ac-be0a3208e764",
-      "topic": "Steam's age verification in Australia now takes your account's age into consideration",
-      "detected_at": "2026-11-11T09:50:51.629782+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/software/platforms/steams-age-verification-in-australia-now-takes-your-accounts-age-into-consideration/",
-          "title": "Steam's age verification in Australia now takes your account's age into consideration",
-          "evidence": "<article> <p>In compliance with local laws, Steam rolled out age verification in Australia two months ago. Controversially, it was based on whether you owned a credit card, which many Australians do not. Overnight, Australians stopped being able to see games that are rated R18+ in the Steam store, like Doom, if they didn't have a credit card linked to their account.</p><p>Just as suddenly, <a href=\"https://help.steampowered.com/en/faqs/view/338D-F465-0937-FA65\">Steam support</a> has now updated how age verification works for Australians. Adding a credit card to your account still works, but additionally: \"Steam will automatically consider your account age verified if it is at least nine years old and has had a consistent email address or billing information.\"</p><p>If you've moved house in the last nine years and let Steam know about it then your billing information won't have been consistent, so I sure hope you haven't changed both your email and physical address in that time.</p><p>Valve notes that it is aware this solution still isn't ideal for everyone: \"We understand that not all Australians will be able to verify their age using our existing options. We are looking into other"
-        }
-      ],
-      "keywords": [
-        "Steam's age verification in Australia now takes your account's age into consideration",
-        "Steam's age verification in Australia now takes your account's age into consideration date de sortie",
-        "Steam's age verification in Australia now takes your account's age into consideration plateformes",
-        "Steam's age verification in Australia now takes your account's age into consideration gameplay",
-        "Steam's age verification in Australia now takes your account's age into consideration guide",
-        "Steam's age verification in Australia now takes your account's age into consideration avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-one-elder-scrolls-fan-is-reviving-and-upgrading-with-ai-54e2c569734e",
-      "topic": "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC",
-      "detected_at": "2026-11-11T09:50:51.629945+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/",
-          "title": "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC",
-          "evidence": "<article> <p>I spend way too much time on wikis reading about spin-off games made for handheld and mobile devices I will probably never play (there was a whole trilogy of Silent Hill: Orphan games that have lived up to their name by being orphaned on old phones). The Elder Scrolls Travels are a prime example—games made in the gap between Morrowind and Oblivion. The third in the series, Shadowkey, came out on Nokia's N-Gage handheld—a cross between a GameBoy Advance and a mobile phone that lasted two years before being discontinued in 2005.</p><p>This first-person RPG is about to return thanks to Dan Whelan, whose Shadowkey Reforged project will let us play Shadowkey in widescreen with controller support and upscaled graphics. You can choose to play in classic or modern mode, but you can also toggle individual features one by one. Modern mode isn't just a graphical upgrade as it also adds features from the later mainline Elder Scrolls games like stamina-based sprinting, stealth, and ragdoll physics.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Ax-MqhRaP7w\" allowfull"
-        }
-      ],
-      "keywords": [
-        "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC",
-        "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC date de sortie",
-        "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC plateformes",
-        "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC gameplay",
-        "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC guide",
-        "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-sony-cancels-another-live-service-game-ahead-of-release-9cda2cd1d805",
-      "topic": "Sony cancels another live service game ahead of release, but at least there won't be any layoffs this time",
-      "detected_at": "2026-11-11T09:50:51.630136+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/gaming-industry/sony-cancels-another-live-service-game-ahead-of-release-but-at-least-there-wont-be-any-layoffs-this-time/",
-          "title": "Sony cancels another live service game ahead of release, but at least there won't be any layoffs this time",
-          "evidence": "<article> <p>A <a href=\"https://www.bloomberg.com/news/articles/2026-11-10/playstation-cancels-online-shooting-title-fairgames?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDM0MzEyMSwiZXhwIjoxNzk0OTQ3OTIxLCJhcnRpY2xlSWQiOiJUT0IwMDNLSVVQVEwwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.0VitdVcIPZb98kOClbou7VJYMIEblBJyP0spzGGfRQ4&leadSource=article-gifting\" target=\"_blank\">Bloomberg</a> report says Fairgames, a PvP heist shooter announced by Haven Studios and Sony <a href=\"https://www.pcgamer.com/fairgames-promises-emergent-sandbox-gameplay-in-competitive-pvp-heists/\" target=\"_blank\">in 2023</a>, has been cancelled. In something of a surprising twist, a PlayStation rep told the site there will be no layoffs as a result of the cancellation, as Haven will \"shift its focus to collaborating with other development teams across PlayStation Studios, while also exploring new creative opportunities.\"</p><p>While it was announced three years ago, work on Fairgames appears to have started even further back, in 2021. Just a couple months after her high-profile <a href=\"https://www.pcgamer.com/google-stadia-stu"
-        }
-      ],
-      "keywords": [
-        "Sony cancels another live service game ahead of release, but at least there won't be any layoffs this time",
-        "Sony cancels another live service game ahead of release, but at least there won't be any layoffs this time date de sortie",
-        "Sony cancels another live service game ahead of release, but at least there won't be any layoffs this time plateformes",
-        "Sony cancels another live service game ahead of release, but at least there won't be any layoffs this time gameplay",
-        "Sony cancels another live service game ahead of release, but at least there won't be any layoffs this time guide",
-        "Sony cancels another live service game ahead of release, but at least there won't be any layoffs this time avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-capcom-quietly-updates-the-monster-hunter-wilds-beta-li-29891cf90ec1",
-      "topic": "Capcom quietly updates the Monster Hunter Wilds beta listing on Steam, indicating a possible expansion playtest",
-      "detected_at": "2026-11-11T09:50:51.630290+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/action/capcom-quietly-updates-the-monster-hunter-wilds-beta-listing-on-steam-indicating-a-possible-expansion-playtest/",
-          "title": "Capcom quietly updates the Monster Hunter Wilds beta listing on Steam, indicating a possible expansion playtest",
-          "evidence": "<article> <p>Capcom still hasn't announced a release date for Monster Hunter Wilds: Ascendance, the Sunbreak-scale DLC that was <a href=\"https://www.pcgamer.com/games/action/monster-hunter-wilds-will-get-a-large-scale-expansion-in-the-style-of-iceborne-and-sunbreak-as-it-winds-down-major-content-updates-to-the-base-game/\" target=\"_blank\">revealed in February</a>, but it seems like we might be getting a chance to sample the expansion before too long. A recent Steam listing update has provided a strong reason to suspect that there'll be a public beta for Ascendance available ahead of its launch in 2027.</p><p>As <a href=\"https://steamdb.info/app/3065170/history/?changeid=40777135\" target=\"_blank\">SteamDB changelogs</a> show, the Steam app entry for Monster Hunter Wilds' 2024 public beta was quietly updated early this morning to change the app's name from \"Monster Hunter Wilds Beta test\" to \"Monster Hunter Wilds: <em>Ascendance</em> Beta test.\" Similarly, the listing's visual assets were updated to feature key art of a hunter facing an Arateka, one of the new monsters being introduced in the expansion.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><di"
-        }
-      ],
-      "keywords": [
-        "Capcom quietly updates the Monster Hunter Wilds beta listing on Steam, indicating a possible expansion playtest",
-        "Capcom quietly updates the Monster Hunter Wilds beta listing on Steam, indicating a possible expansion playtest date de sortie",
-        "Capcom quietly updates the Monster Hunter Wilds beta listing on Steam, indicating a possible expansion playtest plateformes",
-        "Capcom quietly updates the Monster Hunter Wilds beta listing on Steam, indicating a possible expansion playtest gameplay",
-        "Capcom quietly updates the Monster Hunter Wilds beta listing on Steam, indicating a possible expansion playtest guide",
-        "Capcom quietly updates the Monster Hunter Wilds beta listing on Steam, indicating a possible expansion playtest avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-bungie-drops-gameplay-trailer-for-marathon-s-co-op-pve--10205afa4e79",
-      "topic": "Bungie drops gameplay trailer for Marathon's 'co-op PvE roguelite' mode and swanky new social space",
-      "detected_at": "2026-11-11T09:50:51.630406+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/fps/bungie-drops-gameplay-trailer-for-marathons-co-op-pve-roguelite-mode-and-swanky-new-social-space/",
-          "title": "Bungie drops gameplay trailer for Marathon's 'co-op PvE roguelite' mode and swanky new social space",
-          "evidence": "<article> <p>Bungie has served up our first proper look at Marathon's big <a href=\"https://www.bungie.net/7/en/News/Article/symbiosis_open_play_week_crew_up\" target=\"_blank\">Symbiosis update</a>, which is set to go live on December 8 with a permanent PvE mode, plus an all-new Team Deathmatch mode and a social space called Limbo.</p><p>Symbiosis represents the start of \"the evolution of Marathon,\" Bungie said, with \"a plethora of updates and changes\" to the game. First and foremost is the addition of Marathon's PvE mode, now permanent and with a new name, Expedition, that's described in the teaser as a \"co-op PvE roguelite.\" Details beyond that haven't been revealed just yet, but Bungie called it \"phase one\" of the team's PvE plan, suggesting that it remains a work in progress. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/0PXGV5YuTWo\" allowfullscreen=\"\"></iframe></div></div><p>Also notable in Symbiosis is the addition of Limbo, a \"social space\" where players can hang out without getting aired out (although there does appear to be a little area set aside for friendly"
-        }
-      ],
-      "keywords": [
-        "Bungie drops gameplay trailer for Marathon's 'co-op PvE roguelite' mode and swanky new social space",
-        "Bungie drops gameplay trailer for Marathon's 'co-op PvE roguelite' mode and swanky new social space date de sortie",
-        "Bungie drops gameplay trailer for Marathon's 'co-op PvE roguelite' mode and swanky new social space plateformes",
-        "Bungie drops gameplay trailer for Marathon's 'co-op PvE roguelite' mode and swanky new social space gameplay",
-        "Bungie drops gameplay trailer for Marathon's 'co-op PvE roguelite' mode and swanky new social space guide",
-        "Bungie drops gameplay trailer for Marathon's 'co-op PvE roguelite' mode and swanky new social space avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-how-silent-hill-townfall-s-developer-created-a-fictiona-516c33a3fb8d",
-      "topic": "How Silent Hill: Townfall's developer created a fictional town that's still real—'It exists. It's there'",
-      "detected_at": "2026-11-11T09:50:51.631350+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/horror/how-silent-hill-townfalls-developer-created-a-fictional-town-thats-still-real-it-exists-its-there/",
-          "title": "How Silent Hill: Townfall's developer created a fictional town that's still real—'It exists. It's there'",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/games/horror/silent-hill-townfall-review/\" target=\"_blank\">Silent Hill: Townfall</a>'s St. Amelia is a singularly unnerving location, especially if, like me, you are blessed with the good fortune to be a Scot. It's a fictional place, but one that a lot of us are intimately familiar with, even as it's twisted by fog and trauma. It's a nightmare, and like most nightmares it's powerfully relatable. </p><p>When I spoke with director Jon McKellan at Gamescom, we talked a lot about <a href=\"https://www.pcgamer.com/games/horror/silent-hill-townfall-is-the-most-scottish-game-ive-ever-played-and-the-most-effective-horror-game-ive-seen-in-ages-it-made-sense-for-us-to-dig-deep-into-our-upbringings-into-our-past-and-try-and-build-a-place-that-felt-believable/\" target=\"_blank\">Scottishness and authenticity</a>, which St. Amelia has in spades. And with the game now out in the wilds, we've reconvened—this time joined by art director Paul Abbott—to dig deeper into the town's origins, and the process that brought it to life. </p><h2 id=\"arrival\">Arrival</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-fu"
-        }
-      ],
-      "keywords": [
-        "How Silent Hill: Townfall's developer created a fictional town that's still real—'It exists. It's there'",
-        "How Silent Hill: Townfall's developer created a fictional town that's still real—'It exists. It's there' date de sortie",
-        "How Silent Hill: Townfall's developer created a fictional town that's still real—'It exists. It's there' plateformes",
-        "How Silent Hill: Townfall's developer created a fictional town that's still real—'It exists. It's there' gameplay",
-        "How Silent Hill: Townfall's developer created a fictional town that's still real—'It exists. It's there' guide",
-        "How Silent Hill: Townfall's developer created a fictional town that's still real—'It exists. It's there' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-big-walk-developer-reveals-it-used-generative-ai-sparin-997189c08f24",
-      "topic": "Big Walk developer reveals it used generative AI 'sparingly', estimates 'well under 0.1%' was actually coded using LLMs",
-      "detected_at": "2026-11-11T09:50:51.631485+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/puzzle/big-walk-developer-reveals-it-used-generative-ai-sparingly-estimates-well-under-0-1-percent-was-actually-coded-using-llms/",
-          "title": "Big Walk developer reveals it used generative AI 'sparingly', estimates 'well under 0.1%' was actually coded using LLMs",
-          "evidence": "<article> <p>Big Walk developer House House has sparked a brand-new generative AI debate after revealing that it utilised LLMs \"sparingly\" during the final stretch of the game's development.</p><p>The revelation came in the hours following<a href=\"https://bsky.app/profile/austinwalker.bsky.social/post/3mzvyqaxnzc2w\"> a statement</a> from a handful of jurors participating in the Independent Games Festival awards. In the statement, it called out the \"significant increase in the number of submitted games developed with generative AI tools,\" adding that it had \"set off some fairly intense discussion and disagreement across the judge and jury pools.\"</p><p>The statement specifically called out AI-generated code, saying it was \"not an exception,\" adding: \"Programming is a creative discipline whose labour deserves the same respect we extend to any part of making a game. This extends to the past work used to train these models without the creators' consent.\"</p><p>While no game was specifically called out, as <a href=\"https://aftermath.site/big-walk-ai-igf-jurors-controversy/\" target=\"_blank\">Aftermath</a> reports, it didn't take long for word to spread that one particular title had caused"
-        }
-      ],
-      "keywords": [
-        "Big Walk developer reveals it used generative AI 'sparingly', estimates 'well under 0.1%' was actually coded using LLMs",
-        "Big Walk developer reveals it used generative AI 'sparingly', estimates 'well under 0.1%' was actually coded using LLMs date de sortie",
-        "Big Walk developer reveals it used generative AI 'sparingly', estimates 'well under 0.1%' was actually coded using LLMs plateformes",
-        "Big Walk developer reveals it used generative AI 'sparingly', estimates 'well under 0.1%' was actually coded using LLMs gameplay",
-        "Big Walk developer reveals it used generative AI 'sparingly', estimates 'well under 0.1%' was actually coded using LLMs guide",
-        "Big Walk developer reveals it used generative AI 'sparingly', estimates 'well under 0.1%' was actually coded using LLMs avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-trump-calls-his-pal-jensen-huang-an-honourable-guy-and--e9a1c37760a5",
-      "topic": "Trump calls his pal Jensen Huang an ‘honourable guy’ and says he ‘probably has an excuse’ for Nvidia CEO’s affair with alleged spy",
-      "detected_at": "2026-11-11T09:50:51.631620+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/graphics-cards/trump-calls-his-pal-jensen-huang-an-honourable-guy-and-says-he-probably-has-an-excuse-for-nvidia-ceos-affair-with-alleged-spy/",
-          "title": "Trump calls his pal Jensen Huang an ‘honourable guy’ and says he ‘probably has an excuse’ for Nvidia CEO’s affair with alleged spy",
-          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/Djn09HekpAs\" allowfullscreen=\"\"></iframe></div></div><p>Nvidia CEO Jensen Huang <a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen-huangs-affair-with-alleged-chinese-spy-highlights-how-the-gpu-companys-dealings-are-now-everyones-business/\" target=\"_blank\">admitted to an affair with one Alice Huang on Sunday</a>; someone suspected of being a Chinese spy by US authorities. Trump has since spoken on the matter, saying he asked Jensen whether he knew she was a spy (he says he didn't) and offered words of support for his pal.</p><p><a href=\"https://www.youtube.com/watch?v=Djn09HekpAs\" target=\"_blank\">Trump told reporters</a>, \"I know the FBI is looking into it\", and he said, \"I think he'll [Huang] be in good shape.\" (<a href=\"https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o\" target=\"_blank\">via BBC</a>)</p><p>Trump reportedly asked Huang if he had \"any idea she was a spy\", and Huang reportedly said he had \"no idea.\"</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-ePmlVW\"></div> </div> <s"
-        }
-      ],
-      "keywords": [
-        "Trump calls his pal Jensen Huang an ‘honourable guy’ and says he ‘probably has an excuse’ for Nvidia CEO’s affair with alleged spy",
-        "Trump calls his pal Jensen Huang an ‘honourable guy’ and says he ‘probably has an excuse’ for Nvidia CEO’s affair with alleged spy date de sortie",
-        "Trump calls his pal Jensen Huang an ‘honourable guy’ and says he ‘probably has an excuse’ for Nvidia CEO’s affair with alleged spy plateformes",
-        "Trump calls his pal Jensen Huang an ‘honourable guy’ and says he ‘probably has an excuse’ for Nvidia CEO’s affair with alleged spy gameplay",
-        "Trump calls his pal Jensen Huang an ‘honourable guy’ and says he ‘probably has an excuse’ for Nvidia CEO’s affair with alleged spy guide",
-        "Trump calls his pal Jensen Huang an ‘honourable guy’ and says he ‘probably has an excuse’ for Nvidia CEO’s affair with alleged spy avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-fallout-and-elder-scrolls-actor-stephen-russell-returns-836f86490bca",
       "topic": "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy'",
@@ -6043,6 +5755,294 @@
         "Mark of the Deep Steam"
       ],
       "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "rss-try-this-gta-6-movement-speed-setting-to-make-jason-and-6f296647480e",
+      "topic": "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster",
+      "detected_at": "2026-11-20T21:58:14.227833+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-movement-speed-setting-walk-faster/",
+          "title": "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster",
+          "evidence": "<article> <p>If you want to move faster in Grand Theft Auto 6, I can't blame you: There's a lot I've enjoyed about the opening hours I've spent in Jason's shoes. He's handy with a nailgun. He's a good sport when I make him wear the dumbest graphic tees I can find. For a gunslinging drug runner, he's a gentle soul. I just have one complaint.</p><p>The man's got a <em>leisurely </em>gait. Which is fine! But there are plenty of times while roaming Leonida when you might wish he and Lucia were moving just a <em>bit </em>faster—just not so fast that you want to force them into a run. Luckily, Rockstar's got our back: There's a setting to bump up your basic movement speed without pushing a button.</p><h2 id=\"how-to-increase-your-movement-speed-in-gta-6\">How to increase your movement speed in GTA 6</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"rQNzX6dGiDY9JgXbwC2DFM\" name=\"Grand Theft Auto VI_20261120164131\" alt=\"The GTA 6 settings menu, showing the Movement Speed setting under the gameplay tab"
+        }
+      ],
+      "keywords": [
+        "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster",
+        "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster date de sortie",
+        "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster plateformes",
+        "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster gameplay",
+        "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster guide",
+        "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-21-of-rockstar-staff-have-been-employed-by-the-company--e63e04fa8835",
+      "topic": "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch",
+      "detected_at": "2026-11-20T21:58:14.228062+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/21-percent-of-rockstar-staff-have-been-employed-by-the-company-for-over-10-years-which-explains-a-lot-about-gta-6s-record-breaking-launch/",
+          "title": "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch",
+          "evidence": "<article> <p>If we're using Metacritic as a metric, Grand Theft Auto 6 is currently the <a href=\"https://www.metacritic.com/browse/game/\" target=\"_blank\">best-reviewed game of all time</a>. Between preorders and launch-day sales, it's already made <a href=\"https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-earned-usd3-79-billion-on-launch-day/\" target=\"_blank\">over $3.7 billion</a> in sales revenue. It's being lauded as a landmark achievement in game design, storytelling, and engineering. So how, exactly, did Rockstar pull it off?</p><p>Well, the <a href=\"https://www.bloomberg.com/news/articles/2026-11-12/the-1-billion-video-game-about-to-swallow-the-world-whole\" target=\"_blank\">billion-dollar production budget</a> certainly helped. But a <a href=\"https://www.bloomberg.com/news/newsletters/2026-11-20/one-secret-to-the-success-of-grand-theft-auto-vi-veteran-staff\" target=\"_blank\">Bloomberg</a> report offers an important insight into how GTA 6 was able to deliver on its promises: According to a spokesperson, 21% of Rockstar's staff—roughly 1,000 people—have been employed by the company for over 10 years. For many of its development leads and directors, that figure is c"
+        }
+      ],
+      "keywords": [
+        "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch",
+        "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch date de sortie",
+        "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch plateformes",
+        "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch gameplay",
+        "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch guide",
+        "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-grand-theft-auto-6-earned-3-79-billion-on-launch-day-73a0572c8a94",
+      "topic": "Grand Theft Auto 6 earned $3.79 billion on launch day",
+      "detected_at": "2026-11-20T21:58:14.228247+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-earned-usd3-79-billion-on-launch-day/",
+          "title": "Grand Theft Auto 6 earned $3.79 billion on launch day",
+          "evidence": "<article> <p>Some very rough napkin math led to estimates that Take-Two Interactive expected to make as much as<a href=\"https://www.pcgamer.com/games/grand-theft-auto/take-two-expects-to-make-as-much-as-usd3-5-billion-during-the-gta-6-launch-period/\" target=\"_blank\"> $3.5 billion</a> during the Grand Theft Auto 6 launch period. It actually made more than that on the GTA 6 launch <em>day: </em>Rockstar says the game pulled in <a href=\"https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records\" target=\"_blank\">$3.79 billion in \"day one retail sales,\"</a> making it \"the biggest entertainment launch in history.\"</p><p>By way of comparison, Avengers: Endgame, ranked on <a href=\"https://en.wikipedia.org/wiki/List_of_highest-grossing_films\" target=\"_blank\">Wikipedia</a> as the highest grossing movie of all time, earned a little more than $2.9 billion over its entire theatrical run. GTA 6 crushed that by nearly $1 billion <em>in a day</em>.</p><p>\"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand Theft Auto 6,\" Rockstar Games president and co-founder Sam Houser said. \"We are incredibly humbled by the r"
+        }
+      ],
+      "keywords": [
+        "Grand Theft Auto 6 earned $3.79 billion on launch day",
+        "Grand Theft Auto 6 earned $3.79 billion on launch day date de sortie",
+        "Grand Theft Auto 6 earned $3.79 billion on launch day plateformes",
+        "Grand Theft Auto 6 earned $3.79 billion on launch day gameplay",
+        "Grand Theft Auto 6 earned $3.79 billion on launch day guide",
+        "Grand Theft Auto 6 earned $3.79 billion on launch day avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-etsy-sellers-are-closing-their-stores-in-response-to-th-0d2212afc366",
+      "topic": "Etsy sellers are closing their stores in response to the platform's new AI training policy",
+      "detected_at": "2026-11-20T21:58:14.228476+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/etsy-sellers-are-closing-their-stores-in-response-to-the-platforms-new-ai-training-policy/",
+          "title": "Etsy sellers are closing their stores in response to the platform's new AI training policy",
+          "evidence": "<article> <p>Online marketplace Etsy is facing backlash from users over a recent change to its policies that allow it and other companies to use content created by sellers to train AI models. In response, numerous vendors have closed their online shops, and are encouraging others to do the same. Etsy, however, says the new policy isn't meant to \"replace your creativity,\" but simply to improve storefront operations.</p><p>The offending bit is found in part 5, section C of <a href=\"https://www.etsy.com/legal/terms-of-use\" target=\"_blank\">Etsy's terms of use</a>, effective as of December 16:</p><p><em>You agree not to assert any moral rights or rights of publicity against us for using Your Content. You also recognise our legitimate interest in using it, in accordance with the scope of this license, to the extent Your Content contains any personal information. </em><em><strong>This also includes the right for us and our third party partners and vendors to use Your Content to develop, train, test and improve artificial intelligence and machine learning technologies, including to improve the Services and/or help keep them safe, subject to any applicable opt-out rights described in our Pr"
+        }
+      ],
+      "keywords": [
+        "Etsy sellers are closing their stores in response to the platform's new AI training policy",
+        "Etsy sellers are closing their stores in response to the platform's new AI training policy date de sortie",
+        "Etsy sellers are closing their stores in response to the platform's new AI training policy plateformes",
+        "Etsy sellers are closing their stores in response to the platform's new AI training policy gameplay",
+        "Etsy sellers are closing their stores in response to the platform's new AI training policy guide",
+        "Etsy sellers are closing their stores in response to the platform's new AI training policy avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-nyt-report-documents-ex-nvidia-ceo-jensen-huang-s-decad-a611f37a36cd",
+      "topic": "NYT report documents ex-Nvidia CEO Jensen Huang's decades of berating employees: 'He said he would rip both arms off a subordinate and beat the person over the head to death with them'",
+      "detected_at": "2026-11-20T21:58:14.228669+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/nyt-report-documents-ex-nvidia-ceo-jensen-huangs-decades-of-berating-employees-he-said-he-would-rip-both-arms-off-a-subordinate-and-beat-the-person-over-the-head-to-death-with-them/",
+          "title": "NYT report documents ex-Nvidia CEO Jensen Huang's decades of berating employees: 'He said he would rip both arms off a subordinate and beat the person over the head to death with them'",
+          "evidence": "<article> <p>It's been a strange couple of weeks for former Nvidia CEO, Jensen Huang. The once tech leader <a href=\"https://www.pcgamer.com/gaming-industry/nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-chinese-spy-as-company-board-launches-investigation/\">admitted to an affair,</a> only for <a href=\"https://www.google.com/search?q=huang+affair+site%3Apcgamer.com\">multiple affair</a> allegations <a href=\"https://www.pcgamer.com/hardware/ex-nvidia-ceo-jensen-huang-allegedly-had-an-intimate-relationship-with-a-second-nvidia-employee-according-to-reports/\">to surface</a>, and he was then <a href=\"https://www.pcgamer.com/hardware/after-jensen-huangs-resignation-from-nvidia-its-all-praise-or-political-finger-wagging-about-the-ex-ceo-with-little-in-between/\">ousted from the company</a>. Now, as he reportedly mounts a comeback, <a href=\"https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html\">The New York Times</a> has published a report detailing an alleged decades-long philosophy of getting more work out of employees \"through humiliation\". </p><p>Reportedly, Huang told employees that they had become so rich that \"he couldn’t motivate them simply with money\""
+        }
+      ],
+      "keywords": [
+        "NYT report documents ex-Nvidia CEO Jensen Huang's decades of berating employees: 'He said he would rip both arms off a subordinate and beat the person over the head to death with them'",
+        "NYT report documents ex-Nvidia CEO Jensen Huang's decades of berating employees: 'He said he would rip both arms off a subordinate and beat the person over the head to death with them' date de sortie",
+        "NYT report documents ex-Nvidia CEO Jensen Huang's decades of berating employees: 'He said he would rip both arms off a subordinate and beat the person over the head to death with them' plateformes",
+        "NYT report documents ex-Nvidia CEO Jensen Huang's decades of berating employees: 'He said he would rip both arms off a subordinate and beat the person over the head to death with them' gameplay",
+        "NYT report documents ex-Nvidia CEO Jensen Huang's decades of berating employees: 'He said he would rip both arms off a subordinate and beat the person over the head to death with them' guide",
+        "NYT report documents ex-Nvidia CEO Jensen Huang's decades of berating employees: 'He said he would rip both arms off a subordinate and beat the person over the head to death with them' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-gamestop-boss-calls-for-return-of-physical-discs-just-a-d97c3da87aaf",
+      "topic": "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters",
+      "detected_at": "2026-11-20T21:58:14.228863+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/gamestop-boss-calls-for-return-of-physical-discs-just-as-gta-6-does-digital-gangbusters/",
+          "title": "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters",
+          "evidence": "<article> <p>GameStop boss Ryan Cohen (last seen <a href=\"https://www.pcgamer.com/gaming-industry/gamestop-ceo-baffles-cnbc-anchors-in-bizarre-interview/\">attempting to buy eBay</a>) has called for the return of physical game discs, lamenting the lack of control players have over digital purchases in a chat with <a href=\"https://www.bloomberg.com/news/articles/2026-11-19/gamestop-ceo-criticizes-digital-game-releases-on-gta-vi-eve\" target=\"_blank\">Bloomberg</a> held on the eve of Grand Theft Auto 6's release.</p><p>In case you missed it, a media meteor impacted yesterday and blasted our landscape free of life. Grand Theft Auto 6 is here and—despite our Ted Litchfield's noble attempts to get you all <a href=\"https://www.pcgamer.com/games/rpg/dont-stress-about-collectathon-completionism-in-queens-domain-it-eventually-gives-you-tools-to-help-find-hidden-treasures/\">thinking about Queen's Domain</a> instead (you should play Queen's Domain)—it's all the world can talk about. It's also only available digitally.</p><p>\"Unquestionably, the decision to move to all digital has hurt consumers, and it’s also hurt GameStop\", said Cohen, remarking that players ought to be able to do with their pu"
+        }
+      ],
+      "keywords": [
+        "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters",
+        "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters date de sortie",
+        "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters plateformes",
+        "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters gameplay",
+        "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters guide",
+        "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-want-to-stay-anonymous-when-doing-crimes-in-gta-6-grab--b2932330adb6",
+      "topic": "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask",
+      "detected_at": "2026-11-20T21:58:14.229023+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mask-location/",
+          "title": "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"kdDCiNAoqe6nKdiaV6u7RC\" name=\"gta-6-mask-location-1\" alt=\"GTA 6 mask location\" src=\"https://cdn.mos.cms.futurecdn.net/kdDCiNAoqe6nKdiaV6u7RC-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline expandable\" /><a href='https://cdn.mos.cms.futurecdn.net/kdDCiNAoqe6nKdiaV6u7RC-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Rockstar)</span></figcaption></figure><p>The <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide\" target=\"_blank\">GTA 6</a> mask neckwear lets you commit crimes with a bit more anonymity. As you might have noticed, cops are a lot more savvy in this new entry, pursuing you based on even your physical appearance. One way to hinder them identifying you is a mask.</p><p"
+        }
+      ],
+      "keywords": [
+        "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask",
+        "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask date de sortie",
+        "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask plateformes",
+        "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask gameplay",
+        "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask guide",
+        "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-5-year-long-mystery-of-the-ufo-house-has-finally-be-6cd7ab41e124",
+      "topic": "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much",
+      "detected_at": "2026-11-20T21:58:14.229208+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/the-5-year-long-mystery-of-the-ufo-house-has-finally-been-solved-in-gta-6-but-one-npc-knows-too-much/",
+          "title": "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much",
+          "evidence": "<article> <p>Back in 2021—which feels like an age ago now—Rockstar added a weird picture to a house in San Andreas in its <a href=\"https://www.pcgamer.com/grand-theft-auto-the-trilogy-the-definitive-edition-is-a-stupid-name-but-it-releases-november/\">Grand Theft Auto: The Trilogy—The Definitive Edition</a>. It captured a small UFO hovering over a cream coloured bungalow with two palm trees in its front garden. It stood out because unlike some of the other pictures, players weren't really sure where it came from, but now we have an answer: It came from the future—bet you didn't see that one coming. </p><p>Well, actually some people did see it coming as they took it to be a tiny easter egg for a future GTA's Florida-setting, which we now know is correct. The picture wasn't just hinting at the location of Grand Theft Auto 6, though, it actually depicts a real location that players can go visit. </p><iframe src=\"https://content.jwplatform.com/players/NYq6wtXR.html\" id=\"NYq6wtXR\" title=\"Meta Garage\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen=\"\"></iframe><p>I saw this thanks to <a href=\"https://www.youtube.com/shorts/vsPFEyMl5aw\" target=\"_blank\">xGarbett'"
+        }
+      ],
+      "keywords": [
+        "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much",
+        "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much date de sortie",
+        "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much plateformes",
+        "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much gameplay",
+        "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much guide",
+        "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-a-gta-6-pc-scam-kit-using-a-fake-pc-port-as-bait-is-ava-b2104ae514dd",
+      "topic": "A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click",
+      "detected_at": "2026-11-20T21:58:14.229393+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/a-gta-6-pc-scam-kit-using-a-fake-pc-port-as-bait-is-available-for-usd200-on-the-dark-web-says-nordvpn-so-watch-what-you-click/",
+          "title": "A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click",
+          "evidence": "<article> <p>The console release of GTA 6 is here, in case you hadn't noticed. And us PC gamers are desperate to get hold of a version of our own, particularly as <a href=\"https://www.pcgamer.com/games/grand-theft-auto/modders-reckon-gta-6-will-be-playable-on-pc-within-a-week/\" target=\"_blank\">modders say it'll be playable on god's own platform within a week</a>. Be careful what you click on, though, as NordVPN's threat intelligence team has discovered a nasty-sounding scam package on the dark web.</p><p>The company has <a href=\"https://x.com/NordVPN/status/2123356308417966158\" target=\"_blank\">posted a warning on X</a> of a \"GTA 6 PC scam kit\" doing the rounds on the more dubious parts of the internet, using a fake GTA 6 PC port as bait.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2123356308417966158\"><p lang=\"en\" dir=\"ltr\">A “GTA 6 PC scam kit” — yours for just $200.That’s what our Threat Intelligence team found on the dark web: a crypto wallet drainer, a fake “GTA6 Keygen.exe” that steals accounts, a YouTube Shorts bot to spread it, and a hidden crypto miner.The bait"
+        }
+      ],
+      "keywords": [
+        "A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click",
+        "A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click date de sortie",
+        "A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click plateformes",
+        "A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click gameplay",
+        "A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click guide",
+        "A 'GTA 6 PC scam kit' using a fake PC port as bait is available for $200 on the dark web, says NordVPN, so watch what you click avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-is-niko-bellic-in-gta-6-53914bfab009",
+      "topic": "Is Niko Bellic in GTA 6?",
+      "detected_at": "2026-11-20T21:58:14.229528+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-niko-bellic/",
+          "title": "Is Niko Bellic in GTA 6?",
+          "evidence": "<article> <p>Niko Bellic is one of my favorite GTA protagonists, a down-to-earth immigrant looking for a better life in Liberty City, though admittedly with a few anger issues and skeletons in his closet. </p><p>Still, when people spotted that Niko's voice actor, Michael Hollick, was listed in the <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide\">GTA 6</a> credits as \"The Hitman\", the rumour mill really kicked into overdrive around whether he was playing the same character. </p><p>Everyone knows how much GTA games love their callbacks and cameos, though I'm sure no one would want him to meet the same fate as Johnny from the Lost and Damned in GTA 5. Again, if you don't want to know who Hollick plays in GTA 6, then leave now.</p><h2 id=\"is-niko-bellic-in-gta-6\">Is Niko Bellic in GTA 6?</h2><p>The straight answer is, yes, Niko does appear in GTA 6 during <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/\" target=\"_blank\">Chapter 5: Top of the World, Ma</a>, near the very end of the game, specifically, in the Taking Liberties mission. Obviously, he's a lot older and more grizzled considering GTA 4 was released *checks watch* 18 years ago (I "
+        }
+      ],
+      "keywords": [
+        "Is Niko Bellic in GTA 6?",
+        "Is Niko Bellic in GTA 6? date de sortie",
+        "Is Niko Bellic in GTA 6? plateformes",
+        "Is Niko Bellic in GTA 6? gameplay",
+        "Is Niko Bellic in GTA 6? guide",
+        "Is Niko Bellic in GTA 6? avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-openai-says-it-redesigned-an-amd-gpu-and-amd-is-using-s-907f5acbaf71",
+      "topic": "OpenAI says it redesigned an AMD GPU and AMD is using some of those tweaks ‘for use in future products’",
+      "detected_at": "2026-11-20T21:58:14.229662+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/openai-says-it-redesigned-an-amd-gpu-and-amd-is-using-some-of-those-tweaks-for-use-in-future-products/",
+          "title": "OpenAI says it redesigned an AMD GPU and AMD is using some of those tweaks ‘for use in future products’",
+          "evidence": "<article> <p>OpenAI has recently reported that its frontier models attempted to rewrite AMD circuits and received an up-to 14% PPA (Power, Performance and Area) boost. <a href=\"https://openai.com/index/advancing-chip-design-with-our-models/\" target=\"_blank\">OpenAI says</a> these rewrites are \"production-viable\" too (via <a href=\"https://finance.biggo.com/news/9170f179-a444-43c9-a22d-ef4c400ff268\" target=\"_blank\">BigGo Finance</a>).</p><p>The claim is not that humans couldn't make these same optimisations, but instead that it did around a year's worth of design optimisations in less than 5 months, an optimisation of optimisation, if you will. (Okay, I'll stop writing optimisation now.) </p><p>Apparently, AMD has even incorporated some of these findings into chip designs that have recently gone to manufacturing. The model worked on an in-house \"Jalapeño\" chip, as well as an AMD \"flagship GPU IP\" and \"AMD next-gen flagship CPU key modules.\" Each one of these saw different gains. </p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-ePmVlW\"></div> </div> <script src=\"https://kwizly.com/embed/ePmVlW.js\" async=\"\"></script><p>For the Jalapeño vector compute unit, the model's"
+        }
+      ],
+      "keywords": [
+        "OpenAI says it redesigned an AMD GPU and AMD is using some of those tweaks ‘for use in future products’",
+        "OpenAI says it redesigned an AMD GPU and AMD is using some of those tweaks ‘for use in future products’ date de sortie",
+        "OpenAI says it redesigned an AMD GPU and AMD is using some of those tweaks ‘for use in future products’ plateformes",
+        "OpenAI says it redesigned an AMD GPU and AMD is using some of those tweaks ‘for use in future products’ gameplay",
+        "OpenAI says it redesigned an AMD GPU and AMD is using some of those tweaks ‘for use in future products’ guide",
+        "OpenAI says it redesigned an AMD GPU and AMD is using some of those tweaks ‘for use in future products’ avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-actress-who-plays-mandy-in-gta-6-has-revealed-herse-1538ea6af065",
+      "topic": "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me'",
+      "detected_at": "2026-11-20T21:58:14.229821+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/the-actress-who-plays-mandy-in-gta-6-has-revealed-herself-if-you-play-the-game-let-me-know-if-you-find-me/",
+          "title": "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me'",
+          "evidence": "<article> <p>You'd think that everyone's favourite character in GTA 6 would be either Jason or Lucia—one of the main characters—but no, another front-runner has emerged for fans: Mandy. She's so much of a favourite, in fact, that we've had to <a href=\"https://www.pcgamer.com/uk/games/grand-theft-auto/you-cant-cheat-on-lucia-in-gta-6-with-mandy-or-strippers-because-rockstar-doesnt-believe-thats-complementary-to-the-feeling-and-motivations-of-jason-and-lucias-story/\">confirm that you can't cheat on Lucia with her.</a> </p><p>You meet Mandy early on in GTA 6 when Jason visits her home to collect the rent she owes to her landlord Brian Heder and also fix her blocked sink. It's pretty apparent that she has a thing for Jason, she is his ex after all, but the feeling isn't reciprocated, no matter how much players want it to be. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/LryFsVdxwB8\" allowfullscreen=\"\"></iframe></div></div><p>Things also get a little weird with her as she pushes just a little too far and suggests she's been stalking him, not a great look Mandy. But the "
+        }
+      ],
+      "keywords": [
+        "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me'",
+        "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me' date de sortie",
+        "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me' plateformes",
+        "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me' gameplay",
+        "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me' guide",
+        "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"
     }
   ]

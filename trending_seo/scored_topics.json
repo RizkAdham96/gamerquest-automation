@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-20T10:29:55.776908+00:00",
+  "updated_at": "2026-11-20T21:58:14.550227+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -30178,6 +30178,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "I feel better than ever waiting for GTA 6 on PC now Rockstar confirms it's targeting 30 fps on PlayStation and Xbox"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-fallout-and-elder-scrolls-actor-stephen-russell-returns-836f86490bca",
+      "topic": "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy'",
+      "detected_at": "2026-11-11T09:50:51.631782+00:00",
+      "analysed_at": "2026-11-20T21:58:14.550042+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/fallout-and-elder-scrolls-actor-stephen-russell-returns-as-garrett-in-thief-the-tarnished-mirror-great-to-be-back-with-the-old-guy/",
+          "title": "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy'",
+          "evidence": "<article> <p>In a new episode of Nightdive's Deep Dive podcast releasing later today, legendary voice actor Stephen Russell spoke about his experience portraying the protagonist of the Thief series, Garrett. We also got final confirmation of something Nightdive had been teasing for awhile: Russell will be reprising the role in the new Tarnished Mirror expansion coming with the Thief remaster on December 3.</p><p>I don't think I realized before this interview that Thief was Russell's very first videogame role. Before working with Looking Glass, he had experience in theater, radio and \"medical reads\" where he had to pronounce complex disease names in an even, doctorly cadence.</p><p>Russell said that he felt able to let loose for the first time as Garrett, channeling Clint Eastwood to nail the rogue's singular noirish rasp. Russell hadn't been much into games, with his main frame of reference being simple arcade and educational fare, so he was struck when he first saw an early build of Thief, still remembering \"the incredible claustrophobia they had created.\"</p><p>Recalling the creative ferment of Looking Glass in the '90s, Russell said that he had \"never seen so many sleep-deprived"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy'",
+        "secondary_keywords": [
+          "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy' date de sortie",
+          "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy' plateformes",
+          "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy' gameplay",
+          "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy' guide",
+          "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-steam-now-lets-you-see-exactly-what-frame-rate-you-shou-4d424164b973",
+      "topic": "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck",
+      "detected_at": "2026-11-11T09:50:51.631898+00:00",
+      "analysed_at": "2026-11-20T21:58:14.550082+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/steam-now-lets-you-see-exactly-what-frame-rate-you-should-get-in-games-using-a-steam-deck/",
+          "title": "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck",
+          "evidence": "<article> <p>The Steam Deck is the most popular handheld gaming PC, and no doubt a lot of you own one already. It's also far from the most powerful handheld on the market, meaning devs have to get optimisation just right to allow the Deck to maintain 60 or even 30 fps. Now, Valve is letting everyone see exactly how well those optimisations are made by <a href=\"https://steamcommunity.com/games/593110/announcements/detail/685269801333948420\" target=\"_blank\">listing average Steam Deck frame rate data</a> on game store pages.</p><p>Valve explains that this applies to any game that's been tested for <a href=\"https://www.pcgamer.com/steam-deck-review/\" target=\"_blank\">Steam Deck</a> compatibility, not just Verified ones. It applies to 'Verified', 'Playable', and 'Unsupported' ones. Apparently that means thousands of games right now.</p><p>The data is based on what different users have opted in to provide, which, despite only being for opt-inners, presumably still gives a big sample size. We've known about Valve collecting this kind of data since <a href=\"https://www.pcgamer.com/hardware/the-latest-steam-beta-lets-you-give-valve-your-frame-rate-data-focusing-on-steamos-devices-to-learn-ab"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck",
+        "secondary_keywords": [
+          "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck date de sortie",
+          "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck plateformes",
+          "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck gameplay",
+          "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck guide",
+          "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-amd-s-next-gen-gpu-architecture-has-appeared-in-new-lin-70578d691d8a",
+      "topic": "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out",
+      "detected_at": "2026-11-11T09:50:51.632017+00:00",
+      "analysed_at": "2026-11-20T21:58:14.550125+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/amds-next-gen-gpu-architecture-has-appeared-in-new-linux-kernel-patches-as-gfx13-updates-roll-out/",
+          "title": "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out",
+          "evidence": "<article> <p>AMD's next-gen graphics architecture has popped up in a graphics driver for the first time, with <a href=\"https://lists.freedesktop.org/archives/amd-gfx/2026-November/date.html#:~:text=%5BPATCH%200/8%5D%20GC,13%20%C2%A0%20Alex%20Deucher\" target=\"_blank\">a suite of GFX13 patches going live</a> in an AMDGPU Linux kernel graphics driver. This has first been reported by <a href=\"https://www.phoronix.com/news/AMDGPU-Patches-GFX13\" target=\"_blank\">Michael Larabel at Phoronix</a>, who spotted a series of eight patches being posted by AMDGPU maintainer, Alex Deucher.</p><p>The RDNA 4 GPUs, the <a href=\"https://www.pcgamer.com/hardware/graphics-cards/amd-radeon-rx-9700-xt-review-asus-prime-oc/\" target=\"_blank\">Radeon RX 9070 XT</a> et al, were all noted under the GFX12 codename in previous patches, so it is only natural to expect that GFX13 refers to the next generation of AMD graphics cards featuring the RDNA 5 architecture.</p><p>The timing of these graphics driver patches would suggest support for the new GPUs is going into the upcoming Linux 7.5 kernel release. With Linux 7.0 dropping earlier this year, and the 7.4 version currently in release candidate testing at the momen"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out",
+        "secondary_keywords": [
+          "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out date de sortie",
+          "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out plateformes",
+          "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out gameplay",
+          "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out guide",
+          "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-redditor-runs-pc-cooling-loop-outside-of-their-house-to-57288ac5f246",
+      "topic": "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen",
+      "detected_at": "2026-11-11T09:50:51.632158+00:00",
+      "analysed_at": "2026-11-20T21:58:14.550160+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/cooling/redditor-runs-pc-cooling-loop-outside-of-their-house-to-keep-it-cool-in-one-of-the-bravest-yet-unnecessary-mods-ive-ever-seen/",
+          "title": "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen",
+          "evidence": "<article> <figure><blockquote class=\"reddit-card\" ><a href=\"https://www.reddit.com/r/pcmasterrace/comments/1xr5gww/got_tired_of_the_pc_heating_the_room_so_i_solved\">Got tired of the pc heating the room, so i solved it sensibly..</a><figcaption><cite> from <a href=\"https://www.reddit.com/r/pcmasterrace\">r/pcmasterrace</a></cite></figcaption></blockquote></figure><script async=\"\" src=\"//embed.redditmedia.com/widgets/platform.js\" charset=\"UTF-8\"></script><p>In what they describe as \"just a proof of concept\", one Redditor has gone<a href=\"https://www.reddit.com/r/pcmasterrace/comments/1xr5gww/got_tired_of_the_pc_heating_the_room_so_i_solved/\" target=\"_blank\"> further than your average custom looper</a> to help keep their game room cool, by routing the liquid cooling in their gaming PC outside to a radiator sat in the cold winter air. </p><p>The setup involves slapping a Bykski water block on their <a href=\"https://www.pcgamer.com/nvidia-rtx-4070-ti-review-benchmarks-performance/\" target=\"_blank\">Nvidia RTX 4070 Ti</a> and direct-die cooling on the <a href=\"https://www.pcgamer.com/hardware/processors/intel-core-ultra-7-270k-plus-review/\" target=\"_blank\">Intel Core Ultra 7 270K Plus</a> "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen",
+        "secondary_keywords": [
+          "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen date de sortie",
+          "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen plateformes",
+          "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen gameplay",
+          "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen guide",
+          "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-anthony-mackie-says-it-wasn-t-robert-downey-jr-in-doom--07f5f0de3dc5",
+      "topic": "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday",
+      "detected_at": "2026-11-11T21:32:33.857492+00:00",
+      "analysed_at": "2026-11-20T21:58:14.550177+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-movies/anthony-mackie-jokes-that-he-didnt-get-to-fight-robert-downey-jr-in-avengers-doomsday-because-it-wasnt-him-in-the-doctor-doom-costume-robert-dont-fight/",
+          "title": "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday",
+          "evidence": "<article> <p>Anthony Mackie has jokingly implied that Robert Downey Jr. doesn't do his own stunts in Avengers: Doomsday, saying that Downey wasn't in the Doctor Doom suit on set.</p><p>\"Well, no, because, like, it wasn’t him,\" Mackie responded when asked by <a href=\"https://www.instagram.com/reels/DfkvcVbDu7e/\" target=\"_blank\">Entertainment Tonight</a> what it was like to go toe-to-toe with Downey. \"Robert don’t fight! No! Hell no!\" Downey does do quite a bit of his own stunts, though not as many as longtime gymnast and dancer Tom Holland. Mackie also isn't helping the rumors that someone else is in the Doom suit, which comes from various shots of Doom with a different eye color than Downey's as well as the Latverian accent he uses in the trailers.</p><p>Continued Mackie: \"Look, you know, these movies, they’re like summer camp. You know, everybody comes together, and it’s like, ‘Oh, how have you been? Oh, you have a kid now. Oh, wow, you’re married now!' It’s just one of those things where you just catch up with everybody.\"</p><p>Mackie also stated that he got to hang out with Paul Bettany on set, which led some to believe he was implying that Vision is in Avengers: Doomsday. Howev"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday",
+        "secondary_keywords": [
+          "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday date de sortie",
+          "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday plateformes",
+          "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday gameplay",
+          "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday guide",
+          "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-cd-projekt-red-worked-with-an-ai-company-on-geralt-s-po-5b10af00b74c",
+      "topic": "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past",
+      "detected_at": "2026-11-11T21:32:33.857734+00:00",
+      "analysed_at": "2026-11-20T21:58:14.550194+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-witcher/cd-projekt-red-worked-with-an-ai-company-on-geralts-polish-voice-in-the-witcher-3-songs-of-the-past-with-the-original-actors-approval-after-health-concerns/",
+          "title": "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/the-witcher/the-witcher-3-songs-of-the-past-guide/\"><u>The Witcher 3: Songs of the Past</u></a>, a surprise new expansion for the storied RPG, features AI-retouched recordings of original Polish Geralt voice actor Jacek Rozenek, who gave CD Projekt Red his approval to have Ukrainian company Respeecher train a model with his voice. </p><p><a href=\"https://www.gamefile.news/p/witcher-3-jacek-rozenek-voice-ai-cd-projekt-respeecher\" target=\"_blank\"><u>GameFile</u></a> (partially paywalled link) spoke to CDPR and Respeecher about the process. CDPR turned to this application of AI – not for the first time, as <a href=\"https://www.respeecher.com/case-studies/how-respeecher-and-cd-projekt-red-preserved-the-voice-of-cyberpunk-2077s-viktor-vektor\"><u>Respeecher previously helped</u></a> with a Cyberpunk 2077 character whose actor died – because Rozenek's voice changed following recovery from a stroke he suffered in 2019. </p><p>The studio wanted Rozenek back, but new lines clashed when heard alongside the original The Witcher 3 dialogue. (English Geralt actor Doug Cockle required no retouching for Songs of the Past.)</p><p>To help train "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past",
+        "secondary_keywords": [
+          "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past date de sortie",
+          "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past plateformes",
+          "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past gameplay",
+          "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past guide",
+          "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-witcher-3-already-had-the-most-golden-joysticks-and-34f46a6b2d09",
+      "topic": "The Witcher 3 already had the most Golden Joysticks and it just won another",
+      "detected_at": "2026-11-11T21:32:33.857907+00:00",
+      "analysed_at": "2026-11-20T21:58:14.550209+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-witcher/the-witcher-3-already-had-the-most-golden-joysticks-and-it-just-won-another-extending-its-lead-over-rpg-rivals-baldurs-gate-3-and-clair-obscur-expedition-33/",
+          "title": "The Witcher 3 already had the most Golden Joysticks and it just won another",
+          "evidence": "<article> <p>The Witcher 3 may now be 11 years old, but it just keeps on winning – in fact, it's now even <em>further </em>cemented itself as the proud owner of the most Golden Joystick Awards, and it might not even be done yet. </p><p>Of course, it helps that the beloved RPG just got a remaster this year – one that was so well received it took home the award for Best Remake/Remaster at The Golden Joystick Awards 2026. It faced stiff competition from Trails in the Sky 2nd Chapter, Star Fox, Metal Gear Solid: Master Collection Vol. 2, Gothic 1 Remake, and Assassin's Creed Black Flag Resynced, but CD Projekt Red managed to come out on top… again.</p><p>I say 'again' because this is far from the studio's first win for the 2015 RPG. Before it even launched, The Witcher 3 managed to win The Golden Joystick Awards' Most Wanted category twice (once in 2013, then again in 2014), and then lived up to that hype when it actually released. At the 2015 show, it took home the awards for Best Storytelling, Best Visual Design, Best Gaming Moment (specifically for the Bloody Baron quest, if you were wondering), and the big one – Ultimate Game of the Year. </p><p>Its success didn't stop there, eithe"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Witcher 3 already had the most Golden Joysticks and it just won another",
+        "secondary_keywords": [
+          "The Witcher 3 already had the most Golden Joysticks and it just won another date de sortie",
+          "The Witcher 3 already had the most Golden Joysticks and it just won another plateformes",
+          "The Witcher 3 already had the most Golden Joysticks and it just won another gameplay",
+          "The Witcher 3 already had the most Golden Joysticks and it just won another guide",
+          "The Witcher 3 already had the most Golden Joysticks and it just won another avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Witcher 3 already had the most Golden Joysticks and it just won another"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-why-wasn-t-gta-6-at-the-golden-joystick-awards-89163408af60",
+      "topic": "Why wasn't GTA 6 at the Golden Joystick Awards?",
+      "detected_at": "2026-11-11T21:32:33.858024+00:00",
+      "analysed_at": "2026-11-20T21:58:14.550224+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/why-wasnt-gta-6-at-the-golden-joystick-awards/",
+          "title": "Why wasn't GTA 6 at the Golden Joystick Awards?",
+          "evidence": "<article> <p>The <a href=\"https://www.gamesradar.com/goldenjoystickawards/\">Golden Joystick Awards</a> 2026 have drawn to an end, but one of this year's biggest games was entirely absent: <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>.</p><p>If you were watching the ceremony wondering where Rockstar might have been, the short answer is that GTA 6 was not eligible for entry at this year's show. To be nominated in one of the main categories, a title had to release between November 1, 2025 and September 25, 2026. For the main prize of Ultimate Game of the Year, that window was extended to October 25, and for jury-voted prizes, games are eligible up until the show itself, November 11.</p><p>That means that games like Dispatch, which launched late last year, or Phantom Blade Zero, which only just released, were eligible to be included in the 2026 show. But GTA 6, which is set to release next week, arrives eight days after the eligibility window closed. It was technically eligible for the title of Most Wanted game, but given that Rockstar won that particular award in 2024 and 2025, and that the wait is so nearly over, GTA 6 wasn't nominated in that category.</p><p>Adding to "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Why wasn't GTA 6 at the Golden Joystick Awards?",
+        "secondary_keywords": [
+          "Why wasn't GTA 6 at the Golden Joystick Awards? date de sortie",
+          "Why wasn't GTA 6 at the Golden Joystick Awards? plateformes",
+          "Why wasn't GTA 6 at the Golden Joystick Awards? gameplay",
+          "Why wasn't GTA 6 at the Golden Joystick Awards? guide",
+          "Why wasn't GTA 6 at the Golden Joystick Awards? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Why wasn't GTA 6 at the Golden Joystick Awards?"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

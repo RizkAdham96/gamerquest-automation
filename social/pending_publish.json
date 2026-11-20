@@ -1,76 +1,84 @@
 {
-  "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-  "carousel_version": "a8c4dba94aa3d96b038f7ab816e6ee870b9ce36e5d54176551e956c65dc4bd18",
+  "source_id": "ef96a7a0d73e4e3fc49089d12e73d26689bb6cf221b9e5534f04cfb8d7557ec7",
+  "carousel_version": "143afcb01c71f9a3fe3b82cee513f6602fd65f733a3757554bbec366970235ee",
   "image_urls": [
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01-2.png",
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02-2.png",
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03-2.png"
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01-3.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02-3.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03-3.png"
   ],
   "master_spec_version": "gamerquest-carousel-v3",
   "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
   "media_ids": [
-    1049,
-    1050,
-    1051
+    1061,
+    1062,
+    1063
   ],
-  "prepared_at_utc": "2026-11-19T19:38:42.263738Z",
+  "prepared_at_utc": "2026-11-20T19:15:54.398504Z",
   "social_output": {
     "status": "ready",
     "fact_checked": true,
-    "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-    "source_title": "FINAL FANTASY VII REBIRTH à -85% sur Steam",
-    "score": 75.5,
+    "source_id": "ef96a7a0d73e4e3fc49089d12e73d26689bb6cf221b9e5534f04cfb8d7557ec7",
+    "source_title": "Les 7 meilleurs jeux similaires à Silksong pour patienter avant Sea of Sorrows",
+    "score": 72.5,
     "idea": {
-      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-      "topic": "Promotion exceptionnelle de FINAL FANTASY VII REBIRTH",
-      "angle": "Mettez en avant la réduction de 85 % pour inciter les fans à profiter immédiatement de l’offre limitée.",
-      "format": "deal_alert",
-      "hook": "⚡️ -85 % sur FINAL FANTASY VII REBIRTH ! Le prix chute à 7,49 € – saisissez l’occasion avant qu’elle ne disparaisse !",
+      "source_id": "ef96a7a0d73e4e3fc49089d12e73d26689bb6cf221b9e5534f04cfb8d7557ec7",
+      "topic": "Jeux métroidvania similaires à Silksong",
+      "angle": "Liste des 7 titres qui offrent une expérience proche de Silksong pendant l’attente du DLC Sea of Sorrows",
+      "format": "recommendation",
+      "hook": "En attendant le DLC Sea of Sorrows, découvrez 7 jeux métroidvania qui capturent l’esprit de Silksong !",
       "freshness": 9,
-      "click_potential": 9,
-      "curiosity": 6,
-      "shareability": 7,
+      "click_potential": 8,
+      "curiosity": 7,
+      "shareability": 6,
       "originality": 5,
-      "gamerquest_relevance": 10,
-      "total_score": 75.5
+      "gamerquest_relevance": 9,
+      "total_score": 72.5
     },
     "carousel": {
-      "topic": "Promotion exceptionnelle de FINAL FANTASY VII REBIRTH",
-      "angle": "Mettez en avant la réduction de 85 % pour inciter les fans à profiter immédiatement de l’offre limitée.",
-      "format": "deal_alert",
-      "hook": "⚡️ -85 % sur FINAL FANTASY VII REBIRTH ! Le prix chute à 7,49 € – saisissez l’occasion avant qu’elle ne disparaisse !",
-      "score": 75.5,
+      "topic": "Jeux métroidvania similaires à Silksong",
+      "angle": "Liste des 7 titres qui offrent une expérience proche de Silksong pendant l’attente du DLC Sea of Sorrows",
+      "format": "recommendation",
+      "hook": "En attendant le DLC Sea of Sorrows, découvrez 7 jeux métroidvania qui capturent l’esprit de Silksong !",
+      "score": 72.5,
       "slides": [
         {
-          "title": "⚡️ -85 % sur FFVII Rebirth !",
-          "body": "Le prix chute à 7,49 € : saisissez l’occasion avant qu’elle ne disparaisse !",
-          "visual_prompt": "Capture d'écran du jeu FINAL FANTASY VII REBIRTH affichant le prix réduit à 7,49 €, ambiance sombre et épique du jeu"
+          "title": "En attendant Sea of Sorrows !",
+          "body": "Découvrez 7 jeux métroidvania qui partagent l’âme de Silksong.",
+          "visual_prompt": "Atmosphère sombre et colorée d’un monde métroidvania, avec des plateformes flottantes et des créatures fantastiques, style pixel art."
         },
         {
-          "title": "Prix habituel 49,99 €",
-          "body": "La réduction passe le jeu de 49,99 € à 7,49 €, soit une économie de 85 % sur Steam.",
-          "visual_prompt": "Image du catalogue Steam montrant le prix original 49,99 € à côté du nouveau prix 7,49 € pour FINAL FANTASY VII REBIRTH"
+          "title": "7 titres qui capturent l’esprit de Silksong",
+          "body": "Le article répertorie sept jeux métroidvania, chacun avec ses plateformes et particularités, offrant une expérience proche de Silksong pendant l’attente du DLC.",
+          "visual_prompt": "Collage d’illustrations de différents jeux métroidvania, montrant des environnements variés et des héros en action, sans texte."
         },
         {
-          "title": "En savoir plus",
-          "body": "Pour plus d'informations, lire la suite sur GamerQuest.fr.",
-          "visual_prompt": "Illustration d’un écran d’ordinateur affichant la page de l’offre Steam de FINAL FANTASY VII REBIRTH"
+          "title": "Envie d’en savoir plus ?",
+          "body": "Chaque jeu propose des mécaniques d’exploration et de combat rappelant Silksong. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Vue d’ensemble d’une salle de jeu vidéo avec une manette, un écran affichant un paysage métroidvania, ambiance immersive."
         }
       ],
-      "caption": "🚀 Une réduction de 85 % sur FINAL FANTASY VII REBIRTH vous attend ! Ne manquez pas ce prix choc de 7,49 €.",
-      "cta": "Profitez-en maintenant sur Steam !",
+      "caption": "Patientez intelligemment : 7 métroidvania pour combler le vide avant Sea of Sorrows.",
+      "cta": "Explorez la sélection complète sur GamerQuest.fr",
       "hashtags": [
-        "#GamerQuest"
+        "#GamerQuest",
+        "#Silksong",
+        "#Metroidvania",
+        "#JeuxVideo",
+        "#Gaming"
       ],
       "website_url": "https://gamerquest.fr",
       "brand": "GamerQuest",
-      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb"
+      "source_id": "ef96a7a0d73e4e3fc49089d12e73d26689bb6cf221b9e5534f04cfb8d7557ec7"
     },
-    "caption": "🚀 Une réduction de 85 % sur FINAL FANTASY VII REBIRTH vous attend ! Ne manquez pas ce prix choc de 7,49 €.",
+    "caption": "Patientez intelligemment : 7 métroidvania pour combler le vide avant Sea of Sorrows.",
     "hashtags": [
-      "#GamerQuest"
+      "#GamerQuest",
+      "#Silksong",
+      "#Metroidvania",
+      "#JeuxVideo",
+      "#Gaming"
     ],
-    "cta": "Profitez-en maintenant sur Steam !",
-    "repair_attempts": 1
+    "cta": "Explorez la sélection complète sur GamerQuest.fr",
+    "repair_attempts": 0
   }
 }

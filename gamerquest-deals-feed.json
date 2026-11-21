@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-11-21T01:43:09.375314+00:00",
+  "generated_at": "2026-11-21T12:56:47.526717+00:00",
   "count": 4,
   "articles": [
-    {
-      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-      "title": "FINAL FANTASY VII REBIRTH à -85% sur Steam",
-      "excerpt": "FINAL FANTASY VII REBIRTH bénéficie actuellement d'une réduction de 85% sur Steam, passant de 49,99 € à 7,49 €.",
-      "content": "<p><strong>FINAL FANTASY VII REBIRTH</strong> bénéficie actuellement d'une réduction de <strong>85%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>49,99 €</strong></li><li>Prix actuel : <strong>7,49 €</strong></li><li>Réduction : <strong>85%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2909400/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.steampowered.com/app/2909400/",
-      "deal": {
-        "game": "FINAL FANTASY VII REBIRTH",
-        "store": "Steam",
-        "original_price": 49.99,
-        "current_price": 7.49,
-        "discount_percent": 85,
-        "expires_at": null
-      },
-      "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb.jpg",
-        "filename": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb.jpg",
-        "alt": "FINAL FANTASY VII REBIRTH -85% sur Steam - GamerQuest",
-        "caption": "FINAL FANTASY VII REBIRTH : offre -85% sur Steam.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre FINAL FANTASY VII REBIRTH sur Steam."
-      }
-    },
     {
       "source_id": "63a567cc5d0d74418709a6b3a59762bf182717a9c373248278c8a96e2610b49a",
       "title": "It Takes Two à -80% sur Steam",
@@ -44,6 +22,28 @@
         "alt": "It Takes Two -80% sur Steam - GamerQuest",
         "caption": "It Takes Two : offre -80% sur Steam.",
         "description": "Image GamerQuest générée automatiquement pour l'offre It Takes Two sur Steam."
+      }
+    },
+    {
+      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
+      "title": "FINAL FANTASY VII REBIRTH à -85% sur Steam",
+      "excerpt": "FINAL FANTASY VII REBIRTH bénéficie actuellement d'une réduction de 85% sur Steam, passant de 49,99 € à 7,49 €.",
+      "content": "<p><strong>FINAL FANTASY VII REBIRTH</strong> bénéficie actuellement d'une réduction de <strong>85%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>49,99 €</strong></li><li>Prix actuel : <strong>7,49 €</strong></li><li>Réduction : <strong>85%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2909400/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/2909400/",
+      "deal": {
+        "game": "FINAL FANTASY VII REBIRTH",
+        "store": "Steam",
+        "original_price": 49.99,
+        "current_price": 7.49,
+        "discount_percent": 85,
+        "expires_at": null
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb.jpg",
+        "filename": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb.jpg",
+        "alt": "FINAL FANTASY VII REBIRTH -85% sur Steam - GamerQuest",
+        "caption": "FINAL FANTASY VII REBIRTH : offre -85% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre FINAL FANTASY VII REBIRTH sur Steam."
       }
     },
     {

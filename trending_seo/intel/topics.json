@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-11-20T21:58:14.229888+00:00",
+  "updated_at": "2026-11-21T10:13:29.149335+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -63,294 +63,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "rss-fallout-and-elder-scrolls-actor-stephen-russell-returns-836f86490bca",
-      "topic": "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy'",
-      "detected_at": "2026-11-11T09:50:51.631782+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/fps/fallout-and-elder-scrolls-actor-stephen-russell-returns-as-garrett-in-thief-the-tarnished-mirror-great-to-be-back-with-the-old-guy/",
-          "title": "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy'",
-          "evidence": "<article> <p>In a new episode of Nightdive's Deep Dive podcast releasing later today, legendary voice actor Stephen Russell spoke about his experience portraying the protagonist of the Thief series, Garrett. We also got final confirmation of something Nightdive had been teasing for awhile: Russell will be reprising the role in the new Tarnished Mirror expansion coming with the Thief remaster on December 3.</p><p>I don't think I realized before this interview that Thief was Russell's very first videogame role. Before working with Looking Glass, he had experience in theater, radio and \"medical reads\" where he had to pronounce complex disease names in an even, doctorly cadence.</p><p>Russell said that he felt able to let loose for the first time as Garrett, channeling Clint Eastwood to nail the rogue's singular noirish rasp. Russell hadn't been much into games, with his main frame of reference being simple arcade and educational fare, so he was struck when he first saw an early build of Thief, still remembering \"the incredible claustrophobia they had created.\"</p><p>Recalling the creative ferment of Looking Glass in the '90s, Russell said that he had \"never seen so many sleep-deprived"
-        }
-      ],
-      "keywords": [
-        "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy'",
-        "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy' date de sortie",
-        "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy' plateformes",
-        "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy' gameplay",
-        "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy' guide",
-        "Fallout and Elder Scrolls actor Stephen Russell returns as Garrett in Thief: The Tarnished Mirror: 'Great to be back with the old guy' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-steam-now-lets-you-see-exactly-what-frame-rate-you-shou-4d424164b973",
-      "topic": "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck",
-      "detected_at": "2026-11-11T09:50:51.631898+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/steam-now-lets-you-see-exactly-what-frame-rate-you-should-get-in-games-using-a-steam-deck/",
-          "title": "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck",
-          "evidence": "<article> <p>The Steam Deck is the most popular handheld gaming PC, and no doubt a lot of you own one already. It's also far from the most powerful handheld on the market, meaning devs have to get optimisation just right to allow the Deck to maintain 60 or even 30 fps. Now, Valve is letting everyone see exactly how well those optimisations are made by <a href=\"https://steamcommunity.com/games/593110/announcements/detail/685269801333948420\" target=\"_blank\">listing average Steam Deck frame rate data</a> on game store pages.</p><p>Valve explains that this applies to any game that's been tested for <a href=\"https://www.pcgamer.com/steam-deck-review/\" target=\"_blank\">Steam Deck</a> compatibility, not just Verified ones. It applies to 'Verified', 'Playable', and 'Unsupported' ones. Apparently that means thousands of games right now.</p><p>The data is based on what different users have opted in to provide, which, despite only being for opt-inners, presumably still gives a big sample size. We've known about Valve collecting this kind of data since <a href=\"https://www.pcgamer.com/hardware/the-latest-steam-beta-lets-you-give-valve-your-frame-rate-data-focusing-on-steamos-devices-to-learn-ab"
-        }
-      ],
-      "keywords": [
-        "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck",
-        "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck date de sortie",
-        "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck plateformes",
-        "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck gameplay",
-        "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck guide",
-        "Steam now lets you see exactly what frame rate you should get in games using a Steam Deck avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-amd-s-next-gen-gpu-architecture-has-appeared-in-new-lin-70578d691d8a",
-      "topic": "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out",
-      "detected_at": "2026-11-11T09:50:51.632017+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/graphics-cards/amds-next-gen-gpu-architecture-has-appeared-in-new-linux-kernel-patches-as-gfx13-updates-roll-out/",
-          "title": "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out",
-          "evidence": "<article> <p>AMD's next-gen graphics architecture has popped up in a graphics driver for the first time, with <a href=\"https://lists.freedesktop.org/archives/amd-gfx/2026-November/date.html#:~:text=%5BPATCH%200/8%5D%20GC,13%20%C2%A0%20Alex%20Deucher\" target=\"_blank\">a suite of GFX13 patches going live</a> in an AMDGPU Linux kernel graphics driver. This has first been reported by <a href=\"https://www.phoronix.com/news/AMDGPU-Patches-GFX13\" target=\"_blank\">Michael Larabel at Phoronix</a>, who spotted a series of eight patches being posted by AMDGPU maintainer, Alex Deucher.</p><p>The RDNA 4 GPUs, the <a href=\"https://www.pcgamer.com/hardware/graphics-cards/amd-radeon-rx-9700-xt-review-asus-prime-oc/\" target=\"_blank\">Radeon RX 9070 XT</a> et al, were all noted under the GFX12 codename in previous patches, so it is only natural to expect that GFX13 refers to the next generation of AMD graphics cards featuring the RDNA 5 architecture.</p><p>The timing of these graphics driver patches would suggest support for the new GPUs is going into the upcoming Linux 7.5 kernel release. With Linux 7.0 dropping earlier this year, and the 7.4 version currently in release candidate testing at the momen"
-        }
-      ],
-      "keywords": [
-        "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out",
-        "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out date de sortie",
-        "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out plateformes",
-        "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out gameplay",
-        "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out guide",
-        "AMD's next-gen GPU architecture has appeared in new Linux kernel patches as GFX13 updates roll out avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-redditor-runs-pc-cooling-loop-outside-of-their-house-to-57288ac5f246",
-      "topic": "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen",
-      "detected_at": "2026-11-11T09:50:51.632158+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/cooling/redditor-runs-pc-cooling-loop-outside-of-their-house-to-keep-it-cool-in-one-of-the-bravest-yet-unnecessary-mods-ive-ever-seen/",
-          "title": "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen",
-          "evidence": "<article> <figure><blockquote class=\"reddit-card\" ><a href=\"https://www.reddit.com/r/pcmasterrace/comments/1xr5gww/got_tired_of_the_pc_heating_the_room_so_i_solved\">Got tired of the pc heating the room, so i solved it sensibly..</a><figcaption><cite> from <a href=\"https://www.reddit.com/r/pcmasterrace\">r/pcmasterrace</a></cite></figcaption></blockquote></figure><script async=\"\" src=\"//embed.redditmedia.com/widgets/platform.js\" charset=\"UTF-8\"></script><p>In what they describe as \"just a proof of concept\", one Redditor has gone<a href=\"https://www.reddit.com/r/pcmasterrace/comments/1xr5gww/got_tired_of_the_pc_heating_the_room_so_i_solved/\" target=\"_blank\"> further than your average custom looper</a> to help keep their game room cool, by routing the liquid cooling in their gaming PC outside to a radiator sat in the cold winter air. </p><p>The setup involves slapping a Bykski water block on their <a href=\"https://www.pcgamer.com/nvidia-rtx-4070-ti-review-benchmarks-performance/\" target=\"_blank\">Nvidia RTX 4070 Ti</a> and direct-die cooling on the <a href=\"https://www.pcgamer.com/hardware/processors/intel-core-ultra-7-270k-plus-review/\" target=\"_blank\">Intel Core Ultra 7 270K Plus</a> "
-        }
-      ],
-      "keywords": [
-        "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen",
-        "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen date de sortie",
-        "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen plateformes",
-        "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen gameplay",
-        "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen guide",
-        "Redditor runs PC cooling loop outside of their house to keep it cool in one of the bravest yet unnecessary mods I’ve ever seen avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-anthony-mackie-says-it-wasn-t-robert-downey-jr-in-doom--07f5f0de3dc5",
-      "topic": "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday",
-      "detected_at": "2026-11-11T21:32:33.857492+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/entertainment/marvel-movies/anthony-mackie-jokes-that-he-didnt-get-to-fight-robert-downey-jr-in-avengers-doomsday-because-it-wasnt-him-in-the-doctor-doom-costume-robert-dont-fight/",
-          "title": "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday",
-          "evidence": "<article> <p>Anthony Mackie has jokingly implied that Robert Downey Jr. doesn't do his own stunts in Avengers: Doomsday, saying that Downey wasn't in the Doctor Doom suit on set.</p><p>\"Well, no, because, like, it wasn’t him,\" Mackie responded when asked by <a href=\"https://www.instagram.com/reels/DfkvcVbDu7e/\" target=\"_blank\">Entertainment Tonight</a> what it was like to go toe-to-toe with Downey. \"Robert don’t fight! No! Hell no!\" Downey does do quite a bit of his own stunts, though not as many as longtime gymnast and dancer Tom Holland. Mackie also isn't helping the rumors that someone else is in the Doom suit, which comes from various shots of Doom with a different eye color than Downey's as well as the Latverian accent he uses in the trailers.</p><p>Continued Mackie: \"Look, you know, these movies, they’re like summer camp. You know, everybody comes together, and it’s like, ‘Oh, how have you been? Oh, you have a kid now. Oh, wow, you’re married now!' It’s just one of those things where you just catch up with everybody.\"</p><p>Mackie also stated that he got to hang out with Paul Bettany on set, which led some to believe he was implying that Vision is in Avengers: Doomsday. Howev"
-        }
-      ],
-      "keywords": [
-        "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday",
-        "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday date de sortie",
-        "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday plateformes",
-        "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday gameplay",
-        "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday guide",
-        "Anthony Mackie says it wasn't Robert Downey Jr. in Doom costume on set of Avengers: Doomsday avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-cd-projekt-red-worked-with-an-ai-company-on-geralt-s-po-5b10af00b74c",
-      "topic": "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past",
-      "detected_at": "2026-11-11T21:32:33.857734+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/the-witcher/cd-projekt-red-worked-with-an-ai-company-on-geralts-polish-voice-in-the-witcher-3-songs-of-the-past-with-the-original-actors-approval-after-health-concerns/",
-          "title": "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past",
-          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/games/the-witcher/the-witcher-3-songs-of-the-past-guide/\"><u>The Witcher 3: Songs of the Past</u></a>, a surprise new expansion for the storied RPG, features AI-retouched recordings of original Polish Geralt voice actor Jacek Rozenek, who gave CD Projekt Red his approval to have Ukrainian company Respeecher train a model with his voice. </p><p><a href=\"https://www.gamefile.news/p/witcher-3-jacek-rozenek-voice-ai-cd-projekt-respeecher\" target=\"_blank\"><u>GameFile</u></a> (partially paywalled link) spoke to CDPR and Respeecher about the process. CDPR turned to this application of AI – not for the first time, as <a href=\"https://www.respeecher.com/case-studies/how-respeecher-and-cd-projekt-red-preserved-the-voice-of-cyberpunk-2077s-viktor-vektor\"><u>Respeecher previously helped</u></a> with a Cyberpunk 2077 character whose actor died – because Rozenek's voice changed following recovery from a stroke he suffered in 2019. </p><p>The studio wanted Rozenek back, but new lines clashed when heard alongside the original The Witcher 3 dialogue. (English Geralt actor Doug Cockle required no retouching for Songs of the Past.)</p><p>To help train "
-        }
-      ],
-      "keywords": [
-        "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past",
-        "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past date de sortie",
-        "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past plateformes",
-        "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past gameplay",
-        "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past guide",
-        "CD Projekt Red worked with an AI company on Geralt's Polish voice in The Witcher 3 Songs of the Past avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-witcher-3-already-had-the-most-golden-joysticks-and-34f46a6b2d09",
-      "topic": "The Witcher 3 already had the most Golden Joysticks and it just won another",
-      "detected_at": "2026-11-11T21:32:33.857907+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/the-witcher/the-witcher-3-already-had-the-most-golden-joysticks-and-it-just-won-another-extending-its-lead-over-rpg-rivals-baldurs-gate-3-and-clair-obscur-expedition-33/",
-          "title": "The Witcher 3 already had the most Golden Joysticks and it just won another",
-          "evidence": "<article> <p>The Witcher 3 may now be 11 years old, but it just keeps on winning – in fact, it's now even <em>further </em>cemented itself as the proud owner of the most Golden Joystick Awards, and it might not even be done yet. </p><p>Of course, it helps that the beloved RPG just got a remaster this year – one that was so well received it took home the award for Best Remake/Remaster at The Golden Joystick Awards 2026. It faced stiff competition from Trails in the Sky 2nd Chapter, Star Fox, Metal Gear Solid: Master Collection Vol. 2, Gothic 1 Remake, and Assassin's Creed Black Flag Resynced, but CD Projekt Red managed to come out on top… again.</p><p>I say 'again' because this is far from the studio's first win for the 2015 RPG. Before it even launched, The Witcher 3 managed to win The Golden Joystick Awards' Most Wanted category twice (once in 2013, then again in 2014), and then lived up to that hype when it actually released. At the 2015 show, it took home the awards for Best Storytelling, Best Visual Design, Best Gaming Moment (specifically for the Bloody Baron quest, if you were wondering), and the big one – Ultimate Game of the Year. </p><p>Its success didn't stop there, eithe"
-        }
-      ],
-      "keywords": [
-        "The Witcher 3 already had the most Golden Joysticks and it just won another",
-        "The Witcher 3 already had the most Golden Joysticks and it just won another date de sortie",
-        "The Witcher 3 already had the most Golden Joysticks and it just won another plateformes",
-        "The Witcher 3 already had the most Golden Joysticks and it just won another gameplay",
-        "The Witcher 3 already had the most Golden Joysticks and it just won another guide",
-        "The Witcher 3 already had the most Golden Joysticks and it just won another avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-why-wasn-t-gta-6-at-the-golden-joystick-awards-89163408af60",
-      "topic": "Why wasn't GTA 6 at the Golden Joystick Awards?",
-      "detected_at": "2026-11-11T21:32:33.858024+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/grand-theft-auto/why-wasnt-gta-6-at-the-golden-joystick-awards/",
-          "title": "Why wasn't GTA 6 at the Golden Joystick Awards?",
-          "evidence": "<article> <p>The <a href=\"https://www.gamesradar.com/goldenjoystickawards/\">Golden Joystick Awards</a> 2026 have drawn to an end, but one of this year's biggest games was entirely absent: <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>.</p><p>If you were watching the ceremony wondering where Rockstar might have been, the short answer is that GTA 6 was not eligible for entry at this year's show. To be nominated in one of the main categories, a title had to release between November 1, 2025 and September 25, 2026. For the main prize of Ultimate Game of the Year, that window was extended to October 25, and for jury-voted prizes, games are eligible up until the show itself, November 11.</p><p>That means that games like Dispatch, which launched late last year, or Phantom Blade Zero, which only just released, were eligible to be included in the 2026 show. But GTA 6, which is set to release next week, arrives eight days after the eligibility window closed. It was technically eligible for the title of Most Wanted game, but given that Rockstar won that particular award in 2024 and 2025, and that the wait is so nearly over, GTA 6 wasn't nominated in that category.</p><p>Adding to "
-        }
-      ],
-      "keywords": [
-        "Why wasn't GTA 6 at the Golden Joystick Awards?",
-        "Why wasn't GTA 6 at the Golden Joystick Awards? date de sortie",
-        "Why wasn't GTA 6 at the Golden Joystick Awards? plateformes",
-        "Why wasn't GTA 6 at the Golden Joystick Awards? gameplay",
-        "Why wasn't GTA 6 at the Golden Joystick Awards? guide",
-        "Why wasn't GTA 6 at the Golden Joystick Awards? avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-resident-evil-requiem-ties-with-meccha-chameleon-as-the-5ef710e3fe4c",
-      "topic": "Resident Evil Requiem ties with Meccha Chameleon as the biggest winner at the Golden Joystick Awards",
-      "detected_at": "2026-11-11T21:32:33.858137+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/resident-evil-requiem-ties-with-meccha-chameleon-as-the-biggest-winner-at-the-golden-joystick-awards/",
-          "title": "Resident Evil Requiem ties with Meccha Chameleon as the biggest winner at the Golden Joystick Awards",
-          "evidence": "<article> <p>Two very different games have walked away as the big winners at the <a href=\"https://www.gamesradar.com/goldenjoystickawards/\">Golden Joystick Awards</a>. In one corner, the latest entry in a legendary series from a studio that's been on a generational run, and is backing up its gaming success with box office acclaim. In the other, a viral friendslop sensation cobbled together by a team of just two developers.</p><p>The first game is <a href=\"https://www.gamesradar.com/resident-evil-9-requiem/\">Resident Evil Requiem</a>, which won Best Game Trailer for its 'Evil Always Has a Name' promo, Best Lead Performer for Grace Ashcroft actress Angela Sant'Albano, Console Game of the Year, and the biggest prize of the night: Ultimate Game of the Year. Adding to that tally (and therefore potentially claiming a fifth win depending on how you want to divide it up) was Capcom's win for Studio of the Year, to which two of its other winners, Onimusha: Way of the Sword and Pragamata, also contributed.</p><p>The second game is very different, but apparently not much less acclaimed for its much more humble origins. Meccha Chameleon, the viral friendslop hide-and-seek game in which players"
-        }
-      ],
-      "keywords": [
-        "Resident Evil Requiem ties with Meccha Chameleon as the biggest winner at the Golden Joystick Awards",
-        "Resident Evil Requiem ties with Meccha Chameleon as the biggest winner at the Golden Joystick Awards date de sortie",
-        "Resident Evil Requiem ties with Meccha Chameleon as the biggest winner at the Golden Joystick Awards plateformes",
-        "Resident Evil Requiem ties with Meccha Chameleon as the biggest winner at the Golden Joystick Awards gameplay",
-        "Resident Evil Requiem ties with Meccha Chameleon as the biggest winner at the Golden Joystick Awards guide",
-        "Resident Evil Requiem ties with Meccha Chameleon as the biggest winner at the Golden Joystick Awards avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-witcher-4-and-the-witcher-3-remastered-secure-wins--af3755d08f66",
-      "topic": "The Witcher 4 and The Witcher 3 Remastered secure wins for CD Projekt Red at the Golden Joystick Awards",
-      "detected_at": "2026-11-11T21:32:33.858281+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/the-witcher-4-and-the-witcher-3-remastered-secure-wins-for-cd-projekt-red-at-the-golden-joystick-awards/",
-          "title": "The Witcher 4 and The Witcher 3 Remastered secure wins for CD Projekt Red at the Golden Joystick Awards",
-          "evidence": "<article> <p>CD Projekt Red was one of the bigger winners at the <a href=\"https://www.gamesradar.com/goldenjoystickawards/\">Golden Joystick Awards 2026</a>, as both The Witcher 3 and <a href=\"https://www.gamesradar.com/games/the-witcher/the-witcher-4-guide/\">The Witcher 4</a> claimed prizes.</p><p>The 2015 RPG classic took home the prize for the Best Remake/Remaster, thanks to its acclaimed re-release from earlier this year. That extends The Witcher 3's run as the most-awarded game in Golden Joysticks history, having previously won 11 titles between 2013 and 2016, including Studio of the Year prizes for CDPR and a Best Performance award for Geralt actor Doug Cockle. That total now stands at 12 awards, and with Songs of the Past on the way next year, it could still grow.</p><p>Later in the night, The Witcher 4 took home the award for the Most Wanted Game. It's in some auspicious company on that front - in 2024 and 2025, it was GTA 6 that claimed that prize, but in recent memory it's also been won by the likes of Elden Ring, Tears of the Kingdom, and God of War: Ragnarok. </p><p>However, no studio is better-equipped to take up that mantle than CD Projekt Red, which has already won th"
-        }
-      ],
-      "keywords": [
-        "The Witcher 4 and The Witcher 3 Remastered secure wins for CD Projekt Red at the Golden Joystick Awards",
-        "The Witcher 4 and The Witcher 3 Remastered secure wins for CD Projekt Red at the Golden Joystick Awards date de sortie",
-        "The Witcher 4 and The Witcher 3 Remastered secure wins for CD Projekt Red at the Golden Joystick Awards plateformes",
-        "The Witcher 4 and The Witcher 3 Remastered secure wins for CD Projekt Red at the Golden Joystick Awards gameplay",
-        "The Witcher 4 and The Witcher 3 Remastered secure wins for CD Projekt Red at the Golden Joystick Awards guide",
-        "The Witcher 4 and The Witcher 3 Remastered secure wins for CD Projekt Red at the Golden Joystick Awards avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-all-the-golden-joystick-awards-2026-winners-revealed-720aa4600045",
-      "topic": "All the Golden Joystick Awards 2026 winners revealed",
-      "detected_at": "2026-11-11T21:32:33.858416+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/all-the-golden-joystick-awards-2026-winners-revealed/",
-          "title": "All the Golden Joystick Awards 2026 winners revealed",
-          "evidence": "<article> <p>The dust has settled in the wake of the Golden Joystick Awards 2026, which means a new batch of winners to celebrate. Votes have been tallied and counted across 25 categories, and those all-important trophies have been handed out, so read on to find out which of your favorites were victorious, and who's going home empty-handed.</p><p>While there were a couple of games that claimed a decent haul, this year differs from last year's Golden Joystick Awards, in which Clair Obscur: Expedition 33 romped home with basically every award it was nominated for. That kicked off an incredible run, in which developers Sandfall Interactive would become only the second-ever studio to secure a full sweep of the 'Big 5' gaming prizes for 2025.</p><p>But that's all ancient history now, and 2026 hasn't had the same kind of runaway frontrunner as last year did. That means that there's a massive spread of titles that have walked away with a prize today, from some of the year's biggest AAA hits to tiny indies that didn't let their size stop them from going toe-to-toe with the industry giants. Read on to find out who claimed the prize in each category, and who walked away with the night's top "
-        }
-      ],
-      "keywords": [
-        "All the Golden Joystick Awards 2026 winners revealed",
-        "All the Golden Joystick Awards 2026 winners revealed date de sortie",
-        "All the Golden Joystick Awards 2026 winners revealed plateformes",
-        "All the Golden Joystick Awards 2026 winners revealed gameplay",
-        "All the Golden Joystick Awards 2026 winners revealed guide",
-        "All the Golden Joystick Awards 2026 winners revealed avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-resident-evil-requiem-wins-ultimate-game-of-the-year-at-370739db1600",
-      "topic": "Resident Evil Requiem wins Ultimate Game of the Year at the Golden Joystick Awards 2026",
-      "detected_at": "2026-11-11T21:32:33.858529+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/resident-evil/resident-evil-requiem-wins-ultimate-game-of-the-year-at-the-golden-joystick-awards-2026/",
-          "title": "Resident Evil Requiem wins Ultimate Game of the Year at the Golden Joystick Awards 2026",
-          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/resident-evil-9-requiem/\">Resident Evil Requiem</a> has walked away with the biggest prize of the night at the <a href=\"https://www.gamesradar.com/goldenjoystickawards/\">Golden Joystick Awards 2026</a>, claiming the title of Ultimate Game of the Year.</p><p>Competition was fierce for this year's main award, with Resident Evil Requiem coming out at the top of the pile of 12 of this year's biggest games. Those included the massive launches of Crimson Desert and Phantom Blade Zero, blockbuster 007: First Light, surprise hits like Control Resonant and Pragmata, and late additions in the form of Star Wars: Galactic Racer and The Blood of Dawnwalker. Also nominated were Big Walk, Dispatch, Forza Horizon 6, and Pokemon Pokopia.</p><p>The win capped off a big night for Resident Evil Requiem, which came away from this year's ceremony with four awards; Best Game Trailer for its 'Evil Always Has a Name' promo, Best Lead Performer for Grace Ashcroft actress Angela Sant'Albano, and Console Game of the Year. That might have made it the outright winner, were it not for an astonishing challenge from a very different game - two player-voted and two j"
-        }
-      ],
-      "keywords": [
-        "Resident Evil Requiem wins Ultimate Game of the Year at the Golden Joystick Awards 2026",
-        "Resident Evil Requiem wins Ultimate Game of the Year at the Golden Joystick Awards 2026 date de sortie",
-        "Resident Evil Requiem wins Ultimate Game of the Year at the Golden Joystick Awards 2026 plateformes",
-        "Resident Evil Requiem wins Ultimate Game of the Year at the Golden Joystick Awards 2026 gameplay",
-        "Resident Evil Requiem wins Ultimate Game of the Year at the Golden Joystick Awards 2026 guide",
-        "Resident Evil Requiem wins Ultimate Game of the Year at the Golden Joystick Awards 2026 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-laid-off-id-software-devs-form-their-own-studio-and-don-9104c37bfd12",
       "topic": "Laid off Id Software devs form their own studio and don't hold back in their announcement",
@@ -6041,6 +5753,294 @@
         "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me' gameplay",
         "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me' guide",
         "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-gta-6-has-secret-playlists-and-all-you-have-to-do-is-sc-1662d4b7e3da",
+      "topic": "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them",
+      "detected_at": "2026-11-21T10:13:29.145945+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-playlists/",
+          "title": "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them",
+          "evidence": "<article> <p>Rockstar's lengthy credits reveal just how massive the <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-radio-songs/\">GTA 6 song list</a> truly is, but you don't start the game with every radio station unlocked. Leonida has two secret playlists (both needed for 100% completion), and neither is particularly hard to unlock once you know where to look.</p><p><strong>The Sniper of La Perle</strong>, Kodak Black's 22-track playlist, becomes available as soon as you scan four posters around La Perle at TWA Ponya Tattoo, Drip Drops, Aunt Zola's Soul Food, and the Jack of Hearts nightclub. Then there's <strong>The Vault Radio</strong>, which only requires you to scan a single poster at the nightclub of the same name.</p><h2 class=\"article-body__section\" id=\"section-the-sniper-of-la-perle-poster-locations\"><span>The Sniper of La Perle poster locations</span></h2><section class=\"howto-block\"> <h3>Head to La Perle and Crosstown to scan posters</h3> <figure> <p class=\"bordeaux-image-check\"> <img src=\"https://cdn.mos.cms.futurecdn.net/LRx6s54kVPdSQte3oEP8EW.jpg\" alt=\"A map of Grand Theft Auto 6's La Perle and Crosstown areas. There are arrows pointing to all four place"
+        }
+      ],
+      "keywords": [
+        "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them",
+        "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them date de sortie",
+        "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them plateformes",
+        "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them gameplay",
+        "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them guide",
+        "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-i-didn-t-realize-etsy-was-selling-bridges-now-b6b755d4f0fc",
+      "topic": "I didn't realize Etsy was selling bridges now",
+      "detected_at": "2026-11-21T10:13:29.146177+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/i-didnt-realize-etsy-was-selling-bridges-now/",
+          "title": "I didn't realize Etsy was selling bridges now",
+          "evidence": "<article> <p>Online marketplace Etsy, best known as a platform for selling handmade goods, recently <a href=\"https://www.pcgamer.com/software/ai/etsy-sellers-are-closing-their-stores-in-response-to-the-platforms-new-ai-training-policy/\">updated its user agreement</a> to allow itself to \"develop, train, test and improve artificial intelligence and machine learning technologies\" using content uploaded by sellers.</p><p>This has not gone over well, with some closing their Etsy shops in protest. In response, <a href=\"https://community.etsy.com/forum/announcements-290/topic/our-recent-terms-of-use-update-192097/\" target=\"_blank\">Etsy has assured</a> users that it doesn't plan to train AI systems designed to copy their work or replace their creativity. Instead, the company said that the change is about improving the platform and providing \"services and tools that can help you run your business.\"</p><p>I am sometimes sympathetic toward companies that get yelled at for normal terms of service agreements. If a company hosts user-submitted content on the web, for instance, it needs a license to distribute that content globally, and sometimes users misunderstand that. This is not one of those"
+        }
+      ],
+      "keywords": [
+        "I didn't realize Etsy was selling bridges now",
+        "I didn't realize Etsy was selling bridges now date de sortie",
+        "I didn't realize Etsy was selling bridges now plateformes",
+        "I didn't realize Etsy was selling bridges now gameplay",
+        "I didn't realize Etsy was selling bridges now guide",
+        "I didn't realize Etsy was selling bridges now avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-despite-gta-6-s-huge-map-it-only-takes-about-4-minutes--bfe6840b78f4",
+      "topic": "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane",
+      "detected_at": "2026-11-21T10:13:29.146441+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-long-to-fly-across-map/",
+          "title": "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane",
+          "evidence": "<article> <p>GTA 6's map is so big it's going to take months for people to comb through it and find everything. Rockstar has already posted the <a href=\"https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/\">full map of Leonida</a> online, but it doesn't answer one simple question that I know we've all been wondering: How long would it take to fly across this entire thing in a plane?</p><p>The answer is a lot less time than it would take to go by car, but still long enough to give you an idea of the sheer scale we're working with here. Using the closest plane to Jason's house, my trip across Leonida took around <strong>4 minutes and 18 seconds</strong>, which is a little under an hour of in-game time. You can watch the entire flight from start to finish below.</p><p>Keep in mind that the Mammoth Dodo seaplane that carried me from the southern tip of the archipelago to the northern tip of the map is just one type of plane in GTA 6. I would bet there are faster options if you really want to zoom.</p><p>Even though I'm still very early in the GTA 6's story, I didn't have to"
+        }
+      ],
+      "keywords": [
+        "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane",
+        "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane date de sortie",
+        "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane plateformes",
+        "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane gameplay",
+        "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane guide",
+        "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-florida-joker-gets-his-wish-he-s-a-special-voice-actor--2af7d1b3c673",
+      "topic": "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6",
+      "detected_at": "2026-11-21T10:13:29.146703+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/florida-joker-gets-his-wish-hes-a-special-voice-actor-in-grand-theft-auto-6/",
+          "title": "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6",
+          "evidence": "<article> <p>Remember in the closing days of 2023, when Rockstar dropped the first trailer for <a href=\"https://www.pcgamer.com/grand-theft-auto-6/\" target=\"_blank\">Grand Theft Auto 6</a>? Amidst the <em>everything </em>it had going on was a brief shot of a man with extensive facial tattoos, who was quickly called out by people hip to such things as a knockoff of Florida Joker, aka Lawrence Sullivan, a Florida man who went viral for his 2017 <a href=\"http://www.tampabay.com/news/breaking/check-out-the-facial-tattoos-of-the-man-called-the-miami-joker-20181113/\" target=\"_blank\">mug shot</a>.</p><p>Sullivan himself called it out in a since-deleted TikTok video, first telling Rockstar \"<a href=\"https://www.pcgamer.com/floridas-real-life-joker-calls-out-rockstar-over-apparent-cameo-in-gta-6-trailer-we-gotta-talk/\" target=\"_blank\">we gotta talk</a>\" and then, with no response forthcoming, threatening <a href=\"https://www.pcgamer.com/florida-joker-issues-3-day-countdown-threat-and-takes-to-cosplay-in-his-war-on-gta-6s-supposed-use-of-his-likeness-then-demands-an-extra-million-dollars-for-his-trouble/\" target=\"_blank\">legal action</a>. Not long after that, though, he put forth a new offer:"
+        }
+      ],
+      "keywords": [
+        "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6",
+        "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6 date de sortie",
+        "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6 plateformes",
+        "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6 gameplay",
+        "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6 guide",
+        "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-wow-forever-item-designer-wants-to-get-rid-of-bis-encou-b6389f8db91c",
+      "topic": "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids",
+      "detected_at": "2026-11-21T10:13:29.146987+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-item-designer-wants-to-get-rid-of-bis-encouraging-players-who-want-to-sweatily-optimise-to-bring-unique-sets-of-gear-to-raids/",
+          "title": "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids",
+          "evidence": "<article> <div class=\"product\"><a data-dimension112=\"fe7d664c-e4da-11f1-9092-e941fb16327f\" data-action=\"Deal Block\" data-label=\"Best MMOs\" data-dimension48=\"Best MMOs\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:316px;\"><p class=\"vanilla-image-block\" style=\"padding-top:100.00%;\"><img id=\"UjCJY9gjRfatHZjCuGMrhR\" name=\"elden ring square cheer.jpg\" caption=\"\" alt=\"\" src=\"https://cdn.mos.cms.futurecdn.net/UjCJY9gjRfatHZjCuGMrhR-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"316\" height=\"316\" attribution=\"\" endorsement=\"\" credit=\"\" class=\"\" /></p></div></div></figure></a><p><a href=\"https://www.pcgamer.com/the-best-mmos/\" target=\"_blank\" data-dimension112=\"fe7d664c-e4da-11f1-9092-e941fb16327f\" data-action=\"Deal Block\" data-label=\"Best MMOs\" data-dimension48=\"Best MMOs\" data-dimension25=\"\"><strong>Best MMOs</strong></a>: Most massive<br /><a href=\"https://www.pcgamer.com/the-best-strategy-games/\" target=\"_blank\"><strong>Best strategy games</strong></a>: Number crunching<br /><a href=\"https://www.pcgamer.com/best-open-world-games/\" target=\"_blank\"><strong>Best open world ga"
+        }
+      ],
+      "keywords": [
+        "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids",
+        "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids date de sortie",
+        "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids plateformes",
+        "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids gameplay",
+        "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids guide",
+        "WoW: Forever item designer wants to 'get rid of BiS', encouraging players who want to sweatily optimise to bring unique sets of gear to raids avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-i-ve-done-some-stupid-stuff-says-wow-forever-dev-who-s--5f13b4743d8b",
+      "topic": "'I've done some stupid stuff', says WoW: Forever dev who's adding unique, fun items to the game: 'There's a lot they've not seen that I'm very happy with'",
+      "detected_at": "2026-11-21T10:13:29.147270+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/ive-done-some-stupid-stuff-says-wow-forever-dev-whos-adding-unique-fun-items-to-the-game-theres-a-lot-theyve-not-seen-that-im-very-happy-with/",
+          "title": "'I've done some stupid stuff', says WoW: Forever dev who's adding unique, fun items to the game: 'There's a lot they've not seen that I'm very happy with'",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a> has a lot of changes from the classic version of the game, but one of the chief ones is that its items are different—and while I'm only just now starting to see actual, potential game-changing bits of kit (I've gotten into trinket-juggling between pulls), there have been some pretty flavourful pieces. Like Rockslicer, an axe that lets you mine ore.</p><p>In a recent episode of the <a href=\"https://www.youtube.com/watch?v=67dDe3QgJtM\" target=\"_blank\">official WoW: Forever podcast</a>, senior game designer Aidan Moon spoke a little on his design philosophies, and items that players are yet to see: \"There's a lot that they have not seen that I'm very happy with and I think is a great direction for the game.\"</p><p>Moon's entire philosophy seems built around flavour over form, using the example of the Ogre Loincloth, a pair of cloth casting pants with strength, as a north star of sorts: \"I just want to do something different that adds texture and crunch to the game. People will see things like the Ogre Loincloth, and they'll be like: 'Why does this cloth thing have strength on it?' "
+        }
+      ],
+      "keywords": [
+        "'I've done some stupid stuff', says WoW: Forever dev who's adding unique, fun items to the game: 'There's a lot they've not seen that I'm very happy with'",
+        "'I've done some stupid stuff', says WoW: Forever dev who's adding unique, fun items to the game: 'There's a lot they've not seen that I'm very happy with' date de sortie",
+        "'I've done some stupid stuff', says WoW: Forever dev who's adding unique, fun items to the game: 'There's a lot they've not seen that I'm very happy with' plateformes",
+        "'I've done some stupid stuff', says WoW: Forever dev who's adding unique, fun items to the game: 'There's a lot they've not seen that I'm very happy with' gameplay",
+        "'I've done some stupid stuff', says WoW: Forever dev who's adding unique, fun items to the game: 'There's a lot they've not seen that I'm very happy with' guide",
+        "'I've done some stupid stuff', says WoW: Forever dev who's adding unique, fun items to the game: 'There's a lot they've not seen that I'm very happy with' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-how-to-fix-the-railing-in-gta-6-e8b60c547acb",
+      "topic": "How to fix the railing in GTA 6",
+      "detected_at": "2026-11-21T10:13:29.147476+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fix-railing-house-repairs/",
+          "title": "How to fix the railing in GTA 6",
+          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/ygnEfb4a.html\" id=\"ygnEfb4a\" title=\"GTA 6 - Fix Railing\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen=\"\"></iframe><p>One of the last tasks in <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide\">GTA 6</a>'s home repair mission for Jason is to fix the railing. These tasks are important if you want Lucia to have a positive welcome when she gets out of jail, so they're well worth doing if you plan to foster a <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia\" target=\"_blank\">romance</a> between the two criminal lovers.</p><p>You have to fix the rooftiles, put up the panels in Jason's bedroom and paint them, repair the stairs up to the decking at the front, and finally, fix the railing. This one is slightly less obvious, but you just need to:</p><ol start=\"1\"><li>Open the sliding door and head out onto Jason's back decking.</li><li>Go down the stairs into the area with the BBQ and workout equipment.</li><li>You'll spot the paintbrush interact icon on the gap in the railings just between where the ladder and weights are.</li></ol><p>You can also ju"
+        }
+      ],
+      "keywords": [
+        "How to fix the railing in GTA 6",
+        "How to fix the railing in GTA 6 date de sortie",
+        "How to fix the railing in GTA 6 plateformes",
+        "How to fix the railing in GTA 6 gameplay",
+        "How to fix the railing in GTA 6 guide",
+        "How to fix the railing in GTA 6 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-amd-s-next-gen-zen-6-desktop-cpus-are-rumoured-to-be-de-0d5521d744d9",
+      "topic": "AMD's next-gen Zen 6 desktop CPUs are rumoured to be delayed, may be pushed back to second half of 2027",
+      "detected_at": "2026-11-21T10:13:29.147665+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/processors/amds-next-gen-zen-6-desktop-cpus-are-rumoured-to-be-delayed-may-be-pushed-back-to-second-half-of-2027/",
+          "title": "AMD's next-gen Zen 6 desktop CPUs are rumoured to be delayed, may be pushed back to second half of 2027",
+          "evidence": "<article> <p>We got our first technical deep dive into AMD's next-generation <a href=\"https://www.pcgamer.com/hardware/processors/amds-zen-6-gaming-cpus-might-be-absolute-monsters-by-the-looks-of-the-server-chips-and-theres-a-3d-v-cache-variant-to-keep-an-eye-on/\">Zen 6 CPU architecture</a> last week, in the form of the company's new Venice range of server chips. Now there's a rumour that the consumer Ryzen chip launch may have been pushed back to the second half of 2027.</p><p>The new Ryzen offerings were originally thought to be launching in the first half, but Chiphell leaker Zhang Zhonghao says otherwise. In a post spotted by <a href=\"https://videocardz.com/newz/amd-zen-6-desktop-ryzen-cpus-reportedly-delayed-until-after-computex-2027\" target=\"_blank\">Videocardz</a>, Zhang Zhonghao claims that the desktop chips, codenamed Olympic Ridge, have been switched to TSMC's N2X manufacturing process, and as a result the \"timeline has been pushed back\" (via machine translation).</p><p>Zhang Zhonghao makes mention of Computex in their post, which <a href=\"https://wccftech.com/amd-zen-6-olympic-ridge-desktop-cpus-reportedly-slip-past-computex-2027-after-a-switch-to-tsmcs-performance-focuse"
+        }
+      ],
+      "keywords": [
+        "AMD's next-gen Zen 6 desktop CPUs are rumoured to be delayed, may be pushed back to second half of 2027",
+        "AMD's next-gen Zen 6 desktop CPUs are rumoured to be delayed, may be pushed back to second half of 2027 date de sortie",
+        "AMD's next-gen Zen 6 desktop CPUs are rumoured to be delayed, may be pushed back to second half of 2027 plateformes",
+        "AMD's next-gen Zen 6 desktop CPUs are rumoured to be delayed, may be pushed back to second half of 2027 gameplay",
+        "AMD's next-gen Zen 6 desktop CPUs are rumoured to be delayed, may be pushed back to second half of 2027 guide",
+        "AMD's next-gen Zen 6 desktop CPUs are rumoured to be delayed, may be pushed back to second half of 2027 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-pc-gamers-notice-nvidia-s-drivers-hammering-their-ssds--7e8f46aff196",
+      "topic": "PC gamers notice Nvidia's drivers hammering their SSDs with tens of GB/hr of unnecessary writes – revert to 621.01 ASAP",
+      "detected_at": "2026-11-21T10:13:29.147950+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/pc-gamers-notice-nvidias-drivers-hammering-their-ssds-with-tens-of-gb-hr-of-unnecessary-writes-revert-to-621-01-asap/",
+          "title": "PC gamers notice Nvidia's drivers hammering their SSDs with tens of GB/hr of unnecessary writes – revert to 621.01 ASAP",
+          "evidence": "<article> <p>Another day, another dodgy driver: Nvidia's latest driver package (621.24) is needlessly writing to users' SSDs, in some cases by 30 GB every hour. And if that sounds familiar, it's because an <a href=\"https://www.pcgamer.com/hardware/graphics-cards/amd-has-patched-its-ssd-eating-gpu-driver-bug-with-an-optional-adrenalin-update-for-rx-7000-series-graphics-cards-and-above/\" target=\"_blank\">issue with Radeon Adrenalin drivers</a> did a similar thing a week ago.</p><p>The issue appears to be fairly widespread going from reports on the <a href=\"https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/592907/continuous-writing-of-gigabytes-to-ssd-to-nvtopps-/#!%2Fpageconstruction\" target=\"_blank\">Nvidia GeForce forum</a>, <a href=\"https://www.dell.com/community/en/conversations/xps/excessive-nvidia-log-or-dump-nvlognvlgstg/6798edb55571a9437f10ad83\" target=\"_blank\">Dell forum</a>, <a href=\"https://superuser.com/questions/1876697/nvdisplay-container-exe-is-doing-many-disk-writes-about-100gb-day-why-and-is\" target=\"_blank\">Super User forum</a>, and many, many threads on <a href=\"https://www.reddit.com/r/pcgaming/comments/1xzfj2a/psa_nvidia_driver_62114_and_up_continuo"
+        }
+      ],
+      "keywords": [
+        "PC gamers notice Nvidia's drivers hammering their SSDs with tens of GB/hr of unnecessary writes – revert to 621.01 ASAP",
+        "PC gamers notice Nvidia's drivers hammering their SSDs with tens of GB/hr of unnecessary writes – revert to 621.01 ASAP date de sortie",
+        "PC gamers notice Nvidia's drivers hammering their SSDs with tens of GB/hr of unnecessary writes – revert to 621.01 ASAP plateformes",
+        "PC gamers notice Nvidia's drivers hammering their SSDs with tens of GB/hr of unnecessary writes – revert to 621.01 ASAP gameplay",
+        "PC gamers notice Nvidia's drivers hammering their SSDs with tens of GB/hr of unnecessary writes – revert to 621.01 ASAP guide",
+        "PC gamers notice Nvidia's drivers hammering their SSDs with tens of GB/hr of unnecessary writes – revert to 621.01 ASAP avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-modders-reckon-gta-6-will-be-playable-on-pc-within-a-we-94cb41a9caf7",
+      "topic": "Modders reckon GTA 6 will be playable on PC within a week",
+      "detected_at": "2026-11-21T10:13:29.148226+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/modders-reckon-gta-6-will-be-playable-on-pc-within-a-week/",
+          "title": "Modders reckon GTA 6 will be playable on PC within a week",
+          "evidence": "<article> <p>You remember when The <a href=\"https://www.pcgamer.com/software/zelda-ocarina-of-time-remake-reportedly-running-at-60-fps-on-pc-just-hours-after-games-official-nintendo-switch-2-release/\" target=\"_blank\">Legend of Zelda: Ocarina of Time Remake</a> launched earlier this month on Nintendo Switch 2, and it was running on PC in hours? Well, modders are claiming essentially the same will be happening for Grand Theft Auto 6, a much bigger and more complicated game. </p><p>If you're wondering how these games are getting ported so quickly, it's a mixture of people dumping the game files for the public to access and, oftentimes, generative AI coding doing a lot of the grunt work of recompiling. </p><p>Just yesterday, Cyberleek (<a href=\"https://www.pcgamer.com/games/grand-theft-auto/who-is-cyberleek-what-we-know-about-the-gta-6-leaker/\" target=\"_blank\">the hacking team or person who leaked GTA 6 files earlier this year)</a> <a href=\"https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online/\" target=\"_blank\">reportedly leaked the GTA 6 Xbox build</a>, giving modders access to the game's release files. That's one imp"
+        }
+      ],
+      "keywords": [
+        "Modders reckon GTA 6 will be playable on PC within a week",
+        "Modders reckon GTA 6 will be playable on PC within a week date de sortie",
+        "Modders reckon GTA 6 will be playable on PC within a week plateformes",
+        "Modders reckon GTA 6 will be playable on PC within a week gameplay",
+        "Modders reckon GTA 6 will be playable on PC within a week guide",
+        "Modders reckon GTA 6 will be playable on PC within a week avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-as-a-pc-gamer-of-course-the-first-thing-i-did-in-gta-6--f0fb088f8a08",
+      "topic": "As a PC gamer, of course the first thing I did in GTA 6 was try a mouse and keyboard",
+      "detected_at": "2026-11-21T10:13:29.148717+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/as-a-pc-gamer-of-course-the-first-thing-i-did-in-gta-6-was-try-a-mouse-and-keyboard/",
+          "title": "As a PC gamer, of course the first thing I did in GTA 6 was try a mouse and keyboard",
+          "evidence": "<article> <p>I am nothing if not entirely predictable. I've waited 13 years to play a new Grand Theft Auto game and the first thing I do when I finally get around to booting <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide/\" target=\"_blank\">GTA 6</a>—and definitely not spoofing my home address to access it early—is jam a mouse and keyboard into my Xbox Series X <em>just to see.</em></p><p>GTA 5, once it made its way to PC, was always a game I played both with a keyboard and mouse and with a controller plugged in. Keeb and rodent for shooting, especially in the first-person mode, and the controller for just getting about in the game world. It was a real best of both worlds kinda thing that the PC does so well.</p><p>It was the same with Red Dead Redemption 2, a game I completely avoided until it finally came to the PC. Keyboard and mouse for runnin' and gunnin' and a controller for horsin' around. Yeehaw.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-ePmVlW\"></div> </div> <script src=\"https://kwizly.com/embed/ePmVlW.js\" async=\"\"></script><p>So, I was hoping—hoping against hope, really—that I could just do the same with GTA 6. I was hoping that"
+        }
+      ],
+      "keywords": [
+        "As a PC gamer, of course the first thing I did in GTA 6 was try a mouse and keyboard",
+        "As a PC gamer, of course the first thing I did in GTA 6 was try a mouse and keyboard date de sortie",
+        "As a PC gamer, of course the first thing I did in GTA 6 was try a mouse and keyboard plateformes",
+        "As a PC gamer, of course the first thing I did in GTA 6 was try a mouse and keyboard gameplay",
+        "As a PC gamer, of course the first thing I did in GTA 6 was try a mouse and keyboard guide",
+        "As a PC gamer, of course the first thing I did in GTA 6 was try a mouse and keyboard avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-football-manager-27-review-back-on-form-but-not-without-746dd0948790",
+      "topic": "Football Manager 27 review: Back on form, but not without its wayward touches",
+      "detected_at": "2026-11-21T10:13:29.149251+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sports/football-manager-27-review/",
+          "title": "Football Manager 27 review: Back on form, but not without its wayward touches",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Need to Know</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it?</strong> The latest in a long line of life-absorbing sports management sims.<br /><strong>Release date</strong> November 10, 2026<br /><strong>Expect to pay</strong> $60/£50<br /><strong>Developer</strong> Sports Interactive<br /><strong>Publisher</strong> Sega<br /><strong>Reviewed on</strong> Ryzen 7 9800X3D, Radeon RX 9070XT, 16GB RAM<br /><strong>Steam Deck</strong> TBA<br /><strong>Link</strong> <a data-analytics-id=\"inline-link\" href=\"https://www.footballmanager.com/\">Official site</a></p></div></div><p>It's difficult to convey to non-players how deeply Football Manager gets under your skin. It's the kind of game that becomes your mental screensaver, the fallback topic whenever your brain isn't explicitly required to think about something else. A Slack DM came in this morning and for a second I interpreted 'DM – [Name]' as Slack assigning my colleague the defensive midfielder position. <em>When did they add that feature?</em> I caught myself thinking for a second.</p><p>That in itself doesn't mean Football Manager 27 i"
+        }
+      ],
+      "keywords": [
+        "Football Manager 27 review: Back on form, but not without its wayward touches",
+        "Football Manager 27 review: Back on form, but not without its wayward touches date de sortie",
+        "Football Manager 27 review: Back on form, but not without its wayward touches plateformes",
+        "Football Manager 27 review: Back on form, but not without its wayward touches gameplay",
+        "Football Manager 27 review: Back on form, but not without its wayward touches guide",
+        "Football Manager 27 review: Back on form, but not without its wayward touches avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

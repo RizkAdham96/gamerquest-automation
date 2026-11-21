@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-20T21:58:14.550227+00:00",
+  "updated_at": "2026-11-21T10:13:29.611689+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -30490,6 +30490,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Why wasn't GTA 6 at the Golden Joystick Awards?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-laid-off-id-software-devs-form-their-own-studio-and-don-9104c37bfd12",
+      "topic": "Laid off Id Software devs form their own studio and don't hold back in their announcement",
+      "detected_at": "2026-11-11T21:32:33.858757+00:00",
+      "analysed_at": "2026-11-21T10:13:29.611429+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/id-software-devs-laid-off-by-microsoft-form-their-own-studio-and-dont-hold-back-in-their-announcement-it-really-felt-like-an-attack/",
+          "title": "Laid off Id Software devs form their own studio and don't hold back in their announcement",
+          "evidence": "<article> <p>Nothing zaps the joy right out of launch day celebrations like getting laid off alongside half of your team, but that's exactly what happened to <a href=\"https://www.gamesradar.com/games/fps/great-job-microsoft-former-id-software-artist-says-the-legendary-dev-has-been-relegated-to-support-studio-size-after-xboxs-strategy-of-nuking-a-team-into-the-dirt/\">dozens of Id Software developers</a> during <a href=\"https://www.gamesradar.com/games/microsoft-is-cutting-3-200-xbox-employees-and-half-of-them-will-be-eliminated-today-in-the-most-significant-restructure-in-xbox-history/\">Microsoft's July 2026 bloodbath</a> (not to be confused with its <a href=\"https://www.gamesradar.com/games/xbox-announces-a-further-268-layoffs-as-ninja-theory-and-arkane-remain-on-shaky-ground/\">September 2026 bloodbath</a>) alongside the release of the Revelations DLC for Doom: The Dark Ages. Amid <a href=\"https://www.gamesradar.com/games/fps/great-job-microsoft-former-id-software-artist-says-the-legendary-dev-has-been-relegated-to-support-studio-size-after-xboxs-strategy-of-nuking-a-team-into-the-dirt/\">reports that the studio was gutted down to support studio size</a>, the total confirmed number "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Laid off Id Software devs form their own studio and don't hold back in their announcement",
+        "secondary_keywords": [
+          "Laid off Id Software devs form their own studio and don't hold back in their announcement date de sortie",
+          "Laid off Id Software devs form their own studio and don't hold back in their announcement plateformes",
+          "Laid off Id Software devs form their own studio and don't hold back in their announcement gameplay",
+          "Laid off Id Software devs form their own studio and don't hold back in their announcement guide",
+          "Laid off Id Software devs form their own studio and don't hold back in their announcement avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Laid off Id Software devs form their own studio and don't hold back in their announcement"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-quote-of-the-day-by-former-gta-6-and-red-dead-redemptio-07342cee3abf",
+      "topic": "Quote of the day by former GTA 6 and Red Dead Redemption 2 artist: Sony and Microsoft can’t compete with Rockstar because “they do not care about making game products”",
+      "detected_at": "2026-11-11T21:32:33.858954+00:00",
+      "analysed_at": "2026-11-21T10:13:29.611506+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-by-former-gta-6-and-red-dead-redemption-2-artist-sony-and-microsoft-cant-compete-with-rockstar-because-they-do-not-care-about-making-game-products/",
+          "title": "Quote of the day by former GTA 6 and Red Dead Redemption 2 artist: Sony and Microsoft can’t compete with Rockstar because “they do not care about making game products”",
+          "evidence": "<article> <p>Rockstar's ability to create world-beating titles like <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> stems from a core practice - not succumbing to the 'fire and rehire' cycle that has ravaged publishers like Microsoft and Sony.</p><p>That's according to David O'Reilly, a 12-year veteran of Rockstar whose credits as an environment artist cover GTA 6, Red Dead Redemption 2, GTA 5. He claims that \"Rockstar doesn't do the whole thing that the games industry has been madly scrambling to do\" over the past few years - namely, laying off vast swathes of staff to cut costs, before scaling back up when production needs require doing so.</p><p>\"How does Rockstar do it?\" he asks. \"How are they performing these magical feats of game development? It's pretty simple really: They've not engaged in that fire/rehire cycle.\" The result, O'Reilly claims, is that \"Rockstar has kept nearly all of its institutional knowledge,\" and that in his time at the studio he worked alongside people who had been at Rockstar North when it was still known as DMA Design, a rebrand that took place in early 2002.</p><p>That heritage, he says, \"is a big deal in today's gaming industry,\" and the"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Quote of the day by former GTA 6 and Red Dead Redemption 2 artist: Sony and Microsoft can’t compete with Rockstar because “they do not care about making game products”",
+        "secondary_keywords": [
+          "Quote of the day by former GTA 6 and Red Dead Redemption 2 artist: Sony and Microsoft can’t compete with Rockstar because “they do not care about making game products” date de sortie",
+          "Quote of the day by former GTA 6 and Red Dead Redemption 2 artist: Sony and Microsoft can’t compete with Rockstar because “they do not care about making game products” plateformes",
+          "Quote of the day by former GTA 6 and Red Dead Redemption 2 artist: Sony and Microsoft can’t compete with Rockstar because “they do not care about making game products” gameplay",
+          "Quote of the day by former GTA 6 and Red Dead Redemption 2 artist: Sony and Microsoft can’t compete with Rockstar because “they do not care about making game products” guide",
+          "Quote of the day by former GTA 6 and Red Dead Redemption 2 artist: Sony and Microsoft can’t compete with Rockstar because “they do not care about making game products” avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Quote of the day by former GTA 6 and Red Dead Redemption 2 artist: Sony and Microsoft can’t compete with Rockstar because “they do not care about making game products”"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-bethesda-celebrates-skyrim-s-15th-anniversary-with-new--720aa4e80908",
+      "topic": "Bethesda celebrates Skyrim’s 15th anniversary with new artwork from a \"legendary artist\"",
+      "detected_at": "2026-11-11T21:32:33.859136+00:00",
+      "analysed_at": "2026-11-21T10:13:29.611544+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-elder-scrolls/bethesda-celebrates-skyrims-15th-anniversary-with-new-artwork-from-a-legendary-artist-and-oh-my-god-skyrim-is-15-years-old/",
+          "title": "Bethesda celebrates Skyrim’s 15th anniversary with new artwork from a \"legendary artist\"",
+          "evidence": "<article> <p>Time marches onward, unyielding and unflinching. Somehow, <a href=\"https://www.gamesradar.com/uk/skyrim/\">Skyrim</a>, the latest of the <a href=\"https://www.gamesradar.com/uk/games/rpg/the-elder-scrolls/\">Elder Scrolls</a> games, is now 15 years old. Yes, if it was a child, it'd be going through a moody phase right now, making questionable fashion choices and listening to music that seems expressly designed to annoy you.</p><p>On November 11, 2011, The Elder Scrolls 5 came out to a rabid audience of fantasy and RPG fans. <a href=\"https://www.gamesradar.com/uk/tag/bethesda-game-studios/\">Bethesda</a> marked the fact it's somehow been a decade-and-a-half since then with some new artwork. I know, I'm surprised it's not another port too.</p><p>On social media, the studio posted a fresh image of a dragonborn facing a giant dragon. It's a bespoke piece of work to commemorate the occasion, created by Karl Fitzgerald, a well-travelled artist who's done a cavalcade of fantastical pieces, including a number around The Lord of the Rings, making him an ideal candidate.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" c"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Bethesda celebrates Skyrim’s 15th anniversary with new artwork from a \"legendary artist\"",
+        "secondary_keywords": [
+          "Bethesda celebrates Skyrim’s 15th anniversary with new artwork from a \"legendary artist\" date de sortie",
+          "Bethesda celebrates Skyrim’s 15th anniversary with new artwork from a \"legendary artist\" plateformes",
+          "Bethesda celebrates Skyrim’s 15th anniversary with new artwork from a \"legendary artist\" gameplay",
+          "Bethesda celebrates Skyrim’s 15th anniversary with new artwork from a \"legendary artist\" guide",
+          "Bethesda celebrates Skyrim’s 15th anniversary with new artwork from a \"legendary artist\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Bethesda celebrates Skyrim’s 15th anniversary with new artwork from a \"legendary artist\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-dumping-up-to-2-000-a-month-into-pokemon-fan-game-vibe--4bedac609381",
+      "topic": "Dumping \"up to $2,000\" a month into Pokemon fan game, vibe coder says Claude is \"starting to refuse\"",
+      "detected_at": "2026-11-11T21:32:33.859303+00:00",
+      "analysed_at": "2026-11-21T10:13:29.611574+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/pokemon/claude-models-are-starting-to-refuse-work-on-pokemon-fan-projects-says-vibe-coder-spending-up-to-usd2-000-a-month-on-pokemon-fan-game/",
+          "title": "Dumping \"up to $2,000\" a month into Pokemon fan game, vibe coder says Claude is \"starting to refuse\"",
+          "evidence": "<article> <p>Anthropic recently <a href=\"https://www.gamesradar.com/games/amid-steams-battle-with-ai-clones-claude-stops-users-from-recreating-games-using-its-controversial-tech-to-prevent-ip-infringement/\">changed Claude to \"prevent IP infringement,\"</a> altering the LLM's rules so it won't help copy existing games. One proudly pro-AI dev at work on a Pokemon fan game is starting to feel the heat, but vows to continue working on a vibe coded project that's already cost hundreds of hours and thousands of dollars.</p><p>\"Anthropic has cracked down and Claude models are starting to refuse work on Pokemon fan projects,\" Big Kid Nation, the developer behind <a href=\"https://www.pokemonarena2d.com/\" target=\"_blank\">Pokemon Arena 2D</a>, says on <a href=\"https://x.com/BigKidNation/status/2120463807722164583\" target=\"_blank\">Twitter</a> (via <a href=\"https://retrododo.com/claudes-ai-starts-refusing-to-assist-with-pokemon-rom-hack-fan-game-development/\" target=\"_blank\">Retro Dodo</a>). \"All that money spent, never took a cent (unlike many others with itch io, patreon etc).\"</p><p>How much money spent? \"Up to $2,000 expenses a month,\" Big Kid Nation <a href=\"https://x.com/BigKidNation/statu"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Dumping \"up to $2,000\" a month into Pokemon fan game, vibe coder says Claude is \"starting to refuse\"",
+        "secondary_keywords": [
+          "Dumping \"up to $2,000\" a month into Pokemon fan game, vibe coder says Claude is \"starting to refuse\" date de sortie",
+          "Dumping \"up to $2,000\" a month into Pokemon fan game, vibe coder says Claude is \"starting to refuse\" plateformes",
+          "Dumping \"up to $2,000\" a month into Pokemon fan game, vibe coder says Claude is \"starting to refuse\" gameplay",
+          "Dumping \"up to $2,000\" a month into Pokemon fan game, vibe coder says Claude is \"starting to refuse\" guide",
+          "Dumping \"up to $2,000\" a month into Pokemon fan game, vibe coder says Claude is \"starting to refuse\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Dumping \"up to $2,000\" a month into Pokemon fan game, vibe coder says Claude is \"starting to refuse\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-henry-cavill-says-it-was-such-an-honor-to-play-superman-069ad6307eaf",
+      "topic": "Henry Cavill says it was \"such an honor\" to play Superman and is open to returning as the Man of Steel",
+      "detected_at": "2026-11-12T10:20:12.062137+00:00",
+      "analysed_at": "2026-11-21T10:13:29.611604+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/henry-cavill-says-it-was-such-an-honor-to-play-superman-and-is-open-to-returning-as-the-man-of-steel/",
+          "title": "Henry Cavill says it was \"such an honor\" to play Superman and is open to returning as the Man of Steel",
+          "evidence": "<article> <p>Henry Cavill has said he's open to playing Superman again. The former Man of Steel actor was asked about the possibility amidst the news of upheaval at DC Studios as <a href=\"https://www.gamesradar.com/entertainment/dc-movies/james-gunn-is-out-at-dc-studios-as-former-marvel-exec-takes-over-under-skydance/\">Peter Safran and James Gunn step down as heads.</a></p><p>\"Look, there's lots of fantastic storylines,\" Cavill replied when asked if he'd don the suit again by <a href=\"https://www.inverse.com/entertainment/henry-cavill-googlebook-mustache-protocol-superman\" target=\"_blank\">Inverse</a>. \"There's always a lot of opportunity. As the pigeon sang to Fievel in An American Tail, 'never say never.' And I buy into that. I've had such a wonderful time playing Superman in the past. I would never say never now.\"</p><p>The former DC actor also shared a sweet story about how playing the superhero still impacts his daily life. \"Sometimes people send my daughter Superman stuff as a joke,\" he explained. \"Just the other day, we opened this Superman toy, and she looked at it and said, 'It's Dada!' She's only two years and four months, so no idea how she knows that's me; what kind of c"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Henry Cavill says it was \"such an honor\" to play Superman and is open to returning as the Man of Steel",
+        "secondary_keywords": [
+          "Henry Cavill says it was \"such an honor\" to play Superman and is open to returning as the Man of Steel date de sortie",
+          "Henry Cavill says it was \"such an honor\" to play Superman and is open to returning as the Man of Steel plateformes",
+          "Henry Cavill says it was \"such an honor\" to play Superman and is open to returning as the Man of Steel gameplay",
+          "Henry Cavill says it was \"such an honor\" to play Superman and is open to returning as the Man of Steel guide",
+          "Henry Cavill says it was \"such an honor\" to play Superman and is open to returning as the Man of Steel avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Henry Cavill says it was \"such an honor\" to play Superman and is open to returning as the Man of Steel"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-bioware-could-make-mass-effect-2-in-18-months-because-t-23f8d45ff947",
+      "topic": "BioWare could make Mass Effect 2 in 18 months because \"the core team stayed\" from the first game",
+      "detected_at": "2026-11-12T10:20:12.062357+00:00",
+      "analysed_at": "2026-11-21T10:13:29.611636+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/mass-effect/bioware-could-make-mass-effect-2-in-18-months-because-it-didnt-fire-everyone-listened-to-the-player-and-grew-ruthless-about-limiting-scope-says-former-lead/",
+          "title": "BioWare could make Mass Effect 2 in 18 months because \"the core team stayed\" from the first game",
+          "evidence": "<article> <p>AAA development cycles have increased dramatically since Mass Effect 2 launched in 2010, to the point that it's not uncommon to see 10-year gaps between mainline releases i.e. <a href=\"https://www.gamesradar.com/elder-scrolls-6-release-date-location-news-races/\">The Elder Scrolls 6</a>, <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>, and <a href=\"https://www.gamesradar.com/fallout-5-guide/\">Fallout 5</a>. Contrast that with the 26 months in-between Mass Effect 1 and 2, and you start to wonder what type of coffee the folks at now-defunct BioWare were drinking back then. The truth is, the size and scope of big-budget games have ballooned alongside development cycles, but the Mass Effect 2 team benefited from a number of other factors that seem sorely lacking in today's AAA landscape, as pointed out by Mass Effect 2 lead designer Christina Norman.</p><p>In a new tweet, Norman explains \"how mass effect 2 came together in 18 months successfully,\" and well, it reads like a list of things AAA studios aren't doing anymore. First of all, \"it was the same team that shipped mass effect,\" says Norman, adding that, \"teams often have a lot of turn over,\" but for ME2, \"t"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "BioWare could make Mass Effect 2 in 18 months because \"the core team stayed\" from the first game",
+        "secondary_keywords": [
+          "BioWare could make Mass Effect 2 in 18 months because \"the core team stayed\" from the first game date de sortie",
+          "BioWare could make Mass Effect 2 in 18 months because \"the core team stayed\" from the first game plateformes",
+          "BioWare could make Mass Effect 2 in 18 months because \"the core team stayed\" from the first game gameplay",
+          "BioWare could make Mass Effect 2 in 18 months because \"the core team stayed\" from the first game guide",
+          "BioWare could make Mass Effect 2 in 18 months because \"the core team stayed\" from the first game avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "BioWare could make Mass Effect 2 in 18 months because \"the core team stayed\" from the first game"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-avengers-endgame-encore-hits-disney-plus-on-friday-with-57964a373c7b",
+      "topic": "Avengers: Endgame Encore hits Disney Plus on Friday with those Doomsday-teasing post-credits scenes",
+      "detected_at": "2026-11-12T10:20:12.062480+00:00",
+      "analysed_at": "2026-11-21T10:13:29.611660+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-movies/avengers-endgame-encore-hits-disney-plus-on-friday-and-with-all-of-those-doomsday-teasing-post-credits-scenes-in-tow/",
+          "title": "Avengers: Endgame Encore hits Disney Plus on Friday with those Doomsday-teasing post-credits scenes",
+          "evidence": "<article> <p>Avengers: Endgame Encore is set to hit Disney Plus on November 13, and you'll be able to rewatch those wild post-credits scenes as many times you want.</p><p>The film was re-released in September in honor of the film's seven-year anniversary, but also to get Marvel fans hyped for Avengers: Doomsday. The Encore version of the film is more or less the <a href=\"https://www.gamesradar.com/entertainment/marvel-movies/avengers-endgame-encore-bonus-footage-explained/\">same except for four bonus scenes added to the end credits</a>. The scenes in question are: Loki goes back to the past to visit Steve Rogers and Peggy Carter; Doctor Doom has captured Hulk after the events of Spider-Man: Brand New Day; an incursion is coming to destroy the Fox X-Men universe; and Tony Stark appears to be making a Doctor Doom Mask (which is terribly confusing and also lends credence to the rumor that Downey isn't actually playing Doom after all). </p><p>These scenes are meant to bridge the gap between Endgame and Doomsday, and will therefore not appear in the latter. We can also assume <a href=\"https://www.gamesradar.com/entertainment/marvel-tv-shows/visionquest-finale-wanda-doctor-doom/\">that th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Avengers: Endgame Encore hits Disney Plus on Friday with those Doomsday-teasing post-credits scenes",
+        "secondary_keywords": [
+          "Avengers: Endgame Encore hits Disney Plus on Friday with those Doomsday-teasing post-credits scenes date de sortie",
+          "Avengers: Endgame Encore hits Disney Plus on Friday with those Doomsday-teasing post-credits scenes plateformes",
+          "Avengers: Endgame Encore hits Disney Plus on Friday with those Doomsday-teasing post-credits scenes gameplay",
+          "Avengers: Endgame Encore hits Disney Plus on Friday with those Doomsday-teasing post-credits scenes guide",
+          "Avengers: Endgame Encore hits Disney Plus on Friday with those Doomsday-teasing post-credits scenes avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Avengers: Endgame Encore hits Disney Plus on Friday with those Doomsday-teasing post-credits scenes"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-witcher-4-lead-feels-a-great-responsibility-after-w-54eb0a3eebe8",
+      "topic": "The Witcher 4 lead feels a \"great responsibility\" after winning Golden Joystick for Most Wanted game",
+      "detected_at": "2026-11-12T10:20:12.062616+00:00",
+      "analysed_at": "2026-11-21T10:13:29.611684+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-witcher/the-witcher-4-production-director-feels-a-great-responsibility-after-winning-the-golden-joystick-for-most-wanted-game/",
+          "title": "The Witcher 4 lead feels a \"great responsibility\" after winning Golden Joystick for Most Wanted game",
+          "evidence": "<article> <p>As if following up on one of the most acclaimed RPGs of all time wasn't already enough pressure, CD Projekt Red just won Most Wanted Game for <a href=\"https://www.gamesradar.com/games/the-witcher/the-witcher-4-guide/\">The Witcher 4</a> at <a href=\"https://www.gamesradar.com/games/all-the-golden-joystick-awards-2026-winners-revealed/\">the Golden Joystick Awards 2026</a>, and the burden of that \"great responsibility\" is weighing heavy on the developer.</p><p>Taking the stage just before the end of the show when <a href=\"https://www.gamesradar.com/games/resident-evil/resident-evil-requiem-wins-ultimate-game-of-the-year-at-the-golden-joystick-awards-2026/\">Resident Evil Requiem was announced as the night's big winner</a>, CDPR production director Małgorzata Mitręga appeared slightly stage-frightened as she accepted the award for most anticipated game, beating out <a href=\"https://www.gamesradar.com/fable-4-release-date-news-rumours/\">Fable</a> and <a href=\"https://www.gamesradar.com/games/resident-evil/resident-evil-veronica-guide/\">Resident Evil Veronica</a>.</p><p>\"This is a huge, huge honor for us, but it's also a great responsibility. We all know it,\" she said. \"We are"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Witcher 4 lead feels a \"great responsibility\" after winning Golden Joystick for Most Wanted game",
+        "secondary_keywords": [
+          "The Witcher 4 lead feels a \"great responsibility\" after winning Golden Joystick for Most Wanted game date de sortie",
+          "The Witcher 4 lead feels a \"great responsibility\" after winning Golden Joystick for Most Wanted game plateformes",
+          "The Witcher 4 lead feels a \"great responsibility\" after winning Golden Joystick for Most Wanted game gameplay",
+          "The Witcher 4 lead feels a \"great responsibility\" after winning Golden Joystick for Most Wanted game guide",
+          "The Witcher 4 lead feels a \"great responsibility\" after winning Golden Joystick for Most Wanted game avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Witcher 4 lead feels a \"great responsibility\" after winning Golden Joystick for Most Wanted game"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

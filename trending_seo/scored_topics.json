@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-21T10:13:29.611689+00:00",
+  "updated_at": "2026-11-21T20:40:02.194975+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -30802,6 +30802,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "The Witcher 4 lead feels a \"great responsibility\" after winning Golden Joystick for Most Wanted game"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-rings-of-power-s-dark-wizard-reveal-was-one-of-the--9b2e3fbab14e",
+      "topic": "The Rings of Power's Dark Wizard reveal was one of the first things the showrunners wanted to do",
+      "detected_at": "2026-11-12T10:20:12.063890+00:00",
+      "analysed_at": "2026-11-21T20:40:02.194738+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/the-rings-of-powers-dark-wizard-reveal-was-one-of-the-first-things-the-showrunners-wanted-to-do-with-the-show/",
+          "title": "The Rings of Power's Dark Wizard reveal was one of the first things the showrunners wanted to do",
+          "evidence": "<article> <p>The Rings of Power showrunners say their fascination with revealing who the Dark Wizard is stemmed from some of their very first conversations about the show.</p><p>\"The idea of Blue Wizards who went east is such a tantalizing piece of the lore,\" Patrick McKay told <a href=\"https://www.instagram.com/reels/DfmbnWnD1oX/\" target=\"_blank\">Radio Times</a>. \"It was one of the first things we talked about wanting to explore in the show – reaching that moment and figuring out who they were, what they were about, what happened to them, and his eventual fate.\"</p><p>After a brief interaction with the <a href=\"https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/the-rings-of-power-season-3-secret-flame/\">Secret Fire</a>, Gandalf was gifted the knowledge of <a href=\"https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/dark-wizard-rings-of-power-pallando/\">the identity of Ciaran Hinds' Dark Wizard</a>. As some had speculated, he was the Blue Wizard Pallando, sent to Middle-earth to quell Sauron's rise to power – but his own murderous ambitions laid waste to Rhun.</p><p>First mentioned in appendices and notes to Return of the King by Tolkien, the Blue W"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Rings of Power's Dark Wizard reveal was one of the first things the showrunners wanted to do",
+        "secondary_keywords": [
+          "The Rings of Power's Dark Wizard reveal was one of the first things the showrunners wanted to do date de sortie",
+          "The Rings of Power's Dark Wizard reveal was one of the first things the showrunners wanted to do plateformes",
+          "The Rings of Power's Dark Wizard reveal was one of the first things the showrunners wanted to do gameplay",
+          "The Rings of Power's Dark Wizard reveal was one of the first things the showrunners wanted to do guide",
+          "The Rings of Power's Dark Wizard reveal was one of the first things the showrunners wanted to do avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Rings of Power's Dark Wizard reveal was one of the first things the showrunners wanted to do"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-ve-wanted-to-play-this-anime-inspired-farming-rpg-for-77006b32cca8",
+      "topic": "I've wanted to play this anime-inspired farming RPG for years, and I might finally get my chance",
+      "detected_at": "2026-11-12T10:20:12.064044+00:00",
+      "analysed_at": "2026-11-21T20:40:02.194791+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/simulation/ive-wanted-to-play-this-anime-inspired-farming-rpg-for-years-and-i-might-finally-get-my-chance-porting-work-is-actively-happening-behind-the-scenes/",
+          "title": "I've wanted to play this anime-inspired farming RPG for years, and I might finally get my chance",
+          "evidence": "<article> <p>It sounds like <a href=\"https://www.gamesradar.com/games/rpg/fields-of-mistria-slice-of-life-rpg-disguised-as-a-farming-sim-best-14-dollar-game/\"><u>Fields of Mistria</u></a>, a gorgeous indie farming sim and RPG oozing with '90s anime vibes, is finally coming to consoles, as its devs confirm they've been exploring \"other platforms\" since its 1.0 launch earlier this year and that \"porting work is actively happening.\" </p><p>Even as someone who plays games exclusively on consoles, I rarely find myself unable to play something I <em>really </em>want to, or, at the very least, not for long. However, Fields of Mistria has been an exception. Ever since its early access launch in August 2024, I've been yearning to dive into this gorgeous indie, and was admittedly rather heartbroken when its 1.0 launch came and went this summer with no mention of it branching out from Steam. Needless to say, I'm thrilled at the inclusion of three crucial sentences in a <a href=\"https://www.fieldsofmistria.com/post/post-1-0-dev-blog\" target=\"_blank\"><u>new blog post</u></a> shared by developer NPC Studio.</p><p>\"We're excited to share that we are exploring opportunities to bring Fields of Mist"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I've wanted to play this anime-inspired farming RPG for years, and I might finally get my chance",
+        "secondary_keywords": [
+          "I've wanted to play this anime-inspired farming RPG for years, and I might finally get my chance date de sortie",
+          "I've wanted to play this anime-inspired farming RPG for years, and I might finally get my chance plateformes",
+          "I've wanted to play this anime-inspired farming RPG for years, and I might finally get my chance gameplay",
+          "I've wanted to play this anime-inspired farming RPG for years, and I might finally get my chance guide",
+          "I've wanted to play this anime-inspired farming RPG for years, and I might finally get my chance avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I've wanted to play this anime-inspired farming RPG for years, and I might finally get my chance"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ex-tekken-boss-says-developing-for-xbox-series-s-is-doi-0498ceac3ce8",
+      "topic": "Ex-Tekken boss says developing for Xbox Series S is doing \"extra work for a slightly weaker child\"",
+      "detected_at": "2026-11-12T10:20:12.064207+00:00",
+      "analysed_at": "2026-11-21T20:40:02.194821+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/in-front-of-xbox-staff-ex-tekken-boss-says-developing-for-xbox-series-s-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child/",
+          "title": "Ex-Tekken boss says developing for Xbox Series S is doing \"extra work for a slightly weaker child\"",
+          "evidence": "<article> <p>For players, the Xbox Series S is a great idea. A cheaper version of the console that sacrifices some power to reduce cost. On the development side, however, it's a different story, and longtime <a href=\"https://www.gamesradar.com/uk/games/fighting/tekken/\">Tekken</a> developer Katsuhiro Harada could do without it, and he has no problem saying so.</p><p>During a group discussion with other industry heavyweights at the SKY31 event in Seoul, South Korea, Harada quite literally used the opportunity to get his thoughts off his chest. \"There's something I really want to say while I have the floor,\" he says, per <a href=\"https://www.invenglobal.com/articles/28387/6-developers-behind-global-hits-share-console-game-development-insights\" target=\"_blank\">InvenGlobal</a>. \"Since a senior Xbox official is actually in attendance here today, I wish hardware like the Xbox Series S wouldn't be released.\"</p><p>Tell us how you really feel, eh? He goes into his rationale after. \"Low memory is an issue, but the hardest part is that it's a device so similar to Series X while having awkwardly lower performance,\" he explains.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-a"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ex-Tekken boss says developing for Xbox Series S is doing \"extra work for a slightly weaker child\"",
+        "secondary_keywords": [
+          "Ex-Tekken boss says developing for Xbox Series S is doing \"extra work for a slightly weaker child\" date de sortie",
+          "Ex-Tekken boss says developing for Xbox Series S is doing \"extra work for a slightly weaker child\" plateformes",
+          "Ex-Tekken boss says developing for Xbox Series S is doing \"extra work for a slightly weaker child\" gameplay",
+          "Ex-Tekken boss says developing for Xbox Series S is doing \"extra work for a slightly weaker child\" guide",
+          "Ex-Tekken boss says developing for Xbox Series S is doing \"extra work for a slightly weaker child\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ex-Tekken boss says developing for Xbox Series S is doing \"extra work for a slightly weaker child\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-world-of-stands-codes-november-2026-and-how-to-redeem-t-fcd3a00802c0",
+      "topic": "World of Stands codes (November 2026) and how to redeem them for Arrows and more",
+      "detected_at": "2026-11-12T10:20:12.064390+00:00",
+      "analysed_at": "2026-11-21T20:40:02.194865+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/action-rpg/world-of-stands-codes/",
+          "title": "World of Stands codes (November 2026) and how to redeem them for Arrows and more",
+          "evidence": "<article> <p>World of Stands codes can give you a decent boost in this action RPG based on JoJo's Bizarre Adventure, as you fight against enemy Stand users and tough bosses that stand in your way. After development went on hiatus around a year ago, the game is now back with regular updates promised and, of course, those all important promos.<br /><br />The main rewards from recent codes have been various types of Arrows used in summoning, along with Locacaca Fruits and Gold currency to top up your balances in this battling <a href=\"https://www.gamesradar.com/roblox-explained-price-account-username-safety-how-to-play/\">Roblox</a> experience. If you're all set for your own bizarre adventure, then here are the codes for World of Stands and how to redeem them.<br /><br /><em>If you'd like some more general promos that unlock rewards for your avatar, then we've also got the latest </em><a href=\"https://www.gamesradar.com/roblox-promo-codes/\"><em>Roblox promo codes</em></a><em> covered.</em></p><h2 class=\"article-body__section\" id=\"section-all-world-of-stands-codes\"><span>All World of Stands codes</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><di"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "World of Stands codes (November 2026) and how to redeem them for Arrows and more",
+        "secondary_keywords": [
+          "World of Stands codes (November 2026) and how to redeem them for Arrows and more date de sortie",
+          "World of Stands codes (November 2026) and how to redeem them for Arrows and more plateformes",
+          "World of Stands codes (November 2026) and how to redeem them for Arrows and more gameplay",
+          "World of Stands codes (November 2026) and how to redeem them for Arrows and more guide",
+          "World of Stands codes (November 2026) and how to redeem them for Arrows and more avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "World of Stands codes (November 2026) and how to redeem them for Arrows and more"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-doom-studio-id-software-confirms-it-s-working-on-a-new--a281083e4f38",
+      "topic": "Doom studio id Software confirms it's working on a new game",
+      "detected_at": "2026-11-12T21:36:02.663664+00:00",
+      "analysed_at": "2026-11-21T20:40:02.194889+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/",
+          "title": "Doom studio id Software confirms it's working on a new game",
+          "evidence": "<article> <p>Doom developer id Software has confirmed that it's working on a new game, although in phrasing that might strike you as familiar, it'll be \"some time\" before it's ready to reveal anything.</p><p>The new project at id was first announced by Xbox CEO Asha Sharma, who's been making a few posts on X today to mark the looming 25<sup>th</sup> anniversary of the original Xbox console. \"Few studios have shaped the first-person shooter genre as much as id Software,\" Sharma wrote. \"Slaughter Mode comes to Doom: The Dark Ages - Revelations on Monday, and the team is already working on its next game.\"</p><p>\"Already\" might be stretching it a bit: The studio's previous game, <a href=\"https://www.pcgamer.com/doom-the-dark-ages/\" target=\"_blank\">Doom: The Dark Ages</a>, came out well over a year ago, although the Revelations expansion only dropped in July. Regardless, the studio replied to Sharma's post to confirm that yes, a new game is coming.</p><p>\"We're incredibly excited about our next project, a new game from our teams in Texas and Frankfurt, with game direction once again by Hugo Martin,\" the studio said. \"It'll be some time before we're ready to share more but we can't wait "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Doom studio id Software confirms it's working on a new game",
+        "secondary_keywords": [
+          "Doom studio id Software confirms it's working on a new game date de sortie",
+          "Doom studio id Software confirms it's working on a new game plateformes",
+          "Doom studio id Software confirms it's working on a new game gameplay",
+          "Doom studio id Software confirms it's working on a new game guide",
+          "Doom studio id Software confirms it's working on a new game avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Doom studio id Software confirms it's working on a new game"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-paradox-interactive-is-getting-a-new-boss-as-fredrik-we-fa398cb01e96",
+      "topic": "Paradox Interactive is getting a new boss as Fredrik Wester steps down for the second time",
+      "detected_at": "2026-11-12T21:36:02.663885+00:00",
+      "analysed_at": "2026-11-21T20:40:02.194913+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/paradox-interactive-is-getting-a-new-boss-as-fredrik-wester-steps-down-for-the-second-time/",
+          "title": "Paradox Interactive is getting a new boss as Fredrik Wester steps down for the second time",
+          "evidence": "<article> <p>Paradox Interactive is getting a new boss: Deputy CEO Mattias Lilja will take over from current CEO Fredrik Wester in January 2027, a move Paradox said \"is a natural evolution of how the company is already led.\"</p><p>\"My plan was never to be CEO for life. The goal was to build the foundation before passing the baton on for the next chapter in the company’s journey,\" Wester said in today's <a href=\"https://www.paradoxinteractive.com/media/press-releases/paradox-interactive/mattias-lilja-takes-over-as-ceo-and-will-lead-paradox-interactive-ab-publ-to-its-next-level\" target=\"_blank\">announcement</a>.</p><p>\"Since I returned as CEO, we’ve streamlined our strategy, rebuilt our pipeline and developed our commercial offering. Mattias has had a central role in laying this foundation, and now is the right time to hand over. Given his experience and vision, he is exceptionally well positioned to take the company to its next level.\"</p><p>As his statement implies, this is his second tenure as Paradox CEO: He held the position from 2009 to 2018, when he resigned and was replaced by Ebba Ljungerud. But Ljungerud's tenure was rocky, and she resigned in 2021 over \"differing views on "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Paradox Interactive is getting a new boss as Fredrik Wester steps down for the second time",
+        "secondary_keywords": [
+          "Paradox Interactive is getting a new boss as Fredrik Wester steps down for the second time date de sortie",
+          "Paradox Interactive is getting a new boss as Fredrik Wester steps down for the second time plateformes",
+          "Paradox Interactive is getting a new boss as Fredrik Wester steps down for the second time gameplay",
+          "Paradox Interactive is getting a new boss as Fredrik Wester steps down for the second time guide",
+          "Paradox Interactive is getting a new boss as Fredrik Wester steps down for the second time avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Paradox Interactive is getting a new boss as Fredrik Wester steps down for the second time"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-south-korean-game-rating-board-almost-blocked-gta-6-s-r-8b152acf39cf",
+      "topic": "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order'",
+      "detected_at": "2026-11-12T21:36:02.664191+00:00",
+      "analysed_at": "2026-11-21T20:40:02.194938+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/south-korean-game-rating-board-almost-blocked-gta-6s-release-fearing-its-out-of-context-genital-nudity-would-disrupt-social-order/",
+          "title": "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order'",
+          "evidence": "<article> <p>Grand Theft Auto 6 has been granted an Adults Only rating in South Korea by the country's <a href=\"https://www.gcrb.or.kr/English/default.aspx\" target=\"_blank\">Game Content Rating Board</a>. But in the weeks preceding that decision, the board had nearly refused to issue the game an age rating—effectively leaving it ineligible for sale in South Korea—due to ratings officials' concerns that GTA 6 might be way too comfortable hanging unprompted hog.</p><p>According to GCRB meeting minutes obtained by South Korean outlet <a href=\"https://www.invenglobal.com/articles/28517/gta-6-came-close-to-rating-refusal-in-south-korea\" target=\"_blank\">Inven</a> (via <a href=\"https://kotaku.com/gta-6-south-korea-for-featuring-too-many-out-of-context-penises-rockstar-2000756253\">Kotaku</a>), GTA 6 required a total of three ratings reviews, in which committee members repeatedly debated the presence of what they described as \"out-of-context genital nudity\"—a perception that seemed to have been informed by the leaked GTA 6 developer build footage circulated by <a href=\"https://www.pcgamer.com/games/grand-theft-auto/who-is-cyberleek-what-we-know-about-the-gta-6-leaker/\" target=\"_blank\">crypto"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order'",
+        "secondary_keywords": [
+          "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order' date de sortie",
+          "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order' plateformes",
+          "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order' gameplay",
+          "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order' guide",
+          "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-xbox-ceo-looks-to-the-future-as-microsoft-s-console-tur-aae108e9e398",
+      "topic": "Xbox CEO looks to the future as Microsoft's console turns 25: 'A single person will soon be able to wield capabilities that once required entire nations'",
+      "detected_at": "2026-11-12T21:36:02.664449+00:00",
+      "analysed_at": "2026-11-21T20:40:02.194969+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/xbox-ceo-looks-to-the-future-as-microsofts-console-turns-25-a-single-person-will-soon-be-able-to-wield-capabilities-that-once-required-entire-nations/",
+          "title": "Xbox CEO looks to the future as Microsoft's console turns 25: 'A single person will soon be able to wield capabilities that once required entire nations'",
+          "evidence": "<article> <p>In a message marking the <a href=\"https://news.xbox.com/en-us/2026/11/12/25-years-of-xbox/\" target=\"_blank\">25th anniversary of the first Xbox console</a>, Xbox CEO Asha Sharma predicts that the future of gaming will look much like its beginning, \"when a small team with a big idea could change how the world plays.\" And even though the term never actually appears in her post, yeah, I'm pretty sure she's talking about AI.</p><p>Sharma's message kicks off with a blast from the early days of Microsoft, beginning with a look at Microsoft Adventure, an adaptation of Colossal Cave \"that looked more like MS-DOS than an early version of Minecraft,\" and the first-ever Microsoft staff photo that showcases some absolutely <em>spectacular </em>hair. From there it's a quick trip through Microsoft Flight Simulator, Quake, DirectX, and then in 2001, the original Xbox. </p><p>Naturally, there's a tribute to the \"generations of employees, studios, developers, and partners\" who helped create and grow Xbox, and the people who have played on various generations of consoles over the years. </p><p>\"Since joining Xbox, I've heard stories of friendships that began over a session and lasted a l"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Xbox CEO looks to the future as Microsoft's console turns 25: 'A single person will soon be able to wield capabilities that once required entire nations'",
+        "secondary_keywords": [
+          "Xbox CEO looks to the future as Microsoft's console turns 25: 'A single person will soon be able to wield capabilities that once required entire nations' date de sortie",
+          "Xbox CEO looks to the future as Microsoft's console turns 25: 'A single person will soon be able to wield capabilities that once required entire nations' plateformes",
+          "Xbox CEO looks to the future as Microsoft's console turns 25: 'A single person will soon be able to wield capabilities that once required entire nations' gameplay",
+          "Xbox CEO looks to the future as Microsoft's console turns 25: 'A single person will soon be able to wield capabilities that once required entire nations' guide",
+          "Xbox CEO looks to the future as Microsoft's console turns 25: 'A single person will soon be able to wield capabilities that once required entire nations' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Xbox CEO looks to the future as Microsoft's console turns 25: 'A single person will soon be able to wield capabilities that once required entire nations'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-21T20:40:02.194975+00:00",
+  "updated_at": "2026-11-22T10:18:41.141073+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -31114,6 +31114,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Xbox CEO looks to the future as Microsoft's console turns 25: 'A single person will soon be able to wield capabilities that once required entire nations'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huang-s--04f598d3af8e",
+      "topic": "Nvidia stocks jump back up after ex-CEO Jensen Huang's ousting",
+      "detected_at": "2026-11-12T21:36:02.665633+00:00",
+      "analysed_at": "2026-11-22T10:18:41.140804+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/",
+          "title": "Nvidia stocks jump back up after ex-CEO Jensen Huang's ousting",
+          "evidence": "<article> <p>This week has been a mess for Nvidia, with its CEO, Jensen Huang, <a href=\"https://www.pcgamer.com/gaming-industry/nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-chinese-spy-as-company-board-launches-investigation/\" target=\"_blank\">admitting to an affair on Sunday</a>, only for a <a href=\"https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/\" target=\"_blank\">second affair allegation to come out </a><a href=\"https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/\" target=\"_blank\">yesterday</a>. Today, <a href=\"https://www.pcgamer.com/hardware/nvidia-stock-price-plunges-amid-second-jensen-huang-affair-allegation-the-ai-company-could-be-set-to-lose-hundreds-of-billions-in-value/\" target=\"_blank\">Nvidia shares started as low as $151</a> in pre-market trading, but have since bounced back to between $163 and $166 in the opening hours of Nasdaq trading after the announcement of <a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-resigns-cfo-colette-kress-appointed-interim-ceo-at-nvidia/\" target=\"_blank\">Jensen Huang's retirement as"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Nvidia stocks jump back up after ex-CEO Jensen Huang's ousting",
+        "secondary_keywords": [
+          "Nvidia stocks jump back up after ex-CEO Jensen Huang's ousting date de sortie",
+          "Nvidia stocks jump back up after ex-CEO Jensen Huang's ousting plateformes",
+          "Nvidia stocks jump back up after ex-CEO Jensen Huang's ousting gameplay",
+          "Nvidia stocks jump back up after ex-CEO Jensen Huang's ousting guide",
+          "Nvidia stocks jump back up after ex-CEO Jensen Huang's ousting avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Nvidia stocks jump back up after ex-CEO Jensen Huang's ousting"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-next-nvidia-ceo-has-to-have-national-security-as-a-top--b8bbd4ae5a99",
+      "topic": "Next Nvidia CEO has to have national security as a 'top priority' says chairman of US Gov committee on China – claims Huang departure 'could have been avoided'",
+      "detected_at": "2026-11-12T21:36:02.665790+00:00",
+      "analysed_at": "2026-11-22T10:18:41.140882+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/next-nvidia-ceo-has-to-have-national-security-as-a-top-priority-says-chairman-of-us-gov-committee-on-china-claims-huang-departure-could-have-been-avoided/",
+          "title": "Next Nvidia CEO has to have national security as a 'top priority' says chairman of US Gov committee on China – claims Huang departure 'could have been avoided'",
+          "evidence": "<article> <p>The dust hasn't even settled yet after <a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/\" target=\"_blank\">Jensen Huang's resignation as Nvidia CEO</a>, and the US government is already making it pretty clear where it stands on who gets the job next.</p><p><a href=\"https://www.pcgamer.com/hardware/who-is-colette-kress-nvidias-new-interim-ceo/\" target=\"_blank\">Nvidia CFO Colette Kress</a> has taken up the role of CEO following Huang's departure, but only on an interim basis. The Nvidia board will have to decide on a full-time replacement to take over from Huang, who had led the company since its founding in 1993.</p><p>The chairman of the Select Committee on the Chinese Communist Party, John Moolenaar, has <a href=\"https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-statement-on-jensen-huang-s-resignation-from-nvidia\" target=\"_blank\">put out a statement</a> on the high-profile departure. It reads:</p><p>“Jensen Huang’s firing from the company he founded is an unfortunate end that could have been avoided.\"</p><p>\"It is in our national interest for Nvidia and our other AI champions to succeed, but American companies should never"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Next Nvidia CEO has to have national security as a 'top priority' says chairman of US Gov committee on China – claims Huang departure 'could have been avoided'",
+        "secondary_keywords": [
+          "Next Nvidia CEO has to have national security as a 'top priority' says chairman of US Gov committee on China – claims Huang departure 'could have been avoided' date de sortie",
+          "Next Nvidia CEO has to have national security as a 'top priority' says chairman of US Gov committee on China – claims Huang departure 'could have been avoided' plateformes",
+          "Next Nvidia CEO has to have national security as a 'top priority' says chairman of US Gov committee on China – claims Huang departure 'could have been avoided' gameplay",
+          "Next Nvidia CEO has to have national security as a 'top priority' says chairman of US Gov committee on China – claims Huang departure 'could have been avoided' guide",
+          "Next Nvidia CEO has to have national security as a 'top priority' says chairman of US Gov committee on China – claims Huang departure 'could have been avoided' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Next Nvidia CEO has to have national security as a 'top priority' says chairman of US Gov committee on China – claims Huang departure 'could have been avoided'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-m-a-big-zach-cregger-fan-angela-sant-albano-gushes-ab-0d04125107ab",
+      "topic": "'I'm a big Zach Cregger fan': Angela Sant'Albano gushes about the Resident Evil movie and likens Bryan to her own Grace Ashcroft",
+      "detected_at": "2026-11-12T21:36:02.666018+00:00",
+      "analysed_at": "2026-11-22T10:18:41.140936+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/resident-evil/im-a-big-zach-cregger-fan-angela-santalbano-gushes-about-the-resident-evil-movie-and-likens-bryan-to-her-own-grace-ashcroft/",
+          "title": "'I'm a big Zach Cregger fan': Angela Sant'Albano gushes about the Resident Evil movie and likens Bryan to her own Grace Ashcroft",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/uk/resident-evil-requiem/\">Resident Evil Requiem's</a> director, Koshi Nakanishi, once said that <a href=\"https://www.pcgamer.com/games/horror/no-one-wants-to-see-leon-scared-resident-evil-9-requiem-director-admits-that-leon-kennedy-is-just-too-cool-to-be-the-protagonist-of-a-horror-game/\">putting Leon Kennedy in a horror game simply wouldn't work</a> because \"he wouldn't jump at something like a bucket falling. No one wants to see Leon scared by everything\". And he was right, I couldn't have felt safer with Leon in Requiem. Grace on the other hand, we were decidedly less safe in her hands. </p><p>But that didn't mean I enjoyed my time with her any less. While Leon's segments in Requiem were pure unbridled feel-good action, Grace found herself in one exhilaratingly stressful situation after another, not unlike another Resident Evil protagonist who rocked up this year. I'm of course talking about Bryan Hodukavich from Zach Cregger's Resident Evil movie.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"va"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'I'm a big Zach Cregger fan': Angela Sant'Albano gushes about the Resident Evil movie and likens Bryan to her own Grace Ashcroft",
+        "secondary_keywords": [
+          "'I'm a big Zach Cregger fan': Angela Sant'Albano gushes about the Resident Evil movie and likens Bryan to her own Grace Ashcroft date de sortie",
+          "'I'm a big Zach Cregger fan': Angela Sant'Albano gushes about the Resident Evil movie and likens Bryan to her own Grace Ashcroft plateformes",
+          "'I'm a big Zach Cregger fan': Angela Sant'Albano gushes about the Resident Evil movie and likens Bryan to her own Grace Ashcroft gameplay",
+          "'I'm a big Zach Cregger fan': Angela Sant'Albano gushes about the Resident Evil movie and likens Bryan to her own Grace Ashcroft guide",
+          "'I'm a big Zach Cregger fan': Angela Sant'Albano gushes about the Resident Evil movie and likens Bryan to her own Grace Ashcroft avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'I'm a big Zach Cregger fan': Angela Sant'Albano gushes about the Resident Evil movie and likens Bryan to her own Grace Ashcroft"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-who-is-colette-kress-nvidia-s-new-interim-ceo-371f0c083cef",
+      "topic": "Who is Colette Kress, Nvidia's new interim CEO?",
+      "detected_at": "2026-11-12T21:36:02.666264+00:00",
+      "analysed_at": "2026-11-22T10:18:41.140962+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/who-is-colette-kress-nvidias-new-interim-ceo/",
+          "title": "Who is Colette Kress, Nvidia's new interim CEO?",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/\" target=\"_blank\">Jensen Huang has resigned</a>, and in his place is a familiar face for anyone that's listened to one of Nvidia's financial calls: it's the company's long-standing CFO, Colette Kress.</p><p>But you might be excused as a gamer for never hearing about her; an earnings call isn't everybody's cup of tea.</p><p>Colette Kress has been <a href=\"https://nvidianews.nvidia.com/bios/colette-kress\" target=\"_blank\">chief financial officer at Nvidia since 2013</a>. That's 13 years sat alongside Jensen in calls with investors and financial institutions to discuss how the company is doing. Kress has been in the role for the record highs of recent years, and the not-so-record lows of others, like the price plummets of '25, '21, and '18.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-XZP2AW\"></div> </div> <script src=\"https://kwizly.com/embed/XZP2AW.js\" async=\"\"></script><p>Prior to her role at Nvidia, Kress was SVP and CFO at Cisco for a couple of years and Corporate VP at Microsoft for nearly five. She also "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Who is Colette Kress, Nvidia's new interim CEO?",
+        "secondary_keywords": [
+          "Who is Colette Kress, Nvidia's new interim CEO? date de sortie",
+          "Who is Colette Kress, Nvidia's new interim CEO? plateformes",
+          "Who is Colette Kress, Nvidia's new interim CEO? gameplay",
+          "Who is Colette Kress, Nvidia's new interim CEO? guide",
+          "Who is Colette Kress, Nvidia's new interim CEO? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Who is Colette Kress, Nvidia's new interim CEO?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wolfenstein-3-is-in-production-at-machinegames-136e4742859f",
+      "topic": "Wolfenstein 3 is in production at MachineGames",
+      "detected_at": "2026-11-13T09:59:31.670334+00:00",
+      "analysed_at": "2026-11-22T10:18:41.140984+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/wolfenstein-3-is-in-production-at-machinegames/",
+          "title": "Wolfenstein 3 is in production at MachineGames",
+          "evidence": "<article> <p>Earlier this year, Xbox CEO Asha Sharma <a href=\"https://www.pcgamer.com/games/the-elder-scrolls/xboxs-ceo-teased-that-shes-seen-the-elder-scrolls-6-so-now-we-have-to-guess-what-its-called/\">revealed on Twitter</a> that she'd seen The Elder Scrolls 6. Now, she's announcing that MachineGames is making Wolfenstein 3 with a photo of the script attached to a tweet. I don't miss E3, but it feels like a step down in terms of spectacle to go from on-stage trailer reveals to an executive just tweeting it out.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2121030203439010175\"><p lang=\"en\" dir=\"ltr\">Wolfenstein 3 is officially in production at @MachineGames. One of gaming's most important franchises, and a team that has done remarkable work bringing it forward. Looking forward to sharing more. https://t.co/YyX8LrbTvh<a href=\"https://twitter.com/cantworkitout/status/2121030203439010175\">November 12, 2026</a></p></blockquote></figure><div class=\"see-more__filter\"></div></div><p>MachineGames followed up a few minutes later with their own <a href=\"https://x.com/machinegam"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Wolfenstein 3 is in production at MachineGames",
+        "secondary_keywords": [
+          "Wolfenstein 3 is in production at MachineGames date de sortie",
+          "Wolfenstein 3 is in production at MachineGames plateformes",
+          "Wolfenstein 3 is in production at MachineGames gameplay",
+          "Wolfenstein 3 is in production at MachineGames guide",
+          "Wolfenstein 3 is in production at MachineGames avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Wolfenstein 3 is in production at MachineGames"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-new-4-minute-fable-gameplay-trailer-shows-a-game-that-d-b4a4153dda18",
+      "topic": "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable",
+      "detected_at": "2026-11-13T09:59:31.670519+00:00",
+      "analysed_at": "2026-11-22T10:18:41.141012+00:00",
+      "scores": {
+        "durability": 12,
+        "search_intent": 15,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 65,
+      "decision": "REVIEW",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rpg/new-4-minute-fable-gameplay-trailer-shows-a-game-that-doesnt-look-much-like-fable/",
+          "title": "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable",
+          "evidence": "<article> <p>The upcoming <a href=\"https://www.pcgamer.com/fable-4-reboot-guide/\" target=\"_blank\">Fable</a> reboot is set to launch on February 23, 2027, and with that date growing inexorably closer Xbox has dropped a new gameplay trailer showcasing four minutes of heroic questing across a rather grim-looking slice of Albion.</p><p>The trailer shows off a little bit of everything: some cinematics, some chitchat, the UI, and of course plenty of combat: melee, ranged, and even a bit of magic. </p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2120955243790057796\"><p lang=\"en\" dir=\"ltr\">Today we're sharing four minutes of new @fable gameplay. It's been a long road to bring this franchise back, and I'm proud of the work Playground Games is doing. Take a look. https://t.co/q74VcEt5xE<a href=\"https://twitter.com/cantworkitout/status/2120955243790057796\">November 12, 2026</a></p></blockquote></figure><div class=\"see-more__filter\"></div></div><p>From the listing on <a href=\"https://www.youtube.com/watch?v=Tnsp2xlU5ts\" target=\"_blank\">YouTube</a>: </p><p>\"The Hero of Briar Hill has e"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable",
+        "secondary_keywords": [
+          "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable date de sortie",
+          "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable plateformes",
+          "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable gameplay",
+          "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable guide",
+          "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-palworld-developer-pocketpair-gives-employees-time-off--093d2fea49ee",
+      "topic": "Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches'",
+      "detected_at": "2026-11-13T09:59:31.670690+00:00",
+      "analysed_at": "2026-11-22T10:18:41.141038+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/palworld-developer-pocketpair-gives-employees-time-off-for-a-5-day-business-trip-in-vice-city-when-gta-6-launches/",
+          "title": "Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches'",
+          "evidence": "<article> <p>Amid the countless PTO requests and conspicuously-timed doctor appointment notices targeting November 19, one game studio's employees have been absolved of the need to provide themselves an alibi on Grand Theft Auto 6's launch day. Pocketpair <a href=\"https://x.com/Palworld_EN/status/2120864259907452930?a=loFbHIy9eN-R7RNSm5A&s=20\" target=\"_blank\">announced on X</a> today that all of its employees \"have been granted special leave to attend to an urgent five-day business trip in Vice City when GTA 6 launches.\"</p><p>\"On November 19, millions of gamers around the world will find themselves sitting at school or work, gazing longingly out the window, knowing that a new era of gaming is about to begin,\" Pocketpair wrote in a memo announcing the company holiday. \"At Pocketpair, we believe such a historic occasion deserves our full attention.\"</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2120864259907452930\"><p lang=\"en\" dir=\"ltr\">All Pocketpair employees have been granted special leave to attend to an urgent five-day business trip in Vice City when GTA6 launches.P"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches'",
+        "secondary_keywords": [
+          "Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches' date de sortie",
+          "Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches' plateformes",
+          "Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches' gameplay",
+          "Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches' guide",
+          "Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-trump-says-the-only-man-who-should-replace-ex-nvidia-ce-aaf87a471a68",
+      "topic": "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame",
+      "detected_at": "2026-11-13T09:59:31.670914+00:00",
+      "analysed_at": "2026-11-22T10:18:41.141068+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/trump-says-the-only-man-who-should-replace-ex-nvidia-ceo-jensen-huang-is-tim-cook-of-apple-fame/",
+          "title": "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame",
+          "evidence": "<article> <p>With <a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/\">Jensen Huang stepping down from Nvidia </a>amid <a href=\"https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/\" target=\"_blank\">a second affair allegation</a> coming yesterday, Nvidia will be looking for a new permanent CEO, with Interim CEO Colette Kress taking over for now. There will no doubt be lots of names thrown out over the coming weeks, and current US President Donald Trump has joined the pile, insisting the AI company hire ex-Apple CEO Tim Cook. </p><p>Taking to <a href=\"https://truthsocial.com/@realDonaldTrump\" target=\"_blank\">Truth Social</a>, he says, \"NOW THAT Nvidia CEO JENSEN HUANG, who has done a fantastic job, has resigned, there is only one man to take his place - TIM COOK of Apple. A Legend replaces a Legend!\"</p><p>Tim Cook became the CEO of Apple on August 24, 2011, famously taking over for Steve Jobs, the founder of the company. <a href=\"https://www.pcgamer.com/hardware/tim-cook-hands-over-apples-usd4-trillion-reins-to-the-perfect-person-for-the-job-hardware-engineering-svp-john-ternus/\" target=\"_blank\">"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame",
+        "secondary_keywords": [
+          "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame date de sortie",
+          "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame plateformes",
+          "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame gameplay",
+          "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame guide",
+          "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

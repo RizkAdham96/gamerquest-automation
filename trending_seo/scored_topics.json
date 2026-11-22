@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-22T10:18:41.141073+00:00",
+  "updated_at": "2026-11-22T20:49:51.433535+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -31426,6 +31426,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-fear-not-nvidians-the-man-who-wrote-the-book-on-nvidia--b248d45feaf1",
+      "topic": "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang",
+      "detected_at": "2026-11-13T09:59:31.671466+00:00",
+      "analysed_at": "2026-11-22T20:49:51.433375+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/fear-not-nvidians-the-man-who-wrote-the-book-on-nvidia-says-the-companys-success-doesnt-rely-on-jensen-huang/",
+          "title": "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang",
+          "evidence": "<article> <div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2120658109471330596\"><p lang=\"en\" dir=\"ltr\">There is also one excellent external candidate who has been very successful outside of Nvidia and offers both technical expertise and solid business management experience. Employees loved working for him. Either one would be great.<a href=\"https://twitter.com/cantworkitout/status/2120658109471330596\">November 11, 2026</a></p></blockquote></figure><div class=\"see-more__filter\"></div></div><p>We thought it might be coming, and it's here: <a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-resigns-cfo-colette-kress-appointed-interim-ceo-at-nvidia/\" target=\"_blank\">Jensen Huang is no longer CEO of Nvidia</a>, as he has resigned following <a href=\"https://www.pcgamer.com/gaming-industry/nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-chinese-spy-as-company-board-launches-investigation/\" target=\"_blank\">an admitted affair</a>, and an <a href=\"https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/\" "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang",
+        "secondary_keywords": [
+          "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang date de sortie",
+          "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang plateformes",
+          "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang gameplay",
+          "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang guide",
+          "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Fear not, Nvidians, the man who wrote the book on Nvidia says the company's success doesn't rely on Jensen Huang"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-jensen-huang-leaving-nvidia-is-not-a-good-thing-for-pc--798c8e22a8f2",
+      "topic": "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why",
+      "detected_at": "2026-11-13T09:59:31.671682+00:00",
+      "analysed_at": "2026-11-22T20:49:51.433421+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-leaving-nvidia-is-not-a-good-thing-for-pc-gaming-and-ill-tell-you-why/",
+          "title": "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why",
+          "evidence": "<article> <p>Jensen Huang has <a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/\" target=\"_blank\">resigned from his position as Nvidia CEO</a>. That's such an odd sentence to write, as a huge part of my career as a tech journalist has revolved around covering Nvidia, its graphics cards, and its leather-jacketed chief.</p><p>As I write this article, I'm already seeing reactions on social media from PC gamers. Some are shocked, some are indifferent, and some appear to be celebrating. In terms of the latter, I'd imagine that's because the ex-Nvidia boss has become one of the most recognisable figures behind the great AI revolution, which, err, <em>isn't popular</em> within our hobby, to say the least.</p><p>Not only that, but <a href=\"\" target=\"_blank\">RAM is ludicrously expensive, with storage</a> not far behind. And graphics cards, Nvidia's gaming bread and butter? The <a href=\"https://www.pcgamer.com/hardware/graphics-cards/graphics-card-wholesale-prices-are-on-the-rise-once-again-in-china-so-its-time-to-brace-yourself-for-even-more-gpu-pricing-pain/\" target=\"_blank\">price increases</a> recently have been mind-boggling. All of these things are, in the main"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why",
+        "secondary_keywords": [
+          "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why date de sortie",
+          "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why plateformes",
+          "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why gameplay",
+          "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why guide",
+          "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Jensen Huang leaving Nvidia is not a good thing for PC gaming, and I’ll tell you why"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-conor-mcgregor-picked-up-and-flipped-a-call-of-duty-dev-608a5357f8ad",
+      "topic": "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is'",
+      "detected_at": "2026-11-13T09:59:31.671877+00:00",
+      "analysed_at": "2026-11-22T20:49:51.433445+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/call-of-duty/conor-mcgregor-picked-up-and-flipped-a-call-of-duty-dev-during-the-making-of-infinite-warfare-i-wanted-him-to-do-something-really-physical-to-demonstrate-how-capable-he-is/",
+          "title": "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is'",
+          "evidence": "<article> <p>Call of Duty doesn't have much luck with its stunt casting. Two years after Infinity Ward put Kevin Spacey in Advanced Warfare—before he was accused of sexual assault—it turned MMA fighter Conor McGregor into a future soldier, Captain Bradley Fillion, in <a href=\"https://www.pcgamer.com/uk/call-of-duty-infinite-warfare/\" target=\"_blank\">Infinite Warfare</a>. </p><p>McGregor's role was quite small, despite being one of the game's antagonists, and ended in his character's demise, but co-directors Jordan Hirsh and Taylor Kurosaki didn't want to cut any corners when it came to the mo-cap. </p><p>At the time, co-directors Hirsh and Kurosaki were trying to shake things up in regards to mo-cap. \"I think that the folks at Infinity Ward probably thought I was a little crazy when I came in,\" Kurosaki tells us. \"I think for every game they had done before that, you would maybe do some mocap or a cool takedown or a finisher, and then you'd have actors that would come into a VO booth and you'd have them come in one at a time and they'd read their lines and it’d be stitched together and then you're done. And they built a performance capture stage specifically for this project.\"</p><"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is'",
+        "secondary_keywords": [
+          "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is' date de sortie",
+          "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is' plateformes",
+          "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is' gameplay",
+          "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is' guide",
+          "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Conor McGregor picked up and flipped a Call of Duty dev during the making of Infinite Warfare: 'I wanted him to do something really physical, to demonstrate how capable he is'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-s-new-riverglades-zone-feels-more-like-the--8e3dbf90a898",
+      "topic": "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that",
+      "detected_at": "2026-11-13T09:59:31.672102+00:00",
+      "analysed_at": "2026-11-22T20:49:51.433463+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-new-riverglades-zone-feels-more-like-the-burning-crusade-than-classic-and-you-know-what-im-absolutely-okay-with-that/",
+          "title": "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that",
+          "evidence": "<article> <p>So I've been utterly consumed by WoW: Forever, which is a relief, because it's my job to write about it—and I've been powering ahead to 40, where a deeply oldschool grind to get my first mount awaits me. Before that, though, I had an absolutely lovely time futzing around The Riverglades, one of WoW: Forever's properly <em>bespoke </em>zones. As in, this thing wasn't in vanilla. This was cooked up and released in November.</p><p>Having quested through most of it in a blissful fugue state with some friends, we each came to the conclusion that it all feels very 2007, rather than 2006. </p><p>The Riverglades, which you can head to at about level 38, is saturated with quests. Even more so than the revamped and revisited zones from vanilla World of Warcraft. And while it absolutely has the classic zone's sense of scale, and none of these quests have the retail aura of on-rails cutscenes about them, I wasn't actually tasting <em>vanilla</em>. </p><figure role=\"gallery\"><figure><img src=\"https://cdn.mos.cms.futurecdn.net/n4NYbVqmz34dkzcdkUCuzA-1920-80.png\" alt=\"The Twilight's Blade hangs around a ominous tree in the Riverglades in WoW: Forever.\" /><figcaption><small role=\"cred"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that",
+        "secondary_keywords": [
+          "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that date de sortie",
+          "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that plateformes",
+          "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that gameplay",
+          "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that guide",
+          "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever's new Riverglades zone feels more like The Burning Crusade+ than Classic+, and you know what, I'm absolutely okay with that"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-nvidia-got-into-this-mess-timeline-of-jensen-huang--0795ef36ea25",
+      "topic": "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it",
+      "detected_at": "2026-11-13T09:59:31.672689+00:00",
+      "analysed_at": "2026-11-22T20:49:51.433479+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/how-nvidia-got-into-this-mess-timeline-of-jensen-huang-scandal-and-geopolitics-leading-up-to-it/",
+          "title": "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it",
+          "evidence": "<article> <p>Nvidia is the talk of the world right now. The company's co-founder <a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/\" target=\"_blank\">Jensen Huang has been ousted from the company</a>, following claims of multiple affairs: one said to be with a suspected Chinese intelligence asset, and another an alleged with an executive at Nvidia. </p><p>These events and more had put pressure on the company's board to consider ousting the co-founder and CEO, who has now been replaced by CFO Colette Kress acting as interim CEO; at least until a suitable replacement can be found.</p><p>To better understand these events, the wider context of what's at stake, and why chip smuggling and export controls are also a part of the conversation, check out our timeline below.</p><h2 class=\"article-body__section\" id=\"section-october-29\"><span>October 29</span></h2><p><a href=\"https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html\" target=\"_blank\">New York Times report</a> on Jensen Huang's unclear relationship with an alleged Chinese spy, Alice Huang.</p><p>Alice Huang was the managing director of Megaspeed, a datacentre company in Singapore"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it",
+        "secondary_keywords": [
+          "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it date de sortie",
+          "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it plateformes",
+          "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it gameplay",
+          "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it guide",
+          "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How Nvidia got into this mess: timeline of Jensen Huang scandal and geopolitics leading up to it"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-jensen-huang-resigns-cfo-colette-kress-appointed-interi-b05896721396",
+      "topic": "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia",
+      "detected_at": "2026-11-13T09:59:31.672807+00:00",
+      "analysed_at": "2026-11-22T20:49:51.433494+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-resigns-cfo-colette-kress-appointed-interim-ceo-at-nvidia/",
+          "title": "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia",
+          "evidence": "<article> <p>Jensen Huang has resigned from his role as CEO and president of Nvidia. He will be replaced by interim CEO, Colette Kress, who had previously worked as the company's CFO for a long stretch.</p><p>\"Nvidia Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately,\" a statement on Nvidia's newsroom says.</p><p>Jensen Huang has been embroiled in a scandal, or rather a couple of scandals, over the past few weeks. </p><p>First, <a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen-huangs-affair-with-alleged-chinese-spy-highlights-how-the-gpu-companys-dealings-are-now-everyones-business/\" target=\"_blank\">an affair to which he later admitted</a>; suggested to have been with a datacentre company executive suspected of working for Chinese intelligence.</p><p>Second, <a href=\"https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/\" target=\"_blank\">another alleged affair</a>, this time with an executive at Nvidia.</p><p>The markets may get spooked by the announcement, as Huang was a co-founder of the business (founded"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia",
+        "secondary_keywords": [
+          "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia date de sortie",
+          "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia plateformes",
+          "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia gameplay",
+          "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia guide",
+          "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Jensen Huang resigns, CFO Colette Kress appointed interim CEO at Nvidia"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-a-survival-game-we-once-called-stalker-and-tarkov-s-ali-6cceeab0f749",
+      "topic": "A survival game we once called 'Stalker and Tarkov's alien baby' is closing down less than a year after launch",
+      "detected_at": "2026-11-13T20:59:08.320552+00:00",
+      "analysed_at": "2026-11-22T20:49:51.433511+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/a-survival-game-we-once-called-stalker-and-tarkovs-alien-baby-is-closing-down-less-than-a-year-after-launch/",
+          "title": "A survival game we once called 'Stalker and Tarkov's alien baby' is closing down less than a year after launch",
+          "evidence": "<article> <p>Pioner, a survival-shooter we said looked like \"<a href=\"https://www.pcgamer.com/this-russian-retro-futurist-survival-game-looks-like-stalker-and-tarkovs-alien-baby/\" target=\"_blank\">Stalker and Tarkov's alien baby</a>\" when we first laid eyes on it in 2021, is ending development and closing down. In an <a href=\"https://steamcommunity.com/games/3105890/announcements/detail/695403626868245016?snr=2___\" target=\"_blank\">announcement</a> posted today on Steam, developer GFAGames said further work on the game and continued operation of its servers requires more money, and it just doesn't have any.</p><p>\"Over the past few months, we have been in talks with existing and potential partners about investment and new ways of working together that would allow us to preserve the project and the team,\" the studio wrote. </p><p>\"We were unable to agree on the funding needed to continue the project. The studio no longer has sufficient funds of its own to continue development and keep the servers running.\"</p><p>Pioner looked promising when it turned up at the <a href=\"https://www.pcgamer.com/pioner-looks-like-a-different-twist-on-stalker-and-im-here-for-it-comrade/\" target=\"_blank\">P"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "A survival game we once called 'Stalker and Tarkov's alien baby' is closing down less than a year after launch",
+        "secondary_keywords": [
+          "A survival game we once called 'Stalker and Tarkov's alien baby' is closing down less than a year after launch date de sortie",
+          "A survival game we once called 'Stalker and Tarkov's alien baby' is closing down less than a year after launch plateformes",
+          "A survival game we once called 'Stalker and Tarkov's alien baby' is closing down less than a year after launch gameplay",
+          "A survival game we once called 'Stalker and Tarkov's alien baby' is closing down less than a year after launch guide",
+          "A survival game we once called 'Stalker and Tarkov's alien baby' is closing down less than a year after launch avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "A survival game we once called 'Stalker and Tarkov's alien baby' is closing down less than a year after launch"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-microsoft-deeply-apologizes-for-global-service-outage-s-e25532eb1108",
+      "topic": "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame",
+      "detected_at": "2026-11-13T20:59:08.320879+00:00",
+      "analysed_at": "2026-11-22T20:49:51.433532+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/microsoft-deeply-apologizes-for-global-service-outage-says-no-ai-or-hackers-are-to-blame/",
+          "title": "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame",
+          "evidence": "<article> <p>Microsoft has <a href=\"https://x.com/Microsoft/status/2121282013600907325?a=9rudEOY-as6SiqQbjtI&s=20\" target=\"_blank\">issued an apology</a> for the <a href=\"https://www.pcgamer.com/software/security/microsoft-says-there-is-no-evidence-of-malicious-activity-being-the-cause-of-the-global-service-outage-affecting-governments-and-organisations-around-the-world/\" target=\"_blank\">global services outage</a> that began on November 12, which disrupted access to Microsoft 365 products for governments, hospitals, schools, and businesses around the world. The corporation says that neither AI nor malicious actors were at fault, but that the outage occurred as a result of an underlying infrastructural issue introduced during a network upgrade.</p><p>\"We are deeply sorry for the disruption this incident has caused our customers and partners. We know the trust they place in our services and take that responsibility extremely seriously,\" Microsoft said. \"We are seeing broad recovery and stability across our services.\"</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/21212820136"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame",
+        "secondary_keywords": [
+          "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame date de sortie",
+          "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame plateformes",
+          "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame gameplay",
+          "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame guide",
+          "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-22T20:49:51.433535+00:00",
+  "updated_at": "2026-11-23T11:17:14.469752+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -31738,6 +31738,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Microsoft ‘deeply’ apologizes for global service outage, says no AI or hackers are to blame"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-overwatch-s-creative-director-accidentally-leaks-the-na-4e947f669719",
+      "topic": "Overwatch's creative director accidentally leaks the name of season 6's upcoming hero and reveals that he 'got the highest scores of any hero that we've tested'",
+      "detected_at": "2026-11-13T20:59:08.322379+00:00",
+      "analysed_at": "2026-11-23T11:17:14.469542+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/overwatchs-creative-director-accidentally-leaks-the-name-of-season-6s-upcoming-hero-and-reveals-that-he-got-the-highest-scores-of-any-hero-that-weve-tested/",
+          "title": "Overwatch's creative director accidentally leaks the name of season 6's upcoming hero and reveals that he 'got the highest scores of any hero that we've tested'",
+          "evidence": "<article> <p>Earlier this year, during the <a href=\"https://www.pcgamer.com/uk/overwatch/\">Overwatch</a> Spotlight in which Team 4 promised a different approach to managing the live service game, 10 heroes were teased. <a href=\"https://www.pcgamer.com/games/fps/overwatchs-biggest-season-ever-kicks-off-with-5-new-heroes-all-at-once-including-a-cat-with-a-jetpack-who-can-toss-you-off-the-map/\">Five were released straight away</a>, with Sierra, Shion, D.Mon, and Doctrine all being added to the game in subsequent seasons. This has left just one hero for the last season of the year, who also just so happened to be the hero I was most excited about back when the Spotlight was released. </p><p>But good things come to those who wait, and now after the better part of a year we finally know more about this final hero. His character design was shown at BlizzCon, which showed him to be omnic detective (my hype was well placed), but now we also know that he'll be joining the DPS class in season 6, although that wasn't always the plan.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-wi"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Overwatch's creative director accidentally leaks the name of season 6's upcoming hero and reveals that he 'got the highest scores of any hero that we've tested'",
+        "secondary_keywords": [
+          "Overwatch's creative director accidentally leaks the name of season 6's upcoming hero and reveals that he 'got the highest scores of any hero that we've tested' date de sortie",
+          "Overwatch's creative director accidentally leaks the name of season 6's upcoming hero and reveals that he 'got the highest scores of any hero that we've tested' plateformes",
+          "Overwatch's creative director accidentally leaks the name of season 6's upcoming hero and reveals that he 'got the highest scores of any hero that we've tested' gameplay",
+          "Overwatch's creative director accidentally leaks the name of season 6's upcoming hero and reveals that he 'got the highest scores of any hero that we've tested' guide",
+          "Overwatch's creative director accidentally leaks the name of season 6's upcoming hero and reveals that he 'got the highest scores of any hero that we've tested' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Overwatch's creative director accidentally leaks the name of season 6's upcoming hero and reveals that he 'got the highest scores of any hero that we've tested'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-22-years-after-the-hot-coffee-controversy-uk-politician-427387651d6c",
+      "topic": "22 years after the Hot Coffee controversy, UK politician says Grand Theft Auto 6 is 'something that we can be really proud of'",
+      "detected_at": "2026-11-13T20:59:08.322719+00:00",
+      "analysed_at": "2026-11-23T11:17:14.469587+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/22-years-after-the-hot-coffee-controversy-uk-politician-says-grand-theft-auto-6-is-something-that-we-can-be-really-proud-of/",
+          "title": "22 years after the Hot Coffee controversy, UK politician says Grand Theft Auto 6 is 'something that we can be really proud of'",
+          "evidence": "<article> <p>It's fascinating how things change. I. for instance, used to love staying up all night playing videogames; now I get mad at the world if I miss my bedtime by 10 minutes. In kind of a similar vein, Grand Theft Auto was once the poster child for everything insidious, dangerous, and <a href=\"https://www.pcgamer.com/grand-theft-auto-controversies/\" target=\"_blank\">downright <em>wrong</em></a><em> </em>about videogames, but now we have a member of the UK government—a secretary of state, no less—talking about how the upcoming Grand Theft Auto 6 is something the whole country should be proud of.</p><p>\"My love for videogames knows no bounds, and I am an avid addict of things like Animal Crossing and the Mario series,\" Lisa Nandy, the UK's secretary of state for digital, culture, media, and sport, told The Rundown. \"I'm not sure I get away with taking a day off to do it, but I think it's something that we can be really proud of.</p><p>\"One of the reasons that we're investing in arts and music and all of those things that give people the chance to live richer, larger lives is because we are creating jobs in these incredible industries. And if you want to make a videogame like G"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "22 years after the Hot Coffee controversy, UK politician says Grand Theft Auto 6 is 'something that we can be really proud of'",
+        "secondary_keywords": [
+          "22 years after the Hot Coffee controversy, UK politician says Grand Theft Auto 6 is 'something that we can be really proud of' date de sortie",
+          "22 years after the Hot Coffee controversy, UK politician says Grand Theft Auto 6 is 'something that we can be really proud of' plateformes",
+          "22 years after the Hot Coffee controversy, UK politician says Grand Theft Auto 6 is 'something that we can be really proud of' gameplay",
+          "22 years after the Hot Coffee controversy, UK politician says Grand Theft Auto 6 is 'something that we can be really proud of' guide",
+          "22 years after the Hot Coffee controversy, UK politician says Grand Theft Auto 6 is 'something that we can be really proud of' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "22 years after the Hot Coffee controversy, UK politician says Grand Theft Auto 6 is 'something that we can be really proud of'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-season-10-has-been-a-challenging-one-for-us-marvel-riva-8ebac69f283a",
+      "topic": "'Season 10 has been a challenging one for us': Marvel Rivals is upgrading Storm's summer skin after favouritism complaints",
+      "detected_at": "2026-11-13T20:59:08.322961+00:00",
+      "analysed_at": "2026-11-23T11:17:14.469611+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/season-10-has-been-a-challenging-one-for-us-marvel-rivals-is-upgrading-storms-summer-skin-after-favouritism-complaints/",
+          "title": "'Season 10 has been a challenging one for us': Marvel Rivals is upgrading Storm's summer skin after favouritism complaints",
+          "evidence": "<article> <p>Skin distribution seems to be an issue in pretty much any game with more than one hero and clear favourites. <a href=\"https://www.pcgamer.com/marvel-rivals/\">Marvel Rivals</a> has come under fire for it for a while now, ever since players got wise to which heroes were favourites and which had clearly been shoved to the side. </p><p>It all came to a head a few months ago when the summer skins were released, and it was revealed that Storm was the only female hero to not get a legendary costume among all the swimsuit designs. <a href=\"https://www.reddit.com/r/marvelrivals/comments/1vvkbjm/why_the_storm_skin_controversy_was_addressed_so/\" target=\"_blank\">Players did not look upon this favourably</a>, as Storm is a hugely popular character and had already gone a long time without the same kind of legendary skins as other heroes like Luna Snow and had been passed over for skins in the Disco and Egyptian God skin lines. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"cignQhCHEH2w3ijW"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'Season 10 has been a challenging one for us': Marvel Rivals is upgrading Storm's summer skin after favouritism complaints",
+        "secondary_keywords": [
+          "'Season 10 has been a challenging one for us': Marvel Rivals is upgrading Storm's summer skin after favouritism complaints date de sortie",
+          "'Season 10 has been a challenging one for us': Marvel Rivals is upgrading Storm's summer skin after favouritism complaints plateformes",
+          "'Season 10 has been a challenging one for us': Marvel Rivals is upgrading Storm's summer skin after favouritism complaints gameplay",
+          "'Season 10 has been a challenging one for us': Marvel Rivals is upgrading Storm's summer skin after favouritism complaints guide",
+          "'Season 10 has been a challenging one for us': Marvel Rivals is upgrading Storm's summer skin after favouritism complaints avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'Season 10 has been a challenging one for us': Marvel Rivals is upgrading Storm's summer skin after favouritism complaints"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-chipmaking-giant-tsmc-discovers-major-employee-data-lea-62f10b5cbcdc",
+      "topic": "Chipmaking giant TSMC discovers major employee data leak—reports say info was up for sale for three bitcoin on shady forums",
+      "detected_at": "2026-11-13T20:59:08.323217+00:00",
+      "analysed_at": "2026-11-23T11:17:14.469664+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/chipmaking-giant-tsmc-discovers-major-employee-data-leak-reports-say-info-was-up-for-sale-for-three-bitcoin-on-shady-forums/",
+          "title": "Chipmaking giant TSMC discovers major employee data leak—reports say info was up for sale for three bitcoin on shady forums",
+          "evidence": "<article> <p>TSMC, the juggernaut that produces roughly 90% of the world's most advanced chips, has discovered a data leak said to contain over 46,000 employee records, according to <a href=\"https://seekingalpha.com/news/4671436-tsmc-discovers-data-on-thousands-of-current-former-employees-leaked-to-external-website\" target=\"_blank\">Seeking Alpha</a>.</p><p>The company made <a href=\"https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm\" target=\"_blank\">a Form 6-K filing</a> with the US Securities and Exchange Commission on Thursday, stating: \"TSMC has found that some of our current and former employee data was made available on an external website without authorization. Currently, we have found no evidence that TSMC’s systems have been compromised.\"</p><p>The company says the info has been verified to match data \"stored in the system services of a cloud service provider,\" although said provider is not named. TSMC says it has informed those impacted by the breach and is providing support, and has also engaged with the cloud service vendor, investigating authorities, and a third-party cybersecurity agency to \"ascertain the facts and take nec"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Chipmaking giant TSMC discovers major employee data leak—reports say info was up for sale for three bitcoin on shady forums",
+        "secondary_keywords": [
+          "Chipmaking giant TSMC discovers major employee data leak—reports say info was up for sale for three bitcoin on shady forums date de sortie",
+          "Chipmaking giant TSMC discovers major employee data leak—reports say info was up for sale for three bitcoin on shady forums plateformes",
+          "Chipmaking giant TSMC discovers major employee data leak—reports say info was up for sale for three bitcoin on shady forums gameplay",
+          "Chipmaking giant TSMC discovers major employee data leak—reports say info was up for sale for three bitcoin on shady forums guide",
+          "Chipmaking giant TSMC discovers major employee data leak—reports say info was up for sale for three bitcoin on shady forums avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Chipmaking giant TSMC discovers major employee data leak—reports say info was up for sale for three bitcoin on shady forums"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-intel-takes-massive-chunk-out-of-amd-s-desktop-cpu-mark-7bee21e52633",
+      "topic": "Intel takes massive chunk out of AMD's desktop CPU market share in unexpected turnaround - may be due to the red team's dominance in gaming chips, weirdly",
+      "detected_at": "2026-11-13T20:59:08.323569+00:00",
+      "analysed_at": "2026-11-23T11:17:14.469685+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/processors/intel-takes-massive-chunk-out-of-amds-desktop-cpu-market-share-in-unexpected-turnaround-may-be-due-to-the-red-teams-dominance-in-gaming-chips-weirdly/",
+          "title": "Intel takes massive chunk out of AMD's desktop CPU market share in unexpected turnaround - may be due to the red team's dominance in gaming chips, weirdly",
+          "evidence": "<article> <p>Intel appears to have gained market share from AMD in a rare turnaround for the company. The red team's chips have been in the lead in performance and popularity for many years now, and frankly, they still are. That's what weird about this one: AMD may have lost ground because it makes the <a href=\"https://www.pcgamer.com/best-cpu-for-gaming\" target=\"_blank\">best CPUs for gaming</a>.</p><p>The latest Q3, 2026 data from market researchers <a href=\"https://www.mercuryresearch.com/\" target=\"_blank\">Mercury Research</a> suggests an increase in market share for desktop CPUs of 5.1%. Now, considering AMD has fought tooth and nail for a decade to increase its share to around 35% as of Q2, 2026, dropping down to just 29.9% in the following three months marks a gargantuan lurch back towards Intel. </p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-XZP2AW\"></div> </div> <script src=\"https://kwizly.com/embed/XZP2AW.js\" async=\"\"></script><p>Our pick for the best gaming CPU is the <a href=\"https://www.pcgamer.com/hardware/processors/amd-ryzen-7-9800x3d-review/\" target=\"_blank\">AMD Ryzen 7 9800X3D</a>, and many other AMD chips make up our recommendations. While we d"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Intel takes massive chunk out of AMD's desktop CPU market share in unexpected turnaround - may be due to the red team's dominance in gaming chips, weirdly",
+        "secondary_keywords": [
+          "Intel takes massive chunk out of AMD's desktop CPU market share in unexpected turnaround - may be due to the red team's dominance in gaming chips, weirdly date de sortie",
+          "Intel takes massive chunk out of AMD's desktop CPU market share in unexpected turnaround - may be due to the red team's dominance in gaming chips, weirdly plateformes",
+          "Intel takes massive chunk out of AMD's desktop CPU market share in unexpected turnaround - may be due to the red team's dominance in gaming chips, weirdly gameplay",
+          "Intel takes massive chunk out of AMD's desktop CPU market share in unexpected turnaround - may be due to the red team's dominance in gaming chips, weirdly guide",
+          "Intel takes massive chunk out of AMD's desktop CPU market share in unexpected turnaround - may be due to the red team's dominance in gaming chips, weirdly avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Intel takes massive chunk out of AMD's desktop CPU market share in unexpected turnaround - may be due to the red team's dominance in gaming chips, weirdly"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-reddit-tells-me-it-s-not-going-to-make-a-penny-in-affil-f9c68b6c0539",
+      "topic": "Reddit tells me it’s not going to make a penny in affiliates from Reddit Reviews and is working hard to avoid inauthentic content",
+      "detected_at": "2026-11-13T20:59:08.323807+00:00",
+      "analysed_at": "2026-11-23T11:17:14.469712+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/reddit-tells-me-its-not-going-to-make-a-penny-in-affiliates-from-reddit-reviews-and-is-working-hard-to-avoid-inauthentic-content/",
+          "title": "Reddit tells me it’s not going to make a penny in affiliates from Reddit Reviews and is working hard to avoid inauthentic content",
+          "evidence": "<article> <p>A couple of days ago I <a href=\"https://www.pcgamer.com/hardware/no-more-need-to-slap-reddit-on-the-end-of-your-google-searches-as-reddit-reviews-is-here-to-amalgamate-everyones-thoughts/\" target=\"_blank\">reported that Reddit is rolling out reviews</a> for different products, informed by Redditors' thoughts and molded by AI into into dedicated review pages for these products. Given Reddit says \"many reviews also include images, prices, and purchase links\", I wondered whether Reddit would be making any affiliate money from this. Well, I now have an answer: the company tells us it will not receive a cut.</p><p>In an email sent to me, a Reddit rep explains: \"Reddit Reviews is an organic experience, and Reddit does not receive a cut of any purchases made through the buy it now button on product pages.\"</p><p>Not that I would have had a massive problem with this—PC Gamer earns affiliate revenue itself—but I suppose it's good to know there won't be a financial incentive there at least in that respect. And it does at least tie in with the aimed \"organic\" nature of Reddit in general.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-XZP2AW\"></div> </div> <scri"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Reddit tells me it’s not going to make a penny in affiliates from Reddit Reviews and is working hard to avoid inauthentic content",
+        "secondary_keywords": [
+          "Reddit tells me it’s not going to make a penny in affiliates from Reddit Reviews and is working hard to avoid inauthentic content date de sortie",
+          "Reddit tells me it’s not going to make a penny in affiliates from Reddit Reviews and is working hard to avoid inauthentic content plateformes",
+          "Reddit tells me it’s not going to make a penny in affiliates from Reddit Reviews and is working hard to avoid inauthentic content gameplay",
+          "Reddit tells me it’s not going to make a penny in affiliates from Reddit Reviews and is working hard to avoid inauthentic content guide",
+          "Reddit tells me it’s not going to make a penny in affiliates from Reddit Reviews and is working hard to avoid inauthentic content avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Reddit tells me it’s not going to make a penny in affiliates from Reddit Reviews and is working hard to avoid inauthentic content"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-yes-some-brave-games-are-still-launching-on-steam-durin-01b0c90d936d",
+      "topic": "Yes, some brave games are still launching on Steam during GTA 6 week",
+      "detected_at": "2026-11-14T09:24:48.702918+00:00",
+      "analysed_at": "2026-11-23T11:17:14.469730+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/yes-some-brave-games-are-still-launching-on-steam-during-gta-6-launch-week/",
+          "title": "Yes, some brave games are still launching on Steam during GTA 6 week",
+          "evidence": "<article> <p>Though it might seem hard to believe given its inescapability, not everyone is going to be playing GTA 6 next week. Some might be waiting for its eventual PC release (whenever that ends up being). Others might simply be unwilling to spend over a thousand dollars on a console just to enjoy the privilege.</p><p>Most publishers and developers releasing a videogame this season, however, have opted to vacate the GTA 6 blast radius—but not all of them. If you're looking for something new to play next week, you'll be pleased to know there <em>are </em>some brave games still launching on Steam. Here are some options to consider if you <em>aren't </em>dropping into Vice City:</p><h2 id=\"crusader-kings-3-silk-and-silver\">Crusader Kings 3: Silk and Silver</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"vX4bunbXqfUKgihhRktUQT\" name=\"ss_55bc14b09bc224bf5600080e50c8fb50a8580632.1920x1080\" alt=\"A player chooses their trade company's purpose in Crusader Kings 3: Silk and Silver.\" src=\"https:/"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Yes, some brave games are still launching on Steam during GTA 6 week",
+        "secondary_keywords": [
+          "Yes, some brave games are still launching on Steam during GTA 6 week date de sortie",
+          "Yes, some brave games are still launching on Steam during GTA 6 week plateformes",
+          "Yes, some brave games are still launching on Steam during GTA 6 week gameplay",
+          "Yes, some brave games are still launching on Steam during GTA 6 week guide",
+          "Yes, some brave games are still launching on Steam during GTA 6 week avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Yes, some brave games are still launching on Steam during GTA 6 week"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-don-t-like-ai-in-games-crimson-desert-studio-pearl-abys-395a236c03a4",
+      "topic": "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline'",
+      "detected_at": "2026-11-14T09:24:48.703127+00:00",
+      "analysed_at": "2026-11-23T11:17:14.469748+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/dont-like-ai-in-games-crimson-desert-studio-pearl-abyss-aint-care-its-expanding-ai-use-throughout-our-entire-development-pipeline/",
+          "title": "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline'",
+          "evidence": "<article> <p>Earlier this year, Pearl Abyss apologized for the presence of AI-generated art in Crimson Desert—not because it had used generative AI, mind, but because players saw it. And it seems like the odds we might see more of it in the future are going up, as the studio said in its <a href=\"https://www.pearlabyss.com/en-US/Board/Detail?_boardNo=15330\" target=\"_blank\">Q3 2026 earnings letter</a> (via <a href=\"https://www.eurogamer.net/crimson-desert-ai-pipeline-dokev-2028\" target=\"_blank\">Eurogamer</a>) that it will be going even deeper on AI-powered development in the future.</p><p>The first reference to AI comes midway through the letter: \"While we previously validated game systems only after implementing them manually, we now utilize AI to rapidly validate diverse design concepts prior to actual implementation,\" it states. \"This enables a more efficient allocation of development resources and enhances overall production speed.\"</p><p>The studio immediately clarified, though, that AI \"serves strictly as a tool to support concept validation and pipeline productivity,\" and that gameplay and content development \"remain fully driven by our development team.\"</p><p>The future will"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline'",
+        "secondary_keywords": [
+          "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline' date de sortie",
+          "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline' plateformes",
+          "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline' gameplay",
+          "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline' guide",
+          "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

@@ -1,31 +1,31 @@
 {
-  "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-  "carousel_version": "885338781b714014911c4b8aedbb29a0d29f9bc90d9ce2914cde3afe85a2d74c",
+  "source_id": "cf385e5adb89fa066cb1e3841b5b828266b78ddd6aa5028c3c989a3080bd1416",
+  "carousel_version": "041899ed6f483faa02b11b718c55ac11fdde0773f8dbba94fbc0afe57761425c",
   "image_urls": [
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01-3.png",
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02-3.png",
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03-3.png"
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01-4.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02-4.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03-4.png"
   ],
   "master_spec_version": "gamerquest-carousel-v3",
   "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
   "media_ids": [
-    1077,
-    1078,
-    1079
+    1085,
+    1086,
+    1087
   ],
-  "prepared_at_utc": "2026-11-22T18:40:42.677854Z",
+  "prepared_at_utc": "2026-11-23T22:54:38.809242Z",
   "social_output": {
     "status": "ready",
     "fact_checked": true,
-    "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-    "source_title": "FINAL FANTASY VII REBIRTH à -85% sur Steam",
+    "source_id": "cf385e5adb89fa066cb1e3841b5b828266b78ddd6aa5028c3c989a3080bd1416",
+    "source_title": "Detroit: Become Human à -90% sur Steam",
     "score": 75.5,
     "idea": {
-      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-      "topic": "FINAL FANTASY VII REBIRTH à -85 % sur Steam",
-      "angle": "Promotion exceptionnelle : le jeu passe de 49,99 € à 7,49 €",
+      "source_id": "cf385e5adb89fa066cb1e3841b5b828266b78ddd6aa5028c3c989a3080bd1416",
+      "topic": "Detroit: Become Human à -90% sur Steam",
+      "angle": "Promotion exceptionnelle : le jeu narratif à prix mini",
       "format": "deal_alert",
-      "hook": "⚡️ -85 % sur FINAL FANTASY VII REBIRTH ! Profitez du prix choc de 7,49 € avant la fin de l’offre.",
+      "hook": "⚡️ -90% sur Detroit: Become Human ! De 39,99 € à seulement 3,99 € sur Steam. Profitez-en maintenant !",
       "freshness": 9,
       "click_potential": 9,
       "curiosity": 6,
@@ -35,42 +35,50 @@
       "total_score": 75.5
     },
     "carousel": {
-      "topic": "FINAL FANTASY VII REBIRTH à -85 % sur Steam",
-      "angle": "Promotion exceptionnelle : le jeu passe de 49,99 € à 7,49 €",
+      "topic": "Detroit: Become Human à -90% sur Steam",
+      "angle": "Promotion exceptionnelle : le jeu narratif à prix mini",
       "format": "deal_alert",
-      "hook": "⚡️ -85 % sur FINAL FANTASY VII REBIRTH ! Profitez du prix choc de 7,49 € avant la fin de l’offre.",
+      "hook": "⚡️ -90% sur Detroit: Become Human ! De 39,99 € à seulement 3,99 € sur Steam. Profitez-en maintenant !",
       "score": 75.5,
       "slides": [
         {
-          "title": "⚡️ -85 % sur FINAL FANTASY VII REBIRTH !",
-          "body": "Réduction de 85 % sur Steam, le prix passe de 49,99 € à 7,49 €.",
-          "visual_prompt": "Close‑up of the FINAL FANTASY VII REBIRTH game cover, dramatic lighting, with a floating discount badge"
+          "title": "⚡️ -90 % sur Detroit: Become Human !",
+          "body": "Une offre choc qui fait baisser le prix à 3,99 €.",
+          "visual_prompt": "Capture d'écran du jeu Detroit: Become Human montrant l'univers futuriste, ambiance sombre, sans texte ni logo."
         },
         {
-          "title": "Prix passé de 49,99 € à 7,49 €",
-          "body": "Le jeu est actuellement à -85 % sur Steam, passant de 49,99 € à seulement 7,49 €.",
-          "visual_prompt": "Steam storefront screenshot showing the price reduction for FINAL FANTASY VII REBIRTH, without any overlay text"
+          "title": "Prix passé de 39,99 € à 3,99 €",
+          "body": "Le jeu narratif est maintenant à -90 % sur Steam, soit seulement 3,99 € au lieu de 39,99 €.",
+          "visual_prompt": "Scène emblématique du jeu avec les trois protagonistes, éclairage dramatique, style cinématographique."
         },
         {
-          "title": "Promotion sur Steam",
-          "body": "Consultez les détails de l'offre sur GamerQuest.fr.",
-          "visual_prompt": "Timer or hourglass graphic next to the FINAL FANTASY VII REBIRTH cover, suggesting urgency"
+          "title": "Offre disponible dès maintenant",
+          "body": "Profitez de cette réduction immédiate sur Steam. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Image du bouton 'Acheter' de Steam en surbrillance, fond neutre, sans texte ajouté."
         }
       ],
-      "caption": "Profitez d'une réduction de 85 % sur FINAL FANTASY VII REBIRTH, le prix chute à 7,49 € !",
-      "cta": "Lire la suite sur GamerQuest.fr",
+      "caption": "Ne manquez pas cette occasion unique de plonger dans l'aventure interactive de Detroit: Become Human à prix mini ! 🎮",
+      "cta": "Découvrez l'offre sur GamerQuest.fr",
       "hashtags": [
-        "#GamerQuest"
+        "#GamerQuest",
+        "#DealSteam",
+        "#DetroitBecomeHuman",
+        "#PromotionJeux",
+        "#GamingFrance"
       ],
       "website_url": "https://gamerquest.fr",
       "brand": "GamerQuest",
-      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb"
+      "source_id": "cf385e5adb89fa066cb1e3841b5b828266b78ddd6aa5028c3c989a3080bd1416"
     },
-    "caption": "Profitez d'une réduction de 85 % sur FINAL FANTASY VII REBIRTH, le prix chute à 7,49 € !",
+    "caption": "Ne manquez pas cette occasion unique de plonger dans l'aventure interactive de Detroit: Become Human à prix mini ! 🎮",
     "hashtags": [
-      "#GamerQuest"
+      "#GamerQuest",
+      "#DealSteam",
+      "#DetroitBecomeHuman",
+      "#PromotionJeux",
+      "#GamingFrance"
     ],
-    "cta": "Lire la suite sur GamerQuest.fr",
-    "repair_attempts": 1
+    "cta": "Découvrez l'offre sur GamerQuest.fr",
+    "repair_attempts": 0
   }
 }

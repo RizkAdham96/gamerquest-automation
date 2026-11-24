@@ -1,0 +1,76 @@
+{
+  "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
+  "carousel_version": "79c7f60290669e900fcc984aeb3e68b611475747d2612edbeb369cc8565ec0f4",
+  "image_urls": [
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01-4.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02-4.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03-4.png"
+  ],
+  "master_spec_version": "gamerquest-carousel-v3",
+  "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
+  "media_ids": [
+    1093,
+    1094,
+    1095
+  ],
+  "prepared_at_utc": "2026-11-24T21:34:37.222919Z",
+  "social_output": {
+    "status": "ready",
+    "fact_checked": true,
+    "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
+    "source_title": "FINAL FANTASY VII REBIRTH à -85% sur Steam",
+    "score": 75.5,
+    "idea": {
+      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
+      "topic": "Réduction massive de FINAL FANTASY VII REBIRTH",
+      "angle": "Mettez en avant la remise de 85 % pour inciter les joueurs à profiter immédiatement de l’offre avant qu’elle n’expire.",
+      "format": "deal_alert",
+      "hook": "⚡️ -85 % sur FINAL FANTASY VII REBIRTH ! De 49,99 € à seulement 7,49 € – saisissez l’occasion avant qu’elle ne disparaisse !",
+      "freshness": 9,
+      "click_potential": 9,
+      "curiosity": 6,
+      "shareability": 7,
+      "originality": 5,
+      "gamerquest_relevance": 10,
+      "total_score": 75.5
+    },
+    "carousel": {
+      "topic": "Réduction massive de FINAL FANTASY VII REBIRTH",
+      "angle": "Mettez en avant la remise de 85 % pour inciter les joueurs à profiter immédiatement de l’offre avant qu’elle n’expire.",
+      "format": "deal_alert",
+      "hook": "⚡️ -85 % sur FINAL FANTASY VII REBIRTH ! De 49,99 € à seulement 7,49 € – saisissez l’occasion avant qu’elle ne disparaisse !",
+      "score": 75.5,
+      "slides": [
+        {
+          "title": "⚡️ -85 % sur FFVII Rebirth !",
+          "body": "Une offre choc à ne pas manquer.",
+          "visual_prompt": "Capture d'écran du jeu FINAL FANTASY VII REBIRTH avec un effet de réduction affiché, ambiance sombre et épique"
+        },
+        {
+          "title": "Prix : 7,49 € au lieu de 49,99 €",
+          "body": "Le jeu passe de 49,99 € à seulement 7,49 € grâce à une remise de 85 % sur Steam.",
+          "visual_prompt": "Affichage du prix original et du nouveau prix avec un pourcentage de remise, style minimaliste"
+        },
+        {
+          "title": "Découvrez les détails",
+          "body": "Cette réduction massive est disponible sur Steam. Lire la suite sur GamerQuest.fr.",
+          "visual_prompt": "Horloge ou sablier stylisé indiquant le temps qui s'écoule, fond rappelant l'univers du jeu"
+        }
+      ],
+      "caption": "Ne manquez pas cette remise exceptionnelle sur FINAL FANTASY VII REBIRTH ! 🎮💥",
+      "cta": "Lire la suite sur GamerQuest.fr",
+      "hashtags": [
+        "#GamerQuest"
+      ],
+      "website_url": "https://gamerquest.fr",
+      "brand": "GamerQuest",
+      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb"
+    },
+    "caption": "Ne manquez pas cette remise exceptionnelle sur FINAL FANTASY VII REBIRTH ! 🎮💥",
+    "hashtags": [
+      "#GamerQuest"
+    ],
+    "cta": "Lire la suite sur GamerQuest.fr",
+    "repair_attempts": 1
+  }
+}

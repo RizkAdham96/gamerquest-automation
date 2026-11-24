@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-24T12:56:16.944326+00:00",
+  "updated_at": "2026-11-24T23:38:09.461717+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -32672,6 +32672,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-marvel-legendary-2nd-edition-review-reboots-an-already--324e9e4f599f",
+      "topic": "Marvel Legendary 2nd Edition review: \"Reboots an already-great card game into something even better\"",
+      "detected_at": "2026-11-15T09:55:16.686797+00:00",
+      "analysed_at": "2026-11-24T23:38:09.461530+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/tabletop-gaming/marvel-legendary-2nd-edition-review/",
+          "title": "Marvel Legendary 2nd Edition review: \"Reboots an already-great card game into something even better\"",
+          "evidence": "<article> <p>When it comes to the deck building genre of card games, these popular options have featured all manner of different properties and styles over the years, with one of my favorites being Legendary: A Marvel Deck Building Game (henceforth referred simply as Marvel Legendary) from Upper Deck. In fact, this was where I first got my introduction to the deck builder landscape; ever since watching Wil Wheaton's Tabletop episode featuring it, this has been one of my go-to types of games to play. </p><p>Now, Upper Deck has released a new edition of the base Marvel Legendary, bringing with it some refinements and updates that the team has picked up in the past 14 years since the original box came out, along with fan-favorite mechanics that were introduced in later expansion content. All of this results in superior, yet still very familiar, new starting point for anyone wanting to assemble some Marvel heroes and save the day – and one of the <a href=\"https://www.gamesradar.com/best-card-games-compared/\">best card games</a> overall for Marvel fans.</p><h2 id=\"new-mask-same-task\">New mask, same task</h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><di"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Marvel Legendary 2nd Edition review: \"Reboots an already-great card game into something even better\"",
+        "secondary_keywords": [
+          "Marvel Legendary 2nd Edition review: \"Reboots an already-great card game into something even better\" date de sortie",
+          "Marvel Legendary 2nd Edition review: \"Reboots an already-great card game into something even better\" plateformes",
+          "Marvel Legendary 2nd Edition review: \"Reboots an already-great card game into something even better\" gameplay",
+          "Marvel Legendary 2nd Edition review: \"Reboots an already-great card game into something even better\" guide",
+          "Marvel Legendary 2nd Edition review: \"Reboots an already-great card game into something even better\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Marvel Legendary 2nd Edition review: \"Reboots an already-great card game into something even better\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-epic-s-tim-sweeney-says-steam-s-ai-rule-is-unfair-to-de-63feb3be0b7d",
+      "topic": "Epic's Tim Sweeney says Steam's AI rule is \"unfair to developers who use AI to make good games\"",
+      "detected_at": "2026-11-15T09:55:16.687139+00:00",
+      "analysed_at": "2026-11-24T23:38:09.461579+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/epic-games-tim-sweeney-says-steams-ai-disclosure-is-unfair-to-developers-who-use-ai-to-make-good-games-because-it-associates-ai-with-bad-games/",
+          "title": "Epic's Tim Sweeney says Steam's AI rule is \"unfair to developers who use AI to make good games\"",
+          "evidence": "<article> <p>Epic Games CEO Tim Sweeney has been in a bit of a one-sided beef with Valve co-founder and CEO Gabe Newell for a while now, lately about Steam's AI disclosure that requires developers to include a label informing Steam users of AI-generated content. Sweeney has had a number of complaints about Valve's storefront over the years, which makes sense as he owns one of its main competitors, the Epic Games Store, but he's been doubling and tripling down on the AI disclosure issue as of late. In a new interview, he not only sharply rebukes the AI label, but embraces AI in game development to degree rarely seen by him or other industry leaders.</p><p>Talking to <a href=\"https://gamesbeat.com/epic-games-ceo-tim-sweeney-predicts-ai-revolution-in-gaming-with-10x-productivity-and-entirely-new-genres-if-devs-get-behind-it-exclusive/\" target=\"_blank\">GamesBeat</a>, Sweeney gives one of the most bullish takes on AI generation in games I've seen in my many years covering this topic. Get on-board or die, is essentially his perspective.</p><p>\"It's really clear to me that large-scale game developers–setting aside indies, where there's always going to be specialties and niches, large-scal"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Epic's Tim Sweeney says Steam's AI rule is \"unfair to developers who use AI to make good games\"",
+        "secondary_keywords": [
+          "Epic's Tim Sweeney says Steam's AI rule is \"unfair to developers who use AI to make good games\" date de sortie",
+          "Epic's Tim Sweeney says Steam's AI rule is \"unfair to developers who use AI to make good games\" plateformes",
+          "Epic's Tim Sweeney says Steam's AI rule is \"unfair to developers who use AI to make good games\" gameplay",
+          "Epic's Tim Sweeney says Steam's AI rule is \"unfair to developers who use AI to make good games\" guide",
+          "Epic's Tim Sweeney says Steam's AI rule is \"unfair to developers who use AI to make good games\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Epic's Tim Sweeney says Steam's AI rule is \"unfair to developers who use AI to make good games\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-nintendo-just-broke-the-zelda-timeline-by-10-000-years-55a5a0872ed6",
+      "topic": "Nintendo just broke the Zelda timeline by 10,000 years",
+      "detected_at": "2026-11-15T09:55:16.687397+00:00",
+      "analysed_at": "2026-11-24T23:38:09.461601+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-legend-of-zelda/nintendo-just-broke-the-zelda-timeline-by-10-000-years-as-it-reconfirms-a-contentious-tears-of-the-kingdom-theory/",
+          "title": "Nintendo just broke the Zelda timeline by 10,000 years",
+          "evidence": "<article> <p>The Legend of Zelda timeline has gotten yet another confusing new update, shifting the events leading to Breath of the Wild by 9,900 years and directly contradicting established lore. It's such an about-face for the existing story that series fans are <em>pretty</em> sure it's just a mistake, but the new word comes straight from Nintendo of America, which is often treated as gospel.</p><p>The Zelda timeline splits into three different branches based on the end of Ocarina of Time, but those branches all converge in the misty history leading up to the events of Breath of the Wild and Tears of the Kingdom. Earlier this year, Nintendo updated the Japanese version of the timeline and made clear that the founding of Hyrule depicted in flashback during Tears of the Kingdom <a href=\"https://www.gamesradar.com/games/the-legend-of-zelda/nintendo-has-quietly-updated-the-zelda-timeline-and-somehow-the-ocarina-of-time-remake-has-made-it-even-more-complicated/\">shows the start of a <em>new</em> Hyrule</a>, well after the one depicted in Ocarina of Time and other games has faded into history.</p><p>Now, Nintendo of America has updated the <a href=\"https://www.nintendo.com/us/explore/"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Nintendo just broke the Zelda timeline by 10,000 years",
+        "secondary_keywords": [
+          "Nintendo just broke the Zelda timeline by 10,000 years date de sortie",
+          "Nintendo just broke the Zelda timeline by 10,000 years plateformes",
+          "Nintendo just broke the Zelda timeline by 10,000 years gameplay",
+          "Nintendo just broke the Zelda timeline by 10,000 years guide",
+          "Nintendo just broke the Zelda timeline by 10,000 years avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Nintendo just broke the Zelda timeline by 10,000 years"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-we-tried-stealing-our-own-gta-6-physical-edition-codes--d1ba6ed3e5ce",
+      "topic": "We tried stealing our own GTA 6 physical edition codes, and you probably shouldn't worry",
+      "detected_at": "2026-11-15T09:55:16.687611+00:00",
+      "analysed_at": "2026-11-24T23:38:09.461626+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/we-tried-stealing-our-own-gta-6-physical-edition-codes-and-you-probably-shouldnt-worry-about-someone-getting-to-yours-first/",
+          "title": "We tried stealing our own GTA 6 physical edition codes, and you probably shouldn't worry",
+          "evidence": "<article> <p>\"Physical\" copies of GTA 6 started shipping out to early buyers this week, including several members of GamesRadar+ staff. As players start to worry that their codes may be stolen with a bizarre flashlight trick, we had to see if we could steal our own – and honestly, I wouldn't be too worried about the possibility.</p><p>Rockstar's approach to its code-in-box release of GTA 6 is slightly different from most publishers. Rather than including the game code printed on a slip of paper in the case, the code is printed inside the back cover art itself. <a href=\"https://www.reddit.com/r/GTA6unmoderated/comments/1xvdc2n/so_the_code_is_visible_from_outside_the_box_how/\" target=\"_blank\">Social media</a> is starting to be washed over with reports that if you shine a very bright flashlight <em>just</em> right into the edge of a GTA 6 case, you can make out the code without even breaking the seal on the game.</p><p>I tried the trick with my own US copy of the PS5 physical edition, and it did not work. There's a strip of camouflage patterning underneath the code that renders it unreadable from the opposite side no matter how bright a light you shine at it. My colleague Catherine tr"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "We tried stealing our own GTA 6 physical edition codes, and you probably shouldn't worry",
+        "secondary_keywords": [
+          "We tried stealing our own GTA 6 physical edition codes, and you probably shouldn't worry date de sortie",
+          "We tried stealing our own GTA 6 physical edition codes, and you probably shouldn't worry plateformes",
+          "We tried stealing our own GTA 6 physical edition codes, and you probably shouldn't worry gameplay",
+          "We tried stealing our own GTA 6 physical edition codes, and you probably shouldn't worry guide",
+          "We tried stealing our own GTA 6 physical edition codes, and you probably shouldn't worry avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "We tried stealing our own GTA 6 physical edition codes, and you probably shouldn't worry"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ps5-is-the-first-sony-console-to-hit-100-million-units--77a4c1304e24",
+      "topic": "PS5 is the first Sony console to hit 100 million units sold without a price cut",
+      "detected_at": "2026-11-15T09:55:16.687786+00:00",
+      "analysed_at": "2026-11-24T23:38:09.461647+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/ps5-is-the-first-sony-console-to-hit-100-million-units-sold-without-a-price-cut/",
+          "title": "PS5 is the first Sony console to hit 100 million units sold without a price cut",
+          "evidence": "<article> <p>Somehow, some way, the PS5 has been an extraordinary sales success despite launching in the middle of a global pandemic that caused massive supply chain issues and continuing on today amidst an unprecedented <a href=\"https://www.gamesradar.com/hardware/desktop-pc/ram-shortages-explained-why-the-worlds-supply-of-computing-memory-is-so-expensive-right-now/\">memory shortage</a> and economic headwinds driving hardware prices sky high. Despite it all, people are buying PS5s, and many of them.</p><p>Sony confirmed just this week that <a href=\"https://www.gamesradar.com/hardware/sony-confirms-the-ps5-is-closing-in-on-the-ps4-with-100-million-consoles-shipped-and-thats-despite-the-shortages-and-price-hikes/\">PS5 has hit an incredible milestone of 100 million units sold</a> in its six years on the market. That's not quite as fast as the PS2 or PS4, but it's a much more impressive achievement when you consider one crucial difference between the current-gen PlayStation and literally every other generation before it. Typically, games consoles decrease in price throughout their life cycles, but because of the disadvantages outlined above, the PS5 has only gotten more expensive, rig"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "PS5 is the first Sony console to hit 100 million units sold without a price cut",
+        "secondary_keywords": [
+          "PS5 is the first Sony console to hit 100 million units sold without a price cut date de sortie",
+          "PS5 is the first Sony console to hit 100 million units sold without a price cut plateformes",
+          "PS5 is the first Sony console to hit 100 million units sold without a price cut gameplay",
+          "PS5 is the first Sony console to hit 100 million units sold without a price cut guide",
+          "PS5 is the first Sony console to hit 100 million units sold without a price cut avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "PS5 is the first Sony console to hit 100 million units sold without a price cut"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-planeswalker-is-netflix-s-magic-the-gathering-series-an-ec7106680963",
+      "topic": "Planeswalker is Netflix's Magic: The Gathering series, and the sneak peek sure looks like Arcane",
+      "detected_at": "2026-11-15T09:55:16.687995+00:00",
+      "analysed_at": "2026-11-24T23:38:09.461666+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/animation-shows/planeswalker-is-netflixs-magic-the-gathering-series-and-the-sneak-peek-sure-looks-like-arcane/",
+          "title": "Planeswalker is Netflix's Magic: The Gathering series, and the sneak peek sure looks like Arcane",
+          "evidence": "<article> <p>Netflix has announced that Planeswalker, an animated series based on Magic: The Gathering, will debut in 2027. The first sneak peek doesn't show much, but it does suggest that the show is taking several pages from the streamer's wildly popular League of Legends series, Arcane.</p><p>The series \"chronicles the fierce clash between formidable mages known as Planeswalkers. At the center of this struggle for power and survival burns Chandra, a volatile pyromancer hunted for her gifts and haunted by her past,\" according to the official synopsis.</p><p>\"Confronted by an insidious force, Chandra and some of the most legendary Planeswalkers must harness their extraordinary abilities, navigate treacherous alliances, and battle their own inner demons to prevent a cataclysmic war that threatens to consume their very existence. As the line between victory and annihilation grows thinner, a single spark determines the fate of thousands of worlds.\"</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/5u4JESTNAFw\" allowfullscreen=\"\"></iframe></div></div><p>The video above is "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Planeswalker is Netflix's Magic: The Gathering series, and the sneak peek sure looks like Arcane",
+        "secondary_keywords": [
+          "Planeswalker is Netflix's Magic: The Gathering series, and the sneak peek sure looks like Arcane date de sortie",
+          "Planeswalker is Netflix's Magic: The Gathering series, and the sneak peek sure looks like Arcane plateformes",
+          "Planeswalker is Netflix's Magic: The Gathering series, and the sneak peek sure looks like Arcane gameplay",
+          "Planeswalker is Netflix's Magic: The Gathering series, and the sneak peek sure looks like Arcane guide",
+          "Planeswalker is Netflix's Magic: The Gathering series, and the sneak peek sure looks like Arcane avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Planeswalker is Netflix's Magic: The Gathering series, and the sneak peek sure looks like Arcane"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-are-you-more-of-an-ambient-music-enjoyer-or-theatrical--342b1b10ecc0",
+      "topic": "Are you more of an ambient music enjoyer or theatrical atmosphere appreciator?",
+      "detected_at": "2026-11-15T19:56:54.910580+00:00",
+      "analysed_at": "2026-11-24T23:38:09.461684+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/are-you-more-of-an-ambient-music-enjoyer-or-theatrical-atmosphere-appreciator/",
+          "title": "Are you more of an ambient music enjoyer or theatrical atmosphere appreciator?",
+          "evidence": "<article> <p>When World of Warcraft: Forever's beta first launched, I lamented its long stretches of silence and penchant for ambience over theatrics. I still <em>sort of </em>stand by that, but after spending more time in Azeroth (and discovering the loop music setting) I've a new-found appreciation for both WoW's soundtrack and ambient music as a whole.</p><p>It's also got me thinking about what makes a soundtrack ambient versus something more melodic. I'm chronically Final Fantasy 14-brained, where just about everything has a grand thematic soundtrack to it—the jauntiness of the Gold Saucer, the soothing Middle-earthness of Gridania's outer Shroud zones, the grand organs of Ishgard's bitterly cold landscape. You can't escape composer Masayoshi Soken's penchant for leifmotifs. He will turn anything into an orchestral spectacle.</p><p>I'm a big JRPG fan in general, a genre I think is the absolute master of thematic soundtracks. But I also think fondly of games I've played over the years that are a little more pared down, their soundtracks there for a little atmosphere rather than actively driving the narrative. Minecraft's OST is a masterclass in ambience, and is in regular rotati"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Are you more of an ambient music enjoyer or theatrical atmosphere appreciator?",
+        "secondary_keywords": [
+          "Are you more of an ambient music enjoyer or theatrical atmosphere appreciator? date de sortie",
+          "Are you more of an ambient music enjoyer or theatrical atmosphere appreciator? plateformes",
+          "Are you more of an ambient music enjoyer or theatrical atmosphere appreciator? gameplay",
+          "Are you more of an ambient music enjoyer or theatrical atmosphere appreciator? guide",
+          "Are you more of an ambient music enjoyer or theatrical atmosphere appreciator? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Are you more of an ambient music enjoyer or theatrical atmosphere appreciator?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-league-of-legends-will-get-an-overhaul-called-new-dawn--5dab79305ce7",
+      "topic": "League of Legends will get an overhaul called New Dawn with new visuals, build options, and an updated client",
+      "detected_at": "2026-11-15T19:56:54.910718+00:00",
+      "analysed_at": "2026-11-24T23:38:09.461712+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 84,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/moba/league-of-legends-will-get-an-overhaul-called-new-dawn-with-new-visuals-build-options-and-an-updated-client/",
+          "title": "League of Legends will get an overhaul called New Dawn with new visuals, build options, and an updated client",
+          "evidence": "<article> <p>Riot has announced a League of Legends overhaul that promises to touch every aspect of the game. </p><p>\"We want League to stand the test of time and be a game that's here for many years to come,\" said League Studio head Andrei \"Meddler\" van Roon in a <a href=\"https://youtu.be/vs3p3mNhRXo\">teaser trailer</a>. \"And there are a lot of things that need to be true to make that happen.\"</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/vs3p3mNhRXo\" allowfullscreen=\"\"></iframe></div></div><p>The headlining changes coming with the update, called New Dawn, are a \"modernized\" client, a graphical revamp for the 5v5 map Summoner's Rift (the last time this happened was <a href=\"https://www.pcgamer.com/summoners-rift-update-hits-league-of-legends-pbe/\">in 2014</a>), and \"new ways to play\" each champion. </p><p>While details are scarce in the teaser, some brief footage is shown where you can see what he's talking about: a Blitzcrank player selects what looks like a character-specific mastery tree labeled \"God Hand,\" and it cuts to him beating up an enemy in melee. Other "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "League of Legends will get an overhaul called New Dawn with new visuals, build options, and an updated client",
+        "secondary_keywords": [
+          "League of Legends will get an overhaul called New Dawn with new visuals, build options, and an updated client date de sortie",
+          "League of Legends will get an overhaul called New Dawn with new visuals, build options, and an updated client plateformes",
+          "League of Legends will get an overhaul called New Dawn with new visuals, build options, and an updated client gameplay",
+          "League of Legends will get an overhaul called New Dawn with new visuals, build options, and an updated client guide",
+          "League of Legends will get an overhaul called New Dawn with new visuals, build options, and an updated client avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "League of Legends will get an overhaul called New Dawn with new visuals, build options, and an updated client"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

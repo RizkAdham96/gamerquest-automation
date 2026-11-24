@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-11-24T01:53:50.862685+00:00",
+  "updated_at": "2026-11-24T12:56:16.478241+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -64,294 +64,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "rss-marvel-rivals-draws-a-line-in-the-sand-when-it-comes-to-c118bdb30d39",
-      "topic": "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix",
-      "detected_at": "2026-11-14T09:24:48.704660+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-draws-a-line-in-the-sand-when-it-comes-to-using-mods-and-configs-to-get-an-unfair-combat-advantage-but-that-doesnt-help-players-looking-for-a-stutter-fix/",
-          "title": "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix",
-          "evidence": "<article> <p>How far would you go to achieve decent frame rates? Well some <a href=\"https://www.pcgamer.com/uk/marvel-rivals/\">Marvel Rivals</a> players have been breaking the rules to try and give themselves a better shot of <a href=\"https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-players-are-messing-with-their-config-files-to-cancel-games-with-no-consequence-before-they-get-a-loss/\">having a sort of salvageable in-game experience</a>.</p><p>Sure, a lot of players using mods and configs are doing so to give themselves the \"unfair combat advantage\" that Guangyun Chen talks about, using it to dial down the map detail so enemy players stand out more or heightening environmental tells like footsteps. But that doesn't account for absolutely everyone within the community, with some changing their configs to try and remove the stuttering that can plague Marvel Rivals games. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"CvzSCXHqda5B4hr9FvSbdH\" name=\"marvel rivals blade ultimate"
-        }
-      ],
-      "keywords": [
-        "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix",
-        "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix date de sortie",
-        "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix plateformes",
-        "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix gameplay",
-        "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix guide",
-        "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-the-resignation-of-jensen-huang-from-nvidia-and-everyth-26cc094216a6",
-      "topic": "The resignation of Jensen Huang from Nvidia and everything that has followed",
-      "detected_at": "2026-11-14T09:24:48.705434+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/",
-          "title": "The resignation of Jensen Huang from Nvidia and everything that has followed",
-          "evidence": "<article> <div class=\"live-content\"><p>Nvidia's CEO, Jensen Huang, has resigned as President, CEO, and member of the board, effective immediately. That is the message which was posted yesterday morning on the <a href=\"https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition\" target=\"_blank\">Nvidia newsroom</a>.</p><p><strong></strong><a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/#section-latest-updates\"><strong>Get to the latest updates</strong></a><strong></strong></p><p>He has been at the centre of a big ol' scandal since last week, which threatened his position at the head of one of the biggest companies in the world. It started with a <a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen-huangs-affair-with-alleged-chinese-spy-highlights-how-the-gpu-companys-dealings-are-now-everyones-business/\" target=\"_blank\">report over his relationship with a suspected Chinese intelligence asset</a>, which moved into him emailing his entire workforce to say sorry that he's had an affair (though didn't name the person), an invite to talk to national security and foreign affairs officials in US Congress next week, and now reports of <a href=\"ht"
-        }
-      ],
-      "keywords": [
-        "The resignation of Jensen Huang from Nvidia and everything that has followed",
-        "The resignation of Jensen Huang from Nvidia and everything that has followed date de sortie",
-        "The resignation of Jensen Huang from Nvidia and everything that has followed plateformes",
-        "The resignation of Jensen Huang from Nvidia and everything that has followed gameplay",
-        "The resignation of Jensen Huang from Nvidia and everything that has followed guide",
-        "The resignation of Jensen Huang from Nvidia and everything that has followed avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-humble-bundle-s-new-redesign-inexplicably-removes-2-fac-5f710962cd28",
-      "topic": "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security",
-      "detected_at": "2026-11-14T09:24:48.705596+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/software/platforms/humble-bundles-new-redesign-inexplicably-removes-2-factor-authentication-dramatically-weakening-account-security/",
-          "title": "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security",
-          "evidence": "<article> <p>Users of <a href=\"https://www.humblebundle.com/\" target=\"_blank\">Humble Bundle</a>—the pay-what-you-want game-bundle storefront that will also sell you books and software—have been alarmed by a new redesign that seems to have axed a foundational piece of login security tech. </p><p>The just-released new Humble Bundle website has no support for two-factor authentication whatsoever: users are unable to add it to their accounts, while those who had previously set it up on the old site design (including yours truly) are able to log in with just an email and password. At no point in the login process does the site ask you to input a 2FA code.</p><p>Humble Bundle does not address the removal of 2FA anywhere on its new site. In fact, the site's FAQs still feature articles <a href=\"https://support.humblebundle.com/hc/en-us/articles/203061620-Keeping-Your-Humble-Account-Secure\" target=\"_blank\">encouraging users</a> to make use of it to keep their accounts secure, which is currently impossible. I have reached out to Humble Bundle to ask if the change was intentional and if it will be reversed, and will update this piece if I hear back.</p><p>This is, to put it mildly, concerning"
-        }
-      ],
-      "keywords": [
-        "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security",
-        "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security date de sortie",
-        "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security plateformes",
-        "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security gameplay",
-        "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security guide",
-        "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-if-jensen-huang-goes-who-could-replace-him-here-s-who-t-8bf4ce7898e6",
-      "topic": "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals",
-      "detected_at": "2026-11-14T09:24:48.705850+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/if-jensen-huang-goes-who-could-replace-him-heres-who-the-board-might-pick-if-the-nvidia-ceo-is-ousted-in-the-wake-of-affair-scandals/",
-          "title": "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals",
-          "evidence": "<article> <p>It was bad enough for Nvidia CEO Jensen Huang that he <a href=\"https://www.pcgamer.com/gaming-industry/nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-chinese-spy-as-company-board-launches-investigation/\" target=\"_blank\">admitted to having an affair with someone</a>, who people believe to be someone suspected of being a Chinese spy. But it's now come to light he has reportedly <a href=\"https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/\" target=\"_blank\">had a second affair with a member of Nvidia staff</a>—Kimberly Powell, VP of healthcare. After this latest story it's looking more likely that Huang could be forced to resign.</p><p>The question is what's next for Nvidia if the board today decides his tenure as the longest-serving Silicon Valley CEO should come to an end. Huang has been the image of the company in the eyes of the public for a long time, so whoever steps in to replace him will have a big leather jacket to fill. And whoever it is, it will be a major change for the company regardless.</p><p>The doors are wide open for Nvidia in the long-term, so it's difficult to pin down with any certai"
-        }
-      ],
-      "keywords": [
-        "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals",
-        "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals date de sortie",
-        "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals plateformes",
-        "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals gameplay",
-        "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals guide",
-        "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-do-you-like-mob-tagging-in-oldschool-mmos-or-are-you-do-460307485dad",
-      "topic": "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit?",
-      "detected_at": "2026-11-14T19:28:42.276419+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/do-you-like-mob-tagging-in-oldschool-mmos-or-are-you-done-with-fighting-for-quest-credit/",
-          "title": "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit?",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Terminally Online</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PgGhmt5pTtxusaQQX3dHPF\" name=\"logo_terminally\" caption=\"\" alt=\"The Terminally Online logo.\" src=\"https://cdn.mos.cms.futurecdn.net/PgGhmt5pTtxusaQQX3dHPF-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\" /></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">This is <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/terminally-online/\" target=\"_blank\">Terminally Online</a>:<strong> </strong>PC Gamer's very own MMO column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice.</p"
-        }
-      ],
-      "keywords": [
-        "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit?",
-        "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit? date de sortie",
-        "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit? plateformes",
-        "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit? gameplay",
-        "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit? guide",
-        "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit? avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-i-summoned-1-blood-demon-stitched-2-of-my-disciples-tog-4389377f2086",
-      "topic": "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress",
-      "detected_at": "2026-11-14T19:28:42.276950+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/sim/i-summoned-1-blood-demon-stitched-2-of-my-disciples-together-and-seduced-3-snails-in-this-excellent-cult-simulator-in-the-spirit-of-dwarf-fortress/",
-          "title": "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress",
-          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Weird Weekend</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/weird-weekend/\" target=\"_blank\">Weird Weekend</a> is our regular Saturday column where we celebrate PC gaming oddities: peculiar games, strange bits of trivia, forgotten history. Pop back every weekend to find out what Jeremy, Josh, Rick and Ted have become obsessed with this time, whether it's the <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/games/i-embarked-on-a-mission-to-answer-the-most-important-question-in-pc-gaming-how-tall-is-garrett-from-thief/\" target=\"_blank\">canon height of Thief's Garrett</a> or that time someone in the Vatican pirated <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/games/sports/a-part-of-my-brain-will-always-be-dedicated-to-the-time-someone-in-the-vatican-pirated-football-manager-2013/\" target=\"_blank\">Football Manager</a>.</p></div></div><p>What's the fastest you've ever fallen in love with a game? I think I have a new record: about 0.3 seconds into <a href=\"https://store.steampowered.com/app/234598"
-        }
-      ],
-      "keywords": [
-        "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress",
-        "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress date de sortie",
-        "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress plateformes",
-        "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress gameplay",
-        "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress guide",
-        "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-dishonored-2-director-harvey-smith-wants-to-honour-sacr-cbbaaccb26db",
-      "topic": "Dishonored 2 director Harvey Smith wants to honour sacred imsim texts while finding news ways to surprise fans: \"That's the two wolves inside me\"",
-      "detected_at": "2026-11-14T19:28:42.277686+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/sim/dishonored-2-director-harvey-smith-wants-to-honour-sacred-imsim-texts-while-finding-news-ways-to-surprise-fans-thats-the-two-wolves-inside-me/",
-          "title": "Dishonored 2 director Harvey Smith wants to honour sacred imsim texts while finding news ways to surprise fans: \"That's the two wolves inside me\"",
-          "evidence": "<article> <p>Harvey Smith remembers the 10 months he spent as quality assurance lead on <a href=\"https://www.pcgamer.com/system-shock-was-the-fps-that-changed-pc-games-forever/\" target=\"_blank\">System Shock</a> as a \"brush with greatness\".</p><p>\"I had loved Ultima Underworld, and then I got to work with the very people that were rolling off of Underworld onto this new cyberpunk game,\" he says. \"Looking Glass fought like cats and dogs, but man, they were passionate about what they were doing. And this was a mission for them.\"</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2556px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.34%;\"><img id=\"fjNxLoKrXFCyRz3mqWcjsP\" name=\"SS-shock2.jpg\" alt=\"A robot bearing down on a man holding a wrench.\" src=\"https://cdn.mos.cms.futurecdn.net/fjNxLoKrXFCyRz3mqWcjsP-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2556\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline expandable\" /><a href='https://cdn.mos.cms.futurecdn.net/fjNxLoKrXFCyRz3mqWcjsP-1920-80.jpg' target='_blank' class='expand-button icon-expand-i"
-        }
-      ],
-      "keywords": [
-        "Dishonored 2 director Harvey Smith wants to honour sacred imsim texts while finding news ways to surprise fans: \"That's the two wolves inside me\"",
-        "Dishonored 2 director Harvey Smith wants to honour sacred imsim texts while finding news ways to surprise fans: \"That's the two wolves inside me\" date de sortie",
-        "Dishonored 2 director Harvey Smith wants to honour sacred imsim texts while finding news ways to surprise fans: \"That's the two wolves inside me\" plateformes",
-        "Dishonored 2 director Harvey Smith wants to honour sacred imsim texts while finding news ways to surprise fans: \"That's the two wolves inside me\" gameplay",
-        "Dishonored 2 director Harvey Smith wants to honour sacred imsim texts while finding news ways to surprise fans: \"That's the two wolves inside me\" guide",
-        "Dishonored 2 director Harvey Smith wants to honour sacred imsim texts while finding news ways to surprise fans: \"That's the two wolves inside me\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-halo-campaign-evolved-is-getting-firefight-as-a-free-up-bb937c078694",
-      "topic": "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes",
-      "detected_at": "2026-11-14T19:28:42.277968+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/halo/halo-campaign-evolved-is-getting-firefight-as-a-free-update-though-im-not-sure-itll-do-much-to-change-the-remakes-fortunes/",
-          "title": "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes",
-          "evidence": "<article> <p>Xbox has announced the first update for<a href=\"https://www.pcgamer.com/uk/halo-campaign-evolved/\"> Halo: Campaign Evolved</a> since August, one which will<a href=\"https://news.xbox.com/en-us/2026/11/12/halo-campaign-evolved-firefight-free-update-this-winter/\"> add Firefight</a> to the remake's overhaul of the original game's story.</p><p>Firefight is Halo's cooperative PvE mode which debuted in<a href=\"https://www.pcgamer.com/halo-3-odst-and-firefight-are-out-on-pc-now/\"> Halo 3: ODST</a>. It's a round-based defence affair where players must survive as long as possible against increasingly dangerous waves of enemies. Following ODST, the mode appeared in every subsequent Halo game with the exception of Halo 4, which featured a mode called Spartan Ops instead.</p><p>In its <a href=\"https://news.xbox.com/en-us/2026/11/12/halo-campaign-evolved-firefight-free-update-this-winter/\" target=\"_blank\">announcement</a>, Xbox was extremely light on details regarding the addition of Firefight. But the company said it'll share \"additional details\" about the Firefight update during Halo Fest, which takes place over the weekend commencing December 12. </p><p>I'm pleased to see Campaig"
-        }
-      ],
-      "keywords": [
-        "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes",
-        "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes date de sortie",
-        "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes plateformes",
-        "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes gameplay",
-        "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes guide",
-        "Halo: Campaign Evolved is getting Firefight as a free update, though I'm not sure it'll do much to change the remake's fortunes avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-formula-1-just-found-a-bizarre-financial-supporter-in-h-e33965716934",
-      "topic": "Formula 1 just found a bizarre financial supporter in horse girl gacha Umamusume: Pretty Derby",
-      "detected_at": "2026-11-14T19:28:42.278206+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/sports/formula-1-just-found-a-bizarre-financial-supporter-in-horse-girl-gacha-umamusume-pretty-derby/",
-          "title": "Formula 1 just found a bizarre financial supporter in horse girl gacha Umamusume: Pretty Derby",
-          "evidence": "<article> <p>What is Formula 1 if not just very fast, mechanical horse racing? Surely I'm not the only one who has asked that question, especially considering the Japanese Grand Prix leg of the 2027 F1 World Championship has just revealed that Cygame's horse girl gacha Umamusume: Pretty Derby has become a founding partner.</p><p>What does that mean in practice? Well, according to a press release, founding partners are \"the highest tier supporters of the F1 Japanese Grand Prix,\" where they \"bring additional value to the event while helping to shape the direction of its growth. Through marketing, promotional activities, and creating new experiences for fans, Umamusume will continue contributing to the long term growth of the Japanese Grand Prix.\"</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"iNwcT27VzCPJxXjKY9kNFN\" name=\"02\" alt=\"The renamed Umamusume 130R corner at Suzuka Circuit.\" src=\"https://cdn.mos.cms.futurecdn.net/iNwcT27VzCPJxXjKY9kNFN-1920-80.png\" mos=\"\" align=\"middle\" fullscreen=\""
-        }
-      ],
-      "keywords": [
-        "Formula 1 just found a bizarre financial supporter in horse girl gacha Umamusume: Pretty Derby",
-        "Formula 1 just found a bizarre financial supporter in horse girl gacha Umamusume: Pretty Derby date de sortie",
-        "Formula 1 just found a bizarre financial supporter in horse girl gacha Umamusume: Pretty Derby plateformes",
-        "Formula 1 just found a bizarre financial supporter in horse girl gacha Umamusume: Pretty Derby gameplay",
-        "Formula 1 just found a bizarre financial supporter in horse girl gacha Umamusume: Pretty Derby guide",
-        "Formula 1 just found a bizarre financial supporter in horse girl gacha Umamusume: Pretty Derby avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-40-of-game-developers-use-generative-ai-according-to-a--e27fa5fb9ce1",
-      "topic": "40% of game developers use generative AI according to a new report, but more than half reckon the technology has a negative impact on the games industry",
-      "detected_at": "2026-11-14T19:28:42.278559+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/software/ai/40-percent-of-game-developers-use-generative-ai-according-to-a-new-report-but-more-than-half-reckon-the-technology-has-a-negative-impact-on-the-games-industry/",
-          "title": "40% of game developers use generative AI according to a new report, but more than half reckon the technology has a negative impact on the games industry",
-          "evidence": "<article> <p>Use of generative AI remains one of the most contentious topics in the games industry. Developers who see a bright new future in the tech have increasingly clashed with those concerned by the<a href=\"https://www.pcgamer.com/games/puzzle/ai-is-just-a-plagiarism-machine-that-makes-people-lose-their-jobs-in-the-eyes-of-the-talos-principle-3s-writers/\"> ethical</a>,<a href=\"https://www.pcgamer.com/software/ai/valve-admits-steam-has-an-ai-slop-and-cloning-problem-but-says-we-dont-want-to-be-gatekeepers-telling-developers-which-tools-they-should-or-shouldnt-use/\"> artistic</a> and<a href=\"https://www.pcgamer.com/software/ai/fresh-from-telling-laid-off-employees-to-console-themselves-with-ai-microsoft-doubles-down-by-advertising-xbox-jobs-with-pathetic-ai-image-so-tone-deaf-i-hope-it-is-satire/\"> labour</a> implications tools like ChatGPT and Claude Opus bring to the medium. The divisive nature of the subject was starkly revealed in a new report, which calculated that 40% of game developers are actively using generative AI, while more than half of developers believe LLMs and agentic coding tools have a negative impact on the industry.</p><p>These were the conclusions of the l"
-        }
-      ],
-      "keywords": [
-        "40% of game developers use generative AI according to a new report, but more than half reckon the technology has a negative impact on the games industry",
-        "40% of game developers use generative AI according to a new report, but more than half reckon the technology has a negative impact on the games industry date de sortie",
-        "40% of game developers use generative AI according to a new report, but more than half reckon the technology has a negative impact on the games industry plateformes",
-        "40% of game developers use generative AI according to a new report, but more than half reckon the technology has a negative impact on the games industry gameplay",
-        "40% of game developers use generative AI according to a new report, but more than half reckon the technology has a negative impact on the games industry guide",
-        "40% of game developers use generative AI according to a new report, but more than half reckon the technology has a negative impact on the games industry avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-indiana-jones-and-the-great-circle-once-had-a-grand-the-0c04817e237f",
-      "topic": "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns'",
-      "detected_at": "2026-11-14T19:28:42.278834+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-once-had-a-grand-theft-auto-inspired-wanted-system-because-machinegames-was-afraid-players-would-kill-all-the-nazis-with-just-guns/",
-          "title": "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns'",
-          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/uk/indiana-jones-and-the-great-circle/\">Indiana Jones and The Great Circle</a> offered such a great depiction of everyone's favourite Nazi thumping archaeologist that it's hard to imagine developer MachineGames building that game any differently. Yet according to design director Jens Andersson, getting the Indy feel of The Great Circle right represented a significant challenge for the Swedish studio.</p><p>One of the hardest problems MachineGames struggled with was the presence of guns in the game, specifically how to stop players from just blasting through armies of Nazis without making guns less fun to use.<a href=\"https://frvr.com/blog/news/indiana-jones-and-the-great-circle-lead-says-devs-were-so-afraid-of-gamers-response-its-slapstick-melee-combat-as-the-woflenstein-studio-penalised-shooting/\" target=\"_blank\"> Speaking to FRVR</a>, Andersson explained that having satisfying firearms in The Great Circle was \"non-negotiable\" as \"we have a lot of people at Machine[Games] that <em>love </em>guns\".</p><p>Since MachineGames wanted The Great Circle to be true to Spielberg's films, they needed guns to be a part of Indy's toolset and not th"
-        }
-      ],
-      "keywords": [
-        "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns'",
-        "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns' date de sortie",
-        "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns' plateformes",
-        "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns' gameplay",
-        "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns' guide",
-        "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-gta-6-will-provide-mechanisms-that-encourage-empathy-fo-2ad80bdb9a08",
-      "topic": "GTA 6 will \"provide mechanisms that encourage\" empathy \"for the first time in a GTA\"",
-      "detected_at": "2026-11-14T19:28:42.660389+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-knows-people-want-to-play-gta-6-for-the-chaos-but-the-studio-will-also-provide-mechanisms-that-encourage-empathy-for-the-first-time-in-a-gta/",
-          "title": "GTA 6 will \"provide mechanisms that encourage\" empathy \"for the first time in a GTA\"",
-          "evidence": "<article> <p>Certain things are synonymous with Grand Theft Auto - crime, cars, corruption, guns, mayhem and murder. You normally might not expect empathy from a game like <a href=\"https://www.gamesradar.com/gta-6-guide/\"><u>GTA 6</u></a> with the series' past in mind, then, but Rockstar Games have added \"mechanisms\" to create empathy anyway.</p><p>GTA has always been somewhat of a cynical and comically rude franchise, but it seems Rockstar's now borrowing some lessons from its more grown-up Red Dead Redemption 2. Unrestrained violence and city-wide chaos will still be possible in Leonida - this is a GTA game, after all - but that's not all there is anymore. </p><p>Speaking to <a href=\"https://www.theguardian.com/us\" target=\"_blank\"><u>The Guardian</u></a> (good spot, <a href=\"https://www.ign.com/articles/gta-6-will-do-something-the-franchise-has-never-done-before-encourage-empathy\" target=\"_blank\"><u>IGN</u></a>), co-studio head Rob Nelson said \"crime is a fundamental part of GTA - at least up until now, it has been.\" Rockstar is \"trying to make sure we're not punishing people for playing the game they are used to,\" so you can still expect the freedom to get into car jams and push"
-        }
-      ],
-      "keywords": [
-        "GTA 6 will \"provide mechanisms that encourage\" empathy \"for the first time in a GTA\"",
-        "GTA 6 will \"provide mechanisms that encourage\" empathy \"for the first time in a GTA\" date de sortie",
-        "GTA 6 will \"provide mechanisms that encourage\" empathy \"for the first time in a GTA\" plateformes",
-        "GTA 6 will \"provide mechanisms that encourage\" empathy \"for the first time in a GTA\" gameplay",
-        "GTA 6 will \"provide mechanisms that encourage\" empathy \"for the first time in a GTA\" guide",
-        "GTA 6 will \"provide mechanisms that encourage\" empathy \"for the first time in a GTA\" avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-as-the-13-year-wait-for-gta-6-ends-it-s-time-to-remembe-be4c1184f40a",
       "topic": "As the 13-year wait for GTA 6 ends, it’s time to remember the first 10 games released in 12 years",
@@ -6044,6 +5756,294 @@
         "Detroit: Become Human Steam"
       ],
       "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
+      "status": "new"
+    },
+    {
+      "id": "rss-world-of-warcraft-forever-s-been-chasing-bugs-and-gold--081bf70cc120",
+      "topic": "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working",
+      "detected_at": "2026-11-24T12:56:16.474304+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-been-chasing-bugs-and-gold-exploits-over-the-weekend-and-now-it-turns-out-sunder-armor-might-just-not-be-working/",
+          "title": "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a>'s absolutely had me enthralled, as per my <a href=\"https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-review/\">review</a> (and about 220+ hours of my actual life), but that's not to say there aren't issues. Over the weekend and going on into this week, Blizzard's had to play whack-a-mole with both exploits <em>and </em>what appears to be a long-standing bug affecting one of the tanking classes' core mechanics. </p><p>First, those exploits—players discovered that lockboxes contained a sort of quantum loot, in that the actual roll of the lockboxes seemed tied to the player peeking inside of them, rather than what was inside regardless. If you turned off auto-loot, you can open a lockbox without actually pulling the loot into your bag. Then, if you sent that lockbox to another player via mail, they'd get something different.</p><p>Essentially, players could simply play a game of mass pass-the-parcel to ensure favorable lockbox results, further busting up the economy after the Blackmaw Hold drama earlier this month. That's <a href=\"https://us.forums.blizzard.c"
+        }
+      ],
+      "keywords": [
+        "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working",
+        "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working date de sortie",
+        "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working plateformes",
+        "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working gameplay",
+        "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working guide",
+        "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-steam-revamps-its-marketplace-for-the-2nd-time-this-yea-ba844231a0ef",
+      "topic": "Steam revamps its marketplace for the 2nd time this year",
+      "detected_at": "2026-11-24T12:56:16.474629+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/platforms/steam-revamps-its-marketplace-for-the-2nd-time-this-year/",
+          "title": "Steam revamps its marketplace for the 2nd time this year",
+          "evidence": "<article> <p>If you're normal, you probably never think about the Steam community market. If you're like me, you only touch it to sell the mountains of <a href=\"https://www.pcgamer.com/software/platforms/you-probably-have-like-usd100-in-steam-trading-cards-on-all-those-games-youve-never-played-and-you-can-get-it-without-ever-actually-launching-them/\">trading cards you get from idling</a>. If you're a true lunatic, you're running a roaring trade in <a href=\"https://www.pcgamer.com/uk/counter-strike-2/\">Counter-Strike 2</a> skins and are either unfathomably rich or trapped in a life of penury.</p><p>Either way, some news: Valve has been tinkering at the Steam marketplace again, and in an <a href=\"https://steamcommunity.com/games/593110/announcements/detail/678515036155545444\" target=\"_blank\">update yesterday</a> announced a rebuilt market home page that's slightly more pleasant to handle and look at, while being more personalised to the games you're actually playing. This is in addition to a set of changes to the market <a href=\"https://www.pcgamer.com/games/fps/valves-massive-update-to-the-steam-marketplace-must-be-working-because-a-gun-i-had-listed-on-there-for-years-just-sold-for-"
+        }
+      ],
+      "keywords": [
+        "Steam revamps its marketplace for the 2nd time this year",
+        "Steam revamps its marketplace for the 2nd time this year date de sortie",
+        "Steam revamps its marketplace for the 2nd time this year plateformes",
+        "Steam revamps its marketplace for the 2nd time this year gameplay",
+        "Steam revamps its marketplace for the 2nd time this year guide",
+        "Steam revamps its marketplace for the 2nd time this year avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-60-hours-in-gta-6-has-me-yearning-for-an-online-leonida-b940c1ddbc06",
+      "topic": "60 hours in GTA 6 has me yearning for an online Leonida",
+      "detected_at": "2026-11-24T12:56:16.475063+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/60-hours-in-gta-6-has-me-yearning-for-an-online-leonida/",
+          "title": "60 hours in GTA 6 has me yearning for an online Leonida",
+          "evidence": "<article> <p>I honestly can't recall the last time I took such delight in existing within a virtual world as the way I have with <a href=\"https://www.pcgamer.com/uk/grand-theft-auto-6/\">Grand Theft Auto 6</a>'s Leonida. Rockstar has delivered on its promise of both breadth and depth—the map is <em>huge, </em>but utterly stuffed with detail. Large, open highways shrink into single lanes surrounded by construction that force me to slam the brakes. Sidewalks sparse with pedestrians eventually lead to densely packed retail areas, restaurants, and clubs. </p><p>Pockets of culture erupt all over: the sheer redneckery of Port Gellhorn, the Latin culture that permeates Little Cuba, and the affluent snootiness of Capri that has cops flinging microaggressions in every direction. You don't need to undertake any missions in these areas to understand the people that live here—Rockstar has nailed so much of the environmental storytelling and the conversations between NPCs you'll stumble on as you roam.</p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1920px;\"><p class=\"vanilla-ima"
+        }
+      ],
+      "keywords": [
+        "60 hours in GTA 6 has me yearning for an online Leonida",
+        "60 hours in GTA 6 has me yearning for an online Leonida date de sortie",
+        "60 hours in GTA 6 has me yearning for an online Leonida plateformes",
+        "60 hours in GTA 6 has me yearning for an online Leonida gameplay",
+        "60 hours in GTA 6 has me yearning for an online Leonida guide",
+        "60 hours in GTA 6 has me yearning for an online Leonida avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-world-of-warcraft-forever-review-the-first-proper-mmo-a-65847fca8cff",
+      "topic": "World of Warcraft: Forever review: The first proper MMO adventure I've been on in years",
+      "detected_at": "2026-11-24T12:56:16.476143+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-review/",
+          "title": "World of Warcraft: Forever review: The first proper MMO adventure I've been on in years",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a> has, much as the original World of Warcraft did back in 2004, completely consumed my life. I write about games for a living, mind, so the attention vortex it has wrought upon me is primarily professional obligation, rather than just irresponsibility. </p><div class=\"fancy-box\"><div class=\"fancy_box-title\">Need to know</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><strong>What is it?: </strong>A reimagining of 2004's World of Warcraft, with new balancing, lighting, dungeons, and items.<br /><strong>Expect to pay: </strong>A monthly subscription of $14.99/£10.99. Optional race and early-game zone behind a £25.99/$30 paywall.<br /><strong>Developer:</strong> Blizzard Entertainment<br /><strong>Publisher: </strong>Blizzard Entertainment<br /><strong>Reviewed on: </strong>NVIDIA GeForce RTX 3060, AMD Ryzen 7 5800 8-Core Processor, 16GB RAM, Force MP600 SSD<br /><strong>Multiplayer?: Yes</strong><br /><strong>Link: </strong><a data-analytics-id=\"inline-link\" href=\"https://worldofwarcraft.blizzard.com/en-gb/forever\" target=\"_blank\">Official site</a></p></div></div><p"
+        }
+      ],
+      "keywords": [
+        "World of Warcraft: Forever review: The first proper MMO adventure I've been on in years",
+        "World of Warcraft: Forever review: The first proper MMO adventure I've been on in years date de sortie",
+        "World of Warcraft: Forever review: The first proper MMO adventure I've been on in years plateformes",
+        "World of Warcraft: Forever review: The first proper MMO adventure I've been on in years gameplay",
+        "World of Warcraft: Forever review: The first proper MMO adventure I've been on in years guide",
+        "World of Warcraft: Forever review: The first proper MMO adventure I've been on in years avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-trump-praises-jensen-huang-s-reinstatement-as-nvidia-ce-521d407f0686",
+      "topic": "Trump praises Jensen Huang's reinstatement as Nvidia CEO, calls him a 'great patriot and national treasure,' while Musk says 'the mistake has been corrected'",
+      "detected_at": "2026-11-24T12:56:16.476361+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/trump-praises-jensen-huangs-reinstatement-as-nvidia-ceo-calls-him-a-great-patriot-and-national-treasure-while-musk-says-the-mistake-has-been-corrected/",
+          "title": "Trump praises Jensen Huang's reinstatement as Nvidia CEO, calls him a 'great patriot and national treasure,' while Musk says 'the mistake has been corrected'",
+          "evidence": "<article> <p>Jensen Huang has been <a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-has-been-reinstated-as-nvidia-ceo-i-take-this-responsibility-with-the-greatest-humility-and-renewed-commitment/\" target=\"_blank\">reinstated as Nvidia CEO</a>, after his resignation earlier this month following his <a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-resigns-cfo-colette-kress-appointed-interim-ceo-at-nvidia/\" target=\"_blank\">admission of an affair</a> with a woman some suspected to be a Chinese spy. Huang's departure was criticised at the time by many, but news of his reinstatement has earned both Huang and Nvidia praise from very high places.</p><p>US president Donald Trump <a href=\"https://truthsocial.com/@realDonaldTrump/posts/117666141823845971\" target=\"_blank\">posted on Truth Social</a> following the news, saying: \"The Nvidia Board of Directors has made the correct and proper decision to return Jensen Huang to the position of CEO.\"</p><p>\"The United States government has no reason to believe that Jensen's return to Nvidia poses any risk to national security. The Attorney General of the United States has confirmed that the US government does "
+        }
+      ],
+      "keywords": [
+        "Trump praises Jensen Huang's reinstatement as Nvidia CEO, calls him a 'great patriot and national treasure,' while Musk says 'the mistake has been corrected'",
+        "Trump praises Jensen Huang's reinstatement as Nvidia CEO, calls him a 'great patriot and national treasure,' while Musk says 'the mistake has been corrected' date de sortie",
+        "Trump praises Jensen Huang's reinstatement as Nvidia CEO, calls him a 'great patriot and national treasure,' while Musk says 'the mistake has been corrected' plateformes",
+        "Trump praises Jensen Huang's reinstatement as Nvidia CEO, calls him a 'great patriot and national treasure,' while Musk says 'the mistake has been corrected' gameplay",
+        "Trump praises Jensen Huang's reinstatement as Nvidia CEO, calls him a 'great patriot and national treasure,' while Musk says 'the mistake has been corrected' guide",
+        "Trump praises Jensen Huang's reinstatement as Nvidia CEO, calls him a 'great patriot and national treasure,' while Musk says 'the mistake has been corrected' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-should-you-choose-the-cut-or-pure-drugs-in-gta-6-a0e8e8270c60",
+      "topic": "Should you choose the cut or pure drugs in GTA 6?",
+      "detected_at": "2026-11-24T12:56:16.476570+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cut-or-pure-dealers-choice/",
+          "title": "Should you choose the cut or pure drugs in GTA 6?",
+          "evidence": "<article> <figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"jYighTNttjNsEmtNEZSAzZ\" name=\"gta-6-cut-or-pure-2\" alt=\"GTA 6 Dealer's Choice - Angry dealers\" src=\"https://cdn.mos.cms.futurecdn.net/jYighTNttjNsEmtNEZSAzZ-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"1\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline expandable\" /><a href='https://cdn.mos.cms.futurecdn.net/jYighTNttjNsEmtNEZSAzZ-1920-80.jpg' target='_blank' class='expand-button icon-expand-image icon' ></a></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Rockstar)</span></figcaption></figure><p>Deciding whether to take the cut or pure drugs in <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide/\" target=\"_blank\">GTA 6</a> is a decision you'll make during the Dealer's Choice <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/#section-chapter-3-tits-ass-drug-money\" target=\"_blan"
+        }
+      ],
+      "keywords": [
+        "Should you choose the cut or pure drugs in GTA 6?",
+        "Should you choose the cut or pure drugs in GTA 6? date de sortie",
+        "Should you choose the cut or pure drugs in GTA 6? plateformes",
+        "Should you choose the cut or pure drugs in GTA 6? gameplay",
+        "Should you choose the cut or pure drugs in GTA 6? guide",
+        "Should you choose the cut or pure drugs in GTA 6? avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-jensen-huang-has-been-reinstated-as-nvidia-ceo-i-take-t-beaac6ab22e6",
+      "topic": "Jensen Huang has been reinstated as Nvidia CEO: 'I take this responsibility with the greatest humility and renewed commitment'",
+      "detected_at": "2026-11-24T12:56:16.476788+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-has-been-reinstated-as-nvidia-ceo-i-take-this-responsibility-with-the-greatest-humility-and-renewed-commitment/",
+          "title": "Jensen Huang has been reinstated as Nvidia CEO: 'I take this responsibility with the greatest humility and renewed commitment'",
+          "evidence": "<article> <p>Nvidia has reinstated its disgraced former CEO and leather jacket collector Jensen Huang as president, CEO, and director of its board, according to a press release today.</p><p>Huang, who co-founded Nvidia back in 1993, was forced to <a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-resigns-cfo-colette-kress-appointed-interim-ceo-at-nvidia/\">resign from his positions</a> at the company earlier this month, after it came to light he had an affair with a Chinese businesswoman named Alice Huang, a former executive at Singaporean tech firm Megaspeed International who was suspected by US intelligence of being an asset of the Chinese Ministry of State Security. Huang also reportedly carried out two additional affairs with Nvidia employees. </p><p>He was replaced by Nvidia CFO Colette Kress as interim CEO. The Nvidia board initially responded to pressure from tech industry leaders to bring Huang back with a statement that <a href=\"https://www.pcgamer.com/software/ai/jensen-huang-isnt-coming-back-says-nvidia-board/\">he would not be reinstated</a>. He has now been reinstated.</p><p>\"Nvidia today announced that effective immediately, Jensen Huang has been rein"
+        }
+      ],
+      "keywords": [
+        "Jensen Huang has been reinstated as Nvidia CEO: 'I take this responsibility with the greatest humility and renewed commitment'",
+        "Jensen Huang has been reinstated as Nvidia CEO: 'I take this responsibility with the greatest humility and renewed commitment' date de sortie",
+        "Jensen Huang has been reinstated as Nvidia CEO: 'I take this responsibility with the greatest humility and renewed commitment' plateformes",
+        "Jensen Huang has been reinstated as Nvidia CEO: 'I take this responsibility with the greatest humility and renewed commitment' gameplay",
+        "Jensen Huang has been reinstated as Nvidia CEO: 'I take this responsibility with the greatest humility and renewed commitment' guide",
+        "Jensen Huang has been reinstated as Nvidia CEO: 'I take this responsibility with the greatest humility and renewed commitment' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-dragon-age-s-former-boss-says-that-poor-management-from-cab46d2138db",
+      "topic": "Dragon Age's former boss says that poor management from EA led to BioWare shutting down because 'the options on the table were all terrible'",
+      "detected_at": "2026-11-24T12:56:16.477029+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/dragon-ages-former-boss-explains-that-poor-management-from-ea-led-to-bioware-shutting-down-because-the-options-on-the-table-were-all-terrible/",
+          "title": "Dragon Age's former boss says that poor management from EA led to BioWare shutting down because 'the options on the table were all terrible'",
+          "evidence": "<article> <p>Last month we got the devastating news that BioWare, the legendary studio that brought us <a href=\"https://www.pcgamer.com/uk/games/action/mass-effect/\">Mass Effect</a>, <a href=\"https://www.pcgamer.com/uk/games/rpg/dragon-age/\">Dragon Age</a>, and classics like <a href=\"https://www.pcgamer.com/neverwinter-nights/\">Neverwinter Nights</a>, <a href=\"https://www.pcgamer.com/uk/star-wars-knights-of-the-old-republic/\">Star Wars: Knights of the Old Republic</a>, and the OG <a href=\"https://www.pcgamer.com/uk/games/rpg/baldurs-gate/\">Baldur's Gate</a> was <a href=\"https://www.pcgamer.com/gaming-industry/rip-bioware-ea-has-shut-down-the-legendary-rpg-developer/\">being shut down</a>. <br /><br />The decision was made by EA, just a year after it was <a href=\"https://www.pcgamer.com/uk/gaming-industry/the-deal-is-done-electronic-arts-is-now-officially-owned-by-saudi-arabia/\">acquired by a consortium</a> made up of Saudi Arabia's Public Investment Fund and investment firms Silver Lake and Affinity Partners (owned by the son-in-law of US president Donald Trump, Jared Kushner). </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-wi"
+        }
+      ],
+      "keywords": [
+        "Dragon Age's former boss says that poor management from EA led to BioWare shutting down because 'the options on the table were all terrible'",
+        "Dragon Age's former boss says that poor management from EA led to BioWare shutting down because 'the options on the table were all terrible' date de sortie",
+        "Dragon Age's former boss says that poor management from EA led to BioWare shutting down because 'the options on the table were all terrible' plateformes",
+        "Dragon Age's former boss says that poor management from EA led to BioWare shutting down because 'the options on the table were all terrible' gameplay",
+        "Dragon Age's former boss says that poor management from EA led to BioWare shutting down because 'the options on the table were all terrible' guide",
+        "Dragon Age's former boss says that poor management from EA led to BioWare shutting down because 'the options on the table were all terrible' avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-how-to-steal-the-schafter-v12-in-gta-6-9d592be97e16",
+      "topic": "How to steal the Schafter V12 in GTA 6",
+      "detected_at": "2026-11-24T12:56:16.477241+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-schafter-v12/",
+          "title": "How to steal the Schafter V12 in GTA 6",
+          "evidence": "<article> <iframe src=\"https://content.jwplatform.com/players/dAkte4Eu.html\" id=\"dAkte4Eu\" title=\"GTA 6 - Stealing The Schafter V12\" width=\"1920\" height=\"1080\" frameborder=\"0\" scrolling=\"auto\" allowfullscreen=\"\"></iframe><p>Stealing the Schafter V12 in <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide/\" target=\"_blank\">GTA 6</a> is one of the car theft missions you'll have to complete to gain Raul's trust, but similar to the <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-bf-bandito-location/\" target=\"_blank\">BF Bandito</a> or <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-declasse-vamos-code/\" target=\"_blank\">Declasse Vamos</a>, it's a little tricky. Make sure to grab the silenced pistol from the trunk of the car outside—not necessarily because you'll need it, but because it's a handy weapon to have.</p><p>Now, as you can see in the video above, you can get into the chop shop by climbing up the van around back and then onto the roof. I'd then suggest dropping down on the right side, where there are few enemies, knocking out the guy sitting by the gate, then opening it by hitting the left button.</p><p>Sneak back towards the centre of "
+        }
+      ],
+      "keywords": [
+        "How to steal the Schafter V12 in GTA 6",
+        "How to steal the Schafter V12 in GTA 6 date de sortie",
+        "How to steal the Schafter V12 in GTA 6 plateformes",
+        "How to steal the Schafter V12 in GTA 6 gameplay",
+        "How to steal the Schafter V12 in GTA 6 guide",
+        "How to steal the Schafter V12 in GTA 6 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-gta-s-treatment-of-women-has-not-been-good-says-rocksta-70afd4be2708",
+      "topic": "GTA's treatment of women 'has not been good', says Rockstar vet delighted by 'long overdue' female protagonist in GTA 6",
+      "detected_at": "2026-11-24T12:56:16.477458+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gtas-treatment-of-women-has-not-been-good-says-rockstar-vet-delighted-by-long-overdue-female-protagonist-in-gta-6/",
+          "title": "GTA's treatment of women 'has not been good', says Rockstar vet delighted by 'long overdue' female protagonist in GTA 6",
+          "evidence": "<article> <p>Lots of people will tell you that Grand Theft Auto 6's Lucia Caminos marks the series' first female protagonist. Lots of people are, of course, wrong. GTA 1 had eight selectable protagonists, four of whom were women, while GTA 2 for the Game Boy Color let you play protags Candy or Gretchen (along with a bunch of other men) in addition to the PlayStation game's default Claude Speed.</p><p>That vital pedantry out of the way, it's undeniable that Lucia is GTA's first female protagonist since the series became the culture-swallowing goliath it is today. In a chat with <a href=\"https://www.cbc.ca/radio/asithappens/grand-theft-auto-evolution-9.7428823\">CBC's As It Happens</a>, GTA OG Brian Baglow said he reckons it's \"long, long overdue\".</p><p>Baglow, credited as a writer on the original GTA and who served as \"head of propaganda and indoctrination\" at DMA Design (the studio that would become Rockstar North) in the '90s, said that back in the day of GTA 1, the devs didn't even have a script. \"We started with a tech demo, a way of moving around a city… I came in to actually add the story, add the script, after the levels had been built\". </p><p>That was mostly a process of, s"
+        }
+      ],
+      "keywords": [
+        "GTA's treatment of women 'has not been good', says Rockstar vet delighted by 'long overdue' female protagonist in GTA 6",
+        "GTA's treatment of women 'has not been good', says Rockstar vet delighted by 'long overdue' female protagonist in GTA 6 date de sortie",
+        "GTA's treatment of women 'has not been good', says Rockstar vet delighted by 'long overdue' female protagonist in GTA 6 plateformes",
+        "GTA's treatment of women 'has not been good', says Rockstar vet delighted by 'long overdue' female protagonist in GTA 6 gameplay",
+        "GTA's treatment of women 'has not been good', says Rockstar vet delighted by 'long overdue' female protagonist in GTA 6 guide",
+        "GTA's treatment of women 'has not been good', says Rockstar vet delighted by 'long overdue' female protagonist in GTA 6 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-gta-6-laptop-password-and-where-to-find-auntie-s-place--cdcad346afd8",
+      "topic": "GTA 6 laptop password and where to find Auntie's Place in La Perle",
+      "detected_at": "2026-11-24T12:56:16.477786+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-laptop-password-aunties-place-la-perle/",
+          "title": "GTA 6 laptop password and where to find Auntie's Place in La Perle",
+          "evidence": "<article> <figure role=\"gallery\"><figure><img src=\"https://cdn.mos.cms.futurecdn.net/uU9NhQWnK8XAEL38pBmBnf-1920-80.jpg\" alt=\"GTA 6 laptop password - Class of '15 reunion\" /><figcaption>Examine the drawing beside the bed and flip it around<small role=\"credit\">Rockstar</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/smHDVw4DwmtTyVBsVDBn6g-1920-80.jpg\" alt=\"GTA 6 laptop password - Side table\" /><figcaption>Also look at the dog certificate on the table near the entrance<small role=\"credit\">Rockstar</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/umuPFHxwfd7fRF7Xuqghpf-1920-80.jpg\" alt=\"GTA 6 laptop password - Muffins\" /><figcaption>Her dog's name is Muffins<small role=\"credit\">Rockstar</small></figcaption></figure></figure><p>If you've looked around the apartment you inherited from Vanessa in <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide/\">GTA 6</a>'s third chapter, you might've noticed her abandoned laptop in the bedroom requires a password. You can't manually enter it, you have to choose from a series of guesses.</p><p>Rather than just endlessly inputting random options, you can find the password"
+        }
+      ],
+      "keywords": [
+        "GTA 6 laptop password and where to find Auntie's Place in La Perle",
+        "GTA 6 laptop password and where to find Auntie's Place in La Perle date de sortie",
+        "GTA 6 laptop password and where to find Auntie's Place in La Perle plateformes",
+        "GTA 6 laptop password and where to find Auntie's Place in La Perle gameplay",
+        "GTA 6 laptop password and where to find Auntie's Place in La Perle guide",
+        "GTA 6 laptop password and where to find Auntie's Place in La Perle avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-gta-6-kit-car-locations-how-to-restore-the-fourth-car-f-1c0d91ea540b",
+      "topic": "GTA 6 Kit Car locations: How to restore the fourth car for Wyman",
+      "detected_at": "2026-11-24T12:56:16.478168+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-kit-car-locations/",
+          "title": "GTA 6 Kit Car locations: How to restore the fourth car for Wyman",
+          "evidence": "<article> <p>The <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide/\" target=\"_blank\">GTA 6</a> Kit Car locations are spread all over Leonida, making your search to repair Wyman's fourth car significantly more involved than the <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-transgressor-locations/\" target=\"_blank\">Transgressor</a>, <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-riata-locations/\" target=\"_blank\">Riata</a>, or even the <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-mamba-gt-locations/\" target=\"_blank\">Mamba GT</a>. There are five whole cars to scan with the WAiNK It app, but it's well worth it, because the Kit Car is super fast and stylish.</p><p>It's worth noting that you'll need to <strong>complete the Chapter 3 </strong><a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/\" target=\"_blank\"><strong>mission</strong></a><strong>, Meet the Heders, to acquire the cut-off tool </strong>(since one of the Kit Cars is in a locked shipping container). After the Kit Car, there's one additional vehicle in the Classic Car Collection, the Deviant, but it doesn't actually require a collectible hu"
+        }
+      ],
+      "keywords": [
+        "GTA 6 Kit Car locations: How to restore the fourth car for Wyman",
+        "GTA 6 Kit Car locations: How to restore the fourth car for Wyman date de sortie",
+        "GTA 6 Kit Car locations: How to restore the fourth car for Wyman plateformes",
+        "GTA 6 Kit Car locations: How to restore the fourth car for Wyman gameplay",
+        "GTA 6 Kit Car locations: How to restore the fourth car for Wyman guide",
+        "GTA 6 Kit Car locations: How to restore the fourth car for Wyman avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"
     }
   ]

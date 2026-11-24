@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-24T01:53:51.288294+00:00",
+  "updated_at": "2026-11-24T12:56:16.944326+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -32360,6 +32360,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-as-the-13-year-wait-for-gta-6-ends-it-s-time-to-remembe-be4c1184f40a",
+      "topic": "As the 13-year wait for GTA 6 ends, it’s time to remember the first 10 games released in 12 years",
+      "detected_at": "2026-11-14T19:28:42.660636+00:00",
+      "analysed_at": "2026-11-24T12:56:16.944102+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/with-the-13-year-wait-for-gta-6-finally-ending-its-time-to-remember-that-rockstar-released-the-first-10-grand-theft-auto-games-in-just-12-years/",
+          "title": "As the 13-year wait for GTA 6 ends, it’s time to remember the first 10 games released in 12 years",
+          "evidence": "<article> <p>Game development has changed substantially since the '90s. Hit games were often assembled by small teams in a couple of years – sometimes months – and you'd often see new entries in major franchises every single year. For a 12-year span from 1997 through 2009, that's exactly how the Grand Theft Auto series was, which throws the 13-year wait for <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> into sharp relief.</p><p>These days, Rockstar encompasses many studios around the world, but lead development on the GTA series is handled by Rockstar North. The Edinburgh, Scotland studio was once known as DMA Design, and it was under that name that it released the first three Grand Theft Auto games. The first entry launched in 1997, and the sequel followed in 1999.</p><p>Those early top-down entries were moderate successes, but GTA as we know it wouldn't arrive until Grand Theft Auto 3. Its massive, 3D open world was a revelation in 2001, and the game became an industry-defining hit. Other publishers started chasing its open-world design and M-rated appeal in the years that followed.</p><p>DMA itself became Rockstar North, and the follow-ups were nonstop. Vice City in"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "As the 13-year wait for GTA 6 ends, it’s time to remember the first 10 games released in 12 years",
+        "secondary_keywords": [
+          "As the 13-year wait for GTA 6 ends, it’s time to remember the first 10 games released in 12 years date de sortie",
+          "As the 13-year wait for GTA 6 ends, it’s time to remember the first 10 games released in 12 years plateformes",
+          "As the 13-year wait for GTA 6 ends, it’s time to remember the first 10 games released in 12 years gameplay",
+          "As the 13-year wait for GTA 6 ends, it’s time to remember the first 10 games released in 12 years guide",
+          "As the 13-year wait for GTA 6 ends, it’s time to remember the first 10 games released in 12 years avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "As the 13-year wait for GTA 6 ends, it’s time to remember the first 10 games released in 12 years"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gta-6-the-album-seemingly-leaks-with-dua-lipa-and-lana--aeecc5e85fb2",
+      "topic": "GTA 6: The Album seemingly leaks with Dua Lipa and Lana Del Rey as part of the 34-song tracklist",
+      "detected_at": "2026-11-14T19:28:42.660866+00:00",
+      "analysed_at": "2026-11-24T12:56:16.944157+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-the-album-seemingly-leaks-with-dua-lipa-and-lana-del-rey-as-part-of-the-full-34-song-tracklist/",
+          "title": "GTA 6: The Album seemingly leaks with Dua Lipa and Lana Del Rey as part of the 34-song tracklist",
+          "evidence": "<article> <p>While <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a> comes out in just a few days, Rockstar Games has remained a little quiet about the 34 songs that make up <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-soundtrack-songs/\"><u>Grand Theft Auto 6: The Album</u></a>, but a recent leak seems to have revealed the mystery artists included on the tracklist. </p><p>A <a href=\"https://www.instagram.com/reel/Dftw7yuvBH5/?dlrf=b29qMTlpeWs4c2Fw\" target=\"_blank\"><u>new video</u></a> seemingly recorded from a music record store shows off the front and back of the Grand Theft Auto 6: The Album vinyl. We <a href=\"https://www.gamesradar.com/toys-collectibles/the-game-may-be-a-code-in-a-box-but-gta-6s-soundtrack-is-now-available-on-vinyl-for-physical-media-fans/\"><u>already knew the star-studded album</u></a> would feature the likes of Travis Scott, Cardi B, Pinkpantheress, SZA and Keith Richards - and you can now add Dua Lipa, Blackpink's Jennie, Lana Del Rey and Zara Larsson to the list of celebs showing up in full force.</p><p>Here's the full GTA 6: The Album tracklist, according to the online leak:</p><ol start=\"1\"><li>Starting From Zero – Justice (fe"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GTA 6: The Album seemingly leaks with Dua Lipa and Lana Del Rey as part of the 34-song tracklist",
+        "secondary_keywords": [
+          "GTA 6: The Album seemingly leaks with Dua Lipa and Lana Del Rey as part of the 34-song tracklist date de sortie",
+          "GTA 6: The Album seemingly leaks with Dua Lipa and Lana Del Rey as part of the 34-song tracklist plateformes",
+          "GTA 6: The Album seemingly leaks with Dua Lipa and Lana Del Rey as part of the 34-song tracklist gameplay",
+          "GTA 6: The Album seemingly leaks with Dua Lipa and Lana Del Rey as part of the 34-song tracklist guide",
+          "GTA 6: The Album seemingly leaks with Dua Lipa and Lana Del Rey as part of the 34-song tracklist avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GTA 6: The Album seemingly leaks with Dua Lipa and Lana Del Rey as part of the 34-song tracklist"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-ahead-of-gta-6-take-two-ceo-calls-out-anthropic-and-ope-f5ba31c514af",
+      "topic": "Ahead of GTA 6, Take-Two CEO calls out Anthropic and OpenAI over AI game clones",
+      "detected_at": "2026-11-14T19:28:42.661051+00:00",
+      "analysed_at": "2026-11-24T12:56:16.944188+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/ahead-of-gta-6-take-two-ceo-calls-out-anthropic-and-openai-over-ai-game-clones-as-its-ironic-to-stomp-on-someone-elses-ip/",
+          "title": "Ahead of GTA 6, Take-Two CEO calls out Anthropic and OpenAI over AI game clones",
+          "evidence": "<article> <p>In the lead up to <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>'s long-awaited launch, Take-Two CEO Strauss Zelnick has called out companies like Anthropic and OpenAI for allowing users to plagiarize and clone pre-existing games using generative AI.</p><p>Generative AI's usage in game development has been highly controversial for many reasons, but in recent months, AI copycats have become an increasingly prevalent issue. Some <a href=\"https://www.gamesradar.com/games/devs-are-canceling-their-demos-to-stop-ai-users-from-stealing-their-games-creator-of-one-of-steams-most-wishlisted-is-concerned-it-may-be-ripped-off-and-beaten-to-its-own-launch/\"><u>Steam developers even cancelled demos</u></a> or playtests out of fear their games would be cloned and put up for sale before their official release dates. <a href=\"https://www.gamesradar.com/games/co-op/meccha-chameleon-awarded-steams-highest-honor-a-fast-follow-ai-ripoff-that-even-uses-the-same-name-in-some-regions/\"><u>Copycats of popular games like Mecca Chameleon</u></a> can sometimes flood the storefront in no time, too.</p><p>\"I think all companies should be protecting intellectual property, their own and "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Ahead of GTA 6, Take-Two CEO calls out Anthropic and OpenAI over AI game clones",
+        "secondary_keywords": [
+          "Ahead of GTA 6, Take-Two CEO calls out Anthropic and OpenAI over AI game clones date de sortie",
+          "Ahead of GTA 6, Take-Two CEO calls out Anthropic and OpenAI over AI game clones plateformes",
+          "Ahead of GTA 6, Take-Two CEO calls out Anthropic and OpenAI over AI game clones gameplay",
+          "Ahead of GTA 6, Take-Two CEO calls out Anthropic and OpenAI over AI game clones guide",
+          "Ahead of GTA 6, Take-Two CEO calls out Anthropic and OpenAI over AI game clones avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Ahead of GTA 6, Take-Two CEO calls out Anthropic and OpenAI over AI game clones"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-dcu-is-dead-so-what-s-next-five-theories-for-the-fu-13dcbf0622f0",
+      "topic": "The DCU is dead, so what's next? Five theories for the future of DC",
+      "detected_at": "2026-11-14T19:28:42.661501+00:00",
+      "analysed_at": "2026-11-24T12:56:16.944219+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/dc-movies/the-dcu-is-dead-so-whats-next-five-theories-for-the-future-of-dc/",
+          "title": "The DCU is dead, so what's next? Five theories for the future of DC",
+          "evidence": "<article> <p>Nobody outside of the newly formed Skydance could have foreseen that James Gunn and Peter Safran would be <a href=\"https://www.gamesradar.com/entertainment/dc-movies/james-gunn-is-out-at-dc-studios-as-former-marvel-exec-takes-over-under-skydance/\">out as the heads of DC Studios</a> this early. The dynamic duo only took control four years ago, wiping the slate (almost) clean as they rebooted the franchise and set about forging a new shared universe.</p><p>Yet, here we are. Gunn and Safran are no longer DC chiefs (despite David Ellison naming them as the franchise’s continued caretakers last month), and Jeremy Latcham, best known for his work on the first stages of the Marvel Cinematic Universe alongside Kevin Feige, is now at the helm. What does that mean for Superman’s future on the big screen? It’s not entirely clear, but there are a few directions Latcham could take the DC Universe.</p><p>Below you'll find our theories on the five potential paths for DC heading forward now that all those best-laid plans for <a href=\"https://www.gamesradar.com/dc-james-gunn-movies-shows-dcu-chapter-one-gods-and-monsters/\">DCU Chapter One</a> are out the window. Before we wildly specul"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The DCU is dead, so what's next? Five theories for the future of DC",
+        "secondary_keywords": [
+          "The DCU is dead, so what's next? Five theories for the future of DC date de sortie",
+          "The DCU is dead, so what's next? Five theories for the future of DC plateformes",
+          "The DCU is dead, so what's next? Five theories for the future of DC gameplay",
+          "The DCU is dead, so what's next? Five theories for the future of DC guide",
+          "The DCU is dead, so what's next? Five theories for the future of DC avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The DCU is dead, so what's next? Five theories for the future of DC"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-most-annoying-questgivers-in-pc-games-b97f09d70831",
+      "topic": "The most annoying questgivers in PC games",
+      "detected_at": "2026-11-15T09:55:16.412431+00:00",
+      "analysed_at": "2026-11-24T12:56:16.944244+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/the-most-annoying-questgivers-in-pc-games/",
+          "title": "The most annoying questgivers in PC games",
+          "evidence": "<article> <p>Moira Brown gets a bad rap. Fallout 3's most chipper NPC, the Minnesotan menace is an inventor who sends you out on fact-finding missions to investigate the many dangers of the Wasteland. That means she puts you in harm's way quite a lot, which many players hate her for. Others just hate her voice.</p><p>I think her positive outlook makes a refreshing change of pace from, you know, everything else going on in Fallout 3. Plus she gives you an armored Vault suit just for starting her questline, and the Wasteland Survival Guide she writes with your help goes on to be a useful item in both New Vegas and Fallout 4. </p><p>What I'm saying is, there are plenty of videogame questgivers much more annoying than Moira Brown. All of the ones below, for starters. And if you disagree, you're a big meanie.</p><h2 id=\"zero\">Zero</h2><p><em>Grand Theft Auto: San Andreas</em></p><p>Rockstar loves to make us sit through cutscenes where our protagonist agrees to help out some of the most annoying people alive. Zero isn't alone—in GTA: San Andreas, he's got wannabe MC/janitor OG Loc for competition—but he is the winner for absolute worst. </p><p>Zero's the owner of a remote-control car sho"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The most annoying questgivers in PC games",
+        "secondary_keywords": [
+          "The most annoying questgivers in PC games date de sortie",
+          "The most annoying questgivers in PC games plateformes",
+          "The most annoying questgivers in PC games gameplay",
+          "The most annoying questgivers in PC games guide",
+          "The most annoying questgivers in PC games avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The most annoying questgivers in PC games"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gta-6-soundtrack-leak-confirmed-accurate-with-new-songs-c9900f54bcdd",
+      "topic": "GTA 6 soundtrack leak confirmed accurate with new songs from Lana Del Rey, Playboi Carti, and Keith Richards",
+      "detected_at": "2026-11-15T09:55:16.412715+00:00",
+      "analysed_at": "2026-11-24T12:56:16.944272+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-soundtrack-leak-confirmed-accurate-with-new-songs-from-lana-del-rey-playboi-carti-and-keith-richards/",
+          "title": "GTA 6 soundtrack leak confirmed accurate with new songs from Lana Del Rey, Playboi Carti, and Keith Richards",
+          "evidence": "<article> <p>Grand Theft Auto 6 is more leak than ship at this point, with the anonymous individual known as <a href=\"https://www.pcgamer.com/games/grand-theft-auto/who-is-cyberleek-what-we-know-about-the-gta-6-leaker/\">Cyberleek</a> in particular responsible for feeding the hype machine in ways that Rockstar weren't big fans of. The latest leak came from elsewhere, however, via a video of someone <a href=\"https://x.com/nxrcssist/status/2121502816904835483\">handling advance copies of the vinyl soundtrack</a>. The album's track listing is visible, and has been confirmed as accurate by <a href=\"https://www.rollingstone.com/music/music-news/lana-del-rey-dua-lipa-zara-larsson-gta-vi-album-track-list-1235658416/\">Rolling Stone's sources</a> as well as <a href=\"https://www.billboard.com/music/music-news/gta-6-album-tracklist-grand-theft-auto-vi-soundtrack-1236382244/\">Billboard's</a>.</p><p>This is the soundtrack rather than the score, which will be by Justice—the French electronic duo responsible for the excellent 2007 electro house album Cross—though they do feature here a couple of times as well. Their songs Flower in a Hurricane (with Tame Impala, SZA, and King Gizzard & the Lizard W"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GTA 6 soundtrack leak confirmed accurate with new songs from Lana Del Rey, Playboi Carti, and Keith Richards",
+        "secondary_keywords": [
+          "GTA 6 soundtrack leak confirmed accurate with new songs from Lana Del Rey, Playboi Carti, and Keith Richards date de sortie",
+          "GTA 6 soundtrack leak confirmed accurate with new songs from Lana Del Rey, Playboi Carti, and Keith Richards plateformes",
+          "GTA 6 soundtrack leak confirmed accurate with new songs from Lana Del Rey, Playboi Carti, and Keith Richards gameplay",
+          "GTA 6 soundtrack leak confirmed accurate with new songs from Lana Del Rey, Playboi Carti, and Keith Richards guide",
+          "GTA 6 soundtrack leak confirmed accurate with new songs from Lana Del Rey, Playboi Carti, and Keith Richards avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GTA 6 soundtrack leak confirmed accurate with new songs from Lana Del Rey, Playboi Carti, and Keith Richards"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-planeswalker-netflix-s-magic-the-gathering-animated-ser-9cb3905c0d55",
+      "topic": "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane",
+      "detected_at": "2026-11-15T09:55:16.412969+00:00",
+      "analysed_at": "2026-11-24T12:56:16.944297+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/movies-tv/planeswalker-netflixs-magic-the-gathering-animated-series-will-have-a-different-art-style-for-each-plane/",
+          "title": "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/5u4JESTNAFw\" allowfullscreen=\"\"></iframe></div></div><p>Netflix's Magic: The Gathering series was initially announced in 2019 with the MCU's Russo Brothers at the helm, though they left a couple of years later thanks to the all-purpose \"creative differences\". That was all we heard until 2024 until Brandon Routh, who had been cast as planeswalker Gideon Jura, casually mentioned in an unrelated interview that the project had been binned.</p><p>Netflix announced soon after that actually the animated series was a go, now with Terry Matalas of Star Trek: Picard and the 12 Monkeys TV series as its head showrunner, with a teaser image showing pyromancer Chandra and leonin Ajani Goldmane silhouetted against a red sky.</p><p>Now, a mere seven years after the first reveal, there's a \"sneak peek\" trailer with a bunch of excited Wizards of the Coast staff, art labeled \"early development\", and a few seconds of Ajani and Chandra doing their stuff. </p><p>The most intriguing part is when, over a montage of 3D props including a ca"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane",
+        "secondary_keywords": [
+          "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane date de sortie",
+          "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane plateformes",
+          "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane gameplay",
+          "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane guide",
+          "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Planeswalker, Netflix's Magic: The Gathering animated series, will have a different art style for each plane"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-dungeon-mobs-no-longer-give-exp-if-they-re--b5871bf483f2",
+      "topic": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party",
+      "detected_at": "2026-11-15T09:55:16.413183+00:00",
+      "analysed_at": "2026-11-24T12:56:16.944321+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-dungeon-mobs-no-longer-give-exp-if-theyre-trivial-for-anyone-in-the-party/",
+          "title": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party",
+          "evidence": "<article> <p>It's been something of a rollercoaster watching Blizzard tweak the experience rewards players can expect from dungeons in World of Warcraft: Forever. They've always been a reliable way to get oodles of experience and fat loots, but in Forever, the goal has seemingly been to ensure they're more of a supplement to regular questing and exploration.</p><p>Initially, mob experience values were <a href=\"https://www.pcgamer.com/games/world-of-warcraft/the-wow-forever-betas-nerf-to-dungeon-xp-isnt-nearly-as-bad-as-it-seems/\">nerfed pretty hard</a> to compensate for a boost in quest experience, meaning that you'd get diminishing returns for spamming one dungeon over and over. Later, dungeon enemy experience <a href=\"https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-bumps-dungeon-xp-from-monsters-by-50-percent-after-some-community-feedback-i-will-diplomatically-call-passionate/\">was buffed</a> by a lot, but not back to its pre-nerf value. </p><p>In <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040\">a hotfix released yesterday</a>, dungeon experience was tweaked yet again: \"Killing enemies in dungeons now awards"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party",
+        "secondary_keywords": [
+          "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party date de sortie",
+          "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party plateformes",
+          "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party gameplay",
+          "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party guide",
+          "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

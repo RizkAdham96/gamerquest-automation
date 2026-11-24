@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-23T11:17:14.469752+00:00",
+  "updated_at": "2026-11-24T01:53:51.288294+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -32050,6 +32050,316 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-config-1222140",
+      "topic": "Configuration PC Detroit: Become Human : minimale, recommandée et conseils",
+      "detected_at": "2026-11-24T01:53:50.691689+00:00",
+      "analysed_at": "2026-11-24T01:53:51.287996+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1222140/",
+          "title": "Detroit: Become Human sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Detroit: Become Human, consultée le 2026-11-24. Développeur : Quantic Dream. Éditeur : Quantic Dream. Date de sortie sur Steam : 18 juin 2020. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Configuration PC Minimale : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (64 bit) ; Processeur : Intel Core i5-2300 @ 2.8 GHz or AMD Ryzen 3 1200 @ 3.1GHz or AMD FX-8350 @ 4.2GHz ; Mémoire vive : 8 GB de mémoire ; Graphiques : Nvidia GeForce GTX 780 or AMD HD 7950 with 3GB VRAM minimum (Support of Vulkan 1.1 required) ; Espace disque : 55 GB d'espace disque disponible. Configuration PC Recommandée : ; Système d'exploitation et processeur 64 bits nécessaires ; Système d'exploitation : Windows 10 (64 bit) ; Processeur : Intel Core i5-6600 @ 3.3 GHz or AMD Ryzen 3 1300 X @ 3.4 GHz ; Mémoire vive : 12 GB de mémoire ; Graphiques : Nvidia GeForce GTX 1060 or AMD Radeon RX 580 with 4GB VRAM minimum (Support of Vulkan 1.1 required) ; Espace disque : 55 GB d'espace disque disponible.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/ss_9c900def2b1d9a003b7d3e202ea2a7556a36e081.1920x1080.jpg?t=1667468479"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "configuration pc Detroit: Become Human",
+        "secondary_keywords": [
+          "Detroit: Become Human PC",
+          "Detroit: Become Human Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Configuration PC Detroit: Become Human : minimale, recommandée et conseils"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "evg-multi-1222140",
+      "topic": "Detroit: Become Human multijoueur : coop, en ligne et modes de jeu",
+      "detected_at": "2026-11-24T01:53:50.691750+00:00",
+      "analysed_at": "2026-11-24T01:53:51.288048+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 94,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "store",
+          "url": "https://store.steampowered.com/app/1222140/",
+          "title": "Detroit: Become Human sur Steam",
+          "evidence": "Données officielles de la fiche Steam de Detroit: Become Human, consultée le 2026-11-24. Développeur : Quantic Dream. Éditeur : Quantic Dream. Date de sortie sur Steam : 18 juin 2020. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows. Modes et fonctionnalités déclarés sur Steam : Solo, Succès Steam, Compat. contrôleurs complète, Steam Cloud, Remote Play sur télévision, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Detroit: Become Human met le destin de l'humanité et des androïdes entre vos mains, dans un futur proche où les machines sont devenues plus intelligentes que les hommes. Tous vos choix ont une incidence sur la suite du jeu, dans l'une des narrations les plus élaborées jamais écrites.",
+          "evidence_origin": "steam_store_api",
+          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/ss_9c900def2b1d9a003b7d3e202ea2a7556a36e081.1920x1080.jpg?t=1667468479"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Detroit: Become Human multijoueur",
+        "secondary_keywords": [
+          "Detroit: Become Human PC",
+          "Detroit: Become Human Steam"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Detroit: Become Human multijoueur : coop, en ligne et modes de jeu"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-marvel-rivals-draws-a-line-in-the-sand-when-it-comes-to-c118bdb30d39",
+      "topic": "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix",
+      "detected_at": "2026-11-14T09:24:48.704660+00:00",
+      "analysed_at": "2026-11-24T01:53:51.288088+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-draws-a-line-in-the-sand-when-it-comes-to-using-mods-and-configs-to-get-an-unfair-combat-advantage-but-that-doesnt-help-players-looking-for-a-stutter-fix/",
+          "title": "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix",
+          "evidence": "<article> <p>How far would you go to achieve decent frame rates? Well some <a href=\"https://www.pcgamer.com/uk/marvel-rivals/\">Marvel Rivals</a> players have been breaking the rules to try and give themselves a better shot of <a href=\"https://www.pcgamer.com/games/third-person-shooter/marvel-rivals-players-are-messing-with-their-config-files-to-cancel-games-with-no-consequence-before-they-get-a-loss/\">having a sort of salvageable in-game experience</a>.</p><p>Sure, a lot of players using mods and configs are doing so to give themselves the \"unfair combat advantage\" that Guangyun Chen talks about, using it to dial down the map detail so enemy players stand out more or heightening environmental tells like footsteps. But that doesn't account for absolutely everyone within the community, with some changing their configs to try and remove the stuttering that can plague Marvel Rivals games. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"CvzSCXHqda5B4hr9FvSbdH\" name=\"marvel rivals blade ultimate"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix",
+        "secondary_keywords": [
+          "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix date de sortie",
+          "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix plateformes",
+          "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix gameplay",
+          "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix guide",
+          "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Marvel Rivals draws a line in the sand when it comes to using mods and configs 'to get an unfair combat advantage' but that doesn't help players looking for a stutter fix"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-resignation-of-jensen-huang-from-nvidia-and-everyth-26cc094216a6",
+      "topic": "The resignation of Jensen Huang from Nvidia and everything that has followed",
+      "detected_at": "2026-11-14T09:24:48.705434+00:00",
+      "analysed_at": "2026-11-24T01:53:51.288116+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/",
+          "title": "The resignation of Jensen Huang from Nvidia and everything that has followed",
+          "evidence": "<article> <div class=\"live-content\"><p>Nvidia's CEO, Jensen Huang, has resigned as President, CEO, and member of the board, effective immediately. That is the message which was posted yesterday morning on the <a href=\"https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition\" target=\"_blank\">Nvidia newsroom</a>.</p><p><strong></strong><a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/#section-latest-updates\"><strong>Get to the latest updates</strong></a><strong></strong></p><p>He has been at the centre of a big ol' scandal since last week, which threatened his position at the head of one of the biggest companies in the world. It started with a <a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen-huangs-affair-with-alleged-chinese-spy-highlights-how-the-gpu-companys-dealings-are-now-everyones-business/\" target=\"_blank\">report over his relationship with a suspected Chinese intelligence asset</a>, which moved into him emailing his entire workforce to say sorry that he's had an affair (though didn't name the person), an invite to talk to national security and foreign affairs officials in US Congress next week, and now reports of <a href=\"ht"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The resignation of Jensen Huang from Nvidia and everything that has followed",
+        "secondary_keywords": [
+          "The resignation of Jensen Huang from Nvidia and everything that has followed date de sortie",
+          "The resignation of Jensen Huang from Nvidia and everything that has followed plateformes",
+          "The resignation of Jensen Huang from Nvidia and everything that has followed gameplay",
+          "The resignation of Jensen Huang from Nvidia and everything that has followed guide",
+          "The resignation of Jensen Huang from Nvidia and everything that has followed avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The resignation of Jensen Huang from Nvidia and everything that has followed"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-humble-bundle-s-new-redesign-inexplicably-removes-2-fac-5f710962cd28",
+      "topic": "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security",
+      "detected_at": "2026-11-14T09:24:48.705596+00:00",
+      "analysed_at": "2026-11-24T01:53:51.288143+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/platforms/humble-bundles-new-redesign-inexplicably-removes-2-factor-authentication-dramatically-weakening-account-security/",
+          "title": "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security",
+          "evidence": "<article> <p>Users of <a href=\"https://www.humblebundle.com/\" target=\"_blank\">Humble Bundle</a>—the pay-what-you-want game-bundle storefront that will also sell you books and software—have been alarmed by a new redesign that seems to have axed a foundational piece of login security tech. </p><p>The just-released new Humble Bundle website has no support for two-factor authentication whatsoever: users are unable to add it to their accounts, while those who had previously set it up on the old site design (including yours truly) are able to log in with just an email and password. At no point in the login process does the site ask you to input a 2FA code.</p><p>Humble Bundle does not address the removal of 2FA anywhere on its new site. In fact, the site's FAQs still feature articles <a href=\"https://support.humblebundle.com/hc/en-us/articles/203061620-Keeping-Your-Humble-Account-Secure\" target=\"_blank\">encouraging users</a> to make use of it to keep their accounts secure, which is currently impossible. I have reached out to Humble Bundle to ask if the change was intentional and if it will be reversed, and will update this piece if I hear back.</p><p>This is, to put it mildly, concerning"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security",
+        "secondary_keywords": [
+          "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security date de sortie",
+          "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security plateformes",
+          "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security gameplay",
+          "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security guide",
+          "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Humble Bundle's new redesign inexplicably removes 2-factor authentication, dramatically weakening account security"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-if-jensen-huang-goes-who-could-replace-him-here-s-who-t-8bf4ce7898e6",
+      "topic": "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals",
+      "detected_at": "2026-11-14T09:24:48.705850+00:00",
+      "analysed_at": "2026-11-24T01:53:51.288216+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/if-jensen-huang-goes-who-could-replace-him-heres-who-the-board-might-pick-if-the-nvidia-ceo-is-ousted-in-the-wake-of-affair-scandals/",
+          "title": "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals",
+          "evidence": "<article> <p>It was bad enough for Nvidia CEO Jensen Huang that he <a href=\"https://www.pcgamer.com/gaming-industry/nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-chinese-spy-as-company-board-launches-investigation/\" target=\"_blank\">admitted to having an affair with someone</a>, who people believe to be someone suspected of being a Chinese spy. But it's now come to light he has reportedly <a href=\"https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-allegedly-had-a-second-affair-with-another-nvidia-exec/\" target=\"_blank\">had a second affair with a member of Nvidia staff</a>—Kimberly Powell, VP of healthcare. After this latest story it's looking more likely that Huang could be forced to resign.</p><p>The question is what's next for Nvidia if the board today decides his tenure as the longest-serving Silicon Valley CEO should come to an end. Huang has been the image of the company in the eyes of the public for a long time, so whoever steps in to replace him will have a big leather jacket to fill. And whoever it is, it will be a major change for the company regardless.</p><p>The doors are wide open for Nvidia in the long-term, so it's difficult to pin down with any certai"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals",
+        "secondary_keywords": [
+          "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals date de sortie",
+          "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals plateformes",
+          "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals gameplay",
+          "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals guide",
+          "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "If Jensen Huang goes, who could replace him? Here’s who the board might pick if the Nvidia CEO is ousted in the wake of affair scandals"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-do-you-like-mob-tagging-in-oldschool-mmos-or-are-you-do-460307485dad",
+      "topic": "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit?",
+      "detected_at": "2026-11-14T19:28:42.276419+00:00",
+      "analysed_at": "2026-11-24T01:53:51.288261+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/do-you-like-mob-tagging-in-oldschool-mmos-or-are-you-done-with-fighting-for-quest-credit/",
+          "title": "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit?",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Terminally Online</div><div class=\"fancy_box_body\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' ><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"PgGhmt5pTtxusaQQX3dHPF\" name=\"logo_terminally\" caption=\"\" alt=\"The Terminally Online logo.\" src=\"https://cdn.mos.cms.futurecdn.net/PgGhmt5pTtxusaQQX3dHPF-1920-80.png\" mos=\"\" link=\"\" align=\"\" fullscreen=\"\" width=\"\" height=\"\" attribution=\"\" endorsement=\"\" class=\"pinterest-pin-exclude\" /></p></div></div><figcaption itemprop=\"caption description\" class=\"\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Future)</span></figcaption></figure><p class=\"fancy-box__body-text\">This is <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/tag/terminally-online/\" target=\"_blank\">Terminally Online</a>:<strong> </strong>PC Gamer's very own MMO column. Every other week, I'll be sharing my thoughts on the genre, interviewing fellow MMO-heads like me, taking a deep-dive into mechanics we've all taken for granted, and, occasionally, bringing in guest writers to talk about their MMO of choice.</p"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit?",
+        "secondary_keywords": [
+          "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit? date de sortie",
+          "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit? plateformes",
+          "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit? gameplay",
+          "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit? guide",
+          "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Do you like mob tagging in oldschool MMOs, or are you done with fighting for quest credit?"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-summoned-1-blood-demon-stitched-2-of-my-disciples-tog-4389377f2086",
+      "topic": "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress",
+      "detected_at": "2026-11-14T19:28:42.276950+00:00",
+      "analysed_at": "2026-11-24T01:53:51.288289+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/sim/i-summoned-1-blood-demon-stitched-2-of-my-disciples-together-and-seduced-3-snails-in-this-excellent-cult-simulator-in-the-spirit-of-dwarf-fortress/",
+          "title": "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Weird Weekend</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\"><a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/tag/weird-weekend/\" target=\"_blank\">Weird Weekend</a> is our regular Saturday column where we celebrate PC gaming oddities: peculiar games, strange bits of trivia, forgotten history. Pop back every weekend to find out what Jeremy, Josh, Rick and Ted have become obsessed with this time, whether it's the <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/games/i-embarked-on-a-mission-to-answer-the-most-important-question-in-pc-gaming-how-tall-is-garrett-from-thief/\" target=\"_blank\">canon height of Thief's Garrett</a> or that time someone in the Vatican pirated <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/uk/games/sports/a-part-of-my-brain-will-always-be-dedicated-to-the-time-someone-in-the-vatican-pirated-football-manager-2013/\" target=\"_blank\">Football Manager</a>.</p></div></div><p>What's the fastest you've ever fallen in love with a game? I think I have a new record: about 0.3 seconds into <a href=\"https://store.steampowered.com/app/234598"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress",
+        "secondary_keywords": [
+          "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress date de sortie",
+          "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress plateformes",
+          "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress gameplay",
+          "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress guide",
+          "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I summoned 1 blood demon, stitched 2 of my disciples together, and seduced 3 snails in this excellent cult simulator in the spirit of Dwarf Fortress"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

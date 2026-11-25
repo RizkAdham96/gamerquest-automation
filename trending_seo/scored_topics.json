@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-25T11:43:41.015546+00:00",
+  "updated_at": "2026-11-25T23:19:08.625798+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -33296,6 +33296,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "League of Legends: New Dawn is the Riot MOBA's next era: \"We want League to stand the test of time\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-skyrim-lead-regrets-the-rpg-s-level-cap-because-players-40603e73f185",
+      "topic": "Skyrim lead regrets the RPG’s level cap because players \"didn't want\" to just start new characters",
+      "detected_at": "2026-11-16T10:10:07.141979+00:00",
+      "analysed_at": "2026-11-25T23:19:08.625574+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-elder-scrolls/skyrim-lead-regrets-the-rpgs-level-cap-because-players-had-a-character-they-loved-so-why-couldnt-they-keep-playing/",
+          "title": "Skyrim lead regrets the RPG’s level cap because players \"didn't want\" to just start new characters",
+          "evidence": "<article> <p>Oftentimes in game development, you can't be sure how something will work until you ship. In the case of <a href=\"https://www.gamesradar.com/uk/skyrim/\">Skyrim</a>, one of the leads was certain the level cap wouldn't be a problem, and then players made it clear he had the wrong idea.</p><p>Bruce Nesmith, lead designer on Skyrim and a former longtime developer at <a href=\"https://www.gamesradar.com/uk/tag/bethesda-game-studios/\">Bethesda</a>, told the <a href=\"https://www.youtube.com/watch?v=10mvuCMbc9Y\" target=\"_blank\">Examined Game podcast</a> all about his logic. \"When creating the system where all the different skills would go to 100, it implied, mathematically, a level limit of 81,\" he explains.</p><p>\"I didn't think of that,\" he says. \"Most of the games that Bethesda produces are designed to, you've played all the content roughly around level 50. That's what we shoot for.\"</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/10mvuCMbc9Y\" allowfullscreen=\"\"></iframe></div></div><p>He qualifies this with the caveat that that's a broad generalisation, because"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Skyrim lead regrets the RPG’s level cap because players \"didn't want\" to just start new characters",
+        "secondary_keywords": [
+          "Skyrim lead regrets the RPG’s level cap because players \"didn't want\" to just start new characters date de sortie",
+          "Skyrim lead regrets the RPG’s level cap because players \"didn't want\" to just start new characters plateformes",
+          "Skyrim lead regrets the RPG’s level cap because players \"didn't want\" to just start new characters gameplay",
+          "Skyrim lead regrets the RPG’s level cap because players \"didn't want\" to just start new characters guide",
+          "Skyrim lead regrets the RPG’s level cap because players \"didn't want\" to just start new characters avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Skyrim lead regrets the RPG’s level cap because players \"didn't want\" to just start new characters"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-blood-of-dawnwalker-is-getting-new-game-next-week-3131474c5231",
+      "topic": "The Blood of Dawnwalker is getting New Game+ next week",
+      "detected_at": "2026-11-16T10:10:07.142145+00:00",
+      "analysed_at": "2026-11-25T23:19:08.625631+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/the-blood-of-dawnwalker-is-getting-new-game-next-week-with-patch-bringing-the-level-cap-for-the-ex-witcher-devs-vampire-rpg-up-to-100/",
+          "title": "The Blood of Dawnwalker is getting New Game+ next week",
+          "evidence": "<article> <p>Rebel Wolves has confirmed that <a href=\"https://www.gamesradar.com/uk/the-blood-of-dawnwalker-guide/\"><u>The Blood of Dawnwalker</u></a> is getting New Game+ as part of its 1.2 update next week. </p><p>Despite a number of nominations and bringing out one of the <a href=\"https://www.gamesradar.com/games/rpg/the-blood-of-dawnwalker-lifted-the-curse-on-the-vampire-genre-says-rebel-wolves-boss-we-already-have-ideas-how-to-expand-it/\"><u>best vampire games of the modern era</u></a>, The Blood of Dawnwalker didn't pick up any awards at the Golden Joystick Awards this week. It did come close, with a second place finish in PC Game of the Year and Best Storytelling, and a fifth place finish in Ultimate Game of the Year. The ex-<a href=\"https://www.gamesradar.com/uk/tag/cd-projekt-red/\"><u>CD Projekt Red</u></a> devs at Rebel Wolves <a href=\"https://www.gamesradar.com/games/action-rpg/blood-of-dawnwalker-boss-says-it-was-a-remarkable-experience-to-go-against-resident-evil-requiem-crimson-desert-and-more-at-the-golden-joysticks-even-if-it-didnt-win/\"><u>were happy with their performance</u></a>, and clearly haven't let the narrow losses faze them, as the game's next major patch "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The Blood of Dawnwalker is getting New Game+ next week",
+        "secondary_keywords": [
+          "The Blood of Dawnwalker is getting New Game+ next week date de sortie",
+          "The Blood of Dawnwalker is getting New Game+ next week plateformes",
+          "The Blood of Dawnwalker is getting New Game+ next week gameplay",
+          "The Blood of Dawnwalker is getting New Game+ next week guide",
+          "The Blood of Dawnwalker is getting New Game+ next week avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The Blood of Dawnwalker is getting New Game+ next week"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-lego-donkey-kong-arcade-72051-review-i-d-go-as-far-to-c-096c4c7e0e61",
+      "topic": "Lego Donkey Kong Arcade #72051 review: \"I'd go as far to call it one of the best Nintendo sets\"",
+      "detected_at": "2026-11-16T10:10:07.142536+00:00",
+      "analysed_at": "2026-11-25T23:19:08.625662+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/toys-collectibles/lego-donkey-kong-arcade-72051-review/",
+          "title": "Lego Donkey Kong Arcade #72051 review: \"I'd go as far to call it one of the best Nintendo sets\"",
+          "evidence": "<article> <p>As the biggest Donkey Kong fan to have ever written for GamesRadar+, I've been waiting with bated breath to see what Lego had up its sleeve for an 18+ set since he was announced for the kid-friendly Lego Super Mario series years ago. Granted, I'm a far bigger fan of the Donkey Kong Country series (and 2025's actual game of the year <a href=\"https://www.gamesradar.com/games/donkey-kong/donkey-kong-bananza-review/\">Donkey Kong Bananza</a>) than the arcade original, but you couldn't start anywhere else, could you? </p><p>Thankfully, Lego has taken cues from its very first Lego Super Mario 18+ set and made an interactive showpiece with the Lego Donkey Kong Arcade set that looks good and has a fun gimmick to show off to guests that's worthy of the <a href=\"https://www.gamesradar.com/best-lego-sets-and-kits/\">best Lego sets</a>.</p><h2 class=\"article-body__section\" id=\"section-lego-donkey-kong-arcade-features\"><span>Lego Donkey Kong Arcade features</span></h2><div ><table><tbody><tr><td class=\"firstcol \" ><p>Price</p></td><td ><p>$199.99 / £149.99</p></td></tr><tr><td class=\"firstcol \" ><p>Ages</p></td><td ><p>18+</p></td></tr><tr><td class=\"firstcol \" ><p>Pieces</p></td><td"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Lego Donkey Kong Arcade #72051 review: \"I'd go as far to call it one of the best Nintendo sets\"",
+        "secondary_keywords": [
+          "Lego Donkey Kong Arcade #72051 review: \"I'd go as far to call it one of the best Nintendo sets\" date de sortie",
+          "Lego Donkey Kong Arcade #72051 review: \"I'd go as far to call it one of the best Nintendo sets\" plateformes",
+          "Lego Donkey Kong Arcade #72051 review: \"I'd go as far to call it one of the best Nintendo sets\" gameplay",
+          "Lego Donkey Kong Arcade #72051 review: \"I'd go as far to call it one of the best Nintendo sets\" guide",
+          "Lego Donkey Kong Arcade #72051 review: \"I'd go as far to call it one of the best Nintendo sets\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Lego Donkey Kong Arcade #72051 review: \"I'd go as far to call it one of the best Nintendo sets\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-sony-s-base-ps5-ai-upscaling-tech-is-making-that-900-ps-6d706ea5cbe6",
+      "topic": "Sony's base PS5 AI upscaling tech is making that $900 PS5 Pro price look worse",
+      "detected_at": "2026-11-16T10:10:07.142734+00:00",
+      "analysed_at": "2026-11-25T23:19:08.625689+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/sonys-base-ps5-ai-upscaling-tech-is-making-that-usd900-ps5-pro-price-look-worse-as-marvels-spider-man-2-no-mans-sky-and-more-get-visual-updates/",
+          "title": "Sony's base PS5 AI upscaling tech is making that $900 PS5 Pro price look worse",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/uk/tag/sony/\"><u>Sony</u></a> has announced a new batch of games to be added to its QSSR initiative which brings AI upscaling tech to the base PS5 console.</p><p>As one of the daft people who purchased a <a href=\"https://www.gamesradar.com/uk/ps5-pro-guide/\"><u>PS5 Pro</u></a> despite it not exactly being a necessary purchase, I will admit I've enjoyed the benefits. <a href=\"https://www.gamesradar.com/uk/resident-evil-9-requiem/\"><u>Resident Evil Requiem</u></a> and Death Stranding 2 looked absolutely gorgeous on the console, with the former being the first game to implement the <a href=\"https://www.gamesradar.com/games/pssr-2-is-finally-here-and-the-tech-that-made-resident-evil-requiem-look-so-good-promises-a-big-ps5-pro-upgrade-for-crimson-desert-this-week/\"><u>PSSR 2 upscaling</u></a>. But I didn't think the PS5 Pro was entirely worth the price of admission when I bought it a few months after launch (that pre-launch Monster Hunter Wilds performance was <em>rough </em>on the base PS5), but I especially don't think it is now that it costs just under a grand to get your hands on one. </p><p>Sony likely has noticed that too, which is "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Sony's base PS5 AI upscaling tech is making that $900 PS5 Pro price look worse",
+        "secondary_keywords": [
+          "Sony's base PS5 AI upscaling tech is making that $900 PS5 Pro price look worse date de sortie",
+          "Sony's base PS5 AI upscaling tech is making that $900 PS5 Pro price look worse plateformes",
+          "Sony's base PS5 AI upscaling tech is making that $900 PS5 Pro price look worse gameplay",
+          "Sony's base PS5 AI upscaling tech is making that $900 PS5 Pro price look worse guide",
+          "Sony's base PS5 AI upscaling tech is making that $900 PS5 Pro price look worse avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Sony's base PS5 AI upscaling tech is making that $900 PS5 Pro price look worse"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-crimson-desert-studio-pearl-abyss-now-implementing-ai-t-041da2912b81",
+      "topic": "Crimson Desert studio Pearl Abyss now implementing AI \"throughout our entire development pipeline\"",
+      "detected_at": "2026-11-16T10:10:07.142952+00:00",
+      "analysed_at": "2026-11-25T23:19:08.625713+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/open-world/despite-crimson-deserts-ai-backlash-pearl-abyss-is-now-implementing-the-tech-throughout-our-entire-development-pipeline-including-for-upcoming-pokemon-like-dokev/",
+          "title": "Crimson Desert studio Pearl Abyss now implementing AI \"throughout our entire development pipeline\"",
+          "evidence": "<article> <p>It's a sad reality that several major games companies have either tried to use AI in development, or are actively doing so. Pearl Abyss, the studio behind this year's <a href=\"https://www.gamesradar.com/uk/crimson-desert/\">Crimson Desert</a>, can now be counted among them, confirming the technology is being integrated across the business.</p><p>The publisher and developer revealed this in a recent <a href=\"https://www.pearlabyss.com/en-US/Board/Detail?_boardNo=15330\" target=\"_blank\">Earnings Letter</a>. \"We are integrating AI technologies to enhance development productivity and overall quality,\" Pearl Abyss writes. \"AI is being utilized across various stages of development – including the automation of repetitive tasks, content creation support, and test optimization – and we are expanding its implementation throughout our entire development pipeline.\"</p><p>It's worth remembering, Crimson Desert players <a href=\"https://www.gamesradar.com/games/rpg/crimson-desert-replaces-ai-generated-assets-left-in-the-game-by-accident-as-part-of-ongoing-visual-improvements-alongside-improvements-to-loading-and-controls/\">dragged the game</a> for having apparent generative-AI assets "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Crimson Desert studio Pearl Abyss now implementing AI \"throughout our entire development pipeline\"",
+        "secondary_keywords": [
+          "Crimson Desert studio Pearl Abyss now implementing AI \"throughout our entire development pipeline\" date de sortie",
+          "Crimson Desert studio Pearl Abyss now implementing AI \"throughout our entire development pipeline\" plateformes",
+          "Crimson Desert studio Pearl Abyss now implementing AI \"throughout our entire development pipeline\" gameplay",
+          "Crimson Desert studio Pearl Abyss now implementing AI \"throughout our entire development pipeline\" guide",
+          "Crimson Desert studio Pearl Abyss now implementing AI \"throughout our entire development pipeline\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Crimson Desert studio Pearl Abyss now implementing AI \"throughout our entire development pipeline\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gerudo-fortress-guide-and-walkthrough-for-the-ocarina-o-cbecf557410c",
+      "topic": "Gerudo Fortress guide and walkthrough for the Ocarina of Time Remake",
+      "detected_at": "2026-11-16T10:10:07.143246+00:00",
+      "analysed_at": "2026-11-25T23:19:08.625740+00:00",
+      "scores": {
+        "durability": 25,
+        "search_intent": 25,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 5,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 90,
+      "decision": "WRITE",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-gerudo-fortress/",
+          "title": "Gerudo Fortress guide and walkthrough for the Ocarina of Time Remake",
+          "evidence": "<article> <p>The Gerudo Fortress in Zelda Ocarina of Time Remake is as much of a maze as the original, a forced stealth section in which Link must find four imprisoned carpenters that the Gerudo have taken hostage and free them from their respective jails. To do this, you have to sneak around all the guards, as being spotted instantly fails you and returns you to your cell on the North side of the Fortress. Fortunately, I'll show you how to find all the carpenters and what you need to need about this key location in our guide and walkthrough.<br /><br /><em>Once this is complete, you'll need the </em><a href=\"https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-lenses-of-truth\"><em>Lenses of Truth</em></a><em> for the next section of the desert. If you haven't found them yet, our guide will help!</em></p><h2 class=\"article-body__section\" id=\"section-how-to-complete-gerudo-fortress-in-zelda-ocarina-of-time\"><span>How to complete Gerudo Fortress in Zelda Ocarina of Time</span></h2><p>To complete Gerudo Fortress in OoT, you <strong>simply need to find all four prisoners. </strong>They're at different locations in the Fortress, but our map and guide below will sho"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Gerudo Fortress guide and walkthrough for the Ocarina of Time Remake",
+        "secondary_keywords": [
+          "Gerudo Fortress guide and walkthrough for the Ocarina of Time Remake date de sortie",
+          "Gerudo Fortress guide and walkthrough for the Ocarina of Time Remake plateformes",
+          "Gerudo Fortress guide and walkthrough for the Ocarina of Time Remake gameplay",
+          "Gerudo Fortress guide and walkthrough for the Ocarina of Time Remake guide",
+          "Gerudo Fortress guide and walkthrough for the Ocarina of Time Remake avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
+        "suggested_title": "Gerudo Fortress guide and walkthrough for the Ocarina of Time Remake"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-that-007-first-light-theme-song-i-didn-t-like-is-up-for-ff7bfc4cdf0a",
+      "topic": "That 007 First Light theme song I didn't like is up for a Grammy Award",
+      "detected_at": "2026-11-16T23:30:27.433587+00:00",
+      "analysed_at": "2026-11-25T23:19:08.625765+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/action/that-007-first-light-theme-song-i-didnt-like-is-up-for-a-grammy-award/",
+          "title": "That 007 First Light theme song I didn't like is up for a Grammy Award",
+          "evidence": "<article> <p>Remember that 007 First Light song Lana Del Rey surprised-dropped earlier this year that I said <a href=\"https://www.pcgamer.com/games/action/lana-del-rey-surprise-drops-the-007-first-light-theme-song-and-i-regret-to-inform-you-that-it-is-not-great/\" target=\"_blank\">wasn't very good</a> because, as I put it at the time, \"it sounds like Bond karaoke\"? Well anyway, it's up for a <a href=\"https://www.grammy.com/awards/categories/best-score-soundtrack-for-video-games-and-other-interactive-media/2027/\" target=\"_blank\">Grammy Award</a>.</p><p>007 First light, composed by Joe Henson and Alexis Leon Smith, is in the running in the \"Best Score Soundtrack For Videogames and Other Interactive Media\" category, alongside four other contenders:</p><ul><li><strong>Avatar: Frontiers of Pandora - From the Ashes</strong>, composer: Joe Paesano</li><li><strong>Ghost of Yotei</strong>, composer: Toma Otowa</li><li><strong>Marvel's Wolverine</strong>, composer : David Fleming</li><li><strong>Star Wars: Zero Company</strong>, composer: Gordy Haab</li></ul><p>I haven't heard any of the other tracks in contention (in my defense, neither Ghost of Yotei nor Wolverine are available on PC, and I "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "That 007 First Light theme song I didn't like is up for a Grammy Award",
+        "secondary_keywords": [
+          "That 007 First Light theme song I didn't like is up for a Grammy Award date de sortie",
+          "That 007 First Light theme song I didn't like is up for a Grammy Award plateformes",
+          "That 007 First Light theme song I didn't like is up for a Grammy Award gameplay",
+          "That 007 First Light theme song I didn't like is up for a Grammy Award guide",
+          "That 007 First Light theme song I didn't like is up for a Grammy Award avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "That 007 First Light theme song I didn't like is up for a Grammy Award"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gabe-newell-stuns-superyacht-enthusiasts-by-treating-cr-f01ac17b6401",
+      "topic": "Gabe Newell stuns superyacht enthusiasts by treating crew like human beings: 'That is something we've never really seen before in our industry'",
+      "detected_at": "2026-11-16T23:30:27.433918+00:00",
+      "analysed_at": "2026-11-25T23:19:08.625792+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/gabe-newell-stuns-superyacht-enthusiasts-by-treating-crew-like-human-beings-that-is-something-weve-never-really-seen-before-in-our-industry/",
+          "title": "Gabe Newell stuns superyacht enthusiasts by treating crew like human beings: 'That is something we've never really seen before in our industry'",
+          "evidence": "<article> <p>The Leviathan, the 111-meter superyacht owned by Valve co-founder Gabe Newell, has a number of unconventional features. It has a pool for SCUBA testing. It has an NBA-regulation basketball court. An Aston-Martin can be found parked on its helipad. It forgoes the typical teakwood deck in favor of easier-to-clean synthetic flooring.</p><p>But for the industry experts at Superyacht Times, which recently released <a href=\"https://www.youtube.com/watch?v=4pRawnAFLEk\" target=\"_blank\">a walkthrough video</a> of the Leviathan's features and operating philosophy (via <a href=\"https://www.gamesradar.com/games/gabe-newell-is-something-that-weve-never-really-seen-before-says-yacht-group-a-rich-guy-who-treats-people-well/\" target=\"_blank\">GamesRadar</a>), the most remarkable thing about Newell's roving wave-palace is its owner's willingness to appreciate the crew that enables his lifestyle of seaborne excess.</p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/4pRawnAFLEk\" allowfullscreen=\"\"></iframe></div></div><p>\"The most surprising thing is what happens when we go thro"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Gabe Newell stuns superyacht enthusiasts by treating crew like human beings: 'That is something we've never really seen before in our industry'",
+        "secondary_keywords": [
+          "Gabe Newell stuns superyacht enthusiasts by treating crew like human beings: 'That is something we've never really seen before in our industry' date de sortie",
+          "Gabe Newell stuns superyacht enthusiasts by treating crew like human beings: 'That is something we've never really seen before in our industry' plateformes",
+          "Gabe Newell stuns superyacht enthusiasts by treating crew like human beings: 'That is something we've never really seen before in our industry' gameplay",
+          "Gabe Newell stuns superyacht enthusiasts by treating crew like human beings: 'That is something we've never really seen before in our industry' guide",
+          "Gabe Newell stuns superyacht enthusiasts by treating crew like human beings: 'That is something we've never really seen before in our industry' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Gabe Newell stuns superyacht enthusiasts by treating crew like human beings: 'That is something we've never really seen before in our industry'"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

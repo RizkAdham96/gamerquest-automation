@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-24T23:38:09.461717+00:00",
+  "updated_at": "2026-11-25T11:43:41.015546+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -32984,6 +32984,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Réponse evergreen fondée sur les sources vérifiées",
         "suggested_title": "League of Legends will get an overhaul called New Dawn with new visuals, build options, and an updated client"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-this-rts-inspired-by-star-wars-empire-at-war-promises-c-8bd65472edde",
+      "topic": "This RTS inspired by Star Wars: Empire at War promises colossal space encounters and planetary battles with 'hundreds of thousands of units'",
+      "detected_at": "2026-11-15T19:56:54.911726+00:00",
+      "analysed_at": "2026-11-25T11:43:41.015311+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/rts/this-rts-inspired-by-star-wars-empire-at-war-promises-colossal-space-encounters-and-planetary-battles-with-hundreds-of-thousands-of-units/",
+          "title": "This RTS inspired by Star Wars: Empire at War promises colossal space encounters and planetary battles with 'hundreds of thousands of units'",
+          "evidence": "<article> <p>I could claim that I love real-time strategy games for their fast-paced decision-making. But what I truly love is building massive armies and wreaking havoc on an apocalyptic scale. So when I saw the trailer for<a href=\"https://store.steampowered.com/app/1297450/Horu/\"> Horu</a> (via<a href=\"https://www.rockpapershotgun.com/horu-is-a-sci-fi-4x-rts-inspired-by-star-wars-empire-at-war-in-which-spaceships-are-spellcasters-who-can-summon-black-holes\" target=\"_blank\"> RPS</a>), an in-development RTS that promises \"hundreds of thousands of units\" on screen, it went on the wishlist faster than you can say 'Zerg Rush'.</p><p><a href=\"https://store.steampowered.com/app/1297450/Horu/\" target=\"_blank\">Horu</a> is an upcoming strategy game inspired by Total War and<a href=\"https://www.pcgamer.com/uk/star-wars-empire-at-war/\"> Star Wars: Empire at War</a>, aiming to blend the colossal battles of the former with the galaxy-scale strategy of the latter. It challenges players to establish their own interstellar empire, building vast space fleets and huge land armies to assume ultimate dominion of the cosmos.</p><p>While it's the spectacle of Horu that caught my attention, with clouds "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "This RTS inspired by Star Wars: Empire at War promises colossal space encounters and planetary battles with 'hundreds of thousands of units'",
+        "secondary_keywords": [
+          "This RTS inspired by Star Wars: Empire at War promises colossal space encounters and planetary battles with 'hundreds of thousands of units' date de sortie",
+          "This RTS inspired by Star Wars: Empire at War promises colossal space encounters and planetary battles with 'hundreds of thousands of units' plateformes",
+          "This RTS inspired by Star Wars: Empire at War promises colossal space encounters and planetary battles with 'hundreds of thousands of units' gameplay",
+          "This RTS inspired by Star Wars: Empire at War promises colossal space encounters and planetary battles with 'hundreds of thousands of units' guide",
+          "This RTS inspired by Star Wars: Empire at War promises colossal space encounters and planetary battles with 'hundreds of thousands of units' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "This RTS inspired by Star Wars: Empire at War promises colossal space encounters and planetary battles with 'hundreds of thousands of units'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-former-survival-mmo-dune-awakening-can-now-be-played-wi-ecce50738fd1",
+      "topic": "Former survival MMO Dune: Awakening can now be played 'without requiring an Internet connection at any point' as its much requested offline mode arrives",
+      "detected_at": "2026-11-15T19:56:54.911862+00:00",
+      "analysed_at": "2026-11-25T11:43:41.015370+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/survival-crafting/former-survival-mmo-dune-awakening-can-now-be-played-without-requiring-an-internet-connection-at-any-point-as-its-much-requested-offline-mode-arrives/",
+          "title": "Former survival MMO Dune: Awakening can now be played 'without requiring an Internet connection at any point' as its much requested offline mode arrives",
+          "evidence": "<article> <p>At long last, the transfer of power is complete.<a href=\"https://www.pcgamer.com/dune-awakening/\"> Dune: Awakening</a>, Funcom's ambitious survival MMO based on the classic sci-fi novel, has completed is pivot away from massive multiplayer, and can now be played fully offline.</p><p>The offline function arrived in an<a href=\"https://store.steampowered.com/news/app/1172710/view/714543467695440287?l=english\" target=\"_blank\"> otherwise unremarkable patch</a> that mainly fixes specific bugs and technical issues. \"It's now possible to play the game in single-player mode without requiring an internet connection at any point, including creating and deleting single-player characters.,\" Funcom revealed in a Steam post. </p><p>Dune: Awakening has been gradually drifting away from being a purely multiplayer experience for some time. In April, Funcom made its PvP element, like the Deep Desert and shipwreck exploration,<a href=\"https://www.pcgamer.com/games/mmo/dune-awakening-is-finally-making-deep-desert-and-shipwreck-pvp-fully-optional/\"> fully optional</a>. A fully fledged<a href=\"https://www.pcgamer.com/games/survival-crafting/funcom-is-adding-a-singleplayer-mode-to-dune-awaken"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Former survival MMO Dune: Awakening can now be played 'without requiring an Internet connection at any point' as its much requested offline mode arrives",
+        "secondary_keywords": [
+          "Former survival MMO Dune: Awakening can now be played 'without requiring an Internet connection at any point' as its much requested offline mode arrives date de sortie",
+          "Former survival MMO Dune: Awakening can now be played 'without requiring an Internet connection at any point' as its much requested offline mode arrives plateformes",
+          "Former survival MMO Dune: Awakening can now be played 'without requiring an Internet connection at any point' as its much requested offline mode arrives gameplay",
+          "Former survival MMO Dune: Awakening can now be played 'without requiring an Internet connection at any point' as its much requested offline mode arrives guide",
+          "Former survival MMO Dune: Awakening can now be played 'without requiring an Internet connection at any point' as its much requested offline mode arrives avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Former survival MMO Dune: Awakening can now be played 'without requiring an Internet connection at any point' as its much requested offline mode arrives"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-chronicles-medieval-developer-declared-bankruptcy-on-th-db8ce70136bb",
+      "topic": "Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain",
+      "detected_at": "2026-11-15T19:56:54.912020+00:00",
+      "analysed_at": "2026-11-25T11:43:41.015405+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/strategy/chronicles-medieval-developer-declared-bankruptcy-on-the-day-it-announced-it-was-in-trouble-but-development-will-continue-after-a-usd5-million-reprieve-from-coffee-stain/",
+          "title": "Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain",
+          "evidence": "<article> <p>In late October,<a href=\"https://www.pcgamer.com/games/rpg/chronicles-medieval-announcement-sgf/\"> Chronicles: Medieval</a> developer Raw Power Games <a href=\"https://www.pcgamer.com/games/sim/chronicles-medieval-developer-faces-imminent-closure-after-losing-funding-what-makes-it-hurt-is-how-close-we-are-early-access-is-in-reach/\">announced that it was in trouble</a>. Funding for its ambitious, historical sandbox strategy had suddenly been pulled, and as a result the studio was at \"real risk of closing\". But it turns out the situation was even more dire than the announcement suggested, as Raw Power Games declared bankruptcy on the same day.</p><p>Despite this, development of Chronicles: Medieval will continue with at least some of its original creators involved, after<a href=\"https://www.pcgamer.com/satisfactory/\"> Satisfactory</a> developers Coffee Stain swooped in to purchase the assets and IP.</p><p>In a<a href=\"https://coffeestain.com/release/coffee-stain-enters-into-agreement-to-acquire-chronicles-medieval-ip/\" target=\"_blank\"> press release</a>, Coffee Stain said that it submitted the winning bid in Raw Power's sale process following the company's bankruptcy, pay"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain",
+        "secondary_keywords": [
+          "Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain date de sortie",
+          "Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain plateformes",
+          "Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain gameplay",
+          "Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain guide",
+          "Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-overwatch-director-defends-new-dps-hero-against-fans-co-5177ed7b0c06",
+      "topic": "Overwatch director defends new DPS hero against fans complaining over role variety",
+      "detected_at": "2026-11-15T19:56:55.342488+00:00",
+      "analysed_at": "2026-11-25T11:43:41.015436+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fps/as-overwatch-players-groan-over-yet-another-new-dps-hero-director-says-the-decision-came-to-whether-we-release-a-great-character-or-one-we-didnt-believe-in/",
+          "title": "Overwatch director defends new DPS hero against fans complaining over role variety",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/uk/overwatch/\">Overwatch</a>'s 55th hero is set to be Hudson, a cool robot detective who has a portion of the player base groaning with DPS fatigue. Game director Aaron Keller says he understands the disappointment, but the goal is always to release a \"great character\" rather than prioritizing role variety above all else. </p><p>Hudson was originally teased as an incoming support hero, but the Overwatch team recently revealed that the hero had pivoted into the damage role which already dominates the shooter's hero roster. Right now, the game has a whopping 23 damage heroes - versus 16 supports and 15 tanks. The revelation didn't go down too well with support and tank mains hoping for more variety.</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2121009777668985124\"><p lang=\"en\" dir=\"ltr\">Casefile Status: Declassified 🗂️We can’t wait for you to meet the newest Damage Hero, Hudson, in Season 6! https://t.co/AWGVOrR7yy<a href=\"https://twitter.com/cantworkitout/status/2121009777668985124\">November 12, 2026</a></p></blockquote></"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Overwatch director defends new DPS hero against fans complaining over role variety",
+        "secondary_keywords": [
+          "Overwatch director defends new DPS hero against fans complaining over role variety date de sortie",
+          "Overwatch director defends new DPS hero against fans complaining over role variety plateformes",
+          "Overwatch director defends new DPS hero against fans complaining over role variety gameplay",
+          "Overwatch director defends new DPS hero against fans complaining over role variety guide",
+          "Overwatch director defends new DPS hero against fans complaining over role variety avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Overwatch director defends new DPS hero against fans complaining over role variety"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-super-meat-boy-again-plus-remakes-the-indie-icon-with-n-613e44a64d3d",
+      "topic": "Super Meat Boy Again Plus remakes the indie icon with new \"music, cutscenes, levels, secrets\"",
+      "detected_at": "2026-11-15T19:56:55.342587+00:00",
+      "analysed_at": "2026-11-25T11:43:41.015462+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/platformer/super-meat-boy-again-plus-remakes-the-legendary-platformer-with-a-fresh-coat-of-bloody-paint-and-new-music-cutscenes-levels-secrets/",
+          "title": "Super Meat Boy Again Plus remakes the indie icon with new \"music, cutscenes, levels, secrets\"",
+          "evidence": "<article> <p>Team Meat has announced a new remake of its classic 2010 platformer: Super Meat Boy Again+, this time with a fresh coat of bloodsoaked paint and entirely new levels.</p><p>The brutally tough platformer became a cult hit more than a decade ago and spawned one sequel, one <a href=\"https://www.gamesradar.com/games/platformer/i-didnt-think-it-could-be-done-but-super-meat-boy-3ds-steam-next-fest-demo-proves-team-meats-masocore-platformer-translates-to-3d-shockingly-well/\"><u>3D spin-off</u></a> and a whole <a href=\"https://www.gamesradar.com/games/platformer/15-years-later-after-700-hours-of-grinding-and-at-least-100-000-deaths-speedrunner-finally-beats-all-of-super-meat-boy-without-dying-earning-a-congrats-from-co-creator-edmund-mcmillen/\"><u>speedrunning community dedicated to beating its masocore levels without dying</u></a>. Super Meat Boy Again+ is more or less the same game, but with much more bolted on top. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"high\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/jYA72wBTU-4\" allowfullscreen=\"\"></iframe></div></div><p>\"This version is just like the original Sup"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Super Meat Boy Again Plus remakes the indie icon with new \"music, cutscenes, levels, secrets\"",
+        "secondary_keywords": [
+          "Super Meat Boy Again Plus remakes the indie icon with new \"music, cutscenes, levels, secrets\" date de sortie",
+          "Super Meat Boy Again Plus remakes the indie icon with new \"music, cutscenes, levels, secrets\" plateformes",
+          "Super Meat Boy Again Plus remakes the indie icon with new \"music, cutscenes, levels, secrets\" gameplay",
+          "Super Meat Boy Again Plus remakes the indie icon with new \"music, cutscenes, levels, secrets\" guide",
+          "Super Meat Boy Again Plus remakes the indie icon with new \"music, cutscenes, levels, secrets\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Super Meat Boy Again Plus remakes the indie icon with new \"music, cutscenes, levels, secrets\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-history-of-wardogs-studio-bulkhead-from-awful-begin-e44afcb73c49",
+      "topic": "The history of Wardogs studio Bulkhead - from \"awful\" beginnings to 3+ million early access sales",
+      "detected_at": "2026-11-15T19:56:55.342915+00:00",
+      "analysed_at": "2026-11-25T11:43:41.015489+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/fps/the-history-of-wardogs-studio-bulkhead-the-latest-fps-breakout-on-going-from-awful-beginnings-to-3-million-early-access-sales/",
+          "title": "The history of Wardogs studio Bulkhead - from \"awful\" beginnings to 3+ million early access sales",
+          "evidence": "<article> <p>To get into the game industry – at least at the level he’d always dreamed of – Joe Brammer had to tell a lie. In 2014, just as he was about to graduate from university, he applied for what was then the brand-new ID@Xbox scheme, which enabled novice developers to pitch to Microsoft in the hope of receiving an Xbox One development kit and a subscription to Unreal Engine. “I’d wanted to make games since I was 11, modding Battlefield,” Brammer says. “So I lied on the form, saying I’d worked for loads of people, like Lionhead. It’s funny when you look at that list of the first ID@Xbox studios now: CryTek, Sumo Digital, me.” </p><p>Working with a team of friends from his course, Brammer would co-create a firstperson Myst-style puzzler called Pneuma: Breath Of Life. “If we launched it today, we’d get slaughtered,” he continues. “It’s awful. But it was the first Unreal Engine 4 game on Xbox One, so Epic put us in all their booths”. Helped along by that whirlwind exposure, the game made about £400,000 in its first six months, more than enough to get production going on a new project. It also incentivised the formal founding of Bulkhead as a studio. </p><p>From a variety of flee"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The history of Wardogs studio Bulkhead - from \"awful\" beginnings to 3+ million early access sales",
+        "secondary_keywords": [
+          "The history of Wardogs studio Bulkhead - from \"awful\" beginnings to 3+ million early access sales date de sortie",
+          "The history of Wardogs studio Bulkhead - from \"awful\" beginnings to 3+ million early access sales plateformes",
+          "The history of Wardogs studio Bulkhead - from \"awful\" beginnings to 3+ million early access sales gameplay",
+          "The history of Wardogs studio Bulkhead - from \"awful\" beginnings to 3+ million early access sales guide",
+          "The history of Wardogs studio Bulkhead - from \"awful\" beginnings to 3+ million early access sales avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The history of Wardogs studio Bulkhead - from \"awful\" beginnings to 3+ million early access sales"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-influential-warhammer-miniature-designer-aly-morrison-h-7b235f36da72",
+      "topic": "Influential Warhammer miniature designer Aly Morrison has died",
+      "detected_at": "2026-11-16T10:10:06.622317+00:00",
+      "analysed_at": "2026-11-25T11:43:41.015514+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/board-games/influential-warhammer-miniature-designer-aly-morrison-has-died/",
+          "title": "Influential Warhammer miniature designer Aly Morrison has died",
+          "evidence": "<article> <p>Miniature designer and artist Aly Morrison has died, as confirmed by <a href=\"https://www.facebook.com/TrishCardenminiaturesanddesign/posts/mharaid-and-i-are-heartbroken-to-announce-the-passing-of-aly-morrison-a-very-muc/1767655615369846/\">Trish Carden Miniatures and Design on Facebook</a>. Carden, Morrison's ex-wife and former partner in Marauder Miniatures, posted that, \"Mharaid and I are heartbroken to announce the passing of Aly Morrison, a very much loved father, veteran wargames miniatures designer and friend to many around the tabletop and the world. Aly passed unexpectedly but peacefully this Wednesday, and will be sorely missed.\"</p><p>Aly Morrison began sculpting for Citadel in 1983 as a freelancer before joining the studio full-time in 1986. He and Trish were then made stewards of Games Workshop's imprint Marauder Miniatures in 1988, where they had free reign to create quirky and characterful figures like the mohawked dwarf trollslayers and the giant with a whaler's beard and a booze barrel strapped to his waist that became archetypal parts of Warhammer.</p><p>Morrison also crafted the first miniatures for Blood Bowl players and drew the tokens to represent "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Influential Warhammer miniature designer Aly Morrison has died",
+        "secondary_keywords": [
+          "Influential Warhammer miniature designer Aly Morrison has died date de sortie",
+          "Influential Warhammer miniature designer Aly Morrison has died plateformes",
+          "Influential Warhammer miniature designer Aly Morrison has died gameplay",
+          "Influential Warhammer miniature designer Aly Morrison has died guide",
+          "Influential Warhammer miniature designer Aly Morrison has died avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Influential Warhammer miniature designer Aly Morrison has died"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-league-of-legends-new-dawn-is-the-riot-moba-s-next-era--50cd720a0a52",
+      "topic": "League of Legends: New Dawn is the Riot MOBA's next era: \"We want League to stand the test of time\"",
+      "detected_at": "2026-11-16T10:10:07.140770+00:00",
+      "analysed_at": "2026-11-25T11:43:41.015541+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/league-of-legends/after-17-years-league-of-legends-new-dawn-is-the-riot-mobas-next-era-we-want-league-to-stand-the-test-of-time/",
+          "title": "League of Legends: New Dawn is the Riot MOBA's next era: \"We want League to stand the test of time\"",
+          "evidence": "<article> <p>Riot Games has properly revealed League of Legends: New Dawn, the next big evolution of the long-running MOBA that's coming next year. </p><p>Announced during the 2026 <a href=\"https://www.gamesradar.com/uk/games/moba/league-of-legends/\"><u>League of Legends</u></a> World Championship, New Dawn is said to be a sweeping update to the 17-year-old game that'll touch up everything from the gameplay to the client and much more. </p><p>\"The client, for one, has to be better,\" executive producer Paul Bellezza said during the reveal. \"So, next year, we're releasing a modernized client.\" The last time Riot Games overhauled League's under-the-hood architecture was a decade ago in 2016, so a technical dust up is very much welcome. </p><div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/GMp0jkNL3ZE\" allowfullscreen=\"\"></iframe></div></div><p>\"But a client isn't enough. We're updating a lot,\" senior vice president and studio head Andrei van Roon chimed in. New Dawn is supposedly \"visually revamping Summoner's Rift, evolving its gameplay, and adding new ways to play and experi"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "League of Legends: New Dawn is the Riot MOBA's next era: \"We want League to stand the test of time\"",
+        "secondary_keywords": [
+          "League of Legends: New Dawn is the Riot MOBA's next era: \"We want League to stand the test of time\" date de sortie",
+          "League of Legends: New Dawn is the Riot MOBA's next era: \"We want League to stand the test of time\" plateformes",
+          "League of Legends: New Dawn is the Riot MOBA's next era: \"We want League to stand the test of time\" gameplay",
+          "League of Legends: New Dawn is the Riot MOBA's next era: \"We want League to stand the test of time\" guide",
+          "League of Legends: New Dawn is the Riot MOBA's next era: \"We want League to stand the test of time\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "League of Legends: New Dawn is the Riot MOBA's next era: \"We want League to stand the test of time\""
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

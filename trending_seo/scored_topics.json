@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-26T11:29:17.640561+00:00",
+  "updated_at": "2026-11-26T23:17:47.701259+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -33918,6 +33918,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "World of Warcraft: Forever player turns their paladin into a near-unkillable healbot, solos a level 60 monster at level 30, and swims into the ocean"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-jensen-huang-reportedly-eyeing-up-return-to-nvidia-as-f-af4409d4c694",
+      "topic": "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition",
+      "detected_at": "2026-11-17T11:09:34.603197+00:00",
+      "analysed_at": "2026-11-26T23:17:47.701083+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/jensen-huang-reportedly-eyeing-up-return-to-nvidia-as-friendly-tech-execs-form-war-room-to-fight-for-him-and-over-175-000-people-sign-bringjensenback-petition/",
+          "title": "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-resigns-cfo-colette-kress-appointed-interim-ceo-at-nvidia/\" target=\"_blank\">Jensen Huang stood down</a> from his role as CEO of Nvidia on November 12. It's November 16 and 175,000…176,000…177,000 people have <a href=\"https://standwithjensen.com/\" target=\"_blank\">signed a petition</a> to bring him back. Moreover, it is said the leather-clad man himself is considering a campaign to be reinstated at the helm of Nvidia, and some silicon valley execs are reportedly getting behind him.</p><p>There's even a hashtag for the campaign, which feels like a remnant of a lost age when those were actually good for something: <a href=\"https://x.com/TheJensenLetter\" target=\"_blank\">#standwithjensen</a></p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-XZP2AW\"></div> </div> <script src=\"https://kwizly.com/embed/XZP2AW.js\" async=\"\"></script><p>In an open letter to the Nvidia board, the campaigners ask to \"bring Jensen back while an independent investigation establishes the facts, unless and until you can provide compelling evidence that his removal is in Nvidia's best interests.\"</p><p>The letter lays "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition",
+        "secondary_keywords": [
+          "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition date de sortie",
+          "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition plateformes",
+          "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition gameplay",
+          "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition guide",
+          "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Jensen Huang reportedly eyeing up return to Nvidia as friendly tech execs form 'war room' to fight for him and over 175,000 people sign #bringjensenback petition"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-s-continued-to-wrestle-with-dungeons-as-bli-0aef61a44114",
+      "topic": "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend",
+      "detected_at": "2026-11-17T11:09:34.603479+00:00",
+      "analysed_at": "2026-11-26T23:17:47.701133+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-continued-to-wrestle-with-dungeons-as-blizzard-admits-it-briefly-missed-the-mark-on-hotfixes-over-the-weekend/",
+          "title": "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend",
+          "evidence": "<article> <p><a href=\"https://www.pcgamer.com/world-of-warcraft-forever/\">World of Warcraft: Forever</a>'s been pretty great. At this point, I have around 150 hours played, a terrible posture problem, and a level 47 warrior I just barely avoided doing a 2 am Zul'Farrak run with yesterday. Speaking of, there has been a point of contention: Dungeons. </p><p>My <a href=\"https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-bumps-dungeon-xp-from-monsters-by-50-percent-after-some-community-feedback-i-will-diplomatically-call-passionate/\">position on the debate is fairly neutral</a>—I think you could maybe bump up the mob XP by around 10% as a compromise—but overall I think they're fine. The new ones are bangers, and I get a huge bunch of XP from doing them at least once. Blizzard's recent choices, however, did have me scratching my head over the weekend.</p><p>For a short time, <a href=\"https://us.forums.blizzard.com/en/wow/t/wow-forever-hotfixes-november-13-2026/2403040/10\" target=\"_blank\">via a hotfix</a>, enemies in dungeons wouldn't give experience points to <a href=\"https://www.pcgamer.com/games/world-of-warcraft/wow-forever-dungeon-mobs-no-longer-give-exp-if-th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend",
+        "secondary_keywords": [
+          "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend date de sortie",
+          "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend plateformes",
+          "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend gameplay",
+          "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend guide",
+          "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-latest-steamos-update-improves-support-on-nvidia-po-113c3d9cae33",
+      "topic": "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful",
+      "detected_at": "2026-11-17T11:09:34.603672+00:00",
+      "analysed_at": "2026-11-26T23:17:47.701157+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/steam-machines/the-latest-steamos-update-improves-support-on-nvidia-powered-pcs-makes-swapping-your-rig-to-the-os-less-painful/",
+          "title": "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful",
+          "evidence": "<article> <p>The preview version of <a href=\"https://www.steamdeck.com/en/news?pubDate=20260808\" target=\"_blank\">SteamOS 3.10.0</a> has just dropped, and with it comes better support for AMD and Nvidia hardware, and it's now based on Linux kernel 7.3. </p><p>For AMD graphics, the latest SteamOS update adds support for HDMI 2.1 VRR (Variable Refresh Rate), FRL(Fixed Rate Link), and ALLM (Auto Low Latency Mode). This should all contribute to a smoother gaming experience with higher bandwidth video and less input lag. </p><p>As for Nvidia graphics, it has reportedly received increased stability and performance, alongside support for Mesh Shaders on Turing and newer architectures. The latest SteamOS updates also fixed rendering corruption issues in Shadow of the Tomb Raider and The Surge 2. </p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-XZP2AW\"></div> </div> <script src=\"https://kwizly.com/embed/XZP2AW.js\" async=\"\"></script><p>Then, of course, SteamOS now uses the Linux 7.3 kernel (which launched last month). </p><p>Those are the big updates from SteamOS 3.10.0, but there are also a handful of fixes and changes. Game Mode has had the following changes:</p><ul><li>A"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful",
+        "secondary_keywords": [
+          "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful date de sortie",
+          "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful plateformes",
+          "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful gameplay",
+          "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful guide",
+          "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The latest SteamOS update improves support on Nvidia-powered PCs: makes swapping your rig to the OS less painful"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-spider-man-brand-new-day-extended-cut-is-out-just-befor-f72945481ca2",
+      "topic": "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\"",
+      "detected_at": "2026-11-17T11:09:34.727035+00:00",
+      "analysed_at": "2026-11-26T23:17:47.701181+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-movies/spider-man-brand-new-day-extended-cut-is-out-just-before-avengers-doomsday-with-more-surprises/",
+          "title": "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\"",
+          "evidence": "<article> <p>It's official: Spider-Man: Brand New Day is getting a re-release, complete with new scenes.</p><p>Brand New Day – as <a href=\"https://www.gamesradar.com/entertainment/marvel-movies/spider-man-brand-new-days-extended-edition-arrives-in-theaters-before-avengers-doomsday-with-7-minutes-of-extra-scenes/\">the initial rumors</a> suggested earlier in November – will return to cinemas on December 4, just two weeks before <a href=\"https://www.gamesradar.com/entertainment/marvel-movies/avengers-doomsday-release-date-cast-plot-trailer/\">Avengers: Doomsday</a>.</p><p>\"Welcome to a brand new Brand New Day,\" <a href=\"https://x.com/SonyPicturesUK/status/2122465389385068872\" target=\"_blank\">Sony Pictures</a> announced on Twitter. \"The record-breaking movie is coming back to the big screen on December 4 with an extended cut featuring new scenes and a couple more surprises.\"</p><p>Those new scenes and surprises are under wraps for the time being, but we would be <em>shocked </em>if Rosario Dawson's Claire Temple wasn't part of the extended cut – especially given <a href=\"https://www.gamesradar.com/entertainment/marvel-movies/rosario-dawson-confirms-her-netflix-daredevil-character-was-cu"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\"",
+        "secondary_keywords": [
+          "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\" date de sortie",
+          "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\" plateformes",
+          "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\" gameplay",
+          "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\" guide",
+          "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Spider-Man: Brand New Day extended cut is out just before Avengers: Doomsday with \"more surprises\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-slay-the-spire-2-s-new-character-needs-to-be-tested-and-9ec2ae0dfa0d",
+      "topic": "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\"",
+      "detected_at": "2026-11-17T11:09:34.727249+00:00",
+      "analysed_at": "2026-11-26T23:17:47.701201+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/roguelike/as-slay-the-spire-2s-new-character-dominates-mega-crit-admits-that-they-need-to-be-tested-and-polished-up-quite-a-bit-more-before-they-escape-the-roguelikes-beta-branch/",
+          "title": "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\"",
+          "evidence": "<article> <p>Slay the Spire 2's latest character, <a href=\"https://www.gamesradar.com/games/roguelike/slay-the-spire-2s-new-character-the-fool-is-the-most-going-to-be-nerfed-slayer-since-the-watcher/\"><u>The Fool, is so overpowered</u></a> that it's only a matter of time before they're hit with the nerf hammer – a point that developer Mega Crit seems to be alluding to as it notes that the latest content to hit the roguelike's beta branch is going to need \"quite a bit\" of polishing before it comes to the game's main branch.</p><p>Mega Crit says as much in the <a href=\"https://store.steampowered.com/news/app/2868840/view/708914425087656392\" target=\"_blank\">patch notes</a> for Slay the Spire 2's third major main branch update, which rolled out a few hours ago, \"bringing all of the content, art, balance changes, and bug fixes from v0.108.0-v0.111.0\" that beta branch players have been getting stuck into already. This notably <em>doesn't </em>include v0.113.0 – last week's beta patch that introduced <a href=\"https://www.gamesradar.com/games/roguelike/slay-the-spire-2s-biggest-update-yet-adds-the-roguelike-deckbuilders-first-new-character-and-two-new-game-modes/\"><u>two new game modes and"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\"",
+        "secondary_keywords": [
+          "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\" date de sortie",
+          "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\" plateformes",
+          "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\" gameplay",
+          "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\" guide",
+          "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\" avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Slay the Spire 2's new character needs to be \"tested and polished up quite a bit more\""
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-the-writers-behind-every-daniel-craig-bond-movie-think--9a4d9d467b40",
+      "topic": "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007",
+      "detected_at": "2026-11-17T11:09:34.727432+00:00",
+      "analysed_at": "2026-11-26T23:17:47.701221+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/james-bond-movies/the-writers-behind-every-daniel-craig-bond-movie-think-tenet-is-proof-that-robert-pattinson-has-what-it-takes-to-play-007/",
+          "title": "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007",
+          "evidence": "<article> <p>James Bond writers Robert Wade and Neil Purvis have weighed in with their thoughts on <a href=\"https://www.gamesradar.com/entertainment/james-bond-movies/robert-pattinson-james-bond-confirmed-first-look/\">Robert Pattinson's casting as 007</a>. The writers, who penned the franchise from The World Is Not Enough to No Time to Die, are big fans of the move. </p><p>Speaking to <a href=\"https://deadline.com/2026/11/robert-pattinson-james-bond-reaction-baz-bamigboye-1237225666/\" target=\"_blank\">Deadline</a>, they called Pattinson \"a terrific choice, very exciting.\" They said that Daniel Craig \"is a hard act to follow in terms of chops\" but that \"Robert has what it takes to – we liked the sly wit he brought to the spy in Tenet, and with this decision it's clear Denis [Villeneuve] wants to keep Bond cool.\"</p><p>The news that Pattinson is taking over the role came after weeks of speculation about the actors who had been screen-testing. Among the candidates were Josh O'Connor, Jack Lowden, Callum Turner, and Nicholas Hoult, who all reportedly made it to the final stages. </p><p>Pattinson won out, and according to<a href=\"https://www.gamesradar.com/entertainment/james-bond-movies"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007",
+        "secondary_keywords": [
+          "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007 date de sortie",
+          "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007 plateformes",
+          "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007 gameplay",
+          "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007 guide",
+          "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "The writers behind every Daniel Craig Bond movie think Tenet is proof that Robert Pattinson \"has what it takes\" to play 007"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-caves-of-qud-s-first-dlc-is-forcing-its-devs-to-ask-imp-04d98ef1cebe",
+      "topic": "Caves of Qud's first DLC is forcing its devs to ask important questions: 'How does a crab get high?'",
+      "detected_at": "2026-11-17T22:39:02.307038+00:00",
+      "analysed_at": "2026-11-26T23:17:47.701239+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/roguelike/caves-of-quds-first-dlc-is-forcing-its-devs-to-ask-important-questions-how-does-a-crab-get-high/",
+          "title": "Caves of Qud's first DLC is forcing its devs to ask important questions: 'How does a crab get high?'",
+          "evidence": "<article> <p>In a GDC interview with Freehold Games in 2025, I asked the developers of magnificently mutated, indulgently arcane science-fantasy roguelike Caves of Qud the same thing anyone would in my situation: What's the <a href=\"https://www.pcgamer.com/games/roguelike/despite-making-a-roguelike-where-you-can-have-countless-arms-and-legs-caves-of-quds-creators-say-the-ideal-form-is-a-limbless-sphere-we-started-in-perfection-and-only-moved-farther-from-god/\" target=\"_blank\">ideal number of limbs</a> for a being to aspire to? Their answer was none, because \"a perfect sphere is the ideal form\" and \"we started in perfection and only moved farther from God.\"</p><p>As you can imagine, I was eager to speak with co-creators Brian Bucklew and Jason Grinblat earlier this month about Diaspora, the roguelike's <a href=\"https://www.pcgamer.com/games/roguelike/finally-our-favorite-roguelike-for-sickos-will-let-me-play-as-a-sapient-tree/\" target=\"_blank\">upcoming first expansion</a>. Diaspora aims to add an \"influx of riotous life\" to Qud, expanding its body plan-agnostic mutation system with playable animal and plant characters. With Qud's mutagenic possibility space about to erupt even furth"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Caves of Qud's first DLC is forcing its devs to ask important questions: 'How does a crab get high?'",
+        "secondary_keywords": [
+          "Caves of Qud's first DLC is forcing its devs to ask important questions: 'How does a crab get high?' date de sortie",
+          "Caves of Qud's first DLC is forcing its devs to ask important questions: 'How does a crab get high?' plateformes",
+          "Caves of Qud's first DLC is forcing its devs to ask important questions: 'How does a crab get high?' gameplay",
+          "Caves of Qud's first DLC is forcing its devs to ask important questions: 'How does a crab get high?' guide",
+          "Caves of Qud's first DLC is forcing its devs to ask important questions: 'How does a crab get high?' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Caves of Qud's first DLC is forcing its devs to ask important questions: 'How does a crab get high?'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-jensen-huang-isn-t-coming-back-says-nvidia-board-5d22f72bd178",
+      "topic": "Jensen Huang isn't coming back, says Nvidia board",
+      "detected_at": "2026-11-17T22:39:02.307206+00:00",
+      "analysed_at": "2026-11-26T23:17:47.701256+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/jensen-huang-isnt-coming-back-says-nvidia-board/",
+          "title": "Jensen Huang isn't coming back, says Nvidia board",
+          "evidence": "<article> <p>Former Nvidia CEO Jensen Huang, who <a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/\">resigned last week</a> after details about multiple extramarital affairs came to light, will not be allowed to un-resign, says the company.</p><p>\"On November 12th, our board of directors announced that after disclosure of personal behavior inconsistent with the company's code of conduct, standards, and cultural norms, Jensen Huang voluntarily resigned his positions as president, CEO, and board member,\" said Nvidia chairman Harvey C. Jones during a regularly scheduled investors call today. \"The Nvidia board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO.\"</p><p>Huang was open to the idea of returning: After AI enthusiasts and tech CEOs such as Tim Sweeney and Elon Musk rallied around the former CEO, he said that he would return to Nvidia if the board came calling.</p><p>\"I did not live up to the standards expected of everyone at Nvidia, and I have made serious mistakes in my personal life. I created problems for the Board that I deeply regret,\" Huang said in <a href=\"https://www.pcgamer.com/hardware/graphics-cards/jensen"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Jensen Huang isn't coming back, says Nvidia board",
+        "secondary_keywords": [
+          "Jensen Huang isn't coming back, says Nvidia board date de sortie",
+          "Jensen Huang isn't coming back, says Nvidia board plateformes",
+          "Jensen Huang isn't coming back, says Nvidia board gameplay",
+          "Jensen Huang isn't coming back, says Nvidia board guide",
+          "Jensen Huang isn't coming back, says Nvidia board avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Jensen Huang isn't coming back, says Nvidia board"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

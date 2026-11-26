@@ -1080,5 +1080,21 @@
       "published_at_utc": "2026-11-23T22:55:25.355413Z",
       "carousel_version": "041899ed6f483faa02b11b718c55ac11fdde0773f8dbba94fbc0afe57761425c"
     }
+  },
+  "fef6bd77201869329439818b894915a4a294848341480fb46d5778aa22232afd": {
+    "instagram": {
+      "published": false,
+      "post_id": "",
+      "updated_at_utc": "2026-11-26T20:31:56.616003Z",
+      "carousel_version": "637ee3a7ec500617faaf7f5cd3be7712a3da667537bad408bfec85a32a6d70b5",
+      "error": "Meta API error | HTTP status: 400 | message: Only photo or video can be accepted as media type. | type: OAuthException | code: 9004 | error_subcode: 2207052 | fbtrace_id: AXa87zPXmT37kYG1BX7E03G"
+    },
+    "facebook": {
+      "published": true,
+      "post_id": "1303389956186440_122130648549446919",
+      "updated_at_utc": "2026-11-26T20:32:12.832935Z",
+      "published_at_utc": "2026-11-26T20:32:12.832935Z",
+      "carousel_version": "637ee3a7ec500617faaf7f5cd3be7712a3da667537bad408bfec85a32a6d70b5"
+    }
   }
 }

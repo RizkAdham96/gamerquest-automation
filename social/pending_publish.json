@@ -1,31 +1,31 @@
 {
-  "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-  "carousel_version": "7daee53eb7e034f9aecd97cd80381472ac4bcb7f6502f9142dd879cdba60a9a3",
+  "source_id": "fef6bd77201869329439818b894915a4a294848341480fb46d5778aa22232afd",
+  "carousel_version": "637ee3a7ec500617faaf7f5cd3be7712a3da667537bad408bfec85a32a6d70b5",
   "image_urls": [
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01-5.png",
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02-5.png",
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03-5.png"
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01-6.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02-6.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03-6.png"
   ],
   "master_spec_version": "gamerquest-carousel-v3",
   "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
   "media_ids": [
-    1101,
-    1102,
-    1103
+    1111,
+    1112,
+    1113
   ],
-  "prepared_at_utc": "2026-11-25T20:39:34.355002Z",
+  "prepared_at_utc": "2026-11-26T20:31:44.728245Z",
   "social_output": {
     "status": "ready",
     "fact_checked": true,
-    "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-    "source_title": "FINAL FANTASY VII REBIRTH à -85% sur Steam",
+    "source_id": "fef6bd77201869329439818b894915a4a294848341480fb46d5778aa22232afd",
+    "source_title": "SILENT HILL f à -72% sur Steam",
     "score": 73.5,
     "idea": {
-      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
-      "topic": "Réduction massive de FINAL FANTASY VII REBIRTH",
-      "angle": "Deal exceptionnel : -85% sur Steam, le jeu passe de 49,99 € à 7,49 €",
+      "source_id": "fef6bd77201869329439818b894915a4a294848341480fb46d5778aa22232afd",
+      "topic": "Promotion exceptionnelle de Silent Hill sur Steam",
+      "angle": "Mettez en avant la réduction de 72 % pour inciter les fans d'horreur à profiter de l'offre avant qu'elle ne disparaisse.",
       "format": "deal_alert",
-      "hook": "⚡️ -85 % sur l’un des RPG les plus attendus ! Profitez de FINAL FANTASY VII REBIRTH pour moins de 8 € seulement.",
+      "hook": "⚡️ Silent Hill à -72 % ! Seulement 19,59 € au lieu de 69,99 € – saisissez l'occasion avant la fin du deal !",
       "freshness": 8,
       "click_potential": 9,
       "curiosity": 6,
@@ -35,38 +35,38 @@
       "total_score": 73.5
     },
     "carousel": {
-      "topic": "Réduction massive de FINAL FANTASY VII REBIRTH",
-      "angle": "Deal exceptionnel : -85% sur Steam, le jeu passe de 49,99 € à 7,49 €",
+      "topic": "Promotion exceptionnelle de Silent Hill sur Steam",
+      "angle": "Mettez en avant la réduction de 72 % pour inciter les fans d'horreur à profiter de l'offre avant qu'elle ne disparaisse.",
       "format": "deal_alert",
-      "hook": "⚡️ -85 % sur l’un des RPG les plus attendus ! Profitez de FINAL FANTASY VII REBIRTH pour moins de 8 € seulement.",
+      "hook": "⚡️ Silent Hill à -72 % ! Seulement 19,59 € au lieu de 69,99 € – saisissez l'occasion avant la fin du deal !",
       "score": 73.5,
       "slides": [
         {
-          "title": "⚡️ -85 % sur FFVII Rebirth !",
-          "body": "Le jeu FINAL FANTASY VII REBIRTH bénéficie d’une réduction de 85 % sur Steam.",
-          "visual_prompt": "illustration du jeu FINAL FANTASY VII REBIRTH avec un badge de réduction visible"
+          "title": "⚡️ Silent Hill à -72 % !",
+          "body": "Une offre choc à ne pas manquer.",
+          "visual_prompt": "Atmosphère sombre et brumeuse d'un décor de Silent Hill, avec une lumière rougeâtre évoquant une promotion."
         },
         {
-          "title": "Prix : 7,49 € au lieu de 49,99 €",
-          "body": "Le prix passe de 49,99 € à 7,49 € grâce à la promotion Steam.",
-          "visual_prompt": "capture d'écran stylisée du magasin Steam montrant le prix réduit du jeu"
+          "title": "Prix imbattable",
+          "body": "Le jeu passe de 69,99 € à 19,59 € grâce à une réduction de 72 % sur Steam.",
+          "visual_prompt": "Capture d'écran du magasin Steam montrant le prix original barré et le nouveau prix affiché en rouge."
         },
         {
-          "title": "Disponible sur Steam",
-          "body": "Cette offre est visible sur la page Steam du jeu.",
-          "visual_prompt": "image du logo Steam indiquant la promotion"
+          "title": "Plus d'infos",
+          "body": "Découvrez les détails sur GamerQuest.fr.",
+          "visual_prompt": "Vue rapprochée d'un écran d'ordinateur affichant la page Steam du jeu."
         }
       ],
-      "caption": "FINAL FANTASY VII REBIRTH à -85 % sur Steam : 7,49 € au lieu de 49,99 €.",
+      "caption": "Silent Hill à -72 % sur Steam : 69,99 € → 19,59 €.",
       "cta": "Lire la suite sur GamerQuest.fr",
       "hashtags": [
         "#GamerQuest"
       ],
       "website_url": "https://gamerquest.fr",
       "brand": "GamerQuest",
-      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb"
+      "source_id": "fef6bd77201869329439818b894915a4a294848341480fb46d5778aa22232afd"
     },
-    "caption": "FINAL FANTASY VII REBIRTH à -85 % sur Steam : 7,49 € au lieu de 49,99 €.",
+    "caption": "Silent Hill à -72 % sur Steam : 69,99 € → 19,59 €.",
     "hashtags": [
       "#GamerQuest"
     ],

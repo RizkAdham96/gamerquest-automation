@@ -1,63 +1,63 @@
 {
   "source_id": "fef6bd77201869329439818b894915a4a294848341480fb46d5778aa22232afd",
-  "carousel_version": "637ee3a7ec500617faaf7f5cd3be7712a3da667537bad408bfec85a32a6d70b5",
+  "carousel_version": "5875e3f2911d06be09322eb384ec99622f553d8ba28f92f1c7106b24677eece4",
   "image_urls": [
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01-6.png",
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02-6.png",
-    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03-6.png"
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-1-slide-01-7.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-2-slide-02-7.png",
+    "https://gamerquestfr.com/wp-content/uploads/2026/11/gamerquest-social-3-slide-03-7.png"
   ],
   "master_spec_version": "gamerquest-carousel-v3",
   "master_reference_post": "https://www.instagram.com/p/Dc9goyhFrV7/?img_index=1",
   "media_ids": [
-    1111,
-    1112,
-    1113
+    1121,
+    1122,
+    1123
   ],
-  "prepared_at_utc": "2026-11-26T20:31:44.728245Z",
+  "prepared_at_utc": "2026-11-27T20:16:30.278746Z",
   "social_output": {
     "status": "ready",
     "fact_checked": true,
     "source_id": "fef6bd77201869329439818b894915a4a294848341480fb46d5778aa22232afd",
     "source_title": "SILENT HILL f à -72% sur Steam",
-    "score": 73.5,
+    "score": 82.5,
     "idea": {
       "source_id": "fef6bd77201869329439818b894915a4a294848341480fb46d5778aa22232afd",
-      "topic": "Promotion exceptionnelle de Silent Hill sur Steam",
-      "angle": "Mettez en avant la réduction de 72 % pour inciter les fans d'horreur à profiter de l'offre avant qu'elle ne disparaisse.",
-      "format": "deal_alert",
-      "hook": "⚡️ Silent Hill à -72 % ! Seulement 19,59 € au lieu de 69,99 € – saisissez l'occasion avant la fin du deal !",
-      "freshness": 8,
+      "topic": "Offre flash : Silent Hill f à prix choc",
+      "angle": "Créez un sentiment d’urgence en rappelant que la promotion de 72 % est temporaire et que le stock peut s’épuiser rapidement.",
+      "format": "breaking_news",
+      "hook": "🚨 Offre flash ! Silent Hill f passe de 69,99 € à 19,59 € – -72 % uniquement jusqu’à épuisement du stock !",
+      "freshness": 10,
       "click_potential": 9,
-      "curiosity": 6,
+      "curiosity": 8,
       "shareability": 7,
-      "originality": 5,
+      "originality": 6,
       "gamerquest_relevance": 10,
-      "total_score": 73.5
+      "total_score": 82.5
     },
     "carousel": {
-      "topic": "Promotion exceptionnelle de Silent Hill sur Steam",
-      "angle": "Mettez en avant la réduction de 72 % pour inciter les fans d'horreur à profiter de l'offre avant qu'elle ne disparaisse.",
-      "format": "deal_alert",
-      "hook": "⚡️ Silent Hill à -72 % ! Seulement 19,59 € au lieu de 69,99 € – saisissez l'occasion avant la fin du deal !",
-      "score": 73.5,
+      "topic": "Offre flash : Silent Hill f à prix choc",
+      "angle": "Créez un sentiment d’urgence en rappelant que la promotion de 72 % est temporaire et que le stock peut s’épuiser rapidement.",
+      "format": "breaking_news",
+      "hook": "🚨 Offre flash ! Silent Hill f passe de 69,99 € à 19,59 € – -72 % uniquement jusqu’à épuisement du stock !",
+      "score": 82.5,
       "slides": [
         {
-          "title": "⚡️ Silent Hill à -72 % !",
-          "body": "Une offre choc à ne pas manquer.",
-          "visual_prompt": "Atmosphère sombre et brumeuse d'un décor de Silent Hill, avec une lumière rougeâtre évoquant une promotion."
+          "title": "Offre flash ! Silent Hill f –72 %",
+          "body": "Le jeu Silent Hill f bénéficie d’une réduction de 72 % sur Steam.",
+          "visual_prompt": "Atmosphère sombre et brumeuse d'un paysage de Silent Hill, avec le personnage principal en silhouette"
         },
         {
-          "title": "Prix imbattable",
-          "body": "Le jeu passe de 69,99 € à 19,59 € grâce à une réduction de 72 % sur Steam.",
-          "visual_prompt": "Capture d'écran du magasin Steam montrant le prix original barré et le nouveau prix affiché en rouge."
+          "title": "Prix passé de 69,99 € à 19,59 €",
+          "body": "Le prix passe de 69,99 € à 19,59 € grâce à la remise de 72 %.",
+          "visual_prompt": "Couverture du jeu Silent Hill f affichée sur un fond de néon rouge, mise en avant du prix réduit"
         },
         {
-          "title": "Plus d'infos",
-          "body": "Découvrez les détails sur GamerQuest.fr.",
-          "visual_prompt": "Vue rapprochée d'un écran d'ordinateur affichant la page Steam du jeu."
+          "title": "Découvrez l’offre sur Steam",
+          "body": "Cliquez pour accéder à la page Steam et profiter de la promotion.",
+          "visual_prompt": "Icône du bouton Steam avec un fond rouge rappelant la promotion"
         }
       ],
-      "caption": "Silent Hill à -72 % sur Steam : 69,99 € → 19,59 €.",
+      "caption": "🚨 Offre flash ! Silent Hill f passe de 69,99 € à 19,59 € –72 % sur Steam. Ne manquez pas cette réduction.",
       "cta": "Lire la suite sur GamerQuest.fr",
       "hashtags": [
         "#GamerQuest"
@@ -66,7 +66,7 @@
       "brand": "GamerQuest",
       "source_id": "fef6bd77201869329439818b894915a4a294848341480fb46d5778aa22232afd"
     },
-    "caption": "Silent Hill à -72 % sur Steam : 69,99 € → 19,59 €.",
+    "caption": "🚨 Offre flash ! Silent Hill f passe de 69,99 € à 19,59 € –72 % sur Steam. Ne manquez pas cette réduction.",
     "hashtags": [
       "#GamerQuest"
     ],

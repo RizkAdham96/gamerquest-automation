@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T14:18:45.892070+00:00",
-  "count": 4,
+  "generated_at": "2026-11-27T00:45:47.395851+00:00",
+  "count": 5,
   "articles": [
     {
       "source_id": "f2763bba77f31ecdfedc80621fcf3b4a82dde737e996fcf8bba19358ecf5d198",
@@ -69,25 +69,47 @@
       }
     },
     {
-      "source_id": "8f58bc40f720ef6b5a963cde21662550058a040ebbd8f154ae2c7c045af5d63e",
-      "title": "Mark of the Deep est gratuit sur Epic Games Store pendant une durée limitée",
-      "excerpt": "Mark of the Deep, habituellement proposé à 19,50 €, est actuellement disponible gratuitement sur Epic Games Store.",
-      "content": "<p><strong>Mark of the Deep</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 19,50 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>19,50 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>26 novembre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/mark-of-the-deep-f7dc08\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
-      "source_url": "https://store.epicgames.com/fr/p/mark-of-the-deep-f7dc08",
+      "source_id": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb",
+      "title": "FINAL FANTASY VII REBIRTH à -85% sur Steam",
+      "excerpt": "FINAL FANTASY VII REBIRTH bénéficie actuellement d'une réduction de 85% sur Steam, passant de 49,99 € à 7,49 €.",
+      "content": "<p><strong>FINAL FANTASY VII REBIRTH</strong> bénéficie actuellement d'une réduction de <strong>85%</strong> sur <strong>Steam</strong>.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>49,99 €</strong></li><li>Prix actuel : <strong>7,49 €</strong></li><li>Réduction : <strong>85%</strong></li></ul><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Steam</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.steampowered.com/app/2909400/\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Steam</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.steampowered.com/app/2909400/",
       "deal": {
-        "game": "Mark of the Deep",
-        "store": "Epic Games Store",
-        "original_price": 19.5,
-        "current_price": 0.0,
-        "discount_percent": 100,
-        "expires_at": "2026-11-26T16:00:00.000Z"
+        "game": "FINAL FANTASY VII REBIRTH",
+        "store": "Steam",
+        "original_price": 49.99,
+        "current_price": 7.49,
+        "discount_percent": 85,
+        "expires_at": null
       },
       "featured_image": {
-        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/8f58bc40f720ef6b5a963cde21662550058a040ebbd8f154ae2c7c045af5d63e.jpg",
-        "filename": "8f58bc40f720ef6b5a963cde21662550058a040ebbd8f154ae2c7c045af5d63e.jpg",
-        "alt": "Mark of the Deep gratuit sur Epic Games Store - GamerQuest",
-        "caption": "Mark of the Deep : offre gratuit sur Epic Games Store.",
-        "description": "Image GamerQuest générée automatiquement pour l'offre Mark of the Deep sur Epic Games Store."
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb.jpg",
+        "filename": "1f17e51c55b668e51b7fc76f8efbe81ced86bcb0e976777a97ec2315b68fffbb.jpg",
+        "alt": "FINAL FANTASY VII REBIRTH -85% sur Steam - GamerQuest",
+        "caption": "FINAL FANTASY VII REBIRTH : offre -85% sur Steam.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre FINAL FANTASY VII REBIRTH sur Steam."
+      }
+    },
+    {
+      "source_id": "a60e51bbd068d6f22cf96e06faebc0ce1e6934c36129c455b80bbf5548b07e78",
+      "title": "Bread and Fred est gratuit sur Epic Games Store pendant une durée limitée",
+      "excerpt": "Bread and Fred, habituellement proposé à 13,49 €, est actuellement disponible gratuitement sur Epic Games Store.",
+      "content": "<p><strong>Bread and Fred</strong> est actuellement disponible gratuitement sur <strong>Epic Games Store</strong>. Le jeu est habituellement vendu 13,49 €.</p><h2>Prix de l'offre</h2><ul><li>Prix habituel : <strong>13,49 €</strong></li><li>Prix actuel : <strong>GRATUIT</strong></li><li>Réduction : <strong>100%</strong></li></ul><h2>Jusqu'à quand l'offre est-elle disponible ?</h2><p>L'offre est annoncée jusqu'au <strong>3 décembre 2026</strong>. Elle peut être modifiée ou retirée par la plateforme.</p><h2>Comment profiter de l'offre ?</h2><p>Rendez-vous directement sur <strong>Epic Games Store</strong> pour consulter l'offre et vérifier sa disponibilité.</p><p><a href=\"https://store.epicgames.com/fr/p/bread-and-fred-1db362\" rel=\"nofollow noopener\" target=\"_blank\">Voir l’offre sur Epic Games Store</a></p><p><em>Les prix et disponibilités peuvent évoluer. GamerQuest vous recommande de vérifier les conditions directement sur la boutique avant toute acquisition.</em></p>",
+      "source_url": "https://store.epicgames.com/fr/p/bread-and-fred-1db362",
+      "deal": {
+        "game": "Bread and Fred",
+        "store": "Epic Games Store",
+        "original_price": 13.49,
+        "current_price": 0.0,
+        "discount_percent": 100,
+        "expires_at": "2026-12-03T16:00:00.000Z"
+      },
+      "featured_image": {
+        "url": "https://raw.githubusercontent.com/RizkAdham96/gamerquest-automation/main/generated_images/a60e51bbd068d6f22cf96e06faebc0ce1e6934c36129c455b80bbf5548b07e78.jpg",
+        "filename": "a60e51bbd068d6f22cf96e06faebc0ce1e6934c36129c455b80bbf5548b07e78.jpg",
+        "alt": "Bread and Fred gratuit sur Epic Games Store - GamerQuest",
+        "caption": "Bread and Fred : offre gratuit sur Epic Games Store.",
+        "description": "Image GamerQuest générée automatiquement pour l'offre Bread and Fred sur Epic Games Store."
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-26T23:17:47.701259+00:00",
+  "updated_at": "2026-11-27T11:25:22.768376+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -34230,6 +34230,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Jensen Huang isn't coming back, says Nvidia board"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-we-got-8-game-awards-nominations-for-gta-6-before-gta-6-6073335dc493",
+      "topic": "We got 8 Game Awards nominations for GTA 6 before GTA 6",
+      "detected_at": "2026-11-17T22:39:02.308031+00:00",
+      "analysed_at": "2026-11-27T11:25:22.768160+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/events-conferences/we-got-8-game-awards-nominations-for-gta-6-before-gta-6/",
+          "title": "We got 8 Game Awards nominations for GTA 6 before GTA 6",
+          "evidence": "<article> <p>The Game Awards has announced its nominations slate for 2026, revealing that Grand Theft Auto 6 is this year's most-nominated game. Rockstar's hotly anticipated crime epic has secured eight nominations including Game of the Year, for which it'll be competing with games including Resident Evil Requiem, Control Resonant, and The Legend of Zelda: Ocarina of Time.</p><p>Now you—and the countless other people preparing to argue about this online—may have noticed that GTA 6 has been nominated for a number of awards despite the fact that it hasn't been released yet<em>. </em>In a press release, The Game Awards notes that jurors were in some cases provided with early access to enable awards consideration. </p><p>\"The nominees for The Game Awards are selected by a global jury of over 160 media publications and creator outlets around the world, who may be provided with advance or pre-release access to games for critical evaluation,\" The Game Awards said.</p><p>In <a href=\"https://variety.com/2026/awards/news/game-awards-nominees-special-ps5-livestream-winners-1236946910/\" target=\"_blank\">a Variety interview</a> last week, Game Awards host and co-creator Geoff Keighley refuted sp"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "We got 8 Game Awards nominations for GTA 6 before GTA 6",
+        "secondary_keywords": [
+          "We got 8 Game Awards nominations for GTA 6 before GTA 6 date de sortie",
+          "We got 8 Game Awards nominations for GTA 6 before GTA 6 plateformes",
+          "We got 8 Game Awards nominations for GTA 6 before GTA 6 gameplay",
+          "We got 8 Game Awards nominations for GTA 6 before GTA 6 guide",
+          "We got 8 Game Awards nominations for GTA 6 before GTA 6 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "We got 8 Game Awards nominations for GTA 6 before GTA 6"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-have-replaced-most-cars-in-gta-5-with-bicycles-and-al-3df3663180b7",
+      "topic": "I have replaced (most) cars in GTA 5 with bicycles and also my own clones",
+      "detected_at": "2026-11-17T22:39:02.308228+00:00",
+      "analysed_at": "2026-11-27T11:25:22.768208+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-have-replaced-most-cars-in-gta-5-with-bicycles-and-also-my-own-clones/",
+          "title": "I have replaced (most) cars in GTA 5 with bicycles and also my own clones",
+          "evidence": "<article> <div class=\"fancy-box\"><div class=\"fancy_box-title\">Los Santos Customs</div><div class=\"fancy_box_body\"><p class=\"fancy-box__body-text\">I'm modding GTA 5 every day in a quest to either transform it into a PC version of GTA 6 or break it entirely. Come back tomorrow to find out what new horrible thing I've done to Rockstar's baby, or check out <a data-analytics-id=\"inline-link\" href=\"https://www.pcgamer.com/games/grand-theft-auto/im-modding-gta-5-every-day-until-it-becomes-gta-6-or-breaks-starting-with-a-new-vehicle-and-enough-missiles-to-level-a-city-block/\">what I got up to earlier</a>.</p></div></div><p>Right, I've had it. I have been rolled out like bread dough by errant minivans one too many times, and I've decided to do something about it. I am abolishing cars (within a very specific radius, sometimes).</p><p><a href=\"https://www.gta5-mods.com/fi/scripts/cycletopia-replace-cars-with-bikes\" target=\"_blank\">Cycletopia – Replace cars with bicycles</a> is a Grand Theft Auto 5 mod that does the thing it says in its title, which I wrote just there. All cars within a certain radius (I never figured out what radius, exactly, but there was definitely one involved) will, at th"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I have replaced (most) cars in GTA 5 with bicycles and also my own clones",
+        "secondary_keywords": [
+          "I have replaced (most) cars in GTA 5 with bicycles and also my own clones date de sortie",
+          "I have replaced (most) cars in GTA 5 with bicycles and also my own clones plateformes",
+          "I have replaced (most) cars in GTA 5 with bicycles and also my own clones gameplay",
+          "I have replaced (most) cars in GTA 5 with bicycles and also my own clones guide",
+          "I have replaced (most) cars in GTA 5 with bicycles and also my own clones avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I have replaced (most) cars in GTA 5 with bicycles and also my own clones"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-valve-sanctioned-half-life-remake-black-mesa-gets-a-mon-35a2de89af24",
+      "topic": "Valve-sanctioned Half-Life remake Black Mesa gets a mondo update and a Steam Deck verified badge",
+      "detected_at": "2026-11-17T22:39:02.308433+00:00",
+      "analysed_at": "2026-11-27T11:25:22.768236+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/fps/valve-sanctioned-half-life-remake-black-mesa-gets-a-mondo-update-and-a-steam-deck-verified-badge/",
+          "title": "Valve-sanctioned Half-Life remake Black Mesa gets a mondo update and a Steam Deck verified badge",
+          "evidence": "<article> <p>Here's a terrifying reminder that the cold hand of Death is on my shoulder: I'm pretty sure I first played <a href=\"https://www.pcgamer.com/uk/black-mesa/\">Black Mesa</a> back in 2012, at the tender age of 19. In the intervening 14 years, the fan-made Half-Life 1 remake has walked quite the road, including getting Valve's official blessing to sell itself—for money!—on Steam in 2015.</p><p>And they're still going, the mad lads. Just yesterday, Black Mesa got a hefty major update \"featuring visual upgrades, engine optimizations, and a complete interface overhaul\". It's called the <a href=\"https://store.steampowered.com/news/app/362890?emclan=103582791438194191&emgid=717921532895036412\" target=\"_blank\">Anomalous Improvements Update</a> and it's a real humdinger.</p><p>The biggest improvement—if you are me, a man who tries to play basically everything on his Steam Deck these days—is the Steam Deck verification and much-improved controller support. The game will now recognise and let you use a gamepad right from the jump, rather than forcing you to faff around in settings, and generally seems like a rather seamless delight on Deck in the little bit of time I've mucked about"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Valve-sanctioned Half-Life remake Black Mesa gets a mondo update and a Steam Deck verified badge",
+        "secondary_keywords": [
+          "Valve-sanctioned Half-Life remake Black Mesa gets a mondo update and a Steam Deck verified badge date de sortie",
+          "Valve-sanctioned Half-Life remake Black Mesa gets a mondo update and a Steam Deck verified badge plateformes",
+          "Valve-sanctioned Half-Life remake Black Mesa gets a mondo update and a Steam Deck verified badge gameplay",
+          "Valve-sanctioned Half-Life remake Black Mesa gets a mondo update and a Steam Deck verified badge guide",
+          "Valve-sanctioned Half-Life remake Black Mesa gets a mondo update and a Steam Deck verified badge avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Valve-sanctioned Half-Life remake Black Mesa gets a mondo update and a Steam Deck verified badge"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-civilization-dev-firaxis-reportedly-lays-off-a-third-of-f8cb67e64044",
+      "topic": "Civilization dev Firaxis reportedly lays off a third of its staff, studio head departs",
+      "detected_at": "2026-11-17T22:39:02.308642+00:00",
+      "analysed_at": "2026-11-27T11:25:22.768259+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/gaming-industry/civilization-dev-firaxis-reportedly-lays-off-a-third-of-its-staff-studio-head-departs/",
+          "title": "Civilization dev Firaxis reportedly lays off a third of its staff, studio head departs",
+          "evidence": "<article> <p>A <a href=\"https://www.bloomberg.com/news/articles/2026-11-17/take-two-s-firaxis-maker-of-civilization-cuts-a-third-of-its-staff?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDkzMjgwNywiZXhwIjoxNzk1NTM3NjA3LCJhcnRpY2xlSWQiOiJUT05OMDlLSUpIOTQwMCIsImJjb25uZWN0SWQiOiJCMUVBQkI5NjQ2QUM0REZFQTJBRkI4MjI1MzgyQTJFQSJ9.UB2VStiHDC6AEPIoF0t33xZ72QVmViJYS4hB0UM7vs8\" target=\"_blank\">Bloomberg</a> report says Civilization studio Firaxis has laid off roughly 60 people, representing about one-third of its total headcount. Heather Hazen, who took over as studio head in 2023 after more than 25 years with Firaxis, is also leaving.</p><p>A 2K Games spokesperson didn't comment on the reported number of employees let go, but confirmed that layoffs had occurred in a statement provided to PC Gamer. \"Firaxis is restructuring and recentering around the studio’s core strength — designing world class strategy games that have set the industry standard for the genre for the last 30 years,\" the rep said.</p><p>\"As part of these changes, the size of the studio is being reduced to focus on design, technology and the player experience, whic"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Civilization dev Firaxis reportedly lays off a third of its staff, studio head departs",
+        "secondary_keywords": [
+          "Civilization dev Firaxis reportedly lays off a third of its staff, studio head departs date de sortie",
+          "Civilization dev Firaxis reportedly lays off a third of its staff, studio head departs plateformes",
+          "Civilization dev Firaxis reportedly lays off a third of its staff, studio head departs gameplay",
+          "Civilization dev Firaxis reportedly lays off a third of its staff, studio head departs guide",
+          "Civilization dev Firaxis reportedly lays off a third of its staff, studio head departs avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Civilization dev Firaxis reportedly lays off a third of its staff, studio head departs"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-jensen-huang-says-he-would-come-back-as-nvidia-s-ceo-if-81bffdd80f75",
+      "topic": "Jensen Huang says he would come back as Nvidia's CEO if America needs him – a technique I now intend to use at my next job interview",
+      "detected_at": "2026-11-17T22:39:02.308875+00:00",
+      "analysed_at": "2026-11-27T11:25:22.768300+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/jensen-huang-would-come-back-as-nvidias-ceo-if-america-needs-him-a-technique-i-now-intend-to-use-at-my-next-job-interview/",
+          "title": "Jensen Huang says he would come back as Nvidia's CEO if America needs him – a technique I now intend to use at my next job interview",
+          "evidence": "<article> <p>Jensen Huang says he would be honoured to return to his role as Nvidia's CEO should the company's board want him. The problem for Huang is, the board don't seem to. </p><p>In a statement sent to <a href=\"https://edition.cnn.com/2026/11/17/business/jensen-huang-nvidia-ceo-statement\" target=\"_blank\">CNN</a>, among others, Huang lays out his now clear-as-day faults and makes a pitch for his old job back.</p><p>\"I did not live up to the standards expected of everyone at Nvidia, and I have made serious mistakes in my personal life. I created problems for the Board that I deeply regret,\" Huang says.</p><div style=\"min-height: 250px;\"> <div class=\"kwizly-quiz kwizly-ePmVlW\"></div> </div> <script src=\"https://kwizly.com/embed/ePmVlW.js\" async=\"\"></script><p>\"If the Board of Directors decides that my return is in the best interest of our shareholders, our employees, the company, and America, I would be honored to answer these calls and return as CEO.\"</p><p>President Donald Trump and a cohort of silicon valley execs have previously backed the Nvidia co-founder, even if Trump did wobble his way over to backing ex-Apple CEO Tim Cook for a day. A heap of signatures were also added"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Jensen Huang says he would come back as Nvidia's CEO if America needs him – a technique I now intend to use at my next job interview",
+        "secondary_keywords": [
+          "Jensen Huang says he would come back as Nvidia's CEO if America needs him – a technique I now intend to use at my next job interview date de sortie",
+          "Jensen Huang says he would come back as Nvidia's CEO if America needs him – a technique I now intend to use at my next job interview plateformes",
+          "Jensen Huang says he would come back as Nvidia's CEO if America needs him – a technique I now intend to use at my next job interview gameplay",
+          "Jensen Huang says he would come back as Nvidia's CEO if America needs him – a technique I now intend to use at my next job interview guide",
+          "Jensen Huang says he would come back as Nvidia's CEO if America needs him – a technique I now intend to use at my next job interview avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Jensen Huang says he would come back as Nvidia's CEO if America needs him – a technique I now intend to use at my next job interview"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-want-to-be-clear-i-want-people-to-have-a-lot-of-ram-s-a46faeb092ad",
+      "topic": "'I want to be clear, I want people to have a lot of RAM' says Sam Altman, weeks after seeming to say the opposite",
+      "detected_at": "2026-11-17T22:39:02.309140+00:00",
+      "analysed_at": "2026-11-27T11:25:22.768327+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/memory/i-want-to-be-clear-i-want-people-to-have-a-lot-of-ram-says-sam-altman-weeks-after-seeming-to-say-the-opposite/",
+          "title": "'I want to be clear, I want people to have a lot of RAM' says Sam Altman, weeks after seeming to say the opposite",
+          "evidence": "<article> <div class=\"youtube-video\" data-nosnippet ><div class=\"video-aspect-box\"><iframe data-lazy-priority=\"low\" data-lazy-src=\"https://www.youtube-nocookie.com/embed/oi-E6xB4wSU?start=1184\" allowfullscreen=\"\"></iframe></div></div><p>Sam Altman, the CEO of OpenAI, got in <a href=\"https://www.pcgamer.com/software/ai/sam-altman-argues-that-its-bad-you-want-dram-in-your-computer-and-not-a-data-center-actually/\" target=\"_blank\">hot water late last month</a> when he said, \"From a global allocation perspective, actually it’s quite terrible to have everyone have a bunch of the world’s limited supply of DRAM sitting in their own computer, and be used 5% of the time\". He has since gone on to say he wants everyone to have RAM, actually, and in a conversation with <a href=\"https://www.youtube.com/watch?v=oi-E6xB4wSU&t=1192s\" target=\"_blank\">Semafor</a>, he has elaborated on what he claims he actually means (via <a href=\"https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor\" target=\"_blank\">The Verge</a>).</p><p>Altman says, \"I want to be clear, I want people to have a lot of RAM. I think everybody should buy a lot of RAM, be able to buy a lot of RAM fo"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'I want to be clear, I want people to have a lot of RAM' says Sam Altman, weeks after seeming to say the opposite",
+        "secondary_keywords": [
+          "'I want to be clear, I want people to have a lot of RAM' says Sam Altman, weeks after seeming to say the opposite date de sortie",
+          "'I want to be clear, I want people to have a lot of RAM' says Sam Altman, weeks after seeming to say the opposite plateformes",
+          "'I want to be clear, I want people to have a lot of RAM' says Sam Altman, weeks after seeming to say the opposite gameplay",
+          "'I want to be clear, I want people to have a lot of RAM' says Sam Altman, weeks after seeming to say the opposite guide",
+          "'I want to be clear, I want people to have a lot of RAM' says Sam Altman, weeks after seeming to say the opposite avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'I want to be clear, I want people to have a lot of RAM' says Sam Altman, weeks after seeming to say the opposite"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-tcl-csot-s-new-oled-panels-might-not-only-be-cheaper-bu-9c67fcc242b5",
+      "topic": "TCL CSOT's new OLED panels might not only be cheaper, but also have high refresh rates and hassle-free pixel burn-in compensation",
+      "detected_at": "2026-11-17T22:39:02.309367+00:00",
+      "analysed_at": "2026-11-27T11:25:22.768350+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/gaming-monitors/tcl-csots-new-oled-panels-might-not-only-be-cheaper-but-also-have-high-refresh-rates-and-hassle-free-pixel-burn-in-compensation/",
+          "title": "TCL CSOT's new OLED panels might not only be cheaper, but also have high refresh rates and hassle-free pixel burn-in compensation",
+          "evidence": "<article> <p>I've had my eye on TCL CSOT—CSOT being a TCL subsidiary responsible for OLED production—for a while now. It might just be the company that brings OLED monitor prices down thanks to its use of the inkjet-printing (IJP) process in manufacturing. TCL CSOT had <a href=\"https://www.pcgamer.com/hardware/gaming-monitors/cheaper-oleds-may-be-here-even-quicker-than-we-thought-as-tcl-csot-says-its-new-inkjet-printing-facility-could-be-up-and-running-as-soon-as-this-time-next-year/\" target=\"_blank\">already said</a> it was moving in equipment for IJP manufacturing and expected production in the fourth quarter of 2027, but the company is now showing off some pretty impressive panels made using the process.</p><p>According to <a href=\"https://www.displayspecifications.com/en/news/ea4110ec\" target=\"_blank\">Display Specifications</a> (via <a href=\"https://www.techpowerup.com/354896/tcl-csot-showcases-latest-ijp-oled-developments-and-display-innovations-at-dtc2026\" target=\"_blank\">TechPowerUp</a>), at the Display Tech-Ecosystem Conference 2026 (DTC2026), TCL CSOT showed off a 27-inch, 1440p, 500 Hz gaming monitor made using IJP tech. Apparently, the company describes this monitor as ha"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "TCL CSOT's new OLED panels might not only be cheaper, but also have high refresh rates and hassle-free pixel burn-in compensation",
+        "secondary_keywords": [
+          "TCL CSOT's new OLED panels might not only be cheaper, but also have high refresh rates and hassle-free pixel burn-in compensation date de sortie",
+          "TCL CSOT's new OLED panels might not only be cheaper, but also have high refresh rates and hassle-free pixel burn-in compensation plateformes",
+          "TCL CSOT's new OLED panels might not only be cheaper, but also have high refresh rates and hassle-free pixel burn-in compensation gameplay",
+          "TCL CSOT's new OLED panels might not only be cheaper, but also have high refresh rates and hassle-free pixel burn-in compensation guide",
+          "TCL CSOT's new OLED panels might not only be cheaper, but also have high refresh rates and hassle-free pixel burn-in compensation avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "TCL CSOT's new OLED panels might not only be cheaper, but also have high refresh rates and hassle-free pixel burn-in compensation"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-twitchers-rejoice-gta-6-will-have-62-different-species--10b1220b75a4",
+      "topic": "Twitchers rejoice: GTA 6 will have 62 different species of birds, though that falls a bit short of the over 500 native species found in Florida",
+      "detected_at": "2026-11-17T22:39:02.309588+00:00",
+      "analysed_at": "2026-11-27T11:25:22.768372+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/twitchers-rejoice-gta-6-will-have-62-different-species-of-birds-though-that-falls-a-bit-short-of-the-over-500-native-species-found-in-florida/",
+          "title": "Twitchers rejoice: GTA 6 will have 62 different species of birds, though that falls a bit short of the over 500 native species found in Florida",
+          "evidence": "<article> <p>There's a laundry list of things people are excited to do in Grand Theft Auto 6 once it finally releases in a couple of days. Perhaps you want to know what a loving relationship feels like, maybe you're just concerned about what kind of cars you'll be able to drive around in, or it could be that all you want to do is go bird watching. </p><p>Well it really does seem like the sky's the limit in GTA 6, because you can do all three of those things; the healthy relationship will take some extra work though. During a recent interview with <a href=\"https://www.theguardian.com/games/ng-interactive/2026/nov/15/grand-theft-auto-vi-inside-rockstar-games\" target=\"_blank\">The Guardian</a>, Rob Nelson, co-head of Rockstar North explains that players will have a wildlife logbook, which includes 62 different species of birds, for those who want to see all the wildlife Leonida has to offer. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"6anZmeg4KXNGPLGN9g8xHF\" name=\"Leonida_Keys_07.0z9tb69ss"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Twitchers rejoice: GTA 6 will have 62 different species of birds, though that falls a bit short of the over 500 native species found in Florida",
+        "secondary_keywords": [
+          "Twitchers rejoice: GTA 6 will have 62 different species of birds, though that falls a bit short of the over 500 native species found in Florida date de sortie",
+          "Twitchers rejoice: GTA 6 will have 62 different species of birds, though that falls a bit short of the over 500 native species found in Florida plateformes",
+          "Twitchers rejoice: GTA 6 will have 62 different species of birds, though that falls a bit short of the over 500 native species found in Florida gameplay",
+          "Twitchers rejoice: GTA 6 will have 62 different species of birds, though that falls a bit short of the over 500 native species found in Florida guide",
+          "Twitchers rejoice: GTA 6 will have 62 different species of birds, though that falls a bit short of the over 500 native species found in Florida avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Twitchers rejoice: GTA 6 will have 62 different species of birds, though that falls a bit short of the over 500 native species found in Florida"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

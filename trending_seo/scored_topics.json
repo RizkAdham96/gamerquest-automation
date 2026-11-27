@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-27T11:25:22.768376+00:00",
+  "updated_at": "2026-11-27T22:56:49.692831+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -34542,6 +34542,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "Twitchers rejoice: GTA 6 will have 62 different species of birds, though that falls a bit short of the over 500 native species found in Florida"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-amd-introduces-capacity-aware-scheduling-to-the-linux-k-4faacf14febd",
+      "topic": "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year",
+      "detected_at": "2026-11-18T10:44:40.092447+00:00",
+      "analysed_at": "2026-11-27T22:56:49.692600+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/processors/amd-introduces-capacity-aware-scheduling-to-the-linux-kernel-which-sure-is-the-thing-id-do-if-i-were-introducing-zen-6-lp-cores-next-year/",
+          "title": "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year",
+          "evidence": "<article> <p>AMD's Vishal Badole recently posted <a href=\"https://lore.kernel.org/lkml/20261114150310.1377654-1-Vishal.Badole@amd.com/\" target=\"_blank\">two Linux kernel patches</a> (via <a href=\"https://www.techpowerup.com/354915/linux-kernel-gets-amd-capacity-aware-scheduling-for-zen-6-heterogeneous-cpu-architectures\" target=\"_blank\">TechPowerUp</a>), and these both pair up to introduce Capacity Aware Scheduling (CAS) for AMD heterogeneous processors. If that sounds like gibberish to you, effectively, this lays the groundwork to more efficiently handle AMD chips that have different core types. </p><p>Up until now, AMD's performance scaling driver for Linux (amd-pstate) treated all cores as equal, assigning tasks regardless of core strength. AMD's current heterogeneous design pairs full-fat Zen 5 and lower-caste Zen 5C cores together in Zen 5 chips nowadays, but there is far less actual difference between these two core types than in the P-cores and E-cores of modern Intel architectures. </p><p>But <a href=\"https://www.pcgamer.com/hardware/processors/amds-zen-6-gaming-cpus-might-be-absolute-monsters-by-the-looks-of-the-server-chips-and-theres-a-3d-v-cache-variant-to-keep-an-eye-on/"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year",
+        "secondary_keywords": [
+          "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year date de sortie",
+          "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year plateformes",
+          "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year gameplay",
+          "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year guide",
+          "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-nvidia-tightens-up-control-of-its-own-national-security-1de9995e551a",
+      "topic": "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee",
+      "detected_at": "2026-11-18T10:44:40.092697+00:00",
+      "analysed_at": "2026-11-27T22:56:49.692658+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/nvidia-tightens-up-control-of-its-own-national-security-policies-as-it-cozies-up-to-us-government-with-new-board-controlled-committee/",
+          "title": "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee",
+          "evidence": "<article> <p>I've already had to write the word 'committee' a lot in recent weeks, due to the scandal developing over at Nvidia leading to CEO <a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/\" target=\"_blank\">Jensen Huang's resignation</a>. He's off to see a <a href=\"https://www.pcgamer.com/hardware/graphics-cards/clear-national-security-concerns-that-need-to-be-addressed-immediately-new-letters-to-jensen-huang-from-congress-strike-a-tougher-tone-for-the-ex-nvidia-ceo/\" target=\"_blank\">couple of committees in Congress</a> in coming weeks. Though today it's Nvidia's turn to establish a committee: the National Security and Export Control Oversight Committee, or NSECOC as I will hereafter call it.</p><p>The NSECOC will answer direct to the Nvidia board. It's also led by a board member, Suzanne Nora Johnson, former vice chairman of Goldman Sachs Group. Though the company says it will keep independent experts around for advice and expertise. It will work with the existing National Security Team and Global Trade Compliance Team at Nvidia, which will now report to the committee and interim CEO, Colette Kress.</p><div style=\"min-height: 250px;\"> <div class=\"kwiz"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee",
+        "secondary_keywords": [
+          "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee date de sortie",
+          "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee plateformes",
+          "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee gameplay",
+          "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee guide",
+          "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-blizzard-drops-the-hammer-on-wow-forever-players-who-ex-69cde6797163",
+      "topic": "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold",
+      "detected_at": "2026-11-18T10:44:40.093041+00:00",
+      "analysed_at": "2026-11-27T22:56:49.692689+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-economy-has-a-problem-as-a-now-hotfixed-grind-rakes-in-thousands-of-gold-for-the-people-who-got-in-early/",
+          "title": "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold",
+          "evidence": "<article> <p>World of Warcraft: Forever has a unique problem—it's intended to be a \"forever\" version of baseline Azeroth, with no planned level-increasing expansions and an emphasis on horizontal progression with only minor vertical item level increases. </p><p>But expansion packs are more than just a stack of a few levels, they're also an opportunity to adjust to the MMO economy. Which so often suffers because, well, you're essentially printing money <em>all the time. </em>Every enemy killed, every resource node farmed, every trash item sold, effectively adds more money into the world.</p><p>There are ways to remove this money, sure. Repair costs, flight paths, goldsinks like a mount grind, dual spec, or respec fees. But if someone's dedicated to grinding, they can put together a hundred gold in a few hours. Or, in this case, thousands.</p><p>As shared by <a href=\"https://www.wowhead.com/forever/news/100-gold-per-hour-farm-nerfed-in-wow-forever-383898\" target=\"_blank\">WoWHead</a>, a gold farm was discovered in Blackmaw Hold, one of its new dungeons, and thoroughly rinsed over the past couple of days: \"In Blackmaw Hold, there is a room filled with around 30 Blackmaw Devotees. These"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold",
+        "secondary_keywords": [
+          "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold date de sortie",
+          "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold plateformes",
+          "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold gameplay",
+          "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold guide",
+          "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-us-agencies-confirm-criminal-investigation-into-megaspe-d931172cbdea",
+      "topic": "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips",
+      "detected_at": "2026-11-18T10:44:40.093426+00:00",
+      "analysed_at": "2026-11-27T22:56:49.692723+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/graphics-cards/us-agencies-confirm-criminal-investigation-into-megaspeed-datacenter-company-is-in-a-colossal-tangle-over-nvidia-chips/",
+          "title": "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips",
+          "evidence": "<article> <p>Megaspeed is a company with a lot of eyes on it at the moment, and many eyes makes many, uh, news stories. The US Department of Commerce and Department of Justice have thought it to be a good time to drop some details on its investigations into the Singaporean datacentre company, once led by one Alice Huang.</p><p>If you've already forgotten who Alice Huang is, she was the person <a href=\"https://www.pcgamer.com/hardware/graphics-cards/how-nvidia-got-into-this-mess-timeline-of-jensen-huang-scandal-and-geopolitics-leading-up-to-it/\" target=\"_blank\">first suspected of having an affair with Jensen Huang</a>. The ex-Nvidia CEO later admitted to an affair with someone that has remained unnamed. </p><p>It wasn't just the affair that <a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/\" target=\"_blank\">sunk Huang</a>, it was the suspicion that Alice Huang may be a Chinese Intelligence asset, according to a New York Times report. That was later <a href=\"https://x.com/CBSNews/status/2121012503610016055\" target=\"_blank\">rebuffed by Attorney General Todd Blanche</a> and the CCP. It was also that the company Alice Huang ran, Megaspeed, was suspected of chip"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips",
+        "secondary_keywords": [
+          "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips date de sortie",
+          "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips plateformes",
+          "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips gameplay",
+          "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips guide",
+          "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-they-would-never-stop-working-on-this-game-gta-6-s-deve-da82b5b27b77",
+      "topic": "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down'",
+      "detected_at": "2026-11-18T10:44:40.093688+00:00",
+      "analysed_at": "2026-11-27T22:56:49.692753+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/they-would-never-stop-working-on-this-game-gta-6s-development-couldve-gone-on-for-longer-just-because-its-really-hard-to-close-it-down/",
+          "title": "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down'",
+          "evidence": "<article> <p>Working to a deadline is hard enough, but working towards one that can be moved if you really need it is worse. Grand Theft Auto 6 has been in the works for around a decade, including a couple of delays so devs could polish up some rough edges, and after all this time it must be really hard to step back and say enough is enough. </p><p>\"They would never stop working on this game if they had the choice,\" Jennifer Kolbe, head of publishing, says in an interview with <a href=\"https://www.theguardian.com/games/ng-interactive/2026/nov/15/grand-theft-auto-vi-inside-rockstar-games\" target=\"_blank\">The Guardian</a>. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"qQkiWYKyDfn2zRKo8HKJqE\" name=\"Grassrivers_08.0x-z0h-he35zo\" alt=\"Grand Theft Auto 6 launch gallery: Armed men aboard a swamp boat shine lights at an alligator.\" src=\"https://cdn.mos.cms.futurecdn.net/qQkiWYKyDfn2zRKo8HKJqE-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\""
+        }
+      ],
+      "seo": {
+        "primary_keyword": "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down'",
+        "secondary_keywords": [
+          "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down' date de sortie",
+          "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down' plateformes",
+          "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down' gameplay",
+          "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down' guide",
+          "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-modder-beats-valve-to-the-punch-adding-steam-controller-c783e846cf50",
+      "topic": "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame",
+      "detected_at": "2026-11-18T10:44:40.093911+00:00",
+      "analysed_at": "2026-11-27T22:56:49.692777+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/hardware/vr-hardware/modder-beats-valve-to-the-punch-adding-steam-controller-tracking-for-the-steam-frame/",
+          "title": "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame",
+          "evidence": "<article> <figure><blockquote class=\"reddit-card\" ><a href=\"https://www.reddit.com/r/SteamFrame/comments/1xxrhc4/controller_utils_tracking_for_the_steam\">Controller Utils - Tracking for the Steam Controller 2026 inside Steam Frame!</a><figcaption><cite> from <a href=\"https://www.reddit.com/r/SteamFrame\">r/SteamFrame</a></cite></figcaption></blockquote></figure><script async=\"\" src=\"//embed.redditmedia.com/widgets/platform.js\" charset=\"UTF-8\"></script><p>If you own a <a href=\"https://www.pcgamer.com/hardware/vr-hardware/valve-steam-frame-review/\" target=\"_blank\">Steam Frame</a> and want to use your <a href=\"https://www.pcgamer.com/hardware/game-pads/steam-controller-2026-review/\" target=\"_blank\">Steam Controller</a> at the same time (perhaps even playing 2D games on a big virtual screen), you've likely had to use the passthrough, or just <em>really </em>know your controller. That's because, despite <a href=\"https://store.steampowered.com/hardware/steamcontroller\" target=\"_blank\">Valve noting that the Infrared LED in the controller makes it trackable in the Steam Frame</a>, it has not yet implemented said tracking. However, a modder has once again come to PC gamers' rescue. </p><p>Ta"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame",
+        "secondary_keywords": [
+          "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame date de sortie",
+          "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame plateformes",
+          "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame gameplay",
+          "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame guide",
+          "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-avengers-doomsday-rating-confirms-it-will-be-the-most-v-57e2e37c79cb",
+      "topic": "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet",
+      "detected_at": "2026-11-18T10:44:40.642960+00:00",
+      "analysed_at": "2026-11-27T22:56:49.692800+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/marvel-movies/avengers-doomsday-rating-confirms-it-will-be-the-most-violent-avengers-movie-yet/",
+          "title": "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet",
+          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/marvel-movies/avengers-doomsday-release-date-cast-plot-trailer/\">Avengers: Doomsday</a> looks set to be the most violent Avengers movie yet. The film has been rated PG-13 for \"violence/action, bloody images, and language\", according to <a href=\"https://www.filmratings.com/search-results/?search=avengers:%20doomsday\" target=\"_blank\">Film Ratings</a>. </p><p>The detail of \"bloody images\" is new territory for the Avengers franchise. According to <a href=\"http://comicbook.com\" target=\"_blank\">ComicBook.com</a>, Avengers: Infinity War and Avengers: Endgame were rated for \"sci-fi violence\" but this is the first time \"bloody\" has been used. The movie has not yet been rated in the UK, but this could give some more insight into how dark the MCU movie might go.</p><p>We know the stakes are high in Anthony and Joe Russo's return to the big screen with Doomsday as heroes from three universes are teaming up to face Doctor Doom. The Fox X-Men, the Fantastic Four, and the OG and new Avengers must all work together to deal with the threat.</p><p>However, it seems like Doom has been building his own team, recruiting Bruce Banner in the "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet",
+        "secondary_keywords": [
+          "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet date de sortie",
+          "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet plateformes",
+          "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet gameplay",
+          "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet guide",
+          "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-this-cozy-game-wants-to-be-the-lovely-little-underdog-b-0870139e80ce",
+      "topic": "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6",
+      "detected_at": "2026-11-18T10:44:40.643163+00:00",
+      "analysed_at": "2026-11-27T22:56:49.692826+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/the-cozy-tanuki-game-that-stole-my-heart-is-all-grown-up-wants-to-be-the-lovely-little-underdog-between-zelda-ocarina-of-time-and-gta-6/",
+          "title": "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6",
+          "evidence": "<article> <p>I don't remember much about my coverage from Steam Next Fest this past June, but I remember <a href=\"https://www.gamesradar.com/games/platformer/my-favorite-steam-next-fest-demo-is-tony-hawks-pro-skater-but-make-it-a-tanuki-courier-sim/\">my time playing the demo for Tanuki: Pon's Summer</a> very vividly. I mean, how could I forget? I rail-grinded around an adorable Japanese town as a potbellied Tanuki on a BMX bike doing tricks in the air while delivering packages for residents. The little demo that could is now a full-fledged game with <a href=\"https://store.steampowered.com/app/3218570/TANUKI_Pons_Summer/#app_reviews_hash\" target=\"_blank\">\"Very Positive\" Steam reviews</a>, and although it pains me to say it probably won't take home any Game of the Year awards in December, it deserves its time in the spotlight even with an incredibly unfortunate release right smack-dab between <a href=\"https://www.gamesradar.com/the-legend-of-zelda-ocarina-of-time-remake-guide/\">Zelda: Ocarina of Time's remake</a> and <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>. Naturally, its director agrees.</p><p>Talking to <a href=\"https://www.gamesindustry.biz/tanuki-pons-summer-i"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6",
+        "secondary_keywords": [
+          "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6 date de sortie",
+          "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6 plateformes",
+          "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6 gameplay",
+          "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6 guide",
+          "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }

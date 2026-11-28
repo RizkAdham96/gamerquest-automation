@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "updated_at": "2026-11-27T22:56:49.228186+00:00",
+  "updated_at": "2026-11-28T10:53:50.065104+00:00",
   "evergreen_checked_games": [
     "agent a casse tête d espions",
     "bad cheese",
@@ -66,292 +66,6 @@
     "warhammer 40 000 space marine 2"
   ],
   "topics": [
-    {
-      "id": "rss-amd-introduces-capacity-aware-scheduling-to-the-linux-k-4faacf14febd",
-      "topic": "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year",
-      "detected_at": "2026-11-18T10:44:40.092447+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/processors/amd-introduces-capacity-aware-scheduling-to-the-linux-kernel-which-sure-is-the-thing-id-do-if-i-were-introducing-zen-6-lp-cores-next-year/",
-          "title": "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year",
-          "evidence": "<article> <p>AMD's Vishal Badole recently posted <a href=\"https://lore.kernel.org/lkml/20261114150310.1377654-1-Vishal.Badole@amd.com/\" target=\"_blank\">two Linux kernel patches</a> (via <a href=\"https://www.techpowerup.com/354915/linux-kernel-gets-amd-capacity-aware-scheduling-for-zen-6-heterogeneous-cpu-architectures\" target=\"_blank\">TechPowerUp</a>), and these both pair up to introduce Capacity Aware Scheduling (CAS) for AMD heterogeneous processors. If that sounds like gibberish to you, effectively, this lays the groundwork to more efficiently handle AMD chips that have different core types. </p><p>Up until now, AMD's performance scaling driver for Linux (amd-pstate) treated all cores as equal, assigning tasks regardless of core strength. AMD's current heterogeneous design pairs full-fat Zen 5 and lower-caste Zen 5C cores together in Zen 5 chips nowadays, but there is far less actual difference between these two core types than in the P-cores and E-cores of modern Intel architectures. </p><p>But <a href=\"https://www.pcgamer.com/hardware/processors/amds-zen-6-gaming-cpus-might-be-absolute-monsters-by-the-looks-of-the-server-chips-and-theres-a-3d-v-cache-variant-to-keep-an-eye-on/"
-        }
-      ],
-      "keywords": [
-        "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year",
-        "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year date de sortie",
-        "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year plateformes",
-        "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year gameplay",
-        "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year guide",
-        "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-nvidia-tightens-up-control-of-its-own-national-security-1de9995e551a",
-      "topic": "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee",
-      "detected_at": "2026-11-18T10:44:40.092697+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/graphics-cards/nvidia-tightens-up-control-of-its-own-national-security-policies-as-it-cozies-up-to-us-government-with-new-board-controlled-committee/",
-          "title": "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee",
-          "evidence": "<article> <p>I've already had to write the word 'committee' a lot in recent weeks, due to the scandal developing over at Nvidia leading to CEO <a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/\" target=\"_blank\">Jensen Huang's resignation</a>. He's off to see a <a href=\"https://www.pcgamer.com/hardware/graphics-cards/clear-national-security-concerns-that-need-to-be-addressed-immediately-new-letters-to-jensen-huang-from-congress-strike-a-tougher-tone-for-the-ex-nvidia-ceo/\" target=\"_blank\">couple of committees in Congress</a> in coming weeks. Though today it's Nvidia's turn to establish a committee: the National Security and Export Control Oversight Committee, or NSECOC as I will hereafter call it.</p><p>The NSECOC will answer direct to the Nvidia board. It's also led by a board member, Suzanne Nora Johnson, former vice chairman of Goldman Sachs Group. Though the company says it will keep independent experts around for advice and expertise. It will work with the existing National Security Team and Global Trade Compliance Team at Nvidia, which will now report to the committee and interim CEO, Colette Kress.</p><div style=\"min-height: 250px;\"> <div class=\"kwiz"
-        }
-      ],
-      "keywords": [
-        "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee",
-        "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee date de sortie",
-        "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee plateformes",
-        "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee gameplay",
-        "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee guide",
-        "Nvidia tightens up control of its own national security policies as it cozies up to US government with new board-controlled committee avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-blizzard-drops-the-hammer-on-wow-forever-players-who-ex-69cde6797163",
-      "topic": "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold",
-      "detected_at": "2026-11-18T10:44:40.093041+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-economy-has-a-problem-as-a-now-hotfixed-grind-rakes-in-thousands-of-gold-for-the-people-who-got-in-early/",
-          "title": "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold",
-          "evidence": "<article> <p>World of Warcraft: Forever has a unique problem—it's intended to be a \"forever\" version of baseline Azeroth, with no planned level-increasing expansions and an emphasis on horizontal progression with only minor vertical item level increases. </p><p>But expansion packs are more than just a stack of a few levels, they're also an opportunity to adjust to the MMO economy. Which so often suffers because, well, you're essentially printing money <em>all the time. </em>Every enemy killed, every resource node farmed, every trash item sold, effectively adds more money into the world.</p><p>There are ways to remove this money, sure. Repair costs, flight paths, goldsinks like a mount grind, dual spec, or respec fees. But if someone's dedicated to grinding, they can put together a hundred gold in a few hours. Or, in this case, thousands.</p><p>As shared by <a href=\"https://www.wowhead.com/forever/news/100-gold-per-hour-farm-nerfed-in-wow-forever-383898\" target=\"_blank\">WoWHead</a>, a gold farm was discovered in Blackmaw Hold, one of its new dungeons, and thoroughly rinsed over the past couple of days: \"In Blackmaw Hold, there is a room filled with around 30 Blackmaw Devotees. These"
-        }
-      ],
-      "keywords": [
-        "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold",
-        "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold date de sortie",
-        "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold plateformes",
-        "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold gameplay",
-        "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold guide",
-        "Blizzard drops the hammer on WoW: Forever players who exploited a now-hotfixed grind to rake in thousands of gold avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-us-agencies-confirm-criminal-investigation-into-megaspe-d931172cbdea",
-      "topic": "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips",
-      "detected_at": "2026-11-18T10:44:40.093426+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/graphics-cards/us-agencies-confirm-criminal-investigation-into-megaspeed-datacenter-company-is-in-a-colossal-tangle-over-nvidia-chips/",
-          "title": "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips",
-          "evidence": "<article> <p>Megaspeed is a company with a lot of eyes on it at the moment, and many eyes makes many, uh, news stories. The US Department of Commerce and Department of Justice have thought it to be a good time to drop some details on its investigations into the Singaporean datacentre company, once led by one Alice Huang.</p><p>If you've already forgotten who Alice Huang is, she was the person <a href=\"https://www.pcgamer.com/hardware/graphics-cards/how-nvidia-got-into-this-mess-timeline-of-jensen-huang-scandal-and-geopolitics-leading-up-to-it/\" target=\"_blank\">first suspected of having an affair with Jensen Huang</a>. The ex-Nvidia CEO later admitted to an affair with someone that has remained unnamed. </p><p>It wasn't just the affair that <a href=\"https://www.pcgamer.com/hardware/live/news/nvidia-jen-hsun-scandal/\" target=\"_blank\">sunk Huang</a>, it was the suspicion that Alice Huang may be a Chinese Intelligence asset, according to a New York Times report. That was later <a href=\"https://x.com/CBSNews/status/2121012503610016055\" target=\"_blank\">rebuffed by Attorney General Todd Blanche</a> and the CCP. It was also that the company Alice Huang ran, Megaspeed, was suspected of chip"
-        }
-      ],
-      "keywords": [
-        "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips",
-        "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips date de sortie",
-        "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips plateformes",
-        "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips gameplay",
-        "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips guide",
-        "US agencies confirm criminal investigation into Megaspeed - datacenter company is in a colossal tangle over Nvidia chips avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-they-would-never-stop-working-on-this-game-gta-6-s-deve-da82b5b27b77",
-      "topic": "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down'",
-      "detected_at": "2026-11-18T10:44:40.093688+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/they-would-never-stop-working-on-this-game-gta-6s-development-couldve-gone-on-for-longer-just-because-its-really-hard-to-close-it-down/",
-          "title": "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down'",
-          "evidence": "<article> <p>Working to a deadline is hard enough, but working towards one that can be moved if you really need it is worse. Grand Theft Auto 6 has been in the works for around a decade, including a couple of delays so devs could polish up some rough edges, and after all this time it must be really hard to step back and say enough is enough. </p><p>\"They would never stop working on this game if they had the choice,\" Jennifer Kolbe, head of publishing, says in an interview with <a href=\"https://www.theguardian.com/games/ng-interactive/2026/nov/15/grand-theft-auto-vi-inside-rockstar-games\" target=\"_blank\">The Guardian</a>. </p><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"qQkiWYKyDfn2zRKo8HKJqE\" name=\"Grassrivers_08.0x-z0h-he35zo\" alt=\"Grand Theft Auto 6 launch gallery: Armed men aboard a swamp boat shine lights at an alligator.\" src=\"https://cdn.mos.cms.futurecdn.net/qQkiWYKyDfn2zRKo8HKJqE-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\""
-        }
-      ],
-      "keywords": [
-        "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down'",
-        "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down' date de sortie",
-        "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down' plateformes",
-        "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down' gameplay",
-        "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down' guide",
-        "'They would never stop working on this game': GTA 6's development could've gone on for longer just because 'it's really hard to close it down' avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-modder-beats-valve-to-the-punch-adding-steam-controller-c783e846cf50",
-      "topic": "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame",
-      "detected_at": "2026-11-18T10:44:40.093911+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/hardware/vr-hardware/modder-beats-valve-to-the-punch-adding-steam-controller-tracking-for-the-steam-frame/",
-          "title": "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame",
-          "evidence": "<article> <figure><blockquote class=\"reddit-card\" ><a href=\"https://www.reddit.com/r/SteamFrame/comments/1xxrhc4/controller_utils_tracking_for_the_steam\">Controller Utils - Tracking for the Steam Controller 2026 inside Steam Frame!</a><figcaption><cite> from <a href=\"https://www.reddit.com/r/SteamFrame\">r/SteamFrame</a></cite></figcaption></blockquote></figure><script async=\"\" src=\"//embed.redditmedia.com/widgets/platform.js\" charset=\"UTF-8\"></script><p>If you own a <a href=\"https://www.pcgamer.com/hardware/vr-hardware/valve-steam-frame-review/\" target=\"_blank\">Steam Frame</a> and want to use your <a href=\"https://www.pcgamer.com/hardware/game-pads/steam-controller-2026-review/\" target=\"_blank\">Steam Controller</a> at the same time (perhaps even playing 2D games on a big virtual screen), you've likely had to use the passthrough, or just <em>really </em>know your controller. That's because, despite <a href=\"https://store.steampowered.com/hardware/steamcontroller\" target=\"_blank\">Valve noting that the Infrared LED in the controller makes it trackable in the Steam Frame</a>, it has not yet implemented said tracking. However, a modder has once again come to PC gamers' rescue. </p><p>Ta"
-        }
-      ],
-      "keywords": [
-        "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame",
-        "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame date de sortie",
-        "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame plateformes",
-        "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame gameplay",
-        "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame guide",
-        "Modder beats Valve to the punch adding Steam Controller tracking for the Steam Frame avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-avengers-doomsday-rating-confirms-it-will-be-the-most-v-57e2e37c79cb",
-      "topic": "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet",
-      "detected_at": "2026-11-18T10:44:40.642960+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/entertainment/marvel-movies/avengers-doomsday-rating-confirms-it-will-be-the-most-violent-avengers-movie-yet/",
-          "title": "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet",
-          "evidence": "<article> <p><a href=\"https://www.gamesradar.com/entertainment/marvel-movies/avengers-doomsday-release-date-cast-plot-trailer/\">Avengers: Doomsday</a> looks set to be the most violent Avengers movie yet. The film has been rated PG-13 for \"violence/action, bloody images, and language\", according to <a href=\"https://www.filmratings.com/search-results/?search=avengers:%20doomsday\" target=\"_blank\">Film Ratings</a>. </p><p>The detail of \"bloody images\" is new territory for the Avengers franchise. According to <a href=\"http://comicbook.com\" target=\"_blank\">ComicBook.com</a>, Avengers: Infinity War and Avengers: Endgame were rated for \"sci-fi violence\" but this is the first time \"bloody\" has been used. The movie has not yet been rated in the UK, but this could give some more insight into how dark the MCU movie might go.</p><p>We know the stakes are high in Anthony and Joe Russo's return to the big screen with Doomsday as heroes from three universes are teaming up to face Doctor Doom. The Fox X-Men, the Fantastic Four, and the OG and new Avengers must all work together to deal with the threat.</p><p>However, it seems like Doom has been building his own team, recruiting Bruce Banner in the "
-        }
-      ],
-      "keywords": [
-        "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet",
-        "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet date de sortie",
-        "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet plateformes",
-        "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet gameplay",
-        "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet guide",
-        "Avengers: Doomsday rating confirms it will be the most violent Avengers movie yet avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-this-cozy-game-wants-to-be-the-lovely-little-underdog-b-0870139e80ce",
-      "topic": "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6",
-      "detected_at": "2026-11-18T10:44:40.643163+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.gamesradar.com/games/the-cozy-tanuki-game-that-stole-my-heart-is-all-grown-up-wants-to-be-the-lovely-little-underdog-between-zelda-ocarina-of-time-and-gta-6/",
-          "title": "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6",
-          "evidence": "<article> <p>I don't remember much about my coverage from Steam Next Fest this past June, but I remember <a href=\"https://www.gamesradar.com/games/platformer/my-favorite-steam-next-fest-demo-is-tony-hawks-pro-skater-but-make-it-a-tanuki-courier-sim/\">my time playing the demo for Tanuki: Pon's Summer</a> very vividly. I mean, how could I forget? I rail-grinded around an adorable Japanese town as a potbellied Tanuki on a BMX bike doing tricks in the air while delivering packages for residents. The little demo that could is now a full-fledged game with <a href=\"https://store.steampowered.com/app/3218570/TANUKI_Pons_Summer/#app_reviews_hash\" target=\"_blank\">\"Very Positive\" Steam reviews</a>, and although it pains me to say it probably won't take home any Game of the Year awards in December, it deserves its time in the spotlight even with an incredibly unfortunate release right smack-dab between <a href=\"https://www.gamesradar.com/the-legend-of-zelda-ocarina-of-time-remake-guide/\">Zelda: Ocarina of Time's remake</a> and <a href=\"https://www.gamesradar.com/gta-6-guide/\">GTA 6</a>. Naturally, its director agrees.</p><p>Talking to <a href=\"https://www.gamesindustry.biz/tanuki-pons-summer-i"
-        }
-      ],
-      "keywords": [
-        "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6",
-        "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6 date de sortie",
-        "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6 plateformes",
-        "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6 gameplay",
-        "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6 guide",
-        "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6 avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "evg-config-311210",
-      "topic": "Configuration PC Call of Duty®: Black Ops III : minimale, recommandée et conseils",
-      "detected_at": "2026-11-18T10:44:39.906321+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/311210/",
-          "title": "Call of Duty®: Black Ops III sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Call of Duty®: Black Ops III, consultée le 2026-11-18. Développeur : Treyarch, Aspyr (Mac). Éditeur : Activision, Aspyr (Mac). Date de sortie sur Steam : 5 nov. 2015. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows, macOS. Configuration PC Minimale : ; Système d'exploitation *: Windows 7 64-Bit / Windows 8 64-Bit / Windows 8.1 64-Bit ; Processeur : Intel® Core™ i3-530 @ 2.93 GHz / AMD Phenom™ II X4 810 @ 2.60 GHz ; Mémoire vive : 6 GB de mémoire ; Graphiques : NVIDIA® GeForce® GTX 470 @ 1GB / ATI® Radeon™ HD 6970 @ 1GB ; DirectX : Version 11 ; Réseau : connexion internet haut débit ; Espace disque : 100 GB d'espace disque disponible ; Carte son : DirectX Compatible. La fiche Steam n'indique pas de configuration recommandée.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/ss_ca7376d838d5714f916936f0070824c27c4c5641.1920x1080.jpg?t=1780963650"
-        }
-      ],
-      "keywords": [
-        "configuration pc Call of Duty®: Black Ops III",
-        "Call of Duty®: Black Ops III PC",
-        "Call of Duty®: Black Ops III Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "evg-multi-311210",
-      "topic": "Call of Duty®: Black Ops III multijoueur : coop, en ligne et modes de jeu",
-      "detected_at": "2026-11-18T10:44:39.906409+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "store",
-          "url": "https://store.steampowered.com/app/311210/",
-          "title": "Call of Duty®: Black Ops III sur Steam",
-          "evidence": "Données officielles de la fiche Steam de Call of Duty®: Black Ops III, consultée le 2026-11-18. Développeur : Treyarch, Aspyr (Mac). Éditeur : Activision, Aspyr (Mac). Date de sortie sur Steam : 5 nov. 2015. Genres : Action, Aventure. Systèmes pris en charge sur Steam : Windows, macOS. Modes et fonctionnalités déclarés sur Steam : Solo, Multijoueur, Coopération, Écran partagé, Succès Steam, Compat. contrôleurs complète, Cartes à échanger Steam, Workshop Steam, Antitriche Valve activée, Classements Steam, Remote Play sur téléphone, Remote Play sur tablette, Remote Play sur télévision, Remote Play Together, Partage familial. Seuls les modes de cette liste sont confirmés ; un mode absent de la liste n'est pas annoncé sur la fiche Steam. Prise en charge des manettes : complète. Présentation officielle : Call of Duty®: Black Ops III Zombies Chronicles Edition inclut le jeu de base complet et l'extension Zombies Chronicles.",
-          "evidence_origin": "steam_store_api",
-          "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/ss_ca7376d838d5714f916936f0070824c27c4c5641.1920x1080.jpg?t=1780963650"
-        }
-      ],
-      "keywords": [
-        "Call of Duty®: Black Ops III multijoueur",
-        "Call of Duty®: Black Ops III PC",
-        "Call of Duty®: Black Ops III Steam"
-      ],
-      "notes": "Evergreen search intent generated from official Steam store data. Specifications and game modes must be taken from the source evidence only.",
-      "status": "new"
-    },
-    {
-      "id": "rss-devolver-s-not-just-launching-a-game-on-the-same-day-as-8b11fee61e40",
-      "topic": "Devolver's not just launching a game on the same day as GTA 6, it's using a shot-by-shot remake of the GTA 6 launch trailer too",
-      "detected_at": "2026-11-18T22:20:27.694406+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/devolvers-not-just-launching-a-game-on-the-same-day-as-gta-6-its-using-a-shot-by-shot-remake-of-the-gta-6-launch-trailer-too/",
-          "title": "Devolver's not just launching a game on the same day as GTA 6, it's using a shot-by-shot remake of the GTA 6 launch trailer too",
-          "evidence": "<article> <p>While most game studios are carefully avoiding the Grand Theft Auto 6 behemoth, Devolver Digital has relentlessly and theatrically pursued it. In May 2025 it <a href=\"https://www.pcgamer.com/games/grand-theft-auto/you-cant-escape-us-devolver-plots-to-release-a-game-on-gta-6s-release-date-no-matter-when-that-is/\" target=\"_blank\">pledged</a> to launch a game on May 26, head-to-head with GTA 6—and when GTA 6 was delayed, <a href=\"https://www.pcgamer.com/games/grand-theft-auto/despite-another-big-delay-devolver-is-still-hell-bent-on-releasing-a-game-on-the-same-day-as-grand-theft-auto-6-you-cant-escape-us/\" target=\"_blank\">Devolver delayed too</a>.</p><p>And now, with GTA 6 slowly <a href=\"https://www.pcgamer.com/games/live/news/grand-theft-auto-6-live-launch-coverage/\" target=\"_blank\">rolling through its official launch</a> on November 19, it's finally (almost) here: Volvy's Adventure: Reslimed, \"a spectacular remaster of the original remake of the unreleased action-platformer starring the most famous videogame mascot of all time,\" developed by Gunbrella/Gato Roboto studio Doinksoft.</p><p>So, first things first: As the word \"unreleased\" amidst that slurry of words from t"
-        }
-      ],
-      "keywords": [
-        "Devolver's not just launching a game on the same day as GTA 6, it's using a shot-by-shot remake of the GTA 6 launch trailer too",
-        "Devolver's not just launching a game on the same day as GTA 6, it's using a shot-by-shot remake of the GTA 6 launch trailer too date de sortie",
-        "Devolver's not just launching a game on the same day as GTA 6, it's using a shot-by-shot remake of the GTA 6 launch trailer too plateformes",
-        "Devolver's not just launching a game on the same day as GTA 6, it's using a shot-by-shot remake of the GTA 6 launch trailer too gameplay",
-        "Devolver's not just launching a game on the same day as GTA 6, it's using a shot-by-shot remake of the GTA 6 launch trailer too guide",
-        "Devolver's not just launching a game on the same day as GTA 6, it's using a shot-by-shot remake of the GTA 6 launch trailer too avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
-    {
-      "id": "rss-gta-6-airport-location-here-s-where-to-earn-your-wings--06330d3f2422",
-      "topic": "GTA 6 airport location: Here's where to earn your wings less than legally",
-      "detected_at": "2026-11-18T22:20:27.694650+00:00",
-      "region": "FR",
-      "sources": [
-        {
-          "type": "publisher",
-          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-airport-location/",
-          "title": "GTA 6 airport location: Here's where to earn your wings less than legally",
-          "evidence": "<article> <p>The GTA 6 airport, Vice City International, has a huge footprint on the map. You really can't miss it once you get into the city and start wandering around. There are two main runways that both have commercial jets parked in them at all times which you can sneak your way onto and fly off with if you throw it in reverse before those tarmac support vehicles get under your wheels. </p><h2 class=\"article-body__section\" id=\"section-what-s-at-the-airport\"><span>What's at the airport?</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"YiD5d8HbD5STEEnNnziA6W\" name=\"gta 6 airport vcia flyover\" alt=\"GTA 6 - plane flying over the VCIA airport\" src=\"https://cdn.mos.cms.futurecdn.net/YiD5d8HbD5STEEnNnziA6W-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline\" /></p></div></div><figcaption itemprop=\"caption description\" class=\" inline-layout\"><span class=\"credit\" itemprop=\"copyrightHolder\">(Image credit: Rockstar)</span>"
-        }
-      ],
-      "keywords": [
-        "GTA 6 airport location: Here's where to earn your wings less than legally",
-        "GTA 6 airport location: Here's where to earn your wings less than legally date de sortie",
-        "GTA 6 airport location: Here's where to earn your wings less than legally plateformes",
-        "GTA 6 airport location: Here's where to earn your wings less than legally gameplay",
-        "GTA 6 airport location: Here's where to earn your wings less than legally guide",
-        "GTA 6 airport location: Here's where to earn your wings less than legally avis"
-      ],
-      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
-      "status": "new"
-    },
     {
       "id": "rss-rockstar-says-a-ps5-pro-is-simply-not-powerful-enough-f-e4a66b19a2f5",
       "topic": "Rockstar says a PS5 Pro is simply 'not powerful enough' for 60 fps GTA 6, as I crack a smile at my 5090",
@@ -6048,6 +5762,294 @@
         "GTA 6 Lucia actor \"dedicated almost a decade\" to bringing Rockstar's new protagonist to life gameplay",
         "GTA 6 Lucia actor \"dedicated almost a decade\" to bringing Rockstar's new protagonist to life guide",
         "GTA 6 Lucia actor \"dedicated almost a decade\" to bringing Rockstar's new protagonist to life avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-it-was-by-far-the-toughest-thing-i-ve-done-denis-villen-5d4a288f131a",
+      "topic": "\"It was by far, the toughest thing I've done\": Denis Villeneuve shares his decades-long dream of bringing Dune to screen",
+      "detected_at": "2026-11-28T10:53:50.062041+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/sci-fi-movies/dune-part-one-making-of-denis-villeneuve-timothee-chalamet/",
+          "title": "\"It was by far, the toughest thing I've done\": Denis Villeneuve shares his decades-long dream of bringing Dune to screen",
+          "evidence": "<article> <p>Ahead of the release of the final film in Denis Villeneuve's Dune trilogy, we're heading back to where it all began. In this 2021 feature we went deep with the cast and creators of the first movie, unpicking the legacy of the previous Dune adaptation as Villeneuve told us in his own words what he wanted his new vision of this world to be. </p><p>Taken from issue 315 of Total Film, this feature has interviews from the director as well as his cast, including Timothée Chalamet, Rebecca Ferguson, Oscar Isaac, Josh Brolin, Zendaya, and Jason Momoa, for the ultimate preview. So strap in and travel back in time with us to Arrakis to celebrate our first entry into the incredible universe that this first movie established on screen.</p><p>There's no doubt that <a href=\"https://www.gamesradar.com/entertainment/sci-fi-movies/dune-3-release-date-cast-trailer-plot/\">Dune 3</a> is one of the biggest <a href=\"https://www.gamesradar.com/upcoming-movies/\">upcoming movies</a> of the year, due to hit theaters the same day as <a href=\"https://www.gamesradar.com/entertainment/marvel-movies/avengers-doomsday-release-date-cast-plot-trailer/\">Avengers: Doomsday</a>. Based on everything we've "
+        }
+      ],
+      "keywords": [
+        "\"It was by far, the toughest thing I've done\": Denis Villeneuve shares his decades-long dream of bringing Dune to screen",
+        "\"It was by far, the toughest thing I've done\": Denis Villeneuve shares his decades-long dream of bringing Dune to screen date de sortie",
+        "\"It was by far, the toughest thing I've done\": Denis Villeneuve shares his decades-long dream of bringing Dune to screen plateformes",
+        "\"It was by far, the toughest thing I've done\": Denis Villeneuve shares his decades-long dream of bringing Dune to screen gameplay",
+        "\"It was by far, the toughest thing I've done\": Denis Villeneuve shares his decades-long dream of bringing Dune to screen guide",
+        "\"It was by far, the toughest thing I've done\": Denis Villeneuve shares his decades-long dream of bringing Dune to screen avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-despite-not-being-a-direct-adaptation-director-of-netfl-28bb682a32b7",
+      "topic": "Despite not being a direct adaptation, director of Netflix's Assassin's Creed series says it's \"very much in the lore\" of the game",
+      "detected_at": "2026-11-28T10:53:50.062251+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/live-action-shows/despite-not-being-a-direct-adaptation-director-of-netflixs-assassins-creed-series-says-its-very-much-in-the-lore-of-the-game/",
+          "title": "Despite not being a direct adaptation, director of Netflix's Assassin's Creed series says it's \"very much in the lore\" of the game",
+          "evidence": "<article> <p>Netflix's upcoming Assassin's Creed show will be true to the games, its director has promised. Stefan Schwartz, who directed several episodes of the upcoming series, shared an update on its progress with GamesRadar+.</p><p>The series is set in the world of the franchise but tells an original story, according to the streaming service. However, as Schwartz points out: \"It's very much in the lore of Assassin's Creed, it's still very much in it, and I think it's a fun version of that world: big scale and lots of running on roofs.\"</p><p>The show wrapped filming in November 2026 after filming on location. \"Yes, that was hot and lovely,\" Schwartz smiles when asked about filming in Rome. \"[It was] also shot a little bit in Bulgaria as well. So I'm still editing that now.\"</p><p>Set in 64AD, <a href=\"https://www.gamesradar.com/entertainment/live-action-shows/netflixs-assassins-creed-show-confirms-all-new-time-period-but-will-return-to-a-fan-favorite-location/\">exact story details for the upcoming live-action show</a> are being kept under wraps, but according to Netflix it will tell an \"original story set in the heart of the Roman Empire\". </p><p>Furious star Lola Petticrew sta"
+        }
+      ],
+      "keywords": [
+        "Despite not being a direct adaptation, director of Netflix's Assassin's Creed series says it's \"very much in the lore\" of the game",
+        "Despite not being a direct adaptation, director of Netflix's Assassin's Creed series says it's \"very much in the lore\" of the game date de sortie",
+        "Despite not being a direct adaptation, director of Netflix's Assassin's Creed series says it's \"very much in the lore\" of the game plateformes",
+        "Despite not being a direct adaptation, director of Netflix's Assassin's Creed series says it's \"very much in the lore\" of the game gameplay",
+        "Despite not being a direct adaptation, director of Netflix's Assassin's Creed series says it's \"very much in the lore\" of the game guide",
+        "Despite not being a direct adaptation, director of Netflix's Assassin's Creed series says it's \"very much in the lore\" of the game avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-rings-of-power-showrunners-know-what-the-last-shot--838b4f7abb51",
+      "topic": "The Rings of Power showrunners know what the last shot of the show will be",
+      "detected_at": "2026-11-28T10:53:50.062432+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/entertainment/lord-of-the-rings-tv-shows/the-rings-of-power-showrunners-know-what-the-last-shot-of-the-show-will-be-but-there-is-some-problem-solving-we-have-yet-to-do/",
+          "title": "The Rings of Power showrunners know what the last shot of the show will be",
+          "evidence": "<article> <p>The Lord of the Rings: The Rings of Power is officially returning for season 4, and showrunners J.D. Payne and Patrick McKay are thinking even farther ahead into the show's future.</p><p>\"And there's a very clear plan for the rest. We know where we're heading. We even know what the last shot is,\" McKay told <a href=\"https://www.ign.com/articles/the-rings-of-power-season-3-ending-explained-with-showrunners-j-d-payne-and-patrick-mckay\" target=\"_blank\">IGN</a>. \"There is some problem-solving we have yet to do, like how much of this? Or, how are we going to do that? But the garden of forking paths is narrow ahead. We know what we're doing next [season], and I think we have a pretty good idea what we're going to do the time after that. It does feel like we're over the hump, and it does feel like the destination is in sight.”</p><p>Season 3 focused on the forging of the One Ring, with Charlie Vickers' Sauron taking center stage. Jamie Campbell Bower also joined the season at Celeborn, and his tumultuous relationship with both Galadriel and Sauron absolutely sealed the deal for me. Vickers deserves an award for just the line delivery of, \"She'll come to you, but she'll come f"
+        }
+      ],
+      "keywords": [
+        "The Rings of Power showrunners know what the last shot of the show will be",
+        "The Rings of Power showrunners know what the last shot of the show will be date de sortie",
+        "The Rings of Power showrunners know what the last shot of the show will be plateformes",
+        "The Rings of Power showrunners know what the last shot of the show will be gameplay",
+        "The Rings of Power showrunners know what the last shot of the show will be guide",
+        "The Rings of Power showrunners know what the last shot of the show will be avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-star-wars-knights-of-the-old-republic-put-bioware-throu-d166c9d36726",
+      "topic": "Star Wars: Knights of the Old Republic put BioWare through \"sympathy crunch,\" says studio veteran",
+      "detected_at": "2026-11-28T10:53:50.062622+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/rpg/star-wars-knights-of-the-old-republic-put-bioware-through-sympathy-crunch-as-devs-would-show-up-for-work-just-because-a-bunch-of-other-people-have-to-be-here/",
+          "title": "Star Wars: Knights of the Old Republic put BioWare through \"sympathy crunch,\" says studio veteran",
+          "evidence": "<article> <p>There's often a tragic backstory to any great game in which developers were forced to work way beyond their scheduled hours, often late into nights and even on weekends. Usually, the perception is that everyone's working their tail off to get a project out the door in time for whatever deadline is set by the publisher, but in the case of BioWare's seminal 2003 RPG Star Wars: Knights of the Old Republic, a lot of people showed up at the studio just because they felt bad for people who actually had stuff to do. </p><p>John Winski, a former employee of BioWare going all the way back to 1996, reflects on Knights of the Old Republic's development in a recent conversation with Pembridge TV. \"I think we worked five months of crunch time,\" he says. \"We started with Tuesdays and Thursdays, we'd work 12-hour days. Then it became five days a week working 12-hour days. Saturdays, I don't know how long we were doing seven days a week, 12-hour days.\"</p><p>That's <em>a lot </em>of crunch. Without official numbers to go by, it's hard to know how that stacks up against notoriously crunch-heavy development cycles like The Last of Us 2, Red Dead Redemption 2, and Cyberpunk 2077, but if "
+        }
+      ],
+      "keywords": [
+        "Star Wars: Knights of the Old Republic put BioWare through \"sympathy crunch,\" says studio veteran",
+        "Star Wars: Knights of the Old Republic put BioWare through \"sympathy crunch,\" says studio veteran date de sortie",
+        "Star Wars: Knights of the Old Republic put BioWare through \"sympathy crunch,\" says studio veteran plateformes",
+        "Star Wars: Knights of the Old Republic put BioWare through \"sympathy crunch,\" says studio veteran gameplay",
+        "Star Wars: Knights of the Old Republic put BioWare through \"sympathy crunch,\" says studio veteran guide",
+        "Star Wars: Knights of the Old Republic put BioWare through \"sympathy crunch,\" says studio veteran avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-bioware-told-ea-dragon-age-inquisition-would-be-an-xbox-2bbd844ff735",
+      "topic": "BioWare told EA Dragon Age Inquisition would be an Xbox launch title, but \"we lied,\" says ex-lead",
+      "detected_at": "2026-11-28T10:53:50.062827+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/dragon-age/we-just-lied-ex-dragon-age-lead-says-inquisition-was-supposed-to-be-an-xbox-one-launch-title-even-though-bioware-knew-that-was-never-gonna-happen/",
+          "title": "BioWare told EA Dragon Age Inquisition would be an Xbox launch title, but \"we lied,\" says ex-lead",
+          "evidence": "<article> <p>The Xbox One had a reasonably strong launch lineup that included juggernauts like Assassin's Creed 4: Black Flag and Battlefield 4 launching right alongside the hardware in 2013, but it was originally supposed to have some extremely strong RPG representation in Dragon Age: Inquisition. Well, that's what BioWare told EA, anyway.</p><p>Talking to Pembridge TV (<a href=\"https://www.youtube.com/watch?v=FUoJ8x2LTFA&t=4693s\" target=\"_blank\">timestamp</a>), former Dragon Age series lead and longtime BioWare veteran Mark Darrah says the studio straight-up fibbed when it told EA Inquisition would be a launch day title for the Xbox One generation of consoles.</p><p>\"The pitch for Dragon Age: Inquisition was that it was going to be a launch title for the Xbox 360, so it was basically supposed to come out in 2013,\" Darrah says, before realizing he got his generations mixed up and was really thinking of Xbox One. That console, alongside the PS4, launched in November 2013, while Dragon Age: Inquisition didn't release until about a full year later in November 2014. \"It was literally supposed to be a launch title for the Xbox One.\"</p><p>Presumably, Darrah is using Xbox One as shortha"
+        }
+      ],
+      "keywords": [
+        "BioWare told EA Dragon Age Inquisition would be an Xbox launch title, but \"we lied,\" says ex-lead",
+        "BioWare told EA Dragon Age Inquisition would be an Xbox launch title, but \"we lied,\" says ex-lead date de sortie",
+        "BioWare told EA Dragon Age Inquisition would be an Xbox launch title, but \"we lied,\" says ex-lead plateformes",
+        "BioWare told EA Dragon Age Inquisition would be an Xbox launch title, but \"we lied,\" says ex-lead gameplay",
+        "BioWare told EA Dragon Age Inquisition would be an Xbox launch title, but \"we lied,\" says ex-lead guide",
+        "BioWare told EA Dragon Age Inquisition would be an Xbox launch title, but \"we lied,\" says ex-lead avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-bandai-joins-forces-with-square-enix-and-capcom-takes-o-2b040e79b164",
+      "topic": "Bandai joins forces with Square Enix and Capcom, takes out $200,000 in fake Gundams",
+      "detected_at": "2026-11-28T10:53:50.062983+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/bandai-joins-forces-with-square-enix-and-capcom-to-crack-down-on-counterfeit-merch-takes-out-usd200-000-in-fake-gundams/",
+          "title": "Bandai joins forces with Square Enix and Capcom, takes out $200,000 in fake Gundams",
+          "evidence": "<article> <p>Square Enix's <a href=\"https://www.gamesradar.com/games/final-fantasy/final-fantasy-7-tifa-lockhart-counterfeit-figure-scheme-leads-to-13-arrests-and-usd300-000-in-seized-assets/\">$300,000 crackdown on fake Tifa figures</a> isn't the only anti-counterfeit operation going on among Japan's biggest game publishers. The Final Fantasy publisher has joined forces with Capcom and Bandai to take down knockoff merch, and the joint operation has already led to the seizure of around $200,000 worth of fake Gundams.</p><p>Counterfeit merch is often reported by rightsholders, but they can only make claims on goods that infringe on their IP. So while warehouses might be full of fake Final Fantasy, Street Fighter, and Gundam figures, publishers filing reports could only ask local officials to seize the merchandise directly related to their own IP.</p><p>That's why the companies decided to team up, according to a representative of the legal department of Bandai Spirits, which is Bandai Namco's toy-making subsidiary. According to a recent report from <a href=\"https://www.oricon.co.jp/news/2494236/full/\" target=\"_blank\">Oricon News</a>, translated by <a href=\"https://automaton-media.com/"
+        }
+      ],
+      "keywords": [
+        "Bandai joins forces with Square Enix and Capcom, takes out $200,000 in fake Gundams",
+        "Bandai joins forces with Square Enix and Capcom, takes out $200,000 in fake Gundams date de sortie",
+        "Bandai joins forces with Square Enix and Capcom, takes out $200,000 in fake Gundams plateformes",
+        "Bandai joins forces with Square Enix and Capcom, takes out $200,000 in fake Gundams gameplay",
+        "Bandai joins forces with Square Enix and Capcom, takes out $200,000 in fake Gundams guide",
+        "Bandai joins forces with Square Enix and Capcom, takes out $200,000 in fake Gundams avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-gta-6-sales-estimates-place-it-as-the-13th-best-selling-9faef12d9f0d",
+      "topic": "GTA 6 sales estimates place it as the 13th best-selling game ever",
+      "detected_at": "2026-11-28T10:53:50.063265+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sales-estimates-place-it-above-cyberpunk-2077-the-sims-and-the-first-pokemon-games-as-the-13th-best-selling-game-ever/",
+          "title": "GTA 6 sales estimates place it as the 13th best-selling game ever",
+          "evidence": "<article> <p>Analyst estimates have put GTA 6 at 53 million copies sold, which, if accurate, places it as the 13th best-selling game of all time after just a week. </p><p>In the least surprising bit of news of 2026, <a href=\"https://www.gamesradar.com/uk/gta-6/\"><u>GTA 6</u></a> is selling pretty well. It was probably the most anticipated game ever and is the<a href=\"https://www.gamesradar.com/uk/games/grand-theft-auto/gta-6-metacritic-score-makes-it-the-highest-rated-game-of-all-time-matching-the-og-zelda-ocarina-of-time/\"> <u>highest-rated game of all time</u></a> on Metacritic, so naturally the sales have followed. The first official number from <a href=\"https://www.gamesradar.com/uk/tag/rockstar-games/\"><u>Rockstar Games</u></a> placed it at <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-sold-32-5-million-copies-before-it-was-even-released-for-comparison-elden-ring-sold-30-million-in-3-years/\"><u>32.5 million copies sold before it was even released</u></a>, which had made it the 30th best-selling game ever above the likes of Super Mario Odyssey, Monster Hunter World, and Elden Ring. But that was just pre-release, so it's no shock to say that its fortunes haven"
+        }
+      ],
+      "keywords": [
+        "GTA 6 sales estimates place it as the 13th best-selling game ever",
+        "GTA 6 sales estimates place it as the 13th best-selling game ever date de sortie",
+        "GTA 6 sales estimates place it as the 13th best-selling game ever plateformes",
+        "GTA 6 sales estimates place it as the 13th best-selling game ever gameplay",
+        "GTA 6 sales estimates place it as the 13th best-selling game ever guide",
+        "GTA 6 sales estimates place it as the 13th best-selling game ever avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-the-currys-black-friday-sale-offers-reliable-gaming-hea-7eb2042e22c1",
+      "topic": "The Currys Black Friday sale offers reliable gaming headsets under £50",
+      "detected_at": "2026-11-28T10:53:50.063600+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/hardware/headsets-headphones/currys-black-friday-sales-has-brought-some-solid-gaming-headsets-below-gbp50-with-some-extra-perks-thrown-in-too/",
+          "title": "The Currys Black Friday sale offers reliable gaming headsets under £50",
+          "evidence": "<article> <p>If you want your Nintendo Switch 2 to sound as good as possible, you won't dream of using the handheld's built-in stereo speakers, and will pick up a headset to use with the system. It won't cost you much to do so, with Black Friday deals cutting cost on gaming-designed headphones.</p><p>There are loads of Black Friday gaming headset deals <a href=\"https://www.currys.co.uk/black-friday/black-friday-gaming/gaming-headsets\" target=\"_blank\"><strong>at Currys</strong></a>, with the best reducing models down to lovely tempting prices. Some are discounted to below £50, which means they're cheaper than the cost of a Switch 2 game. They're all wired models, as cable-toting tech is generally cheaper, which means these options still offer some impressive specs despite the low price. In particular there are four headsets below this price threshold which work on the Switch 2, and you can find them below, ordered from cheapest to priciest.</p><div class=\"product\"><a data-dimension112=\"87b992d6-ea77-11f1-885e-af1bc16f6df5\" data-action=\"Deal Block\" data-label=\"G432\" data-dimension48=\"G432\" data-dimension25=\"£32.97\" href=\"https://www.currys.co.uk/products/logitech-g432-7.1-gaming-head"
+        }
+      ],
+      "keywords": [
+        "The Currys Black Friday sale offers reliable gaming headsets under £50",
+        "The Currys Black Friday sale offers reliable gaming headsets under £50 date de sortie",
+        "The Currys Black Friday sale offers reliable gaming headsets under £50 plateformes",
+        "The Currys Black Friday sale offers reliable gaming headsets under £50 gameplay",
+        "The Currys Black Friday sale offers reliable gaming headsets under £50 guide",
+        "The Currys Black Friday sale offers reliable gaming headsets under £50 avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-our-favorite-gta-6-outfits-and-where-to-find-them-7323bc2642c5",
+      "topic": "Our favorite GTA 6 outfits and where to find them",
+      "detected_at": "2026-11-28T10:53:50.064406+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-outfits/",
+          "title": "Our favorite GTA 6 outfits and where to find them",
+          "evidence": "<article> <p>Character customization in GTA has never been so good, and you even have two characters to fit this time around, meaning there are more choices than ever when picking Jason and Lucia's GTA 6 outfits, tattoos, and hairstyles.</p><p>You may have already seen just a few of the countless variants for Lucia's hair doing the rounds on socials, but since different shops and stylists offer different options, it's not always easy to find what you're after. That's where we come in. This is our growing list of our favorite GTA 6 outfits, including exactly where to pick them up for yourself, so make sure you have enough cash to spend by checking out our guide to the best ways to <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-make-money-fast\">get money fast in GTA 6</a>, then go shopping.</p><h2 class=\"article-body__section\" id=\"section-the-best-of-lucia-s-hair-in-gta-6\"><span>The best of Lucia's hair in GTA 6</span></h2><p>The best hairstyles and colors for Lucia can usually be found in the Signature section at specific stylists, as this is where unique styles can be found that you can't just find everywhere.</p><p>Check out these styles and where to get them bel"
+        }
+      ],
+      "keywords": [
+        "Our favorite GTA 6 outfits and where to find them",
+        "Our favorite GTA 6 outfits and where to find them date de sortie",
+        "Our favorite GTA 6 outfits and where to find them plateformes",
+        "Our favorite GTA 6 outfits and where to find them gameplay",
+        "Our favorite GTA 6 outfits and where to find them guide",
+        "Our favorite GTA 6 outfits and where to find them avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-ex-rockstar-dev-says-gta-6-looks-almost-flawless-but-lo-98be45114aff",
+      "topic": "Ex-Rockstar dev says GTA 6 looks \"almost flawless\" but loses to Red Dead Redemption 2 in a few areas",
+      "detected_at": "2026-11-28T10:53:50.064570+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/former-rockstar-artist-says-gta-6-looks-almost-flawless-but-loses-to-red-dead-redemption-2-in-a-few-areas/",
+          "title": "Ex-Rockstar dev says GTA 6 looks \"almost flawless\" but loses to Red Dead Redemption 2 in a few areas",
+          "evidence": "<article> <p>You'd be hard-pressed to argue against the visual element of <a href=\"https://www.gamesradar.com/gta-6/\">GTA 6</a>. Leonida is a stunningly realized modern American state in <a href=\"https://www.gamesradar.com/uk/tag/rockstar-games/\">Rockstar</a>'s crime playground, but an artist who contributed to both this and <a href=\"https://www.gamesradar.com/uk/red-dead-redemption-2/\">Red Dead Redemption 2</a> believes the Western has the edge in some respects.</p><p>David O'Reilly, an environment artist who worked for Rockstar until 2023, <a href=\"https://www.youtube.com/watch?v=Mixw2i2trJw\">recorded himself</a> jumping into GTA 6. Naturally, he went straight for areas that he contributed to, specifically Mount Kalaga, a beautiful national park nestled in the urban sprawl. While wandering around, he noted that while GTA 6 is \"almost flawless,\" Red Dead Redemption 2 tended to have finer details when it came to forestry and wilderness.</p><p>\"I'm seeing a slight paring back in the natural world in GTA 6 from Red Dead Redemption 2, but obviously a much greater emphasis and much more kind of detail in the urban environments,\" he says.</p><div class=\"youtube-video\" data-nosnippet ><d"
+        }
+      ],
+      "keywords": [
+        "Ex-Rockstar dev says GTA 6 looks \"almost flawless\" but loses to Red Dead Redemption 2 in a few areas",
+        "Ex-Rockstar dev says GTA 6 looks \"almost flawless\" but loses to Red Dead Redemption 2 in a few areas date de sortie",
+        "Ex-Rockstar dev says GTA 6 looks \"almost flawless\" but loses to Red Dead Redemption 2 in a few areas plateformes",
+        "Ex-Rockstar dev says GTA 6 looks \"almost flawless\" but loses to Red Dead Redemption 2 in a few areas gameplay",
+        "Ex-Rockstar dev says GTA 6 looks \"almost flawless\" but loses to Red Dead Redemption 2 in a few areas guide",
+        "Ex-Rockstar dev says GTA 6 looks \"almost flawless\" but loses to Red Dead Redemption 2 in a few areas avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-all-11-gta-6-meditation-spots-and-where-to-find-them-ea7c8528b7f5",
+      "topic": "All 11 GTA 6 meditation spots and where to find them",
+      "detected_at": "2026-11-28T10:53:50.064812+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-meditation-spots/",
+          "title": "All 11 GTA 6 meditation spots and where to find them",
+          "evidence": "<article> <p>There are 11 meditation spots in GTA 6 you can find and use to gain a boost to your max Focus. Confusingly, however, there's a trophy or achievement for meditating a total of 18 times in the game. That's because there are two tutorial spots that only Jason can access, and which one you get depends on what you do <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-tourist-trap\">before the end of Chapter 1 in GTA 6</a>. After that there are eight spots that both Jason and Lucia can both do separately, and then a final spot that unlocks at the end that they can only do together. <br /><br />Not the clearest system in terms of making 11 add up to 18 but if you just follow the map below you'll find them all. They're often highlighted or pinpointed as you play and explore, but if you want that sweet Focus boost sooner rather than later it's worth chasing, as well as looking into the other <a href=\"https://www.gamesradar.com/games/grand-theft-auto/gta-6-increase-stats-missions/\">GTA 6 max stat increasing missions</a> you can find. </p><section class=\"article__schema-question\"><h3></h3><article class=\"article__schema-answer\"></article></section><h3 class=\"article-"
+        }
+      ],
+      "keywords": [
+        "All 11 GTA 6 meditation spots and where to find them",
+        "All 11 GTA 6 meditation spots and where to find them date de sortie",
+        "All 11 GTA 6 meditation spots and where to find them plateformes",
+        "All 11 GTA 6 meditation spots and where to find them gameplay",
+        "All 11 GTA 6 meditation spots and where to find them guide",
+        "All 11 GTA 6 meditation spots and where to find them avis"
+      ],
+      "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
+      "status": "new"
+    },
+    {
+      "id": "rss-team-cherry-uses-its-silksong-money-to-help-other-indie-75abf7aaa486",
+      "topic": "Team Cherry uses its Silksong money to help other indies, publishing several gorgeous Steam games",
+      "detected_at": "2026-11-28T10:53:50.065019+00:00",
+      "region": "FR",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.gamesradar.com/games/team-cherry-uses-its-silksong-money-to-help-other-indies-publishing-a-new-game-from-the-voice-of-hornet-alongside-other-gorgeous-steam-releases/",
+          "title": "Team Cherry uses its Silksong money to help other indies, publishing several gorgeous Steam games",
+          "evidence": "<article> <p>Hollow Knight house Team Cherry hosted a short \"Cherry Time\" showcase today, November 27, with much of it focusing on other indie devs who'll surely benefit from the visibility. One of those developers is Makoto Koji, known to many as the voice of Hornet in both Hollow Knight and Silksong, who now has a gorgeous game of her own on the way. </p><p>It's official: Team Cherry is a publisher now. \"As soon as their games are ready, these new titles will be releasing under the brand new Team Cherry Presents label,\" <a href=\"https://www.teamcherry.com.au/blog/its-cherry-time\" target=\"_blank\"><u>a blog post</u></a> explains. This label is helmed by Team Cherry's fourth employee, Huy Le, who now acts as \"technical director and on-going support for all the Team Cherry Presents games.\" That's right, folks: to support its publishing operations, Team Cherry has expanded by a whopping 33% and hired one whole person. </p><p>Newly minted Steam store pages confirm that Team Cherry is the publisher for all three of the upcoming indie games revealed at today's Cherry Time show: <a href=\"https://store.steampowered.com/app/5571470/Blokkan_Secret_of_the_Walking_City/?curator_clanid=33040195"
+        }
+      ],
+      "keywords": [
+        "Team Cherry uses its Silksong money to help other indies, publishing several gorgeous Steam games",
+        "Team Cherry uses its Silksong money to help other indies, publishing several gorgeous Steam games date de sortie",
+        "Team Cherry uses its Silksong money to help other indies, publishing several gorgeous Steam games plateformes",
+        "Team Cherry uses its Silksong money to help other indies, publishing several gorgeous Steam games gameplay",
+        "Team Cherry uses its Silksong money to help other indies, publishing several gorgeous Steam games guide",
+        "Team Cherry uses its Silksong money to help other indies, publishing several gorgeous Steam games avis"
       ],
       "notes": "Automatically discovered from a current gaming publisher feed. Treat the source as a lead: verify material claims and choose a specific French search intent before publishing.",
       "status": "new"

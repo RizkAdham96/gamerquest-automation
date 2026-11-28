@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "updated_at": "2026-11-27T22:56:49.692831+00:00",
+  "updated_at": "2026-11-28T10:53:50.520130+00:00",
   "scoring_model": {
     "max_score": 100,
     "criteria": {
@@ -34854,6 +34854,318 @@
         "search_intent_type": "information",
         "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
         "suggested_title": "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-rockstar-says-a-ps5-pro-is-simply-not-powerful-enough-f-e4a66b19a2f5",
+      "topic": "Rockstar says a PS5 Pro is simply 'not powerful enough' for 60 fps GTA 6, as I crack a smile at my 5090",
+      "detected_at": "2026-11-18T22:20:27.694925+00:00",
+      "analysed_at": "2026-11-28T10:53:50.519912+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-says-a-ps5-pro-is-simply-not-powerful-enough-for-60-fps-gta-6-as-i-crack-a-smile-at-my-5090/",
+          "title": "Rockstar says a PS5 Pro is simply 'not powerful enough' for 60 fps GTA 6, as I crack a smile at my 5090",
+          "evidence": "<article> <p>If I can pinpoint one disappointing aspect of GTA 6 that most will agree on, it's the fact that it runs at 30 fps.</p><p>Many of us remember when this was normal for consoles (especially the PS3/Xbox 360 era), but these days, it's unusual for a major game to not offer a 60 fps or 40 fps performance option. Unfortunately, even if you're rocking a PS5 Pro, GTA 6 moves at a filmic 30.</p><p>That's disappointing news for anyone who shelled out $900+ for the more powerful PS5 Pro expecting better performance (or vindicating news, if you're a PC Gamer reader waiting for the arbitrarily delayed PC version), but Rockstar insists there was no way around it.</p><p>Speaking to <a href=\"https://kotaku.com/gta-6-wont-get-a-60-fps-mode-even-on-ps5-pro-because-its-not-powerful-enough-2000755979\">Kotaku</a>, technology production director Marc Chambers explained that the current consoles just aren't powerful enough to keep up without significant compromises.</p><p>\"Our base presentation makes use of ray-traced reflections and global illumination. On the PS5 Pro, this is enhanced with the addition of ray-traced shadows, as well as overall added clarity through the use of PlayStation Sp"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Rockstar says a PS5 Pro is simply 'not powerful enough' for 60 fps GTA 6, as I crack a smile at my 5090",
+        "secondary_keywords": [
+          "Rockstar says a PS5 Pro is simply 'not powerful enough' for 60 fps GTA 6, as I crack a smile at my 5090 date de sortie",
+          "Rockstar says a PS5 Pro is simply 'not powerful enough' for 60 fps GTA 6, as I crack a smile at my 5090 plateformes",
+          "Rockstar says a PS5 Pro is simply 'not powerful enough' for 60 fps GTA 6, as I crack a smile at my 5090 gameplay",
+          "Rockstar says a PS5 Pro is simply 'not powerful enough' for 60 fps GTA 6, as I crack a smile at my 5090 guide",
+          "Rockstar says a PS5 Pro is simply 'not powerful enough' for 60 fps GTA 6, as I crack a smile at my 5090 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Rockstar says a PS5 Pro is simply 'not powerful enough' for 60 fps GTA 6, as I crack a smile at my 5090"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-befuddled-japanese-player-fights-gta-6-controls-loses-b-651136501a78",
+      "topic": "Befuddled Japanese player fights GTA 6 controls, loses, becomes 'guy chugging two shakes I accidentally bought while walking around in a squat'",
+      "detected_at": "2026-11-18T22:20:27.695227+00:00",
+      "analysed_at": "2026-11-28T10:53:50.519974+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/befuddled-japanese-player-fights-gta-6-controls-loses-becomes-guy-chugging-two-shakes-i-accidentally-bought-while-walking-around-in-a-squat/",
+          "title": "Befuddled Japanese player fights GTA 6 controls, loses, becomes 'guy chugging two shakes I accidentally bought while walking around in a squat'",
+          "evidence": "<article> <p>It's here. GTA 6 has been loosed upon the world, and another nation's productivity goes dark as each advancing hour unleashes midnight unlocks on the next timezone. And hey, from the sounds of it, <a href=\"https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-review-roundup-rockstars-magnum-opus-a-great-love-story-and-a-new-bar-for-open-worlds/\" target=\"_blank\">people seem to like what they're finding</a>—and they're finding a lot.</p><p>You can mini-golf. You can go on beach dates. You can text and drive (don't). You can doomscroll, and birdwatch, and <a href=\"https://www.reddit.com/r/GTA6/s/9p8QQfZDNd\" target=\"_blank\">ride a jetski with a dog</a>. GTA 6 is dense with possible activities, actions, systems, and mechanics, but not everyone is having the best luck navigating the maelstrom of associated controls and button prompts. Allow me to present Japanese X user <a href=\"https://x.com/Shunep3_STS/status/2123068752023650413\" target=\"_blank\">@Shunep3_STS</a>, who on this day represents all of us:</p><div class=\"see-more see-more--clipped\"><figure><blockquote class=\"twitter-tweet hawk-ignore\" data-lang=\"en\" cite=\"https://twitter.com/cantworkitout/status/2123"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Befuddled Japanese player fights GTA 6 controls, loses, becomes 'guy chugging two shakes I accidentally bought while walking around in a squat'",
+        "secondary_keywords": [
+          "Befuddled Japanese player fights GTA 6 controls, loses, becomes 'guy chugging two shakes I accidentally bought while walking around in a squat' date de sortie",
+          "Befuddled Japanese player fights GTA 6 controls, loses, becomes 'guy chugging two shakes I accidentally bought while walking around in a squat' plateformes",
+          "Befuddled Japanese player fights GTA 6 controls, loses, becomes 'guy chugging two shakes I accidentally bought while walking around in a squat' gameplay",
+          "Befuddled Japanese player fights GTA 6 controls, loses, becomes 'guy chugging two shakes I accidentally bought while walking around in a squat' guide",
+          "Befuddled Japanese player fights GTA 6 controls, loses, becomes 'guy chugging two shakes I accidentally bought while walking around in a squat' avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Befuddled Japanese player fights GTA 6 controls, loses, becomes 'guy chugging two shakes I accidentally bought while walking around in a squat'"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-wow-forever-is-huge-players-have-created-over-15-millio-f76a5c6ec80f",
+      "topic": "WoW: Forever is huge: Players have created over 15 million characters so far",
+      "detected_at": "2026-11-18T22:20:27.695459+00:00",
+      "analysed_at": "2026-11-28T10:53:50.520005+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-is-huge-players-have-created-over-15-million-characters-so-far/",
+          "title": "WoW: Forever is huge: Players have created over 15 million characters so far",
+          "evidence": "<article> <p>Even though <a href=\"https://www.pcgamer.com/games/live/news/grand-theft-auto-6-live-launch-coverage/\">Grand Theft Auto 6</a> will be taking over the world tomorrow, World of Warcraft: Forever was the first game this month that people flocked to in record-breaking numbers.</p><p>While we don't know the exact player count like we do with games on Steam, we <em>can </em>make an educated guess on just how many people dove into the MMO via a recent set of statistics from Blizzard. According to the <a href=\"https://x.com/Warcraft/status/2122842235263680581\" target=\"_blank\">official WoW X account</a>, over 15 million characters were created in the last few weeks.</p><p>Characters aren't individual players. You can create dozens of characters on your account if you want to, but I'd guess most people didn't do that. This is a game where you can put hundreds of hours into one character before ever reaching the level cap. There definitely aren't 15 million total players based on this statistic, but the number might not be massively below that.</p><p>That's a big deal for WoW, an MMO that hasn't boasted numbers like that since 2010 at the height of the Wrath of the Lich King expa"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "WoW: Forever is huge: Players have created over 15 million characters so far",
+        "secondary_keywords": [
+          "WoW: Forever is huge: Players have created over 15 million characters so far date de sortie",
+          "WoW: Forever is huge: Players have created over 15 million characters so far plateformes",
+          "WoW: Forever is huge: Players have created over 15 million characters so far gameplay",
+          "WoW: Forever is huge: Players have created over 15 million characters so far guide",
+          "WoW: Forever is huge: Players have created over 15 million characters so far avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "WoW: Forever is huge: Players have created over 15 million characters so far"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-i-finished-gta-6-s-main-story-ask-me-anything-except-fo-f0de512451cf",
+      "topic": "I finished GTA 6's main story: Ask me anything! (except for major spoilers)",
+      "detected_at": "2026-11-18T22:20:27.695591+00:00",
+      "analysed_at": "2026-11-28T10:53:50.520031+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/i-finished-gta-6s-main-story-ask-me-anything-except-for-major-spoilers/",
+          "title": "I finished GTA 6's main story: Ask me anything! (except for major spoilers)",
+          "evidence": "<article> <p>I've been secretly playing Grand Theft Auto 6 for the past several weeks and my suffering is finally at an end. </p><p>Not that I suffered from playing GTA 6! I had a blast, actually, and as I laid out in my <a href=\"https://www.pcgamer.com/games/grand-theft-auto/100-hours-with-gta-6-a-sprawling-adventure-that-will-be-so-much-better-on-pc/\" target=\"_blank\">not-a-review</a> this morning, I really like the game. In fact, after putting in about 100 hours, I'm ready for 100 more, though I desperately wish the game were on PC. </p><p>You know, the way it should be. The way it's <em>meant </em>to be.</p><p>No, my suffering is that for the past two weeks I haven't been able to <em>talk</em> about GTA 6 with anyone, so I'm positively bursting to let a few things fly. With that in mind, here's my invitation to you:</p><p><strong>Ask me anything!</strong> In the comments below, ask me whatever burning questions you might have about GTA 6. I'm gonna be at my desk all day (and most of the night, probably), so I'll answer them as promptly as I can.</p><p>I don't mean ask stuff like \"how does it end\" or anything that could be considered a major spoiler, but stuff about how Jason and"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "I finished GTA 6's main story: Ask me anything! (except for major spoilers)",
+        "secondary_keywords": [
+          "I finished GTA 6's main story: Ask me anything! (except for major spoilers) date de sortie",
+          "I finished GTA 6's main story: Ask me anything! (except for major spoilers) plateformes",
+          "I finished GTA 6's main story: Ask me anything! (except for major spoilers) gameplay",
+          "I finished GTA 6's main story: Ask me anything! (except for major spoilers) guide",
+          "I finished GTA 6's main story: Ask me anything! (except for major spoilers) avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "I finished GTA 6's main story: Ask me anything! (except for major spoilers)"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-gta-6-changes-the-way-you-steal-cars-here-s-everything--b3e68e1ef89e",
+      "topic": "GTA 6 changes the way you steal cars: here's everything you need to know about slim jims, key cloners, and tracking devices",
+      "detected_at": "2026-11-18T22:20:27.695979+00:00",
+      "analysed_at": "2026-11-28T10:53:50.520058+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 6,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 52,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-steal-cars/",
+          "title": "GTA 6 changes the way you steal cars: here's everything you need to know about slim jims, key cloners, and tracking devices",
+          "evidence": "<article> <p>Used to be that all you needed to steal a car in a GTA game was a few seconds and a sharp elbow. In <a href=\"https://www.pcgamer.com/grand-theft-auto-6/\">GTA 6</a>, you can still smash a window and hotwire <em>some </em>cars, but the car stealing system has changed a lot and the further you get into the game, the more tools you'll need.</p><p>That means a quick getaway in a stolen vehicle isn't always that simple. Here are the methods for stealing cars, the new tools you'll get and when they become available in the story, and everything else you need to know about boosting rides in GTA 6.</p><h2 class=\"article-body__section\" id=\"section-breaking-into-cars\"><span>Breaking into cars</span></h2><figure class=\"van-image-figure inline-layout\" data-bordeaux-image-check=\"\" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:2560px;\"><p class=\"vanilla-image-block\" style=\"padding-top:56.25%;\"><img id=\"EJZcYu2qkvfPsHo6io4maK\" name=\"steal4\" alt=\"Jason stealing a car\" src=\"https://cdn.mos.cms.futurecdn.net/EJZcYu2qkvfPsHo6io4maK-1920-80.jpg\" mos=\"\" align=\"middle\" fullscreen=\"\" width=\"2560\" height=\"1440\" attribution=\"\" endorsement=\"\" class=\"inline"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "GTA 6 changes the way you steal cars: here's everything you need to know about slim jims, key cloners, and tracking devices",
+        "secondary_keywords": [
+          "GTA 6 changes the way you steal cars: here's everything you need to know about slim jims, key cloners, and tracking devices date de sortie",
+          "GTA 6 changes the way you steal cars: here's everything you need to know about slim jims, key cloners, and tracking devices plateformes",
+          "GTA 6 changes the way you steal cars: here's everything you need to know about slim jims, key cloners, and tracking devices gameplay",
+          "GTA 6 changes the way you steal cars: here's everything you need to know about slim jims, key cloners, and tracking devices guide",
+          "GTA 6 changes the way you steal cars: here's everything you need to know about slim jims, key cloners, and tracking devices avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "GTA 6 changes the way you steal cars: here's everything you need to know about slim jims, key cloners, and tracking devices"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-embark-studios-apologizes-for-replacing-esports-casters-382b080b102e",
+      "topic": "Embark Studios apologizes for replacing esports casters with AI voices in now-deleted The Finals video",
+      "detected_at": "2026-11-18T22:20:27.696363+00:00",
+      "analysed_at": "2026-11-28T10:53:50.520083+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/software/ai/embark-studios-apologizes-for-replacing-esports-casters-with-ai-voices-in-now-deleted-the-finals-video/",
+          "title": "Embark Studios apologizes for replacing esports casters with AI voices in now-deleted The Finals video",
+          "evidence": "<article> <p>Following a backlash from casters and esports fans, Embark Studios has taken down a recap video from a recent esports tournament for The Finals that replaced the original casters' voices with AI.</p><p>The commentators for the APAC Closed Qualifiers for <a href=\"https://www.thefinals.wiki/wiki/The_Grand_Major_2026\" target=\"_blank\">The Grand Major</a>, the annual championship tournament for Embark's team-based FPS, were human. But, as reported by <a href=\"https://www.ign.com/articles/its-been-a-shtshow-esports-casters-call-for-change-after-embark-studios-replaces-talent-for-the-finals-grand-major-qualifier-highlight-reel-with-games-ai-commentators\" target=\"_blank\">IGN</a>, a highlight video released by Embark built from clips from the qualifier replaced those casters with audio from the game's AI commentators, Scotty and June.</p><p>It did not go over well. \"After 4 cycles, open/closed quals, the time, effort, passion and emotion myself @TheeHyperactive and @bluepanda_casts put in,\" The Finals caster ProtoANZ wrote on <a href=\"https://x.com/ProtoANZ/status/2122464418370138152\" target=\"_blank\">X</a>. \"We get replaced by two AI casters who even quote us :/ I get they are "
+        }
+      ],
+      "seo": {
+        "primary_keyword": "Embark Studios apologizes for replacing esports casters with AI voices in now-deleted The Finals video",
+        "secondary_keywords": [
+          "Embark Studios apologizes for replacing esports casters with AI voices in now-deleted The Finals video date de sortie",
+          "Embark Studios apologizes for replacing esports casters with AI voices in now-deleted The Finals video plateformes",
+          "Embark Studios apologizes for replacing esports casters with AI voices in now-deleted The Finals video gameplay",
+          "Embark Studios apologizes for replacing esports casters with AI voices in now-deleted The Finals video guide",
+          "Embark Studios apologizes for replacing esports casters with AI voices in now-deleted The Finals video avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "Embark Studios apologizes for replacing esports casters with AI voices in now-deleted The Finals video"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-how-to-get-a-snap-gun-in-gta-6-b01d831495d5",
+      "topic": "How to get a snap gun in GTA 6",
+      "detected_at": "2026-11-18T22:20:27.696544+00:00",
+      "analysed_at": "2026-11-28T10:53:50.520104+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 14,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 60,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-snap-gun/",
+          "title": "How to get a snap gun in GTA 6",
+          "evidence": "<article> <p>Traditional lockpicking gets an upgrade in GTA 6 with the introduction of the <strong>snap gun</strong>—a handy little device that makes picking locks faster and quieter. It's perfect for those scenarios where you don't want Jason and Lucia to set off alarms by kicking open locked doors and making demands. Instead, the snap gun offers a stealthier way through locked doors. </p><p>Unfortunately, it's locked behind story progression like the <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-slim-jim\">slim jim</a> and <a href=\"https://www.pcgamer.com/games/grand-theft-auto/gta-6-clone-keys\">key cloner</a>, so you can't make those earlier missions easier. If you don't mind a small spoiler, here's how to get the snap gun in GTA 6. </p><h2 id=\"how-to-get-a-snap-gun\">How to get a snap gun</h2><figure role=\"gallery\"><figure><img src=\"https://cdn.mos.cms.futurecdn.net/7uv273REHiZSFTgBmsev5S-1920-80.jpg\" alt=\"GTA 6 - snap gun minigame on locked door\" /><figcaption><small role=\"credit\">Rockstar</small></figcaption></figure><figure><img src=\"https://cdn.mos.cms.futurecdn.net/oQiEJEidwoH3scUjkcPF9S-1920-80.jpg\" alt=\"GTA 6 - snap gun minigame on locked door\" /><figcaptio"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "How to get a snap gun in GTA 6",
+        "secondary_keywords": [
+          "How to get a snap gun in GTA 6 date de sortie",
+          "How to get a snap gun in GTA 6 plateformes",
+          "How to get a snap gun in GTA 6 gameplay",
+          "How to get a snap gun in GTA 6 guide",
+          "How to get a snap gun in GTA 6 avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "How to get a snap gun in GTA 6"
+      },
+      "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
+    },
+    {
+      "id": "rss-what-s-the-first-thing-you-re-gonna-do-in-gta-6-ce54b002a9d8",
+      "topic": "What's the first thing you're gonna do in GTA 6?",
+      "detected_at": "2026-11-18T22:20:27.696675+00:00",
+      "analysed_at": "2026-11-28T10:53:50.520125+00:00",
+      "scores": {
+        "durability": 8,
+        "search_intent": 10,
+        "long_tail_specificity": 10,
+        "french_relevance": 10,
+        "competition": 3,
+        "gamerquest_relevance": 10,
+        "internal_link_potential": 5
+      },
+      "total_score": 56,
+      "decision": "REJECT",
+      "sources": [
+        {
+          "type": "publisher",
+          "url": "https://www.pcgamer.com/games/grand-theft-auto/whats-the-first-thing-youre-gonna-do-in-gta-6/",
+          "title": "What's the first thing you're gonna do in GTA 6?",
+          "evidence": "<article> <p>So you've played through the GTA 6 intro, gotten to know Jason and Lucia a bit, and probably been taught how to drive, shoot, and change clothes. You finally reach that moment in an open world game where, for the first time, you're let off the rails to just <em>be</em>.</p><p>What do you do first? </p><p>That's what I want to know, because I suspect we all have a different system or detail that we've been thinking about since the first GTA 6 trailers and leaks—a test we must conduct to determine if \"Rockstar really thought of that.\" I'm talking about hoops shooting, snack eating, or going on a classic GTA rampage.</p><p><strong>Sound off in the comments below (there's a button at the top of the page to skip straight to them) to share your night one plans.</strong></p><div class=\"product star-deal\"><a data-dimension112=\"bfafb590-e37d-11f1-aab0-c5abdd63aa8f\" data-action=\"Star Deal Block\" data-label=\"GTA 6 guide\" data-dimension48=\"GTA 6 guide\" target=\"_blank\" rel=\"nofollow\"><figure class=\"van-image-figure \" ><div class='image-full-width-wrapper'><div class='image-widthsetter' style=\"max-width:1238px;\"><p class=\"vanilla-image-block\" style=\"padding-top:100.00%;\"><img id=\"ZF"
+        }
+      ],
+      "seo": {
+        "primary_keyword": "What's the first thing you're gonna do in GTA 6?",
+        "secondary_keywords": [
+          "What's the first thing you're gonna do in GTA 6? date de sortie",
+          "What's the first thing you're gonna do in GTA 6? plateformes",
+          "What's the first thing you're gonna do in GTA 6? gameplay",
+          "What's the first thing you're gonna do in GTA 6? guide",
+          "What's the first thing you're gonna do in GTA 6? avis"
+        ],
+        "search_intent_type": "information",
+        "recommended_angle": "Conserver comme piste jusqu'à un angle de recherche durable et précis",
+        "suggested_title": "What's the first thing you're gonna do in GTA 6?"
       },
       "reasoning": "Deterministic conservative production score; only explicit durable search intent can auto-qualify for article generation."
     }
